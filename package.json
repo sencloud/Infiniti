@@ -1,0 +1,25 @@
+{
+  "name": "infiniti",
+  "version": "0.1.0",
+  "description": "无限连接 - 自动构建的人际关系知识图谱（爬虫 + DeepSeek + Neo4j + 力导向图）",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "worker": "node src/pipeline/worker.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0",
+    "crawlee": "^3.18.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "neo4j-driver": "^6.2.0",
+    "openai": "^7.10.0",
+    "playwright-core": "^1.63.0",
+    "three": "0.160.1"
+  }
+}

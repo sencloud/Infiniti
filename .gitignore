@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+
+# 爬虫浏览器持久化配置（Cookie/缓存，运行时生成）
+.crawlee-browser-profile/
+
+# 本地 Neo4j 安装目录（数据库二进制 + 数据，体积巨大）
+neo4j-community-*/
