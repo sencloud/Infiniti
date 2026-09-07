@@ -417,16 +417,24 @@ window.addEventListener('keydown', e => { if (e.key === 'Escape') exitFocus(); }
 
 /* ================= 相机控制（自实现轨道控制） ================= */
 // 球坐标环绕目标点：左键旋转 / 右键或 Shift 平移 / 滚轮缩放
+// 【v4.2】2D 模式：全图无时间属性时自动切换俯视平面图（phi 锁极点，隐藏时间地层）
 const camCtl = {
   target: new THREE.Vector3(0, 0, 0),
   dist: 520, theta: Math.PI / 5, phi: Math.PI / 2.6,
   vTheta: 0, vPhi: 0, vDist: 0, panX: 0, panY: 0,
+  flat: false, // 2D 平面模式标志
 };
 function applyCamera() {
   camCtl.theta += camCtl.vTheta; camCtl.phi += camCtl.vPhi;
   camCtl.dist = Math.min(Math.max(camCtl.dist * (1 + camCtl.vDist), 90), 1800);
   camCtl.vTheta *= .82; camCtl.vPhi *= .82; camCtl.vDist *= .8; // 惯性衰减
-  camCtl.phi = Math.min(Math.max(camCtl.phi, .15), Math.PI - .15);
+  if (camCtl.flat) {
+    // 2D 模式：phi 锁在正上方（俯视），只留旋转/缩放/平移
+    camCtl.phi = 0.001;
+    camCtl.vPhi = 0; // 俯仰速度清零，用户拖拽不会倾斜
+  } else {
+    camCtl.phi = Math.min(Math.max(camCtl.phi, .15), Math.PI - .15);
+  }
   const sp = Math.sin(camCtl.phi), cp = Math.cos(camCtl.phi);
   camera.position.set(
     camCtl.target.x + camCtl.dist * sp * Math.sin(camCtl.theta),
@@ -434,6 +442,33 @@ function applyCamera() {
     camCtl.target.z + camCtl.dist * sp * Math.cos(camCtl.theta)
   );
   camera.lookAt(camCtl.target);
+}
+
+// 【v4.2】切换 2D/3D 模式：检测当前可见节点的时间属性占比
+// 全部无时间（纯知识图谱）-> 2D 俯视；任一有时间 -> 恢复 3D 时间地层
+function updateViewMode() {
+  const nodes = [...nodeMap.values()].filter(n => n.obj && n.obj.visible);
+  if (!nodes.length) return; // 空画布不动
+  const hasTime = nodes.some(n => timeOf(n));
+  setFlat(hasTime === false);
+}
+
+// 应用/解除 2D 模式：相机切换 + 时间地层和时间轴 UI 显隐
+function setFlat(flat) {
+  if (camCtl.flat === flat) return;
+  camCtl.flat = flat;
+  strataGroup.visible = !flat;             // 时间地层环
+  document.getElementById('timeAxis').style.display = flat ? 'none' : '';
+  document.getElementById('tipbar').textContent = flat
+    ? '平面模式 · 拖动旋转平面 · 滚轮缩放 · 右键平移'
+    : '单击【详情/聚焦】 双击【展开】 拖动【旋转】 滚轮【缩放】 右键【平移】';
+  if (flat) {
+    // 切到正上方俯视：phi 归零 + 目标回到原点，带一个平滑过渡（vPhi 不动，直接设值）
+    camCtl.phi = 0.001; camCtl.theta = 0; camCtl.target.set(0, 0, 0);
+  } else {
+    // 恢复 3D 视角
+    camCtl.phi = Math.PI / 2.6; camCtl.theta = Math.PI / 5;
+  }
 }
 
 // 指针交互
@@ -481,11 +516,6 @@ dom.addEventListener('pointermove', e => {
   }
 });
 
-dom.addEventListener('pointerdown', e => {
-  dragMode = (e.button === 2 || e.shiftKey) ? 'pan' : 'rotate';
-  lastX = e.clientX; lastY = e.clientY; moved = 0;
-  dom.setPointerCapture(e.pointerId);
-});
 dom.addEventListener('pointerdown', e => {
   dragMode = (e.button === 2 || e.shiftKey) ? 'pan' : 'rotate';
   lastX = e.clientX; lastY = e.clientY; moved = 0;
@@ -566,6 +596,7 @@ async function expand(key, { makeCenter = true } = {}) {
     // 相机对准新中心
     const t = nodeMap.get(key)?.pos;
     if (t) camCtl.target.lerp(t, .9);
+    updateViewMode(); // 【v4.2】新数据进来后检测是否应退化 2D（全图无时间属性）
   } catch (e) {
     showToast('加载失败：' + e.message, true);
   }
@@ -743,6 +774,7 @@ function clearGraph() {
   nodeMap.clear();
   linkMap.clear();
   centerKey = null;
+  setFlat(false);          // 【v4.2】清空画布恢复 3D 模式（下次 expand 时再按数据检测）
   updateLineBuffer();     // linkMap 已空，线条缓冲自动清零
 }
 
@@ -882,7 +914,9 @@ document.querySelectorAll('.qp-tools button').forEach(btn => {
 document.getElementById('zIn').onclick = () => camCtl.vDist -= .18;
 document.getElementById('zOut').onclick = () => camCtl.vDist += .18;
 document.getElementById('zFit').onclick = () => {
-  camCtl.target.set(0, 0, 0); camCtl.dist = 520; camCtl.theta = Math.PI / 5; camCtl.phi = Math.PI / 2.6;
+  camCtl.target.set(0, 0, 0); camCtl.dist = 520;
+  if (camCtl.flat) { camCtl.phi = 0.001; camCtl.theta = 0; }   // 2D：正俯视
+  else { camCtl.theta = Math.PI / 5; camCtl.phi = Math.PI / 2.6; } // 3D：默认斜视
 };
 
 /* ================= 图例 ================= */
