@@ -721,7 +721,29 @@ function jumpTo(key) {
     const nd = nodeMap.get(key);
     camCtl.target.lerp(nd.pos, 1); camCtl.dist = Math.min(camCtl.dist, 380);
     openCard(key, innerWidth / 2 + 40, innerHeight / 2);
-  } else expand(key);
+  } else {
+    clearGraph(); // 【v4.1】搜索跳转到新实体 = 新探索：先清空旧画布再展开
+    expand(key);
+  }
+}
+
+// 清空画布：搜索切换探索对象时调用（双击展开仍走追加，保持无限生长）
+function clearGraph() {
+  exitFocus();            // 聚焦模式引用的节点即将删除，先退出
+  hoverKey = null;        // 悬停引用同理
+  closeCard();            // 详情卡关闭
+  for (const nd of nodeMap.values()) {
+    if (nd.obj) {
+      scene.remove(nd.obj);
+      // 释放标签纹理，避免多次搜索后显存泄漏
+      if (nd.label?.material?.map) nd.label.material.map.dispose();
+      nd.obj = null;
+    }
+  }
+  nodeMap.clear();
+  linkMap.clear();
+  centerKey = null;
+  updateLineBuffer();     // linkMap 已空，线条缓冲自动清零
 }
 
 async function addSeed(name) {
@@ -747,7 +769,7 @@ SUGGEST.forEach(name => {
   c.onclick = async () => {
     hideWelcome();
     const list = await fetch('/api/search?q=' + encodeURIComponent(name)).then(r => r.json()).catch(() => []);
-    if (list.length) expand(list[0].key);
+    if (list.length) { clearGraph(); expand(list[0].key); } // 快捷词 = 新探索，清空旧画布
     else addSeed(name);
   };
   chips.appendChild(c);
