@@ -33,11 +33,14 @@ const REL_COLORS = {
   '包含': '#34d399', '前置': '#10b981', '属于': '#059669', '应用': '#2dd4bf', '相关': '#6ee7b7',
 };
 
-// 出生年 -> Y 坐标：千年压缩到 ~400 单位；无年份的放中位数层
-const YEAR_MIN = 900, YEAR_MAX = 2000, Y_SPAN = 420;
+// 出生年 -> Y 坐标：压缩到 ~420 单位；无年份的放中位数层
+// 【v4.3】范围动态化：不再是固定 900~2000，而是随画布数据的实际年份自适应
+// （人物图谱聚焦 1000~1100，知识图谱无年份，事件图谱按事件跨度）
+let rangeMin = 900, rangeMax = 2000; // 当前时间范围（expand 后按数据重算）
+const Y_SPAN = 420;
 function yearToY(year) {
   if (!year || isNaN(year)) return 0; // 未知年份放中央平面
-  const t = (Math.min(Math.max(year, YEAR_MIN), YEAR_MAX) - YEAR_MIN) / (YEAR_MAX - YEAR_MIN);
+  const t = (Math.min(Math.max(year, rangeMin), rangeMax) - rangeMin) / (rangeMax - rangeMin);
   return -t * Y_SPAN + Y_SPAN / 2; // 年份越大（越近代）Y 越小（越靠下）
 }
 // 【本体 v2】节点定位用的时间：事件用发生年，人物用出生年；主题无时间概念放中央层
@@ -45,6 +48,35 @@ function timeOf(n) {
   if (n.entity === 'event') return n.year;
   if (n.entity === 'topic') return null; // 主题不参与时间分层
   return n.birthYear;
+}
+
+// 【v4.3】按画布实际数据重算时间范围：
+// 收集所有可见节点的时间属性 -> 取 min/max -> 两端各留 8% 边距 -> 最小跨度 60 年（防挤扁）
+// 范围变化后重建地层 + 所有节点 Y 重排 + 时间轴手柄重置到新全范围
+function updateTimeRange() {
+  const times = [...nodeMap.values()]
+    .filter(n => n.obj && n.obj.visible)
+    .map(n => timeOf(n))
+    .filter(t => t && !isNaN(t));
+  if (!times.length) return; // 无时间数据（纯知识图谱）：保持现范围（2D 模式下无所谓）
+  let lo = Math.min(...times), hi = Math.max(...times);
+  // 跨度太小则对称扩到 60 年，防止所有节点挤在同一层
+  if (hi - lo < 60) { const mid = (hi + lo) / 2; lo = mid - 30; hi = mid + 30; }
+  // 两端 8% 边距，取整到 5 年
+  const margin = (hi - lo) * 0.08;
+  lo = Math.floor((lo - margin) / 5) * 5;
+  hi = Math.ceil((hi + margin) / 5) * 5;
+  if (lo === rangeMin && hi === rangeMax) return; // 范围没变，不动
+  rangeMin = lo; rangeMax = hi;
+  buildStrata();           // 地层环按新范围重建（百年刻度自适应）
+  // 所有节点 Y 重排到新坐标系（XZ 不动，避免力导向重新洗牌）
+  for (const nd of nodeMap.values()) {
+    if (nd.obj) nd.pos.y = yearToY(timeOf(nd));
+  }
+  simHot = Math.max(simHot, 30); // 短暂全速模拟让布局稳定
+  // 时间轴手柄重置到新的全范围
+  yearLo = rangeMin; yearHi = rangeMax;
+  renderTimeAxis();
 }
 
 /* ---------- 家族分组着色（v3.1 新增） ----------
@@ -119,20 +151,26 @@ const fill = new THREE.PointLight(0x7c3aed, 0.7, 2000); fill.position.set(-400, 
 const strataGroup = new THREE.Group();
 scene.add(strataGroup);
 function buildStrata() {
-  // 清空重建（展开新数据后年份范围可能变化）
+  // 清空重建（【v4.3】数据变化后年份范围自适应，刻度随之调整）
   while (strataGroup.children.length) {
     const c = strataGroup.children.pop();
     c.geometry.dispose(); c.material.dispose();
   }
-  for (let y = Math.ceil(YEAR_MIN / 100) * 100; y <= YEAR_MAX; y += 100) {
+  const span = rangeMax - rangeMin;
+  // 刻度自适应：跨度大用百年环，小用 20/50 年
+  const step = span > 500 ? 100 : span > 200 ? 50 : 20;
+  const major = span > 500 ? 500 : span > 200 ? 100 : 100; // 加粗刻度间隔
+  const start = Math.ceil(rangeMin / step) * step;
+  for (let y = start; y <= rangeMax; y += step) {
+    const isMajor = y % major === 0;
     const ring = new THREE.Mesh(
       new THREE.RingGeometry(238, 240, 96),
-      new THREE.MeshBasicMaterial({ color: 0x4d9fff, transparent: true, opacity: y % 500 === 0 ? .28 : .12, side: THREE.DoubleSide })
+      new THREE.MeshBasicMaterial({ color: 0x4d9fff, transparent: true, opacity: isMajor ? .28 : .12, side: THREE.DoubleSide })
     );
     ring.rotation.x = -Math.PI / 2;
     ring.position.y = yearToY(y);
     strataGroup.add(ring);
-    // 百年标签（Sprite，始终面向相机）
+    // 刻度标签（Sprite，始终面向相机）
     const cv = document.createElement('canvas'); cv.width = 128; cv.height = 40;
     const cx = cv.getContext('2d');
     cx.font = '22px Consolas, monospace'; cx.fillStyle = 'rgba(122,162,224,.75)';
@@ -326,7 +364,7 @@ function updateLineBuffer() {
 const hiddenRelGroups = new Set();  // 已关闭的关系分组名（如图例里的"亲属"）
 let focusKey = null;                // 聚焦模式下的中心节点 key
 let hoverKey = null;                // 当前悬停节点 key
-let yearLo = YEAR_MIN, yearHi = YEAR_MAX; // 时间轴手柄范围
+let yearLo = rangeMin, yearHi = rangeMax; // 时间轴手柄范围（v4.3：初始值加载后由 updateTimeRange 刷新）
 
 // 图例分组 -> 实际关系类型（同一行图例控制多种同色关系）
 // 【本体 v2】新增“事件”组：人—事件边（参与/主持/发起/组织/涉及/牵连）
@@ -596,7 +634,8 @@ async function expand(key, { makeCenter = true } = {}) {
     // 相机对准新中心
     const t = nodeMap.get(key)?.pos;
     if (t) camCtl.target.lerp(t, .9);
-    updateViewMode(); // 【v4.2】新数据进来后检测是否应退化 2D（全图无时间属性）
+    updateViewMode();  // 【v4.2】新数据进来后检测是否应退化 2D（全图无时间属性）
+    updateTimeRange(); // 【v4.3】按画布实际年份重算时间范围与地层刻度
   } catch (e) {
     showToast('加载失败：' + e.message, true);
   }
@@ -775,6 +814,10 @@ function clearGraph() {
   linkMap.clear();
   centerKey = null;
   setFlat(false);          // 【v4.2】清空画布恢复 3D 模式（下次 expand 时再按数据检测）
+  // 【v4.3】时间范围重置为默认（下次 expand 时按新数据重算）
+  rangeMin = 900; rangeMax = 2000;
+  yearLo = rangeMin; yearHi = rangeMax;
+  buildStrata(); renderTimeAxis();
   updateLineBuffer();     // linkMap 已空，线条缓冲自动清零
 }
 
@@ -962,12 +1005,12 @@ const taRail = document.getElementById('taRail'),
       taBotLabel = document.getElementById('taBotLabel'),
       taReset = document.getElementById('taReset');
 
-// 年份 <-> 轨道像素（顶部 = YEAR_MIN，底部 = YEAR_MAX）
+// 年份 <-> 轨道像素（【v4.3】顶部 = rangeMin，底部 = rangeMax，随数据自适应）
 function yearToPct(y) {
-  return (Math.min(Math.max(y, YEAR_MIN), YEAR_MAX) - YEAR_MIN) / (YEAR_MAX - YEAR_MIN);
+  return (Math.min(Math.max(y, rangeMin), rangeMax) - rangeMin) / (rangeMax - rangeMin);
 }
 function pctToYear(p) {
-  return Math.round(YEAR_MIN + p * (YEAR_MAX - YEAR_MIN));
+  return Math.round(rangeMin + p * (rangeMax - rangeMin));
 }
 
 // 根据当前 yearLo/yearHi 刷新手柄位置、高亮区段、标签
@@ -1013,9 +1056,9 @@ function bindHandle(el, isTop) {
 bindHandle(taTop, true);
 bindHandle(taBot, false);
 
-// 重置时间范围
+// 重置时间范围（v4.3：重置到当前数据自适应的全范围，不再是固定 900~2000）
 taReset.onclick = () => {
-  yearLo = YEAR_MIN; yearHi = YEAR_MAX;
+  yearLo = rangeMin; yearHi = rangeMax;
   renderTimeAxis(); applyFilters();
   showToast('时间范围已重置');
 };
@@ -1108,8 +1151,8 @@ document.getElementById('cpSaveLLM').onclick = async () => {
 // 调试钩子：挂在 window 上供控制台/自动化检查（生产无副作用）
 // 【v3.2】补充 setTimeRange（时间轴测试）/ enterFocus / exitFocus（聚焦测试）
 function setTimeRange(lo, hi) {
-  yearLo = Math.max(YEAR_MIN, Math.min(lo, hi - 10));
-  yearHi = Math.min(YEAR_MAX, Math.max(hi, lo + 10));
+  yearLo = Math.max(rangeMin, Math.min(lo, hi - 10));
+  yearHi = Math.min(rangeMax, Math.max(hi, lo + 10));
   renderTimeAxis(); applyFilters();
 }
 window.__infiniti = { nodeMap, linkMap, expand, camCtl, camera, setTimeRange, enterFocus, exitFocus, applyFilters };
