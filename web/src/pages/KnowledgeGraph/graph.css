@@ -1264,12 +1264,8 @@
     display: none;
   }
 
+  /* 提示都是鼠标 / 键盘操作，触屏上没有意义，还会压住底部的统计和按钮 */
   .kg-hint-bar {
-    font-size: 11px;
-    bottom: 10px;
-  }
-
-  .kg-hint-bar-raised {
-    bottom: 122px;
+    display: none;
   }
 }
