@@ -1,0 +1,50 @@
+{
+ "no": 261,
+ "title": "沂水秀才",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 287,
+   "entities": [
+    {
+     "name": "沂水秀才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂水人，在山中读书的秀才"
+    },
+    {
+     "name": "美人甲",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "夜入书斋的二美人之一，展白绫巾"
+    },
+    {
+     "name": "美人乙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "夜入书斋的二美人之一，置白金"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "美人甲",
+     "predicate": "HARMED",
+     "object": "沂水秀才",
+     "evidence": "夜有二美人入，含笑不言，各以长袖拂榻，相将坐，衣耎无声。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "美人乙",
+     "predicate": "HARMED",
+     "object": "沂水秀才",
+     "evidence": "夜有二美人入，含笑不言，各以长袖拂榻，相将坐，衣耎无声。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:49.942Z"
+}

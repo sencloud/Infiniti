@@ -1,0 +1,78 @@
+{
+ "no": 165,
+ "title": "土地夫人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 258,
+   "entities": [
+    {
+     "name": "王炳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "窎桥人，与土地夫人私通，半载后病死"
+    },
+    {
+     "name": "土地夫人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "土地神之妻，自称土地夫人，与王炳私通"
+    },
+    {
+     "name": "王炳妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王炳之妻，曾斥责土地夫人"
+    },
+    {
+     "name": "土地神祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "窎桥村中土地神的祠庙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王炳",
+     "predicate": "LOVES",
+     "object": "土地夫人",
+     "evidence": "挑以亵语，欢然乐受。狎昵无所，遂期夜奔",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王炳",
+     "predicate": "SPOUSE",
+     "object": "王炳妻",
+     "evidence": "时炳与妻共榻",
+     "confidence": 0.95
+    },
+    {
+     "subject": "土地夫人",
+     "predicate": "HARMED",
+     "object": "王炳",
+     "evidence": "因循半载，病惫不起，美人来更频",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王炳",
+     "predicate": "LIVES_AT",
+     "object": "窎桥",
+     "evidence": "窎桥王炳者，出村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "土地夫人",
+     "predicate": "LIVES_AT",
+     "object": "土地神祠",
+     "evidence": "见土地神祠中出一美人",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:15.053Z"
+}

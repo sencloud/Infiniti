@@ -1,0 +1,78 @@
+{
+ "no": 69,
+ "title": "6.2 统计图",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3966,
+   "entities": [
+    {
+     "name": "条形统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用宽度相同的条形的高度描述各统计项目的数据"
+    },
+    {
+     "name": "折线统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用折线描述数据的变化过程和趋势"
+    },
+    {
+     "name": "扇形统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用圆中各扇形的面积描述各统计项目占总体的百分比"
+    },
+    {
+     "name": "扇形圆心角公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "扇形圆心角=该统计项目占总体的百分比×360°"
+    },
+    {
+     "name": "数据可视化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过色彩和图形凸显数据的特征与规律"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "扇形圆心角公式",
+     "predicate": "PROPERTY_OF",
+     "object": "扇形统计图",
+     "evidence": "扇形圆心角=该统计项目占总体的百分比×360°",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数据可视化",
+     "predicate": "APPLIES_TO",
+     "object": "条形统计图",
+     "evidence": "数据可视化是一种有效的表达方法，它通过色彩和图形凸显数据的特征与规律。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "数据可视化",
+     "predicate": "APPLIES_TO",
+     "object": "折线统计图",
+     "evidence": "数据可视化是一种有效的表达方法，它通过色彩和图形凸显数据的特征与规律。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "数据可视化",
+     "predicate": "APPLIES_TO",
+     "object": "扇形统计图",
+     "evidence": "数据可视化是一种有效的表达方法，它通过色彩和图形凸显数据的特征与规律。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:00.921Z"
+}

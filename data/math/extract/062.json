@@ -1,0 +1,282 @@
+{
+ "no": 62,
+ "title": "4.2 图形变换与坐标变化",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6159,
+   "entities": [
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平面上的点与有序实数对一一对应"
+    },
+    {
+     "name": "平移",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形沿某个方向移动一定距离"
+    },
+    {
+     "name": "坐标变化",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "点的坐标随位置变化而变化"
+    },
+    {
+     "name": "对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形关于某直线或点对称"
+    },
+    {
+     "name": "关于x轴对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "点关于x轴对称，横坐标不变，纵坐标互为相反数"
+    },
+    {
+     "name": "关于y轴对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "点关于y轴对称，纵坐标不变，横坐标互为相反数"
+    },
+    {
+     "name": "关于原点对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "点关于原点对称，横纵坐标均互为相反数"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将代数与几何结合的思想方法"
+    },
+    {
+     "name": "点的坐标",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用有序实数对表示点的位置"
+    },
+    {
+     "name": "图形变换",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移、对称、旋转等图形变化"
+    },
+    {
+     "name": "平移与坐标变化",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移引起坐标变化的规律"
+    },
+    {
+     "name": "对称与坐标变化",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对称引起坐标变化的规律"
+    },
+    {
+     "name": "用方向和距离确定位置",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用方向和距离描述物体相对位置的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "PREREQUISITE",
+     "object": "点的坐标",
+     "evidence": "在平面直角坐标系中，如果点的位置发生了变化，那么点的坐标也会发生相应的变化",
+     "confidence": 0.95
+    },
+    {
+     "subject": "点的坐标",
+     "predicate": "PREREQUISITE",
+     "object": "平移与坐标变化",
+     "evidence": "本节我们研究图形变换与坐标变化的关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "点的坐标",
+     "predicate": "PREREQUISITE",
+     "object": "对称与坐标变化",
+     "evidence": "本节我们研究图形变换与坐标变化的关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移与坐标变化",
+     "predicate": "INCLUDES",
+     "object": "平移",
+     "evidence": "平移与坐标变化",
+     "confidence": 0.95
+    },
+    {
+     "subject": "对称与坐标变化",
+     "predicate": "INCLUDES",
+     "object": "对称",
+     "evidence": "对称与坐标变化",
+     "confidence": 0.95
+    },
+    {
+     "subject": "对称",
+     "predicate": "INCLUDES",
+     "object": "关于x轴对称",
+     "evidence": "作点P关于x轴的对称点P'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "对称",
+     "predicate": "INCLUDES",
+     "object": "关于y轴对称",
+     "evidence": "作点P关于y轴的对称点P''",
+     "confidence": 0.95
+    },
+    {
+     "subject": "对称",
+     "predicate": "INCLUDES",
+     "object": "关于原点对称",
+     "evidence": "关于坐标原点O对称的点的坐标为(-a,-b)",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "APPLIES_TO",
+     "object": "数形结合",
+     "evidence": "平面直角坐标系是数形结合的重要工具",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "图形变换",
+     "evidence": "体会用代数方法表达图形位置和图形变换的意义，体会数形结合的思想",
+     "confidence": 0.9
+    },
+    {
+     "subject": "用方向和距离确定位置",
+     "predicate": "CONTRASTS",
+     "object": "平面直角坐标系",
+     "evidence": "除了通过建立平面直角坐标系确定物体的位置外，还经常用方向和距离来确定物体之间的相对位置",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1089,
+   "entities": [
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两条互相垂直的数轴组成的坐标系"
+    },
+    {
+     "name": "坐标",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "点在坐标系中对应的有序数对"
+    },
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的四边形"
+    },
+    {
+     "name": "直线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "向两端无限延伸的笔直图形"
+    },
+    {
+     "name": "平移",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形沿某个方向移动一定距离"
+    },
+    {
+     "name": "坐标变化",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形变换引起的点的坐标变化"
+    },
+    {
+     "name": "图象",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示变量之间关系的图形"
+    },
+    {
+     "name": "数学优化决策",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用数学方法选择最优方案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "INCLUDES",
+     "object": "坐标",
+     "evidence": "在平面直角坐标系中，以点 A(-1,2) 为一个顶点画长方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "长方形",
+     "predicate": "RELATED",
+     "object": "坐标",
+     "evidence": "写出所画长方形的其余三个顶点的坐标",
+     "confidence": 0.9
+    },
+    {
+     "subject": "直线",
+     "predicate": "RELATED",
+     "object": "坐标",
+     "evidence": "点 C 的横坐标与纵坐标有什么关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "RELATED",
+     "object": "坐标变化",
+     "evidence": "将直线 AB 向上平移 1 个单位长度得到直线 A'B'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "图象",
+     "predicate": "APPLIES_TO",
+     "object": "数学优化决策",
+     "evidence": "结合图象，展示你在上述任务中的红绿灯时长设置方案",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:02.507Z"
+}

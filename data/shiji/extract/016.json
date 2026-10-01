@@ -1,0 +1,243 @@
+{
+ "no": 16,
+ "title": "秦楚之际月表",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 365,
+   "entities": [
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "西汉史学家，著《史记》"
+    },
+    {
+     "name": "陈胜",
+     "type": "Person",
+     "aliases": [
+      "陈涉",
+      "隐王"
+     ],
+     "nickname": "",
+     "description": "秦末起义领袖，首事反秦"
+    },
+    {
+     "name": "项羽",
+     "type": "Person",
+     "aliases": [
+      "项氏"
+     ],
+     "nickname": "",
+     "description": "秦末楚地领袖，灭秦主力"
+    },
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉家"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝，平定海内"
+    },
+    {
+     "name": "后稷",
+     "type": "Person",
+     "aliases": [
+      "弃",
+      "周弃"
+     ],
+     "nickname": "",
+     "description": "周人始祖，修仁行义"
+    },
+    {
+     "name": "襄公",
+     "type": "Person",
+     "aliases": [
+      "秦襄公"
+     ],
+     "nickname": "",
+     "description": "秦国始列为诸侯的君主"
+    },
+    {
+     "name": "始皇",
+     "type": "Person",
+     "aliases": [
+      "秦始皇"
+     ],
+     "nickname": "",
+     "description": "秦朝开国皇帝，统一六国"
+    },
+    {
+     "name": "虞",
+     "type": "Organization",
+     "aliases": [
+      "虞朝"
+     ],
+     "nickname": "",
+     "description": "上古虞舜建立的王朝"
+    },
+    {
+     "name": "夏",
+     "type": "Organization",
+     "aliases": [
+      "夏朝"
+     ],
+     "nickname": "",
+     "description": "上古夏禹建立的王朝"
+    },
+    {
+     "name": "商",
+     "type": "Organization",
+     "aliases": [
+      "殷"
+     ],
+     "nickname": "",
+     "description": "商汤建立的王朝"
+    },
+    {
+     "name": "周",
+     "type": "Organization",
+     "aliases": [
+      "周朝"
+     ],
+     "nickname": "",
+     "description": "周武王建立的王朝"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [
+      "秦国",
+      "秦朝"
+     ],
+     "nickname": "",
+     "description": "嬴姓诸侯国，后统一天下"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [
+      "汉家",
+      "汉朝"
+     ],
+     "nickname": "",
+     "description": "刘邦建立的王朝"
+    },
+    {
+     "name": "楚",
+     "type": "Organization",
+     "aliases": [
+      "项氏"
+     ],
+     "nickname": "",
+     "description": "项羽所立的政权"
+    },
+    {
+     "name": "孟津",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄河渡口，诸侯会盟之地"
+    },
+    {
+     "name": "秦楚之际",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦末楚汉相争的历史时期"
+    },
+    {
+     "name": "孟津之会",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "周武王伐纣前诸侯会盟"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "司马迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "秦楚之际",
+     "evidence": "太史公读秦楚之际",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "秦楚之际",
+     "evidence": "初作难，发于陈涉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "项羽",
+     "predicate": "PARTICIPATED_IN",
+     "object": "秦楚之际",
+     "evidence": "虐戾灭秦，自项氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "秦楚之际",
+     "evidence": "拨乱诛暴，平定海内，卒践帝祚，成于汉家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "项羽",
+     "predicate": "DEFEATED",
+     "object": "秦",
+     "evidence": "虐戾灭秦，自项氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "DEFEATED",
+     "object": "项羽",
+     "evidence": "拨乱诛暴，平定海内，卒践帝祚，成于汉家",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "卒践帝祚，成于汉家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟津之会",
+     "predicate": "OCCURRED_AT",
+     "object": "孟津",
+     "evidence": "不期而会孟津八百诸侯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "襄公",
+     "predicate": "RULED",
+     "object": "秦",
+     "evidence": "秦起襄公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "始皇",
+     "predicate": "RULED",
+     "object": "秦",
+     "evidence": "至始皇乃能并冠带之伦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虞",
+     "predicate": "SUCCEEDED",
+     "object": "夏",
+     "evidence": "昔虞、夏之兴，积善累功数十年",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:08.101Z"
+}

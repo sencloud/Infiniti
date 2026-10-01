@@ -1,0 +1,98 @@
+{
+ "no": 18,
+ "title": "斫蟒",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 189,
+   "entities": [
+    {
+     "name": "胡兄",
+     "type": "Person",
+     "aliases": [
+      "兄"
+     ],
+     "nickname": "",
+     "description": "胡田村胡姓兄弟中的哥哥，采樵时被巨蟒吞咬"
+    },
+    {
+     "name": "胡弟",
+     "type": "Person",
+     "aliases": [
+      "弟"
+     ],
+     "nickname": "",
+     "description": "胡田村胡姓兄弟中的弟弟，持斧斫蟒救兄"
+    },
+    {
+     "name": "巨蟒",
+     "type": "Spirit",
+     "aliases": [
+      "蟒"
+     ],
+     "nickname": "",
+     "description": "幽谷中的巨蟒，吞咬胡兄后被斫伤"
+    },
+    {
+     "name": "胡田村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡姓兄弟所居的村庄"
+    },
+    {
+     "name": "幽谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "兄弟采樵所入的深谷，遇蟒之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "胡兄",
+     "predicate": "KIN",
+     "object": "胡弟",
+     "evidence": "胡田村胡姓者，兄弟采樵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡兄",
+     "predicate": "LIVES_AT",
+     "object": "胡田村",
+     "evidence": "胡田村胡姓者，兄弟采樵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡弟",
+     "predicate": "LIVES_AT",
+     "object": "胡田村",
+     "evidence": "胡田村胡姓者，兄弟采樵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巨蟒",
+     "predicate": "HARMED",
+     "object": "胡兄",
+     "evidence": "遇巨蟒，兄在前，为所吞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡弟",
+     "predicate": "HELPED",
+     "object": "胡兄",
+     "evidence": "遂奋怒出樵斧，斫蟒首",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡弟",
+     "predicate": "HELPED",
+     "object": "胡兄",
+     "evidence": "乃两手持兄足，力与蟒争，竟曳兄出",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:19.603Z"
+}

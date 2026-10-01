@@ -1,0 +1,77 @@
+{
+ "no": 196,
+ "title": "绿衣女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 668,
+   "entities": [
+    {
+     "name": "于璟",
+     "type": "Person",
+     "aliases": [
+      "于生",
+      "于相公",
+      "小宋"
+     ],
+     "nickname": "小宋",
+     "description": "益都书生，字小宋，读书醴泉寺"
+    },
+    {
+     "name": "绿衣女",
+     "type": "Spirit",
+     "aliases": [
+      "绿蜂"
+     ],
+     "nickname": "",
+     "description": "绿衣长裙女子，实为绿蜂所化"
+    },
+    {
+     "name": "醴泉寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "于璟读书的寺庙"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "于璟的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "于璟",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "于生名璟，字小宋，益都人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于璟",
+     "predicate": "LIVES_AT",
+     "object": "醴泉寺",
+     "evidence": "读书醴泉寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于璟",
+     "predicate": "LOVES",
+     "object": "绿衣女",
+     "evidence": "于心好之，遂与寝处",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于璟",
+     "predicate": "HELPED",
+     "object": "绿衣女",
+     "evidence": "于破网挑下，去其缚缠",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:26.934Z"
+}

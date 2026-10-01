@@ -1,0 +1,650 @@
+{
+ "no": 37,
+ "title": "第三十七回 没遮拦追赶及时雨 船火儿夜闹浔阳江",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5667,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县人氏，刺配江州途中"
+    },
+    {
+     "name": "薛永",
+     "type": "Person",
+     "aliases": [
+      "病大虫"
+     ],
+     "nickname": "病大虫",
+     "description": "河南洛阳人氏，使枪棒卖药"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "揭阳镇一霸，穆家兄弟之一"
+    },
+    {
+     "name": "李俊",
+     "type": "Person",
+     "aliases": [
+      "混江龙"
+     ],
+     "nickname": "混江龙",
+     "description": "庐州人氏，浔阳江上私盐贩子"
+    },
+    {
+     "name": "张横",
+     "type": "Person",
+     "aliases": [
+      "船火儿",
+      "张梢公"
+     ],
+     "nickname": "船火儿",
+     "description": "小孤山下人氏，浔阳江上艄公"
+    },
+    {
+     "name": "童威",
+     "type": "Person",
+     "aliases": [
+      "出洞蛟"
+     ],
+     "nickname": "出洞蛟",
+     "description": "李俊手下，摇橹后生"
+    },
+    {
+     "name": "童猛",
+     "type": "Person",
+     "aliases": [
+      "翻江蜃"
+     ],
+     "nickname": "翻江蜃",
+     "description": "李俊手下，摇橹后生"
+    },
+    {
+     "name": "揭阳镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江路过之地，穆弘称霸"
+    },
+    {
+     "name": "浔阳江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江遇险之江，张横在此摆渡"
+    },
+    {
+     "name": "江州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江刺配目的地"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江籍贯"
+    },
+    {
+     "name": "河南洛阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛永籍贯"
+    },
+    {
+     "name": "小孤山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张横籍贯"
+    },
+    {
+     "name": "庐州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李俊籍贯"
+    },
+    {
+     "name": "穆太公庄院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江借宿之庄院，穆弘家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "薛永",
+     "predicate": "NATIVE_OF",
+     "object": "河南洛阳",
+     "evidence": "小人祖贯河南洛阳人氏，姓薛名永。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "小可姓宋名江，祖贯郓城县人氏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "STATIONED_AT",
+     "object": "揭阳镇",
+     "evidence": "这人是此间揭阳镇上一霸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "薛永",
+     "evidence": "同宋江便往邻近酒肆内去吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "薛永",
+     "evidence": "宋江又取一二十两银子与了薛永",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "我已教人四下里分付了酒店客店，不许着这厮们吃酒安歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "FRAMED",
+     "object": "薛永",
+     "evidence": "拿得那卖药的来，尽气力打了一顿。如今把来吊在都头家里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张横",
+     "predicate": "STATIONED_AT",
+     "object": "浔阳江",
+     "evidence": "专在此浔阳江做这件稳善的道路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张横",
+     "predicate": "NATIVE_OF",
+     "object": "小孤山",
+     "evidence": "原是小孤山下人氏，姓张名横",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "NATIVE_OF",
+     "object": "庐州",
+     "evidence": "庐州生李俊，绰号混江龙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "SWORN_BROTHER",
+     "object": "张横",
+     "evidence": "这个好汉却是小弟结义的兄弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "苦是小弟来得迟了些个，误了仁兄性命！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童威",
+     "predicate": "SERVED",
+     "object": "李俊",
+     "evidence": "背后船梢上两个摇橹的：一个是出洞蛟童威",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童猛",
+     "predicate": "SERVED",
+     "object": "李俊",
+     "evidence": "一个是翻江蜃童猛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "浔阳江遇险",
+     "evidence": "宋江正在危急之际，只见芦苇丛中，悄悄地忽然摇出一只船来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "浔阳江遇险",
+     "predicate": "OCCURRED_AT",
+     "object": "浔阳江",
+     "evidence": "正是来到浔阳江边",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3194,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，因罪刺配江州"
+    },
+    {
+     "name": "张横",
+     "type": "Person",
+     "aliases": [
+      "船火儿",
+      "张横艄公"
+     ],
+     "nickname": "船火儿",
+     "description": "浔阳江上做私商的艄公，张顺之兄"
+    },
+    {
+     "name": "张顺",
+     "type": "Person",
+     "aliases": [
+      "浪里白跳",
+      "浪里白条",
+      "张顺艄公"
+     ],
+     "nickname": "浪里白跳",
+     "description": "张横之弟，在江州做卖鱼牙子"
+    },
+    {
+     "name": "李俊",
+     "type": "Person",
+     "aliases": [
+      "混江龙",
+      "李俊头领"
+     ],
+     "nickname": "混江龙",
+     "description": "揭阳岭一霸，与宋江交好"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "揭阳镇富户，镇上一霸"
+    },
+    {
+     "name": "穆春",
+     "type": "Person",
+     "aliases": [
+      "小遮拦"
+     ],
+     "nickname": "小遮拦",
+     "description": "穆弘之弟，揭阳镇一霸"
+    },
+    {
+     "name": "薛永",
+     "type": "Person",
+     "aliases": [
+      "病大虫"
+     ],
+     "nickname": "病大虫",
+     "description": "使枪棒卖艺的好汉，被穆春捉去"
+    },
+    {
+     "name": "童威",
+     "type": "Person",
+     "aliases": [
+      "出洞蛟"
+     ],
+     "nickname": "出洞蛟",
+     "description": "李俊手下好汉"
+    },
+    {
+     "name": "童猛",
+     "type": "Person",
+     "aliases": [
+      "翻江蜃"
+     ],
+     "nickname": "翻江蜃",
+     "description": "李俊手下好汉"
+    },
+    {
+     "name": "李立",
+     "type": "Person",
+     "aliases": [
+      "催命判官"
+     ],
+     "nickname": "催命判官",
+     "description": "揭阳岭一霸，与李俊同伙"
+    },
+    {
+     "name": "蔡九知府",
+     "type": "Person",
+     "aliases": [
+      "蔡德章"
+     ],
+     "nickname": "",
+     "description": "江州知府，蔡京第九子，为官贪滥"
+    },
+    {
+     "name": "蔡京",
+     "type": "Person",
+     "aliases": [
+      "蔡太师"
+     ],
+     "nickname": "",
+     "description": "当朝太师，蔡九知府之父"
+    },
+    {
+     "name": "穆太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "穆弘、穆春之父，揭阳镇富户"
+    },
+    {
+     "name": "揭阳岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李俊、李立称霸之处"
+    },
+    {
+     "name": "揭阳镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "穆弘、穆春称霸的镇子"
+    },
+    {
+     "name": "浔阳江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张横、张顺做私商之处"
+    },
+    {
+     "name": "江州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江刺配之地，钱粮浩大"
+    },
+    {
+     "name": "穆家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "穆弘、穆春的庄院"
+    },
+    {
+     "name": "扬子江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张横兄弟当初做私渡之处"
+    },
+    {
+     "name": "济州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个公人取路返回之处"
+    },
+    {
+     "name": "牢城营",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州城外牢城营，宋江被押送至此"
+    },
+    {
+     "name": "揭阳三霸",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "揭阳岭、揭阳镇、浔阳江三股地方势力"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张横",
+     "predicate": "KIN",
+     "object": "张顺",
+     "evidence": "小弟一母所生的亲弟兄两个，长的便是小弟；我有个兄弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "KIN",
+     "object": "穆春",
+     "evidence": "这弟兄两个富户，是此间人，姓穆名弘……兄弟穆春",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "KIN",
+     "object": "穆太公",
+     "evidence": "请出穆太公来相见了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆春",
+     "predicate": "KIN",
+     "object": "穆太公",
+     "evidence": "请出穆太公来相见了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡京",
+     "predicate": "KIN",
+     "object": "蔡九知府",
+     "evidence": "是当朝蔡太师蔡京的第九个儿子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "李俊",
+     "evidence": "李俊用手一招，胡哨了一声……恭奉着宋江做一处说话",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "张横",
+     "evidence": "张横拜罢，问道：义士哥哥为何事配来此间？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "穆弘",
+     "evidence": "穆弘笑道：便是使枪棒的那厮？哥哥放心。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "穆春",
+     "evidence": "那弟兄两个撇了朴刀，扑翻身便拜道：闻名久矣！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "薛永",
+     "evidence": "穆春已取到病大虫薛永进来，一处相会了",
+     "confidence": 0.85
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "RESCUED",
+     "object": "薛永",
+     "evidence": "穆春已取到病大虫薛永进来，一处相会了",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "蔡九知府",
+     "evidence": "押宋江投厅下。蔡九知府看见宋江一表非俗",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "今来迭配江州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "牢城营",
+     "evidence": "便送下城外牢城营里去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "兄弟张顺他却如今自在江州做卖鱼牙子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张横",
+     "predicate": "STATIONED_AT",
+     "object": "浔阳江",
+     "evidence": "我便只在这浔阳江里做些私商",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "STATIONED_AT",
+     "object": "揭阳镇",
+     "evidence": "是揭阳镇上一霸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆春",
+     "predicate": "STATIONED_AT",
+     "object": "揭阳镇",
+     "evidence": "揭阳镇上是他弟兄两个一霸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李俊",
+     "predicate": "STATIONED_AT",
+     "object": "揭阳岭",
+     "evidence": "揭阳岭上岭下便是小弟和李立一霸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李立",
+     "predicate": "STATIONED_AT",
+     "object": "揭阳岭",
+     "evidence": "揭阳岭上岭下便是小弟和李立一霸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "郓城",
+     "evidence": "山东及时雨郓城宋押司公明哥哥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "LEADS",
+     "object": "揭阳三霸",
+     "evidence": "揭阳镇上是他弟兄两个一霸",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李俊",
+     "predicate": "LEADS",
+     "object": "揭阳三霸",
+     "evidence": "揭阳岭上岭下便是小弟和李立一霸",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张横",
+     "predicate": "LEADS",
+     "object": "揭阳三霸",
+     "evidence": "浔阳江边做私商的却是张横、张顺两个一霸",
+     "confidence": 0.8
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "ATTACKED",
+     "object": "宋江",
+     "evidence": "他两个赶着要捉我",
+     "confidence": 0.85
+    },
+    {
+     "subject": "穆春",
+     "predicate": "ATTACKED",
+     "object": "宋江",
+     "evidence": "他两个赶着要捉我",
+     "confidence": 0.85
+    },
+    {
+     "subject": "穆春",
+     "predicate": "DEFEATED",
+     "object": "薛永",
+     "evidence": "穆春已取到病大虫薛永进来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "揭阳镇相会",
+     "evidence": "宋江与穆太公对坐说话……一处相会了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "揭阳镇相会",
+     "predicate": "OCCURRED_AT",
+     "object": "穆家庄",
+     "evidence": "都到庄里，请出穆太公来相见了",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:40.286Z"
+}

@@ -1,0 +1,92 @@
+{
+ "no": 187,
+ "title": "孝子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 293,
+   "entities": [
+    {
+     "name": "周顺亭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州东香山前孝子，割肉疗母"
+    },
+    {
+     "name": "周母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周顺亭之母，股生巨疽"
+    },
+    {
+     "name": "周父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周顺亭亡父，梦中告知疗法"
+    },
+    {
+     "name": "周妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周顺亭之妻，追问得知割肉实情"
+    },
+    {
+     "name": "青州东香山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "周顺亭居住地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "周顺亭",
+     "predicate": "KIN",
+     "object": "周母",
+     "evidence": "有周顺亭者，事母至孝。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周顺亭",
+     "predicate": "KIN",
+     "object": "周父",
+     "evidence": "梦父告曰：“母疾赖汝孝。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周顺亭",
+     "predicate": "KIN",
+     "object": "周妻",
+     "evidence": "即妻子亦不知也。既痊，有巨痕如掌。妻诘之，始得其情。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周顺亭",
+     "predicate": "LIVES_AT",
+     "object": "青州东香山",
+     "evidence": "青州东香山之前，有周顺亭者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周顺亭",
+     "predicate": "HELPED",
+     "object": "周母",
+     "evidence": "于是烹肉持膏，敷母患处，痛截然顿止。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周父",
+     "predicate": "HELPED",
+     "object": "周顺亭",
+     "evidence": "梦父告曰：“母疾赖汝孝。然此创非人膏涂之不能愈，徒劳焦侧也。”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:23.740Z"
+}

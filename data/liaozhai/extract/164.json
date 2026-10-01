@@ -1,0 +1,122 @@
+{
+ "no": 164,
+ "title": "泥书生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 256,
+   "entities": [
+    {
+     "name": "陈代",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗村人，少蠢陋，娶妻某氏"
+    },
+    {
+     "name": "陈代之妻",
+     "type": "Person",
+     "aliases": [
+      "某氏"
+     ],
+     "nickname": "",
+     "description": "陈代妻，颇丽，贞洁自持"
+    },
+    {
+     "name": "陈代母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈代母亲，识破妖物"
+    },
+    {
+     "name": "泥书生",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖物，化作书生夜入陈妻室"
+    },
+    {
+     "name": "罗村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈代所居之村"
+    },
+    {
+     "name": "泥衣",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "泥书生所遗泥制衣物"
+    },
+    {
+     "name": "泥巾",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "泥书生所遗泥制头巾"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陈代",
+     "predicate": "SPOUSE",
+     "object": "陈代之妻",
+     "evidence": "娶妻某氏，颇丽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈代母",
+     "predicate": "KIN",
+     "object": "陈代",
+     "evidence": "母怪问之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈代母",
+     "predicate": "KIN",
+     "object": "陈代之妻",
+     "evidence": "婆媳亦相安",
+     "confidence": 0.9
+    },
+    {
+     "subject": "泥书生",
+     "predicate": "HARMED",
+     "object": "陈代之妻",
+     "evidence": "听其狎亵而去。自是恒无虚夕。月馀，形容枯瘁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈代",
+     "predicate": "HARMED",
+     "object": "泥书生",
+     "evidence": "代暗中暴起，击中腰胁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈代",
+     "predicate": "LIVES_AT",
+     "object": "罗村",
+     "evidence": "罗村有陈代者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "泥书生",
+     "predicate": "OWNS",
+     "object": "泥衣",
+     "evidence": "泥衣一片堕地上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "泥书生",
+     "predicate": "OWNS",
+     "object": "泥巾",
+     "evidence": "案头泥巾犹存",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:15.331Z"
+}

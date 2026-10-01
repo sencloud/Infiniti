@@ -1,0 +1,71 @@
+{
+ "no": 64,
+ "title": "猪婆龙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 110,
+   "entities": [
+    {
+     "name": "猪婆龙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "产于西江，形似龙而短，能横飞，扑食鹅鸭"
+    },
+    {
+     "name": "陈友谅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈、柯二姓之先祖"
+    },
+    {
+     "name": "陈姓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈友谅后裔，世食猪婆龙肉"
+    },
+    {
+     "name": "柯姓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈友谅后裔，世食猪婆龙肉"
+    },
+    {
+     "name": "西江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪婆龙产地"
+    },
+    {
+     "name": "钱塘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "客泊舟之处，猪婆龙跃入江中"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陈姓",
+     "predicate": "KIN",
+     "object": "陈友谅",
+     "evidence": "此二姓皆友谅之裔",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柯姓",
+     "predicate": "KIN",
+     "object": "陈友谅",
+     "evidence": "此二姓皆友谅之裔",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:35.950Z"
+}

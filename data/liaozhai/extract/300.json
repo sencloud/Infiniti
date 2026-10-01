@@ -1,0 +1,94 @@
+{
+ "no": 300,
+ "title": "鬼妻",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 391,
+   "entities": [
+    {
+     "name": "聂鹏云",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泰安人，妻死后与鬼妻幽会，后另娶"
+    },
+    {
+     "name": "聂妻",
+     "type": "Spirit",
+     "aliases": [
+      "鬼妻"
+     ],
+     "nickname": "",
+     "description": "聂鹏云亡妻，死后为鬼，与聂幽会"
+    },
+    {
+     "name": "新妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "聂鹏云续娶的良家女"
+    },
+    {
+     "name": "术者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "近村精通法术的人，削桃木钉墓"
+    },
+    {
+     "name": "泰安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "聂鹏云的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "聂鹏云",
+     "predicate": "SPOUSE",
+     "object": "聂妻",
+     "evidence": "泰安聂鹏云，与妻某，鱼水甚谐。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "聂鹏云",
+     "predicate": "SPOUSE",
+     "object": "新妇",
+     "evidence": "聘于良家。然恐妻不乐，秘之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "聂妻",
+     "predicate": "HARMED",
+     "object": "新妇",
+     "evidence": "鬼忽至，就床上挝新妇，大骂：“何得占我床寝！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "聂妻",
+     "predicate": "HARMED",
+     "object": "聂鹏云",
+     "evidence": "鬼亦不与聂寝，但以指掐肤肉，已乃对烛目怒相视，默默不语。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "术者",
+     "predicate": "HELPED",
+     "object": "聂鹏云",
+     "evidence": "近村有良于术者，削桃为杙，钉墓四隅，其怪始绝。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "聂鹏云",
+     "predicate": "NATIVE_OF",
+     "object": "泰安",
+     "evidence": "泰安聂鹏云，与妻某，鱼水甚谐。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:05.821Z"
+}

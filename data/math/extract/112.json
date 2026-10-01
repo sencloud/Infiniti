@@ -1,0 +1,64 @@
+{
+ "no": 112,
+ "title": "5.3 概率的应用——抽签方法合理吗？",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 978,
+   "entities": [
+    {
+     "name": "等可能事件",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "试验中每个结果出现的可能性相等"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "刻画随机事件发生可能性大小的数值"
+    },
+    {
+     "name": "树状图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用树形图列出所有等可能结果的方法"
+    },
+    {
+     "name": "抽签",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过抽取签条决定结果的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "树状图",
+     "predicate": "APPLIES_TO",
+     "object": "概率",
+     "evidence": "用树状图（图5-4）列出所有可能出现的结果",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等可能事件",
+     "predicate": "PREREQUISITE",
+     "object": "概率",
+     "evidence": "一共有6种可能出现的结果，并且它们是等可能的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抽签",
+     "predicate": "RELATED",
+     "object": "概率",
+     "evidence": "运用概率知识解决这个问题",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:21.263Z"
+}

@@ -1,0 +1,311 @@
+{
+ "no": 56,
+ "title": "2.3 实数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5248,
+   "entities": [
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整数和分数的统称，可表示为有限小数或循环小数"
+    },
+    {
+     "name": "无理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "无限不循环小数"
+    },
+    {
+     "name": "实数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数和无理数的统称"
+    },
+    {
+     "name": "数轴",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    },
+    {
+     "name": "反证法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "假设结论不成立，推出矛盾，从而证明结论成立"
+    },
+    {
+     "name": "平方根",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "若x²=a，则x叫做a的平方根"
+    },
+    {
+     "name": "圆周率π",
+     "type": "Concept",
+     "aliases": [
+      "π"
+     ],
+     "nickname": "",
+     "description": "圆的周长与直径的比值，是无限不循环小数"
+    },
+    {
+     "name": "正无理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "大于0的无理数"
+    },
+    {
+     "name": "负无理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "小于0的无理数"
+    },
+    {
+     "name": "正实数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "大于0的实数"
+    },
+    {
+     "name": "负实数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "小于0的实数"
+    },
+    {
+     "name": "绝对值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上表示一个数的点到原点的距离"
+    },
+    {
+     "name": "倒数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘积为1的两个数互为倒数"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有符号不同的两个数互为相反数"
+    },
+    {
+     "name": "开平方",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求一个数平方根的运算"
+    },
+    {
+     "name": "开立方",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求一个数立方根的运算"
+    },
+    {
+     "name": "实数与数轴一一对应",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "每一个实数都可以用数轴上的一个点来表示；反过来，数轴上的每一个点都表示一个实数"
+    },
+    {
+     "name": "实数大小比较",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上右边的点表示的实数比左边的点表示的实数大"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "正有理数",
+     "evidence": "有理数包括整数和分数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "负有理数",
+     "evidence": "有理数包括整数和分数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "整数",
+     "evidence": "有理数包括整数和分数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "分数",
+     "evidence": "有理数包括整数和分数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "无理数",
+     "predicate": "INCLUDES",
+     "object": "正无理数",
+     "evidence": "无理数分为正无理数和负无理数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "无理数",
+     "predicate": "INCLUDES",
+     "object": "负无理数",
+     "evidence": "无理数分为正无理数和负无理数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "实数",
+     "predicate": "INCLUDES",
+     "object": "有理数",
+     "evidence": "有理数和无理数统称为实数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "实数",
+     "predicate": "INCLUDES",
+     "object": "无理数",
+     "evidence": "有理数和无理数统称为实数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "实数",
+     "predicate": "INCLUDES",
+     "object": "正实数",
+     "evidence": "实数可以分类如下：正实数、0、负实数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "实数",
+     "predicate": "INCLUDES",
+     "object": "负实数",
+     "evidence": "实数可以分类如下：正实数、0、负实数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "实数与数轴一一对应",
+     "predicate": "PROPERTY_OF",
+     "object": "实数",
+     "evidence": "实数与数轴上的点一一对应",
+     "confidence": 0.95
+    },
+    {
+     "subject": "实数与数轴一一对应",
+     "predicate": "PROPERTY_OF",
+     "object": "数轴",
+     "evidence": "实数与数轴上的点一一对应",
+     "confidence": 0.95
+    },
+    {
+     "subject": "实数大小比较",
+     "predicate": "APPLIES_TO",
+     "object": "实数",
+     "evidence": "可以根据数轴上点的位置，比较它们表示的实数的大小",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反证法",
+     "predicate": "APPLIES_TO",
+     "object": "无理数",
+     "evidence": "我们可以用反证法证明√2是无理数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平方根",
+     "predicate": "PREREQUISITE",
+     "object": "无理数",
+     "evidence": "根据平方根的意义，(m/n)²=2",
+     "confidence": 0.8
+    },
+    {
+     "subject": "有理数",
+     "predicate": "PREREQUISITE",
+     "object": "实数",
+     "evidence": "有理数和无理数统称为实数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "无理数",
+     "predicate": "PREREQUISITE",
+     "object": "实数",
+     "evidence": "有理数和无理数统称为实数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "CONTRASTS",
+     "object": "无理数",
+     "evidence": "有理数包括整数和分数……无限不循环小数叫作无理数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "RELATED",
+     "object": "数轴",
+     "evidence": "有理数可以用数轴上的点来表示",
+     "confidence": 0.9
+    },
+    {
+     "subject": "无理数",
+     "predicate": "RELATED",
+     "object": "数轴",
+     "evidence": "无理数也可以用数轴上的点来表示",
+     "confidence": 0.9
+    },
+    {
+     "subject": "开平方",
+     "predicate": "RELATED",
+     "object": "开立方",
+     "evidence": "不仅可以进行加、减、乘、除、乘方运算，而且可以进行开立方运算，任何非负实数还可以进行开平方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "绝对值",
+     "predicate": "RELATED",
+     "object": "实数",
+     "evidence": "有理数的绝对值、倒数、相反数的意义……在实数范围内仍然适用",
+     "confidence": 0.9
+    },
+    {
+     "subject": "倒数",
+     "predicate": "RELATED",
+     "object": "实数",
+     "evidence": "有理数的绝对值、倒数、相反数的意义……在实数范围内仍然适用",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相反数",
+     "predicate": "RELATED",
+     "object": "实数",
+     "evidence": "有理数的绝对值、倒数、相反数的意义……在实数范围内仍然适用",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:57.819Z"
+}

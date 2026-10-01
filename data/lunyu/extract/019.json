@@ -1,0 +1,621 @@
+{
+ "no": 19,
+ "title": "子张篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 432,
+   "entities": [
+    {
+     "name": "子张",
+     "type": "Person",
+     "aliases": [
+      "师",
+      "颛孙师"
+     ],
+     "nickname": "子张",
+     "description": "孔子弟子，颛孙师"
+    },
+    {
+     "name": "子夏",
+     "type": "Person",
+     "aliases": [
+      "商",
+      "卜商"
+     ],
+     "nickname": "子夏",
+     "description": "孔子弟子，卜商"
+    },
+    {
+     "name": "子游",
+     "type": "Person",
+     "aliases": [
+      "偃",
+      "言偃"
+     ],
+     "nickname": "子游",
+     "description": "孔子弟子，言偃"
+    },
+    {
+     "name": "士",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有德行的读书人"
+    },
+    {
+     "name": "义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "合宜的道理"
+    },
+    {
+     "name": "德",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道德品行"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有德之人"
+    },
+    {
+     "name": "小人",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "无德之人"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心道德"
+    },
+    {
+     "name": "学",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "学习"
+    },
+    {
+     "name": "信",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "诚信"
+    },
+    {
+     "name": "道",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家之道"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "子张",
+     "predicate": "DISCUSSED",
+     "object": "士",
+     "evidence": "子张曰：“士见危致命，见得思义，祭思敬，丧思哀，其可已矣。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "子张曰：“士见危致命，见得思义，祭思敬，丧思哀，其可已矣。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "子张曰：“执德不弘，信道不笃，焉能为有？焉能为亡？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏之门人",
+     "predicate": "ASKED",
+     "object": "子张",
+     "evidence": "子夏之门人问交于子张。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "子张曰：“异乎吾所闻：君子尊贤而容众，嘉善而矜不能。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "子夏曰：“虽小道，必有可观者焉，致远恐泥，是以君子不为也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "子夏曰：“日知其所亡，月无忘其所能，可谓好学也已矣。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "子夏曰：“博学而笃志，切问而近思，仁在其中矣。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "道",
+     "evidence": "子夏曰：“百工居肆以成其事，君子学以致其道。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "子夏曰：“小人之过也必文”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "子夏曰：“君子有三变：望之俨然，即之也温，听其言也厉。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "子夏曰：“君子信而后劳其民，未信，则以为厉己也；信而后谏，未信，则以为谤己也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "子夏曰．“大德不逾闲，小德出入可也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子游",
+     "predicate": "CRITICIZED",
+     "object": "子夏之门人",
+     "evidence": "子游曰：“子夏之门人小子，当洒扫应对进退则可矣，抑末也。本之则无，如之何？\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "子夏曰：“仕而优则学，学而优则仕。”",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 609,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，孔门宗师"
+    },
+    {
+     "name": "子贡",
+     "type": "Person",
+     "aliases": [
+      "端木赐",
+      "赐",
+      "子赣"
+     ],
+     "nickname": "子贡",
+     "description": "孔子弟子，善于言辞"
+    },
+    {
+     "name": "子游",
+     "type": "Person",
+     "aliases": [
+      "言偃",
+      "偃",
+      "言游"
+     ],
+     "nickname": "子游",
+     "description": "孔子弟子，文学科"
+    },
+    {
+     "name": "曾子",
+     "type": "Person",
+     "aliases": [
+      "曾参",
+      "参",
+      "子舆"
+     ],
+     "nickname": "子舆",
+     "description": "孔子弟子，以孝著称"
+    },
+    {
+     "name": "子张",
+     "type": "Person",
+     "aliases": [
+      "颛孙师",
+      "师"
+     ],
+     "nickname": "子张",
+     "description": "孔子弟子，仪表堂堂"
+    },
+    {
+     "name": "陈子禽",
+     "type": "Person",
+     "aliases": [
+      "陈亢",
+      "子禽",
+      "亢"
+     ],
+     "nickname": "子禽",
+     "description": "孔子弟子或时人"
+    },
+    {
+     "name": "叔孙武叔",
+     "type": "Person",
+     "aliases": [
+      "叔孙",
+      "武叔"
+     ],
+     "nickname": "武叔",
+     "description": "鲁国大夫，曾诋毁孔子"
+    },
+    {
+     "name": "子服景伯",
+     "type": "Person",
+     "aliases": [
+      "子服",
+      "景伯"
+     ],
+     "nickname": "景伯",
+     "description": "鲁国大夫"
+    },
+    {
+     "name": "孟庄子",
+     "type": "Person",
+     "aliases": [
+      "孟庄"
+     ],
+     "nickname": "庄子",
+     "description": "鲁国大夫，以孝闻名"
+    },
+    {
+     "name": "阳肤",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾子弟子，曾任士师"
+    },
+    {
+     "name": "公孙朝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卫国大夫"
+    },
+    {
+     "name": "孟氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国大夫孟氏"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心道德范畴"
+    },
+    {
+     "name": "孝",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心道德，孝顺父母"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家理想人格"
+    },
+    {
+     "name": "知",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "智慧，明智"
+    },
+    {
+     "name": "哀",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "悲哀，哀伤"
+    },
+    {
+     "name": "丧",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "丧礼，居丧"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "卫",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "文武之道",
+     "type": "Concept",
+     "aliases": [
+      "文王之道",
+      "武王之道"
+     ],
+     "nickname": "",
+     "description": "周文王周武王之道"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "子游",
+     "predicate": "DISCUSSED",
+     "object": "丧",
+     "evidence": "子游曰：“丧致乎哀而止。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子游",
+     "predicate": "DISCUSSED",
+     "object": "哀",
+     "evidence": "子游曰：“丧致乎哀而止。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子游",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "子游曰：“吾友张也为难能也，然而未仁。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子游",
+     "predicate": "CRITICIZED",
+     "object": "子张",
+     "evidence": "吾友张也为难能也，然而未仁。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "曾子曰：“堂堂乎张也，难与并为仁矣。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾子",
+     "predicate": "CRITICIZED",
+     "object": "子张",
+     "evidence": "堂堂乎张也，难与并为仁矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾子",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "曾子曰：“吾闻诸夫子：孟庄子之孝也，其他可能也，其不改父之臣与父之政，是难能也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾子",
+     "predicate": "PRAISED",
+     "object": "孟庄子",
+     "evidence": "孟庄子之孝也，其他可能也，其不改父之臣与父之政，是难能也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阳肤",
+     "predicate": "ASKED",
+     "object": "曾子",
+     "evidence": "孟氏使阳肤为士师，问于曾子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "子贡曰：“纣之不善，不如是之甚也。是以君子恶居下流，天下之恶皆归焉。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "子贡曰：“君子之过也，如日月之食焉：过也，人皆见之；更也，人皆仰之。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙朝",
+     "predicate": "ASKED",
+     "object": "子贡",
+     "evidence": "卫公孙朝问于子贡曰：“仲尼焉学？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "文武之道",
+     "evidence": "子贡曰：“文武之道，未坠于地，在人。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "PRAISED",
+     "object": "孔子",
+     "evidence": "夫子焉不学？而亦何常师之有？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叔孙武叔",
+     "predicate": "PRAISED",
+     "object": "子贡",
+     "evidence": "叔孙武叔语大夫于朝曰：“子贡贤于仲尼。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子服景伯",
+     "predicate": "ASKED",
+     "object": "子贡",
+     "evidence": "子服景伯以告子贡。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "子贡",
+     "predicate": "PRAISED",
+     "object": "孔子",
+     "evidence": "夫子之墙数仞，不得其门而入，不见宗庙之美、百官之富。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叔孙武叔",
+     "predicate": "CRITICIZED",
+     "object": "孔子",
+     "evidence": "叔孙武叔毁仲尼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "PRAISED",
+     "object": "孔子",
+     "evidence": "仲尼不可毁也。他人之贤者，丘陵也，犹可逾也；仲尼，日月也，无得而逾焉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈子禽",
+     "predicate": "ASKED",
+     "object": "子贡",
+     "evidence": "陈子禽谓子贡曰：“子为恭也，仲尼岂贤于子乎？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "PRAISED",
+     "object": "孔子",
+     "evidence": "夫子之不可及也，犹天之不可阶而升也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子一言以为知，一言以为不知，言不可不慎也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "君子一言以为知，一言以为不知，言不可不慎也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子贡",
+     "predicate": "NATIVE_OF",
+     "object": "卫",
+     "evidence": "卫公孙朝问于子贡曰",
+     "confidence": 0.7
+    },
+    {
+     "subject": "公孙朝",
+     "predicate": "NATIVE_OF",
+     "object": "卫",
+     "evidence": "卫公孙朝问于子贡曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阳肤",
+     "predicate": "SERVED",
+     "object": "孟氏",
+     "evidence": "孟氏使阳肤为士师",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "吾友张也为难能也",
+     "confidence": 0.7
+    },
+    {
+     "subject": "子游",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "子游曰",
+     "confidence": 0.7
+    },
+    {
+     "subject": "曾子",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "曾子曰：“吾闻诸夫子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "子贡曰：“譬之宫墙，赐之墙也及肩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈子禽",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "陈子禽谓子贡曰",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:48:28.838Z"
+}

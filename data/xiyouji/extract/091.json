@@ -1,0 +1,729 @@
+{
+ "no": 91,
+ "title": "金平府元夜观灯 玄英洞唐僧供状",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5956,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被妖精摄走"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，天蓬元帅转世"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，卷帘大将临凡"
+    },
+    {
+     "name": "辟寒大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青龙山玄英洞妖精，使钺斧"
+    },
+    {
+     "name": "辟暑大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青龙山玄英洞妖精，使大刀"
+    },
+    {
+     "name": "辟尘大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青龙山玄英洞妖精，使扢挞藤"
+    },
+    {
+     "name": "慈云寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "金平府寺庙，唐僧师徒借宿处"
+    },
+    {
+     "name": "玄英洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "青龙山妖洞，三妖盘踞"
+    },
+    {
+     "name": "金平府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国外郡，元宵观灯地"
+    },
+    {
+     "name": "青龙山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "玄英洞所在之山"
+    },
+    {
+     "name": "金灯桥",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金平府观灯处，三盏金灯所在"
+    },
+    {
+     "name": "旻天县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金平府后一县，灯油大户所在"
+    },
+    {
+     "name": "金平府元夜观灯",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒元宵观灯遇妖"
+    },
+    {
+     "name": "三妖摄唐僧",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "辟寒等三妖摄走唐僧"
+    },
+    {
+     "name": "三盏金灯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "金灯桥上古传金灯，燃酥合香油"
+    },
+    {
+     "name": "酥合香油",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "异香灯油，极贵重"
+    },
+    {
+     "name": "铁棒",
+     "type": "Item",
+     "aliases": [
+      "金箍棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我本是东土大唐取经的圣僧唐三藏之大徒弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "第二个姓猪，名悟能八戒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "第三个姓沙，名悟净和尚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "慈云寺",
+     "evidence": "四众遂一齐而入",
+     "confidence": 0.8
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "MEMBER_OF",
+     "object": "玄英洞",
+     "evidence": "此山名青龙山，内有洞名玄英洞，洞中有三个妖精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "MEMBER_OF",
+     "object": "玄英洞",
+     "evidence": "此山名青龙山，内有洞名玄英洞，洞中有三个妖精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "MEMBER_OF",
+     "object": "玄英洞",
+     "evidence": "此山名青龙山，内有洞名玄英洞，洞中有三个妖精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "LEADS",
+     "object": "玄英洞",
+     "evidence": "大的个名辟寒大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "LEADS",
+     "object": "玄英洞",
+     "evidence": "第二个号辟暑大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "LEADS",
+     "object": "玄英洞",
+     "evidence": "第三个号辟尘大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "STATIONED_AT",
+     "object": "青龙山",
+     "evidence": "此山名青龙山，内有洞名玄英洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "STATIONED_AT",
+     "object": "青龙山",
+     "evidence": "此山名青龙山，内有洞名玄英洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "STATIONED_AT",
+     "object": "青龙山",
+     "evidence": "此山名青龙山，内有洞名玄英洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三妖摄唐僧",
+     "evidence": "把唐僧抱起，驾风而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三妖摄唐僧",
+     "evidence": "把唐僧抱起，驾风而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三妖摄唐僧",
+     "evidence": "把唐僧抱起，驾风而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金平府元夜观灯",
+     "evidence": "同行者三人及本寺多僧进城看灯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金平府元夜观灯",
+     "evidence": "同行者三人及本寺多僧进城看灯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金平府元夜观灯",
+     "evidence": "同行者三人及本寺多僧进城看灯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金平府元夜观灯",
+     "evidence": "同行者三人及本寺多僧进城看灯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金平府元夜观灯",
+     "predicate": "OCCURRED_AT",
+     "object": "金平府",
+     "evidence": "我这里乃天竺国外郡，金平府是也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三妖摄唐僧",
+     "predicate": "OCCURRED_AT",
+     "object": "金灯桥",
+     "evidence": "却才到金灯桥上，唐僧与众僧近前看处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "OWNS",
+     "object": "三盏金灯",
+     "evidence": "原来是三盏金灯",
+     "confidence": 0.8
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "OWNS",
+     "object": "三盏金灯",
+     "evidence": "原来是三盏金灯",
+     "confidence": 0.8
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "OWNS",
+     "object": "三盏金灯",
+     "evidence": "原来是三盏金灯",
+     "confidence": 0.8
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "OWNS",
+     "object": "酥合香油",
+     "evidence": "他自幼儿爱食酥合香油",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "OWNS",
+     "object": "酥合香油",
+     "evidence": "他自幼儿爱食酥合香油",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "OWNS",
+     "object": "酥合香油",
+     "evidence": "他自幼儿爱食酥合香油",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "大圣即掣出铁棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "那三个老妖，举三般兵器，急架相迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "那三个老妖，举三般兵器，急架相迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "那三个老妖，举三般兵器，急架相迎",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1008,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "师父",
+     "description": "取经僧人，被玄英洞妖精摄去"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，憨直贪吃"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，沉稳忠厚"
+    },
+    {
+     "name": "辟寒大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "辟寒大王",
+     "description": "玄英洞三妖之一，犀牛精，使钺斧"
+    },
+    {
+     "name": "辟暑大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "辟暑大王",
+     "description": "玄英洞三妖之一，犀牛精，使大刀"
+    },
+    {
+     "name": "辟尘大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "辟尘大王",
+     "description": "玄英洞三妖之一，犀牛精，使藤棍"
+    },
+    {
+     "name": "慈云寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "金平府寺庙，唐僧师徒借宿处"
+    },
+    {
+     "name": "玄英洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "青龙山妖洞，三犀牛精盘踞之所"
+    },
+    {
+     "name": "金平府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国州府，官员百姓被妖哄骗"
+    },
+    {
+     "name": "青龙山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "玄英洞所在之山"
+    },
+    {
+     "name": "玄英洞之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空与三犀牛精在玄英洞前大战"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父下落何如？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父下落何如？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父下落何如？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "那八戒沙僧正自盼望商量，听得叫时，一齐出接道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "那八戒沙僧正自盼望商量，听得叫时，一齐出接道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "孙行者一条棒与那三个妖魔斗经百五十合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "孙行者一条棒与那三个妖魔斗经百五十合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "孙行者一条棒与那三个妖魔斗经百五十合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "MEMBER_OF",
+     "object": "玄英洞",
+     "evidence": "洞中有三个妖精，唤做辟寒大王、辟暑大王、辟尘大王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "MEMBER_OF",
+     "object": "玄英洞",
+     "evidence": "洞中有三个妖精，唤做辟寒大王、辟暑大王、辟尘大王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "MEMBER_OF",
+     "object": "玄英洞",
+     "evidence": "洞中有三个妖精，唤做辟寒大王、辟暑大王、辟尘大王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "STATIONED_AT",
+     "object": "玄英洞",
+     "evidence": "山中有一玄英洞。洞中有三个妖精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "STATIONED_AT",
+     "object": "玄英洞",
+     "evidence": "山中有一玄英洞。洞中有三个妖精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "STATIONED_AT",
+     "object": "玄英洞",
+     "evidence": "山中有一玄英洞。洞中有三个妖精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玄英洞",
+     "predicate": "OCCURRED_AT",
+     "object": "青龙山",
+     "evidence": "那山叫做青龙山，山中有一玄英洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "玄英洞之战",
+     "evidence": "孙行者一条棒与那三个妖魔斗经百五十合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "玄英洞之战",
+     "evidence": "孙行者一条棒与那三个妖魔斗经百五十合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "玄英洞之战",
+     "evidence": "孙行者一条棒与那三个妖魔斗经百五十合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "玄英洞之战",
+     "evidence": "孙行者一条棒与那三个妖魔斗经百五十合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玄英洞之战",
+     "predicate": "OCCURRED_AT",
+     "object": "玄英洞",
+     "evidence": "我寻近门前叫骂。那三怪齐出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "OWNS",
+     "object": "钺斧",
+     "evidence": "大的个使钺斧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "OWNS",
+     "object": "大刀",
+     "evidence": "第二个使大刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "OWNS",
+     "object": "藤棍",
+     "evidence": "第三个使藤棍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "反连师父都摄去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "反连师父都摄去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "反连师父都摄去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "FRAMED",
+     "object": "金平府",
+     "evidence": "假变佛像，哄了金平府官员人等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "FRAMED",
+     "object": "金平府",
+     "evidence": "假变佛像，哄了金平府官员人等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "FRAMED",
+     "object": "金平府",
+     "evidence": "假变佛像，哄了金平府官员人等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "待明日我等都去相持，拿住妖王，庶可救师父也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "待明日我等都去相持，拿住妖王，庶可救师父也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "待明日我等都去相持，拿住妖王，庶可救师父也",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:13.704Z"
+}

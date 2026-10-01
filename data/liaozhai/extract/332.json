@@ -1,0 +1,101 @@
+{
+ "no": 332,
+ "title": "李生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 282,
+   "entities": [
+    {
+     "name": "李生",
+     "type": "Person",
+     "aliases": [
+      "李公子"
+     ],
+     "nickname": "",
+     "description": "商河人，好道，筑精舍修行，供给僧道"
+    },
+    {
+     "name": "老僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "游方老僧，言谈玄妙，有异术"
+    },
+    {
+     "name": "王梅屋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李生友人，曾至其家见待死堂匾额"
+    },
+    {
+     "name": "兰若",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村外里余的寺庙，李生筑精舍其中"
+    },
+    {
+     "name": "精舍",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李生在兰若中筑的三楹精舍"
+    },
+    {
+     "name": "大池",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "兰若门外的大水池，老僧濯洗处"
+    },
+    {
+     "name": "瘦驴",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "老僧所携似殉葬物的纸驴，能行"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李生",
+     "predicate": "LIVES_AT",
+     "object": "精舍",
+     "evidence": "村外里馀，有兰若，筑精舍三楹，趺坐其中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李生",
+     "predicate": "FRIEND",
+     "object": "老僧",
+     "evidence": "固挽之，留数日。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李生",
+     "predicate": "FRIEND",
+     "object": "王梅屋",
+     "evidence": "王梅屋言：李其友人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老僧",
+     "predicate": "OWNS",
+     "object": "瘦驴",
+     "evidence": "一瘦驴絷灯檠上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老僧",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "有老僧担囊借榻",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:17.513Z"
+}

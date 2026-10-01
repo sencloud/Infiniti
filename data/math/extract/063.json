@@ -1,0 +1,139 @@
+{
+ "no": 63,
+ "title": "5.1 变量与函数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4503,
+   "entities": [
+    {
+     "name": "常量",
+     "type": "Concept",
+     "aliases": [
+      "constant"
+     ],
+     "nickname": "",
+     "description": "数值保持不变的量"
+    },
+    {
+     "name": "变量",
+     "type": "Concept",
+     "aliases": [
+      "variable"
+     ],
+     "nickname": "",
+     "description": "数值发生变化的量"
+    },
+    {
+     "name": "函数",
+     "type": "Concept",
+     "aliases": [
+      "function"
+     ],
+     "nickname": "",
+     "description": "对于x的每一个确定的值，y都有唯一的值与它对应"
+    },
+    {
+     "name": "自变量",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在函数关系中，主动变化的量x"
+    },
+    {
+     "name": "函数值",
+     "type": "Concept",
+     "aliases": [
+      "function value"
+     ],
+     "nickname": "",
+     "description": "对于自变量x的每一个取值，函数y的对应值"
+    },
+    {
+     "name": "函数表达式",
+     "type": "Concept",
+     "aliases": [
+      "expression of function"
+     ],
+     "nickname": "",
+     "description": "用自变量和常量组成的表示函数的表达式"
+    },
+    {
+     "name": "函数的图象",
+     "type": "Concept",
+     "aliases": [
+      "graph of function"
+     ],
+     "nickname": "",
+     "description": "在平面直角坐标系中，由函数对应点组成的图形"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "处理函数问题的常用方法"
+    },
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "本章将学习其定义、图象、性质及其应用"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "常量",
+     "predicate": "CONTRASTS",
+     "object": "变量",
+     "evidence": "数值保持不变的量叫作常量，数值发生变化的量叫作变量。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数",
+     "predicate": "INCLUDES",
+     "object": "自变量",
+     "evidence": "那么称 y 是 x 的函数，x 是自变量。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数",
+     "predicate": "INCLUDES",
+     "object": "函数值",
+     "evidence": "对于自变量 x 的每一个取值，函数 y 的对应值称为函数值。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数",
+     "predicate": "INCLUDES",
+     "object": "函数表达式",
+     "evidence": "用自变量和常量组成的表示函数的表达式叫作函数表达式。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数",
+     "predicate": "INCLUDES",
+     "object": "函数的图象",
+     "evidence": "这些点组成的图形叫作函数的图象。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "函数",
+     "evidence": "数形结合是处理函数问题的常用方法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数",
+     "predicate": "PREREQUISITE",
+     "object": "一次函数",
+     "evidence": "本章将从变量与函数的概念出发，学习一次函数的定义、图象、性质及其应用。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:59.071Z"
+}

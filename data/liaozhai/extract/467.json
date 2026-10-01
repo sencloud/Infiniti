@@ -1,0 +1,232 @@
+{
+ "no": 467,
+ "title": "薛慰娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1990,
+   "entities": [
+    {
+     "name": "丰玉桂",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "聊城儒生，后中举，娶慰娘"
+    },
+    {
+     "name": "李洪都",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "平阳人，死后为鬼，认慰娘为义女"
+    },
+    {
+     "name": "薛慰娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛寅侯之女，被卖后自尽，复活后嫁丰玉桂"
+    },
+    {
+     "name": "李叔向",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李洪都三子，进士，寻父骨认慰娘为妹"
+    },
+    {
+     "name": "李伯仁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李洪都长子，进士，淮南县令"
+    },
+    {
+     "name": "李仲道",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李洪都次子，举人"
+    },
+    {
+     "name": "薛寅侯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "慰娘生父，游学至平阳，后与女团聚"
+    },
+    {
+     "name": "冯某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金陵媒人，害慰娘，后为殷富所杀"
+    },
+    {
+     "name": "殷富",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "媪之子，好博，杀冯某后投慰娘"
+    },
+    {
+     "name": "沂州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "故事发生地，有丛葬处"
+    },
+    {
+     "name": "平阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李洪都籍贯，后丰玉桂定居"
+    },
+    {
+     "name": "聊城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "丰玉桂籍贯"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "慰娘舅家所在地，冯某故乡"
+    },
+    {
+     "name": "丛葬处",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂州城南乱坟岗"
+    },
+    {
+     "name": "黄金二锭",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "李洪都分赠慰娘的嫁妆金锭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "丰玉桂",
+     "predicate": "NATIVE_OF",
+     "object": "聊城",
+     "evidence": "丰玉桂，聊城儒生也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李洪都",
+     "predicate": "NATIVE_OF",
+     "object": "平阳",
+     "evidence": "洪都姓李，平阳族",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李洪都",
+     "predicate": "KIN",
+     "object": "李叔向",
+     "evidence": "其父李洪都",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李洪都",
+     "predicate": "KIN",
+     "object": "李伯仁",
+     "evidence": "长伯仁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李洪都",
+     "predicate": "KIN",
+     "object": "李仲道",
+     "evidence": "次仲道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李洪都",
+     "predicate": "KIN",
+     "object": "薛慰娘",
+     "evidence": "女乃父事翁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛慰娘",
+     "predicate": "KIN",
+     "object": "薛寅侯",
+     "evidence": "女父薛寅侯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛慰娘",
+     "predicate": "SPOUSE",
+     "object": "丰玉桂",
+     "evidence": "遣归生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛慰娘",
+     "predicate": "KIN",
+     "object": "李叔向",
+     "evidence": "乃以慰娘为妹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李叔向",
+     "predicate": "HELPED",
+     "object": "薛慰娘",
+     "evidence": "解衣蔽覆，舁归逆旅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丰玉桂",
+     "predicate": "HELPED",
+     "object": "李叔向",
+     "evidence": "生乃引至墓所，指示之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯某",
+     "predicate": "HARMED",
+     "object": "薛慰娘",
+     "evidence": "投毒食中，女、妪皆迷",
+     "confidence": 0.95
+    },
+    {
+     "subject": "殷富",
+     "predicate": "KILLED",
+     "object": "冯某",
+     "evidence": "殴杀人命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丰玉桂",
+     "predicate": "LIVES_AT",
+     "object": "平阳",
+     "evidence": "生遂家于平阳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李洪都",
+     "predicate": "OWNS",
+     "object": "黄金二锭",
+     "evidence": "曩阿翁有黄金二锭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丰玉桂",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科举",
+     "evidence": "幸是科举孝廉",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:13.444Z"
+}

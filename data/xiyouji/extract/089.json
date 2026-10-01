@@ -1,0 +1,423 @@
+{
+ "no": 89,
+ "title": "黄狮精虚设钉钯宴 金木土计闹豹头山",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5963,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "师父",
+     "description": "东土圣僧，取经人"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，使九齿钉钯"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，使降妖杖"
+    },
+    {
+     "name": "黄狮精",
+     "type": "Person",
+     "aliases": [
+      "黄狮",
+      "黄毛狮子"
+     ],
+     "nickname": "妖王",
+     "description": "虎口洞妖王，金毛狮子成精"
+    },
+    {
+     "name": "刁钻古怪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄狮精手下狼头怪"
+    },
+    {
+     "name": "古怪刁钻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄狮精手下狼头怪"
+    },
+    {
+     "name": "玉华州",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "州城，老王父子治理"
+    },
+    {
+     "name": "虎口洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "豹头山妖洞，黄狮精盘踞"
+    },
+    {
+     "name": "九曲盘桓洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "竹节山妖洞，九灵元圣盘踞"
+    },
+    {
+     "name": "豹头山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉华州北面山，虎口洞所在"
+    },
+    {
+     "name": "竹节山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "九曲盘桓洞所在山"
+    },
+    {
+     "name": "钉钯宴",
+     "type": "Event",
+     "aliases": [
+      "钉钯嘉会"
+     ],
+     "nickname": "",
+     "description": "黄狮精庆钉钯而设的宴会"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒兵器"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空兵器"
+    },
+    {
+     "name": "降妖杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧兵器"
+    },
+    {
+     "name": "四明铲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄狮精兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "辞了三藏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父还睡哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父还睡哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄狮精",
+     "predicate": "LEADS",
+     "object": "虎口洞",
+     "evidence": "虎口洞中兴斗起",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "黄狮精",
+     "evidence": "那妖精就举铲来敌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "黄狮精",
+     "evidence": "三僧攒一怪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "黄狮精",
+     "evidence": "三僧攒一怪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "黄狮精",
+     "evidence": "妖精抵敌不住，向沙僧前喊一声：'看铲！'沙僧让个身法躲过，妖精得空而走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "东山头靠着一条金箍棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "高高的供养着一柄九齿钉钯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖杖",
+     "evidence": "西山头靠着一条降妖杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄狮精",
+     "predicate": "OWNS",
+     "object": "四明铲",
+     "evidence": "取一柄四明铲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄狮精",
+     "predicate": "MASTERMINDED",
+     "object": "钉钯宴",
+     "evidence": "立名钉钯嘉会",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钉钯宴",
+     "predicate": "OCCURRED_AT",
+     "object": "虎口洞",
+     "evidence": "虎口洞中兴斗起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "钉钯宴",
+     "evidence": "变做个蝴蝶儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "钉钯宴",
+     "evidence": "八戒你变做刁钻古怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "钉钯宴",
+     "evidence": "沙僧装做个贩猪羊的客人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "虎口洞",
+     "evidence": "把一个巢穴霎时烧得干净",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "ATTACKED",
+     "object": "虎口洞",
+     "evidence": "把一个巢穴霎时烧得干净",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "ATTACKED",
+     "object": "虎口洞",
+     "evidence": "把一个巢穴霎时烧得干净",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "古怪刁钻",
+     "evidence": "我变做古怪刁钻",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "TRANSFORMED",
+     "object": "刁钻古怪",
+     "evidence": "八戒你变做刁钻古怪",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 318,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，齐天大圣"
+    },
+    {
+     "name": "虎口洞妖精",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "昨日败阵的妖精，请来九灵元圣"
+    },
+    {
+     "name": "老王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "州城王府中的老王"
+    },
+    {
+     "name": "王子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "老王之子，与唐僧同席"
+    },
+    {
+     "name": "州城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "被妖精逼近的城池"
+    },
+    {
+     "name": "王府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "州城中老王与王子的府邸"
+    },
+    {
+     "name": "虎口洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖精盘踞的洞府"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "虎口洞妖精",
+     "evidence": "这是虎口洞妖精，昨日败阵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "州城守城",
+     "evidence": "他父子并唐僧在城楼上点札",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王子",
+     "predicate": "LEADS",
+     "object": "王府",
+     "evidence": "那王子果传令把四门闭了，点起人夫上城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老王",
+     "predicate": "LEADS",
+     "object": "王府",
+     "evidence": "老王大惊道：“怎么好？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎口洞妖精",
+     "predicate": "STATIONED_AT",
+     "object": "虎口洞",
+     "evidence": "这是虎口洞妖精",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:05.890Z"
+}

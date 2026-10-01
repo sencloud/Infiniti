@@ -1,0 +1,134 @@
+{
+ "no": 439,
+ "title": "汪可受",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 342,
+   "entities": [
+    {
+     "name": "汪可受",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "湖广黄梅县人，能记三生，官至大同巡抚"
+    },
+    {
+     "name": "汪秀才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汪可受之父，年近五旬得子"
+    },
+    {
+     "name": "寺僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汪可受第一世读书寺庙的僧人"
+    },
+    {
+     "name": "冥王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府之王，稽籍判罚"
+    },
+    {
+     "name": "黄梅县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "湖广黄梅县，汪可受籍贯"
+    },
+    {
+     "name": "僧寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汪可受第一世读书的寺庙"
+    },
+    {
+     "name": "农人家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汪可受第二世投生的农家"
+    },
+    {
+     "name": "汪秀才家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汪可受第三世投生的汪家"
+    },
+    {
+     "name": "骡驹",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "寺僧牝马所产，汪可受被罚转生为骡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "汪可受",
+     "predicate": "NATIVE_OF",
+     "object": "黄梅县",
+     "evidence": "湖广黄梅县汪可受",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪可受",
+     "predicate": "LIVES_AT",
+     "object": "僧寺",
+     "evidence": "一世为秀才，读书僧寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪可受",
+     "predicate": "HARMED",
+     "object": "寺僧",
+     "evidence": "僧有牝马产骡驹，爱而夺之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥王",
+     "predicate": "PUNISHED",
+     "object": "汪可受",
+     "evidence": "冥王稽籍，怒其贪暴，罚使为骡偿寺僧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪可受",
+     "predicate": "LIVES_AT",
+     "object": "农人家",
+     "evidence": "生一农人家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪可受",
+     "predicate": "LIVES_AT",
+     "object": "汪秀才家",
+     "evidence": "乃生汪秀才家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪可受",
+     "predicate": "KIN",
+     "object": "汪秀才",
+     "evidence": "乃生汪秀才家。秀才近五旬，得男甚喜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪可受",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "少年成进士",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:59.181Z"
+}

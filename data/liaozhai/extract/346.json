@@ -1,0 +1,180 @@
+{
+ "no": 346,
+ "title": "爱奴",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2193,
+   "entities": [
+    {
+     "name": "徐生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "河间人，在恩县教书的书生"
+    },
+    {
+     "name": "施敬业",
+     "type": "Person",
+     "aliases": [
+      "施叟"
+     ],
+     "nickname": "",
+     "description": "自称敬业的老叟，实为鬼"
+    },
+    {
+     "name": "爱奴",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋夫人婢女，死后为鬼"
+    },
+    {
+     "name": "蒋夫人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋南川之妻，死后为鬼"
+    },
+    {
+     "name": "蒋南川",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "旧为指挥使，已故"
+    },
+    {
+     "name": "公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋南川之子，十三四岁"
+    },
+    {
+     "name": "朱尔旦",
+     "type": "Person",
+     "aliases": [
+      "朱生"
+     ],
+     "nickname": "",
+     "description": "章丘朱生，素刚鲠，设帐于某贡士家"
+    },
+    {
+     "name": "马生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长山某家塾师"
+    },
+    {
+     "name": "古墓",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋夫人及爱奴葬所"
+    },
+    {
+     "name": "东昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，夫人曾往"
+    },
+    {
+     "name": "黄金",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "施叟所赠及爱奴腰间所藏"
+    },
+    {
+     "name": "玉饰金钏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "爱奴头上饰物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "徐生",
+     "predicate": "LIVES_AT",
+     "object": "古墓",
+     "evidence": "则身自陷冢中出，四望荒凉，一古墓也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐生",
+     "predicate": "LOVES",
+     "object": "爱奴",
+     "evidence": "入以游语，婢笑不拒，遂与狎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "爱奴",
+     "predicate": "HELPED",
+     "object": "徐生",
+     "evidence": "偶有所欲，意一萌，而婢已致之。又善巫，一挼挲而疴立愈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋夫人",
+     "predicate": "KIN",
+     "object": "公子",
+     "evidence": "夫人急掩其口",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蒋夫人",
+     "predicate": "KIN",
+     "object": "施敬业",
+     "evidence": "舍妹亦适归宁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋夫人",
+     "predicate": "HELPED",
+     "object": "徐生",
+     "evidence": "幸夫人重君，不然，败矣！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐生",
+     "predicate": "OWNS",
+     "object": "黄金",
+     "evidence": "遂出金置几上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "爱奴",
+     "predicate": "OWNS",
+     "object": "玉饰金钏",
+     "evidence": "头上玉饰金钏，都如新制",
+     "confidence": 0.9
+    },
+    {
+     "subject": "爱奴",
+     "predicate": "OWNS",
+     "object": "黄金",
+     "evidence": "又视腰间，裹黄金数铤",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "设帐",
+     "evidence": "章丘朱生，素刚鲠，设帐于某贡士家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "设帐",
+     "evidence": "马生馆其家",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:24.961Z"
+}

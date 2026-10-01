@@ -1,0 +1,71 @@
+{
+ "no": 146,
+ "title": "妾击贼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 388,
+   "entities": [
+    {
+     "name": "益都贵家某",
+     "type": "Person",
+     "aliases": [
+      "某"
+     ],
+     "nickname": "",
+     "description": "益都西鄙富户，蓄一妾，篇中称某"
+    },
+    {
+     "name": "冢室",
+     "type": "Person",
+     "aliases": [
+      "妻",
+      "大老婆"
+     ],
+     "nickname": "",
+     "description": "某之正妻，凌折妾，后改容待妾"
+    },
+    {
+     "name": "群贼",
+     "type": "Person",
+     "aliases": [
+      "贼"
+     ],
+     "nickname": "",
+     "description": "夜入某宅行劫的数十名强盗"
+    },
+    {
+     "name": "妾父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "妾之父，故枪棒师，妾尽传其术"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，故事发生地，某居其西鄙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "益都贵家某",
+     "predicate": "SPOUSE",
+     "object": "冢室",
+     "evidence": "而冢室凌折之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "益都贵家某",
+     "predicate": "LIVES_AT",
+     "object": "益都",
+     "evidence": "益都西鄙之贵家某者",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:08.383Z"
+}

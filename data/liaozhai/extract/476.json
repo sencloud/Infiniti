@@ -1,0 +1,120 @@
+{
+ "no": 476,
+ "title": "姬生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1733,
+   "entities": [
+    {
+     "name": "姬生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "南阳鄂氏之甥，名士不羁，后为狐所戏"
+    },
+    {
+     "name": "鄂氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "南阳人，姬生外祖，患狐"
+    },
+    {
+     "name": "姬生妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "姬生之妻，识破狐毒并以丹砂解之"
+    },
+    {
+     "name": "富室",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村中富户，被姬生窃取貂裘金鼎"
+    },
+    {
+     "name": "文宗",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "主持岁试的学政官员"
+    },
+    {
+     "name": "南阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，鄂氏与姬生所居"
+    },
+    {
+     "name": "道署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "文宗发落之官署"
+    },
+    {
+     "name": "岁试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "姬生参加并夺冠的科举考试"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "姬生",
+     "predicate": "KIN",
+     "object": "鄂氏",
+     "evidence": "鄂有甥姬生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姬生",
+     "predicate": "SPOUSE",
+     "object": "姬生妻",
+     "evidence": "携入内室。妻惊问之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姬生妻",
+     "predicate": "HELPED",
+     "object": "姬生",
+     "evidence": "因念丹砂可以却邪，遂研入酒，饮生。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姬生",
+     "predicate": "HARMED",
+     "object": "富室",
+     "evidence": "入其斋，窃取貂裘、金鼎而出",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姬生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "岁试",
+     "evidence": "生岁试冠军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "岁试",
+     "predicate": "OCCURRED_AT",
+     "object": "道署",
+     "evidence": "及发落之期，道署梁上黏一帖云",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姬生",
+     "predicate": "LIVES_AT",
+     "object": "南阳",
+     "evidence": "南阳鄂氏，患狐",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:16.013Z"
+}

@@ -1,0 +1,649 @@
+{
+ "no": 30,
+ "title": "邪魔侵正法 意马忆心猿",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5563,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "心猿",
+     "description": "唐僧大徒弟，去久未归"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被妖变作猛虎"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，从草科醒来"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙和尚",
+     "description": "唐僧三徒弟，被妖捆住"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "世尊",
+     "description": "西天佛祖，诗中提及"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王",
+      "东海敖广"
+     ],
+     "nickname": "龙王",
+     "description": "东海龙王，未出场"
+    },
+    {
+     "name": "西海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖闰",
+      "龙王",
+      "西海敖闰"
+     ],
+     "nickname": "龙王",
+     "description": "西海龙王，未出场"
+    },
+    {
+     "name": "南海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖钦",
+      "龙王",
+      "南海敖钦"
+     ],
+     "nickname": "龙王",
+     "description": "南海龙王，未出场"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "龙王",
+     "description": "北海龙王，未出场"
+    },
+    {
+     "name": "铁扇公主",
+     "type": "Person",
+     "aliases": [
+      "罗刹女",
+      "铁扇仙",
+      "公主"
+     ],
+     "nickname": "公主",
+     "description": "牛魔王之妻，未出场"
+    },
+    {
+     "name": "黄袍怪",
+     "type": "Person",
+     "aliases": [
+      "老妖",
+      "那怪",
+      "妖魔",
+      "三驸马",
+      "奎木狼"
+     ],
+     "nickname": "老妖",
+     "description": "碗子山波月洞妖怪，宝象国驸马"
+    },
+    {
+     "name": "宝象国国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "主公",
+      "万岁",
+      "父王"
+     ],
+     "nickname": "国王",
+     "description": "宝象国国王，百花羞之父"
+    },
+    {
+     "name": "小白龙",
+     "type": "Person",
+     "aliases": [
+      "玉龙三太子",
+      "白马",
+      "小龙",
+      "西海小龙王"
+     ],
+     "nickname": "小龙",
+     "description": "西海龙王之子，化白马驮唐僧"
+    },
+    {
+     "name": "宝象国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度，国王统治"
+    },
+    {
+     "name": "波月洞",
+     "type": "Organization",
+     "aliases": [
+      "碗子山波月洞"
+     ],
+     "nickname": "",
+     "description": "黄袍怪盘踞的妖洞"
+    },
+    {
+     "name": "碗子山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄袍怪所居之山"
+    },
+    {
+     "name": "波月庄",
+     "type": "Place",
+     "aliases": [
+      "城东碗子山波月庄"
+     ],
+     "nickname": "",
+     "description": "黄袍怪自称的庄所"
+    },
+    {
+     "name": "宝象国朝房",
+     "type": "Place",
+     "aliases": [
+      "朝房"
+     ],
+     "nickname": "",
+     "description": "宝象国朝中收押之所"
+    },
+    {
+     "name": "银安殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝象国宫殿，妖魔饮酒处"
+    },
+    {
+     "name": "御水河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝象国河流，小白龙藏身处"
+    },
+    {
+     "name": "金亭馆驿",
+     "type": "Place",
+     "aliases": [
+      "馆驿"
+     ],
+     "nickname": "",
+     "description": "宝象国驿站，唐僧师徒住处"
+    },
+    {
+     "name": "三打白骨精",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒与白骨精的冲突"
+    },
+    {
+     "name": "黄袍怪变虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄袍怪将唐僧变作猛虎"
+    },
+    {
+     "name": "小白龙战黄袍怪",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "小白龙化宫娥刺杀黄袍怪失败"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "黄袍怪",
+     "predicate": "KIN",
+     "object": "宝象国国王",
+     "evidence": "我是他驸马，他是我丈人，怎么不去认认？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "STATIONED_AT",
+     "object": "波月洞",
+     "evidence": "只因你把我师父捉在洞中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "MEMBER_OF",
+     "object": "宝象国",
+     "evidence": "三驸马特来见驾，乞为转奏转奏。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "我把那唐僧拿来，算计要他受用",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "那绣墩上坐的，正是那十三年前驮公主的猛虎，不是真正取经之人！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "TRANSFORMED",
+     "object": "唐僧",
+     "evidence": "将一口水望唐僧喷去，叫声“变！”那长老的真身，隐在殿上，真个变作一只斑斓猛虎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "DEFEATED",
+     "object": "沙悟净",
+     "evidence": "那怪把沙僧捆住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "DEFEATED",
+     "object": "小白龙",
+     "evidence": "小龙措手不及，被他把后腿上着了一下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小白龙",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "变白马，驮唐僧往西方取经",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小白龙",
+     "predicate": "TRANSFORMED",
+     "object": "宫娥",
+     "evidence": "他就摇身一变，也变做个宫娥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小白龙",
+     "predicate": "FOUGHT",
+     "object": "黄袍怪",
+     "evidence": "小龙现了本相，却驾起云头，与那妖魔在那半空中相杀。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小白龙",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "我今若不救唐僧，这功果休矣！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "宝象国",
+     "evidence": "我且进城去见了师父，奏准当今",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "我要回救沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "想老沙跟我师父一场",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "分明是他有书去，救了我师父，此是莫大之恩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄袍怪变虎",
+     "evidence": "将一口水望唐僧喷去，叫声“变！”那长老的真身，隐在殿上，真个变作一只斑斓猛虎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪变虎",
+     "predicate": "OCCURRED_AT",
+     "object": "宝象国",
+     "evidence": "那长老的真身，隐在殿上，真个变作一只斑斓猛虎。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小白龙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "小白龙战黄袍怪",
+     "evidence": "小龙现了本相，却驾起云头，与那妖魔在那半空中相杀。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小白龙战黄袍怪",
+     "predicate": "OCCURRED_AT",
+     "object": "银安殿",
+     "evidence": "两个出了银安殿，小龙现了本相，却驾起云头，与那妖魔在那半空中相杀。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "OWNS",
+     "object": "宝刀",
+     "evidence": "取了一口宝刀，佩在腰里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "OWNS",
+     "object": "满堂红",
+     "evidence": "举起一根满堂红，架住宝刀。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小白龙",
+     "predicate": "OWNS",
+     "object": "宝刀",
+     "evidence": "小龙接了刀，就留心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "NATIVE_OF",
+     "object": "波月庄",
+     "evidence": "臣是城东碗子山波月庄人家。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "LEADS",
+     "object": "波月洞",
+     "evidence": "那怪把沙僧捆住",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2572,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "花果山猴王，曾随唐僧取经，被逐回山"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被妖精捉拿"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，往花果山请孙悟空"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，被妖精拿住"
+    },
+    {
+     "name": "小龙",
+     "type": "Person",
+     "aliases": [
+      "白龙马",
+      "玉龙三太子"
+     ],
+     "nickname": "",
+     "description": "唐僧坐骑，劝猪八戒去请孙悟空"
+    },
+    {
+     "name": "白骨精",
+     "type": "Person",
+     "aliases": [
+      "白骨夫人",
+      "尸魔"
+     ],
+     "nickname": "白骨夫人",
+     "description": "白虎岭妖精，被孙悟空打死"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的老家，洞天福地"
+    },
+    {
+     "name": "高老庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒曾入赘之地"
+    },
+    {
+     "name": "白虎岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "白骨精所在之山"
+    },
+    {
+     "name": "水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山上的洞府"
+    },
+    {
+     "name": "群猴",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山孙悟空部下的猴子猴孙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "小龙",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "你趁早儿驾云回上花果山，请大师兄孙行者来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "你不跟唐僧取经去，却来这里怎的？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "沙兄弟已被他拿住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "师父想你，着我来请你的。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "白骨精",
+     "evidence": "前者在白虎岭上，打杀了那白骨夫人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "群猴",
+     "evidence": "他坐在一块石头崖上，面前有一千二百多猴子，分序排班，口称‘万岁！大圣爷爷！’",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "花果山",
+     "evidence": "你趁早儿驾云回上花果山，请大师兄孙行者来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "高老庄",
+     "evidence": "把行李等老猪挑去高老庄上，回炉做女婿去呀。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白骨精",
+     "predicate": "STATIONED_AT",
+     "object": "白虎岭",
+     "evidence": "前者在白虎岭上，打杀了那白骨夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "水帘洞",
+     "evidence": "贤弟，请你往水帘洞里去耍耍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "孙悟空",
+     "evidence": "我和你兄弟也做了几年",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙兄弟已被他拿住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙兄弟已被他拿住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "小龙",
+     "evidence": "师兄啊！你千万休生懒惰！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "小龙",
+     "evidence": "师兄啊！你千万休生懒惰！",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:32.968Z"
+}

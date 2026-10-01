@@ -1,0 +1,214 @@
+{
+ "no": 149,
+ "title": "续黄粱",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2852,
+   "entities": [
+    {
+     "name": "曾孝廉",
+     "type": "Person",
+     "aliases": [
+      "曾某",
+      "曾太师"
+     ],
+     "nickname": "",
+     "description": "福建人，中进士后梦为宰相，后遭祸"
+    },
+    {
+     "name": "老僧",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "毘卢禅院僧人，能幻化梦境点化曾某"
+    },
+    {
+     "name": "星者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "毘卢禅院算命人，预言曾某为宰相"
+    },
+    {
+     "name": "袅袅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋抚所赠女乐，曾某宠姬"
+    },
+    {
+     "name": "仙仙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋抚所赠女乐，曾某宠姬"
+    },
+    {
+     "name": "王子良",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾某微时周济他的邑绅"
+    },
+    {
+     "name": "郭太仆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾某怨恨的官员，被弹劾削职"
+    },
+    {
+     "name": "包学士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙图阁学士，上疏弹劾曾某"
+    },
+    {
+     "name": "顾秀才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾某转世后所嫁的秀才"
+    },
+    {
+     "name": "王者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府殿上丑形王者，审判曾某"
+    },
+    {
+     "name": "曾妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾某之妻，随其流放"
+    },
+    {
+     "name": "毘卢禅院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾某问卜避雨的寺院"
+    },
+    {
+     "name": "云南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾某被充军之地"
+    },
+    {
+     "name": "甘州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾某转世为女之地"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王者审判曾某的宫殿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "曾孝廉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "高捷南宫时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "LIVES_AT",
+     "object": "毘卢禅院",
+     "evidence": "与游侣避雨僧舍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "星者",
+     "predicate": "HELPED",
+     "object": "曾孝廉",
+     "evidence": "星者正容许二十年太平宰相",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "SPOUSE",
+     "object": "袅袅",
+     "evidence": "其尤者为袅袅，为仙仙，二人尤蒙宠顾",
+     "confidence": 0.8
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "SPOUSE",
+     "object": "仙仙",
+     "evidence": "其尤者为袅袅，为仙仙，二人尤蒙宠顾",
+     "confidence": 0.8
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "HELPED",
+     "object": "王子良",
+     "evidence": "荐为谏议，即奉俞旨，立行擢用",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "HARMED",
+     "object": "郭太仆",
+     "evidence": "弹章交至，奉旨削职以去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "包学士",
+     "predicate": "HARMED",
+     "object": "曾孝廉",
+     "evidence": "有龙图学士包上疏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "SPOUSE",
+     "object": "曾妻",
+     "evidence": "与妻并系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "LIVES_AT",
+     "object": "云南",
+     "evidence": "充云南军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王者",
+     "predicate": "PUNISHED",
+     "object": "曾孝廉",
+     "evidence": "此欺君误国之罪，宜置油鼎！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "LIVES_AT",
+     "object": "甘州",
+     "evidence": "王者令押去甘州为女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾孝廉",
+     "predicate": "SPOUSE",
+     "object": "顾秀才",
+     "evidence": "鬻与顾秀才备媵妾",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:10.415Z"
+}

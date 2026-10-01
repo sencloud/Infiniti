@@ -1,0 +1,119 @@
+{
+ "no": 80,
+ "title": "8.4 梯形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4852,
+   "entities": [
+    {
+     "name": "梯形",
+     "type": "Concept",
+     "aliases": [
+      "trapezoid"
+     ],
+     "nickname": "",
+     "description": "一组对边平行，另一组对边不平行的四边形"
+    },
+    {
+     "name": "等腰梯形",
+     "type": "Concept",
+     "aliases": [
+      "isosceles trapezoid"
+     ],
+     "nickname": "",
+     "description": "两腰相等的梯形"
+    },
+    {
+     "name": "直角梯形",
+     "type": "Concept",
+     "aliases": [
+      "right trapezoid"
+     ],
+     "nickname": "",
+     "description": "有一个角是直角的梯形"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "平行四边形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两组对边分别平行的四边形"
+    },
+    {
+     "name": "梯形面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "S梯形ABCD=1/2(a+b)h"
+    },
+    {
+     "name": "三角形面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "S△ABC=1/2ah"
+    },
+    {
+     "name": "平行四边形面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "S▱ABCD=ah"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "梯形",
+     "predicate": "INCLUDES",
+     "object": "等腰梯形",
+     "evidence": "两腰相等的梯形叫作等腰梯形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梯形",
+     "predicate": "INCLUDES",
+     "object": "直角梯形",
+     "evidence": "有一个角是直角的梯形叫作直角梯形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梯形",
+     "predicate": "RELATED",
+     "object": "三角形",
+     "evidence": "当点D与点A重合时，梯形变成了三角形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梯形",
+     "predicate": "RELATED",
+     "object": "平行四边形",
+     "evidence": "当AD=BC时，梯形变成了平行四边形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梯形面积公式",
+     "predicate": "RELATED",
+     "object": "三角形面积公式",
+     "evidence": "梯形、三角形、平行四边形的面积之间有如下关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梯形面积公式",
+     "predicate": "RELATED",
+     "object": "平行四边形面积公式",
+     "evidence": "梯形、三角形、平行四边形的面积之间有如下关系",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:04.615Z"
+}

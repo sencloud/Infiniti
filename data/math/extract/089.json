@@ -1,0 +1,276 @@
+{
+ "no": 89,
+ "title": "11.1 二次根式的概念",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3151,
+   "entities": [
+    {
+     "name": "二次根式",
+     "type": "Concept",
+     "aliases": [
+      "quadratic radical"
+     ],
+     "nickname": "",
+     "description": "形如√a(a≥0)的式子，表示a的算术平方根"
+    },
+    {
+     "name": "算术平方根",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "非负数a的非负平方根"
+    },
+    {
+     "name": "代数式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用运算符号连接数和字母的式子"
+    },
+    {
+     "name": "整式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "单项式和多项式的统称"
+    },
+    {
+     "name": "分式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母中含有字母的代数式"
+    },
+    {
+     "name": "一元二次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数最高次数为2的整式方程"
+    },
+    {
+     "name": "锐角三角函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形中锐角的三角函数"
+    },
+    {
+     "name": "幂运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "关于幂的运算"
+    },
+    {
+     "name": "开平方运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求一个数平方根的运算"
+    },
+    {
+     "name": "绝对值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上表示数a的点与原点的距离"
+    },
+    {
+     "name": "二次根式的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "(√a)²=a(a≥0)和√(a²)=|a|"
+    },
+    {
+     "name": "二次根式的运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次根式的加、减、乘、除等运算"
+    },
+    {
+     "name": "归纳",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从特殊到一般的推理方法"
+    },
+    {
+     "name": "类比",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据相似性进行推理的方法"
+    },
+    {
+     "name": "证明",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据已知事实和规则进行逻辑推理"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等且四个角为直角的四边形"
+    },
+    {
+     "name": "圆",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "平面内到定点距离等于定长的点的集合"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角为直角的三角形"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的四边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "二次根式",
+     "predicate": "INCLUDES",
+     "object": "二次根式的性质",
+     "evidence": "本章主要学习二次根式的概念、性质及其运算．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "INCLUDES",
+     "object": "二次根式的运算",
+     "evidence": "本章主要学习二次根式的概念、性质及其运算．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "PREREQUISITE",
+     "object": "一元二次方程",
+     "evidence": "二次根式是后续学习一元二次方程、锐角三角函数等知识的重要基础．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "PREREQUISITE",
+     "object": "锐角三角函数",
+     "evidence": "二次根式是后续学习一元二次方程、锐角三角函数等知识的重要基础．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "RELATED",
+     "object": "幂运算",
+     "evidence": "二次根式的运算性质和幂运算类似",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "RELATED",
+     "object": "整式",
+     "evidence": "与前面学习的整式和分式一样，二次根式也是一种代数式．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "RELATED",
+     "object": "分式",
+     "evidence": "与前面学习的整式和分式一样，二次根式也是一种代数式．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "INCLUDES",
+     "object": "算术平方根",
+     "evidence": "当a是一个非负数时，√a表示a的算术平方根。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "二次根式",
+     "evidence": "当a≥0时，(√a)²=a。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "二次根式",
+     "evidence": "√a²=|a|．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式的性质",
+     "predicate": "DERIVES",
+     "object": "绝对值",
+     "evidence": "根据绝对值的意义，当a≥0时，|a|=a；当a<0时，|a|=-a．由此可知：√a²=|a|．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "归纳",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式的性质",
+     "evidence": "我们可以通过归纳、类比、证明等方法，体验这些运算性质的形成和运用过程．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "类比",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式的性质",
+     "evidence": "我们可以通过归纳、类比、证明等方法，体验这些运算性质的形成和运用过程．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "证明",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式的性质",
+     "evidence": "我们可以通过归纳、类比、证明等方法，体验这些运算性质的形成和运用过程．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "APPLIES_TO",
+     "object": "正方形",
+     "evidence": "边长为1的正方形对角线的长；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "APPLIES_TO",
+     "object": "圆",
+     "evidence": "面积为S的圆的半径；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "APPLIES_TO",
+     "object": "直角三角形",
+     "evidence": "直角边长分别为a，b的直角三角形斜边的长；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式",
+     "predicate": "RELATED",
+     "object": "开平方运算",
+     "evidence": "二次根式是开平方运算的一种表达式．",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:12.912Z"
+}

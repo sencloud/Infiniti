@@ -1,0 +1,50 @@
+{
+ "no": 280,
+ "title": "禄数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 132,
+   "entities": [
+    {
+     "name": "某显者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "禄数篇中做不法之事的大官"
+    },
+    {
+     "name": "夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "禄数篇中某显者之妻，劝谏果报"
+    },
+    {
+     "name": "方士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "禄数篇中能知人禄数的算命先生"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "夫人",
+     "predicate": "KIN",
+     "object": "某显者",
+     "evidence": "某显者多为不道，夫人每以果报劝谏之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某显者",
+     "predicate": "HELPED",
+     "object": "方士",
+     "evidence": "适有方士，能知人禄数，诣之",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:57.003Z"
+}

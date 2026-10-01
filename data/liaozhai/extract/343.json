@@ -1,0 +1,143 @@
+{
+ "no": 343,
+ "title": "佟客",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 630,
+   "entities": [
+    {
+     "name": "董生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐州人，好击剑，慷慨自负"
+    },
+    {
+     "name": "佟客",
+     "type": "Person",
+     "aliases": [
+      "佟姓"
+     ],
+     "nickname": "",
+     "description": "辽阳人，异人，有剑术"
+    },
+    {
+     "name": "董父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "董生之父，居隔院"
+    },
+    {
+     "name": "董妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "董生之妻"
+    },
+    {
+     "name": "徐州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "董生籍贯"
+    },
+    {
+     "name": "辽阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "佟客籍贯"
+    },
+    {
+     "name": "董生家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "董生住所，有隔院"
+    },
+    {
+     "name": "短刃",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "佟客所持，削董剑如瓜瓠"
+    },
+    {
+     "name": "董生佩剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "董生所佩，甲铁所铸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "董生",
+     "predicate": "NATIVE_OF",
+     "object": "徐州",
+     "evidence": "董生，徐州人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "佟客",
+     "predicate": "NATIVE_OF",
+     "object": "辽阳",
+     "evidence": "云“辽阳佟姓。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董生",
+     "predicate": "FRIEND",
+     "object": "佟客",
+     "evidence": "邀佟至家，坚留信宿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董生",
+     "predicate": "LIVES_AT",
+     "object": "董生家",
+     "evidence": "邀佟至家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董生",
+     "predicate": "KIN",
+     "object": "董父",
+     "evidence": "隔院为生父居",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董生",
+     "predicate": "KIN",
+     "object": "董妻",
+     "evidence": "入告其妻",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董生",
+     "predicate": "OWNS",
+     "object": "董生佩剑",
+     "evidence": "即出佩剑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "佟客",
+     "predicate": "OWNS",
+     "object": "短刃",
+     "evidence": "遂于衣底出短刃尺许",
+     "confidence": 0.95
+    },
+    {
+     "subject": "佟客",
+     "predicate": "HELPED",
+     "object": "董生",
+     "evidence": "佟止之曰：“此去恐无生理，宜审万全。”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:22.331Z"
+}

@@ -1,0 +1,50 @@
+{
+ "no": 308,
+ "title": "化男",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 89,
+   "entities": [
+    {
+     "name": "民女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州木渎镇民女，夜坐庭中被陨星击中，化为男子"
+    },
+    {
+     "name": "民女父母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州木渎镇人，年老无子，仅有一女"
+    },
+    {
+     "name": "木渎镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州地名，民女所居之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "民女",
+     "predicate": "LIVES_AT",
+     "object": "木渎镇",
+     "evidence": "苏州木渎镇有民女夜坐庭中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "民女",
+     "predicate": "KIN",
+     "object": "民女父母",
+     "evidence": "父母老而无子，止此女",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:07.610Z"
+}

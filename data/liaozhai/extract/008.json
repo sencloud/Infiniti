@@ -1,0 +1,57 @@
+{
+ "no": 8,
+ "title": "咬鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 371,
+   "entities": [
+    {
+     "name": "某翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沈麟生之友，夏月昼寝遇鬼"
+    },
+    {
+     "name": "夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某翁之妻，闻呼有鬼奔入"
+    },
+    {
+     "name": "沈麟生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "叙述者，言其友某翁事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "夫人",
+     "predicate": "HELPED",
+     "object": "某翁",
+     "evidence": "庭外忽闻夫人声，急呼有鬼，一缓颊而女子已飘忽遁去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某翁",
+     "predicate": "SPOUSE",
+     "object": "夫人",
+     "evidence": "庭外忽闻夫人声",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沈麟生",
+     "predicate": "FRIEND",
+     "object": "某翁",
+     "evidence": "沈麟生云：其友某翁者",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:15.160Z"
+}

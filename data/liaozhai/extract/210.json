@@ -1,0 +1,38 @@
+{
+ "no": 210,
+ "title": "龙肉",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 70,
+   "entities": [
+    {
+     "name": "姜玉璇",
+     "type": "Person",
+     "aliases": [
+      "姜太史"
+     ],
+     "nickname": "",
+     "description": "太史，曾食龙肉，讲述龙堆之事"
+    },
+    {
+     "name": "龙堆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙漠之地，掘地数尺有龙肉"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "姜玉璇",
+     "predicate": "LIVES_AT",
+     "object": "龙堆",
+     "evidence": "太史曾食其肉",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:30.179Z"
+}

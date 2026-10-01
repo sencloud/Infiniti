@@ -1,0 +1,901 @@
+{
+ "no": 24,
+ "title": "乐书",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5857,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "尼父"
+     ],
+     "nickname": "",
+     "description": "春秋思想家，儒家创始人"
+    },
+    {
+     "name": "李斯",
+     "type": "Person",
+     "aliases": [
+      "通古",
+      "李丞相",
+      "廷尉斯"
+     ],
+     "nickname": "",
+     "description": "秦朝丞相"
+    },
+    {
+     "name": "赵高",
+     "type": "Person",
+     "aliases": [
+      "中车府令"
+     ],
+     "nickname": "",
+     "description": "秦朝宦官，中车府令"
+    },
+    {
+     "name": "胡亥",
+     "type": "Person",
+     "aliases": [
+      "秦二世",
+      "二世皇帝"
+     ],
+     "nickname": "",
+     "description": "秦朝第二位皇帝"
+    },
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉高祖",
+      "沛公",
+      "高祖",
+      "汉王"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝"
+    },
+    {
+     "name": "汲黯",
+     "type": "Person",
+     "aliases": [
+      "汲长孺"
+     ],
+     "nickname": "",
+     "description": "西汉中尉，直言敢谏"
+    },
+    {
+     "name": "公孙弘",
+     "type": "Person",
+     "aliases": [
+      "平津侯"
+     ],
+     "nickname": "",
+     "description": "西汉丞相，封平津侯"
+    },
+    {
+     "name": "魏文侯",
+     "type": "Person",
+     "aliases": [
+      "魏斯",
+      "魏侯"
+     ],
+     "nickname": "",
+     "description": "战国魏国君主"
+    },
+    {
+     "name": "子夏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔子弟子，魏文侯师"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "子长",
+      "太史公"
+     ],
+     "nickname": "",
+     "description": "西汉史学家，《史记》作者"
+    },
+    {
+     "name": "周成王",
+     "type": "Person",
+     "aliases": [
+      "成王",
+      "太子诵"
+     ],
+     "nickname": "",
+     "description": "西周第二代君主"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝诸侯国，后统一天下"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝诸侯国"
+    },
+    {
+     "name": "齐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝诸侯国"
+    },
+    {
+     "name": "沛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘邦起兵之地，今江苏沛县"
+    },
+    {
+     "name": "大宛",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西域古国"
+    },
+    {
+     "name": "丞相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "百官之长"
+    },
+    {
+     "name": "中尉",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "武官，掌京师治安"
+    },
+    {
+     "name": "协律都尉",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "掌音乐之官"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李斯",
+     "predicate": "ADVISED",
+     "object": "胡亥",
+     "evidence": "丞相李斯进谏曰：“放弃《诗》《书》，极意声色，祖伊所以惧也；轻积细过，恣心长夜，纣所以亡也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵高",
+     "predicate": "ADVISED",
+     "object": "胡亥",
+     "evidence": "赵高曰：“五帝、三王乐各殊名，示不相袭。上自朝廷，下至人民，得以接欢喜，合殷勤，非此和说不通，解泽不流，亦各一世之化，度时之乐，何必华山之騄耳而后行远乎？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汲黯",
+     "predicate": "ADVISED",
+     "object": "刘邦",
+     "evidence": "中尉汲黯进曰：“凡王者作乐，上以承祖宗，下以化兆民。今陛下得马，诗以为歌，协于宗庙，先帝百姓岂能知其音邪？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙弘",
+     "predicate": "FRAMED",
+     "object": "汲黯",
+     "evidence": "丞相公孙弘曰：“黯诽谤圣制，当族。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏文侯",
+     "predicate": "ADVISED",
+     "object": "子夏",
+     "evidence": "魏文侯问于子夏曰：“吾端冕而听古乐则唯恐卧，听郑卫之音则不知倦。敢问古乐之如彼，何也？新乐之如此，何也？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子夏",
+     "predicate": "ADVISED",
+     "object": "魏文侯",
+     "evidence": "子夏答曰：“今夫古乐，进旅而退旅，和正以广，弦匏笙簧合守拊鼓，始奏以文，止乱以武，治乱以相，讯疾以雅。君子于是语，于是道古，修身及家，平均天下：此古乐之发也。……”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "NATIVE_OF",
+     "object": "鲁",
+     "evidence": "自仲尼不能与齐优遂容于鲁",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "ENFEOFFED",
+     "object": "沛",
+     "evidence": "高祖过沛诗《三侯之章》，令小儿歌之。高祖崩，令沛得以四时歌舞宗庙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李斯",
+     "predicate": "HELD_OFFICE",
+     "object": "丞相",
+     "evidence": "丞相李斯进谏曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汲黯",
+     "predicate": "HELD_OFFICE",
+     "object": "中尉",
+     "evidence": "中尉汲黯进曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙弘",
+     "predicate": "HELD_OFFICE",
+     "object": "丞相",
+     "evidence": "丞相公孙弘曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李延年",
+     "predicate": "HELD_OFFICE",
+     "object": "协律都尉",
+     "evidence": "令侍中李延年次序其声，拜为协律都尉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "FOUGHT",
+     "object": "大宛",
+     "evidence": "后伐大宛得千里马",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2731,
+   "entities": [
+    {
+     "name": "黄帝",
+     "type": "Person",
+     "aliases": [
+      "轩辕",
+      "轩辕氏",
+      "有熊",
+      "公孙轩辕"
+     ],
+     "nickname": "",
+     "description": "上古帝王"
+    },
+    {
+     "name": "周武王",
+     "type": "Person",
+     "aliases": [
+      "发",
+      "武王",
+      "太子发"
+     ],
+     "nickname": "",
+     "description": "周朝开国君主"
+    },
+    {
+     "name": "周公旦",
+     "type": "Person",
+     "aliases": [
+      "旦",
+      "周公",
+      "叔旦"
+     ],
+     "nickname": "",
+     "description": "周武王之弟"
+    },
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "尼父"
+     ],
+     "nickname": "",
+     "description": "儒家创始人"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "子长",
+      "太史公"
+     ],
+     "nickname": "",
+     "description": "《史记》作者"
+    },
+    {
+     "name": "比干",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商纣王叔父"
+    },
+    {
+     "name": "箕子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商纣王叔父"
+    },
+    {
+     "name": "召公",
+     "type": "Person",
+     "aliases": [
+      "召公奭",
+      "召康公",
+      "邵公"
+     ],
+     "nickname": "",
+     "description": "周朝大臣"
+    },
+    {
+     "name": "子夏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔子弟子"
+    },
+    {
+     "name": "宾牟贾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔子弟子"
+    },
+    {
+     "name": "苌弘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝大夫"
+    },
+    {
+     "name": "子贡",
+     "type": "Person",
+     "aliases": [
+      "赐"
+     ],
+     "nickname": "",
+     "description": "孔子弟子"
+    },
+    {
+     "name": "师乙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐师"
+    },
+    {
+     "name": "师涓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卫灵公乐师"
+    },
+    {
+     "name": "师旷",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋平公乐师"
+    },
+    {
+     "name": "师延",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商纣王乐师"
+    },
+    {
+     "name": "卫灵公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卫国君主"
+    },
+    {
+     "name": "晋平公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋国君主"
+    },
+    {
+     "name": "郑",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "宋",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "卫",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "齐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "商",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "朝代"
+    },
+    {
+     "name": "周",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "朝代"
+    },
+    {
+     "name": "晋",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "蓟",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名"
+    },
+    {
+     "name": "祝",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名"
+    },
+    {
+     "name": "陈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名"
+    },
+    {
+     "name": "杞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名"
+    },
+    {
+     "name": "宋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名"
+    },
+    {
+     "name": "濮水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "河流名"
+    },
+    {
+     "name": "施惠之台",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "台名"
+    },
+    {
+     "name": "牧野",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名"
+    },
+    {
+     "name": "华山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山名"
+    },
+    {
+     "name": "桃林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名"
+    },
+    {
+     "name": "太学",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "学校"
+    },
+    {
+     "name": "明堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "建筑"
+    },
+    {
+     "name": "牧野之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武王伐纣战役"
+    },
+    {
+     "name": "武王克殷",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "周武王灭商"
+    },
+    {
+     "name": "大合鬼神",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄帝祭祀鬼神"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "子夏",
+     "predicate": "SERVED",
+     "object": "孔子",
+     "evidence": "子夏答曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宾牟贾",
+     "predicate": "SERVED",
+     "object": "孔子",
+     "evidence": "宾牟贾侍坐于孔子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "ADVISED",
+     "object": "宾牟贾",
+     "evidence": "子曰：'居，吾语汝。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子贡",
+     "predicate": "SERVED",
+     "object": "孔子",
+     "evidence": "子贡见师乙而问焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师乙",
+     "predicate": "SERVED",
+     "object": "子贡",
+     "evidence": "师乙曰：'乙，贱工也，何足以问所宜。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师涓",
+     "predicate": "SERVED",
+     "object": "卫灵公",
+     "evidence": "乃召师涓曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师旷",
+     "predicate": "SERVED",
+     "object": "晋平公",
+     "evidence": "即令师涓坐师旷旁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "牧野之战",
+     "evidence": "且夫女独未闻牧野之语乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武王克殷",
+     "evidence": "武王克殷反商",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "蓟",
+     "evidence": "封黄帝之后于蓟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "祝",
+     "evidence": "封帝尧之后于祝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "陈",
+     "evidence": "封帝舜之后于陈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "杞",
+     "evidence": "封夏后氏之后于杞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "宋",
+     "evidence": "封殷之后于宋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "KILLED",
+     "object": "比干",
+     "evidence": "封王子比干之墓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "KILLED",
+     "object": "箕子",
+     "evidence": "释箕子之囚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄帝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大合鬼神",
+     "evidence": "昔者黄帝以大合鬼神",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卫灵公",
+     "predicate": "RULED",
+     "object": "卫",
+     "evidence": "而卫灵公之时，将之晋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晋平公",
+     "predicate": "RULED",
+     "object": "晋",
+     "evidence": "见晋平公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周公旦",
+     "predicate": "SERVED",
+     "object": "周武王",
+     "evidence": "周公左，召公右",
+     "confidence": 0.9
+    },
+    {
+     "subject": "召公",
+     "predicate": "SERVED",
+     "object": "周武王",
+     "evidence": "周公左，召公右",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "ADVISED",
+     "object": "宾牟贾",
+     "evidence": "子曰：'唯丘之闻诸苌弘，亦若吾子之言是也。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苌弘",
+     "predicate": "ADVISED",
+     "object": "孔子",
+     "evidence": "丘之闻诸苌弘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师旷",
+     "predicate": "ADVISED",
+     "object": "晋平公",
+     "evidence": "师旷抚而止之曰：'此亡国之声也，不可遂。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师涓",
+     "predicate": "SERVED",
+     "object": "卫灵公",
+     "evidence": "师涓鼓而终之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师旷",
+     "predicate": "SERVED",
+     "object": "晋平公",
+     "evidence": "师旷不得已，援琴而鼓之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "牧野之战",
+     "evidence": "且夫女独未闻牧野之语乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武王克殷",
+     "evidence": "武王克殷反商",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "蓟",
+     "evidence": "封黄帝之后于蓟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "祝",
+     "evidence": "封帝尧之后于祝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "陈",
+     "evidence": "封帝舜之后于陈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "杞",
+     "evidence": "封夏后氏之后于杞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "ENFEOFFED",
+     "object": "宋",
+     "evidence": "封殷之后于宋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "KILLED",
+     "object": "比干",
+     "evidence": "封王子比干之墓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "KILLED",
+     "object": "箕子",
+     "evidence": "释箕子之囚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄帝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大合鬼神",
+     "evidence": "昔者黄帝以大合鬼神",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卫灵公",
+     "predicate": "RULED",
+     "object": "卫",
+     "evidence": "而卫灵公之时，将之晋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晋平公",
+     "predicate": "RULED",
+     "object": "晋",
+     "evidence": "见晋平公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周公旦",
+     "predicate": "SERVED",
+     "object": "周武王",
+     "evidence": "周公左，召公右",
+     "confidence": 0.9
+    },
+    {
+     "subject": "召公",
+     "predicate": "SERVED",
+     "object": "周武王",
+     "evidence": "周公左，召公右",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "ADVISED",
+     "object": "宾牟贾",
+     "evidence": "子曰：'唯丘之闻诸苌弘，亦若吾子之言是也。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苌弘",
+     "predicate": "ADVISED",
+     "object": "孔子",
+     "evidence": "丘之闻诸苌弘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师旷",
+     "predicate": "ADVISED",
+     "object": "晋平公",
+     "evidence": "师旷抚而止之曰：'此亡国之声也，不可遂。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师涓",
+     "predicate": "SERVED",
+     "object": "卫灵公",
+     "evidence": "师涓鼓而终之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师旷",
+     "predicate": "SERVED",
+     "object": "晋平公",
+     "evidence": "师旷不得已，援琴而鼓之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:30.439Z"
+}

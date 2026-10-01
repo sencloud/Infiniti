@@ -1,0 +1,101 @@
+{
+ "no": 136,
+ "title": "8.5 概率帮你做估计",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2682,
+   "entities": [
+    {
+     "name": "频率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "频数与试验次数的比值"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "事件发生可能性大小的数值"
+    },
+    {
+     "name": "用频率估计概率",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "当试验次数很大时，用频率作为概率的估计值"
+    },
+    {
+     "name": "捉放捉",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过捕捉、标记、放回、再捕捉来估计种群数量的方法"
+    },
+    {
+     "name": "几何概型",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "试验结果落在某区域中每一点机会均等的概率模型"
+    },
+    {
+     "name": "几何概率公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "P(A)=M的面积/S的面积"
+    },
+    {
+     "name": "圆周率",
+     "type": "Concept",
+     "aliases": [
+      "π"
+     ],
+     "nickname": "",
+     "description": "圆的周长与直径的比值，无理数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "频率",
+     "predicate": "PREREQUISITE",
+     "object": "用频率估计概率",
+     "evidence": "当试验次数很大时，用频率作为概率的估计值",
+     "confidence": 0.95
+    },
+    {
+     "subject": "用频率估计概率",
+     "predicate": "APPLIES_TO",
+     "object": "捉放捉",
+     "evidence": "计算捕到带有记号的青鱼的频率并把它作为捕到带有记号的青鱼的概率的估计值，这样，我们就可以估算出鱼塘内青鱼的条数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "几何概型",
+     "predicate": "PREREQUISITE",
+     "object": "几何概率公式",
+     "evidence": "设试验结果落在某区域S中每一点的机会均等，如果把“试验结果落在S中的一个小区域M中”记为事件A，那么P(A)=M的面积/S的面积",
+     "confidence": 0.95
+    },
+    {
+     "subject": "几何概率公式",
+     "predicate": "APPLIES_TO",
+     "object": "圆周率",
+     "evidence": "我们可以用m/n来估计π/4，从而求得圆周率π的估计值",
+     "confidence": 0.9
+    },
+    {
+     "subject": "用频率估计概率",
+     "predicate": "APPLIES_TO",
+     "object": "圆周率",
+     "evidence": "当试验次数很大时，事件发生的频率可以作为这个事件发生的概率的估计值。这样，我们可以用m/n来估计π/4，从而求得圆周率π的估计值",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:33.733Z"
+}

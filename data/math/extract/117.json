@@ -1,0 +1,85 @@
+{
+ "no": 117,
+ "title": "5.4 二次函数与一元二次方程",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2548,
+   "entities": [
+    {
+     "name": "二次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=ax²+bx+c（a≠0）的函数"
+    },
+    {
+     "name": "一元二次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数最高次数为2的整式方程"
+    },
+    {
+     "name": "根的判别式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "Δ=b²-4ac，用于判断一元二次方程根的情况"
+    },
+    {
+     "name": "一元二次不等式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含一个未知数且未知数最高次数为2的不等式"
+    },
+    {
+     "name": "二次函数的图像",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "抛物线，直观显示二次函数性质"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "结合图像与代数关系解决问题的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "二次函数",
+     "predicate": "RELATED",
+     "object": "一元二次方程",
+     "evidence": "如果二次函数y=ax^2+bx+c的图像与x轴有两个公共点，那么一元二次方程ax^2+bx+c=0有两个不相等的实数根",
+     "confidence": 0.95
+    },
+    {
+     "subject": "根的判别式",
+     "predicate": "APPLIES_TO",
+     "object": "一元二次方程",
+     "evidence": "因为一元二次方程 -x^2+5x-8=0 的根的判别式 b^2-4ac=5^2-4×(-1)×(-8)<0，所以方程 -x^2+5x-8=0 没有实数根",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次函数的图像",
+     "predicate": "RELATED",
+     "object": "一元二次不等式",
+     "evidence": "当x<1或x>3时，图像上所有点的纵坐标y都大于0。也就是说，x<1或x>3是一元二次不等式x^2-4x+3>0的解集",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "一元二次方程",
+     "evidence": "利用二次函数y=x^2+2x-5的图像，借助计算器探索方程x^2+2x-5=0的另一个介于-4与-3之间的根的近似值",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:23.608Z"
+}

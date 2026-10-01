@@ -1,0 +1,522 @@
+{
+ "no": 98,
+ "title": "猿熟马驯方脱壳 功成行满见真如",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5988,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "悟空",
+     "description": "唐僧大徒弟，保护唐僧取经"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "如来",
+     "description": "西天佛祖，掌管佛教"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "寻找取经人"
+    },
+    {
+     "name": "燃灯古佛",
+     "type": "Person",
+     "aliases": [
+      "燃灯",
+      "过去佛",
+      "定光佛"
+     ],
+     "nickname": "燃灯",
+     "description": "过去佛，识破无字经"
+    },
+    {
+     "name": "金顶大仙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵山脚下玉真观大仙"
+    },
+    {
+     "name": "阿傩",
+     "type": "Person",
+     "aliases": [
+      "阿难"
+     ],
+     "nickname": "",
+     "description": "如来弟子，传经尊者"
+    },
+    {
+     "name": "比丘尼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵山女僧"
+    },
+    {
+     "name": "接引佛祖",
+     "type": "Person",
+     "aliases": [
+      "南无宝幢光王佛"
+     ],
+     "nickname": "",
+     "description": "撑无底船接引唐僧"
+    },
+    {
+     "name": "白雄尊者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "燃灯古佛座下尊者"
+    },
+    {
+     "name": "灵山",
+     "type": "Organization",
+     "aliases": [
+      "灵鹫高峰",
+      "雷音寺",
+      "大雷音寺"
+     ],
+     "nickname": "",
+     "description": "佛祖所在圣地"
+    },
+    {
+     "name": "玉真观",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵山脚下道观"
+    },
+    {
+     "name": "凌云渡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵山脚下渡口"
+    },
+    {
+     "name": "无底船",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "接引佛祖的渡船"
+    },
+    {
+     "name": "无字真经",
+     "type": "Item",
+     "aliases": [
+      "无字之经",
+      "白本"
+     ],
+     "nickname": "",
+     "description": "阿傩伽叶所传无字经书"
+    },
+    {
+     "name": "有字真经",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来所赐有字经书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我等亏师父解脱，借门路修功，幸成了正果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "我等亏师父解脱，借门路修功，幸成了正果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "师父也赖我等保护，秉教伽持，喜脱了凡胎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "师父也赖我等保护，秉教伽持，喜脱了凡胎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "唐僧",
+     "evidence": "他十年前领佛金旨，向东土寻取经人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "接引佛祖",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "那师父踏不住脚，毂辘的跌在水里，早被撑船人一把扯起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "凌云渡",
+     "evidence": "好大圣，拽开步跳上独木桥，摇摇摆摆，须臾跑将过去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "凌云渡",
+     "evidence": "那师父踏不住脚，毂辘的跌在水里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "凌云渡",
+     "evidence": "八戒慌了道：这是路，那个敢走？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "凌云渡",
+     "evidence": "沙僧走去劝解，才撒脱了手",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凌云渡",
+     "predicate": "OCCURRED_AT",
+     "object": "灵山",
+     "evidence": "大圣引着唐僧等，徐徐缓步，登了灵山，不上五六里，见了一道活水",
+     "confidence": 0.9
+    },
+    {
+     "subject": "接引佛祖",
+     "predicate": "OWNS",
+     "object": "无底船",
+     "evidence": "那船儿来得至近，原来是一只无底的船儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿傩",
+     "predicate": "OWNS",
+     "object": "无字真经",
+     "evidence": "阿傩、伽叶将无字之经传去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燃灯古佛",
+     "predicate": "MASTERMINDED",
+     "object": "无字真经",
+     "evidence": "古佛吩咐道：你可作起神威，飞星赶上唐僧，把那无字之经夺了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白雄尊者",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "半空中伸下一只手来，将马驮的经，轻轻抢去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "OWNS",
+     "object": "有字真经",
+     "evidence": "快将有字的真经，每部中各检几卷与他",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿傩",
+     "predicate": "SERVED",
+     "object": "如来佛祖",
+     "evidence": "二尊者即奉佛旨，将他四众领至楼下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金顶大仙",
+     "predicate": "MEMBER_OF",
+     "object": "玉真观",
+     "evidence": "此乃是灵山脚下玉真观金顶大仙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "灵山",
+     "evidence": "四众到大雄宝殿殿前，对如来倒身下拜",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1492,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经人，东土圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "",
+     "description": "唐僧二徒弟"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "唐僧三徒弟"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "",
+     "description": "西天佛祖"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "",
+     "description": "南海菩萨"
+    },
+    {
+     "name": "阿傩",
+     "type": "Person",
+     "aliases": [
+      "阿难"
+     ],
+     "nickname": "",
+     "description": "如来弟子，传经尊者"
+    },
+    {
+     "name": "伽叶",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来弟子，传经尊者"
+    },
+    {
+     "name": "唐王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐朝皇帝"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者"
+     ],
+     "nickname": "",
+     "description": "唐僧大徒弟"
+    },
+    {
+     "name": "灵山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来佛祖所在圣地"
+    },
+    {
+     "name": "紫金钵盂",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐王所赐化斋钵盂"
+    },
+    {
+     "name": "真经",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来所传经卷"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "紫金钵盂",
+     "evidence": "这钵盂乃唐王亲手所赐，教弟子持此，沿路化斋。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐王",
+     "predicate": "OWNS",
+     "object": "紫金钵盂",
+     "evidence": "这钵盂乃唐王亲手所赐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "传经之会",
+     "evidence": "如来因打发唐僧去后，才散了传经之会。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿傩",
+     "predicate": "OWNS",
+     "object": "紫金钵盂",
+     "evidence": "那阿傩接了，但微微而笑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "真经",
+     "evidence": "传了五千零四十八卷，乃一藏之数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "SERVED",
+     "object": "如来佛祖",
+     "evidence": "弟子当年领金旨向东土寻取经之人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "LEADS",
+     "object": "灵山",
+     "evidence": "如来高升莲座",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "灵山",
+     "evidence": "引唐僧来见如来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "行者牵了马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒挑着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧挑着",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:25.170Z"
+}

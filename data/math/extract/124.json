@@ -1,0 +1,145 @@
+{
+ "no": 124,
+ "title": "6.6 图形的位似",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2065,
+   "entities": [
+    {
+     "name": "位似多边形",
+     "type": "Concept",
+     "aliases": [
+      "位似形"
+     ],
+     "nickname": "",
+     "description": "对应顶点连线交于一点，对应边成比例的多边形"
+    },
+    {
+     "name": "位似中心",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "位似多边形对应顶点连线的交点"
+    },
+    {
+     "name": "相似多边形",
+     "type": "Concept",
+     "aliases": [
+      "相似形"
+     ],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的多边形"
+    },
+    {
+     "name": "全等形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的图形"
+    },
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的三角形"
+    },
+    {
+     "name": "相似三角形判定定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两角相等、两边成比例夹角相等、三边成比例判定相似"
+    },
+    {
+     "name": "位似图形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "位似图形一定相似，对应边平行或在同一直线上"
+    },
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用坐标表示点位置的平面坐标系"
+    },
+    {
+     "name": "相似比",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似多边形对应边的比值"
+    },
+    {
+     "name": "特殊到一般再到特殊",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "由特殊情形归纳一般规律，再用于特殊问题的思想方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "位似多边形",
+     "predicate": "PREREQUISITE",
+     "object": "相似多边形",
+     "evidence": "两个位似多边形一定相似",
+     "confidence": 0.95
+    },
+    {
+     "subject": "位似多边形",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似多边形",
+     "evidence": "位似形是特殊的相似形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等形",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似多边形",
+     "evidence": "全等形是特殊的相似形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "位似图形的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "位似多边形",
+     "evidence": "两个位似多边形一定相似，并且它们的对应边互相平行(或在同一条直线上)",
+     "confidence": 0.95
+    },
+    {
+     "subject": "位似多边形",
+     "predicate": "APPLIES_TO",
+     "object": "相似多边形",
+     "evidence": "利用位似可以把一个图形按所给相似比放大或缩小",
+     "confidence": 0.9
+    },
+    {
+     "subject": "位似多边形",
+     "predicate": "RELATED",
+     "object": "平面直角坐标系",
+     "evidence": "在平面直角坐标系中，△OAB的顶点坐标分别为O(0,0)、A(5,4)、B(3,0)，分别将点A、B的横坐标、纵坐标都乘2",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形判定定理",
+     "predicate": "DERIVES",
+     "object": "相似三角形",
+     "evidence": "于是△A'B'C'∽△ABC",
+     "confidence": 0.9
+    },
+    {
+     "subject": "特殊到一般再到特殊",
+     "predicate": "APPLIES_TO",
+     "object": "位似多边形",
+     "evidence": "对全等形、相似形、位似形的研究，我们经历了“由特殊到一般，再由一般到特殊”的认识过程",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:27.891Z"
+}

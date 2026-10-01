@@ -1,0 +1,1610 @@
+{
+ "no": 11,
+ "title": "刘皇叔北海救孔融 吕温侯濮阳破曹操",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3055,
+   "entities": [
+    {
+     "name": "糜竺",
+     "type": "Person",
+     "aliases": [
+      "子仲"
+     ],
+     "nickname": "子仲",
+     "description": "东海朐县人，家世富豪，后为陶谦别驾从事"
+    },
+    {
+     "name": "陶谦",
+     "type": "Person",
+     "aliases": [
+      "恭祖",
+      "徐州牧"
+     ],
+     "nickname": "恭祖",
+     "description": "徐州牧，仁人君子，受曹操围攻"
+    },
+    {
+     "name": "孔融",
+     "type": "Person",
+     "aliases": [
+      "文举",
+      "孔北海"
+     ],
+     "nickname": "文举",
+     "description": "鲁国曲阜人，孔子二十世孙，北海太守"
+    },
+    {
+     "name": "陈登",
+     "type": "Person",
+     "aliases": [
+      "元龙"
+     ],
+     "nickname": "元龙",
+     "description": "广陵人，陶谦帐下，愿往青州求救"
+    },
+    {
+     "name": "管亥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄巾贼党，率群寇数万围北海"
+    },
+    {
+     "name": "宗宝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔融部将，被管亥一刀砍于马下"
+    },
+    {
+     "name": "太史慈",
+     "type": "Person",
+     "aliases": [
+      "子义"
+     ],
+     "nickname": "子义",
+     "description": "东莱黄县人，单马救北海，后投刘繇"
+    },
+    {
+     "name": "刘备",
+     "type": "Person",
+     "aliases": [
+      "玄德",
+      "刘皇叔"
+     ],
+     "nickname": "玄德",
+     "description": "汉室宗亲，平原相，引兵救北海、徐州"
+    },
+    {
+     "name": "关羽",
+     "type": "Person",
+     "aliases": [
+      "云长"
+     ],
+     "nickname": "云长",
+     "description": "刘备义弟，斩管亥于马下"
+    },
+    {
+     "name": "张飞",
+     "type": "Person",
+     "aliases": [
+      "翼德"
+     ],
+     "nickname": "翼德",
+     "description": "刘备义弟，与于禁交战"
+    },
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙"
+     ],
+     "nickname": "子龙",
+     "description": "公孙瓒部将，借与刘备救徐州"
+    },
+    {
+     "name": "公孙瓒",
+     "type": "Person",
+     "aliases": [
+      "伯圭"
+     ],
+     "nickname": "伯圭",
+     "description": "刘备同窗，借马步军二千与刘备"
+    },
+    {
+     "name": "于禁",
+     "type": "Person",
+     "aliases": [
+      "文则"
+     ],
+     "nickname": "文则",
+     "description": "曹操部将，守寨与张飞交战"
+    },
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "孟德"
+     ],
+     "nickname": "孟德",
+     "description": "汉丞相，攻围徐州，分军势御敌"
+    },
+    {
+     "name": "田楷",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州刺史，领兵来救徐州"
+    },
+    {
+     "name": "刘繇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "扬州刺史，与太史慈同郡，唤其前往"
+    },
+    {
+     "name": "黄巾贼党",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "管亥所领群寇数万"
+    },
+    {
+     "name": "北海郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔融所守城池，被管亥围困"
+    },
+    {
+     "name": "徐州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陶谦所守州郡，被曹操围攻"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "田楷所领州郡，陈登前往求救"
+    },
+    {
+     "name": "平原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备为平原相，太史慈投此求救"
+    },
+    {
+     "name": "北海解围",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "太史慈请刘备救北海，关羽斩管亥解围"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "糜竺",
+     "predicate": "SERVED",
+     "object": "陶谦",
+     "evidence": "后陶谦聘为别驾从事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶谦",
+     "predicate": "MASTERMINDED",
+     "object": "北海解围",
+     "evidence": "谦从之，遂写书二封",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈登",
+     "predicate": "SERVED",
+     "object": "陶谦",
+     "evidence": "一人应声愿往。众视之，乃广陵人，姓陈，名登，字元龙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔融",
+     "predicate": "STATIONED_AT",
+     "object": "北海郡",
+     "evidence": "后为中郎将，累迁北海太守",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔融",
+     "predicate": "NATIVE_OF",
+     "object": "鲁国曲阜",
+     "evidence": "北海孔融，字文举，鲁国曲阜人也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "管亥",
+     "predicate": "ATTACKED",
+     "object": "北海郡",
+     "evidence": "忽报黄巾贼党管亥部领群寇数万杀奔前来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "管亥",
+     "predicate": "KILLED",
+     "object": "宗宝",
+     "evidence": "被管亥一刀，砍宗宝于马下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太史慈",
+     "predicate": "RESCUED",
+     "object": "孔融",
+     "evidence": "某故单马而来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔融",
+     "predicate": "FRIEND",
+     "object": "太史慈",
+     "evidence": "原来孔融与太史慈虽未识面，却晓得他是个英雄",
+     "confidence": 0.85
+    },
+    {
+     "subject": "太史慈",
+     "predicate": "SERVED",
+     "object": "孔融",
+     "evidence": "慈奉母命前来相助",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太史慈",
+     "predicate": "SERVED",
+     "object": "刘繇",
+     "evidence": "有扬州刺史刘繇，与慈同郡，有书来唤，不敢不去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "RESCUED",
+     "object": "孔融",
+     "evidence": "乃同云长、翼德点精兵三千，往北海郡进发",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "管亥",
+     "evidence": "青龙刀起，劈管亥于马下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "SWORN_BROTHER",
+     "object": "关羽",
+     "evidence": "乃同云长、翼德点精兵三千",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "SWORN_BROTHER",
+     "object": "张飞",
+     "evidence": "乃同云长、翼德点精兵三千",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "FRIEND",
+     "object": "公孙瓒",
+     "evidence": "玄德遂与关、张引本部三千人为前部",
+     "confidence": 0.85
+    },
+    {
+     "subject": "公孙瓒",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "瓒曰：我借与君马步军二千",
+     "confidence": 0.8
+    },
+    {
+     "subject": "赵云",
+     "predicate": "SERVED",
+     "object": "公孙瓒",
+     "evidence": "更望借赵子龙一行。瓒许之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "FOUGHT",
+     "object": "于禁",
+     "evidence": "张飞见了，更不打话，直取于禁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "DEFEATED",
+     "object": "于禁",
+     "evidence": "玄德掣双股剑麾兵大进，于禁败走",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "SERVED",
+     "object": "陶谦",
+     "evidence": "备与张飞杀奔曹营，径投徐州去见陶使君商议",
+     "confidence": 0.85
+    },
+    {
+     "subject": "曹操",
+     "predicate": "ATTACKED",
+     "object": "徐州",
+     "evidence": "今曹操纵兵大掠，围住徐州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔融",
+     "predicate": "ALLIED_WITH",
+     "object": "田楷",
+     "evidence": "会合田楷，为掎角之势",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔融",
+     "predicate": "PARTICIPATED_IN",
+     "object": "北海解围",
+     "evidence": "融大喜，会合田楷，为掎角之势",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "PARTICIPATED_IN",
+     "object": "北海解围",
+     "evidence": "玄德与关、张、太史慈立马阵前",
+     "confidence": 0.95
+    },
+    {
+     "subject": "北海解围",
+     "predicate": "OCCURRED_AT",
+     "object": "北海郡",
+     "evidence": "两下夹攻，大败群贼，降者无数，余党溃散",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2701,
+   "entities": [
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "孟德",
+      "阿瞒",
+      "曹公"
+     ],
+     "nickname": "孟德",
+     "description": "兖州牧，与吕布交战"
+    },
+    {
+     "name": "刘备",
+     "type": "Person",
+     "aliases": [
+      "玄德",
+      "刘皇叔"
+     ],
+     "nickname": "玄德",
+     "description": "帝室之胄，救援徐州"
+    },
+    {
+     "name": "关羽",
+     "type": "Person",
+     "aliases": [
+      "云长",
+      "关公"
+     ],
+     "nickname": "云长",
+     "description": "刘备义弟，参与徐州救援"
+    },
+    {
+     "name": "张飞",
+     "type": "Person",
+     "aliases": [
+      "翼德"
+     ],
+     "nickname": "翼德",
+     "description": "刘备义弟，参与徐州救援"
+    },
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙"
+     ],
+     "nickname": "子龙",
+     "description": "刘备部将，参与徐州救援"
+    },
+    {
+     "name": "荀彧",
+     "type": "Person",
+     "aliases": [
+      "文若",
+      "荀令君"
+     ],
+     "nickname": "文若",
+     "description": "曹操谋士，死守鄄城等三城"
+    },
+    {
+     "name": "郭嘉",
+     "type": "Person",
+     "aliases": [
+      "奉孝"
+     ],
+     "nickname": "奉孝",
+     "description": "曹操谋士，多次献策"
+    },
+    {
+     "name": "张辽",
+     "type": "Person",
+     "aliases": [
+      "文远"
+     ],
+     "nickname": "文远",
+     "description": "吕布部将，雁门马邑人"
+    },
+    {
+     "name": "夏侯惇",
+     "type": "Person",
+     "aliases": [
+      "元让"
+     ],
+     "nickname": "元让",
+     "description": "曹操部将，与吕布军交战"
+    },
+    {
+     "name": "典韦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操部将，救曹操脱险"
+    },
+    {
+     "name": "董卓",
+     "type": "Person",
+     "aliases": [
+      "仲颖",
+      "董太师"
+     ],
+     "nickname": "仲颖",
+     "description": "已死，余党盘踞朝廷"
+    },
+    {
+     "name": "袁绍",
+     "type": "Person",
+     "aliases": [
+      "本初"
+     ],
+     "nickname": "本初",
+     "description": "曾纳吕布，共破张燕"
+    },
+    {
+     "name": "吕布",
+     "type": "Person",
+     "aliases": [
+      "奉先",
+      "飞将"
+     ],
+     "nickname": "奉先",
+     "description": "袭破兖州，占据濮阳"
+    },
+    {
+     "name": "曹仁",
+     "type": "Person",
+     "aliases": [
+      "子孝"
+     ],
+     "nickname": "子孝",
+     "description": "曹操部将，屡战吕布不胜"
+    },
+    {
+     "name": "于禁",
+     "type": "Person",
+     "aliases": [
+      "文则"
+     ],
+     "nickname": "文则",
+     "description": "曹操部将，献计袭西寨"
+    },
+    {
+     "name": "乐进",
+     "type": "Person",
+     "aliases": [
+      "文谦"
+     ],
+     "nickname": "文谦",
+     "description": "曹操部将，与臧霸交战"
+    },
+    {
+     "name": "程昱",
+     "type": "Person",
+     "aliases": [
+      "仲德"
+     ],
+     "nickname": "仲德",
+     "description": "曹操谋士，死守三城"
+    },
+    {
+     "name": "袁术",
+     "type": "Person",
+     "aliases": [
+      "公路"
+     ],
+     "nickname": "公路",
+     "description": "拒绝接纳吕布"
+    },
+    {
+     "name": "陶谦",
+     "type": "Person",
+     "aliases": [
+      "恭祖",
+      "徐州牧"
+     ],
+     "nickname": "恭祖",
+     "description": "徐州牧，欲让徐州与刘备"
+    },
+    {
+     "name": "曹洪",
+     "type": "Person",
+     "aliases": [
+      "子廉"
+     ],
+     "nickname": "子廉",
+     "description": "曹操部将，随曹操袭西寨"
+    },
+    {
+     "name": "李典",
+     "type": "Person",
+     "aliases": [
+      "曼成"
+     ],
+     "nickname": "曼成",
+     "description": "曹操部将，随曹操袭西寨"
+    },
+    {
+     "name": "审配",
+     "type": "Person",
+     "aliases": [
+      "正南"
+     ],
+     "nickname": "正南",
+     "description": "袁绍谋士（未出场）"
+    },
+    {
+     "name": "李傕",
+     "type": "Person",
+     "aliases": [
+      "稚然"
+     ],
+     "nickname": "稚然",
+     "description": "董卓余党，斩庞舒"
+    },
+    {
+     "name": "郭汜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "董卓余党，斩庞舒"
+    },
+    {
+     "name": "孔融",
+     "type": "Person",
+     "aliases": [
+      "文举",
+      "孔北海"
+     ],
+     "nickname": "文举",
+     "description": "北海太守，请刘备救徐州"
+    },
+    {
+     "name": "张邈",
+     "type": "Person",
+     "aliases": [
+      "孟卓"
+     ],
+     "nickname": "孟卓",
+     "description": "陈宫劝其联合吕布取兖州"
+    },
+    {
+     "name": "陈宫",
+     "type": "Person",
+     "aliases": [
+      "公台"
+     ],
+     "nickname": "公台",
+     "description": "吕布谋士，多次献策"
+    },
+    {
+     "name": "高顺",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布部将，守西寨"
+    },
+    {
+     "name": "臧霸",
+     "type": "Person",
+     "aliases": [
+      "宣高"
+     ],
+     "nickname": "宣高",
+     "description": "吕布部将，泰山华阴人"
+    },
+    {
+     "name": "张燕",
+     "type": "Person",
+     "aliases": [
+      "飞燕"
+     ],
+     "nickname": "飞燕",
+     "description": "黑山贼，被吕布袁绍所破"
+    },
+    {
+     "name": "张杨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾纳吕布，后受李傕郭汜书教杀吕布"
+    },
+    {
+     "name": "庞舒",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长安城中藏吕布妻小，被李傕郭汜斩"
+    },
+    {
+     "name": "张超",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张邈之弟，引陈宫见张邈"
+    },
+    {
+     "name": "薛兰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布副将，守兖州"
+    },
+    {
+     "name": "李封",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布副将，守兖州"
+    },
+    {
+     "name": "郝萌",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布部将，拦曹操去路"
+    },
+    {
+     "name": "曹性",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布部将，拦曹操去路"
+    },
+    {
+     "name": "成廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布部将，拦曹操去路"
+    },
+    {
+     "name": "魏续",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布部将，守西寨"
+    },
+    {
+     "name": "宋宪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布部将，拦曹操去路"
+    },
+    {
+     "name": "侯成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布部将，守西寨"
+    },
+    {
+     "name": "毛玠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操部将，随曹操袭西寨"
+    },
+    {
+     "name": "吕虔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操部将，随曹操袭西寨"
+    },
+    {
+     "name": "糜竺",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐州别驾，劝刘备领徐州"
+    },
+    {
+     "name": "陈登",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐州官员，劝刘备领徐州"
+    },
+    {
+     "name": "田楷",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州刺史，参与徐州救援"
+    },
+    {
+     "name": "张闿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杀害曹嵩的凶手"
+    },
+    {
+     "name": "曹嵩",
+     "type": "Person",
+     "aliases": [
+      "曹侯"
+     ],
+     "nickname": "",
+     "description": "曹操之父，被张闿所害"
+    },
+    {
+     "name": "曹操军",
+     "type": "Organization",
+     "aliases": [
+      "曹军"
+     ],
+     "nickname": "",
+     "description": "曹操统领的军队"
+    },
+    {
+     "name": "吕布军",
+     "type": "Organization",
+     "aliases": [
+      "布军"
+     ],
+     "nickname": "",
+     "description": "吕布统领的军队"
+    },
+    {
+     "name": "徐州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陶谦所辖州郡"
+    },
+    {
+     "name": "兖州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操根据地，被吕布袭破"
+    },
+    {
+     "name": "濮阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布进据之地"
+    },
+    {
+     "name": "鄄城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荀彧程昱死守之城"
+    },
+    {
+     "name": "东阿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荀彧程昱死守之城"
+    },
+    {
+     "name": "范县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荀彧程昱死守之城"
+    },
+    {
+     "name": "小沛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备暂驻军之地"
+    },
+    {
+     "name": "泰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "险要之地，陈宫建议设伏"
+    },
+    {
+     "name": "西寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "濮阳之西吕布营寨"
+    },
+    {
+     "name": "常山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布袁绍共破张燕之地"
+    },
+    {
+     "name": "武关",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布逃出之地"
+    },
+    {
+     "name": "长安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李傕郭汜盘踞之地"
+    },
+    {
+     "name": "寿春",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁术所在之地"
+    },
+    {
+     "name": "滕县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操回兵经过之地"
+    },
+    {
+     "name": "雁门马邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张辽籍贯"
+    },
+    {
+     "name": "泰山华阴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "臧霸籍贯"
+    },
+    {
+     "name": "徐州救援",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备等救援徐州"
+    },
+    {
+     "name": "濮阳之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操与吕布在濮阳交战"
+    },
+    {
+     "name": "袭破兖州",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕布袭取兖州"
+    },
+    {
+     "name": "让徐州",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "陶谦欲让徐州与刘备"
+    },
+    {
+     "name": "双铁戟",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "典韦所用兵器"
+    },
+    {
+     "name": "短戟",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "典韦飞掷杀敌的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘备",
+     "predicate": "SWORN_BROTHER",
+     "object": "关羽",
+     "evidence": "玄德与关、张引本部军来至小沛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "SWORN_BROTHER",
+     "object": "张飞",
+     "evidence": "玄德与关、张引本部军来至小沛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "SWORN_BROTHER",
+     "object": "张飞",
+     "evidence": "玄德与关、张引本部军来至小沛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "KIN",
+     "object": "曹嵩",
+     "evidence": "尊父曹侯，实因张闿不仁，以致被害",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操",
+     "predicate": "KIN",
+     "object": "曹仁",
+     "evidence": "曹仁接着，言吕布势大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "KIN",
+     "object": "曹洪",
+     "evidence": "带曹洪、李典、毛玠、吕虔、于禁、典韦六将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张邈",
+     "predicate": "KIN",
+     "object": "张超",
+     "evidence": "恰好张邈弟张超引陈宫来见张邈",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕布",
+     "predicate": "SPOUSE",
+     "object": "庞舒",
+     "evidence": "庞舒在长安城中，私藏吕布妻小",
+     "confidence": 0.5
+    },
+    {
+     "subject": "郭嘉",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "郭嘉谏曰：刘备远来救援，先礼后兵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "荀彧",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "被荀彧、程昱设计死守得全",
+     "confidence": 0.95
+    },
+    {
+     "subject": "程昱",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "被荀彧、程昱设计死守得全",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张辽",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "吕布当先出马，两边排开八员健将：第一个雁门马邑人，姓张，名辽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "臧霸",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "第二个泰山华阴人，姓臧，名霸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高顺",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "布乃拨高顺并魏续、侯成引兵往守西寨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈宫",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "陈宫急入见曰：将军弃兖州，欲何往乎？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "典韦",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "马军队里，一将踊出，乃典韦也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于禁",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "于禁曰：某今日上山观望",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐进",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "曹军内乐进出迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏侯惇",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "夏侯惇拍马便出助战",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹仁",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "曹仁屡战，皆不能胜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李典",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "带曹洪、李典、毛玠、吕虔、于禁、典韦六将",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹洪",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "带曹洪、李典、毛玠、吕虔、于禁、典韦六将",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛玠",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "带曹洪、李典、毛玠、吕虔、于禁、典韦六将",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕虔",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "带曹洪、李典、毛玠、吕虔、于禁、典韦六将",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛兰",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "召副将薛兰、李封曰：吾欲用汝二人久矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李封",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "召副将薛兰、李封曰：吾欲用汝二人久矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郝萌",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹性",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成廉",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏续",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋宪",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "侯成",
+     "predicate": "SERVED",
+     "object": "吕布",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈宫",
+     "predicate": "RECOMMENDED",
+     "object": "吕布",
+     "evidence": "宫说邈曰：今天下分崩，英雄并起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "典韦",
+     "predicate": "RESCUED",
+     "object": "曹操",
+     "evidence": "典韦杀散敌军，救出曹操",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操",
+     "predicate": "FOUGHT",
+     "object": "吕布",
+     "evidence": "吕布当先出马，两边排开八员健将",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐进",
+     "predicate": "FOUGHT",
+     "object": "臧霸",
+     "evidence": "便叫臧霸出马搦战。曹军内乐进出迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏侯惇",
+     "predicate": "FOUGHT",
+     "object": "张辽",
+     "evidence": "夏侯惇拍马便出助战，吕布阵上张辽截住厮杀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕布",
+     "predicate": "DEFEATED",
+     "object": "夏侯惇",
+     "evidence": "夏侯惇、乐进皆走，吕布掩杀，曹军大败",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕布",
+     "predicate": "DEFEATED",
+     "object": "乐进",
+     "evidence": "夏侯惇、乐进皆走，吕布掩杀，曹军大败",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕布",
+     "predicate": "ATTACKED",
+     "object": "兖州",
+     "evidence": "吕布已袭破兖州，进据濮阳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕布",
+     "predicate": "STATIONED_AT",
+     "object": "濮阳",
+     "evidence": "吕布已袭破兖州，进据濮阳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "荀彧",
+     "predicate": "STATIONED_AT",
+     "object": "鄄城",
+     "evidence": "止有鄄城、东阿、范县三处，被荀彧、程昱设计死守得全",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程昱",
+     "predicate": "STATIONED_AT",
+     "object": "鄄城",
+     "evidence": "止有鄄城、东阿、范县三处，被荀彧、程昱设计死守得全",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "STATIONED_AT",
+     "object": "小沛",
+     "evidence": "玄德与关、张引本部军来至小沛",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操",
+     "predicate": "STATIONED_AT",
+     "object": "兖州",
+     "evidence": "教曹仁领一军围兖州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "PARTICIPATED_IN",
+     "object": "徐州救援",
+     "evidence": "刘备远来救援，先礼后兵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濮阳之战",
+     "evidence": "曹操兵近濮阳，下住寨脚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕布",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濮阳之战",
+     "evidence": "吕布当先出马，两边排开八员健将",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕布",
+     "predicate": "MASTERMINDED",
+     "object": "袭破兖州",
+     "evidence": "便令吕布袭破兖州，随据濮阳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈宫",
+     "predicate": "MASTERMINDED",
+     "object": "袭破兖州",
+     "evidence": "宫说邈曰：今天下分崩，英雄并起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶谦",
+     "predicate": "MASTERMINDED",
+     "object": "让徐州",
+     "evidence": "谦延玄德于上座，拱手对众曰：老夫年迈，二子不才",
+     "confidence": 0.95
+    },
+    {
+     "subject": "濮阳之战",
+     "predicate": "OCCURRED_AT",
+     "object": "濮阳",
+     "evidence": "曹操兵近濮阳，下住寨脚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袭破兖州",
+     "predicate": "OCCURRED_AT",
+     "object": "兖州",
+     "evidence": "吕布已袭破兖州，进据濮阳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "让徐州",
+     "predicate": "OCCURRED_AT",
+     "object": "徐州",
+     "evidence": "谦延玄德于上座，拱手对众曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "典韦",
+     "predicate": "OWNS",
+     "object": "双铁戟",
+     "evidence": "手挺双铁戟，大叫：主公勿忧！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "典韦",
+     "predicate": "OWNS",
+     "object": "短戟",
+     "evidence": "取短戟十数枝，挟在手中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操",
+     "predicate": "LEADS",
+     "object": "曹操军",
+     "evidence": "曹操正在军中，与诸将议事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕布",
+     "predicate": "LEADS",
+     "object": "吕布军",
+     "evidence": "布军五万，鼓声大震",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张辽",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "吕布当先出马，两边排开八员健将：第一个雁门马邑人，姓张，名辽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "臧霸",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "第二个泰山华阴人，姓臧，名霸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "典韦",
+     "predicate": "MEMBER_OF",
+     "object": "曹操军",
+     "evidence": "马军队里，一将踊出，乃典韦也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于禁",
+     "predicate": "MEMBER_OF",
+     "object": "曹操军",
+     "evidence": "于禁曰：某今日上山观望",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐进",
+     "predicate": "MEMBER_OF",
+     "object": "曹操军",
+     "evidence": "曹军内乐进出迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏侯惇",
+     "predicate": "MEMBER_OF",
+     "object": "曹操军",
+     "evidence": "夏侯惇拍马便出助战",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹仁",
+     "predicate": "MEMBER_OF",
+     "object": "曹操军",
+     "evidence": "曹仁屡战，皆不能胜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "荀彧",
+     "predicate": "MEMBER_OF",
+     "object": "曹操军",
+     "evidence": "被荀彧、程昱设计死守得全",
+     "confidence": 0.95
+    },
+    {
+     "subject": "程昱",
+     "predicate": "MEMBER_OF",
+     "object": "曹操军",
+     "evidence": "被荀彧、程昱设计死守得全",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭嘉",
+     "predicate": "MEMBER_OF",
+     "object": "曹操军",
+     "evidence": "郭嘉谏曰：刘备远来救援，先礼后兵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈宫",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "陈宫急入见曰：将军弃兖州，欲何往乎？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高顺",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "布乃拨高顺并魏续、侯成引兵往守西寨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛兰",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "召副将薛兰、李封曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李封",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "召副将薛兰、李封曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郝萌",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹性",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成廉",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏续",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋宪",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "侯成",
+     "predicate": "MEMBER_OF",
+     "object": "吕布军",
+     "evidence": "郝萌、曹性、成廉，魏续、宋宪、侯成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张辽",
+     "predicate": "NATIVE_OF",
+     "object": "雁门马邑",
+     "evidence": "第一个雁门马邑人，姓张，名辽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "臧霸",
+     "predicate": "NATIVE_OF",
+     "object": "泰山华阴",
+     "evidence": "第二个泰山华阴人，姓臧，名霸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕布",
+     "predicate": "BETRAYED",
+     "object": "袁绍",
+     "evidence": "布自以为得志，傲慢袁绍手下将士。绍欲杀之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕布",
+     "predicate": "BETRAYED",
+     "object": "张杨",
+     "evidence": "布因弃张杨去投张邈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕布",
+     "predicate": "SURRENDERED_TO",
+     "object": "张邈",
+     "evidence": "布因弃张杨去投张邈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕布",
+     "predicate": "SURRENDERED_TO",
+     "object": "袁绍",
+     "evidence": "投袁绍，绍纳之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕布",
+     "predicate": "SURRENDERED_TO",
+     "object": "张杨",
+     "evidence": "布乃去投张杨，杨纳之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李傕",
+     "predicate": "KILLED",
+     "object": "庞舒",
+     "evidence": "李傕、郭汜知之，遂斩庞舒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭汜",
+     "predicate": "KILLED",
+     "object": "庞舒",
+     "evidence": "李傕、郭汜知之，遂斩庞舒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张闿",
+     "predicate": "KILLED",
+     "object": "曹嵩",
+     "evidence": "尊父曹侯，实因张闿不仁，以致被害",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕布",
+     "predicate": "ALLIED_WITH",
+     "object": "张邈",
+     "evidence": "便令吕布袭破兖州，随据濮阳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕布",
+     "predicate": "ALLIED_WITH",
+     "object": "袁绍",
+     "evidence": "绍纳之，与布共破张燕于常山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "ATTACKED",
+     "object": "徐州",
+     "evidence": "命斩来使，一面竭力攻城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "ATTACKED",
+     "object": "吕布军",
+     "evidence": "吾进兵濮阳，速攻吕布",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕布",
+     "predicate": "ATTACKED",
+     "object": "曹操军",
+     "evidence": "吾亲自率兵，前去破曹",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:54:40.404Z"
+}

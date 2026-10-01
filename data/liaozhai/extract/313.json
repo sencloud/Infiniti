@@ -1,0 +1,106 @@
+{
+ "no": 313,
+ "title": "紫花和尚",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 266,
+   "entities": [
+    {
+     "name": "丁生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸城人，野鹤公之孙，少年名士，病死后复苏"
+    },
+    {
+     "name": "某生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中精岐黄而不以术行者，为丁生治病"
+    },
+    {
+     "name": "董尚书府中侍儿",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "董尚书府侍女，与紫花和尚有夙冤，追报丁生"
+    },
+    {
+     "name": "紫花和尚",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "高僧，青州董尚书夫人曾供养，与侍儿有夙冤"
+    },
+    {
+     "name": "董尚书夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州董尚书之妻，曾供养紫花和尚"
+    },
+    {
+     "name": "诸城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "丁生籍贯地"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "董尚书夫人所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "丁生",
+     "predicate": "NATIVE_OF",
+     "object": "诸城",
+     "evidence": "诸城丁生，野鹤公之孙也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某生",
+     "predicate": "HELPED",
+     "object": "丁生",
+     "evidence": "三聘始至，疏方下药，病愈。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董尚书府中侍儿",
+     "predicate": "HARMED",
+     "object": "丁生",
+     "evidence": "紫花和尚与妾有夙冤，今得追报，君又活之耶？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董尚书府中侍儿",
+     "predicate": "HARMED",
+     "object": "紫花和尚",
+     "evidence": "紫花和尚与妾有夙冤，今得追报",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董尚书夫人",
+     "predicate": "HELPED",
+     "object": "紫花和尚",
+     "evidence": "青州董尚书夫人尝供养家中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "紫花和尚",
+     "predicate": "LIVES_AT",
+     "object": "青州",
+     "evidence": "青州董尚书夫人尝供养家中",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:10.866Z"
+}

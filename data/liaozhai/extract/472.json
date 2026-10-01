@@ -1,0 +1,113 @@
+{
+ "no": 472,
+ "title": "褚遂良",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 774,
+   "entities": [
+    {
+     "name": "赵某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长山人，租屋而居，病中遇狐仙，前生为褚遂良"
+    },
+    {
+     "name": "狐仙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "自称狐仙，为报褚遂良恩而来，嫁赵某为妻"
+    },
+    {
+     "name": "孝廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宴席中对狐仙萌生淫念，被狐仙惩治的举人"
+    },
+    {
+     "name": "主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵某的房东，大户人家，闻异请见狐仙"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，赵某的籍贯"
+    },
+    {
+     "name": "大姓宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵某租住的大户人家房屋"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "赵某",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山赵某，税屋大姓。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵某",
+     "predicate": "LIVES_AT",
+     "object": "大姓宅",
+     "evidence": "长山赵某，税屋大姓。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "HELPED",
+     "object": "赵某",
+     "evidence": "遂以手按赵腹，力摩之，觉其掌热如火。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "SPOUSE",
+     "object": "赵某",
+     "evidence": "日暮，与同狎寝，如夫妇。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "HARMED",
+     "object": "孝廉",
+     "evidence": "即以手推其首，首过棂外，而身犹在室，出入转侧，皆所不能。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "主人",
+     "predicate": "FRIEND",
+     "object": "赵某",
+     "evidence": "主人闻其异，请一见之。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "登梯升天",
+     "evidence": "女先登，赵亦随之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "登梯升天",
+     "evidence": "女先登，赵亦随之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:13.398Z"
+}

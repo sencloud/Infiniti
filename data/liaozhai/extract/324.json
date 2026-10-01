@@ -1,0 +1,153 @@
+{
+ "no": 324,
+ "title": "钱卜巫",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1295,
+   "entities": [
+    {
+     "name": "夏商",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "河间人，诚朴躬耕，后暴富"
+    },
+    {
+     "name": "夏东陵",
+     "type": "Person",
+     "aliases": [
+      "丢角太尉",
+      "募庄僧"
+     ],
+     "nickname": "",
+     "description": "夏商之父，豪富侈汰，晚年贫死"
+    },
+    {
+     "name": "某翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "富人，多次资助夏商"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贪官，索夏商金，后迁南昌同知"
+    },
+    {
+     "name": "邻人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "告发夏商，后赤贫为丐"
+    },
+    {
+     "name": "河间",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "夏商籍贯地"
+    },
+    {
+     "name": "南昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑宰迁任地，夏商经商处"
+    },
+    {
+     "name": "铁釜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "掘地所得，内藏白银"
+    },
+    {
+     "name": "白金",
+     "type": "Item",
+     "aliases": [
+      "白镪"
+     ],
+     "nickname": "",
+     "description": "铁釜中白银，一千三百二十五两"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "夏商",
+     "predicate": "KIN",
+     "object": "夏东陵",
+     "evidence": "临终谓商曰：“余生平暴殄天物，上干天怒，遂至冻饿以死。汝当惜福力行，以盖父愆。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏商",
+     "predicate": "NATIVE_OF",
+     "object": "河间",
+     "evidence": "夏商，河间人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某翁",
+     "predicate": "HELPED",
+     "object": "夏商",
+     "evidence": "富人某翁哀其贫，假以赀，使学负贩",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏商",
+     "predicate": "PARTICIPATED_IN",
+     "object": "钱卜",
+     "evidence": "会有外来巫，以钱卜，悉知人运数。敬诣之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "HARMED",
+     "object": "夏商",
+     "evidence": "宰最贪，拘商索金。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "PUNISHED",
+     "object": "夏商",
+     "evidence": "宰得金，恐其漏匿，又追贮器，以金实之，满焉，乃释商。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邻人",
+     "predicate": "HARMED",
+     "object": "夏商",
+     "evidence": "邻人妻入商家，窥见之，归告夫。夫忌焉，潜告邑宰。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夏商",
+     "predicate": "OWNS",
+     "object": "铁釜",
+     "evidence": "迨五十七岁，偶葺墙垣，掘地得铁釜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏商",
+     "predicate": "OWNS",
+     "object": "白金",
+     "evidence": "移时，气尽，白镪满甕。夫妻共运之，秤计一千三百二十五两。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏商",
+     "predicate": "HELPED",
+     "object": "邻人",
+     "evidence": "商闻而告之曰：“昔日事，乃我时数未至，故鬼神假子手以败之，于汝何尤？”遂周给之。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:16.191Z"
+}

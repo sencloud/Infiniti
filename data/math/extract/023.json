@@ -1,0 +1,234 @@
+{
+ "no": 23,
+ "title": "6.4 平行线",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6077,
+   "entities": [
+    {
+     "name": "平行线",
+     "type": "Concept",
+     "aliases": [
+      "parallel lines"
+     ],
+     "nickname": "",
+     "description": "在同一平面内，不相交的两条直线"
+    },
+    {
+     "name": "平行线基本事实1",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "过直线外一点有且只有一条直线与这条直线平行"
+    },
+    {
+     "name": "同位角",
+     "type": "Concept",
+     "aliases": [
+      "corresponding angles"
+     ],
+     "nickname": "",
+     "description": "两条直线被第三条直线所截，在截线同旁、被截线同侧的一对角"
+    },
+    {
+     "name": "平行线基本事实2",
+     "type": "Theorem",
+     "aliases": [
+      "同位角相等，两直线平行"
+     ],
+     "nickname": "",
+     "description": "两条直线被第三条直线所截，如果同位角相等，那么这两条直线平行"
+    },
+    {
+     "name": "内错角",
+     "type": "Concept",
+     "aliases": [
+      "alternate interior angles"
+     ],
+     "nickname": "",
+     "description": "两条直线被第三条直线所截，在截线两侧、被截线之间的一对角"
+    },
+    {
+     "name": "同旁内角",
+     "type": "Concept",
+     "aliases": [
+      "interior angles on the same side"
+     ],
+     "nickname": "",
+     "description": "两条直线被第三条直线所截，在截线同旁、被截线之间的一对角"
+    },
+    {
+     "name": "平行线的判定定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "内错角相等或同旁内角互补，两直线平行"
+    },
+    {
+     "name": "平行线的性质定理1",
+     "type": "Theorem",
+     "aliases": [
+      "两直线平行，同位角相等"
+     ],
+     "nickname": "",
+     "description": "两条平行直线被第三条直线所截，同位角相等"
+    },
+    {
+     "name": "平行线的性质定理2",
+     "type": "Theorem",
+     "aliases": [
+      "两直线平行，内错角相等",
+      "两直线平行，同旁内角互补"
+     ],
+     "nickname": "",
+     "description": "两条平行直线被第三条直线所截，内错角相等、同旁内角互补"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平行线基本事实1",
+     "predicate": "PROPERTY_OF",
+     "object": "平行线",
+     "evidence": "过直线外一点有且只有一条直线与这条直线平行。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行线基本事实2",
+     "predicate": "PROPERTY_OF",
+     "object": "平行线",
+     "evidence": "两条直线被第三条直线所截，如果同位角相等，那么这两条直线平行。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同位角",
+     "predicate": "PREREQUISITE",
+     "object": "平行线基本事实2",
+     "evidence": "具有∠1和∠2这种位置关系的一对角叫作同位角",
+     "confidence": 0.9
+    },
+    {
+     "subject": "内错角",
+     "predicate": "PREREQUISITE",
+     "object": "平行线的判定定理",
+     "evidence": "具有∠4和∠5这种位置关系的一对角叫作内错角",
+     "confidence": 0.9
+    },
+    {
+     "subject": "同旁内角",
+     "predicate": "PREREQUISITE",
+     "object": "平行线的判定定理",
+     "evidence": "具有∠2和∠5这种位置关系的一对角叫作同旁内角",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行线基本事实2",
+     "predicate": "DERIVES",
+     "object": "平行线的判定定理",
+     "evidence": "从“同位角相等，两直线平行”这个基本事实出发，可以得到平行线的判定定理",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行线的性质定理1",
+     "predicate": "PROPERTY_OF",
+     "object": "平行线",
+     "evidence": "两条平行直线被第三条直线所截，同位角相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行线的性质定理1",
+     "predicate": "DERIVES",
+     "object": "平行线的性质定理2",
+     "evidence": "根据平行线的性质定理1，也可以得到内错角相等、同旁内角互补",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行线的判定定理",
+     "predicate": "CONTRASTS",
+     "object": "平行线的性质定理1",
+     "evidence": "比较平行线的判定定理与性质定理，它们之间有什么联系？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行线的判定定理",
+     "predicate": "CONTRASTS",
+     "object": "平行线的性质定理2",
+     "evidence": "比较平行线的判定定理与性质定理，它们之间有什么联系？",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 431,
+   "entities": [
+    {
+     "name": "平行线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在同一平面内，不相交的两条直线"
+    },
+    {
+     "name": "角平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "从一个角的顶点出发，把这个角分成相等的两个角的射线"
+    },
+    {
+     "name": "补角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "如果两个角的和等于180°，那么这两个角互为补角"
+    },
+    {
+     "name": "反射角等于入射角",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "在反射现象中，反射角等于入射角"
+    },
+    {
+     "name": "法线与平面镜垂直",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "法线垂直于平面镜"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平行线",
+     "predicate": "PREREQUISITE",
+     "object": "角平分线",
+     "evidence": "D是∠BAC的平分线上的一点，过点D分别作AB，AC的平行线",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平行线",
+     "predicate": "PREREQUISITE",
+     "object": "补角",
+     "evidence": "∠1与∠2互为补角，∠3=117°．求∠4的大小",
+     "confidence": 0.8
+    },
+    {
+     "subject": "反射角等于入射角",
+     "predicate": "APPLIES_TO",
+     "object": "平行线",
+     "evidence": "入射光线AO经过镜面反射后，恰好经过点B，已知反射角等于入射角",
+     "confidence": 0.7
+    },
+    {
+     "subject": "法线与平面镜垂直",
+     "predicate": "APPLIES_TO",
+     "object": "平行线",
+     "evidence": "法线与平面镜l垂直",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:42.891Z"
+}

@@ -1,0 +1,586 @@
+{
+ "no": 79,
+ "title": "寻洞擒妖逢老寿 当朝正主救婴儿",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6015,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，变化擒妖"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "唐朝御弟，取经僧人"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，助战擒妖"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，护持师父"
+    },
+    {
+     "name": "如意真仙",
+     "type": "Person",
+     "aliases": [
+      "真仙"
+     ],
+     "nickname": "真仙",
+     "description": "比丘国国丈，实为白鹿精"
+    },
+    {
+     "name": "东华帝君",
+     "type": "Person",
+     "aliases": [
+      "东华大帝君"
+     ],
+     "nickname": "东华帝君",
+     "description": "寿星友人，曾与寿星下棋"
+    },
+    {
+     "name": "寿星",
+     "type": "Person",
+     "aliases": [
+      "南极星君",
+      "南极老人星"
+     ],
+     "nickname": "寿星",
+     "description": "白鹿主人，收妖赠枣"
+    },
+    {
+     "name": "比丘国王",
+     "type": "Person",
+     "aliases": [
+      "昏君"
+     ],
+     "nickname": "比丘国王",
+     "description": "比丘国君主，受妖蒙蔽"
+    },
+    {
+     "name": "美后",
+     "type": "Person",
+     "aliases": [
+      "妖后"
+     ],
+     "nickname": "美后",
+     "description": "白面狐狸精，化美女惑君"
+    },
+    {
+     "name": "白鹿",
+     "type": "Person",
+     "aliases": [
+      "国丈",
+      "老怪"
+     ],
+     "nickname": "国丈",
+     "description": "寿星脚力，偷拐下凡为妖"
+    },
+    {
+     "name": "白面狐狸",
+     "type": "Person",
+     "aliases": [
+      "美后",
+      "狐狸精"
+     ],
+     "nickname": "美后",
+     "description": "白鹿精之女，化美后惑君"
+    },
+    {
+     "name": "土地",
+     "type": "Person",
+     "aliases": [
+      "柳林坡土地"
+     ],
+     "nickname": "土地",
+     "description": "柳林坡土地神，指点清华洞"
+    },
+    {
+     "name": "比丘国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度，国王受妖惑"
+    },
+    {
+     "name": "清华洞",
+     "type": "Place",
+     "aliases": [
+      "清华仙府",
+      "清华庄"
+     ],
+     "nickname": "",
+     "description": "柳林坡妖洞，白鹿精盘踞处"
+    },
+    {
+     "name": "柳林坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "比丘城南七十里地，清华洞所在"
+    },
+    {
+     "name": "比丘城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "比丘国都城"
+    },
+    {
+     "name": "金亭馆驿",
+     "type": "Place",
+     "aliases": [
+      "馆驿"
+     ],
+     "nickname": "",
+     "description": "比丘国驿馆，唐僧师徒下榻"
+    },
+    {
+     "name": "蟠龙拐杖",
+     "type": "Item",
+     "aliases": [
+      "蟠龙拐",
+      "拐棍"
+     ],
+     "nickname": "",
+     "description": "白鹿精兵器，实为寿星拐杖"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "如意棒",
+      "铁棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空兵器"
+    },
+    {
+     "name": "钉钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒兵器"
+    },
+    {
+     "name": "清华洞擒妖",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空与八戒擒白鹿精及狐狸精"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我是他徒弟孙悟空",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "比丘国",
+     "evidence": "我是他徒弟孙悟空",
+     "confidence": 0.5
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "还有两个师弟，猪悟能沙悟净",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "还有两个师弟，猪悟能沙悟净",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "叫：“八戒，跟我去来。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "还有两个师弟，猪悟能沙悟净",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "还有两个师弟，猪悟能沙悟净",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "唐僧",
+     "evidence": "老孙变作师父模样，特来此降妖也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "如意真仙",
+     "evidence": "那妖精与行者苦战二十余合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "如意真仙",
+     "evidence": "那妖精与行者苦战二十余合，蟠龙拐抵不住金箍棒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "白面狐狸",
+     "evidence": "被大圣抵住寒光，乒乓一棒，那怪立不住脚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "白面狐狸",
+     "evidence": "举钯照头一筑，可怜把那个倾城倾国千般笑，化作毛团狐狸形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "比丘国王",
+     "evidence": "感谢神僧救我一国小儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "比丘国",
+     "evidence": "感谢神僧救我一国小儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如意真仙",
+     "predicate": "ORIGIN_OF",
+     "object": "寿星",
+     "evidence": "他是我的一副脚力，不意走将来，成此妖怪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白面狐狸",
+     "predicate": "KIN",
+     "object": "如意真仙",
+     "evidence": "国丈年老无儿，止后妻生一女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如意真仙",
+     "predicate": "STATIONED_AT",
+     "object": "清华洞",
+     "evidence": "他说离城不远，只在向南去七十里路，有一座柳林坡湾华庄上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白面狐狸",
+     "predicate": "STATIONED_AT",
+     "object": "清华洞",
+     "evidence": "那美人战战兢兢，正自难逃",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "掣棒高叫道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "掣钉钯，把一棵九叉杨树刨倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如意真仙",
+     "predicate": "OWNS",
+     "object": "蟠龙拐杖",
+     "evidence": "那国丈即使蟠龙拐杖来迎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "清华洞擒妖",
+     "evidence": "那怪与行者苦战二十余合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "清华洞擒妖",
+     "evidence": "那呆子不打话，赶上前，举钯就筑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "清华洞擒妖",
+     "predicate": "OCCURRED_AT",
+     "object": "清华洞",
+     "evidence": "径入清华仙府",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "清华洞",
+     "evidence": "撞将进去",
+     "confidence": 0.8
+    },
+    {
+     "subject": "比丘国王",
+     "predicate": "MEMBER_OF",
+     "object": "比丘国",
+     "evidence": "比丘国王被一个妖精哄了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "比丘国王",
+     "predicate": "LEADS",
+     "object": "比丘国",
+     "evidence": "比丘国王被一个妖精哄了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如意真仙",
+     "predicate": "SERVED",
+     "object": "比丘国王",
+     "evidence": "国丈在旁指定道",
+     "confidence": 0.8
+    },
+    {
+     "subject": "白面狐狸",
+     "predicate": "SERVED",
+     "object": "比丘国王",
+     "evidence": "宠幸在宫",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "寿星",
+     "evidence": "寿星兄弟，那里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "寿星",
+     "evidence": "肉头老儿，罩住寒光",
+     "confidence": 0.9
+    },
+    {
+     "subject": "东华帝君",
+     "predicate": "FRIEND",
+     "object": "寿星",
+     "evidence": "东华帝君过我荒山，我留坐着棋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寿星",
+     "predicate": "OWNS",
+     "object": "蟠龙拐杖",
+     "evidence": "连我的拐棒也偷来也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "如意真仙",
+     "evidence": "吃吾一棒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "ATTACKED",
+     "object": "如意真仙",
+     "evidence": "举钯就筑",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 247,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧",
+      "唐朝爷爷",
+      "唐三藏"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "唐朝高僧，取经人"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，相貌丑陋"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙和尚",
+     "description": "唐僧三徒弟"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "美猴王",
+      "齐天大圣",
+      "行者",
+      "悟空",
+      "孙大圣"
+     ],
+     "nickname": "孙大圣",
+     "description": "唐僧大徒弟"
+    },
+    {
+     "name": "比丘国国王",
+     "type": "Person",
+     "aliases": [
+      "国王"
+     ],
+     "nickname": "",
+     "description": "比丘国国王"
+    },
+    {
+     "name": "比丘国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度"
+    },
+    {
+     "name": "救婴儿",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒救活比丘国小儿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救婴儿",
+     "evidence": "扯住唐朝爷爷，到我家奉谢救儿之恩！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救婴儿",
+     "evidence": "抬着猪八戒，扛着沙和尚，顶着孙大圣，撮着唐三藏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救婴儿",
+     "evidence": "抬着猪八戒，扛着沙和尚，顶着孙大圣，撮着唐三藏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救婴儿",
+     "evidence": "抬着猪八戒，扛着沙和尚，顶着孙大圣，撮着唐三藏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "救婴儿",
+     "predicate": "OCCURRED_AT",
+     "object": "比丘国",
+     "evidence": "一拥回城，那国王也不能禁止。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "比丘国国王",
+     "predicate": "LEADS",
+     "object": "比丘国",
+     "evidence": "那国王也不能禁止。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:51.492Z"
+}

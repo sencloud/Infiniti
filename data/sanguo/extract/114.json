@@ -1,0 +1,986 @@
+{
+ "no": 114,
+ "title": "曹髦驱车死南阙 姜维弃粮胜魏兵",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3874,
+   "entities": [
+    {
+     "name": "姜维",
+     "type": "Person",
+     "aliases": [
+      "伯约",
+      "幼麟",
+      "大将军"
+     ],
+     "nickname": "伯约",
+     "description": "蜀汉大将军，继承诸葛亮遗志北伐"
+    },
+    {
+     "name": "廖化",
+     "type": "Person",
+     "aliases": [
+      "元俭",
+      "右车骑将军"
+     ],
+     "nickname": "元俭",
+     "description": "蜀汉将领，随姜维北伐"
+    },
+    {
+     "name": "张翼",
+     "type": "Person",
+     "aliases": [
+      "伯恭",
+      "张翼德"
+     ],
+     "nickname": "伯恭",
+     "description": "蜀汉将领，随姜维北伐"
+    },
+    {
+     "name": "邓艾",
+     "type": "Person",
+     "aliases": [
+      "士载",
+      "邓士载",
+      "征西将军"
+     ],
+     "nickname": "士载",
+     "description": "魏国征西将军，镇守祁山"
+    },
+    {
+     "name": "刘禅",
+     "type": "Person",
+     "aliases": [
+      "公嗣",
+      "后主",
+      "阿斗"
+     ],
+     "nickname": "公嗣",
+     "description": "蜀汉后主，听信谗言召回姜维"
+    },
+    {
+     "name": "司马昭",
+     "type": "Person",
+     "aliases": [
+      "子上",
+      "晋公",
+      "晋王",
+      "大将军"
+     ],
+     "nickname": "子上",
+     "description": "魏国权臣，弑杀曹髦，图谋篡位"
+    },
+    {
+     "name": "曹髦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国皇帝，因反抗司马昭被杀"
+    },
+    {
+     "name": "贾充",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "司马昭心腹，指使成济弑君"
+    },
+    {
+     "name": "成济",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾充部下，亲手刺杀曹髦"
+    },
+    {
+     "name": "王经",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国尚书，因忠谏被司马昭灭族"
+    },
+    {
+     "name": "王沈",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国侍中，背叛曹髦向司马昭告密"
+    },
+    {
+     "name": "王业",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国散骑常侍，背叛曹髦向司马昭告密"
+    },
+    {
+     "name": "司马孚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国太傅，司马昭叔父，哭吊曹髦"
+    },
+    {
+     "name": "陈泰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国尚书仆射，要求斩贾充谢天下"
+    },
+    {
+     "name": "荀顗",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国尚书，陈泰之舅，奉司马昭命召陈泰"
+    },
+    {
+     "name": "王瓘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国参军，诈降姜维，事败投黑龙江而死"
+    },
+    {
+     "name": "夏侯霸",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀汉将领，识破王瓘诈降"
+    },
+    {
+     "name": "傅佥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀汉将领，参与墵山谷伏击"
+    },
+    {
+     "name": "蒋舒",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀汉将领，奉命出斜谷"
+    },
+    {
+     "name": "焦伯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹髦护卫，被成济刺死"
+    },
+    {
+     "name": "曹奂",
+     "type": "Person",
+     "aliases": [
+      "曹璜",
+      "景明"
+     ],
+     "nickname": "景明",
+     "description": "魏国新帝，曹操之孙，被司马昭立为帝"
+    },
+    {
+     "name": "司马望",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国将领，与邓艾同守祁山"
+    },
+    {
+     "name": "党均",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国间谍，往来传递消息"
+    },
+    {
+     "name": "蜀汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备建立的政权，姜维所属"
+    },
+    {
+     "name": "魏国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹魏政权，司马昭掌权"
+    },
+    {
+     "name": "祁山寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏军在祁山的营寨，邓艾镇守"
+    },
+    {
+     "name": "成都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀汉都城"
+    },
+    {
+     "name": "汉中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀汉重镇，姜维退守之地"
+    },
+    {
+     "name": "南阙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国宫阙，曹髦在此被杀"
+    },
+    {
+     "name": "墵山谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "姜维设伏击败邓艾的山谷"
+    },
+    {
+     "name": "子午谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀军进攻路线之一"
+    },
+    {
+     "name": "骆谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀军进攻路线之一"
+    },
+    {
+     "name": "斜谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀军进攻路线之一"
+    },
+    {
+     "name": "黑龙江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王瓘兵败投水而死之处"
+    },
+    {
+     "name": "曹髦驱车死南阙",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹髦讨伐司马昭，在南阙被成济弑杀"
+    },
+    {
+     "name": "姜维弃粮胜魏兵",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "姜维将计就计，在墵山谷大败邓艾"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "姜维",
+     "predicate": "SERVED",
+     "object": "刘禅",
+     "evidence": "姜维至成都，入见后主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "廖化",
+     "predicate": "SERVED",
+     "object": "姜维",
+     "evidence": "命廖化、张翼断后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张翼",
+     "predicate": "SERVED",
+     "object": "姜维",
+     "evidence": "命廖化、张翼断后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "SERVED",
+     "object": "司马昭",
+     "evidence": "邓艾引部下败兵，逃回祁山寨内，上表请罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "KILLED",
+     "object": "曹髦",
+     "evidence": "被成济一戟刺中前胸，撞出辇来；再一戟，刃从背上透出，死于辇傍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成济",
+     "predicate": "KILLED",
+     "object": "曹髦",
+     "evidence": "被成济一戟刺中前胸，撞出辇来；再一戟，刃从背上透出，死于辇傍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成济",
+     "predicate": "KILLED",
+     "object": "焦伯",
+     "evidence": "焦伯挺枪来迎，被成济一戟刺死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾充",
+     "predicate": "MASTERMINDED",
+     "object": "曹髦驱车死南阙",
+     "evidence": "贾充呼成济曰：司马公养你何用？正为今日之事也！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "MASTERMINDED",
+     "object": "曹髦驱车死南阙",
+     "evidence": "充曰：司马公有令；只要死的。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹髦驱车死南阙",
+     "predicate": "OCCURRED_AT",
+     "object": "南阙",
+     "evidence": "叱左右径出南阙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王沈",
+     "predicate": "BETRAYED",
+     "object": "曹髦",
+     "evidence": "王沈、王业见经不从，径自往报司马昭去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王业",
+     "predicate": "BETRAYED",
+     "object": "曹髦",
+     "evidence": "王沈、王业见经不从，径自往报司马昭去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "KILLED",
+     "object": "王经",
+     "evidence": "次日，王经全家皆押赴东市。王经母子含笑受刑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "KILLED",
+     "object": "成济",
+     "evidence": "成济大逆不道，可剐之，灭其三族",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "LEADS",
+     "object": "魏国",
+     "evidence": "司马昭带剑上殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "LEADS",
+     "object": "蜀汉",
+     "evidence": "姜维传令退兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "MASTERMINDED",
+     "object": "姜维弃粮胜魏兵",
+     "evidence": "我已知王瓘之诈，故分其兵势，将计就计而行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姜维弃粮胜魏兵",
+     "predicate": "OCCURRED_AT",
+     "object": "墵山谷",
+     "evidence": "邓艾引五万精兵径往墵山谷中来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姜维",
+     "predicate": "DEFEATED",
+     "object": "邓艾",
+     "evidence": "杀得魏兵七断八续……邓艾弃甲丢盔，撇了坐下马，杂在步军之中，爬山越岭而逃",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王瓘",
+     "predicate": "SURRENDERED_TO",
+     "object": "姜维",
+     "evidence": "某乃王经之侄王瓘也……特引本部兵五千来降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王瓘",
+     "predicate": "BETRAYED",
+     "object": "姜维",
+     "evidence": "瓘心中大喜，以为中计，忻然领诺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夏侯霸",
+     "predicate": "SERVED",
+     "object": "姜维",
+     "evidence": "忽报夏侯霸到。霸曰：都督何故准信王瓘之言也？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "傅佥",
+     "predicate": "SERVED",
+     "object": "姜维",
+     "evidence": "令傅佥引二千原降魏兵，执打运粮旗号",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋舒",
+     "predicate": "SERVED",
+     "object": "姜维",
+     "evidence": "令蒋舒出斜谷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "STATIONED_AT",
+     "object": "祁山寨",
+     "evidence": "时邓艾在祁山寨中，训练人马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姜维",
+     "predicate": "STATIONED_AT",
+     "object": "汉中",
+     "evidence": "姜维叹息出朝，自投汉中去讫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "SERVED",
+     "object": "魏国",
+     "evidence": "吾父子兄弟三人有大功于魏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹髦",
+     "predicate": "SERVED",
+     "object": "魏国",
+     "evidence": "吾乃天子也！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王经",
+     "predicate": "SERVED",
+     "object": "曹髦",
+     "evidence": "王经伏于辇前，大哭而谏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈泰",
+     "predicate": "SERVED",
+     "object": "魏国",
+     "evidence": "独有尚书仆射陈泰不至",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马孚",
+     "predicate": "SERVED",
+     "object": "魏国",
+     "evidence": "太傅司马孚入内，见髦尸，首枕其股而哭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾充",
+     "predicate": "SERVED",
+     "object": "司马昭",
+     "evidence": "充曰：某愿为主公早晚图之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成济",
+     "predicate": "SERVED",
+     "object": "司马昭",
+     "evidence": "司马公养你何用？正为今日之事也！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "党均",
+     "predicate": "SERVED",
+     "object": "邓艾",
+     "evidence": "党均回到祁山寨中，报知此事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马望",
+     "predicate": "SERVED",
+     "object": "邓艾",
+     "evidence": "邓艾与司马望曰：君臣不和，必有内变",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹奂",
+     "predicate": "SERVED",
+     "object": "魏国",
+     "evidence": "司马昭立常道乡公曹璜为帝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "ATTACKED",
+     "object": "曹髦",
+     "evidence": "司马昭带剑上殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹髦",
+     "predicate": "ATTACKED",
+     "object": "司马昭",
+     "evidence": "今陛下领数百人伐昭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "ATTACKED",
+     "object": "祁山寨",
+     "evidence": "来取祁山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "ATTACKED",
+     "object": "姜维",
+     "evidence": "邓艾引兵追赶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "PARTICIPATED_IN",
+     "object": "姜维弃粮胜魏兵",
+     "evidence": "维虽然胜了邓艾",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "PARTICIPATED_IN",
+     "object": "姜维弃粮胜魏兵",
+     "evidence": "邓艾引五万精兵径往墵山谷中来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王瓘",
+     "predicate": "PARTICIPATED_IN",
+     "object": "姜维弃粮胜魏兵",
+     "evidence": "瓘被四面蜀兵攻击，投黑龙江而死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹髦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "曹髦驱车死南阙",
+     "evidence": "髦仗剑升辇，叱左右径出南阙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成济",
+     "predicate": "PARTICIPATED_IN",
+     "object": "曹髦驱车死南阙",
+     "evidence": "成济撚戟直奔辇前",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾充",
+     "predicate": "PARTICIPATED_IN",
+     "object": "曹髦驱车死南阙",
+     "evidence": "贾充戎服乘马，左有成倅，右有成济",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "PARTICIPATED_IN",
+     "object": "曹髦驱车死南阙",
+     "evidence": "昭入内，见髦已死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王经",
+     "predicate": "PARTICIPATED_IN",
+     "object": "曹髦驱车死南阙",
+     "evidence": "王经伏于辇前，大哭而谏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "重权已归司马氏久矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "臣誓讨贼，以报国恩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王瓘",
+     "predicate": "OWNS",
+     "object": "粮车",
+     "evidence": "今有粮车数千，现在川口",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "OWNS",
+     "object": "粮车",
+     "evidence": "将现有粮车数百辆卸了粮米",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "OWNS",
+     "object": "祁山寨",
+     "evidence": "邓艾引部下败兵，逃回祁山寨内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "司马昭立常道乡公曹璜为帝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹髦",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "吾乃天子也！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王经",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "王经奏曰：不可",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈泰",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "独有尚书仆射陈泰不至",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马孚",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "太傅司马孚入内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾充",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "贾充戎服乘马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成济",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "成济撚戟直奔辇前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王沈",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "侍中王沈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王业",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "散骑常侍王业",
+     "confidence": 0.9
+    },
+    {
+     "subject": "荀顗",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "尚书荀顗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "焦伯",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "令护卫焦伯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "党均",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "党均回到祁山寨中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马望",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "邓艾与司马望曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夏侯霸",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "忽报夏侯霸到",
+     "confidence": 0.9
+    },
+    {
+     "subject": "傅佥",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "令傅佥引二千原降魏兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋舒",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "令蒋舒出斜谷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "廖化",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "命廖化、张翼断后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张翼",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "命廖化、张翼断后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘禅",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "后主曰：朕为卿在边庭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "姜维传令退兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "邓艾引兵追赶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王瓘",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "某乃王经之侄王瓘也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹奂",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "司马昭立常道乡公曹璜为帝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "司马昭带剑上殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹髦",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "髦仗剑升辇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王经",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "王经伏于辇前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈泰",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "独有尚书仆射陈泰不至",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马孚",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "太傅司马孚入内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾充",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "贾充戎服乘马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成济",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "成济撚戟直奔辇前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王沈",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "侍中王沈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王业",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "散骑常侍王业",
+     "confidence": 0.9
+    },
+    {
+     "subject": "荀顗",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "尚书荀顗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "焦伯",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "令护卫焦伯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "党均",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "党均回到祁山寨中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马望",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "邓艾与司马望曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夏侯霸",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "忽报夏侯霸到",
+     "confidence": 0.9
+    },
+    {
+     "subject": "傅佥",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "令傅佥引二千原降魏兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋舒",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "令蒋舒出斜谷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "廖化",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "命廖化、张翼断后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张翼",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "命廖化、张翼断后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘禅",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "后主曰：朕为卿在边庭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "OWNS",
+     "object": "蜀汉",
+     "evidence": "姜维传令退兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "邓艾引兵追赶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王瓘",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "某乃王经之侄王瓘也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹奂",
+     "predicate": "OWNS",
+     "object": "魏国",
+     "evidence": "司马昭立常道乡公曹璜为帝",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:57:59.280Z"
+}

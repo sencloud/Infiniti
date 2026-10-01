@@ -1,0 +1,108 @@
+{
+ "no": 220,
+ "title": "大力将军",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 920,
+   "entities": [
+    {
+     "name": "查伊璜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "浙人，清明野寺饮酒，后因修史案被收，得吴将军力免"
+    },
+    {
+     "name": "吴六一",
+     "type": "Person",
+     "aliases": [
+      "吴将军"
+     ],
+     "nickname": "",
+     "description": "乞儿出身，后为将军，感查伊璜之恩，倾家相报"
+    },
+    {
+     "name": "查犹子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "查伊璜之侄，令于闽，为吴将军通谒"
+    },
+    {
+     "name": "野寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "查伊璜清明饮酒处，殿前有古钟"
+    },
+    {
+     "name": "闽",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "查犹子为令之地，吴将军通谒处"
+    },
+    {
+     "name": "古钟",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "野寺殿前大钟，乞儿一手可举"
+    },
+    {
+     "name": "竹筐",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "钟下所置，受八升许，贮乞儿糗糒"
+    },
+    {
+     "name": "五十金",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "查伊璜赠乞儿作路费之银"
+    },
+    {
+     "name": "修史一案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "查伊璜因修《明史》受株连被收之案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "查伊璜",
+     "predicate": "HELPED",
+     "object": "吴六一",
+     "evidence": "查遂携归饵之……又以五十金赠之行。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴六一",
+     "predicate": "HELPED",
+     "object": "查伊璜",
+     "evidence": "后查以修史一案，株连被收，卒得免，皆将军力也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "查伊璜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "修史一案",
+     "evidence": "后查以修史一案，株连被收",
+     "confidence": 0.95
+    },
+    {
+     "subject": "修史一案",
+     "predicate": "OCCURRED_AT",
+     "object": "闽",
+     "evidence": "后查以修史一案，株连被收",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:36.033Z"
+}

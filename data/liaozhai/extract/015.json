@@ -1,0 +1,82 @@
+{
+ "no": 15,
+ "title": "劳山道士",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1069,
+   "entities": [
+    {
+     "name": "王七",
+     "type": "Person",
+     "aliases": [
+      "王生"
+     ],
+     "nickname": "",
+     "description": "劳山道士篇中慕道求仙的世家子弟"
+    },
+    {
+     "name": "劳山道士",
+     "type": "Person",
+     "aliases": [
+      "道士"
+     ],
+     "nickname": "",
+     "description": "劳山道观中白发神异、授王七穿墙术的道士"
+    },
+    {
+     "name": "嫦娥",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "劳山道士篇中由箸化出的月宫仙子"
+    },
+    {
+     "name": "劳山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王七负笈往游、多仙人的山"
+    },
+    {
+     "name": "观宇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "劳山顶上幽静的道观，王七留居学道处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王七",
+     "predicate": "LIVES_AT",
+     "object": "观宇",
+     "evidence": "遂留观中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王七",
+     "predicate": "PARTICIPATED_IN",
+     "object": "采樵",
+     "evidence": "授以斧，使随众采樵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "劳山道士",
+     "predicate": "HELPED",
+     "object": "王七",
+     "evidence": "乃传以诀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "劳山道士",
+     "predicate": "HELPED",
+     "object": "王七",
+     "evidence": "遂助资斧遣之归",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:18.101Z"
+}

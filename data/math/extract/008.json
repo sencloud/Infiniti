@@ -1,0 +1,120 @@
+{
+ "no": 8,
+ "title": "2.5 有理数的乘法与除法",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3069,
+   "entities": [
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整数和分数的统称"
+    },
+    {
+     "name": "有理数的乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数范围内的乘法运算"
+    },
+    {
+     "name": "有理数乘法法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "两数相乘，同号得正，异号得负，并把绝对值相乘；0与任何数相乘都得0"
+    },
+    {
+     "name": "乘法交换律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a×b=b×a"
+    },
+    {
+     "name": "乘法结合律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a×b)×c=a×(b×c)"
+    },
+    {
+     "name": "乘法分配律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a+b)×c=a×c+b×c"
+    },
+    {
+     "name": "倒数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "如果a×b=1，那么a和b互为倒数"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有符号不同的两个数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "有理数",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的乘法",
+     "evidence": "小学里，我们已经熟悉了非负有理数的乘法和除法运算，引入负有理数之后，怎样进行乘法和除法运算呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数的乘法",
+     "predicate": "INCLUDES",
+     "object": "有理数乘法法则",
+     "evidence": "根据上面的讨论，可以得到有理数乘法法则：两数相乘，同号得正，异号得负，并把绝对值相乘。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数的乘法",
+     "predicate": "INCLUDES",
+     "object": "乘法交换律",
+     "evidence": "事实上，小学里学过的乘法交换律、乘法结合律、乘法分配律，在有理数范围内仍然都适用。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数的乘法",
+     "predicate": "INCLUDES",
+     "object": "乘法结合律",
+     "evidence": "事实上，小学里学过的乘法交换律、乘法结合律、乘法分配律，在有理数范围内仍然都适用。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数的乘法",
+     "predicate": "INCLUDES",
+     "object": "乘法分配律",
+     "evidence": "事实上，小学里学过的乘法交换律、乘法结合律、乘法分配律，在有理数范围内仍然都适用。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数乘法法则",
+     "predicate": "DERIVES",
+     "object": "倒数",
+     "evidence": "一般地，如果a×b=1，那么a和b互为倒数关系，其中一个数叫作另一个数的倒数。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相反数",
+     "predicate": "PREREQUISITE",
+     "object": "有理数乘法法则",
+     "evidence": "我们也可以用相反数的意义来说明(-4)×3=-12。",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:30.730Z"
+}

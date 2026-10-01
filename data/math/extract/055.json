@@ -1,0 +1,115 @@
+{
+ "no": 55,
+ "title": "2.2 立方根",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1823,
+   "entities": [
+    {
+     "name": "立方根",
+     "type": "Concept",
+     "aliases": [
+      "三次方根"
+     ],
+     "nickname": "",
+     "description": "如果x^3=a，那么x叫作a的立方根"
+    },
+    {
+     "name": "开立方",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求一个数的立方根的运算"
+    },
+    {
+     "name": "立方",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求一个数的立方的运算"
+    },
+    {
+     "name": "开平方",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求一个数的平方根的运算"
+    },
+    {
+     "name": "正方体",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "棱长都相等的长方体"
+    },
+    {
+     "name": "球",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "空间中到定点距离等于定长的点的集合"
+    },
+    {
+     "name": "立方根的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "正数的立方根是正数；0的立方根是0；负数的立方根是负数"
+    },
+    {
+     "name": "立方根的定义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "如果x^3=a，那么x叫作a的立方根"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "立方",
+     "predicate": "PREREQUISITE",
+     "object": "立方根",
+     "evidence": "如果x^3=a，那么x叫作a的立方根",
+     "confidence": 0.95
+    },
+    {
+     "subject": "立方",
+     "predicate": "PREREQUISITE",
+     "object": "开立方",
+     "evidence": "求一个数的立方根的运算叫作开立方",
+     "confidence": 0.95
+    },
+    {
+     "subject": "开立方",
+     "predicate": "CONTRASTS",
+     "object": "开平方",
+     "evidence": "开平方和开立方有什么不同？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "开立方",
+     "predicate": "RELATED",
+     "object": "立方",
+     "evidence": "开立方与立方互为逆运算",
+     "confidence": 0.95
+    },
+    {
+     "subject": "立方根的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "立方根",
+     "evidence": "正数的立方根是正数；0的立方根是0；负数的立方根是负数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "立方根的定义",
+     "predicate": "RELATED",
+     "object": "立方根",
+     "evidence": "根据立方根的定义",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:54.732Z"
+}

@@ -124,7 +124,8 @@ export async function getStats() {
     `
     MATCH (p:Person)
     WITH count(p) AS persons
-    OPTIONAL MATCH ()-[r:RELATES]->()
+    OPTIONAL MATCH (a)-[r:RELATES]->()
+    WHERE NOT a:Entity
     RETURN persons, count(r) AS relations
     `
   );

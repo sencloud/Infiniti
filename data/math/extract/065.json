@@ -1,0 +1,127 @@
+{
+ "no": 65,
+ "title": "5.3 一次函数的图象与性质",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5279,
+   "entities": [
+    {
+     "name": "函数图象",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "函数图象可以直观地反映函数的变化规律"
+    },
+    {
+     "name": "正比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx（k为常数，k≠0）的函数"
+    },
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k，b为常数，k≠0）的函数"
+    },
+    {
+     "name": "列表",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "画函数图象的步骤之一"
+    },
+    {
+     "name": "描点",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "画函数图象的步骤之一"
+    },
+    {
+     "name": "连线",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "画函数图象的步骤之一"
+    },
+    {
+     "name": "正比例函数的图象与性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "正比例函数y=kx的图象是经过原点的直线，k决定增减性"
+    },
+    {
+     "name": "一次函数的图象与性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "一次函数y=kx+b的图象是直线，k决定增减性，k和b决定象限"
+    },
+    {
+     "name": "平移",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "一次函数图象可由正比例函数图象沿y轴平移得到"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "正比例函数",
+     "predicate": "PREREQUISITE",
+     "object": "一次函数",
+     "evidence": "观察一次函数 y=2x+3 与正比例函数 y=2x 的表达式，猜想它们的图象之间具有怎样的位置关系。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "函数图象",
+     "predicate": "INCLUDES",
+     "object": "列表",
+     "evidence": "画一个函数的图象需要经过列表、描点、连线三个步骤。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数图象",
+     "predicate": "INCLUDES",
+     "object": "描点",
+     "evidence": "画一个函数的图象需要经过列表、描点、连线三个步骤。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数图象",
+     "predicate": "INCLUDES",
+     "object": "连线",
+     "evidence": "画一个函数的图象需要经过列表、描点、连线三个步骤。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正比例函数的图象与性质",
+     "predicate": "PROPERTY_OF",
+     "object": "正比例函数",
+     "evidence": "正比例函数 y=kx（k 为常数，k≠0）具有以下图象特征和性质：",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一次函数的图象与性质",
+     "predicate": "PROPERTY_OF",
+     "object": "一次函数",
+     "evidence": "对于一次函数 y=kx+b（k，b 为常数，k≠0），k 的符号决定了函数的变化趋势，k 和 b 的符号决定了其图象经过的象限。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平移",
+     "predicate": "APPLIES_TO",
+     "object": "一次函数",
+     "evidence": "一般地，一次函数 y=kx+b 的图象可以由正比例函数 y=kx 的图象沿 y 轴向上（b>0）或向下（b<0）平移 |b| 个单位长度得到。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:00.250Z"
+}

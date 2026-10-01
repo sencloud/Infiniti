@@ -1,0 +1,920 @@
+{
+ "no": 54,
+ "title": "曹相国世家",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2476,
+   "entities": [
+    {
+     "name": "曹参",
+     "type": "Person",
+     "aliases": [
+      "平阳侯",
+      "曹相国",
+      "懿侯"
+     ],
+     "nickname": "",
+     "description": "汉初功臣，继萧何为汉相国"
+    },
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉高祖",
+      "沛公",
+      "高祖",
+      "汉王"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝"
+    },
+    {
+     "name": "萧何",
+     "type": "Person",
+     "aliases": [
+      "酂侯",
+      "相国"
+     ],
+     "nickname": "",
+     "description": "汉初名相，曹参前任相国"
+    },
+    {
+     "name": "项羽",
+     "type": "Person",
+     "aliases": [
+      "项籍",
+      "西楚霸王",
+      "霸王"
+     ],
+     "nickname": "",
+     "description": "西楚霸王，与刘邦争天下"
+    },
+    {
+     "name": "韩信",
+     "type": "Person",
+     "aliases": [
+      "淮阴侯",
+      "齐王",
+      "楚王"
+     ],
+     "nickname": "",
+     "description": "汉初名将，曾封齐王、楚王"
+    },
+    {
+     "name": "吕雉",
+     "type": "Person",
+     "aliases": [
+      "吕后",
+      "高后",
+      "吕太后"
+     ],
+     "nickname": "",
+     "description": "刘邦皇后，惠帝生母"
+    },
+    {
+     "name": "英布",
+     "type": "Person",
+     "aliases": [
+      "黥布",
+      "九江王",
+      "淮南王"
+     ],
+     "nickname": "",
+     "description": "汉初诸侯王，后反汉"
+    },
+    {
+     "name": "张耳",
+     "type": "Person",
+     "aliases": [
+      "赵王",
+      "常山王"
+     ],
+     "nickname": "",
+     "description": "汉初诸侯王，曾为常山王、赵王"
+    },
+    {
+     "name": "陈馀",
+     "type": "Person",
+     "aliases": [
+      "成安君"
+     ],
+     "nickname": "",
+     "description": "秦末赵地将领，与张耳有隙"
+    },
+    {
+     "name": "田横",
+     "type": "Person",
+     "aliases": [
+      "齐王"
+     ],
+     "nickname": "",
+     "description": "齐国贵族，秦末齐王"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "子长",
+      "太史公"
+     ],
+     "nickname": "",
+     "description": "《史记》作者"
+    },
+    {
+     "name": "齐威王",
+     "type": "Person",
+     "aliases": [
+      "田因齐",
+      "齐王"
+     ],
+     "nickname": "",
+     "description": "战国齐国君主"
+    },
+    {
+     "name": "楚怀王",
+     "type": "Person",
+     "aliases": [
+      "熊槐",
+      "楚王"
+     ],
+     "nickname": "",
+     "description": "战国楚国君主"
+    },
+    {
+     "name": "章邯",
+     "type": "Person",
+     "aliases": [
+      "雍王"
+     ],
+     "nickname": "",
+     "description": "秦末将领，后为雍王"
+    },
+    {
+     "name": "魏王豹",
+     "type": "Person",
+     "aliases": [
+      "魏王"
+     ],
+     "nickname": "",
+     "description": "秦末魏国君主，后反汉"
+    },
+    {
+     "name": "龙且",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "项羽部将，被韩信击杀"
+    },
+    {
+     "name": "盖公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胶西黄老学者，曹参师事之"
+    },
+    {
+     "name": "曹窋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹参之子，嗣平阳侯"
+    },
+    {
+     "name": "刘肥",
+     "type": "Person",
+     "aliases": [
+      "悼惠王",
+      "齐王"
+     ],
+     "nickname": "",
+     "description": "刘邦长子，封齐王"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦朝"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉朝"
+    },
+    {
+     "name": "魏",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国魏"
+    },
+    {
+     "name": "齐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国齐"
+    },
+    {
+     "name": "赵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国赵"
+    },
+    {
+     "name": "楚",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国楚"
+    },
+    {
+     "name": "平阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹参封邑"
+    },
+    {
+     "name": "咸阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦朝都城"
+    },
+    {
+     "name": "废丘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "章邯被围之地"
+    },
+    {
+     "name": "荥阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚汉相争要地"
+    },
+    {
+     "name": "井陉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "韩信破赵之地"
+    },
+    {
+     "name": "临菑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国都城"
+    },
+    {
+     "name": "相国",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "百官之长"
+    },
+    {
+     "name": "丞相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "辅佐君主的最高行政长官"
+    },
+    {
+     "name": "将军",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "武官名"
+    },
+    {
+     "name": "中尉",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "武官名"
+    },
+    {
+     "name": "中涓",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "侍从官"
+    },
+    {
+     "name": "御史大夫",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "副丞相"
+    },
+    {
+     "name": "狱掾",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "狱吏"
+    },
+    {
+     "name": "主吏",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "县吏"
+    },
+    {
+     "name": "执圭",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "爵位名"
+    },
+    {
+     "name": "建成侯",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "爵位名"
+    },
+    {
+     "name": "假左丞相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "代理左丞相"
+    },
+    {
+     "name": "右丞相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "丞相之一"
+    },
+    {
+     "name": "齐相国",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国相国"
+    },
+    {
+     "name": "齐丞相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国丞相"
+    },
+    {
+     "name": "汉相国",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉朝相国"
+    },
+    {
+     "name": "中大夫",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "郎中令属官"
+    },
+    {
+     "name": "灭秦",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘邦等攻灭秦朝"
+    },
+    {
+     "name": "楚汉之争",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘邦与项羽争夺天下"
+    },
+    {
+     "name": "井陉之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "韩信破赵之战"
+    },
+    {
+     "name": "黥布之乱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "英布反汉事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "曹参",
+     "predicate": "SERVED",
+     "object": "刘邦",
+     "evidence": "高祖为沛公而初起也，参以中涓从。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "狱掾",
+     "evidence": "秦时为沛狱掾",
+     "confidence": 0.95
+    },
+    {
+     "subject": "萧何",
+     "predicate": "HELD_OFFICE",
+     "object": "主吏",
+     "evidence": "而萧何为主吏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "FOUGHT",
+     "object": "秦",
+     "evidence": "将击胡陵、方与，攻秦监公军，大破之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "秦",
+     "evidence": "攻秦监公军，大破之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "执圭",
+     "evidence": "迁为执圭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "PARTICIPATED_IN",
+     "object": "灭秦",
+     "evidence": "遂至咸阳，灭秦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "汉王为皇帝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "ENFEOFFED",
+     "object": "建成侯",
+     "evidence": "汉王封参为建成侯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "将军",
+     "evidence": "迁为将军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "FOUGHT",
+     "object": "章邯",
+     "evidence": "参以将军引兵围章邯于废丘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "FOUGHT",
+     "object": "项羽",
+     "evidence": "击项籍军，汉军大败走",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "假左丞相",
+     "evidence": "拜为假左丞相",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "SERVED",
+     "object": "韩信",
+     "evidence": "以假左丞相别与韩信东攻魏将军孙遫军东张",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "魏王豹",
+     "evidence": "生得魏王豹",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "ENFEOFFED",
+     "object": "平阳",
+     "evidence": "赐食邑平阳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "SERVED",
+     "object": "韩信",
+     "evidence": "参以右丞相属韩信",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩信",
+     "predicate": "DEFEATED",
+     "object": "龙且",
+     "evidence": "斩龙且",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩信",
+     "predicate": "DEFEATED",
+     "object": "项羽",
+     "evidence": "与汉王共破项羽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "齐相国",
+     "evidence": "以参为齐相国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "SERVED",
+     "object": "刘肥",
+     "evidence": "参以齐相国从悼惠王将兵车骑十二万人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "FOUGHT",
+     "object": "英布",
+     "evidence": "与高祖会击黥布军，大破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "齐丞相",
+     "evidence": "更以参为齐丞相",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "MASTER_OF",
+     "object": "盖公",
+     "evidence": "闻胶西有盖公，善治黄老言，使人厚币请之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "SUCCEEDED",
+     "object": "萧何",
+     "evidence": "参代何为汉相国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "汉相国",
+     "evidence": "参代何为汉相国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "KIN",
+     "object": "曹窋",
+     "evidence": "参子窋为中大夫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹窋",
+     "predicate": "HELD_OFFICE",
+     "object": "中大夫",
+     "evidence": "参子窋为中大夫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹窋",
+     "predicate": "HELD_OFFICE",
+     "object": "御史大夫",
+     "evidence": "平阳侯窋，高后时为御史大夫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹窋",
+     "predicate": "SUCCEEDED",
+     "object": "曹参",
+     "evidence": "子窋代侯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "FRIEND",
+     "object": "萧何",
+     "evidence": "参始微时，与萧何善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "SERVED",
+     "object": "韩信",
+     "evidence": "以与淮阴侯俱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "PARTICIPATED_IN",
+     "object": "楚汉之争",
+     "evidence": "从击诸侯，及项羽败",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "PARTICIPATED_IN",
+     "object": "井陉之战",
+     "evidence": "韩信与故常山王张耳引兵下井陉，击成安君，而令参还围赵别将戚将军于邬城中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黥布之乱",
+     "evidence": "黥布反，参以齐相国从悼惠王将兵车骑十二万人，与高祖会击黥布军，大破之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "KIN",
+     "object": "刘肥",
+     "evidence": "高帝以长子肥为齐王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘肥",
+     "predicate": "RULED",
+     "object": "齐",
+     "evidence": "高帝以长子肥为齐王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "右丞相",
+     "evidence": "参以右丞相属韩信",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "中尉",
+     "evidence": "以中尉从汉王出临晋关",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "HELD_OFFICE",
+     "object": "中涓",
+     "evidence": "参以中涓从",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "赵贲",
+     "evidence": "击赵贲军，破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "杨熊",
+     "evidence": "西击秦将杨熊军于曲遇，破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "章平",
+     "evidence": "击章平军于好畤南，破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "龙且",
+     "evidence": "东击龙且、项他定陶，破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "夏说",
+     "evidence": "大破之，斩夏说",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "田既",
+     "evidence": "得故齐王田广相田光，其守相许章，及故齐胶东将军田既",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "张春",
+     "evidence": "以齐相国击陈豨将张春军，破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "王武",
+     "evidence": "王武反于外黄，程处反于燕，往击，尽破之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "程处",
+     "evidence": "王武反于外黄，程处反于燕，往击，尽破之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "柱天侯",
+     "evidence": "柱天侯反于衍氏，又进破取衍氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "羽婴",
+     "evidence": "击羽婴于昆阳，追至叶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "魏王豹",
+     "evidence": "击魏王于曲阳，追至武垣，生得魏王豹",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "孙遫",
+     "evidence": "东攻魏将军孙遫军东张，大破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "王襄",
+     "evidence": "因攻安邑，得魏将王襄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "戚将军",
+     "evidence": "令参还围赵别将戚将军于邬城中。戚将军出走，追斩之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "周兰",
+     "evidence": "虏其将军周兰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "田光",
+     "evidence": "得故齐王田广相田光",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "许章",
+     "evidence": "其守相许章",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "秦",
+     "evidence": "前攻秦军蓝田南，又夜击其北，秦军大破",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "魏",
+     "evidence": "尽定魏地，凡五十二城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "齐",
+     "evidence": "定齐，凡得七十余县",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "赵",
+     "evidence": "大破之，斩夏说",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "楚",
+     "evidence": "与汉王共破项羽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "英布",
+     "evidence": "与高祖会击黥布军，大破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "陈豨",
+     "evidence": "以齐相国击陈豨将张春军，破之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "魏",
+     "evidence": "尽定魏地，凡五十二城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "齐",
+     "evidence": "定齐，凡得七十余县",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "赵",
+     "evidence": "大破之，斩夏说",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "楚",
+     "evidence": "与汉王共破项羽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "英布",
+     "evidence": "与高祖会击黥布军，大破之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹参",
+     "predicate": "DEFEATED",
+     "object": "陈豨",
+     "evidence": "以齐相国击陈豨将张春军，破之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:48:16.500Z"
+}

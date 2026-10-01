@@ -1,0 +1,172 @@
+{
+ "no": 361,
+ "title": "于中丞",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 664,
+   "entities": [
+    {
+     "name": "于成龙",
+     "type": "Person",
+     "aliases": [
+      "于中丞",
+      "于公"
+     ],
+     "nickname": "于中丞",
+     "description": "《于中丞》中官员，以断案神明著称"
+    },
+    {
+     "name": "高邮刺史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中高邮地方官，对嫁妆被盗无术"
+    },
+    {
+     "name": "巨绅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中高邮富绅，嫁女时妆奁被盗"
+    },
+    {
+     "name": "盗贼二人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中盗窃嫁妆的贼人，被于成龙识破"
+    },
+    {
+     "name": "邻邑县令",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中邻县县令，讳盗不报"
+    },
+    {
+     "name": "被害富室之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中富室之子，父被强盗炮烙而死"
+    },
+    {
+     "name": "强盗八人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中劫杀富室的强盗团伙"
+    },
+    {
+     "name": "妓女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中与强盗合谋藏匿赃金的妓女"
+    },
+    {
+     "name": "高邮",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中于成龙巡查所至州邑"
+    },
+    {
+     "name": "邻邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中于成龙任县令时邻县"
+    },
+    {
+     "name": "村舍",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中强盗窝藏之处"
+    },
+    {
+     "name": "嫁妆被盗案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中巨绅嫁女妆奁被盗事件"
+    },
+    {
+     "name": "富室劫杀案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《于中丞》中强盗入室炮烙杀人劫财事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "于成龙",
+     "predicate": "PUNISHED",
+     "object": "盗贼二人",
+     "evidence": "公令解衣搜之，见袍服内着女衣二袭，皆奁中物也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "盗贼二人",
+     "predicate": "HARMED",
+     "object": "巨绅",
+     "evidence": "适巨绅家将嫁女，妆奁甚富，夜被穿窬席卷而去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "嫁妆被盗案",
+     "predicate": "OCCURRED_AT",
+     "object": "高邮",
+     "evidence": "于中丞成龙，按部至高邮。适巨绅家将嫁女，妆奁甚富，夜被穿窬席卷而去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于成龙",
+     "predicate": "PUNISHED",
+     "object": "强盗八人",
+     "evidence": "差健役四鼓出城，直至村舍，捕得八人，一鞫而伏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "强盗八人",
+     "predicate": "KILLED",
+     "object": "被害富室之子",
+     "evidence": "果有富室被强寇入家，炮烙而死。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "强盗八人",
+     "predicate": "HARMED",
+     "object": "被害富室之子",
+     "evidence": "果有富室被强寇入家，炮烙而死。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妓女",
+     "predicate": "HELPED",
+     "object": "强盗八人",
+     "evidence": "是夜同在勾栏，故与妓女合谋，置金床上，令抱卧至窝处始瓜分耳。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "富室劫杀案",
+     "predicate": "OCCURRED_AT",
+     "object": "邻邑",
+     "evidence": "又公为宰时，至邻邑，早旦经郭外，见二人以床舁病人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "强盗八人",
+     "predicate": "LIVES_AT",
+     "object": "村舍",
+     "evidence": "隶尾之，至一村舍，两男子迎之而入。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:29.691Z"
+}

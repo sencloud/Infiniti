@@ -1,0 +1,600 @@
+{
+ "no": 27,
+ "title": "第二十七回 母夜叉孟州道卖人肉 武都头十字坡遇张青",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4592,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "阳谷县都头，因杀嫂报仇刺配孟州"
+    },
+    {
+     "name": "孙二娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "母夜叉",
+     "description": "十字坡酒店妇人，卖人肉馒头"
+    },
+    {
+     "name": "张青",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙二娘丈夫，十字坡酒店主人"
+    },
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县媒婆，教唆潘金莲毒杀武大"
+    },
+    {
+     "name": "武大",
+     "type": "Person",
+     "aliases": [
+      "武大郎"
+     ],
+     "nickname": "",
+     "description": "武松之兄，被潘金莲毒死"
+    },
+    {
+     "name": "西门庆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县富户，与潘金莲通奸，被武松斗杀"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武大之妻，与西门庆通奸，毒杀亲夫"
+    },
+    {
+     "name": "何九叔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县仵作，为武大验尸"
+    },
+    {
+     "name": "郓哥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县小贩，助武松作证"
+    },
+    {
+     "name": "陈文昭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东平府府尹，正直贤明，周全武松"
+    },
+    {
+     "name": "胡正卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "为武松记录口词之人"
+    },
+    {
+     "name": "姚二郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松旧邻，代卖武松家私"
+    },
+    {
+     "name": "阳谷县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松任职及杀嫂事发之地"
+    },
+    {
+     "name": "东平府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "审理武松案的府衙所在"
+    },
+    {
+     "name": "孟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松刺配之地"
+    },
+    {
+     "name": "十字坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州道旁，孙二娘酒店所在"
+    },
+    {
+     "name": "孟州道",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "通往孟州的山岭道路"
+    },
+    {
+     "name": "紫石街",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县街名，武大家所在"
+    },
+    {
+     "name": "狮子桥",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县桥名，西门庆被杀处"
+    },
+    {
+     "name": "景阳冈打虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松在景阳冈打死猛虎之事"
+    },
+    {
+     "name": "武松杀嫂",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松为兄报仇杀死潘金莲、西门庆"
+    },
+    {
+     "name": "王婆被剐",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "王婆因教唆毒杀武大被凌迟处死"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "KIN",
+     "object": "武大",
+     "evidence": "小人因与哥哥报仇雪恨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "武大",
+     "evidence": "武松因祭献亡兄武大，有嫂不容祭祀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "西门庆",
+     "evidence": "西门庆因与本妇通奸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙二娘",
+     "predicate": "SPOUSE",
+     "object": "张青",
+     "evidence": "那人道：是。小人的浑家有眼不识泰山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "潘金莲",
+     "evidence": "一时杀死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "西门庆",
+     "evidence": "斗杀西门庆奸夫人命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "FRAMED",
+     "object": "武大",
+     "evidence": "立主谋故武大性命，唆使本妇下药毒死亲夫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "FOUGHT",
+     "object": "孙二娘",
+     "evidence": "武松就势抱住那妇人，把两只手一拘，拘将拢来，当胸前搂住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "DEFEATED",
+     "object": "孙二娘",
+     "evidence": "那妇人被按压在地上，只叫道：好汉饶我！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈文昭",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "陈府尹哀怜武松是个有义的烈汉，如常差人看觑他",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "莫不是景阳冈打虎的武都头？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武松杀嫂",
+     "evidence": "武松因祭献亡兄武大，有嫂不容祭祀，因而相争",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "王婆被剐",
+     "evidence": "便把这婆子推上木驴，四道长钉，三条绑索，东平府尹判了一个剐字",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松杀嫂",
+     "predicate": "OCCURRED_AT",
+     "object": "阳谷县",
+     "evidence": "此时哄动了一个阳谷县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆被剐",
+     "predicate": "OCCURRED_AT",
+     "object": "东平府",
+     "evidence": "带去东平府市心里，吃了一剐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "孟州",
+     "evidence": "迭配孟州牢城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙二娘",
+     "predicate": "STATIONED_AT",
+     "object": "十字坡",
+     "evidence": "岭前面大树林边，便是有名的十字坡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "STATIONED_AT",
+     "object": "十字坡",
+     "evidence": "那人道：是。小人的浑家",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1572,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武都头",
+      "武二郎",
+      "行者"
+     ],
+     "nickname": "行者",
+     "description": "打虎英雄，杀西门庆后刺配孟州"
+    },
+    {
+     "name": "张青",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "菜园子",
+     "description": "十字坡卖酒为生，曾为光明寺种菜园子"
+    },
+    {
+     "name": "孙二娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "母夜叉",
+     "description": "张青之妻，学得父亲本事，在十字坡卖人肉"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁达",
+      "鲁提辖",
+      "花和尚"
+     ],
+     "nickname": "花和尚",
+     "description": "延安府提辖，三拳打死镇关西后出家，占二龙山"
+    },
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "青面兽"
+     ],
+     "nickname": "青面兽",
+     "description": "与鲁智深同在二龙山落草"
+    },
+    {
+     "name": "孙元",
+     "type": "Person",
+     "aliases": [
+      "山夜叉"
+     ],
+     "nickname": "山夜叉",
+     "description": "孙二娘之父，江湖前辈绿林中有名，已殁三四年"
+    },
+    {
+     "name": "光明寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "张青原种菜园子的寺庙，被其烧毁"
+    },
+    {
+     "name": "二龙山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深、杨志霸占落草的山寨"
+    },
+    {
+     "name": "孟州道",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "十字坡所在道路"
+    },
+    {
+     "name": "十字坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张青、孙二娘开酒店卖人肉之处"
+    },
+    {
+     "name": "大树坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张青曾在此剪径"
+    },
+    {
+     "name": "五台山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深落发为僧之处"
+    },
+    {
+     "name": "延安府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深原任提辖之地"
+    },
+    {
+     "name": "二龙山宝珠寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深、杨志占山落草的具体地点"
+    },
+    {
+     "name": "雪花镔铁戒刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "头陀遗物，两把雪花镔铁打成的戒刀，半夜啸响"
+    },
+    {
+     "name": "一百单八颗人顶骨数珠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "头陀遗物，人顶骨做成的数珠"
+    },
+    {
+     "name": "浑铁禅杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深所用禅杖，重六十来斤"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张青",
+     "predicate": "SPOUSE",
+     "object": "孙二娘",
+     "evidence": "小人姓张名青……又把这个女儿招赘小人做了女婿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙元",
+     "predicate": "KIN",
+     "object": "孙二娘",
+     "evidence": "他的父亲唤做山夜叉孙元",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙元",
+     "predicate": "MASTER_OF",
+     "object": "张青",
+     "evidence": "带小人归去到城里，教了许多本事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙元",
+     "predicate": "MASTER_OF",
+     "object": "孙二娘",
+     "evidence": "俺这浑家姓孙，全学得他父亲本事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "SWORN_BROTHER",
+     "object": "鲁智深",
+     "evidence": "慌忙把解药救起来，结拜为兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张青",
+     "predicate": "RESCUED",
+     "object": "鲁智深",
+     "evidence": "慌忙把解药救起来，结拜为兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "二龙山",
+     "evidence": "打听得他近日占了二龙山宝珠寺，和一个甚么青面兽杨志霸在那方落草",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "MEMBER_OF",
+     "object": "二龙山",
+     "evidence": "和一个甚么青面兽杨志霸在那方落草",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "二龙山宝珠寺",
+     "evidence": "打听得他近日占了二龙山宝珠寺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "STATIONED_AT",
+     "object": "二龙山宝珠寺",
+     "evidence": "和一个甚么青面兽杨志霸在那方落草",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "NATIVE_OF",
+     "object": "延安府",
+     "evidence": "原是延安府老种经略相公帐前提辖，姓鲁名达",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "浑铁禅杖",
+     "evidence": "使一条浑铁禅杖，重六十来斤",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张青",
+     "predicate": "STATIONED_AT",
+     "object": "十字坡",
+     "evidence": "只得依旧来此间盖些草屋，卖酒为生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙二娘",
+     "predicate": "STATIONED_AT",
+     "object": "十字坡",
+     "evidence": "只得依旧来此间盖些草屋，卖酒为生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "STATIONED_AT",
+     "object": "大树坡",
+     "evidence": "小人只此大树坡下剪径",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "ATTACKED",
+     "object": "光明寺",
+     "evidence": "性起把这光明寺僧行杀了，放把火烧做白地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "五台山",
+     "evidence": "逃走上五台山落发为僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "KILLED",
+     "object": "镇关西",
+     "evidence": "为因三拳打死了一个镇关西",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张青",
+     "predicate": "FRIEND",
+     "object": "武松",
+     "evidence": "张青大笑起来，便请武松直到后面客席里坐定",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙二娘",
+     "predicate": "FRIEND",
+     "object": "武松",
+     "evidence": "母夜叉孙二娘道：本是不肯下手……",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张青",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "张青便引武松到人肉作坊里看时……武松道：大哥，你且救起他两个来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张青",
+     "predicate": "OWNS",
+     "object": "雪花镔铁戒刀",
+     "evidence": "一件是两把雪花镔铁打成的戒刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "OWNS",
+     "object": "一百单八颗人顶骨数珠",
+     "evidence": "一件是一百单八颗人顶骨做成的数珠",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:22.032Z"
+}

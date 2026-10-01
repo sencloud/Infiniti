@@ -1,0 +1,88 @@
+{
+ "no": 28,
+ "title": "鬼哭",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 374,
+   "entities": [
+    {
+     "name": "王七襄",
+     "type": "Person",
+     "aliases": [
+      "王学使",
+      "王学院",
+      "王公"
+     ],
+     "nickname": "",
+     "description": "《鬼哭》中官员，宅院闹鬼，设水陆道场"
+    },
+    {
+     "name": "王皞迪",
+     "type": "Person",
+     "aliases": [
+      "王生皞迪"
+     ],
+     "nickname": "",
+     "description": "《鬼哭》中书生，寄宿王家闻鬼呼"
+    },
+    {
+     "name": "王姓阍人",
+     "type": "Person",
+     "aliases": [
+      "阍人王姓者"
+     ],
+     "nickname": "",
+     "description": "《鬼哭》中王宅看门人，病笃昏睡数日"
+    },
+    {
+     "name": "王七襄之宅",
+     "type": "Place",
+     "aliases": [
+      "宦第"
+     ],
+     "nickname": "",
+     "description": "《鬼哭》中王七襄的宅院，闹鬼之地"
+    },
+    {
+     "name": "水陆道场",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《鬼哭》中王七襄设以超度亡魂的法事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王皞迪",
+     "predicate": "LIVES_AT",
+     "object": "王七襄之宅",
+     "evidence": "王生皞迪寄宿公家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王七襄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "水陆道场",
+     "evidence": "公于是设水陆道场，命释道忏度之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "水陆道场",
+     "predicate": "OCCURRED_AT",
+     "object": "王七襄之宅",
+     "evidence": "公于是设水陆道场，命释道忏度之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王姓阍人",
+     "predicate": "LIVES_AT",
+     "object": "王七襄之宅",
+     "evidence": "先是，阍人王姓者，疾笃，昏不知人者数日矣。",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:22.441Z"
+}

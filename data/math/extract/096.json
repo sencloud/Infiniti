@@ -1,0 +1,178 @@
+{
+ "no": 96,
+ "title": "2.1 反比例函数的概念",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2955,
+   "entities": [
+    {
+     "name": "反比例函数",
+     "type": "Concept",
+     "aliases": [
+      "inverse proportional function"
+     ],
+     "nickname": "",
+     "description": "形如y=k/x（k为常数，k≠0）的函数"
+    },
+    {
+     "name": "反比例关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个变量满足xy=k（k为常数，k≠0）"
+    },
+    {
+     "name": "函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个变量之间的对应关系"
+    },
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "结合图象研究函数性质的思想方法"
+    },
+    {
+     "name": "数学模型",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用数学语言描述现实问题的模型"
+    },
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两条互相垂直的数轴组成的坐标系"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的平行四边形"
+    },
+    {
+     "name": "圆锥",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "底面为圆、侧面为曲面的几何体"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "梯形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有一组对边平行的四边形"
+    },
+    {
+     "name": "长方体",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "六个面都是矩形的立体图形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "反比例关系",
+     "predicate": "PREREQUISITE",
+     "object": "反比例函数",
+     "evidence": "上述问题中两个变量之间都有反比例关系，都可以写成 y=k/x 的形式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数",
+     "predicate": "PREREQUISITE",
+     "object": "反比例函数",
+     "evidence": "y 是 x 的函数。一般地，形如 y=k/x 的函数叫作反比例函数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一次函数",
+     "predicate": "RELATED",
+     "object": "反比例函数",
+     "evidence": "与一次函数类似，反比例函数的研究过程也是根据函数表达式画出函数的图象",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "反比例函数",
+     "evidence": "在研究时要充分运用数形结合的思想方法",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反比例函数",
+     "predicate": "APPLIES_TO",
+     "object": "数学模型",
+     "evidence": "反比例函数也是一种重要的数学模型",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "PREREQUISITE",
+     "object": "反比例函数",
+     "evidence": "在如图所示的平面直角坐标系中，有一组面积为 24 的矩形",
+     "confidence": 0.8
+    },
+    {
+     "subject": "矩形",
+     "predicate": "RELATED",
+     "object": "反比例函数",
+     "evidence": "有一组面积为 24 的矩形，矩形的一个顶点与原点 O 重合",
+     "confidence": 0.8
+    },
+    {
+     "subject": "圆锥",
+     "predicate": "RELATED",
+     "object": "反比例函数",
+     "evidence": "体积为 100 cm³ 的圆锥，高 h cm 随底面面积 S cm² 的变化而变化",
+     "confidence": 0.8
+    },
+    {
+     "subject": "三角形",
+     "predicate": "RELATED",
+     "object": "反比例函数",
+     "evidence": "三角形的一边长为 5，三角形的面积 y 随这条边上的高 x 的变化而变化",
+     "confidence": 0.8
+    },
+    {
+     "subject": "梯形",
+     "predicate": "RELATED",
+     "object": "反比例函数",
+     "evidence": "梯形的面积为 15，梯形的下底 y 随高 x 的变化而变化",
+     "confidence": 0.8
+    },
+    {
+     "subject": "长方体",
+     "predicate": "RELATED",
+     "object": "反比例函数",
+     "evidence": "长方体的体积为 10，长方体的高 h 随底面积 S 的变化而变化",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:14.768Z"
+}

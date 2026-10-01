@@ -1,0 +1,126 @@
+{
+ "no": 371,
+ "title": "农妇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 277,
+   "entities": [
+    {
+     "name": "农人妇",
+     "type": "Person",
+     "aliases": [
+      "农妇"
+     ],
+     "nickname": "",
+     "description": "磁窑坞农人之妻，勇健如男子，贩陶器为业"
+    },
+    {
+     "name": "农人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "农妇之夫，家在高苑"
+    },
+    {
+     "name": "北庵尼",
+     "type": "Person",
+     "aliases": [
+      "尼"
+     ],
+     "nickname": "",
+     "description": "北庵尼姑，与农妇结为姊妹，有秽行"
+    },
+    {
+     "name": "邻妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "农妇邻居，与农妇交谈"
+    },
+    {
+     "name": "磁窑坞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑西地名，农妇居处"
+    },
+    {
+     "name": "高苑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，农人夫家所在"
+    },
+    {
+     "name": "淄",
+     "type": "Place",
+     "aliases": [
+      "淄川"
+     ],
+     "nickname": "",
+     "description": "县名，距高苑百馀里"
+    },
+    {
+     "name": "颜山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，农妇赴此贩陶器"
+    },
+    {
+     "name": "北庵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "尼姑庵，北庵尼所居"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "农人妇",
+     "predicate": "SPOUSE",
+     "object": "农人",
+     "evidence": "与夫异县而居。夫家高苑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "农人妇",
+     "predicate": "LIVES_AT",
+     "object": "磁窑坞",
+     "evidence": "邑西磁窑坞有农人妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "农人",
+     "predicate": "NATIVE_OF",
+     "object": "高苑",
+     "evidence": "夫家高苑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "农人妇",
+     "predicate": "FRIEND",
+     "object": "北庵尼",
+     "evidence": "故与北庵尼善，订为姊妹",
+     "confidence": 0.95
+    },
+    {
+     "subject": "农人妇",
+     "predicate": "HARMED",
+     "object": "北庵尼",
+     "evidence": "遇尼于途，遽批之……拳石交施，至不能号，乃释而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "北庵尼",
+     "predicate": "LIVES_AT",
+     "object": "北庵",
+     "evidence": "故与北庵尼善",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:30.738Z"
+}

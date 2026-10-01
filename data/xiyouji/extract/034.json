@@ -1,0 +1,555 @@
+{
+ "no": 34,
+ "title": "魔王巧算困心猿 大圣腾那骗宝贝",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5864,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "保护唐僧取经的猴王，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经的圣僧，被妖怪捉拿"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧的二徒弟，被吊在梁上"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧的三徒弟，与八戒一同被捉"
+    },
+    {
+     "name": "精细鬼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山莲花洞小妖"
+    },
+    {
+     "name": "伶俐虫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山莲花洞小妖"
+    },
+    {
+     "name": "巴山虎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山莲花洞小妖，被孙悟空打死"
+    },
+    {
+     "name": "倚海龙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山莲花洞小妖，被孙悟空打死"
+    },
+    {
+     "name": "压龙大仙",
+     "type": "Person",
+     "aliases": [
+      "九尾狐狸",
+      "老奶奶"
+     ],
+     "nickname": "老奶奶",
+     "description": "压龙山压龙洞老妖，金角银角的母亲"
+    },
+    {
+     "name": "金角大王",
+     "type": "Person",
+     "aliases": [
+      "老魔",
+      "大王"
+     ],
+     "nickname": "老魔",
+     "description": "平顶山莲花洞大魔头"
+    },
+    {
+     "name": "银角大王",
+     "type": "Person",
+     "aliases": [
+      "二魔",
+      "二大王"
+     ],
+     "nickname": "二魔",
+     "description": "平顶山莲花洞二魔头"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊"
+     ],
+     "nickname": "佛祖",
+     "description": "西天佛祖，孙悟空曾拜"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "观音"
+     ],
+     "nickname": "观音",
+     "description": "南海菩萨，孙悟空曾拜"
+    },
+    {
+     "name": "平顶山莲花洞",
+     "type": "Organization",
+     "aliases": [
+      "莲花洞"
+     ],
+     "nickname": "",
+     "description": "金角大王、银角大王盘踞的妖洞"
+    },
+    {
+     "name": "压龙山压龙洞",
+     "type": "Organization",
+     "aliases": [
+      "压龙洞"
+     ],
+     "nickname": "",
+     "description": "压龙大仙盘踞的妖洞"
+    },
+    {
+     "name": "幌金绳",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝贝，能扣人，原在压龙大仙处"
+    },
+    {
+     "name": "七星剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "银角大王的宝剑"
+    },
+    {
+     "name": "芭蕉扇",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "银角大王的宝贝"
+    },
+    {
+     "name": "紫金红葫芦",
+     "type": "Item",
+     "aliases": [
+      "葫芦"
+     ],
+     "nickname": "",
+     "description": "宝贝，能装人，被孙悟空骗走"
+    },
+    {
+     "name": "羊脂玉净瓶",
+     "type": "Item",
+     "aliases": [
+      "净瓶"
+     ],
+     "nickname": "",
+     "description": "宝贝，能装人，被孙悟空骗走"
+    },
+    {
+     "name": "如意佛宝",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的宝贝，随身变化"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "两界山师父救了我，我拜了他四拜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "平顶山莲花洞",
+     "evidence": "变做个巴山虎，自身却变做个倚海龙，假妆做两个小妖，径往那压龙洞请老奶奶",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "巴山虎",
+     "evidence": "取出铁棒，走上前，着脚后一刮。可怜忒不禁打，就把两个小妖刮做一团肉饼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "倚海龙",
+     "evidence": "取出铁棒，走上前，着脚后一刮。可怜忒不禁打，就把两个小妖刮做一团肉饼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "压龙大仙",
+     "evidence": "被行者跳到轿前，劈头一棍，打了个窟窿，脑浆迸流，鲜血直冒，拖出轿来看处，原是个九尾狐狸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "压龙大仙",
+     "evidence": "他却变做老奶奶模样，坐在轿里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "幌金绳",
+     "evidence": "好猴王，把他那幌金绳搜出来，笼在袖里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "紫金红葫芦",
+     "evidence": "那魔头将身上细细搜检，却将那葫芦、净瓶都搜出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "羊脂玉净瓶",
+     "evidence": "那魔头将身上细细搜检，却将那葫芦、净瓶都搜出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "如意佛宝",
+     "evidence": "原来他那宝贝，与他金箍棒相同，叫做如意佛宝，随身变化",
+     "confidence": 0.95
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "却被那魔念动《紧绳咒》，紧紧扣住，怎能得脱？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "OWNS",
+     "object": "幌金绳",
+     "evidence": "他认得是自家的宝贝，即念《松绳咒》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "OWNS",
+     "object": "七星剑",
+     "evidence": "还有七星剑与芭蕉扇在我身边",
+     "confidence": 0.95
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "OWNS",
+     "object": "芭蕉扇",
+     "evidence": "还有七星剑与芭蕉扇在我身边",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金角大王",
+     "predicate": "LEADS",
+     "object": "平顶山莲花洞",
+     "evidence": "两个魔头，坐在那里饮酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "LEADS",
+     "object": "平顶山莲花洞",
+     "evidence": "两个魔头，坐在那里饮酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "压龙大仙",
+     "predicate": "LEADS",
+     "object": "压龙山压龙洞",
+     "evidence": "那一条幌金绳，在压龙山压龙洞老母亲那里收着哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "压龙大仙",
+     "predicate": "KIN",
+     "object": "金角大王",
+     "evidence": "如今差两个小妖去请母亲来吃唐僧肉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "压龙大仙",
+     "predicate": "KIN",
+     "object": "银角大王",
+     "evidence": "如今差两个小妖去请母亲来吃唐僧肉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "银角大王",
+     "evidence": "他两个在半空中，这场好杀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "精细鬼",
+     "predicate": "MEMBER_OF",
+     "object": "平顶山莲花洞",
+     "evidence": "将精细鬼、伶俐虫一声喝起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伶俐虫",
+     "predicate": "MEMBER_OF",
+     "object": "平顶山莲花洞",
+     "evidence": "将精细鬼、伶俐虫一声喝起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巴山虎",
+     "predicate": "MEMBER_OF",
+     "object": "平顶山莲花洞",
+     "evidence": "叫那常随的伴当巴山虎、倚海龙来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "倚海龙",
+     "predicate": "MEMBER_OF",
+     "object": "平顶山莲花洞",
+     "evidence": "叫那常随的伴当巴山虎、倚海龙来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "巴山虎",
+     "evidence": "变做个巴山虎，自身却变做个倚海龙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "倚海龙",
+     "evidence": "变做个巴山虎，自身却变做个倚海龙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "精细鬼",
+     "evidence": "孙行者假变神仙，将假葫芦换了我们的真的去耶？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "伶俐虫",
+     "evidence": "孙行者假变神仙，将假葫芦换了我们的真的去耶？",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2319,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿",
+      "者行孙"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，变化多端，骗得幌金绳与葫芦"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，被吊梁上，识破孙悟空变化"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经人，被妖怪捉住"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，被妖怪捉住"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "曾将孙悟空放入八卦炉炼化"
+    },
+    {
+     "name": "压龙大仙",
+     "type": "Person",
+     "aliases": [
+      "九尾狐狸",
+      "老奶奶"
+     ],
+     "nickname": "九尾狐狸",
+     "description": "金角大王、银角大王之母，有幌金绳"
+    },
+    {
+     "name": "老魔",
+     "type": "Person",
+     "aliases": [
+      "金角大王"
+     ],
+     "nickname": "金角大王",
+     "description": "平顶山莲花洞大魔，贪酒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师徒们都在一处死了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "师徒们都在一处死了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "师徒们都在一处死了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "老魔",
+     "evidence": "老魔大惊道：拿住孙行者，又怎么有个者行孙？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "幌金绳",
+     "evidence": "得了这件宝贝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "紫金红葫芦",
+     "evidence": "他就把个葫芦揌入衣袖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "压龙大仙",
+     "predicate": "OWNS",
+     "object": "幌金绳",
+     "evidence": "那怪只因贪酒，那曾细看，就便收下",
+     "confidence": 0.8
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "被太上老君放在八卦炉中炼了四十九日",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹天宫",
+     "evidence": "老孙五百年前大闹天宫",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:37.470Z"
+}

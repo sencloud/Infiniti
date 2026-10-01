@@ -1,0 +1,699 @@
+{
+ "no": 31,
+ "title": "第三十一回 张都监血溅鸳鸯楼 武行者夜走蜈蚣岭",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6018,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头",
+      "行者"
+     ],
+     "nickname": "行者",
+     "description": "打虎英雄，血溅鸳鸯楼后逃亡"
+    },
+    {
+     "name": "张都监",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州都监，陷害武松，被武松所杀"
+    },
+    {
+     "name": "张团练",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监兄弟，与蒋门神勾结，被武松所杀"
+    },
+    {
+     "name": "蒋门神",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "恶霸，被武松醉打，后在鸳鸯楼被杀"
+    },
+    {
+     "name": "施恩",
+     "type": "Person",
+     "aliases": [
+      "金眼彪",
+      "小管营"
+     ],
+     "nickname": "金眼彪",
+     "description": "孟州牢城管营之子，与武松交好"
+    },
+    {
+     "name": "玉兰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监家养娘，被武松搠死"
+    },
+    {
+     "name": "张青",
+     "type": "Person",
+     "aliases": [
+      "菜园子"
+     ],
+     "nickname": "菜园子",
+     "description": "十字坡酒店主人，与武松结义"
+    },
+    {
+     "name": "孙二娘",
+     "type": "Person",
+     "aliases": [
+      "母夜叉"
+     ],
+     "nickname": "母夜叉",
+     "description": "张青之妻，十字坡酒店女主人"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "花和尚",
+      "鲁提辖",
+      "鲁达"
+     ],
+     "nickname": "花和尚",
+     "description": "二龙山首领，梁山好汉"
+    },
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "青面兽",
+      "杨制使"
+     ],
+     "nickname": "青面兽",
+     "description": "二龙山首领，梁山好汉"
+    },
+    {
+     "name": "叶孔目",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州府孔目，仗义疏财，不肯陷害武松"
+    },
+    {
+     "name": "康节级",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州牢城节级，与施恩交好，维持武松"
+    },
+    {
+     "name": "二龙山",
+     "type": "Organization",
+     "aliases": [
+      "宝珠寺"
+     ],
+     "nickname": "",
+     "description": "青州地面山寨，鲁智深杨志等落草"
+    },
+    {
+     "name": "孟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，武松血溅鸳鸯楼发生地"
+    },
+    {
+     "name": "鸳鸯楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监后花园楼阁，武松杀仇处"
+    },
+    {
+     "name": "飞云浦",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州城外僻静处，武松杀公人处"
+    },
+    {
+     "name": "快活林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州城东市井，施恩酒店所在"
+    },
+    {
+     "name": "十字坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张青孙二娘酒店所在地"
+    },
+    {
+     "name": "血溅鸳鸯楼",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松杀张都监等十五人事件"
+    },
+    {
+     "name": "大闹飞云浦",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松在飞云浦杀公人及蒋门神徒弟"
+    },
+    {
+     "name": "醉打蒋门神",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松醉打蒋门神夺回快活林"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "张都监",
+     "evidence": "被武松当时一刀，齐耳根连脖子砍着，扑地倒在楼板上。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "张团练",
+     "evidence": "武松赶入去，一刀先剁下头来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "蒋门神",
+     "evidence": "武松左脚早起，翻筋斗踢一脚，按住也割下头。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "玉兰",
+     "evidence": "武松握着朴刀，向玉兰心窝里搠着。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "血溅鸳鸯楼",
+     "evidence": "直上鸳鸯楼上，把张都监、张团练、蒋门神三个都杀了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "血溅鸳鸯楼",
+     "predicate": "OCCURRED_AT",
+     "object": "鸳鸯楼",
+     "evidence": "直上鸳鸯楼上，把张都监、张团练、蒋门神三个都杀了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹飞云浦",
+     "evidence": "先被我两脚把两个公人踢下水里去。赶上这两个鸟男女，也是一朴刀一个搠死了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大闹飞云浦",
+     "predicate": "OCCURRED_AT",
+     "object": "飞云浦",
+     "evidence": "到得飞云浦僻静去处，正欲要动手。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "醉打蒋门神",
+     "evidence": "我却路见不平，我醉打了蒋门神，复夺了快活林。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "醉打蒋门神",
+     "predicate": "OCCURRED_AT",
+     "object": "快活林",
+     "evidence": "我醉打了蒋门神，复夺了快活林。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "SWORN_BROTHER",
+     "object": "张青",
+     "evidence": "那大汉道：“快解了我兄弟。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "SWORN_BROTHER",
+     "object": "孙二娘",
+     "evidence": "那妇人便道：“这个不是叔叔武都头？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "SPOUSE",
+     "object": "孙二娘",
+     "evidence": "那大汉不是别人，却正是菜园子张青，这妇人便是母夜叉孙二娘。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张都监",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "张都监听信这张团练说诱嘱托，替蒋门神报仇，贪图贿赂，设出这条奇计，陷害武松性命。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张团练",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "后被张团练买嘱张都监，定了计谋，取我做亲随，设智陷害，替蒋门神报仇。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "教蒋门神使两个徒弟和防送公人相帮，就路上要结果我。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施恩",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "却得施恩上下使钱透了，不曾受苦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶孔目",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "又得当案叶孔目仗义疏财，不肯陷害平人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "康节级",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "又得当牢一个康节级，与施恩最好。两个一力维持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "SERVED",
+     "object": "张都监",
+     "evidence": "取我做亲随",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "二龙山",
+     "evidence": "是青州管下一座二龙山宝珠寺，花和尚鲁智深和一个青面兽好汉杨志，在那里打家劫舍，霸着一方落草。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨志",
+     "predicate": "STATIONED_AT",
+     "object": "二龙山",
+     "evidence": "是青州管下一座二龙山宝珠寺，花和尚鲁智深和一个青面兽好汉杨志，在那里打家劫舍，霸着一方落草。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "二龙山",
+     "evidence": "花和尚鲁智深和一个青面兽好汉杨志，在那里打家劫舍，霸着一方落草。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨志",
+     "predicate": "MEMBER_OF",
+     "object": "二龙山",
+     "evidence": "花和尚鲁智深和一个青面兽好汉杨志，在那里打家劫舍，霸着一方落草。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张青",
+     "predicate": "RECOMMENDED",
+     "object": "武松",
+     "evidence": "我写一封书去，备细说二哥的本事。于我面上，如何不着你入伙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "SERVED",
+     "object": "二龙山",
+     "evidence": "贤弟只除去那里安身立命，方才免得这罪犯。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "孟州",
+     "evidence": "写了武松乡贯年甲，貌相模样，画影图形",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2138,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "武二郎",
+      "武都头",
+      "武行者"
+     ],
+     "nickname": "行者",
+     "description": "梁山好汉，血溅鸳鸯楼后逃难，扮作行者"
+    },
+    {
+     "name": "张青",
+     "type": "Person",
+     "aliases": [
+      "菜园子"
+     ],
+     "nickname": "菜园子",
+     "description": "十字坡酒店主人，与武松结义"
+    },
+    {
+     "name": "孙二娘",
+     "type": "Person",
+     "aliases": [
+      "母夜叉"
+     ],
+     "nickname": "母夜叉",
+     "description": "张青之妻，十字坡酒店女主人"
+    },
+    {
+     "name": "张都监",
+     "type": "Person",
+     "aliases": [
+      "张清",
+      "没羽箭"
+     ],
+     "nickname": "没羽箭",
+     "description": "被武松所杀，家中酒器被武松取走"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁"
+     ],
+     "nickname": "",
+     "description": "二龙山头领，张青嘱武松拜上"
+    },
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "杨"
+     ],
+     "nickname": "",
+     "description": "二龙山头领，张青嘱武松拜上"
+    },
+    {
+     "name": "二龙山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深、杨志等落草的山寨"
+    },
+    {
+     "name": "大树十字坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张青、孙二娘开店之处"
+    },
+    {
+     "name": "蜈蚣岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松夜行所过之岭，有坟庵"
+    },
+    {
+     "name": "坟庵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜈蚣岭上松林中的草屋，先生与妇人所在"
+    },
+    {
+     "name": "度牒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "头陀留下的出家凭证，孙二娘给武松做护身符"
+    },
+    {
+     "name": "戒刀",
+     "type": "Item",
+     "aliases": [
+      "雪花镔铁戒刀"
+     ],
+     "nickname": "",
+     "description": "头陀留下的双刀，武松使用"
+    },
+    {
+     "name": "人顶骨数珠",
+     "type": "Item",
+     "aliases": [
+      "数珠"
+     ],
+     "nickname": "",
+     "description": "一百单八颗人顶骨所制，头陀遗物"
+    },
+    {
+     "name": "铁戒箍",
+     "type": "Item",
+     "aliases": [
+      "戒箍儿"
+     ],
+     "nickname": "",
+     "description": "头陀遗物，武松扮行者时戴上"
+    },
+    {
+     "name": "皂布直裰",
+     "type": "Item",
+     "aliases": [
+      "皂直裰"
+     ],
+     "nickname": "",
+     "description": "头陀遗物，武松扮行者时穿"
+    },
+    {
+     "name": "杂色短繐绦",
+     "type": "Item",
+     "aliases": [
+      "杂色绦"
+     ],
+     "nickname": "",
+     "description": "头陀遗物，武松扮行者时系"
+    },
+    {
+     "name": "沙鱼皮鞘子",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "装戒刀的鞘"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "SWORN_BROTHER",
+     "object": "张青",
+     "evidence": "武松拜谢了他夫妻两个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "SPOUSE",
+     "object": "孙二娘",
+     "evidence": "张青夫妻看了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙二娘",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "孙二娘取出这本度牒，就与他缝个锦袋盛了，教武松挂在贴肉胸前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "张青拿起剪刀，替武松把前后头发都剪了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "张都监",
+     "evidence": "张都监血溅鸳鸯楼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "腰里跨了这两口戒刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "度牒",
+     "evidence": "孙二娘取出这本度牒，就与他缝个锦袋盛了，教武松挂在贴肉胸前",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "人顶骨数珠",
+     "evidence": "挂着数珠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "铁戒箍",
+     "evidence": "将戒箍儿箍起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "皂布直裰",
+     "evidence": "着了皂直裰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "杂色短繐绦",
+     "evidence": "系了绦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "大树十字坡",
+     "evidence": "离了大树十字坡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "STATIONED_AT",
+     "object": "大树十字坡",
+     "evidence": "我夫妻两个在这里也不是长久之计",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙二娘",
+     "predicate": "STATIONED_AT",
+     "object": "大树十字坡",
+     "evidence": "我夫妻两个在这里也不是长久之计",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "血溅鸳鸯楼",
+     "evidence": "张都监血溅鸳鸯楼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "血溅鸳鸯楼",
+     "predicate": "OCCURRED_AT",
+     "object": "鸳鸯楼",
+     "evidence": "张都监血溅鸳鸯楼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "FOUGHT",
+     "object": "先生",
+     "evidence": "两个就月明之下，一来一往，一去一回",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "道童",
+     "evidence": "手起处，铮地一声响，道童的头落在一边",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "蜈蚣岭",
+     "evidence": "武行者趁着月明，一步步上岭来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "坟庵",
+     "predicate": "OCCURRED_AT",
+     "object": "蜈蚣岭",
+     "evidence": "只见松树林中，傍山一座坟庵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "SERVED",
+     "object": "二龙山",
+     "evidence": "如到了二龙山，便可写封回信寄来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "LEADS",
+     "object": "二龙山",
+     "evidence": "千万拜上鲁、杨二头领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "LEADS",
+     "object": "二龙山",
+     "evidence": "千万拜上鲁、杨二头领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "SERVED",
+     "object": "二龙山",
+     "evidence": "敢怕随后收拾家私也来山上入伙",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙二娘",
+     "predicate": "SERVED",
+     "object": "二龙山",
+     "evidence": "敢怕随后收拾家私也来山上入伙",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:29.527Z"
+}

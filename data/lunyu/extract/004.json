@@ -1,0 +1,316 @@
+{
+ "no": 4,
+ "title": "里仁篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 708,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，本篇中阐述仁、义、礼、孝等概念"
+    },
+    {
+     "name": "曾参",
+     "type": "Person",
+     "aliases": [
+      "子舆",
+      "曾子",
+      "参"
+     ],
+     "nickname": "子舆",
+     "description": "孔子弟子，以孝著称，本篇中解释忠恕之道"
+    },
+    {
+     "name": "言偃",
+     "type": "Person",
+     "aliases": [
+      "子游",
+      "偃",
+      "言游"
+     ],
+     "nickname": "子游",
+     "description": "孔子弟子，本篇中论事君交友之道"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心道德范畴，指仁爱、仁德"
+    },
+    {
+     "name": "知",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "同'智'，智慧、明智"
+    },
+    {
+     "name": "道",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家所追求的真理、学说"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有德者或理想人格"
+    },
+    {
+     "name": "小人",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "无德者或平民"
+    },
+    {
+     "name": "义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "合宜的道德准则"
+    },
+    {
+     "name": "利",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "私利、利益"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "礼制、礼让"
+    },
+    {
+     "name": "孝",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "孝顺父母"
+    },
+    {
+     "name": "忠",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "忠诚、尽己"
+    },
+    {
+     "name": "恕",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "宽恕、推己及人"
+    },
+    {
+     "name": "德",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "品德、德行"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "里仁为美。择不处仁，焉得知？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "择不处仁，焉得知？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "不仁者不可以久处约，不可以长处乐。仁者安仁，知者利仁。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "唯仁者能好人，能恶人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "苟志于仁矣，无恶也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "君子去仁，恶乎成名？君子无终食之间违仁，造次必于是，颠沛必于是。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "我未见好仁者、恶不仁者。好仁者，无以尚之：恶不仁者，其为仁矣，不使不仁者加乎其身。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "人之过也，各于其党。观过，斯知仁矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "道",
+     "evidence": "朝闻道，夕死可矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "道",
+     "evidence": "士志于道，而耻恶衣恶食者，未足与议也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "君子之于天下也，无适也，无莫也，义之与比。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "君子怀德，小人怀土；君子怀刑，小人怀惠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "利",
+     "evidence": "放于利而行，多怨。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "能以礼让为国乎，何有？不能以礼让为国，如礼何？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "忠",
+     "evidence": "夫子之道，忠恕而已矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "恕",
+     "evidence": "夫子之道，忠恕而已矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "君子喻于义，小人喻于利。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "利",
+     "evidence": "君子喻于义，小人喻于利。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "三年无改于父之道，可谓孝矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "德不孤，必有邻。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "言偃",
+     "predicate": "DISCUSSED",
+     "object": "忠",
+     "evidence": "事君数，斯辱矣；朋友数，斯疏矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "君子",
+     "predicate": "CONTRASTED",
+     "object": "小人",
+     "evidence": "君子怀德，小人怀土；君子怀刑，小人怀惠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "义",
+     "predicate": "CONTRASTED",
+     "object": "利",
+     "evidence": "君子喻于义，小人喻于利。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "忠",
+     "predicate": "RELATED",
+     "object": "恕",
+     "evidence": "夫子之道，忠恕而已矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "参乎！吾道一以贯之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "言偃",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "子游曰：事君数，斯辱矣；朋友数，斯疏矣。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:24.046Z"
+}

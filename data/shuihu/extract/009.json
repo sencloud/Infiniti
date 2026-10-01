@@ -1,0 +1,427 @@
+{
+ "no": 9,
+ "title": "第九回 柴进门招天下客 林冲棒打洪教头",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5802,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "八十万禁军教头",
+      "林武师"
+     ],
+     "nickname": "豹子头",
+     "description": "东京八十万禁军枪棒教头，被刺配沧州"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁提辖",
+      "鲁达"
+     ],
+     "nickname": "花和尚",
+     "description": "胖大和尚，救林冲于野猪林"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "柴大官人"
+     ],
+     "nickname": "小旋风",
+     "description": "大周柴世宗嫡派子孙，招接天下好汉"
+    },
+    {
+     "name": "洪教头",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "柴进庄上枪棒教师，与林冲比武"
+    },
+    {
+     "name": "董超",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "押解林冲的公人"
+    },
+    {
+     "name": "薛霸",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "押解林冲的公人"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "太尉，陷害林冲"
+    },
+    {
+     "name": "陆虞候",
+     "type": "Person",
+     "aliases": [
+      "陆谦"
+     ],
+     "nickname": "",
+     "description": "高俅心腹，分付公人害林冲"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉山寨势力"
+    },
+    {
+     "name": "野猪林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲遇险被救的松林"
+    },
+    {
+     "name": "沧州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲刺配目的地"
+    },
+    {
+     "name": "柴进庄院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柴进的大庄院，招接好汉"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲原任禁军教头之地"
+    },
+    {
+     "name": "大相国寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深曾住持的寺庙"
+    },
+    {
+     "name": "开封府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲受审问罪之处"
+    },
+    {
+     "name": "野猪林救林冲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深在野猪林救下林冲"
+    },
+    {
+     "name": "棒打洪教头",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲在柴进庄上棒打洪教头"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鲁智深",
+     "predicate": "RESCUED",
+     "object": "林冲",
+     "evidence": "跳出一个胖大和尚来，喝道：“洒家在林子里听你多时！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "SWORN_BROTHER",
+     "object": "林冲",
+     "evidence": "智深扯出戒刀，把索子都割断了，便扶起林冲，叫：“兄弟，俺自从和你买刀那日相别之后，洒家忧得你苦。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "尽是高太尉使陆虞候分付他两个公人，要害我性命。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陆虞候",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "尽是高太尉使陆虞候分付他两个公人，要害我性命。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董超",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "皆是太尉差遣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛霸",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "皆是太尉差遣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "SERVED",
+     "object": "柴进",
+     "evidence": "我们何不同去投奔他？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "RESCUED",
+     "object": "林冲",
+     "evidence": "常常嘱付我们：‘酒店里如有流配来的犯人，可叫他投我庄上来，我自资助他。’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "DEFEATED",
+     "object": "洪教头",
+     "evidence": "那棒直扫着洪教头臁儿骨上，撇了棒，扑地倒了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "棒打洪教头",
+     "evidence": "林冲看他步已乱了，被林冲把棒从地下一跳，洪教头措手不及，就那一跳里和身一转，那棒直扫着洪教头臁儿骨上，撇了棒，扑地倒了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "棒打洪教头",
+     "predicate": "OCCURRED_AT",
+     "object": "柴进庄院",
+     "evidence": "一齐都哄出堂后空地上。庄客拿一束杆棒来，放在地下。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "野猪林救林冲",
+     "evidence": "跳出一个胖大和尚来，喝道：“洒家在林子里听你多时！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "野猪林救林冲",
+     "predicate": "OCCURRED_AT",
+     "object": "野猪林",
+     "evidence": "只见松树背后雷鸣也似一声，那条铁禅杖飞将来，把这水火棍一隔，丢去九霄云外。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "小人是东京禁军教头姓林名冲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "沧州",
+     "evidence": "断遣刺配此沧州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "大相国寺",
+     "evidence": "我听得大相国寺菜园廨宇里新来了一个僧人，唤做鲁智深",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "开封府",
+     "evidence": "寻事发下开封府问罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "LEADS",
+     "object": "柴进庄院",
+     "evidence": "他是大周柴世宗嫡派子孙，自陈桥让位有德，太祖武德皇帝敕赐与他誓书铁券在家中，谁敢欺负他。专一招接天下往来的好汉，三五十个养在家中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "本片段涉及的梁山好汉规范名：林冲",
+     "confidence": 0.8
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "本片段涉及的梁山好汉规范名：鲁智深",
+     "confidence": 0.8
+    },
+    {
+     "subject": "柴进",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "本片段涉及的梁山好汉规范名：柴进",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2007,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "被刺配沧州的禁军教头"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "柴大官人"
+     ],
+     "nickname": "小旋风",
+     "description": "沧州横海郡庄主，好客仗义"
+    },
+    {
+     "name": "沧州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲刺配之地，有牢城营"
+    },
+    {
+     "name": "牢城营",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沧州牢城营，囚徒服刑处"
+    },
+    {
+     "name": "天王堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "牢城营内看管香火处"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，林冲原任职地"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "文中提及的宛子城梁山泊势力"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "柴进",
+     "predicate": "FRIEND",
+     "object": "林冲",
+     "evidence": "柴进携住林冲的手，再入后堂饮酒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴进",
+     "predicate": "RESCUED",
+     "object": "林冲",
+     "evidence": "再将二十五两一锭大银送与林冲，又将银五两赍发两个公人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴进",
+     "predicate": "RECOMMENDED",
+     "object": "林冲",
+     "evidence": "又写两封书，分付林冲道：沧州大尹也与柴进好，牢城管营、差拨亦与柴进交厚，可将这两封书去下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "沧州",
+     "evidence": "只说林冲送到牢城营内来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "牢城营",
+     "evidence": "沧州牢城营内收管林冲，发在单身房里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "天王堂",
+     "evidence": "可叫林冲去替换他。就厅上押了贴文，差拨领了林冲，单身房里取了行李，来天王堂交替",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "你这厮可知在东京做出事来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "刺配沧州",
+     "evidence": "沧州牢城营内收管林冲，发在单身房里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刺配沧州",
+     "predicate": "OCCURRED_AT",
+     "object": "沧州",
+     "evidence": "只说林冲送到牢城营内来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "直使宛子城中屯甲马，梁山泊上列旌旗",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:50.494Z"
+}

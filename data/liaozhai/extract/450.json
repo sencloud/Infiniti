@@ -1,0 +1,183 @@
+{
+ "no": 450,
+ "title": "石清虚",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1420,
+   "entities": [
+    {
+     "name": "邢云飞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "顺天人，好石，藏石清虚"
+    },
+    {
+     "name": "石清虚",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵石，能自择主，托梦自称石清虚"
+    },
+    {
+     "name": "老叟",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "神仙，自称石原主，能封石窍"
+    },
+    {
+     "name": "尚书某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "购石不成，中伤邢云飞夺石"
+    },
+    {
+     "name": "邢云飞妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邢云飞之妻，窃献石于尚书"
+    },
+    {
+     "name": "邢云飞子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邢云飞之子，遵遗嘱瘗石"
+    },
+    {
+     "name": "卖石者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "报国寺卖石者，买自市"
+    },
+    {
+     "name": "顺天",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邢云飞籍贯"
+    },
+    {
+     "name": "报国寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邢云飞遇卖石者处"
+    },
+    {
+     "name": "海岱门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邢云飞赎石处"
+    },
+    {
+     "name": "石清虚",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "径尺灵石，九十二窍，孔有字"
+    },
+    {
+     "name": "紫檀座",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "邢云飞为石所雕底座"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "邢云飞",
+     "predicate": "NATIVE_OF",
+     "object": "顺天",
+     "evidence": "邢云飞，顺天人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邢云飞",
+     "predicate": "OWNS",
+     "object": "石清虚",
+     "evidence": "既归，雕紫檀为座，供诸案头。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邢云飞",
+     "predicate": "OWNS",
+     "object": "紫檀座",
+     "evidence": "既归，雕紫檀为座，供诸案头。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老叟",
+     "predicate": "HELPED",
+     "object": "邢云飞",
+     "evidence": "叟乃以两指捏一窍，窍软如泥，随手而闭。闭三窍，已，曰：“石上窍数，即君寿也。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石清虚",
+     "predicate": "HELPED",
+     "object": "邢云飞",
+     "evidence": "夜梦一丈夫来，自言“石清虚”。戒邢勿戚：“特与君年馀别耳。明年八月二十日，昧爽时，可诣海岱门，以两贯相赎。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尚书某",
+     "predicate": "HARMED",
+     "object": "邢云飞",
+     "evidence": "尚书怒，阴以他事中伤之。邢被收，典质田产。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邢云飞妻",
+     "predicate": "HARMED",
+     "object": "邢云飞",
+     "evidence": "妻窃与子谋，献石尚书家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邢云飞",
+     "predicate": "HARMED",
+     "object": "邢云飞妻",
+     "evidence": "邢出狱始知，骂妻殴子，屡欲自经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邢云飞",
+     "predicate": "HARMED",
+     "object": "邢云飞子",
+     "evidence": "邢出狱始知，骂妻殴子，屡欲自经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邢云飞",
+     "predicate": "LIVES_AT",
+     "object": "顺天",
+     "evidence": "邢云飞，顺天人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邢云飞",
+     "predicate": "PARTICIPATED_IN",
+     "object": "石清虚案",
+     "evidence": "卖者不服，因负石至官。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石清虚案",
+     "predicate": "OCCURRED_AT",
+     "object": "报国寺",
+     "evidence": "偶入报国寺，见卖石者，则故物也",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:06.611Z"
+}

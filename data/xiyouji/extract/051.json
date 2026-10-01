@@ -1,0 +1,918 @@
+{
+ "no": 51,
+ "title": "心猿空用千般计 水火无功难炼魔",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5806,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "保护唐僧取经的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "西天取经的圣僧"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭最高主宰"
+    },
+    {
+     "name": "托塔李天王",
+     "type": "Person",
+     "aliases": [
+      "李靖",
+      "托塔天王",
+      "李天王"
+     ],
+     "nickname": "托塔天王",
+     "description": "天庭天将，哪吒之父"
+    },
+    {
+     "name": "哪吒",
+     "type": "Person",
+     "aliases": [
+      "三太子",
+      "哪吒太子",
+      "三坛海会大神"
+     ],
+     "nickname": "三太子",
+     "description": "李天王第三子，降妖大将"
+    },
+    {
+     "name": "广目天王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大天王之一，巡视南天门"
+    },
+    {
+     "name": "多闻天王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大天王之一，巡视北天门"
+    },
+    {
+     "name": "张道陵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大天师之一"
+    },
+    {
+     "name": "葛仙翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大天师之一"
+    },
+    {
+     "name": "许旌阳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大天师之一"
+    },
+    {
+     "name": "丘弘济",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大天师之一"
+    },
+    {
+     "name": "可韩丈人真君",
+     "type": "Person",
+     "aliases": [
+      "可韩司"
+     ],
+     "nickname": "",
+     "description": "奉旨查勘星斗的神君"
+    },
+    {
+     "name": "火德星君",
+     "type": "Person",
+     "aliases": [
+      "荧惑火德星君",
+      "南方三噹火德星君"
+     ],
+     "nickname": "",
+     "description": "火部主神"
+    },
+    {
+     "name": "水德星君",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "水部主神"
+    },
+    {
+     "name": "黄河水伯神王",
+     "type": "Person",
+     "aliases": [
+      "水伯",
+      "黄河神"
+     ],
+     "nickname": "",
+     "description": "掌管黄河水的水神"
+    },
+    {
+     "name": "邓化",
+     "type": "Person",
+     "aliases": [
+      "邓公",
+      "邓张二公"
+     ],
+     "nickname": "",
+     "description": "雷公之一"
+    },
+    {
+     "name": "张蕃",
+     "type": "Person",
+     "aliases": [
+      "张公",
+      "邓张二公"
+     ],
+     "nickname": "",
+     "description": "雷公之一"
+    },
+    {
+     "name": "青牛精",
+     "type": "Person",
+     "aliases": [
+      "独角兕大王",
+      "兕怪",
+      "魔王",
+      "妖魔"
+     ],
+     "nickname": "独角兕大王",
+     "description": "金兜山金兜洞的妖怪，有套物圈子"
+    },
+    {
+     "name": "马赵温关四大元帅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "南天门的四位元帅"
+    },
+    {
+     "name": "庞刘苟毕四大天将",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北天门的四位天将"
+    },
+    {
+     "name": "南斗六司",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭星宿机构"
+    },
+    {
+     "name": "北斗七元",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭星宿机构"
+    },
+    {
+     "name": "火部",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "火德星君统领的火神部众"
+    },
+    {
+     "name": "水部",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "水德星君统领的水神部众"
+    },
+    {
+     "name": "天兵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭的军队"
+    },
+    {
+     "name": "金兜山",
+     "type": "Place",
+     "aliases": [
+      "金[山+兜]山"
+     ],
+     "nickname": "",
+     "description": "妖怪盘踞的山"
+    },
+    {
+     "name": "金兜洞",
+     "type": "Place",
+     "aliases": [
+      "金[山+兜]洞"
+     ],
+     "nickname": "",
+     "description": "青牛精的洞府"
+    },
+    {
+     "name": "南天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭的南大门"
+    },
+    {
+     "name": "北天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭的北大门"
+    },
+    {
+     "name": "灵霄殿",
+     "type": "Place",
+     "aliases": [
+      "灵霄宝殿"
+     ],
+     "nickname": "",
+     "description": "玉帝的宫殿"
+    },
+    {
+     "name": "彤华宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "火德星君的宫殿"
+    },
+    {
+     "name": "乌浩宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "水德星君的宫殿"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的兵器，被青牛精抢去"
+    },
+    {
+     "name": "白玉盂儿",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄河水伯盛水的宝物"
+    },
+    {
+     "name": "圈子",
+     "type": "Item",
+     "aliases": [
+      "白森森的圈子"
+     ],
+     "nickname": "",
+     "description": "青牛精的宝物，善套诸物"
+    },
+    {
+     "name": "斩妖剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒的兵器之一"
+    },
+    {
+     "name": "斩妖刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒的兵器之一"
+    },
+    {
+     "name": "缚妖索",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒的兵器之一"
+    },
+    {
+     "name": "降魔杵",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒的兵器之一"
+    },
+    {
+     "name": "绣球",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒的兵器之一"
+    },
+    {
+     "name": "火轮儿",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒的兵器之一"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "保护唐僧往西天取经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "KIN",
+     "object": "哪吒",
+     "evidence": "李天王第三个孩儿，名唤做哪吒太子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "把老孙的金箍棒抢去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "DEFEATED",
+     "object": "哪吒",
+     "evidence": "把六般兵器套将下来，慌得那哪吒太子赤手逃生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "DEFEATED",
+     "object": "托塔李天王",
+     "evidence": "天王看见，即拨祥光，败阵而走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "DEFEATED",
+     "object": "火德星君",
+     "evidence": "把这火龙火马，火鸦火鼠，火枪火刀，火弓火箭，一圈子又套将下去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "DEFEATED",
+     "object": "黄河水伯神王",
+     "evidence": "那水波涛泛涨，着实狂澜……不曾灌入洞内",
+     "confidence": 0.8
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "STATIONED_AT",
+     "object": "金兜洞",
+     "evidence": "阻住在金[山+兜]山金[山+兜]洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "OWNS",
+     "object": "圈子",
+     "evidence": "一只手取出那白森森的圈子来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "把老孙的金箍棒抢去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "斩妖剑",
+     "evidence": "这太子使斩妖剑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "斩妖刀",
+     "evidence": "却是砍妖剑、斩妖刀、缚妖索、降魔杵、绣球、火轮儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "缚妖索",
+     "evidence": "却是砍妖剑、斩妖刀、缚妖索、降魔杵、绣球、火轮儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "降魔杵",
+     "evidence": "却是砍妖剑、斩妖刀、缚妖索、降魔杵、绣球、火轮儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "绣球",
+     "evidence": "却是砍妖剑、斩妖刀、缚妖索、降魔杵、绣球、火轮儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "火轮儿",
+     "evidence": "却是砍妖剑、斩妖刀、缚妖索、降魔杵、绣球、火轮儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄河水伯神王",
+     "predicate": "OWNS",
+     "object": "白玉盂儿",
+     "evidence": "水伯自衣袖中取出一个白玉盂儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "LEADS",
+     "object": "天兵",
+     "evidence": "玉帝即令李天王父子，率领众部天兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "LEADS",
+     "object": "天兵",
+     "evidence": "率领众部天兵，与行者助力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火德星君",
+     "predicate": "LEADS",
+     "object": "火部",
+     "evidence": "火德星君帅火部众神放火",
+     "confidence": 0.9
+    },
+    {
+     "subject": "水德星君",
+     "predicate": "LEADS",
+     "object": "水部",
+     "evidence": "水德星君闻言，即将查点四海五湖……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金兜山之战",
+     "evidence": "老孙寻上门与他交战一场",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金兜山之战",
+     "evidence": "那怪却就有些认得老孙，卓是神通广大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金兜山之战",
+     "evidence": "天王刀砍，妖怪枪迎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金兜山之战",
+     "evidence": "这太子使斩妖剑，劈手相迎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火德星君",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金兜山之战",
+     "evidence": "火德星君帅火部众神放火",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄河水伯神王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金兜山之战",
+     "evidence": "水伯将白玉盂向里一倾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金兜山之战",
+     "predicate": "OCCURRED_AT",
+     "object": "金兜山",
+     "evidence": "此山便是金[山+兜]山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "金兜洞",
+     "evidence": "行者上前高叫：泼魔！快开门！还我师父来也！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "魔王挺长枪，迎出门前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "青牛精",
+     "evidence": "老孙寻上门与他交战一场",
+     "confidence": 0.95
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "FOUGHT",
+     "object": "青牛精",
+     "evidence": "这太子使斩妖剑，劈手相迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "FOUGHT",
+     "object": "青牛精",
+     "evidence": "天王刀砍，妖怪枪迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "火德星君",
+     "predicate": "FOUGHT",
+     "object": "青牛精",
+     "evidence": "火德星君帅火部众神放火",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄河水伯神王",
+     "predicate": "FOUGHT",
+     "object": "青牛精",
+     "evidence": "水伯将白玉盂向里一倾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RECOMMENDED",
+     "object": "托塔李天王",
+     "evidence": "只教托塔李天王与哪吒太子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RECOMMENDED",
+     "object": "哪吒",
+     "evidence": "只教托塔李天王与哪吒太子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RECOMMENDED",
+     "object": "邓化",
+     "evidence": "传旨教九天府下点邓化、张蕃二雷公",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RECOMMENDED",
+     "object": "张蕃",
+     "evidence": "传旨教九天府下点邓化、张蕃二雷公",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RECOMMENDED",
+     "object": "火德星君",
+     "evidence": "请荧惑火德星君来此放火",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RECOMMENDED",
+     "object": "水德星君",
+     "evidence": "请水德星君施布水势",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "救我师父一难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "保护唐僧往西天取经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "那天王即奉旨来会行者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "奉玉帝金旨，特来拿你",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火德星君",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "火德星君闻言，即点本部神兵",
+     "confidence": 0.8
+    },
+    {
+     "subject": "水德星君",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "水德闻言，即令黄河水伯神王",
+     "confidence": 0.8
+    },
+    {
+     "subject": "可韩丈人真君",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "可韩丈人真君领旨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "与行者助力",
+     "confidence": 0.7
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "率领众部天兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "率领众部天兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火德星君",
+     "predicate": "MEMBER_OF",
+     "object": "火部",
+     "evidence": "火德星君帅火部众神",
+     "confidence": 0.9
+    },
+    {
+     "subject": "水德星君",
+     "predicate": "MEMBER_OF",
+     "object": "水部",
+     "evidence": "水德星君闻言，即将查点四海五湖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄河水伯神王",
+     "predicate": "MEMBER_OF",
+     "object": "水部",
+     "evidence": "水德闻言，即令黄河水伯神王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓化",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "与天王合力缚妖救难",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张蕃",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "与天王合力缚妖救难",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "齐天大圣",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1194,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "孙大圣"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君"
+     ],
+     "nickname": "",
+     "description": "兜率天宫主人，道祖"
+    },
+    {
+     "name": "托塔李天王",
+     "type": "Person",
+     "aliases": [
+      "李靖",
+      "李天王",
+      "托塔天王"
+     ],
+     "nickname": "",
+     "description": "天庭神将，手托宝塔"
+    },
+    {
+     "name": "哪吒",
+     "type": "Person",
+     "aliases": [
+      "三太子",
+      "哪吒太子",
+      "三坛海会大神"
+     ],
+     "nickname": "",
+     "description": "李天王三子，天庭神将"
+    },
+    {
+     "name": "火德星君",
+     "type": "Person",
+     "aliases": [
+      "火德",
+      "火德星"
+     ],
+     "nickname": "",
+     "description": "天庭火部神君"
+    },
+    {
+     "name": "水伯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭水部神祇"
+    },
+    {
+     "name": "邓张二公",
+     "type": "Person",
+     "aliases": [
+      "邓公",
+      "张公"
+     ],
+     "nickname": "",
+     "description": "天庭雷部神将"
+    },
+    {
+     "name": "雷公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭雷神"
+    },
+    {
+     "name": "老魔王",
+     "type": "Person",
+     "aliases": [
+      "魔王",
+      "那妖",
+      "那怪物"
+     ],
+     "nickname": "",
+     "description": "持金刚琢的独角兕大王"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "铁棒",
+      "主杖"
+     ],
+     "nickname": "",
+     "description": "孙悟空的如意金箍棒"
+    },
+    {
+     "name": "金刚琢",
+     "type": "Item",
+     "aliases": [
+      "圈子",
+      "套子",
+      "宝贝"
+     ],
+     "nickname": "",
+     "description": "老魔王的白森森圈子，能套诸物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "老魔王",
+     "evidence": "在那洞门前，与那魔王递走拳势",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "见他的那金箍棒靠在东壁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老魔王",
+     "predicate": "OWNS",
+     "object": "金刚琢",
+     "evidence": "急把圈子拿将出来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "老魔王",
+     "evidence": "走上前拿了铁棒，现原身丢开解数，一路棒打将出去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "FRIEND",
+     "object": "孙悟空",
+     "evidence": "李天王道：他拳松脚慢，不如大圣的紧疾",
+     "confidence": 0.8
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "FRIEND",
+     "object": "孙悟空",
+     "evidence": "这太子道：孙大圣还是个好汉！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "邓张二公",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "若要行偷礼，除大圣再无能者",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:12.547Z"
+}

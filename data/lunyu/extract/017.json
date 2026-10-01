@@ -1,0 +1,518 @@
+{
+ "no": 17,
+ "title": "阳货篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1269,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，本篇主要对话者"
+    },
+    {
+     "name": "阳货",
+     "type": "Person",
+     "aliases": [
+      "阳虎",
+      "货"
+     ],
+     "nickname": "",
+     "description": "鲁国季氏家臣，欲见孔子"
+    },
+    {
+     "name": "子游",
+     "type": "Person",
+     "aliases": [
+      "言偃",
+      "偃",
+      "言游"
+     ],
+     "nickname": "子游",
+     "description": "孔门弟子，曾任武城宰"
+    },
+    {
+     "name": "公山弗扰",
+     "type": "Person",
+     "aliases": [
+      "公山不狃",
+      "弗扰"
+     ],
+     "nickname": "",
+     "description": "鲁国费邑叛臣，曾召孔子"
+    },
+    {
+     "name": "子张",
+     "type": "Person",
+     "aliases": [
+      "颛孙师",
+      "师",
+      "颛孙"
+     ],
+     "nickname": "子张",
+     "description": "孔门弟子，问仁于孔子"
+    },
+    {
+     "name": "子路",
+     "type": "Person",
+     "aliases": [
+      "仲由",
+      "季路",
+      "由"
+     ],
+     "nickname": "子路",
+     "description": "孔门弟子，多次问难孔子"
+    },
+    {
+     "name": "佛肸",
+     "type": "Person",
+     "aliases": [
+      "佛肹"
+     ],
+     "nickname": "",
+     "description": "中牟叛臣，曾召孔子"
+    },
+    {
+     "name": "伯鱼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔子之子，孔子劝其学《周南》《召南》"
+    },
+    {
+     "name": "子贡",
+     "type": "Person",
+     "aliases": [
+      "端木赐",
+      "赐",
+      "子赣"
+     ],
+     "nickname": "子贡",
+     "description": "孔门弟子，与孔子论君子之恶"
+    },
+    {
+     "name": "孺悲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁人，欲见孔子被拒"
+    },
+    {
+     "name": "宰我",
+     "type": "Person",
+     "aliases": [
+      "宰予",
+      "子我",
+      "予"
+     ],
+     "nickname": "宰我",
+     "description": "孔门弟子，与孔子论三年之丧"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心德目，爱人、行五者于天下"
+    },
+    {
+     "name": "知",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "智慧、聪明，与仁对举"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有德者，与小人对照"
+    },
+    {
+     "name": "小人",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "无德者，与君子对照"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "社会规范，不止玉帛"
+    },
+    {
+     "name": "乐",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "音乐，不止钟鼓"
+    },
+    {
+     "name": "义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道义，君子以为上"
+    },
+    {
+     "name": "德",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道德，乡愿为德之贼"
+    },
+    {
+     "name": "信",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "诚信，五者之一"
+    },
+    {
+     "name": "诗",
+     "type": "Text",
+     "aliases": [],
+     "nickname": "",
+     "description": "《诗经》，可兴观群怨"
+    },
+    {
+     "name": "周南",
+     "type": "Text",
+     "aliases": [],
+     "nickname": "",
+     "description": "《诗经》国风之一"
+    },
+    {
+     "name": "召南",
+     "type": "Text",
+     "aliases": [],
+     "nickname": "",
+     "description": "《诗经》国风之一"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔子母国"
+    },
+    {
+     "name": "武城",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国城邑，子游为宰"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "阳货",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "阳货欲见孔子，孔子不见",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "怀其宝而迷其邦，可谓仁乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "好从事而亟失时，可谓知乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "SERVED",
+     "object": "鲁",
+     "evidence": "诺，吾将仕矣。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孔子",
+     "predicate": "VISITED",
+     "object": "武城",
+     "evidence": "子之武城，闻弦歌之声。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子游",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "昔者偃也闻诸夫子曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "PRAISED",
+     "object": "子游",
+     "evidence": "偃之言是也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子学道则爱人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "小人学道则易使也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公山弗扰",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "公山弗扰以费畔，召，子欲往。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子路",
+     "predicate": "CRITICIZED",
+     "object": "公山弗扰",
+     "evidence": "何必公山氏之之也？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子张",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子张问仁于孔子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "能行五者于天下，为仁矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "恭，宽，信，敏，惠。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "佛肸",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "佛肸召，子欲往。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子路",
+     "predicate": "CRITICIZED",
+     "object": "佛肸",
+     "evidence": "佛肸以中牟畔，子之往也，如之何？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "亲于其身为不善者，君子不入也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "诗",
+     "evidence": "小子何莫学夫诗！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "周南",
+     "evidence": "女为《周南》、《召南》矣乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "召南",
+     "evidence": "女为《周南》、《召南》矣乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "礼云礼云，玉帛云乎哉？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "乐",
+     "evidence": "乐云乐云，钟鼓云乎哉？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "色厉而内荏，譬诸小人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "乡愿，德之贼也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "道听而涂说，德之弃也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "巧言令色，鲜矣仁。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子贡",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子如不言，则小子何述焉？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孺悲",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "孺悲欲见孔子，孔子辞以疾。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宰我",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "宰我问：三年之丧，期已久矣！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "君子三年不为礼，礼必坏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "乐",
+     "evidence": "三年不为乐，乐必崩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子路",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "君子尚勇乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "君子义以为上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子有勇而无义为乱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "小人有勇而无义为盗。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子贡",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "君子亦有恶乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "有恶：恶称人之恶者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "恶勇而无礼者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "唯女子与小人为难养也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "君子",
+     "predicate": "CONTRASTED",
+     "object": "小人",
+     "evidence": "君子有勇而无义为乱，小人有勇而无义为盗。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仁",
+     "predicate": "RELATED",
+     "object": "知",
+     "evidence": "可谓仁乎？……可谓知乎？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "礼",
+     "predicate": "RELATED",
+     "object": "乐",
+     "evidence": "礼云礼云，玉帛云乎哉？乐云乐云，钟鼓云乎哉？",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:42.812Z"
+}

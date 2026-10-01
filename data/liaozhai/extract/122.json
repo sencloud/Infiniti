@@ -1,0 +1,212 @@
+{
+ "no": 122,
+ "title": "阿霞",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1284,
+   "entities": [
+    {
+     "name": "景星",
+     "type": "Person",
+     "aliases": [
+      "景生",
+      "景庆云"
+     ],
+     "nickname": "",
+     "description": "文登人，少有重名，薄幸弃妻"
+    },
+    {
+     "name": "陈弼教",
+     "type": "Person",
+     "aliases": [
+      "陈生",
+      "陈公子"
+     ],
+     "nickname": "",
+     "description": "景星邻居，曾救阿霞"
+    },
+    {
+     "name": "阿霞",
+     "type": "Spirit",
+     "aliases": [
+      "霞娘",
+      "齐阿霞"
+     ],
+     "nickname": "",
+     "description": "狐女，祖居齐地，姓齐，小字阿霞"
+    },
+    {
+     "name": "景星妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "景星结发妻，被休后改嫁夏侯氏"
+    },
+    {
+     "name": "夏侯氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "景星前妻改嫁之夫，与景家有隙"
+    },
+    {
+     "name": "郑公子",
+     "type": "Person",
+     "aliases": [
+      "郑生"
+     ],
+     "nickname": "",
+     "description": "南村人，阿霞后嫁之夫，官至吏部郎"
+    },
+    {
+     "name": "王昌",
+     "type": "Person",
+     "aliases": [
+      "王氏昌"
+     ],
+     "nickname": "",
+     "description": "今科亚魁，取代景星禄秩"
+    },
+    {
+     "name": "文登",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，景星籍贯"
+    },
+    {
+     "name": "齐",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阿霞祖居之地"
+    },
+    {
+     "name": "海神祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "海神寿辰时士女云集之处"
+    },
+    {
+     "name": "南村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郑公子所居之地"
+    },
+    {
+     "name": "科考",
+     "type": "Event",
+     "aliases": [
+      "乡试"
+     ],
+     "nickname": "",
+     "description": "景星落第、王昌中亚魁之考试"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "景星",
+     "predicate": "NATIVE_OF",
+     "object": "文登",
+     "evidence": "文登景星者，少有重名。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "景星",
+     "predicate": "FRIEND",
+     "object": "陈弼教",
+     "evidence": "与陈生比邻而居，斋隔一短垣。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "陈弼教",
+     "predicate": "HELPED",
+     "object": "阿霞",
+     "evidence": "陈解带，劝令适人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿霞",
+     "predicate": "LIVES_AT",
+     "object": "齐",
+     "evidence": "妾祖居于齐，为齐姓，小字阿霞。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "景星",
+     "predicate": "SPOUSE",
+     "object": "阿霞",
+     "evidence": "入以游词，笑不甚拒，遂与寝处。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "景星",
+     "predicate": "SPOUSE",
+     "object": "景星妻",
+     "evidence": "从子十年，未尝有失德",
+     "confidence": 0.9
+    },
+    {
+     "subject": "景星",
+     "predicate": "HARMED",
+     "object": "景星妻",
+     "evidence": "妻至辄诟厉。妻不堪其辱，涕欲死。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "景星妻",
+     "predicate": "SPOUSE",
+     "object": "夏侯氏",
+     "evidence": "遂适夏侯氏。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "景星",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "是科，景落第",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王昌",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "亚魁果王氏昌名。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "科考",
+     "predicate": "OCCURRED_AT",
+     "object": "文登",
+     "evidence": "文登景星者，少有重名。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "阿霞",
+     "predicate": "SPOUSE",
+     "object": "郑公子",
+     "evidence": "南村郑公子继室。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿霞",
+     "predicate": "HELPED",
+     "object": "景星",
+     "evidence": "有婢持廿馀金赠景。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "景星",
+     "predicate": "LIVES_AT",
+     "object": "文登",
+     "evidence": "文登景星者，少有重名。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:00.031Z"
+}

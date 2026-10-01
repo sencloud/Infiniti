@@ -1,0 +1,208 @@
+{
+ "no": 262,
+ "title": "梅女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2470,
+   "entities": [
+    {
+     "name": "封云亭",
+     "type": "Person",
+     "aliases": [
+      "封生"
+     ],
+     "nickname": "",
+     "description": "太行人，年少丧偶，寓居郡城，助梅女雪冤"
+    },
+    {
+     "name": "梅女",
+     "type": "Spirit",
+     "aliases": [
+      "梅氏"
+     ],
+     "nickname": "",
+     "description": "缢鬼，十年前被典史诬陷自尽，后投生展家"
+    },
+    {
+     "name": "典史某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "浙江世族，任典史十八年，受贿诬梅女，后暴死"
+    },
+    {
+     "name": "爱卿",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "浙娼，鬼魂，寓封云亭北邻，被典史认出"
+    },
+    {
+     "name": "顾氏",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "典史继妻，早亡，入青楼代偿贪债"
+    },
+    {
+     "name": "展孝廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "延安人，梅女投生其家为女，后招赘封云亭"
+    },
+    {
+     "name": "展女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "展孝廉之女，梅女投生，貌美而痴，后恢复"
+    },
+    {
+     "name": "展大成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "展孝廉之子，与封云亭同学，后不相能"
+    },
+    {
+     "name": "高公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "招爱卿侑酒之人"
+    },
+    {
+     "name": "梅氏故宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "十年前梅家住宅，后归封云亭寓所主人"
+    },
+    {
+     "name": "延安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "展孝廉所居之地"
+    },
+    {
+     "name": "郡城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "封云亭寓居之处"
+    },
+    {
+     "name": "鬼囊",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "新帛所作，梅女附魂其中随封云亭赴延安"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "封云亭",
+     "predicate": "HELPED",
+     "object": "梅女",
+     "evidence": "求断屋梁而焚之，恩同山岳矣。诺之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "封云亭",
+     "predicate": "LOVES",
+     "object": "梅女",
+     "evidence": "封爱悦之，欲与为欢",
+     "confidence": 0.95
+    },
+    {
+     "subject": "封云亭",
+     "predicate": "SPOUSE",
+     "object": "展女",
+     "evidence": "展喜，赘封于家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梅女",
+     "predicate": "SPOUSE",
+     "object": "封云亭",
+     "evidence": "妾殁日，已投生延安展孝廉家……就展氏求婚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "典史某",
+     "predicate": "HARMED",
+     "object": "梅女",
+     "evidence": "典史受盗钱三百，诬其女与通，将拘审验。女闻自经",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梅女",
+     "predicate": "HARMED",
+     "object": "典史某",
+     "evidence": "近以长簪刺其耳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "典史某",
+     "predicate": "SPOUSE",
+     "object": "顾氏",
+     "evidence": "继娶顾氏，深相爱好",
+     "confidence": 0.95
+    },
+    {
+     "subject": "展孝廉",
+     "predicate": "KIN",
+     "object": "展女",
+     "evidence": "果有展孝廉，生一女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "展孝廉",
+     "predicate": "KIN",
+     "object": "展大成",
+     "evidence": "使子大成与婿同学",
+     "confidence": 0.95
+    },
+    {
+     "subject": "封云亭",
+     "predicate": "LIVES_AT",
+     "object": "梅氏故宅",
+     "evidence": "此十年前梅氏故宅……封乃协力助作。既就而复居之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "封云亭",
+     "predicate": "NATIVE_OF",
+     "object": "太行",
+     "evidence": "封云亭，太行人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "封云亭",
+     "predicate": "OWNS",
+     "object": "鬼囊",
+     "evidence": "请以新帛作鬼囊，俾妾得附君以往",
+     "confidence": 0.9
+    },
+    {
+     "subject": "爱卿",
+     "predicate": "LIVES_AT",
+     "object": "郡城",
+     "evidence": "有浙娼爱卿者，新寓北邻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高公子",
+     "predicate": "HELPED",
+     "object": "爱卿",
+     "evidence": "被高公子招去侑酒",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:55.478Z"
+}

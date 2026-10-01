@@ -1,0 +1,43 @@
+{
+ "no": 9,
+ "title": "捉狐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 262,
+   "entities": [
+    {
+     "name": "孙翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "捉狐篇中胆大的老翁，清服伯父"
+    },
+    {
+     "name": "夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "捉狐篇中孙翁之妻，协助捉狐"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙翁",
+     "predicate": "SPOUSE",
+     "object": "夫人",
+     "evidence": "翁亟呼夫人，以带絷其腰。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夫人",
+     "predicate": "HELPED",
+     "object": "孙翁",
+     "evidence": "翁亟呼夫人，以带絷其腰。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:15.902Z"
+}

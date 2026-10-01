@@ -1,0 +1,80 @@
+{
+ "no": 151,
+ "title": "小猎犬",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 514,
+   "entities": [
+    {
+     "name": "卫中堂",
+     "type": "Person",
+     "aliases": [
+      "卫周祚"
+     ],
+     "nickname": "",
+     "description": "山右人，诸生时徙斋僧院，后为大学士"
+    },
+    {
+     "name": "小武士",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "身高两寸，首插雉尾，骑蜡马，臂鹰"
+    },
+    {
+     "name": "黄衣王者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "着平天冠，如王者，率众猎虫"
+    },
+    {
+     "name": "小猎犬",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "如巨蚁，项有小环，能噬虱蚤，后压死"
+    },
+    {
+     "name": "僧院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "卫中堂为诸生时徙居之寺院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "卫中堂",
+     "predicate": "LIVES_AT",
+     "object": "僧院",
+     "evidence": "徙斋僧院",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小猎犬",
+     "predicate": "HELPED",
+     "object": "卫中堂",
+     "evidence": "遇虫辄啖毙，蚊蝇无敢落者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卫中堂",
+     "predicate": "OWNS",
+     "object": "小猎犬",
+     "evidence": "公急捉之，且驯。置砚匣中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卫中堂",
+     "predicate": "KILLED",
+     "object": "小猎犬",
+     "evidence": "公醒转侧，压于腰底……已匾而死",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:09.169Z"
+}

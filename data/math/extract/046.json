@@ -1,0 +1,109 @@
+{
+ "no": 46,
+ "title": "12.2 命题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2738,
+   "entities": [
+    {
+     "name": "命题",
+     "type": "Concept",
+     "aliases": [
+      "proposition"
+     ],
+     "nickname": "",
+     "description": "可以判断真假的陈述句"
+    },
+    {
+     "name": "真命题",
+     "type": "Concept",
+     "aliases": [
+      "true proposition"
+     ],
+     "nickname": "",
+     "description": "判断正确的命题"
+    },
+    {
+     "name": "假命题",
+     "type": "Concept",
+     "aliases": [
+      "false proposition"
+     ],
+     "nickname": "",
+     "description": "判断错误的命题"
+    },
+    {
+     "name": "互逆命题",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "互换条件与结论位置的两个命题"
+    },
+    {
+     "name": "原命题",
+     "type": "Concept",
+     "aliases": [
+      "original proposition"
+     ],
+     "nickname": "",
+     "description": "互逆命题中的原始命题"
+    },
+    {
+     "name": "逆命题",
+     "type": "Concept",
+     "aliases": [
+      "converse proposition"
+     ],
+     "nickname": "",
+     "description": "互换原命题条件与结论得到的命题"
+    },
+    {
+     "name": "举反例",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过举出符合条件但不符合结论的例子说明命题为假"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "命题",
+     "predicate": "INCLUDES",
+     "object": "真命题",
+     "evidence": "像这样的命题叫作真命题",
+     "confidence": 0.95
+    },
+    {
+     "subject": "命题",
+     "predicate": "INCLUDES",
+     "object": "假命题",
+     "evidence": "像这样的命题叫作假命题",
+     "confidence": 0.95
+    },
+    {
+     "subject": "互逆命题",
+     "predicate": "INCLUDES",
+     "object": "原命题",
+     "evidence": "其中一个命题叫作原命题",
+     "confidence": 0.95
+    },
+    {
+     "subject": "互逆命题",
+     "predicate": "INCLUDES",
+     "object": "逆命题",
+     "evidence": "另一个叫作原命题的逆命题",
+     "confidence": 0.95
+    },
+    {
+     "subject": "举反例",
+     "predicate": "APPLIES_TO",
+     "object": "假命题",
+     "evidence": "在说明一个命题是假命题时，常用“举反例”的方法",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:49.368Z"
+}

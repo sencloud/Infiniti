@@ -1,0 +1,120 @@
+{
+ "no": 67,
+ "title": "5.5 一次函数与二元一次方程",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5822,
+   "entities": [
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "二元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有两个未知数，且未知数次数为1的整式方程"
+    },
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两个二元一次方程组成的方程组"
+    },
+    {
+     "name": "正比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx（k≠0）的函数"
+    },
+    {
+     "name": "函数图象",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "满足函数关系的点组成的图形"
+    },
+    {
+     "name": "交点坐标",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个函数图象交点的坐标"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "结合图象研究函数性质的思想方法"
+    },
+    {
+     "name": "待定系数法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过已知条件求函数表达式的方法"
+    },
+    {
+     "name": "函数模型",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用函数刻画实际问题的数学模型"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一次函数",
+     "predicate": "RELATED",
+     "object": "二元一次方程",
+     "evidence": "一次函数 y=2x-3 可以写成二元一次方程 2x-y-3=0 的形式；反过来，二元一次方程 2x-y-3=0 也可以写成一次函数 y=2x-3 的形式。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一次函数",
+     "predicate": "RELATED",
+     "object": "二元一次方程组",
+     "evidence": "一般地，如果两个一次函数的图象有一个交点，那么交点的坐标就是相应的二元一次方程组的解．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正比例函数",
+     "predicate": "SPECIAL_CASE",
+     "object": "一次函数",
+     "evidence": "一次函数 y=3x-1 的图象与正比例函数 y=kx（k 为常数，k≠0）的图象交点的横坐标是 1．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "待定系数法",
+     "predicate": "APPLIES_TO",
+     "object": "一次函数",
+     "evidence": "若已知函数的类型，可以用待定系数法求函数的表达式。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "一次函数",
+     "evidence": "借助图象表示函数关系，在这个过程中，进一步感受数形结合的思想方法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "函数模型",
+     "predicate": "APPLIES_TO",
+     "object": "一次函数",
+     "evidence": "一次函数是一种较为基本的函数，许多变化过程都可用一次函数模型来刻画。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:00.210Z"
+}

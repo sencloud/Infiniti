@@ -1,0 +1,178 @@
+{
+ "no": 107,
+ "title": "商三官",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 871,
+   "entities": [
+    {
+     "name": "商士禹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛城读书人，被豪绅家奴打死"
+    },
+    {
+     "name": "商臣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商士禹长子，为父讼冤"
+    },
+    {
+     "name": "商礼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商士禹次子，为父讼冤"
+    },
+    {
+     "name": "商三官",
+     "type": "Person",
+     "aliases": [
+      "李玉"
+     ],
+     "nickname": "",
+     "description": "商士禹之女，女扮男装刺杀豪绅后自尽"
+    },
+    {
+     "name": "邑豪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛城豪绅，打死商士禹，后被商三官所杀"
+    },
+    {
+     "name": "孙淳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "戏班师傅，携弟子王成、李玉赴豪绅寿宴"
+    },
+    {
+     "name": "王成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙淳弟子，唱戏字正腔圆"
+    },
+    {
+     "name": "诸葛城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "故事发生地，商士禹家乡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "商士禹",
+     "predicate": "KIN",
+     "object": "商臣",
+     "evidence": "禹二子，长曰臣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商士禹",
+     "predicate": "KIN",
+     "object": "商礼",
+     "evidence": "次曰礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商士禹",
+     "predicate": "KIN",
+     "object": "商三官",
+     "evidence": "一女曰三官",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商臣",
+     "predicate": "KIN",
+     "object": "商礼",
+     "evidence": "禹二子，长曰臣，次曰礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商臣",
+     "predicate": "KIN",
+     "object": "商三官",
+     "evidence": "一女曰三官",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商礼",
+     "predicate": "KIN",
+     "object": "商三官",
+     "evidence": "一女曰三官",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑豪",
+     "predicate": "KILLED",
+     "object": "商士禹",
+     "evidence": "豪嗾家奴乱捶之，舁归而死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商三官",
+     "predicate": "KILLED",
+     "object": "邑豪",
+     "evidence": "则主人身首两断",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商三官",
+     "predicate": "LIVES_AT",
+     "object": "诸葛城",
+     "evidence": "故诸葛城，有商士禹者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商士禹",
+     "predicate": "NATIVE_OF",
+     "object": "诸葛城",
+     "evidence": "故诸葛城，有商士禹者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商三官",
+     "predicate": "PARTICIPATED_IN",
+     "object": "邑豪寿宴",
+     "evidence": "会豪诞辰，招优为戏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑豪寿宴",
+     "predicate": "OCCURRED_AT",
+     "object": "诸葛城",
+     "evidence": "故诸葛城，有商士禹者",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙淳",
+     "predicate": "PARTICIPATED_IN",
+     "object": "邑豪寿宴",
+     "evidence": "优人孙淳携二弟子往执役",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王成",
+     "predicate": "PARTICIPATED_IN",
+     "object": "邑豪寿宴",
+     "evidence": "优人孙淳携二弟子往执役",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商三官",
+     "predicate": "PARTICIPATED_IN",
+     "object": "邑豪寿宴",
+     "evidence": "玉月前投作弟子，愿从寿主人",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:53.851Z"
+}

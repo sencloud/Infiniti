@@ -1,0 +1,280 @@
+{
+ "no": 61,
+ "title": "伯夷列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 992,
+   "entities": [
+    {
+     "name": "周文王",
+     "type": "Person",
+     "aliases": [
+      "昌",
+      "西伯昌",
+      "西伯"
+     ],
+     "nickname": "",
+     "description": "周国君主，善养老"
+    },
+    {
+     "name": "周武王",
+     "type": "Person",
+     "aliases": [
+      "发",
+      "武王",
+      "太子发"
+     ],
+     "nickname": "",
+     "description": "周朝开国君主，伐纣"
+    },
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "尼父"
+     ],
+     "nickname": "",
+     "description": "儒家创始人，评论伯夷叔齐"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "子长",
+      "太史公"
+     ],
+     "nickname": "",
+     "description": "《史记》作者"
+    },
+    {
+     "name": "伯夷",
+     "type": "Person",
+     "aliases": [
+      "叔齐"
+     ],
+     "nickname": "",
+     "description": "孤竹君长子，让国而逃"
+    },
+    {
+     "name": "叔齐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孤竹君次子，让国而逃"
+    },
+    {
+     "name": "许由",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "尧时隐士，不受天下"
+    },
+    {
+     "name": "卞随",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "夏时隐士"
+    },
+    {
+     "name": "务光",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "夏时隐士"
+    },
+    {
+     "name": "吴太伯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "古之仁圣贤人"
+    },
+    {
+     "name": "颜渊",
+     "type": "Person",
+     "aliases": [
+      "回"
+     ],
+     "nickname": "",
+     "description": "孔子弟子，好学而早夭"
+    },
+    {
+     "name": "盗跖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "传说中的大盗，横行天下"
+    },
+    {
+     "name": "贾子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "引用其言的作者"
+    },
+    {
+     "name": "孤竹君",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孤竹国君主，伯夷叔齐之父"
+    },
+    {
+     "name": "周",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝"
+    },
+    {
+     "name": "孤竹",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "孤竹国"
+    },
+    {
+     "name": "首阳山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "伯夷叔齐隐居饿死之地"
+    },
+    {
+     "name": "箕山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "许由冢所在之山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "伯夷",
+     "predicate": "KIN",
+     "object": "叔齐",
+     "evidence": "伯夷、叔齐，孤竹君之二子也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孤竹君",
+     "predicate": "KIN",
+     "object": "伯夷",
+     "evidence": "伯夷、叔齐，孤竹君之二子也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孤竹君",
+     "predicate": "KIN",
+     "object": "叔齐",
+     "evidence": "伯夷、叔齐，孤竹君之二子也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叔齐",
+     "predicate": "SUCCEEDED",
+     "object": "伯夷",
+     "evidence": "叔齐让伯夷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伯夷",
+     "predicate": "SERVED",
+     "object": "周文王",
+     "evidence": "伯夷、叔齐闻西伯昌善养老，盍往归焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叔齐",
+     "predicate": "SERVED",
+     "object": "周文王",
+     "evidence": "伯夷、叔齐闻西伯昌善养老，盍往归焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伯夷",
+     "predicate": "ADVISED",
+     "object": "周武王",
+     "evidence": "伯夷、叔齐叩马而谏曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叔齐",
+     "predicate": "ADVISED",
+     "object": "周武王",
+     "evidence": "伯夷、叔齐叩马而谏曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周武王",
+     "predicate": "DEFEATED",
+     "object": "商纣",
+     "evidence": "东伐纣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伯夷",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武王伐纣",
+     "evidence": "伯夷、叔齐叩马而谏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叔齐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武王伐纣",
+     "evidence": "伯夷、叔齐叩马而谏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武王伐纣",
+     "predicate": "OCCURRED_AT",
+     "object": "首阳山",
+     "evidence": "隐于首阳山",
+     "confidence": 0.7
+    },
+    {
+     "subject": "孔子",
+     "predicate": "MASTER_OF",
+     "object": "颜渊",
+     "evidence": "仲尼独荐颜渊为好学",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "ADVISED",
+     "object": "伯夷",
+     "evidence": "孔子曰：伯夷、叔齐，不念旧恶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "ADVISED",
+     "object": "叔齐",
+     "evidence": "孔子曰：伯夷、叔齐，不念旧恶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "登箕山",
+     "evidence": "余登箕山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "登箕山",
+     "predicate": "OCCURRED_AT",
+     "object": "箕山",
+     "evidence": "余登箕山",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:48:52.856Z"
+}

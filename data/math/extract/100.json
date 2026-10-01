@@ -1,0 +1,141 @@
+{
+ "no": 100,
+ "title": "3.2 确定圆的条件",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1493,
+   "entities": [
+    {
+     "name": "圆",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "平面内到定点距离等于定长的点的集合"
+    },
+    {
+     "name": "垂直平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "垂直于线段且平分线段的直线"
+    },
+    {
+     "name": "确定圆的条件",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "不在同一条直线上的三点确定一个圆"
+    },
+    {
+     "name": "三角形的外接圆",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "经过三角形三个顶点的圆"
+    },
+    {
+     "name": "三角形的外心",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形外接圆的圆心，是三边垂直平分线的交点"
+    },
+    {
+     "name": "圆的内接三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "三个顶点都在圆上的三角形"
+    },
+    {
+     "name": "多边形的外接圆",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "经过多边形所有顶点的圆"
+    },
+    {
+     "name": "圆的内接多边形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "所有顶点都在圆上的多边形"
+    },
+    {
+     "name": "尺规作图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用无刻度直尺和圆规作图的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "垂直平分线",
+     "predicate": "PREREQUISITE",
+     "object": "确定圆的条件",
+     "evidence": "圆心在线段 AB 的垂直平分线上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "确定圆的条件",
+     "predicate": "DERIVES",
+     "object": "三角形的外接圆",
+     "evidence": "因为三角形的三个顶点不共线，所以它们可以确定一个圆，这个圆叫作三角形的外接圆",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的外接圆",
+     "predicate": "INCLUDES",
+     "object": "三角形的外心",
+     "evidence": "外接圆的圆心叫作三角形的外心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的外接圆",
+     "predicate": "INCLUDES",
+     "object": "圆的内接三角形",
+     "evidence": "这个三角形叫作圆的内接三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的外心",
+     "predicate": "PROPERTY_OF",
+     "object": "三角形的外接圆",
+     "evidence": "外心是三角形三边的垂直平分线的交点",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形的外接圆",
+     "predicate": "INCLUDES",
+     "object": "圆的内接多边形",
+     "evidence": "这个圆叫作多边形的外接圆，这个多边形叫作圆的内接多边形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的外接圆",
+     "predicate": "SPECIAL_CASE",
+     "object": "多边形的外接圆",
+     "evidence": "如果多边形的顶点都在同一个圆上，这个圆叫作多边形的外接圆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆的内接三角形",
+     "predicate": "SPECIAL_CASE",
+     "object": "圆的内接多边形",
+     "evidence": "这个多边形叫作圆的内接多边形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尺规作图",
+     "predicate": "APPLIES_TO",
+     "object": "三角形的外接圆",
+     "evidence": "尺规作图：如图3-13，已知△ABC，作△ABC的外接圆",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:15.876Z"
+}

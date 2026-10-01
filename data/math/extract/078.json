@@ -1,0 +1,382 @@
+{
+ "no": 78,
+ "title": "8.2 特殊的平行四边形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6172,
+   "entities": [
+    {
+     "name": "矩形",
+     "type": "Concept",
+     "aliases": [
+      "长方形"
+     ],
+     "nickname": "",
+     "description": "有一个角是直角的平行四边形"
+    },
+    {
+     "name": "平行四边形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两组对边分别平行的四边形"
+    },
+    {
+     "name": "矩形的性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "矩形的四个角都是直角，对角线相等"
+    },
+    {
+     "name": "矩形的判定定理1",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三个角是直角的四边形是矩形"
+    },
+    {
+     "name": "矩形的判定定理2",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "对角线相等的平行四边形是矩形"
+    },
+    {
+     "name": "菱形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一组邻边相等的平行四边形"
+    },
+    {
+     "name": "菱形的性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "菱形的四条边相等，对角线互相垂直，每条对角线平分一组对角"
+    },
+    {
+     "name": "菱形的判定定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "四边相等的四边形是菱形；对角线互相垂直的平行四边形是菱形"
+    },
+    {
+     "name": "正方形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等，四个角都是直角的四边形"
+    },
+    {
+     "name": "正方形的判定定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一组邻边相等的矩形是正方形；有一个角是直角的菱形是正方形"
+    },
+    {
+     "name": "正方形的性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "正方形的对角线相等且互相垂直平分"
+    },
+    {
+     "name": "两条平行线之间的距离",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条平行线中，一条直线上任意一点到另一条直线的距离"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平行四边形",
+     "predicate": "PREREQUISITE",
+     "object": "矩形",
+     "evidence": "有一个角是直角的平行四边形叫作矩形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "矩形",
+     "predicate": "SPECIAL_CASE",
+     "object": "平行四边形",
+     "evidence": "矩形是特殊的平行四边形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "矩形的性质定理",
+     "predicate": "PROPERTY_OF",
+     "object": "矩形",
+     "evidence": "矩形的四个角都是直角，对角线相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "矩形的判定定理1",
+     "predicate": "PROPERTY_OF",
+     "object": "矩形",
+     "evidence": "三个角是直角的四边形是矩形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "矩形的判定定理2",
+     "predicate": "PROPERTY_OF",
+     "object": "矩形",
+     "evidence": "对角线相等的平行四边形是矩形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "PREREQUISITE",
+     "object": "菱形",
+     "evidence": "有一组邻边相等的平行四边形叫作菱形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "菱形",
+     "predicate": "SPECIAL_CASE",
+     "object": "平行四边形",
+     "evidence": "菱形是特殊的平行四边形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "菱形的性质定理",
+     "predicate": "PROPERTY_OF",
+     "object": "菱形",
+     "evidence": "菱形的四条边相等，对角线互相垂直，每条对角线都平分一组对角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "菱形的判定定理",
+     "predicate": "PROPERTY_OF",
+     "object": "菱形",
+     "evidence": "四边相等的四边形是菱形。对角线互相垂直的平行四边形是菱形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "矩形",
+     "predicate": "PREREQUISITE",
+     "object": "正方形",
+     "evidence": "有一组邻边相等的矩形是正方形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "菱形",
+     "predicate": "PREREQUISITE",
+     "object": "正方形",
+     "evidence": "有一个角是直角的菱形是正方形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "矩形",
+     "evidence": "有一组邻边相等的矩形是正方形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "菱形",
+     "evidence": "有一个角是直角的菱形是正方形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正方形的判定定理",
+     "predicate": "PROPERTY_OF",
+     "object": "正方形",
+     "evidence": "有一组邻边相等的矩形是正方形。有一个角是直角的菱形是正方形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正方形的性质定理",
+     "predicate": "PROPERTY_OF",
+     "object": "正方形",
+     "evidence": "正方形的对角线相等且互相垂直平分",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "PREREQUISITE",
+     "object": "两条平行线之间的距离",
+     "evidence": "两条平行线中，一条直线上任意一点到另一条直线的距离都相等",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1711,
+   "entities": [
+    {
+     "name": "矩形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的平行四边形"
+    },
+    {
+     "name": "菱形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一组邻边相等的平行四边形"
+    },
+    {
+     "name": "正方形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一组邻边相等且有一个角是直角的平行四边形"
+    },
+    {
+     "name": "平行四边形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两组对边分别平行的四边形"
+    },
+    {
+     "name": "对角线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "连接多边形不相邻两个顶点的线段"
+    },
+    {
+     "name": "中心对称图形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "绕某点旋转180°后能与自身重合的图形"
+    },
+    {
+     "name": "轴对称图形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "沿某直线折叠后两部分能互相重合的图形"
+    },
+    {
+     "name": "直角三角形斜边上的中线",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形斜边上的中线等于斜边的一半"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "矩形",
+     "predicate": "INCLUDES",
+     "object": "正方形",
+     "evidence": "对角线互相垂直的矩形是正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菱形",
+     "predicate": "INCLUDES",
+     "object": "正方形",
+     "evidence": "对角线相等的菱形是正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "矩形",
+     "evidence": "对角线互相垂直的矩形是正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "菱形",
+     "evidence": "对角线相等的菱形是正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "矩形",
+     "predicate": "PROPERTY_OF",
+     "object": "对角线",
+     "evidence": "对角线相等的四边形是矩形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菱形",
+     "predicate": "PROPERTY_OF",
+     "object": "对角线",
+     "evidence": "对角线互相垂直平分的四边形是菱形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "矩形",
+     "predicate": "PROPERTY_OF",
+     "object": "轴对称图形",
+     "evidence": "矩形有两条互相垂直的对称轴",
+     "confidence": 0.9
+    },
+    {
+     "subject": "矩形",
+     "predicate": "PROPERTY_OF",
+     "object": "中心对称图形",
+     "evidence": "是中心对称图形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菱形",
+     "predicate": "PROPERTY_OF",
+     "object": "中心对称图形",
+     "evidence": "是中心对称图形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菱形",
+     "predicate": "PROPERTY_OF",
+     "object": "轴对称图形",
+     "evidence": "是轴对称图形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "矩形",
+     "predicate": "PREREQUISITE",
+     "object": "直角三角形斜边上的中线",
+     "evidence": "利用矩形的性质证明“直角三角形斜边上的中线等于斜边的一半”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "PREREQUISITE",
+     "object": "矩形",
+     "evidence": "有一个角是直角的平行四边形叫做矩形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "PREREQUISITE",
+     "object": "菱形",
+     "evidence": "有一组邻边相等的平行四边形叫做菱形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "矩形",
+     "predicate": "PREREQUISITE",
+     "object": "正方形",
+     "evidence": "有一组邻边相等并且有一个角是直角的平行四边形叫做正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菱形",
+     "predicate": "PREREQUISITE",
+     "object": "正方形",
+     "evidence": "有一组邻边相等并且有一个角是直角的平行四边形叫做正方形",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:08.063Z"
+}

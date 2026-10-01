@@ -1,0 +1,61 @@
+{
+ "no": 71,
+ "title": "6.4 频数与频率",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2453,
+   "entities": [
+    {
+     "name": "频数",
+     "type": "Concept",
+     "aliases": [
+      "absolute frequency"
+     ],
+     "nickname": "",
+     "description": "某个对象出现的次数"
+    },
+    {
+     "name": "频率",
+     "type": "Concept",
+     "aliases": [
+      "relative frequency"
+     ],
+     "nickname": "",
+     "description": "频数与总次数的比值"
+    },
+    {
+     "name": "数据的收集、整理与描述",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数据收集、整理与描述的过程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "频数",
+     "predicate": "PREREQUISITE",
+     "object": "频率",
+     "evidence": "频数与总次数的比值称为频率",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数据的收集、整理与描述",
+     "predicate": "INCLUDES",
+     "object": "频数",
+     "evidence": "在统计数据时，某个对象出现的次数称为该对象的频数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数据的收集、整理与描述",
+     "predicate": "INCLUDES",
+     "object": "频率",
+     "evidence": "频数与总次数的比值称为频率",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:01.138Z"
+}

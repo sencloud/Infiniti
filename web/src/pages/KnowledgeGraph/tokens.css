@@ -1,0 +1,42 @@
+/* ============================================================
+   知识图谱模块令牌：全部映射到纸墨令牌（theme/theme.css），亮暗主题随之切换。
+   簇色板是 JS 值（ECharts 需要），在 theme/palette.ts 维护。
+
+   新增页面务必把页面根类名加进下面的选择器列表：漏了的话该页所有
+   var(--kg-*) 都解析失败，面板背景变透明、文字回退成继承色。
+   ============================================================ */
+
+/* :root 也挂一份：antd 的抽屉 / 弹窗渲染在 body 下，不在页面根类名里 */
+:root,
+.kg-scope,
+.kg-constellation-page,
+.kg-explore-page,
+.kg-galaxy-page {
+  /* 底色 */
+  --kg-canvas: var(--bg);
+  --kg-panel: var(--panel-solid);
+  --kg-panel-soft: var(--panel);
+  --kg-well: var(--well);
+
+  /* 强调 */
+  --kg-accent: var(--accent);
+  --kg-accent-soft: var(--accent-soft);
+  --kg-accent-border: var(--accent-line);
+  --kg-cyan: var(--indigo);
+
+  /* 文字 */
+  --kg-text: var(--ink-2);
+  --kg-text-strong: var(--ink);
+  --kg-text-dim: var(--ink-3);
+  --kg-text-faint: var(--ink-3);
+  --kg-sep: var(--rule);
+
+  /* 结构 */
+  --kg-border: var(--rule);
+  --kg-radius: 10px;
+  --kg-panel-pad: 12px;
+
+  /* 语义色 */
+  --kg-rank: var(--gold);
+  --kg-pred: var(--indigo);
+}

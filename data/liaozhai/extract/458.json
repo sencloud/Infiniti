@@ -1,0 +1,113 @@
+{
+ "no": 458,
+ "title": "杜小雷",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 217,
+   "entities": [
+    {
+     "name": "杜小雷",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都西山人，孝子"
+    },
+    {
+     "name": "杜母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杜小雷之母，双目失明"
+    },
+    {
+     "name": "杜妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杜小雷之妻，忤逆，后化为猪"
+    },
+    {
+     "name": "邑令",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都县令，审理杜妻化猪事"
+    },
+    {
+     "name": "谭薇臣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾亲见杜妻化猪之人"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，杜小雷籍贯"
+    },
+    {
+     "name": "西山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都之西山，杜小雷居处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杜小雷",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "杜小雷，益都之西山人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜小雷",
+     "predicate": "LIVES_AT",
+     "object": "西山",
+     "evidence": "杜小雷，益都之西山人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜小雷",
+     "predicate": "KIN",
+     "object": "杜母",
+     "evidence": "母双盲，杜事之孝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜小雷",
+     "predicate": "KIN",
+     "object": "杜妻",
+     "evidence": "市肉付妻，令作馎饦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜妻",
+     "predicate": "HARMED",
+     "object": "杜母",
+     "evidence": "妻最忤逆，切肉时，杂蜣蜋其中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑令",
+     "predicate": "PUNISHED",
+     "object": "杜妻",
+     "evidence": "邑令闻之，絷去，使游四门，以戒众人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "谭薇臣",
+     "predicate": "PARTICIPATED_IN",
+     "object": "杜妻化猪",
+     "evidence": "谭薇臣曾亲见之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:07.005Z"
+}

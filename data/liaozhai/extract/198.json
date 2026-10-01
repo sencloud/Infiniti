@@ -1,0 +1,136 @@
+{
+ "no": 198,
+ "title": "荷花三娘子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1701,
+   "entities": [
+    {
+     "name": "宗湘若",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "湖州士人，与狐女相恋"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "与宗湘若相恋的狐狸精"
+    },
+    {
+     "name": "荷花三娘子",
+     "type": "Spirit",
+     "aliases": [
+      "三娘子"
+     ],
+     "nickname": "",
+     "description": "荷花所化女子，后为宗湘若妻"
+    },
+    {
+     "name": "番僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村寺僧人，识破狐女"
+    },
+    {
+     "name": "湖州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宗湘若籍贯地"
+    },
+    {
+     "name": "南湖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宗湘若遇荷花三娘子处"
+    },
+    {
+     "name": "冰縠帔",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "荷花三娘子所着披肩"
+    },
+    {
+     "name": "石燕",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "荷花三娘子鞋所化，色红莹澈"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宗湘若",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "殢雨尤云，备极亲爱。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宗湘若",
+     "predicate": "SPOUSE",
+     "object": "荷花三娘子",
+     "evidence": "由是两情甚谐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "宗湘若",
+     "evidence": "灵药一裹，劳寄致之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "宗湘若",
+     "evidence": "今为君觅一良匹，聊足塞责否？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "番僧",
+     "predicate": "HELPED",
+     "object": "宗湘若",
+     "evidence": "乃书符二道，付嘱曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宗湘若",
+     "predicate": "LIVES_AT",
+     "object": "湖州",
+     "evidence": "湖州宗湘若，士人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宗湘若",
+     "predicate": "NATIVE_OF",
+     "object": "湖州",
+     "evidence": "湖州宗湘若，士人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "荷花三娘子",
+     "predicate": "OWNS",
+     "object": "冰縠帔",
+     "evidence": "初来时所着冰縠帔尚在。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宗湘若",
+     "predicate": "OWNS",
+     "object": "石燕",
+     "evidence": "拾而藏之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:29.471Z"
+}

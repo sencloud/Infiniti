@@ -1,0 +1,117 @@
+{
+ "no": 141,
+ "title": "库官",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 275,
+   "entities": [
+    {
+     "name": "张华东",
+     "type": "Person",
+     "aliases": [
+      "张公"
+     ],
+     "nickname": "华东公",
+     "description": "邹平人，奉旨祭南岳的官员"
+    },
+    {
+     "name": "库官",
+     "type": "Spirit",
+     "aliases": [
+      "颁白叟"
+     ],
+     "nickname": "",
+     "description": "驿亭中为张华东典藏财物的老者"
+    },
+    {
+     "name": "邹平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张华东的籍贯地"
+    },
+    {
+     "name": "驿亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江淮间有怪异的驿站亭舍"
+    },
+    {
+     "name": "南岳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张华东奉旨祭祀之山"
+    },
+    {
+     "name": "南中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张华东南行所至之地"
+    },
+    {
+     "name": "辽东",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "库银被拨充兵饷之处"
+    },
+    {
+     "name": "祭南岳",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "张华东奉旨祭祀南岳之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张华东",
+     "predicate": "NATIVE_OF",
+     "object": "邹平",
+     "evidence": "邹平张华东公，奉旨祭南岳。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张华东",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祭南岳",
+     "evidence": "邹平张华东公，奉旨祭南岳。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祭南岳",
+     "predicate": "OCCURRED_AT",
+     "object": "南岳",
+     "evidence": "奉旨祭南岳。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张华东",
+     "predicate": "LIVES_AT",
+     "object": "驿亭",
+     "evidence": "道出江淮间，将宿驿亭。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "库官",
+     "predicate": "LIVES_AT",
+     "object": "驿亭",
+     "evidence": "前驱白：“驿中有怪异，宿之必致纷纭。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "库官",
+     "predicate": "HELPED",
+     "object": "张华东",
+     "evidence": "我库官也，为大人典藏有日矣。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:05.437Z"
+}

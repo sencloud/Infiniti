@@ -1,0 +1,106 @@
+{
+ "no": 89,
+ "title": "伏狐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 269,
+   "entities": [
+    {
+     "name": "太史某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "伏狐篇中太史，被狐所魅"
+    },
+    {
+     "name": "狐（伏狐篇）",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "伏狐篇中媚惑太史的狐精"
+    },
+    {
+     "name": "铃医",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "伏狐篇中自称能伏狐的铃医"
+    },
+    {
+     "name": "某生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "伏狐篇中素有嫪毐之目的乡人"
+    },
+    {
+     "name": "奔女（狐）",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "伏狐篇中夜入某生馆舍的狐女"
+    },
+    {
+     "name": "涿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "伏狐篇中太史止宿之地"
+    },
+    {
+     "name": "孤馆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "伏狐篇中某生夜宿的空院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "狐（伏狐篇）",
+     "predicate": "HARMED",
+     "object": "太史某",
+     "evidence": "太史某，为狐所魅，病瘠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "铃医",
+     "predicate": "HELPED",
+     "object": "太史某",
+     "evidence": "有铃医，自言能伏狐。太史延之入，投以药",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太史某",
+     "predicate": "KILLED",
+     "object": "狐（伏狐篇）",
+     "evidence": "移时无声，视之，现狐形而毙矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太史某",
+     "predicate": "LIVES_AT",
+     "object": "涿",
+     "evidence": "一日，止于涿门外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某生",
+     "predicate": "LIVES_AT",
+     "object": "孤馆",
+     "evidence": "夜宿孤馆，四无邻。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某生",
+     "predicate": "HARMED",
+     "object": "奔女（狐）",
+     "evidence": "衿襦甫解，贯革直入。狐惊痛，啼声吱然",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:45.933Z"
+}

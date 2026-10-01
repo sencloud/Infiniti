@@ -1,0 +1,250 @@
+{
+ "no": 286,
+ "title": "阿绣",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2515,
+   "entities": [
+    {
+     "name": "刘子固",
+     "type": "Person",
+     "aliases": [
+      "刘生",
+      "刘公子"
+     ],
+     "nickname": "",
+     "description": "海州人，十五岁至盖县遇阿绣，后娶之"
+    },
+    {
+     "name": "阿绣",
+     "type": "Person",
+     "aliases": [
+      "绣娘",
+      "阿绣女"
+     ],
+     "nickname": "",
+     "description": "杂货店女子，后为刘子固妻"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [
+      "狐"
+     ],
+     "nickname": "",
+     "description": "假阿绣，前世为阿绣之姊，助刘子固"
+    },
+    {
+     "name": "刘母",
+     "type": "Person",
+     "aliases": [
+      "王母"
+     ],
+     "nickname": "",
+     "description": "刘子固之母，为其议婚"
+    },
+    {
+     "name": "姚氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阿绣之母，广宁人"
+    },
+    {
+     "name": "姚父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阿绣之父，杂货店主人"
+    },
+    {
+     "name": "舅舅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘子固之舅，居盖县"
+    },
+    {
+     "name": "海州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘子固籍贯地"
+    },
+    {
+     "name": "盖县",
+     "type": "Place",
+     "aliases": [
+      "盖"
+     ],
+     "nickname": "",
+     "description": "刘子固遇阿绣之地"
+    },
+    {
+     "name": "复州",
+     "type": "Place",
+     "aliases": [
+      "复"
+     ],
+     "nickname": "",
+     "description": "刘子固寻黄氏女之地"
+    },
+    {
+     "name": "广宁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "姚氏原籍地"
+    },
+    {
+     "name": "小竹箱",
+     "type": "Item",
+     "aliases": [
+      "箧"
+     ],
+     "nickname": "",
+     "description": "刘子固藏香帕脂粉之箱"
+    },
+    {
+     "name": "玳瑁簪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女所插长簪"
+    },
+    {
+     "name": "战乱",
+     "type": "Event",
+     "aliases": [
+      "兵警"
+     ],
+     "nickname": "",
+     "description": "刘子固归途所遇战乱"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘子固",
+     "predicate": "LOVES",
+     "object": "阿绣",
+     "evidence": "见杂货肆中一女子，姣丽无双，心爱好之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘子固",
+     "predicate": "SPOUSE",
+     "object": "阿绣",
+     "evidence": "卜吉成礼乃去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘子固",
+     "predicate": "KIN",
+     "object": "刘母",
+     "evidence": "母为议婚，屡梗之，母怪且怒。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘子固",
+     "predicate": "KIN",
+     "object": "舅舅",
+     "evidence": "至盖省其舅。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿绣",
+     "predicate": "KIN",
+     "object": "姚氏",
+     "evidence": "女问：“郎居何所？”以实对。转诘之，自言姚氏。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿绣",
+     "predicate": "KIN",
+     "object": "姚父",
+     "evidence": "女子便呼父。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "KIN",
+     "object": "阿绣",
+     "evidence": "阿绣，吾妹也，前世不幸夭殂。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "刘子固",
+     "evidence": "忽一女子，握腕趣遁，荒窜军中，亦无诘者。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "阿绣",
+     "evidence": "忽一女子，握腕趣遁，荒窜军中，亦无诘者。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘子固",
+     "predicate": "LIVES_AT",
+     "object": "海州",
+     "evidence": "海州刘子固，十五岁时，至盖省其舅。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘子固",
+     "predicate": "NATIVE_OF",
+     "object": "海州",
+     "evidence": "海州刘子固，十五岁时，至盖省其舅。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿绣",
+     "predicate": "NATIVE_OF",
+     "object": "广宁",
+     "evidence": "始知姚原广宁人，以贸易无重息，故暂归去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘子固",
+     "predicate": "OWNS",
+     "object": "小竹箱",
+     "evidence": "以所市香帕脂粉等类，密置一箧。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "OWNS",
+     "object": "玳瑁簪",
+     "evidence": "华妆端坐，插玳瑁簪长数寸。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘子固",
+     "predicate": "PARTICIPATED_IN",
+     "object": "战乱",
+     "evidence": "中途遇乱，主仆相失，为侦者所掠。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿绣",
+     "predicate": "PARTICIPATED_IN",
+     "object": "战乱",
+     "evidence": "父携妾自广宁归，遇兵被俘。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "战乱",
+     "predicate": "OCCURRED_AT",
+     "object": "海州",
+     "evidence": "至海州界，见一女子，蓬鬓垢耳。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:03.105Z"
+}

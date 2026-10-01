@@ -1,0 +1,144 @@
+{
+ "no": 132,
+ "title": "罗刹海市",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3714,
+   "entities": [
+    {
+     "name": "马骥",
+     "type": "Person",
+     "aliases": [
+      "马龙媒",
+      "俊人"
+     ],
+     "nickname": "龙媒",
+     "description": "罗刹海市篇主角，商人子，美丰姿"
+    },
+    {
+     "name": "龙女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗刹海市篇龙君之女，马骥之妻"
+    },
+    {
+     "name": "龙君",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗刹海市篇海中龙宫之王"
+    },
+    {
+     "name": "东洋三世子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗刹海市篇东洋龙王之子"
+    },
+    {
+     "name": "执戟郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗刹海市篇罗刹国退隐官员"
+    },
+    {
+     "name": "大罗刹国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗刹海市篇中以貌取人之国"
+    },
+    {
+     "name": "海市",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗刹海市篇中四海鲛人集货之市"
+    },
+    {
+     "name": "龙宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗刹海市篇中海底龙君宫殿"
+    },
+    {
+     "name": "赤玉莲花",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗刹海市篇中马骥在罗刹国所得宝物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "马骥",
+     "predicate": "SPOUSE",
+     "object": "龙女",
+     "evidence": "龙君执爵而向客曰：寡人所怜女，未有良匹，愿累先生。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马骥",
+     "predicate": "FRIEND",
+     "object": "东洋三世子",
+     "evidence": "世子喜曰：既蒙辱临，缘分不浅！于是授生骑，请与连辔。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马骥",
+     "predicate": "FRIEND",
+     "object": "执戟郎",
+     "evidence": "造郎门，郎果喜，揖为上宾。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马骥",
+     "predicate": "LIVES_AT",
+     "object": "大罗刹国",
+     "evidence": "从人浮海，为飓风引去，数昼夜，至一都会。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马骥",
+     "predicate": "LIVES_AT",
+     "object": "龙宫",
+     "evidence": "少时，酒罢，双鬟挑画灯，导生入副宫，女浓妆坐伺。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马骥",
+     "predicate": "OWNS",
+     "object": "赤玉莲花",
+     "evidence": "生在罗刹国所得赤玉莲花一对，出以授女。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "龙女",
+     "predicate": "KIN",
+     "object": "龙君",
+     "evidence": "龙君执爵而向客曰：寡人所怜女，未有良匹，愿累先生。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "东洋三世子",
+     "predicate": "KIN",
+     "object": "龙君",
+     "evidence": "世子启奏：臣游市廛，得中华贤士，引见大王。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "海市",
+     "predicate": "OCCURRED_AT",
+     "object": "龙宫",
+     "evidence": "海中市，四海鲛人，集货珠宝，四方十二国，均来贸易。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:03.164Z"
+}

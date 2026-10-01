@@ -1,0 +1,260 @@
+{
+ "no": 11,
+ "title": "3.1 字母表示数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1915,
+   "entities": [
+    {
+     "name": "字母表示数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用字母表示数，使数量关系更简明、更具一般性"
+    },
+    {
+     "name": "代数式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用运算符号连接数与字母得到的表达式"
+    },
+    {
+     "name": "运算律",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数的运算律，如交换律、结合律、分配律"
+    },
+    {
+     "name": "交换律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a+b=b+a"
+    },
+    {
+     "name": "结合律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "加法结合律：(a+b)+c=a+(b+c)"
+    },
+    {
+     "name": "分配律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘法分配律：a(b+c)=ab+ac"
+    },
+    {
+     "name": "整式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "单项式和多项式的统称"
+    },
+    {
+     "name": "整式的加减",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "合并同类项、去括号等整式加减运算"
+    },
+    {
+     "name": "三角形面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "S=1/2ah"
+    },
+    {
+     "name": "圆柱侧面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆柱侧面积=2πrh"
+    },
+    {
+     "name": "长方形周长公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "长方形周长=2(a+b)"
+    },
+    {
+     "name": "长方形面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "长方形面积=ab"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有符号不同的两个数互为相反数"
+    },
+    {
+     "name": "倒数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘积为1的两个数互为倒数"
+    },
+    {
+     "name": "偶数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能被2整除的整数"
+    },
+    {
+     "name": "奇数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "不能被2整除的整数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "字母表示数",
+     "predicate": "PREREQUISITE",
+     "object": "代数式",
+     "evidence": "字母可以表示数，用运算符号连接数与字母得到代数式。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "代数式",
+     "predicate": "INCLUDES",
+     "object": "整式",
+     "evidence": "本章将学习代数式的有关概念，以及代数式中整式的加减运算。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式",
+     "predicate": "INCLUDES",
+     "object": "整式的加减",
+     "evidence": "本章将学习代数式的有关概念，以及代数式中整式的加减运算。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "运算律",
+     "predicate": "INCLUDES",
+     "object": "交换律",
+     "evidence": "它的运算满足数的各种运算律，如交换律、结合律和分配律。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "运算律",
+     "predicate": "INCLUDES",
+     "object": "结合律",
+     "evidence": "它的运算满足数的各种运算律，如交换律、结合律和分配律。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "运算律",
+     "predicate": "INCLUDES",
+     "object": "分配律",
+     "evidence": "它的运算满足数的各种运算律，如交换律、结合律和分配律。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "交换律",
+     "predicate": "PROPERTY_OF",
+     "object": "代数式",
+     "evidence": "代数式是具有一般意义的表达式，它的运算满足数的各种运算律，如交换律、结合律和分配律。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "结合律",
+     "predicate": "PROPERTY_OF",
+     "object": "代数式",
+     "evidence": "代数式是具有一般意义的表达式，它的运算满足数的各种运算律，如交换律、结合律和分配律。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分配律",
+     "predicate": "PROPERTY_OF",
+     "object": "代数式",
+     "evidence": "代数式是具有一般意义的表达式，它的运算满足数的各种运算律，如交换律、结合律和分配律。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "三角形面积公式",
+     "evidence": "如用字母表示加法交换律、三角形面积公式等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "交换律",
+     "evidence": "如用字母表示加法交换律、三角形面积公式等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "长方形周长公式",
+     "evidence": "如果宽是a，那么长方形的周长和面积分别是多少？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "长方形面积公式",
+     "evidence": "如果宽是a，那么长方形的周长和面积分别是多少？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "圆柱侧面积公式",
+     "evidence": "圆柱的底面半径为r，高为h，圆柱的侧面积是多少？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "相反数",
+     "evidence": "两个数互为相反数可以表示为：a=-b（或a+b=0）。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "倒数",
+     "evidence": "一个数是另一个数的倒数。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "偶数",
+     "evidence": "用字母表示下列数量：偶数、奇数。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "APPLIES_TO",
+     "object": "奇数",
+     "evidence": "用字母表示下列数量：偶数、奇数。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相反数",
+     "predicate": "RELATED",
+     "object": "倒数",
+     "evidence": "两个数互为相反数可以表示为：a=-b（或a+b=0）。",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:35.701Z"
+}

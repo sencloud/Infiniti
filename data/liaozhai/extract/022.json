@@ -1,0 +1,288 @@
+{
+ "no": 22,
+ "title": "娇娜",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2688,
+   "entities": [
+    {
+     "name": "孔雪笠",
+     "type": "Person",
+     "aliases": [
+      "雪笠",
+      "孔生",
+      "孔公子"
+     ],
+     "nickname": "",
+     "description": "圣裔，工诗，流落菩陀寺，后中进士"
+    },
+    {
+     "name": "娇娜",
+     "type": "Spirit",
+     "aliases": [
+      "娇娘",
+      "娜女"
+     ],
+     "nickname": "",
+     "description": "狐女，十三四岁，能医，救孔生"
+    },
+    {
+     "name": "细柳",
+     "type": "Spirit",
+     "aliases": [
+      "柳娘",
+      "细柳女"
+     ],
+     "nickname": "",
+     "description": "狐女，娇娜之妹，嫁孔生"
+    },
+    {
+     "name": "柳生",
+     "type": "Spirit",
+     "aliases": [
+      "柳公子"
+     ],
+     "nickname": "",
+     "description": "狐男，娇娜之兄，与孔生为友"
+    },
+    {
+     "name": "皇甫公子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐，少年，与孔生结交"
+    },
+    {
+     "name": "香奴",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐婢，善弹琵琶"
+    },
+    {
+     "name": "阿松",
+     "type": "Spirit",
+     "aliases": [
+      "松娘"
+     ],
+     "nickname": "",
+     "description": "狐女，娇娜姨女，嫁孔生"
+    },
+    {
+     "name": "吴郎",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐，娇娜之夫"
+    },
+    {
+     "name": "小宦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔生与松娘之子，有狐意"
+    },
+    {
+     "name": "菩陀寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寺庙，孔生寓居抄录"
+    },
+    {
+     "name": "单先生第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "单府宅院，狐借居"
+    },
+    {
+     "name": "天台",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，孔生执友为令"
+    },
+    {
+     "name": "陕西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "皇甫氏祖居地"
+    },
+    {
+     "name": "延安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔生授司李之地"
+    },
+    {
+     "name": "琅嬛琐记",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "书册，孔生翻阅"
+    },
+    {
+     "name": "金钏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "娇娜臂上金镯，用于疗疮"
+    },
+    {
+     "name": "红丸",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "娇娜口中红丸，疗疮圣药"
+    },
+    {
+     "name": "雷霆之劫",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐家遭遇的雷劫"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孔雪笠",
+     "predicate": "LIVES_AT",
+     "object": "菩陀寺",
+     "evidence": "寓菩陀寺，佣为寺僧抄录",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "NATIVE_OF",
+     "object": "天台",
+     "evidence": "有执友令天台，寄函招之",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "FRIEND",
+     "object": "皇甫公子",
+     "evidence": "生喜，不敢当师，请为友",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "LIVES_AT",
+     "object": "单先生第",
+     "evidence": "生以居单第，意为第主",
+     "confidence": 0.9
+    },
+    {
+     "subject": "皇甫公子",
+     "predicate": "LIVES_AT",
+     "object": "单先生第",
+     "evidence": "仆皇甫氏，祖居陕。以家宅焚于野火，暂借安顿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "皇甫公子",
+     "predicate": "NATIVE_OF",
+     "object": "陕西",
+     "evidence": "仆皇甫氏，祖居陕",
+     "confidence": 0.95
+    },
+    {
+     "subject": "皇甫公子",
+     "predicate": "KIN",
+     "object": "娇娜",
+     "evidence": "娇娜妹子能疗之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "娇娜",
+     "predicate": "HELPED",
+     "object": "孔雪笠",
+     "evidence": "娇娜妹子能疗之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "SPOUSE",
+     "object": "阿松",
+     "evidence": "乃除别院，为生成礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "KIN",
+     "object": "小宦",
+     "evidence": "松娘举一男，名小宦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿松",
+     "predicate": "KIN",
+     "object": "小宦",
+     "evidence": "松娘举一男，名小宦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "娇娜",
+     "predicate": "SPOUSE",
+     "object": "吴郎",
+     "evidence": "妹夫吴郎，亦来谒拜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "PARTICIPATED_IN",
+     "object": "雷霆之劫",
+     "evidence": "生矢共生死。乃使仗剑于门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷霆之劫",
+     "predicate": "OCCURRED_AT",
+     "object": "单先生第",
+     "evidence": "回视旧居，无复闬闳，惟见高冢岿然",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "OWNS",
+     "object": "琅嬛琐记",
+     "evidence": "案头书一册，签云《琅嬛琐记》",
+     "confidence": 0.8
+    },
+    {
+     "subject": "娇娜",
+     "predicate": "OWNS",
+     "object": "金钏",
+     "evidence": "乃脱臂上金钏安患处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "娇娜",
+     "predicate": "OWNS",
+     "object": "红丸",
+     "evidence": "口吐红丸，如弹大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "后生举进士",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔雪笠",
+     "predicate": "LIVES_AT",
+     "object": "延安",
+     "evidence": "授延安司李，携家之任",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:23.759Z"
+}

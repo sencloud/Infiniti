@@ -1,0 +1,165 @@
+{
+ "no": 414,
+ "title": "黄英",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2378,
+   "entities": [
+    {
+     "name": "马子才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "顺天人，爱菊，娶黄英"
+    },
+    {
+     "name": "陶望三",
+     "type": "Person",
+     "aliases": [
+      "陶生",
+      "三郎"
+     ],
+     "nickname": "",
+     "description": "菊精，黄英之弟，善艺菊"
+    },
+    {
+     "name": "黄英",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "菊精，陶生之姊，嫁马子才"
+    },
+    {
+     "name": "吕氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "马子才前妻，爱陶姊"
+    },
+    {
+     "name": "曾生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "马子才友人，酒量无对，与陶生较饮"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，陶生故土"
+    },
+    {
+     "name": "顺天",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，马子才籍贯"
+    },
+    {
+     "name": "河朔",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北方地区，陶氏欲卜居"
+    },
+    {
+     "name": "南第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陶家宅院，黄英所居"
+    },
+    {
+     "name": "醉陶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "陶生所化菊花，浇酒则茂"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "马子才",
+     "predicate": "NATIVE_OF",
+     "object": "顺天",
+     "evidence": "马子才，顺天人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马子才",
+     "predicate": "SPOUSE",
+     "object": "黄英",
+     "evidence": "黄英既适马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "KIN",
+     "object": "黄英",
+     "evidence": "姊弟菊精也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马子才",
+     "predicate": "KIN",
+     "object": "吕氏",
+     "evidence": "马妻吕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马子才",
+     "predicate": "FRIEND",
+     "object": "陶望三",
+     "evidence": "马欣然曰：仆虽固贫，茅庐可以寄榻。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "FRIEND",
+     "object": "曾生",
+     "evidence": "因与莫逆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "LIVES_AT",
+     "object": "南第",
+     "evidence": "第南有荒圃，仅小室三四椽，陶喜，居之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄英",
+     "predicate": "LIVES_AT",
+     "object": "南第",
+     "evidence": "黄英既适马，于间壁开扉通南第",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "OWNS",
+     "object": "醉陶",
+     "evidence": "名之“醉陶”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "马子才",
+     "predicate": "HARMED",
+     "object": "陶望三",
+     "evidence": "马潜以一瓻续入之，二人又尽之。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "曾生",
+     "predicate": "HARMED",
+     "object": "陶望三",
+     "evidence": "以两仆舁药浸白酒一坛，约与共尽。",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:50.463Z"
+}

@@ -1,0 +1,89 @@
+{
+ "no": 462,
+ "title": "老龙舡户",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 514,
+   "entities": [
+    {
+     "name": "朱徽荫",
+     "type": "Person",
+     "aliases": [
+      "朱公"
+     ],
+     "nickname": "",
+     "description": "粤东巡抚，昭雪老龙舡户冤案"
+    },
+    {
+     "name": "刘城隍",
+     "type": "Spirit",
+     "aliases": [
+      "城隍刘某"
+     ],
+     "nickname": "",
+     "description": "城隍神，托梦以隐谜助朱公"
+    },
+    {
+     "name": "老龙舡户",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙津驾舟水贼五十馀名，杀人沉尸"
+    },
+    {
+     "name": "老龙津",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "粤东北河流源头，水贼出没处"
+    },
+    {
+     "name": "粤东",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "广东东部，朱公巡抚之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘城隍",
+     "predicate": "HELPED",
+     "object": "朱徽荫",
+     "evidence": "恍惚见一官僚，搢笏而入……曰：鬓边垂雪，天际生云，水中漂木，壁上安门。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱徽荫",
+     "predicate": "PUNISHED",
+     "object": "老龙舡户",
+     "evidence": "捉龙津驾舟者，次第擒获五十馀名，皆不械而服。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老龙舡户",
+     "predicate": "KILLED",
+     "object": "往来商旅",
+     "evidence": "致客沉迷不醒，而后剖腹纳石，以沉水底。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱徽荫",
+     "predicate": "LIVES_AT",
+     "object": "粤东",
+     "evidence": "朱公徽荫巡抚粤东时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老龙舡户",
+     "predicate": "LIVES_AT",
+     "object": "老龙津",
+     "evidence": "捉龙津驾舟者",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:08.736Z"
+}

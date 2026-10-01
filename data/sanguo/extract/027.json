@@ -1,0 +1,846 @@
+{
+ "no": 27,
+ "title": "美髯公千里走单骑 汉寿侯五关斩六将",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5102,
+   "entities": [
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "孟德",
+      "阿瞒",
+      "曹公",
+      "魏王",
+      "魏武帝"
+     ],
+     "nickname": "孟德",
+     "description": "东汉丞相，魏王"
+    },
+    {
+     "name": "刘备",
+     "type": "Person",
+     "aliases": [
+      "玄德",
+      "刘皇叔",
+      "先主",
+      "昭烈帝"
+     ],
+     "nickname": "玄德",
+     "description": "汉室宗亲，关羽之兄"
+    },
+    {
+     "name": "关羽",
+     "type": "Person",
+     "aliases": [
+      "云长",
+      "关公",
+      "美髯公",
+      "汉寿亭侯"
+     ],
+     "nickname": "云长",
+     "description": "刘备义弟，武艺高强"
+    },
+    {
+     "name": "张辽",
+     "type": "Person",
+     "aliases": [
+      "文远",
+      "张文远",
+      "五子良将"
+     ],
+     "nickname": "文远",
+     "description": "曹操部将，与关羽交厚"
+    },
+    {
+     "name": "许褚",
+     "type": "Person",
+     "aliases": [
+      "仲康",
+      "虎痴",
+      "虎侯"
+     ],
+     "nickname": "仲康",
+     "description": "曹操猛将"
+    },
+    {
+     "name": "徐晃",
+     "type": "Person",
+     "aliases": [
+      "公明",
+      "右将军"
+     ],
+     "nickname": "公明",
+     "description": "曹操部将，与关羽交厚"
+    },
+    {
+     "name": "于禁",
+     "type": "Person",
+     "aliases": [
+      "文则",
+      "左将军"
+     ],
+     "nickname": "文则",
+     "description": "曹操部将"
+    },
+    {
+     "name": "李典",
+     "type": "Person",
+     "aliases": [
+      "曼成",
+      "李曼成"
+     ],
+     "nickname": "曼成",
+     "description": "曹操部将"
+    },
+    {
+     "name": "程昱",
+     "type": "Person",
+     "aliases": [
+      "仲德",
+      "卫尉",
+      "安国亭侯"
+     ],
+     "nickname": "仲德",
+     "description": "曹操谋士"
+    },
+    {
+     "name": "蔡阳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操部将，不服关羽"
+    },
+    {
+     "name": "廖化",
+     "type": "Person",
+     "aliases": [
+      "元俭",
+      "右车骑将军"
+     ],
+     "nickname": "元俭",
+     "description": "襄阳人，黄巾余党，救刘备夫人"
+    },
+    {
+     "name": "杜远",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "廖化同伴，劫掠刘备夫人被廖化所杀"
+    },
+    {
+     "name": "胡华",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "庄主，桓帝时议郎，胡班之父"
+    },
+    {
+     "name": "胡班",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "荥阳太守王植部下从事，胡华之子"
+    },
+    {
+     "name": "孔秀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东岭关把关将，被关羽所杀"
+    },
+    {
+     "name": "韩福",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "洛阳太守，被关羽所杀"
+    },
+    {
+     "name": "孟坦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "韩福牙将，被关羽所杀"
+    },
+    {
+     "name": "卞喜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汜水关把关将，黄巾余党，被关羽所杀"
+    },
+    {
+     "name": "普净",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇国寺僧人，关羽同乡，救关羽"
+    },
+    {
+     "name": "王植",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "荥阳太守，韩福亲家，被关羽所杀"
+    },
+    {
+     "name": "刘延",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "滑州太守，不敢助关羽渡河"
+    },
+    {
+     "name": "秦琪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "夏侯惇部将，据守黄河渡口，被关羽所杀"
+    },
+    {
+     "name": "夏侯惇",
+     "type": "Person",
+     "aliases": [
+      "元让",
+      "盲夏侯",
+      "大将军"
+     ],
+     "nickname": "元让",
+     "description": "曹操大将，秦琪上司"
+    },
+    {
+     "name": "孙乾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备谋士，迎接关羽"
+    },
+    {
+     "name": "袁绍",
+     "type": "Person",
+     "aliases": [
+      "本初",
+      "袁本初",
+      "四世三公"
+     ],
+     "nickname": "本初",
+     "description": "河北军阀，曹操仇人"
+    },
+    {
+     "name": "颜良",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍大将，被关羽所杀"
+    },
+    {
+     "name": "文丑",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍大将，被关羽所杀"
+    },
+    {
+     "name": "田丰",
+     "type": "Person",
+     "aliases": [
+      "元皓",
+      "田元皓"
+     ],
+     "nickname": "元皓",
+     "description": "袁绍谋士，被囚狱中"
+    },
+    {
+     "name": "沮授",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍谋士，被黜退不用"
+    },
+    {
+     "name": "审配",
+     "type": "Person",
+     "aliases": [
+      "正南",
+      "审正南"
+     ],
+     "nickname": "正南",
+     "description": "袁绍谋士，争权"
+    },
+    {
+     "name": "郭图",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍谋士，争权"
+    },
+    {
+     "name": "刘辟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汝南首领，与刘备会合"
+    },
+    {
+     "name": "龚都",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汝南首领，与刘备会合"
+    },
+    {
+     "name": "曹操军",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操统领的军队"
+    },
+    {
+     "name": "袁绍军",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍统领的军队"
+    },
+    {
+     "name": "黄巾余党",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄巾起义残部"
+    },
+    {
+     "name": "东岭关",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "关隘，孔秀把守"
+    },
+    {
+     "name": "洛阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州府，韩福镇守"
+    },
+    {
+     "name": "汜水关",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "关隘，卞喜把守"
+    },
+    {
+     "name": "荥阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州府，王植镇守"
+    },
+    {
+     "name": "滑州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州府，刘延镇守"
+    },
+    {
+     "name": "黄河渡口",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄河渡口，秦琪据守"
+    },
+    {
+     "name": "镇国寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汜水关前寺庙，普净所在"
+    },
+    {
+     "name": "襄阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "廖化籍贯"
+    },
+    {
+     "name": "蒲东",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "关羽故乡"
+    },
+    {
+     "name": "汝南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备与刘辟会合处"
+    },
+    {
+     "name": "河北",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍地盘"
+    },
+    {
+     "name": "赤兔马",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "关羽坐骑，日行千里"
+    },
+    {
+     "name": "青龙刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "关羽兵器"
+    },
+    {
+     "name": "锦袍",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操赠关羽的锦袍"
+    },
+    {
+     "name": "黄金",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操赠关羽的黄金"
+    },
+    {
+     "name": "胡华书信",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡华托关羽带给胡班的信"
+    },
+    {
+     "name": "过五关斩六将",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "关羽千里走单骑，过五关斩六将"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张辽",
+     "predicate": "FRIEND",
+     "object": "关羽",
+     "evidence": "自张辽而外，只有徐晃与云长交厚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐晃",
+     "predicate": "FRIEND",
+     "object": "关羽",
+     "evidence": "只有徐晃与云长交厚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蔡阳",
+     "predicate": "FOUGHT",
+     "object": "关羽",
+     "evidence": "独蔡阳不服关公",
+     "confidence": 0.8
+    },
+    {
+     "subject": "程昱",
+     "predicate": "FRAMED",
+     "object": "关羽",
+     "evidence": "程昱曰：丞相待关某甚厚，今彼不辞而去……不若追而杀了，以绝后患。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "RESCUED",
+     "object": "关羽",
+     "evidence": "操曰：吾昔已许之，岂可失信！彼各为其主，勿追也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "OWNS",
+     "object": "锦袍",
+     "evidence": "锦袍一领，略表寸心。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操",
+     "predicate": "OWNS",
+     "object": "黄金",
+     "evidence": "一将便从马上托过黄金一盘。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "OWNS",
+     "object": "赤兔马",
+     "evidence": "云长所骑赤兔马，日行千里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "OWNS",
+     "object": "青龙刀",
+     "evidence": "自己勒住赤兔马，按定青龙刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "廖化",
+     "predicate": "NATIVE_OF",
+     "object": "襄阳",
+     "evidence": "吾本襄阳人，姓廖，名化，字元俭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "廖化",
+     "predicate": "KILLED",
+     "object": "杜远",
+     "evidence": "杜远出言不逊，被某杀之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "廖化",
+     "predicate": "RESCUED",
+     "object": "刘备",
+     "evidence": "若非廖将军保全，已被杜远所辱。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "廖化",
+     "predicate": "MEMBER_OF",
+     "object": "黄巾余党",
+     "evidence": "此人终是黄巾余党",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡班",
+     "predicate": "KIN",
+     "object": "胡华",
+     "evidence": "莫非许都城外胡华之子否？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡班",
+     "predicate": "SERVED",
+     "object": "王植",
+     "evidence": "荥阳太守部下从事胡班",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "孔秀",
+     "evidence": "钢刀起处，孔秀尸横马下。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "孟坦",
+     "evidence": "只一刀，砍为两段。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "韩福",
+     "evidence": "关公手起刀落，带头连肩，斩于马下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "卞喜",
+     "evidence": "一刀劈卞喜为两段。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "王植",
+     "evidence": "被关公拦腰一刀，砍为两段。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "秦琪",
+     "evidence": "关公刀起，秦琪头落。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "普净",
+     "predicate": "RESCUED",
+     "object": "关羽",
+     "evidence": "若非吾师，已被此贼害矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡班",
+     "predicate": "RESCUED",
+     "object": "关羽",
+     "evidence": "今某当先去开了城门，将军急收拾出城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "PARTICIPATED_IN",
+     "object": "过五关斩六将",
+     "evidence": "关公所历关隘五处，斩将六员。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "过五关斩六将",
+     "predicate": "OCCURRED_AT",
+     "object": "东岭关",
+     "evidence": "前至一关，名东岭关。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "过五关斩六将",
+     "predicate": "OCCURRED_AT",
+     "object": "洛阳",
+     "evidence": "望洛阳进发。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "过五关斩六将",
+     "predicate": "OCCURRED_AT",
+     "object": "汜水关",
+     "evidence": "连夜投汜水关来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "过五关斩六将",
+     "predicate": "OCCURRED_AT",
+     "object": "荥阳",
+     "evidence": "往荥阳进发。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "过五关斩六将",
+     "predicate": "OCCURRED_AT",
+     "object": "黄河渡口",
+     "evidence": "到黄河渡口",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "吾乃刘玄德之弟关某也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KIN",
+     "object": "刘备",
+     "evidence": "吾乃刘玄德之弟关某也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "颜良",
+     "evidence": "莫非斩颜良、文丑的关公否？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "文丑",
+     "evidence": "莫非斩颜良、文丑的关公否？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙乾",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "某与刘皇叔商议，先求脱身之计。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙乾",
+     "predicate": "RECOMMENDED",
+     "object": "刘备",
+     "evidence": "遣某往河北结好袁绍，请玄德同谋破曹之计。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘辟",
+     "predicate": "MEMBER_OF",
+     "object": "汝南",
+     "evidence": "刘辟、龚都自将军回兵之后，复夺了汝南",
+     "confidence": 0.8
+    },
+    {
+     "subject": "龚都",
+     "predicate": "MEMBER_OF",
+     "object": "汝南",
+     "evidence": "刘辟、龚都自将军回兵之后，复夺了汝南",
+     "confidence": 0.8
+    },
+    {
+     "subject": "田丰",
+     "predicate": "SERVED",
+     "object": "袁绍",
+     "evidence": "田丰尚囚狱中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沮授",
+     "predicate": "SERVED",
+     "object": "袁绍",
+     "evidence": "沮授黜退不用",
+     "confidence": 0.9
+    },
+    {
+     "subject": "审配",
+     "predicate": "SERVED",
+     "object": "袁绍",
+     "evidence": "审配、郭图各自争权",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郭图",
+     "predicate": "SERVED",
+     "object": "袁绍",
+     "evidence": "审配、郭图各自争权",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "LEADS",
+     "object": "曹操军",
+     "evidence": "曹操引数十骑随后而来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袁绍",
+     "predicate": "LEADS",
+     "object": "袁绍军",
+     "evidence": "河北袁绍，正是丞相对头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔秀",
+     "predicate": "STATIONED_AT",
+     "object": "东岭关",
+     "evidence": "把关将姓孔，名秀，引五百军兵在岭上把守。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩福",
+     "predicate": "STATIONED_AT",
+     "object": "洛阳",
+     "evidence": "洛阳太守韩福",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卞喜",
+     "predicate": "STATIONED_AT",
+     "object": "汜水关",
+     "evidence": "把关将乃并州人氏，姓卞，名喜……拨来守关。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王植",
+     "predicate": "STATIONED_AT",
+     "object": "荥阳",
+     "evidence": "荥阳太守王植",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘延",
+     "predicate": "STATIONED_AT",
+     "object": "滑州",
+     "evidence": "行至滑州界首，有人报与刘延。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦琪",
+     "predicate": "STATIONED_AT",
+     "object": "黄河渡口",
+     "evidence": "今黄河渡口关隘，夏侯惇部将秦琪据守",
+     "confidence": 0.95
+    },
+    {
+     "subject": "普净",
+     "predicate": "STATIONED_AT",
+     "object": "镇国寺",
+     "evidence": "原来那镇国寺乃汉明帝御前香火院，本寺有僧三十余人。内有一僧，却是关公同乡人，法名普净。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "NATIVE_OF",
+     "object": "蒲东",
+     "evidence": "将军离蒲东几年矣？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "OWNS",
+     "object": "胡华书信",
+     "evidence": "取了胡华书信，相别而行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡华",
+     "predicate": "OWNS",
+     "object": "胡华书信",
+     "evidence": "某有一书寄与小儿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "ATTACKED",
+     "object": "东岭关",
+     "evidence": "关公大怒，举刀就杀孔秀。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "ATTACKED",
+     "object": "洛阳",
+     "evidence": "关公怒曰：东岭孔秀，已被吾杀。汝亦欲寻死耶？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "关羽",
+     "predicate": "ATTACKED",
+     "object": "汜水关",
+     "evidence": "卞喜知事泄，大叫：左右下手！左右方欲动手，皆被关公拔剑砍之。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "关羽",
+     "predicate": "ATTACKED",
+     "object": "荥阳",
+     "evidence": "关公催车仗急急出城。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "关羽",
+     "predicate": "ATTACKED",
+     "object": "黄河渡口",
+     "evidence": "关公大怒曰：你知我于路斩戮拦截者乎？",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:54:32.464Z"
+}

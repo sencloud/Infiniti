@@ -1,0 +1,85 @@
+{
+ "no": 74,
+ "title": "汾州狐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 338,
+   "entities": [
+    {
+     "name": "朱公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汾州判官，与狐女相好"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "居朱公官署的狐，与朱公如夫妻"
+    },
+    {
+     "name": "河神",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "掌管河流的神，允狐女渡河"
+    },
+    {
+     "name": "汾州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱公为判官之地"
+    },
+    {
+     "name": "河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱公与狐女渡过的河"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "朱公",
+     "predicate": "SPOUSE",
+     "object": "狐女",
+     "evidence": "遂与款密，久如夫妻之好",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱公",
+     "predicate": "LIVES_AT",
+     "object": "汾州",
+     "evidence": "汾州判朱公者，居廨多狐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "LIVES_AT",
+     "object": "汾州",
+     "evidence": "汾州判朱公者，居廨多狐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "朱公",
+     "evidence": "妾以君故，特请之。彼限我十天往复，故可暂依耳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "FRIEND",
+     "object": "河神",
+     "evidence": "曩所谒非他，河神也",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:39.640Z"
+}

@@ -1,0 +1,294 @@
+{
+ "no": 323,
+ "title": "吕无病",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3120,
+   "entities": [
+    {
+     "name": "孙麒",
+     "type": "Person",
+     "aliases": [
+      "孙公子",
+      "孙生"
+     ],
+     "nickname": "",
+     "description": "洛阳世家公子，娶蒋太守女，后纳吕无病为妾"
+    },
+    {
+     "name": "吕无病",
+     "type": "Spirit",
+     "aliases": [
+      "无病"
+     ],
+     "nickname": "",
+     "description": "女鬼，祖籍山东，自荐为孙麒婢妾，爱护阿坚"
+    },
+    {
+     "name": "蒋氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋太守之女，孙麒元配，婚后二十日卒"
+    },
+    {
+     "name": "许氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙麒继室，贤惠，生阿坚后病卒"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [
+      "王天官女"
+     ],
+     "nickname": "",
+     "description": "王天官之女，孙麒再娶之妻，骄悍虐儿"
+    },
+    {
+     "name": "阿坚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙麒与许氏之子，受吕无病爱护"
+    },
+    {
+     "name": "孙母姨",
+     "type": "Person",
+     "aliases": [
+      "寡媪"
+     ],
+     "nickname": "",
+     "description": "孙麒的姨母，寡居，曾收留吕无病"
+    },
+    {
+     "name": "乳媪",
+     "type": "Person",
+     "aliases": [
+      "奶妈"
+     ],
+     "nickname": "",
+     "description": "阿坚的奶妈，助吕无病携阿坚逃亡"
+    },
+    {
+     "name": "朱先生",
+     "type": "Person",
+     "aliases": [
+      "广文朱先生"
+     ],
+     "nickname": "",
+     "description": "县学教官，刚正不阿，不受理孙麒案"
+    },
+    {
+     "name": "王天官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王氏之父，官员，势大，后卒"
+    },
+    {
+     "name": "洛阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙麒籍贯所在地"
+    },
+    {
+     "name": "山中别业",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙麒离家后所居的山中别墅"
+    },
+    {
+     "name": "杨家疃",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "近村，孙麒疑吕无病逃于此"
+    },
+    {
+     "name": "杨谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "五十里外之地，乳媪与阿坚藏身于此"
+    },
+    {
+     "name": "鬼妻吕无病之墓",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙麒为吕无病所立衣冠冢"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙麒",
+     "predicate": "SPOUSE",
+     "object": "蒋氏",
+     "evidence": "洛阳孙公子，名麒，娶蒋太守女，甚相得。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "SPOUSE",
+     "object": "吕无病",
+     "evidence": "久益嬖之，纳为妾。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "SPOUSE",
+     "object": "许氏",
+     "evidence": "女知之，苦劝令娶，乃娶于许，而终嬖爱无病。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "孙惑焉，又娶之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "KIN",
+     "object": "阿坚",
+     "evidence": "许举一子阿坚，无病爱抱如己出。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许氏",
+     "predicate": "KIN",
+     "object": "阿坚",
+     "evidence": "许举一子阿坚，无病爱抱如己出。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕无病",
+     "predicate": "KIN",
+     "object": "阿坚",
+     "evidence": "无病爱抱如己出。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "KIN",
+     "object": "孙母姨",
+     "evidence": "孙有母姨，近隔十馀门，谋令遁诸其家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "KIN",
+     "object": "王天官",
+     "evidence": "邑有王天官女，新寡，来求婚。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕无病",
+     "predicate": "HELPED",
+     "object": "阿坚",
+     "evidence": "无病窥妇不在，潜饮儿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕无病",
+     "predicate": "HELPED",
+     "object": "阿坚",
+     "evidence": "可速将去，少待于野，我当继至。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乳媪",
+     "predicate": "HELPED",
+     "object": "阿坚",
+     "evidence": "媪曰：诺。无病入室，携簪珥出，追及之。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "王氏",
+     "predicate": "HARMED",
+     "object": "阿坚",
+     "evidence": "妇怒起，毒挞无算，始从乳媪去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王氏",
+     "predicate": "HARMED",
+     "object": "吕无病",
+     "evidence": "妇以远游咎无病。无病鞠躬屏气，承望颜色，而妇终不快。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "HARMED",
+     "object": "阿坚",
+     "evidence": "儿方啼，开目见妇，惊投父怀，若求藏匿。抱而视之，气已绝矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "KILLED",
+     "object": "阿坚",
+     "evidence": "无何，妇产一男，交手于项而死之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "HARMED",
+     "object": "王氏",
+     "evidence": "孙忿，出白刃，婢妪遮救，不得近，遥掷之，刀脊中额，额破血流",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "HARMED",
+     "object": "王氏",
+     "evidence": "孙捉还，杖挞无数，衣皆若缕，伤痛不可转侧。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱先生",
+     "predicate": "HELPED",
+     "object": "孙麒",
+     "evidence": "竟不受命，孙公然归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "LIVES_AT",
+     "object": "山中别业",
+     "evidence": "离家，居山中别业。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "NATIVE_OF",
+     "object": "洛阳",
+     "evidence": "洛阳孙公子，名麒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕无病",
+     "predicate": "LIVES_AT",
+     "object": "孙母姨",
+     "evidence": "孙有母姨，近隔十馀门，谋令遁诸其家",
+     "confidence": 0.85
+    },
+    {
+     "subject": "孙麒",
+     "predicate": "OWNS",
+     "object": "鬼妻吕无病之墓",
+     "evidence": "感其义，葬其衣履，题碑曰：鬼妻吕无病之墓。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:18.923Z"
+}

@@ -1,0 +1,113 @@
+{
+ "no": 403,
+ "title": "瑞云",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1147,
+   "entities": [
+    {
+     "name": "瑞云",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杭州名妓，色艺无双，后嫁贺生"
+    },
+    {
+     "name": "蔡媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "瑞云养母，逼其接客"
+    },
+    {
+     "name": "贺生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "馀杭书生，仰慕瑞云，后娶之"
+    },
+    {
+     "name": "和生",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "秀才，实为仙人，施法晦瑞云容"
+    },
+    {
+     "name": "杭州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "瑞云所在之地"
+    },
+    {
+     "name": "馀杭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贺生籍贯"
+    },
+    {
+     "name": "苏州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贺生偶至之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "瑞云",
+     "predicate": "LOVES",
+     "object": "贺生",
+     "evidence": "作诗赠生曰：何事求浆者，蓝桥叩晓关？有心寻玉杵，端只在人间。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贺生",
+     "predicate": "LOVES",
+     "object": "瑞云",
+     "evidence": "生得之狂喜。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贺生",
+     "predicate": "SPOUSE",
+     "object": "瑞云",
+     "evidence": "贺货田倾装，买之而归。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "和生",
+     "predicate": "HARMED",
+     "object": "瑞云",
+     "evidence": "以一指按女额曰：“可惜，可惜！”遂去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "和生",
+     "predicate": "HELPED",
+     "object": "瑞云",
+     "evidence": "即令以盥器贮水，戟指而书之，曰：“濯之当愈。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贺生",
+     "predicate": "LIVES_AT",
+     "object": "馀杭",
+     "evidence": "馀杭贺生，才名夙著",
+     "confidence": 0.95
+    },
+    {
+     "subject": "瑞云",
+     "predicate": "LIVES_AT",
+     "object": "杭州",
+     "evidence": "瑞云，杭之名妓",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:43.417Z"
+}

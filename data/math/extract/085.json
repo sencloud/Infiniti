@@ -1,0 +1,113 @@
+{
+ "no": 85,
+ "title": "10.2 分式的基本性质",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5343,
+   "entities": [
+    {
+     "name": "分式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式的分子和分母都乘（或除以）同一个不等于0的整式，分式的值不变。"
+    },
+    {
+     "name": "分数的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "分数的分子和分母都乘（或除以）同一个不等于0的数，分数的值不变。"
+    },
+    {
+     "name": "分式的约分",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把一个分式的分子和分母分别除以它们的公因式。"
+    },
+    {
+     "name": "最简分式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分子与分母没有公因式的分式。"
+    },
+    {
+     "name": "分式的通分",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把几个异分母的分式变形成同分母的分式。"
+    },
+    {
+     "name": "最简公分母",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "各分母系数的最小公倍数与所有字母的最高次幂的积。"
+    },
+    {
+     "name": "分解因式",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把多项式化成几个整式的积的形式。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "分数的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "分式的基本性质",
+     "evidence": "我们知道，如果分数的分子和分母都乘（或除以）同一个不等于0的数，那么分数的值不变。分式是否有类似的性质？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "分式的约分",
+     "evidence": "与分数的约分类似，根据分式的基本性质，把一个分式的分子和分母分别除以它们的公因式，叫作分式的约分。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "分式的通分",
+     "evidence": "根据分式的基本性质，把几个异分母的分式变形成同分母的分式，叫作分式的通分。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式的约分",
+     "predicate": "APPLIES_TO",
+     "object": "最简分式",
+     "evidence": "约分通常要把分式化成最简分式或整式。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式的通分",
+     "predicate": "APPLIES_TO",
+     "object": "最简公分母",
+     "evidence": "异分母分式通分时，关键是确定最简公分母。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分解因式",
+     "predicate": "PREREQUISITE",
+     "object": "分式的约分",
+     "evidence": "如果分子、分母中含有多项式，通常先把分子和分母分别分解因式，然后再约分。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分解因式",
+     "predicate": "PREREQUISITE",
+     "object": "分式的通分",
+     "evidence": "在求最简公分母时一般先分解因式，然后取各分母的所有因式的最高次幂的积作为最简公分母。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:07.147Z"
+}

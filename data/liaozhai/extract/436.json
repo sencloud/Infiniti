@@ -1,0 +1,199 @@
+{
+ "no": 436,
+ "title": "张氏妇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 563,
+   "entities": [
+    {
+     "name": "张氏妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "兖郡妇人，设计杀蒙古兵，保全贞洁"
+    },
+    {
+     "name": "张氏妇之夫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张氏妇的丈夫，助其掘坎"
+    },
+    {
+     "name": "蒙古兵甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "欲淫张氏妇，被诱入坎烧死"
+    },
+    {
+     "name": "蒙古兵乙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "欲淫张氏妇，被诱入坎烧死"
+    },
+    {
+     "name": "无耻兵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "烈日下欲淫张氏妇，被马拖死"
+    },
+    {
+     "name": "兖郡",
+     "type": "Place",
+     "aliases": [
+      "兖州"
+     ],
+     "nickname": "",
+     "description": "南征大兵养马之地"
+    },
+    {
+     "name": "张氏妇家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张氏妇在兖郡的住宅，有厨舍"
+    },
+    {
+     "name": "厨舍",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张氏妇家厨房，内掘有陷坑"
+    },
+    {
+     "name": "大道旁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "离村数里、无树木处，张氏妇携女红坐此"
+    },
+    {
+     "name": "陷坑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "张氏妇与夫所掘，覆以薄席，用以陷兵"
+    },
+    {
+     "name": "巨锥",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "张氏妇用以刺马项之锥"
+    },
+    {
+     "name": "针",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "张氏妇用以刺马之针"
+    },
+    {
+     "name": "三藩作反",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "甲寅岁三藩叛乱，南征之士养马兖郡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张氏妇",
+     "predicate": "SPOUSE",
+     "object": "张氏妇之夫",
+     "evidence": "夜与夫掘坎深数尺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张氏妇",
+     "predicate": "LIVES_AT",
+     "object": "张氏妇家",
+     "evidence": "公然在家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张氏妇",
+     "predicate": "OWNS",
+     "object": "陷坑",
+     "evidence": "夜与夫掘坎深数尺，积茅焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张氏妇",
+     "predicate": "OWNS",
+     "object": "巨锥",
+     "evidence": "妇出巨锥猛刺马项",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张氏妇",
+     "predicate": "OWNS",
+     "object": "针",
+     "evidence": "隐以针刺其马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒙古兵甲",
+     "predicate": "HARMED",
+     "object": "张氏妇",
+     "evidence": "二蒙古兵强与淫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒙古兵乙",
+     "predicate": "HARMED",
+     "object": "张氏妇",
+     "evidence": "二蒙古兵强与淫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张氏妇",
+     "predicate": "KILLED",
+     "object": "蒙古兵甲",
+     "evidence": "火大炽，屋焚……燔尸焦臭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张氏妇",
+     "predicate": "KILLED",
+     "object": "蒙古兵乙",
+     "evidence": "火大炽，屋焚……燔尸焦臭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "无耻兵",
+     "predicate": "HARMED",
+     "object": "张氏妇",
+     "evidence": "就烈日中欲淫妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张氏妇",
+     "predicate": "KILLED",
+     "object": "无耻兵",
+     "evidence": "马负痛奔骇……首躯不知处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三藩作反",
+     "predicate": "OCCURRED_AT",
+     "object": "兖郡",
+     "evidence": "甲寅岁，三藩作反，南征之士，养马兖郡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张氏妇",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三藩作反",
+     "evidence": "甲寅岁，三藩作反……惟张氏妇不伏",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:59.639Z"
+}

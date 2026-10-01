@@ -1,0 +1,159 @@
+{
+ "no": 6,
+ "title": "2.3 绝对值与相反数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4510,
+   "entities": [
+    {
+     "name": "绝对值",
+     "type": "Concept",
+     "aliases": [
+      "absolute value"
+     ],
+     "nickname": "",
+     "description": "数轴上表示一个数的点到原点的距离"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [
+      "opposite number"
+     ],
+     "nickname": "",
+     "description": "只有符号不同的两个数互为相反数"
+    },
+    {
+     "name": "数轴",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    },
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整数和分数的统称"
+    },
+    {
+     "name": "非负数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "正数和零的统称"
+    },
+    {
+     "name": "绝对值性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "正数的绝对值是它本身，负数的绝对值是它的相反数，0的绝对值是0"
+    },
+    {
+     "name": "相反数性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "互为相反数的两个数绝对值相等，即|-a|=|a|"
+    },
+    {
+     "name": "绝对值比较法则",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个正数绝对值大的大；两个负数绝对值大的小"
+    },
+    {
+     "name": "双重符号化简法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "一个数的相反数的相反数等于它本身，即-(-a)=a"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "数轴",
+     "predicate": "PREREQUISITE",
+     "object": "绝对值",
+     "evidence": "数轴上表示一个数的点到原点的距离叫作这个数的绝对值",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数轴",
+     "predicate": "PREREQUISITE",
+     "object": "相反数",
+     "evidence": "如图2-11，观察数轴上点A，B的位置及它们到原点的距离",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "绝对值",
+     "evidence": "由于任意一个有理数的绝对值都是非负数",
+     "confidence": 0.85
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "相反数",
+     "evidence": "像5与-5，2.5与-2.5，2/3与-2/3这样，只有符号不同的两个数称为互为相反数",
+     "confidence": 0.85
+    },
+    {
+     "subject": "绝对值",
+     "predicate": "RELATED",
+     "object": "相反数",
+     "evidence": "互为相反数的两个数绝对值相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "绝对值性质",
+     "predicate": "PROPERTY_OF",
+     "object": "绝对值",
+     "evidence": "正数的绝对值是它本身；负数的绝对值是它的相反数；0的绝对值是0",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相反数性质",
+     "predicate": "PROPERTY_OF",
+     "object": "相反数",
+     "evidence": "互为相反数的两个数绝对值相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "绝对值比较法则",
+     "predicate": "PROPERTY_OF",
+     "object": "绝对值",
+     "evidence": "两个正数，绝对值大的正数大；两个负数，绝对值大的负数小",
+     "confidence": 0.95
+    },
+    {
+     "subject": "双重符号化简法则",
+     "predicate": "PROPERTY_OF",
+     "object": "相反数",
+     "evidence": "对于任意的数a都有-(-a)=a，也就是说，一个数的相反数的相反数就是这个数本身",
+     "confidence": 0.95
+    },
+    {
+     "subject": "绝对值比较法则",
+     "predicate": "APPLIES_TO",
+     "object": "有理数",
+     "evidence": "例5 比较下列各组数的大小：（1）-9.5与-1.75；（2）-3/5与-3/4",
+     "confidence": 0.9
+    },
+    {
+     "subject": "绝对值",
+     "predicate": "RELATED",
+     "object": "非负数",
+     "evidence": "任意一个数的绝对值都是非负数",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:31.206Z"
+}

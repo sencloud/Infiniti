@@ -1,0 +1,246 @@
+{
+ "no": 397,
+ "title": "长亭",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3718,
+   "entities": [
+    {
+     "name": "石太璞",
+     "type": "Person",
+     "aliases": [
+      "太璞",
+      "石生",
+      "石公子"
+     ],
+     "nickname": "",
+     "description": "泰山人，好厌禳之术，师从王赤城"
+    },
+    {
+     "name": "长亭",
+     "type": "Spirit",
+     "aliases": [
+      "亭娘",
+      "长亭女"
+     ],
+     "nickname": "",
+     "description": "狐女，翁之女，后嫁石太璞"
+    },
+    {
+     "name": "劳山道士",
+     "type": "Person",
+     "aliases": [
+      "道士"
+     ],
+     "nickname": "",
+     "description": "劳山道士，与王赤城为同一人"
+    },
+    {
+     "name": "狐祖母",
+     "type": "Spirit",
+     "aliases": [
+      "老狐",
+      "狐媪"
+     ],
+     "nickname": "",
+     "description": "长亭之母，狐精"
+    },
+    {
+     "name": "红亭",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "长亭之妹，狐女"
+    },
+    {
+     "name": "王赤城",
+     "type": "Person",
+     "aliases": [
+      "道士"
+     ],
+     "nickname": "",
+     "description": "汴城北村玄帝观道士，石太璞之师"
+    },
+    {
+     "name": "慧儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "石太璞与长亭之子"
+    },
+    {
+     "name": "赵公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵搢绅之子，红亭之夫"
+    },
+    {
+     "name": "泰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "石太璞籍贯"
+    },
+    {
+     "name": "汴城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王赤城所在，玄帝观所在地"
+    },
+    {
+     "name": "玄帝观",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汴城北村道观，王赤城修行处"
+    },
+    {
+     "name": "晋界",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "翁家后来迁居之地"
+    },
+    {
+     "name": "赵搢绅之第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋界赵搢绅家宅，翁家僦居于此"
+    },
+    {
+     "name": "山村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "翁家所居山村，离石太璞处十馀里"
+    },
+    {
+     "name": "金簪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "长亭所插金簪，媪授石为信物"
+    },
+    {
+     "name": "驱狐",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士所授上卷书，专驱狐"
+    },
+    {
+     "name": "驱鬼",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士所授下卷书，专驱鬼"
+    },
+    {
+     "name": "佩符",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "石太璞写赠长亭之符"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "石太璞",
+     "predicate": "NATIVE_OF",
+     "object": "泰山",
+     "evidence": "石太璞，泰山人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石太璞",
+     "predicate": "LIVES_AT",
+     "object": "山村",
+     "evidence": "十馀里入山村，至其家",
+     "confidence": 0.8
+    },
+    {
+     "subject": "长亭",
+     "predicate": "KIN",
+     "object": "红亭",
+     "evidence": "女之姊长亭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐祖母",
+     "predicate": "KIN",
+     "object": "长亭",
+     "evidence": "媪遽出曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐祖母",
+     "predicate": "KIN",
+     "object": "红亭",
+     "evidence": "媪遽出曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石太璞",
+     "predicate": "SPOUSE",
+     "object": "长亭",
+     "evidence": "小女长亭，年十七矣，愿遣奉事君子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石太璞",
+     "predicate": "KIN",
+     "object": "慧儿",
+     "evidence": "年馀，生一子，名慧儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "长亭",
+     "predicate": "KIN",
+     "object": "慧儿",
+     "evidence": "年馀，生一子，名慧儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐祖母",
+     "predicate": "HELPED",
+     "object": "石太璞",
+     "evidence": "媪强送女来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "长亭",
+     "predicate": "HELPED",
+     "object": "石太璞",
+     "evidence": "吾家欲以白刃相仇，可急遁！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石太璞",
+     "predicate": "OWNS",
+     "object": "金簪",
+     "evidence": "即以长亭所插金簪，授石为信",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石太璞",
+     "predicate": "OWNS",
+     "object": "佩符",
+     "evidence": "遂写一佩符，使人持赠之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵公子",
+     "predicate": "SPOUSE",
+     "object": "红亭",
+     "evidence": "以红亭妻其公子",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:43.834Z"
+}

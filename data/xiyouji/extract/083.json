@@ -1,0 +1,782 @@
+{
+ "no": 83,
+ "title": "心猿识得丹头 姹女还归本性",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5843,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，孙悟空师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨"
+     ],
+     "nickname": "观音菩萨",
+     "description": "南海菩萨，取经发起者"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭最高主宰"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君"
+     ],
+     "nickname": "老君",
+     "description": "道教祖师，兜率天宫主人"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "太白金星",
+     "description": "天庭星君，常作使者"
+    },
+    {
+     "name": "托塔李天王",
+     "type": "Person",
+     "aliases": [
+      "李靖",
+      "托塔天王",
+      "李天王"
+     ],
+     "nickname": "托塔李天王",
+     "description": "天庭降魔大元帅，哪吒之父"
+    },
+    {
+     "name": "哪吒",
+     "type": "Person",
+     "aliases": [
+      "三太子",
+      "哪吒太子",
+      "三坛海会大神"
+     ],
+     "nickname": "哪吒",
+     "description": "李天王三子，三坛海会大神"
+    },
+    {
+     "name": "巨灵神",
+     "type": "Person",
+     "aliases": [
+      "巨灵"
+     ],
+     "nickname": "巨灵神",
+     "description": "李天王麾下神将"
+    },
+    {
+     "name": "惠岸行者",
+     "type": "Person",
+     "aliases": [
+      "木叉",
+      "木吒",
+      "惠岸"
+     ],
+     "nickname": "惠岸行者",
+     "description": "观音菩萨徒弟，李天王二子"
+    },
+    {
+     "name": "金鼻白毛老鼠精",
+     "type": "Person",
+     "aliases": [
+      "半截观音",
+      "地涌夫人"
+     ],
+     "nickname": "地涌夫人",
+     "description": "陷空山无底洞妖精，李天王义女"
+    },
+    {
+     "name": "金吒",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李天王长子，侍奉如来"
+    },
+    {
+     "name": "贞英",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李天王亲女，年方七岁"
+    },
+    {
+     "name": "如来",
+     "type": "Person",
+     "aliases": [
+      "佛祖",
+      "佛"
+     ],
+     "nickname": "如来",
+     "description": "西方极乐世界佛祖"
+    },
+    {
+     "name": "陷空山无底洞",
+     "type": "Organization",
+     "aliases": [
+      "无底洞"
+     ],
+     "nickname": "",
+     "description": "金鼻白毛老鼠精的妖洞"
+    },
+    {
+     "name": "天庭",
+     "type": "Organization",
+     "aliases": [
+      "天堂",
+      "天宫"
+     ],
+     "nickname": "",
+     "description": "玉帝统领的天界势力"
+    },
+    {
+     "name": "云楼宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "托塔李天王的住宅"
+    },
+    {
+     "name": "陷空山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "无底洞所在的山"
+    },
+    {
+     "name": "灵山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来佛祖所在圣地"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空出身之地"
+    },
+    {
+     "name": "南天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭门户"
+    },
+    {
+     "name": "灵霄殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉帝上朝之殿"
+    },
+    {
+     "name": "通明殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭殿宇"
+    },
+    {
+     "name": "牌位香炉",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "刻有李天王父子之位的牌位与香炉"
+    },
+    {
+     "name": "黄金宝塔",
+     "type": "Item",
+     "aliases": [
+      "玲珑剔透舍利子如意黄金宝塔"
+     ],
+     "nickname": "",
+     "description": "如来赐予李天王的宝塔"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "铁棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [
+      "钉钯"
+     ],
+     "nickname": "",
+     "description": "猪八戒的兵器"
+    },
+    {
+     "name": "降妖宝杖",
+     "type": "Item",
+     "aliases": [
+      "宝杖"
+     ],
+     "nickname": "",
+     "description": "沙僧的兵器"
+    },
+    {
+     "name": "御状事件",
+     "type": "Event",
+     "aliases": [
+      "告御状"
+     ],
+     "nickname": "",
+     "description": "孙悟空告李天王父子御状"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父出来，师兄何在？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏着妖精送出洞外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙和尚近前问曰：师父出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "举起棒来就打。那妖精也随手取出两口宝剑，丁当架住。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "举钉钯，使宝杖，望妖精乱打。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "举钉钯，使宝杖，望妖精乱打。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "他就近前一把抱住，抢了行李，咬断缰绳，连人和马，复又摄将进去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "却也亏了师兄深洞中救出师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTERMINDED",
+     "object": "御状事件",
+     "evidence": "等老孙执此牌位，径上天堂玉帝前告个御状",
+     "confidence": 0.95
+    },
+    {
+     "subject": "御状事件",
+     "predicate": "OCCURRED_AT",
+     "object": "灵霄殿",
+     "evidence": "将他引入灵霄殿下启奏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "御状事件",
+     "evidence": "行者将牌位香炉放下，朝上礼毕，将状子呈上。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "御状事件",
+     "evidence": "是孙大圣告你的状子。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "御状事件",
+     "evidence": "玉帝从头看了，见这等这等，即将原状批作圣旨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "PARTICIPATED_IN",
+     "object": "御状事件",
+     "evidence": "宣西方长庚太白金星领旨到云楼宫宣托塔李天王见驾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "KIN",
+     "object": "哪吒",
+     "evidence": "尊父李天王之位，尊兄哪吒三太子位",
+     "confidence": 0.95
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "KIN",
+     "object": "金吒",
+     "evidence": "大小儿名金吒，侍奉如来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "KIN",
+     "object": "惠岸行者",
+     "evidence": "二小儿名木吒，在南海随观世音做徒弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "KIN",
+     "object": "贞英",
+     "evidence": "一女年方七岁，名贞英",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "KIN",
+     "object": "托塔李天王",
+     "evidence": "拜父王为父，拜孩儿为兄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "KIN",
+     "object": "哪吒",
+     "evidence": "拜父王为父，拜孩儿为兄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "惠岸行者",
+     "evidence": "二小儿名木吒，在南海随观世音做徒弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "如来",
+     "predicate": "MASTER_OF",
+     "object": "金吒",
+     "evidence": "大小儿名金吒，侍奉如来，做前部护法",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来",
+     "predicate": "MASTER_OF",
+     "object": "哪吒",
+     "evidence": "唤哪吒以佛为父，解释了冤仇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "LEADS",
+     "object": "天庭",
+     "evidence": "玉帝曾封天王为降魔大元帅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "STATIONED_AT",
+     "object": "云楼宫",
+     "evidence": "原来是天王住宅，号云楼宫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "STATIONED_AT",
+     "object": "陷空山无底洞",
+     "evidence": "在下方陷空山无底洞变化妖邪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "你当年在花果山为怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "手中惯使金箍棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "掣了钉钯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖宝杖",
+     "evidence": "使宝杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "OWNS",
+     "object": "黄金宝塔",
+     "evidence": "向塔座上取了黄金宝塔，托在手间",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "牌位香炉",
+     "evidence": "把那牌子并香炉拿将起来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "ORIGIN_OF",
+     "object": "如来",
+     "evidence": "在灵山偷食了如来的香花宝烛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "SURRENDERED_TO",
+     "object": "托塔李天王",
+     "evidence": "拜父王为父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "SURRENDERED_TO",
+     "object": "哪吒",
+     "evidence": "拜孩儿为兄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "ATTACKED",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "如来差我父子天兵，将他拿住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "ATTACKED",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "如来差我父子天兵，将他拿住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "RESCUED",
+     "object": "托塔李天王",
+     "evidence": "将斩腰剑架住，叫道：父王息怒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "金星上前，将手摸着行者道：大圣，看我薄面，解了绳好去见驾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "是老身力奏，降旨招安，把你宣上天堂，封你做弼马温",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "系东土唐朝西天取经僧唐三藏徒弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "天庭",
+     "evidence": "封你做齐天大圣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "MEMBER_OF",
+     "object": "天庭",
+     "evidence": "玉帝曾封天王为降魔大元帅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "MEMBER_OF",
+     "object": "天庭",
+     "evidence": "封哪吒太子为三坛海会之神",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "MEMBER_OF",
+     "object": "陷空山无底洞",
+     "evidence": "在下方陷空山无底洞变化妖邪",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1050,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经僧人，被妖精摄走"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧徒弟，参与救师"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "唐僧徒弟，参与救师"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "孙大圣",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，救出师父"
+    },
+    {
+     "name": "哪吒",
+     "type": "Person",
+     "aliases": [
+      "三太子",
+      "哪吒太子",
+      "三坛海会大神"
+     ],
+     "nickname": "三太子",
+     "description": "奉旨降妖，助救唐僧"
+    },
+    {
+     "name": "李天王",
+     "type": "Person",
+     "aliases": [
+      "天王"
+     ],
+     "nickname": "天王",
+     "description": "天兵统帅，指挥救唐僧"
+    },
+    {
+     "name": "老怪",
+     "type": "Person",
+     "aliases": [
+      "妖精",
+      "孽畜"
+     ],
+     "nickname": "",
+     "description": "摄走唐僧的妖精，被擒"
+    },
+    {
+     "name": "无底洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖精巢穴，周围三百余里"
+    },
+    {
+     "name": "天兵",
+     "type": "Organization",
+     "aliases": [
+      "天兵神将"
+     ],
+     "nickname": "",
+     "description": "李天王、哪吒率领的天庭军队"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者寻着唐僧，和那龙马，和那行李。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "DEFEATED",
+     "object": "老怪",
+     "evidence": "那老怪寻思无路，看着哪吒太子，只是磕头求命。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老怪",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "老怪摄了三藏，搬在这里逼住成亲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老怪",
+     "predicate": "STATIONED_AT",
+     "object": "无底洞",
+     "evidence": "这个洞叫做个无底洞，周围有三百余里，妖精窠穴甚多。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李天王",
+     "predicate": "LEADS",
+     "object": "天兵",
+     "evidence": "天王同三太子领着天兵神将，押住妖精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "我奉旨降妖，我当先。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "孙大圣和太子同领着兵将下去",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "我们三人在口上把守，做个里应外合",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "天兵",
+     "evidence": "我们三人在口上把守，做个里应外合",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:04.443Z"
+}

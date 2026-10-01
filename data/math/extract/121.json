@@ -1,0 +1,152 @@
+{
+ "no": 121,
+ "title": "6.3 相似图形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2392,
+   "entities": [
+    {
+     "name": "相似多边形",
+     "type": "Concept",
+     "aliases": [
+      "similar polygons"
+     ],
+     "nickname": "",
+     "description": "各角分别相等、各边成比例的两个多边形"
+    },
+    {
+     "name": "相似比",
+     "type": "Concept",
+     "aliases": [
+      "similarity ratio"
+     ],
+     "nickname": "",
+     "description": "相似多边形的对应边的比"
+    },
+    {
+     "name": "相似多边形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似多边形的对应角相等，对应边成比例"
+    },
+    {
+     "name": "三角形中位线的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形的中位线平行于第三边，并且等于第三边的一半"
+    },
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "各角分别相等、各边成比例的两个三角形"
+    },
+    {
+     "name": "相似四边形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "各角分别相等、各边成比例的两个四边形"
+    },
+    {
+     "name": "正三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三条边相等、三个角相等的三角形"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等、四个角相等的四边形"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的四边形"
+    },
+    {
+     "name": "菱形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等的四边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "相似多边形",
+     "predicate": "INCLUDES",
+     "object": "相似三角形",
+     "evidence": "像这样，各角分别相等、各边成比例的两个多边形，它们的形状相同，称为相似多边形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似多边形",
+     "predicate": "INCLUDES",
+     "object": "相似四边形",
+     "evidence": "像这样，各角分别相等、各边成比例的两个多边形，它们的形状相同，称为相似多边形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似多边形的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "相似多边形",
+     "evidence": "相似多边形的对应角相等，对应边成比例",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似比",
+     "predicate": "PROPERTY_OF",
+     "object": "相似多边形",
+     "evidence": "相似多边形的对应边的比叫做相似比",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正三角形",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似多边形",
+     "evidence": "两个正三角形的各角相等，各边成比例",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似多边形",
+     "evidence": "两个正方形的各角相等，各边成比例",
+     "confidence": 0.9
+    },
+    {
+     "subject": "矩形",
+     "predicate": "CONTRASTS",
+     "object": "相似多边形",
+     "evidence": "图6-7(1)中的两个矩形的各角相等，但各边不成比例，它们不是相似多边形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菱形",
+     "predicate": "CONTRASTS",
+     "object": "相似多边形",
+     "evidence": "图6-7(2)中的两个菱形的各边成比例，但各角不分别相等，它们不是相似多边形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形中位线的性质",
+     "predicate": "APPLIES_TO",
+     "object": "相似三角形",
+     "evidence": "由三角形中位线的性质，知 EF∥BC，DE∥AB，DF∥AC；EF=1/2BC，DE=1/2AB，DF=1/2AC。于是...所以△DEF∽△ABC",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:27.094Z"
+}

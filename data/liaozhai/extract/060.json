@@ -1,0 +1,464 @@
+{
+ "no": 60,
+ "title": "珠儿",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2024,
+   "entities": [
+    {
+     "name": "李化",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "常州民，富户，珠儿之父"
+    },
+    {
+     "name": "小惠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李化之女，十四岁夭亡"
+    },
+    {
+     "name": "珠儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李化之子，痴傻后复活"
+    },
+    {
+     "name": "眇僧",
+     "type": "Spirit",
+     "aliases": [
+      "妖僧"
+     ],
+     "nickname": "",
+     "description": "独眼僧人，会妖术，害人"
+    },
+    {
+     "name": "詹氏儿",
+     "type": "Spirit",
+     "aliases": [
+      "小儿"
+     ],
+     "nickname": "",
+     "description": "苏州詹氏子，被妖僧杀害，鬼魂"
+    },
+    {
+     "name": "哥子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "与詹氏儿同为妖僧所害的鬼童"
+    },
+    {
+     "name": "姜员外",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间员外，收哥子为义子"
+    },
+    {
+     "name": "严子方",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金陵商人，李化欠其货款"
+    },
+    {
+     "name": "楚江王小郎子",
+     "type": "Spirit",
+     "aliases": [
+      "姊夫"
+     ],
+     "nickname": "",
+     "description": "冥间楚江王之子，小惠之夫"
+    },
+    {
+     "name": "赵氏女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东邻赵家女，小惠闺中密友"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [
+      "宰"
+     ],
+     "nickname": "",
+     "description": "县官，审断眇僧案"
+    },
+    {
+     "name": "李妻",
+     "type": "Person",
+     "aliases": [
+      "母"
+     ],
+     "nickname": "",
+     "description": "李化之妻，珠儿之母"
+    },
+    {
+     "name": "李妾",
+     "type": "Person",
+     "aliases": [
+      "妾"
+     ],
+     "nickname": "",
+     "description": "李化之妾，珠儿生母"
+    },
+    {
+     "name": "常州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李化籍贯地"
+    },
+    {
+     "name": "苏州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "詹氏儿籍贯地"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李化经商地，严子方居地"
+    },
+    {
+     "name": "冥间",
+     "type": "Place",
+     "aliases": [
+      "阴司",
+      "冥中"
+     ],
+     "nickname": "",
+     "description": "阴间地府"
+    },
+    {
+     "name": "木人",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "眇僧身上搜出的木偶"
+    },
+    {
+     "name": "小棺",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "眇僧身上搜出的小棺材"
+    },
+    {
+     "name": "小旗帜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "眇僧身上搜出的五面小旗"
+    },
+    {
+     "name": "绿锦被",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "小惠生前所盖，有烛烧痕"
+    },
+    {
+     "name": "珊瑚床",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间小惠所坐之床"
+    },
+    {
+     "name": "白鼻騧",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间送詹氏儿归来的马"
+    },
+    {
+     "name": "妖僧迷杀桑树下",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "眇僧杀害詹氏儿事件"
+    },
+    {
+     "name": "珠儿暴病",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "珠儿被眇僧作祟暴亡"
+    },
+    {
+     "name": "宰杖杀眇僧",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "县官杖杀眇僧"
+    },
+    {
+     "name": "小惠嫁楚江王小郎子",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "小惠在冥间婚嫁"
+    },
+    {
+     "name": "珠儿入邑庠",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "珠儿十八岁考中秀才"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李化",
+     "predicate": "KIN",
+     "object": "小惠",
+     "evidence": "一女名小惠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李化",
+     "predicate": "KIN",
+     "object": "珠儿",
+     "evidence": "生一子，视如拱璧，名之珠儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李妻",
+     "predicate": "KIN",
+     "object": "小惠",
+     "evidence": "夫妻最怜爱之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李妻",
+     "predicate": "KIN",
+     "object": "珠儿",
+     "evidence": "生一子，视如拱璧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李妾",
+     "predicate": "KIN",
+     "object": "珠儿",
+     "evidence": "始纳婢。经年馀，生一子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李化",
+     "predicate": "SPOUSE",
+     "object": "李妻",
+     "evidence": "与妻坐床上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李化",
+     "predicate": "SPOUSE",
+     "object": "李妾",
+     "evidence": "始纳婢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "眇僧",
+     "predicate": "KILLED",
+     "object": "詹氏儿",
+     "evidence": "为妖僧迷杀桑树下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "眇僧",
+     "predicate": "HARMED",
+     "object": "珠儿",
+     "evidence": "无何，珠儿心暴痛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "PUNISHED",
+     "object": "眇僧",
+     "evidence": "宰不听，杖杀之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李化",
+     "predicate": "PARTICIPATED_IN",
+     "object": "宰杖杀眇僧",
+     "evidence": "李恸甚，以状诉邑宰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "詹氏儿",
+     "predicate": "LIVES_AT",
+     "object": "李化家",
+     "evidence": "李从之。儿喜，遂独卧室中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "詹氏儿",
+     "predicate": "NATIVE_OF",
+     "object": "苏州",
+     "evidence": "我苏州人，姓詹氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李化",
+     "predicate": "NATIVE_OF",
+     "object": "常州",
+     "evidence": "常州民李化",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李化",
+     "predicate": "OWNS",
+     "object": "绿锦被",
+     "evidence": "昔日所覆绿锦被",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小惠",
+     "predicate": "OWNS",
+     "object": "绿锦被",
+     "evidence": "昔日所覆绿锦被",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小惠",
+     "predicate": "SPOUSE",
+     "object": "楚江王小郎子",
+     "evidence": "嫁得楚江王小郎子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小惠",
+     "predicate": "FRIEND",
+     "object": "赵氏女",
+     "evidence": "故与惠为绣阁交",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小惠",
+     "predicate": "LIVES_AT",
+     "object": "冥间",
+     "evidence": "惠姊在冥中大好",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哥子",
+     "predicate": "KIN",
+     "object": "姜员外",
+     "evidence": "为姜员外作义嗣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "詹氏儿",
+     "predicate": "FRIEND",
+     "object": "哥子",
+     "evidence": "有儿等二人，其一名哥子",
+     "confidence": 0.85
+    },
+    {
+     "subject": "珠儿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "珠儿入邑庠",
+     "evidence": "十八入邑庠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "珠儿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "珠儿暴病",
+     "evidence": "无何，珠儿心暴痛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "詹氏儿",
+     "predicate": "HELPED",
+     "object": "珠儿",
+     "evidence": "儿当得活",
+     "confidence": 0.9
+    },
+    {
+     "subject": "詹氏儿",
+     "predicate": "HELPED",
+     "object": "李化",
+     "evidence": "愿得为子",
+     "confidence": 0.8
+    },
+    {
+     "subject": "楚江王小郎子",
+     "predicate": "HELPED",
+     "object": "李化",
+     "evidence": "为父母乞百年寿也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李化",
+     "predicate": "OWNS",
+     "object": "木人",
+     "evidence": "得木人二",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李化",
+     "predicate": "OWNS",
+     "object": "小棺",
+     "evidence": "小棺一",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李化",
+     "predicate": "OWNS",
+     "object": "小旗帜",
+     "evidence": "小旗帜五",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小惠",
+     "predicate": "OWNS",
+     "object": "珊瑚床",
+     "evidence": "姊姊呼我坐珊瑚床上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "詹氏儿",
+     "predicate": "OWNS",
+     "object": "白鼻騧",
+     "evidence": "适以白鼻騧送儿归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妖僧迷杀桑树下",
+     "predicate": "OCCURRED_AT",
+     "object": "桑树下",
+     "evidence": "为妖僧迷杀桑树下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小惠嫁楚江王小郎子",
+     "predicate": "OCCURRED_AT",
+     "object": "冥间",
+     "evidence": "惠姊在冥中大好，嫁得楚江王小郎子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "珠儿入邑庠",
+     "predicate": "OCCURRED_AT",
+     "object": "邑庠",
+     "evidence": "十八入邑庠",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:40.899Z"
+}

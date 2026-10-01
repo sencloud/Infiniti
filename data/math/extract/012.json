@@ -1,0 +1,38 @@
+{
+ "no": 12,
+ "title": "3.2 代数式的概念",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3650,
+   "entities": [
+    {
+     "name": "代数式",
+     "type": "Concept",
+     "aliases": [
+      "algebraic expression"
+     ],
+     "nickname": "",
+     "description": "用运算符号把数和字母连接而成的式子"
+    },
+    {
+     "name": "代数式的值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用具体数值代替代数式中的字母，计算所得的结果"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "代数式",
+     "predicate": "PREREQUISITE",
+     "object": "代数式的值",
+     "evidence": "用具体数值代替代数式中的字母，计算所得的结果叫作代数式的值",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:31.784Z"
+}

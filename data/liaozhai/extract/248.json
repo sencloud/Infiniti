@@ -1,0 +1,85 @@
+{
+ "no": 248,
+ "title": "聂政",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 424,
+   "entities": [
+    {
+     "name": "潞王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "怀庆潞王，昏德，强夺民间女子"
+    },
+    {
+     "name": "王生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "聂政篇中王生，妻被潞王所夺"
+    },
+    {
+     "name": "王生妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "聂政篇中王生之妻，被潞王强夺"
+    },
+    {
+     "name": "聂政",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "墓中丈夫，自称聂政，惩恶救王生"
+    },
+    {
+     "name": "聂政之墓",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "聂政墓，王生藏身之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "潞王",
+     "predicate": "HARMED",
+     "object": "王生妻",
+     "evidence": "有王生妻，为王所睹，遣舆马直入其家。女子号泣不伏，强舁而出。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "SPOUSE",
+     "object": "王生妻",
+     "evidence": "有王生妻，为王所睹",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "LIVES_AT",
+     "object": "聂政之墓",
+     "evidence": "王亡去，隐身聂政之墓",
+     "confidence": 0.95
+    },
+    {
+     "subject": "聂政",
+     "predicate": "HELPED",
+     "object": "王生",
+     "evidence": "忽墓中一丈夫出，手握白刃，气象威猛，厉声曰：“我聂政也！良家子岂容强占！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "聂政",
+     "predicate": "HELPED",
+     "object": "王生妻",
+     "evidence": "忽墓中一丈夫出，手握白刃，气象威猛，厉声曰：“我聂政也！良家子岂容强占！",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:45.785Z"
+}

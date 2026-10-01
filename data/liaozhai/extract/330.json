@@ -1,0 +1,115 @@
+{
+ "no": 330,
+ "title": "小棺",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 245,
+   "entities": [
+    {
+     "name": "舟人某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天津船夫，梦中受教索价"
+    },
+    {
+     "name": "梦中人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "托梦教舟人索价并书字者"
+    },
+    {
+     "name": "驱骡载笥者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "载竹笥租舟者，见字即灭"
+    },
+    {
+     "name": "吴逆",
+     "type": "Person",
+     "aliases": [
+      "吴三桂"
+     ],
+     "nickname": "",
+     "description": "叛谋败露，党羽尽诛"
+    },
+    {
+     "name": "徐白山",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "讲述此事之人"
+    },
+    {
+     "name": "天津",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "故事发生地"
+    },
+    {
+     "name": "竹笥",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "载于骡上之竹筐"
+    },
+    {
+     "name": "小棺",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "数万馀具，长仅指许，贮滴血"
+    },
+    {
+     "name": "吴逆叛谋",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴三桂叛乱阴谋败露"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "梦中人",
+     "predicate": "HELPED",
+     "object": "舟人某",
+     "evidence": "夜梦一人教之曰：“明日有载竹笥赁舟者，索之千金，不然，勿渡也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "舟人某",
+     "predicate": "OWNS",
+     "object": "小棺",
+     "evidence": "搜其装载，则小棺数万馀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "驱骡载笥者",
+     "predicate": "OWNS",
+     "object": "竹笥",
+     "evidence": "果有一人驱骡载笥来，问舟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴逆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "吴逆叛谋",
+     "evidence": "未几，吴逆叛谋既露，党羽尽诛",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴逆叛谋",
+     "predicate": "OCCURRED_AT",
+     "object": "天津",
+     "evidence": "天津有舟人某……未几，吴逆叛谋既露",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:17.103Z"
+}

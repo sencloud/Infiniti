@@ -1,0 +1,127 @@
+{
+ "no": 453,
+ "title": "二班",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 783,
+   "entities": [
+    {
+     "name": "殷元礼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "云南人，善针灸，为二班之母治病"
+    },
+    {
+     "name": "班爪",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "虎精，自称班姓，与班牙为兄弟"
+    },
+    {
+     "name": "班牙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "虎精，自称班姓，与班爪为兄弟"
+    },
+    {
+     "name": "石室",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "二班避难所居之处，傍岩谷"
+    },
+    {
+     "name": "深山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "殷元礼遇寇乱窜入之地"
+    },
+    {
+     "name": "院落",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "老妪引殷元礼所入之宅，实为幻化"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "殷元礼",
+     "predicate": "NATIVE_OF",
+     "object": "云南",
+     "evidence": "殷元礼，云南人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "殷元礼",
+     "predicate": "LIVES_AT",
+     "object": "深山",
+     "evidence": "遇寇乱，窜入深山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "班爪",
+     "predicate": "KIN",
+     "object": "班牙",
+     "evidence": "二人自言班姓，一为班爪，一为班牙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "班爪",
+     "predicate": "HELPED",
+     "object": "殷元礼",
+     "evidence": "烧鹿饷客",
+     "confidence": 0.9
+    },
+    {
+     "subject": "班牙",
+     "predicate": "HELPED",
+     "object": "殷元礼",
+     "evidence": "班又以烧鹿一肘赠之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "班爪",
+     "predicate": "LIVES_AT",
+     "object": "石室",
+     "evidence": "余亦避难石室",
+     "confidence": 0.9
+    },
+    {
+     "subject": "班牙",
+     "predicate": "LIVES_AT",
+     "object": "石室",
+     "evidence": "余亦避难石室",
+     "confidence": 0.9
+    },
+    {
+     "subject": "班爪",
+     "predicate": "HELPED",
+     "object": "殷元礼",
+     "evidence": "忽两虎骤至，诸狼四散",
+     "confidence": 0.9
+    },
+    {
+     "subject": "班牙",
+     "predicate": "HELPED",
+     "object": "殷元礼",
+     "evidence": "忽两虎骤至，诸狼四散",
+     "confidence": 0.9
+    },
+    {
+     "subject": "殷元礼",
+     "predicate": "LIVES_AT",
+     "object": "院落",
+     "evidence": "媪引去，入一院落",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:05.495Z"
+}

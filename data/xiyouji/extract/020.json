@@ -1,0 +1,365 @@
+{
+ "no": 20,
+ "title": "黄风岭唐僧有难 半山中八戒争先",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5935,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大，曾大闹天宫"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "大唐高僧，奉旨西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅，使九齿钉钯"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "指点唐僧西行取经的菩萨"
+    },
+    {
+     "name": "黄风怪",
+     "type": "Person",
+     "aliases": [
+      "黄风大王",
+      "黄风大圣",
+      "灵山得道老鼠"
+     ],
+     "nickname": "黄风大王",
+     "description": "黄风岭黄风洞妖王，原灵山得道老鼠"
+    },
+    {
+     "name": "虎先锋",
+     "type": "Person",
+     "aliases": [
+      "前路先锋",
+      "虎怪"
+     ],
+     "nickname": "虎先锋",
+     "description": "黄风大王部下前路先锋，能化虎"
+    },
+    {
+     "name": "王老者",
+     "type": "Person",
+     "aliases": [
+      "老王",
+      "老施主"
+     ],
+     "nickname": "",
+     "description": "黄风岭前村舍主人，年六十一岁"
+    },
+    {
+     "name": "黄风洞",
+     "type": "Organization",
+     "aliases": [
+      "黄风岭黄风洞"
+     ],
+     "nickname": "",
+     "description": "黄风岭上的妖洞势力"
+    },
+    {
+     "name": "黄风岭",
+     "type": "Place",
+     "aliases": [
+      "八百里黄风岭"
+     ],
+     "nickname": "",
+     "description": "西行路上险峻高山，多妖怪"
+    },
+    {
+     "name": "花果山水帘洞",
+     "type": "Place",
+     "aliases": [
+      "花果山",
+      "水帘洞"
+     ],
+     "nickname": "",
+     "description": "孙悟空的老家"
+    },
+    {
+     "name": "高老庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒曾在此为妖"
+    },
+    {
+     "name": "黄风岭唐僧有难",
+     "type": "Event",
+     "aliases": [
+      "唐僧被擒"
+     ],
+     "nickname": "",
+     "description": "虎先锋用金蝉脱壳计擒走唐僧"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "行者道：“这个恋家鬼！你离了家几日，就生报怨！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏道：“悟空，你看那‘日落西山藏火镜，月升东海现冰轮’。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏闻之道：“悟能，你若是在家心重呵，不是个出家的了，你还回去罢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "黄风洞",
+     "evidence": "行者道：“妖怪！趁早儿送我师父出来，省得掀翻了你窝巢，[生僻字：⻊+丽]平了你住处！”",
+     "confidence": 0.5
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "黄风洞",
+     "evidence": "八戒骂道：“我把你这个孽畜！你是认不得我！我等不是那过路的凡夫，乃东土大唐御弟三藏之弟子，奉旨上西方拜佛求经者。”",
+     "confidence": 0.5
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "LEADS",
+     "object": "黄风洞",
+     "evidence": "那洞主传令，教他进来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "MEMBER_OF",
+     "object": "黄风洞",
+     "evidence": "乃是黄风大王部下的前路先锋。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "SERVED",
+     "object": "黄风怪",
+     "evidence": "今奉大王严命，在山巡逻，要拿几个凡夫去做案酒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "那怪把唐僧擒来洞口，按住狂风，对把门的道：“你去报大王说，前路虎先锋拿了一个和尚，在门外听令。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "FOUGHT",
+     "object": "猪八戒",
+     "evidence": "那妖精那容分说，急近步，丢一个架子，望八戒劈脸来抓。这八戒忙闪过，轮钯就筑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "那行者掣了铁棒，喝声叫“拿了！”此时八戒抖擞精神，那怪败下阵去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山水帘洞",
+     "evidence": "行者道：“老孙祖贯东胜神洲海东傲来国花果山水帘洞居住。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "NATIVE_OF",
+     "object": "高老庄",
+     "evidence": "八戒道：“不瞒师父说，老猪自从跟了你，这些时俊了许多哩。若像往常在高老庄走时，把嘴朝前一掬，把耳两头一摆，常吓杀二三十人哩。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄风岭唐僧有难",
+     "predicate": "OCCURRED_AT",
+     "object": "黄风岭",
+     "evidence": "我们这向西去，只有三十里远近，有一座山，叫做八百里黄风岭。那山中多有妖怪。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄风岭唐僧有难",
+     "evidence": "那怪把唐僧擒来洞口，按住狂风，对把门的道：“你去报大王说，前路虎先锋拿了一个和尚，在门外听令。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍铁棒",
+     "evidence": "又一个，使一根金箍铁棒，他生得火眼金睛。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "OWNS",
+     "object": "赤铜刀",
+     "evidence": "那怪到了山坡下，乱石丛中，取出两口赤铜刀，急轮起，转身来迎。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1250,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "师父",
+     "description": "取经僧人，被黄风怪摄走"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，筑死虎先锋"
+    },
+    {
+     "name": "黄风怪",
+     "type": "Person",
+     "aliases": [
+      "黄风大王",
+      "黄风大圣",
+      "灵山得道老鼠"
+     ],
+     "nickname": "大王",
+     "description": "黄风岭妖王，摄走唐僧"
+    },
+    {
+     "name": "虎先锋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "先锋",
+     "description": "黄风怪手下先锋，被八戒筑死"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "虎先锋",
+     "predicate": "MEMBER_OF",
+     "object": "黄风怪",
+     "evidence": "那洞主惊张，即唤虎先锋道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "SERVED",
+     "object": "黄风怪",
+     "evidence": "小将不才，愿带领五十个小妖校出去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "那先锋急持刀按住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "虎先锋",
+     "evidence": "转身败了要逃生，却被悟空抵死逼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "虎先锋",
+     "evidence": "却被八戒一钯，筑得九个窟窿鲜血冒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "你师父是我拿了，要与我大王做顿下饭",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:14.116Z"
+}

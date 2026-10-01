@@ -1,0 +1,962 @@
+{
+ "no": 118,
+ "title": "哭祖庙一王死孝 入西川二士争功",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3583,
+   "entities": [
+    {
+     "name": "刘禅",
+     "type": "Person",
+     "aliases": [
+      "后主",
+      "阿斗"
+     ],
+     "nickname": "公嗣",
+     "description": "蜀汉后主，投降邓艾"
+    },
+    {
+     "name": "邓艾",
+     "type": "Person",
+     "aliases": [
+      "邓士载",
+      "征西将军"
+     ],
+     "nickname": "士载",
+     "description": "魏将，取绵竹，受降"
+    },
+    {
+     "name": "谯周",
+     "type": "Person",
+     "aliases": [
+      "谯大夫"
+     ],
+     "nickname": "允南",
+     "description": "蜀光禄大夫，力主降魏"
+    },
+    {
+     "name": "刘谌",
+     "type": "Person",
+     "aliases": [
+      "北地王"
+     ],
+     "nickname": "",
+     "description": "后主第五子，哭祖庙自刎"
+    },
+    {
+     "name": "崔夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘谌之妻，触柱而死"
+    },
+    {
+     "name": "张绍",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀侍中，赍玉玺降魏"
+    },
+    {
+     "name": "邓良",
+     "type": "Person",
+     "aliases": [
+      "驸马都尉"
+     ],
+     "nickname": "",
+     "description": "蜀驸马都尉，随张绍降魏"
+    },
+    {
+     "name": "蒋显",
+     "type": "Person",
+     "aliases": [
+      "太仆"
+     ],
+     "nickname": "",
+     "description": "蜀太仆，传敕令姜维降"
+    },
+    {
+     "name": "李虎",
+     "type": "Person",
+     "aliases": [
+      "尚书郎"
+     ],
+     "nickname": "",
+     "description": "蜀尚书郎，送文簿与邓艾"
+    },
+    {
+     "name": "姜维",
+     "type": "Person",
+     "aliases": [
+      "伯约",
+      "幼麟",
+      "大将军"
+     ],
+     "nickname": "伯约",
+     "description": "蜀大将军，降钟会后图复汉"
+    },
+    {
+     "name": "张翼",
+     "type": "Person",
+     "aliases": [
+      "伯恭"
+     ],
+     "nickname": "伯恭",
+     "description": "蜀将，随姜维降钟会"
+    },
+    {
+     "name": "廖化",
+     "type": "Person",
+     "aliases": [
+      "元俭",
+      "右车骑将军"
+     ],
+     "nickname": "元俭",
+     "description": "蜀将，随姜维降钟会"
+    },
+    {
+     "name": "董厥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀将，随姜维降钟会"
+    },
+    {
+     "name": "钟会",
+     "type": "Person",
+     "aliases": [
+      "士季",
+      "镇西将军",
+      "司徒"
+     ],
+     "nickname": "士季",
+     "description": "魏将，受姜维降，结为兄弟"
+    },
+    {
+     "name": "司马昭",
+     "type": "Person",
+     "aliases": [
+      "子上",
+      "晋公",
+      "晋王",
+      "大将军"
+     ],
+     "nickname": "子上",
+     "description": "魏权臣，疑邓艾、钟会"
+    },
+    {
+     "name": "贾充",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏臣，献计封钟会制邓艾"
+    },
+    {
+     "name": "卫瓘",
+     "type": "Person",
+     "aliases": [
+      "监军"
+     ],
+     "nickname": "",
+     "description": "魏监军，监督两路军马"
+    },
+    {
+     "name": "师纂",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邓艾封其为益州刺史"
+    },
+    {
+     "name": "牵弘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏将，领州郡"
+    },
+    {
+     "name": "王颀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏将，领州郡"
+    },
+    {
+     "name": "黄皓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀宦官，奸险，赂左右得免"
+    },
+    {
+     "name": "张峻",
+     "type": "Person",
+     "aliases": [
+      "太常"
+     ],
+     "nickname": "",
+     "description": "魏太常，招安各郡军民"
+    },
+    {
+     "name": "邵悌",
+     "type": "Person",
+     "aliases": [
+      "西曹掾"
+     ],
+     "nickname": "",
+     "description": "魏西曹掾，谏司马昭"
+    },
+    {
+     "name": "曹奂",
+     "type": "Person",
+     "aliases": [
+      "魏主"
+     ],
+     "nickname": "",
+     "description": "魏主，随司马昭亲征"
+    },
+    {
+     "name": "刘备",
+     "type": "Person",
+     "aliases": [
+      "先帝",
+      "昭烈"
+     ],
+     "nickname": "玄德",
+     "description": "蜀汉先主，已故"
+    },
+    {
+     "name": "关羽",
+     "type": "Person",
+     "aliases": [
+      "云长",
+      "关公",
+      "美髯公",
+      "汉寿亭侯"
+     ],
+     "nickname": "云长",
+     "description": "蜀汉名将，已故"
+    },
+    {
+     "name": "张飞",
+     "type": "Person",
+     "aliases": [
+      "翼德"
+     ],
+     "nickname": "翼德",
+     "description": "蜀汉名将，已故"
+    },
+    {
+     "name": "刘璿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "后主长子"
+    },
+    {
+     "name": "刘瑶",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "后主次子"
+    },
+    {
+     "name": "刘琮",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "后主三子"
+    },
+    {
+     "name": "刘璝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "后主四子"
+    },
+    {
+     "name": "刘恂",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "后主六子"
+    },
+    {
+     "name": "刘璩",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "后主七子"
+    },
+    {
+     "name": "蜀汉",
+     "type": "Organization",
+     "aliases": [
+      "蜀",
+      "汉"
+     ],
+     "nickname": "",
+     "description": "刘备建立的政权"
+    },
+    {
+     "name": "曹魏",
+     "type": "Organization",
+     "aliases": [
+      "魏"
+     ],
+     "nickname": "",
+     "description": "曹丕建立的政权"
+    },
+    {
+     "name": "东吴",
+     "type": "Organization",
+     "aliases": [
+      "吴"
+     ],
+     "nickname": "",
+     "description": "孙权建立的政权"
+    },
+    {
+     "name": "成都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀汉都城"
+    },
+    {
+     "name": "绵竹",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀地关隘，诸葛瞻战死处"
+    },
+    {
+     "name": "剑阁",
+     "type": "Place",
+     "aliases": [
+      "剑阁关"
+     ],
+     "nickname": "",
+     "description": "蜀地关隘，姜维驻守"
+    },
+    {
+     "name": "雒城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀地城池，邓艾受降处"
+    },
+    {
+     "name": "洛阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国都城"
+    },
+    {
+     "name": "长安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国重镇"
+    },
+    {
+     "name": "昭烈庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭祀刘备的庙宇"
+    },
+    {
+     "name": "南中七郡",
+     "type": "Place",
+     "aliases": [
+      "南中"
+     ],
+     "nickname": "",
+     "description": "蜀汉南部七郡"
+    },
+    {
+     "name": "蜀汉灭亡",
+     "type": "Event",
+     "aliases": [
+      "汉亡"
+     ],
+     "nickname": "",
+     "description": "刘禅降魏，蜀汉覆灭"
+    },
+    {
+     "name": "刘谌哭祖庙",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘谌自杀前哭祭昭烈庙"
+    },
+    {
+     "name": "玉玺",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "皇帝印信，张绍等献于邓艾"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘禅",
+     "predicate": "KIN",
+     "object": "刘谌",
+     "evidence": "后主生七子：长子刘璿，次子刘瑶，三子刘琮，四子刘璝，五子即北地王刘谌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "SPOUSE",
+     "object": "崔夫人",
+     "evidence": "其妻崔夫人问曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "KIN",
+     "object": "刘璿",
+     "evidence": "后主生七子：长子刘璿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "KIN",
+     "object": "刘瑶",
+     "evidence": "次子刘瑶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "KIN",
+     "object": "刘琮",
+     "evidence": "三子刘琮",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "KIN",
+     "object": "刘璝",
+     "evidence": "四子刘璝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "KIN",
+     "object": "刘恂",
+     "evidence": "六子刘恂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "KIN",
+     "object": "刘璩",
+     "evidence": "七子刘璩",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘禅",
+     "predicate": "KIN",
+     "object": "刘备",
+     "evidence": "先帝非容易创立基业",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "KIN",
+     "object": "刘备",
+     "evidence": "后将一命报祖！祖如有灵，知孙之心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "谯周",
+     "predicate": "SERVED",
+     "object": "刘禅",
+     "evidence": "光禄大夫谯周曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张绍",
+     "predicate": "SERVED",
+     "object": "刘禅",
+     "evidence": "遣私署侍中张绍、驸马都尉邓良同谯周赍玉玺来雒城请降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓良",
+     "predicate": "SERVED",
+     "object": "刘禅",
+     "evidence": "遣私署侍中张绍、驸马都尉邓良同谯周赍玉玺来雒城请降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋显",
+     "predicate": "SERVED",
+     "object": "刘禅",
+     "evidence": "即遣太仆蒋显赍敕令姜维早降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李虎",
+     "predicate": "SERVED",
+     "object": "刘禅",
+     "evidence": "遣尚书郎李虎，送文簿与艾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "SERVED",
+     "object": "刘禅",
+     "evidence": "姜维全师，皆在剑阁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张翼",
+     "predicate": "SERVED",
+     "object": "姜维",
+     "evidence": "说姜维引张翼、廖化、董厥等来降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "廖化",
+     "predicate": "SERVED",
+     "object": "姜维",
+     "evidence": "说姜维引张翼、廖化、董厥等来降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董厥",
+     "predicate": "SERVED",
+     "object": "姜维",
+     "evidence": "说姜维引张翼、廖化、董厥等来降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "SURRENDERED_TO",
+     "object": "钟会",
+     "evidence": "说姜维引张翼、廖化、董厥等来降",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钟会",
+     "predicate": "SWORN_BROTHER",
+     "object": "姜维",
+     "evidence": "会遂折箭为誓，与维结为兄弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "SURRENDERED_TO",
+     "object": "曹魏",
+     "evidence": "邓艾取了绵竹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘禅",
+     "predicate": "SURRENDERED_TO",
+     "object": "曹魏",
+     "evidence": "后主率太子诸王，及群臣六十余人，面缚舆榇，出北门十里而降",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "ATTACKED",
+     "object": "成都",
+     "evidence": "时邓艾每日令数百铁骑来成都哨探",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "STATIONED_AT",
+     "object": "雒城",
+     "evidence": "遣私署侍中张绍、驸马都尉邓良同谯周赍玉玺来雒城请降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "STATIONED_AT",
+     "object": "剑阁",
+     "evidence": "姜维全师，皆在剑阁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钟会",
+     "predicate": "STATIONED_AT",
+     "object": "剑阁",
+     "evidence": "先令人报入钟会寨中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "PARTICIPATED_IN",
+     "object": "刘谌哭祖庙",
+     "evidence": "提至昭烈庙中，伏地哭曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘谌哭祖庙",
+     "predicate": "OCCURRED_AT",
+     "object": "昭烈庙",
+     "evidence": "提至昭烈庙中，伏地哭曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘禅",
+     "predicate": "PARTICIPATED_IN",
+     "object": "蜀汉灭亡",
+     "evidence": "后主率太子诸王，及群臣六十余人，面缚舆榇，出北门十里而降",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜀汉灭亡",
+     "predicate": "OCCURRED_AT",
+     "object": "成都",
+     "evidence": "后主率太子诸王，及群臣六十余人，面缚舆榇，出北门十里而降",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张绍",
+     "predicate": "OWNS",
+     "object": "玉玺",
+     "evidence": "遣私署侍中张绍、驸马都尉邓良同谯周赍玉玺来雒城请降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "OWNS",
+     "object": "玉玺",
+     "evidence": "艾拆降书视之，大喜，受下玉玺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "MASTERMINDED",
+     "object": "蜀汉灭亡",
+     "evidence": "遣使赍诏封会为司徒，就令卫瓘监督两路军马",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾充",
+     "predicate": "RECOMMENDED",
+     "object": "钟会",
+     "evidence": "贾充曰：“主公何不封钟会以制之？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "SERVED",
+     "object": "曹奂",
+     "evidence": "昭乃同魏主曹奂御驾亲征",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "SERVED",
+     "object": "曹魏",
+     "evidence": "邓艾取了绵竹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "钟会",
+     "predicate": "SERVED",
+     "object": "曹魏",
+     "evidence": "镇西将军钟会所向无敌",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "BETRAYED",
+     "object": "曹魏",
+     "evidence": "维见人心思汉，乃以善言抚之曰：“众将勿忧。吾有一计，可复汉室。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "FRAMED",
+     "object": "钟会",
+     "evidence": "会又今人于中途截了邓艾表文，按艾笔法，改写傲慢之辞，以实己之语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "钟会",
+     "predicate": "FRAMED",
+     "object": "邓艾",
+     "evidence": "会又今人于中途截了邓艾表文，按艾笔法，改写傲慢之辞，以实己之语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "ATTACKED",
+     "object": "蜀汉",
+     "evidence": "昭乃同魏主曹奂御驾亲征",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘禅",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "后主在成都",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜维",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "姜维全师，皆在剑阁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "邓艾取了绵竹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "钟会",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "镇西将军钟会所向无敌",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "后主生七子：长子刘璿，次子刘瑶，三子刘琮，四子刘璝，五子即北地王刘谌",
+     "confidence": 0.9
+    },
+    {
+     "subject": "谯周",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "光禄大夫谯周曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张绍",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "遣私署侍中张绍、驸马都尉邓良同谯周赍玉玺来雒城请降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓良",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "遣私署侍中张绍、驸马都尉邓良同谯周赍玉玺来雒城请降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋显",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "即遣太仆蒋显赍敕令姜维早降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李虎",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "遣尚书郎李虎，送文簿与艾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张翼",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "说姜维引张翼、廖化、董厥等来降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "廖化",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "说姜维引张翼、廖化、董厥等来降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董厥",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "说姜维引张翼、廖化、董厥等来降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马昭",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "昭乃同魏主曹奂御驾亲征",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾充",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "贾充曰：“主公何不封钟会以制之？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卫瓘",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "就令卫瓘监督两路军马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师纂",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "邓艾封师纂为益州刺史",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牵弘",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "牵弘、王颀等各领州郡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王颀",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "牵弘、王颀等各领州郡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄皓",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "艾闻黄皓奸险，欲斩之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张峻",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "又令太常张峻、益州别驾张绍，招安各郡军民",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邵悌",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "西曹掾邵悌谏曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹奂",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "昭乃同魏主曹奂御驾亲征",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "先帝非容易创立基业",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "关张无命欲何如",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "关张无命欲何如",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘璿",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "后主生七子：长子刘璿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘瑶",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "次子刘瑶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘琮",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "三子刘琮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘璝",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "四子刘璝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘恂",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "六子刘恂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘璩",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "七子刘璩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘禅",
+     "predicate": "LEADS",
+     "object": "蜀汉",
+     "evidence": "后主在成都",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓艾",
+     "predicate": "LEADS",
+     "object": "曹魏",
+     "evidence": "邓艾取了绵竹",
+     "confidence": 0.8
+    },
+    {
+     "subject": "钟会",
+     "predicate": "LEADS",
+     "object": "曹魏",
+     "evidence": "镇西将军钟会所向无敌",
+     "confidence": 0.8
+    },
+    {
+     "subject": "姜维",
+     "predicate": "LEADS",
+     "object": "蜀汉",
+     "evidence": "姜维全师，皆在剑阁",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘谌",
+     "predicate": "KILLED",
+     "object": "崔夫人",
+     "evidence": "并割妻头",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:58:04.684Z"
+}

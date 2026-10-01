@@ -1,0 +1,87 @@
+{
+ "no": 192,
+ "title": "义犬",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 268,
+   "entities": [
+    {
+     "name": "潞安某甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "潞安府人，父陷狱将死，携金赴郡关说"
+    },
+    {
+     "name": "黑犬",
+     "type": "Spirit",
+     "aliases": [
+      "义犬"
+     ],
+     "nickname": "",
+     "description": "某甲所养黑犬，护金而死，葬为义犬冢"
+    },
+    {
+     "name": "潞安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某甲籍贯及故事发生地"
+    },
+    {
+     "name": "郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某甲赴郡关说、失金之处"
+    },
+    {
+     "name": "义犬冢",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑犬葬处，人以为义犬冢"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "潞安某甲",
+     "predicate": "NATIVE_OF",
+     "object": "潞安",
+     "evidence": "潞安某甲，父陷狱将死。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潞安某甲",
+     "predicate": "OWNS",
+     "object": "黑犬",
+     "evidence": "则所养黑犬从之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑犬",
+     "predicate": "HELPED",
+     "object": "潞安某甲",
+     "evidence": "提耳起视，则封金俨然。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潞安某甲",
+     "predicate": "LIVES_AT",
+     "object": "潞安",
+     "evidence": "潞安某甲，父陷狱将死。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潞安某甲",
+     "predicate": "LIVES_AT",
+     "object": "郡",
+     "evidence": "抵郡已暮，及扪腰橐，金亡其半。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:26.304Z"
+}

@@ -1,0 +1,354 @@
+{
+ "no": 50,
+ "title": "情乱性从因爱欲 神昏心动遇魔头",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6010,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐高僧，西天取经者"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，长嘴大耳"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，晦气色脸"
+    },
+    {
+     "name": "青牛精",
+     "type": "Person",
+     "aliases": [
+      "独角兕大王",
+      "兕怪",
+      "太上老君青牛",
+      "兕大王"
+     ],
+     "nickname": "独角兕大王",
+     "description": "金兜山妖王，独角兕大王"
+    },
+    {
+     "name": "山神土地",
+     "type": "Person",
+     "aliases": [
+      "老翁",
+      "土地",
+      "山神"
+     ],
+     "nickname": "",
+     "description": "金兜山山神土地，变化老翁指路"
+    },
+    {
+     "name": "金兜山",
+     "type": "Place",
+     "aliases": [
+      "金[山+兜]山"
+     ],
+     "nickname": "",
+     "description": "妖魔盘踞之山"
+    },
+    {
+     "name": "金兜洞",
+     "type": "Place",
+     "aliases": [
+      "金[山+兜]洞"
+     ],
+     "nickname": "",
+     "description": "独角兕大王洞府"
+    },
+    {
+     "name": "纳锦背心",
+     "type": "Item",
+     "aliases": [
+      "三件纳锦背心儿",
+      "纳锦绵装背心"
+     ],
+     "nickname": "",
+     "description": "妖魔点化的绑人衣物"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "点钢枪",
+     "type": "Item",
+     "aliases": [
+      "丈二长的点钢枪"
+     ],
+     "nickname": "",
+     "description": "独角兕大王的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "那孙行者引八戒、沙僧近前侍立道：“师父，有何吩咐？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏道：“悟能，凭你怎么处治？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧领诺。行者又向三藏道：“师父，这去处少吉多凶，切莫要动身别往，老孙化斋去也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒闻言，即开口称扬道：“我师兄乃五百年前大闹天宫齐天大圣孙悟空也。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "行者接钵盂在手，吩咐沙僧道：“贤弟，却不可前进，好生保护师父稳坐于此，待我化斋回来，再往西去。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧道：“既如此说，我也穿一件儿。”两个齐脱了上盖直裰，将背心套上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒闻言，即开口称扬道：“我师兄乃五百年前大闹天宫齐天大圣孙悟空也。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "行者接钵盂在手，吩咐沙僧道：“贤弟，却不可前进，好生保护师父稳坐于此，待我化斋回来，再往西去。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "将唐僧搀住，牵了白马，挑了行李，将八戒沙僧一齐捉到洞里。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "将唐僧搀住，牵了白马，挑了行李，将八戒沙僧一齐捉到洞里。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "DEFEATED",
+     "object": "沙悟净",
+     "evidence": "将唐僧搀住，牵了白马，挑了行李，将八戒沙僧一齐捉到洞里。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "STATIONED_AT",
+     "object": "金兜洞",
+     "evidence": "那洞中有个独角兕大王。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青牛精",
+     "predicate": "OWNS",
+     "object": "点钢枪",
+     "evidence": "即忙抬出一根丈二长的点钢枪，递与老怪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "即取金箍棒，幌了一幌，将那平地下周围画了一道圈子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "纳锦背心",
+     "evidence": "串楼旁有三件纳锦的背心，被我拿来了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "纳锦背心",
+     "evidence": "沙僧道：“既如此说，我也穿一件儿。”两个齐脱了上盖直裰，将背心套上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "山神土地",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "那老翁放下拐棒，接了钵盂，递与僮仆，现出本象，双双跪下叩头叫：“大圣，小神不敢隐瞒，我们两个就是此山山神土地，在此候接大圣。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "金兜洞",
+     "evidence": "这大圣却才束一束虎筋绦，拽起虎皮裙，执着金箍棒，径奔山前，找寻妖洞。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "青牛精",
+     "evidence": "你今果有手段，即与我比势，假若三合敌得我，饶了你师之命；如敌不过我，教你一路归阴！",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 681,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，持金箍棒，与魔王交战"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "大唐高僧，西行取经，本回遇难"
+    },
+    {
+     "name": "魔王",
+     "type": "Person",
+     "aliases": [
+      "老魔王",
+      "偷丹的魔头"
+     ],
+     "nickname": "",
+     "description": "持钢枪与白森森圈子，套走金箍棒的妖魔"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的兵器，可变化千百条铁棒"
+    },
+    {
+     "name": "白森森圈子",
+     "type": "Item",
+     "aliases": [
+      "圈子"
+     ],
+     "nickname": "",
+     "description": "魔王法宝，能套走金箍棒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "魔王",
+     "evidence": "他两个战经三十合，不分胜负。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魔王",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "把金箍棒收做一条，套将去了。弄得孙大圣赤手空拳，翻筋斗逃了性命。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "使一条金箍棒，前迎后架，东挡西除",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魔王",
+     "predicate": "OWNS",
+     "object": "白森森圈子",
+     "evidence": "即忙袖中取出一个亮灼灼白森森的圈子来",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:02.446Z"
+}

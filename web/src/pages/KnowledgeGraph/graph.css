@@ -1,0 +1,1275 @@
+/* ============================================================
+   知识图谱探索模块样式（kg- 前缀，关系星座 kgc- / 语义星图 kgg- 子前缀）
+   色值与间距统一取 tokens.css 的变量，勿在此写死颜色。
+   ============================================================ */
+
+.kg-constellation-page,
+.kg-galaxy-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  background: var(--kg-canvas);
+  color: var(--kg-text);
+  overflow: hidden;
+}
+
+/* ---------- 顶部工具条 ---------- */
+
+.kg-topbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 16px;
+  background: var(--kg-panel-soft);
+  border-bottom: 1px solid var(--kg-accent-border);
+  flex-shrink: 0;
+}
+
+.kg-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.kg-crumb-active {
+  color: var(--kg-accent);
+  font-weight: 600;
+}
+
+.kg-crumb-link {
+  color: var(--kg-text-dim);
+  cursor: pointer;
+}
+
+.kg-crumb-link:hover {
+  color: var(--kg-accent);
+}
+
+.kg-crumb-sep {
+  color: var(--kg-sep);
+}
+
+.kg-search {
+  width: 260px;
+}
+
+/* 顶栏右侧业务出口（加入专题库 / 导出清单 / 回到全貌） */
+.kg-topbar-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+/* 点的大小下拉：不同选项文案长度差得多，锁住最小宽度免得顶栏跟着抖 */
+.kgg-sizefield-select {
+  min-width: 152px;
+}
+
+.kg-rotate-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--kg-text-dim);
+}
+
+/* ---------- 主区域 ---------- */
+
+.kg-main {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+}
+
+.kgc-canvas {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+}
+
+.kg-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--kg-accent);
+  font-size: 14px;
+  pointer-events: none;
+}
+
+/* ---------- 交互提示条（画布底部，首次交互后淡出） ---------- */
+
+.kg-hint-bar {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* left:50% 只留一半可用宽度，不定宽会被挤成一字一行 */
+  width: max-content;
+  max-width: calc(100% - 32px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px 10px;
+  padding: 6px 14px;
+  background: var(--kg-panel-soft);
+  border: 1px solid var(--kg-accent-border);
+  border-radius: 16px;
+  box-shadow: var(--shadow-1);
+  font-size: 12px;
+  color: var(--kg-text-dim);
+  z-index: 4;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+
+.kg-hint-bar-hidden {
+  opacity: 0;
+}
+
+/* 底部有时间面板时上移避让（时间面板高 132 + 间距） */
+.kg-hint-bar-raised {
+  bottom: 156px;
+}
+
+.kg-hint-bar > span {
+  white-space: nowrap;
+}
+
+.kg-hint-sep {
+  color: var(--kg-sep);
+}
+
+/* ---------- L3 追溯面板（右侧栏） ---------- */
+
+.kgc-trace-panel {
+  position: absolute;
+  top: 12px;
+  right: 292px;
+  width: 320px;
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  background: var(--kg-panel);
+  border: 1px solid var(--kg-border);
+  border-radius: var(--kg-radius);
+  padding: var(--kg-panel-pad);
+  z-index: 5;
+}
+
+.kgc-trace-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.kgc-trace-title {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--kg-text-strong);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kgc-trace-dir {
+  color: var(--kg-cyan);
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+.kgc-trace-back {
+  background: none;
+  border: 1px solid var(--kg-sep);
+  color: var(--kg-text-dim);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.kgc-trace-back:hover {
+  color: var(--kg-accent);
+  border-color: var(--kg-accent);
+}
+
+.kgc-trace-filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  color: var(--kg-text-faint);
+}
+
+/* 追溯路径按跳数分组 */
+.kgc-trace-group {
+  margin-bottom: 12px;
+}
+
+.kgc-trace-group-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 11px;
+  color: var(--kg-text-dim);
+  letter-spacing: 1px;
+}
+
+.kgc-trace-group-head::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--kg-accent-border);
+}
+
+.kgc-trace-path {
+  margin-bottom: 10px;
+  padding: 8px;
+  background: var(--kg-well);
+  border-radius: 6px;
+  border-left: 2px solid var(--kg-cyan);
+}
+
+.kgc-trace-path-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.kgc-trace-target {
+  font-size: 13px;
+  color: var(--kg-text-strong);
+  font-weight: 500;
+}
+
+.kgc-trace-hops {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+}
+
+.kgc-trace-hop {
+  padding: 4px 0 4px 8px;
+}
+
+.kgc-trace-hop-pred {
+  font-size: 12px;
+  color: var(--kg-pred);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.kgc-trace-hop-arrow {
+  color: var(--kg-sep);
+}
+
+.kgc-trace-conf {
+  font-size: 10px !important;
+  line-height: 16px !important;
+  padding: 0 4px !important;
+}
+
+.kgc-trace-hop-text {
+  margin-top: 2px;
+  font-size: 12px;
+  color: var(--kg-text);
+  background: var(--kg-well);
+  padding: 4px 6px;
+  border-radius: 4px;
+  line-height: 1.5;
+}
+
+.kgc-trace-hop-src {
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--kg-text-faint);
+  cursor: pointer;
+}
+
+.kgc-trace-hop-src:hover {
+  color: var(--kg-accent);
+  text-decoration: underline;
+}
+
+/* ---------- 类型图例（画布底部，L1/L2 常驻） ---------- */
+
+.kgc-type-legend {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 80%;
+  padding: 6px 12px;
+  background: var(--kg-panel-soft);
+  border: 1px solid var(--kg-accent-border);
+  border-radius: 999px;
+  z-index: 4;
+}
+
+.kgc-legend-count {
+  font-size: 10px;
+  color: var(--kg-text-faint);
+  margin-left: 2px;
+}
+
+/* ---------- L3 方向切换（画布顶部居中） ---------- */
+
+.kgc-dir-switch {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 5;
+}
+
+/* ---------- Z 轴年度说明（L1/L2 画布左侧） ---------- */
+
+.kgc-axis-note {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  writing-mode: vertical-rl;
+  font-size: 11px;
+  color: var(--kg-text-faint);
+  letter-spacing: 2px;
+  z-index: 4;
+  pointer-events: none;
+}
+
+/* ---------- 右侧核心实体排行 ---------- */
+
+.kgc-sidebar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 264px;
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  background: var(--kg-panel);
+  border: 1px solid var(--kg-border);
+  border-radius: var(--kg-radius);
+  padding: 10px;
+  z-index: 4;
+}
+
+.kgc-sidebar-title {
+  font-size: 12px;
+  color: var(--kg-text-dim);
+  margin-bottom: 8px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.kgc-sidebar-empty {
+  font-size: 12px;
+  color: var(--kg-text-faint);
+  text-align: center;
+  padding: 12px 0;
+}
+
+.kgc-top-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.kgc-top-item:hover {
+  background: var(--kg-accent-soft);
+}
+
+.kgc-top-rank {
+  width: 18px;
+  font-size: 11px;
+  color: var(--kg-rank);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.kgc-top-name {
+  flex: 1;
+  font-size: 12px;
+  color: var(--kg-text-strong);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kgc-top-type {
+  font-size: 10px;
+  color: var(--kg-text-faint);
+  flex-shrink: 0;
+}
+
+.kgc-top-degree {
+  font-size: 11px;
+  color: var(--kg-cyan);
+  flex-shrink: 0;
+}
+
+/* ---------- 空状态（画布中央覆盖） ---------- */
+
+.kg-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  z-index: 3;
+  color: var(--kg-text-dim);
+}
+
+.kg-empty-title {
+  font-size: 15px;
+  color: var(--kg-text-strong);
+}
+
+.kg-empty-desc {
+  font-size: 12px;
+  color: var(--kg-text-dim);
+  max-width: 320px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* ---------- 语义星图（kgg- 子前缀） ---------- */
+
+.kgg-canvas {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+}
+
+.kgg-cluster-sidebar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 264px;
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  background: var(--kg-panel);
+  border: 1px solid var(--kg-border);
+  border-radius: var(--kg-radius);
+  padding: 10px;
+  z-index: 4;
+}
+
+.kgg-coverage-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--kg-text-dim);
+}
+
+/* 侧栏头：标题 + 「已勾选 N 族 · 清空」 */
+.kgg-cluster-sidebar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.kgg-cluster-clear {
+  border: none;
+  background: var(--kg-accent-soft);
+  color: var(--kg-accent);
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.kgg-cluster-clear:hover {
+  filter: brightness(0.95);
+}
+
+/* 语义族关键词筛选框 */
+.kgg-cluster-search {
+  margin-bottom: 8px;
+}
+
+.kgg-cluster-item {
+  padding: 8px;
+  border-radius: 6px;
+  cursor: default;
+  border: 1px solid transparent;
+  margin-bottom: 6px;
+}
+
+.kgg-cluster-item-all {
+  cursor: pointer;
+}
+
+.kgg-cluster-item:hover {
+  background: var(--kg-accent-soft);
+}
+
+.kgg-cluster-item-active {
+  background: var(--kg-accent-soft);
+  border-color: var(--kg-accent);
+}
+
+/* 勾选态：左侧描一道浅色边，扫一眼就知道哪些族在对比集里 */
+.kgg-cluster-item-checked {
+  border-color: var(--kg-border);
+  background: var(--kg-panel-soft);
+}
+
+/* 复选框与族名同一行：checkbox 紧贴左侧，名字占满剩余宽度可省略 */
+.kgg-cluster-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.kgg-cluster-head .ant-checkbox-wrapper {
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.kgg-cluster-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.kgg-cluster-name {
+  font-size: 13px;
+  color: var(--kg-text-strong);
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kgg-cluster-size {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+  margin-left: 6px;
+  flex-shrink: 0;
+}
+
+.kgg-cluster-summary {
+  margin-top: 4px;
+  /* 与族名对齐：跳过 checkbox 宽度（16px）+ 间距 */
+  padding-left: 22px;
+  font-size: 11px;
+  color: var(--kg-text-dim);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.kgg-detail-drawer {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 300px;
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  background: var(--kg-panel);
+  border: 1px solid var(--kg-border);
+  border-radius: var(--kg-radius);
+  padding: 14px;
+  z-index: 5;
+}
+
+/* ---------- 星图时间面板（底部，可拖选年度区间） ---------- */
+
+.kgg-timeline {
+  position: absolute;
+  left: 12px;
+  right: 288px;
+  bottom: 12px;
+  /* 高度随内容自适应：brush 年代区间后会出现"主力语义族徽章行"，
+     固定 132px 会把图表压变形或裁掉徽章。min/max 保住折叠与展开两态。 */
+  min-height: 132px;
+  max-height: 220px;
+  display: flex;
+  flex-direction: column;
+  background: var(--kg-panel);
+  border: 1px solid var(--kg-border);
+  border-radius: var(--kg-radius);
+  padding: 8px 12px 4px;
+  z-index: 4;
+}
+
+.kgg-timeline-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.kgg-timeline-title {
+  font-size: 12px;
+  color: var(--kg-text-dim);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.kgg-timeline-range {
+  font-size: 11px;
+  color: var(--kg-accent);
+}
+
+.kgg-timeline-clear {
+  background: none;
+  border: none;
+  color: var(--kg-text-faint);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.kgg-timeline-clear:hover {
+  color: var(--kg-accent);
+}
+
+.kgg-timeline-chart {
+  /* flex:1 让图表占满徽章行以外的剩余高度；88px 是无徽章时的保底 */
+  flex: 1;
+  min-height: 88px;
+}
+
+/* ---------- 星图截断提示 ---------- */
+
+.kgg-truncated {
+  position: absolute;
+  left: 12px;
+  bottom: 156px;
+  font-size: 11px;
+  color: var(--kg-rank);
+  z-index: 4;
+}
+
+/* ---------- 语义找相似面板（锚点 + 相似件清单） ---------- */
+
+.kgg-similar-drawer {
+  position: absolute;
+  top: 12px;
+  right: 288px;
+  width: 300px;
+  max-height: 60%;
+  overflow-y: auto;
+  background: var(--kg-panel);
+  border: 1px solid var(--kg-border);
+  border-radius: var(--kg-radius);
+  padding: 10px 12px;
+  z-index: 6;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+
+/* ---------- 簇间关联：阈值滑条与口径 ---------- */
+
+.kgg-link-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 26px;
+}
+
+/* ---------- 高级选项（顶栏 Popover 内） ---------- */
+
+.kgg-advanced {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.kgg-adv-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.kgg-adv-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--kg-text-strong);
+}
+
+.kgg-adv-label {
+  font-size: 12px;
+  color: var(--kg-text-dim);
+  white-space: nowrap;
+}
+
+/* 每个参数后面跟一句人话说明：参数可以专业，但别让用户猜它干什么 */
+.kgg-adv-hint {
+  font-size: 11px;
+  line-height: 1.7;
+  color: var(--kg-text-faint);
+}
+
+.kgg-link-slider {
+  width: 120px;
+  margin: 0;
+}
+
+.kgg-link-readout {
+  font-size: 11px;
+  color: var(--kg-text-dim);
+  min-width: 28px;
+}
+
+/* ---------- 多维看板（簇锚点卡片内） ---------- */
+
+.kgg-board {
+  margin-top: 10px;
+  border-top: 1px dashed var(--kg-border);
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kgg-board-block {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.kgg-board-title {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+.kgg-board-hint {
+  margin-left: 6px;
+  color: var(--kg-text-dim);
+}
+
+.kgg-board-empty {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+  padding: 2px 0;
+}
+
+.kgg-board-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.kgg-board-label {
+  width: 96px;
+  color: var(--kg-text-dim);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kgg-board-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.kgg-board-bar span {
+  display: block;
+  height: 100%;
+  background: var(--kg-accent);
+  border-radius: 3px;
+}
+
+.kgg-board-count {
+  min-width: 38px;
+  text-align: right;
+  color: var(--kg-text-dim);
+}
+
+.kgg-sub-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  padding: 2px 0;
+}
+
+.kgg-sub-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.kgg-sub-name {
+  color: var(--kg-text-strong);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.kgg-sub-meta {
+  color: var(--kg-text-faint);
+}
+
+/* ---------- 语义离群清单 ---------- */
+
+.kgg-outlier-filter {
+  display: flex;
+  gap: 6px;
+  margin: 6px 0;
+}
+
+.kgg-outlier-filter button {
+  flex: 1;
+  font-size: 11px;
+  padding: 3px 6px;
+  border: 1px solid var(--kg-border);
+  background: var(--kg-panel);
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--kg-text-dim);
+}
+
+.kgg-outlier-filter button.on {
+  background: var(--kg-accent);
+  border-color: var(--kg-accent);
+  color: var(--accent-ink);
+}
+
+.kgg-outlier-hint,
+.kgg-drift-hint {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--kg-text-faint);
+  background: var(--kg-well);
+  border-radius: 6px;
+  padding: 6px 8px;
+  margin-bottom: 6px;
+}
+
+.kgg-outlier-row {
+  border: 1px solid var(--kg-border);
+  border-left: 3px solid #dc2626;
+  border-radius: 8px;
+  padding: 6px 8px;
+  margin-bottom: 6px;
+}
+
+.kgg-outlier-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kgg-outlier-score {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+}
+
+.kgg-outlier-title {
+  font-size: 12px;
+  color: var(--kg-text-strong);
+  margin: 3px 0;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.kgg-outlier-title:hover {
+  color: var(--kg-accent);
+}
+
+.kgg-outlier-meta {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+  margin-bottom: 4px;
+}
+
+/* ---------- 语义漂移面板 ---------- */
+
+.kgg-drift-drawer {
+  position: absolute;
+  top: 12px;
+  right: 288px;
+  width: 340px;
+  max-height: 72%;
+  overflow-y: auto;
+  background: var(--kg-panel);
+  border: 1px solid var(--kg-border);
+  border-radius: var(--kg-radius);
+  padding: 10px 12px;
+  z-index: 7;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+
+.kgg-drift-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.kgg-drift-controls button {
+  border: 1px solid var(--kg-border);
+  background: var(--kg-panel);
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  color: var(--kg-text-strong);
+}
+
+.kgg-drift-play {
+  background: var(--kg-accent) !important;
+  border-color: var(--kg-accent) !important;
+  color: #fff !important;
+}
+
+.kgg-drift-scrub {
+  width: 100%;
+  accent-color: var(--kg-accent);
+}
+
+.kgg-drift-snapshot {
+  margin-top: 6px;
+}
+
+.kgg-drift-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  padding: 2px 0;
+}
+
+.kgg-drift-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.kgg-drift-name {
+  flex: 1;
+  color: var(--kg-text-strong);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kgg-drift-count {
+  color: var(--kg-text-faint);
+}
+
+.kgg-drift-keywords {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+  margin-top: 4px;
+  line-height: 1.9;
+}
+
+.kgg-drift-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.kgg-similar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.kgg-similar-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.kgg-similar-item:hover {
+  background: var(--kg-accent-soft);
+}
+
+.kgg-similar-dot {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.kgg-similar-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 12px;
+  color: var(--kg-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.kgg-similar-score {
+  flex: none;
+  font-size: 11px;
+  color: var(--kg-accent);
+  font-weight: 600;
+}
+
+/* ---------- 年代主力语义族徽章（时间→语义联动） ---------- */
+
+.kgg-era-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 2px 0 4px;
+}
+
+.kgg-era-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 8px;
+  border: 1px solid var(--kg-border);
+  border-radius: 999px;
+  font-size: 11px;
+  color: var(--kg-text);
+  cursor: pointer;
+  background: var(--kg-panel);
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.kgg-era-badge:hover {
+  background: var(--kg-accent-soft);
+}
+
+.kgg-era-badge-active {
+  background: var(--kg-accent-soft);
+  box-shadow: 0 0 0 1px var(--kg-accent) inset;
+}
+
+.kgg-era-badge-dot {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.kgg-era-badge-pct {
+  color: var(--kg-text-faint);
+  font-size: 10px;
+}
+
+/* ---------- 模块菜单底部实时计数 ---------- */
+
+.kg-menu-stats {
+  padding: 10px 16px;
+  border-top: 1px solid var(--kg-border);
+  font-size: 11px;
+  color: var(--kg-text-dim);
+  line-height: 1.9;
+}
+
+.kg-menu-stats b {
+  color: var(--kg-text-strong);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* ---------- 数据说明抽屉 ---------- */
+
+.kg-note-sheet {
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--kg-text);
+}
+
+.kg-note-sheet h5 {
+  margin: 14px 0 6px;
+  font-size: 13px;
+}
+
+.kg-note-sheet code {
+  background: var(--kg-well);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.kg-note-sheet .kg-note-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* ---------- 快捷键说明 ---------- */
+
+.kg-hotkey-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.kg-hotkey-list kbd {
+  background: var(--kg-well);
+  border: 1px solid var(--kg-sep);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-size: 12px;
+  font-family: inherit;
+  margin-right: 8px;
+}
+
+/* 只在手机上渲染：打开/收起底部的聚类抽屉 */
+.kgg-sheet-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 8;
+  border: 1px solid var(--kg-border);
+  background: var(--kg-panel);
+  color: var(--kg-text-strong);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-family: inherit;
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+}
+
+.kgg-sheet-toggle.on {
+  background: var(--kg-accent);
+  border-color: var(--kg-accent);
+  color: var(--accent-ink);
+}
+
+/* ---------- 手机：工具条横向滚动，面板改底部抽屉 ---------- */
+@media (max-width: 768px) {
+  .kg-topbar {
+    gap: 8px;
+    padding: 8px 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .kg-topbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .kg-topbar > * {
+    flex: none;
+  }
+
+  .kg-search {
+    width: 200px;
+  }
+
+  .kgg-cluster-sidebar {
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    max-height: 62%;
+    border-radius: 16px 16px 0 0;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+    z-index: 12;
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.18);
+    transform: translateY(105%);
+    transition: transform 0.25s ease;
+  }
+
+  .kgg-cluster-sidebar.is-open {
+    transform: none;
+  }
+
+  .kgg-cluster-sidebar::before,
+  .kgg-detail-drawer::before,
+  .kgg-similar-drawer::before,
+  .kgg-drift-drawer::before {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--kg-border);
+    margin: 0 auto 8px;
+  }
+
+  .kgg-detail-drawer,
+  .kgg-similar-drawer,
+  .kgg-drift-drawer {
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    max-height: 66%;
+    border-radius: 16px 16px 0 0;
+    padding-bottom: calc(14px + env(safe-area-inset-bottom));
+    z-index: 14;
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.18);
+  }
+
+  .kgg-timeline {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    min-height: 104px;
+    max-height: 150px;
+    padding: 6px 8px 2px;
+  }
+
+  .kgg-timeline-chart {
+    min-height: 70px;
+  }
+
+  .kgg-truncated {
+    display: none;
+  }
+
+  .kg-hint-bar {
+    font-size: 11px;
+    bottom: 10px;
+  }
+
+  .kg-hint-bar-raised {
+    bottom: 122px;
+  }
+}

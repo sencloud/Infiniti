@@ -1,0 +1,106 @@
+{
+ "no": 120,
+ "title": "雷曹",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1496,
+   "entities": [
+    {
+     "name": "乐云鹤",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《雷曹》中书生，后经商，与夏平子为友"
+    },
+    {
+     "name": "夏平子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《雷曹》中乐云鹤好友，少微星转世"
+    },
+    {
+     "name": "雷曹",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《雷曹》中雷神，因误行雨被罚人间三年"
+    },
+    {
+     "name": "星儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《雷曹》中乐云鹤之子，夏平子转世"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《雷曹》中乐云鹤客居之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乐云鹤",
+     "predicate": "FRIEND",
+     "object": "夏平子",
+     "evidence": "乐云鹤、夏平子，二人少同里，长同斋，相交莫逆。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐云鹤",
+     "predicate": "HELPED",
+     "object": "夏平子",
+     "evidence": "夏遘疫卒，家贫不能葬，乐锐身自任之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐云鹤",
+     "predicate": "HELPED",
+     "object": "雷曹",
+     "evidence": "乐推食食之，则以手掬啖，顷刻已尽。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷曹",
+     "predicate": "HELPED",
+     "object": "乐云鹤",
+     "evidence": "其人负乐踏波出，登客舟，又破浪去；少时，挽一船至，扶乐入",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐云鹤",
+     "predicate": "LIVES_AT",
+     "object": "金陵",
+     "evidence": "一日，客金陵，休于旅舍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夏平子",
+     "predicate": "HELPED",
+     "object": "乐云鹤",
+     "evidence": "今为君嗣，以报大德。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夏平子",
+     "predicate": "KIN",
+     "object": "星儿",
+     "evidence": "今为君嗣，以报大德。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐云鹤",
+     "predicate": "KIN",
+     "object": "星儿",
+     "evidence": "因名“星儿”。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:58.730Z"
+}

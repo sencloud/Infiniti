@@ -1,0 +1,430 @@
+{
+ "no": 82,
+ "title": "姹女求阳 元神护道",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5981,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，变化神通，护师取经"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被妖精摄去逼婚"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，探路被女怪打"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，随行护师"
+    },
+    {
+     "name": "白龙马",
+     "type": "Person",
+     "aliases": [
+      "玉龙三太子",
+      "小白龙",
+      "西海龙子"
+     ],
+     "nickname": "白龙马",
+     "description": "唐僧坐骑，西海龙子所化"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "差遣众神暗中保护唐僧"
+    },
+    {
+     "name": "金鼻白毛老鼠精",
+     "type": "Person",
+     "aliases": [
+      "地涌夫人",
+      "姹女",
+      "妖精",
+      "女怪"
+     ],
+     "nickname": "地涌夫人",
+     "description": "陷空山无底洞妖精，摄唐僧逼婚"
+    },
+    {
+     "name": "陷空山无底洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖精洞府势力，位于陷空山"
+    },
+    {
+     "name": "陷空山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖精所居之山，有牌楼和无底洞"
+    },
+    {
+     "name": "无底洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陷空山中的深洞，妖精住处"
+    },
+    {
+     "name": "镇海寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧此前投宿的寺庙"
+    },
+    {
+     "name": "东廊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "无底洞内关押唐僧之处"
+    },
+    {
+     "name": "花园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "无底洞后花园，行者设计救师处"
+    },
+    {
+     "name": "阴阳交媾的好水",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖精命女怪所打净水，用于素宴"
+    },
+    {
+     "name": "素果素菜筵席",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖精为与唐僧成亲所备的素宴"
+    },
+    {
+     "name": "交欢酒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖精斟与唐僧的素酒，行者曾变虫入酒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "行者道：“你自幼在山中吃人，你晓得有两样木么？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "行者道：“你两个牵着马，挑着担，我们跟着那两个女怪，做个引子，引到那门前，一齐下手。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏认得声音，叫道：“徒弟，救我命啊！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒道：“哥啊，回去罢！妖怪凶！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧说：“不远！不远！好生寻！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "白龙马",
+     "evidence": "八戒道：“分了便你还去流沙河吃人，我去高老庄探亲，哥哥去花果山称圣，白龙马归大海成龙，师父已在这妖精洞内成亲哩！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "蒙观世音菩萨差遣列位众神暗中保护",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "我家老夫人今夜里摄了一个唐僧在洞内，要管待他",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "STATIONED_AT",
+     "object": "陷空山无底洞",
+     "evidence": "上有六个大字，乃陷空山无底洞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "LEADS",
+     "object": "陷空山无底洞",
+     "evidence": "那怪高坐在草亭内……叫道：“小的们，快排素筵席来。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "轮起抬水的杠子，劈头就打。这呆子手无兵器，遮架不得，被他捞了几下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者笑道：“莫发誓，既有真心往西天取经，老孙带你去罢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "苍蝇",
+     "evidence": "摇身捻诀，就变做个苍蝇儿，轻轻的飞在门楼上听听。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蟭蟟虫儿",
+     "evidence": "等我变作个蟭蟟虫儿，飞在酒泡之下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "饿老鹰",
+     "evidence": "即变做个饿老鹰。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "红桃子",
+     "evidence": "等我飞上桃枝，变作个红桃子。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "TRANSFORMED",
+     "object": "黑胖和尚",
+     "evidence": "摇身一变，变做个黑胖和尚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金鼻白毛老鼠精逼婚",
+     "evidence": "那妖精安排筵宴，与你吃了成亲哩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精逼婚",
+     "predicate": "OCCURRED_AT",
+     "object": "陷空山无底洞",
+     "evidence": "我家老夫人今夜里摄了一个唐僧在洞内……晚间要成亲哩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "MASTERMINDED",
+     "object": "金鼻白毛老鼠精逼婚",
+     "evidence": "我家老夫人今夜里摄了一个唐僧在洞内，要管待他……晚间要成亲哩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "OWNS",
+     "object": "素果素菜筵席",
+     "evidence": "安排素果素菜的筵席，与唐僧吃了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "OWNS",
+     "object": "交欢酒",
+     "evidence": "满斟美酒，递与唐僧，口里叫道：“长老哥哥妙人，请一杯交欢酒儿。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "OWNS",
+     "object": "阴阳交媾的好水",
+     "evidence": "差我两个来此打这阴阳交媾的好水",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "NATIVE_OF",
+     "object": "长安",
+     "evidence": "我自出了长安，到两界山中收你",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "镇海寺投宿",
+     "evidence": "昨在镇海寺投宿，偶得伤风重疾",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1709,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，变化红桃钻入妖精肚中"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "长老",
+     "description": "取经僧人，被妖精携入园中赏花"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，在洞外揉钯"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙和尚",
+     "description": "唐僧三徒弟，在洞外等候"
+    },
+    {
+     "name": "明月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "片段中未出场，仅角色规范名列出"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者把师父头上一掐，那长老就知。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "八戒听见道：“沙和尚！师父出来也！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "八戒听见道：“沙和尚！师父出来也！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "心猿里应降邪怪，土木司门接圣僧。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:56.978Z"
+}

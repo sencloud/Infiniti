@@ -1,0 +1,73 @@
+{
+ "no": 199,
+ "title": "骂鸭",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 217,
+   "entities": [
+    {
+     "name": "白家庄居民某",
+     "type": "Person",
+     "aliases": [
+      "某"
+     ],
+     "nickname": "",
+     "description": "《骂鸭》中偷邻鸭的居民"
+    },
+    {
+     "name": "邻翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《骂鸭》中失鸭的邻居老汉"
+    },
+    {
+     "name": "梦中人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《骂鸭》中托梦告知天罚之人"
+    },
+    {
+     "name": "白家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《骂鸭》中城西的村庄"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "白家庄居民某",
+     "predicate": "HARMED",
+     "object": "邻翁",
+     "evidence": "盗邻鸭烹之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梦中人",
+     "predicate": "HELPED",
+     "object": "白家庄居民某",
+     "evidence": "夜梦一人告之曰：“汝病乃天罚。须得失者骂，毛乃可落。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邻翁",
+     "predicate": "HELPED",
+     "object": "白家庄居民某",
+     "evidence": "翁乃骂，其病良已",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白家庄居民某",
+     "predicate": "LIVES_AT",
+     "object": "白家庄",
+     "evidence": "邑西白家庄居民某",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:27.947Z"
+}

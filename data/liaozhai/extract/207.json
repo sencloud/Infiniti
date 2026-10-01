@@ -1,0 +1,151 @@
+{
+ "no": 207,
+ "title": "堪舆",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 452,
+   "entities": [
+    {
+     "name": "宋焘",
+     "type": "Person",
+     "aliases": [
+      "宋公",
+      "宋生"
+     ],
+     "nickname": "",
+     "description": "沂州宋侍郎君楚，卒后两子争葬"
+    },
+    {
+     "name": "宋君楚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋焘，沂州侍郎，卒后两子争葬"
+    },
+    {
+     "name": "宋公长子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋焘长子，与弟争葬父"
+    },
+    {
+     "name": "宋公次子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋焘次子，与兄争葬父"
+    },
+    {
+     "name": "宋公长孙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋焘长孙，葬后三年中武举"
+    },
+    {
+     "name": "沂州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋侍郎君楚家所在地"
+    },
+    {
+     "name": "郊野",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "兄弟争葬灵车所至之地"
+    },
+    {
+     "name": "岐路",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵车至岔路口，兄弟争葬处"
+    },
+    {
+     "name": "争葬事件",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋公卒后两子争葬父"
+    },
+    {
+     "name": "武举乡试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋公长孙中武举人之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋公长子",
+     "predicate": "KIN",
+     "object": "宋君楚",
+     "evidence": "宋公卒，两公子各立门户，为父卜兆。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋公次子",
+     "predicate": "KIN",
+     "object": "宋君楚",
+     "evidence": "宋公卒，两公子各立门户，为父卜兆。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋公长子",
+     "predicate": "KIN",
+     "object": "宋公次子",
+     "evidence": "兄弟两不相下，因负气不为谋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋公长孙",
+     "predicate": "KIN",
+     "object": "宋君楚",
+     "evidence": "公长孙果以武庠领乡荐。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋君楚",
+     "predicate": "NATIVE_OF",
+     "object": "沂州",
+     "evidence": "沂州宋侍郎君楚家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋公长子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "争葬事件",
+     "evidence": "兄弟各率其属以争",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋公次子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "争葬事件",
+     "evidence": "兄弟各率其属以争",
+     "confidence": 0.95
+    },
+    {
+     "subject": "争葬事件",
+     "predicate": "OCCURRED_AT",
+     "object": "岐路",
+     "evidence": "灵舆至岐路，兄弟各率其属以争",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋公长孙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武举乡试",
+     "evidence": "公长孙果以武庠领乡荐。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:32.353Z"
+}

@@ -1,0 +1,192 @@
+{
+ "no": 469,
+ "title": "王桂庵",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1948,
+   "entities": [
+    {
+     "name": "王樨",
+     "type": "Person",
+     "aliases": [
+      "王桂庵"
+     ],
+     "nickname": "桂庵",
+     "description": "大名世家子，字桂庵，故事主角"
+    },
+    {
+     "name": "芸娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟江蓠之女，后与王桂庵成婚"
+    },
+    {
+     "name": "孟江蓠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "芸娘之父，字江蓠"
+    },
+    {
+     "name": "徐太仆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王桂庵世交，与孟家为亲戚"
+    },
+    {
+     "name": "莫翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "六旬无子，救芸娘并认为义女"
+    },
+    {
+     "name": "王寄生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王桂庵与芸娘之子，周岁"
+    },
+    {
+     "name": "大名",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王樨籍贯"
+    },
+    {
+     "name": "镇江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郡南有徐太仆，王桂庵再适之地"
+    },
+    {
+     "name": "江岸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王桂庵泊舟处，遇芸娘"
+    },
+    {
+     "name": "江村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王桂庵梦至之处，后误入小村"
+    },
+    {
+     "name": "南海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "莫翁携媪往朝之处"
+    },
+    {
+     "name": "金钏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "王桂庵掷予芸娘的信物"
+    },
+    {
+     "name": "亲迎成礼",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "王桂庵与芸娘婚礼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王樨",
+     "predicate": "NATIVE_OF",
+     "object": "大名",
+     "evidence": "王樨，字桂庵，大名世家子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王樨",
+     "predicate": "LOVES",
+     "object": "芸娘",
+     "evidence": "王心情丧惘，痴坐凝思。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王樨",
+     "predicate": "SPOUSE",
+     "object": "芸娘",
+     "evidence": "亲迎成礼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王樨",
+     "predicate": "KIN",
+     "object": "王寄生",
+     "evidence": "王乃知为己子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "芸娘",
+     "predicate": "KIN",
+     "object": "王寄生",
+     "evidence": "芸娘随波下，适触翁舟。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "芸娘",
+     "predicate": "KIN",
+     "object": "孟江蓠",
+     "evidence": "妾芸娘，姓孟氏。父字江蓠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王樨",
+     "predicate": "FRIEND",
+     "object": "徐太仆",
+     "evidence": "郡南有徐太仆，与有世谊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐太仆",
+     "predicate": "HELPED",
+     "object": "王樨",
+     "evidence": "乃遣子大郎诣孟。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莫翁",
+     "predicate": "HELPED",
+     "object": "芸娘",
+     "evidence": "翁命从人拯出之，疗控终夜，始渐苏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王樨",
+     "predicate": "OWNS",
+     "object": "金钏",
+     "evidence": "又以金钏掷之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王樨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "亲迎成礼",
+     "evidence": "亲迎成礼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "亲迎成礼",
+     "predicate": "OCCURRED_AT",
+     "object": "镇江",
+     "evidence": "再适镇江。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:13.348Z"
+}

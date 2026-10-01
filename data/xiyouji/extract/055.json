@@ -1,0 +1,678 @@
+{
+ "no": 55,
+ "title": "色邪淫戏唐三藏 性正修持不坏身",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5898,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被蝎子精摄去"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，好色贪吃"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，沉稳忠厚"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "救苦救难，指点悟空请昴日星官"
+    },
+    {
+     "name": "蝎子精",
+     "type": "Person",
+     "aliases": [
+      "琵琶精",
+      "蝎子",
+      "毒敌山琵琶洞妖"
+     ],
+     "nickname": "蝎子精",
+     "description": "毒敌山琵琶洞女妖，倒马毒伤人"
+    },
+    {
+     "name": "昴日星官",
+     "type": "Person",
+     "aliases": [
+      "昴日鸡"
+     ],
+     "nickname": "昴日星官",
+     "description": "光明宫星官，能降伏蝎子精"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主，曾差神将斩悟空"
+    },
+    {
+     "name": "如来",
+     "type": "Person",
+     "aliases": [
+      "佛如来",
+      "佛祖"
+     ],
+     "nickname": "如来",
+     "description": "雷音寺佛祖，曾被蝎子精扎伤"
+    },
+    {
+     "name": "西梁女国",
+     "type": "Organization",
+     "aliases": [
+      "女国"
+     ],
+     "nickname": "",
+     "description": "西梁女国朝廷"
+    },
+    {
+     "name": "毒敌山琵琶洞",
+     "type": "Place",
+     "aliases": [
+      "琵琶洞"
+     ],
+     "nickname": "",
+     "description": "蝎子精盘踞的妖洞"
+    },
+    {
+     "name": "光明宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东天门内昴日星官居所"
+    },
+    {
+     "name": "雷音寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来佛祖讲经处"
+    },
+    {
+     "name": "南海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    },
+    {
+     "name": "东天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天宫东门"
+    },
+    {
+     "name": "三股钢叉",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "蝎子精兵器，实为两只钳脚"
+    },
+    {
+     "name": "倒马毒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "蝎子精尾上钩子，扎人剧痛"
+    },
+    {
+     "name": "铁棒",
+     "type": "Item",
+     "aliases": [
+      "金箍棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空兵器"
+    },
+    {
+     "name": "钉钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者道：“是甚人来抢师父去了？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "八戒与沙僧，即把行囊捎在马上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "沙僧道：“是一个女子，弄阵旋风，把师父摄了去也。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒与沙僧，即把行囊捎在马上",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧听说，大喜道：“好！好！好！正是粗中有细”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧道：“二哥且休取笑。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "是一个女子，弄阵旋风，把师父摄了去也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "STATIONED_AT",
+     "object": "毒敌山琵琶洞",
+     "evidence": "门上有六个大字，乃是“毒敌山琵琶洞”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "蝎子精",
+     "evidence": "这大圣使铁棒架住，且战且退",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "蝎子精",
+     "evidence": "好呆子，双手举钯，赶上前叫道：“师兄靠后，让我打这泼贱！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "那女怪将身一纵，使出个倒马毒桩，不觉的把大圣头皮上扎了一下。行者叫声“苦啊！”忍耐不得，负痛败阵而走",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "把八戒嘴唇上，也又扎了一下。那呆子拖着钯，捂着嘴，负痛逃生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "菩萨道：“你去东天门里光明宫告求昴日星官，方能降伏。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "昴日星官",
+     "evidence": "菩萨道：“你去东天门里光明宫告求昴日星官，方能降伏。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "ORIGIN_OF",
+     "object": "如来",
+     "evidence": "他前者在雷音寺听佛谈经，如来见了，不合用手推他一把，他就转过钩子，把如来左手中拇指上扎了一下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "这大圣使铁棒架住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "双手举钯，赶上前叫道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "OWNS",
+     "object": "三股钢叉",
+     "evidence": "他却拿一柄三股钢叉，跳出亭门",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "OWNS",
+     "object": "倒马毒",
+     "evidence": "扎人痛者，是尾上一个钩子，唤做倒马毒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "毒敌山琵琶洞之战",
+     "evidence": "这大圣使铁棒架住，且战且退",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "毒敌山琵琶洞之战",
+     "evidence": "好呆子，双手举钯，赶上前叫道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "PARTICIPATED_IN",
+     "object": "毒敌山琵琶洞之战",
+     "evidence": "那怪见八戒来，他又使个手段",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毒敌山琵琶洞之战",
+     "predicate": "OCCURRED_AT",
+     "object": "毒敌山琵琶洞",
+     "evidence": "毒敌山前三不让，琵琶洞外两无情",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蜜蜂",
+     "evidence": "摇身一变，变作蜜蜂儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "你千万救我取经去也！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "我们救他去！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "二来我师父是个真僧，决不以色空乱性",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "因保唐僧西方取经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "因保唐僧西方取经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "因保唐僧西方取经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "因保唐僧西方取经",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1667,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "取经僧人，被蝎子精摄至琵琶洞"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "孙大圣"
+     ],
+     "nickname": "大圣",
+     "description": "唐僧大徒弟，往天宫请昴日星官降妖"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "呆子",
+      "天蓬元帅",
+      "猪悟能"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，与蝎子精交战被扎伤嘴唇"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，随行救师"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "显化指示蝎子精来历并荐昴日星官"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主，昴日星官奉其旨意巡札"
+    },
+    {
+     "name": "蝎子精",
+     "type": "Person",
+     "aliases": [
+      "琵琶精",
+      "蝎子",
+      "毒敌山琵琶洞妖"
+     ],
+     "nickname": "蝎子精",
+     "description": "毒敌山琵琶洞妖怪，摄走唐僧，后被昴日星官降伏"
+    },
+    {
+     "name": "昴日星官",
+     "type": "Person",
+     "aliases": [
+      "昴日鸡",
+      "星官",
+      "昴宿"
+     ],
+     "nickname": "昴日星官",
+     "description": "天宫星官，现出双冠子大公鸡本相降伏蝎子精"
+    },
+    {
+     "name": "辛天君",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天宫神将，告知昴日星官行踪"
+    },
+    {
+     "name": "陶天君",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天宫神将，建议孙悟空先去光明宫"
+    },
+    {
+     "name": "西梁国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "国度，毒敌山琵琶洞所在"
+    },
+    {
+     "name": "毒敌山琵琶洞",
+     "type": "Place",
+     "aliases": [
+      "琵琶洞"
+     ],
+     "nickname": "",
+     "description": "蝎子精盘踞的妖洞，位于西梁国"
+    },
+    {
+     "name": "光明宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天宫中昴日星官居所"
+    },
+    {
+     "name": "观星台",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天宫中星官巡札之处"
+    },
+    {
+     "name": "斗牛宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天宫宫殿，辛天君等与星官同下之处"
+    },
+    {
+     "name": "东天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天宫门户，孙悟空与星官同出之处"
+    },
+    {
+     "name": "降伏蝎子精",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "昴日星官现本相叫死蝎子精，救出唐僧"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "昴日星官",
+     "evidence": "观音菩萨适才显化，说是一个蝎子精，特举先生方能治得，因此来请。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "专来拜烦救师父一难。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "贤徒，累及你们了！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "贤徒，累及你们了！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "昴日星官",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "星官今早奉玉帝旨意，上观星台巡札去了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "昴日星官",
+     "predicate": "DEFEATED",
+     "object": "蝎子精",
+     "evidence": "星官再叫一声，那怪浑身酥软，死在坡前。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "蝎子精",
+     "evidence": "八戒使钉钯迎架，行者在旁，又使铁棒来打。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "蝎子精",
+     "evidence": "八戒使钉钯迎架，行者在旁，又使铁棒来打。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "那怪正教解放唐僧，讨素茶饭与他吃哩",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蝎子精",
+     "predicate": "STATIONED_AT",
+     "object": "毒敌山琵琶洞",
+     "evidence": "在西梁国毒敌山琵琶洞。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "降伏蝎子精",
+     "predicate": "OCCURRED_AT",
+     "object": "毒敌山琵琶洞",
+     "evidence": "望见毒敌山不远，行者指道：此山便是。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "降伏蝎子精",
+     "evidence": "行者叫声：昴宿何在？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "降伏蝎子精",
+     "evidence": "八戒上前，一只脚躧住那怪的胸背",
+     "confidence": 0.9
+    },
+    {
+     "subject": "昴日星官",
+     "predicate": "PARTICIPATED_IN",
+     "object": "降伏蝎子精",
+     "evidence": "星官再叫一声，那怪浑身酥软，死在坡前。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "昴日星官",
+     "predicate": "ORIGIN_OF",
+     "object": "蝎子精",
+     "evidence": "现出本相，原来是一只双冠子大公鸡",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:14.606Z"
+}

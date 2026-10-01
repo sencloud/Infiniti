@@ -1,0 +1,99 @@
+{
+ "no": 465,
+ "title": "古瓶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 361,
+   "entities": [
+    {
+     "name": "孙子楚",
+     "type": "Person",
+     "aliases": [
+      "孙生",
+      "孙公子"
+     ],
+     "nickname": "",
+     "description": "《古瓶》中颜镇孙生，购铜器而去"
+    },
+    {
+     "name": "袁宣四",
+     "type": "Person",
+     "aliases": [
+      "袁孝廉宣四"
+     ],
+     "nickname": "",
+     "description": "《古瓶》中孝廉，得一古瓶可验阴晴"
+    },
+    {
+     "name": "张秀才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《古瓶》中秀才，得一古瓶可志朔望"
+    },
+    {
+     "name": "淄邑北村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《古瓶》中井涸之村"
+    },
+    {
+     "name": "颜镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《古瓶》中孙子楚所居之地"
+    },
+    {
+     "name": "磁瓶",
+     "type": "Item",
+     "aliases": [
+      "古瓶"
+     ],
+     "nickname": "",
+     "description": "《古瓶》中井旁所得古瓶，可验阴晴、志朔望"
+    },
+    {
+     "name": "铜器",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《古瓶》中井旁所得铜器，大可合抱，重数十斤"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙子楚",
+     "predicate": "LIVES_AT",
+     "object": "颜镇",
+     "evidence": "颜镇孙生闻其异，购铜器而去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙子楚",
+     "predicate": "OWNS",
+     "object": "铜器",
+     "evidence": "颜镇孙生闻其异，购铜器而去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袁宣四",
+     "predicate": "OWNS",
+     "object": "磁瓶",
+     "evidence": "袁孝廉宣四得一瓶，可验阴晴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张秀才",
+     "predicate": "OWNS",
+     "object": "磁瓶",
+     "evidence": "其一入张秀才家，可志朔望",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:09.991Z"
+}

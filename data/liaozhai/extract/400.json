@@ -1,0 +1,199 @@
+{
+ "no": 400,
+ "title": "贾奉雉",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2676,
+   "entities": [
+    {
+     "name": "贾奉雉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平凉人，才名冠一时，后中经魁，入山修道"
+    },
+    {
+     "name": "郎秀才",
+     "type": "Spirit",
+     "aliases": [
+      "郎生"
+     ],
+     "nickname": "",
+     "description": "自称姓郎的秀才，实为仙人，助贾奉雉中举并引其入山"
+    },
+    {
+     "name": "贾妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾奉雉之妻，曾大睡百馀年，后与贾重逢"
+    },
+    {
+     "name": "贾祥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾奉雉次孙，年五十馀，待祖渐疏"
+    },
+    {
+     "name": "吴氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾奉雉长孙媳，士人女，颇娴闺训，承顺不衰"
+    },
+    {
+     "name": "贾杲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴氏次子，颇慧，入泮已久，为人仁厚"
+    },
+    {
+     "name": "平凉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾奉雉籍贯所在地"
+    },
+    {
+     "name": "洞府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "深山中的洞府，叟所居，别有天地"
+    },
+    {
+     "name": "辽阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾奉雉被充军之地"
+    },
+    {
+     "name": "邑庠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县学，贾奉雉试入其中"
+    },
+    {
+     "name": "闱场",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "科举乡试考场，贾奉雉多次参与"
+    },
+    {
+     "name": "婚嫁",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾奉雉与妻的婚姻关系"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾奉雉",
+     "predicate": "NATIVE_OF",
+     "object": "平凉",
+     "evidence": "贾奉雉，平凉人",
+     "confidence": 1
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "FRIEND",
+     "object": "郎秀才",
+     "evidence": "途中遇一秀才，自言郎姓……因邀俱归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郎秀才",
+     "predicate": "HELPED",
+     "object": "贾奉雉",
+     "evidence": "因出所拟七题，使贾作之……以笔写符而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "SPOUSE",
+     "object": "贾妻",
+     "evidence": "夫妻与婢同室……真其妻也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "KIN",
+     "object": "贾祥",
+     "evidence": "时长孙已死，次孙祥，至五十馀矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "KIN",
+     "object": "吴氏",
+     "evidence": "长孙妇吴氏，沽酒具藜藿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "KIN",
+     "object": "贾杲",
+     "evidence": "次杲颇慧，使与门人辈共笔砚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "LIVES_AT",
+     "object": "洞府",
+     "evidence": "渐入深山，至一洞府，其中别有天地",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "闱场",
+     "evidence": "是秋入闱复落……至场中，七题无一遗者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "邑庠",
+     "evidence": "是岁，试入邑庠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "PUNISHED",
+     "object": "贾祥",
+     "evidence": "贾唤入，计曩所耗费，出金偿之，斥绝令去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "LIVES_AT",
+     "object": "辽阳",
+     "evidence": "贾奉旨充辽阳军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郎秀才",
+     "predicate": "HELPED",
+     "object": "贾奉雉",
+     "evidence": "郎亦引贾自短墙出……指示归途",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾奉雉",
+     "predicate": "SPOUSE",
+     "object": "贾妻",
+     "evidence": "夫妻携一仆一媪而去",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:43.952Z"
+}

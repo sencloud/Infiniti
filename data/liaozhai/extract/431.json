@@ -1,0 +1,57 @@
+{
+ "no": 431,
+ "title": "黑鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 91,
+   "entities": [
+    {
+     "name": "李总镇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胶州总兵，买黑鬼并配娼"
+    },
+    {
+     "name": "黑鬼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李总镇所买黑肤异人，共二人"
+    },
+    {
+     "name": "黑鬼之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑鬼与娼所生，肤白，被黑鬼所杀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李总镇",
+     "predicate": "OWNS",
+     "object": "黑鬼",
+     "evidence": "胶州李总镇，买二黑鬼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑鬼",
+     "predicate": "KIN",
+     "object": "黑鬼之子",
+     "evidence": "生子而白",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑鬼",
+     "predicate": "KILLED",
+     "object": "黑鬼之子",
+     "evidence": "黑鬼亦疑，因杀其子",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:54.922Z"
+}

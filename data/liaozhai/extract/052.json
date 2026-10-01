@@ -1,0 +1,105 @@
+{
+ "no": 52,
+ "title": "海公子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 491,
+   "entities": [
+    {
+     "name": "张生",
+     "type": "Person",
+     "aliases": [
+      "张于旦",
+      "张公子"
+     ],
+     "nickname": "",
+     "description": "登州人，好奇喜游猎，于古迹岛遇蛇精"
+    },
+    {
+     "name": "丽人",
+     "type": "Spirit",
+     "aliases": [
+      "美人",
+      "女子"
+     ],
+     "nickname": "",
+     "description": "自称胶娼，实为蛇精，与张生相狎"
+    },
+    {
+     "name": "海公子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "大蛇精，粗于巨筩，饮张生血"
+    },
+    {
+     "name": "古迹岛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东海岛屿，有五色耐冬花，古无居人"
+    },
+    {
+     "name": "登州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张生籍贯地"
+    },
+    {
+     "name": "毒狐药",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "张生腰中荷囊所藏，可毒杀狐狸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张生",
+     "predicate": "NATIVE_OF",
+     "object": "登州",
+     "evidence": "登州张生，好奇，喜游猎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张生",
+     "predicate": "LIVES_AT",
+     "object": "古迹岛",
+     "evidence": "自棹扁舟而往。至则花正繁",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张生",
+     "predicate": "OWNS",
+     "object": "毒狐药",
+     "evidence": "忽忆腰中佩荷囊，有毒狐药",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张生",
+     "predicate": "LOVES",
+     "object": "丽人",
+     "evidence": "张爱好之。恐海公子来，不得尽欢，因挽与乱。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "海公子",
+     "predicate": "HARMED",
+     "object": "张生",
+     "evidence": "以身绕人并树，纠缠数匝……以舌刺张鼻。鼻血下注",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张生",
+     "predicate": "KILLED",
+     "object": "海公子",
+     "evidence": "蛇果就掌吸饮。饮未及尽，遽伸其体……蛇卧地如梁而毙矣。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:33.008Z"
+}

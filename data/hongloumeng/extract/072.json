@@ -1,0 +1,591 @@
+{
+ "no": 72,
+ "title": "王熙凤恃强羞说病 来旺妇倚势霸成亲",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5981,
+   "entities": [
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤辣子",
+      "凤姐",
+      "琏二奶奶",
+      "凤丫头",
+      "泼皮破落户"
+     ],
+     "nickname": "",
+     "description": "贾琏之妻，荣国府管家奶奶"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "",
+     "description": "荣国府最高长辈"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，宝玉之母"
+    },
+    {
+     "name": "贾琏",
+     "type": "Person",
+     "aliases": [
+      "琏二爷",
+      "琏二哥"
+     ],
+     "nickname": "",
+     "description": "王熙凤之夫，荣国府公子"
+    },
+    {
+     "name": "尤二姐",
+     "type": "Person",
+     "aliases": [
+      "二姐"
+     ],
+     "nickname": "",
+     "description": "贾琏之妾，已故"
+    },
+    {
+     "name": "平儿",
+     "type": "Person",
+     "aliases": [
+      "平姑娘"
+     ],
+     "nickname": "",
+     "description": "王熙凤的丫鬟"
+    },
+    {
+     "name": "袭人",
+     "type": "Person",
+     "aliases": [
+      "珍珠",
+      "蕊珠",
+      "袭姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟"
+    },
+    {
+     "name": "鸳鸯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾母的丫鬟"
+    },
+    {
+     "name": "司棋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "迎春的丫鬟"
+    },
+    {
+     "name": "旺儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王熙凤的陪房家人"
+    },
+    {
+     "name": "旺儿媳妇",
+     "type": "Person",
+     "aliases": [
+      "旺儿家的"
+     ],
+     "nickname": "",
+     "description": "旺儿之妻，王熙凤的陪房"
+    },
+    {
+     "name": "彩霞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王夫人房中的丫鬟"
+    },
+    {
+     "name": "夏太府",
+     "type": "Person",
+     "aliases": [
+      "夏爷爷"
+     ],
+     "nickname": "",
+     "description": "宫中太监，常向贾府索银"
+    },
+    {
+     "name": "朱大娘",
+     "type": "Person",
+     "aliases": [
+      "朱嫂子"
+     ],
+     "nickname": "",
+     "description": "官媒婆"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "贾府"
+     ],
+     "nickname": "",
+     "description": "贾家府第"
+    },
+    {
+     "name": "王家",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "王熙凤娘家"
+    },
+    {
+     "name": "大观园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府园林"
+    },
+    {
+     "name": "凤姐院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王熙凤的院落"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王熙凤",
+     "predicate": "SPOUSE",
+     "object": "贾琏",
+     "evidence": "贾琏见她去了，只得回来瞧凤姐。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尤二姐",
+     "predicate": "SPOUSE",
+     "object": "贾琏",
+     "evidence": "我因为我想着后日是尤二姐的周年，我们好了一场",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "平儿服侍凤姐另洗了面",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鸳鸯",
+     "predicate": "SERVANT_OF",
+     "object": "贾母",
+     "evidence": "回房复了贾母的命",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司棋",
+     "predicate": "SERVANT_OF",
+     "object": "贾母",
+     "evidence": "园内司棋又病重",
+     "confidence": 0.5
+    },
+    {
+     "subject": "旺儿媳妇",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "旺儿媳妇走进来。凤姐便问",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旺儿",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "旺儿有个小子",
+     "confidence": 0.8
+    },
+    {
+     "subject": "彩霞",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "因要求太太房里彩霞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "凤姐儿声色怠惰了些",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾琏已走至堂屋门口",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "回房复了贾母的命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "太太急了两个月",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "王家",
+     "evidence": "我们王家可那里来的钱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "STATIONED_AT",
+     "object": "凤姐院",
+     "evidence": "因进入凤姐院门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司棋",
+     "predicate": "PARTICIPATED_IN",
+     "object": "司棋与表弟私会",
+     "evidence": "今日趁乱，方初次入港",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鸳鸯",
+     "predicate": "RESCUED",
+     "object": "司棋",
+     "evidence": "我告诉一个人，立刻现死现报！你只管放心养病",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "RECOMMENDED",
+     "object": "旺儿",
+     "evidence": "我明儿作媒，打发两个有体面的人",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "QUARRELED",
+     "object": "贾琏",
+     "evidence": "说句顽话就急了",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1575,
+   "entities": [
+    {
+     "name": "贾琏",
+     "type": "Person",
+     "aliases": [
+      "琏二爷",
+      "琏二哥"
+     ],
+     "nickname": "",
+     "description": "贾府琏二爷，王熙凤之夫"
+    },
+    {
+     "name": "林之孝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府管家"
+    },
+    {
+     "name": "贾雨村",
+     "type": "Person",
+     "aliases": [
+      "时飞",
+      "贾化",
+      "雨村",
+      "贾时飞"
+     ],
+     "nickname": "",
+     "description": "贾府常来往的官员"
+    },
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤辣子",
+      "凤姐",
+      "琏二奶奶",
+      "凤丫头",
+      "泼皮破落户"
+     ],
+     "nickname": "",
+     "description": "贾琏之妻，荣国府当家奶奶"
+    },
+    {
+     "name": "旺儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王熙凤的陪房家人"
+    },
+    {
+     "name": "彩霞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王夫人房里的丫鬟"
+    },
+    {
+     "name": "赵姨娘",
+     "type": "Person",
+     "aliases": [
+      "赵姨奶奶"
+     ],
+     "nickname": "",
+     "description": "贾政之妾，贾环之母"
+    },
+    {
+     "name": "贾环",
+     "type": "Person",
+     "aliases": [
+      "环三爷",
+      "环儿"
+     ],
+     "nickname": "",
+     "description": "贾政与赵姨娘之子"
+    },
+    {
+     "name": "贾政",
+     "type": "Person",
+     "aliases": [
+      "存周",
+      "政老爷",
+      "二老爷",
+      "贾存周"
+     ],
+     "nickname": "",
+     "description": "贾府二老爷"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，贾宝玉之母"
+    },
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "怡红公子",
+      "宝玉",
+      "宝二爷",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "",
+     "description": "贾政与王夫人之子"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "",
+     "description": "贾府老祖宗"
+    },
+    {
+     "name": "小霞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "彩霞之妹"
+    },
+    {
+     "name": "东府大爷",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宁国府大爷，与贾雨村交好"
+    },
+    {
+     "name": "贾府",
+     "type": "Organization",
+     "aliases": [
+      "贾家"
+     ],
+     "nickname": "",
+     "description": "贾氏家族府第"
+    },
+    {
+     "name": "王家",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "王熙凤娘家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾琏",
+     "predicate": "SPOUSE",
+     "object": "王熙凤",
+     "evidence": "今凤姐问贾琏：“可说了没有？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林之孝",
+     "predicate": "SERVED",
+     "object": "贾琏",
+     "evidence": "林之孝答应了，却不动身，坐在下面椅子上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林之孝",
+     "predicate": "SERVED",
+     "object": "贾府",
+     "evidence": "林之孝说道：“方才听得雨村降了”",
+     "confidence": 0.85
+    },
+    {
+     "subject": "贾雨村",
+     "predicate": "FRIEND",
+     "object": "东府大爷",
+     "evidence": "如今东府大爷和他更好",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾政",
+     "predicate": "FRIEND",
+     "object": "贾雨村",
+     "evidence": "老爷又喜欢他，时常来往",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旺儿",
+     "predicate": "SERVED",
+     "object": "王熙凤",
+     "evidence": "我们看他是奶奶的人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彩霞",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "我们旺儿的小子，要说太太房里的彩霞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵姨娘",
+     "predicate": "KIN",
+     "object": "贾环",
+     "evidence": "赵姨娘素日深与彩霞契合，巴不得与了贾环",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾环",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "我已经看中了两个丫头，一个与宝玉，一个给环儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "我已经看中了两个丫头，一个与宝玉，一个给环儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "赵姨娘道：“宝玉已有了二年了，老爷还不知道？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾政",
+     "predicate": "SPOUSE",
+     "object": "王夫人",
+     "evidence": "太太还说老爷才来家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾政",
+     "predicate": "SPOUSE",
+     "object": "赵姨娘",
+     "evidence": "赵姨娘方欲说话",
+     "confidence": 0.85
+    },
+    {
+     "subject": "彩霞",
+     "predicate": "KIN",
+     "object": "小霞",
+     "evidence": "悄命他妹子小霞进二门来找赵姨娘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "彩霞",
+     "predicate": "LOVES",
+     "object": "贾环",
+     "evidence": "心中虽是与贾环有旧，尚未作准",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵姨娘",
+     "predicate": "FRIEND",
+     "object": "彩霞",
+     "evidence": "赵姨娘素日深与彩霞契合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "王家",
+     "evidence": "我们王家的人，连我还不中你们的意",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "这里贾琏出来，刚至外书房",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "晚间，凤姐已命人唤了彩霞之母来说媒",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:56:06.012Z"
+}

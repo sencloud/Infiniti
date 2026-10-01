@@ -18,6 +18,8 @@ const config = {
     apiKey: process.env.DEEPSEEK_API_KEY || '',
     baseURL: process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com',
     model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+    // 教材页面图转写用的多模态模型（deepseek-v4-pro 不收图片）
+    visionModel: process.env.DEEPSEEK_VISION_MODEL || 'deepseek-flash',
   },
 
   // 数据管道的规模上限与节奏控制（防止 BFS 无限扩散）

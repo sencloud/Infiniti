@@ -1,0 +1,142 @@
+{
+ "no": 189,
+ "title": "阎王",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 741,
+   "entities": [
+    {
+     "name": "李久常",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临朐人，野外酹酒祭旋风，后入冥府见阎王"
+    },
+    {
+     "name": "阎王",
+     "type": "Spirit",
+     "aliases": [
+      "王者"
+     ],
+     "nickname": "",
+     "description": "冥府王者，因受李久常酒奠而谢之"
+    },
+    {
+     "name": "李久常嫂",
+     "type": "Person",
+     "aliases": [
+      "嫂"
+     ],
+     "nickname": "",
+     "description": "李久常之嫂，悍妒，针刺妾肠，受冥罚"
+    },
+    {
+     "name": "李久常兄",
+     "type": "Person",
+     "aliases": [
+      "兄"
+     ],
+     "nickname": "",
+     "description": "李久常之兄，其妾产时肠脱"
+    },
+    {
+     "name": "李久常兄妾",
+     "type": "Person",
+     "aliases": [
+      "妾"
+     ],
+     "nickname": "",
+     "description": "李久常兄之妾，产时肠脱，被嫂针刺"
+    },
+    {
+     "name": "临朐",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，李久常籍贯"
+    },
+    {
+     "name": "广第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "路旁宏伟宅第，实为冥府"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李久常",
+     "predicate": "NATIVE_OF",
+     "object": "临朐",
+     "evidence": "李久常，临朐人。",
+     "confidence": 1
+    },
+    {
+     "subject": "李久常",
+     "predicate": "KIN",
+     "object": "李久常嫂",
+     "evidence": "近视，其嫂也",
+     "confidence": 1
+    },
+    {
+     "subject": "李久常",
+     "predicate": "KIN",
+     "object": "李久常兄",
+     "evidence": "汝兄妾盘肠而产",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李久常兄",
+     "predicate": "SPOUSE",
+     "object": "李久常嫂",
+     "evidence": "到不得代哥子降伏老媪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李久常兄",
+     "predicate": "SPOUSE",
+     "object": "李久常兄妾",
+     "evidence": "汝兄妾盘肠而产",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李久常嫂",
+     "predicate": "HARMED",
+     "object": "李久常兄妾",
+     "evidence": "彼阴以针刺肠上，俾至今脏腑常痛",
+     "confidence": 1
+    },
+    {
+     "subject": "阎王",
+     "predicate": "PUNISHED",
+     "object": "李久常嫂",
+     "evidence": "此甚悍妒，宜得是罚。",
+     "confidence": 1
+    },
+    {
+     "subject": "李久常",
+     "predicate": "HELPED",
+     "object": "李久常嫂",
+     "evidence": "乞王怜宥！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎王",
+     "predicate": "HELPED",
+     "object": "李久常",
+     "evidence": "我以曩昔扰子杯酌，欲一见相谢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李久常",
+     "predicate": "LIVES_AT",
+     "object": "广第",
+     "evidence": "路傍有广第，殿阁弘丽。一青衣人自内出，邀李",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:25.354Z"
+}

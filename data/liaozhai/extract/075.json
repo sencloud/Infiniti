@@ -1,0 +1,187 @@
+{
+ "no": 75,
+ "title": "巧娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3027,
+   "entities": [
+    {
+     "name": "傅廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "广东搢绅傅氏之子，天阉后遇华姑得愈"
+    },
+    {
+     "name": "巧娘",
+     "type": "Spirit",
+     "aliases": [
+      "巧女"
+     ],
+     "nickname": "",
+     "description": "鬼女，才色无匹，嫁毛家病阉子含恨而死"
+    },
+    {
+     "name": "华姑",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐妇，三娘之母，赠黑丸治愈傅廉"
+    },
+    {
+     "name": "傅父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "广东搢绅，傅廉之父，年六十馀生廉"
+    },
+    {
+     "name": "傅母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "傅廉之母，得知子愈后逢人宣扬"
+    },
+    {
+     "name": "秦女村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "琼州北郭外三四里处，华姑所居"
+    },
+    {
+     "name": "琼州",
+     "type": "Place",
+     "aliases": [
+      "琼"
+     ],
+     "nickname": "",
+     "description": "海南地名，傅廉送书所至"
+    },
+    {
+     "name": "李氏废园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东郭外四五里，华姑携女僦居处"
+    },
+    {
+     "name": "黑丸",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "华姑所赠药丸，服后使傅廉成伟男"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "傅廉",
+     "predicate": "NATIVE_OF",
+     "object": "广东",
+     "evidence": "广东有搢绅傅氏，年六十馀生一子，名廉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "傅廉",
+     "predicate": "KIN",
+     "object": "傅父",
+     "evidence": "广东有搢绅傅氏，年六十馀生一子，名廉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "傅廉",
+     "predicate": "KIN",
+     "object": "傅母",
+     "evidence": "生私白母：非华氏不娶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "傅父",
+     "predicate": "KIN",
+     "object": "傅母",
+     "evidence": "为小婢所窥，奔告母。母不信",
+     "confidence": 0.8
+    },
+    {
+     "subject": "巧娘",
+     "predicate": "LIVES_AT",
+     "object": "秦女村",
+     "evidence": "云：华姓，居秦女村，去北郭三四里",
+     "confidence": 0.85
+    },
+    {
+     "subject": "华姑",
+     "predicate": "LIVES_AT",
+     "object": "秦女村",
+     "evidence": "华姑来。微窥之，年约五十馀",
+     "confidence": 0.8
+    },
+    {
+     "subject": "华姑",
+     "predicate": "HELPED",
+     "object": "傅廉",
+     "evidence": "得黑丸，授生，令即吞下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "傅廉",
+     "predicate": "OWNS",
+     "object": "黑丸",
+     "evidence": "得黑丸，授生，令即吞下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "傅廉",
+     "predicate": "LOVES",
+     "object": "巧娘",
+     "evidence": "虽知巧娘非人，而心爱其娟好",
+     "confidence": 0.9
+    },
+    {
+     "subject": "傅廉",
+     "predicate": "SPOUSE",
+     "object": "巧娘",
+     "evidence": "遂相绸缪",
+     "confidence": 0.85
+    },
+    {
+     "subject": "华姑",
+     "predicate": "HARMED",
+     "object": "傅廉",
+     "evidence": "华姑昼夜闲防，两情不得自展",
+     "confidence": 0.8
+    },
+    {
+     "subject": "华姑",
+     "predicate": "HARMED",
+     "object": "巧娘",
+     "evidence": "华姑益怒，聒絮不已",
+     "confidence": 0.8
+    },
+    {
+     "subject": "傅廉",
+     "predicate": "LIVES_AT",
+     "object": "李氏废园",
+     "evidence": "李氏废园中，可待亲迎",
+     "confidence": 0.85
+    },
+    {
+     "subject": "华姑",
+     "predicate": "LIVES_AT",
+     "object": "李氏废园",
+     "evidence": "老身携两女僦屋于贵邑",
+     "confidence": 0.85
+    },
+    {
+     "subject": "傅廉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "亲迎",
+     "evidence": "至亲迎之夜，见华姑亲问之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:42.893Z"
+}

@@ -1,0 +1,106 @@
+{
+ "no": 373,
+ "title": "郭安",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 275,
+   "entities": [
+    {
+     "name": "孙五粒",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《郭安》中人物，有僮仆"
+    },
+    {
+     "name": "僮仆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《郭安》中孙五粒的僮仆，独宿被摄"
+    },
+    {
+     "name": "阎罗",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《郭安》中冥府阎王"
+    },
+    {
+     "name": "郭安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《郭安》中孙五粒的僚仆，被误杀"
+    },
+    {
+     "name": "李禄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《郭安》中仆人，与僮有仇，误杀郭安"
+    },
+    {
+     "name": "郭父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《郭安》中郭安之父，告官鸣冤"
+    },
+    {
+     "name": "陈其善",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《郭安》中邑宰，断案判李禄为郭父子"
+    },
+    {
+     "name": "宫殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《郭安》中冥府宫殿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "阎罗",
+     "predicate": "PUNISHED",
+     "object": "僮仆",
+     "evidence": "见阎罗在上，视之曰：“误矣，此非是。”因遣送还。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李禄",
+     "predicate": "KILLED",
+     "object": "郭安",
+     "evidence": "是夜操刀入，扪之，以为僮也，竟杀之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭父",
+     "predicate": "KIN",
+     "object": "郭安",
+     "evidence": "郭父鸣于官。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈其善",
+     "predicate": "PUNISHED",
+     "object": "李禄",
+     "evidence": "陈即以李禄为之子。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈其善",
+     "predicate": "PUNISHED",
+     "object": "郭父",
+     "evidence": "陈即以李禄为之子。郭含冤而退。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:31.743Z"
+}

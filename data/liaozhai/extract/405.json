@@ -1,0 +1,90 @@
+{
+ "no": 405,
+ "title": "曹操冢",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 199,
+   "entities": [
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "曹孟德",
+      "曹瞒"
+     ],
+     "nickname": "曹瞒",
+     "description": "《曹操冢》中墓主，汉末权臣，设疑冢"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《曹操冢》中许城县令，派人断流掘墓"
+    },
+    {
+     "name": "曹操墓",
+     "type": "Place",
+     "aliases": [
+      "曹孟德墓"
+     ],
+     "nickname": "",
+     "description": "《曹操冢》中崖下深洞，藏转轮利刃"
+    },
+    {
+     "name": "许城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《曹操冢》中城外有河，近崖深黯"
+    },
+    {
+     "name": "转轮",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《曹操冢》中墓内机关，轮上排利刃如霜"
+    },
+    {
+     "name": "小碑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《曹操冢》中墓内石碑，字皆汉篆"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "曹操",
+     "predicate": "LIVES_AT",
+     "object": "曹操墓",
+     "evidence": "则曹孟德墓也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操墓",
+     "predicate": "OWNS",
+     "object": "转轮",
+     "evidence": "见崖下有深洞，中置转轮",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操墓",
+     "predicate": "OWNS",
+     "object": "小碑",
+     "evidence": "去轮攻入，有小碑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "PARTICIPATED_IN",
+     "object": "曹操墓",
+     "evidence": "邑宰闻之，遣多人闸断上流，竭其水",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:44.067Z"
+}

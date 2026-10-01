@@ -1,0 +1,295 @@
+{
+ "no": 305,
+ "title": "梦狼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1788,
+   "entities": [
+    {
+     "name": "白翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "直隶人，白甲之父，梦狼故事主角"
+    },
+    {
+     "name": "白甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白翁长子，南服县令，贪官"
+    },
+    {
+     "name": "丁某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白翁亲戚，能走无常"
+    },
+    {
+     "name": "白翁姊子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白翁外甥，晋令，后为御史"
+    },
+    {
+     "name": "司大成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白甲心腹，助桀为虐者"
+    },
+    {
+     "name": "李匡九",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邹平进士，居官廉明"
+    },
+    {
+     "name": "富民",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被诬陷的富人，李匡九案中人物"
+    },
+    {
+     "name": "门役",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李匡九衙门差役，索贿者"
+    },
+    {
+     "name": "杨公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑宰，性刚鲠，恶隶皂"
+    },
+    {
+     "name": "邑人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "犯重罪者，杨公案中人物"
+    },
+    {
+     "name": "金甲猛士",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "梦中金甲神人，惩治白甲"
+    },
+    {
+     "name": "宰官",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府官员，令续白甲头"
+    },
+    {
+     "name": "群狼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "白甲衙署中狼妖，食人"
+    },
+    {
+     "name": "城阙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梦中城池"
+    },
+    {
+     "name": "白甲衙署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梦中白甲官署，狼群聚集"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴曹地府"
+    },
+    {
+     "name": "邹平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，李匡九居官地"
+    },
+    {
+     "name": "直隶",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "白翁籍贯"
+    },
+    {
+     "name": "南服",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "白甲为官之地"
+    },
+    {
+     "name": "晋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "白翁外甥为令之地"
+    },
+    {
+     "name": "梦中事件",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "白翁梦游冥府见白甲"
+    },
+    {
+     "name": "白甲遇寇",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "白甲归途遇寇被杀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "白翁",
+     "predicate": "KIN",
+     "object": "白甲",
+     "evidence": "长子甲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白翁",
+     "predicate": "KIN",
+     "object": "白翁姊子",
+     "evidence": "翁有姊子为晋令",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白翁",
+     "predicate": "FRIEND",
+     "object": "丁某",
+     "evidence": "适有瓜葛丁姓造谒，翁款之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白甲",
+     "predicate": "KIN",
+     "object": "司大成",
+     "evidence": "司故甲之腹心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白甲",
+     "predicate": "HARMED",
+     "object": "富民",
+     "evidence": "甲聚敛臣也",
+     "confidence": 0.8
+    },
+    {
+     "subject": "金甲猛士",
+     "predicate": "PUNISHED",
+     "object": "白甲",
+     "evidence": "出黑索索甲。甲扑地化为虎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宰官",
+     "predicate": "HELPED",
+     "object": "白甲",
+     "evidence": "宜续其头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "群狼",
+     "predicate": "HARMED",
+     "object": "白翁",
+     "evidence": "见一巨狼当道，大惧不敢进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白甲",
+     "predicate": "LIVES_AT",
+     "object": "白甲衙署",
+     "evidence": "公子衙署，去此不远",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白翁",
+     "predicate": "NATIVE_OF",
+     "object": "直隶",
+     "evidence": "白翁，直隶人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白甲",
+     "predicate": "NATIVE_OF",
+     "object": "直隶",
+     "evidence": "白翁，直隶人。长子甲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白翁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "梦中事件",
+     "evidence": "翁方卧，见丁又来，邀与同游",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白甲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "白甲遇寇",
+     "evidence": "甲解任，甫离境，即遭寇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白甲遇寇",
+     "predicate": "OCCURRED_AT",
+     "object": "南服",
+     "evidence": "甲解任，甫离境，即遭寇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李匡九",
+     "predicate": "NATIVE_OF",
+     "object": "邹平",
+     "evidence": "邹平李进士匡九",
+     "confidence": 0.95
+    },
+    {
+     "subject": "门役",
+     "predicate": "HARMED",
+     "object": "富民",
+     "evidence": "门役吓之曰：官索汝二百金",
+     "confidence": 0.9
+    },
+    {
+     "subject": "富民",
+     "predicate": "PARTICIPATED_IN",
+     "object": "梦中事件",
+     "evidence": "富民为人罗织",
+     "confidence": 0.8
+    },
+    {
+     "subject": "邑人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "梦中事件",
+     "evidence": "适有邑人犯重罪",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:11.851Z"
+}

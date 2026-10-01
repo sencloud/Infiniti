@@ -1,0 +1,114 @@
+{
+ "no": 76,
+ "title": "吴令",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 311,
+   "entities": [
+    {
+     "name": "吴令某公",
+     "type": "Person",
+     "aliases": [
+      "吴令"
+     ],
+     "nickname": "",
+     "description": "吴县县令，刚介有声，清正无私，少年好戏"
+    },
+    {
+     "name": "城隍神",
+     "type": "Spirit",
+     "aliases": [
+      "城隍"
+     ],
+     "nickname": "",
+     "description": "吴县所奉城隍之神，木像被锦藏机如生"
+    },
+    {
+     "name": "吴县",
+     "type": "Place",
+     "aliases": [
+      "吴"
+     ],
+     "nickname": "",
+     "description": "吴令所治之县，俗重城隍"
+    },
+    {
+     "name": "城隍祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴县祭祀城隍之祠"
+    },
+    {
+     "name": "公祠",
+     "type": "Place",
+     "aliases": [
+      "别建之祠"
+     ],
+     "nickname": "",
+     "description": "吴人为吴令别建之祠，亦名城隍"
+    },
+    {
+     "name": "神寿节",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "城隍寿辰，居民敛赀为会游街"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴令某公",
+     "predicate": "LIVES_AT",
+     "object": "吴县",
+     "evidence": "吴令某公，忘其姓字，刚介有声。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴令某公",
+     "predicate": "PUNISHED",
+     "object": "城隍神",
+     "evidence": "曳神于地，笞之二十。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴令某公",
+     "predicate": "HARMED",
+     "object": "城隍神",
+     "evidence": "公大声喧怒，似与神争，数日不止。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴令某公",
+     "predicate": "PARTICIPATED_IN",
+     "object": "神寿节",
+     "evidence": "公出，适相值，止而问之，居民以告。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "神寿节",
+     "predicate": "OCCURRED_AT",
+     "object": "吴县",
+     "evidence": "值神寿节，则居民敛赀为会，辇游通衢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴人",
+     "predicate": "HELPED",
+     "object": "吴令某公",
+     "evidence": "吴人不忘公德，群集祝而解之，别建一祠祠公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴令某公",
+     "predicate": "LIVES_AT",
+     "object": "公祠",
+     "evidence": "别建一祠祠公，声乃息。",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:42.599Z"
+}

@@ -1,0 +1,529 @@
+{
+ "no": 74,
+ "title": "长庚传报魔头狠 行者施为变化能",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5541,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大，善变化"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "长老",
+     "description": "取经人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "李长庚",
+     "description": "天庭神仙，常为取经报信"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎王",
+     "description": "阴间之主"
+    },
+    {
+     "name": "小钻风",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "狮驼岭巡山小妖"
+    },
+    {
+     "name": "狮驼洞",
+     "type": "Organization",
+     "aliases": [
+      "狮驼岭"
+     ],
+     "nickname": "",
+     "description": "八百里狮驼岭中的妖洞"
+    },
+    {
+     "name": "狮驼岭",
+     "type": "Place",
+     "aliases": [
+      "八百里狮驼岭"
+     ],
+     "nickname": "",
+     "description": "八百里高山，妖魔盘踞"
+    },
+    {
+     "name": "花果山水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空祖居之地"
+    },
+    {
+     "name": "傲来国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空出身之地"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "钉钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒的兵器"
+    },
+    {
+     "name": "降妖杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "话表三藏师徒们打开欲网",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我是唐僧第二个徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我还有个师弟，他一降妖杖又打死一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "傲来国",
+     "evidence": "我小和尚祖居傲来国花果山水帘洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "花果山水帘洞",
+     "evidence": "祖居傲来国花果山水帘洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "手里执一根金箍棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "把钉钯撒在腰里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖杖",
+     "evidence": "他一降妖杖又打死一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "阎罗王",
+     "evidence": "唬倒阎王，几乎掀翻了森罗殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "望老星上界与玉帝说声",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小钻风",
+     "predicate": "MEMBER_OF",
+     "object": "狮驼洞",
+     "evidence": "原来是个小妖儿，掮着一杆“令”字旗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狮驼洞",
+     "predicate": "STATIONED_AT",
+     "object": "狮驼岭",
+     "evidence": "此山叫做八百里狮驼岭，中间有座狮驼洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "小钻风",
+     "evidence": "也变做个小妖儿，照依他敲着梆",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2372,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大，会七十二变"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "唐僧",
+     "description": "东土大唐高僧，十世修行好人"
+    },
+    {
+     "name": "王母娘娘",
+     "type": "Person",
+     "aliases": [
+      "西王母",
+      "王母",
+      "金母"
+     ],
+     "nickname": "王母娘娘",
+     "description": "天庭女神，曾设蟠桃大会"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "李长庚",
+     "description": "天庭神仙，曾传报魔头消息"
+    },
+    {
+     "name": "大鹏金翅雕",
+     "type": "Person",
+     "aliases": [
+      "云程万里鹏",
+      "大鹏",
+      "如来舅舅"
+     ],
+     "nickname": "云程万里鹏",
+     "description": "狮驼岭三大王，神通广大，有阴阳二气瓶"
+    },
+    {
+     "name": "小钻风",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "小钻风",
+     "description": "狮驼岭小妖，巡山探路"
+    },
+    {
+     "name": "大大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "大大王",
+     "description": "狮驼岭大王，曾一口吞十万天兵"
+    },
+    {
+     "name": "玉皇",
+     "type": "Person",
+     "aliases": [
+      "玉皇大帝"
+     ],
+     "nickname": "玉皇",
+     "description": "天庭之主，曾差十万天兵降妖"
+    },
+    {
+     "name": "狮驼岭",
+     "type": "Organization",
+     "aliases": [
+      "狮驼洞"
+     ],
+     "nickname": "",
+     "description": "妖怪势力，大大王与二大王盘踞"
+    },
+    {
+     "name": "狮驼国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "被大鹏金翅雕夺占的国度，尽是妖怪"
+    },
+    {
+     "name": "天庭",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉皇大帝统领的天界势力"
+    },
+    {
+     "name": "狮驼岭",
+     "type": "Place",
+     "aliases": [
+      "狮驼洞"
+     ],
+     "nickname": "",
+     "description": "妖怪盘踞的山岭，有洞府"
+    },
+    {
+     "name": "狮驼国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西下四百里远的城池，被妖怪占据"
+    },
+    {
+     "name": "笔峰",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山头长出的峰，如笔插架上"
+    },
+    {
+     "name": "阴阳二气瓶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "大鹏金翅雕的宝贝，装人一时三刻化为浆水"
+    },
+    {
+     "name": "铁棒",
+     "type": "Item",
+     "aliases": [
+      "金箍棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "蟠桃大会",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "王母娘娘设宴邀请诸仙"
+    },
+    {
+     "name": "大闹天宫",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "大大王争天，被十万天兵降伏"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我保唐僧成正果",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "我保唐僧成正果",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "小钻风",
+     "evidence": "摇身一变，变的就象小钻风模样",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "小钻风",
+     "evidence": "把棍子望小妖头上砑了一砑，可怜，就砑得象一个肉陀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "掣出铁棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹天宫",
+     "evidence": "老孙也曾干过",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王母娘娘",
+     "predicate": "MASTERMINDED",
+     "object": "蟠桃大会",
+     "evidence": "王母娘娘设蟠桃大会，邀请诸仙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蟠桃大会",
+     "predicate": "OCCURRED_AT",
+     "object": "天庭",
+     "evidence": "王母娘娘设蟠桃大会，邀请诸仙",
+     "confidence": 0.8
+    },
+    {
+     "subject": "大大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹天宫",
+     "evidence": "我大王意欲争天，被玉皇差十万天兵来降我大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇",
+     "predicate": "DEFEATED",
+     "object": "大大王",
+     "evidence": "被玉皇差十万天兵来降我大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大大王",
+     "predicate": "LEADS",
+     "object": "狮驼岭",
+     "evidence": "我大大王与二大王久住在狮驼岭狮驼洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "LEADS",
+     "object": "狮驼国",
+     "evidence": "他五百年前吃了这城国王及文武官僚，满城大小男女也尽被他吃了干净，因此上夺了他的江山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "KILLED",
+     "object": "狮驼国国王",
+     "evidence": "他五百年前吃了这城国王及文武官僚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "OWNS",
+     "object": "阴阳二气瓶",
+     "evidence": "随身有一件儿宝贝，唤做阴阳二气瓶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "ALLIED_WITH",
+     "object": "狮驼岭",
+     "evidence": "径来此处与我这两个大王结为兄弟，合意同心，打伙儿捉那个唐僧也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "ATTACKED",
+     "object": "狮驼国",
+     "evidence": "夺了他的江山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "李长庚之言，真是不妄",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:43.423Z"
+}

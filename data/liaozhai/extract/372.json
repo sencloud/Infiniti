@@ -1,0 +1,150 @@
+{
+ "no": 372,
+ "title": "金陵乙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 366,
+   "entities": [
+    {
+     "name": "某乙",
+     "type": "Person",
+     "aliases": [
+      "金陵卖酒人某乙",
+      "乙"
+     ],
+     "nickname": "",
+     "description": "金陵卖酒人，以药酒致富，后化狐而死"
+    },
+    {
+     "name": "孙氏长妇",
+     "type": "Person",
+     "aliases": [
+      "长妇"
+     ],
+     "nickname": "",
+     "description": "金陵巷中孙家长媳，患狐为祟"
+    },
+    {
+     "name": "孙氏妇娣",
+     "type": "Person",
+     "aliases": [
+      "妇娣"
+     ],
+     "nickname": "",
+     "description": "孙家二媳，貌美，乙窥而求狐携往"
+    },
+    {
+     "name": "异域僧",
+     "type": "Person",
+     "aliases": [
+      "僧",
+      "和尚"
+     ],
+     "nickname": "",
+     "description": "外地僧人，为孙家厌胜，设坛作法"
+    },
+    {
+     "name": "乙妻",
+     "type": "Person",
+     "aliases": [
+      "妻子"
+     ],
+     "nickname": "",
+     "description": "某乙之妻，乙化狐后叩请僧饶恕"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某乙籍贯及卖酒之地"
+    },
+    {
+     "name": "孙氏家",
+     "type": "Place",
+     "aliases": [
+      "孙家"
+     ],
+     "nickname": "",
+     "description": "巷中孙氏宅院，长妇患狐，僧设坛处"
+    },
+    {
+     "name": "洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐邀乙入之洞，取褐衣处"
+    },
+    {
+     "name": "褐衣",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐先兄所遗，着之可隐形"
+    },
+    {
+     "name": "巨符",
+     "type": "Item",
+     "aliases": [
+      "符"
+     ],
+     "nickname": "",
+     "description": "异域僧所授，贴孙家墙上，画蜿蜒如龙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "某乙",
+     "predicate": "NATIVE_OF",
+     "object": "金陵",
+     "evidence": "金陵卖酒人某乙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某乙",
+     "predicate": "OWNS",
+     "object": "褐衣",
+     "evidence": "取褐衣授之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "异域僧",
+     "predicate": "HELPED",
+     "object": "孙氏长妇",
+     "evidence": "盖孙觅一异域僧，为之厌胜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "异域僧",
+     "predicate": "OWNS",
+     "object": "巨符",
+     "evidence": "授符先归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "异域僧",
+     "predicate": "PUNISHED",
+     "object": "某乙",
+     "evidence": "至门外，踣地化为狐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乙妻",
+     "predicate": "KIN",
+     "object": "某乙",
+     "evidence": "妻子叩请",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乙妻",
+     "predicate": "HELPED",
+     "object": "某乙",
+     "evidence": "妻子叩请",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:32.583Z"
+}

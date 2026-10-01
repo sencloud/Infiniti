@@ -1,0 +1,220 @@
+{
+ "no": 359,
+ "title": "小梅",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2543,
+   "entities": [
+    {
+     "name": "王慕贞",
+     "type": "Person",
+     "aliases": [
+      "慕贞",
+      "王生"
+     ],
+     "nickname": "",
+     "description": "蒙阴世家子，慷慨救人，娶小梅为继室"
+    },
+    {
+     "name": "小梅",
+     "type": "Spirit",
+     "aliases": [
+      "梅娘",
+      "小梅女"
+     ],
+     "nickname": "",
+     "description": "狐女，受母命报恩，假托神女嫁王慕贞"
+    },
+    {
+     "name": "狐祖母",
+     "type": "Spirit",
+     "aliases": [
+      "老狐",
+      "狐媪"
+     ],
+     "nickname": "",
+     "description": "东山老狐，为报恩遣女小梅嫁王慕贞"
+    },
+    {
+     "name": "王妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王慕贞亡妻，好佛，临终嘱王娶小梅"
+    },
+    {
+     "name": "保儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王慕贞妾所生子，后殇"
+    },
+    {
+     "name": "黄太仆",
+     "type": "Person",
+     "aliases": [
+      "黄先生",
+      "黄公"
+     ],
+     "nickname": "",
+     "description": "沂水人，王慕贞父执，主持小梅婚礼"
+    },
+    {
+     "name": "王妾",
+     "type": "Person",
+     "aliases": [
+      "妾"
+     ],
+     "nickname": "",
+     "description": "王慕贞之妾，生保儿及一女"
+    },
+    {
+     "name": "喜红",
+     "type": "Person",
+     "aliases": [
+      "小红"
+     ],
+     "nickname": "",
+     "description": "小梅所生子，左臂有朱点"
+    },
+    {
+     "name": "蒙阴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王慕贞籍贯地"
+    },
+    {
+     "name": "江浙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王慕贞游历并救人之地"
+    },
+    {
+     "name": "沂水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄太仆籍贯地"
+    },
+    {
+     "name": "西河柳堤",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "小梅嘱王慕贞避灾之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王慕贞",
+     "predicate": "HELPED",
+     "object": "狐祖母",
+     "evidence": "出橐中金为之斡旋，竟释其罪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐祖母",
+     "predicate": "HELPED",
+     "object": "王慕贞",
+     "evidence": "感义而思所报，乃因夫人好佛，附为神道，实将以妾报君也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小梅",
+     "predicate": "SPOUSE",
+     "object": "王慕贞",
+     "evidence": "即以为继室可也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王慕贞",
+     "predicate": "SPOUSE",
+     "object": "王妻",
+     "evidence": "王妻贤而好佛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王慕贞",
+     "predicate": "KIN",
+     "object": "保儿",
+     "evidence": "盖王有妾，生一子，名保儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王慕贞",
+     "predicate": "KIN",
+     "object": "喜红",
+     "evidence": "女生一子。子生，左臂有朱点，因字小红",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小梅",
+     "predicate": "KIN",
+     "object": "喜红",
+     "evidence": "女生一子。子生，左臂有朱点，因字小红",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王慕贞",
+     "predicate": "FRIEND",
+     "object": "黄太仆",
+     "evidence": "于王为父执，往来最善",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄太仆",
+     "predicate": "HELPED",
+     "object": "小梅",
+     "evidence": "黄握儿臂，便捋左袂，见朱记宛然，因袒示众人，以证其确",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄太仆",
+     "predicate": "HELPED",
+     "object": "喜红",
+     "evidence": "亲诣邑令，令拘无赖辈，各笞四十，械禁严追",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王慕贞",
+     "predicate": "LIVES_AT",
+     "object": "蒙阴",
+     "evidence": "蒙阴王慕贞，世家子也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王慕贞",
+     "predicate": "NATIVE_OF",
+     "object": "蒙阴",
+     "evidence": "蒙阴王慕贞，世家子也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄太仆",
+     "predicate": "NATIVE_OF",
+     "object": "沂水",
+     "evidence": "时沂水黄太仆，致仕闲居",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王慕贞",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救死罪",
+     "evidence": "出橐中金为之斡旋，竟释其罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "救死罪",
+     "predicate": "OCCURRED_AT",
+     "object": "江浙",
+     "evidence": "偶游江浙，见媪哭于途",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:30.112Z"
+}

@@ -1,0 +1,587 @@
+{
+ "no": 33,
+ "title": "外道迷真性 元神助本心",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5863,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，被妖怪擒获"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，保唐僧取经"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "赐孙悟空法旨的菩萨"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "法宝紫金红葫芦、羊脂玉净瓶的主人"
+    },
+    {
+     "name": "精细鬼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莲花洞小妖，持紫金红葫芦"
+    },
+    {
+     "name": "伶俐虫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莲花洞小妖，持羊脂玉净瓶"
+    },
+    {
+     "name": "老魔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莲花洞大魔王"
+    },
+    {
+     "name": "山神",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被妖魔拘唤当值的山神"
+    },
+    {
+     "name": "土地",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被妖魔拘唤当值的土地"
+    },
+    {
+     "name": "莲花洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖魔盘踞的洞府"
+    },
+    {
+     "name": "须弥山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "被遣来压孙悟空的山"
+    },
+    {
+     "name": "峨眉山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "被遣来压孙悟空的山"
+    },
+    {
+     "name": "泰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "被遣来压孙悟空的山"
+    },
+    {
+     "name": "蓬莱山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "海岛神仙境界"
+    },
+    {
+     "name": "紫金红葫芦",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "二魔的宝贝，可装人"
+    },
+    {
+     "name": "羊脂玉净瓶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "老魔的宝贝，可装人"
+    },
+    {
+     "name": "如意金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "降妖棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧的兵器"
+    },
+    {
+     "name": "七星剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "二魔的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "老真人",
+     "evidence": "这大圣摇身一变，变做个老真人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "莲花洞",
+     "evidence": "我与你同拿他去，就当与你助功。",
+     "confidence": 0.6
+    },
+    {
+     "subject": "精细鬼",
+     "predicate": "MEMBER_OF",
+     "object": "莲花洞",
+     "evidence": "自莲花洞来的。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "伶俐虫",
+     "predicate": "MEMBER_OF",
+     "object": "莲花洞",
+     "evidence": "自莲花洞来的。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老魔",
+     "predicate": "LEADS",
+     "object": "莲花洞",
+     "evidence": "老魔闻言大喜道：“拿来我看。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "精细鬼",
+     "predicate": "OWNS",
+     "object": "紫金红葫芦",
+     "evidence": "我的是红葫芦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "伶俐虫",
+     "predicate": "OWNS",
+     "object": "羊脂玉净瓶",
+     "evidence": "他的是玉净瓶。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "如意金箍棒",
+     "evidence": "他有一条如意金箍棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖棒",
+     "evidence": "掣出降妖棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "跟唐僧做了徒弟。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "感菩萨赐与法旨",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "花果山生了我",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹天宫",
+     "evidence": "大闹天宫，名称大圣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "遣山压行者",
+     "predicate": "OCCURRED_AT",
+     "object": "须弥山",
+     "evidence": "把一座须弥山遣在空中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "遣山压行者",
+     "predicate": "OCCURRED_AT",
+     "object": "峨眉山",
+     "evidence": "把一座峨眉山遣在空中来压。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "遣山压行者",
+     "predicate": "OCCURRED_AT",
+     "object": "泰山",
+     "evidence": "将一座泰山遣在空中，劈头压住行者。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2060,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿",
+      "行者",
+      "大圣"
+     ],
+     "nickname": "齐天大圣",
+     "description": "保唐僧取经的猴王，变化多端"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "孙悟空的师父，西天取经的僧人"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主，掌管三界"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "道教尊神，法宝众多"
+    },
+    {
+     "name": "哪吒",
+     "type": "Person",
+     "aliases": [
+      "三太子",
+      "哪吒太子",
+      "三坛海会大神"
+     ],
+     "nickname": "三太子",
+     "description": "天庭神将，助孙悟空装天"
+    },
+    {
+     "name": "菩提祖师",
+     "type": "Person",
+     "aliases": [
+      "须菩提",
+      "祖师"
+     ],
+     "nickname": "祖师",
+     "description": "孙悟空的授业恩师"
+    },
+    {
+     "name": "精细鬼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山莲花洞小妖"
+    },
+    {
+     "name": "伶俐虫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山莲花洞小妖"
+    },
+    {
+     "name": "真武",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北天门神将，持有皂雕旗"
+    },
+    {
+     "name": "日游神",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭神祇，负责传奏"
+    },
+    {
+     "name": "夜游神",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭神祇，负责传奏"
+    },
+    {
+     "name": "观音",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛教菩萨，曾向玉帝说情"
+    },
+    {
+     "name": "日值功曹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭值日神祇，曾报信"
+    },
+    {
+     "name": "天庭",
+     "type": "Organization",
+     "aliases": [
+      "灵霄殿",
+      "南天门",
+      "北天门"
+     ],
+     "nickname": "",
+     "description": "玉皇大帝统领的神仙势力"
+    },
+    {
+     "name": "平顶山莲花洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "精细鬼、伶俐虫所属妖洞"
+    },
+    {
+     "name": "紫金红葫芦",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空毫毛变的假葫芦"
+    },
+    {
+     "name": "净瓶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "伶俐虫持有的装人宝贝"
+    },
+    {
+     "name": "皂雕旗",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "真武的旗帜，可遮天蔽日"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "老孙皈依正果，保唐僧去西天取经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "菩提祖师",
+     "evidence": "菩提祖师",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "保唐僧去西天取经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "精细鬼",
+     "evidence": "行者见说，心中暗惊",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "伶俐虫",
+     "evidence": "行者见说，心中暗惊",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "紫金红葫芦",
+     "evidence": "即变做一个一尺七寸长的大紫金红葫芦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伶俐虫",
+     "predicate": "OWNS",
+     "object": "净瓶",
+     "evidence": "伶俐虫拿出净瓶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "那太子奉旨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "哪吒太子来助功了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "真武",
+     "predicate": "OWNS",
+     "object": "皂雕旗",
+     "evidence": "往北天门问真武借皂雕旗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "精细鬼",
+     "predicate": "MEMBER_OF",
+     "object": "平顶山莲花洞",
+     "evidence": "精细鬼交了葫芦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伶俐虫",
+     "predicate": "MEMBER_OF",
+     "object": "平顶山莲花洞",
+     "evidence": "伶俐虫拿出净瓶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "日游神",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "那日游神径至南天门里灵霄殿下，启奏玉帝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夜游神",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "那日游神径至南天门里灵霄殿下，启奏玉帝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "前者观音来说，放了他保护唐僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "日值功曹",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "当时日值功曹报信",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:35.745Z"
+}

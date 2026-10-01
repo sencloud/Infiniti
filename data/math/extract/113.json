@@ -1,0 +1,141 @@
+{
+ "no": 113,
+ "title": "5.4 概率的应用——概率帮你做估计",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4067,
+   "entities": [
+    {
+     "name": "等可能条件下的概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "所有可能结果有限且每个结果发生概率相等"
+    },
+    {
+     "name": "频率估计概率",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用大量重复试验的频率估计概率"
+    },
+    {
+     "name": "概率的应用",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用概率知识解决实际问题"
+    },
+    {
+     "name": "摸球试验",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过摸球试验估计球的数量比"
+    },
+    {
+     "name": "捉放捉方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "标记重捕法估计种群数量"
+    },
+    {
+     "name": "蒙特卡罗方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "基于随机试验的数值计算方法"
+    },
+    {
+     "name": "列表法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用表格列出所有等可能结果"
+    },
+    {
+     "name": "树状图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用树状图列出所有等可能结果"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "事件发生的可能性大小的度量"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "频率估计概率",
+     "predicate": "APPLIES_TO",
+     "object": "概率的应用",
+     "evidence": "当试验次数很大时，用频率作为概率的估计值",
+     "confidence": 0.95
+    },
+    {
+     "subject": "摸球试验",
+     "predicate": "APPLIES_TO",
+     "object": "概率的应用",
+     "evidence": "根据试验的结果，你能估计袋子中白球数与红球数的比吗？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "捉放捉方法",
+     "predicate": "APPLIES_TO",
+     "object": "概率的应用",
+     "evidence": "生物学家常常用上述方法估计某个种群的数量",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒙特卡罗方法",
+     "predicate": "APPLIES_TO",
+     "object": "概率的应用",
+     "evidence": "这种基于“随机试验”进行数值计算获得数值近似解的基本思想，后来逐步发展为用电子计算机实现大量模拟的统计试验法，这就是被广泛应用于市场预测、证券投资等领域的“蒙特卡罗方法”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "列表法",
+     "predicate": "APPLIES_TO",
+     "object": "等可能条件下的概率",
+     "evidence": "列表法适于两次试验，可以将试验结果用有序数对表示",
+     "confidence": 0.9
+    },
+    {
+     "subject": "树状图",
+     "predicate": "APPLIES_TO",
+     "object": "等可能条件下的概率",
+     "evidence": "树状图比较直观，可适于多次试验",
+     "confidence": 0.9
+    },
+    {
+     "subject": "列表法",
+     "predicate": "CONTRASTS",
+     "object": "树状图",
+     "evidence": "列表法适于两次试验，可以将试验结果用有序数对表示；树状图比较直观，可适于多次试验。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "频率估计概率",
+     "predicate": "PREREQUISITE",
+     "object": "概率的应用",
+     "evidence": "当试验次数很大时，用频率作为概率的估计值，可以估计摸到白球的概率为0.1。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "概率",
+     "predicate": "PREREQUISITE",
+     "object": "等可能条件下的概率",
+     "evidence": "等可能条件下的概率是一类经典概率问题",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:23.536Z"
+}

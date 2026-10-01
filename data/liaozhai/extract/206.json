@@ -1,0 +1,183 @@
+{
+ "no": 206,
+ "title": "彭海秋",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2148,
+   "entities": [
+    {
+     "name": "彭好古",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莱州诸生，字海秋同宗，与娟娘相恋"
+    },
+    {
+     "name": "彭海秋",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "广陵书生，实为仙人，能招船唤人"
+    },
+    {
+     "name": "丘生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑名士，有隐恶，被彭海秋变为马"
+    },
+    {
+     "name": "娟娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "广陵名妓，与彭好古有三年之约"
+    },
+    {
+     "name": "梁公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "扬州公子，与彭好古通家，宴请彭"
+    },
+    {
+     "name": "莱州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "彭好古家乡，读书别业所在"
+    },
+    {
+     "name": "广陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "彭海秋自称籍贯，娟娘所在"
+    },
+    {
+     "name": "西湖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "彭海秋带彭好古等游赏之地"
+    },
+    {
+     "name": "扬州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁公子所在地，彭好古探亲处"
+    },
+    {
+     "name": "别业",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "彭好古读书的别墅"
+    },
+    {
+     "name": "三年之约",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "彭海秋代彭好古与娟娘订的三年后相见之约"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "彭好古",
+     "predicate": "NATIVE_OF",
+     "object": "莱州",
+     "evidence": "莱州诸生彭好古，读书别业，离家颇远。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "彭好古",
+     "predicate": "LIVES_AT",
+     "object": "别业",
+     "evidence": "读书别业，离家颇远。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "彭海秋",
+     "predicate": "NATIVE_OF",
+     "object": "广陵",
+     "evidence": "客曰：“小生广陵人，与君同姓，字海秋。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "彭好古",
+     "predicate": "FRIEND",
+     "object": "彭海秋",
+     "evidence": "彭大喜曰：“是我宗人。今夕何夕，遘此嘉客！”即命酌，款若夙好。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭海秋",
+     "predicate": "HELPED",
+     "object": "彭好古",
+     "evidence": "客曰：“贵乡苦无佳人，适于西湖舟中唤得来。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭海秋",
+     "predicate": "HARMED",
+     "object": "丘生",
+     "evidence": "至空处，戏拍项领，遂迷闷颠踣。伏定少刻，自顾已马。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "彭好古",
+     "predicate": "LOVES",
+     "object": "娟娘",
+     "evidence": "彭益动，请要后期",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭好古",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三年之约",
+     "evidence": "客即以彭绫巾授女，曰：“我为若代订三年之约。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "娟娘",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三年之约",
+     "evidence": "客即以彭绫巾授女，曰：“我为若代订三年之约。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭好古",
+     "predicate": "SPOUSE",
+     "object": "娟娘",
+     "evidence": "千金削其籍，携之以归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭好古",
+     "predicate": "LIVES_AT",
+     "object": "扬州",
+     "evidence": "以姊丈判扬州，因往省视。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "梁公子",
+     "predicate": "FRIEND",
+     "object": "彭好古",
+     "evidence": "州有梁公子，与彭通家，开筵邀饮。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭好古",
+     "predicate": "HELPED",
+     "object": "娟娘",
+     "evidence": "千金削其籍，携之以归。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:32.688Z"
+}

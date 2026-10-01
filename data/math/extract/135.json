@@ -1,0 +1,64 @@
+{
+ "no": 135,
+ "title": "8.4 抽签方法合理吗",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1066,
+   "entities": [
+    {
+     "name": "抽签方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用抽签决定事情的方法"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "随机事件发生可能性大小的度量"
+    },
+    {
+     "name": "树状图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用树状图列出所有等可能结果的方法"
+    },
+    {
+     "name": "等可能事件",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "每个结果出现的可能性相等的事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "树状图",
+     "predicate": "APPLIES_TO",
+     "object": "概率",
+     "evidence": "用树状图列出所有可能出现的结果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抽签方法",
+     "predicate": "RELATED",
+     "object": "概率",
+     "evidence": "我们运用概率知识解决这个问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等可能事件",
+     "predicate": "PREREQUISITE",
+     "object": "概率",
+     "evidence": "一共有 6 种可能出现的结果，并且它们是等可能的",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:32.104Z"
+}

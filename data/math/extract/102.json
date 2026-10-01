@@ -1,0 +1,206 @@
+{
+ "no": 102,
+ "title": "3.4 圆周角",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3843,
+   "entities": [
+    {
+     "name": "圆周角",
+     "type": "Concept",
+     "aliases": [
+      "angle in a circular segment"
+     ],
+     "nickname": "",
+     "description": "顶点在圆上，并且两边都和圆相交的角"
+    },
+    {
+     "name": "圆心角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "顶点在圆心的角"
+    },
+    {
+     "name": "弧",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆上两点间的部分"
+    },
+    {
+     "name": "圆周角定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "同弧或等弧所对的圆周角相等，圆周角等于它所对弧上的圆心角的一半"
+    },
+    {
+     "name": "圆周角定理的推论",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直径所对的圆周角是直角；90°的圆周角所对的弦是直径"
+    },
+    {
+     "name": "圆内接四边形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个顶点都在同一个圆上的四边形"
+    },
+    {
+     "name": "圆内接四边形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆内接四边形的对角互补"
+    },
+    {
+     "name": "等腰三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有两条边相等的三角形"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的平行四边形"
+    },
+    {
+     "name": "直径",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "经过圆心的弦"
+    },
+    {
+     "name": "弦",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "连接圆上任意两点的线段"
+    },
+    {
+     "name": "半圆",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆的一条直径的两个端点把圆分成的两条弧"
+    },
+    {
+     "name": "分类讨论",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把问题分为若干情况逐一讨论的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "圆周角",
+     "predicate": "PREREQUISITE",
+     "object": "圆周角定理",
+     "evidence": "顶点在圆上，并且两边都和圆相交的角叫作圆周角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆心角",
+     "predicate": "PREREQUISITE",
+     "object": "圆周角定理",
+     "evidence": "圆心角的度数由它所对弧的度数确定，下面我们来研究同弧所对的圆周角和圆心角的关系",
+     "confidence": 0.95
+    },
+    {
+     "subject": "弧",
+     "predicate": "PREREQUISITE",
+     "object": "圆周角定理",
+     "evidence": "这两个圆周角所对的弧都是弧BC",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆周角定理",
+     "predicate": "PROPERTY_OF",
+     "object": "圆周角",
+     "evidence": "圆周角定理：同弧或等弧所对的圆周角相等，圆周角等于它所对弧上的圆心角的一半",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆周角定理",
+     "predicate": "DERIVES",
+     "object": "圆周角定理的推论",
+     "evidence": "于是，我们得到圆周角定理的推论：直径所对的圆周角是直角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆周角定理的推论",
+     "predicate": "PROPERTY_OF",
+     "object": "直径",
+     "evidence": "直径所对的圆周角是直角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆周角定理的推论",
+     "predicate": "PROPERTY_OF",
+     "object": "弦",
+     "evidence": "90°的圆周角所对的弦是直径",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆内接四边形的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "圆内接四边形",
+     "evidence": "圆内接四边形的对角互补",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆周角定理",
+     "predicate": "PREREQUISITE",
+     "object": "圆内接四边形的性质",
+     "evidence": "因为∠A所对的弧为弧BCD，∠C所对的弧为弧BAD，而弧BCD和弧BAD的度数的和是360°，所以∠A+∠C=180°",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等腰三角形",
+     "predicate": "PREREQUISITE",
+     "object": "圆周角定理",
+     "evidence": "当圆心O在∠BAC的边AC上时，△AOB是等腰三角形，∠BOC=2∠A",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分类讨论",
+     "predicate": "APPLIES_TO",
+     "object": "圆周角定理",
+     "evidence": "我们把问题分为三种情况，逐一证明在每种情况下结论都成立，最终得到了圆周角和圆心角之间的关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆周角定理的推论",
+     "predicate": "APPLIES_TO",
+     "object": "矩形",
+     "evidence": "证明：以圆的两条直径为对角线的四边形是矩形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆内接四边形的性质",
+     "predicate": "APPLIES_TO",
+     "object": "矩形",
+     "evidence": "证明：圆的内接平行四边形是矩形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "半圆",
+     "predicate": "RELATED",
+     "object": "圆周角定理的推论",
+     "evidence": "特别地，当这条弧是半圆时，如图3-34，可得其所对的圆周角∠BAC=90°",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:19.175Z"
+}

@@ -1,0 +1,117 @@
+{
+ "no": 272,
+ "title": "金姑夫",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 345,
+   "entities": [
+    {
+     "name": "梅姑",
+     "type": "Spirit",
+     "aliases": [
+      "马氏女"
+     ],
+     "nickname": "",
+     "description": "会稽梅姑祠神女，姓马，未嫁而夫死，守贞三旬而卒"
+    },
+    {
+     "name": "金生",
+     "type": "Person",
+     "aliases": [
+      "金姑夫"
+     ],
+     "nickname": "",
+     "description": "上虞人，赴试经梅姑祠，后为梅姑所招而死"
+    },
+    {
+     "name": "金生妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生之妻，痛恨梅姑，诣祠辱骂批颊"
+    },
+    {
+     "name": "族长",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梅姑族人，恐玷其贞，初不从塑金生像"
+    },
+    {
+     "name": "梅姑祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "会稽祭祀梅姑的祠庙"
+    },
+    {
+     "name": "东莞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梅姑族居之地"
+    },
+    {
+     "name": "上虞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "梅姑",
+     "predicate": "SPOUSE",
+     "object": "金生",
+     "evidence": "上虞金生，今为吾婿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金生",
+     "predicate": "SPOUSE",
+     "object": "金生妻",
+     "evidence": "金生告妻子曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金生妻",
+     "predicate": "HARMED",
+     "object": "梅姑",
+     "evidence": "诣祠指女像秽骂，又升座批颊数四",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梅姑",
+     "predicate": "HARMED",
+     "object": "族长",
+     "evidence": "未几，一家俱病",
+     "confidence": 0.85
+    },
+    {
+     "subject": "梅姑",
+     "predicate": "LIVES_AT",
+     "object": "梅姑祠",
+     "evidence": "入祠，梅姑立候檐下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金生",
+     "predicate": "LIVES_AT",
+     "object": "上虞",
+     "evidence": "上虞金生赴试经此",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梅姑",
+     "predicate": "NATIVE_OF",
+     "object": "东莞",
+     "evidence": "神故马姓，族居东莞",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:56.113Z"
+}

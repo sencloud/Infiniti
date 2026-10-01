@@ -1,0 +1,274 @@
+{
+ "no": 181,
+ "title": "章阿端",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1932,
+   "entities": [
+    {
+     "name": "戚生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卫辉人，购鬼宅而居，与章阿端相恋"
+    },
+    {
+     "name": "章阿端",
+     "type": "Spirit",
+     "aliases": [
+      "阿端",
+      "端娘",
+      "端姑娘"
+     ],
+     "nickname": "",
+     "description": "女鬼，误嫁荡子早逝，与戚生相恋"
+    },
+    {
+     "name": "戚妻",
+     "type": "Spirit",
+     "aliases": [
+      "娘子",
+      "妻"
+     ],
+     "nickname": "",
+     "description": "戚生亡妻，死后暂留冥间，后返阳与戚生团聚"
+    },
+    {
+     "name": "老婢",
+     "type": "Spirit",
+     "aliases": [
+      "婢"
+     ],
+     "nickname": "",
+     "description": "章阿端役使的故鬼，曾奉命驱赶戚生"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [
+      "邻媪王氏",
+      "老妪"
+     ],
+     "nickname": "",
+     "description": "邻居老太太，在冥间行巫医之术"
+    },
+    {
+     "name": "黑山大王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "附于王氏之身的神灵，为章阿端诊病"
+    },
+    {
+     "name": "卫辉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戚生籍贯所在地"
+    },
+    {
+     "name": "巨第",
+     "type": "Place",
+     "aliases": [
+      "第",
+      "宅第"
+     ],
+     "nickname": "",
+     "description": "大姓所售闹鬼宅院，戚生购居"
+    },
+    {
+     "name": "东院楼亭",
+     "type": "Place",
+     "aliases": [
+      "楼亭",
+      "荒亭"
+     ],
+     "nickname": "",
+     "description": "宅中荒废楼亭，戚生独卧遇鬼处"
+    },
+    {
+     "name": "药王廊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间寄居处，戚妻暂留之地"
+    },
+    {
+     "name": "山东",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戚妻原定投生之地"
+    },
+    {
+     "name": "祖墓",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戚生祖坟，章阿端葬处"
+    },
+    {
+     "name": "南堂杏树",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戚生焚纸钱行贿押生者之处"
+    },
+    {
+     "name": "冥间",
+     "type": "Place",
+     "aliases": [
+      "冥司",
+      "阴间"
+     ],
+     "nickname": "",
+     "description": "鬼魂所居、阎王管辖之处"
+    },
+    {
+     "name": "城隍",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间神祇，章阿端冤解后为其女"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "戚生",
+     "predicate": "LOVES",
+     "object": "章阿端",
+     "evidence": "近临之，对烛如仙，渐拥诸怀。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戚生",
+     "predicate": "SPOUSE",
+     "object": "戚妻",
+     "evidence": "生妻以暮至楼亭，既归，得疾，数日寻毙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "章阿端",
+     "predicate": "SPOUSE",
+     "object": "荡子",
+     "evidence": "误适荡子，刚愎不仁，横加折辱，愤悒夭逝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "章阿端",
+     "predicate": "HARMED",
+     "object": "戚生",
+     "evidence": "女笑曰：“狂生不畏鬼耶？将祸尔死！”",
+     "confidence": 0.7
+    },
+    {
+     "subject": "老婢",
+     "predicate": "HARMED",
+     "object": "戚生",
+     "evidence": "忽有人以手探被，反复扪搎。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "章阿端",
+     "predicate": "HELPED",
+     "object": "戚生",
+     "evidence": "君诚多情，妾当极力。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "章阿端",
+     "predicate": "HELPED",
+     "object": "戚妻",
+     "evidence": "幸赖端娘，今得十日聚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戚妻",
+     "predicate": "HELPED",
+     "object": "章阿端",
+     "evidence": "妻抚之曰：“此为鬼病。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "HELPED",
+     "object": "章阿端",
+     "evidence": "邻媪王氏，今行术于冥间，可往召之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑山大王",
+     "predicate": "HELPED",
+     "object": "章阿端",
+     "evidence": "此业鬼为殃，不妨，不妨！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "章阿端之夫",
+     "predicate": "KILLED",
+     "object": "章阿端",
+     "evidence": "其夫为聻鬼，怒其改节泉下，衔恨索命去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戚生",
+     "predicate": "LIVES_AT",
+     "object": "巨第",
+     "evidence": "生廉其直，购居之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戚生",
+     "predicate": "NATIVE_OF",
+     "object": "卫辉",
+     "evidence": "卫辉戚生，少年蕴藉，有气敢任。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戚妻",
+     "predicate": "LIVES_AT",
+     "object": "药王廊",
+     "evidence": "今尚寄药王廊下，有监守者。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "章阿端",
+     "predicate": "LIVES_AT",
+     "object": "巨第",
+     "evidence": "此宅下皆坟冢也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "章阿端",
+     "predicate": "LIVES_AT",
+     "object": "祖墓",
+     "evidence": "以生人礼葬于祖墓之侧。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戚生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "道场",
+     "evidence": "生早起，即将如教。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戚妻",
+     "predicate": "PARTICIPATED_IN",
+     "object": "道场",
+     "evidence": "余已命人邀僧侣，当先焚钱纸作用度。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "道场",
+     "predicate": "OCCURRED_AT",
+     "object": "巨第",
+     "evidence": "日方落，僧众毕集，金铙法鼓，一如人世。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:25.719Z"
+}

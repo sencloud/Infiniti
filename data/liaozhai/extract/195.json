@@ -1,0 +1,203 @@
+{
+ "no": 195,
+ "title": "莲花公主",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1752,
+   "entities": [
+    {
+     "name": "窦旭",
+     "type": "Person",
+     "aliases": [
+      "晓晖"
+     ],
+     "nickname": "",
+     "description": "胶州书生，字晓晖，梦入桂府"
+    },
+    {
+     "name": "莲花公主",
+     "type": "Spirit",
+     "aliases": [
+      "莲花"
+     ],
+     "nickname": "",
+     "description": "桂府公主，实为蜂群所化"
+    },
+    {
+     "name": "桂府王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "桂府之王，莲花公主之父"
+    },
+    {
+     "name": "褐衣人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "引窦旭入桂府的使者"
+    },
+    {
+     "name": "内官",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "桂府宦官，传王命召窦旭"
+    },
+    {
+     "name": "黑翼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "含香殿大学士，上奏妖蟒之事"
+    },
+    {
+     "name": "桂府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梦中宫殿，匾额题桂府"
+    },
+    {
+     "name": "胶州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "窦旭籍贯所在地"
+    },
+    {
+     "name": "邻翁旧圃",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻家老翁的菜园，蜂房所在"
+    },
+    {
+     "name": "巨蟒",
+     "type": "Spirit",
+     "aliases": [
+      "妖蟒"
+     ],
+     "nickname": "",
+     "description": "盘踞宫外的千丈妖蟒，实为蛇"
+    },
+    {
+     "name": "奏章",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑翼所上奏章，述妖蟒之祸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "窦旭",
+     "predicate": "NATIVE_OF",
+     "object": "胶州",
+     "evidence": "胶州窦旭，字晓晖。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "窦旭",
+     "predicate": "LIVES_AT",
+     "object": "桂府",
+     "evidence": "仰视殿上一匾曰“桂府”。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "莲花公主",
+     "predicate": "LIVES_AT",
+     "object": "桂府",
+     "evidence": "王命向生展拜，曰：“此即莲花小女也。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "桂府王",
+     "predicate": "LIVES_AT",
+     "object": "桂府",
+     "evidence": "见殿上一王者，见生入，降阶而迎",
+     "confidence": 0.8
+    },
+    {
+     "subject": "桂府王",
+     "predicate": "KIN",
+     "object": "莲花公主",
+     "evidence": "王命向生展拜，曰：“此即莲花小女也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "窦旭",
+     "predicate": "SPOUSE",
+     "object": "莲花公主",
+     "evidence": "挽上氍毹，与生交拜成礼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "窦旭",
+     "predicate": "LOVES",
+     "object": "莲花公主",
+     "evidence": "生睹之，神情摇动，木坐凝思。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "褐衣人",
+     "predicate": "HELPED",
+     "object": "窦旭",
+     "evidence": "见一褐衣人立榻前……从之而出。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "内官",
+     "predicate": "HELPED",
+     "object": "窦旭",
+     "evidence": "遂命内官导之出。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黑翼",
+     "predicate": "PARTICIPATED_IN",
+     "object": "奏章",
+     "evidence": "含香殿大学士臣黑翼，为非常妖异，祈早迁都",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巨蟒",
+     "predicate": "HARMED",
+     "object": "桂府王",
+     "evidence": "妖入宫门，王避偏殿，凶祸不远矣！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巨蟒",
+     "predicate": "HARMED",
+     "object": "莲花公主",
+     "evidence": "妖入宫门，王避偏殿，凶祸不远矣！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巨蟒",
+     "predicate": "HARMED",
+     "object": "窦旭",
+     "evidence": "妖物至矣！阖殿哀呼，惨无天日。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "窦旭",
+     "predicate": "HELPED",
+     "object": "莲花公主",
+     "evidence": "生乃挽扶而出，未几至家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "窦旭",
+     "predicate": "OWNS",
+     "object": "奏章",
+     "evidence": "王以案上一章，授生启读。",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:29.333Z"
+}

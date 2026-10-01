@@ -1,0 +1,574 @@
+{
+ "no": 30,
+ "title": "第三十回 施恩三入死囚牢 武松大闹飞云浦",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5938,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "打虎英雄，被张都监陷害入狱"
+    },
+    {
+     "name": "施恩",
+     "type": "Person",
+     "aliases": [
+      "小管营"
+     ],
+     "nickname": "金眼彪",
+     "description": "快活林原主，武松结义兄弟"
+    },
+    {
+     "name": "蒋门神",
+     "type": "Person",
+     "aliases": [
+      "蒋忠"
+     ],
+     "nickname": "",
+     "description": "强夺快活林酒店，被武松打服"
+    },
+    {
+     "name": "张都监",
+     "type": "Person",
+     "aliases": [
+      "张蒙方"
+     ],
+     "nickname": "",
+     "description": "孟州守御兵马都监，设计陷害武松"
+    },
+    {
+     "name": "张团练",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监结义兄弟，替蒋门神报仇"
+    },
+    {
+     "name": "玉兰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监养娘，被用作陷害武松的诱饵"
+    },
+    {
+     "name": "康节级",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "当牢节级，与施恩交好，照顾武松"
+    },
+    {
+     "name": "叶孔目",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "当案孔目，忠直仗义，周全武松"
+    },
+    {
+     "name": "施老管营",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "施恩之父，安平寨老管营"
+    },
+    {
+     "name": "快活林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州道酒店，施恩原产业"
+    },
+    {
+     "name": "孟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，武松刺配地"
+    },
+    {
+     "name": "安平寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "施老管营理事处"
+    },
+    {
+     "name": "张都监宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监府邸，武松被陷害处"
+    },
+    {
+     "name": "死囚牢",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州大牢，武松被监禁处"
+    },
+    {
+     "name": "景阳冈打虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松在景阳冈打死老虎"
+    },
+    {
+     "name": "武松醉打蒋门神",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松为施恩夺回快活林，痛打蒋门神"
+    },
+    {
+     "name": "张都监陷害武松",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监设圈套诬武松为贼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "DEFEATED",
+     "object": "蒋门神",
+     "evidence": "武松踏住蒋门神在地下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "RESCUED",
+     "object": "施恩",
+     "evidence": "将一应家火什物，随即交还原主金眼彪施恩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "FRAMED",
+     "object": "施恩",
+     "evidence": "被这蒋门神倚势豪强，公然夺了，白白地占了他的衣饭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施恩",
+     "predicate": "SERVED",
+     "object": "武松",
+     "evidence": "把武松似爷娘一般敬重",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "景阳冈上那只大虫，也只打三拳两脚，我兀自打死了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武松醉打蒋门神",
+     "evidence": "武松踏住蒋门神在地下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "SERVED",
+     "object": "张都监",
+     "evidence": "武松跪下称谢道：小人是个牢城营内囚徒，若蒙恩相抬举，小人当以执鞭坠镫，伏侍恩相",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张都监",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "张都监那厮安排这般圈套坑陷我",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张都监",
+     "predicate": "MASTERMINDED",
+     "object": "张都监陷害武松",
+     "evidence": "张都监那厮安排这般圈套坑陷我",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张都监陷害武松",
+     "predicate": "OCCURRED_AT",
+     "object": "张都监宅",
+     "evidence": "张都监向后堂深处鸳鸯楼下安排筵宴",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张都监",
+     "predicate": "SWORN_BROTHER",
+     "object": "张团练",
+     "evidence": "张都监和张团练两个同姓结义做弟兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "SERVED",
+     "object": "张团练",
+     "evidence": "蒋门神躲在张团练家里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张团练",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "张团练替蒋门神报仇，买嘱张都监，却设出这条计策陷害武松",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施恩",
+     "predicate": "FRIEND",
+     "object": "康节级",
+     "evidence": "见今当牢节级姓康的，和孩儿最过得好",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施恩",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "施恩将了一二百两银子，径投康节级",
+     "confidence": 0.9
+    },
+    {
+     "subject": "康节级",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "牢中之事尽是我自维持。如今便去宽他，今后不教他吃半点儿苦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叶孔目",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "把这文案都改得轻了，尽出豁了武松",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "死囚牢",
+     "evidence": "押下死囚牢里监禁了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "阳谷县",
+     "evidence": "自从阳谷县杀了人，配在这里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施恩",
+     "predicate": "STATIONED_AT",
+     "object": "快活林",
+     "evidence": "施恩自此重霸得孟州道快活林",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施老管营",
+     "predicate": "STATIONED_AT",
+     "object": "安平寨",
+     "evidence": "老管营自回安平寨理事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张都监",
+     "predicate": "OWNS",
+     "object": "玉兰",
+     "evidence": "张都监叫唤一个心爱的养娘，叫做玉兰",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2020,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "梁山好汉，被刺配恩州，大闹飞云浦"
+    },
+    {
+     "name": "施恩",
+     "type": "Person",
+     "aliases": [
+      "金眼彪",
+      "小管营"
+     ],
+     "nickname": "金眼彪",
+     "description": "孟州小管营，武松结义兄弟，多次探望武松"
+    },
+    {
+     "name": "张都监",
+     "type": "Person",
+     "aliases": [
+      "张清",
+      "没羽箭"
+     ],
+     "nickname": "没羽箭",
+     "description": "孟州都监，陷害武松，后被武松所杀"
+    },
+    {
+     "name": "蒋门神",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "恶霸，与张都监合谋害武松，夺施恩快活林"
+    },
+    {
+     "name": "张团练",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州团练，与张都监、蒋门神合谋害武松"
+    },
+    {
+     "name": "叶孔目",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州当案孔目，秉公断案，从轻发落武松"
+    },
+    {
+     "name": "老管营",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "施恩之父，使钱疏通，助武松轻判"
+    },
+    {
+     "name": "康节级",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州牢城节级，施恩曾在其家讨信"
+    },
+    {
+     "name": "飞云浦",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州城外鱼浦，武松杀公人及杀手处"
+    },
+    {
+     "name": "孟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，武松刺配出发地"
+    },
+    {
+     "name": "恩州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，武松刺配目的地"
+    },
+    {
+     "name": "快活林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "施恩酒店所在，被蒋门神夺回"
+    },
+    {
+     "name": "鸳鸯楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监家后堂楼，张都监等吃酒处"
+    },
+    {
+     "name": "大闹飞云浦",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松在飞云浦杀公人及蒋门神徒弟"
+    },
+    {
+     "name": "武松被陷害",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "张都监受蒋门神贿赂设计排陷武松"
+    },
+    {
+     "name": "七斤半铁叶盘头枷",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松所戴刑具，后被扭折"
+    },
+    {
+     "name": "朴刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "杀手所提兵器，被武松夺用"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "SWORN_BROTHER",
+     "object": "施恩",
+     "evidence": "施恩答道：实不相瞒哥哥说",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张都监",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "张都监接受了蒋门神若干银子，通同张团练设计排陷武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "张都监接受了蒋门神若干银子，通同张团练设计排陷武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张团练",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "张都监接受了蒋门神若干银子，通同张团练设计排陷武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶孔目",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "有这当案叶孔目一力主张，知府处早晚说开就里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老管营",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "却得老管营使钱通了，叶孔目又看觑他",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施恩",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "特有两件绵衣送与哥哥路上穿着，煮得两只熟鹅在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "蒋门神",
+     "evidence": "手起刀落，也把这人杀了",
+     "confidence": 0.5
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹飞云浦",
+     "evidence": "武松踅住道：我要净手则个。那一个公人走近一步，却被武松叫声：下去！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大闹飞云浦",
+     "predicate": "OCCURRED_AT",
+     "object": "飞云浦",
+     "evidence": "五个人行至浦边，一条阔板桥，一座牌楼，上有牌额，写着道飞云浦三字",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "孟州",
+     "evidence": "押解了武松出孟州衙门便行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "七斤半铁叶盘头枷",
+     "evidence": "取一面七斤半铁叶盘头枷钉了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "便夺过朴刀来，搠上几朴刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "ATTACKED",
+     "object": "快活林",
+     "evidence": "只见蒋门神那厮又领着一伙军汉到来厮打……却被他仍复夺了店面",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张都监",
+     "predicate": "STATIONED_AT",
+     "object": "鸳鸯楼",
+     "evidence": "和张团练都在张都监家里后堂鸳鸯楼上吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张团练",
+     "predicate": "STATIONED_AT",
+     "object": "鸳鸯楼",
+     "evidence": "和张团练都在张都监家里后堂鸳鸯楼上吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "STATIONED_AT",
+     "object": "鸳鸯楼",
+     "evidence": "和张团练都在张都监家里后堂鸳鸯楼上吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张都监",
+     "predicate": "MASTERMINDED",
+     "object": "武松被陷害",
+     "evidence": "张都监接受了蒋门神若干银子，通同张团练设计排陷武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "MASTERMINDED",
+     "object": "武松被陷害",
+     "evidence": "张都监接受了蒋门神若干银子，通同张团练设计排陷武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张团练",
+     "predicate": "MASTERMINDED",
+     "object": "武松被陷害",
+     "evidence": "张都监接受了蒋门神若干银子，通同张团练设计排陷武松",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:27.892Z"
+}

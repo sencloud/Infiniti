@@ -1,0 +1,94 @@
+{
+ "no": 227,
+ "title": "林氏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1122,
+   "entities": [
+    {
+     "name": "戚安期",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南人，素佻达，喜狎妓，后改过"
+    },
+    {
+     "name": "林氏",
+     "type": "Person",
+     "aliases": [
+      "林四娘"
+     ],
+     "nickname": "",
+     "description": "戚安期妻，美而贤，被俘自刭，后设计纳婢生子"
+    },
+    {
+     "name": "海棠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "戚家婢女，被林氏设计代己与戚安期生子"
+    },
+    {
+     "name": "长生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "海棠长子，七岁就外祖家读"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，戚安期籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "戚安期",
+     "predicate": "SPOUSE",
+     "object": "林氏",
+     "evidence": "妻林氏，美而贤。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戚安期",
+     "predicate": "NATIVE_OF",
+     "object": "济南",
+     "evidence": "济南戚安期，素佻达，喜狎妓。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戚安期",
+     "predicate": "KIN",
+     "object": "长生",
+     "evidence": "长子名长生，已七岁，就外祖家读。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林氏",
+     "predicate": "KIN",
+     "object": "长生",
+     "evidence": "长子名长生，已七岁，就外祖家读。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "海棠",
+     "predicate": "KIN",
+     "object": "长生",
+     "evidence": "婢举一子。林暗买乳媪，抱养母家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戚安期",
+     "predicate": "SPOUSE",
+     "object": "海棠",
+     "evidence": "乃迎婢归，偕老焉。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:38.362Z"
+}

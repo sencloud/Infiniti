@@ -1,0 +1,36 @@
+{
+ "no": 2,
+ "title": "耳中人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 236,
+   "entities": [
+    {
+     "name": "谭晋玄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑诸生，笃信导引之术，耳中出小人后得颠疾"
+    },
+    {
+     "name": "耳中小人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "谭晋玄耳中出的小人，长三寸许，貌狞恶如夜叉"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "耳中小人",
+     "predicate": "HARMED",
+     "object": "谭晋玄",
+     "evidence": "谭觉神魂俱失，不复知小人何所之矣。遂得颠疾，号叫不休",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:14.274Z"
+}

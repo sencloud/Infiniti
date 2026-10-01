@@ -1,0 +1,887 @@
+{
+ "no": 24,
+ "title": "第二十四回 王婆贪贿说风情 郓哥不忿闹茶肆",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5890,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "打虎英雄，阳谷县都头，武大郎之弟"
+    },
+    {
+     "name": "武大郎",
+     "type": "Person",
+     "aliases": [
+      "武大"
+     ],
+     "nickname": "三寸丁谷树皮",
+     "description": "武松之兄，卖炊饼为生，身材短矮"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武大郎之妻，原为大户使女，生性风流"
+    },
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [
+      "王干娘"
+     ],
+     "nickname": "",
+     "description": "紫石街茶坊主，贪贿说风情"
+    },
+    {
+     "name": "清河县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武大郎、潘金莲原籍县份"
+    },
+    {
+     "name": "阳谷县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松任职都头所在县份"
+    },
+    {
+     "name": "紫石街",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县内街道，武大郎赁房居住处"
+    },
+    {
+     "name": "景阳冈打虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松在景阳冈打死猛虎之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "KIN",
+     "object": "武大郎",
+     "evidence": "原来武大与武松是一母所生两个",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "SPOUSE",
+     "object": "潘金莲",
+     "evidence": "白白地嫁与他。自从武大娶得那妇人之后",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "当初你在清河县里，要便吃酒醉了，和人相打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "武大在清河县住不牢，搬来这阳谷县紫石街赁房居住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "那清河县里有一个大户人家，有个使女，小名唤做潘金莲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "阳谷县",
+     "evidence": "县里知县参他做个都头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "搬来这阳谷县紫石街赁房居住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "搬来这阳谷县紫石街赁房居住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "原来景阳冈上打死大虫新充做都头的，正是我这兄弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "景阳冈打虎",
+     "predicate": "OCCURRED_AT",
+     "object": "景阳冈",
+     "evidence": "景阳冈上一个打虎的壮士",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "FRIEND",
+     "object": "武大郎",
+     "evidence": "武松替武大挑了担儿，武大引着武松转湾抹角",
+     "confidence": 0.8
+    },
+    {
+     "subject": "武松",
+     "predicate": "SERVED",
+     "object": "武大郎",
+     "evidence": "武松替武大挑了担儿",
+     "confidence": 0.7
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "FRAMED",
+     "object": "武松",
+     "evidence": "他见前后没人，便把言语来调戏我",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5847,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武二"
+     ],
+     "nickname": "行者",
+     "description": "阳谷县都头，武大郎之弟，打虎英雄"
+    },
+    {
+     "name": "武大郎",
+     "type": "Person",
+     "aliases": [
+      "武大"
+     ],
+     "nickname": "三寸丁谷树皮",
+     "description": "武松之兄，卖炊饼为生，为人懦弱"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [
+      "那妇人"
+     ],
+     "nickname": "",
+     "description": "武大郎之妻，貌美风流，后与西门庆私通"
+    },
+    {
+     "name": "西门庆",
+     "type": "Person",
+     "aliases": [
+      "西门大郎",
+      "西门大官人"
+     ],
+     "nickname": "",
+     "description": "阳谷县破落户财主，开生药铺，奸诈好色"
+    },
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [
+      "王干娘",
+      "干娘"
+     ],
+     "nickname": "",
+     "description": "武大家间壁茶坊主，贪贿说风情，专做媒婆"
+    },
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉，未在本片段出场"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "梁山好汉，未在本片段出场"
+    },
+    {
+     "name": "阳谷县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松任职及武大郎居住的县份"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，知县亲戚居住地"
+    },
+    {
+     "name": "紫石街",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县中武大郎家所在街道"
+    },
+    {
+     "name": "王婆茶坊",
+     "type": "Place",
+     "aliases": [
+      "茶局子"
+     ],
+     "nickname": "",
+     "description": "王婆开设的茶坊，在武大家间壁"
+    },
+    {
+     "name": "武大家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武大郎与潘金莲的住所，在紫石街"
+    },
+    {
+     "name": "县衙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县知县办公的衙门"
+    },
+    {
+     "name": "阳谷县衙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县知县处理公务的场所"
+    },
+    {
+     "name": "生药铺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西门庆在县前开设的药铺"
+    },
+    {
+     "name": "潘驴邓小闲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "王婆向西门庆提出的捱光五件事"
+    },
+    {
+     "name": "王婆说风情",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "王婆贪贿为西门庆设计勾引潘金莲"
+    },
+    {
+     "name": "武松辞别武大",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松往东京前向武大郎和潘金莲辞行劝诫"
+    },
+    {
+     "name": "叉竿打头",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘金莲叉帘失手，叉竿打中西门庆头巾"
+    },
+    {
+     "name": "武松押送金银",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松受知县差遣押送金银往东京"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "KIN",
+     "object": "武大郎",
+     "evidence": "武大、武松弟兄两个吃了几杯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "SPOUSE",
+     "object": "潘金莲",
+     "evidence": "自从嫁了武大",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "阳谷县",
+     "evidence": "一行五人离了阳谷县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "NATIVE_OF",
+     "object": "阳谷县",
+     "evidence": "便是街上卖炊饼的武大郎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "NATIVE_OF",
+     "object": "阳谷县",
+     "evidence": "自从嫁了武大",
+     "confidence": 0.8
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "NATIVE_OF",
+     "object": "阳谷县",
+     "evidence": "原来只是阳谷县一个破落户财主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王婆",
+     "predicate": "NATIVE_OF",
+     "object": "阳谷县",
+     "evidence": "原来这个开茶坊的王婆",
+     "confidence": 0.8
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "阳谷县",
+     "evidence": "武松领下知县言语，出县门来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "一径投紫石街来，直到武大家里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "一径投紫石街来，直到武大家里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "STATIONED_AT",
+     "object": "阳谷县",
+     "evidence": "就县前开着个生药铺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "STATIONED_AT",
+     "object": "王婆茶坊",
+     "evidence": "只见那西门庆一转，踅入王婆茶坊里来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武松辞别武大",
+     "evidence": "武松拜辞哥哥",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武松押送金银",
+     "evidence": "武松领下知县言语，出县门来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "叉竿打头",
+     "evidence": "这妇人正手里拿叉竿不牢，失手滑将倒去，不端不正，却好打在那人头巾上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "叉竿打头",
+     "evidence": "却好打在那人头巾上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王婆",
+     "predicate": "MASTERMINDED",
+     "object": "王婆说风情",
+     "evidence": "王婆笑道：老身为头是做媒，又会做牙婆，也会抱腰，也会收小的，也会说风情，也会做马泊六",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "MASTERMINDED",
+     "object": "潘驴邓小闲",
+     "evidence": "王婆道：但凡捱光的两个字最难，要五件事俱全，方才行得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "王婆说风情",
+     "evidence": "西门庆道：干娘，端的与我说得这件事成，便送十两银子与你做棺材本",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "潘驴邓小闲",
+     "evidence": "西门庆道：实不瞒你说，这五件事我都有些",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叉竿打头",
+     "predicate": "OCCURRED_AT",
+     "object": "紫石街",
+     "evidence": "那妇人正手里拿叉竿不牢，失手滑将倒去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆说风情",
+     "predicate": "OCCURRED_AT",
+     "object": "王婆茶坊",
+     "evidence": "只见那西门庆一转，踅入王婆茶坊里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘驴邓小闲",
+     "predicate": "OCCURRED_AT",
+     "object": "王婆茶坊",
+     "evidence": "王婆道：但凡捱光的两个字最难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松辞别武大",
+     "predicate": "OCCURRED_AT",
+     "object": "武大家",
+     "evidence": "武松拜辞哥哥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松押送金银",
+     "predicate": "OCCURRED_AT",
+     "object": "阳谷县衙",
+     "evidence": "次日早起来，拴束了包裹，来见知县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "OWNS",
+     "object": "生药铺",
+     "evidence": "就县前开着个生药铺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王婆",
+     "predicate": "OWNS",
+     "object": "王婆茶坊",
+     "evidence": "原来这个开茶坊的王婆",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "提了朴刀，监押车子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "FRIEND",
+     "object": "王婆",
+     "evidence": "西门庆笑将起来，去身边摸出一两来银子递与王婆",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王婆",
+     "predicate": "FRIEND",
+     "object": "西门庆",
+     "evidence": "王婆笑道：大官人，却才唱得好个大肥喏",
+     "confidence": 0.8
+    },
+    {
+     "subject": "武松",
+     "predicate": "FRIEND",
+     "object": "武大郎",
+     "evidence": "武松劝哥哥嫂嫂吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "FRIEND",
+     "object": "潘金莲",
+     "evidence": "武松劝哥哥嫂嫂吃酒",
+     "confidence": 0.8
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "FRIEND",
+     "object": "潘金莲",
+     "evidence": "武大送武松下楼来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "ATTACKED",
+     "object": "武大家",
+     "evidence": "朝着武大门前只顾望",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 5833,
+   "entities": [
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [
+      "王干娘",
+      "干娘",
+      "婆子"
+     ],
+     "nickname": "",
+     "description": "茶坊主，设计撮合西门庆与潘金莲"
+    },
+    {
+     "name": "西门庆",
+     "type": "Person",
+     "aliases": [
+      "大官人",
+      "西门大官人"
+     ],
+     "nickname": "",
+     "description": "清河县财主，开生药铺"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [
+      "那妇人",
+      "娘子",
+      "雌儿",
+      "武大郎的娘子"
+     ],
+     "nickname": "",
+     "description": "武大郎之妻，善针线"
+    },
+    {
+     "name": "武大",
+     "type": "Person",
+     "aliases": [
+      "武大郎",
+      "大郎"
+     ],
+     "nickname": "",
+     "description": "潘金莲之夫，卖炊饼"
+    },
+    {
+     "name": "张惜惜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西门庆外宅，唱慢曲儿"
+    },
+    {
+     "name": "李娇娇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西门庆妾室，娶在家中"
+    },
+    {
+     "name": "紫石街",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王婆茶坊与武大家所在街道"
+    },
+    {
+     "name": "清河县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘金莲原籍，大户养女"
+    },
+    {
+     "name": "王婆茶坊",
+     "type": "Place",
+     "aliases": [
+      "茶坊"
+     ],
+     "nickname": "",
+     "description": "王婆经营的茶坊，计策实施地"
+    },
+    {
+     "name": "武大家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武大与潘金莲住处"
+    },
+    {
+     "name": "王婆说风情",
+     "type": "Event",
+     "aliases": [
+      "王婆设计"
+     ],
+     "nickname": "",
+     "description": "王婆定十件捱光计，撮合西门庆与潘金莲"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "武大",
+     "evidence": "便是间壁的武大郎的娘子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "这个人原是清河县大户人家讨来的养女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "OWNS",
+     "object": "生药铺",
+     "evidence": "开着个生药铺在县前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "SPOUSE",
+     "object": "张惜惜",
+     "evidence": "便是唱慢曲儿的张惜惜。我见他是路岐人，不喜欢。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "SPOUSE",
+     "object": "李娇娇",
+     "evidence": "这个人见今取在家里。若得他会当家时，自册正了他多时。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "MASTERMINDED",
+     "object": "王婆说风情",
+     "evidence": "王婆笑道：“大官人却又慌了。老身那条计，是个上着……十捉九着。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "王婆说风情",
+     "evidence": "西门庆听罢大喜道：“虽然上不得凌烟阁，端的好计！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "王婆说风情",
+     "evidence": "那妇人便把西门庆搂将起来。当时两个就王婆房里，脱衣解带，共枕同欢。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆说风情",
+     "predicate": "OCCURRED_AT",
+     "object": "王婆茶坊",
+     "evidence": "当时两个就王婆房里，脱衣解带，共枕同欢。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "STATIONED_AT",
+     "object": "王婆茶坊",
+     "evidence": "径送入茶坊里。王婆接了这物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武大",
+     "predicate": "STATIONED_AT",
+     "object": "武大家",
+     "evidence": "恰好武大归来，挑着空担儿进门。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "STATIONED_AT",
+     "object": "武大家",
+     "evidence": "那妇人拽开门，下了帘子。武大入屋里来",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 1569,
+   "entities": [
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "紫石街茶坊主，贪贿说风情"
+    },
+    {
+     "name": "西门庆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县富户，与潘金莲私通"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武大之妻，与西门庆私通"
+    },
+    {
+     "name": "武大",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖炊饼的，潘金莲之夫"
+    },
+    {
+     "name": "郓哥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "十五六岁小厮，卖果品为生"
+    },
+    {
+     "name": "紫石街",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县街巷，王婆茶坊所在"
+    },
+    {
+     "name": "王婆茶坊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "紫石街上王婆开的茶坊"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "武大",
+     "evidence": "可怜武大亲妻子，暗与西门作细君",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "SPOUSE",
+     "object": "潘金莲",
+     "evidence": "每日踅过王婆家里来和西门庆做一处，恩情似漆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "FRAMED",
+     "object": "潘金莲",
+     "evidence": "我请你来做衣裳，不曾叫你来偷汉子。武大得知，须连累我。不若我先去出首",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "FRAMED",
+     "object": "西门庆",
+     "evidence": "若要我饶恕，你们都要依我一件事",
+     "confidence": 0.85
+    },
+    {
+     "subject": "王婆",
+     "predicate": "STATIONED_AT",
+     "object": "王婆茶坊",
+     "evidence": "每日只在紫石街上王婆茶坊里坐地",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王婆茶坊",
+     "predicate": "OCCURRED_AT",
+     "object": "紫石街",
+     "evidence": "每日只在紫石街上王婆茶坊里坐地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郓哥",
+     "predicate": "NATIVE_OF",
+     "object": "郓州",
+     "evidence": "因为做军在郓州生养的，就取名叫做郓哥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郓哥",
+     "predicate": "FRIEND",
+     "object": "西门庆",
+     "evidence": "如常得西门庆赍发他些盘缠",
+     "confidence": 0.85
+    },
+    {
+     "subject": "王婆",
+     "predicate": "FOUGHT",
+     "object": "郓哥",
+     "evidence": "这婆子一头叉，一头大栗暴凿，直打出街上去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王婆",
+     "predicate": "DEFEATED",
+     "object": "郓哥",
+     "evidence": "这小猴子打那虔婆不过",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:27.195Z"
+}

@@ -1,0 +1,87 @@
+{
+ "no": 43,
+ "title": "11.4 一元一次不等式组",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2869,
+   "entities": [
+    {
+     "name": "一元一次不等式组",
+     "type": "Concept",
+     "aliases": [
+      "system of linear inequalities with one unknown"
+     ],
+     "nickname": "",
+     "description": "几个含有同一个未知数的一次不等式联立组成"
+    },
+    {
+     "name": "不等式组的解集",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "不等式组中所有不等式的解集的公共部分"
+    },
+    {
+     "name": "解不等式组",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "求不等式组解集的过程"
+    },
+    {
+     "name": "数轴",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示数或解集的直线"
+    },
+    {
+     "name": "一元一次不等式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有一个未知数且未知数次数为1的不等式"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次不等式",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次不等式组",
+     "evidence": "把几个含有同一个未知数的一次不等式联立在一起，就组成了一个一元一次不等式组",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元一次不等式组",
+     "predicate": "INCLUDES",
+     "object": "一元一次不等式",
+     "evidence": "把几个含有同一个未知数的一次不等式联立在一起，就组成了一个一元一次不等式组",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元一次不等式组",
+     "predicate": "INCLUDES",
+     "object": "不等式组的解集",
+     "evidence": "不等式组中所有不等式的解集的公共部分叫作这个不等式组的解集",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解不等式组",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次不等式组",
+     "evidence": "求不等式组解集的过程叫作解不等式组",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数轴",
+     "predicate": "APPLIES_TO",
+     "object": "解不等式组",
+     "evidence": "利用数轴确定不等式组的解集",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:48.563Z"
+}

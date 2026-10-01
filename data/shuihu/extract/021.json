@@ -1,0 +1,442 @@
+{
+ "no": 21,
+ "title": "第二十一回 虔婆醉打唐牛儿 宋江怒杀阎婆惜",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5873,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "宋押司",
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，梁山好汉首领"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉，来郓城送信"
+    },
+    {
+     "name": "阎婆惜",
+     "type": "Person",
+     "aliases": [
+      "婆惜"
+     ],
+     "nickname": "",
+     "description": "宋江外室，后与张文远私通"
+    },
+    {
+     "name": "阎婆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阎婆惜之母，虔婆"
+    },
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县做媒的婆子"
+    },
+    {
+     "name": "张文远",
+     "type": "Person",
+     "aliases": [
+      "小张三",
+      "张三"
+     ],
+     "nickname": "小张三",
+     "description": "宋江同房押司，与阎婆惜私通"
+    },
+    {
+     "name": "唐牛儿",
+     "type": "Person",
+     "aliases": [
+      "唐二哥"
+     ],
+     "nickname": "",
+     "description": "郓城县帮闲，常得宋江资助"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉，派刘唐送信"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉山寨势力"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江任职的县"
+    },
+    {
+     "name": "宋家村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江家乡"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阎婆惜一家原籍"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "那晁盖却空教刘唐来走这一遭。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "刘唐连夜自回梁山泊去了。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "他年自到梁山泊，绣旗影摇云水滨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "宋家村",
+     "evidence": "只闻宋押司家里在宋家村住。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "郓城县",
+     "evidence": "在这县里做押司，只是客居。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎婆惜",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "这一家儿从东京来，不是这里人家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎婆惜",
+     "predicate": "KIN",
+     "object": "阎婆",
+     "evidence": "嫡亲三口儿，夫主阎公，有个女儿婆惜。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SPOUSE",
+     "object": "阎婆惜",
+     "evidence": "我情愿把婆惜与他。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "阎婆",
+     "evidence": "宋江道：我再与你银子十两做使用钱。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "唐牛儿",
+     "evidence": "常常得宋江赍助他。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎婆惜",
+     "predicate": "SPOUSE",
+     "object": "张文远",
+     "evidence": "那婆娘自从和那张三两个搭识上了，打得火块一般热。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "张文远",
+     "evidence": "宋江不合带后司贴书张文远来阎婆惜家吃酒。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阎婆",
+     "predicate": "FOUGHT",
+     "object": "唐牛儿",
+     "evidence": "这婆子乘着酒兴，叉开五指，去那唐牛儿脸上连打两掌。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5138,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "宋押司",
+      "黑三",
+      "黑三郎"
+     ],
+     "nickname": "呼保义/及时雨/孝义黑三郎",
+     "description": "郓城县押司，后为梁山首领"
+    },
+    {
+     "name": "阎婆惜",
+     "type": "Person",
+     "aliases": [
+      "婆惜",
+      "婆娘"
+     ],
+     "nickname": "",
+     "description": "宋江外室，因要挟被宋江杀死"
+    },
+    {
+     "name": "阎婆",
+     "type": "Person",
+     "aliases": [
+      "婆子"
+     ],
+     "nickname": "",
+     "description": "阎婆惜之母"
+    },
+    {
+     "name": "张三",
+     "type": "Person",
+     "aliases": [
+      "张三郎"
+     ],
+     "nickname": "",
+     "description": "阎婆惜的相好"
+    },
+    {
+     "name": "唐牛儿",
+     "type": "Person",
+     "aliases": [
+      "唐二"
+     ],
+     "nickname": "",
+     "description": "郓城县卖糟姜的小贩"
+    },
+    {
+     "name": "王公",
+     "type": "Person",
+     "aliases": [
+      "卖药的老王",
+      "老儿"
+     ],
+     "nickname": "",
+     "description": "县前卖汤药的老人"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "托塔天王",
+     "description": "梁山泊首领，曾送金子与宋江"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉，曾替晁盖送金子与宋江"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "梁山泊强贼"
+     ],
+     "nickname": "",
+     "description": "晁盖等好汉聚义的山寨势力"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [
+      "县前",
+      "县里"
+     ],
+     "nickname": "",
+     "description": "宋江任职的县治"
+    },
+    {
+     "name": "招文袋",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江装金子和书信的袋子"
+    },
+    {
+     "name": "压衣刀",
+     "type": "Item",
+     "aliases": [
+      "刀子"
+     ],
+     "nickname": "",
+     "description": "宋江銮带上的佩刀，用以杀阎婆惜"
+    },
+    {
+     "name": "銮带",
+     "type": "Item",
+     "aliases": [
+      "紫罗銮带"
+     ],
+     "nickname": "",
+     "description": "宋江的腰带，上挂压衣刀和招文袋"
+    },
+    {
+     "name": "宋江怒杀阎婆惜",
+     "type": "Event",
+     "aliases": [
+      "杀阎婆惜"
+     ],
+     "nickname": "",
+     "description": "宋江因招文袋被阎婆惜藏匿要挟，怒而杀之"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "SPOUSE",
+     "object": "阎婆惜",
+     "evidence": "原来这阎婆惜被那张三小意儿百依百随……如何肯恋宋江",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阎婆惜",
+     "predicate": "SPOUSE",
+     "object": "张三",
+     "evidence": "我只思量张三，吃他搅了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎婆",
+     "predicate": "KIN",
+     "object": "阎婆惜",
+     "evidence": "阎婆听得脚步响，便在床上说道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KILLED",
+     "object": "阎婆惜",
+     "evidence": "宋江左手早按住那婆娘，右手却早刀落，去那婆惜嗓子上只一勒",
+     "confidence": 0.98
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "宋江怒杀阎婆惜",
+     "evidence": "宋江一时怒气，杀了阎婆惜",
+     "confidence": 0.98
+    },
+    {
+     "subject": "宋江怒杀阎婆惜",
+     "predicate": "OCCURRED_AT",
+     "object": "郓城县",
+     "evidence": "宋江一时怒气，杀了阎婆惜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "招文袋",
+     "evidence": "腰里解下銮带，上有一把压衣刀和招文袋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "压衣刀",
+     "evidence": "倒拽出那把压衣刀子在席上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "銮带",
+     "evidence": "床头栏干子上拖下条紫罗銮带",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "原来你和梁山泊强贼通同往来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "有那梁山泊晁盖送与你的一百两金子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我本欲在酒楼上刘唐前烧毁了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "王公",
+     "evidence": "我日前曾许你一具棺木钱，一向不曾把得与你。今日我有些金子在这里，把与你",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐牛儿",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "把婆子手一拆拆开了……宋江得脱，往闹里一直走了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阎婆",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "把宋江一把结住，发喊叫道：有杀人贼在这里！",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:08.243Z"
+}

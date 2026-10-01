@@ -1,0 +1,108 @@
+{
+ "no": 50,
+ "title": "1.2 全等三角形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1706,
+   "entities": [
+    {
+     "name": "全等三角形",
+     "type": "Concept",
+     "aliases": [
+      "congruent triangles"
+     ],
+     "nickname": "",
+     "description": "能完全重合的两个三角形"
+    },
+    {
+     "name": "平移",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形变换的一种方式"
+    },
+    {
+     "name": "轴对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形变换的一种方式"
+    },
+    {
+     "name": "旋转",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形变换的一种方式"
+    },
+    {
+     "name": "全等三角形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "全等三角形的对应边相等，对应角相等"
+    },
+    {
+     "name": "内错角相等，两直线平行",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "内错角相等，则两直线平行"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平移",
+     "predicate": "PREREQUISITE",
+     "object": "全等三角形",
+     "evidence": "一个三角形经过平移、轴对称或旋转变换后得到另一个三角形，这两个三角形可以重合。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "PREREQUISITE",
+     "object": "全等三角形",
+     "evidence": "一个三角形经过平移、轴对称或旋转变换后得到另一个三角形，这两个三角形可以重合。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旋转",
+     "predicate": "PREREQUISITE",
+     "object": "全等三角形",
+     "evidence": "一个三角形经过平移、轴对称或旋转变换后得到另一个三角形，这两个三角形可以重合。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "全等三角形",
+     "evidence": "全等三角形有如下性质：全等三角形的对应边相等，对应角相等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "INCLUDES",
+     "object": "三角形",
+     "evidence": "我们把两个能完全重合的三角形叫作全等三角形。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形的性质",
+     "predicate": "APPLIES_TO",
+     "object": "内错角相等，两直线平行",
+     "evidence": "∴ ∠B=∠F（全等三角形的对应角相等）。∴ AB∥EF（内错角相等，两直线平行）。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:51.914Z"
+}

@@ -1,0 +1,425 @@
+{
+ "no": 88,
+ "title": "渡泸水再缚番王 识诈降三擒孟获",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4892,
+   "entities": [
+    {
+     "name": "孟获",
+     "type": "Person",
+     "aliases": [
+      "南蛮王",
+      "大王"
+     ],
+     "nickname": "",
+     "description": "南蛮首领，被三擒三纵"
+    },
+    {
+     "name": "马岱",
+     "type": "Person",
+     "aliases": [
+      "平北将军"
+     ],
+     "nickname": "",
+     "description": "蜀将，断粮擒孟获"
+    },
+    {
+     "name": "董荼那",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蛮洞主，被孟获责打后擒孟获"
+    },
+    {
+     "name": "阿会喃",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蛮洞主，被孟获杀害"
+    },
+    {
+     "name": "孟优",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟获之弟，诈降被擒"
+    },
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙"
+     ],
+     "nickname": "子龙",
+     "description": "蜀将，参与擒孟优"
+    },
+    {
+     "name": "魏延",
+     "type": "Person",
+     "aliases": [
+      "文长"
+     ],
+     "nickname": "文长",
+     "description": "蜀将，参与夹攻孟获"
+    },
+    {
+     "name": "王平",
+     "type": "Person",
+     "aliases": [
+      "子均"
+     ],
+     "nickname": "子均",
+     "description": "蜀将，守寨并擒酋长"
+    },
+    {
+     "name": "张嶷",
+     "type": "Person",
+     "aliases": [
+      "伯岐"
+     ],
+     "nickname": "伯岐",
+     "description": "蜀将，守寨"
+    },
+    {
+     "name": "张翼",
+     "type": "Person",
+     "aliases": [
+      "伯恭"
+     ],
+     "nickname": "伯恭",
+     "description": "蜀将，守寨"
+    },
+    {
+     "name": "关索",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀将，守寨并擒酋长"
+    },
+    {
+     "name": "马忠",
+     "type": "Person",
+     "aliases": [
+      "德信"
+     ],
+     "nickname": "德信",
+     "description": "蜀将，参与擒酋长"
+    },
+    {
+     "name": "蒋琬",
+     "type": "Person",
+     "aliases": [
+      "公琰"
+     ],
+     "nickname": "公琰",
+     "description": "蜀参军，质疑寨址"
+    },
+    {
+     "name": "费祎",
+     "type": "Person",
+     "aliases": [
+      "文伟"
+     ],
+     "nickname": "文伟",
+     "description": "蜀臣，参与议事"
+    },
+    {
+     "name": "马谡",
+     "type": "Person",
+     "aliases": [
+      "幼常"
+     ],
+     "nickname": "幼常",
+     "description": "蜀参军，献计擒孟获"
+    },
+    {
+     "name": "吕凯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀将，造寨管待孟优"
+    },
+    {
+     "name": "忙牙长",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟获副将，被马岱斩"
+    },
+    {
+     "name": "蜀汉",
+     "type": "Organization",
+     "aliases": [
+      "蜀",
+      "蜀军",
+      "蜀兵"
+     ],
+     "nickname": "",
+     "description": "刘备建立的政权"
+    },
+    {
+     "name": "南蛮",
+     "type": "Organization",
+     "aliases": [
+      "蛮兵",
+      "蛮洞"
+     ],
+     "nickname": "",
+     "description": "南方蛮族势力"
+    },
+    {
+     "name": "泸水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮河流，天险"
+    },
+    {
+     "name": "夹山峪",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蛮洞运粮总路口"
+    },
+    {
+     "name": "沙口",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "泸水下流渡口"
+    },
+    {
+     "name": "银坑山",
+     "type": "Place",
+     "aliases": [
+      "银坑洞"
+     ],
+     "nickname": "",
+     "description": "孟获巢穴"
+    },
+    {
+     "name": "三擒孟获",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛亮第三次擒获孟获"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孟获",
+     "predicate": "LEADS",
+     "object": "南蛮",
+     "evidence": "孟获乃南蛮渠魁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟获",
+     "predicate": "KIN",
+     "object": "孟优",
+     "evidence": "与亲弟孟优商议",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董荼那",
+     "predicate": "SERVED",
+     "object": "孟获",
+     "evidence": "董荼那出曰：某愿往。孟获大喜，遂与三千兵而去",
+     "confidence": 0.85
+    },
+    {
+     "subject": "阿会喃",
+     "predicate": "SERVED",
+     "object": "孟获",
+     "evidence": "获又恐有人再渡泸水，即遣阿会喃引三千兵，去守把沙口",
+     "confidence": 0.85
+    },
+    {
+     "subject": "马岱",
+     "predicate": "DEFEATED",
+     "object": "忙牙长",
+     "evidence": "只一合，被岱一刀，斩于马下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马岱",
+     "predicate": "KILLED",
+     "object": "忙牙长",
+     "evidence": "只一合，被岱一刀，斩于马下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董荼那",
+     "predicate": "BETRAYED",
+     "object": "孟获",
+     "evidence": "董荼那手执钢刀，引百余人，直奔大寨而来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董荼那",
+     "predicate": "DEFEATED",
+     "object": "孟获",
+     "evidence": "将孟获执缚已定，押到泸水边",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "KILLED",
+     "object": "董荼那",
+     "evidence": "将二人赚到大寨帐下，尽皆杀之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟获",
+     "predicate": "KILLED",
+     "object": "阿会喃",
+     "evidence": "将二人赚到大寨帐下，尽皆杀之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马岱",
+     "predicate": "DEFEATED",
+     "object": "孟获",
+     "evidence": "一声号起，将孟获缚住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵云",
+     "predicate": "DEFEATED",
+     "object": "孟优",
+     "evidence": "赵云擒孟优至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三擒孟获",
+     "predicate": "OCCURRED_AT",
+     "object": "泸水",
+     "evidence": "孟获弃了军士，匹马望泸水面逃",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马岱",
+     "predicate": "STATIONED_AT",
+     "object": "夹山峪",
+     "evidence": "马岱占了夹山峪，分拨军士，立起寨栅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟获",
+     "predicate": "STATIONED_AT",
+     "object": "银坑山",
+     "evidence": "忿忿归到银坑洞中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "今番又被我擒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马岱",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "马岱擒孟获至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵云",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "赵云擒孟优至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏延",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "魏延、马忠、王平、关索擒诸洞酋长至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王平",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "魏延、马忠、王平、关索擒诸洞酋长至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马忠",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "魏延、马忠、王平、关索擒诸洞酋长至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关索",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "魏延、马忠、王平、关索擒诸洞酋长至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马谡",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "擒孟获之计，吾已差派下也。汝之所见，正与吾同",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋琬",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "孔明正在帐中与马谡、吕凯、蒋琬、费祎等共议平蛮之事",
+     "confidence": 0.85
+    },
+    {
+     "subject": "费祎",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "孔明正在帐中与马谡、吕凯、蒋琬、费祎等共议平蛮之事",
+     "confidence": 0.85
+    },
+    {
+     "subject": "吕凯",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "孔明正在帐中与马谡、吕凯、蒋琬、费祎等共议平蛮之事",
+     "confidence": 0.85
+    },
+    {
+     "subject": "孟优",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "孟优领了兄计，引百余蛮兵，搬载金珠、宝贝、象牙、犀角之类，渡了泸水",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董荼那",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "董荼那手执钢刀，引百余人，直奔大寨而来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿会喃",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "获又恐有人再渡泸水，即遣阿会喃引三千兵，去守把沙口",
+     "confidence": 0.85
+    },
+    {
+     "subject": "忙牙长",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三擒孟获",
+     "evidence": "即遣副将忙牙长，引三千兵投夹山峪来",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:56:51.644Z"
+}

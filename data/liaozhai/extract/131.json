@@ -1,0 +1,416 @@
+{
+ "no": 131,
+ "title": "青梅",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3390,
+   "entities": [
+    {
+     "name": "程生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白下程生，性磊落，与狐女狎，生青梅"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐精，与程生狎，生青梅后离去"
+    },
+    {
+     "name": "青梅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "程生与狐女之女，后嫁张生"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "程生聘娶之妻，后改嫁"
+    },
+    {
+     "name": "王进士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "候铨进士，购青梅为婢，后任曲沃宰"
+    },
+    {
+     "name": "阿喜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王进士之女，容华绝代，后嫁张生"
+    },
+    {
+     "name": "张生",
+     "type": "Person",
+     "aliases": [
+      "张介受"
+     ],
+     "nickname": "",
+     "description": "字介受，家贫纯孝，后娶青梅、阿喜"
+    },
+    {
+     "name": "张母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张生之母，为子求娶青梅"
+    },
+    {
+     "name": "张翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张生之父，卧病，后病故"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王进士之妻，阿喜之母，后卒于晋"
+    },
+    {
+     "name": "李郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "欲觅侧室者，出金葬阿喜双亲"
+    },
+    {
+     "name": "老尼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "尼庵老尼，收留阿喜，助其避祸"
+    },
+    {
+     "name": "贵公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "过庵见阿喜惊绝，强尼通殷勤"
+    },
+    {
+     "name": "邻妪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "劝阿喜嫁人，导李郎来"
+    },
+    {
+     "name": "侯氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖花者，为张生向王家说媒"
+    },
+    {
+     "name": "堂叔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青梅堂叔，荡无行，欲鬻青梅"
+    },
+    {
+     "name": "冢室",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李郎正室，悍妒，逐阿喜"
+    },
+    {
+     "name": "吏部某公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吏部官员，出告示禁无赖扰尼庵"
+    },
+    {
+     "name": "白下",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，程生籍贯"
+    },
+    {
+     "name": "湖东",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王氏所居"
+    },
+    {
+     "name": "王第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王进士宅第，张生税居"
+    },
+    {
+     "name": "曲沃",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，王进士授曲沃宰"
+    },
+    {
+     "name": "尼庵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "老尼所居庵堂，阿喜寄住"
+    },
+    {
+     "name": "晋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山西，王进士赴任之地"
+    },
+    {
+     "name": "寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "停柩之寺院"
+    },
+    {
+     "name": "大士祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "老尼受金所建祠"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "程生",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "遂与狎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程生",
+     "predicate": "KIN",
+     "object": "青梅",
+     "evidence": "二年，生一女，小字青梅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "KIN",
+     "object": "青梅",
+     "evidence": "二年，生一女，小字青梅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "程生",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "聘湖东王氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青梅",
+     "predicate": "LIVES_AT",
+     "object": "王第",
+     "evidence": "使从女阿喜服役",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青梅",
+     "predicate": "FRIEND",
+     "object": "阿喜",
+     "evidence": "见梅忻悦，与同寝处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张生",
+     "predicate": "LIVES_AT",
+     "object": "王第",
+     "evidence": "税居王第",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张生",
+     "predicate": "KIN",
+     "object": "张母",
+     "evidence": "入室与生母絮语",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张生",
+     "predicate": "KIN",
+     "object": "张翁",
+     "evidence": "时翁卧病，生入，抱父而私",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青梅",
+     "predicate": "LOVES",
+     "object": "张生",
+     "evidence": "徒以君贤，故愿自托",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青梅",
+     "predicate": "SPOUSE",
+     "object": "张生",
+     "evidence": "以青梅嫔于生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿喜",
+     "predicate": "HELPED",
+     "object": "青梅",
+     "evidence": "我私蓄数金，当倾囊相助",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王进士",
+     "predicate": "KIN",
+     "object": "阿喜",
+     "evidence": "使从女阿喜服役",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "KIN",
+     "object": "阿喜",
+     "evidence": "夫人又问曰：此汝百年事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王进士",
+     "predicate": "SPOUSE",
+     "object": "王夫人",
+     "evidence": "夫人卒，停柩寺中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王进士",
+     "predicate": "PARTICIPATED_IN",
+     "object": "授曲沃宰",
+     "evidence": "会王授曲沃宰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "授曲沃宰",
+     "predicate": "OCCURRED_AT",
+     "object": "曲沃",
+     "evidence": "会王授曲沃宰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王进士",
+     "predicate": "LIVES_AT",
+     "object": "晋",
+     "evidence": "王如晋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿喜",
+     "predicate": "SPOUSE",
+     "object": "李郎",
+     "evidence": "媪于是导李来，微窥女，大悦。即出金营葬",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李郎",
+     "predicate": "KIN",
+     "object": "冢室",
+     "evidence": "入参冢室",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冢室",
+     "predicate": "HARMED",
+     "object": "阿喜",
+     "evidence": "暴怒，杖逐而出，不听入门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老尼",
+     "predicate": "HELPED",
+     "object": "阿喜",
+     "evidence": "有老尼过，邀与同居",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿喜",
+     "predicate": "LIVES_AT",
+     "object": "尼庵",
+     "evidence": "至庵中，拜求祝发",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吏部某公",
+     "predicate": "HELPED",
+     "object": "阿喜",
+     "evidence": "尼往求吏部某公揭示严禁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贵公子",
+     "predicate": "HARMED",
+     "object": "阿喜",
+     "evidence": "强尼通殷勤，又以厚赂啖尼",
+     "confidence": 0.8
+    },
+    {
+     "subject": "青梅",
+     "predicate": "SPOUSE",
+     "object": "阿喜",
+     "evidence": "母命相呼以夫人",
+     "confidence": 0.7
+    },
+    {
+     "subject": "青梅",
+     "predicate": "HELPED",
+     "object": "阿喜",
+     "evidence": "乃取珠冠锦衣，催女易妆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张生",
+     "predicate": "SPOUSE",
+     "object": "阿喜",
+     "evidence": "因谋涓吉合卺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "授司李",
+     "evidence": "连捷授司李",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老尼",
+     "predicate": "OWNS",
+     "object": "大士祠",
+     "evidence": "乃受二百金，起大士祠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老尼",
+     "predicate": "OWNS",
+     "object": "王夫人碑",
+     "evidence": "建王夫人碑",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:07.066Z"
+}

@@ -1,0 +1,52 @@
+{
+ "no": 82,
+ "title": "9.2 提公因式法",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1679,
+   "entities": [
+    {
+     "name": "因式分解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把多项式化为几个整式的积的形式"
+    },
+    {
+     "name": "公因式",
+     "type": "Concept",
+     "aliases": [
+      "common factor"
+     ],
+     "nickname": "",
+     "description": "多项式各项都含有的公共因式"
+    },
+    {
+     "name": "提公因式法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把公因式提到括号外分解因式的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "公因式",
+     "predicate": "PREREQUISITE",
+     "object": "提公因式法",
+     "evidence": "当多项式的各项含有公因式时，可以采用添括号的方法把公因式提到括号外……这种分解因式的方法叫作提公因式法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "提公因式法",
+     "predicate": "APPLIES_TO",
+     "object": "因式分解",
+     "evidence": "这种分解因式的方法叫作提公因式法。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:03.991Z"
+}

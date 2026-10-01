@@ -1,0 +1,64 @@
+{
+ "no": 70,
+ "title": "6.3 统计案例：货比三家",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1200,
+   "entities": [
+    {
+     "name": "统计分析",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "在大数据时代，统计分析是一种有效的比较方法。"
+    },
+    {
+     "name": "折线统计图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "用折线表示数据变化趋势的统计图。"
+    },
+    {
+     "name": "统计表",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "用表格形式整理和展示数据。"
+    },
+    {
+     "name": "扇形统计图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "用扇形表示各部分占总体的百分比的统计图。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "统计分析",
+     "predicate": "APPLIES_TO",
+     "object": "折线统计图",
+     "evidence": "小明通过互联网又进一步收集了A，B，C三种品牌汽车销售的有关数据，并列出统计表，绘制出折线统计图（图6-10）。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "统计分析",
+     "predicate": "APPLIES_TO",
+     "object": "统计表",
+     "evidence": "小明通过互联网又进一步收集了A，B，C三种品牌汽车销售的有关数据，并列出统计表，绘制出折线统计图（图6-10）。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "统计分析",
+     "predicate": "APPLIES_TO",
+     "object": "扇形统计图",
+     "evidence": "各品牌滚筒洗衣机市场占有率扇形统计图",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:01.271Z"
+}

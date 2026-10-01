@@ -1,0 +1,311 @@
+{
+ "no": 25,
+ "title": "第二十五回 王婆计啜西门庆 淫妇药鸩武大郎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5936,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武二",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "清河县人，景阳冈打虎好汉，武大郎之弟"
+    },
+    {
+     "name": "武大郎",
+     "type": "Person",
+     "aliases": [
+      "武大"
+     ],
+     "nickname": "",
+     "description": "卖炊饼的矮子，武松之兄，被西门庆踢伤后毒死"
+    },
+    {
+     "name": "西门庆",
+     "type": "Person",
+     "aliases": [
+      "西门大郎",
+      "大官人"
+     ],
+     "nickname": "",
+     "description": "阳谷县有钱有势的刁徒，与潘金莲通奸"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [
+      "那妇人",
+      "武大娘子",
+      "婆娘"
+     ],
+     "nickname": "",
+     "description": "武大郎之妻，与西门庆通奸并毒杀亲夫"
+    },
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [
+      "婆子",
+      "老猪狗"
+     ],
+     "nickname": "",
+     "description": "茶坊主，贪利撮合西门庆与潘金莲，设计毒杀武大"
+    },
+    {
+     "name": "郓哥",
+     "type": "Person",
+     "aliases": [
+      "小猴子",
+      "小猢狲"
+     ],
+     "nickname": "",
+     "description": "卖雪梨的小厮，助武大捉奸"
+    },
+    {
+     "name": "何九叔",
+     "type": "Person",
+     "aliases": [
+      "九叔",
+      "团头何九叔"
+     ],
+     "nickname": "",
+     "description": "地方团头，负责殓尸，被西门庆买通"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "KIN",
+     "object": "武大郎",
+     "evidence": "我的兄弟武二，你须得知他性格。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "武大郎",
+     "evidence": "我的老婆又不偷汉子，我如何是鸭？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "西门庆",
+     "evidence": "他在王婆茶房里，和武大娘子勾搭上了，每日只在那里行走。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "FOUGHT",
+     "object": "武大郎",
+     "evidence": "被西门庆早飞起右脚。武大矮短，正踢中心窝里，扑地望后便倒了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "DEFEATED",
+     "object": "武大郎",
+     "evidence": "被西门庆早飞起右脚。武大矮短，正踢中心窝里，扑地望后便倒了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "KILLED",
+     "object": "武大郎",
+     "evidence": "那妇人揭起席子，将那药抖在盏子里……左手扶起武大，右手把药便灌。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王婆",
+     "predicate": "MASTERMINDED",
+     "object": "毒杀武大郎",
+     "evidence": "王婆道：'如今这捣子病得重，趁他狼狈里，便好下手。大官人家里取些砒霜来……把这矮子结果了。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "毒杀武大郎",
+     "evidence": "西门庆去不多时，包了一包砒霜来，把与王婆收了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "毒杀武大郎",
+     "evidence": "那妇人先把毒药倾在盏子里……左手扶起武大，右手把药便灌。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毒杀武大郎",
+     "predicate": "OCCURRED_AT",
+     "object": "紫石街",
+     "evidence": "明日早早来紫石街巷口等我。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "OWNS",
+     "object": "砒霜",
+     "evidence": "西门庆去不多时，包了一包砒霜来，把与王婆收了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王婆",
+     "predicate": "OWNS",
+     "object": "砒霜",
+     "evidence": "王婆把这砒霜用手捻为细末，把与那妇人拿去藏了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "OWNS",
+     "object": "砒霜",
+     "evidence": "王婆把这砒霜用手捻为细末，把与那妇人拿去藏了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "FRAMED",
+     "object": "何九叔",
+     "evidence": "西门庆道：'九叔不受时，便是推却。'那何九叔自来惧怕西门庆是个刁徒，把持官府的人，只得受了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "明日早早来紫石街巷口等我。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "他在王婆茶房里，和武大娘子勾搭上了，每日只在那里行走。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "那婆娘每日去王婆家里做衣裳，归来时便脸红。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "王婆",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "他在王婆茶房里，和武大娘子勾搭上了，每日只在那里行走。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "武大郎",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "他是清河县第一个好汉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "他是清河县第一个好汉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "我须知景阳冈上打虎的武都头。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "景阳冈打虎",
+     "predicate": "OCCURRED_AT",
+     "object": "景阳冈",
+     "evidence": "我须知景阳冈上打虎的武都头。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 440,
+   "entities": [
+    {
+     "name": "何九叔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "负责殓尸的团头，对武大之死起疑"
+    },
+    {
+     "name": "武大郎",
+     "type": "Person",
+     "aliases": [
+      "武大"
+     ],
+     "nickname": "",
+     "description": "武大，被毒死，尸首由何九叔殓验"
+    },
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "茶坊王婆，参与武大郎被害一事"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [
+      "武大老婆",
+      "武大娘子",
+      "那妇人",
+      "淫妇"
+     ],
+     "nickname": "",
+     "description": "武大之妻，与西门庆有私情"
+    },
+    {
+     "name": "西门庆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县富户，与潘金莲有私情"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "武大郎",
+     "evidence": "原来武大却讨着这个老婆！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "FRIEND",
+     "object": "潘金莲",
+     "evidence": "西门庆这十两银子有些来历。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "何九叔",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武大郎被毒杀案",
+     "evidence": "我自去殓武大郎尸首",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:15.135Z"
+}

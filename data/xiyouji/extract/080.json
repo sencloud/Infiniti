@@ -1,0 +1,469 @@
+{
+ "no": 80,
+ "title": "姹女育阳求配偶 心猿护主识妖邪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5895,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊"
+     ],
+     "nickname": "佛祖",
+     "description": "西天佛祖，掌管佛教"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨"
+     ],
+     "nickname": "观音",
+     "description": "南海菩萨，取经护法"
+    },
+    {
+     "name": "托塔李天王",
+     "type": "Person",
+     "aliases": [
+      "李靖",
+      "托塔天王",
+      "李天王"
+     ],
+     "nickname": "托塔天王",
+     "description": "天庭降妖大将"
+    },
+    {
+     "name": "文殊菩萨",
+     "type": "Person",
+     "aliases": [
+      "文殊",
+      "文殊师利"
+     ],
+     "nickname": "文殊",
+     "description": "佛教菩萨"
+    },
+    {
+     "name": "金鼻白毛老鼠精",
+     "type": "Person",
+     "aliases": [
+      "妖精",
+      "女子",
+      "女菩萨",
+      "怪"
+     ],
+     "nickname": "妖精",
+     "description": "绑在树上的女妖，欲取唐僧元阳"
+    },
+    {
+     "name": "比丘国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行途中国度"
+    },
+    {
+     "name": "黑松大林",
+     "type": "Place",
+     "aliases": [
+      "黑松林",
+      "松林"
+     ],
+     "nickname": "",
+     "description": "深黑松林，妖怪出没"
+    },
+    {
+     "name": "镇海禅林寺",
+     "type": "Organization",
+     "aliases": [
+      "寺院",
+      "古刹",
+      "寺"
+     ],
+     "nickname": "",
+     "description": "破败寺院，前院舍与强人"
+    },
+    {
+     "name": "贫婆国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖精自称的家乡"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "铁棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "九齿钉耙",
+     "type": "Item",
+     "aliases": [
+      "钯"
+     ],
+     "nickname": "",
+     "description": "猪八戒的兵器"
+    },
+    {
+     "name": "摩诃般若波罗密多心经",
+     "type": "Item",
+     "aliases": [
+      "心经"
+     ],
+     "nickname": "",
+     "description": "唐僧讽念的佛经"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "与你做了徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父教我救人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "沙僧教：二哥，你把担子挑一肩儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "兄弟，莫解他",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧笑道：二哥胡缠",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "手执着金箍棒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉耙",
+     "evidence": "用钯筑出下半截身子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "摩诃般若波罗密多心经",
+     "evidence": "讽念那《摩诃般若波罗密多心经》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "正欲拿他去配合，成太乙金仙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "将他救去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "NATIVE_OF",
+     "object": "贫婆国",
+     "evidence": "我家住在贫婆国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "STATIONED_AT",
+     "object": "黑松大林",
+     "evidence": "把奴奴绑在林间",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取经",
+     "evidence": "奉旨西来，虔心礼佛求经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取经",
+     "evidence": "我老孙一向西来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取经",
+     "evidence": "我们东土远来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取经",
+     "evidence": "我们走了这些时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "我是大唐来的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "花果山",
+     "evidence": "聚群精自称齐天大圣",
+     "confidence": 0.8
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "那妖精巧语花言，虚情假意",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "RESCUED",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "教八戒解了上半截绳子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "RESCUED",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "八戒解了上半截绳子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "金鼻白毛老鼠精",
+     "evidence": "行者上前，一把揪住耳朵",
+     "confidence": 0.8
+    },
+    {
+     "subject": "镇海禅林寺",
+     "predicate": "ALLIED_WITH",
+     "object": "强人",
+     "evidence": "把这前边破房都舍与那些强人安歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "镇海禅林寺",
+     "evidence": "就此借宿了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "镇海禅林寺",
+     "evidence": "众人俱立在柳阴之下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "镇海禅林寺",
+     "evidence": "众人俱立在柳阴之下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "镇海禅林寺",
+     "evidence": "众人俱立在柳阴之下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鼻白毛老鼠精",
+     "predicate": "STATIONED_AT",
+     "object": "镇海禅林寺",
+     "evidence": "引着女子，一行前进",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1100,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐钦差往西天取经的圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，相貌丑陋"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，挑担随行"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "美猴王",
+      "齐天大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，雷公嘴，拿棒护主"
+    },
+    {
+     "name": "镇海禅林寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西方路上喇嘛僧所居的寺庙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "我有三个徒弟，逢山开路，遇水叠桥，保我弟子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "我有三个徒弟，逢山开路，遇水叠桥，保我弟子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "我有三个徒弟，逢山开路，遇水叠桥，保我弟子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "镇海禅林寺",
+     "evidence": "特奔上刹借宿一宵",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:49.709Z"
+}

@@ -1,0 +1,226 @@
+{
+ "no": 21,
+ "title": "6.2 角",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4935,
+   "entities": [
+    {
+     "name": "角",
+     "type": "Concept",
+     "aliases": [
+      "angle"
+     ],
+     "nickname": "",
+     "description": "有公共端点的两条射线组成的图形"
+    },
+    {
+     "name": "角的顶点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "角的公共端点"
+    },
+    {
+     "name": "角的边",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "组成角的两条射线"
+    },
+    {
+     "name": "平角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "终边和始边成一条直线的角"
+    },
+    {
+     "name": "周角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "终边旋转一周后与始边重合的角"
+    },
+    {
+     "name": "角度制",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "角的度量制度，单位度分秒"
+    },
+    {
+     "name": "度分秒",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "角度制单位，1°=60′，1′=60″"
+    },
+    {
+     "name": "等角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "度数相等的两个角"
+    },
+    {
+     "name": "补角",
+     "type": "Concept",
+     "aliases": [
+      "互补"
+     ],
+     "nickname": "",
+     "description": "两角之和为180°"
+    },
+    {
+     "name": "余角",
+     "type": "Concept",
+     "aliases": [
+      "互余"
+     ],
+     "nickname": "",
+     "description": "两角之和为90°"
+    },
+    {
+     "name": "角的平分线",
+     "type": "Concept",
+     "aliases": [
+      "angular bisector"
+     ],
+     "nickname": "",
+     "description": "从顶点出发把角分成两个相等角的射线"
+    },
+    {
+     "name": "同角（等角）的补角相等",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "同角或等角的补角相等"
+    },
+    {
+     "name": "同角（等角）的余角相等",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "同角或等角的余角相等"
+    },
+    {
+     "name": "角的单位换算",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "1°=60′，1′=60″"
+    },
+    {
+     "name": "叠合法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "比较角的大小的方法"
+    },
+    {
+     "name": "尺规作图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用直尺和圆规作图"
+    },
+    {
+     "name": "角的和差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个角的度数相加或相减"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "角",
+     "predicate": "INCLUDES",
+     "object": "角的顶点",
+     "evidence": "有公共端点的两条射线组成的图形叫作角，这个公共端点是角的顶点",
+     "confidence": 0.95
+    },
+    {
+     "subject": "角",
+     "predicate": "INCLUDES",
+     "object": "角的边",
+     "evidence": "有公共端点的两条射线组成的图形叫作角，这两条射线是角的两条边",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平角",
+     "predicate": "SPECIAL_CASE",
+     "object": "角",
+     "evidence": "当角的终边和始边成一条直线时，这个角叫作平角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周角",
+     "predicate": "SPECIAL_CASE",
+     "object": "角",
+     "evidence": "当角的终边旋转一周后与始边重合时，这个角叫作周角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "角度制",
+     "predicate": "INCLUDES",
+     "object": "度分秒",
+     "evidence": "角的度量一般采用角度制，常用的度量单位是度、分、秒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "角的单位换算",
+     "predicate": "PROPERTY_OF",
+     "object": "度分秒",
+     "evidence": "1°=60′，1′=60″",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同角（等角）的补角相等",
+     "predicate": "PROPERTY_OF",
+     "object": "补角",
+     "evidence": "同角（等角）的补角相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同角（等角）的余角相等",
+     "predicate": "PROPERTY_OF",
+     "object": "余角",
+     "evidence": "同角（等角）的余角相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叠合法",
+     "predicate": "APPLIES_TO",
+     "object": "角",
+     "evidence": "用叠合的方法比较大小",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尺规作图",
+     "predicate": "APPLIES_TO",
+     "object": "角",
+     "evidence": "利用上面的思路，我们可以用直尺和圆规作一个角等于已知角",
+     "confidence": 0.9
+    },
+    {
+     "subject": "角的平分线",
+     "predicate": "INCLUDES",
+     "object": "角",
+     "evidence": "如果从角的顶点出发的一条射线把这个角分成两个相等的角，那么这条射线叫作这个角的平分线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "角的和差",
+     "predicate": "RELATED",
+     "object": "角",
+     "evidence": "∠AOB+∠BOC=∠AOC",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:39.658Z"
+}

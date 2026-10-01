@@ -1,0 +1,89 @@
+{
+ "no": 88,
+ "title": "丐僧",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 318,
+   "entities": [
+    {
+     "name": "丐僧",
+     "type": "Person",
+     "aliases": [
+      "僧",
+      "老僧",
+      "和尚"
+     ],
+     "nickname": "",
+     "description": "济南一僧，赤足衣百衲，日诵经抄募，后自剖其腹而死"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，故事发生地"
+    },
+    {
+     "name": "芙蓉馆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南会馆，丐僧常往诵经抄募处"
+    },
+    {
+     "name": "明湖馆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南会馆，丐僧常往诵经抄募处"
+    },
+    {
+     "name": "南城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南南城门，丐僧出城卧道侧处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "丐僧",
+     "predicate": "LIVES_AT",
+     "object": "济南",
+     "evidence": "济南一僧，不知何许人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "诵经抄募",
+     "evidence": "日于芙蓉、明湖诸馆，诵经抄募",
+     "confidence": 0.9
+    },
+    {
+     "subject": "诵经抄募",
+     "predicate": "OCCURRED_AT",
+     "object": "芙蓉馆",
+     "evidence": "日于芙蓉、明湖诸馆，诵经抄募",
+     "confidence": 0.9
+    },
+    {
+     "subject": "诵经抄募",
+     "predicate": "OCCURRED_AT",
+     "object": "明湖馆",
+     "evidence": "日于芙蓉、明湖诸馆，诵经抄募",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丐僧",
+     "predicate": "LIVES_AT",
+     "object": "南城",
+     "evidence": "忽出南城，卧道侧",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:45.369Z"
+}

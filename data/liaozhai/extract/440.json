@@ -1,0 +1,50 @@
+{
+ "no": 440,
+ "title": "牛犊",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 194,
+   "entities": [
+    {
+     "name": "农人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚中农夫，赴市归途中遇术人"
+    },
+    {
+     "name": "术人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "算命先生，预言农人三日内破财受刑"
+    },
+    {
+     "name": "牛犊",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "农人所牧牛犊，误触驿马致死"
+    },
+    {
+     "name": "驿马",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "驿站马匹，被牛犊触死"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "牛犊",
+     "predicate": "KILLED",
+     "object": "驿马",
+     "evidence": "犊望见，误以为虎，直前触之，马毙。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:58.170Z"
+}

@@ -1,0 +1,493 @@
+{
+ "no": 3,
+ "title": "第三回 史大郎夜走华阴县 鲁提辖拳打镇关西",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5808,
+   "entities": [
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "华州华阴县人氏，史家村少庄主，好汉"
+    },
+    {
+     "name": "朱武",
+     "type": "Person",
+     "aliases": [
+      "定远"
+     ],
+     "nickname": "神机军师",
+     "description": "少华山头领，与史进结交"
+    },
+    {
+     "name": "陈达",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "跳涧虎",
+     "description": "少华山头领"
+    },
+    {
+     "name": "杨春",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "白花蛇",
+     "description": "少华山头领"
+    },
+    {
+     "name": "李忠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "打虎将",
+     "description": "江湖使枪棒卖药，史进开手师父"
+    },
+    {
+     "name": "鲁达",
+     "type": "Person",
+     "aliases": [
+      "鲁提辖"
+     ],
+     "nickname": "花和尚",
+     "description": "经略府提辖，后为鲁智深"
+    },
+    {
+     "name": "王进",
+     "type": "Person",
+     "aliases": [
+      "王教头"
+     ],
+     "nickname": "",
+     "description": "东京八十万禁军教头，史进师父"
+    },
+    {
+     "name": "金翠莲",
+     "type": "Person",
+     "aliases": [
+      "翠莲"
+     ],
+     "nickname": "",
+     "description": "东京人氏，被郑屠强占为妾后流落酒楼卖唱"
+    },
+    {
+     "name": "金老",
+     "type": "Person",
+     "aliases": [
+      "金公"
+     ],
+     "nickname": "",
+     "description": "金翠莲之父，排行第二"
+    },
+    {
+     "name": "郑屠",
+     "type": "Person",
+     "aliases": [
+      "镇关西",
+      "郑大官人"
+     ],
+     "nickname": "镇关西",
+     "description": "渭州状元桥下卖肉屠户，强占金翠莲"
+    },
+    {
+     "name": "李吉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "华阴县原告，诬告史进"
+    },
+    {
+     "name": "王四",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进庄客，因醉酒误事"
+    },
+    {
+     "name": "少华山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱武、陈达、杨春等落草的山寨势力"
+    },
+    {
+     "name": "经略府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "小种经略相公镇守渭州的官署"
+    },
+    {
+     "name": "少华山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进与朱武等落草的山寨所在"
+    },
+    {
+     "name": "华阴县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进籍贯所在县"
+    },
+    {
+     "name": "渭州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "小种经略相公镇守的州城，鲁达、郑屠所在"
+    },
+    {
+     "name": "延安府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "老种经略相公处，王进所在"
+    },
+    {
+     "name": "潘家酒店",
+     "type": "Place",
+     "aliases": [
+      "潘家酒楼"
+     ],
+     "nickname": "",
+     "description": "渭州州桥下酒店，鲁达等三人饮酒处"
+    },
+    {
+     "name": "状元桥",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郑屠肉铺所在处"
+    },
+    {
+     "name": "鲁家店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东门里客店，金老父子安歇处"
+    },
+    {
+     "name": "史家村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进庄院所在村庄"
+    },
+    {
+     "name": "雁翎刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进所跨铜钹磬口雁翎刀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "史进",
+     "predicate": "SWORN_BROTHER",
+     "object": "朱武",
+     "evidence": "若是死时，与你们同死，活时同活。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "SWORN_BROTHER",
+     "object": "陈达",
+     "evidence": "若是死时，与你们同死，活时同活。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "SWORN_BROTHER",
+     "object": "杨春",
+     "evidence": "若是死时，与你们同死，活时同活。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王进",
+     "predicate": "MASTER_OF",
+     "object": "史进",
+     "evidence": "我的师父王教头，在关西经略府勾当",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李忠",
+     "predicate": "MASTER_OF",
+     "object": "史进",
+     "evidence": "原来是教史进开手的师父，叫做打虎将李忠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "KILLED",
+     "object": "李吉",
+     "evidence": "史进早到，手起一朴刀，把李吉斩做两段。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "KILLED",
+     "object": "王四",
+     "evidence": "先叫王四，带进后园，把来一刀杀了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李吉",
+     "predicate": "FRAMED",
+     "object": "史进",
+     "evidence": "李吉，你如何诬告平人？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "MEMBER_OF",
+     "object": "少华山",
+     "evidence": "史进和朱武、陈达、杨春，并庄客人等，都到少华山上寨内坐下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱武",
+     "predicate": "LEADS",
+     "object": "少华山",
+     "evidence": "朱武等三个头领跪下道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "NATIVE_OF",
+     "object": "华阴县",
+     "evidence": "小人是华州华阴县人氏，姓史名进。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁达",
+     "predicate": "MEMBER_OF",
+     "object": "经略府",
+     "evidence": "洒家是经略府提辖，姓鲁，讳个达字。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁达",
+     "predicate": "FRIEND",
+     "object": "史进",
+     "evidence": "鲁提辖挽了史进的手，便出茶坊来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁达",
+     "predicate": "FRIEND",
+     "object": "李忠",
+     "evidence": "鲁提辖道：既是史大郎的师父，同和俺去吃三杯。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郑屠",
+     "predicate": "FRAMED",
+     "object": "金翠莲",
+     "evidence": "因见奴家，便使强媒硬保，要奴作妾。谁想写了三千贯文书，虚钱实契，要了奴家身体。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁达",
+     "predicate": "RESCUED",
+     "object": "金翠莲",
+     "evidence": "鲁达只把这十五两银子与了金老，分付道：你父子两个将去做盘缠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁达",
+     "predicate": "RESCUED",
+     "object": "金老",
+     "evidence": "鲁达只把这十五两银子与了金老，分付道：你父子两个将去做盘缠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁达",
+     "predicate": "FOUGHT",
+     "object": "郑屠",
+     "evidence": "鲁达听罢，跳起身来，拿着那两包臊子在手里，睁眼看着郑屠说道：洒家特的要消遣你！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁达",
+     "predicate": "OWNS",
+     "object": "雁翎刀",
+     "evidence": "跨一口铜钹磬口雁翎刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "OWNS",
+     "object": "雁翎刀",
+     "evidence": "跨一口铜钹磬口雁翎刀",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2041,
+   "entities": [
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁达",
+      "鲁提辖"
+     ],
+     "nickname": "花和尚",
+     "description": "经略府提辖，三拳打死郑屠后逃亡"
+    },
+    {
+     "name": "郑屠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "镇关西",
+     "description": "渭州卖肉屠户，强骗金翠莲，被鲁达打死"
+    },
+    {
+     "name": "金翠莲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被郑屠强骗的女子"
+    },
+    {
+     "name": "老种经略相公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "经略相公之父，鲁达原在其处为军官"
+    },
+    {
+     "name": "小种经略相公",
+     "type": "Person",
+     "aliases": [
+      "经略"
+     ],
+     "nickname": "",
+     "description": "渭州经略府主官，鲁达的上司"
+    },
+    {
+     "name": "王观察",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "奉命缉捕鲁达的观察"
+    },
+    {
+     "name": "渭州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁达任提辖之地，打死郑屠处"
+    },
+    {
+     "name": "代州雁门县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁达逃亡所至之县"
+    },
+    {
+     "name": "经略府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁达任职的官府机构"
+    },
+    {
+     "name": "州衙",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "府尹审理案件、缉捕犯人的官署"
+    },
+    {
+     "name": "拳打镇关西",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁达在街上三拳打死郑屠的事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鲁智深",
+     "predicate": "KILLED",
+     "object": "郑屠",
+     "evidence": "不想三拳真个打死了他",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FRAMED",
+     "object": "金翠莲",
+     "evidence": "你如何强骗了金翠莲！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "郑屠",
+     "predicate": "FRAMED",
+     "object": "金翠莲",
+     "evidence": "你如何强骗了金翠莲！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "经略府",
+     "evidence": "鲁达系是经略府提辖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "SERVED",
+     "object": "小种经略相公",
+     "evidence": "为因俺这里无人帮护，拨他来做提辖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "SERVED",
+     "object": "老种经略相公",
+     "evidence": "洒家始投老种经略相公，做到关西五路廉访使",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "拳打镇关西",
+     "evidence": "鲁提辖就势按住左手，赶将入去，望小腹上只一脚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "拳打镇关西",
+     "predicate": "OCCURRED_AT",
+     "object": "渭州",
+     "evidence": "鲁达系是经略府提辖……无故用拳打死市上郑屠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "代州雁门县",
+     "evidence": "在路却走到代州雁门县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王观察",
+     "predicate": "SERVED",
+     "object": "州衙",
+     "evidence": "当时王观察领了公文，将带二十来个做公的人",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:33.809Z"
+}

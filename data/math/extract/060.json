@@ -1,0 +1,225 @@
+{
+ "no": 60,
+ "title": "3.3 勾股定理的简单应用",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6167,
+   "entities": [
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "勾股定理的逆定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "如果三角形两边的平方和等于第三边的平方，那么这个三角形是直角三角形"
+    },
+    {
+     "name": "勾股数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "满足a²+b²=c²的三个正整数"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "垂线段最短",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直线外一点与直线上各点连接的所有线段中，垂线段最短"
+    },
+    {
+     "name": "乘法公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "如平方差公式、完全平方公式等"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将数量关系与几何图形结合起来分析"
+    },
+    {
+     "name": "面积法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用图形面积关系证明或计算"
+    },
+    {
+     "name": "方程",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "设未知数，列方程求解"
+    },
+    {
+     "name": "圆柱侧面展开",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将圆柱侧面展开为矩形求最短路径"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等且四个角都是直角的四边形"
+    },
+    {
+     "name": "等边三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三条边都相等的三角形"
+    },
+    {
+     "name": "锐角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三个角都是锐角的三角形"
+    },
+    {
+     "name": "钝角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是钝角的三角形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "直角三角形",
+     "evidence": "在日常生活中，勾股定理及其逆定理有广泛的应用",
+     "confidence": 0.95
+    },
+    {
+     "subject": "勾股定理的逆定理",
+     "predicate": "APPLIES_TO",
+     "object": "直角三角形",
+     "evidence": "在日常生活中，勾股定理及其逆定理有广泛的应用",
+     "confidence": 0.95
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "DERIVES",
+     "object": "垂线段最短",
+     "evidence": "你能利用勾股定理说明“垂线段最短”吗？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "PREREQUISITE",
+     "object": "勾股定理的逆定理",
+     "evidence": "本章我们通过对图形面积的探究，发现并证明了勾股定理及其逆定理",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "PREREQUISITE",
+     "object": "勾股数",
+     "evidence": "本章知识结构：勾股定理→勾股定理的逆定理→勾股数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理的逆定理",
+     "predicate": "PREREQUISITE",
+     "object": "勾股数",
+     "evidence": "本章知识结构：勾股定理→勾股定理的逆定理→勾股数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股数",
+     "predicate": "RELATED",
+     "object": "乘法公式",
+     "evidence": "要满足上述①②的形式，不妨从乘法公式入手",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "RELATED",
+     "object": "数形结合",
+     "evidence": "勾股定理及其逆定理在数与形之间建立了联系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "RELATED",
+     "object": "面积法",
+     "evidence": "本章我们通过对图形面积的探究，发现并证明了勾股定理及其逆定理",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "方程",
+     "evidence": "根据勾股定理，得 (2x)^2+x^2=5.5^2",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "圆柱侧面展开",
+     "evidence": "如果把树干看成圆柱体，它的底面周长是12 cm，当一段葛藤绕树干盘旋1圈升高9 cm时，这段葛藤的长是多少？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "直角三角形",
+     "evidence": "以AB为一边作正方形ABDE，与△ABC位于AB的同侧",
+     "confidence": 0.8
+    },
+    {
+     "subject": "等边三角形",
+     "predicate": "SPECIAL_CASE",
+     "object": "锐角三角形",
+     "evidence": "求边长为2的等边三角形的面积",
+     "confidence": 0.8
+    },
+    {
+     "subject": "锐角三角形",
+     "predicate": "CONTRASTS",
+     "object": "钝角三角形",
+     "evidence": "利用右图猜想锐角三角形、钝角三角形三边之间的关系",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 136,
+   "entities": [
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    }
+   ],
+   "relations": []
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:59.370Z"
+}

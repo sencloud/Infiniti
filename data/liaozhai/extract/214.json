@@ -1,0 +1,107 @@
+{
+ "no": 214,
+ "title": "厍将军",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 183,
+   "entities": [
+    {
+     "name": "厍大有",
+     "type": "Person",
+     "aliases": [
+      "厍将军"
+     ],
+     "nickname": "君实",
+     "description": "汉中洋县人，武举出身，后为伪周总戎"
+    },
+    {
+     "name": "祖述舜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "厍大有旧主，厚遇提拔厍大有"
+    },
+    {
+     "name": "蔡毓荣",
+     "type": "Person",
+     "aliases": [
+      "总督蔡"
+     ],
+     "nickname": "",
+     "description": "总督，厍大有纳款归顺于他"
+    },
+    {
+     "name": "冥王",
+     "type": "Spirit",
+     "aliases": [
+      "阎王"
+     ],
+     "nickname": "",
+     "description": "冥司之主，怒厍大有负义而罚之"
+    },
+    {
+     "name": "汉中洋县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "厍大有的籍贯地"
+    },
+    {
+     "name": "冥司",
+     "type": "Place",
+     "aliases": [
+      "阴曹地府"
+     ],
+     "nickname": "",
+     "description": "冥王审判之所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "厍大有",
+     "predicate": "NATIVE_OF",
+     "object": "汉中洋县",
+     "evidence": "厍大有，字君实，汉中洋县人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祖述舜",
+     "predicate": "HELPED",
+     "object": "厍大有",
+     "evidence": "祖厚遇之，屡蒙拔擢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "厍大有",
+     "predicate": "HARMED",
+     "object": "祖述舜",
+     "evidence": "潜以兵乘祖。祖格拒伤手，因就缚之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "厍大有",
+     "predicate": "PARTICIPATED_IN",
+     "object": "纳款于总督蔡",
+     "evidence": "纳款于总督蔡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥王",
+     "predicate": "PUNISHED",
+     "object": "厍大有",
+     "evidence": "冥王怒其不义，命鬼以沸油浇其足",
+     "confidence": 0.95
+    },
+    {
+     "subject": "厍大有",
+     "predicate": "LIVES_AT",
+     "object": "冥司",
+     "evidence": "梦至冥司",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:33.589Z"
+}

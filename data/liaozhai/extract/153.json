@@ -1,0 +1,254 @@
+{
+ "no": 153,
+ "title": "辛十四娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3860,
+   "entities": [
+    {
+     "name": "冯生",
+     "type": "Person",
+     "aliases": [
+      "冯公子",
+      "冯云子之孙"
+     ],
+     "nickname": "",
+     "description": "广平人，正德间书生，轻脱纵酒，娶辛十四娘"
+    },
+    {
+     "name": "辛十四娘",
+     "type": "Spirit",
+     "aliases": [
+      "十四娘",
+      "辛娘"
+     ],
+     "nickname": "",
+     "description": "辛家狐女，排行十四，后嫁冯生，名列仙籍"
+    },
+    {
+     "name": "辛叟",
+     "type": "Spirit",
+     "aliases": [
+      "辛"
+     ],
+     "nickname": "",
+     "description": "狐精，辛十四娘之父，居兰若"
+    },
+    {
+     "name": "薛郡君",
+     "type": "Spirit",
+     "aliases": [
+      "郡君",
+      "老妪"
+     ],
+     "nickname": "",
+     "description": "薛尚书之鬼，冯生祖母之弟，为冯生作媒"
+    },
+    {
+     "name": "楚公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚银台之子，冯生同学，诬陷冯生杀婢"
+    },
+    {
+     "name": "禄儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "良家女，辛十四娘为冯生所购，后为冯生妻"
+    },
+    {
+     "name": "狐婢",
+     "type": "Spirit",
+     "aliases": [
+      "婢子"
+     ],
+     "nickname": "",
+     "description": "辛十四娘之婢，赴京为冯生陈冤"
+    },
+    {
+     "name": "广平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，冯生籍贯"
+    },
+    {
+     "name": "兰若",
+     "type": "Place",
+     "aliases": [
+      "古刹",
+      "禅院"
+     ],
+     "nickname": "",
+     "description": "荒废寺院，辛叟一家所居"
+    },
+    {
+     "name": "薛尚书墓",
+     "type": "Place",
+     "aliases": [
+      "松楸浓黑处"
+     ],
+     "nickname": "",
+     "description": "薛郡君之墓，冯生夜遇处"
+    },
+    {
+     "name": "扑满",
+     "type": "Item",
+     "aliases": [
+      "存钱罐"
+     ],
+     "nickname": "",
+     "description": "大如瓮的储钱罐，辛十四娘投钱其中"
+    },
+    {
+     "name": "金花",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "辛十四娘头上金花，薛郡君拔付冯生为信物"
+    },
+    {
+     "name": "提学试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "提督学政主持的考试，楚公子第一，冯生第二"
+    },
+    {
+     "name": "冯生冤案",
+     "type": "Event",
+     "aliases": [
+      "冯生案"
+     ],
+     "nickname": "",
+     "description": "楚公子诬冯生逼奸杀婢，后平阳观察奉旨审理"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冯生",
+     "predicate": "LOVES",
+     "object": "辛十四娘",
+     "evidence": "心窃好之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯生",
+     "predicate": "SPOUSE",
+     "object": "辛十四娘",
+     "evidence": "妪命扫榻展裀褥，即为合卺。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辛十四娘",
+     "predicate": "KIN",
+     "object": "辛叟",
+     "evidence": "蒙叟姓辛。……弱息十九人，嫁者十有二。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛郡君",
+     "predicate": "KIN",
+     "object": "冯生",
+     "evidence": "子当是我弥甥。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛郡君",
+     "predicate": "HELPED",
+     "object": "冯生",
+     "evidence": "甥勿虑，我能为若致之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯生",
+     "predicate": "LIVES_AT",
+     "object": "广平",
+     "evidence": "广平冯生，正德间人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯生",
+     "predicate": "NATIVE_OF",
+     "object": "广平",
+     "evidence": "广平冯生，正德间人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "辛叟",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "老夫流寓无所，暂借此安顿细小。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辛十四娘",
+     "predicate": "OWNS",
+     "object": "扑满",
+     "evidence": "惟两长鬣奴扛一扑满，大如瓮，息肩置堂隅。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛郡君",
+     "predicate": "OWNS",
+     "object": "金花",
+     "evidence": "乃拔女头上金花一朵，付生收之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "提学试",
+     "evidence": "会提学试，公子第一，生第二。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "楚公子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "提学试",
+     "evidence": "会提学试，公子第一，生第二。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "冯生冤案",
+     "evidence": "诬生逼奸杀婢，执送广平。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "楚公子",
+     "predicate": "HARMED",
+     "object": "冯生",
+     "evidence": "公子以生嘲慢故，衔生，日思所报，遂谋醉以酒而诬之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐婢",
+     "predicate": "HELPED",
+     "object": "冯生",
+     "evidence": "女笑指婢曰：此君之功臣也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辛十四娘",
+     "predicate": "HELPED",
+     "object": "冯生",
+     "evidence": "因按日以金钱遗生。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯生",
+     "predicate": "SPOUSE",
+     "object": "禄儿",
+     "evidence": "遂以禄儿为室。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:13.237Z"
+}

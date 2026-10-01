@@ -1,0 +1,344 @@
+{
+ "no": 34,
+ "title": "9.3 旋转",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6148,
+   "entities": [
+    {
+     "name": "旋转",
+     "type": "Concept",
+     "aliases": [
+      "rotation"
+     ],
+     "nickname": "",
+     "description": "平面内，图形绕定点按方向转动角度的变换"
+    },
+    {
+     "name": "旋转中心",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "旋转所绕的定点"
+    },
+    {
+     "name": "旋转角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "旋转时转动的角度"
+    },
+    {
+     "name": "对应点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "旋转前后图形中相互对应的点"
+    },
+    {
+     "name": "对应线段",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "旋转前后图形中相互对应的线段"
+    },
+    {
+     "name": "对应角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "旋转前后图形中相互对应的角"
+    },
+    {
+     "name": "旋转的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "旋转前后图形重合，对应线段相等，对应角相等；对应点到旋转中心距离相等，对应点与旋转中心连线所成角等于旋转角"
+    },
+    {
+     "name": "中心对称",
+     "type": "Concept",
+     "aliases": [
+      "central symmetry"
+     ],
+     "nickname": "",
+     "description": "一个图形绕某点旋转180°得到另一个图形，这两个图形成中心对称"
+    },
+    {
+     "name": "对称中心",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "中心对称中旋转180°所绕的点"
+    },
+    {
+     "name": "对称点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "中心对称图形上的对应点"
+    },
+    {
+     "name": "中心对称的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "成中心对称的两个图形中，对应点的连线段经过对称中心，且被对称中心平分"
+    },
+    {
+     "name": "中心对称图形",
+     "type": "Concept",
+     "aliases": [
+      "centrally symmetric figure"
+     ],
+     "nickname": "",
+     "description": "一个图形绕某点旋转180°后能与自身重合，这个图形叫中心对称图形"
+    },
+    {
+     "name": "平移",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形沿某方向移动一定距离的变换"
+    },
+    {
+     "name": "轴对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形沿某直线翻折180°的变换"
+    },
+    {
+     "name": "图形变换",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移、轴对称、旋转等改变图形位置或方向的变换"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "旋转",
+     "predicate": "INCLUDES",
+     "object": "旋转中心",
+     "evidence": "把一个图形绕一个定点按某个方向转动一定角度得到另一个图形的平面变换叫作旋转，这个定点称为旋转中心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "旋转",
+     "predicate": "INCLUDES",
+     "object": "旋转角",
+     "evidence": "转动的角度称为旋转角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "旋转",
+     "predicate": "INCLUDES",
+     "object": "对应点",
+     "evidence": "点A'是点A的对应点",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旋转",
+     "predicate": "INCLUDES",
+     "object": "对应线段",
+     "evidence": "线段A'B'是线段AB的对应线段",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旋转",
+     "predicate": "INCLUDES",
+     "object": "对应角",
+     "evidence": "∠A'B'C'是∠ABC的对应角",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旋转的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "旋转",
+     "evidence": "旋转前后的两个图形中，对应点到旋转中心的距离相等，对应点与旋转中心连线所成的角都等于旋转角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中心对称",
+     "predicate": "SPECIAL_CASE",
+     "object": "旋转",
+     "evidence": "由于中心对称是特殊的旋转，所以具有旋转的所有性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中心对称",
+     "predicate": "INCLUDES",
+     "object": "对称中心",
+     "evidence": "这个点叫作对称中心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中心对称",
+     "predicate": "INCLUDES",
+     "object": "对称点",
+     "evidence": "两个对称图形上的对应点叫作对称点",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中心对称的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "中心对称",
+     "evidence": "成中心对称的两个图形中，对应点的连线段经过对称中心，且被对称中心平分",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中心对称图形",
+     "predicate": "SPECIAL_CASE",
+     "object": "中心对称",
+     "evidence": "把一个图形绕某一点旋转180°，如果旋转后的图形就是其本身，那么这个图形叫作中心对称图形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "RELATED",
+     "object": "轴对称",
+     "evidence": "平移、轴对称、旋转所具有的共同性质是变换前后的两个图形可以重合，对应线段相等，对应角也相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "RELATED",
+     "object": "旋转",
+     "evidence": "平移、轴对称、旋转所具有的共同性质是变换前后的两个图形可以重合，对应线段相等，对应角也相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "RELATED",
+     "object": "旋转",
+     "evidence": "平移、轴对称、旋转所具有的共同性质是变换前后的两个图形可以重合，对应线段相等，对应角也相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "图形变换",
+     "predicate": "INCLUDES",
+     "object": "平移",
+     "evidence": "本章利用对应点、对应线段和对应角研究平移、轴对称、旋转变换前后两个对应图形的性质",
+     "confidence": 0.9
+    },
+    {
+     "subject": "图形变换",
+     "predicate": "INCLUDES",
+     "object": "轴对称",
+     "evidence": "本章利用对应点、对应线段和对应角研究平移、轴对称、旋转变换前后两个对应图形的性质",
+     "confidence": 0.9
+    },
+    {
+     "subject": "图形变换",
+     "predicate": "INCLUDES",
+     "object": "旋转",
+     "evidence": "本章利用对应点、对应线段和对应角研究平移、轴对称、旋转变换前后两个对应图形的性质",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 441,
+   "entities": [
+    {
+     "name": "旋转",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形绕某一点转动一定角度的变换"
+    },
+    {
+     "name": "图形变换",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "包括平移、旋转、轴对称等改变图形位置或形状的变换"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等、四个角都是直角的四边形"
+    },
+    {
+     "name": "六边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有六条边的多边形"
+    },
+    {
+     "name": "平面密铺",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用形状、大小完全相同的一种或几种平面图形进行拼接，彼此之间不留空隙、不重叠地铺成一片"
+    },
+    {
+     "name": "正三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三条边相等、三个角都是60度的三角形"
+    },
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的平行四边形"
+    },
+    {
+     "name": "正六边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "六条边相等、六个角相等的六边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "旋转",
+     "predicate": "INCLUDES",
+     "object": "图形变换",
+     "evidence": "如何由这两个基本图形通过图形变换得到图1中的其他图形？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "APPLIES_TO",
+     "object": "平面密铺",
+     "evidence": "我们可以用一个多边形（如正三角形、长方形、正六边形等）完成平面密铺",
+     "confidence": 0.8
+    },
+    {
+     "subject": "正三角形",
+     "predicate": "APPLIES_TO",
+     "object": "平面密铺",
+     "evidence": "我们可以用一个多边形（如正三角形、长方形、正六边形等）完成平面密铺",
+     "confidence": 0.8
+    },
+    {
+     "subject": "长方形",
+     "predicate": "APPLIES_TO",
+     "object": "平面密铺",
+     "evidence": "我们可以用一个多边形（如正三角形、长方形、正六边形等）完成平面密铺",
+     "confidence": 0.8
+    },
+    {
+     "subject": "正六边形",
+     "predicate": "APPLIES_TO",
+     "object": "平面密铺",
+     "evidence": "我们可以用一个多边形（如正三角形、长方形、正六边形等）完成平面密铺",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:49.125Z"
+}

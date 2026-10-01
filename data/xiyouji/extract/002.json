@@ -1,0 +1,288 @@
+{
+ "no": 2,
+ "title": "悟彻菩提真妙理 断魔归本合元神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5971,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "美猴王",
+     "description": "花果山水帘洞猴王，拜菩提祖师学道"
+    },
+    {
+     "name": "菩提祖师",
+     "type": "Person",
+     "aliases": [
+      "须菩提",
+      "祖师"
+     ],
+     "nickname": "祖师",
+     "description": "灵台方寸山斜月三星洞祖师，孙悟空师父"
+    },
+    {
+     "name": "混世魔王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "魔王",
+     "description": "直北坎源山水脏洞妖魔，欺虐花果山猴群"
+    },
+    {
+     "name": "花果山水帘洞",
+     "type": "Organization",
+     "aliases": [
+      "水帘洞"
+     ],
+     "nickname": "",
+     "description": "孙悟空统领的猴群势力"
+    },
+    {
+     "name": "水脏洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "混世魔王盘踞的妖洞"
+    },
+    {
+     "name": "三星洞",
+     "type": "Place",
+     "aliases": [
+      "三星仙洞"
+     ],
+     "nickname": "",
+     "description": "菩提祖师传道之所"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空出身之地"
+    },
+    {
+     "name": "坎源山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "混世魔王所居之山"
+    },
+    {
+     "name": "烂桃山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空打柴吃桃之山"
+    },
+    {
+     "name": "筋斗云",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "菩提祖师所传腾云之法，一翻十万八千里"
+    },
+    {
+     "name": "七十二般变化",
+     "type": "Item",
+     "aliases": [
+      "地煞变化"
+     ],
+     "nickname": "",
+     "description": "菩提祖师所传变化之术"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "菩提祖师",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "祖师即命大众引孙悟空出二门外，教他洒扫应对",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "花果山水帘洞",
+     "evidence": "我乃正南方花果山水帘洞洞主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "花果山水帘洞",
+     "evidence": "我乃正南方花果山水帘洞洞主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "混世魔王",
+     "predicate": "STATIONED_AT",
+     "object": "水脏洞",
+     "evidence": "那厮自称混世魔王，住居在直北下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "混世魔王",
+     "predicate": "ATTACKED",
+     "object": "花果山水帘洞",
+     "evidence": "近来被一妖魔在此欺虐，强要占我们水帘洞府",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "我自东胜神洲傲来国花果山水帘洞来的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "筋斗云",
+     "evidence": "我今只就你这个势，传你个‘筋斗云’罢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "七十二般变化",
+     "evidence": "将七十二般变化，都学成了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三星洞",
+     "evidence": "悟空到门外，又拜了大众师兄，就于廊庑之间，安排寝处",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1259,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "猴王",
+      "悟空",
+      "老孙",
+      "大王"
+     ],
+     "nickname": "美猴王",
+     "description": "花果山猴王，修仙得道，降魔归山"
+    },
+    {
+     "name": "混世魔王",
+     "type": "Person",
+     "aliases": [
+      "魔王",
+      "泼魔"
+     ],
+     "nickname": "",
+     "description": "水脏洞妖魔，掳走众猴，被悟空斩杀"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [
+      "水帘洞"
+     ],
+     "nickname": "",
+     "description": "孙悟空及众猴所居之山，有水帘洞"
+    },
+    {
+     "name": "水脏洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "混世魔王盘踞之洞，被悟空烧毁"
+    },
+    {
+     "name": "菩提祖师",
+     "type": "Person",
+     "aliases": [
+      "老祖"
+     ],
+     "nickname": "",
+     "description": "西牛贺洲神仙，传悟空长生大法"
+    },
+    {
+     "name": "南赡部洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "悟空云游学人像之地"
+    },
+    {
+     "name": "西牛贺洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "悟空访道遇菩提祖师之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "混世魔王",
+     "evidence": "他两个拳捶脚踢，一冲一撞。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "混世魔王",
+     "evidence": "照顶门一下，砍为两段。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "水脏洞",
+     "evidence": "领众杀进洞中，将那大小妖精，尽皆剿灭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "花果山",
+     "evidence": "众猴都一齐簇拥同入，分班齿序，礼拜猴王。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "混世魔王",
+     "predicate": "STATIONED_AT",
+     "object": "水脏洞",
+     "evidence": "把那水脏洞烧得枯干",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菩提祖师",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "幸遇一老祖，传了我与天同寿的真功果，不死长生的大法门。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "众猴脚屣实地，认得是家乡，个个欢喜，都奔洞门旧路。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:36:46.152Z"
+}

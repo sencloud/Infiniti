@@ -1,0 +1,59 @@
+{
+ "no": 162,
+ "title": "蛙曲",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 74,
+   "entities": [
+    {
+     "name": "王子巽",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "讲述京城见闻的人"
+    },
+    {
+     "name": "作剧者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "在京城街上表演蛙曲杂耍的人"
+    },
+    {
+     "name": "都",
+     "type": "Place",
+     "aliases": [
+      "京城"
+     ],
+     "nickname": "",
+     "description": "作剧者表演杂耍的都市"
+    },
+    {
+     "name": "木盒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "分十二格、每格伏一蛙的道具盒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "作剧者",
+     "predicate": "OWNS",
+     "object": "木盒",
+     "evidence": "携木盒作格，凡十有二孔，每孔伏蛙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "作剧者",
+     "predicate": "LIVES_AT",
+     "object": "都",
+     "evidence": "在都时，曾见一人作剧于市",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:13.914Z"
+}

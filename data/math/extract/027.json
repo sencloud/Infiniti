@@ -1,0 +1,282 @@
+{
+ "no": 27,
+ "title": "7.3 同底数幂的除法",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6142,
+   "entities": [
+    {
+     "name": "同底数幂的除法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "同底数幂相除，底数不变，指数相减"
+    },
+    {
+     "name": "零指数幂",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "任何不等于0的数的0次幂等于1"
+    },
+    {
+     "name": "负整数指数幂",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "任何不等于0的数的-n次幂等于这个数的n次幂的倒数"
+    },
+    {
+     "name": "科学记数法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "绝对值大于10或小于1的数表示为a×10^n形式"
+    },
+    {
+     "name": "积的乘方",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "积的乘方等于各因式乘方的积"
+    },
+    {
+     "name": "商的乘方",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "商的乘方等于分子分母分别乘方"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "同底数幂的除法",
+     "predicate": "DERIVES",
+     "object": "零指数幂",
+     "evidence": "当m=n时，由除法的意义可知a^m÷a^m=1。为了使上述性质仍然成立，我们规定：任何不等于0的数的0次幂等于1。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同底数幂的除法",
+     "predicate": "DERIVES",
+     "object": "负整数指数幂",
+     "evidence": "当m<n时，m-n<0。为了使a^m÷a^n=a^{m-n}仍然成立，我们需要先把幂a^m中的指数推广到负整数的情形。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "负整数指数幂",
+     "predicate": "PREREQUISITE",
+     "object": "科学记数法",
+     "evidence": "规定了负整数指数幂后，对于绝对值小于1的数也可以用科学记数法表示为a×10^{-n}的形式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "积的乘方",
+     "predicate": "DERIVES",
+     "object": "商的乘方",
+     "evidence": "这说明可以把积的乘方运算法则推广到商的乘方运算。",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3455,
+   "entities": [
+    {
+     "name": "同底数幂的乘法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a^m·a^n=a^{m+n}（m,n是整数）"
+    },
+    {
+     "name": "幂的乘方",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a^m)^n=a^{mn}（m,n是整数）"
+    },
+    {
+     "name": "积的乘方",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(ab)^n=a^n·b^n（n是整数）"
+    },
+    {
+     "name": "同底数幂的除法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a^m÷a^n=a^{m-n}（a≠0，m,n是整数）"
+    },
+    {
+     "name": "零指数幂",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a^0=1（a≠0）"
+    },
+    {
+     "name": "负整数指数幂",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a^{-n}=1/a^n（a≠0，n是整数）"
+    },
+    {
+     "name": "科学记数法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用10的幂表示数的方法"
+    },
+    {
+     "name": "整数指数幂",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "指数为整数的幂"
+    },
+    {
+     "name": "幂的运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "幂的乘法、乘方、除法等运算"
+    },
+    {
+     "name": "恒等变形",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "保持表达式值不变的变形"
+    },
+    {
+     "name": "数感",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "对数的感知与理解"
+    },
+    {
+     "name": "符号意识",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "对数学符号的理解与运用"
+    },
+    {
+     "name": "运算能力",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "进行数学运算的能力"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "同底数幂的乘法",
+     "predicate": "INCLUDES",
+     "object": "幂的运算",
+     "evidence": "本章中，我们学习了幂的运算性质，包括同底数幂的乘法、幂的乘方、积的乘方、同底数幂的除法等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "幂的乘方",
+     "predicate": "INCLUDES",
+     "object": "幂的运算",
+     "evidence": "本章中，我们学习了幂的运算性质，包括同底数幂的乘法、幂的乘方、积的乘方、同底数幂的除法等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "积的乘方",
+     "predicate": "INCLUDES",
+     "object": "幂的运算",
+     "evidence": "本章中，我们学习了幂的运算性质，包括同底数幂的乘法、幂的乘方、积的乘方、同底数幂的除法等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同底数幂的除法",
+     "predicate": "INCLUDES",
+     "object": "幂的运算",
+     "evidence": "本章中，我们学习了幂的运算性质，包括同底数幂的乘法、幂的乘方、积的乘方、同底数幂的除法等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "零指数幂",
+     "predicate": "INCLUDES",
+     "object": "幂的运算",
+     "evidence": "本章知识结构：幂的运算……a^0=1（a≠0）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "负整数指数幂",
+     "predicate": "INCLUDES",
+     "object": "幂的运算",
+     "evidence": "本章知识结构：幂的运算……a^{-n}=1/a^n（a≠0，n是整数）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "同底数幂的乘法",
+     "predicate": "PREREQUISITE",
+     "object": "整数指数幂",
+     "evidence": "幂的运算性质的适用范围扩展到整数指数幂后",
+     "confidence": 0.85
+    },
+    {
+     "subject": "同底数幂的除法",
+     "predicate": "PREREQUISITE",
+     "object": "整数指数幂",
+     "evidence": "幂的运算性质的适用范围扩展到整数指数幂后",
+     "confidence": 0.85
+    },
+    {
+     "subject": "同底数幂的乘法",
+     "predicate": "RELATED",
+     "object": "同底数幂的除法",
+     "evidence": "同底数幂的乘法、除法法则本质上是一致的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "幂的运算",
+     "predicate": "APPLIES_TO",
+     "object": "科学记数法",
+     "evidence": "用科学记数法表示这块钟乳石增长1 m需要的时间",
+     "confidence": 0.8
+    },
+    {
+     "subject": "幂的运算",
+     "predicate": "APPLIES_TO",
+     "object": "恒等变形",
+     "evidence": "它们的本质都是恒等变形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "幂的运算",
+     "predicate": "APPLIES_TO",
+     "object": "数感",
+     "evidence": "有助于发展数感、符号意识和运算能力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "幂的运算",
+     "predicate": "APPLIES_TO",
+     "object": "符号意识",
+     "evidence": "有助于发展数感、符号意识和运算能力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "幂的运算",
+     "predicate": "APPLIES_TO",
+     "object": "运算能力",
+     "evidence": "有助于发展数感、符号意识和运算能力",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:44.765Z"
+}

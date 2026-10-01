@@ -8,18 +8,41 @@
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "worker": "node src/pipeline/worker.js",
-    "seed": "node src/scripts/seed.js"
+    "seed": "node src/scripts/seed.js",
+    "kg:run": "node src/scripts/kg/run.js",
+    "kg:crawl": "node src/scripts/kg/crawl.js",
+    "kg:seeds": "node src/scripts/kg/seeds.js",
+    "kg:extract": "node src/scripts/kg/extract.js",
+    "kg:load": "node src/scripts/kg/load.js",
+    "kg:build": "node src/scripts/kg/build.js",
+    "shuihu:all": "node src/scripts/kg/run.js shuihu",
+    "shuihu:load": "node src/scripts/kg/load.js shuihu",
+    "shuihu:build": "node src/scripts/kg/build.js shuihu",
+    "shuihu:media": "node src/scripts/shuihu/media.js",
+    "classics:all": "node src/scripts/kg/all.js",
+    "kg:covers": "node src/scripts/kg/covers.js",
+    "math:all": "node src/scripts/kg/run.js math",
+    "math:fetch": "node src/scripts/math/fetch.js",
+    "web:dev": "npm --prefix web run dev",
+    "web:build": "npm --prefix web run build"
   },
   "license": "ISC",
   "dependencies": {
+    "@huggingface/transformers": "^4.3.0",
+    "@node-rs/jieba": "^2.0.3",
     "axios": "^1.20.0",
     "cheerio": "^1.2.0",
     "crawlee": "^3.18.1",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "graphology": "^0.26.0",
+    "graphology-communities-louvain": "^2.0.2",
+    "ml-kmeans": "^7.0.1",
+    "ml-pca": "^4.1.1",
     "neo4j-driver": "^6.2.0",
     "openai": "^7.10.0",
     "playwright-core": "^1.63.0",
-    "three": "0.160.1"
+    "three": "0.160.1",
+    "umap-js": "^1.4.0"
   }
 }

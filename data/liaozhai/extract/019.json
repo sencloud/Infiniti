@@ -1,0 +1,77 @@
+{
+ "no": 19,
+ "title": "犬奸",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 443,
+   "entities": [
+    {
+     "name": "贾某",
+     "type": "Person",
+     "aliases": [
+      "贾人"
+     ],
+     "nickname": "",
+     "description": "青州商人，客居在外，被白犬咬死"
+    },
+    {
+     "name": "贾妻",
+     "type": "Person",
+     "aliases": [
+      "妇"
+     ],
+     "nickname": "",
+     "description": "贾某之妻，与白犬交合，后被处死"
+    },
+    {
+     "name": "白犬",
+     "type": "Spirit",
+     "aliases": [
+      "犬"
+     ],
+     "nickname": "",
+     "description": "贾家所养白狗，与贾妻交合并咬死贾某"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾某籍贯所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾某",
+     "predicate": "SPOUSE",
+     "object": "贾妻",
+     "evidence": "青州贾某，客于外，恒经岁不归。家蓄一白犬，妻引与交。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾妻",
+     "predicate": "LOVES",
+     "object": "白犬",
+     "evidence": "妻引与交。犬习为常。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白犬",
+     "predicate": "KILLED",
+     "object": "贾某",
+     "evidence": "犬突入，登榻，啮贾人竟死。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾某",
+     "predicate": "NATIVE_OF",
+     "object": "青州",
+     "evidence": "青州贾某，客于外，恒经岁不归。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:19.211Z"
+}

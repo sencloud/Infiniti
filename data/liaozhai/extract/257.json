@@ -1,0 +1,170 @@
+{
+ "no": 257,
+ "title": "刘姓",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1226,
+   "entities": [
+    {
+     "name": "刘姓",
+     "type": "Person",
+     "aliases": [
+      "刘某"
+     ],
+     "nickname": "",
+     "description": "沂水恶霸，曾为淄川捕隶，后改过"
+    },
+    {
+     "name": "苗某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘姓邻居，种桃，和善"
+    },
+    {
+     "name": "李翠石",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂水典商，刘姓同乡，善调解"
+    },
+    {
+     "name": "马姓",
+     "type": "Person",
+     "aliases": [
+      "马掌柜"
+     ],
+     "nickname": "",
+     "description": "油肆主，欲买妇"
+    },
+    {
+     "name": "男子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "崇祯十三年逃荒夫妇中的丈夫"
+    },
+    {
+     "name": "南面者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府官长，审刘姓"
+    },
+    {
+     "name": "沂",
+     "type": "Place",
+     "aliases": [
+      "沂水"
+     ],
+     "nickname": "",
+     "description": "沂水县，刘姓迁居地"
+    },
+    {
+     "name": "淄",
+     "type": "Place",
+     "aliases": [
+      "淄川"
+     ],
+     "nickname": "",
+     "description": "淄川，刘姓原籍"
+    },
+    {
+     "name": "公廨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府官府"
+    },
+    {
+     "name": "周村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李翠石遇刘姓处"
+    },
+    {
+     "name": "桃树",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "苗某田畔所种，刘姓争为己有"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘姓",
+     "predicate": "LIVES_AT",
+     "object": "沂",
+     "evidence": "后去淄居沂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘姓",
+     "predicate": "NATIVE_OF",
+     "object": "淄",
+     "evidence": "后去淄居沂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘姓",
+     "predicate": "HARMED",
+     "object": "苗某",
+     "evidence": "刘怒驱之，指为己有",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姓",
+     "predicate": "FRIEND",
+     "object": "李翠石",
+     "evidence": "以同乡故相熟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李翠石",
+     "predicate": "HELPED",
+     "object": "刘姓",
+     "evidence": "乃碎其词纸，曳入肆，将与调停",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李翠石",
+     "predicate": "HELPED",
+     "object": "苗某",
+     "evidence": "因哀李为之解免",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姓",
+     "predicate": "OWNS",
+     "object": "桃树",
+     "evidence": "指为己有",
+     "confidence": 0.9
+    },
+    {
+     "subject": "南面者",
+     "predicate": "PUNISHED",
+     "object": "刘姓",
+     "evidence": "此等横暴，合置铛鼎！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姓",
+     "predicate": "HELPED",
+     "object": "男子",
+     "evidence": "遂发囊与之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马姓",
+     "predicate": "HARMED",
+     "object": "男子",
+     "evidence": "马执不可",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:50.944Z"
+}

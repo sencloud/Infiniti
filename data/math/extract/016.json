@@ -1,0 +1,401 @@
+{
+ "no": 16,
+ "title": "4.3 用一元一次方程解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6193,
+   "entities": [
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数，未知数次数为1的整式方程"
+    },
+    {
+     "name": "方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有未知数的等式"
+    },
+    {
+     "name": "等式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等式两边同加同减、同乘同除非零数仍相等"
+    },
+    {
+     "name": "去分母",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "方程两边同乘各分母的最小公倍数"
+    },
+    {
+     "name": "去括号",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用分配律去掉方程中的括号"
+    },
+    {
+     "name": "移项",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把方程中的项改变符号后从一边移到另一边"
+    },
+    {
+     "name": "合并同类项",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把方程中同类项的系数相加，字母部分不变"
+    },
+    {
+     "name": "系数化为1",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "方程两边同除以未知数的系数，得到x=c"
+    },
+    {
+     "name": "列表法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用表格整理实际问题中的数量关系"
+    },
+    {
+     "name": "画示意图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用线段图等图形分析数量关系"
+    },
+    {
+     "name": "模型观念",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "从实际问题抽象出数学模型的思想"
+    },
+    {
+     "name": "运算能力",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据法则和运算律进行正确运算的能力"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "梯形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有一组对边平行的四边形"
+    },
+    {
+     "name": "圆柱",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "以矩形的一边所在直线为轴旋转形成的几何体"
+    },
+    {
+     "name": "菱形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边都相等的四边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "方程",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "本章从描述现实问题中数量之间相等关系的等式出发，得到方程的相关概念，然后从具体实例引入一元一次方程的概念",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "去分母",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "通过去分母、去括号、移项、合并同类项、系数化为1等过程把方程转化为x=c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "去括号",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "通过去分母、去括号、移项、合并同类项、系数化为1等过程把方程转化为x=c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "移项",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "通过去分母、去括号、移项、合并同类项、系数化为1等过程把方程转化为x=c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "合并同类项",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "通过去分母、去括号、移项、合并同类项、系数化为1等过程把方程转化为x=c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "系数化为1",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "通过去分母、去括号、移项、合并同类项、系数化为1等过程把方程转化为x=c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "INCLUDES",
+     "object": "去分母",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质，通过去分母、去括号、移项、合并同类项、系数化为1等过程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "INCLUDES",
+     "object": "去括号",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质，通过去分母、去括号、移项、合并同类项、系数化为1等过程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "INCLUDES",
+     "object": "移项",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质，通过去分母、去括号、移项、合并同类项、系数化为1等过程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "INCLUDES",
+     "object": "合并同类项",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质，通过去分母、去括号、移项、合并同类项、系数化为1等过程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "INCLUDES",
+     "object": "系数化为1",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质，通过去分母、去括号、移项、合并同类项、系数化为1等过程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "列表法",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次方程",
+     "evidence": "用一元一次方程解决问题的关键是找出实际问题中含未知数的等量关系，列表、画示意图等是分析实际问题中数量关系的常用策略",
+     "confidence": 0.95
+    },
+    {
+     "subject": "画示意图",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次方程",
+     "evidence": "用一元一次方程解决问题的关键是找出实际问题中含未知数的等量关系，列表、画示意图等是分析实际问题中数量关系的常用策略",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "RELATED",
+     "object": "模型观念",
+     "evidence": "在利用一元一次方程解决实际问题时，列表和画示意图是分析等量关系的重要策略。在学习过程中，学会分析问题、解决问题，初步形成模型观念，提升运算能力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "RELATED",
+     "object": "运算能力",
+     "evidence": "在利用一元一次方程解决实际问题时，列表和画示意图是分析等量关系的重要策略。在学习过程中，学会分析问题、解决问题，初步形成模型观念，提升运算能力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "直角三角形",
+     "predicate": "SPECIAL_CASE",
+     "object": "三角形",
+     "evidence": "所以三角形三个角的大小分别为36°，54°，90°。答：这个三角形是直角三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "菱形",
+     "predicate": "SPECIAL_CASE",
+     "object": "梯形",
+     "evidence": "菱形纹是中国传统纹饰，常被用于建筑、器具等装饰设计",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2349,
+   "entities": [
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数，未知数的次数都是1的整式方程"
+    },
+    {
+     "name": "去分母",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "方程两边同乘各分母的最小公倍数，化为整式方程"
+    },
+    {
+     "name": "去括号",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用分配律去掉方程中的括号"
+    },
+    {
+     "name": "移项",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把方程中的项改变符号后从一边移到另一边"
+    },
+    {
+     "name": "合并同类项",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把方程中同类项的系数相加，字母部分不变"
+    },
+    {
+     "name": "系数化为1",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "方程两边同除以未知数的系数，得到解"
+    },
+    {
+     "name": "方程的解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "使方程左右两边相等的未知数的值"
+    },
+    {
+     "name": "代数式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用运算符号把数和表示数的字母连接起来的式子"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有符号不同的两个数，互为相反数"
+    },
+    {
+     "name": "一元一次方程的应用",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用一元一次方程解决实际问题"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "去分母",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "解一元一次方程时，通常先去分母",
+     "confidence": 0.9
+    },
+    {
+     "subject": "去括号",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "解一元一次方程时，通常先去括号",
+     "confidence": 0.9
+    },
+    {
+     "subject": "移项",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "解一元一次方程时，通常要移项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "合并同类项",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "解一元一次方程时，通常要合并同类项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "系数化为1",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "解一元一次方程时，最后要系数化为1",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "INCLUDES",
+     "object": "方程的解",
+     "evidence": "使方程左右两边相等的未知数的值叫作方程的解",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次方程的应用",
+     "evidence": "用一元一次方程解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程的应用",
+     "predicate": "RELATED",
+     "object": "代数式",
+     "evidence": "当x为何值时，代数式...的值是3",
+     "confidence": 0.8
+    },
+    {
+     "subject": "一元一次方程的应用",
+     "predicate": "RELATED",
+     "object": "相反数",
+     "evidence": "代数式...的值互为相反数",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:41.533Z"
+}

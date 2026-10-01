@@ -1,0 +1,144 @@
+{
+ "no": 392,
+ "title": "何仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 655,
+   "entities": [
+    {
+     "name": "王瑞亭",
+     "type": "Person",
+     "aliases": [
+      "王公子瑞亭"
+     ],
+     "nickname": "",
+     "description": "长山王公子，能以乩卜"
+    },
+    {
+     "name": "何仙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "乩神，自称纯阳弟子"
+    },
+    {
+     "name": "李质君",
+     "type": "Person",
+     "aliases": [
+      "李太史"
+     ],
+     "nickname": "",
+     "description": "太史，师事何仙"
+    },
+    {
+     "name": "李忭",
+     "type": "Person",
+     "aliases": [
+      "李生"
+     ],
+     "nickname": "",
+     "description": "乐陵人，好学深思之士"
+    },
+    {
+     "name": "孙子未",
+     "type": "Person",
+     "aliases": [
+      "孙太史"
+     ],
+     "nickname": "",
+     "description": "太史，海内宗匠"
+    },
+    {
+     "name": "朱文宗",
+     "type": "Person",
+     "aliases": [
+      "朱雯"
+     ],
+     "nickname": "",
+     "description": "提学使，主持济南岁考"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，岁考地点"
+    },
+    {
+     "name": "乐陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，李忭籍贯"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王瑞亭籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王瑞亭",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山王公子瑞亭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李忭",
+     "predicate": "NATIVE_OF",
+     "object": "乐陵",
+     "evidence": "座中有与乐陵李忭相善者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李质君",
+     "predicate": "FRIEND",
+     "object": "何仙",
+     "evidence": "李太史质君师事之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何仙",
+     "predicate": "HELPED",
+     "object": "李质君",
+     "evidence": "太史揣摩成，赖何仙力居多焉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何仙",
+     "predicate": "HELPED",
+     "object": "李忭",
+     "evidence": "当多写试卷，益暴之，明岁可得优等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙子未",
+     "predicate": "HELPED",
+     "object": "李忭",
+     "evidence": "太史赞其文，因解其惑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李忭",
+     "predicate": "PARTICIPATED_IN",
+     "object": "岁考",
+     "evidence": "辛未岁，朱文宗案临济南，试后，诸友请决等第",
+     "confidence": 0.9
+    },
+    {
+     "subject": "岁考",
+     "predicate": "OCCURRED_AT",
+     "object": "济南",
+     "evidence": "朱文宗案临济南，试后",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:39.315Z"
+}

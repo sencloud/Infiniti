@@ -1,0 +1,325 @@
+{
+ "no": 101,
+ "title": "3.3 圆的对称性",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4132,
+   "entities": [
+    {
+     "name": "圆",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "平面内到定点距离等于定长的点的集合"
+    },
+    {
+     "name": "圆心",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆的中心点，到圆上各点距离相等"
+    },
+    {
+     "name": "半径",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "连接圆心和圆上任意一点的线段"
+    },
+    {
+     "name": "直径",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "经过圆心的弦，是圆中最长的弦"
+    },
+    {
+     "name": "弦",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "连接圆上任意两点的线段"
+    },
+    {
+     "name": "弧",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆上任意两点间的部分"
+    },
+    {
+     "name": "圆心角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "顶点在圆心的角"
+    },
+    {
+     "name": "等弧",
+     "type": "Concept",
+     "aliases": [
+      "equal arc"
+     ],
+     "nickname": "",
+     "description": "在同圆或等圆中能够互相重合的弧"
+    },
+    {
+     "name": "中心对称图形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "绕某点旋转180°后能与自身重合的图形"
+    },
+    {
+     "name": "轴对称图形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "沿某直线折叠后能与自身重合的图形"
+    },
+    {
+     "name": "圆的对称性",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆既是中心对称图形，又是轴对称图形"
+    },
+    {
+     "name": "垂径定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "垂直于弦的直径平分弦以及弦所对的两条弧"
+    },
+    {
+     "name": "圆心角、弧、弦关系定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "在同圆或等圆中，圆心角、弧、弦有一组量相等，则其余各组量分别相等"
+    },
+    {
+     "name": "圆心角的度数与弧的度数关系",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆心角的度数与它所对的弧的度数相等"
+    },
+    {
+     "name": "圆是中心对称图形",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆是中心对称图形，圆心是它的对称中心"
+    },
+    {
+     "name": "圆是轴对称图形",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆是轴对称图形，过圆心的任意一条直线都是它的对称轴"
+    },
+    {
+     "name": "垂径定理的推论",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "平分弦（不是直径）的直径垂直于弦，并且平分弦所对的两条弧"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "等腰三角形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等腰三角形底边上的高、中线及顶角平分线互相重合"
+    },
+    {
+     "name": "等边三角形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等边三角形的三条边相等，三个角都等于60°"
+    },
+    {
+     "name": "圆的对称性",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆具有中心对称性和轴对称性"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "圆心",
+     "evidence": "圆是中心对称图形，圆心是它的对称中心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "半径",
+     "evidence": "在两张透明纸上分别画一个半径相等的圆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "直径",
+     "evidence": "圆的直径的两个端点关于圆心中心对称",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "弦",
+     "evidence": "AB是⊙O的弦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "弧",
+     "evidence": "在同圆或等圆中，相等的圆心角所对的弧相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "圆心角",
+     "evidence": "在同圆或等圆中，相等的圆心角所对的弧相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆心角",
+     "predicate": "PREREQUISITE",
+     "object": "圆心角、弧、弦关系定理",
+     "evidence": "在同圆或等圆中，相等的圆心角所对的弧相等，所对的弦相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "弧",
+     "predicate": "PREREQUISITE",
+     "object": "圆心角、弧、弦关系定理",
+     "evidence": "在同圆或等圆中，相等的圆心角所对的弧相等，所对的弦相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "弦",
+     "predicate": "PREREQUISITE",
+     "object": "圆心角、弧、弦关系定理",
+     "evidence": "在同圆或等圆中，相等的圆心角所对的弧相等，所对的弦相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆心角、弧、弦关系定理",
+     "predicate": "DERIVES",
+     "object": "圆心角的度数与弧的度数关系",
+     "evidence": "因为同圆中相等的圆心角所对的弧相等，所以整个圆也被等分成360份",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆是中心对称图形",
+     "predicate": "PROPERTY_OF",
+     "object": "圆",
+     "evidence": "圆是中心对称图形，圆心是它的对称中心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆是轴对称图形",
+     "predicate": "PROPERTY_OF",
+     "object": "圆",
+     "evidence": "圆是轴对称图形，过圆心的任意一条直线都是它的对称轴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "垂径定理",
+     "predicate": "PROPERTY_OF",
+     "object": "圆",
+     "evidence": "垂直于弦的直径平分弦以及弦所对的两条弧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "垂径定理",
+     "predicate": "DERIVES",
+     "object": "垂径定理的推论",
+     "evidence": "平分弦（不是直径）的直径垂直于弦，并且平分弦所对的两条弧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "垂径定理",
+     "predicate": "APPLIES_TO",
+     "object": "勾股定理",
+     "evidence": "在Rt△OAE中，OA^2=AE^2+OE^2",
+     "confidence": 0.9
+    },
+    {
+     "subject": "垂径定理",
+     "predicate": "APPLIES_TO",
+     "object": "等腰三角形的性质",
+     "evidence": "由OC=OD，OP⊥CD，可得PC=PD",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等边三角形的性质",
+     "predicate": "PREREQUISITE",
+     "object": "圆心角、弧、弦关系定理",
+     "evidence": "∵△ABC是等边三角形，∴AB=BC=AC。∴∠AOB=∠AOC=∠BOC",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆心角、弧、弦关系定理",
+     "predicate": "APPLIES_TO",
+     "object": "等边三角形的性质",
+     "evidence": "∴∠AOB=∠AOC=∠BOC（同圆中，相等的弦所对的圆心角相等）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆是中心对称图形",
+     "predicate": "CONTRASTS",
+     "object": "圆是轴对称图形",
+     "evidence": "圆是中心对称图形，圆心是它的对称中心。圆是轴对称图形，过圆心的任意一条直线都是它的对称轴",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆心角",
+     "predicate": "RELATED",
+     "object": "弧",
+     "evidence": "圆心角的度数与它所对的弧的度数相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆心角",
+     "predicate": "RELATED",
+     "object": "弦",
+     "evidence": "在同圆或等圆中，如果两个圆心角、两条弧、两条弦中有一组量相等，那么它们所对应的其余各组量都分别相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "弧",
+     "predicate": "RELATED",
+     "object": "弦",
+     "evidence": "在同圆或等圆中，如果两个圆心角、两条弧、两条弦中有一组量相等，那么它们所对应的其余各组量都分别相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等弧",
+     "predicate": "RELATED",
+     "object": "圆心角",
+     "evidence": "在同圆或等圆中，圆心角相等的扇形都可以重合，这两个扇形对应的弧和弦也都重合，我们把可以重合的弧叫作等弧",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:20.169Z"
+}

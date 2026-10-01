@@ -1,0 +1,78 @@
+{
+ "no": 128,
+ "title": "7.3 特殊角的三角函数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1720,
+   "entities": [
+    {
+     "name": "锐角三角函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "锐角的正弦、余弦、正切函数"
+    },
+    {
+     "name": "特殊角的三角函数值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "30°、45°、60°角的正弦、余弦、正切值"
+    },
+    {
+     "name": "30°角的三角函数值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "sin30°=1/2, cos30°=√3/2, tan30°=√3/3"
+    },
+    {
+     "name": "45°角的三角函数值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "sin45°=√2/2, cos45°=√2/2, tan45°=1"
+    },
+    {
+     "name": "60°角的三角函数值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "sin60°=√3/2, cos60°=1/2, tan60°=√3"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "锐角三角函数",
+     "predicate": "PREREQUISITE",
+     "object": "特殊角的三角函数值",
+     "evidence": "请说出30°、45°、60°角的各三角函数值，并说明理由。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "特殊角的三角函数值",
+     "predicate": "INCLUDES",
+     "object": "30°角的三角函数值",
+     "evidence": "30°、45°、60°角的三角函数值列表如下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "特殊角的三角函数值",
+     "predicate": "INCLUDES",
+     "object": "45°角的三角函数值",
+     "evidence": "30°、45°、60°角的三角函数值列表如下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "特殊角的三角函数值",
+     "predicate": "INCLUDES",
+     "object": "60°角的三角函数值",
+     "evidence": "30°、45°、60°角的三角函数值列表如下",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:29.053Z"
+}

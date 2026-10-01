@@ -1,0 +1,241 @@
+{
+ "no": 99,
+ "title": "3.1 圆的相关概念",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2872,
+   "entities": [
+    {
+     "name": "圆",
+     "type": "Concept",
+     "aliases": [
+      "circle"
+     ],
+     "nickname": "",
+     "description": "平面内到一定点的距离等于定长的点的集合"
+    },
+    {
+     "name": "圆心",
+     "type": "Concept",
+     "aliases": [
+      "centre of circle"
+     ],
+     "nickname": "",
+     "description": "圆中到圆上各点距离相等的定点"
+    },
+    {
+     "name": "半径",
+     "type": "Concept",
+     "aliases": [
+      "radius"
+     ],
+     "nickname": "",
+     "description": "圆中定点到圆上任意点的定长"
+    },
+    {
+     "name": "弦",
+     "type": "Concept",
+     "aliases": [
+      "chord"
+     ],
+     "nickname": "",
+     "description": "连接圆上任意两点的线段"
+    },
+    {
+     "name": "直径",
+     "type": "Concept",
+     "aliases": [
+      "diameter"
+     ],
+     "nickname": "",
+     "description": "经过圆心的弦"
+    },
+    {
+     "name": "弧",
+     "type": "Concept",
+     "aliases": [
+      "arc",
+      "圆弧"
+     ],
+     "nickname": "",
+     "description": "圆上任意两点间的曲线段"
+    },
+    {
+     "name": "半圆",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "直径的两个端点把圆分成的两条相等弧"
+    },
+    {
+     "name": "优弧",
+     "type": "Concept",
+     "aliases": [
+      "major arc"
+     ],
+     "nickname": "",
+     "description": "大于半圆的弧"
+    },
+    {
+     "name": "劣弧",
+     "type": "Concept",
+     "aliases": [
+      "minor arc"
+     ],
+     "nickname": "",
+     "description": "小于半圆的弧"
+    },
+    {
+     "name": "圆心角",
+     "type": "Concept",
+     "aliases": [
+      "central angle"
+     ],
+     "nickname": "",
+     "description": "顶点在圆心的角"
+    },
+    {
+     "name": "同心圆",
+     "type": "Concept",
+     "aliases": [
+      "concentric circles"
+     ],
+     "nickname": "",
+     "description": "圆心相同、半径不相等的两个圆"
+    },
+    {
+     "name": "等圆",
+     "type": "Concept",
+     "aliases": [
+      "equal circle"
+     ],
+     "nickname": "",
+     "description": "半径相等的两个圆"
+    },
+    {
+     "name": "同圆或等圆的半径相等",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "同圆或等圆的半径相等"
+    },
+    {
+     "name": "等腰三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有两条边相等的三角形"
+    },
+    {
+     "name": "全等三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的两个三角形"
+    },
+    {
+     "name": "图形变换",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "研究几何图形性质的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "圆心",
+     "evidence": "其中，定点叫作圆心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "半径",
+     "evidence": "定长叫作半径",
+     "confidence": 0.95
+    },
+    {
+     "subject": "弦",
+     "predicate": "INCLUDES",
+     "object": "直径",
+     "evidence": "经过圆心的弦叫作直径",
+     "confidence": 0.95
+    },
+    {
+     "subject": "弧",
+     "predicate": "INCLUDES",
+     "object": "半圆",
+     "evidence": "每条弧都叫作半圆",
+     "confidence": 0.95
+    },
+    {
+     "subject": "弧",
+     "predicate": "INCLUDES",
+     "object": "优弧",
+     "evidence": "大于半圆的弧叫作优弧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "弧",
+     "predicate": "INCLUDES",
+     "object": "劣弧",
+     "evidence": "小于半圆的弧叫作劣弧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "圆心角",
+     "evidence": "顶点在圆心的角叫作圆心角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "同心圆",
+     "evidence": "圆心相同，半径不相等的两个圆叫作同心圆",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "等圆",
+     "evidence": "半径相等的两个圆叫作等圆",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同圆或等圆的半径相等",
+     "predicate": "PROPERTY_OF",
+     "object": "圆",
+     "evidence": "根据圆的定义，我们得到如下结论：同圆或等圆的半径相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "APPLIES_TO",
+     "object": "圆",
+     "evidence": "研究工具主要是全等三角形和图形变换",
+     "confidence": 0.9
+    },
+    {
+     "subject": "图形变换",
+     "predicate": "APPLIES_TO",
+     "object": "圆",
+     "evidence": "研究工具主要是全等三角形和图形变换",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等腰三角形",
+     "predicate": "RELATED",
+     "object": "圆",
+     "evidence": "求证：△OAB是等腰三角形",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:16.341Z"
+}

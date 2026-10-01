@@ -1,0 +1,154 @@
+{
+ "no": 6,
+ "title": "画壁",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 925,
+   "entities": [
+    {
+     "name": "孟龙潭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江西人，与朱孝廉客居都中，同游兰若"
+    },
+    {
+     "name": "朱孝廉",
+     "type": "Person",
+     "aliases": [
+      "朱举人",
+      "朱檀越"
+     ],
+     "nickname": "",
+     "description": "与孟龙潭同游兰若，入壁画与垂髫女相恋"
+    },
+    {
+     "name": "老僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "兰若中挂褡的老和尚，弹壁唤朱孝廉出画"
+    },
+    {
+     "name": "垂髫女",
+     "type": "Spirit",
+     "aliases": [
+      "拈花人",
+      "散花天女"
+     ],
+     "nickname": "",
+     "description": "壁画中散花天女，与朱孝廉相恋，后梳髻"
+    },
+    {
+     "name": "金甲使者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "壁画中金甲黑面使者，持锁槌搜查下界凡人"
+    },
+    {
+     "name": "兰若",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "都中寺庙，殿宇禅舍不甚弘敞"
+    },
+    {
+     "name": "都中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "京城，孟龙潭与朱孝廉客居之地"
+    },
+    {
+     "name": "江西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟龙潭籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孟龙潭",
+     "predicate": "NATIVE_OF",
+     "object": "江西",
+     "evidence": "江西孟龙潭，与朱孝廉客都中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟龙潭",
+     "predicate": "FRIEND",
+     "object": "朱孝廉",
+     "evidence": "江西孟龙潭，与朱孝廉客都中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟龙潭",
+     "predicate": "LIVES_AT",
+     "object": "都中",
+     "evidence": "江西孟龙潭，与朱孝廉客都中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱孝廉",
+     "predicate": "LIVES_AT",
+     "object": "都中",
+     "evidence": "江西孟龙潭，与朱孝廉客都中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟龙潭",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "偶涉一兰若，殿宇禅舍，俱不甚弘敞，惟一老僧挂褡其中。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "朱孝廉",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "偶涉一兰若，殿宇禅舍，俱不甚弘敞，惟一老僧挂褡其中。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "老僧",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "偶涉一兰若，殿宇禅舍，俱不甚弘敞，惟一老僧挂褡其中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱孝廉",
+     "predicate": "LOVES",
+     "object": "垂髫女",
+     "evidence": "遽拥之，亦不甚拒，遂与狎好。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "垂髫女",
+     "predicate": "HELPED",
+     "object": "朱孝廉",
+     "evidence": "女大惧，面如死灰，张皇谓朱曰：“可急匿榻下。”乃启壁上小扉，猝遁去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金甲使者",
+     "predicate": "HARMED",
+     "object": "朱孝廉",
+     "evidence": "使者曰：“如有藏匿下界人，即共出首，勿贻伊戚。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "老僧",
+     "predicate": "HELPED",
+     "object": "朱孝廉",
+     "evidence": "少时，以指弹壁而呼曰：“朱檀越，何久游不归？”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:17.229Z"
+}

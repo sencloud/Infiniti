@@ -1,0 +1,420 @@
+{
+ "no": 84,
+ "title": "难灭伽持圆大觉 法王成正体天然",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5982,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大，变化多端"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "南海菩萨，点化唐僧师徒"
+    },
+    {
+     "name": "红孩儿",
+     "type": "Person",
+     "aliases": [
+      "圣婴大王",
+      "善财童子",
+      "红孩"
+     ],
+     "nickname": "善财童子",
+     "description": "观音菩萨座前善财童子"
+    },
+    {
+     "name": "明月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "灭法国城中人物，未详"
+    },
+    {
+     "name": "灭法国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "国王无道，许愿杀一万和尚"
+    },
+    {
+     "name": "王小二店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "灭法国中饭店，行者借衣处"
+    },
+    {
+     "name": "赵寡妇店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "灭法国中客店，四众投宿处"
+    },
+    {
+     "name": "灭法国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行途中国度，国王杀僧"
+    },
+    {
+     "name": "南海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "随行者投西前进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "随行者投西前进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "师徒四众，耽炎受热",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "师徒四众，耽炎受热",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "TRANSFORMED",
+     "object": "老母",
+     "evidence": "那老母搀着孩儿，原是观音菩萨与善财童子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "TRANSFORMED",
+     "object": "小孩儿",
+     "evidence": "那老母搀着孩儿，原是观音菩萨与善财童子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "ORIGIN_OF",
+     "object": "红孩儿",
+     "evidence": "那老母搀着孩儿，原是观音菩萨与善财童子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "灭法国",
+     "evidence": "吾乃齐天大圣临凡，保唐僧往西天取经",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "衣服头巾",
+     "evidence": "拿着衣服头巾，往外就走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "赵寡妇店",
+     "evidence": "引着他们，往斜对门一家安歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "赵寡妇店",
+     "evidence": "引着他们，往斜对门一家安歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "赵寡妇店",
+     "evidence": "引着他们，往斜对门一家安歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "赵寡妇店",
+     "evidence": "引着他们，往斜对门一家安歇",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1364,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧",
+      "唐长老"
+     ],
+     "nickname": "",
+     "description": "取经僧人，被灭法国王捉拿"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "猴头",
+      "老孙"
+     ],
+     "nickname": "",
+     "description": "唐僧大徒弟，施法剃发"
+    },
+    {
+     "name": "灭法国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "昏君",
+      "主公",
+      "朕"
+     ],
+     "nickname": "",
+     "description": "灭法国国王，欲杀一万和尚"
+    },
+    {
+     "name": "皇后",
+     "type": "Person",
+     "aliases": [
+      "梓童"
+     ],
+     "nickname": "",
+     "description": "灭法国王后，被剃发"
+    },
+    {
+     "name": "总兵",
+     "type": "Person",
+     "aliases": [
+      "总兵官"
+     ],
+     "nickname": "",
+     "description": "巡城总兵，夺柜捉马"
+    },
+    {
+     "name": "官军",
+     "type": "Organization",
+     "aliases": [
+      "人马弓兵"
+     ],
+     "nickname": "",
+     "description": "巡城总兵率领的军队"
+    },
+    {
+     "name": "灭法国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒途经的国度"
+    },
+    {
+     "name": "皇宫",
+     "type": "Place",
+     "aliases": [
+      "皇宫内院",
+      "寝宫"
+     ],
+     "nickname": "",
+     "description": "灭法国王的宫殿"
+    },
+    {
+     "name": "总府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "总兵官办公处"
+    },
+    {
+     "name": "柜子",
+     "type": "Item",
+     "aliases": [
+      "大柜"
+     ],
+     "nickname": "",
+     "description": "唐僧师徒藏身的柜子"
+    },
+    {
+     "name": "白马",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧的坐骑，被官军夺走"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "宝贝"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器，可变剃头刀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "唐长老在柜里埋怨行者道：“你这个猴头，害杀我也！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "唐长老在柜里埋怨行者道：“你这个猴头，害杀我也！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "总兵",
+     "predicate": "LEADS",
+     "object": "官军",
+     "evidence": "那总兵、兵马，事当干己，即点人马弓兵，出城赶贼。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "总兵",
+     "predicate": "OWNS",
+     "object": "白马",
+     "evidence": "总兵官把自家马儿不骑，就骑上这个白马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "又将金箍棒取在手中，掂一掂，幌一幌，叫声“宝贝，变！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "金箍棒",
+     "evidence": "即变做千百口剃头刀儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蝼蚁",
+     "evidence": "摇身一变，变做个蝼蚁儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灭法国王",
+     "predicate": "LEADS",
+     "object": "灭法国",
+     "evidence": "送与灭法国王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灭法国王",
+     "predicate": "SPOUSE",
+     "object": "皇后",
+     "evidence": "那三宫皇后醒来，也没了头发，忙移灯到龙床下看处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "灭法国难",
+     "evidence": "如今锁在柜里，被贼劫去，又被官军夺来，明日见了国王，现现成成的开刀请杀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灭法国难",
+     "predicate": "OCCURRED_AT",
+     "object": "灭法国",
+     "evidence": "送与灭法国王",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:58.835Z"
+}

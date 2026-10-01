@@ -1,0 +1,57 @@
+{
+ "no": 360,
+ "title": "药僧",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 242,
+   "entities": [
+    {
+     "name": "济宁某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济宁人，因贪服春药而致残"
+    },
+    {
+     "name": "游僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "野寺外卖药僧人，有房中丹"
+    },
+    {
+     "name": "野寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济宁野外寺庙"
+    },
+    {
+     "name": "房中丹",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "游僧所卖春药，服后下部暴长"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "济宁某",
+     "predicate": "OWNS",
+     "object": "房中丹",
+     "evidence": "僧解衲角，出药一丸，如黍大，令吞之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "济宁某",
+     "predicate": "LIVES_AT",
+     "object": "野寺",
+     "evidence": "偶于野寺外，见一游僧",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:26.687Z"
+}

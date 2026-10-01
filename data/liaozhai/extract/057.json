@@ -1,0 +1,57 @@
+{
+ "no": 57,
+ "title": "造畜",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 264,
+   "entities": [
+    {
+     "name": "店主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "扬州旅店主人，救变畜之人"
+    },
+    {
+     "name": "驴主",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "造畜术者，牵驴五头变妇人"
+    },
+    {
+     "name": "扬州旅店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "故事发生之旅店"
+    },
+    {
+     "name": "郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郡衙门，官府所在"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "郡",
+     "predicate": "PUNISHED",
+     "object": "驴主",
+     "evidence": "阴报郡，遣役捕获，遂械杀之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "驴主",
+     "predicate": "LIVES_AT",
+     "object": "扬州旅店",
+     "evidence": "扬州旅店中，有一人牵驴五头，暂絷枥下",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:34.438Z"
+}

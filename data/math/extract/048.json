@@ -1,0 +1,352 @@
+{
+ "no": 48,
+ "title": "12.4 定理",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6088,
+   "entities": [
+    {
+     "name": "三角形内角和定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形三个内角的和等于180°"
+    },
+    {
+     "name": "三角形外角性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形的一个外角等于与它不相邻的两个内角的和"
+    },
+    {
+     "name": "直角三角形性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形的两个锐角互余"
+    },
+    {
+     "name": "直角三角形判定",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "有两个角互余的三角形是直角三角形"
+    },
+    {
+     "name": "多边形内角和定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "n边形的内角和等于(n-2)·180°"
+    },
+    {
+     "name": "多边形外角和定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "多边形的外角和等于360°"
+    },
+    {
+     "name": "反证法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过否定结论导出矛盾来证明命题的方法"
+    },
+    {
+     "name": "平行线性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "在同一平面内，平行于同一条直线的两条直线平行"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "多边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由若干条线段首尾顺次相接组成的封闭图形"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "平行线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在同一平面内不相交的两条直线"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "三角形内角和定理",
+     "predicate": "PROPERTY_OF",
+     "object": "三角形",
+     "evidence": "三角形三个内角的和等于180°",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形内角和定理",
+     "predicate": "DERIVES",
+     "object": "三角形外角性质",
+     "evidence": "由例1，我们根据三角形内角和定理推出了一个新结论",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形内角和定理",
+     "predicate": "DERIVES",
+     "object": "直角三角形性质",
+     "evidence": "类似地，还可以得到三角形内角和定理的另一个推论：直角三角形的两个锐角互余",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形内角和定理",
+     "predicate": "DERIVES",
+     "object": "直角三角形判定",
+     "evidence": "有两个角互余的三角形是直角三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形内角和定理",
+     "predicate": "DERIVES",
+     "object": "多边形内角和定理",
+     "evidence": "是否可以利用三角形内角和定理推出多边形的内角和呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多边形内角和定理",
+     "predicate": "DERIVES",
+     "object": "多边形外角和定理",
+     "evidence": "这样就得到了多边形外角和定理",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反证法",
+     "predicate": "APPLIES_TO",
+     "object": "平行线性质定理",
+     "evidence": "这样，我们就证明了平行线的性质定理",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反证法",
+     "predicate": "APPLIES_TO",
+     "object": "三角形内角和定理",
+     "evidence": "这与∠A+∠B+∠C=180°矛盾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形内角和定理",
+     "predicate": "PREREQUISITE",
+     "object": "三角形外角性质",
+     "evidence": "由例1，我们根据三角形内角和定理推出了一个新结论",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形内角和定理",
+     "predicate": "PREREQUISITE",
+     "object": "多边形内角和定理",
+     "evidence": "是否可以利用三角形内角和定理推出多边形的内角和呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多边形内角和定理",
+     "predicate": "PREREQUISITE",
+     "object": "多边形外角和定理",
+     "evidence": "这样就得到了多边形外角和定理",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形",
+     "predicate": "INCLUDES",
+     "object": "直角三角形",
+     "evidence": "直角三角形的两个锐角互余",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "三角形",
+     "evidence": "一个多边形可以分割为若干个三角形",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1206,
+   "entities": [
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "四边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由四条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "多边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条或三条以上的线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "多边形内角和",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "n边形的内角和等于(n-2)×180°"
+    },
+    {
+     "name": "多边形外角和",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "多边形的外角和等于360°"
+    },
+    {
+     "name": "平行线的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两直线平行，同位角相等、内错角相等、同旁内角互补"
+    },
+    {
+     "name": "平行线的判定",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "同位角相等、内错角相等或同旁内角互补，两直线平行"
+    },
+    {
+     "name": "三角形内角和定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形三个内角的和等于180°"
+    },
+    {
+     "name": "三角形外角性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形的一个外角等于与它不相邻的两个内角的和"
+    },
+    {
+     "name": "整除的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "若整数a能被b整除，则a的倍数也能被b整除"
+    },
+    {
+     "name": "证明",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从已知条件出发，依据定义、基本事实、定理等，逐步推理得出结论的过程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "三角形",
+     "predicate": "INCLUDES",
+     "object": "三角形内角和定理",
+     "evidence": "在△ABC中，∠ACB=70°",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形",
+     "predicate": "INCLUDES",
+     "object": "三角形外角性质",
+     "evidence": "∠ABE是四边形ABCD的一个外角",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四边形",
+     "predicate": "INCLUDES",
+     "object": "多边形",
+     "evidence": "在四边形ABCD中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "多边形内角和",
+     "evidence": "已知一个多边形的内角和比外角和的2倍少180°",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "多边形外角和",
+     "evidence": "已知一个多边形的内角和比外角和的2倍少180°",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行线的性质",
+     "predicate": "APPLIES_TO",
+     "object": "三角形",
+     "evidence": "AB∥CD，试用不同方法证明∠B+∠D=∠E",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行线的判定",
+     "predicate": "APPLIES_TO",
+     "object": "三角形",
+     "evidence": "AC∥FD，∠A=∠D",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整除的性质",
+     "predicate": "APPLIES_TO",
+     "object": "证明",
+     "evidence": "已知：abcd是一个四位数，a+b+c+d可以被3整除。求证：这个四位数可以被3整除。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "证明",
+     "predicate": "APPLIES_TO",
+     "object": "三角形",
+     "evidence": "证明其中的1～2个结论",
+     "confidence": 0.9
+    },
+    {
+     "subject": "证明",
+     "predicate": "APPLIES_TO",
+     "object": "四边形",
+     "evidence": "求证：∠ABE=∠D",
+     "confidence": 0.9
+    },
+    {
+     "subject": "证明",
+     "predicate": "APPLIES_TO",
+     "object": "多边形",
+     "evidence": "求截完后所形成的新多边形的内角和",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:55.341Z"
+}

@@ -1,0 +1,403 @@
+{
+ "no": 26,
+ "title": "第二十六回 偷骨殖何九送丧 供人头武二设祭",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5783,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "武大之弟，阳谷县都头，景阳冈打虎英雄"
+    },
+    {
+     "name": "武大",
+     "type": "Person",
+     "aliases": [
+      "武大郎"
+     ],
+     "nickname": "",
+     "description": "武松之兄，卖炊饼为生，被毒死"
+    },
+    {
+     "name": "西门庆",
+     "type": "Person",
+     "aliases": [
+      "西门大郎"
+     ],
+     "nickname": "",
+     "description": "阳谷县开药铺的刁徒，与潘金莲通奸"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [
+      "那妇人",
+      "武大老婆"
+     ],
+     "nickname": "",
+     "description": "武大之妻，与西门庆通奸并毒杀武大"
+    },
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [
+      "王干娘"
+     ],
+     "nickname": "",
+     "description": "开茶坊的媒婆，撺掇潘金莲，帮西门庆"
+    },
+    {
+     "name": "何九叔",
+     "type": "Person",
+     "aliases": [
+      "团头何九叔"
+     ],
+     "nickname": "",
+     "description": "阳谷县团头，殓武大尸首，偷藏骨殖"
+    },
+    {
+     "name": "郓哥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖梨小厮，帮武大捉奸，后为武松作证"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "KIN",
+     "object": "武大",
+     "evidence": "我哥哥生时懦弱，死了却有甚分明！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "武大",
+     "evidence": "亡夫武大郎之位",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "西门庆",
+     "evidence": "西门庆和那婆娘，终朝取乐，任意歌饮。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "KILLED",
+     "object": "武大",
+     "evidence": "把大郎一脚踢倒了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "KILLED",
+     "object": "武大",
+     "evidence": "原来这婆娘自从药死了武大",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王婆",
+     "predicate": "FRAMED",
+     "object": "武大",
+     "evidence": "王婆一力撺掇那婆娘，当夜伴灵。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "西门庆",
+     "predicate": "FRAMED",
+     "object": "武大",
+     "evidence": "西门庆取出这十两银子付与小人，分付道：‘所殓的尸首，凡百事遮盖。’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何九叔",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "这个袋儿便是一个大证见。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "郓哥",
+     "predicate": "RESCUED",
+     "object": "武大",
+     "evidence": "我明日和你约在巷口取齐，你便少做些炊饼出来；我若张见西门庆入茶坊里去时，我先入去，你便寄了担儿等着。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "前日景阳冈打虎的武都头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武大捉奸",
+     "evidence": "你怎地和我哥哥去茶坊里捉奸？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郓哥",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武大捉奸",
+     "evidence": "你怎地和我哥哥去茶坊里捉奸？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武大捉奸",
+     "predicate": "OCCURRED_AT",
+     "object": "紫石街",
+     "evidence": "去紫石街帮武大捉奸，闹了茶坊。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "阳谷县",
+     "evidence": "领一行人取路回阳谷县来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "阳谷县",
+     "evidence": "武松回到下处，房里换了衣服鞋袜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武大",
+     "predicate": "STATIONED_AT",
+     "object": "紫石街",
+     "evidence": "一径投紫石街来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "解腕刀",
+     "evidence": "身边藏了一把尖长柄短、背厚刃薄的解腕刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何九叔",
+     "predicate": "OWNS",
+     "object": "骨殖",
+     "evidence": "把火挟去拣两块骨头，损去侧边，拿去潵骨池内只一浸，看那骨头酥黑。何九叔收藏了",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3904,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "武大郎之弟，为兄报仇杀潘金莲、西门庆"
+    },
+    {
+     "name": "潘金莲",
+     "type": "Person",
+     "aliases": [
+      "那妇人",
+      "淫妇",
+      "嫂嫂"
+     ],
+     "nickname": "",
+     "description": "武大郎之妻，与西门庆通奸，毒杀武大郎"
+    },
+    {
+     "name": "西门庆",
+     "type": "Person",
+     "aliases": [
+      "大郎",
+      "大官人"
+     ],
+     "nickname": "",
+     "description": "阳谷县财主，与潘金莲通奸，被武松所杀"
+    },
+    {
+     "name": "王婆",
+     "type": "Person",
+     "aliases": [
+      "干娘",
+      "老猪狗",
+      "老狗"
+     ],
+     "nickname": "",
+     "description": "武大郎家隔壁媒婆，教唆潘金莲与西门庆通奸"
+    },
+    {
+     "name": "何九叔",
+     "type": "Person",
+     "aliases": [
+      "何九"
+     ],
+     "nickname": "",
+     "description": "团头，负责殓葬武大郎，后为武松作证"
+    },
+    {
+     "name": "郓哥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖梨小厮，曾助武松告状"
+    },
+    {
+     "name": "姚文卿",
+     "type": "Person",
+     "aliases": [
+      "姚二郎"
+     ],
+     "nickname": "",
+     "description": "开银铺的邻居，被武松请来作证"
+    },
+    {
+     "name": "赵仲铭",
+     "type": "Person",
+     "aliases": [
+      "赵四郎"
+     ],
+     "nickname": "",
+     "description": "开纸马铺的邻居，被武松请来作证"
+    },
+    {
+     "name": "胡正卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖冷酒店的邻居，吏员出身，为武松记录口供"
+    },
+    {
+     "name": "张公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖馉饳儿的邻居，被武松请来作证"
+    },
+    {
+     "name": "武大郎",
+     "type": "Person",
+     "aliases": [
+      "亡兄",
+      "哥哥"
+     ],
+     "nickname": "",
+     "description": "武松之兄，被潘金莲、西门庆毒杀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "KIN",
+     "object": "武大郎",
+     "evidence": "我的哥哥这个性命都在你的身上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "武大郎",
+     "evidence": "你哥哥自害心疼病死了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "SPOUSE",
+     "object": "西门庆",
+     "evidence": "做衣裳入马通奸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘金莲",
+     "predicate": "KILLED",
+     "object": "武大郎",
+     "evidence": "怎生踢了武大，因何设计下药",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王婆",
+     "predicate": "FRAMED",
+     "object": "武大郎",
+     "evidence": "王婆怎地教唆拨置",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "潘金莲",
+     "evidence": "把尖刀去胸前只一剜……便割下那妇人头来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "西门庆",
+     "evidence": "武松按住，只一刀，割下西门庆的头来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "MASTERMINDED",
+     "object": "武松杀嫂祭兄",
+     "evidence": "武松道：哥哥灵魂不远，兄弟武二与你报仇雪恨！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "武松杀嫂祭兄",
+     "evidence": "武松道：哥哥灵魂不远，兄弟武二与你报仇雪恨！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松杀嫂祭兄",
+     "predicate": "OCCURRED_AT",
+     "object": "紫石街",
+     "evidence": "一直奔回紫石街来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "尖刀",
+     "evidence": "掣出那口尖刀来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "阳谷县",
+     "evidence": "武松在厅上告禀，催逼知县拿人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "武松是清河县人氏",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:18.422Z"
+}

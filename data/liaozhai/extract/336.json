@@ -1,0 +1,157 @@
+{
+ "no": 336,
+ "title": "顾生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 688,
+   "entities": [
+    {
+     "name": "顾生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江南人，客居稷下，患眼疾，梦中入九王世子宅"
+    },
+    {
+     "name": "太医",
+     "type": "Person",
+     "aliases": [
+      "东座一客"
+     ],
+     "nickname": "",
+     "description": "九王世子座上客，以玉簪点白膏为顾生治眼疾"
+    },
+    {
+     "name": "旅店主人",
+     "type": "Person",
+     "aliases": [
+      "逆旅主人"
+     ],
+     "nickname": "",
+     "description": "顾生所住旅店的主人，唤顾生午餐"
+    },
+    {
+     "name": "巨宅",
+     "type": "Place",
+     "aliases": [
+      "宫舍",
+      "宅院"
+     ],
+     "nickname": "",
+     "description": "顾生合眼所见巨宅，四五进，九王世子居所"
+    },
+    {
+     "name": "稷下",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "顾生客居之地"
+    },
+    {
+     "name": "旅邸",
+     "type": "Place",
+     "aliases": [
+      "旅舍"
+     ],
+     "nickname": "",
+     "description": "顾生在稷下所住旅店"
+    },
+    {
+     "name": "江南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "顾生籍贯所在地"
+    },
+    {
+     "name": "玉簪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "太医为顾生点白膏治眼疾所用"
+    },
+    {
+     "name": "《华封祝》",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "九王世子宴席上演出的戏文"
+    },
+    {
+     "name": "《彭祖娶妇》",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "顾生所点戏目"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "顾生",
+     "predicate": "NATIVE_OF",
+     "object": "江南",
+     "evidence": "江南顾生，客稷下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顾生",
+     "predicate": "LIVES_AT",
+     "object": "旅邸",
+     "evidence": "始悟未离旅邸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顾生",
+     "predicate": "LIVES_AT",
+     "object": "巨宅",
+     "evidence": "忽觉身入宅中，三历门户",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太医",
+     "predicate": "HELPED",
+     "object": "顾生",
+     "evidence": "东座一客，即离坐来，两指启双眥，以玉簪点白膏如脂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太医",
+     "predicate": "OWNS",
+     "object": "玉簪",
+     "evidence": "以玉簪点白膏如脂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顾生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "《华封祝》",
+     "evidence": "诸妓升堂，演《华封祝》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顾生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "《彭祖娶妇》",
+     "evidence": "顾点《彭祖娶妇》",
+     "confidence": 0.95
+    },
+    {
+     "subject": "《华封祝》",
+     "predicate": "OCCURRED_AT",
+     "object": "巨宅",
+     "evidence": "诸妓升堂，演《华封祝》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "《彭祖娶妇》",
+     "predicate": "OCCURRED_AT",
+     "object": "巨宅",
+     "evidence": "顾点《彭祖娶妇》",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:21.810Z"
+}

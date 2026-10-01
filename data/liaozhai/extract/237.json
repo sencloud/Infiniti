@@ -1,0 +1,73 @@
+{
+ "no": 237,
+ "title": "豢蛇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 542,
+   "entities": [
+    {
+     "name": "巨蛇",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士豢养的大蛇，粗十馀围"
+    },
+    {
+     "name": "小蛇",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士豢养的另一条蛇，约五六围粗"
+    },
+    {
+     "name": "泗水山中禅院",
+     "type": "Place",
+     "aliases": [
+      "兰若"
+     ],
+     "nickname": "",
+     "description": "泗水山中四无村落的旧禅院"
+    },
+    {
+     "name": "客中州者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "作者同乡，旅居河南寄宿蛇佛寺"
+    },
+    {
+     "name": "蛇佛寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "中州寺院，佛座下巨井多蛇"
+    },
+    {
+     "name": "蛇佛寺僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蛇佛寺僧人，以蛇段作肉汤"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "客中州者",
+     "predicate": "LIVES_AT",
+     "object": "蛇佛寺",
+     "evidence": "寄宿蛇佛寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蛇佛寺僧",
+     "predicate": "LIVES_AT",
+     "object": "蛇佛寺",
+     "evidence": "寺僧具晚餐",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:42.594Z"
+}

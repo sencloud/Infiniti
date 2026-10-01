@@ -1,0 +1,452 @@
+{
+ "no": 27,
+ "title": "尸魔三戏唐三藏 圣僧恨逐美猴王",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5702,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "圣僧",
+     "description": "取经人，金蝉子转世"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "猴王",
+      "大圣",
+      "孙大圣"
+     ],
+     "nickname": "美猴王",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "呆子",
+      "天蓬元帅",
+      "猪悟能"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "救苦救难，点化取经人"
+    },
+    {
+     "name": "镇元子",
+     "type": "Person",
+     "aliases": [
+      "镇元大仙",
+      "地仙之祖",
+      "与世同君"
+     ],
+     "nickname": "镇元大仙",
+     "description": "地仙之祖，与孙悟空结拜"
+    },
+    {
+     "name": "白骨精",
+     "type": "Person",
+     "aliases": [
+      "尸魔",
+      "妖精",
+      "怪物"
+     ],
+     "nickname": "白骨夫人",
+     "description": "白虎岭尸魔，三戏唐僧"
+    },
+    {
+     "name": "白虎岭",
+     "type": "Place",
+     "aliases": [
+      "蛇回兽怕的白虎岭"
+     ],
+     "nickname": "",
+     "description": "险峻高山，白骨精所在"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [
+      "水帘洞"
+     ],
+     "nickname": "",
+     "description": "孙悟空故乡"
+    },
+    {
+     "name": "两界山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空被压之处"
+    },
+    {
+     "name": "三打白骨精",
+     "type": "Event",
+     "aliases": [
+      "尸魔三戏唐三藏"
+     ],
+     "nickname": "",
+     "description": "白骨精三次变化戏弄唐僧，被孙悟空打死"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "也亏我救你性命，摩顶受戒，做了我的徒弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "师父，你与沙僧坐着，等老猪去看看来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧搀着长老，近前看时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "FRIEND",
+     "object": "孙悟空",
+     "evidence": "那镇元子与行者结为兄弟，两人情投意合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "我若来迟，你定入他套子，遭他毒手",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "幸观音菩萨与我受了戒行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白骨精",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "那妖精上前就要拿他",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "白骨精",
+     "evidence": "那大圣棍起处，打倒妖魔，才断绝了灵光",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白骨精",
+     "predicate": "TRANSFORMED",
+     "object": "老妇人",
+     "evidence": "摇身一变，变作个老妇人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白骨精",
+     "predicate": "TRANSFORMED",
+     "object": "老公公",
+     "evidence": "摇身一变，变成一个老公公",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白骨精",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三打白骨精",
+     "evidence": "这妖精三番来戏弄我师父",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三打白骨精",
+     "evidence": "这妖精三番来戏弄我师父，这一番却要打杀他",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三打白骨精",
+     "evidence": "尸魔三戏唐三藏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三打白骨精",
+     "predicate": "OCCURRED_AT",
+     "object": "白虎岭",
+     "evidence": "此山叫做蛇回兽怕的白虎岭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "老孙五百年前，居花果山水帘洞大展英雄之际",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "两界山",
+     "evidence": "被我佛压在两界山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRAMED",
+     "object": "孙悟空",
+     "evidence": "在旁漏八分儿唆嘴道：师父，说起这个女子，他是此间农妇……",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1461,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "圣僧",
+     "description": "取经人，孙悟空师父"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "美猴王",
+      "齐天大圣",
+      "悟空"
+     ],
+     "nickname": "美猴王",
+     "description": "唐僧大徒弟，被逐回花果山"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，进谗言"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "指点孙悟空保护唐僧"
+    },
+    {
+     "name": "白骨精",
+     "type": "Person",
+     "aliases": [
+      "白骨夫人",
+      "尸魔"
+     ],
+     "nickname": "白骨夫人",
+     "description": "潜灵作怪的僵尸，被孙悟空打死"
+    },
+    {
+     "name": "刘伯钦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "送唐僧上路之人"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [
+      "水帘洞"
+     ],
+     "nickname": "",
+     "description": "孙悟空旧居"
+    },
+    {
+     "name": "两界山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空被救出之地"
+    },
+    {
+     "name": "长安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧出发地"
+    },
+    {
+     "name": "贬书",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧写给孙悟空的贬书"
+    },
+    {
+     "name": "紧箍儿咒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧用来管束孙悟空的咒语"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "到两界山，救我出来，投拜你为师",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "收八戒，得沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "收八戒，得沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "白骨精",
+     "evidence": "被我打杀，他就现了本相",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白骨精",
+     "predicate": "TRANSFORMED",
+     "object": "唐僧",
+     "evidence": "尸魔三戏唐三藏",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRAMED",
+     "object": "孙悟空",
+     "evidence": "八戒旁边唆嘴道：师父，他的手重棍凶，把人打死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "贬书",
+     "evidence": "写了一纸贬书，递于行者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "紧箍儿咒",
+     "evidence": "但只是多了那《紧箍儿咒》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "又蒙菩萨指教",
+     "confidence": 0.85
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "径回花果山水帘洞去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘伯钦",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "有刘伯钦送你上路",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:22.520Z"
+}

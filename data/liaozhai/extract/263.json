@@ -1,0 +1,71 @@
+{
+ "no": 263,
+ "title": "郭秀才",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 543,
+   "entities": [
+    {
+     "name": "郭秀才",
+     "type": "Person",
+     "aliases": [
+      "郭某",
+      "郭先生"
+     ],
+     "nickname": "",
+     "description": "东粤士人，善饮，能学禽语，山中遇怪客"
+    },
+    {
+     "name": "青娘子",
+     "type": "Spirit",
+     "aliases": [
+      "青凤",
+      "凤女",
+      "青娘"
+     ],
+     "nickname": "",
+     "description": "山中怪客提及的未至者，疑为精怪"
+    },
+    {
+     "name": "山中怪客",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "十馀人，半儒巾，能化道路，疑为精怪"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "郭秀才",
+     "predicate": "FRIEND",
+     "object": "山中怪客",
+     "evidence": "众人大赞曰：“豪哉！真吾友也！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "山中怪客",
+     "predicate": "HELPED",
+     "object": "郭秀才",
+     "evidence": "挺然倒地，化为修道一线。郭骇立良久，遵道得归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郭秀才",
+     "predicate": "PARTICIPATED_IN",
+     "object": "中秋之约",
+     "evidence": "又一人曰：“中秋还集于此，郭先生不可不来。”郭敬诺。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "中秋之约",
+     "predicate": "OCCURRED_AT",
+     "object": "山中",
+     "evidence": "又一人曰：“中秋还集于此，郭先生不可不来。”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:51.801Z"
+}

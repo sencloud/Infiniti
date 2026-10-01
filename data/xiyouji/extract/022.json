@@ -1,0 +1,595 @@
+{
+ "no": 22,
+ "title": "八戒大战流沙河 木叉奉法收悟净",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5608,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "卷帘大将",
+     "description": "流沙河妖怪，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "南海普陀山菩萨，取经发起者"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主"
+    },
+    {
+     "name": "王母娘娘",
+     "type": "Person",
+     "aliases": [
+      "西王母",
+      "王母",
+      "金母"
+     ],
+     "nickname": "王母",
+     "description": "天庭女仙之首"
+    },
+    {
+     "name": "惠岸行者",
+     "type": "Person",
+     "aliases": [
+      "木叉",
+      "木吒",
+      "惠岸"
+     ],
+     "nickname": "木叉",
+     "description": "观音菩萨弟子"
+    },
+    {
+     "name": "黄风怪",
+     "type": "Person",
+     "aliases": [
+      "黄风大王",
+      "黄风大圣",
+      "灵山得道老鼠"
+     ],
+     "nickname": "黄风怪",
+     "description": "黄风岭妖怪，已被降伏"
+    },
+    {
+     "name": "流沙河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "八百里弱水，沙僧盘踞处"
+    },
+    {
+     "name": "普陀山",
+     "type": "Place",
+     "aliases": [
+      "南海",
+      "紫竹林",
+      "潮音洞"
+     ],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    },
+    {
+     "name": "流沙河妖怪",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙悟净在流沙河的势力"
+    },
+    {
+     "name": "取经",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒西天取经"
+    },
+    {
+     "name": "降妖宝杖",
+     "type": "Item",
+     "aliases": [
+      "宝杖",
+      "降妖杖"
+     ],
+     "nickname": "",
+     "description": "沙悟净的兵器，鲁班制造"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [
+      "钉钯",
+      "铁钯"
+     ],
+     "nickname": "",
+     "description": "猪八戒的兵器"
+    },
+    {
+     "name": "红葫芦",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨的法宝，可渡流沙河"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父啊，真个是难，真个是难！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "八戒道：哥哥不必迟疑，让你先去拿他，等老猪看守师父。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "先要引他归依了唐僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "沙悟净",
+     "evidence": "他两个在流沙河岸，各逞英雄。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "沙悟净",
+     "evidence": "被行者轮起铁棒，望那怪着头一下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "流沙河",
+     "evidence": "一个是久占流沙界吃人精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "NATIVE_OF",
+     "object": "流沙河",
+     "evidence": "遭贬流沙东岸上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "玉皇大帝便加升，亲口封为卷帘将。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖宝杖",
+     "evidence": "腰间悬挂虎头牌，手中执定降妖杖。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "那八戒放下担子，掣出铁钯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "OWNS",
+     "object": "红葫芦",
+     "evidence": "袖中取出一个红葫芦儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTERMINDED",
+     "object": "取经",
+     "evidence": "这取经的勾当，原是观音菩萨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取经",
+     "evidence": "我们只是要拿住他，教他送我师父渡河。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取经",
+     "evidence": "八戒道：说得是，你快去快来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取经",
+     "evidence": "也是我劝化的善信，教他保护取经之辈。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "取经",
+     "predicate": "OCCURRED_AT",
+     "object": "流沙河",
+     "evidence": "今日路阻流沙河，不能前进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "也是我劝化的善信，教他保护取经之辈。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "及脱解我等，也是观音菩萨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "多蒙菩萨又赐法讳悟能。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "惠岸行者",
+     "evidence": "菩萨即唤惠岸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SURRENDERED_TO",
+     "object": "唐僧",
+     "evidence": "先要引他归依了唐僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "他两个搀着手，说说笑笑，转回见了唐僧。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "惠岸行者",
+     "evidence": "那木吒与三藏礼毕，又与八戒相见。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "惠岸行者",
+     "evidence": "八戒道：向蒙尊者指示，得见菩萨",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "ORIGIN_OF",
+     "object": "玉皇大帝",
+     "evidence": "玉皇大帝便加升，亲口封为卷帘将。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "那怪一个旋风，奔上岸来，径抢唐僧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "黄风怪",
+     "evidence": "自从降了黄风怪",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1103,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙和尚",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "劝化沙悟净归顺取经"
+    },
+    {
+     "name": "惠岸行者",
+     "type": "Person",
+     "aliases": [
+      "木叉",
+      "木吒",
+      "惠岸"
+     ],
+     "nickname": "木吒",
+     "description": "观音菩萨弟子，奉命收悟净"
+    },
+    {
+     "name": "流沙河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙悟净盘踞之河"
+    },
+    {
+     "name": "法船",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "葫芦与骷髅结成的渡船"
+    },
+    {
+     "name": "葫芦",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨的葫芦，用于结法船"
+    },
+    {
+     "name": "戒刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "剃度沙悟净所用之刀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "惠岸行者",
+     "evidence": "菩萨今差木吒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "他曾被菩萨劝化，愿归师父往西天去的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "惠岸行者",
+     "predicate": "RECOMMENDED",
+     "object": "沙悟净",
+     "evidence": "先差我来吩咐你早跟唐僧做个徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SURRENDERED_TO",
+     "object": "唐僧",
+     "evidence": "对唐僧双膝跪下道：师父，弟子有眼无珠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "早跟唐僧做个徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "LEADS",
+     "object": "取经团队",
+     "evidence": "师父，弟子有眼无珠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "俱是唐僧的徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "俱是唐僧的徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "流沙河",
+     "evidence": "这流沙河的妖怪，乃是卷帘大将临凡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "法船",
+     "evidence": "将颈项下挂的骷髅取下，用索子结作九宫，把菩萨葫芦安在当中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "叫：悟空，取戒刀来，与他落了发",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "大圣依言，即将戒刀与他剃了头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "OWNS",
+     "object": "葫芦",
+     "evidence": "菩萨今差木吒，将此葫芦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "沙悟净",
+     "evidence": "与我整斗了这两日",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "沙悟净",
+     "evidence": "这个主子，是他的帮手，好不利害",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "流沙河收沙悟净",
+     "evidence": "木叉奉法收悟净",
+     "confidence": 0.9
+    },
+    {
+     "subject": "流沙河收沙悟净",
+     "predicate": "OCCURRED_AT",
+     "object": "流沙河",
+     "evidence": "径到了流沙河水面上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:19.704Z"
+}

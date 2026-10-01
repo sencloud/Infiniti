@@ -1,0 +1,89 @@
+{
+ "no": 22,
+ "title": "汉兴以来将相名臣年表",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 143,
+   "entities": [
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉高祖",
+      "沛公",
+      "高祖",
+      "汉王"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝"
+    },
+    {
+     "name": "帝鸿",
+     "type": "Person",
+     "aliases": [
+      "浑沌"
+     ],
+     "nickname": "",
+     "description": "传说人物，即浑沌"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [
+      "大汉",
+      "汉朝",
+      "大汉王朝"
+     ],
+     "nickname": "",
+     "description": "刘邦建立的王朝"
+    },
+    {
+     "name": "成帝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉成帝"
+    },
+    {
+     "name": "高祖元年",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉高祖元年"
+    },
+    {
+     "name": "鸿嘉元年",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉成帝鸿嘉元年"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘邦",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "对于巩固大汉王朝的天下有重要意义",
+     "confidence": 0.9
+    },
+    {
+     "subject": "帝鸿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "高祖元年",
+     "evidence": "本表起自高祖元年",
+     "confidence": 0.5
+    },
+    {
+     "subject": "成帝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "鸿嘉元年",
+     "evidence": "终于成帝鸿嘉元年",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:12.516Z"
+}

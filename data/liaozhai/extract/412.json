@@ -1,0 +1,185 @@
+{
+ "no": 412,
+ "title": "葛巾",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2875,
+   "entities": [
+    {
+     "name": "常大用",
+     "type": "Person",
+     "aliases": [
+      "大用",
+      "常生",
+      "常公子"
+     ],
+     "nickname": "",
+     "description": "洛阳人，癖好牡丹，与葛巾相恋"
+    },
+    {
+     "name": "葛巾",
+     "type": "Spirit",
+     "aliases": [
+      "葛女",
+      "巾娘"
+     ],
+     "nickname": "",
+     "description": "牡丹花妖，自称离魂倩女，与常大用相恋"
+    },
+    {
+     "name": "玉版",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "葛巾堂妹，后嫁常大器"
+    },
+    {
+     "name": "桑姥",
+     "type": "Person",
+     "aliases": [
+      "老妪",
+      "桑媪"
+     ],
+     "nickname": "",
+     "description": "葛巾幼时受其照顾的老妇人"
+    },
+    {
+     "name": "常大器",
+     "type": "Person",
+     "aliases": [
+      "大器"
+     ],
+     "nickname": "",
+     "description": "常大用之弟，年十七，娶玉版"
+    },
+    {
+     "name": "曹州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "牡丹甲齐鲁之地，常大用借居处"
+    },
+    {
+     "name": "洛阳",
+     "type": "Place",
+     "aliases": [
+      "洛"
+     ],
+     "nickname": "",
+     "description": "常大用籍贯地，后携葛巾归此"
+    },
+    {
+     "name": "水精如意",
+     "type": "Item",
+     "aliases": [
+      "如意"
+     ],
+     "nickname": "",
+     "description": "玉版所遗，上结紫巾，常大用珍藏"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "常大用",
+     "predicate": "NATIVE_OF",
+     "object": "洛阳",
+     "evidence": "常大用，洛人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "常大用",
+     "predicate": "LIVES_AT",
+     "object": "曹州",
+     "evidence": "适以他事如曹，因假搢绅之园居焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "常大用",
+     "predicate": "LOVES",
+     "object": "葛巾",
+     "evidence": "回忆声容，转惧为想",
+     "confidence": 0.9
+    },
+    {
+     "subject": "葛巾",
+     "predicate": "LOVES",
+     "object": "常大用",
+     "evidence": "感君见思，遂呈身相报",
+     "confidence": 0.9
+    },
+    {
+     "subject": "常大用",
+     "predicate": "SPOUSE",
+     "object": "葛巾",
+     "evidence": "登堂朝家人，四邻惊贺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "葛巾",
+     "predicate": "SPOUSE",
+     "object": "常大用",
+     "evidence": "登堂朝家人，四邻惊贺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "葛巾",
+     "predicate": "KIN",
+     "object": "玉版",
+     "evidence": "妾叔妹也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "常大用",
+     "predicate": "KIN",
+     "object": "常大器",
+     "evidence": "生弟大器，年十七",
+     "confidence": 0.95
+    },
+    {
+     "subject": "常大器",
+     "predicate": "SPOUSE",
+     "object": "玉版",
+     "evidence": "鼓吹花烛，起拜成礼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉版",
+     "predicate": "SPOUSE",
+     "object": "常大器",
+     "evidence": "鼓吹花烛，起拜成礼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "常大用",
+     "predicate": "OWNS",
+     "object": "水精如意",
+     "evidence": "只床头有水精如意，上结紫巾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "葛巾",
+     "predicate": "HELPED",
+     "object": "常大用",
+     "evidence": "女探入，出白镪近五十两许",
+     "confidence": 0.9
+    },
+    {
+     "subject": "桑姥",
+     "predicate": "HELPED",
+     "object": "葛巾",
+     "evidence": "此桑姥。妾少时受其露覆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "葛巾",
+     "predicate": "HELPED",
+     "object": "常大器",
+     "evidence": "女曰：妾妹玉版，君固尝窥见之，貌颇不恶，年亦相若，作夫妇可称嘉耦",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:50.871Z"
+}

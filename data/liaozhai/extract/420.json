@@ -1,0 +1,252 @@
+{
+ "no": 420,
+ "title": "晚霞",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2034,
+   "entities": [
+    {
+     "name": "阿端",
+     "type": "Person",
+     "aliases": [
+      "端生",
+      "蒋阿端"
+     ],
+     "nickname": "",
+     "description": "镇江蒋氏子，善斗龙舟，堕水死入龙宫"
+    },
+    {
+     "name": "晚霞",
+     "type": "Person",
+     "aliases": [
+      "霞女",
+      "晚霞女"
+     ],
+     "nickname": "",
+     "description": "吴地名妓，溺水入龙宫，后与阿端结为夫妻"
+    },
+    {
+     "name": "蒋媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阿端之母，镇江人"
+    },
+    {
+     "name": "龙窝君",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙宫之主，统辖诸部"
+    },
+    {
+     "name": "解姥",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙宫中老妇，教习柳条部"
+    },
+    {
+     "name": "吴江王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙宫之王，寿辰时诸部往贺"
+    },
+    {
+     "name": "淮王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "人间藩王，欲夺晚霞"
+    },
+    {
+     "name": "镇江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，阿端与蒋媪籍贯"
+    },
+    {
+     "name": "吴江府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴江王宫府，晚霞教舞处"
+    },
+    {
+     "name": "龙宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "水中宫殿，龙窝君所居"
+    },
+    {
+     "name": "珊瑚钗",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "晚霞所遗首饰，阿端藏于袖中"
+    },
+    {
+     "name": "五文袴褶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙窝君赐阿端之五色花纹衣裤"
+    },
+    {
+     "name": "鱼须金束发",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙窝君赐阿端之束发带，嵌夜光珠"
+    },
+    {
+     "name": "夜光珠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "嵌于鱼须金束发上之宝珠"
+    },
+    {
+     "name": "龙角胶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙宫宝物，可续骨生肌"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "阿端",
+     "predicate": "LOVES",
+     "object": "晚霞",
+     "evidence": "阿端旁睨，雅爱好之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿端",
+     "predicate": "SPOUSE",
+     "object": "晚霞",
+     "evidence": "遂以石压荷盖令侧，雅可幛蔽，又匀铺莲瓣而藉之，忻与狎寝。既订后约",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿端",
+     "predicate": "KIN",
+     "object": "蒋媪",
+     "evidence": "蒋媪止此子，哀鸣而已。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晚霞",
+     "predicate": "KIN",
+     "object": "蒋媪",
+     "evidence": "女曰：“镇江蒋氏，吾婿也。”客因代贳扁舟，送诸其家。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "阿端",
+     "predicate": "LIVES_AT",
+     "object": "龙宫",
+     "evidence": "俄入宫殿，见一人兜牟坐。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晚霞",
+     "predicate": "LIVES_AT",
+     "object": "龙宫",
+     "evidence": "内一女郎，年十四五以来，振袖倾鬟，作散花舞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿端",
+     "predicate": "NATIVE_OF",
+     "object": "镇江",
+     "evidence": "镇江有蒋氏童阿端，方七岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晚霞",
+     "predicate": "LIVES_AT",
+     "object": "吴江府",
+     "evidence": "独留晚霞及乳莺部一人在宫中教舞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿端",
+     "predicate": "OWNS",
+     "object": "珊瑚钗",
+     "evidence": "故遗珊瑚钗，端急纳袖中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿端",
+     "predicate": "OWNS",
+     "object": "五文袴褶",
+     "evidence": "赐五文袴褶，鱼须金束发，上嵌夜光珠。阿端拜赐下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿端",
+     "predicate": "OWNS",
+     "object": "鱼须金束发",
+     "evidence": "赐五文袴褶，鱼须金束发，上嵌夜光珠。阿端拜赐下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿端",
+     "predicate": "OWNS",
+     "object": "夜光珠",
+     "evidence": "赐五文袴褶，鱼须金束发，上嵌夜光珠。阿端拜赐下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晚霞",
+     "predicate": "OWNS",
+     "object": "龙角胶",
+     "evidence": "若得宫中龙角胶，可以续骨节而生肌肤，惜不早购之也。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "龙窝君",
+     "predicate": "HELPED",
+     "object": "阿端",
+     "evidence": "龙窝君嘉其惠悟，赐五文袴褶，鱼须金束发，上嵌夜光珠。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解姥",
+     "predicate": "HELPED",
+     "object": "阿端",
+     "evidence": "解姥辄进甘旨，日三四省，抚摩殷切",
+     "confidence": 0.9
+    },
+    {
+     "subject": "淮王",
+     "predicate": "HARMED",
+     "object": "晚霞",
+     "evidence": "王欲强夺晚霞。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿端",
+     "predicate": "PARTICIPATED_IN",
+     "object": "斗龙舟",
+     "evidence": "五月五日，吴越间有斗龙舟之戏。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "斗龙舟",
+     "predicate": "OCCURRED_AT",
+     "object": "镇江",
+     "evidence": "镇江有蒋氏童阿端，方七岁，便捷奇巧，莫能过，声价益起，十六岁犹用之。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:54.895Z"
+}

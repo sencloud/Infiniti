@@ -1,0 +1,556 @@
+{
+ "no": 38,
+ "title": "婴儿问母知邪正 金木参玄见假真",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6009,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "大圣",
+     "description": "保护唐僧取经的猴王，善降妖。"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "长老",
+     "description": "取经圣僧，孙悟空师父。"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，原天蓬元帅。"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟。"
+    },
+    {
+     "name": "乌鸡国王太子",
+     "type": "Person",
+     "aliases": [
+      "太子",
+      "殿下",
+      "千岁殿下"
+     ],
+     "nickname": "",
+     "description": "乌鸡国国王之子，问母知邪正。"
+    },
+    {
+     "name": "正宫娘娘",
+     "type": "Person",
+     "aliases": [
+      "娘娘",
+      "国母",
+      "皇后"
+     ],
+     "nickname": "",
+     "description": "乌鸡国正宫皇后，太子之母。"
+    },
+    {
+     "name": "乌鸡国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "父王",
+      "主公"
+     ],
+     "nickname": "",
+     "description": "乌鸡国真国王，被妖精害死。"
+    },
+    {
+     "name": "假国王",
+     "type": "Person",
+     "aliases": [
+      "妖精",
+      "怪物",
+      "全真假变父王"
+     ],
+     "nickname": "",
+     "description": "变作乌鸡国王的妖精，侵龙位三年。"
+    },
+    {
+     "name": "井龙王",
+     "type": "Person",
+     "aliases": [
+      "龙王"
+     ],
+     "nickname": "",
+     "description": "井底水晶宫龙王，定住乌鸡国王尸首。"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王",
+      "东海敖广"
+     ],
+     "nickname": "",
+     "description": "东海龙王。"
+    },
+    {
+     "name": "西海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖闰",
+      "龙王",
+      "西海敖闰"
+     ],
+     "nickname": "",
+     "description": "西海龙王。"
+    },
+    {
+     "name": "南海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖钦",
+      "龙王",
+      "南海敖钦"
+     ],
+     "nickname": "",
+     "description": "南海龙王。"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "",
+     "description": "北海龙王。"
+    },
+    {
+     "name": "乌鸡国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度，国王被妖精篡位。"
+    },
+    {
+     "name": "宝林寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌鸡国城外寺庙，唐僧师徒歇宿处。"
+    },
+    {
+     "name": "御花园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌鸡国王宫花园，八角琉璃井所在。"
+    },
+    {
+     "name": "水晶宫",
+     "type": "Place",
+     "aliases": [
+      "井龙王水晶宫"
+     ],
+     "nickname": "",
+     "description": "井底龙王宫殿，存放乌鸡国王尸首。"
+    },
+    {
+     "name": "金厢白玉圭",
+     "type": "Item",
+     "aliases": [
+      "白玉圭",
+      "宝贝"
+     ],
+     "nickname": "",
+     "description": "乌鸡国王之宝，作为表记。"
+    },
+    {
+     "name": "定颜珠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "井龙王用来定住乌鸡国王尸首不坏的宝珠。"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "铁棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器，可随意变化长短。"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [
+      "铁钯"
+     ],
+     "nickname": "",
+     "description": "猪八戒的兵器。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乌鸡国王太子",
+     "predicate": "KIN",
+     "object": "正宫娘娘",
+     "evidence": "这太子下马，跪于亭下，叫：“母亲！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌鸡国王太子",
+     "predicate": "KIN",
+     "object": "乌鸡国王",
+     "evidence": "这二三年在前殿与你父王开讲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌鸡国王",
+     "predicate": "SPOUSE",
+     "object": "正宫娘娘",
+     "evidence": "三载之前温又暖，三年之后冷如冰。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "乌鸡国王太子",
+     "evidence": "那太子双膝跪下道：“师父，我来了。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "这行者保护了三藏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "你若不向他啊，且如今把胆放大些，与沙僧只在这里。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "与沙僧只在这里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "我和你去偷他的来，却不是好？",
+     "confidence": 0.85
+    },
+    {
+     "subject": "假国王",
+     "predicate": "KILLED",
+     "object": "乌鸡国王",
+     "evidence": "原来我父王死在御花园八角琉璃井内，这全真假变父王，侵了龙位。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "假国王",
+     "predicate": "FRAMED",
+     "object": "乌鸡国王",
+     "evidence": "这全真假变父王，侵了龙位。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假国王",
+     "predicate": "TRANSFORMED",
+     "object": "乌鸡国王",
+     "evidence": "这全真假变父王，侵了龙位。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌鸡国王",
+     "predicate": "OWNS",
+     "object": "金厢白玉圭",
+     "evidence": "太子袖中取出那金厢白玉圭，递与娘娘。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井龙王",
+     "predicate": "OWNS",
+     "object": "定颜珠",
+     "evidence": "我与他定颜珠定住，不曾得坏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "好大圣，把金箍棒拿出来，两头一扯，叫“长！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "那呆子掣铁钯，尽力一筑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌鸡国王太子",
+     "predicate": "MEMBER_OF",
+     "object": "乌鸡国",
+     "evidence": "却说那乌鸡国王太子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假国王",
+     "predicate": "LEADS",
+     "object": "乌鸡国",
+     "evidence": "这全真假变父王，侵了龙位。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国王",
+     "predicate": "STATIONED_AT",
+     "object": "御花园",
+     "evidence": "原来我父王死在御花园八角琉璃井内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井龙王",
+     "predicate": "STATIONED_AT",
+     "object": "水晶宫",
+     "evidence": "原来八戒不知此是井龙王的水晶宫。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌鸡国王太子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "问母知邪正",
+     "evidence": "太子叩头道：“母亲，我问你：即位登龙是那个？称孤道寡果何人？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "问母知邪正",
+     "predicate": "OCCURRED_AT",
+     "object": "乌鸡国",
+     "evidence": "却说那乌鸡国王太子，自别大圣，不多时回至城中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "问母知邪正",
+     "evidence": "行者道：“问母亲来。”将前言尽说了一遍。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "问母知邪正",
+     "evidence": "行者离了师父，径到八戒床边，叫：“八戒！八戒！”",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1520,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，慈悲为怀"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，力大贪懒"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "猴王",
+      "齐天大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "乌鸡国国王",
+     "type": "Person",
+     "aliases": [
+      "皇帝",
+      "陛下"
+     ],
+     "nickname": "",
+     "description": "乌鸡国国王，被害三年"
+    },
+    {
+     "name": "井龙王",
+     "type": "Person",
+     "aliases": [
+      "龙王"
+     ],
+     "nickname": "",
+     "description": "井中龙王，用定颜珠保住国王尸首"
+    },
+    {
+     "name": "定颜珠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝物，能保尸身不坏"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "紧箍儿咒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "咒语，能使孙悟空头痛"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏闻其言道：“也罢了。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒道：“师父，他死了可干你事？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "那唐僧睡不着，正与沙僧讲行者哄了八戒去久不回之事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "哥哥，不要失了兄弟们和气",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "那唐僧睡不着，正与沙僧讲行者哄了八戒去久不回之事",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "那唐僧睡不着，正与沙僧讲行者哄了八戒去久不回之事",
+     "confidence": 0.8
+    },
+    {
+     "subject": "井龙王",
+     "predicate": "OWNS",
+     "object": "定颜珠",
+     "evidence": "这井龙王对我说，他使了定颜珠定住了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "却才把金箍棒伸下井底",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "紧箍儿咒",
+     "evidence": "真个唐僧就念《紧箍儿咒》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "RESCUED",
+     "object": "乌鸡国国王",
+     "evidence": "那呆子又一个猛子，淬将下去，摸着尸首，拽过来，背在身上，撺出水面",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:44.445Z"
+}

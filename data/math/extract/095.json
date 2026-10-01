@@ -1,0 +1,382 @@
+{
+ "no": 95,
+ "title": "1.4 用一元二次方程解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6143,
+   "entities": [
+    {
+     "name": "一元二次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数最高次数为2的整式方程"
+    },
+    {
+     "name": "配方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过配方将一元二次方程转化为完全平方形式求解的方法"
+    },
+    {
+     "name": "因式分解法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将方程一边因式分解为两个一次因式乘积求解的方法"
+    },
+    {
+     "name": "公式法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用求根公式解一元二次方程的方法"
+    },
+    {
+     "name": "求根公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "一元二次方程ax²+bx+c=0的求根公式x=(-b±√(b²-4ac))/(2a)"
+    },
+    {
+     "name": "根的判别式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "Δ=b²-4ac，用于判断一元二次方程根的情况"
+    },
+    {
+     "name": "根与系数的关系",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "一元二次方程两根之和等于-b/a，两根之积等于c/a"
+    },
+    {
+     "name": "转化思想",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将复杂方程转化为简单方程求解的数学思想"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的平行四边形"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数次数为1的整式方程"
+    },
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有两个未知数且未知数次数为1的方程组"
+    },
+    {
+     "name": "三元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有三个未知数且未知数次数为1的方程组"
+    },
+    {
+     "name": "分式方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母中含有未知数的方程"
+    },
+    {
+     "name": "整式方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母中不含未知数的方程"
+    },
+    {
+     "name": "一元三次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数最高次数为3的整式方程"
+    },
+    {
+     "name": "无理方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "根号下含有未知数的方程"
+    },
+    {
+     "name": "等式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等式两边同时加、减、乘、除同一个数或式，等式仍成立"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "一元二次方程",
+     "evidence": "解一元一次方程，把它转化为 x=a 的形式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "PREREQUISITE",
+     "object": "一元二次方程",
+     "evidence": "解二元一次方程组，把它转化为解一元一次方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元二次方程",
+     "predicate": "INCLUDES",
+     "object": "配方法",
+     "evidence": "用配方法、因式分解法、公式法解一元二次方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元二次方程",
+     "predicate": "INCLUDES",
+     "object": "因式分解法",
+     "evidence": "用配方法、因式分解法、公式法解一元二次方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元二次方程",
+     "predicate": "INCLUDES",
+     "object": "公式法",
+     "evidence": "用配方法、因式分解法、公式法解一元二次方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "配方法",
+     "predicate": "DERIVES",
+     "object": "求根公式",
+     "evidence": "利用配方法推导一元二次方程的求根公式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "求根公式",
+     "predicate": "DERIVES",
+     "object": "根的判别式",
+     "evidence": "由此探索一元二次方程根的判别式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "求根公式",
+     "predicate": "DERIVES",
+     "object": "根与系数的关系",
+     "evidence": "由此探索一元二次方程根的判别式、根与系数的关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "转化思想",
+     "predicate": "APPLIES_TO",
+     "object": "一元二次方程",
+     "evidence": "解一元二次方程，把它转化为解两个一元一次方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "转化思想",
+     "predicate": "APPLIES_TO",
+     "object": "分式方程",
+     "evidence": "解分式方程，把它转化为解整式方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "转化思想",
+     "predicate": "APPLIES_TO",
+     "object": "一元三次方程",
+     "evidence": "一元三次方程 x³+x²-2x=0，可以通过因式分解把它转化为 x(x²+x-2)=0",
+     "confidence": 0.9
+    },
+    {
+     "subject": "转化思想",
+     "predicate": "APPLIES_TO",
+     "object": "无理方程",
+     "evidence": "无理方程 √(x+1)=2，可以通过方程两边平方把它转化为 x+1=4",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "一元二次方程",
+     "evidence": "利用勾股定理可以列出方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元二次方程",
+     "predicate": "APPLIES_TO",
+     "object": "矩形",
+     "evidence": "用长22 m的篱笆围成面积是30 m²的矩形菜园",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元二次方程",
+     "predicate": "APPLIES_TO",
+     "object": "直角三角形",
+     "evidence": "根据题意，△ABC是直角三角形，利用勾股定理可以列出方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "一元二次方程",
+     "evidence": "解方程的基本思路是利用等式的基本性质对方程进行变形和转化",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1754,
+   "entities": [
+    {
+     "name": "一元二次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数最高次数为2的整式方程"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的平行四边形"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "黄金分割",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把线段分成两部分，使其中一部分与全长之比等于另一部分与这部分之比"
+    },
+    {
+     "name": "黄金比",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄金分割中较长部分与全长的比值，约为0.618"
+    },
+    {
+     "name": "黄金分割点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "线段上满足黄金分割的点"
+    },
+    {
+     "name": "构造几何图形解一元二次方程",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过构造几何图形来求解一元二次方程的方法"
+    },
+    {
+     "name": "等腰三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有两条边相等的三角形"
+    },
+    {
+     "name": "斐波那契数列",
+     "type": "Concept",
+     "aliases": [
+      "兔子数列"
+     ],
+     "nickname": "",
+     "description": "从第三项起每一项等于前两项之和的数列"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元二次方程",
+     "predicate": "APPLIES_TO",
+     "object": "矩形",
+     "evidence": "某市计划对一个矩形市民休闲公园进行扩建改造．如图，原公园长50 m，宽40 m，扩建后的新矩形公园的长与宽之比为3:2．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "矩形",
+     "evidence": "在矩形ABCD中，AB=16，BC=6，点P从点A出发沿AB以每秒3个单位长度的速度向点B移动；同时，点Q从点C出发沿CD以每秒2个单位长度的速度向点D移动．经过多长时间，P，Q两点之间的距离是10？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "构造几何图形解一元二次方程",
+     "predicate": "APPLIES_TO",
+     "object": "一元二次方程",
+     "evidence": "赵爽（3世纪前期）所著的《勾股圆方图说》中蕴含了构造几何图形解一元二次方程的方法．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元二次方程",
+     "predicate": "APPLIES_TO",
+     "object": "等腰三角形",
+     "evidence": "已知关于x的一元二次方程x^2-(k+2)x+2k=0．若等腰三角形ABC的一边长a为1，另两边长b，c恰好为该方程的两个根，求△ABC的周长．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄金分割",
+     "predicate": "INCLUDES",
+     "object": "黄金比",
+     "evidence": "蜻蜓腹部长BC与全身长AB之比等于头部和胸部总长AC与腹部长BC之比，这个比值就是黄金比，点C称为线段AB的黄金分割点．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄金分割",
+     "predicate": "INCLUDES",
+     "object": "黄金分割点",
+     "evidence": "蜻蜓腹部长BC与全身长AB之比等于头部和胸部总长AC与腹部长BC之比，这个比值就是黄金比，点C称为线段AB的黄金分割点．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "斐波那契数列",
+     "predicate": "RELATED",
+     "object": "黄金比",
+     "evidence": "请你查阅相关资料，了解与该问题相关的“兔子数列”（也称“斐波那契数列”）及它与黄金比的联系．",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:18.213Z"
+}

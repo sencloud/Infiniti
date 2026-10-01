@@ -1,0 +1,178 @@
+{
+ "no": 434,
+ "title": "段氏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1261,
+   "entities": [
+    {
+     "name": "段瑞环",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "大名富翁，四十无子，后中风死"
+    },
+    {
+     "name": "连氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "段瑞环妻，性妒，后为夫买妾"
+    },
+    {
+     "name": "栾怀",
+     "type": "Person",
+     "aliases": [
+      "怀"
+     ],
+     "nickname": "",
+     "description": "段瑞环与婢所生之子，栾家养大"
+    },
+    {
+     "name": "栾氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "河间人家，买段家婢女"
+    },
+    {
+     "name": "蒋稼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南人，妻毛氏不育而妒"
+    },
+    {
+     "name": "毛氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋稼妻，不育而妒，后为夫买妾"
+    },
+    {
+     "name": "蒋稼兄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋稼之兄，暗助弟买妾"
+    },
+    {
+     "name": "蒋稼嫂",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋稼兄之妻，劝毛氏纳妾"
+    },
+    {
+     "name": "媒媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "媒婆，助蒋稼买妾"
+    },
+    {
+     "name": "大名",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "段瑞环籍贯地"
+    },
+    {
+     "name": "河间",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "栾氏所居地"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋稼籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "段瑞环",
+     "predicate": "SPOUSE",
+     "object": "连氏",
+     "evidence": "妻连氏最妒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "段瑞环",
+     "predicate": "KIN",
+     "object": "栾怀",
+     "evidence": "亡者吾父也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "栾氏",
+     "predicate": "KIN",
+     "object": "栾怀",
+     "evidence": "栾抚之等诸男",
+     "confidence": 0.9
+    },
+    {
+     "subject": "段瑞环",
+     "predicate": "NATIVE_OF",
+     "object": "大名",
+     "evidence": "段瑞环，大名富翁也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "栾氏",
+     "predicate": "LIVES_AT",
+     "object": "河间",
+     "evidence": "鬻诸河间栾氏之家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋稼",
+     "predicate": "SPOUSE",
+     "object": "毛氏",
+     "evidence": "其妻毛氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋稼",
+     "predicate": "KIN",
+     "object": "蒋稼兄",
+     "evidence": "欲继兄子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋稼",
+     "predicate": "KIN",
+     "object": "蒋稼嫂",
+     "evidence": "兄嫂俱诺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋稼兄",
+     "predicate": "SPOUSE",
+     "object": "蒋稼嫂",
+     "evidence": "兄嫂俱诺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋稼兄",
+     "predicate": "HELPED",
+     "object": "蒋稼",
+     "evidence": "遂暗以金付媪，伪称为媪转贷而玉成之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋稼",
+     "predicate": "NATIVE_OF",
+     "object": "济南",
+     "evidence": "济南蒋稼",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:59.261Z"
+}

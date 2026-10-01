@@ -1,0 +1,71 @@
+{
+ "no": 218,
+ "title": "跳神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 483,
+   "entities": [
+    {
+     "name": "老巫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "跳神仪式中击鼓起舞的巫师"
+    },
+    {
+     "name": "跳神妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "跳神仪式中充当神灵附体者的良家少妇"
+    },
+    {
+     "name": "满洲妇女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "奉事跳神尤虔、行跳虎神仪式的满族妇女"
+    },
+    {
+     "name": "跳神",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "民间以神卜治病、老巫击鼓起舞的仪式"
+    },
+    {
+     "name": "跳虎神",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "满洲妇女骑假虎假马执长兵舞于榻上的跳神仪式"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "跳神妇",
+     "predicate": "PARTICIPATED_IN",
+     "object": "跳神",
+     "evidence": "良家少妇，时自为之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老巫",
+     "predicate": "PARTICIPATED_IN",
+     "object": "跳神",
+     "evidence": "倩老巫击铁环单面鼓，婆娑作态，名曰“跳神”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "满洲妇女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "跳虎神",
+     "evidence": "满洲妇女，奉事尤虔，小有疑，必以决。时严妆，骑假虎假马，执长兵，舞榻上，名曰“跳虎神”。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:34.604Z"
+}

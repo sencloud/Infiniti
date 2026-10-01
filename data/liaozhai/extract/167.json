@@ -1,0 +1,168 @@
+{
+ "no": 167,
+ "title": "酒狂",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1731,
+   "entities": [
+    {
+     "name": "缪永定",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江西拔贡生，酗酒善谑，酒狂"
+    },
+    {
+     "name": "贾氏",
+     "type": "Person",
+     "aliases": [
+      "缪永定母舅"
+     ],
+     "nickname": "",
+     "description": "缪永定母舅，死数年，在冥间业酤"
+    },
+    {
+     "name": "皂帽人",
+     "type": "Spirit",
+     "aliases": [
+      "东灵使者"
+     ],
+     "nickname": "",
+     "description": "冥府差役，戴皂帽，勾摄缪永定"
+    },
+    {
+     "name": "翁生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻村人，缪永定十年前文字交"
+    },
+    {
+     "name": "东灵",
+     "type": "Spirit",
+     "aliases": [
+      "大王"
+     ],
+     "nickname": "",
+     "description": "冥府大王，掌勾摄审断"
+    },
+    {
+     "name": "浮罗君",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府神君，东灵往会其花子案"
+    },
+    {
+     "name": "府署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间官署，缥碧为瓦，壮丽"
+    },
+    {
+     "name": "酒肆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间酒店，对门似囹圄，外有黑溪"
+    },
+    {
+     "name": "长溪",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间酒肆外溪流，黑潦涌动，中有利刃"
+    },
+    {
+     "name": "江西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "缪永定籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "缪永定",
+     "predicate": "NATIVE_OF",
+     "object": "江西",
+     "evidence": "缪永定，江西拔贡生。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "缪永定",
+     "predicate": "KIN",
+     "object": "贾氏",
+     "evidence": "缪视之，则其母舅。舅贾氏，死已数载。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "皂帽人",
+     "predicate": "HARMED",
+     "object": "缪永定",
+     "evidence": "缪死，有皂帽人絷去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾氏",
+     "predicate": "HELPED",
+     "object": "缪永定",
+     "evidence": "贾曳之曰：“舅在此业酤，颇有小声望，必合极力。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾氏",
+     "predicate": "FRIEND",
+     "object": "皂帽人",
+     "evidence": "适饮者乃东灵使者，舅常饮之酒，与舅颇相善。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "缪永定",
+     "predicate": "FRIEND",
+     "object": "翁生",
+     "evidence": "则邻村翁生，故十年前文字交。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "翁生",
+     "predicate": "HARMED",
+     "object": "缪永定",
+     "evidence": "乃推缪颠堕溪中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾氏",
+     "predicate": "HELPED",
+     "object": "缪永定",
+     "evidence": "贾忽至，望见大惊，提携以归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "缪永定",
+     "predicate": "LIVES_AT",
+     "object": "府署",
+     "evidence": "移时，至一府署，缥碧为瓦，世间无其壮丽。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "缪永定",
+     "predicate": "LIVES_AT",
+     "object": "酒肆",
+     "evidence": "即就肆内小酌，各道契阔。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "缪永定",
+     "predicate": "PARTICIPATED_IN",
+     "object": "花子案",
+     "evidence": "浮罗君会花子案，驾未归。",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:17.291Z"
+}

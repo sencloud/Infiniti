@@ -1,0 +1,141 @@
+{
+ "no": 331,
+ "title": "邢子仪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1070,
+   "entities": [
+    {
+     "name": "杨某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "滕县人，白莲教徒，会左道之术"
+    },
+    {
+     "name": "朱氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨某继室，有风韵"
+    },
+    {
+     "name": "邢子仪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秀才，家贫性鲠"
+    },
+    {
+     "name": "绅女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泗上某绅之女，貌美"
+    },
+    {
+     "name": "某绅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泗上士绅，绅女之父"
+    },
+    {
+     "name": "顾某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "相者，善决人福寿"
+    },
+    {
+     "name": "王母",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "神话人物，西王母"
+    },
+    {
+     "name": "月府姮娥",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱氏假托的月宫嫦娥"
+    },
+    {
+     "name": "木鸟",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨某所授法器，能载人飞行"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨某",
+     "predicate": "SPOUSE",
+     "object": "朱氏",
+     "evidence": "其继室朱氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨某",
+     "predicate": "HARMED",
+     "object": "绅女",
+     "evidence": "杨睨其女美，归谋摄取之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱氏",
+     "predicate": "HARMED",
+     "object": "绅女",
+     "evidence": "伪作仙姬，又授木鸟，教之作用，乃自楼头推堕之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邢子仪",
+     "predicate": "SPOUSE",
+     "object": "朱氏",
+     "evidence": "愿终从焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邢子仪",
+     "predicate": "SPOUSE",
+     "object": "绅女",
+     "evidence": "女告父母，誓从邢",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某绅",
+     "predicate": "KIN",
+     "object": "绅女",
+     "evidence": "其父母自女飞升",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顾某",
+     "predicate": "HELPED",
+     "object": "邢子仪",
+     "evidence": "顾又审曰：尚未尚未。泰运已交，百金何足言！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "邢子仪",
+     "predicate": "OWNS",
+     "object": "木鸟",
+     "evidence": "取木鸟投之",
+     "confidence": 0.7
+    },
+    {
+     "subject": "王母",
+     "predicate": "KIN",
+     "object": "绅女",
+     "evidence": "渠是王母第九女",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:17.708Z"
+}

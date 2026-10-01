@@ -1,0 +1,140 @@
+/* ============================================================
+   纸墨设计令牌（与 /people 旧首页同源）：暖纸底 / 墨字 / 朱砂点缀 / 靛蓝次强调
+   主题挂在 <html data-theme>，localStorage 键 infiniti-theme 与 /people 共用
+   JS 侧（ECharts / 3D）用 theme/palette.ts 读同一套值
+   ============================================================ */
+
+:root,
+[data-theme='light'] {
+  --bg: #f4f2ec;
+  --bg-grain: rgba(120, 100, 70, 0.05);
+  --paper: #fdfcf9;
+  --paper-2: #f9f7f1;
+  --ink: #272c34;
+  --ink-2: #5b6472;
+  --ink-3: #8d95a2;
+  --accent: #b23a26;
+  --accent-ink: #fff;
+  --accent-soft: rgba(178, 58, 38, 0.07);
+  --accent-wash: rgba(178, 58, 38, 0.14);
+  --accent-line: rgba(178, 58, 38, 0.35);
+  --indigo: #3c5a78;
+  --indigo-wash: rgba(60, 90, 120, 0.1);
+  --gold: #a87614;
+  --green: #2f7d5d;
+  --ok: #3d7a52;
+  --panel: rgba(253, 252, 249, 0.96);
+  --panel-solid: #fdfcf9;
+  --rule: rgba(39, 44, 52, 0.13);
+  --rule-2: rgba(39, 44, 52, 0.07);
+  --well: rgba(39, 44, 52, 0.045);
+  --mark: rgba(214, 170, 60, 0.28);
+  --mark-strong: rgba(214, 150, 40, 0.5);
+  --shadow-1: 0 2px 10px rgba(39, 44, 52, 0.08), 0 12px 36px rgba(39, 44, 52, 0.1);
+  --shadow-2: 0 4px 16px rgba(39, 44, 52, 0.12), 0 20px 52px rgba(39, 44, 52, 0.14);
+  --neb-1: rgba(60, 90, 120, 0.07);
+  --neb-2: rgba(178, 58, 38, 0.05);
+  --neb-3: rgba(168, 118, 20, 0.05);
+  --serif: Georgia, 'Songti SC', 'STSong', 'SimSun', serif;
+  --sans: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --mono: Consolas, 'SF Mono', monospace;
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --bg: #14181f;
+  --bg-grain: rgba(160, 180, 220, 0.04);
+  --paper: #1a1f28;
+  --paper-2: #181c24;
+  --ink: #e8eaef;
+  --ink-2: #a4adbb;
+  --ink-3: #667080;
+  --accent: #d96a4f;
+  --accent-ink: #1a110e;
+  --accent-soft: rgba(217, 106, 79, 0.12);
+  --accent-wash: rgba(217, 106, 79, 0.2);
+  --accent-line: rgba(217, 106, 79, 0.45);
+  --indigo: #8fb0d4;
+  --indigo-wash: rgba(143, 176, 212, 0.14);
+  --gold: #d4a53f;
+  --green: #5cb98c;
+  --ok: #6cbf8f;
+  --panel: rgba(22, 26, 34, 0.96);
+  --panel-solid: #161a22;
+  --rule: rgba(232, 234, 239, 0.14);
+  --rule-2: rgba(232, 234, 239, 0.07);
+  --well: rgba(232, 234, 239, 0.05);
+  --mark: rgba(212, 165, 63, 0.22);
+  --mark-strong: rgba(212, 165, 63, 0.42);
+  --shadow-1: 0 2px 10px rgba(0, 0, 0, 0.3), 0 12px 36px rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 4px 16px rgba(0, 0, 0, 0.4), 0 20px 52px rgba(0, 0, 0, 0.45);
+  --neb-1: rgba(80, 110, 150, 0.1);
+  --neb-2: rgba(200, 90, 60, 0.07);
+  --neb-3: rgba(170, 130, 50, 0.06);
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.25s, color 0.25s;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* 纸面晕染，与旧首页同款 */
+.paper-nebula {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 55% 40% at 16% 10%, var(--neb-1), transparent 60%),
+    radial-gradient(ellipse 50% 42% at 86% 88%, var(--neb-2), transparent 62%),
+    radial-gradient(ellipse 38% 30% at 78% 16%, var(--neb-3), transparent 65%);
+}
+
+.brand-mark .ring-a { stroke: var(--accent); }
+.brand-mark .ring-b { stroke: var(--indigo); }
+.brand-mark .n-focus,
+.brand-mark .n-person { fill: var(--accent); }
+.brand-mark .n-event { fill: var(--gold); }
+.brand-mark .n-topic { fill: var(--green); }
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  border: 1px solid var(--rule);
+  background: var(--panel);
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.icon-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}

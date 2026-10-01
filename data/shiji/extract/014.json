@@ -1,0 +1,353 @@
+{
+ "no": 14,
+ "title": "十二诸侯年表",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 690,
+   "entities": [
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "西汉史学家，著《史记》"
+    },
+    {
+     "name": "周厉王",
+     "type": "Person",
+     "aliases": [
+      "厉王"
+     ],
+     "nickname": "姬胡",
+     "description": "西周君主，暴虐被逐"
+    },
+    {
+     "name": "箕子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商纣王叔父，谏纣不听"
+    },
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "尼父"
+     ],
+     "nickname": "",
+     "description": "春秋思想家，儒家创始人"
+    },
+    {
+     "name": "左丘明",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国史家，传《左氏春秋》"
+    },
+    {
+     "name": "铎椒",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚威王傅，著《铎氏微》"
+    },
+    {
+     "name": "楚威王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国楚国君主"
+    },
+    {
+     "name": "虞卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵孝成王相，著《虞氏春秋》"
+    },
+    {
+     "name": "赵孝成王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国赵国君主"
+    },
+    {
+     "name": "吕不韦",
+     "type": "Person",
+     "aliases": [
+      "文信侯",
+      "吕相"
+     ],
+     "nickname": "",
+     "description": "秦庄襄王相，编《吕氏春秋》"
+    },
+    {
+     "name": "秦庄襄王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国秦国君主"
+    },
+    {
+     "name": "荀卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国思想家，儒家代表"
+    },
+    {
+     "name": "孟子",
+     "type": "Person",
+     "aliases": [
+      "孟轲",
+      "子舆",
+      "亚圣"
+     ],
+     "nickname": "",
+     "description": "战国思想家，儒家代表"
+    },
+    {
+     "name": "公孙固",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国学者，著书引春秋"
+    },
+    {
+     "name": "韩非",
+     "type": "Person",
+     "aliases": [
+      "韩非子",
+      "公子非"
+     ],
+     "nickname": "",
+     "description": "战国法家代表，著书立说"
+    },
+    {
+     "name": "张苍",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西汉丞相，历谱五德"
+    },
+    {
+     "name": "董仲舒",
+     "type": "Person",
+     "aliases": [
+      "董子"
+     ],
+     "nickname": "",
+     "description": "西汉儒学家，推春秋义"
+    },
+    {
+     "name": "周成王",
+     "type": "Person",
+     "aliases": [
+      "成王"
+     ],
+     "nickname": "太子诵",
+     "description": "西周君主，文武所褒大封"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，孔子故国"
+    },
+    {
+     "name": "楚",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，南方大国"
+    },
+    {
+     "name": "赵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，战国七雄之一"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，后统一天下"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉朝，刘邦建立"
+    },
+    {
+     "name": "彘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，周厉王流放地"
+    },
+    {
+     "name": "周室",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝王室"
+    },
+    {
+     "name": "春秋",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔子所修史书，记鲁隐公至哀公"
+    },
+    {
+     "name": "共和行政",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "周厉王奔彘后周公共和执政"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "司马迁",
+     "predicate": "HELD_OFFICE",
+     "object": "太史令",
+     "evidence": "太史公读《春秋历谱谍》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周厉王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "共和行政",
+     "evidence": "厉王遂奔于彘，乱自京师始，而共和行政焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周厉王",
+     "predicate": "ENFEOFFED",
+     "object": "彘",
+     "evidence": "厉王遂奔于彘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春秋",
+     "evidence": "兴于鲁而次《春秋》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "SERVED",
+     "object": "鲁",
+     "evidence": "兴于鲁而次《春秋》",
+     "confidence": 0.8
+    },
+    {
+     "subject": "左丘明",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春秋",
+     "evidence": "故因孔子史记具论其语，成《左氏春秋》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铎椒",
+     "predicate": "SERVED",
+     "object": "楚威王",
+     "evidence": "铎椒为楚威王傅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虞卿",
+     "predicate": "SERVED",
+     "object": "赵孝成王",
+     "evidence": "赵孝成王时，其相虞卿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕不韦",
+     "predicate": "SERVED",
+     "object": "秦庄襄王",
+     "evidence": "吕不韦者，秦庄襄王相",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕不韦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春秋",
+     "evidence": "删十《春秋》，集六国时事",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张苍",
+     "predicate": "SERVED",
+     "object": "汉",
+     "evidence": "汉相张苍历谱五德",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董仲舒",
+     "predicate": "SERVED",
+     "object": "汉",
+     "evidence": "上大夫董仲舒推《春秋》义",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董仲舒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春秋",
+     "evidence": "上大夫董仲舒推《春秋》义",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孟子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春秋",
+     "evidence": "及如荀卿、孟子、公孙固、韩非之徒，各往往捃摭春秋之文以著书",
+     "confidence": 0.8
+    },
+    {
+     "subject": "韩非",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春秋",
+     "evidence": "及如荀卿、孟子、公孙固、韩非之徒，各往往捃摭春秋之文以著书",
+     "confidence": 0.8
+    },
+    {
+     "subject": "荀卿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春秋",
+     "evidence": "及如荀卿、孟子、公孙固、韩非之徒，各往往捃摭春秋之文以著书",
+     "confidence": 0.8
+    },
+    {
+     "subject": "公孙固",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春秋",
+     "evidence": "及如荀卿、孟子、公孙固、韩非之徒，各往往捃摭春秋之文以著书",
+     "confidence": 0.8
+    },
+    {
+     "subject": "周成王",
+     "predicate": "RULED",
+     "object": "周室",
+     "evidence": "文武所褒大封，皆威而服焉",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:01.322Z"
+}

@@ -1,0 +1,790 @@
+{
+ "no": 87,
+ "title": "感深秋抚琴悲往事 坐禅寂走火入邪魔",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5983,
+   "entities": [
+    {
+     "name": "林黛玉",
+     "type": "Person",
+     "aliases": [
+      "黛玉",
+      "林妹妹",
+      "颦儿",
+      "潇湘妃子",
+      "绛珠仙子"
+     ],
+     "nickname": "潇湘妃子",
+     "description": "贾母外孙女，寄居贾府，多愁善感，善琴能诗"
+    },
+    {
+     "name": "薛宝钗",
+     "type": "Person",
+     "aliases": [
+      "宝钗",
+      "宝姐姐",
+      "宝丫头",
+      "蘅芜君"
+     ],
+     "nickname": "蘅芜君",
+     "description": "薛姨妈之女，贾宝玉之妻，端庄稳重"
+    },
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "宝玉",
+      "宝二爷",
+      "怡红公子",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "怡红公子",
+     "description": "贾政之子，衔玉而生，多情公子"
+    },
+    {
+     "name": "贾探春",
+     "type": "Person",
+     "aliases": [
+      "探春",
+      "三姑娘",
+      "三妹妹",
+      "蕉下客"
+     ],
+     "nickname": "蕉下客",
+     "description": "贾政之女，精明能干，远嫁他乡"
+    },
+    {
+     "name": "史湘云",
+     "type": "Person",
+     "aliases": [
+      "湘云",
+      "云妹妹",
+      "史大姑娘",
+      "枕霞旧友"
+     ],
+     "nickname": "枕霞旧友",
+     "description": "贾母侄孙女，性格豪爽，心直口快"
+    },
+    {
+     "name": "李纹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李纨堂妹，客居贾府"
+    },
+    {
+     "name": "李绮",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李纨堂妹，客居贾府"
+    },
+    {
+     "name": "贾惜春",
+     "type": "Person",
+     "aliases": [
+      "惜春",
+      "四姑娘",
+      "四妹妹",
+      "藕榭"
+     ],
+     "nickname": "藕榭",
+     "description": "贾敬之女，冷情寡欲，后出家为尼"
+    },
+    {
+     "name": "妙玉",
+     "type": "Person",
+     "aliases": [
+      "槛外人",
+      "畸人"
+     ],
+     "nickname": "槛外人",
+     "description": "栊翠庵尼姑，心性高洁，后走火入魔"
+    },
+    {
+     "name": "紫鹃",
+     "type": "Person",
+     "aliases": [
+      "鹦哥"
+     ],
+     "nickname": "",
+     "description": "林黛玉的贴身丫鬟，忠心耿耿"
+    },
+    {
+     "name": "雪雁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "林黛玉从南边带来的丫鬟"
+    },
+    {
+     "name": "袭人",
+     "type": "Person",
+     "aliases": [
+      "珍珠",
+      "蕊珠",
+      "袭姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的贴身丫鬟，温柔贤惠"
+    },
+    {
+     "name": "晴雯",
+     "type": "Person",
+     "aliases": [
+      "晴姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟，风流灵巧"
+    },
+    {
+     "name": "茗烟",
+     "type": "Person",
+     "aliases": [
+      "焙茗"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的小厮"
+    },
+    {
+     "name": "贾环",
+     "type": "Person",
+     "aliases": [
+      "环三爷",
+      "环儿"
+     ],
+     "nickname": "",
+     "description": "贾政与赵姨娘之子，贾宝玉异母弟"
+    },
+    {
+     "name": "贾兰",
+     "type": "Person",
+     "aliases": [
+      "兰哥儿"
+     ],
+     "nickname": "",
+     "description": "贾珠与李纨之子，贾宝玉之侄"
+    },
+    {
+     "name": "芳官",
+     "type": "Person",
+     "aliases": [
+      "耶律雄奴",
+      "温都里纳",
+      "金星玻璃"
+     ],
+     "nickname": "",
+     "description": "贾府买来的小戏子，后为宝玉丫鬟"
+    },
+    {
+     "name": "柳嫂儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府厨房管事媳妇，五儿之母"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "",
+     "description": "贾府最高长辈，贾宝玉祖母"
+    },
+    {
+     "name": "贾政",
+     "type": "Person",
+     "aliases": [
+      "存周",
+      "政老爷",
+      "二老爷",
+      "贾存周"
+     ],
+     "nickname": "",
+     "description": "贾宝玉之父，荣国府二老爷"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，贾宝玉之母"
+    },
+    {
+     "name": "薛姨妈",
+     "type": "Person",
+     "aliases": [
+      "姨妈"
+     ],
+     "nickname": "",
+     "description": "薛宝钗之母，王夫人之妹"
+    },
+    {
+     "name": "薛蟠",
+     "type": "Person",
+     "aliases": [
+      "薛大哥"
+     ],
+     "nickname": "",
+     "description": "薛姨妈之子，薛宝钗之兄"
+    },
+    {
+     "name": "尤三姐",
+     "type": "Person",
+     "aliases": [
+      "三姐"
+     ],
+     "nickname": "",
+     "description": "尤氏姐妹之一，刚烈自刎"
+    },
+    {
+     "name": "贾府",
+     "type": "Organization",
+     "aliases": [
+      "贾家",
+      "荣国府",
+      "宁国府"
+     ],
+     "nickname": "",
+     "description": "金陵四大家族之一，贾宝玉家族"
+    },
+    {
+     "name": "大观园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府为元妃省亲所建园林，诸钗居所"
+    },
+    {
+     "name": "潇湘馆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中林黛玉的居所"
+    },
+    {
+     "name": "怡红院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中贾宝玉的居所"
+    },
+    {
+     "name": "蓼风轩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中贾惜春的居所"
+    },
+    {
+     "name": "栊翠庵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中妙玉修行的尼庵"
+    },
+    {
+     "name": "南边",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "指江南地区，林黛玉故乡"
+    },
+    {
+     "name": "北边",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "指北方地区，贾府所在"
+    },
+    {
+     "name": "海棠结社",
+     "type": "Event",
+     "aliases": [
+      "海棠诗社"
+     ],
+     "nickname": "",
+     "description": "大观园中诸钗结社作诗之事"
+    },
+    {
+     "name": "菊花诗",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中诸钗咏菊赋诗之事"
+    },
+    {
+     "name": "妙玉走火入魔",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "妙玉坐禅时心神恍惚，走火入魔"
+    },
+    {
+     "name": "通灵玉",
+     "type": "Item",
+     "aliases": [
+      "通灵宝玉"
+     ],
+     "nickname": "",
+     "description": "贾宝玉衔玉而生的宝玉"
+    },
+    {
+     "name": "旧手帕",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾宝玉病时赠林黛玉的旧手帕，上有题诗泪痕"
+    },
+    {
+     "name": "香囊",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "林黛玉剪破的香囊"
+    },
+    {
+     "name": "扇袋",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "林黛玉剪破的扇袋"
+    },
+    {
+     "name": "穗子",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "通灵玉上的穗子，被铰折"
+    },
+    {
+     "name": "短琴",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "林黛玉从南边带来的琴"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "林黛玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "姑娘是老太太的外孙女儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "KIN",
+     "object": "薛姨妈",
+     "evidence": "姨妈上了年纪的人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "KIN",
+     "object": "薛蟠",
+     "evidence": "又兼有薛大哥的事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛蟠",
+     "predicate": "KIN",
+     "object": "薛姨妈",
+     "evidence": "又兼有薛大哥的事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "方回身到贾母、贾政处去禀明了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "方回身到贾母、贾政处去禀明了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾环",
+     "evidence": "只见贾环、贾兰跟着小厮们",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾兰",
+     "evidence": "只见贾环、贾兰跟着小厮们",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾兰",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "只见贾环、贾兰跟着小厮们",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾环",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "只见贾环、贾兰跟着小厮们",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾探春",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "探春微笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾惜春",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "惜春道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "紫鹃",
+     "predicate": "SERVANT_OF",
+     "object": "林黛玉",
+     "evidence": "紫鹃走来，看见这样光景",
+     "confidence": 0.95
+    },
+    {
+     "subject": "雪雁",
+     "predicate": "SERVANT_OF",
+     "object": "林黛玉",
+     "evidence": "雪雁倒上茶来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袭人",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "袭人问道：“怎么又回来了？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "正是晴雯他们闹出事来的时候",
+     "confidence": 0.9
+    },
+    {
+     "subject": "茗烟",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "带着茗烟正往书房中来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "芳官",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "那日和宝二爷那边的芳官在一处的那个女孩儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柳嫂儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "柳嫂儿说了，她打点妥当",
+     "confidence": 0.8
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "FRIEND",
+     "object": "薛宝钗",
+     "evidence": "宝姐姐不寄与别人，单寄与我，也是惺惺惜惺惺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "FRIEND",
+     "object": "贾探春",
+     "evidence": "早见几个人进来，却是探春、湘云、李纹、李绮",
+     "confidence": 0.8
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "FRIEND",
+     "object": "史湘云",
+     "evidence": "早见几个人进来，却是探春、湘云、李纹、李绮",
+     "confidence": 0.8
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "FRIEND",
+     "object": "李纹",
+     "evidence": "早见几个人进来，却是探春、湘云、李纹、李绮",
+     "confidence": 0.8
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "FRIEND",
+     "object": "李绮",
+     "evidence": "早见几个人进来，却是探春、湘云、李纹、李绮",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "妙玉",
+     "evidence": "说着，一面与妙玉施礼",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "贾惜春",
+     "evidence": "忽然想起惜春有好几天没见，便信步走到蓼风轩来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "妙玉",
+     "predicate": "FRIEND",
+     "object": "贾惜春",
+     "evidence": "妙玉和惜春正在凝思之际",
+     "confidence": 0.8
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "LOVES",
+     "object": "贾宝玉",
+     "evidence": "却是宝玉病时送来的旧手帕，自己题的诗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "LOVES",
+     "object": "林黛玉",
+     "evidence": "宝玉也没法儿，只得且吃饭，三口两口忙忙的吃完，漱了口，一溜烟往黛玉房中去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "NATIVE_OF",
+     "object": "南边",
+     "evidence": "譬如我，原是南边人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "STATIONED_AT",
+     "object": "潇湘馆",
+     "evidence": "走近潇湘馆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "归至怡红院中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾惜春",
+     "predicate": "STATIONED_AT",
+     "object": "蓼风轩",
+     "evidence": "便信步走到蓼风轩来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妙玉",
+     "predicate": "STATIONED_AT",
+     "object": "栊翠庵",
+     "evidence": "却是那栊翠庵的槛外人妙玉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "海棠结社",
+     "evidence": "回忆海棠结社，序属清秋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "PARTICIPATED_IN",
+     "object": "海棠结社",
+     "evidence": "回忆海棠结社，序属清秋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "菊花诗",
+     "evidence": "因想起前年的菊花诗来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妙玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "妙玉走火入魔",
+     "evidence": "妙玉两手撒开，口中流沫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "妙玉走火入魔",
+     "predicate": "OCCURRED_AT",
+     "object": "栊翠庵",
+     "evidence": "单说妙玉归去，早有道婆接着，掩了庵门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "通灵玉",
+     "evidence": "宝玉通灵玉上的穗子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "OWNS",
+     "object": "旧手帕",
+     "evidence": "黛玉手中自拿着两方旧帕",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "OWNS",
+     "object": "香囊",
+     "evidence": "小几上却搁着剪破的香囊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "OWNS",
+     "object": "扇袋",
+     "evidence": "两三截儿扇袋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "OWNS",
+     "object": "短琴",
+     "evidence": "叫雪雁向箱中将自己带来的短琴拿出",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "穗子",
+     "evidence": "宝玉通灵玉上的穗子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "QUARRELED",
+     "object": "贾宝玉",
+     "evidence": "那都是那几年宝二爷和姑娘小时，一时好了，一时恼了，闹出来的笑话儿",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 656,
+   "entities": [
+    {
+     "name": "贾惜春",
+     "type": "Person",
+     "aliases": [
+      "藕榭",
+      "四姑娘",
+      "惜春",
+      "四妹妹"
+     ],
+     "nickname": "",
+     "description": "贾府四小姐，好佛，后出家"
+    },
+    {
+     "name": "妙玉",
+     "type": "Person",
+     "aliases": [
+      "槛外人",
+      "畸人"
+     ],
+     "nickname": "",
+     "description": "大观园栊翠庵尼姑，才高性洁"
+    },
+    {
+     "name": "李纨",
+     "type": "Person",
+     "aliases": [
+      "稻香老农",
+      "大奶奶",
+      "珠大嫂子"
+     ],
+     "nickname": "",
+     "description": "贾珠之妻，寡居，稻香村主人"
+    },
+    {
+     "name": "邢岫烟",
+     "type": "Person",
+     "aliases": [
+      "岫烟",
+      "邢姑娘"
+     ],
+     "nickname": "",
+     "description": "邢夫人侄女，后嫁薛蝌"
+    },
+    {
+     "name": "彩屏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾惜春的丫鬟"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "彩屏",
+     "predicate": "SERVANT_OF",
+     "object": "贾惜春",
+     "evidence": "彩屏忽然进来，回道：“姑娘知道妙玉师父的事吗？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "妙玉",
+     "predicate": "FRIEND",
+     "object": "贾惜春",
+     "evidence": "她自从那日和姑娘下棋回去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妙玉",
+     "predicate": "FRIEND",
+     "object": "邢岫烟",
+     "evidence": "我昨日听见邢姑娘和大奶奶那里说呢",
+     "confidence": 0.8
+    },
+    {
+     "subject": "妙玉",
+     "predicate": "FRIEND",
+     "object": "李纨",
+     "evidence": "我昨日听见邢姑娘和大奶奶那里说呢",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:57:02.090Z"
+}

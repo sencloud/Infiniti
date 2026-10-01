@@ -1,0 +1,649 @@
+{
+ "no": 46,
+ "title": "第四十六回 病关索大闹翠屏山 拚命三火烧祝家庄",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5631,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，招贤纳士"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山泊好汉，曾与石秀吃酒"
+    },
+    {
+     "name": "杨雄",
+     "type": "Person",
+     "aliases": [
+      "病关索",
+      "杨节级"
+     ],
+     "nickname": "病关索",
+     "description": "蓟州府公人，杀潘巧云后投梁山"
+    },
+    {
+     "name": "石秀",
+     "type": "Person",
+     "aliases": [
+      "拚命三郎",
+      "石三郎"
+     ],
+     "nickname": "拚命三郎",
+     "description": "杨雄结义兄弟，杀海阇黎后投梁山"
+    },
+    {
+     "name": "杨林",
+     "type": "Person",
+     "aliases": [
+      "锦豹子"
+     ],
+     "nickname": "锦豹子",
+     "description": "梁山泊好汉，曾与石秀吃酒"
+    },
+    {
+     "name": "时迁",
+     "type": "Person",
+     "aliases": [
+      "鼓上蚤"
+     ],
+     "nickname": "鼓上蚤",
+     "description": "高唐州人氏，流落蓟州，随杨雄石秀投梁山"
+    },
+    {
+     "name": "潘巧云",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨雄之妻，与海阇黎通奸，被杨雄所杀"
+    },
+    {
+     "name": "迎儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘巧云使女，被杨雄所杀"
+    },
+    {
+     "name": "裴如海",
+     "type": "Person",
+     "aliases": [
+      "海阇黎"
+     ],
+     "nickname": "",
+     "description": "报恩寺和尚，与潘巧云通奸，被石秀所杀"
+    },
+    {
+     "name": "胡道",
+     "type": "Person",
+     "aliases": [
+      "头陀"
+     ],
+     "nickname": "",
+     "description": "报恩寺头陀，为海阇黎潘巧云传信，被石秀所杀"
+    },
+    {
+     "name": "潘公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘巧云之父，卖糕粥为生"
+    },
+    {
+     "name": "王公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖糕粥老汉，因发现尸首被邻舍告官"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "山东起义军山寨，宋江为首"
+    },
+    {
+     "name": "蓟州府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "蓟州官衙"
+    },
+    {
+     "name": "报恩寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "蓟州寺庙，海阇黎、胡道所属"
+    },
+    {
+     "name": "翠屏山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蓟州东门外二十里乱坟山"
+    },
+    {
+     "name": "蓟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，杨雄石秀时迁所在"
+    },
+    {
+     "name": "郓州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，杨雄等投梁山途经之地"
+    },
+    {
+     "name": "高唐州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "时迁祖贯"
+    },
+    {
+     "name": "翠屏山杀人事件",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨雄石秀在翠屏山杀潘巧云迎儿"
+    },
+    {
+     "name": "翠屏山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "事件发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨雄",
+     "predicate": "SPOUSE",
+     "object": "潘巧云",
+     "evidence": "我的不是了！你看我旧日夫妻之面，饶恕了我这一遍！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "KIN",
+     "object": "潘公",
+     "evidence": "泰山看家，我和大嫂烧香了便回。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘巧云",
+     "predicate": "KIN",
+     "object": "潘公",
+     "evidence": "慌忙回家报与潘公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "SWORN_BROTHER",
+     "object": "杨雄",
+     "evidence": "前者哥哥认义兄弟那一日",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "KILLED",
+     "object": "裴如海",
+     "evidence": "想是胡道掣刀搠死和尚，惧罪自行勒死。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "KILLED",
+     "object": "胡道",
+     "evidence": "想是胡道掣刀搠死和尚，惧罪自行勒死。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "KILLED",
+     "object": "潘巧云",
+     "evidence": "杨雄向前，把刀先挖出舌头，一刀便割了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "KILLED",
+     "object": "迎儿",
+     "evidence": "迎儿见头势不好，却待要叫，杨雄手起一刀，挥作两段。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "RESCUED",
+     "object": "时迁",
+     "evidence": "曾在蓟州府里吃官司，却得杨雄救了他。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "如今天下江湖上皆闻山东及时雨宋公明招贤纳士，结识天下好汉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "如今天下江湖上皆闻山东及时雨宋公明招贤纳士，结识天下好汉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "跟随的二位哥哥上山去，却不好！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "不去投梁山泊入伙，却投那里去？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "不去投梁山泊入伙，却投那里去？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "时迁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "跟随的二位哥哥上山去，却不好！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "山东及时雨宋公明招贤纳士，结识天下好汉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "MEMBER_OF",
+     "object": "报恩寺",
+     "evidence": "为被杀死僧人，系是报恩寺阇黎裴如海。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡道",
+     "predicate": "MEMBER_OF",
+     "object": "报恩寺",
+     "evidence": "傍边头陀，系是寺后胡道。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "翠屏山杀人事件",
+     "evidence": "杨雄这厮今日杀了妇人、女使无疑。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "PARTICIPATED_IN",
+     "object": "翠屏山杀人事件",
+     "evidence": "想这石秀那厮路见不平，杀死头陀、和尚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "翠屏山杀人事件",
+     "predicate": "OCCURRED_AT",
+     "object": "翠屏山",
+     "evidence": "原来这座翠屏山，却在蓟州东门外二十里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "时迁",
+     "predicate": "NATIVE_OF",
+     "object": "高唐州",
+     "evidence": "姓时名迁，祖贯是高唐州人氏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "STATIONED_AT",
+     "object": "蓟州",
+     "evidence": "杨雄在蓟州府里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "STATIONED_AT",
+     "object": "蓟州",
+     "evidence": "把杨雄引到客店里小房内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "STATIONED_AT",
+     "object": "蓟州",
+     "evidence": "流落在此，则一地里做些飞檐走壁",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2123,
+   "entities": [
+    {
+     "name": "石秀",
+     "type": "Person",
+     "aliases": [
+      "拚命三郎",
+      "石三郎"
+     ],
+     "nickname": "拚命三郎",
+     "description": "梁山好汉，与杨雄、时迁同行"
+    },
+    {
+     "name": "杨雄",
+     "type": "Person",
+     "aliases": [
+      "病关索",
+      "杨节级"
+     ],
+     "nickname": "病关索",
+     "description": "梁山好汉，与石秀、时迁同行"
+    },
+    {
+     "name": "时迁",
+     "type": "Person",
+     "aliases": [
+      "鼓上蚤"
+     ],
+     "nickname": "鼓上蚤",
+     "description": "梁山好汉，偷鸡引发冲突"
+    },
+    {
+     "name": "祝朝奉",
+     "type": "Person",
+     "aliases": [
+      "祝太公"
+     ],
+     "nickname": "",
+     "description": "祝家庄庄主，有三子称祝氏三杰"
+    },
+    {
+     "name": "祝氏三杰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝朝奉的三个儿子"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山军师，用连环计破祝家庄"
+    },
+    {
+     "name": "祝家庄",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "独龙冈上庄院，庄主祝朝奉"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉势力"
+    },
+    {
+     "name": "祝家店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝家庄开设的酒店"
+    },
+    {
+     "name": "独龙冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝家庄所在的山冈"
+    },
+    {
+     "name": "祝家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "独龙冈前祝朝奉的庄园"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉聚义处"
+    },
+    {
+     "name": "偷鸡起衅",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "时迁偷祝家店报晓鸡引发冲突"
+    },
+    {
+     "name": "火烧祝家店",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "石秀等火烧祝家店"
+    },
+    {
+     "name": "时迁被擒",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "时迁被祝家庄庄客挠钩搭住擒获"
+    },
+    {
+     "name": "朴刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝家店中存放的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "石秀",
+     "predicate": "FRIEND",
+     "object": "杨雄",
+     "evidence": "杨雄、石秀又自吃了一回酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "FRIEND",
+     "object": "时迁",
+     "evidence": "三个笑了一回，把这鸡来手撕开吃了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "FRIEND",
+     "object": "时迁",
+     "evidence": "杨雄道：'你这厮还是这等贼手贼脚！'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝朝奉",
+     "predicate": "LEADS",
+     "object": "祝家庄",
+     "evidence": "庄主太公祝朝奉，有三个儿子，称为祝氏三杰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝氏三杰",
+     "predicate": "KIN",
+     "object": "祝朝奉",
+     "evidence": "庄主太公祝朝奉，有三个儿子，称为祝氏三杰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝家庄",
+     "predicate": "STATIONED_AT",
+     "object": "独龙冈",
+     "evidence": "山前有一座另巍巍冈子，便唤做独龙冈。上面便是主人家住宅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝家店",
+     "predicate": "STATIONED_AT",
+     "object": "祝家庄",
+     "evidence": "这里唤作祝家店，常有数十个家人来店里上宿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝家庄",
+     "predicate": "ATTACKED",
+     "object": "梁山泊",
+     "evidence": "此间离梁山泊不远，地方较近，只恐他那里贼人来借粮，因此准备下",
+     "confidence": 0.7
+    },
+    {
+     "subject": "时迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "偷鸡起衅",
+     "evidence": "被我悄悄把去溪边杀了，提桶汤去后面，就那里挦得干净，煮得熟了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧祝家店",
+     "evidence": "便去灶前寻了把草，灶里点个火，望里面四下焠着",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧祝家店",
+     "evidence": "三个拽开脚步，望大路便走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧祝家店",
+     "evidence": "三个拽开脚步，望大路便走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火烧祝家店",
+     "predicate": "OCCURRED_AT",
+     "object": "祝家店",
+     "evidence": "看那草房被风一搧，刮刮杂杂火起来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝家庄",
+     "predicate": "DEFEATED",
+     "object": "时迁",
+     "evidence": "枯草里舒出两把挠钩，正把时迁一挠钩搭住，拖入草窝去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "时迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "时迁被擒",
+     "evidence": "将时迁背剪绑了，押送祝家庄来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "时迁被擒",
+     "predicate": "OCCURRED_AT",
+     "object": "祝家庄",
+     "evidence": "将时迁背剪绑了，押送祝家庄来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "FOUGHT",
+     "object": "祝家庄",
+     "evidence": "被石秀手起，一拳一个都打翻了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "FOUGHT",
+     "object": "祝家庄",
+     "evidence": "杨雄手起朴刀，早戳翻了五七个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "火烧祝家店",
+     "evidence": "智多星用连环计，祝氏庄园作粉齑",
+     "confidence": 0.7
+    },
+    {
+     "subject": "石秀",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "各人去枪架上拣了一条好朴刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "各人去枪架上拣了一条好朴刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "各人去枪架上拣了一条好朴刀",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:54.747Z"
+}

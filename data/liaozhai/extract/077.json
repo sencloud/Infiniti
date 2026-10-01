@@ -1,0 +1,50 @@
+{
+ "no": 77,
+ "title": "口技",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 664,
+   "entities": [
+    {
+     "name": "口技女子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村中来卖药女子，以口技假托神仙开方"
+    },
+    {
+     "name": "腊梅",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "九姑的婢女，口技模拟"
+    },
+    {
+     "name": "春梅",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "六姑的婢女，抱小郎子，口技模拟"
+    },
+    {
+     "name": "王心逸",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "讲述京都少年口技故事的人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "口技女子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "口技",
+     "evidence": "此即所谓口技，特借之以售其术耳。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:41.949Z"
+}

@@ -1,0 +1,162 @@
+{
+ "no": 239,
+ "title": "菱角",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1180,
+   "entities": [
+    {
+     "name": "胡大成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚人，菱角之夫，后流寓湖北"
+    },
+    {
+     "name": "菱角",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "焦画工之女，胡大成之妻"
+    },
+    {
+     "name": "焦画工",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "菱角之父，画工"
+    },
+    {
+     "name": "崔尔诚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "焦画工好友，为胡大成做媒"
+    },
+    {
+     "name": "周生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乱中聘菱角为妻者"
+    },
+    {
+     "name": "胡母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡大成之母，素奉佛"
+    },
+    {
+     "name": "观音祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡大成与菱角初遇之处"
+    },
+    {
+     "name": "湖北",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡大成伯父任所，后胡家流寓于此"
+    },
+    {
+     "name": "湖南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡大成家乡，乱后遭劫"
+    },
+    {
+     "name": "长沙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "焦画工携家逃窜之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "胡大成",
+     "predicate": "LOVES",
+     "object": "菱角",
+     "evidence": "时成年十四，心好之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡大成",
+     "predicate": "SPOUSE",
+     "object": "菱角",
+     "evidence": "即我是胡某。卿菱角耶？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "焦画工",
+     "predicate": "KIN",
+     "object": "菱角",
+     "evidence": "我祠西焦画工女菱角也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡母",
+     "predicate": "KIN",
+     "object": "胡大成",
+     "evidence": "母止此儿，常恐拂之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔尔诚",
+     "predicate": "FRIEND",
+     "object": "焦画工",
+     "evidence": "崔尔诚，吾父所善",
+     "confidence": 0.9
+    },
+    {
+     "subject": "崔尔诚",
+     "predicate": "HELPED",
+     "object": "胡大成",
+     "evidence": "即浼崔作冰。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "SPOUSE",
+     "object": "菱角",
+     "evidence": "又受周生聘。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "胡大成",
+     "predicate": "LIVES_AT",
+     "object": "湖北",
+     "evidence": "遂流寓湖北，治田庐焉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡大成",
+     "predicate": "NATIVE_OF",
+     "object": "湖南",
+     "evidence": "胡大成，楚人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菱角",
+     "predicate": "LIVES_AT",
+     "object": "长沙",
+     "evidence": "焦携家窜长沙之东",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡大成",
+     "predicate": "PARTICIPATED_IN",
+     "object": "婚嫁",
+     "evidence": "三两日，当为儿娶之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:43.689Z"
+}

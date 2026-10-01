@@ -1,0 +1,164 @@
+{
+ "no": 152,
+ "title": "棋鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 644,
+   "entities": [
+    {
+     "name": "梁公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "扬州督同将军，辞官乡居，好棋"
+    },
+    {
+     "name": "棋鬼书生",
+     "type": "Spirit",
+     "aliases": [
+      "书生"
+     ],
+     "nickname": "",
+     "description": "湖襄人，嗜棋成癖，死后为鬼"
+    },
+    {
+     "name": "马成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁公马夫，走无常，勾魂使者"
+    },
+    {
+     "name": "书生父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "棋鬼书生之父，因子嗜棋愤悒而死"
+    },
+    {
+     "name": "阎摩王",
+     "type": "Spirit",
+     "aliases": [
+      "阎王"
+     ],
+     "nickname": "",
+     "description": "冥府之王，罚书生入饿鬼狱"
+    },
+    {
+     "name": "东岳帝",
+     "type": "Spirit",
+     "aliases": [
+      "岳帝",
+      "东岳大帝"
+     ],
+     "nickname": "",
+     "description": "东岳大帝，凤楼成征文人作碑记"
+    },
+    {
+     "name": "扬州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁公为官及乡居之地"
+    },
+    {
+     "name": "湖襄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "书生籍贯地"
+    },
+    {
+     "name": "饿鬼狱",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府地狱，书生被罚入处"
+    },
+    {
+     "name": "东岳凤楼",
+     "type": "Place",
+     "aliases": [
+      "凤楼"
+     ],
+     "nickname": "",
+     "description": "东岳帝所建之楼，成后征碑记"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "梁公",
+     "predicate": "LIVES_AT",
+     "object": "扬州",
+     "evidence": "扬州督同将军梁公，解组乡居",
+     "confidence": 0.95
+    },
+    {
+     "subject": "棋鬼书生",
+     "predicate": "NATIVE_OF",
+     "object": "湖襄",
+     "evidence": "书生湖襄人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "棋鬼书生",
+     "predicate": "KIN",
+     "object": "书生父",
+     "evidence": "父忧之，闭置斋中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "棋鬼书生",
+     "predicate": "HARMED",
+     "object": "书生父",
+     "evidence": "父愤悒赍恨而死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎摩王",
+     "predicate": "PUNISHED",
+     "object": "棋鬼书生",
+     "evidence": "阎摩王以书生不德，促其年寿，罚入饿鬼狱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "棋鬼书生",
+     "predicate": "LIVES_AT",
+     "object": "饿鬼狱",
+     "evidence": "罚入饿鬼狱，于今七年矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "东岳帝",
+     "predicate": "HELPED",
+     "object": "棋鬼书生",
+     "evidence": "王出之狱中，使应召自赎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "棋鬼书生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "东岳凤楼",
+     "evidence": "会东岳凤楼成，下牒诸府，征文人作碑记",
+     "confidence": 0.85
+    },
+    {
+     "subject": "马成",
+     "predicate": "HELPED",
+     "object": "棋鬼书生",
+     "evidence": "前承主人命，故未敢以缧绁系之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁公",
+     "predicate": "HELPED",
+     "object": "棋鬼书生",
+     "evidence": "公乃叱成不得无礼",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:10.825Z"
+}

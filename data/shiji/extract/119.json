@@ -1,0 +1,329 @@
+{
+ "no": 119,
+ "title": "循吏列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1175,
+   "entities": [
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "西汉史学家，著《史记》"
+    },
+    {
+     "name": "孙叔敖",
+     "type": "Person",
+     "aliases": [
+      "蔿敖",
+      "艾猎"
+     ],
+     "nickname": "",
+     "description": "楚国处士，楚庄王相"
+    },
+    {
+     "name": "楚庄王",
+     "type": "Person",
+     "aliases": [
+      "庄王",
+      "熊侣"
+     ],
+     "nickname": "旅",
+     "description": "楚国君主"
+    },
+    {
+     "name": "虞丘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国相，荐孙叔敖自代"
+    },
+    {
+     "name": "子产",
+     "type": "Person",
+     "aliases": [
+      "公孙侨",
+      "子美"
+     ],
+     "nickname": "",
+     "description": "郑国大夫，郑相"
+    },
+    {
+     "name": "郑昭君",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郑国君主"
+    },
+    {
+     "name": "徐挚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郑昭君所爱，曾任郑相"
+    },
+    {
+     "name": "大宫子期",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郑国大夫，荐子产为相"
+    },
+    {
+     "name": "公仪休",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国博士，鲁相"
+    },
+    {
+     "name": "石奢",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚昭王相，坚直廉正"
+    },
+    {
+     "name": "楚昭王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国君主"
+    },
+    {
+     "name": "李离",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋文公之理，过听杀人自刎"
+    },
+    {
+     "name": "晋文公",
+     "type": "Person",
+     "aliases": [
+      "文公"
+     ],
+     "nickname": "重耳",
+     "description": "晋国君主"
+    },
+    {
+     "name": "楚",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "郑",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "晋",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "郢",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国都城"
+    },
+    {
+     "name": "楚相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国令尹"
+    },
+    {
+     "name": "郑相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "郑国相"
+    },
+    {
+     "name": "鲁相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国相"
+    },
+    {
+     "name": "理",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "司法官"
+    },
+    {
+     "name": "博士",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "学官名"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "虞丘",
+     "predicate": "ADVISED",
+     "object": "楚庄王",
+     "evidence": "虞丘相进之于楚庄王，以自代也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙叔敖",
+     "predicate": "SERVED",
+     "object": "楚庄王",
+     "evidence": "三月为楚相，施教导民，上下和合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙叔敖",
+     "predicate": "HELD_OFFICE",
+     "object": "楚相",
+     "evidence": "三月为楚相",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙叔敖",
+     "predicate": "ADVISED",
+     "object": "楚庄王",
+     "evidence": "相言之王曰：“前日更币，以为轻。……臣请遂令复如故。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙叔敖",
+     "predicate": "ADVISED",
+     "object": "楚庄王",
+     "evidence": "相曰：“令数下，民不知所从，不可。王必欲高车，臣请教闾里使高其捆。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子产",
+     "predicate": "SERVED",
+     "object": "郑",
+     "evidence": "以子产为相。为相一年，竖子不戏狎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子产",
+     "predicate": "HELD_OFFICE",
+     "object": "郑相",
+     "evidence": "以子产为相",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大宫子期",
+     "predicate": "ADVISED",
+     "object": "郑昭君",
+     "evidence": "大宫子期言之君，以子产为相。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公仪休",
+     "predicate": "HELD_OFFICE",
+     "object": "鲁相",
+     "evidence": "以高第为鲁相",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公仪休",
+     "predicate": "HELD_OFFICE",
+     "object": "博士",
+     "evidence": "公仪休者，鲁博士也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石奢",
+     "predicate": "SERVED",
+     "object": "楚昭王",
+     "evidence": "石奢者，楚昭王相也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石奢",
+     "predicate": "HELD_OFFICE",
+     "object": "楚相",
+     "evidence": "石奢者，楚昭王相也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李离",
+     "predicate": "SERVED",
+     "object": "晋文公",
+     "evidence": "李离者，晋文公之理也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李离",
+     "predicate": "HELD_OFFICE",
+     "object": "理",
+     "evidence": "李离者，晋文公之理也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李离",
+     "predicate": "ADVISED",
+     "object": "晋文公",
+     "evidence": "李离曰：“臣居官为长，不与吏让位；受禄为多，不与下分利。今过听杀人，傅其罪下吏，非所闻也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙叔敖",
+     "predicate": "RULED",
+     "object": "楚",
+     "evidence": "孙叔敖者，楚之处士也",
+     "confidence": 0.5
+    },
+    {
+     "subject": "子产",
+     "predicate": "NATIVE_OF",
+     "object": "郑",
+     "evidence": "子产者，郑之列大夫也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公仪休",
+     "predicate": "NATIVE_OF",
+     "object": "鲁",
+     "evidence": "公仪休者，鲁博士也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石奢",
+     "predicate": "NATIVE_OF",
+     "object": "楚",
+     "evidence": "石奢者，楚昭王相也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李离",
+     "predicate": "NATIVE_OF",
+     "object": "晋",
+     "evidence": "李离者，晋文公之理也",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:51:32.864Z"
+}

@@ -1,0 +1,192 @@
+{
+ "no": 402,
+ "title": "阿纤",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2165,
+   "entities": [
+    {
+     "name": "奚山",
+     "type": "Person",
+     "aliases": [
+      "奚生"
+     ],
+     "nickname": "",
+     "description": "高密人，奚三郎之兄，贸贩为业"
+    },
+    {
+     "name": "阿纤",
+     "type": "Spirit",
+     "aliases": [
+      "鼠女"
+     ],
+     "nickname": "",
+     "description": "古士虚之女，实为鼠精，嫁奚三郎"
+    },
+    {
+     "name": "古士虚",
+     "type": "Spirit",
+     "aliases": [
+      "古叟"
+     ],
+     "nickname": "",
+     "description": "自称姓古名士虚，阿纤之父，实为鼠精"
+    },
+    {
+     "name": "奚三郎",
+     "type": "Person",
+     "aliases": [
+      "三郎"
+     ],
+     "nickname": "",
+     "description": "奚山之弟，娶阿纤为妻"
+    },
+    {
+     "name": "古媪",
+     "type": "Spirit",
+     "aliases": [
+      "老媪"
+     ],
+     "nickname": "",
+     "description": "阿纤之母，实为鼠精"
+    },
+    {
+     "name": "奚岚",
+     "type": "Person",
+     "aliases": [
+      "阿遂"
+     ],
+     "nickname": "",
+     "description": "奚三郎叔伯弟，寻回阿纤"
+    },
+    {
+     "name": "谢监生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阿纤租屋屋主，欲图阿纤为妾"
+    },
+    {
+     "name": "陆生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "奚岚表戚，助三郎夫妇归家"
+    },
+    {
+     "name": "谈二泉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "古家售粮买主"
+    },
+    {
+     "name": "高密",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "奚山籍贯地"
+    },
+    {
+     "name": "胶州",
+     "type": "Place",
+     "aliases": [
+      "胶"
+     ],
+     "nickname": "",
+     "description": "奚岚遇阿纤之地"
+    },
+    {
+     "name": "古家旧宅",
+     "type": "Place",
+     "aliases": [
+      "东邻别第"
+     ],
+     "nickname": "",
+     "description": "奚山投宿处，实为鼠穴"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "奚山",
+     "predicate": "NATIVE_OF",
+     "object": "高密",
+     "evidence": "奚山者，高密人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "古士虚",
+     "predicate": "KIN",
+     "object": "阿纤",
+     "evidence": "剩有此女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "古媪",
+     "predicate": "KIN",
+     "object": "阿纤",
+     "evidence": "老媪率一女郎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿纤",
+     "predicate": "SPOUSE",
+     "object": "奚三郎",
+     "evidence": "卜吉为三郎完婚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "奚山",
+     "predicate": "KIN",
+     "object": "奚三郎",
+     "evidence": "仆有幼弟三郎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "奚岚",
+     "predicate": "KIN",
+     "object": "奚三郎",
+     "evidence": "我是叔家阿遂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "奚岚",
+     "predicate": "HELPED",
+     "object": "阿纤",
+     "evidence": "即欲赁舆同归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆生",
+     "predicate": "HELPED",
+     "object": "奚三郎",
+     "evidence": "陆氏止之，为散粟于里党，敛赀偿谢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "谢监生",
+     "predicate": "HARMED",
+     "object": "阿纤",
+     "evidence": "窥女美，阴欲图致为妾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "奚山",
+     "predicate": "LIVES_AT",
+     "object": "古家旧宅",
+     "evidence": "投宿翁媪之事",
+     "confidence": 0.85
+    },
+    {
+     "subject": "阿纤",
+     "predicate": "LIVES_AT",
+     "object": "胶州",
+     "evidence": "僦居于是",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:44.310Z"
+}

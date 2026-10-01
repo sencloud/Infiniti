@@ -1,0 +1,134 @@
+{
+ "no": 81,
+ "title": "龙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 365,
+   "entities": [
+    {
+     "name": "房生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中与友人登牛山的书生"
+    },
+    {
+     "name": "民妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中章丘小相公庄的妇人"
+    },
+    {
+     "name": "袁宣四",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中讲述苏州见龙之事的人"
+    },
+    {
+     "name": "小蛇",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中牛山寺椽间黄砖上盘的小蛇，实为龙"
+    },
+    {
+     "name": "蛰龙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中民妇眼中所藏之龙"
+    },
+    {
+     "name": "巨龙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中牛山寺中霹雳后出现的龙"
+    },
+    {
+     "name": "苏州龙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中袁宣四在苏州所见云际之龙"
+    },
+    {
+     "name": "某绅家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中北直界村庄里士绅的宅院"
+    },
+    {
+     "name": "牛山寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中房生与友人游瞩的寺庙"
+    },
+    {
+     "name": "小相公庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中章丘的村庄，民妇居于此"
+    },
+    {
+     "name": "苏州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《龙》中袁宣四遇阴晦霹雳之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "房生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "牛山寺",
+     "evidence": "房生与友人登牛山，入寺游瞩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小蛇",
+     "predicate": "LIVES_AT",
+     "object": "牛山寺",
+     "evidence": "忽椽间一黄砖堕，上盘一小蛇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "民妇",
+     "predicate": "LIVES_AT",
+     "object": "小相公庄",
+     "evidence": "章丘小相公庄，有民妇适野",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蛰龙",
+     "predicate": "HARMED",
+     "object": "民妇",
+     "evidence": "觉一目眯，如含麦芒，揉之吹之，迄不愈。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袁宣四",
+     "predicate": "PARTICIPATED_IN",
+     "object": "苏州",
+     "evidence": "袁宣四言：在苏州值阴晦，霹雳大作。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苏州龙",
+     "predicate": "LIVES_AT",
+     "object": "苏州",
+     "evidence": "众见龙垂云际，鳞甲张动",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:44.217Z"
+}

@@ -1,0 +1,994 @@
+{
+ "no": 39,
+ "title": "第三十九回 浔阳楼宋江吟反诗 梁山泊戴宗传假信",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5468,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县人，刺配江州，浔阳楼题反诗"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "江州两院押牢节级，会神行法"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "江州牢子，性急鲁莽"
+    },
+    {
+     "name": "张横",
+     "type": "Person",
+     "aliases": [
+      "船火儿",
+      "张横艄公"
+     ],
+     "nickname": "船火儿",
+     "description": "浔阳江艄公，托宋江寄书"
+    },
+    {
+     "name": "张顺",
+     "type": "Person",
+     "aliases": [
+      "浪里白跳",
+      "张顺艄公"
+     ],
+     "nickname": "浪里白跳",
+     "description": "卖鱼牙子，住城外江边"
+    },
+    {
+     "name": "黄文炳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "无为军闲通判，告发宋江反诗"
+    },
+    {
+     "name": "蔡九知府",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州知府，蔡太师之子"
+    },
+    {
+     "name": "宋玉莲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖唱女子，被李逵误伤"
+    },
+    {
+     "name": "浔阳楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州酒楼，宋江题反诗处"
+    },
+    {
+     "name": "江州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江刺配之地"
+    },
+    {
+     "name": "无为军",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州对岸去处，黄文炳居所"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江籍贯，属山东"
+    },
+    {
+     "name": "浔阳楼吟反诗",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江醉后题反诗于浔阳楼"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉山寨势力"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "我生在山东，长在郓城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "浔阳楼吟反诗",
+     "evidence": "去那白粉壁上，挥毫便写道……郓城宋江作",
+     "confidence": 0.95
+    },
+    {
+     "subject": "浔阳楼吟反诗",
+     "predicate": "OCCURRED_AT",
+     "object": "浔阳楼",
+     "evidence": "去那白粉壁上，挥毫便写道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄文炳",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "黄文炳袖中取出所抄之诗，呈与知府道：不想却在于此处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄文炳",
+     "predicate": "SERVED",
+     "object": "蔡九知府",
+     "evidence": "时常过江来谒访知府，指望他引荐出职",
+     "confidence": 0.85
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "我教仁兄一着解手……你可披乱了头发，把尿屎泼在地上，就倒在里面，诈作风魔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "MEMBER_OF",
+     "object": "江州",
+     "evidence": "厅下戴宗声喏",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张顺",
+     "predicate": "FRIEND",
+     "object": "宋江",
+     "evidence": "张顺因见宋江爱鱼吃，又将得好金色大鲤鱼两尾送来",
+     "confidence": 0.85
+    },
+    {
+     "subject": "张横",
+     "predicate": "FRIEND",
+     "object": "宋江",
+     "evidence": "宋江取出张横书付与张顺",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李逵",
+     "predicate": "FRIEND",
+     "object": "宋江",
+     "evidence": "戴宗、李逵备了酒肉，径来抄事房看望宋江",
+     "confidence": 0.85
+    },
+    {
+     "subject": "李逵",
+     "predicate": "KILLED",
+     "object": "宋玉莲",
+     "evidence": "李逵把指头纳倒了那女娘",
+     "confidence": 0.5
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "宋玉莲",
+     "evidence": "我与你二十两银子，将息女儿，日后嫁个良人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "配来在这里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄文炳",
+     "predicate": "STATIONED_AT",
+     "object": "无为军",
+     "evidence": "这江州对岸有个去处，唤做无为军……城中有个在闲通判，姓黄，双名文炳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡九知府",
+     "predicate": "LEADS",
+     "object": "江州",
+     "evidence": "这蔡九知府是当朝蔡太师儿子",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5932,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城人，因题反诗被囚江州"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "江州两院押牢节级，会使神行法"
+    },
+    {
+     "name": "蔡九",
+     "type": "Person",
+     "aliases": [
+      "蔡德章"
+     ],
+     "nickname": "",
+     "description": "江州知府，蔡京之子"
+    },
+    {
+     "name": "黄文炳",
+     "type": "Person",
+     "aliases": [
+      "通判"
+     ],
+     "nickname": "",
+     "description": "无为军通判，告发宋江反诗"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "戴宗手下，看守宋江"
+    },
+    {
+     "name": "朱贵",
+     "type": "Person",
+     "aliases": [
+      "旱地忽律"
+     ],
+     "nickname": "旱地忽律",
+     "description": "梁山泊头领，开酒店为眼线"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，定计救宋江"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [
+      "晁天王"
+     ],
+     "nickname": "",
+     "description": "梁山泊寨主"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "入云龙",
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "梁山泊头领，道士"
+    },
+    {
+     "name": "萧让",
+     "type": "Person",
+     "aliases": [
+      "圣手书生"
+     ],
+     "nickname": "圣手书生",
+     "description": "济州秀才，善写诸家字体"
+    },
+    {
+     "name": "金大坚",
+     "type": "Person",
+     "aliases": [
+      "玉臂匠"
+     ],
+     "nickname": "玉臂匠",
+     "description": "济州人，善刻碑文印记"
+    },
+    {
+     "name": "王英",
+     "type": "Person",
+     "aliases": [
+      "王矮虎"
+     ],
+     "nickname": "矮脚虎",
+     "description": "清风山好汉，拦截萧让金大坚"
+    },
+    {
+     "name": "宋万",
+     "type": "Person",
+     "aliases": [
+      "云里金刚"
+     ],
+     "nickname": "云里金刚",
+     "description": "梁山泊头领"
+    },
+    {
+     "name": "杜迁",
+     "type": "Person",
+     "aliases": [
+      "摸着天"
+     ],
+     "nickname": "摸着天",
+     "description": "梁山泊头领"
+    },
+    {
+     "name": "郑天寿",
+     "type": "Person",
+     "aliases": [
+      "白面郎君"
+     ],
+     "nickname": "白面郎君",
+     "description": "梁山泊头领"
+    },
+    {
+     "name": "蔡京",
+     "type": "Person",
+     "aliases": [
+      "蔡太师",
+      "太师"
+     ],
+     "nickname": "",
+     "description": "当朝太师，蔡九之父"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "山寨",
+      "大寨"
+     ],
+     "nickname": "",
+     "description": "梁山泊好汉势力"
+    },
+    {
+     "name": "江州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州府，宋江被囚之地"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [
+      "京师"
+     ],
+     "nickname": "",
+     "description": "北宋都城"
+    },
+    {
+     "name": "济州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州府，萧让金大坚居住地"
+    },
+    {
+     "name": "浔阳楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州酒楼，宋江题反诗处"
+    },
+    {
+     "name": "无为军",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄文炳任职地"
+    },
+    {
+     "name": "泰安州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "岳庙所在地，戴宗以此诓萧让金大坚"
+    },
+    {
+     "name": "题反诗",
+     "type": "Event",
+     "aliases": [
+      "吟反诗"
+     ],
+     "nickname": "",
+     "description": "宋江在浔阳楼醉题反诗"
+    },
+    {
+     "name": "戴宗传假信",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴用设计让戴宗传假回书救宋江"
+    },
+    {
+     "name": "赚萧让金大坚上山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴用设计赚取萧让、金大坚入伙"
+    },
+    {
+     "name": "甲马",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴宗神行法所用器具"
+    },
+    {
+     "name": "家书",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "蔡九知府写给蔡京的信"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "题反诗",
+     "evidence": "宋江初时也胡言乱语，次后吃拷打不过，只得招道：自不合一时酒后，误写反诗",
+     "confidence": 0.95
+    },
+    {
+     "subject": "题反诗",
+     "predicate": "OCCURRED_AT",
+     "object": "浔阳楼",
+     "evidence": "宋江在浔阳楼醉后误题反诗一事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄文炳",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "黄文炳又对知府道：且唤本营差拨并牌头来问，这人来时有风，近日却才风？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "SERVED",
+     "object": "蔡九",
+     "evidence": "戴宗和众做公的在厅下回复知府道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "却得戴宗一力维持，分付了众小牢子，都教好觑此人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "李逵真个不吃酒，早晚只在牢里伏侍宋江",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "李逵真个不吃酒，早晚只在牢里伏侍宋江",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡九",
+     "predicate": "KIN",
+     "object": "蔡京",
+     "evidence": "要送上东京太师府里去，庆贺我父亲六月十五日生辰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蔡九",
+     "predicate": "SERVED",
+     "object": "蔡京",
+     "evidence": "要送上东京太师府里去，庆贺我父亲六月十五日生辰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "OWNS",
+     "object": "甲马",
+     "evidence": "身边取出四个甲马，去两只腿上每只各拴两个",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "OWNS",
+     "object": "家书",
+     "evidence": "便袋里藏了书信、盘缠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "俺这里行不更名，坐不改姓，梁山泊好汉旱地忽律朱贵的便是",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "RESCUED",
+     "object": "戴宗",
+     "evidence": "你那火家，且与我把解药救醒他来，问个虚实缘由",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "FRIEND",
+     "object": "吴用",
+     "evidence": "他和小可至爱相识",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "FRIEND",
+     "object": "宋江",
+     "evidence": "宋公明和我又是至爱弟兄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "戴宗传假信",
+     "evidence": "吴用不才，略施小计，只在戴院长身上，定要救宋三郎性命",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "赚萧让金大坚上山",
+     "evidence": "吴用知他写得蔡京笔迹。不若央及戴院长，就到他家，赚道泰安州岳庙里要写道碑文",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "RECRUITED",
+     "object": "萧让",
+     "evidence": "戴宗施礼罢，说道：小可是泰安州岳庙里打供太保。今为本庙重修五岳楼，本州上户要刻道碑文，特地教小可赍白银五十两作安家之资，请秀才便挪尊步",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "RECRUITED",
+     "object": "金大坚",
+     "evidence": "戴宗就付与金大坚五十两银子，作安家之资",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王英",
+     "predicate": "FOUGHT",
+     "object": "萧让",
+     "evidence": "王矮虎也挺朴刀来斗两个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王英",
+     "predicate": "FOUGHT",
+     "object": "金大坚",
+     "evidence": "王矮虎也挺朴刀来斗两个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋万",
+     "predicate": "DEFEATED",
+     "object": "萧让",
+     "evidence": "把萧让、金大坚横拖倒拽，捉投林子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜迁",
+     "predicate": "DEFEATED",
+     "object": "金大坚",
+     "evidence": "把萧让、金大坚横拖倒拽，捉投林子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郑天寿",
+     "predicate": "DEFEATED",
+     "object": "萧让",
+     "evidence": "把萧让、金大坚横拖倒拽，捉投林子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "萧让",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "因请二位上山入伙，共聚大义",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金大坚",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "因请二位上山入伙，共聚大义",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "吴学究是俺大寨里军师，执掌兵权",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "晁盖听得，慌忙请戴院长坐地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "江州",
+     "evidence": "见今拿得应谣言题反诗山东宋江",
+     "confidence": 0.5
+    },
+    {
+     "subject": "萧让",
+     "predicate": "NATIVE_OF",
+     "object": "济州",
+     "evidence": "小生曾和济州城里一个秀才做相识，那人姓萧名让",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金大坚",
+     "predicate": "NATIVE_OF",
+     "object": "济州",
+     "evidence": "见在济州城里居住，本身姓金，双名大坚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "见今拿得应谣言题反诗山东宋江，监收在牢一节",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄文炳",
+     "predicate": "STATIONED_AT",
+     "object": "无为军",
+     "evidence": "次日相辞知府，自回无为军去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "萧让",
+     "predicate": "STATIONED_AT",
+     "object": "济州",
+     "evidence": "只在州衙东首文庙前居住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金大坚",
+     "predicate": "STATIONED_AT",
+     "object": "济州",
+     "evidence": "见在济州城里居住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "江州两院押牢节级戴宗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡九",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "蔡九知府在厅上专等回报",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "梁山作眼英雄，旱地忽律朱贵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "ATTACKED",
+     "object": "东京",
+     "evidence": "知府差我上京师去，只旬日之间便回",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 651,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山好汉，被救对象"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山军师，策划救宋江"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山好汉，传假信"
+    },
+    {
+     "name": "萧让",
+     "type": "Person",
+     "aliases": [
+      "圣手书生"
+     ],
+     "nickname": "圣手书生",
+     "description": "梁山好汉，善写蔡京字体"
+    },
+    {
+     "name": "金大坚",
+     "type": "Person",
+     "aliases": [
+      "玉臂匠"
+     ],
+     "nickname": "玉臂匠",
+     "description": "梁山好汉，善雕图书"
+    },
+    {
+     "name": "朱贵",
+     "type": "Person",
+     "aliases": [
+      "旱地忽律"
+     ],
+     "nickname": "旱地忽律",
+     "description": "梁山好汉，经营酒店"
+    },
+    {
+     "name": "蔡京",
+     "type": "Person",
+     "aliases": [
+      "蔡太师"
+     ],
+     "nickname": "",
+     "description": "太师，被仿冒字体"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "山寨",
+      "大寨"
+     ],
+     "nickname": "",
+     "description": "梁山好汉势力"
+    },
+    {
+     "name": "浔阳楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江吟反诗处"
+    },
+    {
+     "name": "江州城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "事件发生地"
+    },
+    {
+     "name": "金沙滩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊渡口"
+    },
+    {
+     "name": "朱贵酒店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊眼线酒店"
+    },
+    {
+     "name": "智取生辰纲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴用等智取生辰纲"
+    },
+    {
+     "name": "浔阳楼吟反诗",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江在浔阳楼题反诗"
+    },
+    {
+     "name": "梁山泊戴宗传假信",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴宗传假信救宋江"
+    },
+    {
+     "name": "甲马",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴宗神行法器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "萧让",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只得死心塌地，再回山寨入伙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金大坚",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只得死心塌地，再回山寨入伙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "梁山泊戴宗传假信",
+     "evidence": "吴学究却请出来与萧让商议写蔡京字体回书，去救宋公明。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "萧让",
+     "predicate": "PARTICIPATED_IN",
+     "object": "梁山泊戴宗传假信",
+     "evidence": "当时两个动手完成，安排了回书",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金大坚",
+     "predicate": "PARTICIPATED_IN",
+     "object": "梁山泊戴宗传假信",
+     "evidence": "当时两个动手完成，安排了回书",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "PARTICIPATED_IN",
+     "object": "梁山泊戴宗传假信",
+     "evidence": "便送戴宗起程，分付了备细书意。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "OWNS",
+     "object": "甲马",
+     "evidence": "戴宗取四个甲马，拴在腿上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "STATIONED_AT",
+     "object": "朱贵酒店",
+     "evidence": "小喽罗已把船只渡过金沙滩，送至朱贵酒店里。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "浔阳楼吟反诗",
+     "evidence": "浔阳楼宋江吟反诗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "浔阳楼吟反诗",
+     "predicate": "OCCURRED_AT",
+     "object": "浔阳楼",
+     "evidence": "浔阳楼宋江吟反诗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "智取生辰纲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁山泊",
+     "predicate": "ATTACKED",
+     "object": "江州城",
+     "evidence": "众好汉大闹江州城",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:48.902Z"
+}

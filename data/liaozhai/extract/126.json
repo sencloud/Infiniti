@@ -1,0 +1,182 @@
+{
+ "no": 126,
+ "title": "翩翩",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1517,
+   "entities": [
+    {
+     "name": "罗子浮",
+     "type": "Person",
+     "aliases": [
+      "罗生"
+     ],
+     "nickname": "",
+     "description": "邠人，翩翩之夫，罗大业之侄"
+    },
+    {
+     "name": "翩翩",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "山中仙女，罗子浮之妻"
+    },
+    {
+     "name": "花城娘子",
+     "type": "Spirit",
+     "aliases": [
+      "花城"
+     ],
+     "nickname": "",
+     "description": "仙女，翩翩之友，江城之母"
+    },
+    {
+     "name": "罗大业",
+     "type": "Person",
+     "aliases": [
+      "大业"
+     ],
+     "nickname": "",
+     "description": "国子左厢，罗子浮之叔"
+    },
+    {
+     "name": "金陵娼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金陵妓女，侨寓邠州"
+    },
+    {
+     "name": "江城",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "花城娘子之女，罗子浮之子之妻"
+    },
+    {
+     "name": "罗子浮之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗子浮与翩翩之子，娶江城"
+    },
+    {
+     "name": "洞府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "翩翩所居山洞，有石室溪流"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，金陵娼原籍"
+    },
+    {
+     "name": "邠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗子浮籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "罗子浮",
+     "predicate": "NATIVE_OF",
+     "object": "邠",
+     "evidence": "罗子浮，邠人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "罗子浮",
+     "predicate": "KIN",
+     "object": "罗大业",
+     "evidence": "父母俱早世，八九岁，依叔大业。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "罗子浮",
+     "predicate": "LOVES",
+     "object": "金陵娼",
+     "evidence": "生悦而惑之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗子浮",
+     "predicate": "LIVES_AT",
+     "object": "洞府",
+     "evidence": "入深山中，见一洞府，入则门横溪水，石梁驾之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "翩翩",
+     "predicate": "LIVES_AT",
+     "object": "洞府",
+     "evidence": "我出家人，居有山洞，可以下榻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗子浮",
+     "predicate": "SPOUSE",
+     "object": "翩翩",
+     "evidence": "遂同卧处，大相欢爱。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗子浮",
+     "predicate": "HARMED",
+     "object": "花城娘子",
+     "evidence": "俯假拾果，阴捻翘凤",
+     "confidence": 0.8
+    },
+    {
+     "subject": "翩翩",
+     "predicate": "FRIEND",
+     "object": "花城娘子",
+     "evidence": "女迎笑曰：“花城娘子，贵趾久弗涉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗子浮",
+     "predicate": "KIN",
+     "object": "罗子浮之子",
+     "evidence": "逾年，生一子，极惠美",
+     "confidence": 0.95
+    },
+    {
+     "subject": "翩翩",
+     "predicate": "KIN",
+     "object": "罗子浮之子",
+     "evidence": "逾年，生一子，极惠美",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花城娘子",
+     "predicate": "KIN",
+     "object": "江城",
+     "evidence": "花城亲诣送女，女华妆至",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗子浮之子",
+     "predicate": "SPOUSE",
+     "object": "江城",
+     "evidence": "遂与花城订为姻好。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗子浮",
+     "predicate": "HELPED",
+     "object": "罗子浮之子",
+     "evidence": "可携去，我不误儿生平。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:02.068Z"
+}

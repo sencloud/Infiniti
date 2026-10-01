@@ -1,0 +1,143 @@
+{
+ "no": 281,
+ "title": "柳生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1499,
+   "entities": [
+    {
+     "name": "周生",
+     "type": "Person",
+     "aliases": [
+      "周生者"
+     ],
+     "nickname": "",
+     "description": "顺天宦裔，与柳生善，后娶盗女"
+    },
+    {
+     "name": "柳生",
+     "type": "Person",
+     "aliases": [
+      "柳公子"
+     ],
+     "nickname": "",
+     "description": "精袁许之术，助周生娶妇"
+    },
+    {
+     "name": "傅姓营卒",
+     "type": "Person",
+     "aliases": [
+      "傅卒",
+      "傅将军"
+     ],
+     "nickname": "",
+     "description": "营卒，后以军功授副将军"
+    },
+    {
+     "name": "盗女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盗首之女，后为周生妻"
+    },
+    {
+     "name": "盗首",
+     "type": "Person",
+     "aliases": [
+      "荷囊人"
+     ],
+     "nickname": "",
+     "description": "土寇首领，盗女之父"
+    },
+    {
+     "name": "顺天",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生籍贯"
+    },
+    {
+     "name": "江西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生投臬司幕之地"
+    },
+    {
+     "name": "直隶",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生携妻返家途经之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "周生",
+     "predicate": "FRIEND",
+     "object": "柳生",
+     "evidence": "周生，顺天宦裔也，与柳生善。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳生",
+     "predicate": "HELPED",
+     "object": "周生",
+     "evidence": "我日为君物色佳偶，今始得之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "SPOUSE",
+     "object": "盗女",
+     "evidence": "当夕合卺，深过所望。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "盗女",
+     "predicate": "KIN",
+     "object": "盗首",
+     "evidence": "细审姓氏，乃知其父，即当年荷囊人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "傅姓营卒",
+     "predicate": "HELPED",
+     "object": "周生",
+     "evidence": "解其缚，问所从来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "HELPED",
+     "object": "傅姓营卒",
+     "evidence": "因假周命，登门持赠傅。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "NATIVE_OF",
+     "object": "顺天",
+     "evidence": "周生，顺天宦裔也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "LIVES_AT",
+     "object": "江西",
+     "evidence": "及至江西，值大寇叛乱，三年不得归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "LIVES_AT",
+     "object": "直隶",
+     "evidence": "至直隶界，厚赐骑者而去。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:59.323Z"
+}

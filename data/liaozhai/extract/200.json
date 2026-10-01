@@ -1,0 +1,92 @@
+{
+ "no": 200,
+ "title": "柳氏子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 679,
+   "entities": [
+    {
+     "name": "柳西川",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胶州人，法内史主计仆，溺爱其子"
+    },
+    {
+     "name": "柳子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "柳西川之子，死后化鬼复仇"
+    },
+    {
+     "name": "法内史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "柳西川主人，内史官"
+    },
+    {
+     "name": "逆旅主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泰山旅店主人，助柳西川藏柜"
+    },
+    {
+     "name": "胶州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柳西川籍贯地"
+    },
+    {
+     "name": "泰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村人香社登岱之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "柳西川",
+     "predicate": "KIN",
+     "object": "柳子",
+     "evidence": "生一子，溺爱甚至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳西川",
+     "predicate": "NATIVE_OF",
+     "object": "胶州",
+     "evidence": "胶州柳西川",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳西川",
+     "predicate": "LIVES_AT",
+     "object": "胶州",
+     "evidence": "胶州柳西川",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柳子",
+     "predicate": "HARMED",
+     "object": "柳西川",
+     "evidence": "今愿得而甘心，何父之有！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "逆旅主人",
+     "predicate": "HELPED",
+     "object": "柳西川",
+     "evidence": "请伏椟中，待其来，察其词色，可见则出",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:28.310Z"
+}

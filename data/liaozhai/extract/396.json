@@ -1,0 +1,92 @@
+{
+ "no": 396,
+ "title": "三生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 911,
+   "entities": [
+    {
+     "name": "兴于唐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "名士，被黜落愤懑而卒，阴司讼冤，后为某婿"
+    },
+    {
+     "name": "阎罗",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴司阎王，审断冤案，判罚转世"
+    },
+    {
+     "name": "主司",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "科举主考官，被拘至阴司对质"
+    },
+    {
+     "name": "阴司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间官府，阎罗审案之处"
+    },
+    {
+     "name": "陕西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某第二世投生之地"
+    },
+    {
+     "name": "北顺天府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某第三世投生为犬之地"
+    },
+    {
+     "name": "庆云",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某第四世投生之地，中举处"
+    },
+    {
+     "name": "临郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某偶过之处，遇学使发落诸生"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "阎罗",
+     "predicate": "PUNISHED",
+     "object": "主司",
+     "evidence": "此不得相诿，其失职均也，例合笞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阎罗",
+     "predicate": "PUNISHED",
+     "object": "兴于唐",
+     "evidence": "兴以草菅人命，罚作畜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "兴于唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "阴司",
+     "evidence": "至阴司执卷讼之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:40.833Z"
+}

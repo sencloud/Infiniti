@@ -1,0 +1,106 @@
+{
+ "no": 59,
+ "title": "耿十八",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 835,
+   "entities": [
+    {
+     "name": "耿十八",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新城人，病死后游冥复生"
+    },
+    {
+     "name": "耿十八妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "耿十八之妻，因家贫言嫁"
+    },
+    {
+     "name": "东海匠人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间短衣人，助耿十八逃归"
+    },
+    {
+     "name": "新城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "耿十八籍贯地"
+    },
+    {
+     "name": "思乡地",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间地名"
+    },
+    {
+     "name": "望乡台",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间高台，可望见家中"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "耿十八",
+     "predicate": "SPOUSE",
+     "object": "耿十八妻",
+     "evidence": "谓妻曰：“永诀在旦晚耳。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "耿十八",
+     "predicate": "NATIVE_OF",
+     "object": "新城",
+     "evidence": "新城耿十八",
+     "confidence": 0.95
+    },
+    {
+     "subject": "耿十八",
+     "predicate": "LIVES_AT",
+     "object": "新城",
+     "evidence": "新城耿十八",
+     "confidence": 0.9
+    },
+    {
+     "subject": "东海匠人",
+     "predicate": "HELPED",
+     "object": "耿十八",
+     "evidence": "匠人谋与越台而遁。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "耿十八",
+     "predicate": "FRIEND",
+     "object": "东海匠人",
+     "evidence": "匠人送诸其室。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "耿十八",
+     "predicate": "PARTICIPATED_IN",
+     "object": "望乡台",
+     "evidence": "登数十级，始至颠顶。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "耿十八",
+     "predicate": "OCCURRED_AT",
+     "object": "思乡地",
+     "evidence": "俄至一处，闻人言曰：“此思乡地也。”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:34.327Z"
+}

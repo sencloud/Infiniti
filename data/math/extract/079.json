@@ -1,0 +1,115 @@
+{
+ "no": 79,
+ "title": "8.3 三角形的中位线",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1960,
+   "entities": [
+    {
+     "name": "三角形的中位线",
+     "type": "Concept",
+     "aliases": [
+      "中位线"
+     ],
+     "nickname": "",
+     "description": "连接三角形两边中点的线段"
+    },
+    {
+     "name": "三角形的中位线定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形的中位线平行于第三边，并且等于第三边的一半"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "平行四边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "两组对边分别平行的四边形"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的平行四边形"
+    },
+    {
+     "name": "菱形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一组邻边相等的平行四边形"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一组邻边相等且有一个角是直角的平行四边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "三角形的中位线",
+     "predicate": "PREREQUISITE",
+     "object": "三角形的中位线定理",
+     "evidence": "连接三角形两边中点的线段叫作三角形的中位线。……于是，我们得到三角形的中位线定理：",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的中位线定理",
+     "predicate": "PROPERTY_OF",
+     "object": "三角形的中位线",
+     "evidence": "三角形的中位线平行于第三边，并且等于第三边的一半。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的中位线定理",
+     "predicate": "APPLIES_TO",
+     "object": "平行四边形",
+     "evidence": "∴ EF ∥ AC, EF=1/2 AC（三角形的中位线定理）。同理可得 GH ∥ AC, GH=1/2 AC。∴ EF ∥ GH, EF=GH。∴ 四边形 EFGH 是平行四边形。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "矩形",
+     "evidence": "当四边形 ABCD 满足什么条件时，所得的平行四边形是矩形、菱形或正方形呢？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "菱形",
+     "evidence": "当四边形 ABCD 满足什么条件时，所得的平行四边形是矩形、菱形或正方形呢？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "矩形",
+     "predicate": "SPECIAL_CASE",
+     "object": "平行四边形",
+     "evidence": "当四边形 ABCD 满足什么条件时，所得的平行四边形是矩形、菱形或正方形呢？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "菱形",
+     "predicate": "SPECIAL_CASE",
+     "object": "平行四边形",
+     "evidence": "当四边形 ABCD 满足什么条件时，所得的平行四边形是矩形、菱形或正方形呢？",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:04.398Z"
+}

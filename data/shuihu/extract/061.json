@@ -1,0 +1,842 @@
+{
+ "no": 61,
+ "title": "第六十一回 吴用智赚玉麒麟 张顺夜闹金沙渡",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6025,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，人称及时雨"
+    },
+    {
+     "name": "卢俊义",
+     "type": "Person",
+     "aliases": [
+      "卢员外",
+      "河北玉麒麟",
+      "卢俊义员外"
+     ],
+     "nickname": "玉麒麟",
+     "description": "北京大名府富豪，武艺高强"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，足智多谋"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，性烈莽撞"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "卢俊义家心腹人，伶俐多才"
+    },
+    {
+     "name": "李固",
+     "type": "Person",
+     "aliases": [
+      "李都管"
+     ],
+     "nickname": "",
+     "description": "卢俊义家都管，原东京人"
+    },
+    {
+     "name": "贾氏",
+     "type": "Person",
+     "aliases": [
+      "娘子"
+     ],
+     "nickname": "",
+     "description": "卢俊义浑家，年方二十五岁"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "山寨"
+     ],
+     "nickname": "",
+     "description": "宋江等好汉聚义之处"
+    },
+    {
+     "name": "北京",
+     "type": "Place",
+     "aliases": [
+      "大名府"
+     ],
+     "nickname": "",
+     "description": "河北重镇，卢俊义家乡"
+    },
+    {
+     "name": "泰安州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东南方州府，有东岳庙"
+    },
+    {
+     "name": "金沙渡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊边渡口"
+    },
+    {
+     "name": "龙华寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "僧人所在寺庙"
+    },
+    {
+     "name": "智赚玉麒麟",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴用设计赚卢俊义上山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴用",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "梁山泊军师吴用，天上智多星。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "山上宋公明大王，虽然不害来往客人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "却是好汉黑旋风李逵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "智赚玉麒麟",
+     "evidence": "吴用道：小生凭三寸不烂之舌……直往北京说卢俊义上山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "吴用道：小生凭三寸不烂之舌，尽一点忠义之心",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李逵",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "宋江喝道：兄弟，你且住着！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "NATIVE_OF",
+     "object": "北京",
+     "evidence": "卢某生于北京，长在豪富之家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "NATIVE_OF",
+     "object": "北京",
+     "evidence": "这人是北京土居人氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李固",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "这李固原是东京人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "SPOUSE",
+     "object": "贾氏",
+     "evidence": "乃是卢员外浑家，年方二十五岁，姓贾，嫁与卢俊义才方五载",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "RESCUED",
+     "object": "李固",
+     "evidence": "卢俊义救了他性命，养他家中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李固",
+     "predicate": "SERVED",
+     "object": "卢俊义",
+     "evidence": "直抬举他做了都管，一应里外家私都在他身上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "卢俊义",
+     "evidence": "原来这燕青是卢俊义家心腹人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "MASTER_OF",
+     "object": "燕青",
+     "evidence": "小人托主人福荫，学得些个棒法在身",
+     "confidence": 0.8
+    },
+    {
+     "subject": "吴用",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "我们星夜赶回山寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "STATIONED_AT",
+     "object": "北京",
+     "evidence": "卢员外正在解库厅前坐地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "智赚玉麒麟",
+     "predicate": "OCCURRED_AT",
+     "object": "北京",
+     "evidence": "吴用、李逵二人往北京去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智赚玉麒麟",
+     "evidence": "吴用道：小生凭三寸不烂之舌……直往北京说卢俊义上山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智赚玉麒麟",
+     "evidence": "李逵道：不妨，我定要去走一遭。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智赚玉麒麟",
+     "evidence": "卢俊义自从算卦之后，寸心如割，坐立不安。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "OWNS",
+     "object": "铁算子",
+     "evidence": "吴用取出一把铁算子来，排在桌上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "OWNS",
+     "object": "雁翎响铜钢刀",
+     "evidence": "腰悬一把雁翎响铜钢刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "OWNS",
+     "object": "搜山搅海棍棒",
+     "evidence": "手拿一条搜山搅海棍棒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "OWNS",
+     "object": "川弩",
+     "evidence": "拿着一张川弩，只用三枝短箭",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3362,
+   "entities": [
+    {
+     "name": "卢俊义",
+     "type": "Person",
+     "aliases": [
+      "卢员外",
+      "玉麒麟"
+     ],
+     "nickname": "玉麒麟",
+     "description": "北京财主，武艺高强，中计上梁山"
+    },
+    {
+     "name": "李固",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卢俊义管家，随行被捉"
+    },
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "呼保义"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，设计赚卢俊义上山"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "吴学究",
+      "智多星"
+     ],
+     "nickname": "智多星",
+     "description": "梁山军师，定计赚卢俊义"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "入云龙"
+     ],
+     "nickname": "入云龙",
+     "description": "梁山好汉，在宋江右侧"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，使双斧诱敌"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "花和尚"
+     ],
+     "nickname": "花和尚",
+     "description": "梁山好汉，使铁禅杖诱敌"
+    },
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "行者"
+     ],
+     "nickname": "行者",
+     "description": "梁山好汉，使戒刀诱敌"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉，使朴刀诱敌"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦"
+     ],
+     "nickname": "没遮拦",
+     "description": "梁山好汉，使朴刀诱敌"
+    },
+    {
+     "name": "李应",
+     "type": "Person",
+     "aliases": [
+      "扑天雕"
+     ],
+     "nickname": "扑天雕",
+     "description": "梁山好汉，使朴刀诱敌"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [
+      "美髯公"
+     ],
+     "nickname": "美髯公",
+     "description": "梁山好汉，使兵器诱敌"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎"
+     ],
+     "nickname": "插翅虎",
+     "description": "梁山好汉，使兵器诱敌"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "小李广"
+     ],
+     "nickname": "小李广",
+     "description": "梁山好汉，射箭警告卢俊义"
+    },
+    {
+     "name": "秦明",
+     "type": "Person",
+     "aliases": [
+      "霹雳火"
+     ],
+     "nickname": "霹雳火",
+     "description": "梁山好汉，引军杀出"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山好汉，引军杀出"
+    },
+    {
+     "name": "呼延灼",
+     "type": "Person",
+     "aliases": [
+      "双鞭"
+     ],
+     "nickname": "双鞭",
+     "description": "梁山好汉，引军杀出"
+    },
+    {
+     "name": "徐宁",
+     "type": "Person",
+     "aliases": [
+      "金枪手"
+     ],
+     "nickname": "金枪手",
+     "description": "梁山好汉，引军杀出"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉，驾船围堵卢俊义"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉，驾船围堵卢俊义"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉，驾船围堵卢俊义"
+    },
+    {
+     "name": "李俊",
+     "type": "Person",
+     "aliases": [
+      "混江龙"
+     ],
+     "nickname": "混江龙",
+     "description": "梁山好汉，扮渔人诱卢俊义上船"
+    },
+    {
+     "name": "张顺",
+     "type": "Person",
+     "aliases": [
+      "浪里白条"
+     ],
+     "nickname": "浪里白条",
+     "description": "梁山好汉，水中掀翻卢俊义船只"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉聚义势力"
+    },
+    {
+     "name": "北京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "卢俊义籍贯所在地"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉据守的湖泊山寨"
+    },
+    {
+     "name": "鸭嘴滩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊附近滩头，卢俊义落水处"
+    },
+    {
+     "name": "浔阳江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李俊自称籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "卢俊义",
+     "predicate": "NATIVE_OF",
+     "object": "北京",
+     "evidence": "我自是北京财主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李固",
+     "predicate": "SERVED",
+     "object": "卢俊义",
+     "evidence": "李固跪在地下告道：主人可怜见众人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "赚卢俊义上山",
+     "evidence": "你今日中了俺的军师妙计",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MASTERMINDED",
+     "object": "赚卢俊义上山",
+     "evidence": "哥哥定下的计策",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "林子里一声炮响，托地跳出一筹好汉……李逵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "洒家是花和尚鲁智深。今奉哥哥将令",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "喽啰里走出行者武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "小可便是赤发鬼刘唐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "好汉没遮拦穆弘在此",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李应",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "却是扑天雕李应",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "一个是美髯公朱仝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "雷横",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "一个是插翅虎雷横",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "宋江背后转过小李广花荣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只见霹雳火秦明、豹子头林冲，引一彪军马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只见霹雳火秦明、豹子头林冲，引一彪军马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "又见双鞭将呼延灼、金枪手徐宁，也领一彪军马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "又见双鞭将呼延灼、金枪手徐宁，也领一彪军马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "中间是阮小二，左边是阮小五，右边的是阮小七",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "中间是阮小二，左边是阮小五，右边的是阮小七",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "中间是阮小二，左边是阮小五，右边的是阮小七",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我生在浔阳江，来上梁山泊……绰号混江龙李俊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "乃是浪里白条张顺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "红罗销金伞下盖着宋江",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "李逵",
+     "evidence": "卢俊义大怒，搦着手中朴刀，来斗李逵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "鲁智深",
+     "evidence": "拈手中朴刀，直取那和尚。鲁智深抡起铁禅杖来迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "武松",
+     "evidence": "卢俊义不赶和尚，来斗武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "刘唐",
+     "evidence": "挺手中朴刀，直取刘唐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "穆弘",
+     "evidence": "刘唐、穆弘两个，两条朴刀，双斗卢俊义",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "李应",
+     "evidence": "卢俊义便转身斗背后的好汉，却是扑天雕李应",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "朱仝",
+     "evidence": "挺起朴刀，直奔二人。朱仝、雷横各将兵器相迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "雷横",
+     "evidence": "挺起朴刀，直奔二人。朱仝、雷横各将兵器相迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "FOUGHT",
+     "object": "李俊",
+     "evidence": "拿着朴刀，望李俊心窝里搠将来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "DEFEATED",
+     "object": "卢俊义",
+     "evidence": "把船只一侧，船底朝天，英雄落水",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赚卢俊义上山",
+     "evidence": "卢俊义……赶着车子奔梁山泊路上来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赚卢俊义上山",
+     "predicate": "OCCURRED_AT",
+     "object": "梁山泊",
+     "evidence": "赶着车子奔梁山泊路上来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "卢俊义取出朴刀，装在杆棒上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "OWNS",
+     "object": "双斧",
+     "evidence": "李逵手搦双斧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "铁禅杖",
+     "evidence": "倒提铁禅杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "抡两口戒刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "OWNS",
+     "object": "弓箭",
+     "evidence": "拈弓取箭……飕地一箭正中卢俊义头上毡笠儿的红缨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "NATIVE_OF",
+     "object": "浔阳江",
+     "evidence": "我生在浔阳江",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "来上梁山泊",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:33:44.426Z"
+}

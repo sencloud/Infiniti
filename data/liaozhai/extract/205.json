@@ -1,0 +1,301 @@
+{
+ "no": 205,
+ "title": "金生色",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1396,
+   "entities": [
+    {
+     "name": "金生色",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋宁人，娶木姓女，病死后显灵复仇"
+    },
+    {
+     "name": "木女",
+     "type": "Person",
+     "aliases": [
+      "金妇"
+     ],
+     "nickname": "",
+     "description": "金生色之妻，与董贵私通，后死"
+    },
+    {
+     "name": "金母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生色之母，坚持让儿媳守节"
+    },
+    {
+     "name": "木媪",
+     "type": "Person",
+     "aliases": [
+      "木母"
+     ],
+     "nickname": "",
+     "description": "木女之母，劝女改嫁，后受罚"
+    },
+    {
+     "name": "木翁",
+     "type": "Person",
+     "aliases": [
+      "木父"
+     ],
+     "nickname": "",
+     "description": "木女之父，因女事受牵连"
+    },
+    {
+     "name": "董贵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村中无赖，与木女私通，后被邻子杀死"
+    },
+    {
+     "name": "邻妪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金家邻居老太太，为董贵牵线，后杖毙"
+    },
+    {
+     "name": "邻子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻妪之子，杀董贵及妻后自首"
+    },
+    {
+     "name": "邻子妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻子之妻，被董贵奸污，后被夫杀"
+    },
+    {
+     "name": "金生光",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生色叔伯哥哥，代金母作证"
+    },
+    {
+     "name": "马彪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻子妇之兄，好讼，为妹申冤"
+    },
+    {
+     "name": "阿保",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生色之子，方周岁"
+    },
+    {
+     "name": "小婢",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "木女心腹丫环，目击金生色显灵"
+    },
+    {
+     "name": "晋宁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生色籍贯地"
+    },
+    {
+     "name": "北村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻子因事前往之地"
+    },
+    {
+     "name": "桃园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "木家桃园，木女死处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "金生色",
+     "predicate": "SPOUSE",
+     "object": "木女",
+     "evidence": "娶同村木姓女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金生色",
+     "predicate": "KIN",
+     "object": "金母",
+     "evidence": "金摇手呼母曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金生色",
+     "predicate": "KIN",
+     "object": "阿保",
+     "evidence": "生一子，方周岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "木女",
+     "predicate": "KIN",
+     "object": "阿保",
+     "evidence": "生一子，方周岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "木媪",
+     "predicate": "KIN",
+     "object": "木女",
+     "evidence": "木媪来吊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "木翁",
+     "predicate": "KIN",
+     "object": "木女",
+     "evidence": "翁女而金妇也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金生色",
+     "predicate": "NATIVE_OF",
+     "object": "晋宁",
+     "evidence": "金生色，晋宁人也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金生色",
+     "predicate": "LIVES_AT",
+     "object": "晋宁",
+     "evidence": "金生色，晋宁人也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "木女",
+     "predicate": "LIVES_AT",
+     "object": "晋宁",
+     "evidence": "娶同村木姓女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金生色",
+     "predicate": "KIN",
+     "object": "金生光",
+     "evidence": "金有叔兄生光",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董贵",
+     "predicate": "LOVES",
+     "object": "木女",
+     "evidence": "村中有无赖子董贵者，见而好之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董贵",
+     "predicate": "HARMED",
+     "object": "木女",
+     "evidence": "因与会合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邻妪",
+     "predicate": "HELPED",
+     "object": "董贵",
+     "evidence": "以金啖金邻妪，求通殷勤于妇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金生色",
+     "predicate": "HARMED",
+     "object": "董贵",
+     "evidence": "董裸奔出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金生色",
+     "predicate": "HARMED",
+     "object": "木女",
+     "evidence": "金捽妇发亦出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董贵",
+     "predicate": "HARMED",
+     "object": "邻子妇",
+     "evidence": "顿生淫心，乘其寝，潜就私之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邻子",
+     "predicate": "KILLED",
+     "object": "董贵",
+     "evidence": "操戈入室。董惧，窜于床下，子就戮之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邻子",
+     "predicate": "KILLED",
+     "object": "邻子妇",
+     "evidence": "子不得已，遂又杀妻",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邻子",
+     "predicate": "SPOUSE",
+     "object": "邻子妇",
+     "evidence": "嘱妻掩户以待其归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邻妪",
+     "predicate": "KIN",
+     "object": "邻子",
+     "evidence": "呼母起，共火之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马彪",
+     "predicate": "KIN",
+     "object": "邻子妇",
+     "evidence": "妇兄马彪素健讼，具词控妹冤",
+     "confidence": 0.95
+    },
+    {
+     "subject": "木女",
+     "predicate": "LIVES_AT",
+     "object": "桃园",
+     "evidence": "垣外乃翁家桃园",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邻子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "执奸自首",
+     "evidence": "俄邻子以执奸自首",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马彪",
+     "predicate": "PARTICIPATED_IN",
+     "object": "控妹冤",
+     "evidence": "具词控妹冤",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:34.112Z"
+}

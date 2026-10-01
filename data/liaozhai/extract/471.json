@@ -1,0 +1,101 @@
+{
+ "no": 471,
+ "title": "周生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 352,
+   "entities": [
+    {
+     "name": "周生",
+     "type": "Person",
+     "aliases": [
+      "周生者"
+     ],
+     "nickname": "",
+     "description": "淄邑幕客，作祝文亵神而卒"
+    },
+    {
+     "name": "徐夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "县令夫人，欲朝碧霞元君"
+    },
+    {
+     "name": "凌生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生同幕，劝其勿用亵文"
+    },
+    {
+     "name": "周子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生之子，自都来迎父榇"
+    },
+    {
+     "name": "碧霞元君",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "神祇，徐夫人朝拜对象"
+    },
+    {
+     "name": "淄邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "淄川县，周生为幕客之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "周生",
+     "predicate": "NATIVE_OF",
+     "object": "淄邑",
+     "evidence": "周生者，淄邑之幕客。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "FRIEND",
+     "object": "凌生",
+     "evidence": "示同幕凌生。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "KIN",
+     "object": "周子",
+     "evidence": "周生子自都来迎父榇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "HELPED",
+     "object": "徐夫人",
+     "evidence": "使周为祝文。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "碧霞元君",
+     "predicate": "HARMED",
+     "object": "周生",
+     "evidence": "致干神怒，遽夭天年",
+     "confidence": 0.9
+    },
+    {
+     "subject": "碧霞元君",
+     "predicate": "HARMED",
+     "object": "徐夫人",
+     "evidence": "又贻累徐夫人",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:12.579Z"
+}

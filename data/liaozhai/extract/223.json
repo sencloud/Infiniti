@@ -1,0 +1,129 @@
+{
+ "no": 223,
+ "title": "杜翁",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 378,
+   "entities": [
+    {
+     "name": "杜翁",
+     "type": "Person",
+     "aliases": [
+      "杜大哥"
+     ],
+     "nickname": "",
+     "description": "沂水人，梦中被误摄，化豕复为人"
+    },
+    {
+     "name": "张某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州人，杜翁故人，在冥府任职"
+    },
+    {
+     "name": "持牒人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "持勾牒摄杜翁的差役"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖酒者，家中有小猪撞死"
+    },
+    {
+     "name": "府署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府官署，杜翁被摄至处"
+    },
+    {
+     "name": "沂水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杜翁籍贯地"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张某籍贯地"
+    },
+    {
+     "name": "王氏卖酒者之家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖酒王氏家，杜翁化豕处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杜翁",
+     "predicate": "NATIVE_OF",
+     "object": "沂水",
+     "evidence": "杜翁，沂水人。",
+     "confidence": 1
+    },
+    {
+     "subject": "张某",
+     "predicate": "NATIVE_OF",
+     "object": "青州",
+     "evidence": "则青州张某，其故人也。",
+     "confidence": 1
+    },
+    {
+     "subject": "杜翁",
+     "predicate": "FRIEND",
+     "object": "张某",
+     "evidence": "则青州张某，其故人也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "持牒人",
+     "predicate": "HARMED",
+     "object": "杜翁",
+     "evidence": "见一人持牒摄去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜翁",
+     "predicate": "LIVES_AT",
+     "object": "府署",
+     "evidence": "至一府署，从来所未经",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张某",
+     "predicate": "HELPED",
+     "object": "杜翁",
+     "evidence": "张疑其误，将为查验",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜翁",
+     "predicate": "LIVES_AT",
+     "object": "王氏卖酒者之家",
+     "evidence": "心识为王氏卖酒者之家，不觉探身门内",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张某",
+     "predicate": "HELPED",
+     "object": "杜翁",
+     "evidence": "遂把手送至市门，乃去。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:37.683Z"
+}

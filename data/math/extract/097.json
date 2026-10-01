@@ -1,0 +1,134 @@
+{
+ "no": 97,
+ "title": "2.2 反比例函数的图象与性质",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4634,
+   "entities": [
+    {
+     "name": "反比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=k/x（k≠0）的函数"
+    },
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "反比例函数的图象",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "反比例函数图象是双曲线"
+    },
+    {
+     "name": "反比例函数的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "k>0时图象在一、三象限，y随x增大而减小；k<0时在二、四象限，y随x增大而增大"
+    },
+    {
+     "name": "双曲线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "反比例函数的图象，由两支曲线组成"
+    },
+    {
+     "name": "中心对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形绕某点旋转180°后与自身重合"
+    },
+    {
+     "name": "描点法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过列表、描点、连线画函数图象的方法"
+    },
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两条互相垂直的数轴组成的坐标系"
+    },
+    {
+     "name": "函数图象",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "函数关系在坐标系中的图形表示"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一次函数",
+     "predicate": "PREREQUISITE",
+     "object": "反比例函数",
+     "evidence": "我们已经知道，一次函数的图象是一条直线。反比例函数的图象是怎样的图形呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反比例函数",
+     "predicate": "INCLUDES",
+     "object": "反比例函数的图象",
+     "evidence": "反比例函数y=k/x(k≠0)具有以下图象特征和性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "反比例函数",
+     "predicate": "INCLUDES",
+     "object": "反比例函数的性质",
+     "evidence": "反比例函数y=k/x(k≠0)具有以下图象特征和性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "反比例函数的图象",
+     "predicate": "SPECIAL_CASE",
+     "object": "双曲线",
+     "evidence": "函数图象由两支曲线组成，称为双曲线",
+     "confidence": 0.95
+    },
+    {
+     "subject": "反比例函数的图象",
+     "predicate": "PROPERTY_OF",
+     "object": "中心对称",
+     "evidence": "函数图象的两支曲线关于原点成中心对称",
+     "confidence": 0.95
+    },
+    {
+     "subject": "描点法",
+     "predicate": "APPLIES_TO",
+     "object": "反比例函数的图象",
+     "evidence": "参照画一次函数图象的步骤画出反比例函数y=6/x的图象",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "PREREQUISITE",
+     "object": "反比例函数的图象",
+     "evidence": "在平面直角坐标系中描出对应的点",
+     "confidence": 0.9
+    },
+    {
+     "subject": "函数图象",
+     "predicate": "PREREQUISITE",
+     "object": "反比例函数的性质",
+     "evidence": "根据这个反比例函数的图象，写出当x<-1时，y的取值范围",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:14.529Z"
+}

@@ -1,0 +1,502 @@
+{
+ "no": 32,
+ "title": "平顶山功曹传信 莲花洞木母逢灾",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5578,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "长老",
+     "description": "西天取经的唐朝高僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "",
+     "description": "天庭最高统治者"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "",
+     "description": "地府掌管生死的神"
+    },
+    {
+     "name": "铁扇公主",
+     "type": "Person",
+     "aliases": [
+      "罗刹女",
+      "铁扇仙",
+      "公主"
+     ],
+     "nickname": "",
+     "description": "牛魔王之妻，持有芭蕉扇"
+    },
+    {
+     "name": "乌巢禅师",
+     "type": "Person",
+     "aliases": [
+      "乌巢"
+     ],
+     "nickname": "",
+     "description": "传授《心经》的禅师"
+    },
+    {
+     "name": "日值功曹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭值日神，变化报信"
+    },
+    {
+     "name": "平顶山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "六百里险峻大山，妖魔盘踞"
+    },
+    {
+     "name": "莲花洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山中妖魔洞府"
+    },
+    {
+     "name": "宝象国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒救公主的国度"
+    },
+    {
+     "name": "高老庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒曾入赘之地"
+    },
+    {
+     "name": "流沙河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧曾为妖之地"
+    },
+    {
+     "name": "长安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐朝都城，唐僧出发地"
+    },
+    {
+     "name": "《心经》",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌巢禅师所授佛经"
+    },
+    {
+     "name": "钉钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒的九齿兵器"
+    },
+    {
+     "name": "五件宝贝",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山妖怪随身法宝"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "唐僧复得了孙行者，师徒们一心同体",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我这里还有八戒沙僧，都是徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我这里还有八戒沙僧，都是徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "兄弟们全无爱怜之意",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "兄弟们全无爱怜之意",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙和尚，歇下担子",
+     "confidence": 0.8
+    },
+    {
+     "subject": "乌巢禅师",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "你记得那乌巢和尚的《心经》云",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西天取经",
+     "evidence": "我们是东土差来西天取经的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西天取经",
+     "evidence": "我们是东土差来西天取经的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西天取经",
+     "evidence": "大家取经，都要望成正果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西天取经",
+     "evidence": "大家取经，都要望成正果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "NATIVE_OF",
+     "object": "长安",
+     "evidence": "我当年奉旨出长安",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "高老庄",
+     "evidence": "老猪往高老庄上盼盼浑家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "流沙河",
+     "evidence": "你往流沙河还做妖怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "《心经》",
+     "evidence": "你记得那乌巢和尚的《心经》云",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "挺着钉钯，雄纠纠，径入深山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "日值功曹",
+     "predicate": "TRANSFORMED",
+     "object": "樵夫",
+     "evidence": "看见是日值功曹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蟭蟟虫",
+     "evidence": "摇身一变，变作个蟭蟟虫儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "啄木虫",
+     "evidence": "摇身一变，变作个啄木虫儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平顶山",
+     "predicate": "OCCURRED_AT",
+     "object": "莲花洞",
+     "evidence": "山中有一洞，名唤莲花洞",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2463,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，识破八戒谎言"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "长老",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，巡山说谎被捉"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙和尚",
+     "description": "唐僧三徒弟"
+    },
+    {
+     "name": "金角大王",
+     "type": "Person",
+     "aliases": [
+      "金角",
+      "太上老君看金炉童子"
+     ],
+     "nickname": "金角",
+     "description": "莲花洞妖王，太上老君童子"
+    },
+    {
+     "name": "银角大王",
+     "type": "Person",
+     "aliases": [
+      "银角",
+      "太上老君看银炉童子"
+     ],
+     "nickname": "银角",
+     "description": "莲花洞妖王，太上老君童子"
+    },
+    {
+     "name": "莲花洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "平顶山妖洞，金角银角盘踞"
+    },
+    {
+     "name": "平顶山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "取经路上险山，莲花洞所在"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "行者道：“你怕打，却怎么扯谎？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "长老道：“悟空说你编谎，我还不信。今果如此，其实该打。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "长老道：“悟空说你编谎，我还不信。今果如此，其实该打。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "那怪又道：“这黑长的是沙和尚，这长嘴大耳的是猪八戒。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "金角大王",
+     "predicate": "KIN",
+     "object": "银角大王",
+     "evidence": "金角正坐，对银角说：“兄弟，我们多少时不巡山了？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金角大王",
+     "predicate": "LEADS",
+     "object": "莲花洞",
+     "evidence": "洞里两妖：一唤金角大王，一唤银角大王。金角正坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "LEADS",
+     "object": "莲花洞",
+     "evidence": "洞里两妖：一唤金角大王，一唤银角大王。金角正坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莲花洞",
+     "predicate": "STATIONED_AT",
+     "object": "平顶山",
+     "evidence": "却说那山叫做平顶山，那洞叫做莲花洞。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "被一群赶上按住，抓鬃毛，揪耳朵，扯着脚，拉着尾，扛扛抬抬，擒进洞去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "FOUGHT",
+     "object": "猪八戒",
+     "evidence": "使七星剑，丢开解数，与八戒一往一来，在山中赌斗，有二十回合，不分胜负。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "这呆子举钉钯按住道：“我的儿，休无礼！看钯！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金角大王",
+     "predicate": "ORIGIN_OF",
+     "object": "太上老君",
+     "evidence": "我当年出天界，尝闻得人言：唐僧乃金蝉长老临凡",
+     "confidence": 0.7
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "ORIGIN_OF",
+     "object": "太上老君",
+     "evidence": "我当年出天界，尝闻得人言：唐僧乃金蝉长老临凡",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:31.746Z"
+}

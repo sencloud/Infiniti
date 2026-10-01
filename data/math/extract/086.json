@@ -1,0 +1,169 @@
+{
+ "no": 86,
+ "title": "10.3 分式的加减",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3121,
+   "entities": [
+    {
+     "name": "分式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如A/B，B中含有字母的式子"
+    },
+    {
+     "name": "分式的加减",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "同分母分母不变分子相加减；异分母先通分再加减"
+    },
+    {
+     "name": "同分母分式加减",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母不变，分子相加减"
+    },
+    {
+     "name": "异分母分式加减",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "先通分，再加减"
+    },
+    {
+     "name": "通分",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把异分母分式化为同分母分式"
+    },
+    {
+     "name": "最简分式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分子与分母没有公因式的分式"
+    },
+    {
+     "name": "分数加减运算",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "分数加减运算法则"
+    },
+    {
+     "name": "分式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式的分子与分母同乘（或除以）一个不等于零的整式，分式的值不变"
+    },
+    {
+     "name": "分式的符号法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式的分子、分母与分式本身的符号，改变其中任何两个，分式的值不变"
+    },
+    {
+     "name": "分式的大小比较",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过作差比较分式大小"
+    },
+    {
+     "name": "分式的拆分",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将分式拆分为两个分式的差"
+    },
+    {
+     "name": "裂项相消法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将分式拆分为差，求和时相消"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "分数加减运算",
+     "predicate": "PREREQUISITE",
+     "object": "分式的加减",
+     "evidence": "与分数加减运算类似，分式加减运算包含同分母分式加减运算与异分母分式加减运算。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式的加减",
+     "predicate": "INCLUDES",
+     "object": "同分母分式加减",
+     "evidence": "分式加减运算包含同分母分式加减运算与异分母分式加减运算。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式的加减",
+     "predicate": "INCLUDES",
+     "object": "异分母分式加减",
+     "evidence": "分式加减运算包含同分母分式加减运算与异分母分式加减运算。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "异分母分式加减",
+     "predicate": "PREREQUISITE",
+     "object": "通分",
+     "evidence": "异分母的分式相加减，先通分，再加减。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式的加减",
+     "predicate": "APPLIES_TO",
+     "object": "分式",
+     "evidence": "分式加减运算的法则是：同分母的分式相加减，分母不变，把分子相加减。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "通分",
+     "evidence": "异分母的分式相加减，先通分，再加减。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "分式的符号法则",
+     "predicate": "DERIVES",
+     "object": "分式的基本性质",
+     "evidence": "\\frac{n}{-m}=\\frac{(-1)\\cdot n}{(-1)\\cdot (-m)}=\\frac{-n}{m}",
+     "confidence": 0.8
+    },
+    {
+     "subject": "分式的大小比较",
+     "predicate": "APPLIES_TO",
+     "object": "分式的加减",
+     "evidence": "\\frac{1}{a}-\\frac{1}{b}=\\frac{b}{ab}-\\frac{a}{ab}=\\frac{b-a}{ab}",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式的拆分",
+     "predicate": "APPLIES_TO",
+     "object": "裂项相消法",
+     "evidence": "证明：\\frac{1}{n(n+1)}=\\frac{1}{n}-\\frac{1}{n+1}",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式的加减",
+     "predicate": "APPLIES_TO",
+     "object": "最简分式",
+     "evidence": "通常，分式相加减所得的结果应化为最简分式或整式。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:08.652Z"
+}

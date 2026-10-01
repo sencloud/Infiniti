@@ -1,0 +1,94 @@
+{
+ "no": 55,
+ "title": "张老相公",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 283,
+   "entities": [
+    {
+     "name": "张老相公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋人，嫁女至江南，设计杀鼋怪，被奉为水神"
+    },
+    {
+     "name": "鼋怪",
+     "type": "Spirit",
+     "aliases": [
+      "鼋"
+     ],
+     "nickname": "",
+     "description": "江中鼋鱼精，闻香坏舟吞人，被张老相公设计杀死"
+    },
+    {
+     "name": "金山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇江金山，江边有寺，张老相公登此谒僧"
+    },
+    {
+     "name": "江南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张老相公携眷至江南为女置办嫁妆"
+    },
+    {
+     "name": "晋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张老相公籍贯所在地"
+    },
+    {
+     "name": "张老相公祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "行旅寺僧为张老相公所建祠庙，供奉为水神"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张老相公",
+     "predicate": "NATIVE_OF",
+     "object": "晋",
+     "evidence": "张老相公，晋人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张老相公",
+     "predicate": "LIVES_AT",
+     "object": "江南",
+     "evidence": "适将嫁女，携眷至江南，躬市奁妆。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼋怪",
+     "predicate": "KILLED",
+     "object": "张老相公",
+     "evidence": "忽巨浪覆舟，妻女皆没。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张老相公",
+     "predicate": "KILLED",
+     "object": "鼋怪",
+     "evidence": "顷之，浪息，则鼋死已浮水上矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张老相公",
+     "predicate": "LIVES_AT",
+     "object": "金山",
+     "evidence": "因登金山谒寺僧，询鼋之异，将以仇鼋。",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:34.221Z"
+}

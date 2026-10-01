@@ -1,0 +1,144 @@
+{
+ "no": 44,
+ "title": "董生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1366,
+   "entities": [
+    {
+     "name": "董遐思",
+     "type": "Person",
+     "aliases": [
+      "董生",
+      "董"
+     ],
+     "nickname": "遐思",
+     "description": "青州西鄙人，字遐思，被狐所惑而死"
+    },
+    {
+     "name": "王九思",
+     "type": "Person",
+     "aliases": [
+      "王生"
+     ],
+     "nickname": "",
+     "description": "董生友人，亦被狐所惑，后得救"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [
+      "狐",
+      "狐狸精",
+      "美女"
+     ],
+     "nickname": "阿琐",
+     "description": "化为美女的狐精，自称周氏阿琐，害死董生"
+    },
+    {
+     "name": "医人",
+     "type": "Person",
+     "aliases": [
+      "善脉者"
+     ],
+     "nickname": "",
+     "description": "善太素脉的医生，诊出董王妖脉"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "董遐思籍贯所在地"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [
+      "冥曹",
+      "法曹"
+     ],
+     "nickname": "",
+     "description": "阴间官府，审理狐女与董生案"
+    },
+    {
+     "name": "董生斋",
+     "type": "Place",
+     "aliases": [
+      "斋门",
+      "斋中"
+     ],
+     "nickname": "",
+     "description": "董遐思的书房，狐女初现之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "董遐思",
+     "predicate": "NATIVE_OF",
+     "object": "青州",
+     "evidence": "董生，字遐思，青州之西鄙人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董遐思",
+     "predicate": "LIVES_AT",
+     "object": "董生斋",
+     "evidence": "见斋门虚掩，大疑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董遐思",
+     "predicate": "FRIEND",
+     "object": "王九思",
+     "evidence": "末顾王生九思及董曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HARMED",
+     "object": "董遐思",
+     "evidence": "不意为狐惑而死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HARMED",
+     "object": "王九思",
+     "evidence": "杀我矣，又欲杀我友",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董遐思",
+     "predicate": "HELPED",
+     "object": "王九思",
+     "evidence": "忽梦董曰：与君好者，狐也。杀我矣，又欲杀我友。我已诉之冥府，泄此幽愤。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "冥府诉讼",
+     "evidence": "我将与彼就质于冥曹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥府诉讼",
+     "predicate": "OCCURRED_AT",
+     "object": "冥府",
+     "evidence": "我已诉之冥府",
+     "confidence": 0.9
+    },
+    {
+     "subject": "医人",
+     "predicate": "HELPED",
+     "object": "董遐思",
+     "evidence": "医不得已，为之针手灸脐，而赠以药",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:30.435Z"
+}

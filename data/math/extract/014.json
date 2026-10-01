@@ -1,0 +1,149 @@
+{
+ "no": 14,
+ "title": "4.1 等式与方程",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4404,
+   "entities": [
+    {
+     "name": "等式",
+     "type": "Concept",
+     "aliases": [
+      "equation"
+     ],
+     "nickname": "",
+     "description": "表示相等关系的式子"
+    },
+    {
+     "name": "方程",
+     "type": "Concept",
+     "aliases": [
+      "equation"
+     ],
+     "nickname": "",
+     "description": "含有未知数的等式"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含有一个未知数，且未知数的次数都是1的方程"
+    },
+    {
+     "name": "等式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等式两边加(减)同一个数或整式，乘(除)同一个不为0的数，结果仍相等"
+    },
+    {
+     "name": "方程的解",
+     "type": "Concept",
+     "aliases": [
+      "solution of equation"
+     ],
+     "nickname": "",
+     "description": "使方程两边的值相等的未知数的值"
+    },
+    {
+     "name": "解方程",
+     "type": "Method",
+     "aliases": [
+      "solving equation"
+     ],
+     "nickname": "",
+     "description": "求方程的解的过程"
+    },
+    {
+     "name": "移项",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用等式性质将方程中的项改变符号后从一边移到另一边"
+    },
+    {
+     "name": "合并同类项",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将方程中同类项合并为一项"
+    },
+    {
+     "name": "列表",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用表格整理数据，分析等量关系"
+    },
+    {
+     "name": "画示意图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用图形直观表示问题中的数量关系"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "等式",
+     "predicate": "INCLUDES",
+     "object": "方程",
+     "evidence": "含有未知数的等式是方程",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方程",
+     "predicate": "INCLUDES",
+     "object": "一元一次方程",
+     "evidence": "本章将学习一元一次方程的概念、解法和应用",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等式的基本性质",
+     "predicate": "APPLIES_TO",
+     "object": "解方程",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质对方程进行移项、合并同类项等操作",
+     "confidence": 0.95
+    },
+    {
+     "subject": "移项",
+     "predicate": "APPLIES_TO",
+     "object": "解方程",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质对方程进行移项、合并同类项等操作",
+     "confidence": 0.95
+    },
+    {
+     "subject": "合并同类项",
+     "predicate": "APPLIES_TO",
+     "object": "解方程",
+     "evidence": "解一元一次方程的基本思路是利用等式的基本性质对方程进行移项、合并同类项等操作",
+     "confidence": 0.95
+    },
+    {
+     "subject": "列表",
+     "predicate": "APPLIES_TO",
+     "object": "方程",
+     "evidence": "用方程解决问题的关键是寻找等量关系，列表和画示意图是分析等量关系的常用手段",
+     "confidence": 0.9
+    },
+    {
+     "subject": "画示意图",
+     "predicate": "APPLIES_TO",
+     "object": "方程",
+     "evidence": "用方程解决问题的关键是寻找等量关系，列表和画示意图是分析等量关系的常用手段",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方程的解",
+     "predicate": "RELATED",
+     "object": "解方程",
+     "evidence": "能使方程两边的值相等的未知数的值叫作方程的解，求方程的解的过程叫作解方程",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:33.959Z"
+}

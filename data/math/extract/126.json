@@ -1,0 +1,172 @@
+{
+ "no": 126,
+ "title": "7.1 正切",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3712,
+   "entities": [
+    {
+     "name": "锐角三角函数",
+     "type": "Concept",
+     "aliases": [
+      "三角函数"
+     ],
+     "nickname": "",
+     "description": "锐角的正弦、余弦、正切统称为锐角三角函数"
+    },
+    {
+     "name": "正切",
+     "type": "Concept",
+     "aliases": [
+      "tan"
+     ],
+     "nickname": "",
+     "description": "锐角A的对边与邻边的比叫做∠A的正切"
+    },
+    {
+     "name": "正弦",
+     "type": "Concept",
+     "aliases": [
+      "sin"
+     ],
+     "nickname": "",
+     "description": "锐角A的对边与斜边的比叫做∠A的正弦"
+    },
+    {
+     "name": "余弦",
+     "type": "Concept",
+     "aliases": [
+      "cos"
+     ],
+     "nickname": "",
+     "description": "锐角A的邻边与斜边的比叫做∠A的余弦"
+    },
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的三角形"
+    },
+    {
+     "name": "相似三角形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形对应边成比例"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [
+      "Rt△"
+     ],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "解直角三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由直角三角形中已知元素求未知元素的过程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "相似三角形",
+     "predicate": "PREREQUISITE",
+     "object": "锐角三角函数",
+     "evidence": "本章将利用相似的直角三角形，探索并认识锐角三角函数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形的性质",
+     "predicate": "DERIVES",
+     "object": "正切",
+     "evidence": "根据相似三角形性质，得 B1C1/AC1=B2C2/AC2=... 也就是说，如果直角三角形的一个锐角的大小确定，那么这个锐角的对边与邻边的比值也确定。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形的性质",
+     "predicate": "DERIVES",
+     "object": "正弦",
+     "evidence": "根据相似三角形的性质可知，当直角三角形的一个锐角的大小确定时，它的对边与斜边的比值、邻边与斜边的比值也就确定。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形的性质",
+     "predicate": "DERIVES",
+     "object": "余弦",
+     "evidence": "根据相似三角形的性质可知，当直角三角形的一个锐角的大小确定时，它的对边与斜边的比值、邻边与斜边的比值也就确定。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正切",
+     "evidence": "∠A 的正弦、余弦和正切都是 ∠A 的三角函数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正弦",
+     "evidence": "∠A 的正弦、余弦和正切都是 ∠A 的三角函数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "余弦",
+     "evidence": "∠A 的正弦、余弦和正切都是 ∠A 的三角函数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正切",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "在 Rt△ABC 中，∠C=90°。我们把∠A的对边a与邻边b的比叫做∠A的正切",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正弦",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "在 Rt△ABC 中，∠C=90°。我们把∠A的对边a与斜边c的比叫做∠A的正弦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "余弦",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "在 Rt△ABC 中，∠C=90°。我们把∠A的邻边b与斜边c的比叫做∠A的余弦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "直角三角形",
+     "evidence": "在 Rt△ABC 中，根据勾股定理，得 BC=√(AB²-AC²)",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "APPLIES_TO",
+     "object": "解直角三角形",
+     "evidence": "利用锐角三角函数解直角三角形",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:29.955Z"
+}

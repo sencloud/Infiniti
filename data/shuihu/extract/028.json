@@ -1,0 +1,230 @@
+{
+ "no": 28,
+ "title": "第二十八回 武松威镇安平寨 施恩义夺快活林",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5753,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头",
+      "行者"
+     ],
+     "nickname": "行者",
+     "description": "清河县人氏，景阳冈打虎好汉，阳谷县都头，刺配孟州"
+    },
+    {
+     "name": "张青",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "菜园子",
+     "description": "十字坡酒店主人，与武松结拜为兄"
+    },
+    {
+     "name": "孙二娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "母夜叉",
+     "description": "张青之妻，十字坡酒店女主人"
+    },
+    {
+     "name": "施恩",
+     "type": "Person",
+     "aliases": [
+      "小管营"
+     ],
+     "nickname": "金眼彪",
+     "description": "孟州管营之子，好拳棒，暗助武松"
+    },
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "及时雨",
+      "呼保义",
+      "孝义黑三郎",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "山东及时雨，仗义疏财，因事逃在柴进庄上"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "柴大官人"
+     ],
+     "nickname": "小旋风",
+     "description": "横海郡柴大官人，收留宋江"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁提辖",
+      "鲁达"
+     ],
+     "nickname": "花和尚",
+     "description": "二龙山宝珠寺好汉，与武松相聚入伙"
+    },
+    {
+     "name": "二龙山",
+     "type": "Organization",
+     "aliases": [
+      "二龙山宝珠寺"
+     ],
+     "nickname": "",
+     "description": "鲁智深等落草的山寨"
+    },
+    {
+     "name": "孟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松刺配之地，有安平寨牢城营"
+    },
+    {
+     "name": "安平寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州牢城营，武松发配于此"
+    },
+    {
+     "name": "天王堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "安平寨内建筑，前有青石墩"
+    },
+    {
+     "name": "清河县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松籍贯"
+    },
+    {
+     "name": "阳谷县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松曾任都头之地"
+    },
+    {
+     "name": "景阳冈打虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松酒醉在景阳冈打死大虫"
+    },
+    {
+     "name": "戒刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "张青所藏镔铁打成的两口戒刀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "SWORN_BROTHER",
+     "object": "张青",
+     "evidence": "武松结拜张青为兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张青",
+     "predicate": "SPOUSE",
+     "object": "孙二娘",
+     "evidence": "张青和孙二娘送出门前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "张青叫火家便从剥人凳上搀起两个公人来，孙二娘便去调一碗解药来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "武松",
+     "predicate": "SERVED",
+     "object": "施恩",
+     "evidence": "武松道：便是一刀一割的勾当，武松也替你去干",
+     "confidence": 0.7
+    },
+    {
+     "subject": "施恩",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "正是小管营对他父亲说了，因此不打都头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "我自是清河县人氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "景阳冈上酒醉里打翻了一只大虫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "景阳冈打虎",
+     "predicate": "OCCURRED_AT",
+     "object": "景阳冈",
+     "evidence": "景阳冈上酒醉里打翻了一只大虫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "安平寨",
+     "evidence": "武松来到牢城营前，看见一座牌额，上书三个大字，写着道安平寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "取出那两口戒刀来，叫武松看了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "柴进庄上",
+     "evidence": "如今也为事逃在柴大官人庄上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张青",
+     "predicate": "RECOMMENDED",
+     "object": "鲁智深",
+     "evidence": "小人亲自送至二龙山宝珠寺，与鲁智深相聚入伙",
+     "confidence": 0.8
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "二龙山",
+     "evidence": "与鲁智深相聚入伙",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:16.405Z"
+}

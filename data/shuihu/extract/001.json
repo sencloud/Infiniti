@@ -1,0 +1,218 @@
+{
+ "no": 1,
+ "title": "第一回 张天师祈禳瘟疫 洪太尉误走妖魔",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5658,
+   "entities": [
+    {
+     "name": "赵哲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋宰相，奏请禳灾"
+    },
+    {
+     "name": "文彦博",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋参政，奏请禳灾"
+    },
+    {
+     "name": "范仲淹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋参知政事，奏请宣天师"
+    },
+    {
+     "name": "洪信",
+     "type": "Person",
+     "aliases": [
+      "洪太尉"
+     ],
+     "nickname": "",
+     "description": "殿前太尉，钦差宣请天师"
+    },
+    {
+     "name": "张天师",
+     "type": "Person",
+     "aliases": [
+      "虚靖天师",
+      "道通祖师"
+     ],
+     "nickname": "",
+     "description": "龙虎山嗣汉天师，能驾雾兴云"
+    },
+    {
+     "name": "仁宗",
+     "type": "Person",
+     "aliases": [
+      "仁宗天子"
+     ],
+     "nickname": "",
+     "description": "大宋皇帝，在位嘉祐三年"
+    },
+    {
+     "name": "龙虎山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江西信州贵溪县道教名山"
+    },
+    {
+     "name": "上清宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙虎山道观，住持真人所在"
+    },
+    {
+     "name": "伏魔之殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "上清宫右廊后锁镇魔王之殿"
+    },
+    {
+     "name": "信州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江西州府，龙虎山所在"
+    },
+    {
+     "name": "贵溪县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "信州属县，龙虎山所在地"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大宋都城，瘟疫盛行"
+    },
+    {
+     "name": "京师",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大宋都城，瘟疫盛行"
+    },
+    {
+     "name": "罗天大醮",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "三千六百分罗天大醮，祈禳瘟疫"
+    },
+    {
+     "name": "误走妖魔",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "洪太尉误开伏魔殿，放出妖魔"
+    },
+    {
+     "name": "丹诏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "天子御笔亲书诏书"
+    },
+    {
+     "name": "御香",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "天子所赐龙香"
+    },
+    {
+     "name": "石碑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "伏魔殿内石碑，凿有遇洪而开"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "洪信",
+     "predicate": "SERVED",
+     "object": "仁宗",
+     "evidence": "钦差内外提点殿前太尉洪信为天使",
+     "confidence": 0.9
+    },
+    {
+     "subject": "洪信",
+     "predicate": "PARTICIPATED_IN",
+     "object": "罗天大醮",
+     "evidence": "来请天师，要做三千六百分罗天大醮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "洪信",
+     "predicate": "MASTERMINDED",
+     "object": "误走妖魔",
+     "evidence": "洪太尉看了这四个字，大喜……将锄头铁锹来掘开",
+     "confidence": 0.9
+    },
+    {
+     "subject": "误走妖魔",
+     "predicate": "OCCURRED_AT",
+     "object": "伏魔之殿",
+     "evidence": "此乃是前代老祖天师锁镇魔王之殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "洪信",
+     "predicate": "STATIONED_AT",
+     "object": "东京",
+     "evidence": "离了东京，取路径投信州贵溪县来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张天师",
+     "predicate": "STATIONED_AT",
+     "object": "龙虎山",
+     "evidence": "自向龙虎山顶，结一茅庵，修真养性",
+     "confidence": 0.9
+    },
+    {
+     "subject": "洪信",
+     "predicate": "OWNS",
+     "object": "丹诏",
+     "evidence": "亲将丹诏付与洪太尉为使",
+     "confidence": 0.9
+    },
+    {
+     "subject": "洪信",
+     "predicate": "OWNS",
+     "object": "御香",
+     "evidence": "并降御香一炷……亲奉龙香",
+     "confidence": 0.9
+    },
+    {
+     "subject": "洪信",
+     "predicate": "ATTACKED",
+     "object": "伏魔之殿",
+     "evidence": "将铁锤打开大锁。众人把门推开",
+     "confidence": 0.9
+    },
+    {
+     "subject": "洪信",
+     "predicate": "FOUGHT",
+     "object": "张天师",
+     "evidence": "这代祖师试探太尉之心",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:45.562Z"
+}

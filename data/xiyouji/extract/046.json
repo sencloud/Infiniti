@@ -1,0 +1,564 @@
+{
+ "no": 46,
+ "title": "外道弄强欺正法 心猿显圣灭诸邪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5998,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大，变化多端"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，坐禅功夫高深"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，贪吃懒做"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实"
+    },
+    {
+     "name": "虎力大仙",
+     "type": "Person",
+     "aliases": [
+      "虎力"
+     ],
+     "nickname": "虎力",
+     "description": "车迟国大国师，黄毛虎成精"
+    },
+    {
+     "name": "鹿力大仙",
+     "type": "Person",
+     "aliases": [
+      "鹿力"
+     ],
+     "nickname": "鹿力",
+     "description": "车迟国二国师，白毛角鹿成精"
+    },
+    {
+     "name": "羊力大仙",
+     "type": "Person",
+     "aliases": [
+      "羊力"
+     ],
+     "nickname": "羊力",
+     "description": "车迟国三国师，羚羊成精"
+    },
+    {
+     "name": "车迟国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行路上的国家，国王昏乱，宠信道士"
+    },
+    {
+     "name": "车迟国国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "陛下",
+      "皇帝"
+     ],
+     "nickname": "",
+     "description": "车迟国君主，昏庸易惑"
+    },
+    {
+     "name": "云梯显圣",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "虎力大仙与唐僧赌坐禅"
+    },
+    {
+     "name": "隔板猜枚",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鹿力大仙与唐僧赌猜柜中之物"
+    },
+    {
+     "name": "砍头剖腹油锅",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "虎力、鹿力与孙悟空赌砍头剖腹"
+    },
+    {
+     "name": "山河社稷袄",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国皇后所藏宫衣宝贝"
+    },
+    {
+     "name": "乾坤地理裙",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国皇后所藏宫衣宝贝"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的兵器，可变化"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者拔一根毫毛，变做假象，陪着八戒沙僧立于下面，他却作五色祥云，把唐僧撮起空中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "行者拔一根毫毛，变做假象，陪着八戒沙僧立于下面",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "行者拔一根毫毛，变做假象，陪着八戒沙僧立于下面",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎力大仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "云梯显圣",
+     "evidence": "虎力大仙道：'我与他赌坐禅。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "云梯显圣",
+     "evidence": "三藏忽的开言道：'我会坐禅。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "云梯显圣",
+     "predicate": "OCCURRED_AT",
+     "object": "车迟国",
+     "evidence": "国家有倒山之力，不消半个时辰，就设起两座台，在金銮殿左右。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹿力大仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "隔板猜枚",
+     "evidence": "鹿力大仙又奏道：'陛下，……等我与他赌隔板猜枚。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "隔板猜枚",
+     "evidence": "三藏猜道：'不是桃，是个光桃核子。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "隔板猜枚",
+     "predicate": "OCCURRED_AT",
+     "object": "车迟国",
+     "evidence": "即传旨，将一朱红漆的柜子，命内官抬到宫殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎力大仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "砍头剖腹油锅",
+     "evidence": "虎力大仙道：'……索性与他赌一赌。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鹿力大仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "砍头剖腹油锅",
+     "evidence": "鹿力起身道：'……我今定不饶他，定要与他赌那剖腹剜心！'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "砍头剖腹油锅",
+     "evidence": "行者上前道：'陛下，小和尚会砍头。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "砍头剖腹油锅",
+     "predicate": "OCCURRED_AT",
+     "object": "车迟国",
+     "evidence": "即传旨，教设杀场。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "虎力大仙",
+     "evidence": "须臾倒在尘埃，众人观看，乃是一只无头的黄毛虎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "虎力大仙",
+     "evidence": "须臾倒在尘埃，众人观看，乃是一只无头的黄毛虎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "鹿力大仙",
+     "evidence": "原来是一只白毛角鹿！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "鹿力大仙",
+     "evidence": "原来是一只白毛角鹿！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "将金箍棒就变作一把剃头刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "车迟国国王",
+     "predicate": "LEADS",
+     "object": "车迟国",
+     "evidence": "那国王见孙行者有呼龙使圣之法，即将关文用了宝印",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎力大仙",
+     "predicate": "SERVED",
+     "object": "车迟国国王",
+     "evidence": "我等至此匡扶社稷，保国安民，苦历二十年来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹿力大仙",
+     "predicate": "SERVED",
+     "object": "车迟国国王",
+     "evidence": "我等至此匡扶社稷，保国安民，苦历二十年来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "羊力大仙",
+     "predicate": "SERVED",
+     "object": "车迟国国王",
+     "evidence": "我等至此匡扶社稷，保国安民，苦历二十年来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蟭蟟虫",
+     "evidence": "他又敛祥光，变作一个蟭蟟虫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "老道士",
+     "evidence": "他就摇身一变，变作个老道士一般容貌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蜈蚣",
+     "evidence": "摇身一变，变作一条七寸长的蜈蚣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "黄犬",
+     "evidence": "变作一条黄犬跑入场中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "饿鹰",
+     "evidence": "即变作一只饿鹰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者仍驾祥云，将师父驮下阶前，已是长老得胜。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "慌忙用手捻下，替师父挠挠摸摸。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1976,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，孙悟空师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，憨直贪吃"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "龙王",
+     "description": "北海龙王，助羊力大仙冷龙"
+    },
+    {
+     "name": "羊力大仙",
+     "type": "Person",
+     "aliases": [
+      "羊力"
+     ],
+     "nickname": "羊力",
+     "description": "车迟国三国师，与孙悟空赌油锅"
+    },
+    {
+     "name": "车迟国国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "陛下"
+     ],
+     "nickname": "国王",
+     "description": "车迟国君主，宠信道士"
+    },
+    {
+     "name": "监斩官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国监斩官，被孙悟空打死"
+    },
+    {
+     "name": "车迟国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度，国王宠道"
+    },
+    {
+     "name": "油锅",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "赌赛用的滚油锅"
+    },
+    {
+     "name": "冷龙",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "羊力大仙炼制的法宝，护锅底"
+    },
+    {
+     "name": "赌赛滚油锅洗澡",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空与羊力大仙赌油锅洗澡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "徒弟孙悟空！自从受戒拜禅林，护我西来恩爱深。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒听见道：师父，不是这般祝了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "唐僧教沙和尚同去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "羊力大仙",
+     "evidence": "我与他赌下滚油锅洗澡。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "监斩官",
+     "evidence": "掣出棒，挝过监斩官，着头一下打做了肉团",
+     "confidence": 0.9
+    },
+    {
+     "subject": "北海龙王",
+     "predicate": "ORIGIN_OF",
+     "object": "羊力大仙",
+     "evidence": "这个孽畜苦修行了一场，脱得本壳，却只是五雷法真受，其余都躧了旁门，难归仙道。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "羊力大仙",
+     "predicate": "OWNS",
+     "object": "冷龙",
+     "evidence": "这一个也是他自己炼的冷龙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赌赛滚油锅洗澡",
+     "evidence": "我与他赌下滚油锅洗澡。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "羊力大仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赌赛滚油锅洗澡",
+     "evidence": "我与他赌下滚油锅洗澡。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赌赛滚油锅洗澡",
+     "predicate": "OCCURRED_AT",
+     "object": "车迟国",
+     "evidence": "那当驾官果安下油锅，架起干柴，燃着烈火，将油烧滚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "车迟国国王",
+     "predicate": "LEADS",
+     "object": "车迟国",
+     "evidence": "国王走下龙座。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "车迟国",
+     "evidence": "那和尚不曾死，又打油锅里钻出来了。",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:59.618Z"
+}

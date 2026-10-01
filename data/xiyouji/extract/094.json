@@ -1,0 +1,317 @@
+{
+ "no": 94,
+ "title": "四僧宴乐御花园 一怪空怀情欲喜",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5749,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，曾大闹天宫，被压五行山"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "长老",
+     "description": "取经僧人，被招为驸马"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "劝化唐僧师徒皈依佛教"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主，曾封孙悟空齐天大圣"
+    },
+    {
+     "name": "铁扇公主",
+     "type": "Person",
+     "aliases": [
+      "罗刹女",
+      "铁扇仙",
+      "公主"
+     ],
+     "nickname": "公主",
+     "description": "本片段中为天竺国公主，抛绣球招唐僧"
+    },
+    {
+     "name": "天竺国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西天路上的国度，国王招唐僧为驸马"
+    },
+    {
+     "name": "御花园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国皇宫花园，唐僧师徒宴乐之处"
+    },
+    {
+     "name": "留春亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "御花园中亭子，行者三人饮宴处"
+    },
+    {
+     "name": "华夷阁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "御花园中阁楼，国王与唐僧饮宴处"
+    },
+    {
+     "name": "昭阳宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国后宫，公主与后妃所在"
+    },
+    {
+     "name": "鳷鹊宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国皇宫中设合卺宴之处"
+    },
+    {
+     "name": "花果山水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空祖居之地"
+    },
+    {
+     "name": "五行山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空被压五百年之处"
+    },
+    {
+     "name": "福陵山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒曾占山为妖之处"
+    },
+    {
+     "name": "流沙河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧被贬后所在之处"
+    },
+    {
+     "name": "天竺国招亲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国公主抛绣球招唐僧为驸马"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "幸我师出东土，拜西方，观音教令脱天灾，离大难，皈正在瑜伽门下。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "皈依佛教，保护唐僧。径往西天，拜求妙典。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "幸喜菩萨远游东土，劝我皈依，等候唐朝佛子，往西天求经果正。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "观音教令脱天灾，离大难，皈正在瑜伽门下。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "猪八戒",
+     "evidence": "遇观音，指明善道。皈依佛教，保护唐僧。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "沙悟净",
+     "evidence": "幸喜菩萨远游东土，劝我皈依，等候唐朝佛子，往西天求经果正。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "SERVED",
+     "object": "孙悟空",
+     "evidence": "官拜齐天大圣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "SERVED",
+     "object": "猪八戒",
+     "evidence": "荷蒙玉帝厚恩，官赐天蓬元帅，管押河兵，逍遥汉阙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "SERVED",
+     "object": "沙悟净",
+     "evidence": "超天界，拜玄穹，官授卷帘大将，侍御凤辇龙车，封号将军。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山水帘洞",
+     "evidence": "老孙祖居东胜神洲傲来国花果山水帘洞。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "五行山",
+     "evidence": "困压在五行山下，饥餐铁弹，渴饮铜汁，五百年未尝茶饭。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "福陵山",
+     "evidence": "住福陵山，造恶无边。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "流沙河",
+     "evidence": "贬在流沙河，改头换面，造孽伤生。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "天竺国招亲",
+     "evidence": "随宣召官至午门外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "天竺国招亲",
+     "evidence": "既招我师为驸马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "天竺国招亲",
+     "evidence": "八戒沙僧亦俱近前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "天竺国招亲",
+     "evidence": "八戒沙僧亦俱近前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "天竺国招亲",
+     "predicate": "OCCURRED_AT",
+     "object": "天竺国",
+     "evidence": "婚期已定本年本月十二日。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铁扇公主",
+     "predicate": "PARTICIPATED_IN",
+     "object": "天竺国招亲",
+     "evidence": "公主走近前倒身下拜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蜜蜂",
+     "evidence": "变作一个蜜蜂儿",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:12.387Z"
+}

@@ -1,0 +1,192 @@
+{
+ "no": 92,
+ "title": "李伯言",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 884,
+   "entities": [
+    {
+     "name": "李伯言",
+     "type": "Person",
+     "aliases": [
+      "李生",
+      "李公子"
+     ],
+     "nickname": "",
+     "description": "沂水人，抗直有肝胆，暂摄阴司阎罗"
+    },
+    {
+     "name": "周生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李伯言同邑人，王某之友，为冥司作证"
+    },
+    {
+     "name": "王某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李伯言同邑姻家，因买婢被讼，受笞刑"
+    },
+    {
+     "name": "胡生",
+     "type": "Person",
+     "aliases": [
+      "胡水心"
+     ],
+     "nickname": "",
+     "description": "字水心，与李伯言交好，将建道场"
+    },
+    {
+     "name": "江南某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江南人，私良家女八十二人，受炮烙之刑"
+    },
+    {
+     "name": "婢父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖婢女之父，讼王某盗占生女"
+    },
+    {
+     "name": "沂水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李伯言籍贯地"
+    },
+    {
+     "name": "阴司",
+     "type": "Place",
+     "aliases": [
+      "冥司",
+      "阴曹",
+      "冥府"
+     ],
+     "nickname": "",
+     "description": "阴间官府，阎罗审理之所"
+    },
+    {
+     "name": "阎罗殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴司阎罗审理案件之宫殿"
+    },
+    {
+     "name": "南村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡生所居之村，将建道场"
+    },
+    {
+     "name": "道场",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡生为超度亡灵所建之法事"
+    },
+    {
+     "name": "冥司质审",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "王某与婢父在阴司对质受审"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李伯言",
+     "predicate": "NATIVE_OF",
+     "object": "沂水",
+     "evidence": "李生伯言，沂水人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李伯言",
+     "predicate": "LIVES_AT",
+     "object": "阴司",
+     "evidence": "阴司阎罗缺，欲吾暂摄其篆耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李伯言",
+     "predicate": "FRIEND",
+     "object": "胡生",
+     "evidence": "胡生字水心，与李善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李伯言",
+     "predicate": "KIN",
+     "object": "王某",
+     "evidence": "王即生姻家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李伯言",
+     "predicate": "PUNISHED",
+     "object": "江南某",
+     "evidence": "按冥律，宜炮烙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李伯言",
+     "predicate": "PUNISHED",
+     "object": "王某",
+     "evidence": "王以故犯论笞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王某",
+     "predicate": "FRIEND",
+     "object": "周生",
+     "evidence": "其友周生遇于途",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王某",
+     "predicate": "HARMED",
+     "object": "婢父",
+     "evidence": "被婢父讼盗占生女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "冥司质审",
+     "evidence": "同赴阎罗质审",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥司质审",
+     "predicate": "OCCURRED_AT",
+     "object": "阎罗殿",
+     "evidence": "同赴阎罗质审",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "道场",
+     "evidence": "南村胡生，将建道场",
+     "confidence": 0.9
+    },
+    {
+     "subject": "道场",
+     "predicate": "OCCURRED_AT",
+     "object": "南村",
+     "evidence": "南村胡生，将建道场",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:48.321Z"
+}

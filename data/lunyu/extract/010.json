@@ -1,0 +1,104 @@
+{
+ "no": 10,
+ "title": "乡党篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 869,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，本篇记其乡党朝廷容色举止"
+    },
+    {
+     "name": "子路",
+     "type": "Person",
+     "aliases": [
+      "仲由",
+      "季路",
+      "由"
+     ],
+     "nickname": "季路",
+     "description": "孔子弟子，本篇末向雌雉拱手"
+    },
+    {
+     "name": "季康子",
+     "type": "Person",
+     "aliases": [
+      "康子"
+     ],
+     "nickname": "",
+     "description": "鲁国大夫，馈药于孔子"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国，孔子所仕之国"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家理想人格，本篇论其服饰之礼"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心范畴，本篇多记容色举止之礼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "其在宗庙朝廷，便便言，唯谨尔。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子不以绀緅饰。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "季康子",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "康子馈药，拜而受之，曰：“丘未达，不敢尝。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孔子",
+     "predicate": "SERVED",
+     "object": "鲁",
+     "evidence": "君召使摈，色勃如也，足躩如也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子路",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "子路共之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:26.225Z"
+}

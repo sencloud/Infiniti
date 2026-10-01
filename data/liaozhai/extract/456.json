@@ -1,0 +1,197 @@
+{
+ "no": 456,
+ "title": "苗生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1132,
+   "entities": [
+    {
+     "name": "龚生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "岷州人，赴西安赶考，与苗生结交"
+    },
+    {
+     "name": "苗生",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "自称姓苗，粗豪，能化虎杀人"
+    },
+    {
+     "name": "靳生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与龚生同登华山，后中举，遇嵇生鬼魂"
+    },
+    {
+     "name": "嵇生",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "华山被虎噬者，死后为伥鬼"
+    },
+    {
+     "name": "蒋生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "靳生表戚，嫉妒尤生，易服后被虎衔走"
+    },
+    {
+     "name": "尤生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "县中考试名次居蒋生之上，被蒋生嫉妒"
+    },
+    {
+     "name": "郡守",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与蒋生为通家，登岭召见蒋生"
+    },
+    {
+     "name": "华山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚生等登临宴饮之处"
+    },
+    {
+     "name": "西安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚生赴试之地"
+    },
+    {
+     "name": "岷州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚生籍贯"
+    },
+    {
+     "name": "华阴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "靳生三年后经过之地"
+    },
+    {
+     "name": "苍龙岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "嵇生所言代死之处"
+    },
+    {
+     "name": "旅舍",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚生与苗生初遇之处"
+    },
+    {
+     "name": "逆旅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "苗生扛马所至的旅店"
+    },
+    {
+     "name": "登华山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚生与友人登华山宴饮联句"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "龚生",
+     "predicate": "NATIVE_OF",
+     "object": "岷州",
+     "evidence": "龚生，岷州人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "龚生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "登华山",
+     "evidence": "后生场事毕，三四友人，邀登华山，藉地作筵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "登华山",
+     "predicate": "OCCURRED_AT",
+     "object": "华山",
+     "evidence": "邀登华山，藉地作筵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "龚生",
+     "predicate": "FRIEND",
+     "object": "苗生",
+     "evidence": "生乃惊为神人，相待优渥，沽酒市饭，与共餐饮。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苗生",
+     "predicate": "HELPED",
+     "object": "龚生",
+     "evidence": "己乃以肩承马腹而荷之，趋二十馀里，始至逆旅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "苗生",
+     "predicate": "KILLED",
+     "object": "嵇生",
+     "evidence": "立化为虎，扑杀诸客，咆哮而去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嵇生",
+     "predicate": "HARMED",
+     "object": "靳生",
+     "evidence": "嵇捉鞚使不得行。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蒋生",
+     "predicate": "HARMED",
+     "object": "尤生",
+     "evidence": "闻靳言，阴欲陷之。折简邀尤，与共登临",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋生",
+     "predicate": "KIN",
+     "object": "靳生",
+     "evidence": "适有表戚蒋生来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋生",
+     "predicate": "FRIEND",
+     "object": "郡守",
+     "evidence": "会郡守登岭上，与蒋为通家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苗生",
+     "predicate": "LIVES_AT",
+     "object": "旅舍",
+     "evidence": "憩于旅舍，沽酒自酌。一伟丈夫入",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:07.124Z"
+}

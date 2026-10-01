@@ -1,0 +1,537 @@
+{
+ "no": 21,
+ "title": "护法设庄留大圣 须弥灵吉定风魔",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5958,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经的圣僧，被黄风怪擒住"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，长嘴大耳"
+    },
+    {
+     "name": "黄风怪",
+     "type": "Person",
+     "aliases": [
+      "黄风大王",
+      "黄风大圣",
+      "灵山得道老鼠"
+     ],
+     "nickname": "黄风大王",
+     "description": "黄风洞妖怪，能吹三昧神风"
+    },
+    {
+     "name": "虎先锋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄风怪手下先锋，被八戒打死"
+    },
+    {
+     "name": "灵吉菩萨",
+     "type": "Person",
+     "aliases": [
+      "灵吉",
+      "小须弥山菩萨"
+     ],
+     "nickname": "灵吉",
+     "description": "小须弥山菩萨，能定黄风"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "李长庚",
+     "description": "西方太白金星，曾救八戒"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "奉法旨暗保唐僧的菩萨"
+    },
+    {
+     "name": "护法伽蓝",
+     "type": "Person",
+     "aliases": [
+      "伽蓝"
+     ],
+     "nickname": "",
+     "description": "奉菩萨法旨暗保唐僧的护法神"
+    },
+    {
+     "name": "黄风洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄风怪盘踞的妖洞"
+    },
+    {
+     "name": "小须弥山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵吉菩萨道场所在的山"
+    },
+    {
+     "name": "黄风洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄风怪盘踞的洞府"
+    },
+    {
+     "name": "定风桩",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄风洞中绑唐僧的桩"
+    },
+    {
+     "name": "三股钢叉",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄风怪使用的兵器"
+    },
+    {
+     "name": "如意铁棒",
+     "type": "Item",
+     "aliases": [
+      "铁棒",
+      "金箍棒"
+     ],
+     "nickname": "如意棒",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "三花九子膏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "老者所赠眼药，能治风眼"
+    },
+    {
+     "name": "飞龙杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵吉菩萨当年受佛兵，能定风"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我们是东土大唐圣僧的徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我们是东土大唐圣僧的徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒道：哥哥，好大风啊！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "LEADS",
+     "object": "黄风洞",
+     "evidence": "帅群妖跳出本洞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎先锋",
+     "predicate": "MEMBER_OF",
+     "object": "黄风洞",
+     "evidence": "虎先锋战不过那毛脸和尚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "黄风怪",
+     "evidence": "那老妖与大圣斗经三十回合，不分胜败",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "虎先锋",
+     "evidence": "虎先锋被那毛脸和尚打杀了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "把两只火眼金睛，刮得紧紧闭合，莫能睁开，因此难使铁棒，遂败下阵来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "STATIONED_AT",
+     "object": "黄风洞",
+     "evidence": "帅群妖跳出本洞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "如意铁棒",
+     "evidence": "手执着如意的铁棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "OWNS",
+     "object": "三股钢叉",
+     "evidence": "绰一杆三股钢叉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "护法伽蓝",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "昨日也亏他与你点眼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "老猪若不亏金星奏准玉帝呵，性命也不知化作甚的了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灵吉菩萨",
+     "predicate": "OWNS",
+     "object": "飞龙杖",
+     "evidence": "须弥山有飞龙杖，灵吉当年受佛兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄风怪之战",
+     "evidence": "那老妖与大圣斗经三十回合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄风怪之战",
+     "predicate": "OCCURRED_AT",
+     "object": "黄风洞",
+     "evidence": "他二人在那黄风洞口，这一场好杀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄风怪之战",
+     "evidence": "被黄风大王拿了我师父去了",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1075,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经僧人，被黄风怪捉住"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "美猴王",
+      "齐天大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，救师降妖"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，协助救师"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "佛门菩萨，未直接出场"
+    },
+    {
+     "name": "灵吉菩萨",
+     "type": "Person",
+     "aliases": [
+      "灵吉",
+      "小须弥山菩萨"
+     ],
+     "nickname": "菩萨",
+     "description": "小须弥山菩萨，奉如来命镇押黄风怪"
+    },
+    {
+     "name": "黄风怪",
+     "type": "Person",
+     "aliases": [
+      "黄风大王",
+      "黄风大圣",
+      "灵山得道老鼠"
+     ],
+     "nickname": "黄风大王",
+     "description": "黄风山妖怪，原为灵山得道老鼠"
+    },
+    {
+     "name": "如来",
+     "type": "Person",
+     "aliases": [
+      "佛祖",
+      "如来佛祖"
+     ],
+     "nickname": "",
+     "description": "佛门领袖，赐灵吉菩萨法宝镇押黄风怪"
+    },
+    {
+     "name": "黄风山",
+     "type": "Place",
+     "aliases": [
+      "黄风岭"
+     ],
+     "nickname": "",
+     "description": "黄风怪盘踞的山岭"
+    },
+    {
+     "name": "灵山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来佛祖所在圣地"
+    },
+    {
+     "name": "小须弥山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵吉菩萨道场"
+    },
+    {
+     "name": "定风丹",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来赐予灵吉菩萨的宝丹"
+    },
+    {
+     "name": "飞龙宝杖",
+     "type": "Item",
+     "aliases": [
+      "飞龙杖"
+     ],
+     "nickname": "",
+     "description": "如来赐予灵吉菩萨的宝杖，可变八爪金龙"
+    },
+    {
+     "name": "黄风怪之难",
+     "type": "Event",
+     "aliases": [
+      "黄风岭遇难"
+     ],
+     "nickname": "",
+     "description": "唐僧在黄风山被黄风怪捉住，悟空请灵吉菩萨降妖救师"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者道：“茶不劳赐，但我师父在黄风山有难，特请菩萨施大法力降怪救师。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "二人撞入里面……却往后园拜救师父。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "那呆子认得是行者声音，急收拾跑出林外，见了行者道：“哥哥，怎的干事来？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灵吉菩萨",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者将那请灵吉降妖的事情，陈了一遍，师父谢之不尽。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "灵吉菩萨",
+     "predicate": "DEFEATED",
+     "object": "黄风怪",
+     "evidence": "灵吉菩萨将飞龙宝杖丢将下来……一把抓住妖精，提着头，两三捽，捽在山石崖边，现了本相，却是一个黄毛貂鼠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "那怪……手绰钢叉，又走出门来，见了行者，更不打话，拈叉当胸就刺。大圣侧身躲过，举棒对面相还。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "今又冲撞大圣，陷害唐僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "ORIGIN_OF",
+     "object": "如来",
+     "evidence": "他本是灵山脚下的得道老鼠……如来照见了他，不该死罪，故着我辖押",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灵吉菩萨",
+     "predicate": "OWNS",
+     "object": "定风丹",
+     "evidence": "如来赐了我一颗定风丹，一柄飞龙宝杖。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "灵吉菩萨",
+     "predicate": "OWNS",
+     "object": "飞龙宝杖",
+     "evidence": "如来赐了我一颗定风丹，一柄飞龙宝杖。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "STATIONED_AT",
+     "object": "黄风山",
+     "evidence": "不多时，至黄风山上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灵吉菩萨",
+     "predicate": "STATIONED_AT",
+     "object": "小须弥山",
+     "evidence": "我受了如来法令，在此镇押黄风怪。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "黄风怪之难",
+     "predicate": "OCCURRED_AT",
+     "object": "黄风山",
+     "evidence": "但我师父在黄风山有难",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄风怪之难",
+     "evidence": "行者将那请灵吉降妖的事情，陈了一遍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "灵吉菩萨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄风怪之难",
+     "evidence": "行者将那请灵吉降妖的事情，陈了一遍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄风怪之难",
+     "evidence": "今又冲撞大圣，陷害唐僧",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:17.701Z"
+}

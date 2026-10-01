@@ -1,0 +1,38 @@
+{
+ "no": 311,
+ "title": "象",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 253,
+   "entities": [
+    {
+     "name": "猎者",
+     "type": "Person",
+     "aliases": [
+      "猎人"
+     ],
+     "nickname": "",
+     "description": "粤中猎兽者，挟矢如山，助象杀狻猊"
+    },
+    {
+     "name": "狻猊",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "猛兽，择肥象欲搏噬，被猎者射杀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "猎者",
+     "predicate": "KILLED",
+     "object": "狻猊",
+     "evidence": "因望狻猊发一弩，狻猊立殪。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:09.232Z"
+}

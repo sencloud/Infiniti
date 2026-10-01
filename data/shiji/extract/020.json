@@ -1,0 +1,222 @@
+{
+ "no": 20,
+ "title": "建元以来侯者年表",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 488,
+   "entities": [
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "西汉史学家，著《史记》"
+    },
+    {
+     "name": "褚先生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西汉儒者，补记《史记》"
+    },
+    {
+     "name": "齐桓公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "春秋齐国君主，曾伐山戎"
+    },
+    {
+     "name": "赵武灵王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国赵国君主，服单于"
+    },
+    {
+     "name": "秦穆公",
+     "type": "Person",
+     "aliases": [
+      "秦缪"
+     ],
+     "nickname": "",
+     "description": "春秋秦国君主，用百里奚霸西戎"
+    },
+    {
+     "name": "龙雒侯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾任前将军，谦让谨信"
+    },
+    {
+     "name": "匈奴",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "北方游牧部族"
+    },
+    {
+     "name": "闽越",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "南方越人部族"
+    },
+    {
+     "name": "东瓯",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "南方越人部族"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉朝"
+    },
+    {
+     "name": "燕",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "赵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "吴",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "楚",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国"
+    },
+    {
+     "name": "百越",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "南方越人部族"
+    },
+    {
+     "name": "山戎",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "北方部族"
+    },
+    {
+     "name": "单于",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "匈奴首领"
+    },
+    {
+     "name": "晋六卿",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋国六卿家族"
+    },
+    {
+     "name": "前将军",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "武官名"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "司马迁",
+     "predicate": "HELD_OFFICE",
+     "object": "太史令",
+     "evidence": "太史公曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐桓公",
+     "predicate": "FOUGHT",
+     "object": "山戎",
+     "evidence": "齐桓越燕伐山戎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵武灵王",
+     "predicate": "DEFEATED",
+     "object": "单于",
+     "evidence": "武灵王以区区赵服单于",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦穆公",
+     "predicate": "DEFEATED",
+     "object": "西戎",
+     "evidence": "秦缪用百里霸西戎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴",
+     "predicate": "DEFEATED",
+     "object": "百越",
+     "evidence": "吴楚之君以诸侯役百越",
+     "confidence": 0.9
+    },
+    {
+     "subject": "楚",
+     "predicate": "DEFEATED",
+     "object": "百越",
+     "evidence": "吴楚之君以诸侯役百越",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汉",
+     "predicate": "FOUGHT",
+     "object": "匈奴",
+     "evidence": "遂出师北讨强胡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汉",
+     "predicate": "FOUGHT",
+     "object": "闽越",
+     "evidence": "南诛劲越",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龙雒侯",
+     "predicate": "HELD_OFFICE",
+     "object": "前将军",
+     "evidence": "夫龙雒侯曾为前将军",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:12.927Z"
+}

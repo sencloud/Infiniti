@@ -1,0 +1,50 @@
+{
+ "no": 271,
+ "title": "牛癀",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 643,
+   "entities": [
+    {
+     "name": "陈华封",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒙山人，养牛为业，《牛癀》篇主角"
+    },
+    {
+     "name": "蒙山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈华封籍贯地"
+    },
+    {
+     "name": "牛癀",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛瘟疫事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陈华封",
+     "predicate": "NATIVE_OF",
+     "object": "蒙山",
+     "evidence": "陈华封，蒙山人",
+     "confidence": 1
+    },
+    {
+     "subject": "牛癀",
+     "predicate": "OCCURRED_AT",
+     "object": "蒙山",
+     "evidence": "恐百里内牛无种矣",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:54.439Z"
+}

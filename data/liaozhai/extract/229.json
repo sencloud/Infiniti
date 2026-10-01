@@ -1,0 +1,138 @@
+{
+ "no": 229,
+ "title": "细侯",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1100,
+   "entities": [
+    {
+     "name": "满生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "昌化人，在馀杭设帐教书，与细侯相恋"
+    },
+    {
+     "name": "细侯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "娼楼贾氏女，与满生相恋，后嫁富贾"
+    },
+    {
+     "name": "贾某",
+     "type": "Person",
+     "aliases": [
+      "富贾某"
+     ],
+     "nickname": "",
+     "description": "富商，设计陷害满生，娶细侯为妻"
+    },
+    {
+     "name": "贾媪",
+     "type": "Person",
+     "aliases": [
+      "媪"
+     ],
+     "nickname": "",
+     "description": "细侯之母，娼楼鸨母"
+    },
+    {
+     "name": "馀杭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，满生设帐及故事发生地"
+    },
+    {
+     "name": "湖南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，满生南游谋事之地"
+    },
+    {
+     "name": "昌化",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，满生籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "满生",
+     "predicate": "LOVES",
+     "object": "细侯",
+     "evidence": "生大悦，即叮咛，坚相约。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "细侯",
+     "predicate": "LOVES",
+     "object": "满生",
+     "evidence": "妾虽污贱，每愿得同心而事之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "满生",
+     "predicate": "LIVES_AT",
+     "object": "馀杭",
+     "evidence": "昌化满生，设帐于馀杭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "满生",
+     "predicate": "NATIVE_OF",
+     "object": "昌化",
+     "evidence": "昌化满生，设帐于馀杭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾某",
+     "predicate": "HARMED",
+     "object": "满生",
+     "evidence": "贾以金赂当事吏，使久锢之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾某",
+     "predicate": "SPOUSE",
+     "object": "细侯",
+     "evidence": "细侯不得已，遂嫁贾。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "细侯",
+     "predicate": "KILLED",
+     "object": "贾某之子",
+     "evidence": "乘贾他出，杀抱中儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "细侯",
+     "predicate": "KIN",
+     "object": "贾媪",
+     "evidence": "我自幼于汝，抚育良劬。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "满生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "冤狱",
+     "evidence": "东翁痛子而讼其师，因被逮囹圄。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冤狱",
+     "predicate": "OCCURRED_AT",
+     "object": "湖南",
+     "evidence": "就邑中授徒焉。三年，莫能归。偶笞弟子，弟子自溺死。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:39.806Z"
+}

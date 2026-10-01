@@ -1,0 +1,176 @@
+{
+ "no": 254,
+ "title": "八大王",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2224,
+   "entities": [
+    {
+     "name": "冯生",
+     "type": "Person",
+     "aliases": [
+      "冯公子",
+      "冯某"
+     ],
+     "nickname": "",
+     "description": "临洮冯生，贵族后裔，家道中落"
+    },
+    {
+     "name": "肃府第三公主",
+     "type": "Person",
+     "aliases": [
+      "三公主",
+      "公主"
+     ],
+     "nickname": "",
+     "description": "肃庄王第三女，绝美"
+    },
+    {
+     "name": "冯生妻",
+     "type": "Person",
+     "aliases": [
+      "妻"
+     ],
+     "nickname": "",
+     "description": "冯生原配妻子"
+    },
+    {
+     "name": "王妃",
+     "type": "Person",
+     "aliases": [
+      "妃子"
+     ],
+     "nickname": "",
+     "description": "肃庄王妃子，公主之母"
+    },
+    {
+     "name": "肃庄王",
+     "type": "Person",
+     "aliases": [
+      "王"
+     ],
+     "nickname": "",
+     "description": "肃府王爷，公主之父"
+    },
+    {
+     "name": "临洮",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冯生籍贯地"
+    },
+    {
+     "name": "恒河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冯生遇八大王之处"
+    },
+    {
+     "name": "崆峒",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "公主游玩之山"
+    },
+    {
+     "name": "鳖宝",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "八大王所赠，可辨珠宝"
+    },
+    {
+     "name": "宝镜",
+     "type": "Item",
+     "aliases": [
+      "镜"
+     ],
+     "nickname": "",
+     "description": "背有凤钮，能留美人影"
+    },
+    {
+     "name": "珊瑚镜台",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "冯生妻献王妃之物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冯生",
+     "predicate": "NATIVE_OF",
+     "object": "临洮",
+     "evidence": "临洮冯生，盖贵介裔而陵夷矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯生",
+     "predicate": "OWNS",
+     "object": "鳖宝",
+     "evidence": "自念所获，必鳖宝也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯生",
+     "predicate": "OWNS",
+     "object": "宝镜",
+     "evidence": "得一镜，背有凤纽，环水云湘妃之图",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "肃府第三公主",
+     "evidence": "会主游崆峒，乃往伏山中，伺其下舆，照之而归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "肃府第三公主",
+     "predicate": "SPOUSE",
+     "object": "冯生",
+     "evidence": "王大喜，释生归，以公主嫔焉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯生妻",
+     "predicate": "SPOUSE",
+     "object": "冯生",
+     "evidence": "糟糠之妻不下堂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯生妻",
+     "predicate": "KIN",
+     "object": "肃府第三公主",
+     "evidence": "公主亦悦之，订为姊妹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "肃府第三公主",
+     "predicate": "KIN",
+     "object": "肃庄王",
+     "evidence": "肃府第三公主绝美",
+     "confidence": 0.9
+    },
+    {
+     "subject": "肃府第三公主",
+     "predicate": "KIN",
+     "object": "王妃",
+     "evidence": "妃子大忧，力言于王。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯生妻",
+     "predicate": "OWNS",
+     "object": "珊瑚镜台",
+     "evidence": "妻以珊瑚镜台纳妃",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:49.932Z"
+}

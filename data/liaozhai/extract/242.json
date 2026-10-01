@@ -1,0 +1,73 @@
+{
+ "no": 242,
+ "title": "阎罗",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 70,
+   "entities": [
+    {
+     "name": "徐星",
+     "type": "Person",
+     "aliases": [
+      "徐公星"
+     ],
+     "nickname": "",
+     "description": "沂州人，自称夜作阎罗王"
+    },
+    {
+     "name": "马生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂州州人，自称夜作阎罗王"
+    },
+    {
+     "name": "左萝石",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被马生送升天之人"
+    },
+    {
+     "name": "沂州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐星籍贯及故事发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "徐星",
+     "predicate": "NATIVE_OF",
+     "object": "沂州",
+     "evidence": "沂州徐公星",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马生",
+     "predicate": "NATIVE_OF",
+     "object": "沂州",
+     "evidence": "州有马生亦然",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐星",
+     "predicate": "FRIEND",
+     "object": "马生",
+     "evidence": "徐公闻之，访诸其家",
+     "confidence": 0.8
+    },
+    {
+     "subject": "马生",
+     "predicate": "HELPED",
+     "object": "左萝石",
+     "evidence": "但送左萝石升天",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:43.159Z"
+}

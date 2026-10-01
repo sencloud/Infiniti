@@ -1,0 +1,99 @@
+{
+ "no": 23,
+ "title": "僧孽",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 287,
+   "entities": [
+    {
+     "name": "张姓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《僧孽》中暴卒的凡人，其兄为僧"
+    },
+    {
+     "name": "鬼使",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《僧孽》中冥府鬼卒，误捉张姓"
+    },
+    {
+     "name": "冥王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《僧孽》中冥府阎王，审簿断案"
+    },
+    {
+     "name": "僧兄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《僧孽》中张姓之兄，兴福寺僧人"
+    },
+    {
+     "name": "兴福寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《僧孽》中僧兄所居寺庙"
+    },
+    {
+     "name": "冥狱",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《僧孽》中冥府地狱，有刀山剑树"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鬼使",
+     "predicate": "HARMED",
+     "object": "张姓",
+     "evidence": "张姓暴卒，随鬼使去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥王",
+     "predicate": "PUNISHED",
+     "object": "鬼使",
+     "evidence": "王稽簿，怒鬼使误捉，责令送归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鬼使",
+     "predicate": "HELPED",
+     "object": "张姓",
+     "evidence": "鬼导历九幽，刀山、剑树，一一指点",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张姓",
+     "predicate": "KIN",
+     "object": "僧兄",
+     "evidence": "近视，则其兄也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "僧兄",
+     "predicate": "LIVES_AT",
+     "object": "兴福寺",
+     "evidence": "时其兄居兴福寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张姓",
+     "predicate": "HELPED",
+     "object": "僧兄",
+     "evidence": "张因告以所见。僧大骇，乃戒荤酒",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:20.384Z"
+}

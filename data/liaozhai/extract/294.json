@@ -1,0 +1,194 @@
+{
+ "no": 294,
+ "title": "细柳",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2277,
+   "entities": [
+    {
+     "name": "细柳",
+     "type": "Person",
+     "aliases": [
+      "细柳娘",
+      "柳娘",
+      "细柳女"
+     ],
+     "nickname": "细柳",
+     "description": "中都士人女，高生之妻，聪慧善持家"
+    },
+    {
+     "name": "高生",
+     "type": "Person",
+     "aliases": [
+      "高公子",
+      "高郎"
+     ],
+     "nickname": "",
+     "description": "世家名士，细柳之夫，年二十五卒"
+    },
+    {
+     "name": "长福",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高生前妻遗孤，后中举登第"
+    },
+    {
+     "name": "长怙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "细柳亲生之子，后经商致富"
+    },
+    {
+     "name": "杨中丞",
+     "type": "Person",
+     "aliases": [
+      "中丞杨公"
+     ],
+     "nickname": "",
+     "description": "中丞，赏识长福，月给常廪"
+    },
+    {
+     "name": "李姬",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "洛阳名娼，窃长怙伪金告官"
+    },
+    {
+     "name": "中都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "细柳籍贯所在地"
+    },
+    {
+     "name": "洛阳",
+     "type": "Place",
+     "aliases": [
+      "洛"
+     ],
+     "nickname": "",
+     "description": "长怙经商远游之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "细柳",
+     "predicate": "SPOUSE",
+     "object": "高生",
+     "evidence": "时有高生者，世家名士，闻细柳之名，委禽焉。既醮，夫妇甚得。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "细柳",
+     "predicate": "KIN",
+     "object": "长福",
+     "evidence": "生前室遗孤，小字长福，时五岁，女抚养周至。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "细柳",
+     "predicate": "KIN",
+     "object": "长怙",
+     "evidence": "年馀，女产一子，名之长怙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高生",
+     "predicate": "KIN",
+     "object": "长福",
+     "evidence": "生前室遗孤，小字长福，时五岁，女抚养周至。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高生",
+     "predicate": "KIN",
+     "object": "长怙",
+     "evidence": "年馀，女产一子，名之长怙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "长福",
+     "predicate": "KIN",
+     "object": "长怙",
+     "evidence": "令与弟怙同师。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "细柳",
+     "predicate": "LIVES_AT",
+     "object": "中都",
+     "evidence": "细柳娘，中都之士人女也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "细柳",
+     "predicate": "NATIVE_OF",
+     "object": "中都",
+     "evidence": "细柳娘，中都之士人女也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "长怙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "洛阳之行",
+     "evidence": "将从诸贾入洛。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "洛阳之行",
+     "predicate": "OCCURRED_AT",
+     "object": "洛阳",
+     "evidence": "将从诸贾入洛。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "长怙",
+     "predicate": "LIVES_AT",
+     "object": "李姬之家",
+     "evidence": "宿名娼李姬之家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李姬",
+     "predicate": "HARMED",
+     "object": "长怙",
+     "evidence": "则姬已窃伪金去首公庭矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "长福",
+     "predicate": "HELPED",
+     "object": "长怙",
+     "evidence": "福立刻而发，比入洛，则弟被逮三日矣。即狱中而望之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨中丞",
+     "predicate": "HELPED",
+     "object": "长福",
+     "evidence": "中丞杨公，见其文而器之，月给常廪，以助灯火。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "细柳",
+     "predicate": "HELPED",
+     "object": "长福",
+     "evidence": "濯发授衣，令与弟怙同师。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "细柳",
+     "predicate": "HELPED",
+     "object": "长怙",
+     "evidence": "并力质贷而付之，半载而息倍焉。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:06.285Z"
+}

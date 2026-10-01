@@ -1,0 +1,114 @@
+{
+ "no": 171,
+ "title": "武技",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 638,
+   "entities": [
+    {
+     "name": "李超",
+     "type": "Person",
+     "aliases": [
+      "李魁吾"
+     ],
+     "nickname": "魁吾",
+     "description": "淄川西郊人，豪爽好施，从憨和尚学武"
+    },
+    {
+     "name": "憨和尚",
+     "type": "Person",
+     "aliases": [
+      "僧"
+     ],
+     "nickname": "",
+     "description": "少林僧人，李超之师，武艺高强"
+    },
+    {
+     "name": "少年尼僧",
+     "type": "Person",
+     "aliases": [
+      "尼"
+     ],
+     "nickname": "",
+     "description": "历下卖艺尼姑，武艺高强，识少林宗派"
+    },
+    {
+     "name": "淄",
+     "type": "Place",
+     "aliases": [
+      "淄川"
+     ],
+     "nickname": "",
+     "description": "李超籍贯地"
+    },
+    {
+     "name": "历下",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李超遇尼僧卖艺之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李超",
+     "predicate": "NATIVE_OF",
+     "object": "淄",
+     "evidence": "李超，字魁吾，淄之西鄙人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "憨和尚",
+     "predicate": "HELPED",
+     "object": "李超",
+     "evidence": "有薄技，请以相授",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李超",
+     "predicate": "HELPED",
+     "object": "憨和尚",
+     "evidence": "李饱啖之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李超",
+     "predicate": "FRIEND",
+     "object": "憨和尚",
+     "evidence": "馆之客舍，丰其给，旦夕从学",
+     "confidence": 0.85
+    },
+    {
+     "subject": "李超",
+     "predicate": "HARMED",
+     "object": "少年尼僧",
+     "evidence": "李腾一踝去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "少年尼僧",
+     "predicate": "HARMED",
+     "object": "李超",
+     "evidence": "尼骈五指下削其股，李觉膝下如中刀斧，蹶仆不能起",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李超",
+     "predicate": "PARTICIPATED_IN",
+     "object": "历下比武",
+     "evidence": "李在侧，不觉技痒，意气而进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "历下比武",
+     "predicate": "OCCURRED_AT",
+     "object": "历下",
+     "evidence": "偶适历下，见一少年尼僧，弄艺于场",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:18.351Z"
+}

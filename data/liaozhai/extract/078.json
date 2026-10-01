@@ -1,0 +1,57 @@
+{
+ "no": 78,
+ "title": "狐联",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 227,
+   "entities": [
+    {
+     "name": "焦生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "章丘石虹先生叔弟，读书园中"
+    },
+    {
+     "name": "狐女长者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐联篇中约十七八岁狐女"
+    },
+    {
+     "name": "狐女幼者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐联篇中约十四五岁狐女"
+    },
+    {
+     "name": "李司寇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长山人，讲述此事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "狐女长者",
+     "predicate": "HARMED",
+     "object": "焦生",
+     "evidence": "有二美人来，颜色双绝……抚几展笑。焦知其狐，正色拒之。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "狐女幼者",
+     "predicate": "HARMED",
+     "object": "焦生",
+     "evidence": "有二美人来，颜色双绝……抚几展笑。焦知其狐，正色拒之。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:41.303Z"
+}

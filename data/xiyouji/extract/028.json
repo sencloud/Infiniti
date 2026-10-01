@@ -1,0 +1,549 @@
+{
+ "no": 28,
+ "title": "花果山群妖聚义 黑松林三藏逢魔",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5875,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "被唐僧逐赶，回到花果山，作法杀猎户。"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "被孙悟空保护西行，在黑松林被黄袍怪捉住。"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧徒弟，化斋时睡觉，后与沙僧寻师。"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧徒弟，寻找八戒和师父。"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "未直接出场，但被提及。"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎王",
+     "description": "未直接出场，仅比喻提及。"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王",
+      "东海敖广"
+     ],
+     "nickname": "东海龙王",
+     "description": "孙悟空向其借甘霖仙水洗山。"
+    },
+    {
+     "name": "西海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖闰",
+      "龙王",
+      "西海敖闰"
+     ],
+     "nickname": "西海龙王",
+     "description": "四海龙王之一，孙悟空借水。"
+    },
+    {
+     "name": "南海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖钦",
+      "龙王",
+      "南海敖钦"
+     ],
+     "nickname": "南海龙王",
+     "description": "四海龙王之一，孙悟空借水。"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "北海龙王",
+     "description": "四海龙王之一，孙悟空借水。"
+    },
+    {
+     "name": "黄袍怪",
+     "type": "Person",
+     "aliases": [
+      "老妖",
+      "妖魔",
+      "奎木狼"
+     ],
+     "nickname": "黄袍怪",
+     "description": "碗子山波月洞妖怪，捉住唐僧。"
+    },
+    {
+     "name": "马流",
+     "type": "Person",
+     "aliases": [
+      "马流元帅"
+     ],
+     "nickname": "马流",
+     "description": "花果山马流二元帅之一。"
+    },
+    {
+     "name": "奔芭",
+     "type": "Person",
+     "aliases": [
+      "奔芭将军"
+     ],
+     "nickname": "奔芭",
+     "description": "花果山奔芭二将军之一。"
+    },
+    {
+     "name": "花果山",
+     "type": "Organization",
+     "aliases": [
+      "水帘洞"
+     ],
+     "nickname": "",
+     "description": "孙悟空的老巢，被二郎神烧坏后重建。"
+    },
+    {
+     "name": "碗子山波月洞",
+     "type": "Organization",
+     "aliases": [
+      "波月洞"
+     ],
+     "nickname": "",
+     "description": "黄袍怪的妖洞。"
+    },
+    {
+     "name": "黑松林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒经过的松林，唐僧在此被捉。"
+    },
+    {
+     "name": "白虎岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒经过的山岭。"
+    },
+    {
+     "name": "东洋大海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空回花果山时经过的大海。"
+    },
+    {
+     "name": "宝塔",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "波月洞外的宝塔，唐僧误入。"
+    },
+    {
+     "name": "贬书",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧写给孙悟空的贬书，证明断绝师徒关系。"
+    },
+    {
+     "name": "杂彩花旗",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空用猎户旗号改做的旗帜，上书“重修花果山复整水帘洞齐天大圣”。"
+    },
+    {
+     "name": "钉钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒的兵器。"
+    },
+    {
+     "name": "宝杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧的兵器。"
+    },
+    {
+     "name": "锡杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧的锡杖。"
+    },
+    {
+     "name": "钵盂",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "化斋用的钵盂。"
+    },
+    {
+     "name": "花果山群妖聚义",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空回花果山，重聚群妖，杀猎户。"
+    },
+    {
+     "name": "黑松林三藏逢魔",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧在黑松林被黄袍怪捉住。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "花果山",
+     "evidence": "那行者将身一纵，跳过了东洋大海，早至花果山。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "花果山",
+     "evidence": "重修花果山复整水帘洞齐天大圣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "花果山群妖聚义",
+     "evidence": "大圣吩咐：小的们，都出去把那山上烧酥了的碎石头与我搬将起来堆着。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "猎户",
+     "evidence": "可怜把那些千余人马，一个个石打乌头粉碎，沙飞海马俱伤。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "杂彩花旗",
+     "evidence": "那大圣把旗拆洗，总斗做一面杂彩花旗，上写着“重修花果山复整水帘洞齐天大圣”十四字",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "贬书",
+     "evidence": "写立贬书为照，永不听用了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "东海龙王",
+     "evidence": "便去四海龙王，借些甘霖仙水，把山洗青了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "西海龙王",
+     "evidence": "便去四海龙王，借些甘霖仙水，把山洗青了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "南海龙王",
+     "evidence": "便去四海龙王，借些甘霖仙水，把山洗青了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "北海龙王",
+     "evidence": "便去四海龙王，借些甘霖仙水，把山洗青了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黑松林三藏逢魔",
+     "evidence": "被那些小妖，平抬将去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "被那些小妖，平抬将去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "STATIONED_AT",
+     "object": "碗子山波月洞",
+     "evidence": "碗子山波月洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑松林三藏逢魔",
+     "predicate": "OCCURRED_AT",
+     "object": "黑松林",
+     "evidence": "却说长老在那林间，耳热眼跳，身心不安",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "他使钉钯开路",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "宝杖",
+     "evidence": "沙僧绰了宝杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "锡杖",
+     "evidence": "插定了锡杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钵盂",
+     "evidence": "取出钵盂，递与八戒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "钵盂",
+     "evidence": "取出钵盂，递与八戒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马流",
+     "predicate": "MEMBER_OF",
+     "object": "花果山",
+     "evidence": "还有马流二元帅，奔芭二将军管着哩。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "奔芭",
+     "predicate": "MEMBER_OF",
+     "object": "花果山",
+     "evidence": "还有马流二元帅，奔芭二将军管着哩。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "那唐三藏不识贤愚。我为他一路上捉怪擒魔",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "那唐三藏不识贤愚。我为他一路上捉怪擒魔",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "师父教你化斋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "师父教你化斋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "虽被唐僧逐赶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "早至花果山",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 571,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "大唐高僧，西天取经的师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "",
+     "description": "唐僧的二徒弟，使九齿钉钯"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "唐僧的三徒弟，使宝杖"
+    },
+    {
+     "name": "黄袍老怪",
+     "type": "Person",
+     "aliases": [
+      "黄袍"
+     ],
+     "nickname": "黄袍",
+     "description": "青脸红须的妖魔，使钢刀，捉了唐僧"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我师父是那御弟三藏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "一个为师父，断然不怕。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "黄袍老怪",
+     "evidence": "掣钉钯，望妖怪劈脸就筑。那怪物侧身躲过，使钢刀急架相迎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "黄袍老怪",
+     "evidence": "沙僧撇了行李白马，举宝杖，急急帮攻。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍老怪",
+     "predicate": "OWNS",
+     "object": "钢刀",
+     "evidence": "使钢刀急架相迎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "宝杖",
+     "evidence": "举宝杖，急急帮攻。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:28.867Z"
+}

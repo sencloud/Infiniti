@@ -1,0 +1,295 @@
+{
+ "no": 447,
+ "title": "大男",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1957,
+   "entities": [
+    {
+     "name": "奚成列",
+     "type": "Person",
+     "aliases": [
+      "奚生"
+     ],
+     "nickname": "",
+     "description": "成都士人，后弃儒经商"
+    },
+    {
+     "name": "何昭容",
+     "type": "Person",
+     "aliases": [
+      "何氏"
+     ],
+     "nickname": "昭容",
+     "description": "奚成列之妾，大男生母"
+    },
+    {
+     "name": "申氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "奚成列继妻，性妒"
+    },
+    {
+     "name": "大男",
+     "type": "Person",
+     "aliases": [
+      "陈公",
+      "陈嗣宗"
+     ],
+     "nickname": "",
+     "description": "奚成列与何氏之子，后为盐亭县令"
+    },
+    {
+     "name": "钱某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "夔州途中骗卖大男之人"
+    },
+    {
+     "name": "蒋秀才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泸州秀才，落第归，携大男同行"
+    },
+    {
+     "name": "陈翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "永福富商，收留大男"
+    },
+    {
+     "name": "申苞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "申氏之兄，劝妹改嫁"
+    },
+    {
+     "name": "保宁贾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "保宁商人，娶申氏后转卖"
+    },
+    {
+     "name": "重庆贾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "重庆商人，强买何氏"
+    },
+    {
+     "name": "盐亭贾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盐亭商人，转买何氏后赠奚生"
+    },
+    {
+     "name": "成都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "奚成列籍贯地"
+    },
+    {
+     "name": "夔州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "钱某欲往之地"
+    },
+    {
+     "name": "泸州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋秀才家乡"
+    },
+    {
+     "name": "盐亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大男任县令之地"
+    },
+    {
+     "name": "永福",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈翁家乡"
+    },
+    {
+     "name": "保宁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "保宁贾所在地"
+    },
+    {
+     "name": "重庆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "重庆贾所在地"
+    },
+    {
+     "name": "关帝庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大男上学途经之庙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "奚成列",
+     "predicate": "SPOUSE",
+     "object": "何昭容",
+     "evidence": "有一妻一妾。妾何氏，小字昭容。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "奚成列",
+     "predicate": "SPOUSE",
+     "object": "申氏",
+     "evidence": "妻早没，继娶申氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "奚成列",
+     "predicate": "KIN",
+     "object": "大男",
+     "evidence": "奚怒，亡去。去后，何生一子大男。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何昭容",
+     "predicate": "KIN",
+     "object": "大男",
+     "evidence": "何生一子大男",
+     "confidence": 0.95
+    },
+    {
+     "subject": "申氏",
+     "predicate": "HARMED",
+     "object": "何昭容",
+     "evidence": "性妒，虐遇何",
+     "confidence": 0.95
+    },
+    {
+     "subject": "申氏",
+     "predicate": "HARMED",
+     "object": "奚成列",
+     "evidence": "因并及奚。终日哓聒，恒不聊生。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "钱某",
+     "predicate": "HARMED",
+     "object": "大男",
+     "evidence": "钱阴投毒食中，大男瞑不觉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钱某",
+     "predicate": "KILLED",
+     "object": "大男",
+     "evidence": "钱阴投毒食中，大男瞑不觉。",
+     "confidence": 0.5
+    },
+    {
+     "subject": "蒋秀才",
+     "predicate": "HELPED",
+     "object": "大男",
+     "evidence": "嘉其孝，携与同行。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈翁",
+     "predicate": "HELPED",
+     "object": "大男",
+     "evidence": "适有永福陈翁过其地，脱其缚，载归其家。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "申氏",
+     "predicate": "HARMED",
+     "object": "何昭容",
+     "evidence": "申氏减其费，抑勒令嫁。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "重庆贾",
+     "predicate": "HARMED",
+     "object": "何昭容",
+     "evidence": "申强卖于重庆贾，贾劫取而去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "盐亭贾",
+     "predicate": "HARMED",
+     "object": "何昭容",
+     "evidence": "又转鬻于盐亭贾。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "盐亭贾",
+     "predicate": "HELPED",
+     "object": "奚成列",
+     "evidence": "贾以其无妇，故赠之也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "申苞",
+     "predicate": "HELPED",
+     "object": "申氏",
+     "evidence": "兄苞劝令再适，申从之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "保宁贾",
+     "predicate": "HARMED",
+     "object": "申氏",
+     "evidence": "以多金啖苞，赚娶之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大男",
+     "predicate": "PUNISHED",
+     "object": "申苞",
+     "evidence": "重笞苞。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "奚成列",
+     "predicate": "LIVES_AT",
+     "object": "成都",
+     "evidence": "奚成列，成都士人也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大男",
+     "predicate": "LIVES_AT",
+     "object": "盐亭",
+     "evidence": "会陈公嗣宗宰盐亭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大男",
+     "predicate": "PARTICIPATED_IN",
+     "object": "关帝庙",
+     "evidence": "路经关帝庙，当拜之",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:05.331Z"
+}

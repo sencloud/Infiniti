@@ -1,0 +1,289 @@
+{
+ "no": 83,
+ "title": "9.3 公式法",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6195,
+   "entities": [
+    {
+     "name": "因式分解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把一个多项式化为几个整式的积的形式"
+    },
+    {
+     "name": "乘法公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "平方差公式和完全平方公式等"
+    },
+    {
+     "name": "平方差公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a^2-b^2=(a+b)(a-b)"
+    },
+    {
+     "name": "完全平方公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a^2±2ab+b^2=(a±b)^2"
+    },
+    {
+     "name": "公式法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "逆向使用乘法公式进行因式分解的方法"
+    },
+    {
+     "name": "提公因式法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "提取公因式进行因式分解的方法"
+    },
+    {
+     "name": "配方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "配出完全平方再进行因式分解的方法"
+    },
+    {
+     "name": "整式乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式的乘法运算"
+    },
+    {
+     "name": "二次三项式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如ax^2+bx+c的多项式"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乘法公式",
+     "predicate": "PREREQUISITE",
+     "object": "公式法",
+     "evidence": "前面我们学习了乘法公式……逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平方差公式",
+     "predicate": "PREREQUISITE",
+     "object": "公式法",
+     "evidence": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "完全平方公式",
+     "predicate": "PREREQUISITE",
+     "object": "公式法",
+     "evidence": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公式法",
+     "predicate": "INCLUDES",
+     "object": "平方差公式",
+     "evidence": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公式法",
+     "predicate": "INCLUDES",
+     "object": "完全平方公式",
+     "evidence": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "因式分解",
+     "predicate": "INCLUDES",
+     "object": "提公因式法",
+     "evidence": "由整式乘法的法则和公式得到了因式分解的方法：提公因式法和公式法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "因式分解",
+     "predicate": "INCLUDES",
+     "object": "公式法",
+     "evidence": "由整式乘法的法则和公式得到了因式分解的方法：提公因式法和公式法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "因式分解",
+     "predicate": "INCLUDES",
+     "object": "配方法",
+     "evidence": "对于某些二次三项式ax^2+bx+c，我们可以运用完全平方公式“配”出一个完全平方，再进行因式分解，这种方法称作“配方法”。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式乘法",
+     "predicate": "CONTRASTS",
+     "object": "因式分解",
+     "evidence": "因式分解与整式乘法是互逆的过程",
+     "confidence": 0.95
+    },
+    {
+     "subject": "配方法",
+     "predicate": "APPLIES_TO",
+     "object": "二次三项式",
+     "evidence": "对于某些二次三项式ax^2+bx+c，我们可以运用完全平方公式“配”出一个完全平方，再进行因式分解，这种方法称作“配方法”。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平方差公式",
+     "predicate": "PROPERTY_OF",
+     "object": "因式分解",
+     "evidence": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "完全平方公式",
+     "predicate": "PROPERTY_OF",
+     "object": "因式分解",
+     "evidence": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 534,
+   "entities": [
+    {
+     "name": "因式分解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把一个多项式化为几个整式的积的形式"
+    },
+    {
+     "name": "公式法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用乘法公式进行因式分解的方法"
+    },
+    {
+     "name": "平方差公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a²-b²=(a+b)(a-b)"
+    },
+    {
+     "name": "完全平方公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a²±2ab+b²=(a±b)²"
+    },
+    {
+     "name": "提公因式法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "提取多项式各项公因式进行因式分解的方法"
+    },
+    {
+     "name": "多项式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "几个单项式的和"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等、四个角都是直角的四边形"
+    },
+    {
+     "name": "正方体",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "六个面都是全等正方形的立体图形"
+    },
+    {
+     "name": "体积",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "物体所占空间的大小"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "因式分解",
+     "predicate": "PREREQUISITE",
+     "object": "公式法",
+     "evidence": "9.3 公式法",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平方差公式",
+     "predicate": "APPLIES_TO",
+     "object": "因式分解",
+     "evidence": "利用体积关系分解因式 a^3-b^3",
+     "confidence": 0.8
+    },
+    {
+     "subject": "完全平方公式",
+     "predicate": "APPLIES_TO",
+     "object": "因式分解",
+     "evidence": "分解因式 a^2+3ab+2b^2",
+     "confidence": 0.8
+    },
+    {
+     "subject": "提公因式法",
+     "predicate": "APPLIES_TO",
+     "object": "因式分解",
+     "evidence": "求 2a^2b+2ab^2 的值",
+     "confidence": 0.7
+    },
+    {
+     "subject": "因式分解",
+     "predicate": "APPLIES_TO",
+     "object": "多项式",
+     "evidence": "写出两个多项式，使它们都有因式 x 和 x+2",
+     "confidence": 0.8
+    },
+    {
+     "subject": "正方形",
+     "predicate": "RELATED",
+     "object": "因式分解",
+     "evidence": "已知两个正方形边长的和是 20 cm，它们面积的差是 40 cm^2。求这两个正方形的边长。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "正方体",
+     "predicate": "RELATED",
+     "object": "因式分解",
+     "evidence": "在棱长为 a 的正方体的一个角上挖去棱长为 b 的正方体，试将其分割成三个长方体，利用体积关系分解因式 a^3-b^3。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "体积",
+     "predicate": "RELATED",
+     "object": "因式分解",
+     "evidence": "利用体积关系分解因式 a^3-b^3",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:09.869Z"
+}

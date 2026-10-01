@@ -1,0 +1,110 @@
+{
+ "no": 1,
+ "title": "考城隍",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 594,
+   "entities": [
+    {
+     "name": "宋焘",
+     "type": "Person",
+     "aliases": [
+      "宋公",
+      "宋生"
+     ],
+     "nickname": "",
+     "description": "《考城隍》中邑廪生，被召赴阴间考城隍"
+    },
+    {
+     "name": "张生",
+     "type": "Person",
+     "aliases": [
+      "张秀才",
+      "长山张某"
+     ],
+     "nickname": "",
+     "description": "《考城隍》中长山秀才，代宋焘摄城隍九年"
+    },
+    {
+     "name": "关壮缪",
+     "type": "Spirit",
+     "aliases": [
+      "关帝",
+      "关圣帝君"
+     ],
+     "nickname": "",
+     "description": "《考城隍》中阴间考官，即关羽神"
+    },
+    {
+     "name": "宋母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《考城隍》中宋焘之母，年七十，九年后卒"
+    },
+    {
+     "name": "城隍",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《考城隍》中宋焘被任命为河南城隍"
+    },
+    {
+     "name": "阴间考场",
+     "type": "Place",
+     "aliases": [
+      "府廨"
+     ],
+     "nickname": "",
+     "description": "《考城隍》中宋焘赴试的宫殿"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《考城隍》中张生的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋焘",
+     "predicate": "KIN",
+     "object": "宋母",
+     "evidence": "但老母七旬，奉养无人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋焘",
+     "predicate": "PARTICIPATED_IN",
+     "object": "城隍",
+     "evidence": "河南缺一城隍，君称其职",
+     "confidence": 0.95
+    },
+    {
+     "subject": "城隍",
+     "predicate": "OCCURRED_AT",
+     "object": "阴间考场",
+     "evidence": "至一城郭，如王者都。移时入府廨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张生",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "自言长山张某",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关壮缪",
+     "predicate": "HELPED",
+     "object": "宋焘",
+     "evidence": "不妨令张生摄篆九年，瓜代可也",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:15.731Z"
+}

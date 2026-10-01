@@ -1,0 +1,183 @@
+{
+ "no": 395,
+ "title": "湘裙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2831,
+   "entities": [
+    {
+     "name": "晏仲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕西延安人，与兄晏伯友爱，后娶鬼女湘裙"
+    },
+    {
+     "name": "晏伯",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏仲之兄，三十而卒，在阴间有妾甘氏及子阿大、阿小"
+    },
+    {
+     "name": "湘裙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏伯妾甘氏之妹，寄养十年，后嫁晏仲为妻"
+    },
+    {
+     "name": "甘氏",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏伯之妾，生阿大、阿小，湘裙之姊"
+    },
+    {
+     "name": "阿小",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏伯与甘氏次子，随晏仲回阳间，后渐成生人"
+    },
+    {
+     "name": "阿大",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏伯与甘氏长子，曾陪差役饮酒"
+    },
+    {
+     "name": "葳灵仙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间邻女，貌美善修饰，与晏仲欢会致其病"
+    },
+    {
+     "name": "梁生",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏仲故窗友，已死，邀晏仲至其家"
+    },
+    {
+     "name": "陕西延安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏仲籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "晏仲",
+     "predicate": "KIN",
+     "object": "晏伯",
+     "evidence": "晏仲，陕西延安人，与兄伯同居，友爱敦笃。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏伯",
+     "predicate": "SPOUSE",
+     "object": "甘氏",
+     "evidence": "此汝兄妾甘氏，生两男矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏伯",
+     "predicate": "KIN",
+     "object": "阿大",
+     "evidence": "伯呼阿大，令拜叔。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏伯",
+     "predicate": "KIN",
+     "object": "阿小",
+     "evidence": "汝所见者阿小。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘氏",
+     "predicate": "KIN",
+     "object": "阿大",
+     "evidence": "此汝兄妾甘氏，生两男矣。长阿大，赴市未返，汝所见者阿小。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘氏",
+     "predicate": "KIN",
+     "object": "阿小",
+     "evidence": "此汝兄妾甘氏，生两男矣。长阿大，赴市未返，汝所见者阿小。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘氏",
+     "predicate": "KIN",
+     "object": "湘裙",
+     "evidence": "此名湘裙，吾妾妹也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏仲",
+     "predicate": "SPOUSE",
+     "object": "湘裙",
+     "evidence": "遂与交拜成礼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏仲",
+     "predicate": "LIVES_AT",
+     "object": "陕西延安",
+     "evidence": "晏仲，陕西延安人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏仲",
+     "predicate": "NATIVE_OF",
+     "object": "陕西延安",
+     "evidence": "晏仲，陕西延安人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏仲",
+     "predicate": "FRIEND",
+     "object": "梁生",
+     "evidence": "途中遇故窗友梁生，握手殷殷，邀过其家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晏仲",
+     "predicate": "HELPED",
+     "object": "晏伯",
+     "evidence": "仲怒，奋拳直入，当者尽踣。急救兄起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晏伯",
+     "predicate": "HELPED",
+     "object": "晏仲",
+     "evidence": "乃出白金一裹，谓隶曰：'姑笑纳之。吾弟罪不应死，请释归'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "葳灵仙",
+     "predicate": "HARMED",
+     "object": "晏仲",
+     "evidence": "月馀，仲病不起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晏伯",
+     "predicate": "PUNISHED",
+     "object": "葳灵仙",
+     "evidence": "伯揪返骂曰：'淫婢！生为荡妇，死为贱鬼，不齿群众久矣，又祟吾弟耶！'立批之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:41.531Z"
+}

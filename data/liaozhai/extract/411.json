@@ -1,0 +1,92 @@
+{
+ "no": 411,
+ "title": "恒娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1542,
+   "entities": [
+    {
+     "name": "洪大业",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《恒娘》中京城人，朱氏之夫，纳宝带为妾"
+    },
+    {
+     "name": "朱氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《恒娘》中洪大业之妻，向恒娘学固宠之术"
+    },
+    {
+     "name": "宝带",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《恒娘》中洪家婢女，后为洪大业之妾"
+    },
+    {
+     "name": "恒娘",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《恒娘》中狄姓布商之妻，实为狐"
+    },
+    {
+     "name": "狄姓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《恒娘》中帛商，恒娘之夫"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "洪大业",
+     "predicate": "SPOUSE",
+     "object": "朱氏",
+     "evidence": "洪大业，都中人。妻朱氏，姿致颇佳，两相爱悦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "洪大业",
+     "predicate": "SPOUSE",
+     "object": "宝带",
+     "evidence": "后洪纳婢宝带为妾",
+     "confidence": 0.95
+    },
+    {
+     "subject": "恒娘",
+     "predicate": "SPOUSE",
+     "object": "狄姓",
+     "evidence": "与帛商狄姓者为邻。狄妻恒娘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "恒娘",
+     "predicate": "HELPED",
+     "object": "朱氏",
+     "evidence": "恒娘曰：“嘻！子则自疏，而尤男子乎？……一月后，当再为子谋之。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱氏",
+     "predicate": "FRIEND",
+     "object": "恒娘",
+     "evidence": "朱大悦，遂为闺中之密友。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "洪大业",
+     "predicate": "HARMED",
+     "object": "宝带",
+     "evidence": "洪益厌怒之，渐施鞭楚。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:46.828Z"
+}

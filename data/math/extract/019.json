@@ -1,0 +1,113 @@
+{
+ "no": 19,
+ "title": "5.3 转化 表达",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1590,
+   "entities": [
+    {
+     "name": "空间几何体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "三维空间中的几何体"
+    },
+    {
+     "name": "平面直观图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用平面图形表示空间几何体的图形"
+    },
+    {
+     "name": "平面展开图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "将空间几何体表面展开成平面图形"
+    },
+    {
+     "name": "正方体",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "六个面都是正方形的立体图形"
+    },
+    {
+     "name": "长方体",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "六个面都是长方形的立体图形"
+    },
+    {
+     "name": "圆柱",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两个平行圆面和一个曲面组成的几何体"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "数与形相互转化的数学思想方法"
+    },
+    {
+     "name": "转化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将问题转换为另一种形式求解的思想"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平面直观图",
+     "predicate": "APPLIES_TO",
+     "object": "空间几何体",
+     "evidence": "数学中，我们一般通过平面直观图表示一个空间几何体。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平面展开图",
+     "predicate": "APPLIES_TO",
+     "object": "空间几何体",
+     "evidence": "我们也可以用平面展开图研究一个空间几何体。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正方体",
+     "predicate": "INCLUDES",
+     "object": "平面展开图",
+     "evidence": "画出正方体纸盒（图5-6）的平面直观图。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "长方体",
+     "predicate": "INCLUDES",
+     "object": "平面展开图",
+     "evidence": "把一个装墨水瓶的长方体纸盒沿某些棱剪开，铺平后得到一个平面展开图。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "圆柱",
+     "predicate": "INCLUDES",
+     "object": "平面展开图",
+     "evidence": "将无盖圆柱形纸筒的侧面沿虚线剪开（图5-8），得到什么平面图形？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "RELATED",
+     "object": "转化",
+     "evidence": "在数学中，数与形之间也可以相互转化。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:37.738Z"
+}

@@ -1,0 +1,122 @@
+{
+ "no": 81,
+ "title": "9.1 因式分解的概念",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2287,
+   "entities": [
+    {
+     "name": "因式分解",
+     "type": "Concept",
+     "aliases": [
+      "分解因式"
+     ],
+     "nickname": "",
+     "description": "把一个多项式表示成几个整式的乘积形式"
+    },
+    {
+     "name": "整式乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式的乘法运算"
+    },
+    {
+     "name": "提公因式法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "提取公因式进行因式分解的方法"
+    },
+    {
+     "name": "公式法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "逆用乘法公式进行因式分解的方法"
+    },
+    {
+     "name": "乘法分配律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a(b+c)=ab+ac"
+    },
+    {
+     "name": "乘法公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "如平方差公式、完全平方公式等"
+    },
+    {
+     "name": "质因数分解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把一个合数分解为质数的乘积形式"
+    },
+    {
+     "name": "分式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母中含有字母的代数式"
+    },
+    {
+     "name": "解方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求方程解的过程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "整式乘法",
+     "predicate": "RELATED",
+     "object": "因式分解",
+     "evidence": "因式分解与整式乘法具有互逆性",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘法分配律",
+     "predicate": "PREREQUISITE",
+     "object": "提公因式法",
+     "evidence": "一是提公因式法，依据是乘法的分配律",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘法公式",
+     "predicate": "PREREQUISITE",
+     "object": "公式法",
+     "evidence": "二是公式法，是对乘法公式的逆向运用",
+     "confidence": 0.95
+    },
+    {
+     "subject": "因式分解",
+     "predicate": "PREREQUISITE",
+     "object": "分式",
+     "evidence": "因式分解是后续学习分式、解方程等相关内容的基础",
+     "confidence": 0.95
+    },
+    {
+     "subject": "因式分解",
+     "predicate": "PREREQUISITE",
+     "object": "解方程",
+     "evidence": "因式分解是后续学习分式、解方程等相关内容的基础",
+     "confidence": 0.95
+    },
+    {
+     "subject": "质因数分解",
+     "predicate": "RELATED",
+     "object": "因式分解",
+     "evidence": "与质因数分解类似！",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:05.198Z"
+}

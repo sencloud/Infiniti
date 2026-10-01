@@ -1,0 +1,519 @@
+{
+ "no": 44,
+ "title": "法身元运逢车力 心正妖邪度脊关",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5977,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大，专救人间灾害。"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "大唐圣僧，奉旨西天取经。"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，曾为天蓬元帅。"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，曾为卷帘大将。"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "佛教菩萨，取经工程护法。"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "太白金星",
+     "description": "天庭神仙，常托梦点化凡人。"
+    },
+    {
+     "name": "虎力大仙",
+     "type": "Person",
+     "aliases": [
+      "虎力"
+     ],
+     "nickname": "虎力大仙",
+     "description": "车迟国三位国师之一，能呼风唤雨。"
+    },
+    {
+     "name": "鹿力大仙",
+     "type": "Person",
+     "aliases": [
+      "鹿力"
+     ],
+     "nickname": "鹿力大仙",
+     "description": "车迟国三位国师之一。"
+    },
+    {
+     "name": "羊力大仙",
+     "type": "Person",
+     "aliases": [
+      "羊力"
+     ],
+     "nickname": "羊力大仙",
+     "description": "车迟国三位国师之一。"
+    },
+    {
+     "name": "车迟国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "敬道灭僧的国度，国王好道爱贤。"
+    },
+    {
+     "name": "智渊寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国敕建寺院，先王太祖御造。"
+    },
+    {
+     "name": "三清观",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国道士兴盖的道观。"
+    },
+    {
+     "name": "车迟国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西方路上敬道灭僧的城池。"
+    },
+    {
+     "name": "智渊寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国城中敕建寺院。"
+    },
+    {
+     "name": "夹脊关",
+     "type": "Place",
+     "aliases": [
+      "夹脊小路",
+      "双关"
+     ],
+     "nickname": "",
+     "description": "车迟国城门外陡崖上的关隘。"
+    },
+    {
+     "name": "黑水河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "师徒西行经过的河流。"
+    },
+    {
+     "name": "车迟国斗法",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空与车迟国三仙斗法，救僧灭道。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我是大唐圣僧徒弟孙悟空行者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "教猪八戒引马投西",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "沙僧道：也就如雷声霹雳。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "车迟国",
+     "evidence": "行者道：我是大唐圣僧徒弟孙悟空行者，特特来此救你们性命。",
+     "confidence": 0.5
+    },
+    {
+     "subject": "虎力大仙",
+     "predicate": "LEADS",
+     "object": "三清观",
+     "evidence": "如今兴盖三清观宇，对天地昼夜看经忏悔",
+     "confidence": 0.8
+    },
+    {
+     "subject": "鹿力大仙",
+     "predicate": "LEADS",
+     "object": "三清观",
+     "evidence": "二师父，鹿力大仙",
+     "confidence": 0.8
+    },
+    {
+     "subject": "羊力大仙",
+     "predicate": "LEADS",
+     "object": "三清观",
+     "evidence": "三师父，羊力大仙",
+     "confidence": 0.8
+    },
+    {
+     "subject": "虎力大仙",
+     "predicate": "FRIEND",
+     "object": "车迟国",
+     "evidence": "宝殿上君王与我们有亲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹿力大仙",
+     "predicate": "FRIEND",
+     "object": "车迟国",
+     "evidence": "宝殿上君王与我们有亲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "羊力大仙",
+     "predicate": "FRIEND",
+     "object": "车迟国",
+     "evidence": "宝殿上君王与我们有亲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "虎力大仙",
+     "evidence": "照道士脸上一刮，可怜就打得头破血流身倒地，皮开颈折脑浆倾！",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "鹿力大仙",
+     "evidence": "照道士脸上一刮，可怜就打得头破血流身倒地，皮开颈折脑浆倾！",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "羊力大仙",
+     "evidence": "照道士脸上一刮，可怜就打得头破血流身倒地，皮开颈折脑浆倾！",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "智渊寺",
+     "evidence": "我是来救你们的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "我们梦中尝见一个老者，自言太白金星，常教诲我等，说那孙行者的模样莫教错认了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "车迟国斗法",
+     "predicate": "OCCURRED_AT",
+     "object": "车迟国",
+     "evidence": "此城名唤车迟国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "车迟国斗法",
+     "evidence": "等我明日见这皇帝，灭那道士！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虎力大仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "车迟国斗法",
+     "evidence": "我大师父，号做虎力大仙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹿力大仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "车迟国斗法",
+     "evidence": "二师父，鹿力大仙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "羊力大仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "车迟国斗法",
+     "evidence": "三师父，羊力大仙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "把耳朵里铁棒取出，迎风捻了一捻，就碗来粗细",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "云水全真",
+     "evidence": "摇身一变，变做个游方的云水全真",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "我是大唐圣僧徒弟孙悟空行者",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2181,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，贪吃好色的猪妖"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实的河妖"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "道教三清之一，炼丹祖师"
+    },
+    {
+     "name": "虎力大仙",
+     "type": "Person",
+     "aliases": [
+      "虎力"
+     ],
+     "nickname": "虎力",
+     "description": "车迟国三清观道士，虎妖"
+    },
+    {
+     "name": "鹿力大仙",
+     "type": "Person",
+     "aliases": [
+      "鹿力"
+     ],
+     "nickname": "鹿力",
+     "description": "车迟国三清观道士，鹿妖"
+    },
+    {
+     "name": "羊力大仙",
+     "type": "Person",
+     "aliases": [
+      "羊力"
+     ],
+     "nickname": "羊力",
+     "description": "车迟国三清观道士，羊妖"
+    },
+    {
+     "name": "三清观",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国供奉三清的道观"
+    },
+    {
+     "name": "三清殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "三清观内正殿，供奉三清像"
+    },
+    {
+     "name": "五谷轮回之所",
+     "type": "Place",
+     "aliases": [
+      "大东厕"
+     ],
+     "nickname": "",
+     "description": "三清观内厕所，八戒藏圣像处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "三清观",
+     "evidence": "行者却引八戒沙僧，按落云头，闯上三清殿。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "三清观",
+     "evidence": "行者却引八戒沙僧，按落云头，闯上三清殿。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "三清观",
+     "evidence": "行者却引八戒沙僧，按落云头，闯上三清殿。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "虎力大仙",
+     "predicate": "MEMBER_OF",
+     "object": "三清观",
+     "evidence": "行者见三个老道士，披了法衣，想是那虎力、鹿力、羊力大仙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹿力大仙",
+     "predicate": "MEMBER_OF",
+     "object": "三清观",
+     "evidence": "行者见三个老道士，披了法衣，想是那虎力、鹿力、羊力大仙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "羊力大仙",
+     "predicate": "MEMBER_OF",
+     "object": "三清观",
+     "evidence": "行者见三个老道士，披了法衣，想是那虎力、鹿力、羊力大仙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "元始天尊",
+     "evidence": "八戒变做太上老君，行者变做元始天尊，沙僧变作灵宝道君",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "TRANSFORMED",
+     "object": "太上老君",
+     "evidence": "八戒变做太上老君，行者变做元始天尊，沙僧变作灵宝道君",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "TRANSFORMED",
+     "object": "灵宝道君",
+     "evidence": "八戒变做太上老君，行者变做元始天尊，沙僧变作灵宝道君",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "圣像",
+     "evidence": "这呆子有些夯力量，跳下来，把三个圣像拿在肩膊上，扛将出来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "ATTACKED",
+     "object": "太上老君",
+     "evidence": "把老君一嘴拱下去道：“老官儿，你也坐得彀了，让我老猪坐坐。”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:55.975Z"
+}

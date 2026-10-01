@@ -1,0 +1,127 @@
+{
+ "no": 155,
+ "title": "双灯",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 626,
+   "entities": [
+    {
+     "name": "魏运旺",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都盆泉人，世族之后，废学卖酒"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "双灯篇中与魏运旺相恋的狐女"
+    },
+    {
+     "name": "狐书生",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "双灯篇中狐女之兄，锦貂炫目"
+    },
+    {
+     "name": "魏妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "双灯篇中魏运旺之妻"
+    },
+    {
+     "name": "益都盆泉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏运旺籍贯地"
+    },
+    {
+     "name": "酒楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏运旺独卧之处，狐女夜至"
+    },
+    {
+     "name": "南山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女与魏运旺分别处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "魏运旺",
+     "predicate": "NATIVE_OF",
+     "object": "益都盆泉",
+     "evidence": "魏运旺，益都之盆泉人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏运旺",
+     "predicate": "LIVES_AT",
+     "object": "酒楼",
+     "evidence": "一夕，魏独卧酒楼上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏运旺",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "遂与狎昵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "LOVES",
+     "object": "魏运旺",
+     "evidence": "遂与狎昵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐书生",
+     "predicate": "KIN",
+     "object": "狐女",
+     "evidence": "舍妹与有前因，便合奉事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "KIN",
+     "object": "狐书生",
+     "evidence": "舍妹与有前因，便合奉事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏运旺",
+     "predicate": "SPOUSE",
+     "object": "魏妻",
+     "evidence": "适月夜与妻话窗间",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏妻",
+     "predicate": "SPOUSE",
+     "object": "魏运旺",
+     "evidence": "适月夜与妻话窗间",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "LIVES_AT",
+     "object": "南山",
+     "evidence": "竟赴南山，登高处",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:11.789Z"
+}

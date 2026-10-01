@@ -1,0 +1,675 @@
+{
+ "no": 43,
+ "title": "黑河妖孽擒僧去 西洋龙子捉鼍回",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5885,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "保护唐僧取经的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经的圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧的二徒弟"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧的三徒弟"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "救苦救难的菩萨"
+    },
+    {
+     "name": "鼍龙",
+     "type": "Person",
+     "aliases": [
+      "小鼍龙",
+      "鼍洁"
+     ],
+     "nickname": "鼍龙",
+     "description": "黑水河妖怪，西海龙王外甥"
+    },
+    {
+     "name": "西海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王"
+     ],
+     "nickname": "龙王",
+     "description": "西海龙王，鼍龙的舅舅"
+    },
+    {
+     "name": "摩昂太子",
+     "type": "Person",
+     "aliases": [
+      "摩昂",
+      "太子"
+     ],
+     "nickname": "摩昂",
+     "description": "西海龙王太子"
+    },
+    {
+     "name": "黑水河河神",
+     "type": "Person",
+     "aliases": [
+      "河神"
+     ],
+     "nickname": "河神",
+     "description": "黑水河原河神，被鼍龙夺府"
+    },
+    {
+     "name": "乌巢禅师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "乌巢",
+     "description": "浮屠山禅师，授《多心经》"
+    },
+    {
+     "name": "泾河龙王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "泾河龙王",
+     "description": "鼍龙之父，已被斩"
+    },
+    {
+     "name": "黑水河神府",
+     "type": "Organization",
+     "aliases": [
+      "衡阳峪黑水河神府"
+     ],
+     "nickname": "",
+     "description": "黑水河河神的府邸，被鼍龙占据"
+    },
+    {
+     "name": "西海",
+     "type": "Organization",
+     "aliases": [
+      "西洋大海"
+     ],
+     "nickname": "",
+     "description": "西海龙宫势力"
+    },
+    {
+     "name": "黑水河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑水滔天的河流"
+    },
+    {
+     "name": "落伽山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨的道场"
+    },
+    {
+     "name": "浮屠山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌巢禅师所在的山"
+    },
+    {
+     "name": "《多心经》",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌巢禅师口授的佛经"
+    },
+    {
+     "name": "降妖宝杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧的兵器"
+    },
+    {
+     "name": "竹节钢鞭",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鼍龙的兵器"
+    },
+    {
+     "name": "简帖",
+     "type": "Item",
+     "aliases": [
+      "请书匣儿"
+     ],
+     "nickname": "",
+     "description": "鼍龙请舅爷的请帖"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "DEFEATED",
+     "object": "鼍龙",
+     "evidence": "菩萨念动真言，把净瓶敧倒，将那一海水，依然收去……这妖精已是降了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "鼍龙",
+     "evidence": "那妖精早归了正果，五十三参，参拜观音",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者转身叩头道：有劳菩萨远涉，弟子当送一程。……救你师父去来！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "解下皮袋，放出八戒来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "沙僧连忙解绳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌巢禅师",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "多心经乃浮屠山乌巢禅师口授",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "ATTACKED",
+     "object": "黑水河神府",
+     "evidence": "把我坐的那衡阳峪黑水河神府，就占夺去住了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "STATIONED_AT",
+     "object": "黑水河",
+     "evidence": "我着他在黑水河养性修真",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "KIN",
+     "object": "西海龙王",
+     "evidence": "原来西海龙王是他的母舅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "KIN",
+     "object": "泾河龙王",
+     "evidence": "只嫁得一个妹丈，乃泾河龙王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂太子",
+     "predicate": "KIN",
+     "object": "西海龙王",
+     "evidence": "敖顺即唤太子摩昂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "摩昂太子",
+     "predicate": "KIN",
+     "object": "鼍龙",
+     "evidence": "却是表兄来耶？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "FOUGHT",
+     "object": "沙悟净",
+     "evidence": "他二人战经三十回合，不见高低",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "DEFEATED",
+     "object": "黑水河河神",
+     "evidence": "奈我年迈身衰，敌他不过，把我坐的那衡阳峪黑水河神府，就占夺去住了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "黑鱼精",
+     "evidence": "被行者扑个满面，掣铁棒分顶一下，可怜就打得脑浆迸出",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "简帖",
+     "evidence": "他却揭开匣儿看处，里边有一张简帖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "OWNS",
+     "object": "竹节钢鞭",
+     "evidence": "手提一根竹节钢鞭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖宝杖",
+     "evidence": "一只手执着降妖宝杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "《多心经》",
+     "evidence": "多心经乃浮屠山乌巢禅师口授……我当时耳传，至今常念",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黑水河擒僧",
+     "evidence": "把师父拖下水去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑水河擒僧",
+     "predicate": "OCCURRED_AT",
+     "object": "黑水河",
+     "evidence": "眼看着那唐僧与猪八戒，连船儿淬在水里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "MASTERMINDED",
+     "object": "黑水河擒僧",
+     "evidence": "原来就是那棹船人弄的，他本是黑水河中怪物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西海龙王",
+     "predicate": "LEADS",
+     "object": "西海",
+     "evidence": "那龙王敖顺即领众水族出宫迎接",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍龙",
+     "predicate": "MEMBER_OF",
+     "object": "西海",
+     "evidence": "那厮是舍妹第九个儿子……我着他在黑水河养性修真",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2141,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，五百年前大闹天宫"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土取经僧人，十世修行"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，长嘴和尚"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙和尚",
+     "description": "唐僧三徒弟，黑汉子晦气色脸"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "普陀岩大慈大悲菩萨，劝善孙悟空"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "北海龙王",
+     "description": "北海龙王，摩昂太子之父"
+    },
+    {
+     "name": "鼍怪",
+     "type": "Person",
+     "aliases": [
+      "鼍龙",
+      "小鼍",
+      "妖鼍",
+      "逆怪"
+     ],
+     "nickname": "鼍怪",
+     "description": "黑水河妖怪，强占水神之宅"
+    },
+    {
+     "name": "摩昂太子",
+     "type": "Person",
+     "aliases": [
+      "太子",
+      "小龙子",
+      "表兄"
+     ],
+     "nickname": "摩昂太子",
+     "description": "北海龙王之子，捉住鼍怪"
+    },
+    {
+     "name": "黑水河神",
+     "type": "Person",
+     "aliases": [
+      "河神",
+      "小神"
+     ],
+     "nickname": "黑水河神",
+     "description": "黑水河神，被鼍怪强占水府"
+    },
+    {
+     "name": "黑水河",
+     "type": "Place",
+     "aliases": [
+      "黑河"
+     ],
+     "nickname": "",
+     "description": "黑水河，鼍怪盘踞之处"
+    },
+    {
+     "name": "西洋大海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西洋大海，北海龙王所居"
+    },
+    {
+     "name": "水府",
+     "type": "Place",
+     "aliases": [
+      "水晶宫"
+     ],
+     "nickname": "",
+     "description": "黑水河下水府，鼍怪占据"
+    },
+    {
+     "name": "普陀岩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    },
+    {
+     "name": "北海龙宫",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "北海龙王势力"
+    },
+    {
+     "name": "黑水河水府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鼍怪盘踞的水府势力"
+    },
+    {
+     "name": "捉鼍怪",
+     "type": "Event",
+     "aliases": [
+      "捉鼍回"
+     ],
+     "nickname": "",
+     "description": "摩昂太子捉住鼍怪"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "他还有一个大徒弟，是五百年前大闹天宫上方太乙金仙齐天大圣，如今保护唐僧往西天拜佛求经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "是普陀岩大慈大悲观音菩萨劝善，与他改名，唤做孙悟空行者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "KIN",
+     "object": "摩昂太子",
+     "evidence": "我与你嫡亲的姑表，你倒反护他人？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂太子",
+     "predicate": "KIN",
+     "object": "北海龙王",
+     "evidence": "我带这厮去见家父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂太子",
+     "predicate": "DEFEATED",
+     "object": "鼍怪",
+     "evidence": "摩昂太子赛金刚。喝声金简当头重，拿住妖鼍作怪王。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂太子",
+     "predicate": "MEMBER_OF",
+     "object": "北海龙宫",
+     "evidence": "那太子押着那妖鼍，投水中，帅领海兵，径转西洋大海不题。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "STATIONED_AT",
+     "object": "黑水河",
+     "evidence": "小弟一向蒙恩赐居于此，久别尊颜，未得孝顺。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "ATTACKED",
+     "object": "黑水河水府",
+     "evidence": "你怎么强占水神之宅，倚势行凶，欺心诳上，弄玄虚，骗我师父、师弟？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "PARTICIPATED_IN",
+     "object": "捉鼍怪",
+     "evidence": "摩昂太子赛金刚。喝声金简当头重，拿住妖鼍作怪王。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂太子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "捉鼍怪",
+     "evidence": "摩昂太子赛金刚。喝声金简当头重，拿住妖鼍作怪王。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "捉鼍怪",
+     "predicate": "OCCURRED_AT",
+     "object": "黑水河",
+     "evidence": "一河水怪争高下，两处龙兵定弱强。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "OWNS",
+     "object": "钢鞭",
+     "evidence": "献上披挂，捧上钢鞭。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "宝杖",
+     "evidence": "使一根宝杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "既然救得你师父，我带这厮去见家父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "沙僧即忙解了师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑水河神",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "河神亦随解了八戒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "FOUGHT",
+     "object": "沙悟净",
+     "evidence": "昨日在这门外与我讨师父，被我帅出河兵，一顿钢鞭，战得他败阵逃生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "他有一个长嘴的和尚，唤做个猪八戒，我也把他捉住了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "昨日捉得一个东土僧人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鼍怪",
+     "predicate": "SURRENDERED_TO",
+     "object": "孙悟空",
+     "evidence": "今见大圣，幸蒙大圣不杀之恩，感谢不尽。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:53.877Z"
+}

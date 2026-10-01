@@ -1,0 +1,106 @@
+{
+ "no": 169,
+ "title": "赵城虎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 578,
+   "entities": [
+    {
+     "name": "赵城妪",
+     "type": "Person",
+     "aliases": [
+      "妪",
+      "媪"
+     ],
+     "nickname": "",
+     "description": "赵城七十余岁老妇，独子被虎所噬"
+    },
+    {
+     "name": "李能",
+     "type": "Person",
+     "aliases": [
+      "隶"
+     ],
+     "nickname": "",
+     "description": "赵城县差役，醉中领命捉虎"
+    },
+    {
+     "name": "赵城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "故事发生地，妪与李能所在县"
+    },
+    {
+     "name": "东郭岳庙",
+     "type": "Place",
+     "aliases": [
+      "山神庙"
+     ],
+     "nickname": "",
+     "description": "东郊庙宇，李能祷虎之处"
+    },
+    {
+     "name": "县署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵城县衙，宰审虎之处"
+    },
+    {
+     "name": "义虎祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东郊为虎所立祠堂"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "赵城妪",
+     "predicate": "LIVES_AT",
+     "object": "赵城",
+     "evidence": "赵城妪，年七十馀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李能",
+     "predicate": "LIVES_AT",
+     "object": "赵城",
+     "evidence": "一隶名李能",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李能",
+     "predicate": "PARTICIPATED_IN",
+     "object": "捉虎",
+     "evidence": "隶集诸猎人，日夜伏山谷，冀得一虎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李能",
+     "predicate": "LIVES_AT",
+     "object": "东郭岳庙",
+     "evidence": "遂诣东郭岳庙，跪而祝之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵城妪",
+     "predicate": "PARTICIPATED_IN",
+     "object": "捉虎",
+     "evidence": "号啼而诉于宰",
+     "confidence": 0.8
+    },
+    {
+     "subject": "义虎祠",
+     "predicate": "OCCURRED_AT",
+     "object": "东郊",
+     "evidence": "土人立义虎祠于东郊",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:18.192Z"
+}

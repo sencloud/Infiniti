@@ -1,0 +1,75 @@
+{
+ "no": 37,
+ "title": "10.3 解二元一次方程组",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2517,
+   "entities": [
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两个二元一次方程组成的方程组"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数次数为1的方程"
+    },
+    {
+     "name": "代入消元法",
+     "type": "Method",
+     "aliases": [
+      "代入法"
+     ],
+     "nickname": "",
+     "description": "将方程组的一个方程中的某个未知数用含另一个未知数的代数式表示，并代入另一个方程，消去这个未知数，从而把解二元一次方程组转化为解一元一次方程"
+    },
+    {
+     "name": "加减消元法",
+     "type": "Method",
+     "aliases": [
+      "加减法"
+     ],
+     "nickname": "",
+     "description": "把方程组的两个方程（或先做适当变形）的左、右两边分别相加或相减，消去其中一个未知数，从而把解二元一次方程组转化为解一元一次方程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "二元一次方程组",
+     "evidence": "如果能把二元一次方程组转化为一元一次方程，就可以用解一元一次方程的方法求解．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "代入消元法",
+     "predicate": "APPLIES_TO",
+     "object": "二元一次方程组",
+     "evidence": "将方程组的一个方程中的某个未知数用含有另一个未知数的代数式表示，并代入另一个方程，消去这个未知数，从而把解二元一次方程组转化为解一元一次方程．这种解方程组的方法叫作代入消元法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "加减消元法",
+     "predicate": "APPLIES_TO",
+     "object": "二元一次方程组",
+     "evidence": "把方程组的两个方程（或先做适当变形）的左、右两边分别相加或相减，消去其中一个未知数，从而把解二元一次方程组转化为解一元一次方程．这种解方程组的方法叫作加减消元法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "代入消元法",
+     "predicate": "CONTRASTS",
+     "object": "加减消元法",
+     "evidence": "前面我们利用代入消元的方法将二元一次方程组转化为一个一元一次方程求解，还有其他方法实现消元转化吗？",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:45.060Z"
+}

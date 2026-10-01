@@ -1,0 +1,273 @@
+{
+ "no": 212,
+ "title": "马介甫",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4349,
+   "entities": [
+    {
+     "name": "杨万石",
+     "type": "Person",
+     "aliases": [
+      "万石"
+     ],
+     "nickname": "",
+     "description": "大名诸生，惧内，妻尹氏悍"
+    },
+    {
+     "name": "尹氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨万石妻，奇悍，虐待家人"
+    },
+    {
+     "name": "杨父",
+     "type": "Person",
+     "aliases": [
+      "杨翁"
+     ],
+     "nickname": "",
+     "description": "杨万石父，年六十馀鳏，被尹氏虐待"
+    },
+    {
+     "name": "杨万钟",
+     "type": "Person",
+     "aliases": [
+      "万钟"
+     ],
+     "nickname": "",
+     "description": "杨万石弟，因击尹氏投井死"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [
+      "妾王"
+     ],
+     "nickname": "",
+     "description": "杨万石妾，被尹氏殴打堕胎"
+    },
+    {
+     "name": "喜儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨万钟子，七岁，后中孝廉"
+    },
+    {
+     "name": "马介甫",
+     "type": "Person",
+     "aliases": [
+      "介甫",
+      "马"
+     ],
+     "nickname": "",
+     "description": "狐仙，与杨万石结拜，助其治悍妇"
+    },
+    {
+     "name": "张屠",
+     "type": "Person",
+     "aliases": [
+      "屠而鳏者"
+     ],
+     "nickname": "",
+     "description": "屠夫，后娶尹氏，虐待她"
+    },
+    {
+     "name": "大名",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨万石籍贯地"
+    },
+    {
+     "name": "河南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨父逃往地，后万石亦至"
+    },
+    {
+     "name": "普陀寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨夫人及伯母烧香处"
+    },
+    {
+     "name": "丈夫再造散",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "马介甫所出药，服后使人勇怒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨万石",
+     "predicate": "SPOUSE",
+     "object": "尹氏",
+     "evidence": "妻尹氏，奇悍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨万石",
+     "predicate": "KIN",
+     "object": "杨父",
+     "evidence": "杨父年六十馀而鳏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨万石",
+     "predicate": "KIN",
+     "object": "杨万钟",
+     "evidence": "杨与弟万钟常窃饵翁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨万石",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "纳妾王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨万钟",
+     "predicate": "KIN",
+     "object": "喜儿",
+     "evidence": "万钟有子喜儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨万石",
+     "predicate": "FRIEND",
+     "object": "马介甫",
+     "evidence": "由此交日密，焚香为昆季之盟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马介甫",
+     "predicate": "HELPED",
+     "object": "杨万石",
+     "evidence": "马介甫加以宽慰劝解",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马介甫",
+     "predicate": "HELPED",
+     "object": "杨父",
+     "evidence": "且请杨翁与同食寝，自诣城肆，市布帛，为易袍袴",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尹氏",
+     "predicate": "HARMED",
+     "object": "杨父",
+     "evidence": "尹以齿奴隶数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尹氏",
+     "predicate": "HARMED",
+     "object": "王氏",
+     "evidence": "褫衣惨掠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尹氏",
+     "predicate": "HARMED",
+     "object": "喜儿",
+     "evidence": "遗孤儿，朝夕受鞭楚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨万钟",
+     "predicate": "KILLED",
+     "object": "尹氏",
+     "evidence": "以石击妇，中颅，颠蹶而毙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨万钟",
+     "predicate": "KIN",
+     "object": "杨父",
+     "evidence": "杨与弟万钟常窃饵翁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨万钟",
+     "predicate": "KIN",
+     "object": "杨万石",
+     "evidence": "杨与弟万钟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王氏",
+     "predicate": "KIN",
+     "object": "杨万石",
+     "evidence": "纳妾王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "喜儿",
+     "predicate": "KIN",
+     "object": "杨万钟",
+     "evidence": "万钟有子喜儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨万石",
+     "predicate": "NATIVE_OF",
+     "object": "大名",
+     "evidence": "杨万石，大名诸生也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨父",
+     "predicate": "LIVES_AT",
+     "object": "河南",
+     "evidence": "翁不能堪，宵遁，至河南，隶道士籍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨万石",
+     "predicate": "OWNS",
+     "object": "丈夫再造散",
+     "evidence": "此丈夫再造散",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尹氏",
+     "predicate": "SPOUSE",
+     "object": "张屠",
+     "evidence": "适有屠而鳏者，以钱三百货去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张屠",
+     "predicate": "HARMED",
+     "object": "尹氏",
+     "evidence": "以屠刀孔其股，穿以毛绠，悬梁上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨夫人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "烧香普陀寺",
+     "evidence": "杨夫人及伯母烧香普陀寺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "烧香普陀寺",
+     "predicate": "OCCURRED_AT",
+     "object": "普陀寺",
+     "evidence": "烧香普陀寺",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:35.371Z"
+}

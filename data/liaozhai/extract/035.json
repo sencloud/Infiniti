@@ -1,0 +1,99 @@
+{
+ "no": 35,
+ "title": "灵官",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 311,
+   "entities": [
+    {
+     "name": "朝天观道士",
+     "type": "Person",
+     "aliases": [
+      "道士某"
+     ],
+     "nickname": "",
+     "description": "朝天观道士，喜吐纳之术，与狐翁为友"
+    },
+    {
+     "name": "狐翁",
+     "type": "Spirit",
+     "aliases": [
+      "翁",
+      "狐"
+     ],
+     "nickname": "",
+     "description": "狐精，借寓朝天观，与道士为玄友"
+    },
+    {
+     "name": "灵官",
+     "type": "Spirit",
+     "aliases": [
+      "王灵官"
+     ],
+     "nickname": "",
+     "description": "神灵，郊祭时粪除，鞭逐狐翁"
+    },
+    {
+     "name": "朝天观",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "道观，道士与狐翁居处"
+    },
+    {
+     "name": "黄河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "河流，狐翁逃至此处"
+    },
+    {
+     "name": "甲申之变",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "明朝覆灭的劫难"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "朝天观道士",
+     "predicate": "FRIEND",
+     "object": "狐翁",
+     "evidence": "有翁假寓观中，适同所好，遂为玄友。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朝天观道士",
+     "predicate": "LIVES_AT",
+     "object": "朝天观",
+     "evidence": "朝天观道士某，喜吐纳之术。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐翁",
+     "predicate": "LIVES_AT",
+     "object": "朝天观",
+     "evidence": "有翁假寓观中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "灵官",
+     "predicate": "HARMED",
+     "object": "狐翁",
+     "evidence": "灵官粪除至此，瞥为所睹，愤欲加鞭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐翁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "甲申之变",
+     "evidence": "道士依言别徙。未几，而有甲申之变。",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:24.815Z"
+}

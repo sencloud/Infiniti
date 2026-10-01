@@ -1,0 +1,667 @@
+{
+ "no": 15,
+ "title": "第十五回 吴学究说三阮撞筹 公孙胜应七星聚义",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5703,
+   "entities": [
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山军师，说三阮入伙"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [
+      "晁保正",
+      "晁天王"
+     ],
+     "nickname": "托塔天王",
+     "description": "东溪村保正，仗义疏财"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "赤发鬼",
+     "description": "好汉，报知生辰纲消息"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [
+      "阮小二郎"
+     ],
+     "nickname": "立地太岁",
+     "description": "石碣村渔户，阮氏三兄弟之长"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [
+      "阮小五郎"
+     ],
+     "nickname": "短命二郎",
+     "description": "石碣村渔户，阮氏三兄弟之一"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [
+      "阮小七郎"
+     ],
+     "nickname": "活阎罗",
+     "description": "石碣村渔户，阮氏三兄弟之一"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "八十万禁军教头"
+     ],
+     "nickname": "豹子头",
+     "description": "东京禁军教头，新上梁山"
+    },
+    {
+     "name": "王伦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "白衣秀士",
+     "description": "梁山泊寨主，落科举子"
+    },
+    {
+     "name": "杜迁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "摸着天",
+     "description": "梁山泊头领"
+    },
+    {
+     "name": "宋万",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "云里金刚",
+     "description": "梁山泊头领"
+    },
+    {
+     "name": "朱贵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "旱地忽律",
+     "description": "梁山泊头领，李家道口开酒店"
+    },
+    {
+     "name": "蔡京",
+     "type": "Person",
+     "aliases": [
+      "蔡太师"
+     ],
+     "nickname": "",
+     "description": "朝内太师，六月十五日生辰"
+    },
+    {
+     "name": "梁中书",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北京大名府中书，蔡京女婿"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "王伦等占据的山寨势力"
+    },
+    {
+     "name": "石碣村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济州梁山泊边村庄，阮氏兄弟住处"
+    },
+    {
+     "name": "东溪村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县村庄，晁盖庄上所在"
+    },
+    {
+     "name": "北京大名府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书任职之地"
+    },
+    {
+     "name": "生辰纲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书送蔡京的十万贯金珠宝贝"
+    },
+    {
+     "name": "智取生辰纲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴用等聚义欲劫生辰纲"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴用",
+     "predicate": "FRIEND",
+     "object": "阮小二",
+     "evidence": "小生旧日在那里住了数年，与他相交时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "FRIEND",
+     "object": "阮小五",
+     "evidence": "小生旧日在那里住了数年，与他相交时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "FRIEND",
+     "object": "阮小七",
+     "evidence": "小生旧日在那里住了数年，与他相交时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "KIN",
+     "object": "阮小五",
+     "evidence": "这三个是亲弟兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "KIN",
+     "object": "阮小七",
+     "evidence": "这三个是亲弟兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "KIN",
+     "object": "阮小七",
+     "evidence": "这三个是亲弟兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "NATIVE_OF",
+     "object": "石碣村",
+     "evidence": "在济州梁山泊边石碣村住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "NATIVE_OF",
+     "object": "石碣村",
+     "evidence": "在济州梁山泊边石碣村住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "NATIVE_OF",
+     "object": "石碣村",
+     "evidence": "在济州梁山泊边石碣村住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "径投阮小二家来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "在济州梁山泊边石碣村住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "在济州梁山泊边石碣村住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "东溪村",
+     "evidence": "只此间郓城县东溪村晁保正",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王伦",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "为头的是个秀才，落科举子，唤做白衣秀士王伦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜迁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "第二个叫做摸着天杜迁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋万",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "第三个叫做云里金刚宋万",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "以下有个旱地忽律朱贵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "如今新来一个好汉，是东京禁军教头，甚么豹子头林冲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "KIN",
+     "object": "蔡京",
+     "evidence": "他的女婿是北京大名府梁中书",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "STATIONED_AT",
+     "object": "北京大名府",
+     "evidence": "他的女婿是北京大名府梁中书",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "智取生辰纲",
+     "evidence": "我如今见在晁保正庄上住，保正闻知你三个大名，特地教我来请你们说话",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "保正闻知你三个大名，特地教我来请你们说话",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "今有一个好汉姓刘名唐，特来报知",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "阮家三弟兄大喜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "阮家三弟兄大喜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "阮家三弟兄大喜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "生辰纲",
+     "predicate": "OWNS",
+     "object": "梁中书",
+     "evidence": "即目起解十万贯金珠宝贝与他丈人庆生辰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "生辰纲",
+     "predicate": "OCCURRED_AT",
+     "object": "北京大名府",
+     "evidence": "他的女婿是北京大名府梁中书，即目起解十万贯金珠宝贝与他丈人庆生辰",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1709,
+   "entities": [
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山军师，说三阮撞筹"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "蓟州人氏，道士，来寻晁盖"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "赤发鬼",
+     "description": "在晁家庄等候吴用等人"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [
+      "晁保正"
+     ],
+     "nickname": "",
+     "description": "东溪村保正，庄主"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阮氏三雄之一"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阮氏三雄之一"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阮氏三雄之一"
+    },
+    {
+     "name": "梁中书",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北京大名府留守，害民诈财"
+    },
+    {
+     "name": "蔡太师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京太师，生辰纲收礼者"
+    },
+    {
+     "name": "晁家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "晁盖的庄院，在东溪村"
+    },
+    {
+     "name": "石碣村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阮氏三兄弟所居村庄"
+    },
+    {
+     "name": "东溪村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "晁盖所在村庄"
+    },
+    {
+     "name": "蓟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "公孙胜籍贯"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "晁盖所在县"
+    },
+    {
+     "name": "北京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书任职地"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蔡太师所在都城"
+    },
+    {
+     "name": "生辰纲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书送蔡太师的十万贯金珠宝贝"
+    },
+    {
+     "name": "七星聚义",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "晁盖、吴用等七人聚义谋取生辰纲"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴用",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "吴用引着阮家三兄弟，直到槐树前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "阮家三弟兄见晁盖人物轩昂，语言洒落，三个说道：我们最爱结识好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "阮家三弟兄见晁盖人物轩昂，语言洒落，三个说道：我们最爱结识好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "阮家三弟兄见晁盖人物轩昂，语言洒落，三个说道：我们最爱结识好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "贫道久闻郓城县东溪村保正大名，无缘不曾拜识。今有十万贯金珠宝贝，专送与保正作进见之礼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "NATIVE_OF",
+     "object": "蓟州",
+     "evidence": "小道是蓟州人氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "晁家庄",
+     "evidence": "早望见晁家庄，只见远远地绿槐树下晁盖和刘唐在那里等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "东溪村",
+     "evidence": "贫道久闻郓城县东溪村保正大名",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "郓城县",
+     "evidence": "贫道久闻郓城县东溪村保正大名",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "四个人离了石碣村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "四个人离了石碣村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "四个人离了石碣村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "STATIONED_AT",
+     "object": "北京",
+     "evidence": "梁中书在北京害民",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蔡太师",
+     "predicate": "STATIONED_AT",
+     "object": "东京",
+     "evidence": "却把去东京与蔡太师庆生辰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "OWNS",
+     "object": "生辰纲",
+     "evidence": "梁中书在北京害民，诈得钱物，却把去东京与蔡太师庆生辰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七星聚义",
+     "evidence": "六人都说誓了，烧化钱纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七星聚义",
+     "evidence": "六人都说誓了，烧化钱纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七星聚义",
+     "evidence": "六人都说誓了，烧化钱纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七星聚义",
+     "evidence": "六人都说誓了，烧化钱纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七星聚义",
+     "evidence": "六人都说誓了，烧化钱纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七星聚义",
+     "evidence": "六人都说誓了，烧化钱纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七星聚义",
+     "evidence": "六人都说誓了，烧化钱纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "七星聚义",
+     "predicate": "OCCURRED_AT",
+     "object": "晁家庄",
+     "evidence": "六人却从庄外入来，到得后堂，分宾主坐定",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:04.859Z"
+}

@@ -1,0 +1,64 @@
+{
+ "no": 448,
+ "title": "外国人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 135,
+   "entities": [
+    {
+     "name": "吕宋国人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《外国人》中遇风覆舟的十一人，自称吕宋国人"
+    },
+    {
+     "name": "巡抚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《外国人》中处理此事的官员"
+    },
+    {
+     "name": "澳门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《外国人》中十一人被风吹至之地"
+    },
+    {
+     "name": "大岛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《外国人》中十一人飘至得免的岛屿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吕宋国人",
+     "predicate": "LIVES_AT",
+     "object": "大岛",
+     "evidence": "飘至大岛得免。凡五年，日攫鸟虫而食，夜伏石洞中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕宋国人",
+     "predicate": "LIVES_AT",
+     "object": "澳门",
+     "evidence": "又被大风引至澳门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巡抚",
+     "predicate": "HELPED",
+     "object": "吕宋国人",
+     "evidence": "巡抚题疏，送之还国",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:01.745Z"
+}

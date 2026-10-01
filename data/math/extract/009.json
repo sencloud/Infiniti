@@ -1,0 +1,275 @@
+{
+ "no": 9,
+ "title": "2.6 有理数的乘方",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6162,
+   "entities": [
+    {
+     "name": "有理数除法法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "除以一个不等于0的数，等于乘这个数的倒数"
+    },
+    {
+     "name": "有理数除法符号法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "两数相除，同号得正，异号得负，并把绝对值相除"
+    },
+    {
+     "name": "乘方",
+     "type": "Concept",
+     "aliases": [
+      "power"
+     ],
+     "nickname": "",
+     "description": "求相同因数的积的运算"
+    },
+    {
+     "name": "底数",
+     "type": "Concept",
+     "aliases": [
+      "base number"
+     ],
+     "nickname": "",
+     "description": "乘方中相同的因数"
+    },
+    {
+     "name": "指数",
+     "type": "Concept",
+     "aliases": [
+      "exponent"
+     ],
+     "nickname": "",
+     "description": "乘方中相同因数的个数"
+    },
+    {
+     "name": "幂",
+     "type": "Concept",
+     "aliases": [
+      "power"
+     ],
+     "nickname": "",
+     "description": "乘方运算的结果"
+    },
+    {
+     "name": "有理数乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数的乘法运算"
+    },
+    {
+     "name": "倒数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘积为1的两个数互为倒数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "有理数乘法",
+     "predicate": "PREREQUISITE",
+     "object": "有理数除法法则",
+     "evidence": "因为有理数的除法可以转化为乘法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "倒数",
+     "predicate": "PREREQUISITE",
+     "object": "有理数除法法则",
+     "evidence": "除以一个不等于0的数，等于乘这个数的倒数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数除法法则",
+     "predicate": "DERIVES",
+     "object": "有理数除法符号法则",
+     "evidence": "因为有理数的除法可以转化为乘法，所以有理数的除法也有下列法则",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数除法法则",
+     "predicate": "APPLIES_TO",
+     "object": "有理数除法符号法则",
+     "evidence": "因为有理数的除法可以转化为乘法，所以有理数的除法也有下列法则",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乘方",
+     "predicate": "INCLUDES",
+     "object": "底数",
+     "evidence": "求相同因数的积的运算叫作乘方，相同因数叫作底数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘方",
+     "predicate": "INCLUDES",
+     "object": "指数",
+     "evidence": "相同因数的个数叫作指数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘方",
+     "predicate": "INCLUDES",
+     "object": "幂",
+     "evidence": "乘方运算的结果叫作幂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数乘法",
+     "predicate": "PREREQUISITE",
+     "object": "乘方",
+     "evidence": "乘方运算本质上是乘法运算，它是同一个因数连乘的简便形式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘方",
+     "predicate": "RELATED",
+     "object": "有理数乘法",
+     "evidence": "乘方运算本质上是乘法运算，它是同一个因数连乘的简便形式",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2929,
+   "entities": [
+    {
+     "name": "有理数的乘方",
+     "type": "Concept",
+     "aliases": [
+      "乘方"
+     ],
+     "nickname": "乘方",
+     "description": "求n个相同因数的积的运算"
+    },
+    {
+     "name": "幂",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "幂",
+     "description": "乘方运算的结果"
+    },
+    {
+     "name": "负数的奇数次幂",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "负奇次幂",
+     "description": "负数的奇数次幂是负数"
+    },
+    {
+     "name": "负数的偶数次幂",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "负偶次幂",
+     "description": "负数的偶数次幂是正数"
+    },
+    {
+     "name": "正数的任何次幂",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "正数次幂",
+     "description": "正数的任何次幂都是正数"
+    },
+    {
+     "name": "平方",
+     "type": "Concept",
+     "aliases": [
+      "二次方"
+     ],
+     "nickname": "平方",
+     "description": "一个数的二次方，任意数的平方都是非负数"
+    },
+    {
+     "name": "立方",
+     "type": "Concept",
+     "aliases": [
+      "三次方"
+     ],
+     "nickname": "立方",
+     "description": "一个数的三次方，正数的立方是正数，负数的立方是负数"
+    },
+    {
+     "name": "科学记数法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "科学记数法",
+     "description": "绝对值大于10的数写成a×10^n形式，1≤|a|<10，n为正整数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "有理数的乘方",
+     "predicate": "INCLUDES",
+     "object": "幂",
+     "evidence": "求n个相同因数的积的运算叫做乘方，乘方的结果叫做幂。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数的乘方",
+     "predicate": "INCLUDES",
+     "object": "平方",
+     "evidence": "一个数的二次方，也称为这个数的平方",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数的乘方",
+     "predicate": "INCLUDES",
+     "object": "立方",
+     "evidence": "一个数的三次方，也称为这个数的立方",
+     "confidence": 0.95
+    },
+    {
+     "subject": "负数的奇数次幂",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的乘方",
+     "evidence": "负数的奇数次幂是负数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "负数的偶数次幂",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的乘方",
+     "evidence": "负数的偶数次幂是正数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正数的任何次幂",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的乘方",
+     "evidence": "正数的任何次幂都是正数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平方",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的乘方",
+     "evidence": "任意一个数的平方都是非负数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "立方",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的乘方",
+     "evidence": "正数的立方是正数，负数的立方是负数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "科学记数法",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的乘方",
+     "evidence": "一个绝对值大于10的数可以写成a×10^n的形式，其中1≤|a|<10，n是正整数。这种记数法称为科学记数法。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:35.379Z"
+}

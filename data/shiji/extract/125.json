@@ -1,0 +1,327 @@
+{
+ "no": 125,
+ "title": "佞幸列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1309,
+   "entities": [
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉高祖",
+      "高祖"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝"
+    },
+    {
+     "name": "籍孺",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉高祖时佞幸"
+    },
+    {
+     "name": "闳孺",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉惠帝时佞幸"
+    },
+    {
+     "name": "邓通",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉文帝时宠臣，蜀郡南安人"
+    },
+    {
+     "name": "赵同",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉文帝时宦者，以星气幸"
+    },
+    {
+     "name": "北宫伯子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉文帝时宦者，以爱人长者"
+    },
+    {
+     "name": "刘启",
+     "type": "Person",
+     "aliases": [
+      "汉景帝",
+      "景帝"
+     ],
+     "nickname": "",
+     "description": "汉文帝太子，后为帝"
+    },
+    {
+     "name": "韩嫣",
+     "type": "Person",
+     "aliases": [
+      "韩王孙嫣"
+     ],
+     "nickname": "",
+     "description": "汉武帝时宠臣，弓高侯孽孙"
+    },
+    {
+     "name": "李延年",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉武帝时宦者，中山人，善歌"
+    },
+    {
+     "name": "卫青",
+     "type": "Person",
+     "aliases": [
+      "长平侯",
+      "大将军"
+     ],
+     "nickname": "仲卿",
+     "description": "汉武帝时外戚，以材能自进"
+    },
+    {
+     "name": "霍去病",
+     "type": "Person",
+     "aliases": [
+      "冠军侯",
+      "骠骑将军"
+     ],
+     "nickname": "",
+     "description": "汉武帝时外戚，以材能自进"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "《史记》作者"
+    },
+    {
+     "name": "周文仁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉景帝时郎中令"
+    },
+    {
+     "name": "韩说",
+     "type": "Person",
+     "aliases": [
+      "安道侯"
+     ],
+     "nickname": "",
+     "description": "韩嫣之弟，亦佞幸"
+    },
+    {
+     "name": "李夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李延年女弟，汉武帝宠妃"
+    },
+    {
+     "name": "弥子瑕",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "春秋时卫灵公宠臣"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉朝"
+    },
+    {
+     "name": "蜀郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉代郡名，邓通籍贯"
+    },
+    {
+     "name": "南安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀郡县名，邓通籍贯"
+    },
+    {
+     "name": "严道",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀郡县名，有铜山"
+    },
+    {
+     "name": "中山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李延年籍贯"
+    },
+    {
+     "name": "匈奴",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "北方游牧部族"
+    },
+    {
+     "name": "上大夫",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉代官名"
+    },
+    {
+     "name": "郎中令",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉代官名"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘邦",
+     "predicate": "SERVED",
+     "object": "籍孺",
+     "evidence": "高祖至暴抗也，然籍孺以佞幸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘启",
+     "predicate": "SUCCEEDED",
+     "object": "刘邦",
+     "evidence": "及文帝崩，景帝立",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓通",
+     "predicate": "NATIVE_OF",
+     "object": "蜀郡",
+     "evidence": "邓通，蜀郡南安人也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓通",
+     "predicate": "NATIVE_OF",
+     "object": "南安",
+     "evidence": "邓通，蜀郡南安人也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓通",
+     "predicate": "HELD_OFFICE",
+     "object": "上大夫",
+     "evidence": "官至上大夫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓通",
+     "predicate": "ENFEOFFED",
+     "object": "严道",
+     "evidence": "赐邓通蜀严道铜山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘启",
+     "predicate": "KILLED",
+     "object": "邓通",
+     "evidence": "及文帝崩，景帝立，邓通免，家居。……遂竟案，尽没入邓通家",
+     "confidence": 0.8
+    },
+    {
+     "subject": "韩嫣",
+     "predicate": "SERVED",
+     "object": "刘彻",
+     "evidence": "今上为胶东王时，嫣与上学书相爱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韩嫣",
+     "predicate": "HELD_OFFICE",
+     "object": "上大夫",
+     "evidence": "官至上大夫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李延年",
+     "predicate": "NATIVE_OF",
+     "object": "中山",
+     "evidence": "李延年，中山人也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李延年",
+     "predicate": "SERVED",
+     "object": "刘彻",
+     "evidence": "延年善歌，为变新声，而上方兴天地祠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李延年",
+     "predicate": "KIN",
+     "object": "李夫人",
+     "evidence": "其女弟亦幸，有子男",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李夫人",
+     "predicate": "SPOUSE",
+     "object": "刘彻",
+     "evidence": "其女弟亦幸，有子男",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卫青",
+     "predicate": "SERVED",
+     "object": "刘彻",
+     "evidence": "卫青、霍去病颇进",
+     "confidence": 0.8
+    },
+    {
+     "subject": "霍去病",
+     "predicate": "SERVED",
+     "object": "刘彻",
+     "evidence": "卫青、霍去病颇进",
+     "confidence": 0.8
+    },
+    {
+     "subject": "周文仁",
+     "predicate": "HELD_OFFICE",
+     "object": "郎中令",
+     "evidence": "然独郎中令周文仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩说",
+     "predicate": "KIN",
+     "object": "韩嫣",
+     "evidence": "而安道侯韩说，其弟也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩嫣",
+     "predicate": "PARTICIPATED_IN",
+     "object": "伐匈奴",
+     "evidence": "上即位，欲事伐匈奴，而嫣先习胡兵",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:52:06.512Z"
+}

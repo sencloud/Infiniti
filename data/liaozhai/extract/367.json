@@ -1,0 +1,78 @@
+{
+ "no": 367,
+ "title": "太医",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 329,
+   "entities": [
+    {
+     "name": "孙评事",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "万历间进士，少孤，母守节，暴病卒又复生"
+    },
+    {
+     "name": "太医",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与孙评事交好，以艾灸救其复生"
+    },
+    {
+     "name": "孙母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙评事之母，十九岁守节"
+    },
+    {
+     "name": "皇后",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "万历皇后，生太子"
+    },
+    {
+     "name": "太子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "皇后所生之子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙评事",
+     "predicate": "KIN",
+     "object": "孙母",
+     "evidence": "孙评事少孤，母十九岁守节",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙评事",
+     "predicate": "FRIEND",
+     "object": "太医",
+     "evidence": "素与太医善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太医",
+     "predicate": "HELPED",
+     "object": "孙评事",
+     "evidence": "立命取艾，灸尸一十八处……急灌以药，居然复生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "皇后",
+     "predicate": "KIN",
+     "object": "太子",
+     "evidence": "果生太子",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:29.503Z"
+}

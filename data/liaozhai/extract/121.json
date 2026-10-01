@@ -1,0 +1,116 @@
+{
+ "no": 121,
+ "title": "赌符",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 920,
+   "entities": [
+    {
+     "name": "韩道士",
+     "type": "Person",
+     "aliases": [
+      "道士",
+      "疯道人"
+     ],
+     "nickname": "仙",
+     "description": "居天齐庙，擅幻术，人称仙"
+    },
+    {
+     "name": "先子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "作者已故父亲，与韩道士交好"
+    },
+    {
+     "name": "先叔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "作者已故叔叔，与先子同行"
+    },
+    {
+     "name": "族人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "嗜赌族人，因先子识韩道士"
+    },
+    {
+     "name": "天齐庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中庙宇，韩道士居所"
+    },
+    {
+     "name": "大佛寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寺庙，僧所来之处"
+    },
+    {
+     "name": "符",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "韩道士所书纸符，助赌"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "韩道士",
+     "predicate": "LIVES_AT",
+     "object": "天齐庙",
+     "evidence": "韩道士，居邑中之天齐庙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "先子",
+     "predicate": "FRIEND",
+     "object": "韩道士",
+     "evidence": "先子与最善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "族人",
+     "predicate": "FRIEND",
+     "object": "韩道士",
+     "evidence": "因先子亦识韩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韩道士",
+     "predicate": "HELPED",
+     "object": "族人",
+     "evidence": "倘能戒赌，我为汝覆之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩道士",
+     "predicate": "OWNS",
+     "object": "符",
+     "evidence": "韩乃以纸书符",
+     "confidence": 0.95
+    },
+    {
+     "subject": "族人",
+     "predicate": "OWNS",
+     "object": "符",
+     "evidence": "授佩衣带间",
+     "confidence": 0.9
+    },
+    {
+     "subject": "族人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赌博",
+     "evidence": "罄赀往赌",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:58.905Z"
+}

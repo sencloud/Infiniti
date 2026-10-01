@@ -1,0 +1,194 @@
+{
+ "no": 21,
+ "title": "狐嫁女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1147,
+   "entities": [
+    {
+     "name": "殷天官",
+     "type": "Person",
+     "aliases": [
+      "殷公",
+      "殷尚书"
+     ],
+     "nickname": "",
+     "description": "历城人，少贫有胆略，后中进士任肥丘县令"
+    },
+    {
+     "name": "狐翁",
+     "type": "Spirit",
+     "aliases": [
+      "老翁"
+     ],
+     "nickname": "",
+     "description": "狐精，嫁女之夜遇殷公，邀其陪坐"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [
+      "新人",
+      "小姐"
+     ],
+     "nickname": "",
+     "description": "狐翁之女，容华绝世，是夜出阁"
+    },
+    {
+     "name": "狐婿",
+     "type": "Spirit",
+     "aliases": [
+      "新郎",
+      "少年"
+     ],
+     "nickname": "",
+     "description": "狐翁之婿，年可十七八，丰采韶秀"
+    },
+    {
+     "name": "狐妇",
+     "type": "Spirit",
+     "aliases": [
+      "拙荆",
+      "母"
+     ],
+     "nickname": "",
+     "description": "狐翁之妻，年可四十馀"
+    },
+    {
+     "name": "朱姓世家",
+     "type": "Person",
+     "aliases": [
+      "主人"
+     ],
+     "nickname": "",
+     "description": "肥丘世家，藏有八只金爵，宴请殷公"
+    },
+    {
+     "name": "故家之第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "历城废宅，广数十亩，常见怪异"
+    },
+    {
+     "name": "肥丘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "殷公中进士后任职之地"
+    },
+    {
+     "name": "金爵",
+     "type": "Item",
+     "aliases": [
+      "金杯"
+     ],
+     "nickname": "",
+     "description": "狐家酒器，大容数斗，被殷公藏于袖中"
+    },
+    {
+     "name": "狐嫁女",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐翁嫁女之喜事，殷公偶遇陪坐"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "狐翁",
+     "predicate": "SPOUSE",
+     "object": "狐妇",
+     "evidence": "翁曰：“此拙荆。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐翁",
+     "predicate": "KIN",
+     "object": "狐女",
+     "evidence": "小人有箕箒女，今夜于归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐妇",
+     "predicate": "KIN",
+     "object": "狐女",
+     "evidence": "翁命向上拜。起，即坐母侧。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "SPOUSE",
+     "object": "狐婿",
+     "evidence": "次翁婿交拜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐翁",
+     "predicate": "KIN",
+     "object": "狐婿",
+     "evidence": "翁趋迎……次翁婿交拜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐翁",
+     "predicate": "HELPED",
+     "object": "殷天官",
+     "evidence": "即烦陪坐，倍益光宠。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "殷天官",
+     "predicate": "PARTICIPATED_IN",
+     "object": "狐嫁女",
+     "evidence": "不知今夕嘉礼，惭无以贺。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐嫁女",
+     "predicate": "OCCURRED_AT",
+     "object": "故家之第",
+     "evidence": "乃相率入楼，楼门尽辟。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "殷天官",
+     "predicate": "LIVES_AT",
+     "object": "故家之第",
+     "evidence": "携一席往……遂止焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "殷天官",
+     "predicate": "OWNS",
+     "object": "金爵",
+     "evidence": "探袖中，金爵犹在。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "殷天官",
+     "predicate": "NATIVE_OF",
+     "object": "肥丘",
+     "evidence": "后公举进士，任于肥丘。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "朱姓世家",
+     "predicate": "OWNS",
+     "object": "金爵",
+     "evidence": "此世传物，什袭已久。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "殷天官",
+     "predicate": "HELPED",
+     "object": "朱姓世家",
+     "evidence": "仆有一具，颇近似之，当以奉赠。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:22.300Z"
+}

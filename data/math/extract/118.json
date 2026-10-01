@@ -1,0 +1,106 @@
+{
+ "no": 118,
+ "title": "5.5 用二次函数解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6076,
+   "entities": [
+    {
+     "name": "二次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=ax²+bx+c（a≠0）的函数，是描述数量关系的数学模型。"
+    },
+    {
+     "name": "抛物线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次函数的图像，直观揭示二次函数的性质。"
+    },
+    {
+     "name": "配方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将二次函数一般式化为顶点式的数学方法。"
+    },
+    {
+     "name": "二次函数的图像",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次函数y=ax²+bx+c的图像，是一条抛物线。"
+    },
+    {
+     "name": "二次函数的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次函数图像的开口方向、对称轴、顶点及增减性等。"
+    },
+    {
+     "name": "数学模型",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用数学语言描述实际问题中的数量关系。"
+    },
+    {
+     "name": "实际问题数学化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将实际问题抽象为数学问题，建立数学模型并求解。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "二次函数",
+     "predicate": "APPLIES_TO",
+     "object": "实际问题数学化",
+     "evidence": "生产、生活中的一些实际问题，有时可以用二次函数来揭示其中数量之间的关系",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次函数的图像",
+     "predicate": "INCLUDES",
+     "object": "抛物线",
+     "evidence": "二次函数的图像是抛物线",
+     "confidence": 0.95
+    },
+    {
+     "subject": "配方法",
+     "predicate": "APPLIES_TO",
+     "object": "二次函数",
+     "evidence": "通过配方，把二次函数y=ax²+bx+c化为y=a(x+h)²+k的形式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次函数的图像",
+     "predicate": "PROPERTY_OF",
+     "object": "二次函数",
+     "evidence": "二次函数的图像是抛物线，它直观地揭示了二次函数的性质",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数",
+     "predicate": "RELATED",
+     "object": "数学模型",
+     "evidence": "它是描述现实世界数量变化及其关系的一种数学模型",
+     "confidence": 0.9
+    },
+    {
+     "subject": "实际问题数学化",
+     "predicate": "APPLIES_TO",
+     "object": "二次函数",
+     "evidence": "把一些实际问题中的数量关系抽象成为二次函数",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:24.651Z"
+}

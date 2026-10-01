@@ -1,0 +1,43 @@
+{
+ "no": 351,
+ "title": "研石",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 122,
+   "entities": [
+    {
+     "name": "王仲超",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "讲述洞庭君山石洞之事的人"
+    },
+    {
+     "name": "洞庭君山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "洞庭湖中的山，有石洞"
+    },
+    {
+     "name": "石洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "君山间石洞，高可容舟，深暗不测"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王仲超",
+     "predicate": "LIVES_AT",
+     "object": "洞庭君山",
+     "evidence": "王仲超言：洞庭君山间有石洞",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:23.838Z"
+}

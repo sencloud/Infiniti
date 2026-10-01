@@ -1,0 +1,36 @@
+{
+ "no": 29,
+ "title": "真定女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 97,
+   "entities": [
+    {
+     "name": "真定孤女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "真定县孤女，六七岁被收养于夫家，后生子"
+    },
+    {
+     "name": "真定",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "真定县地界"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "真定孤女",
+     "predicate": "LIVES_AT",
+     "object": "真定",
+     "evidence": "真定界，有孤女",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:22.038Z"
+}

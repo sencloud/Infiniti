@@ -1,0 +1,783 @@
+{
+ "no": 97,
+ "title": "金酬外护遭魔毒 圣显幽魂救本原",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6015,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎王",
+     "description": "地府冥王"
+    },
+    {
+     "name": "寇洪",
+     "type": "Person",
+     "aliases": [
+      "寇员外"
+     ],
+     "nickname": "寇员外",
+     "description": "铜台府地灵县斋僧员外，被贼踢死"
+    },
+    {
+     "name": "寇梁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪长子"
+    },
+    {
+     "name": "寇栋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪次子"
+    },
+    {
+     "name": "张穿针",
+     "type": "Person",
+     "aliases": [
+      "穿针儿"
+     ],
+     "nickname": "妈妈",
+     "description": "寇洪之妻，诬告唐僧四众"
+    },
+    {
+     "name": "寇铭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪之父，已故"
+    },
+    {
+     "name": "铜台府刺史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "铜台府刺史，正直贤良"
+    },
+    {
+     "name": "寇家",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪家族府第"
+    },
+    {
+     "name": "铜台府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "铜台府官府"
+    },
+    {
+     "name": "地灵县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "铜台府地灵县"
+    },
+    {
+     "name": "华光行院",
+     "type": "Place",
+     "aliases": [
+      "华光破屋"
+     ],
+     "nickname": "",
+     "description": "唐僧师徒夜宿破屋"
+    },
+    {
+     "name": "寇家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪家宅"
+    },
+    {
+     "name": "山凹",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "众贼分赃处"
+    },
+    {
+     "name": "打劫寇家",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "众贼夜劫寇家，踢死寇洪"
+    },
+    {
+     "name": "诬告唐僧",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "张穿针诬告唐僧四众打劫杀人"
+    },
+    {
+     "name": "锦襕袈裟",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧宝物袈裟，价值千金"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "寇梁",
+     "predicate": "KIN",
+     "object": "寇洪",
+     "evidence": "寇梁、寇栋与着亲的几个儿女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇栋",
+     "predicate": "KIN",
+     "object": "寇洪",
+     "evidence": "寇梁、寇栋与着亲的几个儿女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张穿针",
+     "predicate": "SPOUSE",
+     "object": "寇洪",
+     "evidence": "娶的妻是那张旺之女，小名叫做穿针儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "KIN",
+     "object": "寇铭",
+     "evidence": "他老子叫做寇铭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "打劫寇家",
+     "predicate": "OCCURRED_AT",
+     "object": "寇家",
+     "evidence": "打开寇家大门，呐喊杀入",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张穿针",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "点火的是唐僧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张穿针",
+     "predicate": "FRAMED",
+     "object": "猪八戒",
+     "evidence": "持刀的是猪八戒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张穿针",
+     "predicate": "FRAMED",
+     "object": "沙悟净",
+     "evidence": "搬金银的是沙和尚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张穿针",
+     "predicate": "FRAMED",
+     "object": "孙悟空",
+     "evidence": "打死你老子的是孙行者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张穿针",
+     "predicate": "MASTERMINDED",
+     "object": "诬告唐僧",
+     "evidence": "便生妒害之心，欲陷他四众",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇梁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "诬告唐僧",
+     "evidence": "寇梁兄弟，赴府投词",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇栋",
+     "predicate": "PARTICIPATED_IN",
+     "object": "诬告唐僧",
+     "evidence": "寇梁兄弟，赴府投词",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铜台府刺史",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "点起马步快手并民壮人役……出西门一直来赶唐僧四众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铜台府刺史",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "点起马步快手并民壮人役……出西门一直来赶唐僧四众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铜台府刺史",
+     "predicate": "ATTACKED",
+     "object": "猪八戒",
+     "evidence": "点起马步快手并民壮人役……出西门一直来赶唐僧四众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铜台府刺史",
+     "predicate": "ATTACKED",
+     "object": "沙悟净",
+     "evidence": "点起马步快手并民壮人役……出西门一直来赶唐僧四众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "锦襕袈裟",
+     "evidence": "有一件锦襕袈裟，价值千金",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "锦襕袈裟",
+     "evidence": "把那袈裟与了他罢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "寇洪",
+     "evidence": "行者学着那员外的声音道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "阎王转差鬼使押解我来家，教你们趁早解放他去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "阎王转差鬼使押解我来家，教你们趁早解放他去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "阎王转差鬼使押解我来家，教你们趁早解放他去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "阎王转差鬼使押解我来家，教你们趁早解放他去",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2716,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "保护唐僧取经的大徒弟，能腾云驾雾、起死回生"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "师父",
+     "description": "取经的圣僧，被铜台府误囚"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，同被囚禁"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，同被囚禁"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "救苦救难的菩萨，本片段未直接出场"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主，差浪荡游神下界"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎君",
+     "description": "幽冥地界十代阎君，掌管生死"
+    },
+    {
+     "name": "地藏王菩萨",
+     "type": "Person",
+     "aliases": [
+      "地藏",
+      "幽冥教主",
+      "地藏菩萨"
+     ],
+     "nickname": "地藏",
+     "description": "幽冥教主，收寇洪为掌善缘簿子的案长"
+    },
+    {
+     "name": "寇洪",
+     "type": "Person",
+     "aliases": [
+      "寇员外",
+      "斋僧的寇洪"
+     ],
+     "nickname": "员外",
+     "description": "铜台府地灵县斋僧善士，被强盗踢死，后还魂"
+    },
+    {
+     "name": "寇梁",
+     "type": "Person",
+     "aliases": [
+      "寇梁兄弟"
+     ],
+     "nickname": "",
+     "description": "寇洪之子，曾递失状告唐僧"
+    },
+    {
+     "name": "姜坤三",
+     "type": "Person",
+     "aliases": [
+      "刺史",
+      "铜台府刺史"
+     ],
+     "nickname": "",
+     "description": "铜台府刺史，误囚唐僧"
+    },
+    {
+     "name": "姜乾一",
+     "type": "Person",
+     "aliases": [
+      "伯考姜公乾一"
+     ],
+     "nickname": "",
+     "description": "姜坤三伯父，已死五六年，显魂"
+    },
+    {
+     "name": "地灵县知县",
+     "type": "Person",
+     "aliases": [
+      "知县"
+     ],
+     "nickname": "",
+     "description": "地灵县知县，参与误囚唐僧"
+    },
+    {
+     "name": "金衣童子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "地藏王菩萨的童子，引寇洪见地藏"
+    },
+    {
+     "name": "铜台府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "姜坤三任刺史的府衙"
+    },
+    {
+     "name": "地灵县",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "铜台府下辖县，寇洪所居"
+    },
+    {
+     "name": "幽冥地界",
+     "type": "Organization",
+     "aliases": [
+      "阴司",
+      "幽府"
+     ],
+     "nickname": "",
+     "description": "阎王与地藏王菩萨所在的地府"
+    },
+    {
+     "name": "翠云宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地藏王菩萨在幽冥的宫殿"
+    },
+    {
+     "name": "森罗殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "十代阎君所在殿宇"
+    },
+    {
+     "name": "寇家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪住宅，在铜台府地灵县"
+    },
+    {
+     "name": "寇洪还魂",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空入地府取寇洪魂魄，使其还阳"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者笑道：管你一下儿也不敢打，老孙俱已干办停当。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "行者笑道：管你一下儿也不敢打，老孙俱已干办停当。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "行者笑道：管你一下儿也不敢打，老孙俱已干办停当。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "寇洪",
+     "evidence": "我老孙特来取你到阳世间，对明此事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "KIN",
+     "object": "寇梁",
+     "evidence": "寇梁兄弟抱牌跪门叫喊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜坤三",
+     "predicate": "KIN",
+     "object": "姜乾一",
+     "evidence": "伯考姜公乾一神位，孝侄姜坤三蒙祖上德荫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜坤三",
+     "predicate": "LEADS",
+     "object": "铜台府",
+     "evidence": "今叨受铜台府刺史",
+     "confidence": 0.9
+    },
+    {
+     "subject": "地灵县知县",
+     "predicate": "LEADS",
+     "object": "地灵县",
+     "evidence": "地灵县知县等官，急急跑上堂乱道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "MEMBER_OF",
+     "object": "寇家",
+     "evidence": "寇洪教安排筵宴，酬谢府县厚恩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "PARTICIPATED_IN",
+     "object": "寇洪还魂",
+     "evidence": "寇洪见了行者，声声叫道：老师！老师！救我一救！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "寇洪还魂",
+     "evidence": "我老孙特来取你到阳世间，对明此事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪还魂",
+     "predicate": "OCCURRED_AT",
+     "object": "寇家",
+     "evidence": "驾云头到了寇家，即唤八戒捎开材盖，把他魂灵儿推付本身。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "翠云宫",
+     "evidence": "行者即别了，径至翠云宫，见地藏王菩萨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "地藏王菩萨",
+     "predicate": "STATIONED_AT",
+     "object": "翠云宫",
+     "evidence": "径至翠云宫，见地藏王菩萨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "STATIONED_AT",
+     "object": "森罗殿",
+     "evidence": "径撞入森罗殿上，慌得那十代阎君拱手接",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "姜坤三",
+     "evidence": "行者近前努目睁看，厉声高叫道：我的白马是堂上人得了，行李是狱中人得了，快快还我！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "地灵县知县",
+     "evidence": "行者近前努目睁看，厉声高叫道：我的白马是堂上人得了，行李是狱中人得了，快快还我！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "姜坤三",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "把四个圣僧当贼，不审来因，囚于禁内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜坤三",
+     "predicate": "FRAMED",
+     "object": "孙悟空",
+     "evidence": "把四个圣僧当贼，不审来因，囚于禁内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜坤三",
+     "predicate": "FRAMED",
+     "object": "猪八戒",
+     "evidence": "把四个圣僧当贼，不审来因，囚于禁内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜坤三",
+     "predicate": "FRAMED",
+     "object": "沙悟净",
+     "evidence": "把四个圣僧当贼，不审来因，囚于禁内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇梁",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "二人将解状递上。刺史见了发怒道：你昨日递了失状，就与你拿了贼来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇梁",
+     "predicate": "FRAMED",
+     "object": "孙悟空",
+     "evidence": "二人将解状递上。刺史见了发怒道：你昨日递了失状，就与你拿了贼来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇梁",
+     "predicate": "FRAMED",
+     "object": "猪八戒",
+     "evidence": "二人将解状递上。刺史见了发怒道：你昨日递了失状，就与你拿了贼来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇梁",
+     "predicate": "FRAMED",
+     "object": "沙悟净",
+     "evidence": "二人将解状递上。刺史见了发怒道：你昨日递了失状，就与你拿了贼来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "姜乾一",
+     "evidence": "行者暗笑道：此是他大爷的神子！却就绰着经儿叫道：坤三贤侄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蜢虫儿",
+     "evidence": "仍变做个蜢虫儿，从监房瓦缝儿飞入",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "浪荡游神",
+     "evidence": "他就半空中，改了个大法身，从空里伸下一只脚来，把个县堂躧满，口中叫道：吾乃玉帝差来的浪荡游神。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "MASTERMINDED",
+     "object": "寇洪还魂",
+     "evidence": "吾乃玉帝差来的浪荡游神。说你这府监里屈打了取经的佛子",
+     "confidence": 0.7
+    },
+    {
+     "subject": "地藏王菩萨",
+     "predicate": "RESCUED",
+     "object": "寇洪",
+     "evidence": "我因他斋僧，是个善士，收他做个掌善缘簿子的案长。既大圣来取，我再延他阳寿一纪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金衣童子",
+     "predicate": "SERVED",
+     "object": "地藏王菩萨",
+     "evidence": "遇着地藏王的金衣童子，他引见地藏也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "SERVED",
+     "object": "地藏王菩萨",
+     "evidence": "我因他斋僧，是个善士，收他做个掌善缘簿子的案长。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:31.067Z"
+}

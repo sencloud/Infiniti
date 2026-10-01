@@ -1,0 +1,4046 @@
+{
+ "no": 111,
+ "title": "第一百十一回 张顺夜伏金山寺 宋江智取润州城",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5674,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，奉诏征剿方腊"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，为宋江出谋划策"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "小旋风",
+      "柴大官人",
+      "柴皇城"
+     ],
+     "nickname": "小旋风",
+     "description": "梁山好汉，与张顺同去探路"
+    },
+    {
+     "name": "张顺",
+     "type": "Person",
+     "aliases": [
+      "浪里白跳",
+      "张顺艄公"
+     ],
+     "nickname": "浪里白跳",
+     "description": "梁山好汉，水性极佳，夜探金山寺"
+    },
+    {
+     "name": "石秀",
+     "type": "Person",
+     "aliases": [
+      "拚命三郎",
+      "石三郎"
+     ],
+     "nickname": "拚命三郎",
+     "description": "梁山好汉，与阮小七同去焦山"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [
+      "活阎罗",
+      "阮小七郎"
+     ],
+     "nickname": "活阎罗",
+     "description": "梁山好汉，与石秀同去焦山"
+    },
+    {
+     "name": "吕师囊",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊手下东厅枢密使，守把润州江岸"
+    },
+    {
+     "name": "方腊",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "起义军首领，占据江南"
+    },
+    {
+     "name": "吴成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈将士家干人，被张顺所杀"
+    },
+    {
+     "name": "叶贵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕师囊帐前虞候，被张顺砍下江"
+    },
+    {
+     "name": "陈观",
+     "type": "Person",
+     "aliases": [
+      "陈将士"
+     ],
+     "nickname": "",
+     "description": "扬州定浦村富户，交结方腊"
+    },
+    {
+     "name": "陈益",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈观长子，被燕青等杀死"
+    },
+    {
+     "name": "陈泰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈观次子，被燕青等杀死"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "梁山好汉，扮叶贵混入陈家庄"
+    },
+    {
+     "name": "解珍",
+     "type": "Person",
+     "aliases": [
+      "两头蛇",
+      "解珍猎户"
+     ],
+     "nickname": "两头蛇",
+     "description": "梁山好汉，扮南军随燕青行事"
+    },
+    {
+     "name": "解宝",
+     "type": "Person",
+     "aliases": [
+      "双尾蝎",
+      "解宝猎户"
+     ],
+     "nickname": "双尾蝎",
+     "description": "梁山好汉，扮南军随燕青行事"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "花和尚",
+      "鲁提辖",
+      "鲁达"
+     ],
+     "nickname": "花和尚",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "九纹龙",
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "杨雄",
+     "type": "Person",
+     "aliases": [
+      "病关索",
+      "杨节级"
+     ],
+     "nickname": "病关索",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "项充",
+     "type": "Person",
+     "aliases": [
+      "八臂哪吒"
+     ],
+     "nickname": "八臂哪吒",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "李衮",
+     "type": "Person",
+     "aliases": [
+      "飞天大圣"
+     ],
+     "nickname": "飞天大圣",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "鲍旭",
+     "type": "Person",
+     "aliases": [
+      "丧门神"
+     ],
+     "nickname": "丧门神",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "杨林",
+     "type": "Person",
+     "aliases": [
+      "锦豹子"
+     ],
+     "nickname": "锦豹子",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "薛永",
+     "type": "Person",
+     "aliases": [
+      "病大虫"
+     ],
+     "nickname": "病大虫",
+     "description": "梁山好汉，参与攻打陈家庄"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [
+      "美髯公",
+      "朱都头"
+     ],
+     "nickname": "美髯公",
+     "description": "梁山好汉，引军围住陈家庄"
+    },
+    {
+     "name": "索超",
+     "type": "Person",
+     "aliases": [
+      "急先锋",
+      "索超将军"
+     ],
+     "nickname": "急先锋",
+     "description": "梁山好汉，引军围住陈家庄"
+    },
+    {
+     "name": "张清",
+     "type": "Person",
+     "aliases": [
+      "没羽箭",
+      "张都监"
+     ],
+     "nickname": "没羽箭",
+     "description": "梁山好汉，引军围住陈家庄"
+    },
+    {
+     "name": "樊瑞",
+     "type": "Person",
+     "aliases": [
+      "混世魔王"
+     ],
+     "nickname": "混世魔王",
+     "description": "梁山好汉，引军围住陈家庄"
+    },
+    {
+     "name": "李忠",
+     "type": "Person",
+     "aliases": [
+      "打虎将"
+     ],
+     "nickname": "打虎将",
+     "description": "梁山好汉，引军围住陈家庄"
+    },
+    {
+     "name": "周通",
+     "type": "Person",
+     "aliases": [
+      "小霸王"
+     ],
+     "nickname": "小霸王",
+     "description": "梁山好汉，引军围住陈家庄"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "梁山好汉，扮陈益渡江诈降"
+    },
+    {
+     "name": "李俊",
+     "type": "Person",
+     "aliases": [
+      "混江龙",
+      "李俊头领"
+     ],
+     "nickname": "混江龙",
+     "description": "梁山好汉，扮陈泰渡江诈降"
+    },
+    {
+     "name": "张横",
+     "type": "Person",
+     "aliases": [
+      "船火儿",
+      "张横艄公"
+     ],
+     "nickname": "船火儿",
+     "description": "梁山好汉，第二拨船管领"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [
+      "立地太岁",
+      "阮小二郎"
+     ],
+     "nickname": "立地太岁",
+     "description": "梁山好汉，水军头领，催督渡江"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [
+      "短命二郎",
+      "阮小五郎"
+     ],
+     "nickname": "短命二郎",
+     "description": "梁山好汉，水军头领，催督渡江"
+    },
+    {
+     "name": "杜迁",
+     "type": "Person",
+     "aliases": [
+      "摸着天"
+     ],
+     "nickname": "摸着天",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "宋万",
+     "type": "Person",
+     "aliases": [
+      "云里金刚"
+     ],
+     "nickname": "云里金刚",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "邹渊",
+     "type": "Person",
+     "aliases": [
+      "出林龙"
+     ],
+     "nickname": "出林龙",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "邹润",
+     "type": "Person",
+     "aliases": [
+      "独角龙"
+     ],
+     "nickname": "独角龙",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "石勇",
+     "type": "Person",
+     "aliases": [
+      "石将军"
+     ],
+     "nickname": "石将军",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "童威",
+     "type": "Person",
+     "aliases": [
+      "出洞蛟"
+     ],
+     "nickname": "出洞蛟",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "童猛",
+     "type": "Person",
+     "aliases": [
+      "翻江蜃"
+     ],
+     "nickname": "翻江蜃",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "孔明",
+     "type": "Person",
+     "aliases": [
+      "毛头星"
+     ],
+     "nickname": "毛头星",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "孔亮",
+     "type": "Person",
+     "aliases": [
+      "独火星"
+     ],
+     "nickname": "独火星",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "郑天寿",
+     "type": "Person",
+     "aliases": [
+      "白面郎君"
+     ],
+     "nickname": "白面郎君",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "李立",
+     "type": "Person",
+     "aliases": [
+      "催命判官"
+     ],
+     "nickname": "催命判官",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "李云",
+     "type": "Person",
+     "aliases": [
+      "青眼虎"
+     ],
+     "nickname": "青眼虎",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "施恩",
+     "type": "Person",
+     "aliases": [
+      "金眼彪",
+      "小管营"
+     ],
+     "nickname": "金眼彪",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "白胜",
+     "type": "Person",
+     "aliases": [
+      "白日鼠"
+     ],
+     "nickname": "白日鼠",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "陶宗旺",
+     "type": "Person",
+     "aliases": [
+      "九尾龟"
+     ],
+     "nickname": "九尾龟",
+     "description": "梁山好汉，第一拨偏将"
+    },
+    {
+     "name": "曹正",
+     "type": "Person",
+     "aliases": [
+      "操刀鬼"
+     ],
+     "nickname": "操刀鬼",
+     "description": "梁山好汉，第二拨偏将"
+    },
+    {
+     "name": "杜兴",
+     "type": "Person",
+     "aliases": [
+      "鬼脸儿"
+     ],
+     "nickname": "鬼脸儿",
+     "description": "梁山好汉，第二拨偏将"
+    },
+    {
+     "name": "龚旺",
+     "type": "Person",
+     "aliases": [
+      "花项虎"
+     ],
+     "nickname": "花项虎",
+     "description": "梁山好汉，第二拨偏将"
+    },
+    {
+     "name": "丁得孙",
+     "type": "Person",
+     "aliases": [
+      "中箭虎"
+     ],
+     "nickname": "中箭虎",
+     "description": "梁山好汉，第二拨偏将"
+    },
+    {
+     "name": "孟康",
+     "type": "Person",
+     "aliases": [
+      "玉幡竿"
+     ],
+     "nickname": "玉幡竿",
+     "description": "梁山好汉，第二拨偏将"
+    },
+    {
+     "name": "侯健",
+     "type": "Person",
+     "aliases": [
+      "通臂猿"
+     ],
+     "nickname": "通臂猿",
+     "description": "梁山好汉，第二拨偏将"
+    },
+    {
+     "name": "汤隆",
+     "type": "Person",
+     "aliases": [
+      "金钱豹子"
+     ],
+     "nickname": "金钱豹子",
+     "description": "梁山好汉，第二拨偏将"
+    },
+    {
+     "name": "焦挺",
+     "type": "Person",
+     "aliases": [
+      "没面目"
+     ],
+     "nickname": "没面目",
+     "description": "梁山好汉，第二拨偏将"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎",
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "梁山好汉，第三拨正将"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉，第三拨正将"
+    },
+    {
+     "name": "蔡庆",
+     "type": "Person",
+     "aliases": [
+      "一枝花"
+     ],
+     "nickname": "一枝花",
+     "description": "梁山好汉，第三拨正将"
+    },
+    {
+     "name": "方貌",
+     "type": "Person",
+     "aliases": [
+      "御弟三大王"
+     ],
+     "nickname": "",
+     "description": "方腊之弟，封三大王"
+    },
+    {
+     "name": "沈刚",
+     "type": "Person",
+     "aliases": [
+      "擎天神"
+     ],
+     "nickname": "擎天神",
+     "description": "江南十二神之一，福州人"
+    },
+    {
+     "name": "潘文得",
+     "type": "Person",
+     "aliases": [
+      "游奕神"
+     ],
+     "nickname": "游奕神",
+     "description": "江南十二神之一，歙州人"
+    },
+    {
+     "name": "应明",
+     "type": "Person",
+     "aliases": [
+      "遁甲神"
+     ],
+     "nickname": "遁甲神",
+     "description": "江南十二神之一，睦州人"
+    },
+    {
+     "name": "徐统",
+     "type": "Person",
+     "aliases": [
+      "六丁神"
+     ],
+     "nickname": "六丁神",
+     "description": "江南十二神之一，明州人"
+    },
+    {
+     "name": "张近仁",
+     "type": "Person",
+     "aliases": [
+      "霹雳神"
+     ],
+     "nickname": "霹雳神",
+     "description": "江南十二神之一，越州人"
+    },
+    {
+     "name": "沈泽",
+     "type": "Person",
+     "aliases": [
+      "巨灵神"
+     ],
+     "nickname": "巨灵神",
+     "description": "江南十二神之一，杭州人"
+    },
+    {
+     "name": "赵毅",
+     "type": "Person",
+     "aliases": [
+      "太白神"
+     ],
+     "nickname": "太白神",
+     "description": "江南十二神之一，湖州人"
+    },
+    {
+     "name": "高可立",
+     "type": "Person",
+     "aliases": [
+      "太岁神"
+     ],
+     "nickname": "太岁神",
+     "description": "江南十二神之一，宣州人"
+    },
+    {
+     "name": "范畴",
+     "type": "Person",
+     "aliases": [
+      "吊客神"
+     ],
+     "nickname": "吊客神",
+     "description": "江南十二神之一，常州人"
+    },
+    {
+     "name": "卓万里",
+     "type": "Person",
+     "aliases": [
+      "黄幡神"
+     ],
+     "nickname": "黄幡神",
+     "description": "江南十二神之一，润州人"
+    },
+    {
+     "name": "和潼",
+     "type": "Person",
+     "aliases": [
+      "豹尾神"
+     ],
+     "nickname": "豹尾神",
+     "description": "江南十二神之一，江州人"
+    },
+    {
+     "name": "沈抃",
+     "type": "Person",
+     "aliases": [
+      "丧门神"
+     ],
+     "nickname": "丧门神",
+     "description": "江南十二神之一，苏州人"
+    },
+    {
+     "name": "张招讨",
+     "type": "Person",
+     "aliases": [
+      "总督张招讨"
+     ],
+     "nickname": "",
+     "description": "宋军总督，宋江辞别后进兵"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江等好汉聚义的山寨势力"
+    },
+    {
+     "name": "方腊军",
+     "type": "Organization",
+     "aliases": [
+      "南军",
+      "方腊手下"
+     ],
+     "nickname": "",
+     "description": "方腊麾下军队，守把润州江岸"
+    },
+    {
+     "name": "江南十二神",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕师囊部下十二个统制官"
+    },
+    {
+     "name": "宋军",
+     "type": "Organization",
+     "aliases": [
+      "官军",
+      "宋朝先锋使"
+     ],
+     "nickname": "",
+     "description": "宋江率领的征剿方腊的朝廷军队"
+    },
+    {
+     "name": "金山寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金山上的寺庙，在江心"
+    },
+    {
+     "name": "焦山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江心山，上有寺庙"
+    },
+    {
+     "name": "润州",
+     "type": "Place",
+     "aliases": [
+      "镇江"
+     ],
+     "nickname": "",
+     "description": "今镇江，方腊军守把"
+    },
+    {
+     "name": "扬州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "淮东州府，宋江军马屯扎地"
+    },
+    {
+     "name": "瓜洲",
+     "type": "Place",
+     "aliases": [
+      "瓜洲渡口"
+     ],
+     "nickname": "",
+     "description": "江北岸渡口"
+    },
+    {
+     "name": "定浦村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "扬州城外村庄，陈观庄院所在"
+    },
+    {
+     "name": "北固山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "润州江边山，吕师囊驻守处"
+    },
+    {
+     "name": "苏州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "方貌驻地"
+    },
+    {
+     "name": "淮安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江兵马先到之处"
+    },
+    {
+     "name": "歙州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕师囊原籍"
+    },
+    {
+     "name": "福州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沈刚籍贯"
+    },
+    {
+     "name": "睦州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "应明籍贯"
+    },
+    {
+     "name": "明州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐统籍贯"
+    },
+    {
+     "name": "越州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张近仁籍贯"
+    },
+    {
+     "name": "杭州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沈泽籍贯"
+    },
+    {
+     "name": "湖州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵毅籍贯"
+    },
+    {
+     "name": "宣州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高可立籍贯"
+    },
+    {
+     "name": "常州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "范畴籍贯"
+    },
+    {
+     "name": "江州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "和潼籍贯"
+    },
+    {
+     "name": "智取润州城",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江设计智取润州"
+    },
+    {
+     "name": "张顺夜伏金山寺",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "张顺夜探金山寺打探消息"
+    },
+    {
+     "name": "燕青智取陈家庄",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕青等扮叶贵混入陈家庄杀陈观父子"
+    },
+    {
+     "name": "丈八蛇矛",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕师囊惯使的兵器"
+    },
+    {
+     "name": "官诰",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "封陈观为扬州府尹的文书"
+    },
+    {
+     "name": "号旗",
+     "type": "Item",
+     "aliases": [
+      "号色旌旗"
+     ],
+     "nickname": "",
+     "description": "方腊军旗号，三百面"
+    },
+    {
+     "name": "号衣",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "军士所穿号衣，一千领"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "先锋使宋江，奉着诏敕，征剿方腊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "宋军",
+     "evidence": "先锋使宋江，奉着诏敕，征剿方腊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "却是方腊手下东厅枢密使吕师囊守把江岸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "LEADS",
+     "object": "江南十二神",
+     "evidence": "部下管领着十二个统制官，名号“江南十二神”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "STATIONED_AT",
+     "object": "润州",
+     "evidence": "吕师囊守把江岸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "OWNS",
+     "object": "丈八蛇矛",
+     "evidence": "惯使一条丈八蛇矛",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "NATIVE_OF",
+     "object": "歙州",
+     "evidence": "此人原是歙州富户",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈观",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "陈将士陈观交结方腊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈观",
+     "predicate": "OWNS",
+     "object": "官诰",
+     "evidence": "并主人陈将士官诰，封做扬州府尹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈观",
+     "predicate": "KIN",
+     "object": "陈益",
+     "evidence": "嫡亲有两个孩儿……长子陈益",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈观",
+     "predicate": "KIN",
+     "object": "陈泰",
+     "evidence": "嫡亲有两个孩儿……次子陈泰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈益",
+     "predicate": "KIN",
+     "object": "陈泰",
+     "evidence": "嫡亲有两个孩儿……长子陈益，次子陈泰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "KILLED",
+     "object": "吴成",
+     "evidence": "一刀也把吴成剁下水里去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "KILLED",
+     "object": "叶贵",
+     "evidence": "虞候姓叶名贵，却才好汉砍下江里去的便是",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "PARTICIPATED_IN",
+     "object": "张顺夜伏金山寺",
+     "evidence": "张顺在江边看了一回……我且今夜去走一遭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺夜伏金山寺",
+     "predicate": "OCCURRED_AT",
+     "object": "金山寺",
+     "evidence": "直赴过金山寺去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "KILLED",
+     "object": "陈观",
+     "evidence": "燕青在堂里……和解宝一齐动手，早都割下头来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "KILLED",
+     "object": "陈益",
+     "evidence": "燕青在堂里……和解宝一齐动手，早都割下头来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "KILLED",
+     "object": "陈泰",
+     "evidence": "燕青在堂里……和解宝一齐动手，早都割下头来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "即时唤浪子燕青扮做叶虞候",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解珍",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "教解珍、解宝扮做南军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解宝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "教解珍、解宝扮做南军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青智取陈家庄",
+     "predicate": "OCCURRED_AT",
+     "object": "定浦村",
+     "evidence": "取路投定浦村。离城四十馀里，早问到陈将士庄前",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？花和尚鲁智深……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……行者武松……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……九纹龙史进……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……病关索杨雄……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……黑旋风李逵……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "项充",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……八臂那吒项充……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李衮",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……飞天大圣李衮……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲍旭",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……丧门神鲍旭……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨林",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……锦豹子杨林……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛永",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外哄动十个好汉，从前面打将入来。那十员将佐？……病大虫薛永……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外又早有一彪人马官军到来，为首六员将佐。那六员？美髯公朱仝……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "索超",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外又早有一彪人马官军到来，为首六员将佐。那六员？……急先锋索超……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张清",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外又早有一彪人马官军到来，为首六员将佐。那六员？……没羽箭张清……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "樊瑞",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外又早有一彪人马官军到来，为首六员将佐。那六员？……混世魔王樊瑞……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李忠",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外又早有一彪人马官军到来，为首六员将佐。那六员？……打虎将李忠……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周通",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青智取陈家庄",
+     "evidence": "庄门外又早有一彪人马官军到来，为首六员将佐。那六员？……小霸王周通……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "更差穆弘扮做陈益，李俊扮做陈泰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "更差穆弘扮做陈益，李俊扮做陈泰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张横",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "第二拨船上，差张横、张顺管领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "第二拨船上，差张横、张顺管领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "两个水军头领，一个是阮小二，一个是阮小五，总行催督",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "两个水军头领，一个是阮小二，一个是阮小五，总行催督",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "智取润州城",
+     "evidence": "吴用道：“既有这个机会，觑润州城易如反掌。先拿了陈观，大事便定。只除如此如此。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MASTERMINDED",
+     "object": "智取润州城",
+     "evidence": "宋江听了大喜，便请军师吴用商议：“如何定计？用甚良策？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "智取润州城",
+     "predicate": "OCCURRED_AT",
+     "object": "润州",
+     "evidence": "觑润州城易如反掌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "ATTACKED",
+     "object": "方腊军",
+     "evidence": "奉着诏敕，征剿方腊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "ATTACKED",
+     "object": "润州",
+     "evidence": "宋江智取润州城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方貌",
+     "predicate": "KIN",
+     "object": "方腊",
+     "evidence": "见了御弟三大王方貌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方貌",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "见了御弟三大王方貌",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沈刚",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：擎天神福州沈刚……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘文得",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……游奕神歙州潘文得……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "应明",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……遁甲神睦州应明……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐统",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……六丁神明州徐统……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张近仁",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……霹雳神越州张近仁……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈泽",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……巨灵神杭州沈泽……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵毅",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……太白神湖州赵毅……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高可立",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……太岁神宣州高可立……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范畴",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……吊客神常州范畴……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卓万里",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……黄幡神润州卓万里……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "和潼",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……豹尾神江州和潼……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈抃",
+     "predicate": "MEMBER_OF",
+     "object": "江南十二神",
+     "evidence": "那十二神是：……丧门神苏州沈抃",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈刚",
+     "predicate": "NATIVE_OF",
+     "object": "福州",
+     "evidence": "擎天神福州沈刚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘文得",
+     "predicate": "NATIVE_OF",
+     "object": "歙州",
+     "evidence": "游奕神歙州潘文得",
+     "confidence": 0.95
+    },
+    {
+     "subject": "应明",
+     "predicate": "NATIVE_OF",
+     "object": "睦州",
+     "evidence": "遁甲神睦州应明",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐统",
+     "predicate": "NATIVE_OF",
+     "object": "明州",
+     "evidence": "六丁神明州徐统",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张近仁",
+     "predicate": "NATIVE_OF",
+     "object": "越州",
+     "evidence": "霹雳神越州张近仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈泽",
+     "predicate": "NATIVE_OF",
+     "object": "杭州",
+     "evidence": "巨灵神杭州沈泽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵毅",
+     "predicate": "NATIVE_OF",
+     "object": "湖州",
+     "evidence": "太白神湖州赵毅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高可立",
+     "predicate": "NATIVE_OF",
+     "object": "宣州",
+     "evidence": "太岁神宣州高可立",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范畴",
+     "predicate": "NATIVE_OF",
+     "object": "常州",
+     "evidence": "吊客神常州范畴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卓万里",
+     "predicate": "NATIVE_OF",
+     "object": "润州",
+     "evidence": "黄幡神润州卓万里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "和潼",
+     "predicate": "NATIVE_OF",
+     "object": "江州",
+     "evidence": "豹尾神江州和潼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈抃",
+     "predicate": "NATIVE_OF",
+     "object": "苏州",
+     "evidence": "丧门神苏州沈抃",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴进",
+     "predicate": "PARTICIPATED_IN",
+     "object": "张顺夜伏金山寺",
+     "evidence": "张顺和柴进……可直到金、焦二山上宿歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "PARTICIPATED_IN",
+     "object": "张顺夜伏金山寺",
+     "evidence": "阮小七和石秀，可直到金、焦二山上宿歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "PARTICIPATED_IN",
+     "object": "张顺夜伏金山寺",
+     "evidence": "阮小七和石秀，可直到金、焦二山上宿歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "STATIONED_AT",
+     "object": "焦山",
+     "evidence": "石秀自和阮小七带了两个伴当，投焦山去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "STATIONED_AT",
+     "object": "焦山",
+     "evidence": "石秀自和阮小七带了两个伴当，投焦山去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "STATIONED_AT",
+     "object": "瓜洲",
+     "evidence": "柴进和张顺也带了两个伴当……四个奔瓜洲来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "STATIONED_AT",
+     "object": "瓜洲",
+     "evidence": "柴进和张顺也带了两个伴当……四个奔瓜洲来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "扬州",
+     "evidence": "宋先锋军马，俱屯扎在扬州城外",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "STATIONED_AT",
+     "object": "北固山",
+     "evidence": "却说润州北固山上，哨见对港三百来只战船",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈观",
+     "predicate": "STATIONED_AT",
+     "object": "定浦村",
+     "evidence": "扬州城外定浦村陈将士家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈观",
+     "predicate": "OWNS",
+     "object": "号旗",
+     "evidence": "关了号色旌旗三百面，并主人陈将士官诰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈观",
+     "predicate": "OWNS",
+     "object": "号衣",
+     "evidence": "更有号衣一千领，及吕枢密札付一道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "OWNS",
+     "object": "号旗",
+     "evidence": "关了号色旌旗三百面",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "OWNS",
+     "object": "号衣",
+     "evidence": "更有号衣一千领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴成",
+     "predicate": "SERVED",
+     "object": "陈观",
+     "evidence": "小人是此间扬州城外定浦村陈将士家干人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶贵",
+     "predicate": "SERVED",
+     "object": "吕师囊",
+     "evidence": "是吕枢密帐前虞候",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "即时唤浪子燕青扮做叶虞候",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解珍",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "教解珍、解宝扮做南军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解宝",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "教解珍、解宝扮做南军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "更差穆弘扮做陈益",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李俊",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "李俊扮做陈泰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "张顺和柴进……可直到金、焦二山上宿歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "张顺和柴进……可直到金、焦二山上宿歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "阮小七和石秀，可直到金、焦二山上宿歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "阮小七和石秀，可直到金、焦二山上宿歇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "张招讨",
+     "evidence": "收拾行李，辞了总督张招讨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SURRENDERED_TO",
+     "object": "宋朝",
+     "evidence": "奉着诏敕，征剿方腊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈观",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "陈将士陈观交结方腊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "因献钱粮与方腊，官封为东厅枢密使",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "FOUGHT",
+     "object": "宋江",
+     "evidence": "吕师囊听得大军来和他厮杀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FOUGHT",
+     "object": "吕师囊",
+     "evidence": "吕师囊听得大军来和他厮杀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "FOUGHT",
+     "object": "叶贵",
+     "evidence": "张顺却从水底下一钻……把尖刀一削，两个摇橹的撒了橹，倒撞下江里去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "FOUGHT",
+     "object": "吴成",
+     "evidence": "张顺喝道：“你是甚人？那里来的船只？实说，我便饶你！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "FRAMED",
+     "object": "陈观",
+     "evidence": "燕青便下拜道：“叶贵就此参见！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解宝",
+     "predicate": "FRAMED",
+     "object": "陈观",
+     "evidence": "解宝身边取出不按君臣的药头，张人眼慢，放在酒壶里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "FRAMED",
+     "object": "陈益",
+     "evidence": "随即便劝陈益、陈泰，两个各饮了一杯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "FRAMED",
+     "object": "陈泰",
+     "evidence": "随即便劝陈益、陈泰，两个各饮了一杯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "FRAMED",
+     "object": "吕师囊",
+     "evidence": "穆弘答道：“小人姓陈名益，兄弟陈泰。父亲陈观特遣某等弟兄，献纳白米五万石……”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李俊",
+     "predicate": "FRAMED",
+     "object": "吕师囊",
+     "evidence": "穆弘答道：“小人姓陈名益，兄弟陈泰。父亲陈观特遣某等弟兄，献纳白米五万石……”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "RECOMMENDED",
+     "object": "燕青",
+     "evidence": "吴用道：“既有这个机会……只除如此如此。”宋江道：“正合吾意。”即时唤浪子燕青扮做叶虞候",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "RECOMMENDED",
+     "object": "解珍",
+     "evidence": "吴用道：“既有这个机会……只除如此如此。”宋江道：“正合吾意。”即时唤浪子燕青扮做叶虞候，教解珍、解宝扮做南军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "RECOMMENDED",
+     "object": "解宝",
+     "evidence": "吴用道：“既有这个机会……只除如此如此。”宋江道：“正合吾意。”即时唤浪子燕青扮做叶虞候，教解珍、解宝扮做南军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "RECOMMENDED",
+     "object": "穆弘",
+     "evidence": "吴用道：“选三百只快船……更差穆弘扮做陈益，李俊扮做陈泰”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "RECOMMENDED",
+     "object": "李俊",
+     "evidence": "吴用道：“选三百只快船……更差穆弘扮做陈益，李俊扮做陈泰”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RECOMMENDED",
+     "object": "柴进",
+     "evidence": "宋江道：“你四人分作两路：张顺和柴进……”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RECOMMENDED",
+     "object": "张顺",
+     "evidence": "宋江道：“你四人分作两路：张顺和柴进……”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RECOMMENDED",
+     "object": "石秀",
+     "evidence": "宋江道：“你四人分作两路：……阮小七和石秀……”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RECOMMENDED",
+     "object": "阮小七",
+     "evidence": "宋江道：“你四人分作两路：……阮小七和石秀……”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "梁山泊宋江等领兵到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "军师吴用",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴进",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "小旋风柴进",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "浪里白条张顺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "拚命三郎石秀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "活阎罗阮小七",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "浪子燕青",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解珍",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "解珍、解宝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解宝",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "解珍、解宝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "花和尚鲁智深",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "行者武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "九纹龙史进",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "病关索杨雄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "黑旋风李逵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "项充",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "八臂那吒项充",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李衮",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "飞天大圣李衮",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲍旭",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "丧门神鲍旭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨林",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "锦豹子杨林",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛永",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "病大虫薛永",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "美髯公朱仝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "索超",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "急先锋索超",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张清",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "没羽箭张清",
+     "confidence": 0.95
+    },
+    {
+     "subject": "樊瑞",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "混世魔王樊瑞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李忠",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "打虎将李忠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周通",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "小霸王周通",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "穆弘扮做陈益",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李俊扮做陈泰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张横",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "差张横、张顺管领",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "两个水军头领，一个是阮小二",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "一个是阮小五",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜迁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杜迁、宋万、邹渊、邹润、石勇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋万",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杜迁、宋万、邹渊、邹润、石勇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邹渊",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杜迁、宋万、邹渊、邹润、石勇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邹润",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杜迁、宋万、邹渊、邹润、石勇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石勇",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杜迁、宋万、邹渊、邹润、石勇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "童威",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "童猛",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔明",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔亮",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郑天寿",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李立",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李云",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "施恩",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白胜",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶宗旺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "童威、童猛、孔明、孔亮、郑天寿、李立、李云、施恩、白胜、陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹正",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "曹正、杜兴、龚旺、丁得孙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜兴",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "曹正、杜兴、龚旺、丁得孙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "龚旺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "曹正、杜兴、龚旺、丁得孙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丁得孙",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "曹正、杜兴、龚旺、丁得孙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟康",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "孟康、侯健、汤隆、焦挺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "侯健",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "孟康、侯健、汤隆、焦挺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "孟康、侯健、汤隆、焦挺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "焦挺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "孟康、侯健、汤隆、焦挺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "雷横",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "史进、雷横、杨雄、刘唐、蔡庆、张清、李逵、解珍、解宝、柴进",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "史进、雷横、杨雄、刘唐、蔡庆、张清、李逵、解珍、解宝、柴进",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蔡庆",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "史进、雷横、杨雄、刘唐、蔡庆、张清、李逵、解珍、解宝、柴进",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2130,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，率军智取润州"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，劝宋江节哀"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "入云龙",
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "梁山好汉，回京后离去"
+    },
+    {
+     "name": "关胜",
+     "type": "Person",
+     "aliases": [
+      "大刀",
+      "关将军",
+      "关胜将军"
+     ],
+     "nickname": "大刀",
+     "description": "梁山好汉，率军战邢政"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "秦明",
+     "type": "Person",
+     "aliases": [
+      "霹雳火",
+      "秦统制"
+     ],
+     "nickname": "霹雳火",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "呼延灼",
+     "type": "Person",
+     "aliases": [
+      "双鞭",
+      "呼延将军"
+     ],
+     "nickname": "双鞭",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "小李广",
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "小旋风",
+      "柴大官人",
+      "柴皇城"
+     ],
+     "nickname": "小旋风",
+     "description": "梁山好汉，招起船内军兵杀上岸"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [
+      "美髯公",
+      "朱都头"
+     ],
+     "nickname": "美髯公",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "董平",
+     "type": "Person",
+     "aliases": [
+      "双枪将",
+      "董都监"
+     ],
+     "nickname": "双枪将",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "青面兽",
+      "杨制使"
+     ],
+     "nickname": "青面兽",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "徐宁",
+     "type": "Person",
+     "aliases": [
+      "金枪手",
+      "徐教师"
+     ],
+     "nickname": "金枪手",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "索超",
+     "type": "Person",
+     "aliases": [
+      "急先锋",
+      "索超将军"
+     ],
+     "nickname": "急先锋",
+     "description": "梁山好汉，参与取丹徒县"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉，献沈泽首级"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，抡双斧杀入城"
+    },
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "九纹龙",
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "梁山好汉，杀沈刚"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "梁山好汉，在城中放火"
+    },
+    {
+     "name": "李俊",
+     "type": "Person",
+     "aliases": [
+      "混江龙",
+      "李俊头领"
+     ],
+     "nickname": "混江龙",
+     "description": "梁山好汉，在城中放火"
+    },
+    {
+     "name": "张横",
+     "type": "Person",
+     "aliases": [
+      "船火儿",
+      "张横艄公"
+     ],
+     "nickname": "船火儿",
+     "description": "梁山好汉，刺倒潘文得"
+    },
+    {
+     "name": "张顺",
+     "type": "Person",
+     "aliases": [
+      "浪里白跳",
+      "张顺艄公"
+     ],
+     "nickname": "浪里白跳",
+     "description": "梁山好汉，带偏将上岸"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [
+      "活阎罗",
+      "阮小七郎"
+     ],
+     "nickname": "活阎罗",
+     "description": "梁山好汉，被寻取"
+    },
+    {
+     "name": "石秀",
+     "type": "Person",
+     "aliases": [
+      "拚命三郎",
+      "石三郎"
+     ],
+     "nickname": "拚命三郎",
+     "description": "梁山好汉，被寻取"
+    },
+    {
+     "name": "解珍",
+     "type": "Person",
+     "aliases": [
+      "两头蛇",
+      "解珍猎户"
+     ],
+     "nickname": "两头蛇",
+     "description": "梁山好汉，挺钢叉入城"
+    },
+    {
+     "name": "解宝",
+     "type": "Person",
+     "aliases": [
+      "双尾蝎",
+      "解宝猎户"
+     ],
+     "nickname": "双尾蝎",
+     "description": "梁山好汉，挺钢叉入城"
+    },
+    {
+     "name": "宣赞",
+     "type": "Person",
+     "aliases": [
+      "丑郡马",
+      "郡马"
+     ],
+     "nickname": "丑郡马",
+     "description": "梁山好汉，登岸冲杀入城"
+    },
+    {
+     "name": "郝思文",
+     "type": "Person",
+     "aliases": [
+      "井木犴"
+     ],
+     "nickname": "井木犴",
+     "description": "梁山好汉，箭射死徐统"
+    },
+    {
+     "name": "韩滔",
+     "type": "Person",
+     "aliases": [
+      "百胜将"
+     ],
+     "nickname": "百胜将",
+     "description": "梁山好汉，登岸冲杀入城"
+    },
+    {
+     "name": "彭玘",
+     "type": "Person",
+     "aliases": [
+      "天目将"
+     ],
+     "nickname": "天目将",
+     "description": "梁山好汉，登岸冲杀入城"
+    },
+    {
+     "name": "魏定国",
+     "type": "Person",
+     "aliases": [
+      "神火将"
+     ],
+     "nickname": "神火将",
+     "description": "梁山好汉，登岸冲杀入城"
+    },
+    {
+     "name": "萧让",
+     "type": "Person",
+     "aliases": [
+      "圣手书生"
+     ],
+     "nickname": "圣手书生",
+     "description": "梁山好汉，被蔡太师留用"
+    },
+    {
+     "name": "皇甫端",
+     "type": "Person",
+     "aliases": [
+      "紫髯伯"
+     ],
+     "nickname": "紫髯伯",
+     "description": "梁山好汉，被御前留用"
+    },
+    {
+     "name": "孔明",
+     "type": "Person",
+     "aliases": [
+      "毛头星"
+     ],
+     "nickname": "毛头星",
+     "description": "梁山好汉，生擒卓万里"
+    },
+    {
+     "name": "孔亮",
+     "type": "Person",
+     "aliases": [
+      "独火星"
+     ],
+     "nickname": "独火星",
+     "description": "梁山好汉，生擒卓万里"
+    },
+    {
+     "name": "项充",
+     "type": "Person",
+     "aliases": [
+      "八臂哪吒"
+     ],
+     "nickname": "八臂哪吒",
+     "description": "梁山好汉，生擒和潼"
+    },
+    {
+     "name": "李衮",
+     "type": "Person",
+     "aliases": [
+      "飞天大圣"
+     ],
+     "nickname": "飞天大圣",
+     "description": "梁山好汉，生擒和潼"
+    },
+    {
+     "name": "金大坚",
+     "type": "Person",
+     "aliases": [
+      "玉臂匠"
+     ],
+     "nickname": "玉臂匠",
+     "description": "梁山好汉，被御前留用"
+    },
+    {
+     "name": "童威",
+     "type": "Person",
+     "aliases": [
+      "出洞蛟"
+     ],
+     "nickname": "出洞蛟",
+     "description": "梁山好汉，被差往焦山"
+    },
+    {
+     "name": "童猛",
+     "type": "Person",
+     "aliases": [
+      "翻江蜃"
+     ],
+     "nickname": "翻江蜃",
+     "description": "梁山好汉，被差往焦山"
+    },
+    {
+     "name": "陶宗旺",
+     "type": "Person",
+     "aliases": [
+      "九尾龟"
+     ],
+     "nickname": "九尾龟",
+     "description": "梁山好汉，乱军中被箭射死"
+    },
+    {
+     "name": "乐和",
+     "type": "Person",
+     "aliases": [
+      "铁叫子"
+     ],
+     "nickname": "铁叫子",
+     "description": "梁山好汉，被王都尉要走"
+    },
+    {
+     "name": "宋万",
+     "type": "Person",
+     "aliases": [
+      "云里金刚"
+     ],
+     "nickname": "云里金刚",
+     "description": "梁山好汉，乱军中被箭射死"
+    },
+    {
+     "name": "焦挺",
+     "type": "Person",
+     "aliases": [
+      "没面目"
+     ],
+     "nickname": "没面目",
+     "description": "梁山好汉，乱军中被箭射死"
+    },
+    {
+     "name": "吕师囊",
+     "type": "Person",
+     "aliases": [
+      "吕枢密"
+     ],
+     "nickname": "",
+     "description": "方腊麾下枢密，守润州败走"
+    },
+    {
+     "name": "冯喜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊面前引进使，传圣旨"
+    },
+    {
+     "name": "浦文英",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊司天太监，奏天象"
+    },
+    {
+     "name": "方貌",
+     "type": "Person",
+     "aliases": [
+      "三大王",
+      "御弟三大王"
+     ],
+     "nickname": "",
+     "description": "方腊之弟，苏州主事"
+    },
+    {
+     "name": "邢政",
+     "type": "Person",
+     "aliases": [
+      "邢元帅"
+     ],
+     "nickname": "",
+     "description": "方貌麾下元帅，领军救润州"
+    },
+    {
+     "name": "沈刚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊统制官，被史进杀死"
+    },
+    {
+     "name": "潘文得",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊统制官，被张横搠倒"
+    },
+    {
+     "name": "沈泽",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊统制官，被刘唐杀死"
+    },
+    {
+     "name": "卓万里",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊伪统制，被孔明孔亮生擒"
+    },
+    {
+     "name": "和潼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊伪统制，被项充李衮生擒"
+    },
+    {
+     "name": "徐统",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方腊统制官，被郝思文射死"
+    },
+    {
+     "name": "单廷圭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉，登岸冲杀入城"
+    },
+    {
+     "name": "方腊",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江南起义军首领，称帝"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "宋军",
+      "宋先锋"
+     ],
+     "nickname": "",
+     "description": "宋江等一百八人所在势力"
+    },
+    {
+     "name": "方腊军",
+     "type": "Organization",
+     "aliases": [
+      "南军"
+     ],
+     "nickname": "",
+     "description": "方腊麾下军队，守润州"
+    },
+    {
+     "name": "润州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江南险隘州郡，被宋江攻取"
+    },
+    {
+     "name": "丹徒县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕师囊退守之地"
+    },
+    {
+     "name": "金山寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "润州附近寺庙"
+    },
+    {
+     "name": "焦山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "石秀阮小七所在之地"
+    },
+    {
+     "name": "苏州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "方貌驻守之地"
+    },
+    {
+     "name": "扬州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈将士投降事发地"
+    },
+    {
+     "name": "智取润州城",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江率军里应外合攻取润州"
+    },
+    {
+     "name": "陈将士诈降",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈将士假意投降方腊之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江点本部将佐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MASTERMINDED",
+     "object": "智取润州城",
+     "evidence": "宋江智取润州城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "大小将佐迎接宋先锋入城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "吴用劝道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "宋江在润州衙内，与吴用商议",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "先去了公孙胜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关胜",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "关胜等正行之次，路上正迎着邢政军马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、林冲、秦明、呼延灼、董平、花荣、徐宁、朱仝、索超、杨志",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "当下十员正将，部领精兵五千，离了润州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、林冲、秦明、呼延灼、董平、花荣、徐宁、朱仝、索超、杨志",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "当下十员正将，部领精兵五千，离了润州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "史进、柴进早招起三百只船内军兵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴进",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "史进、柴进早招起三百只船内军兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、林冲、秦明、呼延灼、董平、花荣、徐宁、朱仝、索超、杨志",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "当下十员正将，部领精兵五千，离了润州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董平",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、林冲、秦明、呼延灼、董平、花荣、徐宁、朱仝、索超、杨志",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董平",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "当下十员正将，部领精兵五千，离了润州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、林冲、秦明、呼延灼、董平、花荣、徐宁、朱仝、索超、杨志",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨志",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "当下十员正将，部领精兵五千，离了润州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、林冲、秦明、呼延灼、董平、花荣、徐宁、朱仝、索超、杨志",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "当下十员正将，部领精兵五千，离了润州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "索超",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、林冲、秦明、呼延灼、董平、花荣、徐宁、朱仝、索超、杨志",
+     "confidence": 0.95
+    },
+    {
+     "subject": "索超",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "当下十员正将，部领精兵五千，离了润州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "刘唐献沈泽首级",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "刘唐献沈泽首级",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "黑旋风李逵和解珍、解宝，便抢入城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "黑旋风李逵和解珍、解宝，便抢入城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "史进、柴进早招起三百只船内军兵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "史进、柴进早招起三百只船内军兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "穆弘、李俊在城中听得消息",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "穆弘、李俊在城中听得消息，就酒店里夺得火种，便放起火来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李俊",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "穆弘、李俊在城中听得消息",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "穆弘、李俊在城中听得消息，就酒店里夺得火种，便放起火来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张横",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "左边一百只船上张横、张顺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张横",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "潘文得被张横刺斜里一枪搠倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "左边一百只船上张横、张顺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "左边一百只船上张横、张顺，带八个偏将，提军器上岸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "差童威、童猛引百馀人去焦山寻取石秀、阮小七",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "差童威、童猛引百馀人去焦山寻取石秀、阮小七",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解珍",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "黑旋风李逵和解珍、解宝，便抢入城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解珍",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "解珍、解宝各挺钢叉入城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解宝",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "黑旋风李逵和解珍、解宝，便抢入城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解宝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "解珍、解宝各挺钢叉入城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宣赞",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宣赞",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郝思文",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郝思文",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "郝思文箭射死徐统",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韩滔",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩滔",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭玘",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "彭玘",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏定国",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏定国",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "萧让",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "蔡太师又用了萧让",
+     "confidence": 0.9
+    },
+    {
+     "subject": "皇甫端",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "御前留了金大坚、皇甫端",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔明",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "孔明、孔亮生擒卓万里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔明",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "孔明、孔亮生擒卓万里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔亮",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "孔明、孔亮生擒卓万里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔亮",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "孔明、孔亮生擒卓万里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "项充",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "项充、李衮生擒和潼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "项充",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "项充、李衮生擒和潼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李衮",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "项充、李衮生擒和潼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李衮",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "项充、李衮生擒和潼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金大坚",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "御前留了金大坚、皇甫端",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童威",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "差童威、童猛引百馀人去焦山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "童威",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "差童威、童猛引百馀人去焦山寻取石秀、阮小七",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童猛",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "差童威、童猛引百馀人去焦山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "童猛",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "差童威、童猛引百馀人去焦山寻取石秀、阮小七",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶宗旺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "一个是九尾龟陶宗旺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶宗旺",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "折了三个偏将，都是乱军中被箭射死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐和",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "王都尉又要了乐和",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋万",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "一个是云里金刚宋万",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋万",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "折了三个偏将，都是乱军中被箭射死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "焦挺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "一个是没面目焦挺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "焦挺",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "折了三个偏将，都是乱军中被箭射死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "单廷圭",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.95
+    },
+    {
+     "subject": "单廷圭",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取润州城",
+     "evidence": "关胜、呼延灼、花荣、秦明、郝思文、宣赞、单廷圭、韩滔、彭玘、魏定国",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "吕枢密到南门外",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "LEADS",
+     "object": "方腊军",
+     "evidence": "吕枢密折了大半人马，引着六个统制官，退守丹徒县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "STATIONED_AT",
+     "object": "润州",
+     "evidence": "吕枢密到南门外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "STATIONED_AT",
+     "object": "丹徒县",
+     "evidence": "引着中伤人马，径奔丹徒县去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯喜",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "那天使是方腊面前引进使冯喜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "浦文英",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "近日司天太监浦文英奏道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方貌",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "苏州又有使命，赍擎御弟三大王令旨到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方貌",
+     "predicate": "LEADS",
+     "object": "方腊军",
+     "evidence": "三大王为知罡星犯吴地，特差下官领军到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邢政",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "苏州差元帅邢政领军到来了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邢政",
+     "predicate": "STATIONED_AT",
+     "object": "丹徒县",
+     "evidence": "吕枢密接见邢元帅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沈刚",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "为首统制官沈刚、潘文得两路军马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘文得",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "为首统制官沈刚、潘文得两路军马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈泽",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "刘唐献沈泽首级",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卓万里",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "生擒到伪统制卓万里、和潼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "和潼",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "生擒到伪统制卓万里、和潼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐统",
+     "predicate": "MEMBER_OF",
+     "object": "方腊军",
+     "evidence": "郝思文箭射死徐统",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方腊",
+     "predicate": "LEADS",
+     "object": "方腊军",
+     "evidence": "那天使是方腊面前引进使冯喜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "KILLED",
+     "object": "沈刚",
+     "evidence": "沈刚被史进一刀剁下马去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张横",
+     "predicate": "KILLED",
+     "object": "潘文得",
+     "evidence": "潘文得被张横刺斜里一枪搠倒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "KILLED",
+     "object": "沈泽",
+     "evidence": "刘唐献沈泽首级",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郝思文",
+     "predicate": "KILLED",
+     "object": "徐统",
+     "evidence": "郝思文箭射死徐统",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔明",
+     "predicate": "DEFEATED",
+     "object": "卓万里",
+     "evidence": "孔明、孔亮生擒卓万里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔亮",
+     "predicate": "DEFEATED",
+     "object": "卓万里",
+     "evidence": "孔明、孔亮生擒卓万里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "项充",
+     "predicate": "DEFEATED",
+     "object": "和潼",
+     "evidence": "项充、李衮生擒和潼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李衮",
+     "predicate": "DEFEATED",
+     "object": "和潼",
+     "evidence": "项充、李衮生擒和潼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关胜",
+     "predicate": "FOUGHT",
+     "object": "邢政",
+     "evidence": "关胜见了，纵马舞青龙偃月刀，来战邢政",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁山泊",
+     "predicate": "ATTACKED",
+     "object": "润州",
+     "evidence": "大军夺得润州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁山泊",
+     "predicate": "ATTACKED",
+     "object": "方腊军",
+     "evidence": "四面八方，混杀人马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方腊军",
+     "predicate": "FOUGHT",
+     "object": "梁山泊",
+     "evidence": "众军混杀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "智取润州城",
+     "predicate": "OCCURRED_AT",
+     "object": "润州",
+     "evidence": "宋江智取润州城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈将士诈降",
+     "predicate": "OCCURRED_AT",
+     "object": "扬州",
+     "evidence": "你前日扬州陈将士投降一节",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "宋先锋旗号",
+     "evidence": "城上早竖起宋先锋旗号",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "OWNS",
+     "object": "双斧",
+     "evidence": "李逵抡起双斧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关胜",
+     "predicate": "OWNS",
+     "object": "青龙偃月刀",
+     "evidence": "关胜见了，纵马舞青龙偃月刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解珍",
+     "predicate": "OWNS",
+     "object": "钢叉",
+     "evidence": "解珍、解宝各挺钢叉入城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解宝",
+     "predicate": "OWNS",
+     "object": "钢叉",
+     "evidence": "解珍、解宝各挺钢叉入城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "张招讨",
+     "evidence": "亲请张招讨",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "宋万",
+     "evidence": "宋江亲自祭祀奠酒",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "焦挺",
+     "evidence": "宋江亲自祭祀奠酒",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "陶宗旺",
+     "evidence": "宋江亲自祭祀奠酒",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "宋万",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "焦挺",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "陶宗旺",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "吴用",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "公孙胜",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "关胜",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "林冲",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "秦明",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "呼延灼",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "花荣",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "柴进",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "朱仝",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "董平",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "杨志",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "徐宁",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "索超",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "刘唐",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "李逵",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "史进",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "穆弘",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "李俊",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "张横",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "张顺",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "阮小七",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "石秀",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "解珍",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "解宝",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "宣赞",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "郝思文",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "韩滔",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "彭玘",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "魏定国",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "萧让",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "皇甫端",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "孔明",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "孔亮",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "项充",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "李衮",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "金大坚",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "童威",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "童猛",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "乐和",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "单廷圭",
+     "evidence": "当初梁山泊发愿，五台山设誓，但愿同生同死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕师囊",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "吕枢密到南门外",
+     "confidence": 0.8
+    },
+    {
+     "subject": "邢政",
+     "predicate": "SURRENDERED_TO",
+     "object": "方貌",
+     "evidence": "苏州差元帅邢政领军到来了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "方貌",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "御弟三大王令旨到来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "冯喜",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "那天使是方腊面前引进使冯喜",
+     "confidence": 0.8
+    },
+    {
+     "subject": "浦文英",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "近日司天太监浦文英奏道",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沈刚",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "为首统制官沈刚、潘文得两路军马",
+     "confidence": 0.8
+    },
+    {
+     "subject": "潘文得",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "为首统制官沈刚、潘文得两路军马",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沈泽",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "刘唐献沈泽首级",
+     "confidence": 0.8
+    },
+    {
+     "subject": "卓万里",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "生擒到伪统制卓万里、和潼",
+     "confidence": 0.8
+    },
+    {
+     "subject": "和潼",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "生擒到伪统制卓万里、和潼",
+     "confidence": 0.8
+    },
+    {
+     "subject": "徐统",
+     "predicate": "SURRENDERED_TO",
+     "object": "方腊",
+     "evidence": "郝思文箭射死徐统",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:44:31.691Z"
+}

@@ -1,0 +1,468 @@
+{
+ "no": 73,
+ "title": "情因旧恨生灾毒 心主遭魔幸破光",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5472,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "西天取经的唐朝高僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，长嘴大耳"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，卷帘大将出身"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "救苦救难的菩萨"
+    },
+    {
+     "name": "蜘蛛精",
+     "type": "Person",
+     "aliases": [
+      "七仙姑",
+      "七姐妹"
+     ],
+     "nickname": "七仙姑",
+     "description": "盘丝洞七个蜘蛛成精的女怪"
+    },
+    {
+     "name": "蜈蚣精",
+     "type": "Person",
+     "aliases": [
+      "百眼魔君",
+      "多目怪",
+      "黄花观观主"
+     ],
+     "nickname": "百眼魔君",
+     "description": "黄花观观主，蜈蚣成精，胁下千眼"
+    },
+    {
+     "name": "黄花观",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士修行的道观，实为妖洞"
+    },
+    {
+     "name": "盘丝洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜘蛛精盘踞的妖洞"
+    },
+    {
+     "name": "土地神",
+     "type": "Person",
+     "aliases": [
+      "土地老儿"
+     ],
+     "nickname": "土地",
+     "description": "当地土地神，告知妖精来历"
+    },
+    {
+     "name": "濯垢泉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜘蛛精洗浴的泉水"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "孙大圣扶持着唐僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "与八戒、沙僧奔上大路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "与八戒、沙僧奔上大路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "MEMBER_OF",
+     "object": "盘丝洞",
+     "evidence": "原来那盘丝洞七个女怪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜈蚣精",
+     "predicate": "LEADS",
+     "object": "黄花观",
+     "evidence": "门上嵌着一块石板，上有黄花观三字",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "FRIEND",
+     "object": "蜈蚣精",
+     "evidence": "与这道士同堂学艺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "背了是非，说我等有欺骗之意",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜈蚣精",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "道士将毒药茶药倒我师父师弟共三人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜈蚣精",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "他两个厮骂厮打",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "那七个敞开怀，腆着雪白肚子，脐孔中作出法来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "蜘蛛精",
+     "evidence": "把七个蜘蛛精，尽情打烂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "蜘蛛精",
+     "evidence": "把七个蜘蛛精，尽情打烂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜈蚣精",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "那道士与大圣战经五六十合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜈蚣精",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "把个齐天孙大圣，困在金光黄雾中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "土地神",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "小神自三年前检点之后，方见他的本相，乃是七个蜘蛛精",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄花观",
+     "evidence": "行过黄花观歇马",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2604,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "老孙"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，曾大闹天宫，现保唐僧取经"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "师父",
+      "御弟圣僧"
+     ],
+     "nickname": "金蝉子",
+     "description": "取经僧人，被蜈蚣精毒茶药倒"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "天蓬"
+     ],
+     "nickname": "天蓬元帅",
+     "description": "唐僧二徒弟，参与救师"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧"
+     ],
+     "nickname": "卷帘大将",
+     "description": "唐僧三徒弟，中毒后苏醒"
+    },
+    {
+     "name": "蜘蛛精",
+     "type": "Person",
+     "aliases": [
+      "七个蜘蛛精",
+      "七仙姑"
+     ],
+     "nickname": "",
+     "description": "七个蜘蛛女妖，与蜈蚣精为兄妹，被孙悟空打死"
+    },
+    {
+     "name": "蜈蚣精",
+     "type": "Person",
+     "aliases": [
+      "百眼魔君",
+      "多目怪",
+      "黄花观观主",
+      "道士"
+     ],
+     "nickname": "百眼魔君",
+     "description": "黄花观妖道，本相大蜈蚣，被毗蓝婆收去看门"
+    },
+    {
+     "name": "毗蓝婆菩萨",
+     "type": "Person",
+     "aliases": [
+      "毗蓝婆",
+      "毗蓝菩萨"
+     ],
+     "nickname": "",
+     "description": "紫云山千花洞圣贤，能破金光降蜈蚣"
+    },
+    {
+     "name": "黎山老姆",
+     "type": "Person",
+     "aliases": [
+      "老姆"
+     ],
+     "nickname": "",
+     "description": "化作孝妇指点孙悟空去请毗蓝婆"
+    },
+    {
+     "name": "昴日星官",
+     "type": "Person",
+     "aliases": [
+      "昴日星",
+      "昴日鸡"
+     ],
+     "nickname": "",
+     "description": "毗蓝婆之子，日眼里炼成绣花针"
+    },
+    {
+     "name": "黄花观",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜈蚣精盘踞的道观，后被烧毁"
+    },
+    {
+     "name": "千花洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "紫云山中毗蓝婆菩萨修行的洞府"
+    },
+    {
+     "name": "紫云山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "毗蓝婆菩萨所在之山"
+    },
+    {
+     "name": "绣花针",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "毗蓝婆的宝贝，昴日星官日眼里炼成，能破金光"
+    },
+    {
+     "name": "解毒丹",
+     "type": "Item",
+     "aliases": [
+      "三粒红丸子"
+     ],
+     "nickname": "",
+     "description": "毗蓝婆所赠，解蜈蚣精毒茶"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "蜘蛛精",
+     "evidence": "拖出妖来，一顿棒打死。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜈蚣精",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "这道士即与他报仇，举宝剑与我相斗。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜈蚣精",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "师父遇黄花观道士，将毒药茶药倒。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黎山老姆",
+     "predicate": "RECOMMENDED",
+     "object": "毗蓝婆菩萨",
+     "evidence": "洞里有位圣贤，唤做毗蓝婆。他能降得此怪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毗蓝婆菩萨",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "亏这毗蓝菩萨搭救，快都来拜谢。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毗蓝婆菩萨",
+     "predicate": "DEFEATED",
+     "object": "蜈蚣精",
+     "evidence": "即上前用手一指，那道士扑的倒在尘埃，现了原身，乃是一条七尺长短的大蜈蚣精。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毗蓝婆菩萨",
+     "predicate": "KIN",
+     "object": "昴日星官",
+     "evidence": "小儿乃昴日星官。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毗蓝婆菩萨",
+     "predicate": "OWNS",
+     "object": "绣花针",
+     "evidence": "我有个绣花针儿，能破那厮。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毗蓝婆菩萨",
+     "predicate": "OWNS",
+     "object": "解毒丹",
+     "evidence": "我这里有解毒丹，送你三丸。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜈蚣精",
+     "predicate": "MEMBER_OF",
+     "object": "黄花观",
+     "evidence": "师父遇黄花观道士，将毒药茶药倒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毗蓝婆菩萨",
+     "predicate": "STATIONED_AT",
+     "object": "千花洞",
+     "evidence": "那厢有一座山，名唤紫云山，山中有个千花洞。洞里有位圣贤，唤做毗蓝婆。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "千花洞",
+     "predicate": "OCCURRED_AT",
+     "object": "紫云山",
+     "evidence": "那厢有一座山，名唤紫云山，山中有个千花洞。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "黄花观",
+     "evidence": "行者却同按下云头，走入观里",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:40.600Z"
+}

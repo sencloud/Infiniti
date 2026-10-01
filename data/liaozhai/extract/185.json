@@ -1,0 +1,137 @@
+{
+ "no": 185,
+ "title": "武孝廉",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1195,
+   "entities": [
+    {
+     "name": "石某",
+     "type": "Person",
+     "aliases": [
+      "武孝廉石某",
+      "石孝廉"
+     ],
+     "nickname": "",
+     "description": "《武孝廉》中武举人，负狐妇而卒"
+    },
+    {
+     "name": "狐妇",
+     "type": "Spirit",
+     "aliases": [
+      "妇",
+      "女子"
+     ],
+     "nickname": "",
+     "description": "《武孝廉》中狐精，化妇救石某"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《武孝廉》中石某继室"
+    },
+    {
+     "name": "石中表",
+     "type": "Person",
+     "aliases": [
+      "某"
+     ],
+     "nickname": "",
+     "description": "《武孝廉》中石某表兄弟"
+    },
+    {
+     "name": "德州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《武孝廉》中地名，石某病处"
+    },
+    {
+     "name": "都",
+     "type": "Place",
+     "aliases": [
+      "京城"
+     ],
+     "nickname": "",
+     "description": "《武孝廉》中京城，石某求官处"
+    },
+    {
+     "name": "丸药",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《武孝廉》中狐妇所赠起死回生药"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "狐妇",
+     "predicate": "HELPED",
+     "object": "石某",
+     "evidence": "妇乃以药饵石，半日，觉少痊。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石某",
+     "predicate": "SPOUSE",
+     "object": "狐妇",
+     "evidence": "遂相燕好。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石某",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "因以百金聘王氏女为继室。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石某",
+     "predicate": "KIN",
+     "object": "石中表",
+     "evidence": "有石中表，偶至德州，与妇为邻。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石某",
+     "predicate": "LIVES_AT",
+     "object": "德州",
+     "evidence": "至德州，暴病，唾血不起，长卧舟中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石某",
+     "predicate": "LIVES_AT",
+     "object": "都",
+     "evidence": "石赴都夤缘，选得本省司阃",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐妇",
+     "predicate": "OWNS",
+     "object": "丸药",
+     "evidence": "我有丸药，能起死。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐妇",
+     "predicate": "HARMED",
+     "object": "石某",
+     "evidence": "即唾石面。石觉森寒如浇冰水，喉中习习作痒，呕出，则丸药如故。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐妇",
+     "predicate": "FRIEND",
+     "object": "王氏",
+     "evidence": "妇与王极相爱怜。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:24.156Z"
+}

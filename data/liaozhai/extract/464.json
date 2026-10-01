@@ -1,0 +1,128 @@
+{
+ "no": 464,
+ "title": "鸮鸟",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 732,
+   "entities": [
+    {
+     "name": "杨令",
+     "type": "Person",
+     "aliases": [
+      "长山杨令"
+     ],
+     "nickname": "",
+     "description": "长山县令，性奇贪，强夺商贾骡马"
+    },
+    {
+     "name": "董令",
+     "type": "Person",
+     "aliases": [
+      "益都令董"
+     ],
+     "nickname": "",
+     "description": "益都县令，与范、孙会集旅舍"
+    },
+    {
+     "name": "范令",
+     "type": "Person",
+     "aliases": [
+      "莱芜令范"
+     ],
+     "nickname": "",
+     "description": "莱芜县令，行酒令讽杨"
+    },
+    {
+     "name": "孙令",
+     "type": "Person",
+     "aliases": [
+      "新城令孙"
+     ],
+     "nickname": "",
+     "description": "新城县令，行酒令讽杨"
+    },
+    {
+     "name": "山西二商",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "山西商人，骡马被杨令抢掠"
+    },
+    {
+     "name": "周村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "商贾聚集之地，车马辐辏"
+    },
+    {
+     "name": "旅舍",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸令会集之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨令",
+     "predicate": "HARMED",
+     "object": "山西二商",
+     "evidence": "有山西二商，迎门号愬，盖有健骡四头，俱被抢掠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董令",
+     "predicate": "HELPED",
+     "object": "山西二商",
+     "evidence": "三公怜其情，许之。遂共诣杨，杨治具相款。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "范令",
+     "predicate": "HELPED",
+     "object": "山西二商",
+     "evidence": "三公怜其情，许之。遂共诣杨，杨治具相款。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙令",
+     "predicate": "HELPED",
+     "object": "山西二商",
+     "evidence": "三公怜其情，许之。遂共诣杨，杨治具相款。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨令",
+     "predicate": "LIVES_AT",
+     "object": "周村",
+     "evidence": "周村为商贾所集，趁墟者车马辐辏。杨率健丁悉篡夺之",
+     "confidence": 0.8
+    },
+    {
+     "subject": "董令",
+     "predicate": "LIVES_AT",
+     "object": "旅舍",
+     "evidence": "适益都令董、莱芜令范、新城令孙，会集旅舍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "范令",
+     "predicate": "LIVES_AT",
+     "object": "旅舍",
+     "evidence": "适益都令董、莱芜令范、新城令孙，会集旅舍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙令",
+     "predicate": "LIVES_AT",
+     "object": "旅舍",
+     "evidence": "适益都令董、莱芜令范、新城令孙，会集旅舍。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:10.439Z"
+}

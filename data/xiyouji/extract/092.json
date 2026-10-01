@@ -1,0 +1,1520 @@
+{
+ "no": 92,
+ "title": "三僧大战青龙山 四星挟捉犀牛怪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6016,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿",
+      "孙大圣"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大，变化多端"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被犀牛精摄去"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，被犀牛精捉住"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，被犀牛精捉住"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主，派四木禽星降妖"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "金星",
+     "description": "天庭神仙，指点犀牛精来历"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王",
+      "东海敖广"
+     ],
+     "nickname": "龙王",
+     "description": "东海龙王"
+    },
+    {
+     "name": "西海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖闰",
+      "龙王",
+      "西海敖闰"
+     ],
+     "nickname": "龙王",
+     "description": "西海龙王"
+    },
+    {
+     "name": "南海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖钦",
+      "龙王",
+      "南海敖钦"
+     ],
+     "nickname": "龙王",
+     "description": "南海龙王"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "龙王",
+     "description": "北海龙王，助擒犀牛精"
+    },
+    {
+     "name": "黄袍怪",
+     "type": "Person",
+     "aliases": [
+      "奎木狼",
+      "奎星",
+      "二十八宿之一"
+     ],
+     "nickname": "奎木狼",
+     "description": "二十八宿之一，参与降犀牛精"
+    },
+    {
+     "name": "金平府刺史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金平府官员"
+    },
+    {
+     "name": "辟寒大王",
+     "type": "Person",
+     "aliases": [
+      "辟寒儿"
+     ],
+     "nickname": "辟寒大王",
+     "description": "犀牛精，被井木犴咬死"
+    },
+    {
+     "name": "辟暑大王",
+     "type": "Person",
+     "aliases": [
+      "辟暑儿"
+     ],
+     "nickname": "辟暑大王",
+     "description": "犀牛精，被活捉"
+    },
+    {
+     "name": "辟尘大王",
+     "type": "Person",
+     "aliases": [
+      "辟尘儿"
+     ],
+     "nickname": "辟尘大王",
+     "description": "犀牛精，被活捉"
+    },
+    {
+     "name": "井木犴",
+     "type": "Person",
+     "aliases": [
+      "井宿"
+     ],
+     "nickname": "井木犴",
+     "description": "四木禽星之一，咬死辟寒"
+    },
+    {
+     "name": "角木蛟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "角木蛟",
+     "description": "四木禽星之一"
+    },
+    {
+     "name": "斗木獬",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斗木獬",
+     "description": "四木禽星之一"
+    },
+    {
+     "name": "摩昂",
+     "type": "Person",
+     "aliases": [
+      "太子摩昂"
+     ],
+     "nickname": "摩昂",
+     "description": "西海龙王太子，助擒犀牛精"
+    },
+    {
+     "name": "青龙山玄英洞",
+     "type": "Organization",
+     "aliases": [
+      "玄英洞"
+     ],
+     "nickname": "",
+     "description": "犀牛精盘踞的妖洞"
+    },
+    {
+     "name": "慈云寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "金平府寺庙"
+    },
+    {
+     "name": "西海",
+     "type": "Organization",
+     "aliases": [
+      "西洋大海",
+      "水晶宫"
+     ],
+     "nickname": "",
+     "description": "西海龙王势力范围"
+    },
+    {
+     "name": "天庭",
+     "type": "Organization",
+     "aliases": [
+      "天宫",
+      "灵霄宝殿",
+      "斗牛宫"
+     ],
+     "nickname": "",
+     "description": "玉帝统领的天界势力"
+    },
+    {
+     "name": "四木禽星",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "井木犴、角木蛟、斗木獬、奎木狼四位星官"
+    },
+    {
+     "name": "金平府",
+     "type": "Place",
+     "aliases": [
+      "旻天县"
+     ],
+     "nickname": "",
+     "description": "天竺国东界府县"
+    },
+    {
+     "name": "青龙山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "玄英洞所在之山"
+    },
+    {
+     "name": "三僧大战青龙山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空三兄弟与犀牛精在青龙山交战"
+    },
+    {
+     "name": "四星挟捉犀牛怪",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "四木禽星协助捉拿犀牛精"
+    },
+    {
+     "name": "金灯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "金平府元宵所供金灯"
+    },
+    {
+     "name": "酥合香油",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "金灯所用香油，价贵"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者道：师父啊，为你不识真假",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "行者道：师父啊，为你不识真假",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒沙僧如今在外边哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "八戒沙僧如今在外边哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "同他两个来此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "同他两个来此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "辟寒大王",
+     "evidence": "行者抵住钺斧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "辟暑大王",
+     "evidence": "八戒敌住大刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "辟尘大王",
+     "evidence": "沙僧迎住大棍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "辟寒大王",
+     "evidence": "八戒敌住大刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "辟暑大王",
+     "evidence": "八戒敌住大刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "辟尘大王",
+     "evidence": "八戒敌住大刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "辟寒大王",
+     "evidence": "沙僧迎住大棍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "辟暑大王",
+     "evidence": "沙僧迎住大棍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "辟尘大王",
+     "evidence": "沙僧迎住大棍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "早把个八戒绊倒在地，被几个水牛精，揪揪扯扯，拖入洞里捆了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "DEFEATED",
+     "object": "沙悟净",
+     "evidence": "又被群精一拥而来，拉了个躘踵，急挣不起，也被捉去捆了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "那妖王把唐僧捉住，依然使铁索锁了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "那妖王把唐僧捉住，依然使铁索锁了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "那妖王把唐僧捉住，依然使铁索锁了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者使个解锁法，用手一抹，那锁早自开了，领着师父往前正走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三僧大战青龙山",
+     "evidence": "三僧三怪，赌斗多时，不见输赢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三僧大战青龙山",
+     "evidence": "三僧三怪，赌斗多时，不见输赢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三僧大战青龙山",
+     "evidence": "三僧三怪，赌斗多时，不见输赢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三僧大战青龙山",
+     "evidence": "三僧三怪，赌斗多时，不见输赢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三僧大战青龙山",
+     "evidence": "三僧三怪，赌斗多时，不见输赢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三僧大战青龙山",
+     "evidence": "三僧三怪，赌斗多时，不见输赢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三僧大战青龙山",
+     "predicate": "OCCURRED_AT",
+     "object": "青龙山",
+     "evidence": "向东北艮地上，顷刻至青龙山玄英洞口",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四星挟捉犀牛怪",
+     "evidence": "那三个妖王看他四星，自然害怕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井木犴",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四星挟捉犀牛怪",
+     "evidence": "那三个妖王看他四星，自然害怕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "角木蛟",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四星挟捉犀牛怪",
+     "evidence": "那三个妖王看他四星，自然害怕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "斗木獬",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四星挟捉犀牛怪",
+     "evidence": "那三个妖王看他四星，自然害怕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "奎木狼",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四星挟捉犀牛怪",
+     "evidence": "那三个妖王看他四星，自然害怕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四星挟捉犀牛怪",
+     "predicate": "OCCURRED_AT",
+     "object": "青龙山",
+     "evidence": "在金平府东北艮地青龙山玄英洞，犀牛成精",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "四木禽星",
+     "evidence": "这大圣帅井木犴、角木蛟紧追急赶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "天庭",
+     "evidence": "天宫原是我的旧家。当年我做齐天大圣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "LEADS",
+     "object": "天庭",
+     "evidence": "玉帝传旨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "MEMBER_OF",
+     "object": "天庭",
+     "evidence": "忽见太白金星与增长天王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "MEMBER_OF",
+     "object": "青龙山玄英洞",
+     "evidence": "那山名青龙山，山有玄英洞，洞有三怪，名辟寒大王、辟暑大王、辟尘大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "MEMBER_OF",
+     "object": "青龙山玄英洞",
+     "evidence": "那山名青龙山，山有玄英洞，洞有三怪，名辟寒大王、辟暑大王、辟尘大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "MEMBER_OF",
+     "object": "青龙山玄英洞",
+     "evidence": "那山名青龙山，山有玄英洞，洞有三怪，名辟寒大王、辟暑大王、辟尘大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "STATIONED_AT",
+     "object": "青龙山玄英洞",
+     "evidence": "那山名青龙山，山有玄英洞，洞有三怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "STATIONED_AT",
+     "object": "青龙山玄英洞",
+     "evidence": "那山名青龙山，山有玄英洞，洞有三怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "STATIONED_AT",
+     "object": "青龙山玄英洞",
+     "evidence": "那山名青龙山，山有玄英洞，洞有三怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "OWNS",
+     "object": "金灯",
+     "evidence": "有金灯三盏，点灯用酥合香油",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "OWNS",
+     "object": "金灯",
+     "evidence": "有金灯三盏，点灯用酥合香油",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "OWNS",
+     "object": "金灯",
+     "evidence": "有金灯三盏，点灯用酥合香油",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "OWNS",
+     "object": "酥合香油",
+     "evidence": "点灯用酥合香油，价贵白金五万余两",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "OWNS",
+     "object": "酥合香油",
+     "evidence": "点灯用酥合香油，价贵白金五万余两",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "OWNS",
+     "object": "酥合香油",
+     "evidence": "点灯用酥合香油，价贵白金五万余两",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "青龙山玄英洞",
+     "evidence": "快早打门。那呆子卖弄神通，举钯尽力筑去，把那石门筑得粉碎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "ATTACKED",
+     "object": "青龙山玄英洞",
+     "evidence": "快早打门。那呆子卖弄神通，举钯尽力筑去，把那石门筑得粉碎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "ATTACKED",
+     "object": "青龙山玄英洞",
+     "evidence": "快早打门。那呆子卖弄神通，举钯尽力筑去，把那石门筑得粉碎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "火焰虫儿",
+     "evidence": "即变做个火焰虫儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "保唐僧取经，将功折罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "保唐僧取经，将功折罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "保唐僧取经，将功折罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RECOMMENDED",
+     "object": "四木禽星",
+     "evidence": "金星笑道：此星在斗牛宫外，罗布乾坤。你去奏闻玉帝，便见分晓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井木犴",
+     "predicate": "KILLED",
+     "object": "辟寒大王",
+     "evidence": "只见井木犴现原身，按住辟寒儿，大口小口的啃着吃哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂",
+     "predicate": "DEFEATED",
+     "object": "辟尘大王",
+     "evidence": "将辟尘儿扳翻在地，用铁钩子穿了鼻，攒蹄捆倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井木犴",
+     "predicate": "DEFEATED",
+     "object": "辟暑大王",
+     "evidence": "井木犴走近前，一把揪住耳朵，夺了他的刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "北海龙王",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "老龙王敖顺听言，即唤太子摩昂：快点水兵，想是犀牛精辟寒、辟暑、辟尘儿三个惹了孙行者。今既至海，快快拔刀相助",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "敖摩昂得令，即忙点兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "北海龙王",
+     "predicate": "LEADS",
+     "object": "西海",
+     "evidence": "老龙王敖顺听言，即唤太子摩昂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂",
+     "predicate": "MEMBER_OF",
+     "object": "西海",
+     "evidence": "老龙王敖顺听言，即唤太子摩昂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "太白金星",
+     "evidence": "行者拱拱手称谢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "井木犴",
+     "evidence": "这大圣帅井木犴、角木蛟紧追急赶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "角木蛟",
+     "evidence": "这大圣帅井木犴、角木蛟紧追急赶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "斗木獬",
+     "evidence": "行者闻言，方才喜谢道：如此，却是有功，多累",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "奎木狼",
+     "evidence": "行者闻言，方才喜谢道：如此，却是有功，多累",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "摩昂",
+     "evidence": "行者见一个断了头，血淋津的倒在地下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "金平府",
+     "evidence": "因保唐僧行至天竺国东界金平府旻天县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "NATIVE_OF",
+     "object": "金平府",
+     "evidence": "因保唐僧行至天竺国东界金平府旻天县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "NATIVE_OF",
+     "object": "金平府",
+     "evidence": "因保唐僧行至天竺国东界金平府旻天县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "NATIVE_OF",
+     "object": "金平府",
+     "evidence": "因保唐僧行至天竺国东界金平府旻天县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTERMINDED",
+     "object": "四星挟捉犀牛怪",
+     "evidence": "老孙因此特启玉帝，查他来历，请命将降之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "辟寒大王",
+     "evidence": "行者最恼得是这猢狲二字，咬牙发狠举铁棒就打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "辟暑大王",
+     "evidence": "行者最恼得是这猢狲二字，咬牙发狠举铁棒就打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "辟尘大王",
+     "evidence": "行者最恼得是这猢狲二字，咬牙发狠举铁棒就打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "三个妖王，调小妖，跑个圈子阵，把行者圈在垓心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "三个妖王，调小妖，跑个圈子阵，把行者圈在垓心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "三个妖王，调小妖，跑个圈子阵，把行者圈在垓心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "却向玄英洞里解了唐僧、八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "却向玄英洞里解了唐僧、八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "斗木獬",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "却向玄英洞里解了唐僧、八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "奎木狼",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "却向玄英洞里解了唐僧、八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "斗木獬",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "却向玄英洞里解了唐僧、八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "奎木狼",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "却向玄英洞里解了唐僧、八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "斗木獬",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "却向玄英洞里解了唐僧、八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "奎木狼",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "却向玄英洞里解了唐僧、八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "ATTACKED",
+     "object": "青龙山玄英洞",
+     "evidence": "八戒与沙僧将他洞内细软宝贝……搜出一石……他又进去放起火来，把一座洞烧成灰烬",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "ATTACKED",
+     "object": "青龙山玄英洞",
+     "evidence": "八戒与沙僧将他洞内细软宝贝……搜出一石……他又进去放起火来，把一座洞烧成灰烬",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "辟寒大王",
+     "evidence": "行者即近前骂道：偷油的贼怪！还我师来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "辟暑大王",
+     "evidence": "行者即近前骂道：偷油的贼怪！还我师来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "辟尘大王",
+     "evidence": "行者即近前骂道：偷油的贼怪！还我师来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟寒大王",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "那三个妖王看他四星，自然害怕，俱道：不好了！不好了！他寻将降手儿来了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟暑大王",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "那三个妖王看他四星，自然害怕，俱道：不好了！不好了！他寻将降手儿来了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辟尘大王",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "那三个妖王看他四星，自然害怕，俱道：不好了！不好了！他寻将降手儿来了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "辟寒大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "辟暑大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "辟尘大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井木犴",
+     "predicate": "FOUGHT",
+     "object": "辟寒大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井木犴",
+     "predicate": "FOUGHT",
+     "object": "辟暑大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井木犴",
+     "predicate": "FOUGHT",
+     "object": "辟尘大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "角木蛟",
+     "predicate": "FOUGHT",
+     "object": "辟寒大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "角木蛟",
+     "predicate": "FOUGHT",
+     "object": "辟暑大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "角木蛟",
+     "predicate": "FOUGHT",
+     "object": "辟尘大王",
+     "evidence": "那三个妖魔在水底下与井木犴、角木蛟舍死忘生苦斗哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "北海龙王",
+     "predicate": "ATTACKED",
+     "object": "辟尘大王",
+     "evidence": "早把个辟尘儿被老龙王领兵围住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂",
+     "predicate": "ATTACKED",
+     "object": "辟尘大王",
+     "evidence": "摩昂听令，一拥上前，将辟尘儿扳翻在地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "摩昂",
+     "predicate": "ATTACKED",
+     "object": "辟暑大王",
+     "evidence": "摩昂帅龟鳖鼋鼍，撒开簸箕阵围住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "井木犴",
+     "predicate": "DEFEATED",
+     "object": "辟暑大王",
+     "evidence": "井木犴走近前，一把揪住耳朵，夺了他的刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "辟尘大王",
+     "evidence": "又把辟尘儿穿了鼻，教角木蛟牵着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "辟暑大王",
+     "evidence": "辟暑儿也穿了鼻，教井木犴牵着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金灯",
+     "evidence": "你这府县每年家供献金灯，假充诸佛降祥者，即此犀牛之怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "酥合香油",
+     "evidence": "你这府县每年家供献金灯，假充诸佛降祥者，即此犀牛之怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "青龙山玄英洞",
+     "evidence": "今已扫清山洞，剿尽妖魔，不得为害",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "ATTACKED",
+     "object": "青龙山玄英洞",
+     "evidence": "今已扫清山洞，剿尽妖魔，不得为害",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "ATTACKED",
+     "object": "青龙山玄英洞",
+     "evidence": "今已扫清山洞，剿尽妖魔，不得为害",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒沙僧方保唐僧进得山门，只听见行者在半空言语，即便撇了师父，丢下担子，纵风云起到空中，问行者降妖之事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "八戒沙僧方保唐僧进得山门，只听见行者在半空言语，即便撇了师父，丢下担子，纵风云起到空中，问行者降妖之事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "八戒沙僧方保唐僧进得山门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "八戒沙僧方保唐僧进得山门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "八戒沙僧方保唐僧进得山门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "八戒沙僧方保唐僧进得山门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "井木犴",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "角木蛟",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "斗木獬",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "奎木狼",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "摩昂",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "北海龙王",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "西海龙王",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "东海龙王",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "南海龙王",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "太白金星",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "玉皇大帝",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "金平府刺史",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "黄袍怪",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "辟寒大王",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "辟暑大王",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "辟尘大王",
+     "evidence": "行者道：那一只被井星咬死，已锯角剥皮带来，两只活拿在此",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1192,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧",
+      "长老"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "取经僧人，被犀牛怪擒获后获救"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "孙大圣",
+      "悟空",
+      "老孙"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，上天查访请救兵降妖"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "呆子",
+      "天蓬元帅",
+      "猪悟能"
+     ],
+     "nickname": "天蓬元帅",
+     "description": "唐僧二徒弟，砍下辟尘儿、辟暑儿头颅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将"
+     ],
+     "nickname": "卷帘大将",
+     "description": "唐僧三徒弟，随行取经"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "佛祖",
+      "释迦牟尼",
+      "世尊"
+     ],
+     "nickname": "佛祖",
+     "description": "灵山佛祖，唐僧献犀角之处"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主，差遣四木禽星降妖"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "太白金星",
+     "description": "识得妖魔是犀牛，指示请四木禽星"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王"
+     ],
+     "nickname": "东海龙王",
+     "description": "遣子帅兵相助擒获犀牛怪"
+    },
+    {
+     "name": "四木禽星",
+     "type": "Organization",
+     "aliases": [
+      "四星",
+      "斗木獬",
+      "奎木狼",
+      "井木犴",
+      "角木蛟"
+     ],
+     "nickname": "",
+     "description": "天庭星官，奉旨降妖"
+    },
+    {
+     "name": "青龙山",
+     "type": "Place",
+     "aliases": [
+      "玄英洞"
+     ],
+     "nickname": "",
+     "description": "犀牛怪盘踞之山"
+    },
+    {
+     "name": "西洋大海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "追妖至海，龙王相助之处"
+    },
+    {
+     "name": "慈云寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "府城寺院，曾收留唐僧"
+    },
+    {
+     "name": "四星降妖之庙",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "府县为四星所建之庙"
+    },
+    {
+     "name": "唐僧四众生祠",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "府县为唐僧师徒所建生祠"
+    },
+    {
+     "name": "犀牛怪",
+     "type": "Person",
+     "aliases": [
+      "辟尘儿",
+      "辟暑儿",
+      "辟寒儿"
+     ],
+     "nickname": "",
+     "description": "青龙山妖魔，被擒后斩首"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "有劳上宿星官救出我等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "犀牛怪",
+     "evidence": "将辟尘儿头一刀砍下，又一刀把辟暑儿头也砍下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RECOMMENDED",
+     "object": "四木禽星",
+     "evidence": "蒙太白金星识得妖魔是犀牛，指示请四木禽星",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "SERVED",
+     "object": "四木禽星",
+     "evidence": "当时奏闻玉帝，蒙旨差委",
+     "confidence": 0.9
+    },
+    {
+     "subject": "东海龙王",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "又亏龙王遣子帅兵相助，所以捕获到此审究也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四木禽星",
+     "predicate": "FOUGHT",
+     "object": "犀牛怪",
+     "evidence": "直至洞口交战。妖王走了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四木禽星",
+     "predicate": "DEFEATED",
+     "object": "犀牛怪",
+     "evidence": "众神果推落犀牛，一簇彩云，降至府堂之上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "犀牛怪",
+     "predicate": "STATIONED_AT",
+     "object": "青龙山",
+     "evidence": "直至洞口交战。妖王走了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "慈云寺",
+     "evidence": "慈云寺僧把长老用轿抬进府门",
+     "confidence": 0.7
+    },
+    {
+     "subject": "四木禽星",
+     "predicate": "MEMBER_OF",
+     "object": "四星降妖之庙",
+     "evidence": "起建四星降妖之庙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "唐僧四众生祠",
+     "evidence": "又为唐僧四众建立生祠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "犀角",
+     "evidence": "把自己带来的二只：留一只在府堂镇库",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:37.472Z"
+}

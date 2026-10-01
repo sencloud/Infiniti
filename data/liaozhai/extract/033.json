@@ -1,0 +1,225 @@
+{
+ "no": 33,
+ "title": "成仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2347,
+   "entities": [
+    {
+     "name": "周生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "文登书生，与成生为友，后随成生隐去"
+    },
+    {
+     "name": "成生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生好友，后入劳山修道，度周生隐去"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生续娶之妻，与仆私通，被周生所杀"
+    },
+    {
+     "name": "黄吏部",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "文登豪绅，与周生结仇，赂官害周生"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "文登知县，受贿枉法，拷掠周生"
+    },
+    {
+     "name": "周弟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生之弟，朴拙不善治生，抚养周子"
+    },
+    {
+     "name": "周子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生之子，后得点金术致富"
+    },
+    {
+     "name": "成氏子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "成生之子，受周家千金之赐"
+    },
+    {
+     "name": "劳山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "成生修道之山，有上清宫"
+    },
+    {
+     "name": "上清宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "劳山中的道观，成生所居"
+    },
+    {
+     "name": "文登",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "周生籍贯所在县"
+    },
+    {
+     "name": "点金术",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "周家与成家相传有点金术"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "周生",
+     "predicate": "FRIEND",
+     "object": "成生",
+     "evidence": "与成生少共笔砚，遂订为杵臼交",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "继聘王氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "KIN",
+     "object": "周弟",
+     "evidence": "虽有弱弟，止足供囚饭耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "KIN",
+     "object": "周子",
+     "evidence": "周妻生子，产后暴卒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成生",
+     "predicate": "KIN",
+     "object": "成氏子",
+     "evidence": "以千金赐成氏子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "LIVES_AT",
+     "object": "文登",
+     "evidence": "文登周生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "NATIVE_OF",
+     "object": "文登",
+     "evidence": "文登周生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成生",
+     "predicate": "LIVES_AT",
+     "object": "上清宫",
+     "evidence": "答在劳山之上清宫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成生",
+     "predicate": "LIVES_AT",
+     "object": "劳山",
+     "evidence": "答在劳山之上清宫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成生",
+     "predicate": "HELPED",
+     "object": "周生",
+     "evidence": "成锐身自任，曰：是予责也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成生",
+     "predicate": "HELPED",
+     "object": "周生",
+     "evidence": "成又为赴院声屈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成生",
+     "predicate": "HELPED",
+     "object": "周生",
+     "evidence": "成拨以剑，划然顿辟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "HARMED",
+     "object": "周生",
+     "evidence": "宰惭恚，因逮系之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "PUNISHED",
+     "object": "周生",
+     "evidence": "据词申黜顶衣，搒掠酷惨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄吏部",
+     "predicate": "HARMED",
+     "object": "周生",
+     "evidence": "黄亦骇，谋杀周",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "HARMED",
+     "object": "周生",
+     "evidence": "乃知被收时即与仆私",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "KILLED",
+     "object": "王氏",
+     "evidence": "周借剑决其首",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "点金术",
+     "evidence": "因相传两家有点金术云",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:27.508Z"
+}

@@ -1,0 +1,136 @@
+{
+ "no": 24,
+ "title": "妖术",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 888,
+   "entities": [
+    {
+     "name": "于公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《妖术》中豪侠，殿试在都，力大善拳勇"
+    },
+    {
+     "name": "卜者",
+     "type": "Person",
+     "aliases": [
+      "卜人"
+     ],
+     "nickname": "",
+     "description": "《妖术》中善卜者，遣鬼物害于公"
+    },
+    {
+     "name": "纸人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《妖术》中卜者所遣纸人，被于公腰断"
+    },
+    {
+     "name": "土偶",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《妖术》中卜者所遣土偶，被于公击碎"
+    },
+    {
+     "name": "木偶",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《妖术》中卜者所遣木偶巨鬼，被于公击僵"
+    },
+    {
+     "name": "旅舍",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《妖术》中于公在京城所住旅舍"
+    },
+    {
+     "name": "卜所",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《妖术》中卜者所在之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "卜者",
+     "predicate": "HARMED",
+     "object": "于公",
+     "evidence": "方悟鬼物皆卜人遣之，欲致人于死，以神其术也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "纸人",
+     "predicate": "HARMED",
+     "object": "于公",
+     "evidence": "忽闻窗隙窣窣有声。急视之，一小人荷戈入",
+     "confidence": 0.9
+    },
+    {
+     "subject": "土偶",
+     "predicate": "HARMED",
+     "object": "于公",
+     "evidence": "一物穿窗入，怪狞如鬼。才及地，急击之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "木偶",
+     "predicate": "HARMED",
+     "object": "于公",
+     "evidence": "见一巨鬼，高与檐齐……手弓而腰矢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "于公",
+     "predicate": "KILLED",
+     "object": "纸人",
+     "evidence": "公疾斫之，应手而倒。烛之，则纸人，已腰断矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于公",
+     "predicate": "KILLED",
+     "object": "土偶",
+     "evidence": "急击之，断而为两……又连击之，剑剑皆中……则土偶，片片已碎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于公",
+     "predicate": "KILLED",
+     "object": "木偶",
+     "evidence": "猛斫之，亦铿然有声，鬼仆而僵……则一木偶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于公",
+     "predicate": "PUNISHED",
+     "object": "卜者",
+     "evidence": "乃执付有司而杀之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于公",
+     "predicate": "LIVES_AT",
+     "object": "旅舍",
+     "evidence": "公端坐旅舍，静以觇之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卜者",
+     "predicate": "LIVES_AT",
+     "object": "卜所",
+     "evidence": "与共诣卜所。卜人遥见公",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:22.451Z"
+}

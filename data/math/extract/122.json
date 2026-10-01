@@ -1,0 +1,332 @@
+{
+ "no": 122,
+ "title": "6.4 探索三角形相似的条件",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6029,
+   "entities": [
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等，对应边成比例的两个三角形"
+    },
+    {
+     "name": "平行线分线段成比例",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条直线被一组平行线所截，所得的对应线段成比例"
+    },
+    {
+     "name": "平行于三角形一边的直线",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "平行于三角形一边的直线与其他两边相交，所截得的三角形与原三角形相似"
+    },
+    {
+     "name": "两角分别相等的两个三角形相似",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两角分别相等的两个三角形相似"
+    },
+    {
+     "name": "两边成比例且夹角相等的两个三角形相似",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两边成比例且夹角相等的两个三角形相似"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "平行四边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "两组对边分别平行的四边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平行线分线段成比例",
+     "predicate": "PREREQUISITE",
+     "object": "平行于三角形一边的直线",
+     "evidence": "由例1，我们得到如下结论：平行于三角形一边的直线与其他两边相交，所截得的三角形与原三角形相似。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行于三角形一边的直线",
+     "predicate": "PREREQUISITE",
+     "object": "两角分别相等的两个三角形相似",
+     "evidence": "这样，根据本节例1所得的结论，可得△ABC∽△AB'C'。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行于三角形一边的直线",
+     "predicate": "PREREQUISITE",
+     "object": "两边成比例且夹角相等的两个三角形相似",
+     "evidence": "根据本节例1所得的结论，可以知道△ABC∽△AB''C''。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两角分别相等的两个三角形相似",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "于是，我们得到如下定理：两角分别相等的两个三角形相似。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两边成比例且夹角相等的两个三角形相似",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "于是，我们得到如下定理：两边成比例且夹角相等的两个三角形相似。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行线分线段成比例",
+     "predicate": "APPLIES_TO",
+     "object": "相似三角形",
+     "evidence": "由例1，我们得到如下结论：平行于三角形一边的直线与其他两边相交，所截得的三角形与原三角形相似。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "RELATED",
+     "object": "相似三角形",
+     "evidence": "∵四边形DFCE是平行四边形，∴DE=FC。",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 6080,
+   "entities": [
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的三角形"
+    },
+    {
+     "name": "三边成比例的两个三角形相似",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三边成比例的两个三角形相似"
+    },
+    {
+     "name": "两边成比例且夹角相等的两个三角形相似",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两边成比例且夹角相等的两个三角形相似"
+    },
+    {
+     "name": "两角分别相等的两个三角形相似",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两角分别相等的两个三角形相似"
+    },
+    {
+     "name": "相似三角形的对应角相等",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形的对应角相等"
+    },
+    {
+     "name": "三角形的重心",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形三条中线的交点"
+    },
+    {
+     "name": "三角形的三条中线相交于一点",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形的三条中线相交于一点"
+    },
+    {
+     "name": "平行线分线段成比例",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条直线被一组平行线所截，所得的对应线段成比例"
+    },
+    {
+     "name": "相似三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "形状相同的三角形"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "反证法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "先假设结论不成立，推出矛盾，从而证明结论的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "三边成比例的两个三角形相似",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "三边成比例的两个三角形相似．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两边成比例且夹角相等的两个三角形相似",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "两边成比例且夹角相等的两个三角形相似",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两角分别相等的两个三角形相似",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "两角分别相等的两个三角形相似",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形的对应角相等",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "相似三角形的对应角相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的三条中线相交于一点",
+     "predicate": "PROPERTY_OF",
+     "object": "三角形",
+     "evidence": "三角形的三条中线相交于一点",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的重心",
+     "predicate": "INCLUDES",
+     "object": "三角形的三条中线相交于一点",
+     "evidence": "三角形的三条中线相交于一点，这点叫做三角形的重心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形",
+     "predicate": "PREREQUISITE",
+     "object": "三边成比例的两个三角形相似",
+     "evidence": "我们可以用如下方法证实 △ABC∽△A'B'C'",
+     "confidence": 0.8
+    },
+    {
+     "subject": "相似三角形",
+     "predicate": "PREREQUISITE",
+     "object": "两边成比例且夹角相等的两个三角形相似",
+     "evidence": "∴△ABE∽△ACD（两边成比例且夹角相等的两个三角形相似）",
+     "confidence": 0.8
+    },
+    {
+     "subject": "相似三角形",
+     "predicate": "PREREQUISITE",
+     "object": "两角分别相等的两个三角形相似",
+     "evidence": "∴△ABE∽△CDE（两角分别相等的两个三角形相似）",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平行线分线段成比例",
+     "predicate": "PREREQUISITE",
+     "object": "相似三角形",
+     "evidence": "根据本节例1所得的结论，可以知道 △ABC∽△A''B''C''",
+     "confidence": 0.7
+    },
+    {
+     "subject": "反证法",
+     "predicate": "APPLIES_TO",
+     "object": "相似三角形",
+     "evidence": "现在，我们用反证法证实图(2)不是长方形",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 392,
+   "entities": [
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的三角形"
+    },
+    {
+     "name": "三角形相似的条件",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "判定两个三角形相似的条件"
+    },
+    {
+     "name": "垂直平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "垂直于线段且平分该线段的直线"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四边相等且四个角都是直角的四边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "三角形相似的条件",
+     "predicate": "APPLIES_TO",
+     "object": "相似三角形",
+     "evidence": "判断△FDB与△ABC是否相似，并说明理由。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "垂直平分线",
+     "predicate": "RELATED",
+     "object": "相似三角形",
+     "evidence": "BC的垂直平分线分别交BC、AC于点D、E",
+     "confidence": 0.8
+    },
+    {
+     "subject": "正方形",
+     "predicate": "RELATED",
+     "object": "相似三角形",
+     "evidence": "正方形ABCD的边长为8，E是CD的中点，AE、BC的延长线相交于点F",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:31.010Z"
+}

@@ -1,0 +1,120 @@
+{
+ "no": 298,
+ "title": "男生子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 255,
+   "entities": [
+    {
+     "name": "杨辅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "福建总兵，男生子篇人物"
+    },
+    {
+     "name": "杨辅妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨辅之妻，智勇双全"
+    },
+    {
+     "name": "蔡公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "福建巡抚，疑杨辅欲图己"
+    },
+    {
+     "name": "天舍",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨辅娈童所生之子"
+    },
+    {
+     "name": "地舍",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨辅娈童所生之子"
+    },
+    {
+     "name": "神人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "梦中剖娈童两胁之神"
+    },
+    {
+     "name": "杨辅鬼魂",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨辅死后之鬼，操兵入蔡公室"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨辅",
+     "predicate": "SPOUSE",
+     "object": "杨辅妻",
+     "evidence": "杨妻夙智勇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨辅",
+     "predicate": "KIN",
+     "object": "天舍",
+     "evidence": "儿名之天舍、地舍云",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨辅",
+     "predicate": "KIN",
+     "object": "地舍",
+     "evidence": "儿名之天舍、地舍云",
+     "confidence": 0.9
+    },
+    {
+     "subject": "神人",
+     "predicate": "HELPED",
+     "object": "天舍",
+     "evidence": "梦神人剖其两胁去之。及醒，两男夹左右啼",
+     "confidence": 0.8
+    },
+    {
+     "subject": "神人",
+     "predicate": "HELPED",
+     "object": "地舍",
+     "evidence": "梦神人剖其两胁去之。及醒，两男夹左右啼",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蔡公",
+     "predicate": "KILLED",
+     "object": "杨辅",
+     "evidence": "闻夫被诛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨辅妻",
+     "predicate": "HARMED",
+     "object": "蔡公",
+     "evidence": "遂反攻蔡，蔡仓皇不知所为",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨辅鬼魂",
+     "predicate": "HARMED",
+     "object": "蔡公",
+     "evidence": "临卒，见杨操兵入",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:05.704Z"
+}

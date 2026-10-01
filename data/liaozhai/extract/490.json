@@ -1,0 +1,87 @@
+{
+ "no": 490,
+ "title": "浙东生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 393,
+   "entities": [
+    {
+     "name": "房某",
+     "type": "Person",
+     "aliases": [
+      "浙东生"
+     ],
+     "nickname": "",
+     "description": "浙东书生，客居陕西教书，自诩胆大"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "与房某狎昵半年的狐狸精"
+    },
+    {
+     "name": "陕",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "房某客居教书之地"
+    },
+    {
+     "name": "浙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "房某坠落之处，离家四百余里"
+    },
+    {
+     "name": "世家园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "有虎阱的花园，房某坠落处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "房某",
+     "predicate": "LIVES_AT",
+     "object": "陕",
+     "evidence": "浙东生房某，客于陕，教授生徒。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "房某",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "女渐与戏，胆始放，遂共狎昵。积半年，如琴瑟之好。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "房某",
+     "predicate": "HARMED",
+     "object": "狐女",
+     "evidence": "生潜以猎网蒙之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HARMED",
+     "object": "房某",
+     "evidence": "以手曳之，身不觉自行。出门，凌空翕飞。食顷，女释手，生晕然坠落。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "房某",
+     "predicate": "OCCURRED_AT",
+     "object": "世家园",
+     "evidence": "适世家园中有虎阱，揉木为圈，结绳作网，以覆其口。生坠网上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:19.684Z"
+}

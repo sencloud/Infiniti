@@ -1,0 +1,147 @@
+{
+ "no": 127,
+ "title": "7.2 正弦、余弦",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3035,
+   "entities": [
+    {
+     "name": "正弦",
+     "type": "Concept",
+     "aliases": [
+      "sin"
+     ],
+     "nickname": "",
+     "description": "锐角A的对边与斜边的比叫做∠A的正弦"
+    },
+    {
+     "name": "余弦",
+     "type": "Concept",
+     "aliases": [
+      "cos"
+     ],
+     "nickname": "",
+     "description": "锐角A的邻边与斜边的比叫做∠A的余弦"
+    },
+    {
+     "name": "锐角三角函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "锐角的正弦、余弦、正切统称为锐角三角函数"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [
+      "Rt△"
+     ],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "等边三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三条边都相等的三角形"
+    },
+    {
+     "name": "计算器求三角函数值",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "使用计算器求锐角三角函数值的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "直角三角形",
+     "predicate": "PREREQUISITE",
+     "object": "正弦",
+     "evidence": "在Rt△ABD中，cosB=BD/AB",
+     "confidence": 0.95
+    },
+    {
+     "subject": "直角三角形",
+     "predicate": "PREREQUISITE",
+     "object": "余弦",
+     "evidence": "在Rt△ABD中，cosB=BD/AB",
+     "confidence": 0.95
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "PREREQUISITE",
+     "object": "正弦",
+     "evidence": "根据勾股定理，得AB=√(AC²+BC²)=13。根据正弦、余弦的定义，得sinA=BC/AB",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "PREREQUISITE",
+     "object": "余弦",
+     "evidence": "根据勾股定理，得AB=√(AC²+BC²)=13。根据正弦、余弦的定义，得cosA=AC/AB",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正弦",
+     "evidence": "根据正弦、余弦的定义",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "余弦",
+     "evidence": "根据正弦、余弦的定义",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正弦",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "在Rt△ABC中，∠C=90°，sinA=BC/AB",
+     "confidence": 0.95
+    },
+    {
+     "subject": "余弦",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "在Rt△ABC中，∠C=90°，cosA=AC/AB",
+     "confidence": 0.95
+    },
+    {
+     "subject": "计算器求三角函数值",
+     "predicate": "APPLIES_TO",
+     "object": "正弦",
+     "evidence": "用计算器求下列正弦值或余弦值",
+     "confidence": 0.95
+    },
+    {
+     "subject": "计算器求三角函数值",
+     "predicate": "APPLIES_TO",
+     "object": "余弦",
+     "evidence": "用计算器求下列正弦值或余弦值",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等边三角形",
+     "predicate": "SPECIAL_CASE",
+     "object": "直角三角形",
+     "evidence": "过点A作AD⊥BC，垂足为D。在Rt△ABD中",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:30.074Z"
+}

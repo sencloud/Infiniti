@@ -1,0 +1,204 @@
+{
+ "no": 422,
+ "title": "王者",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1028,
+   "entities": [
+    {
+     "name": "湖南巡抚某公",
+     "type": "Person",
+     "aliases": [
+      "抚公",
+      "巡抚"
+     ],
+     "nickname": "",
+     "description": "《王者》中贪婪的湖南巡抚"
+    },
+    {
+     "name": "州佐",
+     "type": "Person",
+     "aliases": [
+      "解官"
+     ],
+     "nickname": "",
+     "description": "《王者》中押解饷银的州佐"
+    },
+    {
+     "name": "瞽者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中能知心事的盲人"
+    },
+    {
+     "name": "衣冠者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中王者处衣冠汉制之人"
+    },
+    {
+     "name": "王者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中珠冠绣绂的王者"
+    },
+    {
+     "name": "爱姬",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中巡抚的爱妾"
+    },
+    {
+     "name": "古刹",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中州佐投宿的寺庙"
+    },
+    {
+     "name": "深山城郭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中王者所在的城郭"
+    },
+    {
+     "name": "辕门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中王者衙署的辕门"
+    },
+    {
+     "name": "长沙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中州佐返回的湖南城市"
+    },
+    {
+     "name": "巨函",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《王者》中王者交给州佐的大信函"
+    },
+    {
+     "name": "饷银",
+     "type": "Item",
+     "aliases": [
+      "金"
+     ],
+     "nickname": "",
+     "description": "《王者》中被劫的六十万两饷银"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "湖南巡抚某公",
+     "predicate": "PUNISHED",
+     "object": "州佐",
+     "evidence": "公以为妄，将置之法。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "州佐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "押解饷银",
+     "evidence": "遣州佐押解饷六十万赴京。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "州佐",
+     "predicate": "LIVES_AT",
+     "object": "古刹",
+     "evidence": "远见古刹，因诣栖止。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "瞽者",
+     "predicate": "HELPED",
+     "object": "州佐",
+     "evidence": "但从我去，当自知。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "衣冠者",
+     "predicate": "HELPED",
+     "object": "州佐",
+     "evidence": "请留数日，当与君谒当事者。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王者",
+     "predicate": "HELPED",
+     "object": "州佐",
+     "evidence": "以此复之，可保无恙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王者",
+     "predicate": "PUNISHED",
+     "object": "湖南巡抚某公",
+     "evidence": "前取姬发，略示微警。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王者",
+     "predicate": "KILLED",
+     "object": "湖南巡抚某公",
+     "evidence": "数日，公疾，寻卒。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "湖南巡抚某公",
+     "predicate": "KIN",
+     "object": "爱姬",
+     "evidence": "公与爱姬共寝。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王者",
+     "predicate": "OWNS",
+     "object": "巨函",
+     "evidence": "遂付以巨函。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王者",
+     "predicate": "OWNS",
+     "object": "饷银",
+     "evidence": "银俱在此。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "州佐",
+     "predicate": "LIVES_AT",
+     "object": "深山城郭",
+     "evidence": "入深山，忽睹城郭。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王者",
+     "predicate": "LIVES_AT",
+     "object": "辕门",
+     "evidence": "至一辕门，俨如制府衙署。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "州佐",
+     "predicate": "LIVES_AT",
+     "object": "长沙",
+     "evidence": "数日，抵长沙。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:54.900Z"
+}

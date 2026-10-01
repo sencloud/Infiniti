@@ -1,0 +1,63 @@
+{
+ "no": 61,
+ "title": "小官人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 194,
+   "entities": [
+    {
+     "name": "太史某公",
+     "type": "Person",
+     "aliases": [
+      "太史"
+     ],
+     "nickname": "",
+     "description": "《小官人》中忘记姓氏的翰林，昼卧斋中见小人仪仗"
+    },
+    {
+     "name": "小官人",
+     "type": "Spirit",
+     "aliases": [
+      "小人"
+     ],
+     "nickname": "",
+     "description": "《小官人》中细如手指的小人，持毡包献物"
+    },
+    {
+     "name": "小官人主人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《小官人》中小人仪仗队的主人，派小官人献礼"
+    },
+    {
+     "name": "斋",
+     "type": "Place",
+     "aliases": [
+      "堂"
+     ],
+     "nickname": "",
+     "description": "《小官人》中太史某公的书斋，堂陬出仪仗"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "小官人",
+     "predicate": "HELPED",
+     "object": "太史某公",
+     "evidence": "家主人有不腆之仪，敬献太史。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太史某公",
+     "predicate": "LIVES_AT",
+     "object": "斋",
+     "evidence": "昼卧斋中",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:34.687Z"
+}

@@ -1,0 +1,514 @@
+{
+ "no": 93,
+ "title": "给孤园问古谈因 天竺国朝王遇偶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5766,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐取经僧人"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "美猴王",
+      "齐天大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "猪悟能",
+      "天蓬元帅",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，贪吃懒惰"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实"
+    },
+    {
+     "name": "乌巢禅师",
+     "type": "Person",
+     "aliases": [
+      "乌巢"
+     ],
+     "nickname": "",
+     "description": "曾传授《心经》的禅师"
+    },
+    {
+     "name": "天竺国国王",
+     "type": "Person",
+     "aliases": [
+      "怡宗皇帝"
+     ],
+     "nickname": "",
+     "description": "天竺国国王，爱山水花卉"
+    },
+    {
+     "name": "天竺国公主",
+     "type": "Person",
+     "aliases": [
+      "真公主"
+     ],
+     "nickname": "",
+     "description": "天竺国真公主，被妖摄去"
+    },
+    {
+     "name": "玉兔精",
+     "type": "Person",
+     "aliases": [
+      "假公主",
+      "玉兔"
+     ],
+     "nickname": "",
+     "description": "妖邪变的假公主，欲招唐僧"
+    },
+    {
+     "name": "给孤独长者",
+     "type": "Person",
+     "aliases": [
+      "须达多"
+     ],
+     "nickname": "",
+     "description": "舍卫国长者，买祇园请佛讲经"
+    },
+    {
+     "name": "老僧",
+     "type": "Person",
+     "aliases": [
+      "老院主"
+     ],
+     "nickname": "",
+     "description": "布金禅寺老僧，年一百零五岁"
+    },
+    {
+     "name": "布金禅寺",
+     "type": "Organization",
+     "aliases": [
+      "给孤布金寺",
+      "祇园"
+     ],
+     "nickname": "",
+     "description": "舍卫国古寺，给孤独园旧址"
+    },
+    {
+     "name": "天竺国",
+     "type": "Organization",
+     "aliases": [
+      "大天竺国"
+     ],
+     "nickname": "",
+     "description": "西天路上的国度"
+    },
+    {
+     "name": "会同馆驿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国接待使客的驿馆"
+    },
+    {
+     "name": "百脚山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "布金禅寺所在山，有蜈蚣精"
+    },
+    {
+     "name": "鸡鸣关",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "百脚山下的关隘"
+    },
+    {
+     "name": "祇园",
+     "type": "Place",
+     "aliases": [
+      "给孤园",
+      "给孤独园"
+     ],
+     "nickname": "",
+     "description": "给孤独长者买下的园地"
+    },
+    {
+     "name": "抛绣球招亲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国公主抛绣球招驸马"
+    },
+    {
+     "name": "《心经》",
+     "type": "Item",
+     "aliases": [
+      "般若心经",
+      "多心经"
+     ],
+     "nickname": "",
+     "description": "乌巢禅师传授的佛经"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乌巢禅师",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "自那乌巢禅师教后，那一日不念",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "《心经》",
+     "evidence": "《般若心经》是我随身衣钵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "抛绣球招亲",
+     "evidence": "公主转睛观看，见唐僧来得至近，将绣球取过来，亲手抛在唐僧头上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉兔精",
+     "predicate": "PARTICIPATED_IN",
+     "object": "抛绣球招亲",
+     "evidence": "他假借国家之富，搭起彩楼，欲招唐僧为偶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "抛绣球招亲",
+     "predicate": "OCCURRED_AT",
+     "object": "天竺国",
+     "evidence": "正在十字街头，高结彩楼，抛打绣球",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉兔精",
+     "predicate": "TRANSFORMED",
+     "object": "天竺国公主",
+     "evidence": "把真公主摄去，他却变做一个假公主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉兔精",
+     "predicate": "ATTACKED",
+     "object": "天竺国公主",
+     "evidence": "把真公主摄去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "会同馆驿",
+     "evidence": "三藏等径入驿内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "布金禅寺",
+     "predicate": "OCCURRED_AT",
+     "object": "百脚山",
+     "evidence": "我这山唤做百脚山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鸡鸣关",
+     "predicate": "OCCURRED_AT",
+     "object": "百脚山",
+     "evidence": "山下有一座关，唤做鸡鸣关",
+     "confidence": 0.9
+    },
+    {
+     "subject": "给孤独长者",
+     "predicate": "OWNS",
+     "object": "祇园",
+     "evidence": "我荒山原是长者之祇园",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老僧",
+     "predicate": "MEMBER_OF",
+     "object": "布金禅寺",
+     "evidence": "老僧见问，即命众僧先回去煎茶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "天竺国国王",
+     "predicate": "LEADS",
+     "object": "天竺国",
+     "evidence": "现在位的爷爷，爱山水花卉，号做怡宗皇帝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "天竺国公主",
+     "predicate": "KIN",
+     "object": "天竺国国王",
+     "evidence": "父王，常言嫁鸡逐鸡，嫁犬逐犬",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉兔精",
+     "predicate": "FRAMED",
+     "object": "天竺国公主",
+     "evidence": "把真公主摄去，他却变做一个假公主",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "我保师父去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "八戒道：我去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "沙僧说：二哥，你也信他",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 854,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "师父",
+     "description": "取经僧人，被天竺国公主绣球打中，招为驸马"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "美猴王",
+      "齐天大圣"
+     ],
+     "nickname": "哥哥",
+     "description": "唐僧大徒弟，回驿报喜，后与八戒沙僧进朝"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "猪悟能",
+      "天蓬元帅",
+      "净坛使者"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，听闻师父招亲，羡慕不已"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，取笑八戒，后一同进朝"
+    },
+    {
+     "name": "天竺国公主",
+     "type": "Person",
+     "aliases": [
+      "公主娘娘",
+      "当朝公主"
+     ],
+     "nickname": "",
+     "description": "天竺国公主，抛绣球打中唐僧，招其为驸马"
+    },
+    {
+     "name": "天竺国国王",
+     "type": "Person",
+     "aliases": [
+      "圣上",
+      "主公"
+     ],
+     "nickname": "",
+     "description": "天竺国国王，下旨请三位神僧进朝"
+    },
+    {
+     "name": "驿丞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "驿站官员，来报圣旨"
+    },
+    {
+     "name": "传旨官",
+     "type": "Person",
+     "aliases": [
+      "官儿",
+      "差官"
+     ],
+     "nickname": "",
+     "description": "奉旨来请三位神僧的官员"
+    },
+    {
+     "name": "天竺国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西域国度，唐僧在此被招为驸马"
+    },
+    {
+     "name": "彩楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国十字街彩楼，公主抛绣球之处"
+    },
+    {
+     "name": "驿馆",
+     "type": "Place",
+     "aliases": [
+      "驿"
+     ],
+     "nickname": "",
+     "description": "取经团队在天竺国下榻的驿站"
+    },
+    {
+     "name": "天竺国朝堂",
+     "type": "Place",
+     "aliases": [
+      "朝"
+     ],
+     "nickname": "",
+     "description": "天竺国国王处理朝政的宫殿"
+    },
+    {
+     "name": "绣球招亲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国公主抛绣球打中唐僧，招其为驸马"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "天竺国公主",
+     "predicate": "PARTICIPATED_IN",
+     "object": "绣球招亲",
+     "evidence": "可可的被当朝公主抛绣球打中了师父",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "绣球招亲",
+     "evidence": "可可的被当朝公主抛绣球打中了师父",
+     "confidence": 0.95
+    },
+    {
+     "subject": "绣球招亲",
+     "predicate": "OCCURRED_AT",
+     "object": "彩楼",
+     "evidence": "我与师父只走至十字街彩楼之下，可可的被当朝公主抛绣球打中了师父",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "SPOUSE",
+     "object": "天竺国公主",
+     "evidence": "同公主坐辇入朝，招为驸马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "天竺国国王",
+     "predicate": "LEADS",
+     "object": "天竺国",
+     "evidence": "圣上有旨，差官来请三位神僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "天竺国国王",
+     "predicate": "KIN",
+     "object": "天竺国公主",
+     "evidence": "我公主有请会亲，我主公会亲有请",
+     "confidence": 0.9
+    },
+    {
+     "subject": "传旨官",
+     "predicate": "SERVED",
+     "object": "天竺国国王",
+     "evidence": "圣上有旨，差官来请三位神僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "天竺国",
+     "evidence": "同公主坐辇入朝，招为驸马",
+     "confidence": 0.5
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "天竺国",
+     "evidence": "同公主坐辇入朝，招为驸马",
+     "confidence": 0.5
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "天竺国",
+     "evidence": "同公主坐辇入朝，招为驸马",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:14.752Z"
+}

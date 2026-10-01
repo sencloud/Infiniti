@@ -1,0 +1,128 @@
+{
+ "no": 321,
+ "title": "司文郎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2850,
+   "entities": [
+    {
+     "name": "王平子",
+     "type": "Person",
+     "aliases": [
+      "王生"
+     ],
+     "nickname": "",
+     "description": "平阳人，赴京应试，与宋生交好"
+    },
+    {
+     "name": "宋生",
+     "type": "Person",
+     "aliases": [
+      "宋"
+     ],
+     "nickname": "",
+     "description": "登州人，游魂，后任司文郎"
+    },
+    {
+     "name": "馀杭生",
+     "type": "Person",
+     "aliases": [
+      "生"
+     ],
+     "nickname": "",
+     "description": "馀杭人，狂傲，后中举"
+    },
+    {
+     "name": "瞽僧",
+     "type": "Spirit",
+     "aliases": [
+      "盲僧"
+     ],
+     "nickname": "",
+     "description": "前朝名家之鬼，以鼻嗅文，卖药"
+    },
+    {
+     "name": "报国寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "京城寺庙，王生赁居"
+    },
+    {
+     "name": "梓潼府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府官署，司文郎任职处"
+    },
+    {
+     "name": "司文郎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "梓潼府官职，宋生得任"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王平子",
+     "predicate": "FRIEND",
+     "object": "宋生",
+     "evidence": "由此相得甚欢",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王平子",
+     "predicate": "HELPED",
+     "object": "宋生",
+     "evidence": "王必为之设水角焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋生",
+     "predicate": "HELPED",
+     "object": "王平子",
+     "evidence": "极力为‘他山’之攻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王平子",
+     "predicate": "LIVES_AT",
+     "object": "报国寺",
+     "evidence": "赁居报国寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "司文郎",
+     "evidence": "愿遂矣！宣圣命作《性道论》，视之色喜，谓可司文",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司文郎",
+     "predicate": "OCCURRED_AT",
+     "object": "梓潼府",
+     "evidence": "梓潼府中缺一司文郎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "瞽僧",
+     "predicate": "HELPED",
+     "object": "王平子",
+     "evidence": "君初法大家，虽未逼真，亦近似矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "瞽僧",
+     "predicate": "HARMED",
+     "object": "馀杭生",
+     "evidence": "格格而不能下，强受之以鬲，再焚，则作恶矣",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:13.301Z"
+}

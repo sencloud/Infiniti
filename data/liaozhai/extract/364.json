@@ -1,0 +1,57 @@
+{
+ "no": 364,
+ "title": "红毛毡",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 106,
+   "entities": [
+    {
+     "name": "红毛国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "红毛毡篇中的海外国家"
+    },
+    {
+     "name": "中国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "红毛毡篇中与红毛国贸易的国度"
+    },
+    {
+     "name": "边帅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红毛毡篇中镇守边境的将帅"
+    },
+    {
+     "name": "红毛人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红毛毡篇中红毛国来者"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "红毛国",
+     "predicate": "PARTICIPATED_IN",
+     "object": "贸易",
+     "evidence": "红毛国，旧许与中国相贸易",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红毛人",
+     "predicate": "HARMED",
+     "object": "边帅",
+     "evidence": "短刃并发，出于不意，被掠数里而去",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:27.666Z"
+}

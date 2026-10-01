@@ -1,0 +1,274 @@
+{
+ "no": 133,
+ "title": "田七郎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2468,
+   "entities": [
+    {
+     "name": "武承休",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "辽阳人，喜交游，与田七郎结交"
+    },
+    {
+     "name": "田七郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东村猎户，武承休挚友，后为武报仇杀人"
+    },
+    {
+     "name": "田母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "田七郎之母，贤德有识"
+    },
+    {
+     "name": "武绅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武承休长子，娶王氏"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武绅之妻，被林儿调戏"
+    },
+    {
+     "name": "林儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武承休家仆，调戏王氏，后被田七郎杀死"
+    },
+    {
+     "name": "武恒",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武承休叔父，被县令杖打致死"
+    },
+    {
+     "name": "某御史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "京官，其弟庇护林儿"
+    },
+    {
+     "name": "某弟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "御史之弟，被田七郎杀死"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "县令，受贿偏袒御史家，后被田七郎杀死"
+    },
+    {
+     "name": "李应",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武承休家仆，被疑为恶人遭辞退"
+    },
+    {
+     "name": "田七郎之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "流落登州，改姓佟，官至同知将军"
+    },
+    {
+     "name": "辽阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武承休籍贯地"
+    },
+    {
+     "name": "东村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "田七郎所居村落"
+    },
+    {
+     "name": "登州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "田七郎之子流寓之地"
+    },
+    {
+     "name": "田七郎佩刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "异国宝刀，见恶人则鸣跃"
+    },
+    {
+     "name": "田七郎杀人案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "田七郎为武承休报仇，杀林儿、某弟、邑宰"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武承休",
+     "predicate": "FRIEND",
+     "object": "田七郎",
+     "evidence": "武与语，言词朴质，大悦之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武承休",
+     "predicate": "HELPED",
+     "object": "田七郎",
+     "evidence": "急以重金赂邑宰，又以百金赂仇主。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "HELPED",
+     "object": "武承休",
+     "evidence": "七郎念终不足以报武，裹粮入山，凡数夜，得一虎，全而馈之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "KILLED",
+     "object": "林儿",
+     "evidence": "林儿被人脔割，抛尸旷野间。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "KILLED",
+     "object": "某弟",
+     "evidence": "又一刀，始决其首。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "KILLED",
+     "object": "邑宰",
+     "evidence": "尸忽崛然跃起，竟决宰首，已而复踣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "HARMED",
+     "object": "武恒",
+     "evidence": "操杖隶皆绅家走狗，恒又老耄，签数未半，奄然已死。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "PUNISHED",
+     "object": "武恒",
+     "evidence": "宰不容辨，欲笞恒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武承休",
+     "predicate": "KIN",
+     "object": "武绅",
+     "evidence": "武长子绅，娶王氏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武绅",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "武长子绅，娶王氏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武承休",
+     "predicate": "KIN",
+     "object": "武恒",
+     "evidence": "武叔恒，故长者。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "KIN",
+     "object": "田母",
+     "evidence": "老身止此儿，不欲令事贵客！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "KIN",
+     "object": "田七郎之子",
+     "evidence": "其子奉媪命，返新衣，索其敝裰。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武承休",
+     "predicate": "LIVES_AT",
+     "object": "辽阳",
+     "evidence": "武承休，辽阳人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武承休",
+     "predicate": "NATIVE_OF",
+     "object": "辽阳",
+     "evidence": "武承休，辽阳人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "LIVES_AT",
+     "object": "东村",
+     "evidence": "客或识为东村业猎者。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田七郎之子",
+     "predicate": "LIVES_AT",
+     "object": "登州",
+     "evidence": "其子流寓于登，变姓为佟。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "OWNS",
+     "object": "田七郎佩刀",
+     "evidence": "此刀购诸异国，杀人未尝濡缕。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎",
+     "predicate": "PARTICIPATED_IN",
+     "object": "田七郎杀人案",
+     "evidence": "樵人乃自刭死。纷纷集认，识者知为田七郎也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田七郎杀人案",
+     "predicate": "OCCURRED_AT",
+     "object": "辽阳",
+     "evidence": "武承休，辽阳人。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:05.647Z"
+}

@@ -1,0 +1,150 @@
+{
+ "no": 3,
+ "title": "尸变",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 845,
+   "entities": [
+    {
+     "name": "阳信某翁",
+     "type": "Person",
+     "aliases": [
+      "翁"
+     ],
+     "nickname": "",
+     "description": "蔡店村人，开临路旅店"
+    },
+    {
+     "name": "翁子妇",
+     "type": "Spirit",
+     "aliases": [
+      "女尸"
+     ],
+     "nickname": "",
+     "description": "翁之儿媳，新死化为僵尸"
+    },
+    {
+     "name": "车夫客",
+     "type": "Person",
+     "aliases": [
+      "客"
+     ],
+     "nickname": "",
+     "description": "四车夫中唯一逃生者"
+    },
+    {
+     "name": "道人",
+     "type": "Person",
+     "aliases": [
+      "僧人"
+     ],
+     "nickname": "",
+     "description": "东郊兰若中僧人，救活车夫客"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [
+      "宰"
+     ],
+     "nickname": "",
+     "description": "阳信县知县，勘验女尸"
+    },
+    {
+     "name": "蔡店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳信县村名，翁家旅店所在"
+    },
+    {
+     "name": "东郊兰若",
+     "type": "Place",
+     "aliases": [
+      "兰若"
+     ],
+     "nickname": "",
+     "description": "城东郊寺庙，有白杨树"
+    },
+    {
+     "name": "翁家旅店",
+     "type": "Place",
+     "aliases": [
+      "临路店"
+     ],
+     "nickname": "",
+     "description": "翁父子所开旅店"
+    },
+    {
+     "name": "灵堂",
+     "type": "Place",
+     "aliases": [
+      "灵所室"
+     ],
+     "nickname": "",
+     "description": "停放翁子妇尸体的屋子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "阳信某翁",
+     "predicate": "LIVES_AT",
+     "object": "蔡店",
+     "evidence": "阳信某翁者，邑之蔡店人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阳信某翁",
+     "predicate": "OWNS",
+     "object": "翁家旅店",
+     "evidence": "父子设临路店，宿行商。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阳信某翁",
+     "predicate": "KIN",
+     "object": "翁子妇",
+     "evidence": "时翁有子妇新死，停尸室中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "翁子妇",
+     "predicate": "LIVES_AT",
+     "object": "灵堂",
+     "evidence": "停尸室中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "车夫客",
+     "predicate": "LIVES_AT",
+     "object": "翁家旅店",
+     "evidence": "有车夫数人，往来负贩，辄寓其家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "翁子妇",
+     "predicate": "HARMED",
+     "object": "车夫客",
+     "evidence": "女果来，吹之如诸客。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "道人",
+     "predicate": "HELPED",
+     "object": "车夫客",
+     "evidence": "负入，终夜始苏。饮以汤水而问之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "PUNISHED",
+     "object": "翁子妇",
+     "evidence": "宰亲诣质验。使人拔女手",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:16.525Z"
+}

@@ -1,0 +1,300 @@
+{
+ "no": 401,
+ "title": "胭脂",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4376,
+   "entities": [
+    {
+     "name": "胭脂",
+     "type": "Person",
+     "aliases": [
+      "卞氏女"
+     ],
+     "nickname": "",
+     "description": "东昌卞氏女，才姿惠丽，因绣鞋案卷入官司"
+    },
+    {
+     "name": "卞氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东昌牛医，胭脂之父，被毛大杀害"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胭脂对户龚姓之妻，佻脱善谑，与宿介私通"
+    },
+    {
+     "name": "鄂秋隼",
+     "type": "Person",
+     "aliases": [
+      "鄂生"
+     ],
+     "nickname": "",
+     "description": "南巷秀才，故孝廉之子，被诬杀人入狱"
+    },
+    {
+     "name": "宿介",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东国名士，生性放纵，与王氏私通，冒鄂生名骗胭脂"
+    },
+    {
+     "name": "毛大",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "巷中游手无籍，挑王氏不得，杀卞翁，真凶"
+    },
+    {
+     "name": "施愚山",
+     "type": "Person",
+     "aliases": [
+      "施学使",
+      "施公"
+     ],
+     "nickname": "",
+     "description": "山东学使，贤能怜才，为宿介平反"
+    },
+    {
+     "name": "吴南岱",
+     "type": "Person",
+     "aliases": [
+      "吴公"
+     ],
+     "nickname": "",
+     "description": "济南府守，审案发现鄂生冤情"
+    },
+    {
+     "name": "龚氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王氏之夫，负贩未归"
+    },
+    {
+     "name": "卞媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胭脂之母，发现卞翁被杀"
+    },
+    {
+     "name": "东昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，卞氏所居"
+    },
+    {
+     "name": "济南府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，吴南岱守此，复案"
+    },
+    {
+     "name": "城隍庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "施愚山审案之处"
+    },
+    {
+     "name": "绣鞋",
+     "type": "Item",
+     "aliases": [
+      "绣履",
+      "女舄"
+     ],
+     "nickname": "",
+     "description": "胭脂的绣鞋，被宿介夺去，成为案件关键物证"
+    },
+    {
+     "name": "绣鞋案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "因绣鞋引发的杀人冤案，最终施愚山破案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "胭脂",
+     "predicate": "KIN",
+     "object": "卞氏",
+     "evidence": "东昌卞氏，业牛医者，有女小字胭脂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胭脂",
+     "predicate": "KIN",
+     "object": "卞媪",
+     "evidence": "媪起大呼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卞氏",
+     "predicate": "KIN",
+     "object": "卞媪",
+     "evidence": "媪起大呼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "SPOUSE",
+     "object": "龚氏",
+     "evidence": "对户龚姓之妻王氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胭脂",
+     "predicate": "FRIEND",
+     "object": "王氏",
+     "evidence": "女闺中谈友也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胭脂",
+     "predicate": "LOVES",
+     "object": "鄂秋隼",
+     "evidence": "女意似动，秋波萦转之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "HELPED",
+     "object": "胭脂",
+     "evidence": "娘子如有意，当寄语使委冰焉",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宿介",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "王幼时与邻生宿介通，既嫁，宿侦夫他出，辄寻旧好",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宿介",
+     "predicate": "HARMED",
+     "object": "胭脂",
+     "evidence": "宿遽入，即抱求欢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宿介",
+     "predicate": "OWNS",
+     "object": "绣鞋",
+     "evidence": "宿捉足解绣履而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛大",
+     "predicate": "KILLED",
+     "object": "卞氏",
+     "evidence": "毛不得脱，因而杀之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛大",
+     "predicate": "HARMED",
+     "object": "胭脂",
+     "evidence": "逾数夕，越墙入女家",
+     "confidence": 0.8
+    },
+    {
+     "subject": "吴南岱",
+     "predicate": "PUNISHED",
+     "object": "宿介",
+     "evidence": "宿不任凌籍，遂以自承",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴南岱",
+     "predicate": "PUNISHED",
+     "object": "王氏",
+     "evidence": "命梏十指",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施愚山",
+     "predicate": "HELPED",
+     "object": "宿介",
+     "evidence": "公讨其招供，反覆凝思之，拍案曰：此生冤也！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "施愚山",
+     "predicate": "PUNISHED",
+     "object": "毛大",
+     "evidence": "施以毒刑，尽吐其实",
+     "confidence": 0.95
+    },
+    {
+     "subject": "施愚山",
+     "predicate": "PUNISHED",
+     "object": "王氏",
+     "evidence": "命搒之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胭脂",
+     "predicate": "PARTICIPATED_IN",
+     "object": "绣鞋案",
+     "evidence": "于墙下得绣履，媪视之，胭脂物也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鄂秋隼",
+     "predicate": "PARTICIPATED_IN",
+     "object": "绣鞋案",
+     "evidence": "邑宰拘鄂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宿介",
+     "predicate": "PARTICIPATED_IN",
+     "object": "绣鞋案",
+     "evidence": "宿介虽然生性放纵，品行不正，却是山东一带有名的才子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毛大",
+     "predicate": "PARTICIPATED_IN",
+     "object": "绣鞋案",
+     "evidence": "此真杀人贼也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "绣鞋案",
+     "predicate": "OCCURRED_AT",
+     "object": "东昌",
+     "evidence": "东昌卞氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "绣鞋案",
+     "predicate": "OCCURRED_AT",
+     "object": "济南府",
+     "evidence": "后委济南府复案",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施愚山",
+     "predicate": "LIVES_AT",
+     "object": "济南府",
+     "evidence": "时吴公南岱守济南",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:46.531Z"
+}

@@ -1,0 +1,400 @@
+{
+ "no": 103,
+ "title": "3.5 点与圆、直线与圆的位置关系",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6123,
+   "entities": [
+    {
+     "name": "点与圆的位置关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "点与圆的三种位置关系：点在圆内、圆上、圆外"
+    },
+    {
+     "name": "直线与圆的位置关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "直线与圆的三种位置关系：相交、相切、相离"
+    },
+    {
+     "name": "相交",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "直线与圆有两个公共点"
+    },
+    {
+     "name": "相切",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "直线与圆有唯一公共点"
+    },
+    {
+     "name": "相离",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "直线与圆没有公共点"
+    },
+    {
+     "name": "切线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "与圆相切的直线"
+    },
+    {
+     "name": "切点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "直线与圆相切时的公共点"
+    },
+    {
+     "name": "圆的切线判定定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "经过半径的外端并且垂直于这条半径的直线是圆的切线"
+    },
+    {
+     "name": "圆的切线性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆的切线垂直于经过切点的半径"
+    },
+    {
+     "name": "切线长",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "经过圆外一点的切线上，这点与切点之间的线段的长"
+    },
+    {
+     "name": "切线长定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "过圆外一点可作圆的两条切线，切线长相等"
+    },
+    {
+     "name": "三角形的内切圆",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "与三角形各边都相切的圆"
+    },
+    {
+     "name": "圆",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "到定点距离等于定长的点的集合"
+    },
+    {
+     "name": "半径",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆心到圆上任意一点的距离"
+    },
+    {
+     "name": "圆心",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆的中心点"
+    },
+    {
+     "name": "点到圆心的距离",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "点与圆心之间的线段长度"
+    },
+    {
+     "name": "圆心到直线的距离",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆心到直线的垂线段长度"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的平行四边形"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "角平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "从一个角的顶点出发，把这个角分成相等的两个角的射线"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "点到圆心的距离",
+     "predicate": "PREREQUISITE",
+     "object": "点与圆的位置关系",
+     "evidence": "因此可以利用点到圆心的距离判断点与圆的位置关系。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "点与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "相交",
+     "evidence": "点P在圆内⇔d<r；点P在圆上⇔d=r；点P在圆外⇔d>r。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "点与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "相切",
+     "evidence": "点P在圆内⇔d<r；点P在圆上⇔d=r；点P在圆外⇔d>r。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "点与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "相离",
+     "evidence": "点P在圆内⇔d<r；点P在圆上⇔d=r；点P在圆外⇔d>r。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆心到直线的距离",
+     "predicate": "PREREQUISITE",
+     "object": "直线与圆的位置关系",
+     "evidence": "是否也可以利用圆心到直线的距离来判断这条直线与圆的位置关系？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "直线与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "相交",
+     "evidence": "直线l与⊙O相交⇔d<r；直线l与⊙O相切⇔d=r；直线l与⊙O相离⇔d>r。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "直线与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "相切",
+     "evidence": "直线l与⊙O相交⇔d<r；直线l与⊙O相切⇔d=r；直线l与⊙O相离⇔d>r。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "直线与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "相离",
+     "evidence": "直线l与⊙O相交⇔d<r；直线l与⊙O相切⇔d=r；直线l与⊙O相离⇔d>r。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆的切线判定定理",
+     "predicate": "PROPERTY_OF",
+     "object": "切线",
+     "evidence": "经过半径的外端并且垂直于这条半径的直线是圆的切线。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆的切线性质定理",
+     "predicate": "PROPERTY_OF",
+     "object": "切线",
+     "evidence": "圆的切线垂直于经过切点的半径。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "切线长定理",
+     "predicate": "PROPERTY_OF",
+     "object": "切线长",
+     "evidence": "过圆外一点可作圆的两条切线，切线长相等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "切线长定理",
+     "predicate": "DERIVES",
+     "object": "圆的切线性质定理",
+     "evidence": "由圆的切线性质定理，可得PA⊥OA，PB⊥OB。在Rt△POA和Rt△POB中，由OA=OB，OP=OP，可得△POA≌△POB。所以PA=PB。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形的内切圆",
+     "predicate": "APPLIES_TO",
+     "object": "角平分线",
+     "evidence": "到三角形两边距离相等的点在两边所夹内角的平分线上，于是我们得到与△ABC各边都相切的圆的作法如下：",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "点与圆的位置关系",
+     "evidence": "在Rt△ABC中，AC^2=AB^2+BC^2。∴AC=√(AB^2+BC^2)=√(16+9)=5。∵AB=4，AD<4，AC>4，∴点B在⊙A上，点D在⊙A内，点C在⊙A外。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "点与圆的位置关系",
+     "predicate": "CONTRASTS",
+     "object": "直线与圆的位置关系",
+     "evidence": "我们已经知道了点与圆有三种位置关系，直线与圆有哪些位置关系呢？",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2943,
+   "entities": [
+    {
+     "name": "三角形的内切圆",
+     "type": "Concept",
+     "aliases": [
+      "内切圆"
+     ],
+     "nickname": "",
+     "description": "与三角形各边都相切的圆"
+    },
+    {
+     "name": "三角形的内心",
+     "type": "Concept",
+     "aliases": [
+      "内心"
+     ],
+     "nickname": "",
+     "description": "内切圆的圆心，是三条角平分线的交点"
+    },
+    {
+     "name": "圆的外切三角形",
+     "type": "Concept",
+     "aliases": [
+      "外切三角形"
+     ],
+     "nickname": "",
+     "description": "一个圆是三角形的内切圆时，该三角形称为圆的外切三角形"
+    },
+    {
+     "name": "圆与圆的位置关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两圆之间的位置关系，包括外离、外切、相交、内切、内含"
+    },
+    {
+     "name": "两圆外离",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两圆没有公共点，且每个圆上的点都在另一个圆的外部"
+    },
+    {
+     "name": "两圆外切",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两圆有唯一公共点，且除了这个公共点外，每个圆上的点都在另一个圆的外部"
+    },
+    {
+     "name": "两圆相交",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两圆有两个公共点"
+    },
+    {
+     "name": "两圆内切",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两圆有唯一公共点，且除了这个公共点外，一个圆上的点都在另一个圆的内部"
+    },
+    {
+     "name": "两圆内含",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两圆没有公共点，且一个圆上的点都在另一个圆的内部"
+    },
+    {
+     "name": "两圆位置关系的数量关系",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "用d与R、r之间的数量关系描述两圆位置关系"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "三角形的内切圆",
+     "predicate": "INCLUDES",
+     "object": "三角形的内心",
+     "evidence": "内切圆的圆心叫作三角形的内心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的内切圆",
+     "predicate": "INCLUDES",
+     "object": "圆的外切三角形",
+     "evidence": "这个三角形叫作圆的外切三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "两圆外离",
+     "evidence": "（1）两圆外离",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "两圆外切",
+     "evidence": "（2）两圆外切",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "两圆相交",
+     "evidence": "（3）两圆相交",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "两圆内切",
+     "evidence": "（4）两圆内切",
+     "confidence": 0.95
+    },
+    {
+     "subject": "圆与圆的位置关系",
+     "predicate": "INCLUDES",
+     "object": "两圆内含",
+     "evidence": "（5）两圆内含",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两圆位置关系的数量关系",
+     "predicate": "PROPERTY_OF",
+     "object": "圆与圆的位置关系",
+     "evidence": "我们可以用d与R，r之间的数量关系来描述两圆的位置关系",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:23.636Z"
+}

@@ -1,0 +1,230 @@
+{
+ "no": 127,
+ "title": "日者列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2987,
+   "entities": [
+    {
+     "name": "司马季主",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚人，长安东市卜者，通《易经》，术黄帝、老子"
+    },
+    {
+     "name": "宋忠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉中大夫，曾出使匈奴"
+    },
+    {
+     "name": "贾谊",
+     "type": "Person",
+     "aliases": [
+      "贾生",
+      "贾长沙"
+     ],
+     "nickname": "",
+     "description": "汉博士，后为梁怀王傅"
+    },
+    {
+     "name": "黄帝",
+     "type": "Person",
+     "aliases": [
+      "轩辕",
+      "轩辕氏",
+      "有熊",
+      "公孙轩辕"
+     ],
+     "nickname": "",
+     "description": "古帝王，司马季主所术"
+    },
+    {
+     "name": "周文王",
+     "type": "Person",
+     "aliases": [
+      "昌",
+      "西伯昌",
+      "西伯"
+     ],
+     "nickname": "",
+     "description": "演三百八十四爻而天下治"
+    },
+    {
+     "name": "勾践",
+     "type": "Person",
+     "aliases": [
+      "菼执",
+      "越王"
+     ],
+     "nickname": "",
+     "description": "越王，放文王八卦以破敌国，霸天下"
+    },
+    {
+     "name": "老子",
+     "type": "Person",
+     "aliases": [
+      "聃",
+      "李耳",
+      "老聃",
+      "太史儋"
+     ],
+     "nickname": "",
+     "description": "道家创始人，司马季主称引其言"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "子长",
+      "太史公"
+     ],
+     "nickname": "",
+     "description": "《史记》作者，志司马季主而着之"
+    },
+    {
+     "name": "刘恒",
+     "type": "Person",
+     "aliases": [
+      "汉文帝",
+      "代王"
+     ],
+     "nickname": "",
+     "description": "代王入继汉统，任于卜者"
+    },
+    {
+     "name": "长安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉都城，司马季主卜于东市"
+    },
+    {
+     "name": "楚",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "司马季主籍贯所在"
+    },
+    {
+     "name": "匈奴",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "北方部族，宋忠曾出使"
+    },
+    {
+     "name": "梁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉诸侯国，贾谊为梁怀王傅"
+    },
+    {
+     "name": "中大夫",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉代官职，宋忠所任"
+    },
+    {
+     "name": "博士",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉代官职，贾谊所任"
+    },
+    {
+     "name": "梁怀王傅",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁怀王之傅，贾谊所任"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋忠",
+     "predicate": "HELD_OFFICE",
+     "object": "中大夫",
+     "evidence": "宋忠为中大夫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾谊",
+     "predicate": "HELD_OFFICE",
+     "object": "博士",
+     "evidence": "贾谊为博士",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾谊",
+     "predicate": "HELD_OFFICE",
+     "object": "梁怀王傅",
+     "evidence": "贾谊为梁怀王傅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋忠",
+     "predicate": "ENVOY_TO",
+     "object": "匈奴",
+     "evidence": "宋忠使匈奴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马季主",
+     "predicate": "NATIVE_OF",
+     "object": "楚",
+     "evidence": "司马季主者，楚人也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马季主",
+     "predicate": "PARTICIPATED_IN",
+     "object": "卜于长安东市",
+     "evidence": "卜于长安东市",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卜于长安东市",
+     "predicate": "OCCURRED_AT",
+     "object": "长安",
+     "evidence": "卜于长安东市",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "志司马季主而着之",
+     "evidence": "余志而着之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周文王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "演三百八十四爻",
+     "evidence": "周文王演三百八十四爻而天下治",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾践",
+     "predicate": "PARTICIPATED_IN",
+     "object": "放文王八卦以破敌国",
+     "evidence": "越王句践放文王八卦以破敌国，霸天下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘恒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "代王之入",
+     "evidence": "代王之入，任于卜者",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:52:11.300Z"
+}

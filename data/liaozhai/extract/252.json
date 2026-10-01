@@ -1,0 +1,274 @@
+{
+ "no": 252,
+ "title": "江城",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3585,
+   "entities": [
+    {
+     "name": "高蕃",
+     "type": "Person",
+     "aliases": [
+      "高生"
+     ],
+     "nickname": "",
+     "description": "临江人，少年聪慧，娶江城为妻"
+    },
+    {
+     "name": "江城",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "樊翁之女，前世为长生鼠，悍妒异常"
+    },
+    {
+     "name": "高仲鸿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高蕃之父，年六十，仅此一子"
+    },
+    {
+     "name": "樊翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东村塾师，江城之父"
+    },
+    {
+     "name": "樊媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江城之母，樊翁之妻"
+    },
+    {
+     "name": "王子雅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高蕃同窗，开有酤肆，浙中人"
+    },
+    {
+     "name": "芳兰",
+     "type": "Person",
+     "aliases": [
+      "谢氏"
+     ],
+     "nickname": "",
+     "description": "南昌名妓，后为江城赎身"
+    },
+    {
+     "name": "葛生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江城二姐之夫"
+    },
+    {
+     "name": "长姊",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江城大姐，性平善"
+    },
+    {
+     "name": "老僧",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "宣佛果，以清水噀江城面，使其悔悟"
+    },
+    {
+     "name": "李氏",
+     "type": "Person",
+     "aliases": [
+      "李媪",
+      "李媒婆"
+     ],
+     "nickname": "",
+     "description": "媒婆，为高蕃招妓"
+    },
+    {
+     "name": "临江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高蕃籍贯地"
+    },
+    {
+     "name": "黑帝祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高母借口烧香之处"
+    },
+    {
+     "name": "玉笥山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高蕃见陶家妇之处"
+    },
+    {
+     "name": "葛家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江城二姐家"
+    },
+    {
+     "name": "高家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高蕃父母家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "高蕃",
+     "predicate": "LOVES",
+     "object": "江城",
+     "evidence": "两情恋恋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "SPOUSE",
+     "object": "江城",
+     "evidence": "逾岁，择吉迎女归，夫妻相得甚欢",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "KIN",
+     "object": "高仲鸿",
+     "evidence": "父仲鸿，年六十，止此子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "江城",
+     "predicate": "KIN",
+     "object": "樊翁",
+     "evidence": "翁有女，小字江城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "江城",
+     "predicate": "KIN",
+     "object": "樊媪",
+     "evidence": "樊媪谦抑而后受盟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "FRIEND",
+     "object": "王子雅",
+     "evidence": "同窗王子雅过之，宛转留饮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "LIVES_AT",
+     "object": "临江",
+     "evidence": "临江高蕃",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "NATIVE_OF",
+     "object": "临江",
+     "evidence": "临江高蕃",
+     "confidence": 0.95
+    },
+    {
+     "subject": "江城",
+     "predicate": "HARMED",
+     "object": "高蕃",
+     "evidence": "挞逐出户，阖其扉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "江城",
+     "predicate": "HARMED",
+     "object": "高蕃",
+     "evidence": "以针刺两股殆遍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "江城",
+     "predicate": "HARMED",
+     "object": "高蕃",
+     "evidence": "以绣翦翦腹间肉互补之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "江城",
+     "predicate": "HARMED",
+     "object": "王子雅",
+     "evidence": "暗以巴豆投汤中而进之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老僧",
+     "predicate": "HELPED",
+     "object": "江城",
+     "evidence": "吸水噀射女面",
+     "confidence": 0.9
+    },
+    {
+     "subject": "江城",
+     "predicate": "HELPED",
+     "object": "芳兰",
+     "evidence": "女以数百金出其籍矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李氏",
+     "predicate": "HELPED",
+     "object": "高蕃",
+     "evidence": "暗以金啖媒媪李氏，纳妓斋中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "PARTICIPATED_IN",
+     "object": "文社",
+     "evidence": "生托文社，禀白而往",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乡试",
+     "evidence": "生是岁乡捷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "PARTICIPATED_IN",
+     "object": "会试",
+     "evidence": "会以应举入都",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高蕃",
+     "predicate": "OWNS",
+     "object": "红巾",
+     "evidence": "生故以红巾遗地而去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "江城",
+     "predicate": "OWNS",
+     "object": "己巾",
+     "evidence": "易以己巾",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:51.495Z"
+}

@@ -1,0 +1,175 @@
+{
+ "no": 247,
+ "title": "鸽异",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1622,
+   "entities": [
+    {
+     "name": "张于旦",
+     "type": "Person",
+     "aliases": [
+      "张公子",
+      "张生",
+      "幼量"
+     ],
+     "nickname": "张公子",
+     "description": "邹平人，癖好养鸽，本篇主角"
+    },
+    {
+     "name": "白衣少年",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "化白鸽的精怪，赠张公子鸽"
+    },
+    {
+     "name": "某公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张公子父执，贵官，烹食白鸽"
+    },
+    {
+     "name": "孙禹年",
+     "type": "Person",
+     "aliases": [
+      "孙公子"
+     ],
+     "nickname": "孙公子",
+     "description": "受赠红鲫鱼的公子"
+    },
+    {
+     "name": "老佣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "送鱼老仆，致鱼枯毙"
+    },
+    {
+     "name": "灵隐寺僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "以茶得名的和尚"
+    },
+    {
+     "name": "贵官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "至灵隐寺饮茶的贵官"
+    },
+    {
+     "name": "邹平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张公子籍贯地"
+    },
+    {
+     "name": "广陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张公子购鸽之地"
+    },
+    {
+     "name": "道院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "白衣少年所居，实为小墓"
+    },
+    {
+     "name": "夜游",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "张公子所购最小善走之鸽"
+    },
+    {
+     "name": "白鸽",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "白衣少年所赠异种鸽"
+    },
+    {
+     "name": "红鲫鱼",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "友人赠孙禹年之鱼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张于旦",
+     "predicate": "NATIVE_OF",
+     "object": "邹平",
+     "evidence": "邹平张公子幼量，癖好之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "OWNS",
+     "object": "夜游",
+     "evidence": "张在广陵，以十金购一鸽……是名“夜游”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "OWNS",
+     "object": "白鸽",
+     "evidence": "少年乃叱鸽去……以此塞责",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白衣少年",
+     "predicate": "HELPED",
+     "object": "张于旦",
+     "evidence": "少年乃叱鸽去，仍作前声，招二白鸽来，以手把之，曰：“如不嫌憎，以此塞责。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白衣少年",
+     "predicate": "LIVES_AT",
+     "object": "道院",
+     "evidence": "又数武，见一道院，仅两楹。少年握手入",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "HARMED",
+     "object": "白衣少年",
+     "evidence": "何乃以明珠暗投，致残鼎镬！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "某公",
+     "predicate": "KILLED",
+     "object": "白鸽",
+     "evidence": "张惊曰：“烹之乎？”曰：“然。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老佣",
+     "predicate": "HARMED",
+     "object": "红鲫鱼",
+     "evidence": "及达主所，鱼已枯毙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙禹年",
+     "predicate": "OWNS",
+     "object": "红鲫鱼",
+     "evidence": "向有友人馈朱鲫于孙公子禹年",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:47.013Z"
+}

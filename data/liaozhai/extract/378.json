@@ -1,0 +1,143 @@
+{
+ "no": 378,
+ "title": "安期岛",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 578,
+   "entities": [
+    {
+     "name": "刘鸿训",
+     "type": "Person",
+     "aliases": [
+      "刘中堂"
+     ],
+     "nickname": "",
+     "description": "长山人，中堂，出使朝鲜的官员"
+    },
+    {
+     "name": "武弁某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与刘鸿训同使朝鲜的武官"
+    },
+    {
+     "name": "小张",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "安期岛神仙弟子，佩剑冠棕笠"
+    },
+    {
+     "name": "国王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "朝鲜国王，召见刘鸿训并赠镜"
+    },
+    {
+     "name": "安期岛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "神仙所居之岛，气候温煦山花遍谷"
+    },
+    {
+     "name": "朝鲜",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘鸿训出使所至之国"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘鸿训籍贯地"
+    },
+    {
+     "name": "镜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "国王所赠宝镜，可照蛟宫龙族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘鸿训",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山刘中堂鸿训",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘鸿训",
+     "predicate": "PARTICIPATED_IN",
+     "object": "出使朝鲜",
+     "evidence": "同武弁某使朝鲜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武弁某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "出使朝鲜",
+     "evidence": "同武弁某使朝鲜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘鸿训",
+     "predicate": "LIVES_AT",
+     "object": "安期岛",
+     "evidence": "移时已抵其境",
+     "confidence": 0.8
+    },
+    {
+     "subject": "小张",
+     "predicate": "LIVES_AT",
+     "object": "安期岛",
+     "evidence": "惟有弟子小张，岁辄一两至",
+     "confidence": 0.85
+    },
+    {
+     "subject": "刘鸿训",
+     "predicate": "FRIEND",
+     "object": "小张",
+     "evidence": "刘因自述向往之意，小张许之",
+     "confidence": 0.8
+    },
+    {
+     "subject": "小张",
+     "predicate": "HELPED",
+     "object": "刘鸿训",
+     "evidence": "遂命舟导刘俱往",
+     "confidence": 0.9
+    },
+    {
+     "subject": "国王",
+     "predicate": "HELPED",
+     "object": "刘鸿训",
+     "evidence": "王赠一物，纸帛重裹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘鸿训",
+     "predicate": "OWNS",
+     "object": "镜",
+     "evidence": "始见一镜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "国王",
+     "predicate": "OWNS",
+     "object": "镜",
+     "evidence": "王赠一物",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:34.346Z"
+}

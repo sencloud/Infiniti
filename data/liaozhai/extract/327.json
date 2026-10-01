@@ -1,0 +1,195 @@
+{
+ "no": 327,
+ "title": "崔猛",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2751,
+   "entities": [
+    {
+     "name": "崔猛",
+     "type": "Person",
+     "aliases": [
+      "字勿猛"
+     ],
+     "nickname": "",
+     "description": "建昌世家子，性刚毅，喜打抱不平"
+    },
+    {
+     "name": "崔母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "崔猛之母，管教严厉"
+    },
+    {
+     "name": "周氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "崔猛之妻"
+    },
+    {
+     "name": "僧哥",
+     "type": "Person",
+     "aliases": [
+      "赵僧哥",
+      "赵部郎"
+     ],
+     "nickname": "",
+     "description": "赵氏儿，后为恤刑官赵部郎"
+    },
+    {
+     "name": "李申",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "崔猛挚友，曾代崔猛报仇"
+    },
+    {
+     "name": "某甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "巨绅子，豪横一乡，被崔猛杀死"
+    },
+    {
+     "name": "李申妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李申之妻，被某甲抢走"
+    },
+    {
+     "name": "王监生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "家豪富，多行不义，被李申杀死"
+    },
+    {
+     "name": "王得仁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王监生侄子，聚众为盗"
+    },
+    {
+     "name": "建昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，崔猛籍贯"
+    },
+    {
+     "name": "南昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，赵僧哥籍贯"
+    },
+    {
+     "name": "云南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，崔猛充军地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "崔猛",
+     "predicate": "KIN",
+     "object": "崔母",
+     "evidence": "惟事母孝，母至则解。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔猛",
+     "predicate": "SPOUSE",
+     "object": "周氏",
+     "evidence": "崔妻周，亦与并跪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔猛",
+     "predicate": "FRIEND",
+     "object": "僧哥",
+     "evidence": "崔由是深相结，请赵馆于其家，供给优厚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔猛",
+     "predicate": "FRIEND",
+     "object": "李申",
+     "evidence": "申曰：我与崔猛朋友耳。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔猛",
+     "predicate": "KILLED",
+     "object": "某甲",
+     "evidence": "杀甲者，实我也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔猛",
+     "predicate": "KILLED",
+     "object": "李申妻",
+     "evidence": "是夜，有人杀某甲于床上，刳腹流肠，申妻亦裸尸床下。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李申",
+     "predicate": "SPOUSE",
+     "object": "李申妻",
+     "evidence": "窥李申妻有色，欲夺之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某甲",
+     "predicate": "HARMED",
+     "object": "李申",
+     "evidence": "某怒，拉系树上，榜笞刺剟，逼立‘无悔状’。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李申",
+     "predicate": "KILLED",
+     "object": "王监生",
+     "evidence": "申忽夜入王家，将其父子婶妇并杀之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王得仁",
+     "predicate": "HARMED",
+     "object": "崔猛",
+     "evidence": "一夜，倾巢而至，以报仇为名。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "崔猛",
+     "predicate": "LIVES_AT",
+     "object": "建昌",
+     "evidence": "崔猛，字勿猛，建昌世家子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "僧哥",
+     "predicate": "NATIVE_OF",
+     "object": "南昌",
+     "evidence": "赵，南昌人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔猛",
+     "predicate": "PARTICIPATED_IN",
+     "object": "充军云南",
+     "evidence": "寻以自首减等，充云南军。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:18.004Z"
+}

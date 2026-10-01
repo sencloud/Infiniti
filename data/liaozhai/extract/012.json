@@ -1,0 +1,98 @@
+{
+ "no": 12,
+ "title": "王六郎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1542,
+   "entities": [
+    {
+     "name": "许姓",
+     "type": "Person",
+     "aliases": [
+      "许某"
+     ],
+     "nickname": "",
+     "description": "淄川北郭渔夫，与王六郎交好"
+    },
+    {
+     "name": "王六郎",
+     "type": "Spirit",
+     "aliases": [
+      "少年"
+     ],
+     "nickname": "六郎",
+     "description": "溺死鬼，后任招远县邬镇土地神"
+    },
+    {
+     "name": "淄川",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "许姓家乡"
+    },
+    {
+     "name": "招远县邬镇",
+     "type": "Place",
+     "aliases": [
+      "邬镇"
+     ],
+     "nickname": "",
+     "description": "王六郎任土地神之地"
+    },
+    {
+     "name": "土地祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邬镇土地庙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "许姓",
+     "predicate": "FRIEND",
+     "object": "王六郎",
+     "evidence": "拜识清扬，情逾骨肉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王六郎",
+     "predicate": "HELPED",
+     "object": "许姓",
+     "evidence": "皆仆之暗驱，以报酹奠耳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "许姓",
+     "predicate": "NATIVE_OF",
+     "object": "淄川",
+     "evidence": "许姓，家淄之北郭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王六郎",
+     "predicate": "LIVES_AT",
+     "object": "招远县邬镇",
+     "evidence": "今授为招远县邬镇土地",
+     "confidence": 0.95
+    },
+    {
+     "subject": "许姓",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祭祠",
+     "evidence": "乃往祭于祠而祝曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祭祠",
+     "predicate": "OCCURRED_AT",
+     "object": "土地祠",
+     "evidence": "乃往祭于祠而祝曰",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:17.908Z"
+}

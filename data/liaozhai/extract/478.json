@@ -1,0 +1,131 @@
+{
+ "no": 478,
+ "title": "公孙夏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1436,
+   "entities": [
+    {
+     "name": "某生",
+     "type": "Person",
+     "aliases": [
+      "国学生某"
+     ],
+     "nickname": "",
+     "description": "保定国学生，买官者"
+    },
+    {
+     "name": "公孙夏",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "十一皇子坐客，实为冥府中介"
+    },
+    {
+     "name": "阿怜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某生爱妾"
+    },
+    {
+     "name": "关帝",
+     "type": "Spirit",
+     "aliases": [
+      "帝君"
+     ],
+     "nickname": "",
+     "description": "神祇，惩处卖官者"
+    },
+    {
+     "name": "郭华野",
+     "type": "Person",
+     "aliases": [
+      "郭先生"
+     ],
+     "nickname": "",
+     "description": "湖广总督，清廉正直"
+    },
+    {
+     "name": "新令",
+     "type": "Person",
+     "aliases": [
+      "国学生",
+      "县令"
+     ],
+     "nickname": "",
+     "description": "捐官赴任湖南的县令"
+    },
+    {
+     "name": "真定",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府城隍空缺地"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [
+      "冥中"
+     ],
+     "nickname": "",
+     "description": "阴曹地府"
+    },
+    {
+     "name": "买官事件",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "某生买冥职事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "某生",
+     "predicate": "SPOUSE",
+     "object": "阿怜",
+     "evidence": "盖妾小字也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙夏",
+     "predicate": "HELPED",
+     "object": "某生",
+     "evidence": "客请效力，俾出半赀，约于任所取盈。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关帝",
+     "predicate": "PUNISHED",
+     "object": "某生",
+     "evidence": "遂有二人捉某，褫去冠服，笞五十，臀肉几脱，逐出门外。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "买官事件",
+     "evidence": "将入都纳赀，谋得县尹。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "买官事件",
+     "predicate": "OCCURRED_AT",
+     "object": "冥府",
+     "evidence": "此冥中城隍缺也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郭华野",
+     "predicate": "PUNISHED",
+     "object": "新令",
+     "evidence": "先生曰：“蕞尔一邑，何能养如许驺从？履任，则一方涂炭矣！不可使殃民社，可即旋归，勿前矣。”",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:16.022Z"
+}

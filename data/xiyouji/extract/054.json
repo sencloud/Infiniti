@@ -1,0 +1,497 @@
+{
+ "no": 54,
+ "title": "法性西来逢女国 心猿定计脱烟花",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5886,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "悟空",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "大唐高僧，西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，贪吃好色"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实"
+    },
+    {
+     "name": "西梁女国女王",
+     "type": "Person",
+     "aliases": [
+      "女王",
+      "女主",
+      "我王"
+     ],
+     "nickname": "",
+     "description": "西梁女国国王，欲招唐僧为夫"
+    },
+    {
+     "name": "迎阳驿驿丞",
+     "type": "Person",
+     "aliases": [
+      "驿丞",
+      "女官"
+     ],
+     "nickname": "",
+     "description": "迎阳驿女官，负责接待"
+    },
+    {
+     "name": "当驾太师",
+     "type": "Person",
+     "aliases": [
+      "太师"
+     ],
+     "nickname": "",
+     "description": "西梁女国太师，奉命作媒"
+    },
+    {
+     "name": "西梁女国",
+     "type": "Organization",
+     "aliases": [
+      "西梁国",
+      "女国"
+     ],
+     "nickname": "",
+     "description": "全是妇女的国度"
+    },
+    {
+     "name": "迎阳驿",
+     "type": "Place",
+     "aliases": [
+      "迎阳馆驿"
+     ],
+     "nickname": "",
+     "description": "西梁女国城外驿站"
+    },
+    {
+     "name": "五凤楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西梁女国宫殿建筑"
+    },
+    {
+     "name": "东阁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西梁女国宫中设宴处"
+    },
+    {
+     "name": "金銮宝殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西梁女国朝堂"
+    },
+    {
+     "name": "假亲脱网之计",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空定计假意允婚以脱身"
+    },
+    {
+     "name": "通关文牒",
+     "type": "Item",
+     "aliases": [
+      "关文"
+     ],
+     "nickname": "",
+     "description": "西行取经的通关文书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我乃他大徒弟孙悟空",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "这两个是我师弟猪悟能沙悟净",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "这两个是我师弟猪悟能沙悟净",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "西梁女国",
+     "evidence": "我等乃东土大唐王驾下钦差上西天拜佛求经者",
+     "confidence": 0.6
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "西梁女国",
+     "evidence": "我等乃东土大唐王驾下钦差上西天拜佛求经者",
+     "confidence": 0.6
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "西梁女国",
+     "evidence": "我等乃东土大唐王驾下钦差上西天拜佛求经者",
+     "confidence": 0.6
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "西梁女国",
+     "evidence": "我等乃东土大唐王驾下钦差上西天拜佛求经者",
+     "confidence": 0.6
+    },
+    {
+     "subject": "西梁女国女王",
+     "predicate": "LEADS",
+     "object": "西梁女国",
+     "evidence": "寡人以一国之富，愿招御弟为王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "迎阳驿驿丞",
+     "predicate": "SERVED",
+     "object": "西梁女国女王",
+     "evidence": "下官乃迎阳驿驿丞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "当驾太师",
+     "predicate": "SERVED",
+     "object": "西梁女国女王",
+     "evidence": "就着当驾太师作媒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTERMINDED",
+     "object": "假亲脱网之计",
+     "evidence": "这叫做假亲脱网之计",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "假亲脱网之计",
+     "evidence": "四众同心合意，正自商量不题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "假亲脱网之计",
+     "evidence": "四众同心合意，正自商量不题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "假亲脱网之计",
+     "evidence": "四众同心合意，正自商量不题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假亲脱网之计",
+     "predicate": "OCCURRED_AT",
+     "object": "迎阳驿",
+     "evidence": "三藏师徒们在驿厅上正享斋饭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "通关文牒",
+     "evidence": "随身有通关文牒，乞为照验放行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西梁女国女王",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "寡人以一国之富，愿招御弟为王",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1253,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿",
+      "大圣"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，保护唐僧西天取经"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧",
+      "长老"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "大唐高僧，西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "天蓬元帅",
+     "description": "唐僧二徒弟，保护唐僧西天取经"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "卷帘大将",
+     "description": "唐僧三徒弟，保护唐僧西天取经"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "南海观音",
+     "description": "解救唐僧徒弟，指引取经"
+    },
+    {
+     "name": "女儿国国王",
+     "type": "Person",
+     "aliases": [
+      "女王"
+     ],
+     "nickname": "",
+     "description": "西梁女国国王，欲招唐僧为夫"
+    },
+    {
+     "name": "西梁女国",
+     "type": "Organization",
+     "aliases": [
+      "女儿国"
+     ],
+     "nickname": "",
+     "description": "西牛贺洲国度，全国皆女子"
+    },
+    {
+     "name": "大唐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧故国，唐王李世民所建"
+    },
+    {
+     "name": "通关文牒",
+     "type": "Item",
+     "aliases": [
+      "关文"
+     ],
+     "nickname": "",
+     "description": "西行取经通行文书，上有各国宝印"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "大的个徒弟，祖贯东胜神洲傲来国人氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "第二个乃西牛贺洲乌斯庄人氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "第三个乃流沙河人氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "南海观世音菩萨解脱他苦，秉善皈依，将功折罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "南海观世音菩萨解脱他苦，秉善皈依，将功折罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "南海观世音菩萨解脱他苦，秉善皈依，将功折罪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "东胜神洲傲来国",
+     "evidence": "祖贯东胜神洲傲来国人氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "NATIVE_OF",
+     "object": "西牛贺洲乌斯庄",
+     "evidence": "第二个乃西牛贺洲乌斯庄人氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "NATIVE_OF",
+     "object": "流沙河",
+     "evidence": "第三个乃流沙河人氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "通关文牒",
+     "evidence": "叫徒弟们拿上通关文牒来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "女儿国国王",
+     "predicate": "LEADS",
+     "object": "西梁女国",
+     "evidence": "女王依言，仍坐了龙床",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西梁女国招亲",
+     "evidence": "我愿将一国之富，招你为夫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西梁女国招亲",
+     "predicate": "OCCURRED_AT",
+     "object": "西梁女国",
+     "evidence": "满城中都盏添净水，炉降真香",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTERMINDED",
+     "object": "西梁女国脱身",
+     "evidence": "行者、八戒、沙僧、同心合意，结束整齐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西梁女国脱身",
+     "predicate": "OCCURRED_AT",
+     "object": "西梁女国",
+     "evidence": "大驾出城，到西关之处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "风月魔",
+     "evidence": "沙僧骂道：贼辈无知！掣宝杖劈头就打。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "风月魔",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "那女子弄阵旋风，呜的一声，把唐僧摄将去了",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:10.644Z"
+}

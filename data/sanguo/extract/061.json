@@ -1,0 +1,823 @@
+{
+ "no": 61,
+ "title": "赵云截江夺阿斗 孙权遗书退老瞒",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4976,
+   "entities": [
+    {
+     "name": "庞统",
+     "type": "Person",
+     "aliases": [
+      "士元",
+      "凤雏",
+      "庞士元"
+     ],
+     "nickname": "士元",
+     "description": "刘备谋士，劝杀刘璋"
+    },
+    {
+     "name": "法正",
+     "type": "Person",
+     "aliases": [
+      "孝直",
+      "蜀郡太守",
+      "尚书令"
+     ],
+     "nickname": "孝直",
+     "description": "刘备谋士，劝杀刘璋"
+    },
+    {
+     "name": "刘备",
+     "type": "Person",
+     "aliases": [
+      "玄德",
+      "刘皇叔",
+      "先主",
+      "昭烈帝"
+     ],
+     "nickname": "玄德",
+     "description": "蜀汉之主，入蜀中"
+    },
+    {
+     "name": "刘璋",
+     "type": "Person",
+     "aliases": [
+      "季玉",
+      "益州牧"
+     ],
+     "nickname": "季玉",
+     "description": "益州牧，宴请刘备"
+    },
+    {
+     "name": "魏延",
+     "type": "Person",
+     "aliases": [
+      "文长",
+      "镇北将军",
+      "汉中太守"
+     ],
+     "nickname": "文长",
+     "description": "刘备部将，舞剑欲杀刘璋"
+    },
+    {
+     "name": "张任",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘璋从事，舞剑对魏延"
+    },
+    {
+     "name": "刘封",
+     "type": "Person",
+     "aliases": [
+      "副军将军"
+     ],
+     "nickname": "",
+     "description": "刘备义子，拔剑助舞"
+    },
+    {
+     "name": "刘璝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘璋部将"
+    },
+    {
+     "name": "泠苞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘璋部将"
+    },
+    {
+     "name": "邓贤",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘璋部将"
+    },
+    {
+     "name": "张鲁",
+     "type": "Person",
+     "aliases": [
+      "公祺",
+      "师君",
+      "镇南将军"
+     ],
+     "nickname": "公祺",
+     "description": "汉中军阀，欲犯葭萌关"
+    },
+    {
+     "name": "杨怀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白水都督，守涪水关"
+    },
+    {
+     "name": "高沛",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白水都督，守涪水关"
+    },
+    {
+     "name": "孙权",
+     "type": "Person",
+     "aliases": [
+      "仲谋",
+      "吴侯",
+      "吴王",
+      "大帝"
+     ],
+     "nickname": "仲谋",
+     "description": "东吴之主"
+    },
+    {
+     "name": "顾雍",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴谋士，献计截川口"
+    },
+    {
+     "name": "吴国太",
+     "type": "Person",
+     "aliases": [
+      "吴夫人",
+      "国太"
+     ],
+     "nickname": "",
+     "description": "孙权之母，刘备岳母"
+    },
+    {
+     "name": "张昭",
+     "type": "Person",
+     "aliases": [
+      "子布",
+      "张子布"
+     ],
+     "nickname": "子布",
+     "description": "东吴谋士，献密书计"
+    },
+    {
+     "name": "周善",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴家将，奉命接孙夫人"
+    },
+    {
+     "name": "孙尚香",
+     "type": "Person",
+     "aliases": [
+      "孙夫人",
+      "弓腰姬"
+     ],
+     "nickname": "",
+     "description": "孙权之妹，刘备之妻"
+    },
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙",
+      "常山赵子龙",
+      "虎威将军"
+     ],
+     "nickname": "子龙",
+     "description": "刘备部将，截江夺阿斗"
+    },
+    {
+     "name": "张飞",
+     "type": "Person",
+     "aliases": [
+      "翼德",
+      "车骑将军"
+     ],
+     "nickname": "翼德",
+     "description": "刘备部将，截江夺阿斗"
+    },
+    {
+     "name": "刘禅",
+     "type": "Person",
+     "aliases": [
+      "公嗣",
+      "后主",
+      "阿斗"
+     ],
+     "nickname": "公嗣",
+     "description": "刘备之子，被夺回"
+    },
+    {
+     "name": "张纮",
+     "type": "Person",
+     "aliases": [
+      "子纲",
+      "长史",
+      "会稽东部都尉"
+     ],
+     "nickname": "子纲",
+     "description": "东吴长史，遗书劝迁秣陵"
+    },
+    {
+     "name": "吕蒙",
+     "type": "Person",
+     "aliases": [
+      "子明",
+      "吴下阿蒙",
+      "虎威将军"
+     ],
+     "nickname": "子明",
+     "description": "东吴将领，建议筑濡须坞"
+    },
+    {
+     "name": "董昭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操长史，劝进魏公九锡"
+    },
+    {
+     "name": "荀彧",
+     "type": "Person",
+     "aliases": [
+      "文若",
+      "荀令君",
+      "王佐之才"
+     ],
+     "nickname": "文若",
+     "description": "曹操谋士，反对九锡，服毒而亡"
+    },
+    {
+     "name": "荀恽",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "荀彧之子，报丧曹操"
+    },
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "孟德",
+      "阿瞒",
+      "曹公",
+      "魏王",
+      "魏武帝"
+     ],
+     "nickname": "孟德",
+     "description": "魏王，兴兵下江南"
+    },
+    {
+     "name": "曹洪",
+     "type": "Person",
+     "aliases": [
+      "子廉",
+      "曹子廉"
+     ],
+     "nickname": "子廉",
+     "description": "曹操部将，领兵哨江边"
+    },
+    {
+     "name": "许褚",
+     "type": "Person",
+     "aliases": [
+      "仲康",
+      "虎痴",
+      "虎侯"
+     ],
+     "nickname": "仲康",
+     "description": "曹操护卫，力战东吴二将"
+    },
+    {
+     "name": "韩当",
+     "type": "Person",
+     "aliases": [
+      "义公",
+      "昭武将军",
+      "石城侯"
+     ],
+     "nickname": "义公",
+     "description": "东吴大将，冲阵击曹操"
+    },
+    {
+     "name": "周泰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴大将，冲阵击曹操"
+    },
+    {
+     "name": "陈武",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴将领，伏击曹操"
+    },
+    {
+     "name": "潘璋",
+     "type": "Person",
+     "aliases": [
+      "文珪",
+      "右将军",
+      "溧阳侯"
+     ],
+     "nickname": "文珪",
+     "description": "东吴将领，伏击曹操"
+    },
+    {
+     "name": "程昱",
+     "type": "Person",
+     "aliases": [
+      "仲德",
+      "卫尉",
+      "安国亭侯"
+     ],
+     "nickname": "仲德",
+     "description": "曹操谋士，劝退兵"
+    },
+    {
+     "name": "朱光",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "庐江太守，镇守皖城"
+    },
+    {
+     "name": "东吴",
+     "type": "Organization",
+     "aliases": [
+      "吴"
+     ],
+     "nickname": "",
+     "description": "孙权建立的江东势力"
+    },
+    {
+     "name": "荆州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备所据之地"
+    },
+    {
+     "name": "葭萌关",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀中关隘，刘备驻守"
+    },
+    {
+     "name": "涪水关",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀中关隘，杨怀高沛守把"
+    },
+    {
+     "name": "成都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "益州治所，刘璋回守"
+    },
+    {
+     "name": "秣陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴迁治之地"
+    },
+    {
+     "name": "建业",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙权迁治所筑石头城"
+    },
+    {
+     "name": "濡须坞",
+     "type": "Place",
+     "aliases": [
+      "濡须水口"
+     ],
+     "nickname": "",
+     "description": "东吴所筑水口坞城"
+    },
+    {
+     "name": "许都",
+     "type": "Place",
+     "aliases": [
+      "许昌"
+     ],
+     "nickname": "",
+     "description": "曹操都城"
+    },
+    {
+     "name": "皖城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱光镇守之地"
+    },
+    {
+     "name": "寿春",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荀彧托病停留之地"
+    },
+    {
+     "name": "截江夺阿斗",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵云张飞截江夺回阿斗"
+    },
+    {
+     "name": "濡须之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操与孙权在濡须口交战"
+    },
+    {
+     "name": "青釭剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵云所佩宝剑"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "庞统",
+     "predicate": "MASTERMINDED",
+     "object": "截江夺阿斗",
+     "evidence": "庞统与法正商议曰：事已至此，由不得主公了。便教魏延登堂舞剑，乘势杀刘璋。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "法正",
+     "predicate": "MASTERMINDED",
+     "object": "截江夺阿斗",
+     "evidence": "庞统与法正商议曰：事已至此，由不得主公了。便教魏延登堂舞剑，乘势杀刘璋。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏延",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "便教魏延登堂舞剑，乘势杀刘璋。延遂拔剑进曰：筵间无以为乐，愿舞剑为戏。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张任",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "从事张任亦掣剑舞曰：舞剑必须有对，某愿与魏将军同舞。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘封",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "魏延目视刘封，封亦拔剑助舞。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘璝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "于是刘璝、泠苞、邓贤各掣剑出曰：我等当群舞，以助一笑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "泠苞",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "于是刘璝、泠苞、邓贤各掣剑出曰：我等当群舞，以助一笑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓贤",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "于是刘璝、泠苞、邓贤各掣剑出曰：我等当群舞，以助一笑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "玄德大惊，急掣左右所佩之剑，立于席上曰：吾兄弟相逢痛饮，并无疑忌。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘璋",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "刘璋亦叱曰：兄弟相聚，何必带刀？命侍卫者尽去佩剑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张鲁",
+     "predicate": "ATTACKED",
+     "object": "葭萌关",
+     "evidence": "忽报张鲁整顿兵马，将犯葭萌关。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "STATIONED_AT",
+     "object": "葭萌关",
+     "evidence": "玄德到葭萌关，严禁军士，广施恩惠，以收民心。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨怀",
+     "predicate": "STATIONED_AT",
+     "object": "涪水关",
+     "evidence": "乃令白水都督杨怀、高沛二人，守把涪水关。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高沛",
+     "predicate": "STATIONED_AT",
+     "object": "涪水关",
+     "evidence": "乃令白水都督杨怀、高沛二人，守把涪水关。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙权",
+     "predicate": "LEADS",
+     "object": "东吴",
+     "evidence": "吴侯孙权会文武商议。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顾雍",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "顾雍进曰：刘备分兵远涉山险而去，未易往还。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴国太",
+     "predicate": "KIN",
+     "object": "孙权",
+     "evidence": "乃吴国太也。国太怒曰：吾一生惟有一女，嫁与刘备。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴国太",
+     "predicate": "KIN",
+     "object": "孙尚香",
+     "evidence": "吾一生惟有一女，嫁与刘备。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙尚香",
+     "predicate": "SPOUSE",
+     "object": "刘备",
+     "evidence": "吾一生惟有一女，嫁与刘备。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张昭",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "只见张昭入问曰：主公有何忧疑？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张昭",
+     "predicate": "MASTERMINDED",
+     "object": "截江夺阿斗",
+     "evidence": "张昭曰：此极易也：今差心腹将一人，只带五百军。潜入荆州，下一封密书与郡主……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙权",
+     "predicate": "MASTERMINDED",
+     "object": "截江夺阿斗",
+     "evidence": "权曰：此计大妙！吾有一人，姓周，名善，最有胆量。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周善",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "于是密遣周善将五百人，扮为商人，分作五船。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周善",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "于是密遣周善将五百人，扮为商人，分作五船。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙尚香",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "便将七岁孩子阿斗，载在车中；随行带三十余人，各跨刀剑，上马离荆州城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "赵云弃马执枪，跳上渔船。只两人驾船前来，望着夫人所坐大船追赶。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "原来张飞巡哨，听得这个消息，急来油江夹口，正撞着吴船，急忙截住。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘禅",
+     "predicate": "PARTICIPATED_IN",
+     "object": "截江夺阿斗",
+     "evidence": "便将七岁孩子阿斗，载在车中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "RESCUED",
+     "object": "刘禅",
+     "evidence": "就怀中夺了阿斗，抱出船头上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "KILLED",
+     "object": "周善",
+     "evidence": "周善见张飞上船，提刀来迎，被张飞手起一剑砍倒，提头掷于孙夫人前。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "OWNS",
+     "object": "青釭剑",
+     "evidence": "赵云弃枪在小船上，掣所佩青釭剑在手。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张纮",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "人报长史张纮辞疾回家，今已病故，有哀书上呈。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙权",
+     "predicate": "STATIONED_AT",
+     "object": "建业",
+     "evidence": "即命迁治建业，筑石头城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕蒙",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "吕蒙进曰：曹操兵来，可于濡须水口筑坞以拒之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "东吴",
+     "predicate": "STATIONED_AT",
+     "object": "濡须坞",
+     "evidence": "便差军数万筑濡须坞。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董昭",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "长史董昭进曰：自古以来，人臣未有如丞相之功者。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "荀彧",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "侍中荀彧曰：不可。丞相本兴义兵，匡扶汉室，当秉忠贞之志。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "KILLED",
+     "object": "荀彧",
+     "evidence": "忽曹操使人送饮食一盒至。盒上有操亲笔封记。开盒视之，并无一物。彧会其意，遂服毒而亡。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "荀恽",
+     "predicate": "KIN",
+     "object": "荀彧",
+     "evidence": "其子荀恽，发哀书报曹操。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹洪",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "先差曹洪领三万铁甲马军，哨至江边。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濡须之战",
+     "evidence": "且说曹操大军至濡须，先差曹洪领三万铁甲马军，哨至江边。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙权",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濡须之战",
+     "evidence": "权自引一队马军来击曹操。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韩当",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濡须之战",
+     "evidence": "东吴大将韩当、周泰，两骑马直冲将上来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周泰",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濡须之战",
+     "evidence": "东吴大将韩当、周泰，两骑马直冲将上来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许褚",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濡须之战",
+     "evidence": "操背后许褚纵马舞刀，敌住二将，曹操得脱归寨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许褚",
+     "predicate": "FOUGHT",
+     "object": "韩当",
+     "evidence": "操背后许褚纵马舞刀，敌住二将，曹操得脱归寨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许褚",
+     "predicate": "FOUGHT",
+     "object": "周泰",
+     "evidence": "操背后许褚纵马舞刀，敌住二将，曹操得脱归寨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈武",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濡须之战",
+     "evidence": "右边韩当、周泰，左边陈武、潘璋。四员将带三千弓弩手乱射，矢如雨发。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘璋",
+     "predicate": "PARTICIPATED_IN",
+     "object": "濡须之战",
+     "evidence": "右边韩当、周泰，左边陈武、潘璋。四员将带三千弓弩手乱射，矢如雨发。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程昱",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "程昱曰：丞相既知兵法，岂不知兵贵神速乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱光",
+     "predicate": "STATIONED_AT",
+     "object": "皖城",
+     "evidence": "命庐江太守朱光镇守皖城，自引大军回许昌。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "濡须之战",
+     "predicate": "OCCURRED_AT",
+     "object": "濡须坞",
+     "evidence": "且说曹操大军至濡须，先差曹洪领三万铁甲马军，哨至江边。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:55:39.878Z"
+}

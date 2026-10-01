@@ -1,0 +1,198 @@
+{
+ "no": 383,
+ "title": "乔女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1148,
+   "entities": [
+    {
+     "name": "乔女",
+     "type": "Person",
+     "aliases": [
+      "乔生女"
+     ],
+     "nickname": "",
+     "description": "平原乔生之女，黑丑跛足，嫁穆生，后守节抚孤"
+    },
+    {
+     "name": "乔生",
+     "type": "Person",
+     "aliases": [
+      "乔公子"
+     ],
+     "nickname": "",
+     "description": "平原人，乔女之父"
+    },
+    {
+     "name": "穆生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑人，四十余岁娶乔女，三年后卒"
+    },
+    {
+     "name": "孟生",
+     "type": "Person",
+     "aliases": [
+      "孟安仁",
+      "安仁",
+      "孟公子"
+     ],
+     "nickname": "",
+     "description": "丧偶，遗子乌头，慕乔女，暴疾卒"
+    },
+    {
+     "name": "乌头",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟生之子，周岁丧父，由乔女抚养成人"
+    },
+    {
+     "name": "林生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与孟生交好，乔女求其告官，惧无赖而止"
+    },
+    {
+     "name": "某先生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "搢绅，闻乔女义举，代其向县令剖白"
+    },
+    {
+     "name": "穆子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乔女与穆生之子，后归宗"
+    },
+    {
+     "name": "平原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，乔生籍贯"
+    },
+    {
+     "name": "孟第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟生的宅第"
+    },
+    {
+     "name": "穆墓",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "穆生的墓地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乔女",
+     "predicate": "KIN",
+     "object": "乔生",
+     "evidence": "平原乔生，有女黑丑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乔女",
+     "predicate": "SPOUSE",
+     "object": "穆生",
+     "evidence": "邑有穆生，年四十馀，妻死，贫不能续，因聘焉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乔女",
+     "predicate": "KIN",
+     "object": "穆子",
+     "evidence": "三年，生一子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆生",
+     "predicate": "KIN",
+     "object": "穆子",
+     "evidence": "三年，生一子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟生",
+     "predicate": "KIN",
+     "object": "乌头",
+     "evidence": "有孟生丧偶，遗一子乌头",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟生",
+     "predicate": "LOVES",
+     "object": "乔女",
+     "evidence": "忽见女，大悦之，阴使人风示女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乔女",
+     "predicate": "LOVES",
+     "object": "孟生",
+     "evidence": "前虽固拒之，然固已心许之矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林生",
+     "predicate": "FRIEND",
+     "object": "孟生",
+     "evidence": "闻林生与孟善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乔女",
+     "predicate": "HELPED",
+     "object": "乌头",
+     "evidence": "使妪抱乌头，从与俱归，另舍之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某先生",
+     "predicate": "HELPED",
+     "object": "乔女",
+     "evidence": "某先生闻而义之，代剖于宰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乔女",
+     "predicate": "LIVES_AT",
+     "object": "孟第",
+     "evidence": "或议留女居孟第，抚其孤，女不肯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乔女",
+     "predicate": "NATIVE_OF",
+     "object": "平原",
+     "evidence": "平原乔生，有女黑丑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乔女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "合葬",
+     "evidence": "修治穆墓已，始合厝之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "合葬",
+     "predicate": "OCCURRED_AT",
+     "object": "穆墓",
+     "evidence": "修治穆墓已，始合厝之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:36.308Z"
+}

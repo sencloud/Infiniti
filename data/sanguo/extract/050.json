@@ -1,0 +1,848 @@
+{
+ "no": 50,
+ "title": "诸葛亮智算华容 关云长义释曹操",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3900,
+   "entities": [
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "孟德",
+      "阿瞒",
+      "曹公",
+      "魏王",
+      "魏武帝"
+     ],
+     "nickname": "孟德",
+     "description": "魏王，赤壁战败后逃往华容道"
+    },
+    {
+     "name": "刘备",
+     "type": "Person",
+     "aliases": [
+      "玄德",
+      "刘皇叔",
+      "先主",
+      "昭烈帝"
+     ],
+     "nickname": "玄德",
+     "description": "蜀汉先主，诸葛亮之主公"
+    },
+    {
+     "name": "孙权",
+     "type": "Person",
+     "aliases": [
+      "仲谋",
+      "吴侯",
+      "吴王",
+      "大帝"
+     ],
+     "nickname": "仲谋",
+     "description": "东吴之主，赤壁之战联合刘备破曹"
+    },
+    {
+     "name": "关羽",
+     "type": "Person",
+     "aliases": [
+      "云长",
+      "关公",
+      "美髯公",
+      "汉寿亭侯"
+     ],
+     "nickname": "云长",
+     "description": "蜀汉大将，华容道义释曹操"
+    },
+    {
+     "name": "张飞",
+     "type": "Person",
+     "aliases": [
+      "翼德",
+      "车骑将军"
+     ],
+     "nickname": "翼德",
+     "description": "蜀汉大将，在葫芦口截击曹操"
+    },
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙",
+      "常山赵子龙",
+      "虎威将军"
+     ],
+     "nickname": "子龙",
+     "description": "蜀汉大将，在乌林之西伏击曹操"
+    },
+    {
+     "name": "周瑜",
+     "type": "Person",
+     "aliases": [
+      "公瑾",
+      "周郎",
+      "大都督"
+     ],
+     "nickname": "公瑾",
+     "description": "东吴大都督，赤壁之战主帅"
+    },
+    {
+     "name": "吕蒙",
+     "type": "Person",
+     "aliases": [
+      "子明",
+      "吴下阿蒙",
+      "虎威将军"
+     ],
+     "nickname": "子明",
+     "description": "东吴将领，在赤壁放火接应甘宁"
+    },
+    {
+     "name": "陆逊",
+     "type": "Person",
+     "aliases": [
+      "伯言",
+      "陆伯言",
+      "上大将军"
+     ],
+     "nickname": "伯言",
+     "description": "东吴将领，与太史慈合兵冲杀曹操"
+    },
+    {
+     "name": "太史慈",
+     "type": "Person",
+     "aliases": [
+      "子义",
+      "太史子义"
+     ],
+     "nickname": "子义",
+     "description": "东吴将领，与陆逊合兵冲杀曹操"
+    },
+    {
+     "name": "甘宁",
+     "type": "Person",
+     "aliases": [
+      "兴霸",
+      "锦帆贼"
+     ],
+     "nickname": "兴霸",
+     "description": "东吴将领，斩杀马延、张顗"
+    },
+    {
+     "name": "郭嘉",
+     "type": "Person",
+     "aliases": [
+      "奉孝",
+      "郭奉孝",
+      "鬼才"
+     ],
+     "nickname": "奉孝",
+     "description": "曹操谋士，已故，曹操哭之"
+    },
+    {
+     "name": "张辽",
+     "type": "Person",
+     "aliases": [
+      "文远",
+      "张文远",
+      "五子良将"
+     ],
+     "nickname": "文远",
+     "description": "曹魏大将，保护曹操撤退"
+    },
+    {
+     "name": "许褚",
+     "type": "Person",
+     "aliases": [
+      "仲康",
+      "虎痴",
+      "虎侯"
+     ],
+     "nickname": "仲康",
+     "description": "曹魏大将，骑无鞍马战张飞"
+    },
+    {
+     "name": "夏侯惇",
+     "type": "Person",
+     "aliases": [
+      "元让",
+      "盲夏侯",
+      "大将军"
+     ],
+     "nickname": "元让",
+     "description": "曹魏大将，守把襄阳"
+    },
+    {
+     "name": "袁绍",
+     "type": "Person",
+     "aliases": [
+      "本初",
+      "袁本初",
+      "四世三公"
+     ],
+     "nickname": "本初",
+     "description": "河北诸侯，马延、张顗原为其手下"
+    },
+    {
+     "name": "曹仁",
+     "type": "Person",
+     "aliases": [
+      "子孝",
+      "大将军",
+      "大司马"
+     ],
+     "nickname": "子孝",
+     "description": "曹魏大将，守南郡，接应曹操"
+    },
+    {
+     "name": "徐晃",
+     "type": "Person",
+     "aliases": [
+      "公明",
+      "右将军"
+     ],
+     "nickname": "公明",
+     "description": "曹魏大将，救曹操，战赵云、张飞"
+    },
+    {
+     "name": "张郃",
+     "type": "Person",
+     "aliases": [
+      "儁乂",
+      "征西车骑将军"
+     ],
+     "nickname": "儁乂",
+     "description": "曹魏大将，断后，战赵云"
+    },
+    {
+     "name": "乐进",
+     "type": "Person",
+     "aliases": [
+      "文谦",
+      "右将军"
+     ],
+     "nickname": "文谦",
+     "description": "曹魏将领，守合淝副将"
+    },
+    {
+     "name": "程昱",
+     "type": "Person",
+     "aliases": [
+      "仲德",
+      "卫尉",
+      "安国亭侯"
+     ],
+     "nickname": "仲德",
+     "description": "曹操谋士，建议曹操求关羽"
+    },
+    {
+     "name": "黄盖",
+     "type": "Person",
+     "aliases": [
+      "公覆",
+      "武锋中郎将",
+      "偏将军"
+     ],
+     "nickname": "公覆",
+     "description": "东吴将领，赤壁纵火，中箭被救"
+    },
+    {
+     "name": "程普",
+     "type": "Person",
+     "aliases": [
+      "德谋",
+      "荡寇将军",
+      "江夏太守"
+     ],
+     "nickname": "德谋",
+     "description": "东吴将领，随周瑜大队船只"
+    },
+    {
+     "name": "韩当",
+     "type": "Person",
+     "aliases": [
+      "义公",
+      "昭武将军",
+      "石城侯"
+     ],
+     "nickname": "义公",
+     "description": "东吴将领，救黄盖，攻水寨"
+    },
+    {
+     "name": "丁奉",
+     "type": "Person",
+     "aliases": [
+      "承渊",
+      "大将军",
+      "左将军"
+     ],
+     "nickname": "承渊",
+     "description": "东吴将领，随周瑜大队船只"
+    },
+    {
+     "name": "徐盛",
+     "type": "Person",
+     "aliases": [
+      "文向",
+      "安东将军",
+      "芜湖侯"
+     ],
+     "nickname": "文向",
+     "description": "东吴将领，随周瑜大队船只"
+    },
+    {
+     "name": "潘璋",
+     "type": "Person",
+     "aliases": [
+      "文珪",
+      "右将军",
+      "溧阳侯"
+     ],
+     "nickname": "文珪",
+     "description": "东吴将领，分头放火"
+    },
+    {
+     "name": "曹洪",
+     "type": "Person",
+     "aliases": [
+      "子廉",
+      "曹子廉"
+     ],
+     "nickname": "子廉",
+     "description": "曹魏将领，据守彝陵、南郡"
+    },
+    {
+     "name": "李典",
+     "type": "Person",
+     "aliases": [
+      "曼成",
+      "李曼成"
+     ],
+     "nickname": "曼成",
+     "description": "曹魏将领，保护谋士来到"
+    },
+    {
+     "name": "文聘",
+     "type": "Person",
+     "aliases": [
+      "仲业",
+      "文仲业"
+     ],
+     "nickname": "仲业",
+     "description": "曹魏将领，被毛玠救得"
+    },
+    {
+     "name": "颜良",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍大将，被关羽斩杀"
+    },
+    {
+     "name": "文丑",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍大将，被关羽诛杀"
+    },
+    {
+     "name": "马延",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍降将，被甘宁斩杀"
+    },
+    {
+     "name": "张顗",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁绍降将，被甘宁斩杀"
+    },
+    {
+     "name": "蒋钦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴将领，从赤壁西边杀来"
+    },
+    {
+     "name": "周泰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴将领，从赤壁东边杀来"
+    },
+    {
+     "name": "陈武",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴将领，从赤壁东边杀来"
+    },
+    {
+     "name": "凌统",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴将领，在山谷中截击曹操"
+    },
+    {
+     "name": "毛玠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹魏将领，救文聘"
+    },
+    {
+     "name": "蔡中",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹魏将领，被甘宁砍于马下"
+    },
+    {
+     "name": "董袭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴将领，分头放火"
+    },
+    {
+     "name": "曹魏",
+     "type": "Organization",
+     "aliases": [
+      "曹军"
+     ],
+     "nickname": "",
+     "description": "曹操势力"
+    },
+    {
+     "name": "东吴",
+     "type": "Organization",
+     "aliases": [
+      "吴军"
+     ],
+     "nickname": "",
+     "description": "孙权势力"
+    },
+    {
+     "name": "蜀汉",
+     "type": "Organization",
+     "aliases": [
+      "刘备军"
+     ],
+     "nickname": "",
+     "description": "刘备势力"
+    },
+    {
+     "name": "赤壁之战",
+     "type": "Event",
+     "aliases": [
+      "赤壁鏖兵"
+     ],
+     "nickname": "",
+     "description": "孙刘联军大破曹操的战役"
+    },
+    {
+     "name": "华容道",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "关羽截击曹操之地"
+    },
+    {
+     "name": "乌林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操奔逃经过之地"
+    },
+    {
+     "name": "葫芦口",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张飞伏击曹操之地"
+    },
+    {
+     "name": "南郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹仁据守之地"
+    },
+    {
+     "name": "合淝",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张辽等保守之地"
+    },
+    {
+     "name": "襄阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "夏侯惇守把之地"
+    },
+    {
+     "name": "彝陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹洪据守之地"
+    },
+    {
+     "name": "许昌",
+     "type": "Place",
+     "aliases": [
+      "许都"
+     ],
+     "nickname": "",
+     "description": "曹操回奔之地"
+    },
+    {
+     "name": "夏口",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备军回驻之地"
+    },
+    {
+     "name": "青龙刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "关羽所持大刀"
+    },
+    {
+     "name": "赤兔马",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "关羽所骑名马"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张辽",
+     "predicate": "RESCUED",
+     "object": "曹操",
+     "evidence": "张辽一箭射黄盖下水，救得曹操登岸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩当",
+     "predicate": "RESCUED",
+     "object": "黄盖",
+     "evidence": "急教救起。见黄盖负箭着伤",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘宁",
+     "predicate": "KILLED",
+     "object": "蔡中",
+     "evidence": "宁将蔡中一刀砍于马下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘宁",
+     "predicate": "KILLED",
+     "object": "马延",
+     "evidence": "早被甘宁一刀斩于马下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘宁",
+     "predicate": "KILLED",
+     "object": "张顗",
+     "evidence": "被宁手起一刀，翻身落马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛玠",
+     "predicate": "RESCUED",
+     "object": "文聘",
+     "evidence": "毛玠救得文聘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐晃",
+     "predicate": "RESCUED",
+     "object": "曹操",
+     "evidence": "忽刺斜里一彪军到，大叫：丞相休慌！徐晃在此！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "FOUGHT",
+     "object": "徐晃",
+     "evidence": "操教徐晃、张郃双敌赵云",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "FOUGHT",
+     "object": "张郃",
+     "evidence": "操教徐晃、张郃双敌赵云",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "FOUGHT",
+     "object": "许褚",
+     "evidence": "许褚骑无鞍马来战张飞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "FOUGHT",
+     "object": "张辽",
+     "evidence": "张辽、徐晃二将，纵马也来夹攻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "FOUGHT",
+     "object": "徐晃",
+     "evidence": "张辽、徐晃二将，纵马也来夹攻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "RESCUED",
+     "object": "曹操",
+     "evidence": "云长见了，又动故旧之情，长叹一声，并皆放去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "颜良",
+     "evidence": "已斩颜良，诛文丑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "KILLED",
+     "object": "文丑",
+     "evidence": "已斩颜良，诛文丑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "SERVED",
+     "object": "郭嘉",
+     "evidence": "吾哭郭奉孝耳！若奉孝在，决不使吾有此大失也！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹仁",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "曹仁接着，言：虽知兵败，不敢远离，只得在附近迎接",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张辽",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "操令张辽为主将，乐进、李典为副将，保守此地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐进",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "吾令张辽为主将，乐进、李典为副将，保守此地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李典",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "吾令张辽为主将，乐进、李典为副将，保守此地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夏侯惇",
+     "predicate": "STATIONED_AT",
+     "object": "襄阳",
+     "evidence": "襄阳吾已拨夏侯惇守把",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹洪",
+     "predicate": "STATIONED_AT",
+     "object": "彝陵",
+     "evidence": "曹仁自遣曹洪据守彝陵、南郡",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹洪",
+     "predicate": "STATIONED_AT",
+     "object": "南郡",
+     "evidence": "曹仁自遣曹洪据守彝陵、南郡",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹仁",
+     "predicate": "STATIONED_AT",
+     "object": "南郡",
+     "evidence": "汝可保全南郡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张辽",
+     "predicate": "STATIONED_AT",
+     "object": "合淝",
+     "evidence": "吾令张辽为主将，乐进、李典为副将，保守此地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "OWNS",
+     "object": "青龙刀",
+     "evidence": "为首大将关云长，提青龙刀，跨赤兔马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关羽",
+     "predicate": "OWNS",
+     "object": "赤兔马",
+     "evidence": "为首大将关云长，提青龙刀，跨赤兔马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹操",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赤壁之战",
+     "evidence": "曹瞒兵败走华容，正与关公狭路逢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赤壁之战",
+     "evidence": "周郎曾此破曹公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赤壁之战",
+     "evidence": "韩当冒烟突火来攻水寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赤壁之战",
+     "predicate": "OCCURRED_AT",
+     "object": "赤壁",
+     "evidence": "左边是韩当、蒋钦两军从赤壁西边杀来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "PARTICIPATED_IN",
+     "object": "华容道",
+     "evidence": "为首大将关云长，提青龙刀，跨赤兔马，截住去路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "PARTICIPATED_IN",
+     "object": "华容道",
+     "evidence": "曹操兵败势危，到此无路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "曹军着枪中箭、火焚水溺者，不计其数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "关某奉军师将令，等候丞相多时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "甘宁",
+     "predicate": "MEMBER_OF",
+     "object": "东吴",
+     "evidence": "吾乃东吴甘兴霸也！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙权",
+     "predicate": "LEADS",
+     "object": "东吴",
+     "evidence": "不想孙权在合淝路口，望见江中火光",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "LEADS",
+     "object": "蜀汉",
+     "evidence": "孔明正与玄德作贺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "LEADS",
+     "object": "曹魏",
+     "evidence": "操教二将引一千军马开路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马延",
+     "predicate": "SURRENDERED_TO",
+     "object": "曹操",
+     "evidence": "乃是袁绍手下降将马延、张顗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顗",
+     "predicate": "SURRENDERED_TO",
+     "object": "曹操",
+     "evidence": "乃是袁绍手下降将马延、张顗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "关羽",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "独云长不获一人一骑，空身回见玄德",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张辽",
+     "predicate": "FRIEND",
+     "object": "关羽",
+     "evidence": "云长见了，又动故旧之情",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "FRIEND",
+     "object": "关羽",
+     "evidence": "丞相旧日有恩于彼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程昱",
+     "predicate": "RECOMMENDED",
+     "object": "关羽",
+     "evidence": "程昱曰：某素知云长傲上而不忍下……今只亲自告之，可脱此难",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:55:15.038Z"
+}

@@ -1,0 +1,81 @@
+{
+ "no": 58,
+ "title": "凤阳士人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1193,
+   "entities": [
+    {
+     "name": "凤阳士人",
+     "type": "Person",
+     "aliases": [
+      "士人",
+      "书生"
+     ],
+     "nickname": "",
+     "description": "凤阳书生，负笈远游，妻翘盼其归"
+    },
+    {
+     "name": "士人妻",
+     "type": "Person",
+     "aliases": [
+      "妻",
+      "女",
+      "姊姊"
+     ],
+     "nickname": "",
+     "description": "凤阳士人之妻，思夫心切"
+    },
+    {
+     "name": "丽人",
+     "type": "Spirit",
+     "aliases": [
+      "美女",
+      "丽者"
+     ],
+     "nickname": "",
+     "description": "珠鬟绛帔，引士人妻寻夫，身份不明"
+    },
+    {
+     "name": "凤阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "士人籍贯所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "凤阳士人",
+     "predicate": "SPOUSE",
+     "object": "士人妻",
+     "evidence": "凤阳一士人，负笈远游。谓其妻曰：“半年当归。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丽人",
+     "predicate": "HELPED",
+     "object": "士人妻",
+     "evidence": "丽人牵坐路侧，自乃捉足，脱履相假。女喜着之，幸不凿枘。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丽人",
+     "predicate": "HARMED",
+     "object": "士人",
+     "evidence": "士人摇惑，若不自禁。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "凤阳士人",
+     "predicate": "NATIVE_OF",
+     "object": "凤阳",
+     "evidence": "凤阳一士人，负笈远游。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:34.250Z"
+}

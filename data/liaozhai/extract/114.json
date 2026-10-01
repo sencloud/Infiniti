@@ -1,0 +1,94 @@
+{
+ "no": 114,
+ "title": "谕鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 302,
+   "entities": [
+    {
+     "name": "石茂华",
+     "type": "Person",
+     "aliases": [
+      "石尚书",
+      "石某",
+      "公"
+     ],
+     "nickname": "",
+     "description": "青州人，诸生时驱鬼，后官至尚书"
+    },
+    {
+     "name": "某甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州百姓，遭鬼困厄，遇石茂华获救"
+    },
+    {
+     "name": "群鬼",
+     "type": "Spirit",
+     "aliases": [
+      "鬼",
+      "大寇之鬼"
+     ],
+     "nickname": "",
+     "description": "被刑杀大寇所化，聚于渊上为祟"
+    },
+    {
+     "name": "大渊",
+     "type": "Place",
+     "aliases": [
+      "渊"
+     ],
+     "nickname": "",
+     "description": "青州郡门外水渊，不雨不涸，鬼祟处"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "石茂华籍贯及故事发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "石茂华",
+     "predicate": "NATIVE_OF",
+     "object": "青州",
+     "evidence": "青州石尚书茂华为诸生时",
+     "confidence": 0.95
+    },
+    {
+     "subject": "群鬼",
+     "predicate": "HARMED",
+     "object": "某甲",
+     "evidence": "一日，有某甲正遭困厄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石茂华",
+     "predicate": "HELPED",
+     "object": "某甲",
+     "evidence": "甲以状告。公以垩灰题壁示云",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石茂华",
+     "predicate": "PUNISHED",
+     "object": "群鬼",
+     "evidence": "公以垩灰题壁示云……自此鬼患遂绝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "群鬼",
+     "predicate": "LIVES_AT",
+     "object": "大渊",
+     "evidence": "郡门外有大渊……鬼聚为祟",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:56.117Z"
+}

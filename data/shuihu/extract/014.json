@@ -1,0 +1,306 @@
+{
+ "no": 14,
+ "title": "第十四回 赤发鬼醉卧灵官殿 晁天王认义东溪村",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6001,
+   "entities": [
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "东潞州人氏，鬓边有朱砂记，来投晁盖献生辰纲之财"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎",
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "郓城县都头，奉命巡捕贼盗，捉拿刘唐"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [
+      "晁保正",
+      "托塔天王"
+     ],
+     "nickname": "托塔天王",
+     "description": "东溪村保正，仗义疏财，认刘唐为外甥救之"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "本乡秀才，足智多谋，劝解刘唐雷横争斗"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [
+      "美髯公",
+      "朱都头"
+     ],
+     "nickname": "美髯公",
+     "description": "郓城县都头，与雷横同奉钧旨巡捕贼盗"
+    },
+    {
+     "name": "梁中书",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北京大名府中书，收买金珠宝贝为蔡太师庆生辰"
+    },
+    {
+     "name": "蔡太师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京太师，梁中书丈人，生辰纲收受者"
+    },
+    {
+     "name": "东溪村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县东门外村坊，晁盖所居"
+    },
+    {
+     "name": "西溪村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "与东溪村隔溪相望的村坊"
+    },
+    {
+     "name": "灵官殿",
+     "type": "Place",
+     "aliases": [
+      "灵官庙"
+     ],
+     "nickname": "",
+     "description": "刘唐醉卧被捉之处"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "雷横、朱仝任职的县份"
+    },
+    {
+     "name": "东潞州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘唐祖贯籍贯"
+    },
+    {
+     "name": "北京大名府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书任职之地，生辰纲起运处"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蔡太师所在，生辰纲送往之地"
+    },
+    {
+     "name": "生辰纲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书收买的价值十万贯金珠宝贝，送蔡太师庆生辰"
+    },
+    {
+     "name": "青石宝塔",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "僧人教凿以镇溪边之塔，晁盖夺至东溪"
+    },
+    {
+     "name": "朴刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘唐、雷横争斗所用兵器"
+    },
+    {
+     "name": "铜链",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴用所用兵器，用以隔开争斗"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "雷横",
+     "predicate": "DEFEATED",
+     "object": "刘唐",
+     "evidence": "众士兵向前，把条索子绑了，捉离灵官殿来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "RESCUED",
+     "object": "刘唐",
+     "evidence": "却要我救你，你只认我做娘舅之亲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "FRIEND",
+     "object": "雷横",
+     "evidence": "晁盖起来接待，动问道：都头有甚公干到这里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "SERVED",
+     "object": "郓城县",
+     "evidence": "奉知县相公钧旨，着我与朱仝两个引了部下士兵，分投下乡村各处巡捕贼盗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "SERVED",
+     "object": "郓城县",
+     "evidence": "奉知县相公钧旨，着我与朱仝两个引了部下士兵，分投下乡村各处巡捕贼盗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "原来那东溪村保正，姓晁名盖，祖是本县本乡富户",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "东溪村",
+     "evidence": "原来那东溪村保正，姓晁名盖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "NATIVE_OF",
+     "object": "东潞州",
+     "evidence": "小人姓刘名唐，祖贯东潞州人氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "特地送一套富贵来与保正哥哥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "FOUGHT",
+     "object": "雷横",
+     "evidence": "当时雷横和刘唐就路上斗了五十馀合，不分胜败",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "FRIEND",
+     "object": "晁盖",
+     "evidence": "晁盖我都是自幼结交，但有些事，便和我相议计较",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "这秀才乃是智多星吴用，表字学究，道号加亮先生，祖贯本乡人氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "KIN",
+     "object": "蔡太师",
+     "evidence": "送上东京与他丈人蔡太师庆生辰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "OWNS",
+     "object": "生辰纲",
+     "evidence": "北京大名府梁中书，收买十万贯金珠宝贝玩器等物，送上东京与他丈人蔡太师庆生辰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "OWNS",
+     "object": "青石宝塔",
+     "evidence": "把青石宝塔独自夺了过来东溪边放下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "刘唐便出房门，去枪架上拿了一条朴刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "雷横慌忙去士兵手里，夺条朴刀拿着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "OWNS",
+     "object": "铜链",
+     "evidence": "一个人掣两条铜链",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "他来的意，正应我一梦",
+     "confidence": 0.8
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "此一件事若何",
+     "confidence": 0.8
+    },
+    {
+     "subject": "吴用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "此一事却好",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:58.061Z"
+}

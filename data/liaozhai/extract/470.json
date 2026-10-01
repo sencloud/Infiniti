@@ -1,0 +1,117 @@
+{
+ "no": 470,
+ "title": "寄生附",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2302,
+   "entities": [
+    {
+     "name": "寄生",
+     "type": "Person",
+     "aliases": [
+      "王孙"
+     ],
+     "nickname": "",
+     "description": "字王孙，郡中名士，与闺秀、五可成婚"
+    },
+    {
+     "name": "闺秀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郑子侨与二娘之女，后嫁寄生"
+    },
+    {
+     "name": "桂庵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寄生之父"
+    },
+    {
+     "name": "芸娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寄生之母"
+    },
+    {
+     "name": "郑子侨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "二娘之夫，闺秀父"
+    },
+    {
+     "name": "于氏",
+     "type": "Person",
+     "aliases": [
+      "于媪"
+     ],
+     "nickname": "",
+     "description": "媒婆，助寄生与五可成婚"
+    },
+    {
+     "name": "张氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郡中大姓，五可之父"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "寄生",
+     "predicate": "LOVES",
+     "object": "闺秀",
+     "evidence": "王孙见之，心切爱慕，积久，寝食俱废。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寄生",
+     "predicate": "SPOUSE",
+     "object": "闺秀",
+     "evidence": "二媪扶女，径坐青庐，始知其闺秀也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寄生",
+     "predicate": "KIN",
+     "object": "桂庵",
+     "evidence": "父桂庵有妹二娘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寄生",
+     "predicate": "KIN",
+     "object": "芸娘",
+     "evidence": "芸娘问故。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郑子侨",
+     "predicate": "KIN",
+     "object": "闺秀",
+     "evidence": "生女闺秀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于氏",
+     "predicate": "HELPED",
+     "object": "寄生",
+     "evidence": "媪入，抚王孙而告之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "闺秀",
+     "predicate": "LIVES_AT",
+     "object": "郑家",
+     "evidence": "适郑秀才子侨，生女闺秀",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:14.159Z"
+}

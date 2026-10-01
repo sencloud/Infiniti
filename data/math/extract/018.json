@@ -1,0 +1,176 @@
+{
+ "no": 18,
+ "title": "5.2 运动 想象",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 853,
+   "entities": [
+    {
+     "name": "点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "构成图形的基本元素之一"
+    },
+    {
+     "name": "线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "构成图形的基本元素之一"
+    },
+    {
+     "name": "面",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "构成图形的基本元素之一"
+    },
+    {
+     "name": "图形运动",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过运动产生新图形并研究其规律"
+    },
+    {
+     "name": "圆柱体",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "长方形绕一边旋转形成的几何体"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四边相等、四个角是直角的四边形"
+    },
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "对边相等、四个角是直角的四边形"
+    },
+    {
+     "name": "平行四边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "两组对边分别平行的四边形"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "轴对称图形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "沿一条直线翻折后能完全重合的图形"
+    },
+    {
+     "name": "对称轴",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称图形中的折痕所在直线"
+    },
+    {
+     "name": "七巧板",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "我国古代益智玩具，由正方形分割成七块"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "点",
+     "predicate": "INCLUDES",
+     "object": "线",
+     "evidence": "笔尖在纸上运动形成一条线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "线",
+     "predicate": "INCLUDES",
+     "object": "面",
+     "evidence": "雨刮器在挡风玻璃上运动形成一个面",
+     "confidence": 0.9
+    },
+    {
+     "subject": "点",
+     "predicate": "INCLUDES",
+     "object": "图形",
+     "evidence": "所有图形都可以看作是由点、线、面构成的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "线",
+     "predicate": "INCLUDES",
+     "object": "图形",
+     "evidence": "所有图形都可以看作是由点、线、面构成的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "面",
+     "predicate": "INCLUDES",
+     "object": "图形",
+     "evidence": "所有图形都可以看作是由点、线、面构成的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "图形运动",
+     "predicate": "APPLIES_TO",
+     "object": "圆柱体",
+     "evidence": "绕一条边快速旋转的长方形纸板像一个圆柱体",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "长方形",
+     "evidence": "怎样剪才能得到一个正方形",
+     "confidence": 0.8
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "平行四边形",
+     "evidence": "拼成正方形、长方形、平行四边形",
+     "confidence": 0.8
+    },
+    {
+     "subject": "轴对称图形",
+     "predicate": "RELATED",
+     "object": "对称轴",
+     "evidence": "哪些是轴对称图形？请画出它们的对称轴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "七巧板",
+     "predicate": "INCLUDES",
+     "object": "正方形",
+     "evidence": "把一块正方形薄板分为七块，制作成“七巧板”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "七巧板",
+     "predicate": "INCLUDES",
+     "object": "三角形",
+     "evidence": "你能用“七巧板”中的三块板拼成一个三角形吗",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:37.543Z"
+}

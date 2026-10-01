@@ -1,0 +1,77 @@
+{
+ "no": 226,
+ "title": "吴门画工",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 471,
+   "entities": [
+    {
+     "name": "吴门画工",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州画师，忘其名，喜绘吕祖"
+    },
+    {
+     "name": "吕祖",
+     "type": "Spirit",
+     "aliases": [
+      "吕洞宾"
+     ],
+     "nickname": "",
+     "description": "神仙，画工梦中相见"
+    },
+    {
+     "name": "董娘娘",
+     "type": "Spirit",
+     "aliases": [
+      "董妃"
+     ],
+     "nickname": "",
+     "description": "梦中丽人，后为董妃"
+    },
+    {
+     "name": "朱拱奎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莱芜人，曾见画工"
+    },
+    {
+     "name": "都",
+     "type": "Place",
+     "aliases": [
+      "京城"
+     ],
+     "nickname": "",
+     "description": "京城"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴门画工",
+     "predicate": "FRIEND",
+     "object": "吕祖",
+     "evidence": "夜间当相见也",
+     "confidence": 0.8
+    },
+    {
+     "subject": "吕祖",
+     "predicate": "HELPED",
+     "object": "吴门画工",
+     "evidence": "我使子见一人可也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴门画工",
+     "predicate": "LIVES_AT",
+     "object": "都",
+     "evidence": "偶游于都",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:36.880Z"
+}

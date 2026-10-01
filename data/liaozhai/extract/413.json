@@ -1,0 +1,101 @@
+{
+ "no": 413,
+ "title": "冯木匠",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 297,
+   "entities": [
+    {
+     "name": "冯明寰",
+     "type": "Person",
+     "aliases": [
+      "冯木匠"
+     ],
+     "nickname": "冯木匠",
+     "description": "木匠，直宿衙署，遇少女精怪"
+    },
+    {
+     "name": "少女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "非人少女，夜投冯明寰，后离去"
+    },
+    {
+     "name": "周有德",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "抚军，改建藩邸为衙署"
+    },
+    {
+     "name": "故藩邸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "前明藩王旧宅，改为部院衙署"
+    },
+    {
+     "name": "冯所居村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冯明寰所住村庄，离郡不远"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冯明寰",
+     "predicate": "LOVES",
+     "object": "少女",
+     "evidence": "两人情日密。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "少女",
+     "predicate": "HARMED",
+     "object": "冯明寰",
+     "evidence": "迨数月，精神渐减，心益惧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯明寰",
+     "predicate": "LIVES_AT",
+     "object": "故藩邸",
+     "evidence": "有木作匠冯明寰直宿其中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯明寰",
+     "predicate": "LIVES_AT",
+     "object": "冯所居村",
+     "evidence": "冯所居村，离郡固不甚远",
+     "confidence": 0.95
+    },
+    {
+     "subject": "少女",
+     "predicate": "LIVES_AT",
+     "object": "冯所居村",
+     "evidence": "女遂从去。既入室",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周有德",
+     "predicate": "PARTICIPATED_IN",
+     "object": "改创故藩邸为部院衙署",
+     "evidence": "抚军周有德，改创故藩邸为部院衙署。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "改创故藩邸为部院衙署",
+     "predicate": "OCCURRED_AT",
+     "object": "故藩邸",
+     "evidence": "改创故藩邸为部院衙署",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:49.347Z"
+}

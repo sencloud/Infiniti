@@ -1,0 +1,78 @@
+{
+ "no": 197,
+ "title": "黎氏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 709,
+   "entities": [
+    {
+     "name": "谢中条",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙门人，佻达无行，丧妻后遇黎氏"
+    },
+    {
+     "name": "黎氏",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "自称早寡妇人，实为巨狼所化"
+    },
+    {
+     "name": "孤媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "谢中条家雇佣抚育子女的老妈子"
+    },
+    {
+     "name": "龙门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "谢中条的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "谢中条",
+     "predicate": "NATIVE_OF",
+     "object": "龙门",
+     "evidence": "龙门谢中条者，佻达无行。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "谢中条",
+     "predicate": "LOVES",
+     "object": "黎氏",
+     "evidence": "野合既已，遂相欣爱。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "谢中条",
+     "predicate": "SPOUSE",
+     "object": "黎氏",
+     "evidence": "扫榻迎妇，倍极欢好。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黎氏",
+     "predicate": "KILLED",
+     "object": "谢中条",
+     "evidence": "入视子女皆无，鲜血殷地，惟三头存焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "谢中条",
+     "predicate": "LIVES_AT",
+     "object": "龙门",
+     "evidence": "龙门谢中条者，佻达无行。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:27.584Z"
+}

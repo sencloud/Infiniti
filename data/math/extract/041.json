@@ -1,0 +1,112 @@
+{
+ "no": 41,
+ "title": "11.2 一元一次不等式的概念",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1491,
+   "entities": [
+    {
+     "name": "一元一次不等式",
+     "type": "Concept",
+     "aliases": [
+      "linear inequality with one unknown"
+     ],
+     "nickname": "",
+     "description": "只含一个未知数，且未知数次数是1的不等式"
+    },
+    {
+     "name": "不等式的解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "满足不等式的未知数的某个值"
+    },
+    {
+     "name": "不等式的解集",
+     "type": "Concept",
+     "aliases": [
+      "solution set of inequality"
+     ],
+     "nickname": "",
+     "description": "所有解组成的全体"
+    },
+    {
+     "name": "解不等式",
+     "type": "Concept",
+     "aliases": [
+      "solving inequality"
+     ],
+     "nickname": "",
+     "description": "求不等式解集的过程"
+    },
+    {
+     "name": "数轴",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    },
+    {
+     "name": "不等式的基本性质1",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "不等式两边都加（或减）同一个数，不等号方向不变"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数，且未知数次数是1的方程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次不等式",
+     "predicate": "INCLUDES",
+     "object": "不等式的解",
+     "evidence": "我们把满足不等式的未知数的某个值称为不等式的一个解",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次不等式",
+     "predicate": "INCLUDES",
+     "object": "不等式的解集",
+     "evidence": "所有的解组成的全体叫作这个不等式的解集",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解不等式",
+     "predicate": "RELATED",
+     "object": "不等式的解集",
+     "evidence": "求不等式解集的过程叫作解不等式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "不等式的解集",
+     "predicate": "APPLIES_TO",
+     "object": "数轴",
+     "evidence": "这个解集可以借助数轴直观地表示如下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "不等式的基本性质1",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次不等式",
+     "evidence": "根据不等式的基本性质1，在不等式1.1+x≤4.0两边都减去1.1，得x≤2.9",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次不等式",
+     "predicate": "CONTRASTS",
+     "object": "一元一次方程",
+     "evidence": "写出不等式2x+1≥3的五个解，并比较它们与方程2x+1=3的解的大小",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:47.519Z"
+}

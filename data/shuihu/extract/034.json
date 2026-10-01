@@ -1,0 +1,725 @@
+{
+ "no": 34,
+ "title": "第三十四回 镇三山大闹青州道 霹雳火夜走瓦砾场",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5246,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山好汉首领，被刘高陷害押解青州"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "小李广",
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "清风寨知寨，被刘高陷害，后与宋江同上清风山"
+    },
+    {
+     "name": "黄信",
+     "type": "Person",
+     "aliases": [
+      "镇三山"
+     ],
+     "nickname": "镇三山",
+     "description": "青州都监，押解宋江花荣，被清风山好汉击败逃回"
+    },
+    {
+     "name": "刘高",
+     "type": "Person",
+     "aliases": [
+      "刘知寨"
+     ],
+     "nickname": "",
+     "description": "清风寨知寨，陷害宋江花荣，被擒后剖腹取心"
+    },
+    {
+     "name": "燕顺",
+     "type": "Person",
+     "aliases": [
+      "锦毛虎"
+     ],
+     "nickname": "锦毛虎",
+     "description": "清风山头领，救宋江花荣，擒刘高"
+    },
+    {
+     "name": "王英",
+     "type": "Person",
+     "aliases": [
+      "矮脚虎",
+      "王矮虎"
+     ],
+     "nickname": "矮脚虎",
+     "description": "清风山头领，参与救宋江花荣"
+    },
+    {
+     "name": "郑天寿",
+     "type": "Person",
+     "aliases": [
+      "白面郎君"
+     ],
+     "nickname": "白面郎君",
+     "description": "清风山头领，参与救宋江花荣"
+    },
+    {
+     "name": "秦明",
+     "type": "Person",
+     "aliases": [
+      "霹雳火",
+      "秦统制"
+     ],
+     "nickname": "霹雳火",
+     "description": "青州兵马总管，攻打清风山被活捉"
+    },
+    {
+     "name": "慕容知府",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州知府，派秦明攻打清风山"
+    },
+    {
+     "name": "清风山",
+     "type": "Organization",
+     "aliases": [
+      "清风山寨"
+     ],
+     "nickname": "",
+     "description": "燕顺、王英、郑天寿等落草的山寨势力"
+    },
+    {
+     "name": "清风寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州东南的寨镇，花荣、刘高驻守之地"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州府，慕容知府治所"
+    },
+    {
+     "name": "清风镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "清风寨所在镇，黄信逃回据守"
+    },
+    {
+     "name": "聚义厅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "清风山寨中议事厅堂"
+    },
+    {
+     "name": "丧门剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄信所使的剑"
+    },
+    {
+     "name": "狼牙棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦明所使的兵器"
+    },
+    {
+     "name": "点钢枪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "花荣所使的兵器"
+    },
+    {
+     "name": "清风山之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江花荣设计大败秦明并活捉之"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "黄信",
+     "predicate": "SERVED",
+     "object": "慕容知府",
+     "evidence": "黄信写了申状，叫两个教军头目飞马报与慕容知府",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘高",
+     "predicate": "SERVED",
+     "object": "慕容知府",
+     "evidence": "刘知寨也骑着马，身上披挂些戎衣",
+     "confidence": 0.6
+    },
+    {
+     "subject": "黄信",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "都监黄信掷盏为号，拿了花知寨并宋江，陷车囚了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "FRAMED",
+     "object": "花荣",
+     "evidence": "都监黄信掷盏为号，拿了花知寨并宋江，陷车囚了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘高",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "你如何听信那不贤的妇人害我",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘高",
+     "predicate": "FRAMED",
+     "object": "花荣",
+     "evidence": "实被刘高这厮无中生有，官报私仇，逼迫得花荣有家难奔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕顺",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "因此救了两个，拿得刘高，都回山寨里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕顺",
+     "predicate": "RESCUED",
+     "object": "花荣",
+     "evidence": "因此救了两个，拿得刘高，都回山寨里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王英",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "因此救了两个，拿得刘高，都回山寨里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王英",
+     "predicate": "RESCUED",
+     "object": "花荣",
+     "evidence": "因此救了两个，拿得刘高，都回山寨里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郑天寿",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "因此救了两个，拿得刘高，都回山寨里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郑天寿",
+     "predicate": "RESCUED",
+     "object": "花荣",
+     "evidence": "因此救了两个，拿得刘高，都回山寨里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "KILLED",
+     "object": "刘高",
+     "evidence": "把刀去刘高心窝里只一剜，那颗心献在宋江面前",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕顺",
+     "predicate": "LEADS",
+     "object": "清风山",
+     "evidence": "中间是锦毛虎燕顺，上首是矮脚虎王英，下首是白面郎君郑天寿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王英",
+     "predicate": "MEMBER_OF",
+     "object": "清风山",
+     "evidence": "中间是锦毛虎燕顺，上首是矮脚虎王英，下首是白面郎君郑天寿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郑天寿",
+     "predicate": "MEMBER_OF",
+     "object": "清风山",
+     "evidence": "中间是锦毛虎燕顺，上首是矮脚虎王英，下首是白面郎君郑天寿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MEMBER_OF",
+     "object": "清风山",
+     "evidence": "请宋江、花荣当中坐定，三个好汉对席相陪",
+     "confidence": 0.8
+    },
+    {
+     "subject": "花荣",
+     "predicate": "MEMBER_OF",
+     "object": "清风山",
+     "evidence": "请宋江、花荣当中坐定，三个好汉对席相陪",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黄信",
+     "predicate": "FOUGHT",
+     "object": "燕顺",
+     "evidence": "黄信拍马舞剑直奔燕顺。三个好汉一齐挺起朴刀，来战黄信",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "FOUGHT",
+     "object": "王英",
+     "evidence": "三个好汉一齐挺起朴刀，来战黄信",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "FOUGHT",
+     "object": "郑天寿",
+     "evidence": "三个好汉一齐挺起朴刀，来战黄信",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕顺",
+     "predicate": "DEFEATED",
+     "object": "黄信",
+     "evidence": "黄信怕吃他三个拿了，坏了名声，只得一骑马扑剌剌跑回旧路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕顺",
+     "predicate": "DEFEATED",
+     "object": "刘高",
+     "evidence": "众小喽啰一发向前，拿了刘高，抢了囚车",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "SERVED",
+     "object": "慕容知府",
+     "evidence": "秦明辞了知府，飞身上马，摆开队伍，催趱军兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "NATIVE_OF",
+     "object": "开州",
+     "evidence": "那人原是山后开州人氏，姓秦，讳个明字",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "OWNS",
+     "object": "狼牙棒",
+     "evidence": "使一条狼牙棒，有万夫不当之勇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "OWNS",
+     "object": "点钢枪",
+     "evidence": "花荣在马上擎着铁枪",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黄信",
+     "predicate": "OWNS",
+     "object": "丧门剑",
+     "evidence": "黄信上马，手中横着这口丧门剑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "FOUGHT",
+     "object": "花荣",
+     "evidence": "当下秦明和花荣两个交手，斗到四五十合，不分胜败",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "DEFEATED",
+     "object": "秦明",
+     "evidence": "次后陷马坑里，活捉了秦明",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MASTERMINDED",
+     "object": "清风山之战",
+     "evidence": "原来这般圈套，都是花荣和宋江的计策",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "MASTERMINDED",
+     "object": "清风山之战",
+     "evidence": "原来这般圈套，都是花荣和宋江的计策",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "清风山之战",
+     "evidence": "当时宋江、花荣先定了计策，便叫小喽啰各自去准备",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "PARTICIPATED_IN",
+     "object": "清风山之战",
+     "evidence": "当时宋江、花荣先定了计策，便叫小喽啰各自去准备",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "PARTICIPATED_IN",
+     "object": "清风山之战",
+     "evidence": "再说秦明领兵来到清风山下，离山十里下了寨栅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "清风山之战",
+     "predicate": "OCCURRED_AT",
+     "object": "清风山",
+     "evidence": "再说秦明领兵来到清风山下，离山十里下了寨栅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "ATTACKED",
+     "object": "清风山",
+     "evidence": "秦明领兵来到清风山下，离山十里下了寨栅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "STATIONED_AT",
+     "object": "清风镇",
+     "evidence": "黄信一骑马奔回清风镇上大寨内，便点寨兵人马，紧守四边栅门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "教你做个知寨，掌握一境地方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘高",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "刘知寨也骑着马，身上披挂些戎衣",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "清风山",
+     "evidence": "请宋江、花荣当中坐定，三个好汉对席相陪",
+     "confidence": 0.8
+    },
+    {
+     "subject": "花荣",
+     "predicate": "STATIONED_AT",
+     "object": "清风山",
+     "evidence": "请宋江、花荣当中坐定，三个好汉对席相陪",
+     "confidence": 0.8
+    },
+    {
+     "subject": "秦明",
+     "predicate": "STATIONED_AT",
+     "object": "青州",
+     "evidence": "便差人去请青州指挥司总管本州兵马秦统制",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3160,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "宋押司",
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，清风山好汉，后为梁山首领"
+    },
+    {
+     "name": "秦明",
+     "type": "Person",
+     "aliases": [
+      "秦统制"
+     ],
+     "nickname": "霹雳火",
+     "description": "青州兵马总管，被擒后归顺清风山"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "清风寨知寨，宋江好友"
+    },
+    {
+     "name": "黄信",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "镇三山",
+     "description": "青州兵马都监，秦明徒弟，后归顺"
+    },
+    {
+     "name": "燕顺",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "锦毛虎",
+     "description": "清风山山寨之主"
+    },
+    {
+     "name": "王英",
+     "type": "Person",
+     "aliases": [
+      "王矮虎"
+     ],
+     "nickname": "矮脚虎",
+     "description": "清风山山寨之主"
+    },
+    {
+     "name": "郑天寿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "白面郎君",
+     "description": "清风山山寨之主"
+    },
+    {
+     "name": "慕容知府",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州知府，秦明上司"
+    },
+    {
+     "name": "清风山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕顺、王英、郑天寿等落草的山寨"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州府，秦明任职地"
+    },
+    {
+     "name": "清风寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州辖下寨堡，花荣、黄信驻守"
+    },
+    {
+     "name": "清风镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "清风寨所在镇"
+    },
+    {
+     "name": "瓦砾场",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州城外被烧杀的废墟"
+    },
+    {
+     "name": "狼牙棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦明所用兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "花荣",
+     "predicate": "SWORN_BROTHER",
+     "object": "宋江",
+     "evidence": "这位是花荣的哥哥，郓城县宋押司宋江的便是",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "MASTER_OF",
+     "object": "黄信",
+     "evidence": "二者是秦明教他的武艺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "FRIEND",
+     "object": "黄信",
+     "evidence": "三乃和我过的最好",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "SERVED",
+     "object": "慕容知府",
+     "evidence": "容秦明回州去对慕容知府说知此事",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MASTERMINDED",
+     "object": "青州城外烧杀",
+     "evidence": "却是宋江定出这条计来，叫小卒似总管模样的……点拨红头子杀人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青州城外烧杀",
+     "predicate": "OCCURRED_AT",
+     "object": "瓦砾场",
+     "evidence": "原来旧有数百人家，却都被火烧做白地，一片瓦砾场上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "PARTICIPATED_IN",
+     "object": "青州城外烧杀",
+     "evidence": "秦明因折了人马，又被这厮们捉了上山去，方才得脱，昨夜何曾来打城子",
+     "confidence": 0.7
+    },
+    {
+     "subject": "慕容知府",
+     "predicate": "KILLED",
+     "object": "秦明妻子",
+     "evidence": "你的妻子今早已都杀了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "SPOUSE",
+     "object": "秦明妻子",
+     "evidence": "你的妻子今早已都杀了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RECRUITED",
+     "object": "秦明",
+     "evidence": "宋江情愿主婚，陪备财礼，与总管为室……秦明见众人如此相敬相爱，方才放心归顺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "MEMBER_OF",
+     "object": "清风山",
+     "evidence": "我今次也在山寨入了伙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "RECRUITED",
+     "object": "黄信",
+     "evidence": "明日我便先去叫开栅门，一席话说他入伙投降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "MEMBER_OF",
+     "object": "清风山",
+     "evidence": "既然恩官在彼，黄信安敢不从",
+     "confidence": 0.85
+    },
+    {
+     "subject": "秦明",
+     "predicate": "OWNS",
+     "object": "狼牙棒",
+     "evidence": "取出头盔、衣甲与秦明披挂了，牵过那匹马来，并狼牙棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "清风山",
+     "evidence": "他如今见在清风山上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "花知寨有一妹",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黄信",
+     "predicate": "STATIONED_AT",
+     "object": "清风镇",
+     "evidence": "黄信自到清风镇上，发放镇上军民",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "STATIONED_AT",
+     "object": "青州",
+     "evidence": "秦明因折了人马，又被这厮们捉了上山去",
+     "confidence": 0.8
+    },
+    {
+     "subject": "清风山",
+     "predicate": "ATTACKED",
+     "object": "青州",
+     "evidence": "昨夜引人马来打城子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "ATTACKED",
+     "object": "清风寨",
+     "evidence": "商议打清风寨一事",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:33.614Z"
+}

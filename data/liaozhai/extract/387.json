@@ -1,0 +1,94 @@
+{
+ "no": 387,
+ "title": "王货郎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 309,
+   "entities": [
+    {
+     "name": "阿大",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "小二之兄，已死，引弟作证"
+    },
+    {
+     "name": "某翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南卖酒人，小二之父"
+    },
+    {
+     "name": "第主",
+     "type": "Person",
+     "aliases": [
+      "主人"
+     ],
+     "nickname": "",
+     "description": "村中屋主，送小二归"
+    },
+    {
+     "name": "王货郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "皂役嘱托小二提及之人"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，某翁籍贯"
+    },
+    {
+     "name": "齐河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，小二前往索债处"
+    },
+    {
+     "name": "太山下",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "泰山脚下，冥府官衙所在"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间官府，疑案审理处"
+    },
+    {
+     "name": "冥府疑案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府一桩需小二作证的疑案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冥府疑案",
+     "predicate": "OCCURRED_AT",
+     "object": "冥府",
+     "evidence": "冥府一疑案",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某翁",
+     "predicate": "NATIVE_OF",
+     "object": "济南",
+     "evidence": "济南业酒人某翁",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:36.748Z"
+}

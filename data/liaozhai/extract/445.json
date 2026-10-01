@@ -1,0 +1,92 @@
+{
+ "no": 445,
+ "title": "鬼隶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 240,
+   "entities": [
+    {
+     "name": "历城县二隶",
+     "type": "Person",
+     "aliases": [
+      "二隶"
+     ],
+     "nickname": "",
+     "description": "历城县差役，奉韩承宣命出差，途中遇鬼隶得免于难"
+    },
+    {
+     "name": "韩承宣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "历城县令，派二隶出差"
+    },
+    {
+     "name": "城隍鬼隶",
+     "type": "Spirit",
+     "aliases": [
+      "鬼隶",
+      "郡役"
+     ],
+     "nickname": "",
+     "description": "城隍手下鬼差，投公文报济南大劫"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [
+      "济城"
+     ],
+     "nickname": "",
+     "description": "地名，发生大劫屠城"
+    },
+    {
+     "name": "东岳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东岳大帝处所，鬼隶投公文之地"
+    },
+    {
+     "name": "济南大劫",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南遭北兵屠城，死近百万"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "历城县二隶",
+     "predicate": "PARTICIPATED_IN",
+     "object": "济南大劫",
+     "evidence": "二人亡匿得免。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "济南大劫",
+     "predicate": "OCCURRED_AT",
+     "object": "济南",
+     "evidence": "北兵大至，屠济南，扛尸百万。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "城隍鬼隶",
+     "predicate": "HELPED",
+     "object": "历城县二隶",
+     "evidence": "鬼曰：“违误限期罪小，入遭劫数祸大。宜他避，姑勿归。”隶从之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩承宣",
+     "predicate": "HELPED",
+     "object": "历城县二隶",
+     "evidence": "奉邑令韩承宣命，营干他郡",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:01.587Z"
+}

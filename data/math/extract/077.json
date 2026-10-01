@@ -1,0 +1,326 @@
+{
+ "no": 77,
+ "title": "8.1 平行四边形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6110,
+   "entities": [
+    {
+     "name": "平行四边形",
+     "type": "Concept",
+     "aliases": [
+      "▱"
+     ],
+     "nickname": "",
+     "description": "两组对边分别平行的四边形"
+    },
+    {
+     "name": "平行四边形的性质定理1",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "平行四边形的对边相等，对角相等"
+    },
+    {
+     "name": "平行四边形的性质定理2",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "平行四边形的对角线互相平分"
+    },
+    {
+     "name": "平行四边形的判定定理1",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两组对边分别相等的四边形是平行四边形"
+    },
+    {
+     "name": "平行四边形的判定定理2",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组对边平行且相等的四边形是平行四边形"
+    },
+    {
+     "name": "平行四边形的判定定理3",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "对角线互相平分的四边形是平行四边形"
+    },
+    {
+     "name": "全等三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的两个三角形"
+    },
+    {
+     "name": "平行线的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两直线平行，同位角相等、内错角相等、同旁内角互补"
+    },
+    {
+     "name": "中心对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形绕某点旋转180°后与自身重合"
+    },
+    {
+     "name": "矩形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的平行四边形"
+    },
+    {
+     "name": "菱形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一组邻边相等的平行四边形"
+    },
+    {
+     "name": "正方形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一组邻边相等且有一个角是直角的平行四边形"
+    },
+    {
+     "name": "图形变换",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从平移、旋转、轴对称等角度研究图形"
+    },
+    {
+     "name": "四边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由四条线段首尾顺次相接围成的平面图形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "全等三角形",
+     "predicate": "PREREQUISITE",
+     "object": "平行四边形",
+     "evidence": "全等三角形、平行线的性质等是研究平行四边形的基本工具",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行线的性质",
+     "predicate": "PREREQUISITE",
+     "object": "平行四边形",
+     "evidence": "全等三角形、平行线的性质等是研究平行四边形的基本工具",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "INCLUDES",
+     "object": "矩形",
+     "evidence": "要注意平行四边形与特殊平行四边形（矩形、菱形、正方形）之间的关系",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "INCLUDES",
+     "object": "菱形",
+     "evidence": "要注意平行四边形与特殊平行四边形（矩形、菱形、正方形）之间的关系",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "INCLUDES",
+     "object": "正方形",
+     "evidence": "要注意平行四边形与特殊平行四边形（矩形、菱形、正方形）之间的关系",
+     "confidence": 0.95
+    },
+    {
+     "subject": "矩形",
+     "predicate": "SPECIAL_CASE",
+     "object": "平行四边形",
+     "evidence": "要注意平行四边形与特殊平行四边形（矩形、菱形、正方形）之间的关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菱形",
+     "predicate": "SPECIAL_CASE",
+     "object": "平行四边形",
+     "evidence": "要注意平行四边形与特殊平行四边形（矩形、菱形、正方形）之间的关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "平行四边形",
+     "evidence": "要注意平行四边形与特殊平行四边形（矩形、菱形、正方形）之间的关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "图形变换",
+     "predicate": "APPLIES_TO",
+     "object": "平行四边形",
+     "evidence": "还可以从图形变换的角度研究平行四边形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行四边形的性质定理1",
+     "predicate": "PROPERTY_OF",
+     "object": "平行四边形",
+     "evidence": "平行四边形的对边相等，对角相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形的性质定理2",
+     "predicate": "PROPERTY_OF",
+     "object": "平行四边形",
+     "evidence": "平行四边形的对角线互相平分",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形的判定定理1",
+     "predicate": "PROPERTY_OF",
+     "object": "平行四边形",
+     "evidence": "两组对边分别相等的四边形是平行四边形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形的判定定理2",
+     "predicate": "PROPERTY_OF",
+     "object": "平行四边形",
+     "evidence": "一组对边平行且相等的四边形是平行四边形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形的判定定理3",
+     "predicate": "PROPERTY_OF",
+     "object": "平行四边形",
+     "evidence": "对角线互相平分的四边形是平行四边形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平行四边形",
+     "predicate": "RELATED",
+     "object": "中心对称",
+     "evidence": "平行四边形是中心对称图形，对角线的交点是对称中心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四边形",
+     "predicate": "INCLUDES",
+     "object": "平行四边形",
+     "evidence": "两组对边分别平行的四边形叫作平行四边形",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 688,
+   "entities": [
+    {
+     "name": "平行四边形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两组对边分别平行的四边形"
+    },
+    {
+     "name": "对角线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "连接四边形不相邻两个顶点的线段"
+    },
+    {
+     "name": "中线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形顶点与对边中点的连线"
+    },
+    {
+     "name": "垂直",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条直线相交成直角"
+    },
+    {
+     "name": "中点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "线段上到两端点距离相等的点"
+    },
+    {
+     "name": "平行",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "同一平面内不相交的两条直线"
+    },
+    {
+     "name": "直尺和圆规作图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用无刻度直尺和圆规作几何图形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平行四边形",
+     "predicate": "INCLUDES",
+     "object": "对角线",
+     "evidence": "在平行四边形ABCD中，对角线AC，BD相交于点O",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形",
+     "predicate": "INCLUDES",
+     "object": "中线",
+     "evidence": "AD是三角形ABC的中线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "垂直",
+     "predicate": "RELATED",
+     "object": "平行四边形",
+     "evidence": "EO垂直于BD，垂足为O",
+     "confidence": 0.8
+    },
+    {
+     "subject": "中点",
+     "predicate": "RELATED",
+     "object": "平行四边形",
+     "evidence": "G，H分别是OB，OD的中点",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平行",
+     "predicate": "RELATED",
+     "object": "平行四边形",
+     "evidence": "AB平行于CD",
+     "confidence": 0.8
+    },
+    {
+     "subject": "直尺和圆规作图",
+     "predicate": "APPLIES_TO",
+     "object": "平行四边形",
+     "evidence": "用直尺和圆规作图：延长AD到点E，使DE=AD，连接BE，CE",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:07.448Z"
+}

@@ -1,0 +1,977 @@
+{
+ "no": 65,
+ "title": "贾二舍偷娶尤二姨 尤三姐思嫁柳二郎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5704,
+   "entities": [
+    {
+     "name": "贾琏",
+     "type": "Person",
+     "aliases": [
+      "琏二爷",
+      "琏二哥"
+     ],
+     "nickname": "",
+     "description": "贾府二爷，偷娶尤二姐为二房"
+    },
+    {
+     "name": "贾珍",
+     "type": "Person",
+     "aliases": [
+      "珍大爷",
+      "珍哥儿"
+     ],
+     "nickname": "",
+     "description": "贾府珍大爷，与尤氏姐妹有染"
+    },
+    {
+     "name": "贾蓉",
+     "type": "Person",
+     "aliases": [
+      "蓉哥儿",
+      "小蓉大爷"
+     ],
+     "nickname": "",
+     "description": "贾珍之子，参与撮合贾琏与尤二姐"
+    },
+    {
+     "name": "尤二姐",
+     "type": "Person",
+     "aliases": [
+      "二姐"
+     ],
+     "nickname": "",
+     "description": "贾琏偷娶的二房，性情温柔和顺"
+    },
+    {
+     "name": "尤三姐",
+     "type": "Person",
+     "aliases": [
+      "三姐"
+     ],
+     "nickname": "",
+     "description": "尤二姐之妹，风流标致，性格刚烈"
+    },
+    {
+     "name": "尤老",
+     "type": "Person",
+     "aliases": [
+      "尤老娘"
+     ],
+     "nickname": "",
+     "description": "尤二姐、尤三姐之母"
+    },
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤姐",
+      "琏二奶奶",
+      "凤辣子",
+      "凤丫头",
+      "泼皮破落户"
+     ],
+     "nickname": "",
+     "description": "贾琏之妻，心狠手辣，口尖舌利"
+    },
+    {
+     "name": "平儿",
+     "type": "Person",
+     "aliases": [
+      "平姑娘"
+     ],
+     "nickname": "",
+     "description": "王熙凤的丫鬟，为人善良"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "",
+     "description": "贾府老祖宗，地位尊崇"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，贾宝玉之母"
+    },
+    {
+     "name": "邢夫人",
+     "type": "Person",
+     "aliases": [
+      "大太太"
+     ],
+     "nickname": "",
+     "description": "贾赦之妻，王熙凤的婆婆"
+    },
+    {
+     "name": "鲍二",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾琏的仆人，服侍尤二姐"
+    },
+    {
+     "name": "鲍二家的",
+     "type": "Person",
+     "aliases": [
+      "鲍二女人"
+     ],
+     "nickname": "",
+     "description": "鲍二之妻，在尤二姐处帮厨"
+    },
+    {
+     "name": "兴儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾琏的心腹小厮"
+    },
+    {
+     "name": "隆儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾琏的心腹小童"
+    },
+    {
+     "name": "喜儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾珍的小厮"
+    },
+    {
+     "name": "寿儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾珍的小厮"
+    },
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "宝玉",
+      "宝二爷",
+      "怡红公子",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "",
+     "description": "贾府公子，被误认为尤三姐心仪之人"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "荣府"
+     ],
+     "nickname": "",
+     "description": "贾府之一，贾琏、王熙凤等居所"
+    },
+    {
+     "name": "铁槛寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府家庙，贾珍曾在此作佛事"
+    },
+    {
+     "name": "新房",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾琏偷娶尤二姐的宅院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾琏",
+     "predicate": "SPOUSE",
+     "object": "尤二姐",
+     "evidence": "是夜贾琏同她颠鸾倒凤，百般恩爱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "SPOUSE",
+     "object": "王熙凤",
+     "evidence": "竟将凤姐一笔勾倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尤二姐",
+     "predicate": "KIN",
+     "object": "尤三姐",
+     "evidence": "她母女三人一处吃饭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尤二姐",
+     "predicate": "KIN",
+     "object": "尤老",
+     "evidence": "她母女三人一处吃饭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尤三姐",
+     "predicate": "KIN",
+     "object": "尤老",
+     "evidence": "她母女三人一处吃饭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "KIN",
+     "object": "贾蓉",
+     "evidence": "贾琏、贾珍、贾蓉等三人商议",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "KIN",
+     "object": "贾珍",
+     "evidence": "我们弟兄，不比别人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾蓉",
+     "predicate": "KIN",
+     "object": "贾珍",
+     "evidence": "贾琏、贾珍、贾蓉等三人商议",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "KIN",
+     "object": "贾琏",
+     "evidence": "竟将凤姐一笔勾倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "倒是跟前的平姑娘为人很好，虽然和奶奶一气",
+     "confidence": 0.95
+    },
+    {
+     "subject": "兴儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾琏",
+     "evidence": "忽见贾琏的心腹小厮兴儿走来请贾琏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "隆儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾琏",
+     "evidence": "贾琏的心腹小童隆儿拴马去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "喜儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾珍",
+     "evidence": "只见喜儿、寿儿两个正在那里坐着吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寿儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾珍",
+     "evidence": "只见喜儿、寿儿两个正在那里坐着吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲍二",
+     "predicate": "SERVANT_OF",
+     "object": "贾琏",
+     "evidence": "鲍二来请安",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲍二家的",
+     "predicate": "SERVANT_OF",
+     "object": "贾琏",
+     "evidence": "鲍二家的端上酒来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "我是二门上该班的人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "如今合家大小，除了老太太、太太两个人，没有不恨她的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "STATIONED_AT",
+     "object": "铁槛寺",
+     "evidence": "贾珍在铁槛寺作完佛事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "STATIONED_AT",
+     "object": "新房",
+     "evidence": "一时到了新房，已是掌灯时分",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尤二姐",
+     "predicate": "STATIONED_AT",
+     "object": "新房",
+     "evidence": "先将尤老和三姐送入新房",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尤三姐",
+     "predicate": "STATIONED_AT",
+     "object": "新房",
+     "evidence": "先将尤老和三姐送入新房",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尤老",
+     "predicate": "STATIONED_AT",
+     "object": "新房",
+     "evidence": "先将尤老和三姐送入新房",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "OWNS",
+     "object": "梯己",
+     "evidence": "贾琏又将自己积年所有的梯己，一并搬了与二姐收着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "LOVES",
+     "object": "尤二姐",
+     "evidence": "那贾琏越看越爱，越瞧越喜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尤二姐",
+     "predicate": "LOVES",
+     "object": "贾琏",
+     "evidence": "无奈二姐倒是个多情人，以为贾琏是终身之主了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "QUARRELED",
+     "object": "尤三姐",
+     "evidence": "尤三姐站在炕上，指贾琏笑道",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "QUARRELED",
+     "object": "尤三姐",
+     "evidence": "尤三姐站在炕上，指贾琏笑道",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "PARTICIPATED_IN",
+     "object": "偷娶尤二姐",
+     "evidence": "贾二舍偷娶尤二姨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "PARTICIPATED_IN",
+     "object": "偷娶尤二姐",
+     "evidence": "贾琏、贾珍、贾蓉等三人商议",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾蓉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "偷娶尤二姐",
+     "evidence": "贾琏、贾珍、贾蓉等三人商议",
+     "confidence": 0.9
+    },
+    {
+     "subject": "偷娶尤二姐",
+     "predicate": "OCCURRED_AT",
+     "object": "新房",
+     "evidence": "先将尤老和三姐送入新房",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1207,
+   "entities": [
+    {
+     "name": "林黛玉",
+     "type": "Person",
+     "aliases": [
+      "黛玉",
+      "林妹妹",
+      "颦儿",
+      "潇湘妃子",
+      "绛珠仙子"
+     ],
+     "nickname": "多病西施",
+     "description": "姑太太之女，体弱多病，文采出众"
+    },
+    {
+     "name": "薛宝钗",
+     "type": "Person",
+     "aliases": [
+      "宝钗",
+      "宝姐姐",
+      "宝丫头",
+      "蘅芜君"
+     ],
+     "nickname": "",
+     "description": "姨太太之女，容貌丰美，举止端庄"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "",
+     "description": "贾府最高长辈，慈爱持家"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，宝玉之母"
+    },
+    {
+     "name": "贾珍",
+     "type": "Person",
+     "aliases": [
+      "珍大爷",
+      "珍哥儿"
+     ],
+     "nickname": "",
+     "description": "宁国府当家，惜春亲兄"
+    },
+    {
+     "name": "尤氏",
+     "type": "Person",
+     "aliases": [
+      "珍大奶奶"
+     ],
+     "nickname": "",
+     "description": "贾珍之妻，宁国府当家奶奶"
+    },
+    {
+     "name": "贾迎春",
+     "type": "Person",
+     "aliases": [
+      "二姑娘",
+      "迎春",
+      "二姐姐"
+     ],
+     "nickname": "二木头",
+     "description": "贾赦之女，性格懦弱"
+    },
+    {
+     "name": "贾探春",
+     "type": "Person",
+     "aliases": [
+      "三姑娘",
+      "探春",
+      "三妹妹",
+      "蕉下客"
+     ],
+     "nickname": "玫瑰花",
+     "description": "贾政与赵姨娘之女，精明能干"
+    },
+    {
+     "name": "贾惜春",
+     "type": "Person",
+     "aliases": [
+      "四姑娘",
+      "惜春",
+      "四妹妹",
+      "藕榭"
+     ],
+     "nickname": "",
+     "description": "贾珍亲妹，年幼不管事"
+    },
+    {
+     "name": "李纨",
+     "type": "Person",
+     "aliases": [
+      "大奶奶",
+      "珠大嫂子",
+      "稻香老农"
+     ],
+     "nickname": "大菩萨",
+     "description": "贾珠遗孀，善德人，暂管家务"
+    },
+    {
+     "name": "薛姨妈",
+     "type": "Person",
+     "aliases": [
+      "姨太太"
+     ],
+     "nickname": "",
+     "description": "王夫人之妹，宝钗之母"
+    },
+    {
+     "name": "尤二姐",
+     "type": "Person",
+     "aliases": [
+      "二姐"
+     ],
+     "nickname": "",
+     "description": "贾琏偷娶的二房"
+    },
+    {
+     "name": "平儿",
+     "type": "Person",
+     "aliases": [
+      "平姑娘"
+     ],
+     "nickname": "",
+     "description": "王熙凤自幼丫头，贾琏之妾"
+    },
+    {
+     "name": "兴儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾琏的小厮，口齿伶俐"
+    },
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤姐",
+      "琏二奶奶"
+     ],
+     "nickname": "醋缸醋瓮",
+     "description": "贾琏之妻，泼辣善妒"
+    },
+    {
+     "name": "贾琏",
+     "type": "Person",
+     "aliases": [
+      "二爷",
+      "琏二爷"
+     ],
+     "nickname": "",
+     "description": "王熙凤之夫，偷娶尤二姐"
+    },
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "宝玉",
+      "宝二爷"
+     ],
+     "nickname": "",
+     "description": "贾政与王夫人之子"
+    },
+    {
+     "name": "贾府",
+     "type": "Organization",
+     "aliases": [
+      "贾家"
+     ],
+     "nickname": "",
+     "description": "宁荣二府家族"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾政、贾母等居住的府第"
+    },
+    {
+     "name": "宁国府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾珍、尤氏等居住的府第"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "兴儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾琏",
+     "evidence": "兴儿道：'不是小的吃了酒，放肆胡说……'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平儿",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "这平儿是她自幼的丫头，陪了过来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾琏",
+     "evidence": "强逼着平姑娘作了房里人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "SPOUSE",
+     "object": "贾琏",
+     "evidence": "凡丫头们，二爷多看一眼，她有本事当着爷打个烂羊头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尤二姐",
+     "predicate": "SPOUSE",
+     "object": "贾琏",
+     "evidence": "贾二舍偷娶尤二姨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李纨",
+     "predicate": "KIN",
+     "object": "贾珠",
+     "evidence": "我们家的寡妇奶奶……珠大嫂子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾迎春",
+     "predicate": "KIN",
+     "object": "贾赦",
+     "evidence": "二姑娘的诨名是'二木头'",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾探春",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "可惜不是太太养的，'老鸹窝里出凤凰'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾惜春",
+     "predicate": "KIN",
+     "object": "贾珍",
+     "evidence": "她正经是珍大爷亲妹子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾探春",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "我们家的姑娘不算，另外有两个姑娘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾迎春",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "我们家的姑娘不算，另外有两个姑娘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾惜春",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "我们家的姑娘不算，另外有两个姑娘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "一个是咱们姑太太的女儿，姓林，小名儿叫什么黛玉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "还有一位姨太太的女儿，姓薛，叫什么宝钗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "LEADS",
+     "object": "荣国府",
+     "evidence": "老太太命太太抱过来，养这么大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "老太太命太太抱过来，养这么大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "LEADS",
+     "object": "宁国府",
+     "evidence": "她正经是珍大爷亲妹子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尤氏",
+     "predicate": "MEMBER_OF",
+     "object": "宁国府",
+     "evidence": "尤氏笑道：'我只以礼待她，她敢怎样！'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李纨",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "这大奶奶暂管几日",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "一个是咱们姑太太的女儿，姓林，小名儿叫什么黛玉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "KIN",
+     "object": "薛姨妈",
+     "evidence": "还有一位姨太太的女儿，姓薛，叫什么宝钗",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "还有一位姨太太的女儿，姓薛，叫什么宝钗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾探春",
+     "predicate": "KIN",
+     "object": "贾宝玉",
+     "evidence": "可惜不是太太养的，'老鸹窝里出凤凰'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾迎春",
+     "predicate": "KIN",
+     "object": "贾宝玉",
+     "evidence": "二姑娘的诨名是'二木头'",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾惜春",
+     "predicate": "KIN",
+     "object": "贾宝玉",
+     "evidence": "四姑娘小，她正经是珍大爷亲妹子",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾探春",
+     "predicate": "KIN",
+     "object": "贾环",
+     "evidence": "可惜不是太太养的，'老鸹窝里出凤凰'",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾探春",
+     "predicate": "KIN",
+     "object": "赵姨娘",
+     "evidence": "可惜不是太太养的，'老鸹窝里出凤凰'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "QUARRELED",
+     "object": "平儿",
+     "evidence": "气得平姑娘性子发了，哭闹一阵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "FRAMED",
+     "object": "贾琏",
+     "evidence": "二爷原有两个，谁知她来了没半年，都寻出不是来，都打发出去了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "FRAMED",
+     "object": "平儿",
+     "evidence": "强逼着平姑娘作了房里人",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾母",
+     "predicate": "RESCUED",
+     "object": "贾惜春",
+     "evidence": "老太太命太太抱过来，养这么大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "RESCUED",
+     "object": "贾惜春",
+     "evidence": "老太太命太太抱过来，养这么大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "老太太命太太抱过来，养这么大",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李纨",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "这大奶奶暂管几日",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾探春",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "我们家的姑娘不算，另外有两个姑娘",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾迎春",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "我们家的姑娘不算，另外有两个姑娘",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾惜春",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "我们家的姑娘不算，另外有两个姑娘",
+     "confidence": 0.8
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "一个是咱们姑太太的女儿，姓林，小名儿叫什么黛玉",
+     "confidence": 0.8
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "还有一位姨太太的女儿，姓薛，叫什么宝钗",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "二爷原有两个，谁知她来了没半年，都寻出不是来，都打发出去了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "凡丫头们，二爷多看一眼，她有本事当着爷打个烂羊头",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "这平儿是她自幼的丫头，陪了过来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "兴儿",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "兴儿道：'不是小的吃了酒，放肆胡说……'",
+     "confidence": 0.8
+    },
+    {
+     "subject": "尤二姐",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "贾二舍偷娶尤二姨",
+     "confidence": 0.8
+    },
+    {
+     "subject": "尤氏",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "尤氏笑道：'我只以礼待她，她敢怎样！'",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "她正经是珍大爷亲妹子",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "老太太命太太抱过来，养这么大",
+     "confidence": 0.8
+    },
+    {
+     "subject": "薛姨妈",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "还有一位姨太太的女儿，姓薛，叫什么宝钗",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "SERVANT_OF",
+     "object": "贾府",
+     "evidence": "凡丫头们，二爷多看一眼，她有本事当着爷打个烂羊头",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:55:44.361Z"
+}

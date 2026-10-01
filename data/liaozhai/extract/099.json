@@ -1,0 +1,216 @@
+{
+ "no": 99,
+ "title": "白于玉",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2716,
+   "entities": [
+    {
+     "name": "吴青庵",
+     "type": "Person",
+     "aliases": [
+      "吴筠",
+      "吴生"
+     ],
+     "nickname": "",
+     "description": "字青庵，才子，后离家寻仙"
+    },
+    {
+     "name": "白于玉",
+     "type": "Spirit",
+     "aliases": [
+      "白生",
+      "白氏"
+     ],
+     "nickname": "",
+     "description": "秀才，实为仙人，字于玉"
+    },
+    {
+     "name": "葛太史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "官员，赏识吴生，许女"
+    },
+    {
+     "name": "葛氏女",
+     "type": "Person",
+     "aliases": [
+      "琳娘"
+     ],
+     "nickname": "",
+     "description": "葛太史之女，后嫁吴生"
+    },
+    {
+     "name": "紫衣人",
+     "type": "Spirit",
+     "aliases": [
+      "紫衣姬"
+     ],
+     "nickname": "",
+     "description": "白于玉宫中仙女，与吴生有情"
+    },
+    {
+     "name": "吴梦仙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴生与紫衣人之子，神童"
+    },
+    {
+     "name": "王母",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙界王母，宫中有佳丽"
+    },
+    {
+     "name": "广寒宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "月宫，水晶为阶"
+    },
+    {
+     "name": "天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天界入口，有巨虎蹲伏"
+    },
+    {
+     "name": "金腕钏",
+     "type": "Item",
+     "aliases": [
+      "金钏"
+     ],
+     "nickname": "",
+     "description": "紫衣人赠吴生的金镯子，有灵性"
+    },
+    {
+     "name": "黄庭",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道家经典，白于玉授吴生"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴青庵",
+     "predicate": "LOVES",
+     "object": "葛氏女",
+     "evidence": "生闻大喜，确自信。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "SPOUSE",
+     "object": "葛氏女",
+     "evidence": "遂诹日备车马妆奁，嫔于生家。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "FRIEND",
+     "object": "白于玉",
+     "evidence": "遂共晨夕，忻然相得。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白于玉",
+     "predicate": "HELPED",
+     "object": "吴青庵",
+     "evidence": "出一卷授生，皆吐纳之术",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "LOVES",
+     "object": "紫衣人",
+     "evidence": "白以紫衣人有把臂之好，遂使襆被奉客。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "SPOUSE",
+     "object": "紫衣人",
+     "evidence": "前一度为合卺，今一度为永诀，百年夫妇，尽于此矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "紫衣人",
+     "predicate": "HELPED",
+     "object": "吴青庵",
+     "evidence": "怀中绷婴儿曰：‘此君骨肉。天上难留此物，敬持送君。’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "KIN",
+     "object": "吴梦仙",
+     "evidence": "此君骨肉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "紫衣人",
+     "predicate": "KIN",
+     "object": "吴梦仙",
+     "evidence": "此君骨肉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "葛氏女",
+     "predicate": "KIN",
+     "object": "吴梦仙",
+     "evidence": "女外理生计，内训孤儿，井井有法。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "葛太史",
+     "predicate": "KIN",
+     "object": "葛氏女",
+     "evidence": "时太史有女绝美。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "LIVES_AT",
+     "object": "天门",
+     "evidence": "此天门也。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "OWNS",
+     "object": "金腕钏",
+     "evidence": "女脱金腕钏付之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "OWNS",
+     "object": "黄庭",
+     "evidence": "曩所授，乃《黄庭》之要道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴青庵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "秋闱",
+     "evidence": "既而秋闱被黜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴梦仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "十四岁，以神童领乡荐，十五入翰林。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:52.062Z"
+}

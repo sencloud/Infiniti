@@ -1,0 +1,201 @@
+{
+ "no": 40,
+ "title": "画皮",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1673,
+   "entities": [
+    {
+     "name": "王生",
+     "type": "Person",
+     "aliases": [
+      "太原王生"
+     ],
+     "nickname": "",
+     "description": "太原书生，被画皮鬼所害"
+    },
+    {
+     "name": "女郎",
+     "type": "Spirit",
+     "aliases": [
+      "狞鬼",
+      "厉鬼",
+      "画皮鬼"
+     ],
+     "nickname": "",
+     "description": "披人皮的恶鬼，伪装成逃难女子"
+    },
+    {
+     "name": "陈氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王生之妻，食唾救夫"
+    },
+    {
+     "name": "疯者",
+     "type": "Person",
+     "aliases": [
+      "乞人",
+      "乞丐"
+     ],
+     "nickname": "",
+     "description": "市上疯乞丐，实为仙人，救活王生"
+    },
+    {
+     "name": "太原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王生籍贯所在地"
+    },
+    {
+     "name": "青帝庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士与王生约定见面之处"
+    },
+    {
+     "name": "王生斋",
+     "type": "Place",
+     "aliases": [
+      "斋"
+     ],
+     "nickname": "",
+     "description": "王生的书房，藏匿女郎之处"
+    },
+    {
+     "name": "王生内室",
+     "type": "Place",
+     "aliases": [
+      "内室"
+     ],
+     "nickname": "",
+     "description": "王生家中卧室，悬拂尘处"
+    },
+    {
+     "name": "二郎家",
+     "type": "Place",
+     "aliases": [
+      "南院"
+     ],
+     "nickname": "",
+     "description": "王二郎的房舍，鬼化妪藏身之处"
+    },
+    {
+     "name": "人皮",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "画皮鬼所披的绘彩人皮"
+    },
+    {
+     "name": "蝇拂",
+     "type": "Item",
+     "aliases": [
+      "拂尘",
+      "拂子"
+     ],
+     "nickname": "",
+     "description": "道士授予王生驱鬼的拂尘"
+    },
+    {
+     "name": "木剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士用来斩杀画皮鬼的法器"
+    },
+    {
+     "name": "葫芦",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士用来收服浓烟的法器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王生",
+     "predicate": "NATIVE_OF",
+     "object": "太原",
+     "evidence": "太原王生，早行，遇一女郎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "LOVES",
+     "object": "女郎",
+     "evidence": "心相爱乐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王生",
+     "predicate": "SPOUSE",
+     "object": "女郎",
+     "evidence": "乃与寝合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王生",
+     "predicate": "SPOUSE",
+     "object": "陈氏",
+     "evidence": "生微告妻。妻陈",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "LIVES_AT",
+     "object": "王生斋",
+     "evidence": "敝庐不远，即烦枉顾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王生",
+     "predicate": "LIVES_AT",
+     "object": "王生内室",
+     "evidence": "乃寝内室，悬拂焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "女郎",
+     "predicate": "HARMED",
+     "object": "王生",
+     "evidence": "径登生床，裂生腹，掬生心而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "女郎",
+     "predicate": "KILLED",
+     "object": "王生",
+     "evidence": "生已死，腔血狼藉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "女郎",
+     "predicate": "OWNS",
+     "object": "人皮",
+     "evidence": "铺人皮于榻上，执采笔而绘之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈氏",
+     "predicate": "HELPED",
+     "object": "王生",
+     "evidence": "陈抱尸收肠，且理且哭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "疯者",
+     "predicate": "HELPED",
+     "object": "王生",
+     "evidence": "觉鬲中结物，突奔而出，不及回首，已落腔中。惊而视之，乃人心也",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:30.371Z"
+}

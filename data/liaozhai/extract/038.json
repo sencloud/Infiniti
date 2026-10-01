@@ -1,0 +1,178 @@
+{
+ "no": 38,
+ "title": "王成",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2380,
+   "entities": [
+    {
+     "name": "王成",
+     "type": "Person",
+     "aliases": [
+      "王成者"
+     ],
+     "nickname": "",
+     "description": "平原故家子，性懒，后贩葛、斗鹑致富"
+    },
+    {
+     "name": "狐仙",
+     "type": "Spirit",
+     "aliases": [
+      "妪"
+     ],
+     "nickname": "",
+     "description": "王柬之之狐妻，助王成致富"
+    },
+    {
+     "name": "王柬之",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王成祖父，衡府仪宾，已故"
+    },
+    {
+     "name": "王成妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王成之妻，贫苦，后奉狐仙如姑"
+    },
+    {
+     "name": "店主",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "京城客店主人，助王成贩鹑"
+    },
+    {
+     "name": "大亲王",
+     "type": "Person",
+     "aliases": [
+      "王"
+     ],
+     "nickname": "",
+     "description": "好斗鹑，买王成鹑"
+    },
+    {
+     "name": "平原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王成籍贯地"
+    },
+    {
+     "name": "周氏园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村外废园，王成拾钗处"
+    },
+    {
+     "name": "燕都",
+     "type": "Place",
+     "aliases": [
+      "京城",
+      "都"
+     ],
+     "nickname": "",
+     "description": "王成贩葛、斗鹑之地"
+    },
+    {
+     "name": "金钗",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "镌有仪宾府造，狐仙遗物"
+    },
+    {
+     "name": "玉鹑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "大亲王宫中珍养之鹑，素羽如鹭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "狐仙",
+     "predicate": "SPOUSE",
+     "object": "王柬之",
+     "evidence": "百年前，与君祖缱绻。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王成",
+     "predicate": "KIN",
+     "object": "王柬之",
+     "evidence": "汝即王柬之之孙耶？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王成",
+     "predicate": "SPOUSE",
+     "object": "王成妻",
+     "evidence": "与妻卧牛衣中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王成",
+     "predicate": "NATIVE_OF",
+     "object": "平原",
+     "evidence": "王成，平原故家子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王成",
+     "predicate": "LIVES_AT",
+     "object": "周氏园",
+     "evidence": "村外故有周氏园……王亦在焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "OWNS",
+     "object": "金钗",
+     "evidence": "钗直几何，先夫之遗泽也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "HELPED",
+     "object": "王成",
+     "evidence": "出数金，籴粟麦各石。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "店主",
+     "predicate": "HELPED",
+     "object": "王成",
+     "evidence": "主人亟怂恿之，且约假寓饮食，不取其直。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王成",
+     "predicate": "PARTICIPATED_IN",
+     "object": "斗鹑",
+     "evidence": "适见斗鹑者，一赌辄数千",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大亲王",
+     "predicate": "OWNS",
+     "object": "玉鹑",
+     "evidence": "王急命取宫中玉鹑。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大亲王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "斗鹑",
+     "evidence": "大亲王好鹑，每值上元，辄放民间把鹑者入邸相角。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:27.602Z"
+}

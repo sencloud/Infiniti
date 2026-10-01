@@ -1,0 +1,71 @@
+{
+ "no": 163,
+ "title": "鼠戏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 102,
+   "entities": [
+    {
+     "name": "卖鼠戏者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长安市上表演鼠戏的人"
+    },
+    {
+     "name": "小鼠",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖鼠戏者囊中十余头会演戏的鼠"
+    },
+    {
+     "name": "长安市",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "卖鼠戏者表演鼠戏的街市"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "卖鼠戏者",
+     "predicate": "LIVES_AT",
+     "object": "长安市",
+     "evidence": "一人在长安市上卖鼠戏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卖鼠戏者",
+     "predicate": "OWNS",
+     "object": "小鼠",
+     "evidence": "背负一囊，中蓄小鼠十馀头",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卖鼠戏者",
+     "predicate": "PARTICIPATED_IN",
+     "object": "鼠戏",
+     "evidence": "一人在长安市上卖鼠戏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小鼠",
+     "predicate": "PARTICIPATED_IN",
+     "object": "鼠戏",
+     "evidence": "则有鼠自囊中出，蒙假面，被小装服，自背登楼，人立而舞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鼠戏",
+     "predicate": "OCCURRED_AT",
+     "object": "长安市",
+     "evidence": "一人在长安市上卖鼠戏",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:13.896Z"
+}

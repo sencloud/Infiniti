@@ -1,0 +1,99 @@
+{
+ "no": 297,
+ "title": "放蝶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 352,
+   "entities": [
+    {
+     "name": "王㞳生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长山进士，任县令时罚犯人纳蝶赎罪"
+    },
+    {
+     "name": "蝶女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "梦中女子，化为蝴蝶，因虐政而惩罚王㞳生"
+    },
+    {
+     "name": "于重寅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青城人，性放诞，任司理时以火驴惊吓太守之子致死"
+    },
+    {
+     "name": "太守",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "于重寅故事中的太守，其爱子因火驴惊吓而死"
+    },
+    {
+     "name": "太守爱子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "太守之子，患痘时受火驴惊吓，终夜而死"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王㞳生的籍贯或任职地"
+    },
+    {
+     "name": "青城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，于重寅的籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王㞳生",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山王进士㞳生为令时",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蝶女",
+     "predicate": "HARMED",
+     "object": "王㞳生",
+     "evidence": "当使君先受风流之小谴耳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于重寅",
+     "predicate": "NATIVE_OF",
+     "object": "青城",
+     "evidence": "青城于重寅，性放诞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于重寅",
+     "predicate": "HARMED",
+     "object": "太守爱子",
+     "evidence": "痘儿惊陷，终夜而死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太守",
+     "predicate": "KIN",
+     "object": "太守爱子",
+     "evidence": "时太守有爱子患痘",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:05.061Z"
+}

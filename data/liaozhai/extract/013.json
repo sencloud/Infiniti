@@ -1,0 +1,108 @@
+{
+ "no": 13,
+ "title": "偷桃",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 871,
+   "entities": [
+    {
+     "name": "术人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "偷桃篇中变戏法的父亲"
+    },
+    {
+     "name": "其子",
+     "type": "Person",
+     "aliases": [
+      "八八儿"
+     ],
+     "nickname": "八八儿",
+     "description": "偷桃篇中术人之子，爬绳上天"
+    },
+    {
+     "name": "王母",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "偷桃篇中天上桃园主人"
+    },
+    {
+     "name": "藩司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "偷桃篇中演春的官署"
+    },
+    {
+     "name": "王母园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "偷桃篇中天上桃园"
+    },
+    {
+     "name": "演春",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "偷桃篇中春节前商贾庆贺活动"
+    },
+    {
+     "name": "偷桃",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "偷桃篇中术人子窃取仙桃之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "术人",
+     "predicate": "KIN",
+     "object": "其子",
+     "evidence": "其子曰：父已诺之，又焉辞？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "术人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "演春",
+     "evidence": "童时赴郡试，值春节。旧例，先一日，各行商贾，彩楼鼓吹赴藩司，名曰“演春”。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "演春",
+     "predicate": "OCCURRED_AT",
+     "object": "藩司",
+     "evidence": "各行商贾，彩楼鼓吹赴藩司，名曰“演春”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "术人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "偷桃",
+     "evidence": "为桃故，杀吾子矣！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "其子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "偷桃",
+     "evidence": "是必偷桃为监者所觉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "偷桃",
+     "predicate": "OCCURRED_AT",
+     "object": "王母园",
+     "evidence": "唯王母园中，四时常不凋谢，或有之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:18.270Z"
+}

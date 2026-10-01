@@ -1,0 +1,78 @@
+{
+ "no": 29,
+ "title": "8.2 单项式乘多项式",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1816,
+   "entities": [
+    {
+     "name": "乘法分配律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "c(a+b)=ca+cb，是单项式乘多项式的依据"
+    },
+    {
+     "name": "单项式乘多项式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "单项式与多项式相乘，先用单项式乘多项式的每一项，再把所得的积相加"
+    },
+    {
+     "name": "单项式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示数或字母的积的代数式"
+    },
+    {
+     "name": "多项式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "几个单项式的和"
+    },
+    {
+     "name": "整式乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式之间的乘法运算"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乘法分配律",
+     "predicate": "PREREQUISITE",
+     "object": "单项式乘多项式",
+     "evidence": "由乘法分配律可以得到单项式乘多项式的法则",
+     "confidence": 0.95
+    },
+    {
+     "subject": "单项式乘多项式",
+     "predicate": "INCLUDES",
+     "object": "整式乘法",
+     "evidence": "由乘法分配律可以得到单项式乘多项式的法则",
+     "confidence": 0.9
+    },
+    {
+     "subject": "单项式乘多项式",
+     "predicate": "APPLIES_TO",
+     "object": "单项式",
+     "evidence": "单项式与多项式相乘，先用单项式乘多项式的每一项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "单项式乘多项式",
+     "predicate": "APPLIES_TO",
+     "object": "多项式",
+     "evidence": "单项式与多项式相乘，先用单项式乘多项式的每一项",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:41.401Z"
+}

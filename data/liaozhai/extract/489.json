@@ -1,0 +1,166 @@
+{
+ "no": 489,
+ "title": "秦桧",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 254,
+   "entities": [
+    {
+     "name": "冯中堂",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州人，建岳王殿，其祖为秦桧所害"
+    },
+    {
+     "name": "秦桧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋朝奸臣，害死冯中堂之祖"
+    },
+    {
+     "name": "冯中堂之祖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "冯中堂祖父，前身被秦桧害死"
+    },
+    {
+     "name": "岳武穆",
+     "type": "Person",
+     "aliases": [
+      "岳飞"
+     ],
+     "nickname": "",
+     "description": "宋朝名将，冯中堂所敬"
+    },
+    {
+     "name": "万俟卨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦桧同党，跪于岳王殿"
+    },
+    {
+     "name": "澹台子羽",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州祠中所祀古人"
+    },
+    {
+     "name": "魏珰",
+     "type": "Person",
+     "aliases": [
+      "魏忠贤"
+     ],
+     "nickname": "",
+     "description": "权势显赫的太监"
+    },
+    {
+     "name": "岳王殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州城北通衢旁，祀岳飞"
+    },
+    {
+     "name": "子孙娘娘祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "俗祠，后置秦桧、万俟卨像"
+    },
+    {
+     "name": "澹台子羽祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州城内旧祠，后改魏监像"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，故事发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "秦桧",
+     "predicate": "HARMED",
+     "object": "冯中堂之祖",
+     "evidence": "中堂之祖，前身在宋朝为桧所害",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯中堂",
+     "predicate": "LIVES_AT",
+     "object": "青州",
+     "evidence": "青州冯中堂家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯中堂",
+     "predicate": "OWNS",
+     "object": "岳王殿",
+     "evidence": "于青州城北通衢傍建岳王殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "岳王殿",
+     "predicate": "OCCURRED_AT",
+     "object": "青州",
+     "evidence": "于青州城北通衢傍建岳王殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦桧",
+     "predicate": "LIVES_AT",
+     "object": "岳王殿",
+     "evidence": "秦桧、万俟卨伏跪地下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万俟卨",
+     "predicate": "LIVES_AT",
+     "object": "岳王殿",
+     "evidence": "秦桧、万俟卨伏跪地下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦桧",
+     "predicate": "LIVES_AT",
+     "object": "子孙娘娘祠",
+     "evidence": "因舁桧、卨其中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万俟卨",
+     "predicate": "LIVES_AT",
+     "object": "子孙娘娘祠",
+     "evidence": "因舁桧、卨其中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "澹台子羽",
+     "predicate": "LIVES_AT",
+     "object": "澹台子羽祠",
+     "evidence": "旧有澹台子羽祠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏珰",
+     "predicate": "LIVES_AT",
+     "object": "澹台子羽祠",
+     "evidence": "就子羽毁冠去须，改作魏监",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:20.423Z"
+}

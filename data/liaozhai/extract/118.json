@@ -1,0 +1,113 @@
+{
+ "no": 118,
+ "title": "番僧",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 221,
+   "entities": [
+    {
+     "name": "体空",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "和尚，讲述青州番僧故事"
+    },
+    {
+     "name": "番僧甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西域番僧，掌托小塔掷入壁龛"
+    },
+    {
+     "name": "番僧乙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西域番僧，能伸缩臂膀"
+    },
+    {
+     "name": "青州太守",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州太守，重佛，遣隶送番僧"
+    },
+    {
+     "name": "灵辔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "丛林和尚，不甚礼待番僧"
+    },
+    {
+     "name": "执事者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "丛林知事僧，私款番僧"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，故事发生地"
+    },
+    {
+     "name": "丛林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寺院，番僧止宿处"
+    },
+    {
+     "name": "小塔",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "番僧掌中托的小塔，高盈尺"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "番僧甲",
+     "predicate": "LIVES_AT",
+     "object": "丛林",
+     "evidence": "执事者见其人异，私款之，止宿焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "番僧乙",
+     "predicate": "LIVES_AT",
+     "object": "丛林",
+     "evidence": "执事者见其人异，私款之，止宿焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "执事者",
+     "predicate": "HELPED",
+     "object": "番僧甲",
+     "evidence": "执事者见其人异，私款之，止宿焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "执事者",
+     "predicate": "HELPED",
+     "object": "番僧乙",
+     "evidence": "执事者见其人异，私款之，止宿焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "番僧甲",
+     "predicate": "OWNS",
+     "object": "小塔",
+     "evidence": "掌中托小塔，高裁盈尺，玲珑可爱。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:57.954Z"
+}

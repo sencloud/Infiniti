@@ -1,0 +1,392 @@
+{
+ "no": 29,
+ "title": "脱难江流来国土 承恩八戒转山林",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5797,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "唐朝取经僧人，被黄袍怪擒住后得百花羞公主搭救。"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，曾为天蓬元帅，使钉钯，会三十六般变化。"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将，使降妖宝杖。"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "救苦观世音菩萨，曾指示唐僧西行取经。"
+    },
+    {
+     "name": "铁扇公主",
+     "type": "Person",
+     "aliases": [
+      "罗刹女",
+      "铁扇仙",
+      "公主"
+     ],
+     "nickname": "铁扇公主",
+     "description": "翠云山芭蕉洞铁扇仙，牛魔王之妻。"
+    },
+    {
+     "name": "黄袍怪",
+     "type": "Person",
+     "aliases": [
+      "奎木狼",
+      "奎星",
+      "二十八宿之一"
+     ],
+     "nickname": "黄袍怪",
+     "description": "碗子山波月洞妖魔，摄百花羞公主为妻十三年。"
+    },
+    {
+     "name": "清风",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇元大仙道童，与明月同侍五庄观。"
+    },
+    {
+     "name": "明月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇元大仙道童，与清风同侍五庄观。"
+    },
+    {
+     "name": "宝象国国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "父王"
+     ],
+     "nickname": "",
+     "description": "宝象国国王，百花羞公主之父，无子，止生三女。"
+    },
+    {
+     "name": "宝象国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行路上的国度，国王无子，公主被黄袍怪摄去。"
+    },
+    {
+     "name": "波月洞",
+     "type": "Place",
+     "aliases": [
+      "碗子山波月洞"
+     ],
+     "nickname": "",
+     "description": "碗子山波月洞，黄袍怪盘踞的妖洞。"
+    },
+    {
+     "name": "宝象国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行路上的国度，唐僧师徒入城倒换文牒。"
+    },
+    {
+     "name": "大唐",
+     "type": "Organization",
+     "aliases": [
+      "唐朝",
+      "唐国"
+     ],
+     "nickname": "",
+     "description": "唐僧出身的国度，唐天子遣其西行取经。"
+    },
+    {
+     "name": "钉钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒随身兵器，曾在天河水府为帅时使用。"
+    },
+    {
+     "name": "文牒",
+     "type": "Item",
+     "aliases": [
+      "唐天子文牒"
+     ],
+     "nickname": "",
+     "description": "唐天子发给唐僧的取经文牒，上有宝印九颗。"
+    },
+    {
+     "name": "家书",
+     "type": "Item",
+     "aliases": [
+      "百花羞家书"
+     ],
+     "nickname": "",
+     "description": "百花羞公主托唐僧捎给宝象国国王的书信。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "家书",
+     "evidence": "那公主急转后面，即修了一纸家书，封固停当，到桩前解放了唐僧，将书付与。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "文牒",
+     "evidence": "三藏双手捧上去，展开放在御案上。牒云：南赡部洲大唐国奉天承运唐天子牒行。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "八戒腰里掣出钯来道：老猪使的是钉钯。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "黄袍怪",
+     "evidence": "却说那八戒、沙僧与怪斗经个三十回合，不分胜负。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "黄袍怪",
+     "evidence": "却说那八戒、沙僧与怪斗经个三十回合，不分胜负。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "STATIONED_AT",
+     "object": "波月洞",
+     "evidence": "被碗子山波月洞黄袍妖摄将去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "宝象国倒换文牒",
+     "evidence": "贫僧乃是差往西天取经者，不期闲步，误撞在此。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宝象国倒换文牒",
+     "predicate": "OCCURRED_AT",
+     "object": "宝象国",
+     "evidence": "三藏谢了恩，收了文牒，又奏道：贫僧一来倒换文牒，二来与陛下寄有家书。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "唐僧",
+     "evidence": "感蒙救苦观世音菩萨，金身出现，指示西方有佛有经，可度幽亡，超脱孤魂。特着法师玄奘，远历千山，询求经偈。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "小僧是唐朝释子，承我天子敕旨，前往西方取经。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "今临凡世，保护吾师。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "沙僧就剖开草径，搀着师父，慌忙的上马。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 675,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经僧人，被黄袍怪捉于洞中"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，与黄袍怪交战"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "唐僧三徒弟，被黄袍怪捉住"
+    },
+    {
+     "name": "黄袍怪",
+     "type": "Person",
+     "aliases": [
+      "老魔",
+      "老怪",
+      "魔王",
+      "泼怪"
+     ],
+     "nickname": "",
+     "description": "波月洞妖魔，霸占宝象国三公主"
+    },
+    {
+     "name": "宝象国三公主",
+     "type": "Person",
+     "aliases": [
+      "三公主"
+     ],
+     "nickname": "",
+     "description": "宝象国公主，被黄袍怪霸占为妻"
+    },
+    {
+     "name": "宝象国国王",
+     "type": "Person",
+     "aliases": [
+      "国王"
+     ],
+     "nickname": "",
+     "description": "宝象国君主，遣八戒擒妖"
+    },
+    {
+     "name": "宝象国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度，三公主故乡"
+    },
+    {
+     "name": "波月洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄袍怪盘踞的妖洞"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "黄袍怪",
+     "evidence": "八戒侧身躲过，使钉钯劈面迎来，随后又有沙僧举宝杖赶上前齐打。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "黄袍怪",
+     "evidence": "随后又有沙僧举宝杖赶上前齐打。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "DEFEATED",
+     "object": "沙悟净",
+     "evidence": "沙僧措手不及，被怪一把抓住，捉进洞去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "SPOUSE",
+     "object": "宝象国三公主",
+     "evidence": "你把宝象国三公主骗来洞内，倚强霸占为妻，住了一十三载",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄袍怪",
+     "predicate": "STATIONED_AT",
+     "object": "波月洞",
+     "evidence": "捉进洞去，小妖将沙僧四马攒蹄捆住。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "宝象国国王",
+     "evidence": "我奉国王旨意，特来擒你。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宝象国三公主",
+     "predicate": "MEMBER_OF",
+     "object": "宝象国",
+     "evidence": "你把宝象国三公主骗来洞内",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:29.885Z"
+}

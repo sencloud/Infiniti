@@ -1,0 +1,80 @@
+{
+ "no": 243,
+ "title": "大人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 641,
+   "entities": [
+    {
+     "name": "李质君",
+     "type": "Person",
+     "aliases": [
+      "李孝廉质君"
+     ],
+     "nickname": "",
+     "description": "长山孝廉，赴青州途中遇诸客"
+    },
+    {
+     "name": "大人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "高丈许的巨人，食马穿腮，被女子断指"
+    },
+    {
+     "name": "后来者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "更巨的巨人，怒批大人脸颊"
+    },
+    {
+     "name": "男子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "居石室中，女子之兄，煮虎肉飨客"
+    },
+    {
+     "name": "云南大山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "绝壑巉岩，谷中有大树"
+    },
+    {
+     "name": "石室",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "岭头男子所居石屋"
+    },
+    {
+     "name": "铜锤",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "重三四百斤，女子持以除巨人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "后来者",
+     "predicate": "HARMED",
+     "object": "大人",
+     "evidence": "因以掌批其颊。大人伛偻顺受，无敢少争。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "男子",
+     "predicate": "LIVES_AT",
+     "object": "石室",
+     "evidence": "至则一男子居石室中。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:45.504Z"
+}

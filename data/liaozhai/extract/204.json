@@ -1,0 +1,92 @@
+{
+ "no": 204,
+ "title": "郭生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 677,
+   "entities": [
+    {
+     "name": "郭生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑之东山人，嗜读，家中患狐"
+    },
+    {
+     "name": "王生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郭生友人，素与郭善，来访论狐"
+    },
+    {
+     "name": "叶公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "时文名家，风雅艳丽，后以正文体被收"
+    },
+    {
+     "name": "缪公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "时文名家，与叶公齐名"
+    },
+    {
+     "name": "东山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郭生籍贯地"
+    },
+    {
+     "name": "邑庠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县学，郭生入邑庠"
+    },
+    {
+     "name": "入邑庠",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "郭生考中秀才"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "郭生",
+     "predicate": "NATIVE_OF",
+     "object": "东山",
+     "evidence": "郭生，邑之东山人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "FRIEND",
+     "object": "郭生",
+     "evidence": "会王生者以故至山，素与郭善，登门造访。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "入邑庠",
+     "evidence": "是岁，果入邑庠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "入邑庠",
+     "predicate": "OCCURRED_AT",
+     "object": "邑庠",
+     "evidence": "是岁，果入邑庠。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:30.217Z"
+}

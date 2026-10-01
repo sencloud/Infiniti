@@ -1,0 +1,143 @@
+{
+ "no": 479,
+ "title": "韩方",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 541,
+   "entities": [
+    {
+     "name": "韩方",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐东农民，性至孝，父母病，祷于孤石大夫庙"
+    },
+    {
+     "name": "土地",
+     "type": "Spirit",
+     "aliases": [
+      "南乡土地"
+     ],
+     "nickname": "",
+     "description": "巡环使者所任南乡土地，感韩方孝，授术"
+    },
+    {
+     "name": "孤石大夫",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "神名，韩方曾祷于其庙"
+    },
+    {
+     "name": "岳帝",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府帝君，举枉死之鬼为城隍土地"
+    },
+    {
+     "name": "巡环使者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "神使，以土地诚笃，俾为南乡土地"
+    },
+    {
+     "name": "孤石大夫之庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "韩方哭祷之处"
+    },
+    {
+     "name": "济阴以北数州县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "明季邪疫大作之地"
+    },
+    {
+     "name": "齐东",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "韩方籍贯地"
+    },
+    {
+     "name": "都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鬼都，岳帝所在"
+    },
+    {
+     "name": "邪疫",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "明季济阴以北数州县大疫"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "韩方",
+     "predicate": "NATIVE_OF",
+     "object": "齐东",
+     "evidence": "齐东农民韩方",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩方",
+     "predicate": "LIVES_AT",
+     "object": "济阴以北数州县",
+     "evidence": "明季，济阴以北数州县，邪疫大作",
+     "confidence": 0.8
+    },
+    {
+     "subject": "韩方",
+     "predicate": "PARTICIPATED_IN",
+     "object": "邪疫",
+     "evidence": "父母皆病",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邪疫",
+     "predicate": "OCCURRED_AT",
+     "object": "济阴以北数州县",
+     "evidence": "明季，济阴以北数州县，邪疫大作",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩方",
+     "predicate": "LIVES_AT",
+     "object": "孤石大夫之庙",
+     "evidence": "哭祷于孤石大夫之庙",
+     "confidence": 0.6
+    },
+    {
+     "subject": "土地",
+     "predicate": "HELPED",
+     "object": "韩方",
+     "evidence": "感君孝，指授此术",
+     "confidence": 0.95
+    },
+    {
+     "subject": "巡环使者",
+     "predicate": "HELPED",
+     "object": "土地",
+     "evidence": "巡环使者以我诚笃，俾为南乡土地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "岳帝",
+     "predicate": "HELPED",
+     "object": "土地",
+     "evidence": "目前岳帝举枉死之鬼，其有功人民，或正直不作邪祟者，以城隍、土地用",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:16.340Z"
+}

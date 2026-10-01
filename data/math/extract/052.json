@@ -1,0 +1,169 @@
+{
+ "no": 52,
+ "title": "1.4 线段垂直平分线与角平分线",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4098,
+   "entities": [
+    {
+     "name": "全等三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的两个三角形"
+    },
+    {
+     "name": "线段垂直平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "垂直于线段且平分线段的直线"
+    },
+    {
+     "name": "角平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把一个角分成两个相等角的射线"
+    },
+    {
+     "name": "线段垂直平分线的性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "线段垂直平分线上的点到线段两端的距离相等"
+    },
+    {
+     "name": "线段垂直平分线性质定理的逆定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "到线段两端距离相等的点在线段的垂直平分线上"
+    },
+    {
+     "name": "角平分线的性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "角平分线上的点到角两边的距离相等"
+    },
+    {
+     "name": "角平分线性质定理的逆定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "角的内部到角两边距离相等的点在角的平分线上"
+    },
+    {
+     "name": "三角形三条边的垂直平分线交于一点",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形三条边的垂直平分线交于一点"
+    },
+    {
+     "name": "三角形的三条角平分线交于一点",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形的三条角平分线交于一点"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "全等三角形",
+     "predicate": "PREREQUISITE",
+     "object": "线段垂直平分线的性质定理",
+     "evidence": "本节，我们利用全等三角形研究它们的性质．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "PREREQUISITE",
+     "object": "线段垂直平分线性质定理的逆定理",
+     "evidence": "通过“HL”，可以证明 Rt△QAM ≌ Rt△QBM",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "PREREQUISITE",
+     "object": "角平分线的性质定理",
+     "evidence": "通过“AAS”，可以证明△DOP≌△COP",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "PREREQUISITE",
+     "object": "角平分线性质定理的逆定理",
+     "evidence": "通过“HL”，可以证明 Rt△OCQ≌Rt△ODQ",
+     "confidence": 0.9
+    },
+    {
+     "subject": "线段垂直平分线的性质定理",
+     "predicate": "PROPERTY_OF",
+     "object": "线段垂直平分线",
+     "evidence": "线段垂直平分线上的点到线段两端的距离相等．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "线段垂直平分线性质定理的逆定理",
+     "predicate": "PROPERTY_OF",
+     "object": "线段垂直平分线",
+     "evidence": "到线段两端距离相等的点在线段的垂直平分线上．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "角平分线的性质定理",
+     "predicate": "PROPERTY_OF",
+     "object": "角平分线",
+     "evidence": "角平分线上的点到角两边的距离相等．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "角平分线性质定理的逆定理",
+     "predicate": "PROPERTY_OF",
+     "object": "角平分线",
+     "evidence": "角的内部到角两边距离相等的点在角的平分线上．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "线段垂直平分线的性质定理",
+     "predicate": "DERIVES",
+     "object": "线段垂直平分线性质定理的逆定理",
+     "evidence": "于是，我们得到线段垂直平分线性质定理的逆定理：到线段两端距离相等的点在线段的垂直平分线上．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "角平分线的性质定理",
+     "predicate": "DERIVES",
+     "object": "角平分线性质定理的逆定理",
+     "evidence": "于是，我们得到角平分线性质定理的逆定理：角的内部到角两边距离相等的点在角的平分线上．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "线段垂直平分线的性质定理",
+     "predicate": "APPLIES_TO",
+     "object": "三角形三条边的垂直平分线交于一点",
+     "evidence": "∴ OA=OB（线段垂直平分线的性质定理）．同理，OA=OC．∴ OB=OC．∴ 点O在BC的垂直平分线上（线段垂直平分线性质定理的逆定理）．三角形三条边的垂直平分线交于一点．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "角平分线的性质定理",
+     "predicate": "APPLIES_TO",
+     "object": "三角形的三条角平分线交于一点",
+     "evidence": "∴ PF = PN（角平分线的性质定理）．同理，PF = PM．∴ PM = PN．∴ 点P在∠C的平分线上（角平分线性质定理的逆定理）．三角形的三条角平分线交于一点．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "线段垂直平分线",
+     "predicate": "RELATED",
+     "object": "角平分线",
+     "evidence": "线段和角都是轴对称图形，其对称轴分别是线段的垂直平分线和角平分线所在直线．",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:54.252Z"
+}

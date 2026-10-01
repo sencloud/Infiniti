@@ -1,0 +1,206 @@
+{
+ "no": 228,
+ "title": "胡大姑",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 850,
+   "entities": [
+    {
+     "name": "岳于九",
+     "type": "Person",
+     "aliases": [
+      "岳四"
+     ],
+     "nickname": "",
+     "description": "益都人，家中遭狐祟"
+    },
+    {
+     "name": "胡大姑",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐精，被岳家呼为胡大姑"
+    },
+    {
+     "name": "岳于九之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "岳于九之子，被狐击伤"
+    },
+    {
+     "name": "岳于九子妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "岳于九儿媳，被狐专扰"
+    },
+    {
+     "name": "李成爻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西山人，善符水，驱狐者"
+    },
+    {
+     "name": "张八公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "颜镇人，家有狐居楼上"
+    },
+    {
+     "name": "喜姨",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "张八公子家狐精，不扰人"
+    },
+    {
+     "name": "紫姑",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "岳家三年前所制刍偶成精"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "岳于九籍贯地"
+    },
+    {
+     "name": "颜镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张八公子所居地"
+    },
+    {
+     "name": "西山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李成爻所居地"
+    },
+    {
+     "name": "岳家宅院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "岳于九家，狐祟发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "岳于九",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "益都岳于九，家有狐祟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "岳于九之子",
+     "predicate": "KIN",
+     "object": "岳于九",
+     "evidence": "而专祟其子妇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "岳于九子妇",
+     "predicate": "KIN",
+     "object": "岳于九之子",
+     "evidence": "而专祟其子妇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "岳于九子妇",
+     "predicate": "KIN",
+     "object": "岳于九",
+     "evidence": "而专祟其子妇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡大姑",
+     "predicate": "HARMED",
+     "object": "岳于九",
+     "evidence": "由是祟益甚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡大姑",
+     "predicate": "HARMED",
+     "object": "岳于九子妇",
+     "evidence": "而专祟其子妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡大姑",
+     "predicate": "HARMED",
+     "object": "岳于九之子",
+     "evidence": "狐怒，以石击之，额破裂，血流几毙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡大姑",
+     "predicate": "LIVES_AT",
+     "object": "岳家宅院",
+     "evidence": "狐在梁上曰：“我已闻之矣。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "喜姨",
+     "predicate": "LIVES_AT",
+     "object": "颜镇",
+     "evidence": "时颜镇张八公子家，有狐居楼上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "喜姨",
+     "predicate": "FRIEND",
+     "object": "张八公子",
+     "evidence": "有狐居楼上，恒与人语",
+     "confidence": 0.8
+    },
+    {
+     "subject": "胡大姑",
+     "predicate": "KIN",
+     "object": "喜姨",
+     "evidence": "是吾家喜姨，何得不识？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李成爻",
+     "predicate": "HELPED",
+     "object": "岳于九",
+     "evidence": "西山李成爻，善符水，因币聘之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李成爻",
+     "predicate": "PUNISHED",
+     "object": "紫姑",
+     "evidence": "李取投火中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "紫姑",
+     "predicate": "HARMED",
+     "object": "岳于九",
+     "evidence": "怪异即自尔日始也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "紫姑",
+     "predicate": "LIVES_AT",
+     "object": "岳家宅院",
+     "evidence": "见刍偶犹在厩梁上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:40.953Z"
+}

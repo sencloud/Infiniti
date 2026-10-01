@@ -1,0 +1,201 @@
+{
+ "no": 480,
+ "title": "纫针",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2068,
+   "entities": [
+    {
+     "name": "虞小思",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东昌人，居积为业，夏氏之夫"
+    },
+    {
+     "name": "夏氏",
+     "type": "Person",
+     "aliases": [
+      "夏"
+     ],
+     "nickname": "",
+     "description": "虞小思之妻，行善助人"
+    },
+    {
+     "name": "王心斋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宦裔，纫针之父，家道中落"
+    },
+    {
+     "name": "范氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王心斋之妻，纫针之母"
+    },
+    {
+     "name": "纫针",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王心斋之女，后为傅阿卯之妻"
+    },
+    {
+     "name": "黄某",
+     "type": "Person",
+     "aliases": [
+      "黄"
+     ],
+     "nickname": "",
+     "description": "富室，债主，欲纳纫针为妾"
+    },
+    {
+     "name": "傅阿卯",
+     "type": "Person",
+     "aliases": [
+      "阿卯",
+      "傅"
+     ],
+     "nickname": "",
+     "description": "傅孝廉之子，后中进士，娶纫针"
+    },
+    {
+     "name": "马大",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赌博无赖，盗夏氏金，被雷击死"
+    },
+    {
+     "name": "冯氏",
+     "type": "Person",
+     "aliases": [
+      "冯"
+     ],
+     "nickname": "",
+     "description": "邑名士，曾与虞家议婚"
+    },
+    {
+     "name": "东昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，故事发生地"
+    },
+    {
+     "name": "闽",
+     "type": "Place",
+     "aliases": [
+      "福建"
+     ],
+     "nickname": "",
+     "description": "傅孝廉为官之地，傅阿卯入籍处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "虞小思",
+     "predicate": "SPOUSE",
+     "object": "夏氏",
+     "evidence": "虞小思，东昌人，居积为业。妻夏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王心斋",
+     "predicate": "SPOUSE",
+     "object": "范氏",
+     "evidence": "乃知其夫王心斋，亦宦裔也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王心斋",
+     "predicate": "KIN",
+     "object": "纫针",
+     "evidence": "黄窥其女纫针美",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范氏",
+     "predicate": "KIN",
+     "object": "纫针",
+     "evidence": "妻携女归告两弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "傅阿卯",
+     "predicate": "SPOUSE",
+     "object": "纫针",
+     "evidence": "涓吉约期乃去。会试后，市币帛而还，居其旧第，行亲迎礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏氏",
+     "predicate": "HELPED",
+     "object": "纫针",
+     "evidence": "夏怜之，视其女，绰约可爱，益为哀楚。因邀入其家，款以酒食，慰之曰：母子勿戚，妾当竭力",
+     "confidence": 0.95
+    },
+    {
+     "subject": "夏氏",
+     "predicate": "HELPED",
+     "object": "范氏",
+     "evidence": "夏怜之，视其女，绰约可爱，益为哀楚。因邀入其家，款以酒食，慰之曰：母子勿戚，妾当竭力",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马大",
+     "predicate": "HARMED",
+     "object": "夏氏",
+     "evidence": "有盗穴壁，以火入。夏觉，睨之，见一人臂挎短刀，状貌凶恶，大惧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马大",
+     "predicate": "KILLED",
+     "object": "夏氏",
+     "evidence": "夏乃对灯啜泣，见婢睡熟，乃引带自经于棂间",
+     "confidence": 0.9
+    },
+    {
+     "subject": "纫针",
+     "predicate": "KIN",
+     "object": "虞小思",
+     "evidence": "女见虞至。急下拜，呼以父",
+     "confidence": 0.95
+    },
+    {
+     "subject": "纫针",
+     "predicate": "KIN",
+     "object": "夏氏",
+     "evidence": "女益感泣，愿以母事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "虞小思",
+     "predicate": "LIVES_AT",
+     "object": "东昌",
+     "evidence": "虞小思，东昌人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "虞小思",
+     "predicate": "NATIVE_OF",
+     "object": "东昌",
+     "evidence": "虞小思，东昌人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "傅阿卯",
+     "predicate": "NATIVE_OF",
+     "object": "闽",
+     "evidence": "入闽籍，十八已乡荐矣",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:17.409Z"
+}

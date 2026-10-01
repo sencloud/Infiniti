@@ -1,0 +1,68 @@
+{
+ "no": 283,
+ "title": "鬼令",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 363,
+   "entities": [
+    {
+     "name": "展先生",
+     "type": "Person",
+     "aliases": [
+      "展"
+     ],
+     "nickname": "",
+     "description": "教谕，洒脱有名士风，酒狂，醉后驰马殿阶触树而死"
+    },
+    {
+     "name": "某乙",
+     "type": "Person",
+     "aliases": [
+      "某"
+     ],
+     "nickname": "",
+     "description": "邑中负贩者，夜宿古刹遇展先生等鬼饮酒"
+    },
+    {
+     "name": "古刹",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中古庙，某乙夜宿遇鬼处"
+    },
+    {
+     "name": "殿阶",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县学文庙殿前台阶，多古柏，展先生醉后驰马处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "展先生",
+     "predicate": "LIVES_AT",
+     "object": "殿阶",
+     "evidence": "每醉归，辄驰马殿阶。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某乙",
+     "predicate": "LIVES_AT",
+     "object": "古刹",
+     "evidence": "夜宿古刹。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "展先生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "饮酒行令",
+     "evidence": "忽见四五人携酒入饮，展亦在焉。酒数行，或以字为令",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:58.624Z"
+}

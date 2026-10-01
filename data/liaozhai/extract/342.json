@@ -1,0 +1,302 @@
+{
+ "no": 342,
+ "title": "凤仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2852,
+   "entities": [
+    {
+     "name": "刘赤水",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平乐人，十五入郡庠，后中举及第"
+    },
+    {
+     "name": "凤仙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女，皮家三姑娘，后嫁刘赤水"
+    },
+    {
+     "name": "水仙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女，皮家二姑娘，嫁丁官人"
+    },
+    {
+     "name": "胡郎",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐男，与八仙相好，后为刘赤水连襟"
+    },
+    {
+     "name": "丁官人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "富川大贾子，娶水仙为妻"
+    },
+    {
+     "name": "皮翁",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐父，凤仙、八仙、水仙之父"
+    },
+    {
+     "name": "皮妪",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐母，凤仙、八仙、水仙之母"
+    },
+    {
+     "name": "蓬头婢",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "皮家婢女，为八仙传话索还紫纨袴"
+    },
+    {
+     "name": "平乐",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘赤水籍贯地，故事发生地"
+    },
+    {
+     "name": "萦山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山名，皮家避难宅院所在"
+    },
+    {
+     "name": "富川",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "丁官人籍贯地"
+    },
+    {
+     "name": "紫纨袴",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "八仙遗落的紫色丝绸裤，带针囊"
+    },
+    {
+     "name": "金钏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "八仙之物，凤仙窃取赠刘赤水"
+    },
+    {
+     "name": "绣履",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "八仙的珠嵌金绣绣鞋，凤仙窃取赠刘赤水"
+    },
+    {
+     "name": "镜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "凤仙所赠宝镜，可现凤仙身影，随刘赤水勤惰而变"
+    },
+    {
+     "name": "田婆罗",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "真腊国携来的水果"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘赤水",
+     "predicate": "NATIVE_OF",
+     "object": "平乐",
+     "evidence": "刘赤水，平乐人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "LIVES_AT",
+     "object": "平乐",
+     "evidence": "刘赤水，平乐人，少颖秀，十五入郡庠。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "SPOUSE",
+     "object": "凤仙",
+     "evidence": "遂相欢爱。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "水仙",
+     "predicate": "SPOUSE",
+     "object": "丁官人",
+     "evidence": "二姑水仙，适富川丁官人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "凤仙",
+     "predicate": "KIN",
+     "object": "水仙",
+     "evidence": "二姑水仙……三姑凤仙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "凤仙",
+     "predicate": "KIN",
+     "object": "皮翁",
+     "evidence": "入门谒见翁妪。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凤仙",
+     "predicate": "KIN",
+     "object": "皮妪",
+     "evidence": "入门谒见翁妪。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "水仙",
+     "predicate": "KIN",
+     "object": "皮翁",
+     "evidence": "入门谒见翁妪。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "水仙",
+     "predicate": "KIN",
+     "object": "皮妪",
+     "evidence": "入门谒见翁妪。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "FRIEND",
+     "object": "胡郎",
+     "evidence": "叙僚婿之谊，嘲谑甚欢。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "FRIEND",
+     "object": "丁官人",
+     "evidence": "遇丁，殷殷邀至其家，款礼优渥。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凤仙",
+     "predicate": "HELPED",
+     "object": "刘赤水",
+     "evidence": "旋出一镜付之曰：欲见妾，当于书卷中觅之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "OWNS",
+     "object": "紫纨袴",
+     "evidence": "遗紫纨袴一，带上系针囊。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "OWNS",
+     "object": "金钏",
+     "evidence": "袖中出金钏一枚，曰：此八仙物也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "OWNS",
+     "object": "绣履",
+     "evidence": "怀绣履一双来，珠嵌金绣，工巧殊绝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "OWNS",
+     "object": "镜",
+     "evidence": "旋出一镜付之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "如此二年，一举而捷。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘赤水",
+     "predicate": "PARTICIPATED_IN",
+     "object": "宴会",
+     "evidence": "刘赴宴郡中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁官人",
+     "predicate": "NATIVE_OF",
+     "object": "富川",
+     "evidence": "始知富川大贾子也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁官人",
+     "predicate": "LIVES_AT",
+     "object": "富川",
+     "evidence": "始知富川大贾子也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "皮翁",
+     "predicate": "LIVES_AT",
+     "object": "萦山",
+     "evidence": "从入萦山。山上故有邑人避难之宅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "皮妪",
+     "predicate": "LIVES_AT",
+     "object": "萦山",
+     "evidence": "从入萦山。山上故有邑人避难之宅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "水仙",
+     "predicate": "LIVES_AT",
+     "object": "萦山",
+     "evidence": "从入萦山。山上故有邑人避难之宅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凤仙",
+     "predicate": "LIVES_AT",
+     "object": "萦山",
+     "evidence": "从入萦山。山上故有邑人避难之宅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡郎",
+     "predicate": "LIVES_AT",
+     "object": "萦山",
+     "evidence": "从入萦山。山上故有邑人避难之宅",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:26.246Z"
+}

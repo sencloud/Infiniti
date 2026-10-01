@@ -1,0 +1,71 @@
+{
+ "no": 310,
+ "title": "鸿",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 148,
+   "entities": [
+    {
+     "name": "弋人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天津捕鸟人，得鸿后受金释雌"
+    },
+    {
+     "name": "雄鸿",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "雄雁，吐金赎雌，与雌鸿双飞"
+    },
+    {
+     "name": "雌鸿",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "雌雁，被弋人捕获，后获释"
+    },
+    {
+     "name": "天津",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，弋人捕鸿处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "雄鸿",
+     "predicate": "SPOUSE",
+     "object": "雌鸿",
+     "evidence": "是将以赎妇也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "雄鸿",
+     "predicate": "HELPED",
+     "object": "雌鸿",
+     "evidence": "吐出黄金半铤。弋人悟其意，乃曰：“是将以赎妇也。”遂释雌。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "弋人",
+     "predicate": "HARMED",
+     "object": "雌鸿",
+     "evidence": "天津弋人得一鸿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "弋人",
+     "predicate": "LIVES_AT",
+     "object": "天津",
+     "evidence": "天津弋人得一鸿",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:09.362Z"
+}

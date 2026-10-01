@@ -1,0 +1,305 @@
+{
+ "no": 23,
+ "title": "第二十三回 横海郡柴进留宾 景阳冈武松打虎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5960,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义/及时雨/孝义黑三郎",
+     "description": "郓城县押司，江湖闻名，与武松结义"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "柴大官人"
+     ],
+     "nickname": "小旋风",
+     "description": "横海郡柴家庄庄主，好客纳贤"
+    },
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武二"
+     ],
+     "nickname": "行者",
+     "description": "清河县人氏，排行第二，景阳冈打虎"
+    },
+    {
+     "name": "宋清",
+     "type": "Person",
+     "aliases": [
+      "宋四郎"
+     ],
+     "nickname": "铁扇子",
+     "description": "宋江之弟，随宋江在柴进庄上"
+    },
+    {
+     "name": "武大郎",
+     "type": "Person",
+     "aliases": [
+      "武松的哥哥"
+     ],
+     "nickname": "",
+     "description": "武松之兄，在清河县，武松欲回乡探望"
+    },
+    {
+     "name": "清河县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松籍贯所在县"
+    },
+    {
+     "name": "阳谷县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "景阳冈所在县，武松打虎处"
+    },
+    {
+     "name": "景阳冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳谷县地面山冈，有猛虎伤人"
+    },
+    {
+     "name": "柴进东庄",
+     "type": "Place",
+     "aliases": [
+      "柴大官人庄上"
+     ],
+     "nickname": "",
+     "description": "柴进的庄园，宋江、武松等居留处"
+    },
+    {
+     "name": "景阳冈打虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松在景阳冈醉后打死吊睛白额大虫"
+    },
+    {
+     "name": "梢棒",
+     "type": "Item",
+     "aliases": [
+      "杆棒"
+     ],
+     "nickname": "",
+     "description": "武松所持棍棒，打虎时折断"
+    },
+    {
+     "name": "透瓶香",
+     "type": "Item",
+     "aliases": [
+      "出门倒"
+     ],
+     "nickname": "",
+     "description": "景阳冈酒店所卖烈酒，三碗不过冈"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "武松",
+     "evidence": "武松便道：“天色将晚，哥哥不弃武二时，就此受武二四拜，拜为义兄。”宋江大喜，武松纳头拜了四拜。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "柴进",
+     "evidence": "柴进赶将出来，偶叫起宋押司，因此露出姓名来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "SERVED",
+     "object": "柴进",
+     "evidence": "小弟只道他死了，因此一径地逃来，投奔大官人处躲灾避难，今已一年有馀。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "KIN",
+     "object": "武大郎",
+     "evidence": "今欲正要回乡去寻哥哥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋清",
+     "evidence": "宋江和兄弟宋清两个送武松",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "这人是清河县人氏，姓武名松，排行第二。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "柴进东庄",
+     "evidence": "今在此间一年也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "柴进东庄",
+     "evidence": "宋江弟兄两个，自此只在柴大官人庄上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "却才冈子上乱树林边，正撞着那大虫，被我一顿拳脚打死了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "景阳冈打虎",
+     "predicate": "OCCURRED_AT",
+     "object": "景阳冈",
+     "evidence": "当下景阳冈上那只猛虎，被武松没顿饭之间，一顿拳脚打得那大虫动弹不得",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "OWNS",
+     "object": "梢棒",
+     "evidence": "武松缚了包裹，拴了梢棒要行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "DEFEATED",
+     "object": "吊睛白额大虫",
+     "evidence": "被武松没顿饭之间，一顿拳脚打得那大虫动弹不得",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "吊睛白额大虫",
+     "evidence": "那大虫气都没了。",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1520,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "清河县人氏，排行第二，景阳冈打虎后任阳谷县步兵都头"
+    },
+    {
+     "name": "阳谷县知县",
+     "type": "Person",
+     "aliases": [
+      "知县相公"
+     ],
+     "nickname": "",
+     "description": "阳谷县知县，赏识武松并参其为都头"
+    },
+    {
+     "name": "清河县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松籍贯所在县"
+    },
+    {
+     "name": "阳谷县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松打虎后任职都头之地"
+    },
+    {
+     "name": "景阳冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松打死大虫之处"
+    },
+    {
+     "name": "景阳冈打虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松在景阳冈打死猛虎之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "NATIVE_OF",
+     "object": "清河县",
+     "evidence": "小人是此间邻郡清河县人氏，姓武名松，排行第二。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "把那打虎的身分拳脚，细说了一遍。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "景阳冈打虎",
+     "predicate": "OCCURRED_AT",
+     "object": "景阳冈",
+     "evidence": "一个壮士打死了景阳冈上大虫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阳谷县知县",
+     "predicate": "RECRUITED",
+     "object": "武松",
+     "evidence": "我今日就参你在本县做个都头，如何？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "MEMBER_OF",
+     "object": "阳谷县",
+     "evidence": "当日便参武松做了步兵都头。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "阳谷县",
+     "evidence": "当日便参武松做了步兵都头。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:11.712Z"
+}

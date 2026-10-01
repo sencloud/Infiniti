@@ -1,0 +1,165 @@
+{
+ "no": 97,
+ "title": "连琐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2376,
+   "entities": [
+    {
+     "name": "杨于畏",
+     "type": "Person",
+     "aliases": [
+      "杨生",
+      "杨"
+     ],
+     "nickname": "",
+     "description": "《连琐》中书生，移居泗水之滨"
+    },
+    {
+     "name": "连琐",
+     "type": "Spirit",
+     "aliases": [
+      "女",
+      "女子",
+      "丽者"
+     ],
+     "nickname": "",
+     "description": "《连琐》中女鬼，陇西人，死二十余年"
+    },
+    {
+     "name": "薛生",
+     "type": "Person",
+     "aliases": [
+      "薛"
+     ],
+     "nickname": "",
+     "description": "《连琐》中杨于畏友人，来访求见连琐"
+    },
+    {
+     "name": "王生",
+     "type": "Person",
+     "aliases": [
+      "王某",
+      "武生王某"
+     ],
+     "nickname": "",
+     "description": "《连琐》中武生，梦中射杀龌龊隶"
+    },
+    {
+     "name": "龌龊隶",
+     "type": "Spirit",
+     "aliases": [
+      "隶",
+      "差役"
+     ],
+     "nickname": "",
+     "description": "《连琐》中鬼差役，逼连琐为妾"
+    },
+    {
+     "name": "泗水之滨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《连琐》中杨于畏移居之地"
+    },
+    {
+     "name": "陇西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《连琐》中连琐自称籍贯"
+    },
+    {
+     "name": "连昌宫词",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《连琐》中连琐生前最爱读的诗卷"
+    },
+    {
+     "name": "佩刀",
+     "type": "Item",
+     "aliases": [
+      "小刀"
+     ],
+     "nickname": "",
+     "description": "《连琐》中连琐殉葬佩刀，后赠王生"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨于畏",
+     "predicate": "LIVES_AT",
+     "object": "泗水之滨",
+     "evidence": "杨于畏，移居泗水之滨。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "连琐",
+     "predicate": "NATIVE_OF",
+     "object": "陇西",
+     "evidence": "妾陇西人，随父流寓。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨于畏",
+     "predicate": "LOVES",
+     "object": "连琐",
+     "evidence": "两人欢同鱼水，虽不至乱，而闺阁之中，诚有甚于画眉者。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨于畏",
+     "predicate": "FRIEND",
+     "object": "薛生",
+     "evidence": "薛生造访，值杨昼寝。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "杨于畏",
+     "predicate": "FRIEND",
+     "object": "王生",
+     "evidence": "遥见一人，腰矢野射，审视之，王生也。大号乞救。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王生",
+     "predicate": "HELPED",
+     "object": "杨于畏",
+     "evidence": "王生张弓急至，射之中股，再射之，殪。杨喜感谢。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "KILLED",
+     "object": "龌龊隶",
+     "evidence": "王生张弓急至，射之中股，再射之，殪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "龌龊隶",
+     "predicate": "HARMED",
+     "object": "连琐",
+     "evidence": "不知何处来一龌龊隶，逼充媵妾。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "连琐",
+     "predicate": "OWNS",
+     "object": "佩刀",
+     "evidence": "刀实妾父出使粤中，百金购之，妾爱而有之，缠以金丝，瓣以明珠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "连琐",
+     "predicate": "OWNS",
+     "object": "连昌宫词",
+     "evidence": "既翻案上书，忽见《连昌宫词》，慨然曰：妾生时最爱读此。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:49.945Z"
+}

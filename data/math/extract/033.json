@@ -1,0 +1,264 @@
+{
+ "no": 33,
+ "title": "9.2 轴对称",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4350,
+   "entities": [
+    {
+     "name": "轴对称",
+     "type": "Concept",
+     "aliases": [
+      "line symmetry"
+     ],
+     "nickname": "",
+     "description": "将一个平面图形沿某条直线翻折得到另一个图形的平面变换"
+    },
+    {
+     "name": "对称轴",
+     "type": "Concept",
+     "aliases": [
+      "axis of symmetry"
+     ],
+     "nickname": "",
+     "description": "轴对称中翻折所沿的直线"
+    },
+    {
+     "name": "对应点",
+     "type": "Concept",
+     "aliases": [
+      "对称点"
+     ],
+     "nickname": "",
+     "description": "轴对称中互相重合的点"
+    },
+    {
+     "name": "对应线段",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称中互相重合的线段"
+    },
+    {
+     "name": "对应角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称中互相重合的角"
+    },
+    {
+     "name": "垂直平分线",
+     "type": "Concept",
+     "aliases": [
+      "中垂线",
+      "perpendicular bisector"
+     ],
+     "nickname": "",
+     "description": "垂直且平分一条线段的直线"
+    },
+    {
+     "name": "轴对称的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "成轴对称的两个图形中，对称轴是任意两个对称点连线段的垂直平分线"
+    },
+    {
+     "name": "轴对称图形",
+     "type": "Concept",
+     "aliases": [
+      "axially symmetric figure"
+     ],
+     "nickname": "",
+     "description": "关于某条直线成轴对称的图形是其本身的图形"
+    },
+    {
+     "name": "线段",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称图形，对称轴是它的垂直平分线"
+    },
+    {
+     "name": "角",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称图形，对称轴是角平分线所在直线"
+    },
+    {
+     "name": "等腰三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称图形，对称轴是底边上的高所在直线"
+    },
+    {
+     "name": "等边三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称图形，有三条对称轴"
+    },
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称图形，对称轴是两组对边中点的连线"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "轴对称图形，有四条对称轴"
+    },
+    {
+     "name": "尺规作图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用无刻度直尺和圆规作图的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "轴对称",
+     "predicate": "INCLUDES",
+     "object": "对称轴",
+     "evidence": "将一个平面图形沿某条直线翻折后得到另一个图形的平面变换叫作轴对称，这条直线叫作对称轴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "INCLUDES",
+     "object": "对应点",
+     "evidence": "点 A' 是点 A 的对应点，也叫作对称点",
+     "confidence": 0.95
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "INCLUDES",
+     "object": "对应线段",
+     "evidence": "线段 A'B' 是线段 AB 的对应线段",
+     "confidence": 0.95
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "INCLUDES",
+     "object": "对应角",
+     "evidence": "∠A' 是 ∠A 的对应角",
+     "confidence": 0.95
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "PROPERTY_OF",
+     "object": "轴对称图形",
+     "evidence": "如果一个图形关于某条直线成轴对称的图形是其本身，那么称这个图形是轴对称图形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "轴对称的基本性质",
+     "predicate": "PROPERTY_OF",
+     "object": "轴对称",
+     "evidence": "成轴对称的两个图形中，不在对称轴上的两个对应点的连线段被对称轴垂直平分",
+     "confidence": 0.95
+    },
+    {
+     "subject": "垂直平分线",
+     "predicate": "PROPERTY_OF",
+     "object": "线段",
+     "evidence": "垂直且平分一条线段的直线叫作这条线段的垂直平分线",
+     "confidence": 0.95
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "PREREQUISITE",
+     "object": "垂直平分线",
+     "evidence": "点A，A'关于线段AA'的垂直平分线对称",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尺规作图",
+     "predicate": "APPLIES_TO",
+     "object": "垂直平分线",
+     "evidence": "尺规作图：如图9-17，已知线段 AB，作线段 AB 的垂直平分线",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尺规作图",
+     "predicate": "APPLIES_TO",
+     "object": "角",
+     "evidence": "尺规作图：如图9-23，已知∠AOB，作∠AOB的平分线",
+     "confidence": 0.95
+    },
+    {
+     "subject": "轴对称图形",
+     "predicate": "INCLUDES",
+     "object": "线段",
+     "evidence": "线段 角 等腰三角形 等边三角形 长方形 正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称图形",
+     "predicate": "INCLUDES",
+     "object": "角",
+     "evidence": "线段 角 等腰三角形 等边三角形 长方形 正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称图形",
+     "predicate": "INCLUDES",
+     "object": "等腰三角形",
+     "evidence": "线段 角 等腰三角形 等边三角形 长方形 正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称图形",
+     "predicate": "INCLUDES",
+     "object": "等边三角形",
+     "evidence": "线段 角 等腰三角形 等边三角形 长方形 正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称图形",
+     "predicate": "INCLUDES",
+     "object": "长方形",
+     "evidence": "线段 角 等腰三角形 等边三角形 长方形 正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称图形",
+     "predicate": "INCLUDES",
+     "object": "正方形",
+     "evidence": "线段 角 等腰三角形 等边三角形 长方形 正方形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等边三角形",
+     "predicate": "SPECIAL_CASE",
+     "object": "等腰三角形",
+     "evidence": "等腰三角形 等边三角形",
+     "confidence": 0.85
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "长方形",
+     "evidence": "长方形 正方形",
+     "confidence": 0.85
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "RELATED",
+     "object": "轴对称图形",
+     "evidence": "如果一个图形关于某条直线成轴对称的图形是其本身，那么称这个图形是轴对称图形",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:46.036Z"
+}

@@ -1,0 +1,169 @@
+{
+ "no": 20,
+ "title": "6.1 直线、射线、线段",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3348,
+   "entities": [
+    {
+     "name": "直线",
+     "type": "Concept",
+     "aliases": [
+      "straight line"
+     ],
+     "nickname": "",
+     "description": "向两端无限延伸的图形"
+    },
+    {
+     "name": "射线",
+     "type": "Concept",
+     "aliases": [
+      "half line"
+     ],
+     "nickname": "",
+     "description": "直线上一点和它一旁的部分"
+    },
+    {
+     "name": "线段",
+     "type": "Concept",
+     "aliases": [
+      "line segment"
+     ],
+     "nickname": "",
+     "description": "直线上两点及它们之间的部分"
+    },
+    {
+     "name": "两点确定一条直线",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "过两点有且只有一条直线"
+    },
+    {
+     "name": "两点之间线段最短",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两点之间的所有连线中，线段最短"
+    },
+    {
+     "name": "两点之间的距离",
+     "type": "Concept",
+     "aliases": [
+      "距离"
+     ],
+     "nickname": "",
+     "description": "两点之间线段的长度"
+    },
+    {
+     "name": "线段的中点",
+     "type": "Concept",
+     "aliases": [
+      "中点"
+     ],
+     "nickname": "",
+     "description": "把线段分成两条相等线段的点"
+    },
+    {
+     "name": "尺规作图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用无刻度直尺和圆规作图"
+    },
+    {
+     "name": "叠合法",
+     "type": "Method",
+     "aliases": [
+      "叠合的方法"
+     ],
+     "nickname": "",
+     "description": "通过叠合比较线段长短的方法"
+    },
+    {
+     "name": "度量法",
+     "type": "Method",
+     "aliases": [
+      "用刻度尺度量"
+     ],
+     "nickname": "",
+     "description": "用刻度尺度量线段长度的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "直线",
+     "predicate": "INCLUDES",
+     "object": "射线",
+     "evidence": "直线上的一点将直线分成两条射线",
+     "confidence": 0.95
+    },
+    {
+     "subject": "直线",
+     "predicate": "INCLUDES",
+     "object": "线段",
+     "evidence": "由直线上的两点可以得到一条线段",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两点确定一条直线",
+     "predicate": "PROPERTY_OF",
+     "object": "直线",
+     "evidence": "过两点只能画一条直线",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两点之间线段最短",
+     "predicate": "PROPERTY_OF",
+     "object": "线段",
+     "evidence": "两点之间的所有连线中，线段最短",
+     "confidence": 0.95
+    },
+    {
+     "subject": "线段",
+     "predicate": "PREREQUISITE",
+     "object": "两点之间的距离",
+     "evidence": "两点之间线段的长度叫作这两点之间的距离",
+     "confidence": 0.9
+    },
+    {
+     "subject": "线段",
+     "predicate": "PREREQUISITE",
+     "object": "线段的中点",
+     "evidence": "如果一个点把一条线段分成两条相等的线段，那么这个点叫作这条线段的中点",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尺规作图",
+     "predicate": "APPLIES_TO",
+     "object": "线段",
+     "evidence": "用直尺和圆规在射线AB上作线段AC，AD",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叠合法",
+     "predicate": "APPLIES_TO",
+     "object": "线段",
+     "evidence": "也可以用叠合的方法比较",
+     "confidence": 0.9
+    },
+    {
+     "subject": "度量法",
+     "predicate": "APPLIES_TO",
+     "object": "线段",
+     "evidence": "可以用刻度尺度量后比较",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叠合法",
+     "predicate": "CONTRASTS",
+     "object": "度量法",
+     "evidence": "可以用刻度尺度量后比较。也可以用叠合的方法比较",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:38.060Z"
+}

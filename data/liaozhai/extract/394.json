@@ -1,0 +1,180 @@
+{
+ "no": 394,
+ "title": "神女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3062,
+   "entities": [
+    {
+     "name": "米生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "闽人，书生，故事主角"
+    },
+    {
+     "name": "傅廉",
+     "type": "Person",
+     "aliases": [
+      "傅生",
+      "傅公子"
+     ],
+     "nickname": "",
+     "description": "神女之兄，傅姓老者之子"
+    },
+    {
+     "name": "神女",
+     "type": "Spirit",
+     "aliases": [
+      "女郎",
+      "娘子"
+     ],
+     "nickname": "",
+     "description": "南岳都理司之女，赠珠花助米生"
+    },
+    {
+     "name": "鲍庄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "米生同乡，夜死于途"
+    },
+    {
+     "name": "傅姓老者",
+     "type": "Spirit",
+     "aliases": [
+      "家君",
+      "翁"
+     ],
+     "nickname": "",
+     "description": "神女之父，南岳都理司"
+    },
+    {
+     "name": "博士",
+     "type": "Person",
+     "aliases": [
+      "顾博士"
+     ],
+     "nickname": "",
+     "description": "米生副室，顾姓，小字博士"
+    },
+    {
+     "name": "巡抚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "闽中巡抚，米生祖父门生"
+    },
+    {
+     "name": "直指巡方",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "巡察官员，廉知米生冤"
+    },
+    {
+     "name": "南岳都理司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "神女之父所任官职所在"
+    },
+    {
+     "name": "大材冢",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "米生与神女合葬之墓"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "神女",
+     "predicate": "HELPED",
+     "object": "米生",
+     "evidence": "乃于髻上摘珠花一朵，授生曰：此物可鬻百金，请缄藏之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "神女",
+     "predicate": "HELPED",
+     "object": "米生",
+     "evidence": "赠白金二百，为进取之资。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "米生",
+     "predicate": "HELPED",
+     "object": "神女",
+     "evidence": "以黄纸一幅，为妾求之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "米生",
+     "predicate": "SPOUSE",
+     "object": "神女",
+     "evidence": "欲以妹子附为婚姻……次夕，果送女郎至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "米生",
+     "predicate": "SPOUSE",
+     "object": "博士",
+     "evidence": "劝纳副室……适兄贾于江淮，为买少姬而归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "傅廉",
+     "predicate": "KIN",
+     "object": "神女",
+     "evidence": "昨公子，即娘子胞兄也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "傅姓老者",
+     "predicate": "KIN",
+     "object": "神女",
+     "evidence": "家君为南岳都理司……妾非人，乃神女也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "傅姓老者",
+     "predicate": "KIN",
+     "object": "傅廉",
+     "evidence": "家君衰迈……予兄弟代谢高贤之见枉也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "米生",
+     "predicate": "FRIEND",
+     "object": "傅廉",
+     "evidence": "相对纵饮，欢若一家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "米生",
+     "predicate": "LIVES_AT",
+     "object": "大材冢",
+     "evidence": "因并葬之，至今传为“大材冢”云。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "米生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "童子试",
+     "evidence": "赴郡应童子试，误入深山。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "米生",
+     "predicate": "OWNS",
+     "object": "珠花",
+     "evidence": "乃于髻上摘珠花一朵，授生曰：此物可鬻百金，请缄藏之。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:40.845Z"
+}

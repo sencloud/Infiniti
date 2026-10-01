@@ -1,0 +1,89 @@
+{
+ "no": 338,
+ "title": "邵临淄",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 236,
+   "entities": [
+    {
+     "name": "李生",
+     "type": "Person",
+     "aliases": [
+      "李公子"
+     ],
+     "nickname": "",
+     "description": "临淄太学生，某翁之女之夫"
+    },
+    {
+     "name": "某翁之女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临淄某翁之女，李生妻，性悍"
+    },
+    {
+     "name": "某翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临淄人，李生妻之父"
+    },
+    {
+     "name": "邵公",
+     "type": "Person",
+     "aliases": [
+      "邑宰邵公"
+     ],
+     "nickname": "",
+     "description": "临淄邑宰，断案杖责悍妇"
+    },
+    {
+     "name": "术士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "推算某翁之女必受官刑"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李生",
+     "predicate": "SPOUSE",
+     "object": "某翁之女",
+     "evidence": "临淄某翁之女，太学李生妻也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某翁",
+     "predicate": "KIN",
+     "object": "某翁之女",
+     "evidence": "临淄某翁之女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某翁之女",
+     "predicate": "HARMED",
+     "object": "李生",
+     "evidence": "既嫁，悍甚，指骂夫婿以为常。李不堪其虐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "讼案",
+     "evidence": "李不堪其虐，忿鸣于官。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邵公",
+     "predicate": "PUNISHED",
+     "object": "某翁之女",
+     "evidence": "杖责三十，臀肉尽脱。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:20.240Z"
+}

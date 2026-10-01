@@ -1,0 +1,93 @@
+{
+ "no": 232,
+ "title": "刘亮采",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 399,
+   "entities": [
+    {
+     "name": "刘亮采",
+     "type": "Person",
+     "aliases": [
+      "刘公"
+     ],
+     "nickname": "",
+     "description": "《刘亮采》中人物，狐之后身，壬辰进士"
+    },
+    {
+     "name": "刘太翁",
+     "type": "Person",
+     "aliases": [
+      "太翁"
+     ],
+     "nickname": "",
+     "description": "《刘亮采》中刘亮采之父，居南山"
+    },
+    {
+     "name": "胡叟",
+     "type": "Spirit",
+     "aliases": [
+      "胡",
+      "叟",
+      "老狐"
+     ],
+     "nickname": "",
+     "description": "《刘亮采》中山中老狐，与刘太翁交好，后投生为刘亮采"
+    },
+    {
+     "name": "南山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《刘亮采》中刘太翁所居之山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘亮采",
+     "predicate": "KIN",
+     "object": "刘太翁",
+     "evidence": "既醒，夫人生男，是为刘公。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘亮采",
+     "predicate": "KIN",
+     "object": "胡叟",
+     "evidence": "刘公亮采，狐之后身也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘太翁",
+     "predicate": "FRIEND",
+     "object": "胡叟",
+     "evidence": "因与接谈，词旨便利，悦之，治酒相欢，醺而去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘太翁",
+     "predicate": "LIVES_AT",
+     "object": "南山",
+     "evidence": "初，太翁居南山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡叟",
+     "predicate": "LIVES_AT",
+     "object": "南山",
+     "evidence": "问所居，曰：“只在此山中。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡叟",
+     "predicate": "HELPED",
+     "object": "刘太翁",
+     "evidence": "公勿忧，我当为君后。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:40.353Z"
+}

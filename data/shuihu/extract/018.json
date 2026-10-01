@@ -1,0 +1,902 @@
+{
+ "no": 18,
+ "title": "第十八回 美髯公智稳插翅虎 宋公明私放晁天王",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5213,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "宋押司",
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "黑宋江"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，仗义疏财，私放晁盖"
+    },
+    {
+     "name": "何涛",
+     "type": "Person",
+     "aliases": [
+      "何观察"
+     ],
+     "nickname": "",
+     "description": "济州府缉捕使臣，负责捉拿晁盖等人"
+    },
+    {
+     "name": "何清",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "何涛之弟，提供晁盖等人线索"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [
+      "晁保正"
+     ],
+     "nickname": "",
+     "description": "郓城县东溪村保正，劫生辰纲为首者"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "吴学究",
+      "智多星",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "晁盖同伙，智谋之士"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "入云龙",
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "蓟州人，晁盖同伙"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "东潞州人，晁盖同伙"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [
+      "立地太岁",
+      "阮小二郎"
+     ],
+     "nickname": "立地太岁",
+     "description": "石碣村渔民，晁盖同伙"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [
+      "短命二郎",
+      "阮小五郎"
+     ],
+     "nickname": "短命二郎",
+     "description": "石碣村渔民，晁盖同伙"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [
+      "活阎罗",
+      "阮小七郎"
+     ],
+     "nickname": "活阎罗",
+     "description": "石碣村渔民，晁盖同伙"
+    },
+    {
+     "name": "宋清",
+     "type": "Person",
+     "aliases": [
+      "铁扇子",
+      "宋四郎"
+     ],
+     "nickname": "铁扇子",
+     "description": "宋江之弟，在村中务农"
+    },
+    {
+     "name": "白胜",
+     "type": "Person",
+     "aliases": [
+      "白日鼠"
+     ],
+     "nickname": "白日鼠",
+     "description": "赌客，参与劫生辰纲，被捉后供出晁盖"
+    },
+    {
+     "name": "时文彬",
+     "type": "Person",
+     "aliases": [
+      "时知县"
+     ],
+     "nickname": "",
+     "description": "郓城县知县"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县都头"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县都头"
+    },
+    {
+     "name": "宋太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江之父，在宋家村务农"
+    },
+    {
+     "name": "梁中书",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北京大名府留守，送生辰纲给蔡太师"
+    },
+    {
+     "name": "蔡太师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "太师，生辰纲接收者"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "山东济州梁山泊山寨，好汉聚集地"
+    },
+    {
+     "name": "济州府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "济州官府，负责缉捕盗贼"
+    },
+    {
+     "name": "郓城县",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县衙，宋江任职地"
+    },
+    {
+     "name": "安乐村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济州北门十五里处村庄，白胜居所"
+    },
+    {
+     "name": "黄泥冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "劫生辰纲发生地"
+    },
+    {
+     "name": "东溪村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县村庄，晁盖庄院所在"
+    },
+    {
+     "name": "石碣村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阮氏三兄弟所居渔村，近梁山泊"
+    },
+    {
+     "name": "济州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，府衙所在"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，宋江、晁盖籍贯地"
+    },
+    {
+     "name": "宋家村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江祖居地"
+    },
+    {
+     "name": "生辰纲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书送蔡太师的十万贯金珠宝贝"
+    },
+    {
+     "name": "智取生辰纲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "晁盖等人在黄泥冈劫取生辰纲"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋清",
+     "evidence": "下有一个兄弟，唤做铁扇子宋清",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋太公",
+     "evidence": "上有父亲在堂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "祖居郓城县宋家村人氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MEMBER_OF",
+     "object": "郓城县",
+     "evidence": "这宋江自在郓城县做押司",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "晁盖",
+     "evidence": "他和我心腹相交，结义弟兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "晁盖",
+     "evidence": "我舍着条性命来救你",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何涛",
+     "predicate": "KIN",
+     "object": "何清",
+     "evidence": "何观察与兄弟何清道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何清",
+     "predicate": "SERVED",
+     "object": "何涛",
+     "evidence": "何涛听了大喜，随即引了兄弟何清径到州衙里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "是郓城县东溪村晁保正",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "东溪村",
+     "evidence": "郓城县东溪村晁保正",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "黄泥冈上一伙贩枣子的客人，把蒙汗药麻翻了人，劫了生辰纲去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "晁盖正和吴用、公孙胜、刘唐在后园葡萄树下吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "晁盖正和吴用、公孙胜、刘唐在后园葡萄树下吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "晁盖正和吴用、公孙胜、刘唐在后园葡萄树下吃酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "他自同六人来纠合白胜与他挑酒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "三个是阮小二、阮小五、阮小七，已得了财",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "三个是阮小二、阮小五、阮小七，已得了财",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "三个是阮小二、阮小五、阮小七，已得了财",
+     "confidence": 0.9
+    },
+    {
+     "subject": "智取生辰纲",
+     "predicate": "OCCURRED_AT",
+     "object": "黄泥冈",
+     "evidence": "黄泥冈上一伙贩枣子的客人，把蒙汗药麻翻了人，劫了生辰纲去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "OWNS",
+     "object": "生辰纲",
+     "evidence": "北京大名府梁中书差遣送蔡太师的生辰纲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白胜",
+     "predicate": "STATIONED_AT",
+     "object": "安乐村",
+     "evidence": "地名安乐村，有个王家客店的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "自回石碣村去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "自回石碣村去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "自回石碣村去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "若是赶得紧，我们一发入了伙",
+     "confidence": 0.5
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "何涛",
+     "evidence": "宋江道：贱眼不识观察，少罪。小吏姓宋名江的便是。何涛倒地便拜",
+     "confidence": 0.8
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "MEMBER_OF",
+     "object": "郓城县",
+     "evidence": "随即叫唤尉司并两个都头：一个姓朱名仝，一个姓雷名横",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "MEMBER_OF",
+     "object": "郓城县",
+     "evidence": "随即叫唤尉司并两个都头：一个姓朱名仝，一个姓雷名横",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何涛",
+     "predicate": "MEMBER_OF",
+     "object": "济州府",
+     "evidence": "小人是济州府缉捕使臣何观察的便是",
+     "confidence": 0.95
+    },
+    {
+     "subject": "时文彬",
+     "predicate": "MEMBER_OF",
+     "object": "郓城县",
+     "evidence": "正直知县时文彬在厅上发落事务",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2568,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，私放晁盖"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "教书先生，智取生辰纲参与者"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "入云龙",
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "全真先生，随晁盖逃走"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [
+      "美髯公",
+      "朱都头"
+     ],
+     "nickname": "美髯公",
+     "description": "郓城县都头，私放晁盖"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "黑大汉，生辰纲参与者"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎",
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "郓城县都头，有心放晁盖"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [
+      "立地太岁",
+      "阮小二郎"
+     ],
+     "nickname": "立地太岁",
+     "description": "石碣村渔户，阮氏三雄之一"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [
+      "短命二郎",
+      "阮小五郎"
+     ],
+     "nickname": "短命二郎",
+     "description": "石碣村渔户，阮氏三雄之一"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [
+      "活阎罗",
+      "阮小七郎"
+     ],
+     "nickname": "活阎罗",
+     "description": "石碣村渔户，阮氏三雄之一"
+    },
+    {
+     "name": "白胜",
+     "type": "Person",
+     "aliases": [
+      "白日鼠"
+     ],
+     "nickname": "白日鼠",
+     "description": "被捉供出晁盖等人"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [
+      "晁保正",
+      "晁天王"
+     ],
+     "nickname": "",
+     "description": "东溪村保正，烧庄逃走"
+    },
+    {
+     "name": "何涛",
+     "type": "Person",
+     "aliases": [
+      "何观察"
+     ],
+     "nickname": "",
+     "description": "济州府观察，奉命缉捕"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱仝建议晁盖投奔的安身之处"
+    },
+    {
+     "name": "东溪村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "晁盖所居村庄"
+    },
+    {
+     "name": "晁家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "晁盖的庄园"
+    },
+    {
+     "name": "石碣村",
+     "type": "Place",
+     "aliases": [
+      "石碣湖村"
+     ],
+     "nickname": "",
+     "description": "阮氏三雄居住的渔村"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江、朱仝、雷横任职的县"
+    },
+    {
+     "name": "济州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "府衙所在地，何涛回禀之处"
+    },
+    {
+     "name": "观音庵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东溪村内，官军取齐处"
+    },
+    {
+     "name": "私放晁盖",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱仝、雷横有意放走晁盖"
+    },
+    {
+     "name": "火烧晁家庄",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "晁盖烧庄后逃走"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "朱仝",
+     "predicate": "RESCUED",
+     "object": "晁盖",
+     "evidence": "朱仝有心要放晁盖，故意赚雷横去打前门。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "雷横",
+     "predicate": "RESCUED",
+     "object": "晁盖",
+     "evidence": "这雷横亦有心要救晁盖，以此争先要来打后门",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "FRIEND",
+     "object": "晁盖",
+     "evidence": "朱仝和晁盖最好",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "邻舍",
+     "evidence": "宋江自周全那一干邻舍，保放回家听候。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧晁家庄",
+     "evidence": "晁盖叫庄客四下里只顾放火",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧晁家庄",
+     "evidence": "他和公孙胜引了十数个去的庄客，呐着喊，挺起朴刀，从后门杀将出来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火烧晁家庄",
+     "predicate": "OCCURRED_AT",
+     "object": "晁家庄",
+     "evidence": "只见晁盖庄里一缕火起，从中堂烧将起来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "STATIONED_AT",
+     "object": "郓城县",
+     "evidence": "朱仝、雷横两个来到后堂，领了知县言语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "STATIONED_AT",
+     "object": "郓城县",
+     "evidence": "朱仝、雷横两个来到后堂，领了知县言语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "东溪村",
+     "evidence": "飞奔东溪村晁家来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "都在石碣湖村里住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "都在石碣湖村里住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "STATIONED_AT",
+     "object": "石碣村",
+     "evidence": "都在石碣湖村里住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私放晁盖",
+     "evidence": "先是六个人商议，小人只认得一个是本乡中教学的先生，叫做吴学究。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私放晁盖",
+     "evidence": "一个叫做公孙胜，是全真先生。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私放晁盖",
+     "evidence": "又有一个黑大汉，姓刘。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私放晁盖",
+     "evidence": "他姓阮，他在石碣住，他是打鱼的，弟兄三个。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私放晁盖",
+     "evidence": "他姓阮，他在石碣住，他是打鱼的，弟兄三个。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私放晁盖",
+     "evidence": "他姓阮，他在石碣住，他是打鱼的，弟兄三个。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "白胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私放晁盖",
+     "evidence": "再拿出白胜来。问道：那三个姓阮的端的住在那里？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "KIN",
+     "object": "阮小五",
+     "evidence": "他是打鱼的，弟兄三个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "KIN",
+     "object": "阮小七",
+     "evidence": "他是打鱼的，弟兄三个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "KIN",
+     "object": "阮小七",
+     "evidence": "他是打鱼的，弟兄三个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "ATTACKED",
+     "object": "晁家庄",
+     "evidence": "朱仝领了十个弓手，二十个士兵，先去了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "ATTACKED",
+     "object": "晁家庄",
+     "evidence": "雷横把马步弓手都摆在前后，帮护着县尉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何涛",
+     "predicate": "ATTACKED",
+     "object": "晁家庄",
+     "evidence": "就同何观察并两个虞候作眼拿人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "MASTERMINDED",
+     "object": "私放晁盖",
+     "evidence": "原来朱仝有心要放晁盖，故意赚雷横去打前门。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "雷横",
+     "predicate": "MASTERMINDED",
+     "object": "私放晁盖",
+     "evidence": "这雷横亦有心要救晁盖，以此争先要来打后门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私放晁盖",
+     "evidence": "朱仝虚闪一闪，放开条路，让晁盖走了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "MEMBER_OF",
+     "object": "郓城县",
+     "evidence": "朱仝、雷横两个来到后堂，领了知县言语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "MEMBER_OF",
+     "object": "郓城县",
+     "evidence": "朱仝、雷横两个来到后堂，领了知县言语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何涛",
+     "predicate": "MEMBER_OF",
+     "object": "济州",
+     "evidence": "何涛引了众人到厅前，禀说晁盖烧庄在逃一事。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "你不可投别处去，只除梁山泊可以安身。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:14.598Z"
+}

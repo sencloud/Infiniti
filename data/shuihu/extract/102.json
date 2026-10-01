@@ -1,0 +1,404 @@
+{
+ "no": 102,
+ "title": "第一百二回 王庆因奸吃官司 龚端被打师军犯",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5538,
+   "entities": [
+    {
+     "name": "王庆",
+     "type": "Person",
+     "aliases": [
+      "都排"
+     ],
+     "nickname": "",
+     "description": "开封府军健，因奸情被刺配陕州"
+    },
+    {
+     "name": "王庆妻",
+     "type": "Person",
+     "aliases": [
+      "老婆",
+      "妇人"
+     ],
+     "nickname": "",
+     "description": "王庆之妻，后改嫁"
+    },
+    {
+     "name": "钱老儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "开封府北街卖膏药的老医者"
+    },
+    {
+     "name": "李助",
+     "type": "Person",
+     "aliases": [
+      "李先生"
+     ],
+     "nickname": "",
+     "description": "荆南卖卦先生，号先天神数"
+    },
+    {
+     "name": "孙琳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "开封府防送公人，押解王庆"
+    },
+    {
+     "name": "贺吉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "开封府防送公人，押解王庆"
+    },
+    {
+     "name": "牛大户",
+     "type": "Person",
+     "aliases": [
+      "丈人",
+      "泰山"
+     ],
+     "nickname": "",
+     "description": "王庆的岳父，逼王庆写休书"
+    },
+    {
+     "name": "王砉",
+     "type": "Person",
+     "aliases": [
+      "父"
+     ],
+     "nickname": "",
+     "description": "王庆之父，被儿子气瞎双眼"
+    },
+    {
+     "name": "龚端",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚家村庄主，拜王庆为师"
+    },
+    {
+     "name": "龚正",
+     "type": "Person",
+     "aliases": [
+      "舍弟"
+     ],
+     "nickname": "",
+     "description": "龚端之弟，同拜王庆为师"
+    },
+    {
+     "name": "黄达",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东村人，曾痛打龚端兄弟"
+    },
+    {
+     "name": "童贯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "朝廷权臣，密使府尹陷害王庆"
+    },
+    {
+     "name": "蔡京",
+     "type": "Person",
+     "aliases": [
+      "蔡太师"
+     ],
+     "nickname": "",
+     "description": "太师，与蔡攸商议刺配王庆"
+    },
+    {
+     "name": "蔡攸",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蔡京之子，迎娶娇秀"
+    },
+    {
+     "name": "娇秀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与王庆有奸情的女子，后嫁蔡攸之子"
+    },
+    {
+     "name": "开封府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京开封府衙，审理王庆"
+    },
+    {
+     "name": "龚家村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西京新安县管下村庄，龚端兄弟所居"
+    },
+    {
+     "name": "开封府",
+     "type": "Place",
+     "aliases": [
+      "东京"
+     ],
+     "nickname": "",
+     "description": "北宋都城，王庆任职及受审之地"
+    },
+    {
+     "name": "陕州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西京管下牢城，王庆刺配之地"
+    },
+    {
+     "name": "北邙山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西京管下山峰，王庆途经之地"
+    },
+    {
+     "name": "嵩山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王庆押解途中经过的山"
+    },
+    {
+     "name": "王庆刺配陕州",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "王庆被刺配陕州牢城的事件"
+    },
+    {
+     "name": "王庆休妻",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛大户逼王庆写休书的事件"
+    },
+    {
+     "name": "王庆使棒",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "王庆带枷与使棒汉子比试获胜"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王庆",
+     "predicate": "SPOUSE",
+     "object": "王庆妻",
+     "evidence": "那妇人将王庆扶将起来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "KIN",
+     "object": "王砉",
+     "evidence": "此时王庆的父王砉，已被儿子气瞎了两眼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "KIN",
+     "object": "牛大户",
+     "evidence": "只见王庆的丈人牛大户接着",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "SPOUSE",
+     "object": "娇秀",
+     "evidence": "王庆勾搭了娇秀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龚端",
+     "predicate": "KIN",
+     "object": "龚正",
+     "evidence": "这个是舍弟，单名个正字。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "MASTER_OF",
+     "object": "龚端",
+     "evidence": "龚端同弟，随即拜王庆为师。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "MASTER_OF",
+     "object": "龚正",
+     "evidence": "龚端同弟，随即拜王庆为师。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "MEMBER_OF",
+     "object": "开封府",
+     "evidence": "王庆，你是个军健，如何怠玩，不来伺候？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "NATIVE_OF",
+     "object": "开封府",
+     "evidence": "今有东京开封府王姓君子，对天买卦。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "STATIONED_AT",
+     "object": "开封府",
+     "evidence": "王庆勉强摆到府衙前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "王庆刺配陕州",
+     "evidence": "该配西京管下陕州牢城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "王庆休妻",
+     "evidence": "只得写纸休书",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "王庆使棒",
+     "evidence": "王庆将身向左闪。那汉的棒打个空",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆刺配陕州",
+     "predicate": "OCCURRED_AT",
+     "object": "开封府",
+     "evidence": "两个公人扶着王庆进了开封府",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆休妻",
+     "predicate": "OCCURRED_AT",
+     "object": "开封府",
+     "evidence": "到衙前南街酒店里坐定",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆使棒",
+     "predicate": "OCCURRED_AT",
+     "object": "北邙山",
+     "evidence": "望见北邙山东有个市镇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童贯",
+     "predicate": "FRAMED",
+     "object": "王庆",
+     "evidence": "原来童贯密使人分付了府尹，正要寻罪过摆拨他。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蔡京",
+     "predicate": "FRAMED",
+     "object": "王庆",
+     "evidence": "蔡京、蔡攸择日迎娶娇秀成亲。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡攸",
+     "predicate": "FRAMED",
+     "object": "王庆",
+     "evidence": "蔡京、蔡攸择日迎娶娇秀成亲。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛大户",
+     "predicate": "FRAMED",
+     "object": "王庆",
+     "evidence": "你须立纸休书。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙琳",
+     "predicate": "SERVED",
+     "object": "开封府",
+     "evidence": "差两个防送公人，叫做孙琳、贺吉，监押前去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贺吉",
+     "predicate": "SERVED",
+     "object": "开封府",
+     "evidence": "差两个防送公人，叫做孙琳、贺吉，监押前去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "DEFEATED",
+     "object": "使棒汉子",
+     "evidence": "王庆就那一闪里，向那汉右手一棒劈去，正打着右手腕，把这条棒打落下来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄达",
+     "predicate": "DEFEATED",
+     "object": "龚端",
+     "evidence": "被那厮痛打一顿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄达",
+     "predicate": "DEFEATED",
+     "object": "龚正",
+     "evidence": "被那厮痛打一顿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "OWNS",
+     "object": "膏药",
+     "evidence": "买了两个膏药，贴在肋上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "OWNS",
+     "object": "休书",
+     "evidence": "只得写纸休书",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "OWNS",
+     "object": "护身枷",
+     "evidence": "当厅打一面七斤半团头铁叶护身枷钉了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "OWNS",
+     "object": "杆棒",
+     "evidence": "向贺吉取了杆棒",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:37:26.930Z"
+}

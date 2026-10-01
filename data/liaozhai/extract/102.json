@@ -1,0 +1,85 @@
+{
+ "no": 102,
+ "title": "西僧",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 297,
+   "entities": [
+    {
+     "name": "西僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "从西域来的两个和尚，一赴五台，一居泰山"
+    },
+    {
+     "name": "五台山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "中国名山，西僧一赴之地"
+    },
+    {
+     "name": "泰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "中国名山，西僧卓锡之地"
+    },
+    {
+     "name": "火焰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行途中山，气熏腾若炉灶"
+    },
+    {
+     "name": "流沙河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行途中河，中有水晶山"
+    },
+    {
+     "name": "水晶山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "流沙河中峭壁莹澈之山"
+    },
+    {
+     "name": "华山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西土所传中国名山之一"
+    },
+    {
+     "name": "落伽",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西土所传中国名山之一"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "西僧",
+     "predicate": "LIVES_AT",
+     "object": "五台山",
+     "evidence": "一赴五台",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西僧",
+     "predicate": "LIVES_AT",
+     "object": "泰山",
+     "evidence": "一卓锡泰山",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:50.120Z"
+}

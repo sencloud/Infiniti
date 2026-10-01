@@ -1,0 +1,175 @@
+{
+ "no": 282,
+ "title": "冤狱",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1403,
+   "entities": [
+    {
+     "name": "朱尔旦",
+     "type": "Person",
+     "aliases": [
+      "朱生"
+     ],
+     "nickname": "",
+     "description": "阳谷人，少年佻达，因冤狱被诬杀人"
+    },
+    {
+     "name": "媒媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "媒婆，与朱生戏言，后述其词致疑"
+    },
+    {
+     "name": "邻人之妻",
+     "type": "Person",
+     "aliases": [
+      "邻妇"
+     ],
+     "nickname": "",
+     "description": "媒媪邻人妻，被疑与朱生私通，受刑诬伏"
+    },
+    {
+     "name": "邻人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "媒媪邻人，出讨负被杀于野"
+    },
+    {
+     "name": "邑令",
+     "type": "Person",
+     "aliases": [
+      "令"
+     ],
+     "nickname": "",
+     "description": "阳谷县令，审案昏愦，后免官罚赎死"
+    },
+    {
+     "name": "宫标",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "素不逞，杀邻人劫财，后自首服罪"
+    },
+    {
+     "name": "周将军",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "关帝前周将军，附宫标身揭冤"
+    },
+    {
+     "name": "朱母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱生之母，割臂染血衣救子"
+    },
+    {
+     "name": "阳谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，朱生籍贯"
+    },
+    {
+     "name": "血衣",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱母割臂所染，伪证"
+    },
+    {
+     "name": "冤狱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱生被诬杀人案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "朱尔旦",
+     "predicate": "NATIVE_OF",
+     "object": "阳谷",
+     "evidence": "朱生，阳谷人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "冤狱",
+     "evidence": "捕至，百口不承。令又疑邻妇与私",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冤狱",
+     "predicate": "OCCURRED_AT",
+     "object": "阳谷",
+     "evidence": "朱生，阳谷人",
+     "confidence": 0.8
+    },
+    {
+     "subject": "邑令",
+     "predicate": "PUNISHED",
+     "object": "朱尔旦",
+     "evidence": "令审其迹确，拟斩",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑令",
+     "predicate": "PUNISHED",
+     "object": "邻人之妻",
+     "evidence": "令又疑邻妇与私，搒掠之，五毒参至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宫标",
+     "predicate": "KILLED",
+     "object": "邻人",
+     "evidence": "杀人者乃宫标也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周将军",
+     "predicate": "HELPED",
+     "object": "朱尔旦",
+     "evidence": "杀人者乃宫标也，于朱某何与？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱母",
+     "predicate": "HELPED",
+     "object": "朱尔旦",
+     "evidence": "母泣，入室移时，取衣出，付之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱母",
+     "predicate": "KIN",
+     "object": "朱尔旦",
+     "evidence": "因押归告母曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "OWNS",
+     "object": "血衣",
+     "evidence": "血衣可证",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邻人之妻",
+     "predicate": "SPOUSE",
+     "object": "朱尔旦",
+     "evidence": "妇感朱义，遂嫁之",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:00.614Z"
+}

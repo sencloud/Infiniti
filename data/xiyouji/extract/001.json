@@ -1,0 +1,474 @@
+{
+ "no": 1,
+ "title": "灵根育孕源流出 心性修持大道生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6053,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "石猴",
+      "美猴王",
+      "齐天大圣",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "美猴王",
+     "description": "花果山仙石所化石猴，后称美猴王，拜菩提祖师为师"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "",
+     "description": "天庭之主，居灵霄宝殿"
+    },
+    {
+     "name": "菩提祖师",
+     "type": "Person",
+     "aliases": [
+      "须菩提",
+      "祖师",
+      "须菩提祖师"
+     ],
+     "nickname": "",
+     "description": "灵台方寸山斜月三星洞神仙，孙悟空之师"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "",
+     "description": "阴间主宰，掌管生死"
+    },
+    {
+     "name": "顺风耳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭神将，奉玉帝旨观听金光"
+    },
+    {
+     "name": "通背猿猴",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山猿猴，建议美猴王寻仙访道"
+    },
+    {
+     "name": "樵夫",
+     "type": "Person",
+     "aliases": [
+      "樵汉",
+      "樵子"
+     ],
+     "nickname": "",
+     "description": "灵台方寸山砍柴人，为美猴王指路"
+    },
+    {
+     "name": "仙童",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "菩提祖师洞府童子，开门迎客"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东胜神洲傲来国海中名山，孙悟空出生地"
+    },
+    {
+     "name": "水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山瀑布后洞府，石猴发现并称王"
+    },
+    {
+     "name": "傲来国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "东胜神洲海外国度，花果山所在"
+    },
+    {
+     "name": "灵台方寸山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲仙山，菩提祖师居所"
+    },
+    {
+     "name": "斜月三星洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵台方寸山中的洞府，菩提祖师修行处"
+    },
+    {
+     "name": "南赡部洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大部洲之一，孙悟空曾在此游历"
+    },
+    {
+     "name": "西牛贺洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大部洲之一，灵台方寸山所在"
+    },
+    {
+     "name": "东胜神洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大部洲之一，花果山所在"
+    },
+    {
+     "name": "灵霄宝殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭宫殿，玉帝驾座之处"
+    },
+    {
+     "name": "南天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭门户，千里眼顺风耳奉旨观看之处"
+    },
+    {
+     "name": "石猴出世",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山仙石迸裂产石卵，化石猴"
+    },
+    {
+     "name": "石猴称王",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "石猴跳入水帘洞，众猴拜其为王"
+    },
+    {
+     "name": "美猴王访道",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "美猴王离花果山，渡海寻仙访道"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "那座山，正当顶上，有一块仙石……产一石卵……化作一个石猴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "花果山",
+     "evidence": "自此，石猴高登王位，将“石”字儿隐了，遂称美猴王。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "石猴出世",
+     "evidence": "内育仙胞，一日迸裂，产一石卵……化作一个石猴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "石猴称王",
+     "evidence": "众猴听说，即拱伏无违……都称“千岁大王”。自此，石猴高登王位",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "美猴王访道",
+     "evidence": "美猴王早起……果独自登筏，尽力撑开，飘飘荡荡，径向大海波中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石猴出世",
+     "predicate": "OCCURRED_AT",
+     "object": "花果山",
+     "evidence": "乃东胜神洲海东傲来小国之界，有一座花果山，山上有一仙石，石产一卵，见风化一石猴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石猴称王",
+     "predicate": "OCCURRED_AT",
+     "object": "水帘洞",
+     "evidence": "石猴端坐上面道：“列位呵……何不拜我为王？”众猴听说，即拱伏无违。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "美猴王访道",
+     "predicate": "OCCURRED_AT",
+     "object": "南赡部洲",
+     "evidence": "果独自登筏，尽力撑开，飘飘荡荡，径向大海波中，趁天风，来渡南赡部洲地界。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "菩提祖师",
+     "evidence": "",
+     "confidence": 0.8
+    },
+    {
+     "subject": "菩提祖师",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "那洞中有一个神仙，称名须菩提祖师。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "水帘洞",
+     "evidence": "美猴王领一群猿猴、猕猴、马猴等，分派了君臣佐使，朝游花果山，暮宿水帘洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "花果山",
+     "evidence": "美猴王领一群猿猴、猕猴、马猴等，分派了君臣佐使，朝游花果山，暮宿水帘洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "花果山",
+     "evidence": "美猴王领一群猿猴、猕猴、马猴等，分派了君臣佐使",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "LEADS",
+     "object": "灵霄宝殿",
+     "evidence": "惊动高天上圣大慈仁者玉皇大天尊玄穹高上帝，驾座金阙云宫灵霄宝殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顺风耳",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "即命千里眼、顺风耳开南天门观看。二将果奉旨出门外",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顺风耳",
+     "predicate": "STATIONED_AT",
+     "object": "南天门",
+     "evidence": "即命千里眼、顺风耳开南天门观看。二将果奉旨出门外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "通背猿猴",
+     "predicate": "SERVED",
+     "object": "孙悟空",
+     "evidence": "只见那班部中，忽跳出一个通背猿猴，厉声高叫道：“大王若是这般远虑，真所谓道心开发也！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "樵夫",
+     "predicate": "RECOMMENDED",
+     "object": "菩提祖师",
+     "evidence": "樵夫道：“不远，不远。此山叫做灵台方寸山。山中有座斜月三星洞。那洞中有一个神仙，称名须菩提祖师。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "樵夫",
+     "predicate": "NATIVE_OF",
+     "object": "灵台方寸山",
+     "evidence": "樵夫道：“我一生命苦……如今母老，一发不敢抛离。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "菩提祖师",
+     "predicate": "STATIONED_AT",
+     "object": "斜月三星洞",
+     "evidence": "此山叫做灵台方寸山。山中有座斜月三星洞。那洞中有一个神仙，称名须菩提祖师。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仙童",
+     "predicate": "SERVED",
+     "object": "菩提祖师",
+     "evidence": "只听得呀的一声，洞门开处，里面走出一个仙童",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "通背猿猴",
+     "evidence": "只见那班部中，忽跳出一个通背猿猴，厉声高叫道：“大王若是这般远虑，真所谓道心开发也！”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "樵夫",
+     "evidence": "猴王用手扯住樵夫道：“老兄，你便同我去去。若还得了好处，决不忘你指引之恩。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "阎罗王",
+     "evidence": "",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "阎罗王",
+     "evidence": "",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "水帘洞",
+     "evidence": "石猴笑道：“……真个是我们安身之处。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "花果山",
+     "evidence": "自此，石猴高登王位，将“石”字儿隐了，遂称美猴王。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1139,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "猴王",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "花果山石猴，拜菩提祖师为师，得名孙悟空"
+    },
+    {
+     "name": "菩提祖师",
+     "type": "Person",
+     "aliases": [
+      "须菩提",
+      "祖师"
+     ],
+     "nickname": "",
+     "description": "灵台方寸山斜月三星洞神仙，孙悟空师父"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东胜神洲傲来国仙山，孙悟空出生地"
+    },
+    {
+     "name": "水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山中的洞府，孙悟空居住地"
+    },
+    {
+     "name": "东胜神洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大部洲之一，花果山所在"
+    },
+    {
+     "name": "傲来国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东胜神洲中的国度，花果山所在"
+    },
+    {
+     "name": "南赡部洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大部洲之一，孙悟空访道路经之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "菩提祖师",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "猴王听说，满心欢喜，朝上叩头道：“好！好！好！今日方知姓也。万望师父慈悲！既然有姓，再乞赐个名字，却好呼唤。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "猴王道：“弟子东胜神洲傲来国花果山水帘洞人氏。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "水帘洞",
+     "evidence": "猴王道：“弟子东胜神洲傲来国花果山水帘洞人氏。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "东胜神洲",
+     "evidence": "猴王道：“弟子东胜神洲傲来国花果山水帘洞人氏。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "傲来国",
+     "evidence": "猴王道：“弟子东胜神洲傲来国花果山水帘洞人氏。”",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:36:52.025Z"
+}

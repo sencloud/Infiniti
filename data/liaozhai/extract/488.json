@@ -1,0 +1,162 @@
+{
+ "no": 488,
+ "title": "房文淑",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1318,
+   "entities": [
+    {
+     "name": "邓成德",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "开封人，游学至兖，与房文淑相恋生子"
+    },
+    {
+     "name": "房文淑",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "少妇，自称房氏，实非人，与邓成德相恋生子"
+    },
+    {
+     "name": "娄氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邓成德之妻，抚养兖生"
+    },
+    {
+     "name": "兖生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邓成德与房文淑之子"
+    },
+    {
+     "name": "李前川",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某村人，为邓成德介绍教职"
+    },
+    {
+     "name": "开封",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邓成德籍贯地"
+    },
+    {
+     "name": "兖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邓成德游学、寓居之地"
+    },
+    {
+     "name": "败寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "兖地破败寺庙，邓成德寓居处"
+    },
+    {
+     "name": "某村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "离寺三十里，邓成德教书处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "邓成德",
+     "predicate": "NATIVE_OF",
+     "object": "开封",
+     "evidence": "开封邓成德，游学至兖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓成德",
+     "predicate": "LIVES_AT",
+     "object": "败寺",
+     "evidence": "寓败寺中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓成德",
+     "predicate": "LIVES_AT",
+     "object": "某村",
+     "evidence": "即至某村，谒见李前川，谋果遂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓成德",
+     "predicate": "LOVES",
+     "object": "房文淑",
+     "evidence": "曳坐求欢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓成德",
+     "predicate": "SPOUSE",
+     "object": "房文淑",
+     "evidence": "居然琴瑟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓成德",
+     "predicate": "SPOUSE",
+     "object": "娄氏",
+     "evidence": "邓离家，与妻娄约",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓成德",
+     "predicate": "KIN",
+     "object": "兖生",
+     "evidence": "此真吾子也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "房文淑",
+     "predicate": "KIN",
+     "object": "兖生",
+     "evidence": "女忽生一子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "娄氏",
+     "predicate": "KIN",
+     "object": "兖生",
+     "evidence": "即嗣为姊后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "房文淑",
+     "predicate": "HELPED",
+     "object": "邓成德",
+     "evidence": "君往访李前川，可以得之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李前川",
+     "predicate": "HELPED",
+     "object": "邓成德",
+     "evidence": "谒见李前川，谋果遂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "房文淑",
+     "predicate": "HELPED",
+     "object": "娄氏",
+     "evidence": "因多方措十馀金来",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:19.500Z"
+}

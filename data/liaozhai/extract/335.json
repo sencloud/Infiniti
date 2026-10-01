@@ -1,0 +1,96 @@
+{
+ "no": 335,
+ "title": "邵士梅",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 257,
+   "entities": [
+    {
+     "name": "邵士梅",
+     "type": "Person",
+     "aliases": [
+      "邵进士"
+     ],
+     "nickname": "",
+     "description": "济宁人，登州教授，前身为高东海"
+    },
+    {
+     "name": "高东海",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "无赖，豪爽好义，死于狱中"
+    },
+    {
+     "name": "高少宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "讲述此故事的人"
+    },
+    {
+     "name": "高冀良",
+     "type": "Person",
+     "aliases": [
+      "高公子"
+     ],
+     "nickname": "",
+     "description": "高少宰之子，邵士梅同年"
+    },
+    {
+     "name": "济宁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邵士梅籍贯"
+    },
+    {
+     "name": "登州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邵士梅初授教授之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "邵士梅",
+     "predicate": "NATIVE_OF",
+     "object": "济宁",
+     "evidence": "邵进士，名士梅，济宁人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邵士梅",
+     "predicate": "LIVES_AT",
+     "object": "登州",
+     "evidence": "初授登州教授",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邵士梅",
+     "predicate": "KIN",
+     "object": "高东海",
+     "evidence": "邵笑云：“我旧戚也。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高少宰",
+     "predicate": "KIN",
+     "object": "高冀良",
+     "evidence": "即高公子冀良同年也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邵士梅",
+     "predicate": "FRIEND",
+     "object": "高冀良",
+     "evidence": "即高公子冀良同年也。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:18.878Z"
+}

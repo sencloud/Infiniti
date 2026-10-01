@@ -1,0 +1,175 @@
+{
+ "no": 62,
+ "title": "胡四姐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1404,
+   "entities": [
+    {
+     "name": "尚生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泰山人，独居清斋的书生，与狐女相恋"
+    },
+    {
+     "name": "胡三姐",
+     "type": "Spirit",
+     "aliases": [
+      "三姐"
+     ],
+     "nickname": "",
+     "description": "狐女，胡四姐之姊，狠毒曾杀三人"
+    },
+    {
+     "name": "胡四姐",
+     "type": "Spirit",
+     "aliases": [
+      "四姐"
+     ],
+     "nickname": "",
+     "description": "狐女，得仙人正法，后名列仙籍"
+    },
+    {
+     "name": "陕人某",
+     "type": "Person",
+     "aliases": [
+      "陕人"
+     ],
+     "nickname": "",
+     "description": "陕西人，骑驴寻妖，为弟报仇"
+    },
+    {
+     "name": "骚狐少妇",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "山下槲林中出现的狐妇，与尚生私通"
+    },
+    {
+     "name": "尚生父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "尚生之父，惧妖请陕人作法"
+    },
+    {
+     "name": "李文玉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "尚生友人，尚生为其戚好"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "尚生",
+     "predicate": "LOVES",
+     "object": "胡三姐",
+     "evidence": "生就视，容华若仙，惊喜拥入，穷极狎昵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尚生",
+     "predicate": "LOVES",
+     "object": "胡四姐",
+     "evidence": "生狂喜，引坐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡三姐",
+     "predicate": "KIN",
+     "object": "胡四姐",
+     "evidence": "三姐曰：妾陋质……若见吾家四妹",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡三姐",
+     "predicate": "HARMED",
+     "object": "尚生",
+     "evidence": "阿姊狠毒，业杀三人矣。惑之，罔不毙者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡四姐",
+     "predicate": "HELPED",
+     "object": "尚生",
+     "evidence": "妾幸承溺爱，不忍见灭亡，当早绝之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尚生",
+     "predicate": "LIVES_AT",
+     "object": "清斋",
+     "evidence": "独居清斋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尚生",
+     "predicate": "NATIVE_OF",
+     "object": "泰山",
+     "evidence": "尚生，泰山人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尚生",
+     "predicate": "LOVES",
+     "object": "骚狐少妇",
+     "evidence": "继而灭烛登床，狎情荡甚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡三姐",
+     "predicate": "HELPED",
+     "object": "尚生",
+     "evidence": "三姐从旁解免，四姐怒稍释",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陕人某",
+     "predicate": "HARMED",
+     "object": "胡三姐",
+     "evidence": "出二瓶，列地上，符咒良久，有黑雾四团，分投瓶中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陕人某",
+     "predicate": "HARMED",
+     "object": "胡四姐",
+     "evidence": "出二瓶，列地上，符咒良久，有黑雾四团，分投瓶中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尚生",
+     "predicate": "HELPED",
+     "object": "胡四姐",
+     "evidence": "生益感动，急启所封",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尚生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "刈麦",
+     "evidence": "后生在野，督佣刈麦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡四姐",
+     "predicate": "HELPED",
+     "object": "尚生",
+     "evidence": "妾当度君为鬼仙，亦无苦也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尚生",
+     "predicate": "FRIEND",
+     "object": "李文玉",
+     "evidence": "尚生乃友人李文玉之戚好",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:36.944Z"
+}

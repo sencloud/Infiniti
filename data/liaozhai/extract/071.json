@@ -1,0 +1,125 @@
+{
+ "no": 71,
+ "title": "九山王",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1189,
+   "entities": [
+    {
+     "name": "李生",
+     "type": "Person",
+     "aliases": [
+      "李姓者",
+      "九山王"
+     ],
+     "nickname": "九山王",
+     "description": "曹州邑诸生，家富，杀狐后自立为九山王"
+    },
+    {
+     "name": "狐叟",
+     "type": "Spirit",
+     "aliases": [
+      "叟",
+      "老狐",
+      "南山翁",
+      "护国大将军"
+     ],
+     "nickname": "南山翁",
+     "description": "老狐，化叟租李生园，后化星者复仇"
+    },
+    {
+     "name": "曹州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李生籍贯地"
+    },
+    {
+     "name": "李家",
+     "type": "Place",
+     "aliases": [
+      "李第"
+     ],
+     "nickname": "",
+     "description": "李生宅第，狐叟租住"
+    },
+    {
+     "name": "园",
+     "type": "Place",
+     "aliases": [
+      "荒园"
+     ],
+     "nickname": "",
+     "description": "李生舍后荒园，狐叟租住"
+    },
+    {
+     "name": "九山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李生立寨称王处"
+    },
+    {
+     "name": "九山王起事",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "李生自立九山王，聚众反叛"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李生",
+     "predicate": "NATIVE_OF",
+     "object": "曹州",
+     "evidence": "曹州李姓者，邑诸生。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐叟",
+     "predicate": "LIVES_AT",
+     "object": "李家",
+     "evidence": "有叟来税屋，出直百金。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐叟",
+     "predicate": "LIVES_AT",
+     "object": "园",
+     "evidence": "则入园中，欻见舍宇华好，崭然一新",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李生",
+     "predicate": "KILLED",
+     "object": "狐叟",
+     "evidence": "骤火之，焰亘霄汉……则死狐满地，焦头烂额者，不可胜计。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐叟",
+     "predicate": "HARMED",
+     "object": "李生",
+     "evidence": "始悟翁即老狐，盖以族灭报李也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "九山王起事",
+     "evidence": "因自立为九山王。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "九山王起事",
+     "predicate": "OCCURRED_AT",
+     "object": "九山",
+     "evidence": "据山立栅，声势震动。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:39.891Z"
+}

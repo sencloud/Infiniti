@@ -1,0 +1,546 @@
+{
+ "no": 47,
+ "title": "圣僧夜阻通天水 金木垂慈救小童",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5858,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，火眼金睛，降妖除魔"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐钦差往西天取经的圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，相貌丑陋，食肠宽大"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，莽撞但忠心"
+    },
+    {
+     "name": "陈澄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄老者，六十三岁，有一女一秤金"
+    },
+    {
+     "name": "陈清",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈澄之弟，五十八岁，有一子陈关保"
+    },
+    {
+     "name": "陈关保",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈清之子，七岁，因求关圣得名"
+    },
+    {
+     "name": "灵感大王",
+     "type": "Person",
+     "aliases": [
+      "金鱼精",
+      "灵感"
+     ],
+     "nickname": "灵感大王",
+     "description": "通天河妖怪，每年要童男童女祭赛"
+    },
+    {
+     "name": "车迟国国王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国国王，曾被妖道迷惑"
+    },
+    {
+     "name": "车迟国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行路上的国度，元会县陈家庄属其管辖"
+    },
+    {
+     "name": "陈家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国元会县所管村庄，有百家人家"
+    },
+    {
+     "name": "通天河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "径过八百里，亘古少人行的河流"
+    },
+    {
+     "name": "智渊寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "车迟国国都寺庙，唐僧师徒曾在此安歇"
+    },
+    {
+     "name": "灵感大王庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "通天河岸边的庙宇，供奉灵感大王"
+    },
+    {
+     "name": "车迟国除妖",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空在车迟国打死妖道，救出和尚"
+    },
+    {
+     "name": "陈家庄祭赛",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "灵感大王每年要陈家庄献童男童女祭赛"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "虎力大仙",
+     "evidence": "那两个妖道也是老孙打死了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "鹿力大仙",
+     "evidence": "那两个妖道也是老孙打死了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "羊力大仙",
+     "evidence": "那两个妖道也是老孙打死了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙滩和尚",
+     "evidence": "这些和尚实是老孙放了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "车迟国国王",
+     "evidence": "除妖邪救了你命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "车迟国除妖",
+     "evidence": "今日灭了妖邪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "车迟国除妖",
+     "predicate": "OCCURRED_AT",
+     "object": "车迟国",
+     "evidence": "今日灭了妖邪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "车迟国除妖",
+     "evidence": "圣僧之言，不可不听",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "车迟国除妖",
+     "evidence": "徒弟们相貌虽凶，果然是山恶人善",
+     "confidence": 0.7
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "车迟国除妖",
+     "evidence": "徒弟们相貌虽凶，果然是山恶人善",
+     "confidence": 0.7
+    },
+    {
+     "subject": "陈澄",
+     "predicate": "KIN",
+     "object": "陈清",
+     "evidence": "这个是我舍弟，名唤陈清",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈清",
+     "predicate": "KIN",
+     "object": "陈关保",
+     "evidence": "舍弟有个儿子，也是偏出，今年七岁了，取各唤做陈关保",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈澄",
+     "predicate": "NATIVE_OF",
+     "object": "陈家庄",
+     "evidence": "我们这里，有百家人家居住。此处属车迟国元会县所管，唤做陈家庄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈清",
+     "predicate": "NATIVE_OF",
+     "object": "陈家庄",
+     "evidence": "我们这里，有百家人家居住。此处属车迟国元会县所管，唤做陈家庄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈家庄",
+     "predicate": "MEMBER_OF",
+     "object": "车迟国",
+     "evidence": "此处属车迟国元会县所管，唤做陈家庄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灵感大王",
+     "predicate": "STATIONED_AT",
+     "object": "通天河",
+     "evidence": "有一座灵感大王庙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灵感大王",
+     "predicate": "STATIONED_AT",
+     "object": "灵感大王庙",
+     "evidence": "有一座灵感大王庙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灵感大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "陈家庄祭赛",
+     "evidence": "这大王一年一次祭赛，要一个童男，一个童女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈家庄祭赛",
+     "predicate": "OCCURRED_AT",
+     "object": "陈家庄",
+     "evidence": "这大王一年一次祭赛，要一个童男，一个童女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈澄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "陈家庄祭赛",
+     "evidence": "今年正到舍下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈清",
+     "predicate": "PARTICIPATED_IN",
+     "object": "陈家庄祭赛",
+     "evidence": "今年正到舍下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏回头叫声：徒弟，这里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏回头叫声：徒弟，这里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "三藏回头叫声：徒弟，这里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "哥哥，你只知其一，不知其二",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧道：是一股水挡住也",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "八戒道：罢了！来到尽头路了！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "锡杖",
+     "evidence": "拖着锡杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "拿了铁棒",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2009,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "老孙",
+      "哥哥"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，能七十二变，替陈关保祭赛"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "悟能",
+      "呆子",
+      "长嘴师父",
+      "贤弟"
+     ],
+     "nickname": "天蓬元帅",
+     "description": "唐僧二徒弟，能三十六变，变作一秤金"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "师父",
+      "老爷",
+      "唐老爷"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "取经僧人，陈家庄借宿"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "卷帘大将",
+     "description": "唐僧三徒弟，奉命保护唐僧"
+    },
+    {
+     "name": "陈清",
+     "type": "Person",
+     "aliases": [
+      "老者",
+      "老大"
+     ],
+     "nickname": "",
+     "description": "陈家庄老者，陈关保之父"
+    },
+    {
+     "name": "陈澄",
+     "type": "Person",
+     "aliases": [
+      "老者",
+      "老大"
+     ],
+     "nickname": "",
+     "description": "陈家庄老者，一秤金之父"
+    },
+    {
+     "name": "陈关保",
+     "type": "Person",
+     "aliases": [
+      "关保儿",
+      "令郎"
+     ],
+     "nickname": "",
+     "description": "陈清之子，被选为祭赛童男"
+    },
+    {
+     "name": "灵感大王",
+     "type": "Person",
+     "aliases": [
+      "大王"
+     ],
+     "nickname": "",
+     "description": "通天河妖怪，每年索要童男童女祭赛"
+    },
+    {
+     "name": "陈家庄",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "通天河畔村庄，陈清陈澄等人家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陈清",
+     "predicate": "KIN",
+     "object": "陈关保",
+     "evidence": "那陈清急入里面，将关保儿抱出厅上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "陈关保",
+     "evidence": "摇身一变，变作那关保儿一般模样",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "陈关保",
+     "evidence": "我今替这个孩儿性命，留下你家香烟后代",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "你师兄说得最是",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "唐僧叫：悟能，你师兄说得最是",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "行者道：你已替祭，没了你也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "吩咐沙僧保护唐僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祭赛灵感大王",
+     "evidence": "我与你祭赛去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祭赛灵感大王",
+     "evidence": "我兄弟同去祭赛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祭赛灵感大王",
+     "predicate": "OCCURRED_AT",
+     "object": "陈家庄",
+     "evidence": "同庄众人打开前门叫：抬出童男童女来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灵感大王",
+     "predicate": "STATIONED_AT",
+     "object": "陈家庄",
+     "evidence": "常年祭赛时，我这里有胆大的，钻在庙后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈清",
+     "predicate": "MEMBER_OF",
+     "object": "陈家庄",
+     "evidence": "那陈清急入里面，将关保儿抱出厅上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈澄",
+     "predicate": "MEMBER_OF",
+     "object": "陈家庄",
+     "evidence": "那陈澄急入里边，抱将一秤金孩儿，到了厅上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:00.176Z"
+}

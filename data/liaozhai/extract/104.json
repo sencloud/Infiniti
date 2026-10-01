@@ -1,0 +1,231 @@
+{
+ "no": 104,
+ "title": "连城",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1975,
+   "entities": [
+    {
+     "name": "乔生",
+     "type": "Person",
+     "aliases": [
+      "乔公子",
+      "乔年"
+     ],
+     "nickname": "大年",
+     "description": "晋宁书生，有肝胆，为连城割膺肉"
+    },
+    {
+     "name": "连城",
+     "type": "Person",
+     "aliases": [
+      "连城女",
+      "连娘"
+     ],
+     "nickname": "",
+     "description": "史孝廉之女，工刺绣，知书"
+    },
+    {
+     "name": "顾生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乔生好友，死后在冥府典牍"
+    },
+    {
+     "name": "史孝廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "连城之父，曾许女择婿"
+    },
+    {
+     "name": "王化成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鹾贾之子，连城原许配之人"
+    },
+    {
+     "name": "宾娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长沙史太守之女，与连城同姓"
+    },
+    {
+     "name": "史太守",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长沙太守，宾娘之父"
+    },
+    {
+     "name": "西域头陀",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "自称能疗连城之病，需男子膺肉"
+    },
+    {
+     "name": "晋宁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乔生籍贯地"
+    },
+    {
+     "name": "长沙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宾娘籍贯地，史太守任所"
+    },
+    {
+     "name": "冥府廨署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乔生死后所入公堂"
+    },
+    {
+     "name": "《倦绣图》",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "连城所刺绣品，用以征诗择婿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乔生",
+     "predicate": "NATIVE_OF",
+     "object": "晋宁",
+     "evidence": "乔生，晋宁人",
+     "confidence": 1
+    },
+    {
+     "subject": "乔生",
+     "predicate": "FRIEND",
+     "object": "顾生",
+     "evidence": "与顾生善",
+     "confidence": 1
+    },
+    {
+     "subject": "乔生",
+     "predicate": "HELPED",
+     "object": "顾生",
+     "evidence": "顾卒，时恤其妻子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乔生",
+     "predicate": "LOVES",
+     "object": "连城",
+     "evidence": "倾怀结想，如饥思啖",
+     "confidence": 1
+    },
+    {
+     "subject": "连城",
+     "predicate": "LOVES",
+     "object": "乔生",
+     "evidence": "女得诗喜，对父称赏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "连城",
+     "predicate": "KIN",
+     "object": "史孝廉",
+     "evidence": "史孝廉有女，字连城",
+     "confidence": 1
+    },
+    {
+     "subject": "连城",
+     "predicate": "OWNS",
+     "object": "《倦绣图》",
+     "evidence": "出所刺《倦绣图》",
+     "confidence": 1
+    },
+    {
+     "subject": "连城",
+     "predicate": "SPOUSE",
+     "object": "王化成",
+     "evidence": "女许字于鹾贾之子王化成",
+     "confidence": 1
+    },
+    {
+     "subject": "乔生",
+     "predicate": "HELPED",
+     "object": "连城",
+     "evidence": "自出白刃，刲膺授僧",
+     "confidence": 1
+    },
+    {
+     "subject": "西域头陀",
+     "predicate": "HELPED",
+     "object": "连城",
+     "evidence": "合药三丸，三日服尽，疾若失",
+     "confidence": 1
+    },
+    {
+     "subject": "乔生",
+     "predicate": "LIVES_AT",
+     "object": "冥府廨署",
+     "evidence": "俄顷，入一廨署",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顾生",
+     "predicate": "HELPED",
+     "object": "乔生",
+     "evidence": "顾即导生旋转多所，见连城",
+     "confidence": 1
+    },
+    {
+     "subject": "顾生",
+     "predicate": "HELPED",
+     "object": "宾娘",
+     "evidence": "请携宾娘去！脱有愆尤，小生拼身受之！",
+     "confidence": 1
+    },
+    {
+     "subject": "宾娘",
+     "predicate": "KIN",
+     "object": "史太守",
+     "evidence": "长沙史太守女",
+     "confidence": 1
+    },
+    {
+     "subject": "宾娘",
+     "predicate": "NATIVE_OF",
+     "object": "长沙",
+     "evidence": "长沙史太守女",
+     "confidence": 1
+    },
+    {
+     "subject": "连城",
+     "predicate": "SPOUSE",
+     "object": "乔生",
+     "evidence": "儿已委身乔郎矣，更无归理",
+     "confidence": 1
+    },
+    {
+     "subject": "宾娘",
+     "predicate": "SPOUSE",
+     "object": "乔生",
+     "evidence": "小女子赖君复生，誓不他适，今从其志",
+     "confidence": 1
+    },
+    {
+     "subject": "王化成",
+     "predicate": "HARMED",
+     "object": "连城",
+     "evidence": "王闻，具词申理，官受赂，判归王",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:53.768Z"
+}

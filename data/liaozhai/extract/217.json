@@ -1,0 +1,333 @@
+{
+ "no": 217,
+ "title": "云翠仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2213,
+   "entities": [
+    {
+     "name": "梁有才",
+     "type": "Person",
+     "aliases": [
+      "梁生"
+     ],
+     "nickname": "",
+     "description": "晋人，流寓济南，小贩，云翠仙之夫"
+    },
+    {
+     "name": "云翠仙",
+     "type": "Spirit",
+     "aliases": [
+      "云氏"
+     ],
+     "nickname": "",
+     "description": "仙女，云氏之女，嫁梁有才"
+    },
+    {
+     "name": "云氏",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "云翠仙之母，自称云氏"
+    },
+    {
+     "name": "云翠仙舅",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "云翠仙之舅，居西山村庄"
+    },
+    {
+     "name": "云翠仙妗",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "云翠仙之舅母"
+    },
+    {
+     "name": "博党",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "劝梁有才鬻妻的赌友"
+    },
+    {
+     "name": "中贵人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "买云翠仙为乐妓的宦官"
+    },
+    {
+     "name": "泰山",
+     "type": "Place",
+     "aliases": [
+      "岱"
+     ],
+     "nickname": "",
+     "description": "梁有才遇云翠仙之处"
+    },
+    {
+     "name": "济",
+     "type": "Place",
+     "aliases": [
+      "济南"
+     ],
+     "nickname": "",
+     "description": "梁有才流寓之地"
+    },
+    {
+     "name": "晋",
+     "type": "Place",
+     "aliases": [
+      "山西"
+     ],
+     "nickname": "",
+     "description": "梁有才原籍"
+    },
+    {
+     "name": "西山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "云氏家所在，距泰山四十里"
+    },
+    {
+     "name": "云翠仙舅家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "云翠仙舅所居村庄"
+    },
+    {
+     "name": "云母家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "云翠仙母所居，楼舍华好"
+    },
+    {
+     "name": "梁有才家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁有才在济的居所"
+    },
+    {
+     "name": "削壁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁有才被弃之绝壁"
+    },
+    {
+     "name": "狱",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁有才杀博党后被系之处"
+    },
+    {
+     "name": "黄金二铤",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "云翠仙藏于衣底之金"
+    },
+    {
+     "name": "跪香",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "泰山四月香客跪拜之俗"
+    },
+    {
+     "name": "婚嫁",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁有才与云翠仙成亲"
+    },
+    {
+     "name": "鬻妻",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁有才卖云翠仙为乐妓"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "梁有才",
+     "predicate": "NATIVE_OF",
+     "object": "晋",
+     "evidence": "梁有才，故晋人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "LIVES_AT",
+     "object": "济",
+     "evidence": "流寓于济",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "PARTICIPATED_IN",
+     "object": "跪香",
+     "evidence": "从村人登岱……名曰“跪香”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "跪香",
+     "predicate": "OCCURRED_AT",
+     "object": "泰山",
+     "evidence": "从村人登岱。岱，四月交，香侣杂沓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "LOVES",
+     "object": "云翠仙",
+     "evidence": "才视众中有女郎，年十七八而美，悦之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云氏",
+     "predicate": "KIN",
+     "object": "云翠仙",
+     "evidence": "媪自言为云氏，女名翠仙，其出也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "云翠仙",
+     "predicate": "LIVES_AT",
+     "object": "西山",
+     "evidence": "家西山四十里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云翠仙",
+     "predicate": "KIN",
+     "object": "云翠仙舅",
+     "evidence": "将寄舅家宿耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云翠仙",
+     "predicate": "KIN",
+     "object": "云翠仙妗",
+     "evidence": "舅出翁，妗出媪也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "SPOUSE",
+     "object": "云翠仙",
+     "evidence": "谓：“才吾婿。日适良，不须别择，便取今夕。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "婚嫁",
+     "predicate": "OCCURRED_AT",
+     "object": "云翠仙舅家",
+     "evidence": "俄抵村舍，便邀才同入舅家……便取今夕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "PARTICIPATED_IN",
+     "object": "婚嫁",
+     "evidence": "便取今夕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云翠仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "婚嫁",
+     "evidence": "严妆翠仙出，拂榻促眠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云氏",
+     "predicate": "HELPED",
+     "object": "梁有才",
+     "evidence": "次日，有男女数辈，各携服食器具，布一室满之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "HARMED",
+     "object": "云翠仙",
+     "evidence": "渐盗女郎簪珥佐博",
+     "confidence": 0.9
+    },
+    {
+     "subject": "博党",
+     "predicate": "HARMED",
+     "object": "梁有才",
+     "evidence": "戏谓才曰：“子大富贵，何忧贫耶？”……货为媵，金可得百",
+     "confidence": 0.8
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "PARTICIPATED_IN",
+     "object": "鬻妻",
+     "evidence": "遂缘中贵人，货隶乐籍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中贵人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "鬻妻",
+     "evidence": "中贵人亲诣才，见女大悦……立券八百缗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云翠仙",
+     "predicate": "OWNS",
+     "object": "黄金二铤",
+     "evidence": "乃于衣底出黄金二铤置几上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "云翠仙",
+     "predicate": "LIVES_AT",
+     "object": "云母家",
+     "evidence": "夜将半，始抵母家。挝阖入，见楼舍华好",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云翠仙",
+     "predicate": "HARMED",
+     "object": "梁有才",
+     "evidence": "众眦裂，悉以锐簪翦刀股攒刺胁腂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "LIVES_AT",
+     "object": "削壁",
+     "evidence": "身坐削壁上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "KILLED",
+     "object": "博党",
+     "evidence": "后遇向劝鬻妻者于途……遽出刀摮而杀之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁有才",
+     "predicate": "LIVES_AT",
+     "object": "狱",
+     "evidence": "系狱中，寻瘐死",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:39.981Z"
+}

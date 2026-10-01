@@ -1,0 +1,162 @@
+{
+ "no": 133,
+ "title": "8.2 货比三家",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1984,
+   "entities": [
+    {
+     "name": "折线统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用折线表示数据变化趋势的统计图"
+    },
+    {
+     "name": "统计表",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用表格呈现数据的统计形式"
+    },
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的总和除以数据个数"
+    },
+    {
+     "name": "中位数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "将数据排序后位于中间的数"
+    },
+    {
+     "name": "方差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "衡量数据波动大小的统计量"
+    },
+    {
+     "name": "扇形统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用扇形表示部分占整体比例的统计图"
+    },
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两条互相垂直的数轴组成的坐标系"
+    },
+    {
+     "name": "散点图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在坐标系中描点表示数据分布的图"
+    },
+    {
+     "name": "直线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "向两端无限延伸的笔直的线"
+    },
+    {
+     "name": "统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用图形展示数据的工具"
+    },
+    {
+     "name": "货比三家",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "全面综合考虑各种因素做出决策的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "折线统计图",
+     "predicate": "INCLUDES",
+     "object": "统计图",
+     "evidence": "A、B、C三种品牌冰箱月平均销售量折线统计图",
+     "confidence": 0.9
+    },
+    {
+     "subject": "扇形统计图",
+     "predicate": "INCLUDES",
+     "object": "统计图",
+     "evidence": "A、B、C三种品牌洗衣机市场占有率扇形统计图",
+     "confidence": 0.9
+    },
+    {
+     "subject": "统计表",
+     "predicate": "RELATED",
+     "object": "统计图",
+     "evidence": "A、B、C三种品牌冰箱月平均销售量统计表",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平均数",
+     "predicate": "APPLIES_TO",
+     "object": "统计图",
+     "evidence": "分别求这7个月A、B两种品牌电视机月销售量的平均数、中位数和方差",
+     "confidence": 0.9
+    },
+    {
+     "subject": "中位数",
+     "predicate": "APPLIES_TO",
+     "object": "统计图",
+     "evidence": "分别求这7个月A、B两种品牌电视机月销售量的平均数、中位数和方差",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方差",
+     "predicate": "APPLIES_TO",
+     "object": "统计图",
+     "evidence": "分别求这7个月A、B两种品牌电视机月销售量的平均数、中位数和方差",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "PREREQUISITE",
+     "object": "散点图",
+     "evidence": "建立以年份为横坐标、GDP为纵坐标的平面直角坐标系，并根据统计表中的数值画出对应的点",
+     "confidence": 0.9
+    },
+    {
+     "subject": "散点图",
+     "predicate": "INCLUDES",
+     "object": "平面直角坐标系",
+     "evidence": "建立以年份为横坐标、GDP为纵坐标的平面直角坐标系，并根据统计表中的数值画出对应的点",
+     "confidence": 0.8
+    },
+    {
+     "subject": "直线",
+     "predicate": "APPLIES_TO",
+     "object": "散点图",
+     "evidence": "过这两点作一条直线，并尽量使其他的点都在这条直线附近",
+     "confidence": 0.9
+    },
+    {
+     "subject": "货比三家",
+     "predicate": "APPLIES_TO",
+     "object": "统计图",
+     "evidence": "我们在做出决策时要全面综合考虑各种因素，“货比三家”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:33.479Z"
+}

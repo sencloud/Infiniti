@@ -1,0 +1,250 @@
+{
+ "no": 407,
+ "title": "珊瑚",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2789,
+   "entities": [
+    {
+     "name": "安大成",
+     "type": "Person",
+     "aliases": [
+      "安生",
+      "大成",
+      "安公子"
+     ],
+     "nickname": "",
+     "description": "《珊瑚》篇主角，重庆人，孝廉之子"
+    },
+    {
+     "name": "珊瑚",
+     "type": "Person",
+     "aliases": [
+      "陈氏"
+     ],
+     "nickname": "珊瑚",
+     "description": "《珊瑚》篇安大成之妻，贤淑"
+    },
+    {
+     "name": "沈氏",
+     "type": "Person",
+     "aliases": [
+      "母"
+     ],
+     "nickname": "",
+     "description": "《珊瑚》篇安大成之母，悍谬不仁"
+    },
+    {
+     "name": "安二成",
+     "type": "Person",
+     "aliases": [
+      "二成"
+     ],
+     "nickname": "",
+     "description": "《珊瑚》篇安大成之弟"
+    },
+    {
+     "name": "臧姑",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《珊瑚》篇安二成之妻，骄悍"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [
+      "婶"
+     ],
+     "nickname": "",
+     "description": "《珊瑚》篇安大成族婶，寡居"
+    },
+    {
+     "name": "于媪",
+     "type": "Person",
+     "aliases": [
+      "媪"
+     ],
+     "nickname": "",
+     "description": "《珊瑚》篇沈氏之姊，安大成母姨"
+    },
+    {
+     "name": "安孝廉",
+     "type": "Person",
+     "aliases": [
+      "父"
+     ],
+     "nickname": "",
+     "description": "《珊瑚》篇安大成之父，早卒"
+    },
+    {
+     "name": "任翁",
+     "type": "Person",
+     "aliases": [
+      "任某"
+     ],
+     "nickname": "",
+     "description": "《珊瑚》篇村中买田者"
+    },
+    {
+     "name": "重庆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《珊瑚》篇安大成的籍贯"
+    },
+    {
+     "name": "紫薇树",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《珊瑚》篇藏金之处"
+    },
+    {
+     "name": "冥间",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《珊瑚》篇地府"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "安大成",
+     "predicate": "NATIVE_OF",
+     "object": "重庆",
+     "evidence": "安生大成，重庆人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安大成",
+     "predicate": "SPOUSE",
+     "object": "珊瑚",
+     "evidence": "生娶陈氏，小字珊瑚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安大成",
+     "predicate": "KIN",
+     "object": "沈氏",
+     "evidence": "而生母沈",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安大成",
+     "predicate": "KIN",
+     "object": "安二成",
+     "evidence": "弟二成，幼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安二成",
+     "predicate": "SPOUSE",
+     "object": "臧姑",
+     "evidence": "二成妻臧姑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈氏",
+     "predicate": "KIN",
+     "object": "于媪",
+     "evidence": "生有母姨于媪，即沈姊也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安大成",
+     "predicate": "KIN",
+     "object": "安孝廉",
+     "evidence": "父孝廉，早卒。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安二成",
+     "predicate": "KIN",
+     "object": "安孝廉",
+     "evidence": "父孝廉，早卒。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈氏",
+     "predicate": "HARMED",
+     "object": "珊瑚",
+     "evidence": "遇之虐，珊瑚无怨色。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安大成",
+     "predicate": "HARMED",
+     "object": "珊瑚",
+     "evidence": "生素孝，鞭妇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "臧姑",
+     "predicate": "HARMED",
+     "object": "沈氏",
+     "evidence": "臧姑役母若婢",
+     "confidence": 0.95
+    },
+    {
+     "subject": "臧姑",
+     "predicate": "HARMED",
+     "object": "安二成",
+     "evidence": "虐夫及婢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安大成",
+     "predicate": "HELPED",
+     "object": "安二成",
+     "evidence": "生上下为之营脱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安大成",
+     "predicate": "HELPED",
+     "object": "安二成",
+     "evidence": "举金而并赐之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "珊瑚",
+     "predicate": "HELPED",
+     "object": "沈氏",
+     "evidence": "向之所供，皆渠夜绩之所贻也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安孝廉",
+     "predicate": "HELPED",
+     "object": "安大成",
+     "evidence": "冥间感汝夫妻孝，故使我暂归一面。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安大成",
+     "predicate": "LIVES_AT",
+     "object": "王氏",
+     "evidence": "扶归生族婶家。婶王氏",
+     "confidence": 0.8
+    },
+    {
+     "subject": "珊瑚",
+     "predicate": "LIVES_AT",
+     "object": "于媪",
+     "evidence": "遂辞王往投媪。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安孝廉",
+     "predicate": "LIVES_AT",
+     "object": "冥间",
+     "evidence": "冥间感汝夫妻孝",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:47.718Z"
+}

@@ -1,0 +1,164 @@
+{
+ "no": 409,
+ "title": "又",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1458,
+   "entities": [
+    {
+     "name": "金生",
+     "type": "Person",
+     "aliases": [
+      "王孙"
+     ],
+     "nickname": "",
+     "description": "苏州书生，字王孙，设帐于淮"
+    },
+    {
+     "name": "霞姑",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "霞姑",
+     "description": "金龙大王之女，与金生相恋"
+    },
+    {
+     "name": "金龙大王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "霞姑之父，龙宫之王"
+    },
+    {
+     "name": "金生外甥女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生甥女，嫁后为五通所惑"
+    },
+    {
+     "name": "苏州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生籍贯地"
+    },
+    {
+     "name": "淮",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生设帐教书之地"
+    },
+    {
+     "name": "搢绅园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "淮地搢绅的园子，金生居所"
+    },
+    {
+     "name": "河北",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生一日所至之地"
+    },
+    {
+     "name": "河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金生渡河之处"
+    },
+    {
+     "name": "腕钏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "霞姑臂上金钏，嵌明珠，能发光"
+    },
+    {
+     "name": "药方",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "霞姑书于卷头的驻颜方"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "金生",
+     "predicate": "NATIVE_OF",
+     "object": "苏州",
+     "evidence": "金生，字王孙，苏州人。",
+     "confidence": 1
+    },
+    {
+     "subject": "金生",
+     "predicate": "LIVES_AT",
+     "object": "搢绅园",
+     "evidence": "设帐于淮，馆搢绅园中。",
+     "confidence": 1
+    },
+    {
+     "subject": "金生",
+     "predicate": "LOVES",
+     "object": "霞姑",
+     "evidence": "妾以君风雅之士，枯寂可怜，不畏多露，相与遣此良宵。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霞姑",
+     "predicate": "KIN",
+     "object": "金龙大王",
+     "evidence": "妾实金龙大王之女",
+     "confidence": 1
+    },
+    {
+     "subject": "金生",
+     "predicate": "KIN",
+     "object": "金生外甥女",
+     "evidence": "生养甥女",
+     "confidence": 1
+    },
+    {
+     "subject": "霞姑",
+     "predicate": "OWNS",
+     "object": "腕钏",
+     "evidence": "见臂上腕钏，以条金贯火齐，衔双明珠",
+     "confidence": 1
+    },
+    {
+     "subject": "霞姑",
+     "predicate": "OWNS",
+     "object": "药方",
+     "evidence": "乃书一方于卷头而去。",
+     "confidence": 1
+    },
+    {
+     "subject": "金生",
+     "predicate": "LIVES_AT",
+     "object": "淮",
+     "evidence": "设帐于淮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "渡河",
+     "evidence": "一日，渡河",
+     "confidence": 0.9
+    },
+    {
+     "subject": "渡河",
+     "predicate": "OCCURRED_AT",
+     "object": "河",
+     "evidence": "一日，渡河",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:48.197Z"
+}

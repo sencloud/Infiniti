@@ -1,0 +1,931 @@
+{
+ "no": 78,
+ "title": "第七十八回 十节度议取梁山泊 宋公明一败高太尉",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5769,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，替天行道"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，设计施谋"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山好汉，能日行五百里"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉，号赤发鬼"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，善偷营"
+    },
+    {
+     "name": "张清",
+     "type": "Person",
+     "aliases": [
+      "没羽箭",
+      "张都监"
+     ],
+     "nickname": "没羽箭",
+     "description": "梁山好汉，飞石打将"
+    },
+    {
+     "name": "董平",
+     "type": "Person",
+     "aliases": [
+      "双枪将",
+      "董都监",
+      "董一撞"
+     ],
+     "nickname": "双枪将",
+     "description": "梁山好汉，惯冲头阵"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山好汉，枪法出众"
+    },
+    {
+     "name": "呼延灼",
+     "type": "Person",
+     "aliases": [
+      "双鞭",
+      "呼延将军"
+     ],
+     "nickname": "双鞭",
+     "description": "梁山好汉，使钢鞭"
+    },
+    {
+     "name": "童贯",
+     "type": "Person",
+     "aliases": [
+      "枢密使",
+      "童枢密"
+     ],
+     "nickname": "",
+     "description": "朝廷枢密使，征梁山败阵"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，自请征梁山"
+    },
+    {
+     "name": "蔡京",
+     "type": "Person",
+     "aliases": [
+      "蔡太师",
+      "太师"
+     ],
+     "nickname": "",
+     "description": "当朝太师，权奸"
+    },
+    {
+     "name": "酆美",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "童贯麾下将官，被活捉放回"
+    },
+    {
+     "name": "毕胜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "童贯麾下将官"
+    },
+    {
+     "name": "王焕",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "河南河北节度使"
+    },
+    {
+     "name": "徐京",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "上党太原节度使"
+    },
+    {
+     "name": "王文德",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "京兆弘农节度使"
+    },
+    {
+     "name": "梅展",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "颍州汝南节度使"
+    },
+    {
+     "name": "张开",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "中山安平节度使"
+    },
+    {
+     "name": "杨温",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江夏零陵节度使"
+    },
+    {
+     "name": "韩存保",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "云中雁门节度使"
+    },
+    {
+     "name": "李从吉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陇西汉阳节度使"
+    },
+    {
+     "name": "项元镇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "琅玡彭城节度使"
+    },
+    {
+     "name": "荆忠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "清河天水节度使，被呼延灼打死"
+    },
+    {
+     "name": "刘梦龙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金陵建康府水军统制官"
+    },
+    {
+     "name": "牛邦喜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅心腹，步军校尉"
+    },
+    {
+     "name": "党世英",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅帐前统制官"
+    },
+    {
+     "name": "党世雄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅帐前统制官"
+    },
+    {
+     "name": "张叔夜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济州太守"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "梁山泊好汉",
+      "山寨"
+     ],
+     "nickname": "",
+     "description": "宋江等好汉聚义之地"
+    },
+    {
+     "name": "朝廷",
+     "type": "Organization",
+     "aliases": [
+      "官军",
+      "宋"
+     ],
+     "nickname": "",
+     "description": "宋朝官府势力"
+    },
+    {
+     "name": "济州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，高俅征梁山取齐地"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋朝都城"
+    },
+    {
+     "name": "凤尾坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济州附近地名，董平战王文德处"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "方圆八百余里水泊"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "戴宗",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "只见神行太保戴宗道：“小弟愿往。”宋江道：“探听军情，多亏杀兄弟一个。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "赤发鬼刘唐禀道：“小弟帮戴宗哥哥去如何？”宋江大喜道：“好。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "PARTICIPATED_IN",
+     "object": "探听东京消息",
+     "evidence": "戴宗、刘唐来东京打听消息",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "探听东京消息",
+     "evidence": "戴宗、刘唐来东京打听消息",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童贯",
+     "predicate": "SERVED",
+     "object": "朝廷",
+     "evidence": "童贯卸了戎装衣甲，径投高太尉府中去商议。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "SERVED",
+     "object": "朝廷",
+     "evidence": "高俅出班奏曰：“微臣不才，愿效犬马之劳，去剿此寇。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡京",
+     "predicate": "SERVED",
+     "object": "朝廷",
+     "evidence": "蔡太师出班奏道：“昨遣枢密使童贯，统率大军征进梁山泊草寇。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "ATTACKED",
+     "object": "梁山泊",
+     "evidence": "高俅又奏：“梁山泊方圆八百余里，非仗舟船，不能前进。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童贯",
+     "predicate": "ATTACKED",
+     "object": "梁山泊",
+     "evidence": "昨遣枢密使童贯，统率大军征进梁山泊草寇。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王焕",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐京",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王文德",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梅展",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张开",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨温",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韩存保",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李从吉",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "项元镇",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "荆忠",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "十节度出城迎接。都参见了太尉，一齐护送入城。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘梦龙",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "刘梦龙战船到了，参见太尉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛邦喜",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "又差一个心腹人，唤做牛邦喜，也做到步军校尉，教他去沿江上下，并一应河道内，拘刷船只",
+     "confidence": 0.9
+    },
+    {
+     "subject": "党世英",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "高太尉帐前牙将极多，于内两个最了得：一个唤做党世英，一个唤做党世雄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "党世雄",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "高太尉帐前牙将极多，于内两个最了得：一个唤做党世英，一个唤做党世雄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张叔夜",
+     "predicate": "SERVED",
+     "object": "朝廷",
+     "evidence": "太守张叔夜接待各路军马。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董平",
+     "predicate": "FOUGHT",
+     "object": "王文德",
+     "evidence": "董平也挺双枪来迎。两将斗到三十合，不分胜败。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张清",
+     "predicate": "FOUGHT",
+     "object": "王文德",
+     "evidence": "手中拈定一个石子打将来，望王文德头上便着。急待躲时，石子打中盔顶。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "FOUGHT",
+     "object": "王焕",
+     "evidence": "王焕大战林冲，约有七八十合，不分胜败。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "FOUGHT",
+     "object": "荆忠",
+     "evidence": "二将交锋，约斗二十合，被呼延灼卖个破绽，隔过大刀，顺手提起钢鞭来，只一下，打个衬手，正着荆忠脑袋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "KILLED",
+     "object": "荆忠",
+     "evidence": "正着荆忠脑袋，打得脑浆迸流，眼珠突出，死于马下。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董平",
+     "predicate": "FOUGHT",
+     "object": "项元镇",
+     "evidence": "两个斗不到十合，项元镇霍地勒回马，拖了枪便走。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "项元镇",
+     "predicate": "DEFEATED",
+     "object": "董平",
+     "evidence": "项元镇带住枪，左手拈弓，右手搭箭，拽满弓，翻身背射一箭。董平听得弓弦响，抬手去隔，一箭正中右臂。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "RESCUED",
+     "object": "董平",
+     "evidence": "呼延灼、林冲见了，两骑马各出，救得董平归阵。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "RESCUED",
+     "object": "董平",
+     "evidence": "呼延灼、林冲见了，两骑马各出，救得董平归阵。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江与众头领统率大军，下山不远，早见官军到来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "迎战高俅",
+     "evidence": "吴用道：“他十路军马都到济州取齐。我这里先差两个快厮杀的，去济州相近，接着来军，先杀一阵。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "宋江与众头领统率大军，下山不远，早见官军到来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董平",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "董平、张清回寨说知备细。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张清",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "董平、张清回寨说知备细。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "王焕大战林冲，约有七八十合，不分胜败。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "二将交锋，约斗二十合，被呼延灼卖个破绽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "高太尉亲自出城，一一点看了。便遣大小三军并水军，一齐进发，径望梁山泊来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "迎战高俅",
+     "predicate": "OCCURRED_AT",
+     "object": "济州",
+     "evidence": "十路军马，陆续都到济州。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董平",
+     "predicate": "FOUGHT",
+     "object": "王文德",
+     "evidence": "董平也挺双枪来迎。两将斗到三十合，不分胜败。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张清",
+     "predicate": "FOUGHT",
+     "object": "王文德",
+     "evidence": "手中拈定一个石子打将来，望王文德头上便着。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "FOUGHT",
+     "object": "王焕",
+     "evidence": "王焕大战林冲，约有七八十合，不分胜败。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "FOUGHT",
+     "object": "荆忠",
+     "evidence": "二将交锋，约斗二十合，被呼延灼卖个破绽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "KILLED",
+     "object": "荆忠",
+     "evidence": "正着荆忠脑袋，打得脑浆迸流，眼珠突出，死于马下。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董平",
+     "predicate": "FOUGHT",
+     "object": "项元镇",
+     "evidence": "两个斗不到十合，项元镇霍地勒回马，拖了枪便走。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "项元镇",
+     "predicate": "DEFEATED",
+     "object": "董平",
+     "evidence": "项元镇带住枪，左手拈弓，右手搭箭，拽满弓，翻身背射一箭。董平听得弓弦响，抬手去隔，一箭正中右臂。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "RESCUED",
+     "object": "董平",
+     "evidence": "呼延灼、林冲见了，两骑马各出，救得董平归阵。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "RESCUED",
+     "object": "董平",
+     "evidence": "呼延灼、林冲见了，两骑马各出，救得董平归阵。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江与众头领统率大军，下山不远，早见官军到来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "迎战高俅",
+     "evidence": "吴用道：“他十路军马都到济州取齐。我这里先差两个快厮杀的，去济州相近，接着来军，先杀一阵。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "宋江与众头领统率大军，下山不远，早见官军到来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董平",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "董平、张清回寨说知备细。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张清",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "董平、张清回寨说知备细。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "王焕大战林冲，约有七八十合，不分胜败。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "二将交锋，约斗二十合，被呼延灼卖个破绽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "PARTICIPATED_IN",
+     "object": "迎战高俅",
+     "evidence": "高太尉亲自出城，一一点看了。便遣大小三军并水军，一齐进发，径望梁山泊来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "迎战高俅",
+     "predicate": "OCCURRED_AT",
+     "object": "济州",
+     "evidence": "十路军马，陆续都到济州。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 700,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [
+      "立地太岁",
+      "阮小二郎"
+     ],
+     "nickname": "立地太岁",
+     "description": "阮氏三雄之一"
+    },
+    {
+     "name": "张横",
+     "type": "Person",
+     "aliases": [
+      "船火儿",
+      "张横艄公"
+     ],
+     "nickname": "船火儿",
+     "description": "梁山泊水军头领"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [
+      "短命二郎",
+      "阮小五郎"
+     ],
+     "nickname": "短命二郎",
+     "description": "阮氏三雄之一"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [
+      "活阎罗",
+      "阮小七郎"
+     ],
+     "nickname": "活阎罗",
+     "description": "阮氏三雄之一"
+    },
+    {
+     "name": "刘梦龙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "官军水军将领"
+    },
+    {
+     "name": "党世雄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "官军水军将领"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "太尉，征讨梁山泊主将"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊好汉势力"
+    },
+    {
+     "name": "官军",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅统领的朝廷军队"
+    },
+    {
+     "name": "济州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，高俅退兵处"
+    },
+    {
+     "name": "水浒寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊山寨"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "阮小二",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "船上是阮氏三雄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "船上是阮氏三雄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "船上是阮氏三雄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张横",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只见水底下钻过船火儿张横来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江军马不知几路杀将来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "LEADS",
+     "object": "官军",
+     "evidence": "高太尉见水面上船只……忙传军令，且教收兵回济州去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘梦龙",
+     "predicate": "MEMBER_OF",
+     "object": "官军",
+     "evidence": "刘梦龙和党世雄布领水军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "党世雄",
+     "predicate": "MEMBER_OF",
+     "object": "官军",
+     "evidence": "刘梦龙和党世雄布领水军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "FOUGHT",
+     "object": "党世雄",
+     "evidence": "党世雄自持铁槊，立在船头上，与阮小二交锋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张横",
+     "predicate": "DEFEATED",
+     "object": "党世雄",
+     "evidence": "只见水底下钻过船火儿张横来，一手揪住头发，一手提定腰胯，滴溜溜丢上芦苇根头……活捉上水浒寨来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁山泊",
+     "predicate": "DEFEATED",
+     "object": "官军",
+     "evidence": "梁山泊好汉看见官军阵脚乱了，一齐鸣鼓摇船，直冲上来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "STATIONED_AT",
+     "object": "济州",
+     "evidence": "忙传军令，且教收兵回济州去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "党世雄",
+     "predicate": "STATIONED_AT",
+     "object": "水浒寨",
+     "evidence": "活捉上水浒寨来",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:34:53.182Z"
+}

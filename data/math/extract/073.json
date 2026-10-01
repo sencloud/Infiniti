@@ -1,0 +1,305 @@
+{
+ "no": 73,
+ "title": "6.6 统计案例：初中生的视力情况调查",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6064,
+   "entities": [
+    {
+     "name": "数据的收集",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "获取数据的过程，包括普查和抽样调查"
+    },
+    {
+     "name": "数据的整理",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对收集的数据进行分类、排序、统计频数与频率等"
+    },
+    {
+     "name": "数据的描述",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用统计图或统计表展示数据"
+    },
+    {
+     "name": "简单随机抽样",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从总体中随机抽取样本，每个个体被抽到的机会相等"
+    },
+    {
+     "name": "频数分布直方图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "用直方条表示频数分布的统计图"
+    },
+    {
+     "name": "频数分布表",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "列出分组及对应频数的表格"
+    },
+    {
+     "name": "样本容量",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "样本中个体的数目"
+    },
+    {
+     "name": "频率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "频数与样本容量的比值"
+    },
+    {
+     "name": "总体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "所要考察的对象的全体"
+    },
+    {
+     "name": "个体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "组成总体的每一个考察对象"
+    },
+    {
+     "name": "样本",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "从总体中抽取的一部分个体"
+    },
+    {
+     "name": "扇形统计图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "用扇形面积表示各部分占总体的百分比的统计图"
+    },
+    {
+     "name": "折线统计图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "用折线表示数据变化趋势的统计图"
+    },
+    {
+     "name": "条形统计图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "用条形长度表示数据大小的统计图"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "简单随机抽样",
+     "predicate": "APPLIES_TO",
+     "object": "数据的收集",
+     "evidence": "采用简单随机抽样的方法随机调查了本地区10%的初中生的视力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数据的整理",
+     "predicate": "INCLUDES",
+     "object": "频数分布表",
+     "evidence": "数据的整理包括分类、排序、统计频数与频率等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数据的描述",
+     "predicate": "INCLUDES",
+     "object": "频数分布直方图",
+     "evidence": "描述数据时应选择合适的统计图",
+     "confidence": 0.9
+    },
+    {
+     "subject": "频数分布直方图",
+     "predicate": "APPLIES_TO",
+     "object": "数据的描述",
+     "evidence": "利用频数分布直方图分析初中生视力的分布情况",
+     "confidence": 0.9
+    },
+    {
+     "subject": "频率",
+     "predicate": "RELATED",
+     "object": "频数分布表",
+     "evidence": "统计频数与频率等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "样本容量",
+     "predicate": "RELATED",
+     "object": "频率",
+     "evidence": "样本容量是多少？周末家庭劳动时间超过120 min的频率是多少？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "总体",
+     "predicate": "INCLUDES",
+     "object": "个体",
+     "evidence": "指出这次调查的总体、个体、样本和样本容量",
+     "confidence": 0.9
+    },
+    {
+     "subject": "样本",
+     "predicate": "RELATED",
+     "object": "总体",
+     "evidence": "指出这次调查的总体、个体、样本和样本容量",
+     "confidence": 0.9
+    },
+    {
+     "subject": "扇形统计图",
+     "predicate": "APPLIES_TO",
+     "object": "数据的描述",
+     "evidence": "根据上述信息画出扇形统计图",
+     "confidence": 0.9
+    },
+    {
+     "subject": "折线统计图",
+     "predicate": "APPLIES_TO",
+     "object": "数据的描述",
+     "evidence": "从折线统计图中你能获得哪些信息？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "条形统计图",
+     "predicate": "APPLIES_TO",
+     "object": "数据的描述",
+     "evidence": "绘制成条形统计图",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 720,
+   "entities": [
+    {
+     "name": "国内生产总值",
+     "type": "Concept",
+     "aliases": [
+      "GDP"
+     ],
+     "nickname": "",
+     "description": "衡量国家或地区经济运行规模的宏观经济指标"
+    },
+    {
+     "name": "散点图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用坐标系中的点表示两个变量关系的统计图"
+    },
+    {
+     "name": "统计表",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整理和展示数据的表格形式"
+    },
+    {
+     "name": "统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "描述数据的图形，如条形图、折线图等"
+    },
+    {
+     "name": "数据收集",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过查询资料等方式获取数据的方法"
+    },
+    {
+     "name": "数据整理与描述",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "列出统计表、选择统计图描述数据的方法"
+    },
+    {
+     "name": "数据分析",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过散点图等分析数据趋势的方法"
+    },
+    {
+     "name": "预测",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据散点图预测未来发展趋势的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "散点图",
+     "predicate": "APPLIES_TO",
+     "object": "数据分析",
+     "evidence": "建立以年份为横坐标，GDP为纵坐标的坐标系，并且画出对应的点，得到散点图。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "散点图",
+     "predicate": "APPLIES_TO",
+     "object": "预测",
+     "evidence": "根据散点图，预测未来的GDP发展趋势。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "统计表",
+     "predicate": "INCLUDES",
+     "object": "数据整理与描述",
+     "evidence": "根据收集的数据，列出统计表，选择合适的统计图描述这些数据。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "统计图",
+     "predicate": "INCLUDES",
+     "object": "数据整理与描述",
+     "evidence": "根据收集的数据，列出统计表，选择合适的统计图描述这些数据。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "数据收集",
+     "predicate": "PREREQUISITE",
+     "object": "数据整理与描述",
+     "evidence": "2. 收集数据。通过国家统计局官方网站或者《中国统计年鉴》查询GDP数据",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数据整理与描述",
+     "predicate": "PREREQUISITE",
+     "object": "数据分析",
+     "evidence": "3. 整理描述数据。根据收集的数据，列出统计表，选择合适的统计图描述这些数据。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数据分析",
+     "predicate": "PREREQUISITE",
+     "object": "预测",
+     "evidence": "4. 分析数据。为了了解最近十年GDP随时间变化的大致趋势，建立以年份为横坐标，GDP为纵坐标的坐标系，并且画出对应的点，得到散点图。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:07.332Z"
+}

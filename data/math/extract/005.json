@@ -1,0 +1,159 @@
+{
+ "no": 5,
+ "title": "2.2 数轴",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2755,
+   "entities": [
+    {
+     "name": "数轴",
+     "type": "Concept",
+     "aliases": [
+      "number axis"
+     ],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    },
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "可以写成分数形式的数，包括整数和分数"
+    },
+    {
+     "name": "原点",
+     "type": "Concept",
+     "aliases": [
+      "origin"
+     ],
+     "nickname": "",
+     "description": "数轴上表示0的点"
+    },
+    {
+     "name": "正方向",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上规定的正方向，通常向右"
+    },
+    {
+     "name": "单位长度",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上选取的固定长度作为单位"
+    },
+    {
+     "name": "有理数的大小比较",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "比较有理数大小的方法"
+    },
+    {
+     "name": "数轴上的点表示有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数都可以用数轴上的点表示"
+    },
+    {
+     "name": "正数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "大于0的数"
+    },
+    {
+     "name": "负数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "小于0的数"
+    },
+    {
+     "name": "数轴比较大小法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上右边的数比左边的数大"
+    },
+    {
+     "name": "有理数大小关系的传递性",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "若a>b且b>c，则a>c"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "数轴",
+     "predicate": "INCLUDES",
+     "object": "原点",
+     "evidence": "我们把这个点称为原点",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数轴",
+     "predicate": "INCLUDES",
+     "object": "正方向",
+     "evidence": "规定直线的一个方向为正方向",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数轴",
+     "predicate": "INCLUDES",
+     "object": "单位长度",
+     "evidence": "取适当长度为单位长度",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数轴",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的大小比较",
+     "evidence": "可以根据数轴上点的位置，比较它们表示的数的大小",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数轴",
+     "predicate": "APPLIES_TO",
+     "object": "数轴上的点表示有理数",
+     "evidence": "有理数都可以用数轴上的点表示",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数轴比较大小法则",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的大小比较",
+     "evidence": "在数轴上表示的两个数，右边的数比左边的数大",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数轴比较大小法则",
+     "predicate": "DERIVES",
+     "object": "正数",
+     "evidence": "正数都大于0",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数轴比较大小法则",
+     "predicate": "DERIVES",
+     "object": "负数",
+     "evidence": "负数都小于0",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数大小关系的传递性",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的大小比较",
+     "evidence": "有理数的大小关系仍具有传递性",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:31.218Z"
+}

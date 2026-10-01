@@ -1,0 +1,178 @@
+{
+ "no": 256,
+ "title": "罗祖",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 606,
+   "entities": [
+    {
+     "name": "罗祖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "即墨人，戍边后出家成道，篇名罗祖"
+    },
+    {
+     "name": "李某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗祖友人，受托照顾罗祖妻儿"
+    },
+    {
+     "name": "罗祖妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗祖之妻，与李某私通"
+    },
+    {
+     "name": "罗祖子",
+     "type": "Person",
+     "aliases": [
+      "小罗祖"
+     ],
+     "nickname": "小罗祖",
+     "description": "罗祖之子，后收香税"
+    },
+    {
+     "name": "守备",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "驻防守备，后迁陕西参将"
+    },
+    {
+     "name": "即墨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗祖籍贯地"
+    },
+    {
+     "name": "北边",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗祖戍守的北部边塞"
+    },
+    {
+     "name": "陕西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "守备迁任参将之地"
+    },
+    {
+     "name": "石匣营",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗祖坐化之山所在村落"
+    },
+    {
+     "name": "罗祖庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "土人为罗祖所建之庙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "罗祖",
+     "predicate": "NATIVE_OF",
+     "object": "即墨",
+     "evidence": "罗祖，即墨人也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "罗祖",
+     "predicate": "LIVES_AT",
+     "object": "北边",
+     "evidence": "总族中应出一丁戍北边，即以罗往。罗居边数年",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗祖",
+     "predicate": "SPOUSE",
+     "object": "罗祖妻",
+     "evidence": "罗至家，妻子无恙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗祖",
+     "predicate": "KIN",
+     "object": "罗祖子",
+     "evidence": "罗居边数年，生一子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗祖妻",
+     "predicate": "KIN",
+     "object": "罗祖子",
+     "evidence": "罗至家，妻子无恙",
+     "confidence": 0.85
+    },
+    {
+     "subject": "守备",
+     "predicate": "HELPED",
+     "object": "罗祖",
+     "evidence": "驻防守备雅厚遇之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗祖",
+     "predicate": "FRIEND",
+     "object": "李某",
+     "evidence": "罗乃托妻子于其友李某者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗祖",
+     "predicate": "HELPED",
+     "object": "李某",
+     "evidence": "罗乃托妻子于其友李某者",
+     "confidence": 0.85
+    },
+    {
+     "subject": "李某",
+     "predicate": "LOVES",
+     "object": "罗祖妻",
+     "evidence": "闻妻与李卧语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗祖妻",
+     "predicate": "LOVES",
+     "object": "李某",
+     "evidence": "闻妻与李卧语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李某",
+     "predicate": "HARMED",
+     "object": "罗祖",
+     "evidence": "闻妻与李卧语，大怒",
+     "confidence": 0.85
+    },
+    {
+     "subject": "罗祖",
+     "predicate": "LIVES_AT",
+     "object": "石匣营",
+     "evidence": "后石匣营有樵人入山，见一道人坐洞中",
+     "confidence": 0.8
+    },
+    {
+     "subject": "罗祖",
+     "predicate": "LIVES_AT",
+     "object": "罗祖庙",
+     "evidence": "土人为之建庙",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:50.188Z"
+}

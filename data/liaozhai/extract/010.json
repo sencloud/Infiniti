@@ -1,0 +1,50 @@
+{
+ "no": 10,
+ "title": "荍中怪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 333,
+   "entities": [
+    {
+     "name": "安翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "安老头儿",
+     "description": "长山人，性喜农功，被大鬼咬额而死"
+    },
+    {
+     "name": "大鬼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "鬼物",
+     "description": "高丈馀，赤发乱须，咬杀安翁后消失"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "安翁籍贯所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "安翁",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山安翁者，性喜操农功。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大鬼",
+     "predicate": "KILLED",
+     "object": "安翁",
+     "evidence": "物已奔翁，翁仆，龁其额而去。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:15.994Z"
+}

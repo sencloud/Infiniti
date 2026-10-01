@@ -1,0 +1,43 @@
+{
+ "no": 170,
+ "title": "螳螂捕蛇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 121,
+   "entities": [
+    {
+     "name": "张姓者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "偶行溪谷的姓张之人，目睹螳螂杀蛇"
+    },
+    {
+     "name": "巨蛇",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "碗口粗大蛇，被螳螂攫首而死"
+    },
+    {
+     "name": "螳螂",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "据蛇顶以刺刀攫其首，杀巨蛇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "螳螂",
+     "predicate": "KILLED",
+     "object": "巨蛇",
+     "evidence": "则一螳螂据顶上，以刺刀攫其首……久之，蛇竟死",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:16.066Z"
+}

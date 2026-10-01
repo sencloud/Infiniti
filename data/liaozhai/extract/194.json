@@ -1,0 +1,175 @@
+{
+ "no": 194,
+ "title": "伍秋月",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1829,
+   "entities": [
+    {
+     "name": "王鼎",
+     "type": "Person",
+     "aliases": [
+      "王生"
+     ],
+     "nickname": "仙湖",
+     "description": "秦邮人，字仙湖，慷慨有力，广交游，年十八未娶"
+    },
+    {
+     "name": "伍秋月",
+     "type": "Spirit",
+     "aliases": [
+      "秋月"
+     ],
+     "nickname": "",
+     "description": "女鬼，伍氏，父名儒，十五岁夭殁，三十年后嫁王鼎"
+    },
+    {
+     "name": "王鼐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王鼎之兄，江北名士，被冥府拘押，后复活"
+    },
+    {
+     "name": "秦邮",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王鼎籍贯地"
+    },
+    {
+     "name": "镇江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王鼎访友、税居之地"
+    },
+    {
+     "name": "逆旅阁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇江旅舍阁楼，王鼎居处，伍秋月葬处"
+    },
+    {
+     "name": "冥间城府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间城市，离阁楼三四里，以夜为昼"
+    },
+    {
+     "name": "符书",
+     "type": "Item",
+     "aliases": [
+      "符"
+     ],
+     "nickname": "",
+     "description": "伍秋月父所传符书，佩之可避冥追"
+    },
+    {
+     "name": "佩刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "王鼎所佩之刀，用以斩杀皂役"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王鼎",
+     "predicate": "NATIVE_OF",
+     "object": "秦邮",
+     "evidence": "秦邮王鼎，字仙湖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "KIN",
+     "object": "王鼐",
+     "evidence": "兄鼐，江北名士，友于甚笃",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "LIVES_AT",
+     "object": "逆旅阁",
+     "evidence": "因税居于逆旅阁上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "LIVES_AT",
+     "object": "镇江",
+     "evidence": "命舟抵镇江访友",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "LOVES",
+     "object": "伍秋月",
+     "evidence": "生虽知非人，意亦甚得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "SPOUSE",
+     "object": "伍秋月",
+     "evidence": "女秋月，葬无冢，三十年，嫁王鼎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "伍秋月",
+     "predicate": "LIVES_AT",
+     "object": "逆旅阁",
+     "evidence": "即攒瘗阁东，令与地平",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "KILLED",
+     "object": "皂役",
+     "evidence": "即解佩刀，立决皂首。一皂喊嘶，生又决之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "HELPED",
+     "object": "王鼐",
+     "evidence": "王乃挽兄夜买小舟，火急北渡",
+     "confidence": 0.95
+    },
+    {
+     "subject": "伍秋月",
+     "predicate": "HELPED",
+     "object": "王鼎",
+     "evidence": "女大惊曰：杀官使，罪不宥！迟则祸及！请即觅舟北发",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "HELPED",
+     "object": "伍秋月",
+     "evidence": "持刀直入，一役一刀，摧斩如麻，篡取女郎而出",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王鼎",
+     "predicate": "OWNS",
+     "object": "佩刀",
+     "evidence": "即解佩刀，立决皂首",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伍秋月",
+     "predicate": "OWNS",
+     "object": "符书",
+     "evidence": "生时，父传我符书，言三十年后，可佩夫妇",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:28.549Z"
+}

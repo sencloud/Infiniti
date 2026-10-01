@@ -1,0 +1,462 @@
+{
+ "no": 7,
+ "title": "第七回 花和尚倒拔垂杨柳 豹子头误入白虎堂",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5862,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "林武师",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "八十万禁军枪棒教头，被高衙内陷害"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁达",
+      "鲁提辖",
+      "花和尚"
+     ],
+     "nickname": "花和尚",
+     "description": "关西鲁达，出家为僧，倒拔垂杨柳"
+    },
+    {
+     "name": "高衙内",
+     "type": "Person",
+     "aliases": [
+      "花花太岁"
+     ],
+     "nickname": "花花太岁",
+     "description": "高俅螟蛉之子，倚势豪强，调戏林冲娘子"
+    },
+    {
+     "name": "陆谦",
+     "type": "Person",
+     "aliases": [
+      "陆虞候"
+     ],
+     "nickname": "",
+     "description": "林冲好友，后帮高衙内设计陷害林冲"
+    },
+    {
+     "name": "富安",
+     "type": "Person",
+     "aliases": [
+      "干鸟头富安"
+     ],
+     "nickname": "",
+     "description": "高衙内帮闲，设计陷害林冲"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，高衙内干爹"
+    },
+    {
+     "name": "锦儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲娘子女使"
+    },
+    {
+     "name": "林冲娘子",
+     "type": "Person",
+     "aliases": [
+      "荆妇",
+      "大嫂"
+     ],
+     "nickname": "",
+     "description": "林冲妻子，被高衙内调戏"
+    },
+    {
+     "name": "张三",
+     "type": "Person",
+     "aliases": [
+      "过街老鼠张三"
+     ],
+     "nickname": "过街老鼠",
+     "description": "酸枣门外泼皮头领"
+    },
+    {
+     "name": "李四",
+     "type": "Person",
+     "aliases": [
+      "青草蛇李四"
+     ],
+     "nickname": "青草蛇",
+     "description": "酸枣门外泼皮头领"
+    },
+    {
+     "name": "老都管",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅府中老都管"
+    },
+    {
+     "name": "大相国寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京寺院，鲁智深挂搭之处"
+    },
+    {
+     "name": "酸枣门外菜园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大相国寺菜园，鲁智深看管"
+    },
+    {
+     "name": "岳庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京岳庙，林冲娘子烧香处"
+    },
+    {
+     "name": "樊楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京酒楼，陆谦诱林冲饮酒处"
+    },
+    {
+     "name": "陆虞候家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陆谦家，高衙内设局处"
+    },
+    {
+     "name": "浑铁禅杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深兵器，重六十二斤"
+    },
+    {
+     "name": "倒拔垂杨柳",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深倒拔绿杨树"
+    },
+    {
+     "name": "高衙内调戏林冲娘子",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "岳庙中高衙内调戏林冲娘子"
+    },
+    {
+     "name": "陆谦诱骗林冲娘子",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "陆谦设局诱骗林冲娘子至家中"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "林冲",
+     "predicate": "SWORN_BROTHER",
+     "object": "鲁智深",
+     "evidence": "林冲大喜，就当结义智深为兄。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "SPOUSE",
+     "object": "林冲娘子",
+     "evidence": "林冲答道：恰才与拙荆一同来间壁岳庙里还香愿。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "KIN",
+     "object": "高衙内",
+     "evidence": "高俅新发迹，不曾有亲儿，无人帮助，因此过房这高阿叔高三郎儿子在房内为子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高衙内",
+     "predicate": "FRAMED",
+     "object": "林冲娘子",
+     "evidence": "把林冲的娘子拦着道：你且上楼去，和你说话。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "陆虞候一时听允，也没奈何，只要衙内欢喜，却顾不得朋友交情。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "富安",
+     "predicate": "MASTERMINDED",
+     "object": "陆谦诱骗林冲娘子",
+     "evidence": "富安道：门下知心腹的陆虞候陆谦，他和林冲最好。明日衙内躲在陆虞候楼上深阁，摆下些酒食，却叫陆谦去请林冲出来吃酒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆谦诱骗林冲娘子",
+     "predicate": "OCCURRED_AT",
+     "object": "陆虞候家",
+     "evidence": "跑到陆虞候家。抢到胡梯上，却关着楼门。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "倒拔垂杨柳",
+     "evidence": "智深相了一相，走到树前，把直裰脱了，用右手向下，把身倒缴着，却把左手拔住上截，把腰只一趁，将那株绿杨树带根拔起。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "倒拔垂杨柳",
+     "predicate": "OCCURRED_AT",
+     "object": "酸枣门外菜园",
+     "evidence": "智深也乘着酒兴，都到外面看时，果然绿杨树上一个老鸦巢。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "浑铁禅杖",
+     "evidence": "自去房内取出浑铁禅杖，头尾长五尺，重六十二斤。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "大相国寺",
+     "evidence": "智深道：洒家是关西延安府老种经略相公帐前提辖官，只为杀的人多，因此情愿出家，五台山来到这里。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "酸枣门外菜园",
+     "evidence": "话说那酸枣门外三二十个泼皮破落户中间，有两个为头的，一个叫做过街老鼠张三，一个叫做青草蛇李四。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "高衙内调戏林冲娘子",
+     "evidence": "林冲赶到跟前，把那后生肩胛只一扳过来，喝道：调戏良人妻子，当得何罪！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高衙内调戏林冲娘子",
+     "predicate": "OCCURRED_AT",
+     "object": "岳庙",
+     "evidence": "林冲娘子红了脸道：清平世界，是何道理，把良人调戏！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "FRIEND",
+     "object": "陆谦",
+     "evidence": "门下知心腹的陆虞候陆谦，他和林冲最好。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "SERVED",
+     "object": "高衙内",
+     "evidence": "陆虞候一时听允，也没奈何，只要衙内欢喜，却顾不得朋友交情。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "富安",
+     "predicate": "SERVED",
+     "object": "高衙内",
+     "evidence": "数内有一个帮闲的，唤作干鸟头富安，理会得高衙内意思，独自一个到府中伺候。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老都管",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "老都管至晚来见太尉，说道：衙内不害别的症，却害林冲的老婆。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "MASTERMINDED",
+     "object": "陆谦诱骗林冲娘子",
+     "evidence": "高俅见说了，喝采道：好计！你两个明日便与我行。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "林冲不合吃着他的请受，权且让他这一次。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FRIEND",
+     "object": "林冲",
+     "evidence": "自此，每日与智深上街吃酒，把这件事都放慢了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张三",
+     "predicate": "SERVED",
+     "object": "鲁智深",
+     "evidence": "那张三、李四并众火伴一齐跪下，说道：今日我等愿情伏侍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李四",
+     "predicate": "SERVED",
+     "object": "鲁智深",
+     "evidence": "那张三、李四并众火伴一齐跪下，说道：今日我等愿情伏侍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "林冲答道：恰才与拙荆一同来间壁岳庙里还香愿。",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1529,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "东京八十万禁军枪棒教头，好汉"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "智深",
+      "师兄",
+      "洒家"
+     ],
+     "nickname": "花和尚",
+     "description": "林冲好友，和尚"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉",
+      "太尉",
+      "恩相"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，陷害林冲的权臣"
+    },
+    {
+     "name": "宝刀",
+     "type": "Item",
+     "aliases": [
+      "好刀",
+      "那口刀"
+     ],
+     "nickname": "",
+     "description": "林冲在街上买的一口宝刀"
+    },
+    {
+     "name": "白虎节堂",
+     "type": "Place",
+     "aliases": [
+      "节堂"
+     ],
+     "nickname": "",
+     "description": "高太尉府中商议军机大事的厅堂"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，林冲与高俅所在之地"
+    },
+    {
+     "name": "误入白虎堂",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲被诱入白虎节堂遭高俅陷害"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "林冲",
+     "predicate": "FRIEND",
+     "object": "鲁智深",
+     "evidence": "再说林冲每日和智深吃酒，把这件事不记心了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "OWNS",
+     "object": "宝刀",
+     "evidence": "林冲把这口刀翻来复去看了一回，喝采道：“端的好把刀！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "太尉喝道：“林冲，你又无呼唤，安敢辄入白虎节堂！……莫非来刺杀下官？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "误入白虎堂",
+     "evidence": "林冲拿着刀，立在檐前……只见檐前额上有四个青字，写道：“白虎节堂”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "误入白虎堂",
+     "predicate": "OCCURRED_AT",
+     "object": "白虎节堂",
+     "evidence": "只见檐前额上有四个青字，写道：“白虎节堂”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "东京",
+     "evidence": "那汉又在背后说道：“偌大一个东京，没一个识的军器的！”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:52.365Z"
+}

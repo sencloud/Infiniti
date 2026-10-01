@@ -1,0 +1,55 @@
+{
+ "no": 43,
+ "title": "金世成",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 225,
+   "entities": [
+    {
+     "name": "金世成",
+     "type": "Person",
+     "aliases": [
+      "金道人",
+      "今世成佛"
+     ],
+     "nickname": "今世成佛",
+     "description": "长山人，出家作头陀，自号为佛"
+    },
+    {
+     "name": "南公",
+     "type": "Person",
+     "aliases": [
+      "南令公"
+     ],
+     "nickname": "",
+     "description": "邑令，惩治金世成"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金世成的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "金世成",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "金世成，长山人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "南公",
+     "predicate": "PUNISHED",
+     "object": "金世成",
+     "evidence": "邑令南公恶其怪，执而笞之",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:27.586Z"
+}

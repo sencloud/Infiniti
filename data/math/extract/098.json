@@ -1,0 +1,163 @@
+{
+ "no": 98,
+ "title": "2.3 用反比例函数解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6109,
+   "entities": [
+    {
+     "name": "反比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=k/x（k≠0）的函数"
+    },
+    {
+     "name": "反比例函数的图象",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两支曲线构成的双曲线"
+    },
+    {
+     "name": "反比例函数的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "当k>0时，在每一象限内y随x增大而减小；当k<0时，在每一象限内y随x增大而增大"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "结合图象与数量关系研究函数的方法"
+    },
+    {
+     "name": "分类讨论",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据情况不同分别讨论的数学思想"
+    },
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "正比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx（k≠0）的函数"
+    },
+    {
+     "name": "杠杆原理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "动力×动力臂=阻力×阻力臂"
+    },
+    {
+     "name": "函数模型",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用函数关系描述实际问题中的变量关系"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "反比例函数",
+     "predicate": "INCLUDES",
+     "object": "反比例函数的图象",
+     "evidence": "反比例函数的图象是由两支曲线构成的双曲线",
+     "confidence": 0.95
+    },
+    {
+     "subject": "反比例函数",
+     "predicate": "INCLUDES",
+     "object": "反比例函数的性质",
+     "evidence": "探究了反比例函数的图象和性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "反比例函数",
+     "evidence": "研究反比例函数的基本方法是数形结合和分类讨论",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分类讨论",
+     "predicate": "APPLIES_TO",
+     "object": "反比例函数",
+     "evidence": "研究反比例函数的基本方法是数形结合和分类讨论",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一次函数",
+     "predicate": "CONTRASTS",
+     "object": "反比例函数",
+     "evidence": "与一次函数类似，研究反比例函数的基本方法是数形结合和分类讨论",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正比例函数",
+     "predicate": "CONTRASTS",
+     "object": "反比例函数",
+     "evidence": "当k与x进行乘法运算时，y=kx为正比例函数；当k与x进行除法运算时，y=k/x为反比例函数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杠杆原理",
+     "predicate": "APPLIES_TO",
+     "object": "反比例函数",
+     "evidence": "根据杠杆原理，当杠杆平衡时，动力F×动力臂l=阻力F'×阻力臂l'，即F·l=1200×0.5，所以F=600/l，F是l的反比例函数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "函数模型",
+     "predicate": "APPLIES_TO",
+     "object": "反比例函数",
+     "evidence": "在运用反比例函数解决实际问题时，要选择合适的变量，建立函数模型",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 377,
+   "entities": [
+    {
+     "name": "反比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=k/x（k≠0）的函数"
+    },
+    {
+     "name": "液体密度计",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用漂浮原理测量液体密度的工具"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "反比例函数",
+     "predicate": "APPLIES_TO",
+     "object": "液体密度计",
+     "evidence": "用函数的性质解释其刻度分布不均匀的原因",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:15.678Z"
+}

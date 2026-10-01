@@ -1,0 +1,59 @@
+{
+ "no": 98,
+ "title": "单道士",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 448,
+   "entities": [
+    {
+     "name": "韩公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑世家子弟，单道士座上客"
+    },
+    {
+     "name": "单道士",
+     "type": "Person",
+     "aliases": [
+      "道士"
+     ],
+     "nickname": "",
+     "description": "擅幻术的道士，曾为韩公子座上客"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，单道士后在此教儿童"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "韩公子",
+     "predicate": "FRIEND",
+     "object": "单道士",
+     "evidence": "公子爱其术，以为座上客。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韩公子",
+     "predicate": "HARMED",
+     "object": "单道士",
+     "evidence": "阴与仆辈谋挞辱之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "单道士",
+     "predicate": "LIVES_AT",
+     "object": "青州",
+     "evidence": "后闻在青州市上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:47.918Z"
+}

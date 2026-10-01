@@ -1,0 +1,124 @@
+{
+ "no": 358,
+ "title": "岳神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 143,
+   "entities": [
+    {
+     "name": "提同知",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "扬州提同知，梦岳神召见后暴病而卒"
+    },
+    {
+     "name": "岳神",
+     "type": "Spirit",
+     "aliases": [
+      "东岳天子"
+     ],
+     "nickname": "",
+     "description": "东岳庙神，梦中召提同知且词色愤怒"
+    },
+    {
+     "name": "侍神侧者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "岳神身旁侍者，梦中为提同知缓颊"
+    },
+    {
+     "name": "医生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "药肆中人，貌肖梦中侍者，为提同知开方"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府之王，遣侍者作巫医勾魂"
+    },
+    {
+     "name": "岳庙",
+     "type": "Place",
+     "aliases": [
+      "东岳庙"
+     ],
+     "nickname": "",
+     "description": "扬州东岳庙，提同知祈禳之处"
+    },
+    {
+     "name": "药肆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "药店，提同知见医生之处"
+    },
+    {
+     "name": "扬州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "提同知任职之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "岳神",
+     "predicate": "HARMED",
+     "object": "提同知",
+     "evidence": "夜梦岳神召之，词色愤怒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "侍神侧者",
+     "predicate": "HELPED",
+     "object": "提同知",
+     "evidence": "仰见一人侍神侧，少为缓颊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "提同知",
+     "predicate": "LIVES_AT",
+     "object": "扬州",
+     "evidence": "扬州提同知",
+     "confidence": 0.9
+    },
+    {
+     "subject": "提同知",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祈禳",
+     "evidence": "早诣岳庙，默作祈禳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祈禳",
+     "predicate": "OCCURRED_AT",
+     "object": "岳庙",
+     "evidence": "早诣岳庙，默作祈禳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "医生",
+     "predicate": "KILLED",
+     "object": "提同知",
+     "evidence": "至则出方为剂，暮服之，中夜而卒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "HELPED",
+     "object": "岳神",
+     "evidence": "阎罗王与东岳天子，日遣侍者男女十万八千众，分布天下作巫医",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:27.621Z"
+}

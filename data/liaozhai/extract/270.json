@@ -1,0 +1,96 @@
+{
+ "no": 270,
+ "title": "镜听",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 375,
+   "entities": [
+    {
+     "name": "大郑",
+     "type": "Person",
+     "aliases": [
+      "郑氏长子"
+     ],
+     "nickname": "",
+     "description": "益都郑氏长子，早知名，科考中捷"
+    },
+    {
+     "name": "大郑妇",
+     "type": "Person",
+     "aliases": [
+      "大媳妇"
+     ],
+     "nickname": "",
+     "description": "大郑之妻，受父母偏爱"
+    },
+    {
+     "name": "次妇",
+     "type": "Person",
+     "aliases": [
+      "二媳妇",
+      "二郑妇"
+     ],
+     "nickname": "",
+     "description": "二郑之妻，激励丈夫，镜听卜吉"
+    },
+    {
+     "name": "郑氏父母",
+     "type": "Person",
+     "aliases": [
+      "父母"
+     ],
+     "nickname": "",
+     "description": "大郑二郑之父母，偏爱长子"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，郑氏兄弟籍贯"
+    },
+    {
+     "name": "大比",
+     "type": "Event",
+     "aliases": [
+      "科考"
+     ],
+     "nickname": "",
+     "description": "科举考试，兄弟皆参与"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "大郑",
+     "predicate": "SPOUSE",
+     "object": "大郑妇",
+     "evidence": "又因子并及其妇。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大郑",
+     "predicate": "KIN",
+     "object": "郑氏父母",
+     "evidence": "父母尝过爱之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大郑",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "益都郑氏兄弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大郑",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大比",
+     "evidence": "是岁大比",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:54.929Z"
+}

@@ -1,0 +1,64 @@
+{
+ "no": 381,
+ "title": "鸟语",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 558,
+   "entities": [
+    {
+     "name": "邑令",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "县令，贪财，后因贪污丢官"
+    },
+    {
+     "name": "父子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐地父子，俱青、社生，赴岁试被黜"
+    },
+    {
+     "name": "中州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，道士募食之处"
+    },
+    {
+     "name": "署中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县令官署，道士留居处"
+    },
+    {
+     "name": "岁试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐地父子参加的科举考试"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "父子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "岁试",
+     "evidence": "将赴岁试",
+     "confidence": 0.95
+    },
+    {
+     "subject": "岁试",
+     "predicate": "OCCURRED_AT",
+     "object": "中州",
+     "evidence": "中州境有道士，募食乡村。",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:34.148Z"
+}

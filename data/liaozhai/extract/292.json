@@ -1,0 +1,115 @@
+{
+ "no": 292,
+ "title": "阎罗宴",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 269,
+   "entities": [
+    {
+     "name": "邵生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "静海书生，家贫，事母孝"
+    },
+    {
+     "name": "邵母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邵生之母，初度受祀"
+    },
+    {
+     "name": "忤官王",
+     "type": "Spirit",
+     "aliases": [
+      "阎罗"
+     ],
+     "nickname": "",
+     "description": "十殿阎王之一，受邵生祭品而报之"
+    },
+    {
+     "name": "静海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邵生籍贯所在地"
+    },
+    {
+     "name": "道左殿阁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "途中幻化之宫殿楼台"
+    },
+    {
+     "name": "白镪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "阎王所赠真金五两"
+    },
+    {
+     "name": "学使案临",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "学使至静海考核生员"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "邵生",
+     "predicate": "KIN",
+     "object": "邵母",
+     "evidence": "以情告母",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邵生",
+     "predicate": "NATIVE_OF",
+     "object": "静海",
+     "evidence": "静海邵生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邵生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "学使案临",
+     "evidence": "学使案临，苦无资斧，薄贷而往",
+     "confidence": 0.95
+    },
+    {
+     "subject": "学使案临",
+     "predicate": "OCCURRED_AT",
+     "object": "静海",
+     "evidence": "学使案临",
+     "confidence": 0.8
+    },
+    {
+     "subject": "忤官王",
+     "predicate": "HELPED",
+     "object": "邵生",
+     "evidence": "出白镪一裹，曰：'豚蹄之扰，聊以相报。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邵生",
+     "predicate": "OWNS",
+     "object": "白镪",
+     "evidence": "受之而出……视所赠，则真金，秤之得五两",
+     "confidence": 0.95
+    },
+    {
+     "subject": "忤官王",
+     "predicate": "LIVES_AT",
+     "object": "道左殿阁",
+     "evidence": "见殿阁楼台，弥亘街路。既入，一王者坐殿上",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:03.072Z"
+}

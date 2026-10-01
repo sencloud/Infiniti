@@ -1,0 +1,73 @@
+{
+ "no": 377,
+ "title": "查牙山洞",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 818,
+   "entities": [
+    {
+     "name": "章丘查牙山",
+     "type": "Place",
+     "aliases": [
+      "查牙山"
+     ],
+     "nickname": "",
+     "description": "章丘县内的山，有石窟如井"
+    },
+    {
+     "name": "查牙山洞",
+     "type": "Place",
+     "aliases": [
+      "石窟",
+      "洞"
+     ],
+     "nickname": "",
+     "description": "查牙山北壁的石洞，深险有怪石"
+    },
+    {
+     "name": "章令",
+     "type": "Person",
+     "aliases": [
+      "章丘县令"
+     ],
+     "nickname": "",
+     "description": "章丘县令，封查牙山洞"
+    },
+    {
+     "name": "养母峪",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，南石崖崩现洞口"
+    },
+    {
+     "name": "锺离",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士之师，遣道士探洞"
+    },
+    {
+     "name": "养母峪洞",
+     "type": "Place",
+     "aliases": [
+      "洞口"
+     ],
+     "nickname": "",
+     "description": "养母峪南石崖崩后出现的洞"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "章令",
+     "predicate": "PUNISHED",
+     "object": "查牙山洞",
+     "evidence": "后章令闻之，以丸泥封窦，不可复入矣。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:32.456Z"
+}

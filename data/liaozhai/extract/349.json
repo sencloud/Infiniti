@@ -1,0 +1,64 @@
+{
+ "no": 349,
+ "title": "邑人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 180,
+   "entities": [
+    {
+     "name": "乡人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中无赖，被摄魂附猪肉受凌迟"
+    },
+    {
+     "name": "屠人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "集市上卖猪肉的屠夫"
+    },
+    {
+     "name": "邻翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乡人的邻居老人，来集市买肉"
+    },
+    {
+     "name": "市头",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "集市，屠人卖肉之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "屠人",
+     "predicate": "HARMED",
+     "object": "乡人",
+     "evidence": "操刀断割，遂觉一刀一痛，彻于骨髓",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邻翁",
+     "predicate": "HARMED",
+     "object": "乡人",
+     "evidence": "苦争低昂，添脂搭肉，片片碎割，其苦更惨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乡人",
+     "predicate": "LIVES_AT",
+     "object": "市头",
+     "evidence": "至市头",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:24.242Z"
+}

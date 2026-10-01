@@ -1,0 +1,221 @@
+{
+ "no": 119,
+ "title": "狐妾",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1757,
+   "entities": [
+    {
+     "name": "刘洞九",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莱芜人，汾州通判督粮厅，狐妾之夫"
+    },
+    {
+     "name": "狐妾",
+     "type": "Spirit",
+     "aliases": [
+      "垂髫者",
+      "圣仙"
+     ],
+     "nickname": "圣仙",
+     "description": "前官之女，死而复生似狐，嫁刘洞九"
+    },
+    {
+     "name": "年长者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女，狐妾之姐，为媒"
+    },
+    {
+     "name": "小婢",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "随侍狐妾的丫环"
+    },
+    {
+     "name": "刘夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘洞九正妻，遣仆至汾州"
+    },
+    {
+     "name": "张道一",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "提学使，刘洞九同乡，欲见狐妾"
+    },
+    {
+     "name": "亓生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘洞九女婿，求见狐妾"
+    },
+    {
+     "name": "刘仲子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘洞九次子，姜瓖之乱中被害"
+    },
+    {
+     "name": "姜瓖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "大同总兵，叛乱占据汾州"
+    },
+    {
+     "name": "汾州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘洞九为官之地，后陷于贼"
+    },
+    {
+     "name": "莱芜",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘洞九籍贯"
+    },
+    {
+     "name": "汴梁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐妾结伴取银处，被河伯占据"
+    },
+    {
+     "name": "云贵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘洞九解饷所往之地"
+    },
+    {
+     "name": "姜瓖之乱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "姜瓖叛乱，汾州沦陷"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘洞九",
+     "predicate": "SPOUSE",
+     "object": "狐妾",
+     "evidence": "一对好凤侣，今夜谐花烛。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐妾",
+     "predicate": "KIN",
+     "object": "年长者",
+     "evidence": "舍妹与君有缘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐妾",
+     "predicate": "KIN",
+     "object": "小婢",
+     "evidence": "每行坐与小婢俱",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘洞九",
+     "predicate": "SPOUSE",
+     "object": "刘夫人",
+     "evidence": "夫人遣二仆如汾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘洞九",
+     "predicate": "KIN",
+     "object": "刘仲子",
+     "evidence": "独二公子可虑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘洞九",
+     "predicate": "KIN",
+     "object": "亓生",
+     "evidence": "婿亓生来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐妾",
+     "predicate": "KIN",
+     "object": "亓生",
+     "evidence": "婿非他人",
+     "confidence": 0.8
+    },
+    {
+     "subject": "狐妾",
+     "predicate": "HELPED",
+     "object": "刘洞九",
+     "evidence": "妾固短于才，然三十席亦不难办。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐妾",
+     "predicate": "HARMED",
+     "object": "张道一",
+     "evidence": "张公无礼，当小惩之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐妾",
+     "predicate": "HELPED",
+     "object": "刘洞九",
+     "evidence": "床下三千金，可资用度。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘洞九",
+     "predicate": "LIVES_AT",
+     "object": "汾州",
+     "evidence": "独坐署中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘洞九",
+     "predicate": "NATIVE_OF",
+     "object": "莱芜",
+     "evidence": "莱芜刘洞九",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐妾",
+     "predicate": "LIVES_AT",
+     "object": "汾州",
+     "evidence": "自此，遂留不去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姜瓖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "姜瓖之乱",
+     "evidence": "姜瓖叛",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姜瓖之乱",
+     "predicate": "OCCURRED_AT",
+     "object": "汾州",
+     "evidence": "汾州没为贼窟",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:00.163Z"
+}

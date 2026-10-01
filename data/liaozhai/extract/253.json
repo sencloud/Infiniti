@@ -1,0 +1,109 @@
+{
+ "no": 253,
+ "title": "孙生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1062,
+   "entities": [
+    {
+     "name": "孙子楚",
+     "type": "Person",
+     "aliases": [
+      "孙生",
+      "孙公子"
+     ],
+     "nickname": "",
+     "description": "《孙生》篇男主角，娶辛氏为妻"
+    },
+    {
+     "name": "辛氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《孙生》篇女主角，孙生之妻，故家女"
+    },
+    {
+     "name": "老尼",
+     "type": "Person",
+     "aliases": [
+      "尼"
+     ],
+     "nickname": "",
+     "description": "《孙生》篇中施法术助孙生夫妇和好的尼姑"
+    },
+    {
+     "name": "同窗某",
+     "type": "Person",
+     "aliases": [
+      "某"
+     ],
+     "nickname": "",
+     "description": "《孙生》篇中孙生的同窗，献迷药之计"
+    },
+    {
+     "name": "孙母",
+     "type": "Person",
+     "aliases": [
+      "母",
+      "媪"
+     ],
+     "nickname": "",
+     "description": "《孙生》篇中孙生之母，请老尼施法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙子楚",
+     "predicate": "SPOUSE",
+     "object": "辛氏",
+     "evidence": "孙生，娶故家女辛氏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙子楚",
+     "predicate": "KIN",
+     "object": "孙母",
+     "evidence": "父母甚忧之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辛氏",
+     "predicate": "KIN",
+     "object": "孙母",
+     "evidence": "母即购以待之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "同窗某",
+     "predicate": "HELPED",
+     "object": "孙子楚",
+     "evidence": "某戏之曰：“仆有调停之法，善而可行。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老尼",
+     "predicate": "HELPED",
+     "object": "孙子楚",
+     "evidence": "尼笑曰：“前言妇憎夫，故偏厌之。今妇意已转，所未转者男耳。请作两制之法，必有验。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老尼",
+     "predicate": "HELPED",
+     "object": "辛氏",
+     "evidence": "尼窥室无人，耳语曰：“购春宫一帧，三日后，为若厌之。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙子楚",
+     "predicate": "HARMED",
+     "object": "辛氏",
+     "evidence": "启衾潜入，层层断其缚结。妻固觉之，不能动，亦不能言，任其轻薄而去。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:48.814Z"
+}

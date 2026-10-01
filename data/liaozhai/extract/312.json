@@ -1,0 +1,43 @@
+{
+ "no": 312,
+ "title": "负尸",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 156,
+   "entities": [
+    {
+     "name": "樵夫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "负尸篇中打柴人，见无头人悬于杖头"
+    },
+    {
+     "name": "无头人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "负尸篇中无头死尸，悬于樵夫杖头"
+    },
+    {
+     "name": "荷篮人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "负尸篇中提篮者，篮中忽现人头"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "无头人",
+     "predicate": "HARMED",
+     "object": "樵夫",
+     "evidence": "忽觉杖头如有重负。回顾，见一无头人悬系其上。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:08.938Z"
+}

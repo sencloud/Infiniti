@@ -1,0 +1,156 @@
+{
+ "no": 421,
+ "title": "白秋练",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2696,
+   "entities": [
+    {
+     "name": "慕蟾宫",
+     "type": "Person",
+     "aliases": [
+      "蟾宫",
+      "慕生",
+      "慕公子"
+     ],
+     "nickname": "蟾宫",
+     "description": "直隶商人慕小寰之子，聪惠喜读，后与白秋练相恋成婚"
+    },
+    {
+     "name": "白秋练",
+     "type": "Spirit",
+     "aliases": [
+      "秋练",
+      "白女"
+     ],
+     "nickname": "秋练",
+     "description": "白媪之女，实为白骥（白鳍豚）精，与慕蟾宫相恋成婚"
+    },
+    {
+     "name": "慕小寰",
+     "type": "Person",
+     "aliases": [
+      "翁",
+      "慕翁"
+     ],
+     "nickname": "",
+     "description": "慕蟾宫之父，商人，初反对婚事后因秋练神算而接受"
+    },
+    {
+     "name": "白媪",
+     "type": "Spirit",
+     "aliases": [
+      "媪",
+      "老妇人"
+     ],
+     "nickname": "",
+     "description": "白秋练之母，实为白骥精，曾司洞庭行旅"
+    },
+    {
+     "name": "直隶",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "慕蟾宫籍贯地"
+    },
+    {
+     "name": "武昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚地旅店所在地"
+    },
+    {
+     "name": "洞庭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "白媪曾司行旅之湖"
+    },
+    {
+     "name": "湖滨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "泊舟处，慕生与白秋练多次相会之地"
+    },
+    {
+     "name": "鱼腹绫",
+     "type": "Item",
+     "aliases": [
+      "罗"
+     ],
+     "nickname": "",
+     "description": "白秋练所出，白骥翼所化，求道士书‘免’字"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "慕蟾宫",
+     "predicate": "LOVES",
+     "object": "白秋练",
+     "evidence": "然两人互相爱悦，要誓良坚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "慕蟾宫",
+     "predicate": "SPOUSE",
+     "object": "白秋练",
+     "evidence": "翁另赁一舟为子合卺。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "慕蟾宫",
+     "predicate": "KIN",
+     "object": "慕小寰",
+     "evidence": "直隶有慕生，小字蟾宫，商人慕小寰之子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白秋练",
+     "predicate": "KIN",
+     "object": "白媪",
+     "evidence": "妾白姓，有息女秋练，颇解文字。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "慕蟾宫",
+     "predicate": "LIVES_AT",
+     "object": "武昌",
+     "evidence": "抵武昌，父留居逆旅，守其居积。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "慕蟾宫",
+     "predicate": "NATIVE_OF",
+     "object": "直隶",
+     "evidence": "直隶有慕生，小字蟾宫，商人慕小寰之子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白媪",
+     "predicate": "LIVES_AT",
+     "object": "洞庭",
+     "evidence": "向在洞庭，龙君命司行旅。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "慕蟾宫",
+     "predicate": "OWNS",
+     "object": "鱼腹绫",
+     "evidence": "乃出鱼腹绫一方，曰：‘如问所求，即出此，求书一“免”字。’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "慕蟾宫",
+     "predicate": "HELPED",
+     "object": "白媪",
+     "evidence": "生惧，不敢告父，盗金赎放之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:54.912Z"
+}

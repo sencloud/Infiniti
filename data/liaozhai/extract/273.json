@@ -1,0 +1,77 @@
+{
+ "no": 273,
+ "title": "梓潼令",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 65,
+   "entities": [
+    {
+     "name": "常大忠",
+     "type": "Person",
+     "aliases": [
+      "常进士"
+     ],
+     "nickname": "",
+     "description": "太原人，进士，两度任梓潼令"
+    },
+    {
+     "name": "文昌",
+     "type": "Spirit",
+     "aliases": [
+      "梓潼帝君"
+     ],
+     "nickname": "",
+     "description": "托梦来访的神灵"
+    },
+    {
+     "name": "太原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "常大忠籍贯"
+    },
+    {
+     "name": "都",
+     "type": "Place",
+     "aliases": [
+      "京城"
+     ],
+     "nickname": "",
+     "description": "候选等候任命之地"
+    },
+    {
+     "name": "梓潼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "常大忠任县令之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "常大忠",
+     "predicate": "NATIVE_OF",
+     "object": "太原",
+     "evidence": "常进士大忠，太原人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "常大忠",
+     "predicate": "LIVES_AT",
+     "object": "都",
+     "evidence": "候选在都",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文昌",
+     "predicate": "HELPED",
+     "object": "常大忠",
+     "evidence": "梦文昌投刺。拔签，得梓潼令",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:55.086Z"
+}

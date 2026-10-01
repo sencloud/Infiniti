@@ -1,0 +1,204 @@
+{
+ "no": 24,
+ "title": "6.5 多边形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5133,
+   "entities": [
+    {
+     "name": "多边形",
+     "type": "Concept",
+     "aliases": [
+      "polygon"
+     ],
+     "nickname": "",
+     "description": "由不在同一直线上的三条或三条以上线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "多边形的边",
+     "type": "Concept",
+     "aliases": [
+      "side"
+     ],
+     "nickname": "",
+     "description": "组成多边形的线段"
+    },
+    {
+     "name": "多边形的顶点",
+     "type": "Concept",
+     "aliases": [
+      "vertex"
+     ],
+     "nickname": "",
+     "description": "多边形相邻边的公共端点"
+    },
+    {
+     "name": "多边形的内角",
+     "type": "Concept",
+     "aliases": [
+      "inner angle"
+     ],
+     "nickname": "",
+     "description": "多边形相邻两边组成的角"
+    },
+    {
+     "name": "多边形的外角",
+     "type": "Concept",
+     "aliases": [
+      "external angle"
+     ],
+     "nickname": "",
+     "description": "多边形的边与它邻边的延长线组成的角"
+    },
+    {
+     "name": "多边形的对角线",
+     "type": "Concept",
+     "aliases": [
+      "diagonal"
+     ],
+     "nickname": "",
+     "description": "连接多边形不相邻两个顶点的线段"
+    },
+    {
+     "name": "正多边形",
+     "type": "Concept",
+     "aliases": [
+      "regular polygon"
+     ],
+     "nickname": "",
+     "description": "各边相等、各内角也相等的多边形"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "四边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由四条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "五边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由五条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "六边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由六条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等、四个内角也相等的四边形"
+    },
+    {
+     "name": "补角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两角之和为180°时互为补角"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "三角形",
+     "evidence": "根据边的数量，多边形可以分为三角形、四边形、五边形、n边形等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "四边形",
+     "evidence": "根据边的数量，多边形可以分为三角形、四边形、五边形、n边形等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "五边形",
+     "evidence": "根据边的数量，多边形可以分为三角形、四边形、五边形、n边形等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "六边形",
+     "evidence": "根据边的数量，多边形可以分为三角形、四边形、五边形、n边形等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "多边形的边",
+     "evidence": "这些线段叫作多边形的边（side）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "多边形的顶点",
+     "evidence": "线段的公共端点叫作多边形的顶点（vertex）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "多边形的内角",
+     "evidence": "多边形相邻两边组成的角叫作多边形的内角（inner angle）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "多边形的外角",
+     "evidence": "多边形的边与它邻边的延长线组成的角叫作多边形的外角（external angle）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多边形",
+     "predicate": "INCLUDES",
+     "object": "多边形的对角线",
+     "evidence": "连接多边形不相邻的两个顶点的线段叫作多边形的对角线（diagonal）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正多边形",
+     "predicate": "SPECIAL_CASE",
+     "object": "多边形",
+     "evidence": "各边相等、各内角也相等的多边形叫作正多边形（regular polygon）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "正多边形",
+     "evidence": "小学里，我们已经认识了正方形，它的四条边相等，四个内角也相等。和正方形类似，各边相等、各内角也相等的多边形叫作正多边形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多边形的外角",
+     "predicate": "RELATED",
+     "object": "补角",
+     "evidence": "多边形的外角与相邻的内角互为补角",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:41.104Z"
+}

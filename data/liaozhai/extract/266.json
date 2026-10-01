@@ -1,0 +1,106 @@
+{
+ "no": 266,
+ "title": "橘树",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 354,
+   "entities": [
+    {
+     "name": "刘公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕西人，曾任兴化县令"
+    },
+    {
+     "name": "刘女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘公幼女，后嫁庄氏"
+    },
+    {
+     "name": "庄氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘女之夫，丙戌进士，曾任兴化令"
+    },
+    {
+     "name": "兴化",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，刘公、庄氏先后任县令"
+    },
+    {
+     "name": "陕西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘公籍贯"
+    },
+    {
+     "name": "橘树",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士所献盆栽橘树，与刘女有夙缘"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘公",
+     "predicate": "NATIVE_OF",
+     "object": "陕西",
+     "evidence": "陕西刘公，为兴化令。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘公",
+     "predicate": "LIVES_AT",
+     "object": "兴化",
+     "evidence": "陕西刘公，为兴化令。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘公",
+     "predicate": "KIN",
+     "object": "刘女",
+     "evidence": "刘有幼女，时六七岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘女",
+     "predicate": "OWNS",
+     "object": "橘树",
+     "evidence": "女一见，不胜爱悦，寘诸闺闼，朝夕护之唯恐伤。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘女",
+     "predicate": "SPOUSE",
+     "object": "庄氏",
+     "evidence": "女归，受庄氏聘。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "庄氏",
+     "predicate": "PARTICIPATED_IN",
+     "object": "丙戌登进士",
+     "evidence": "庄丙戌登进士",
+     "confidence": 0.95
+    },
+    {
+     "subject": "庄氏",
+     "predicate": "LIVES_AT",
+     "object": "兴化",
+     "evidence": "释褐为兴化令",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:53.836Z"
+}

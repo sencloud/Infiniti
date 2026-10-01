@@ -1,0 +1,154 @@
+{
+ "no": 241,
+ "title": "考弊司",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1370,
+   "entities": [
+    {
+     "name": "闻人生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "河南人，考弊司篇主角，仗义书生"
+    },
+    {
+     "name": "虚肚鬼王",
+     "type": "Spirit",
+     "aliases": [
+      "鬼王"
+     ],
+     "nickname": "",
+     "description": "考弊司司主，割髀肉旧例"
+    },
+    {
+     "name": "阎罗",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府主审，惩治鬼王"
+    },
+    {
+     "name": "柳秋华",
+     "type": "Spirit",
+     "aliases": [
+      "秋华"
+     ],
+     "nickname": "",
+     "description": "妓女，实为花夜叉，化牛鬼"
+    },
+    {
+     "name": "考弊司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府官署，虚肚鬼王所辖"
+    },
+    {
+     "name": "河南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "闻人生籍贯"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阎罗所居殿陛"
+    },
+    {
+     "name": "妓院",
+     "type": "Place",
+     "aliases": [
+      "曲巷"
+     ],
+     "nickname": "",
+     "description": "柳秋华所在朱帘户"
+    },
+    {
+     "name": "割髀肉",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "考弊司初见旧例，割股肉"
+    },
+    {
+     "name": "阎罗审案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "阎罗审鬼王割髀肉事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "闻人生",
+     "predicate": "NATIVE_OF",
+     "object": "河南",
+     "evidence": "闻人生，河南人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "闻人生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "阎罗审案",
+     "evidence": "伏阶号屈。王召讯已",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗审案",
+     "predicate": "OCCURRED_AT",
+     "object": "冥府",
+     "evidence": "果见殿陛威赫，阎罗方坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗",
+     "predicate": "PUNISHED",
+     "object": "虚肚鬼王",
+     "evidence": "其去若善筋，增若恶骨，罚令生生世世不得发迹也！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "闻人生",
+     "predicate": "LOVES",
+     "object": "柳秋华",
+     "evidence": "入帷，欢爱殊浓，切切订婚嫁。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柳秋华",
+     "predicate": "HARMED",
+     "object": "闻人生",
+     "evidence": "得勿为花夜叉所迷耶？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "柳秋华",
+     "predicate": "LIVES_AT",
+     "object": "妓院",
+     "evidence": "此曲巷也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "闻人生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "割髀肉",
+     "evidence": "秀才已与同辈数人，交臂历指，俨然在徽[纟+墨]中。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "割髀肉",
+     "predicate": "OCCURRED_AT",
+     "object": "考弊司",
+     "evidence": "至堂下，则秀才已与同辈数人",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:46.133Z"
+}

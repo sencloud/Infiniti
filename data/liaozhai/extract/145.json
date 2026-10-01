@@ -1,0 +1,47 @@
+{
+ "no": 145,
+ "title": "雨钱",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 416,
+   "entities": [
+    {
+     "name": "胡养真",
+     "type": "Spirit",
+     "aliases": [
+      "翁"
+     ],
+     "nickname": "",
+     "description": "自称姓胡名养真的狐仙，博学，与秀才文字交"
+    },
+    {
+     "name": "斋",
+     "type": "Place",
+     "aliases": [
+      "书斋"
+     ],
+     "nickname": "",
+     "description": "滨州秀才读书的书斋"
+    },
+    {
+     "name": "密室",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "秀才与狐翁作法生钱的封闭房间"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "胡养真",
+     "predicate": "LIVES_AT",
+     "object": "密室",
+     "evidence": "翁乃与共入密室中，禹步作咒。",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:07.285Z"
+}

@@ -1,0 +1,140 @@
+{
+ "no": 179,
+ "title": "布客",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 463,
+   "entities": [
+    {
+     "name": "长清某",
+     "type": "Person",
+     "aliases": [
+      "某",
+      "卖布人"
+     ],
+     "nickname": "",
+     "description": "长清县人，贩布为业，客居泰安"
+    },
+    {
+     "name": "短衣人",
+     "type": "Spirit",
+     "aliases": [
+      "鬼",
+      "鬼差"
+     ],
+     "nickname": "",
+     "description": "蒿里山东四司隶役，勾魂鬼差"
+    },
+    {
+     "name": "术人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "精通星命之学的术士"
+    },
+    {
+     "name": "长清",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，卖布人籍贯及鬼差勾魂地"
+    },
+    {
+     "name": "泰安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，卖布人客居之处"
+    },
+    {
+     "name": "蒿里山东四司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府机构，鬼差所属"
+    },
+    {
+     "name": "城隍",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府神祇，掌管上报阴司"
+    },
+    {
+     "name": "冥司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间官府，掌管生死寿命"
+    },
+    {
+     "name": "泰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山名，卖布人后至祭奠鬼差处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "长清某",
+     "predicate": "NATIVE_OF",
+     "object": "长清",
+     "evidence": "长清某，贩布为业",
+     "confidence": 0.95
+    },
+    {
+     "subject": "长清某",
+     "predicate": "LIVES_AT",
+     "object": "泰安",
+     "evidence": "客于泰安",
+     "confidence": 0.95
+    },
+    {
+     "subject": "长清某",
+     "predicate": "FRIEND",
+     "object": "短衣人",
+     "evidence": "渐渍与语，遂相知悦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "长清某",
+     "predicate": "HELPED",
+     "object": "短衣人",
+     "evidence": "屡市餐饮，呼与共啜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "短衣人",
+     "predicate": "HELPED",
+     "object": "长清某",
+     "evidence": "子速归，处置后事，我最后相招，此即所以报交好耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "短衣人",
+     "predicate": "LIVES_AT",
+     "object": "蒿里山东四司",
+     "evidence": "我非生人，乃蒿里山东四司隶役",
+     "confidence": 0.95
+    },
+    {
+     "subject": "短衣人",
+     "predicate": "HELPED",
+     "object": "长清某",
+     "evidence": "我已以建桥事上报城隍，转达冥司矣，谓此一节可延寿命",
+     "confidence": 0.95
+    },
+    {
+     "subject": "长清某",
+     "predicate": "HELPED",
+     "object": "短衣人",
+     "evidence": "敬赍楮锭，呼名酹奠",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:21.258Z"
+}

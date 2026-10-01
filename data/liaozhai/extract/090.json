@@ -1,0 +1,54 @@
+{
+ "no": 90,
+ "title": "蛰龙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 184,
+   "entities": [
+    {
+     "name": "曲银台公",
+     "type": "Person",
+     "aliases": [
+      "曲公"
+     ],
+     "nickname": "",
+     "description": "於陵人，官至通政使，读书遇龙"
+    },
+    {
+     "name": "小物",
+     "type": "Spirit",
+     "aliases": [
+      "龙"
+     ],
+     "nickname": "",
+     "description": "有光如萤的小龙，自书笥中出"
+    },
+    {
+     "name": "书楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曲公读书之楼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "曲银台公",
+     "predicate": "LIVES_AT",
+     "object": "书楼",
+     "evidence": "於陵曲银台公，读书楼上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曲银台公",
+     "predicate": "HELPED",
+     "object": "小物",
+     "evidence": "意为龙，乃捧卷送之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:45.536Z"
+}

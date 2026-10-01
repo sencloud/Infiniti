@@ -1,0 +1,844 @@
+{
+ "no": 2,
+ "title": "第二回 王教头私走延安府 九纹龙大闹史家村",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5896,
+   "entities": [
+    {
+     "name": "洪信",
+     "type": "Person",
+     "aliases": [
+      "洪太尉"
+     ],
+     "nickname": "",
+     "description": "朝廷太尉，误放殿内妖魔"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高毬",
+      "高二",
+      "高殿帅",
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "东京浮浪子弟，后发迹为殿帅府太尉"
+    },
+    {
+     "name": "柳世权",
+     "type": "Person",
+     "aliases": [
+      "柳大郎"
+     ],
+     "nickname": "",
+     "description": "临淮州开赌坊的闲汉，收留高俅三年"
+    },
+    {
+     "name": "董将士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京金梁桥下开生药铺，转荐高俅"
+    },
+    {
+     "name": "小苏学士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "学士，荐高俅去驸马王晋卿府"
+    },
+    {
+     "name": "王晋卿",
+     "type": "Person",
+     "aliases": [
+      "小王都太尉",
+      "王都尉",
+      "王驸马"
+     ],
+     "nickname": "",
+     "description": "哲宗妹夫，神宗驸马，收高俅为亲随"
+    },
+    {
+     "name": "端王",
+     "type": "Person",
+     "aliases": [
+      "九大王",
+      "徽宗",
+      "玉清教主徽妙道君皇帝"
+     ],
+     "nickname": "",
+     "description": "神宗第十一子，后即位为徽宗"
+    },
+    {
+     "name": "王进",
+     "type": "Person",
+     "aliases": [
+      "王教头",
+      "八十万禁军教头"
+     ],
+     "nickname": "",
+     "description": "东京八十万禁军教头，被高俅迫害私走延安府"
+    },
+    {
+     "name": "王升",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王进之父，都军教头，曾一棒打翻高俅"
+    },
+    {
+     "name": "王进母",
+     "type": "Person",
+     "aliases": [
+      "王进老娘"
+     ],
+     "nickname": "",
+     "description": "王进之母，年已六旬之上"
+    },
+    {
+     "name": "史太公",
+     "type": "Person",
+     "aliases": [
+      "太公"
+     ],
+     "nickname": "",
+     "description": "史家庄庄主，年近六旬，接待王进母子"
+    },
+    {
+     "name": "张牌",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "殿帅府拨来伏侍王进的牌军"
+    },
+    {
+     "name": "李牌",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "殿帅府拨来伏侍王进的牌军"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山好汉，八十万禁军教头"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "延安府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "老种经略相公镇守的边庭州府"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [
+      "汴梁",
+      "开封府"
+     ],
+     "nickname": "",
+     "description": "北宋都城"
+    },
+    {
+     "name": "临淮州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "淮西州府，柳世权开赌坊处"
+    },
+    {
+     "name": "史家庄",
+     "type": "Place",
+     "aliases": [
+      "大庄院"
+     ],
+     "nickname": "",
+     "description": "史太公的庄院，王进母子借宿处"
+    },
+    {
+     "name": "龙虎山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天师修行之处"
+    },
+    {
+     "name": "殿帅府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅任职的官署"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉聚义势力"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "洪信",
+     "predicate": "PARTICIPATED_IN",
+     "object": "误走妖魔",
+     "evidence": "如今太尉放他走了，怎生是好！他日必为后患。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "误走妖魔",
+     "predicate": "OCCURRED_AT",
+     "object": "龙虎山",
+     "evidence": "此殿中当初是祖老天师洞玄真人传下法符",
+     "confidence": 0.8
+    },
+    {
+     "subject": "高俅",
+     "predicate": "SERVED",
+     "object": "柳世权",
+     "evidence": "高俅投托得柳大郎家，一住三年。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳世权",
+     "predicate": "RECOMMENDED",
+     "object": "高俅",
+     "evidence": "写了一封书札，收拾些人事盘缠，赍发高俅回东京，投奔董将士家过活。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "SERVED",
+     "object": "董将士",
+     "evidence": "高俅辞了柳大郎，背上包裹，离了临淮州，迤逦回到东京，竟来金梁桥下董生药家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董将士",
+     "predicate": "RECOMMENDED",
+     "object": "高俅",
+     "evidence": "我转荐足下与小苏学士处，久后也得个出身。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "SERVED",
+     "object": "小苏学士",
+     "evidence": "董将士使个人将着书简，引领高俅竟到学士府内。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小苏学士",
+     "predicate": "RECOMMENDED",
+     "object": "高俅",
+     "evidence": "不如做个人情，荐他去驸马王晋卿府里，做个亲随。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "SERVED",
+     "object": "王晋卿",
+     "evidence": "随即写回书，收留高俅在府内做个亲随。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王晋卿",
+     "predicate": "KIN",
+     "object": "端王",
+     "evidence": "专请小舅端王。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "SERVED",
+     "object": "端王",
+     "evidence": "端王说道：这高俅踢得两脚好气毬，孤欲索此人做亲随",
+     "confidence": 0.95
+    },
+    {
+     "subject": "端王",
+     "predicate": "LEADS",
+     "object": "殿帅府",
+     "evidence": "直抬举高俅做到殿帅府太尉职事。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "高俅",
+     "predicate": "LEADS",
+     "object": "殿帅府",
+     "evidence": "高俅得做了殿帅府太尉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "王进",
+     "evidence": "高殿帅大怒，喝道：胡说！既有手本呈来，却不是那厮抗拒官府，搪塞下官。此人即系推病在家，快与我拿来！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王升",
+     "predicate": "DEFEATED",
+     "object": "高俅",
+     "evidence": "比先时曾学使棒，被我父亲一棒打翻，三四个月将息不起",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王进",
+     "predicate": "KIN",
+     "object": "王进母",
+     "evidence": "这王进却无妻子，止有一个老母",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王进",
+     "predicate": "SERVED",
+     "object": "老种经略相公",
+     "evidence": "只有延安府老种经略相公镇守边庭，他手下军官，多有曾到京师，爱儿子使枪棒的极多。何不逃去投奔他们？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王进",
+     "predicate": "STATIONED_AT",
+     "object": "延安府",
+     "evidence": "取路望延安府来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王进",
+     "predicate": "STATIONED_AT",
+     "object": "史家庄",
+     "evidence": "当时转入林子里来看时，却是一所大庄院",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王进",
+     "predicate": "FRIEND",
+     "object": "史太公",
+     "evidence": "太公道：不妨。如今世上人，那个顶着房屋走哩。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王进",
+     "predicate": "MEMBER_OF",
+     "object": "殿帅府",
+     "evidence": "于内只欠一名八十万禁军教头王进。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张牌",
+     "predicate": "SERVED",
+     "object": "王进",
+     "evidence": "是殿帅府拨来伏侍你的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李牌",
+     "predicate": "SERVED",
+     "object": "王进",
+     "evidence": "是殿帅府拨来伏侍你的",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5949,
+   "entities": [
+    {
+     "name": "王进",
+     "type": "Person",
+     "aliases": [
+      "王教头",
+      "八十万禁军教头"
+     ],
+     "nickname": "",
+     "description": "东京八十万禁军教头，因高俅报复携母逃往延安府"
+    },
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "史家村史太公之子，好武艺，后为少华山头领"
+    },
+    {
+     "name": "史太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "史家村史进之父，华阴县里正"
+    },
+    {
+     "name": "朱武",
+     "type": "Person",
+     "aliases": [
+      "定远"
+     ],
+     "nickname": "神机军师",
+     "description": "少华山寨大头领，广有谋略"
+    },
+    {
+     "name": "陈达",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "跳涧虎",
+     "description": "少华山二头领，被史进擒获"
+    },
+    {
+     "name": "杨春",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "白花蛇",
+     "description": "少华山三头领"
+    },
+    {
+     "name": "李吉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "摽兔",
+     "description": "华阴县猎户，常往史家庄卖野味"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，与王进有旧仇"
+    },
+    {
+     "name": "老种经略相公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "延安府镇守边庭的经略相公"
+    },
+    {
+     "name": "少华山",
+     "type": "Organization",
+     "aliases": [
+      "少华山寨"
+     ],
+     "nickname": "",
+     "description": "朱武、陈达、杨春等强人扎寨的山寨势力"
+    },
+    {
+     "name": "史家村",
+     "type": "Place",
+     "aliases": [
+      "史家庄"
+     ],
+     "nickname": "",
+     "description": "华阴县界内村庄，史进所居"
+    },
+    {
+     "name": "华阴县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史家村所属县，钱粮丰富"
+    },
+    {
+     "name": "蒲城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻近华阴县的县城，人户稀少"
+    },
+    {
+     "name": "延安府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王进投奔老种经略相公之处"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王进原任禁军教头之地"
+    },
+    {
+     "name": "史进大闹史家村",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进擒陈达、义释朱武等少华山头领之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王进",
+     "predicate": "MASTER_OF",
+     "object": "史进",
+     "evidence": "便教那后生来拜师父",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史太公",
+     "predicate": "KIN",
+     "object": "史进",
+     "evidence": "是老汉的儿子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王进",
+     "predicate": "STATIONED_AT",
+     "object": "史家村",
+     "evidence": "在太公庄上服药",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "NATIVE_OF",
+     "object": "华阴县",
+     "evidence": "老汉祖居在这华阴县界",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "MEMBER_OF",
+     "object": "史家村",
+     "evidence": "这村便唤做史家村。村中总有三四百家，都姓史",
+     "confidence": 0.8
+    },
+    {
+     "subject": "朱武",
+     "predicate": "LEADS",
+     "object": "少华山",
+     "evidence": "为头那个大王唤做神机军师朱武",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈达",
+     "predicate": "MEMBER_OF",
+     "object": "少华山",
+     "evidence": "第二个唤做跳涧虎陈达",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨春",
+     "predicate": "MEMBER_OF",
+     "object": "少华山",
+     "evidence": "第三个唤做白花蛇杨春",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱武",
+     "predicate": "SWORN_BROTHER",
+     "object": "陈达",
+     "evidence": "当初发愿道：‘不求同日生，只愿同日死。’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱武",
+     "predicate": "SWORN_BROTHER",
+     "object": "杨春",
+     "evidence": "当初发愿道：‘不求同日生，只愿同日死。’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈达",
+     "predicate": "SWORN_BROTHER",
+     "object": "杨春",
+     "evidence": "当初发愿道：‘不求同日生，只愿同日死。’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈达",
+     "predicate": "ATTACKED",
+     "object": "史家村",
+     "evidence": "如今便去先打史家庄，后取华阴县",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "FOUGHT",
+     "object": "陈达",
+     "evidence": "史进也怒，抡手中刀，骤坐下马，来战陈达",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "DEFEATED",
+     "object": "陈达",
+     "evidence": "只一挟，把陈达轻轻摘离了嵌花鞍……丢在马前受降",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "PARTICIPATED_IN",
+     "object": "史进大闹史家村",
+     "evidence": "史进卖个破绽……把陈达轻轻摘离了嵌花鞍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进大闹史家村",
+     "predicate": "OCCURRED_AT",
+     "object": "史家村",
+     "evidence": "直到村北路口摆开",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱武",
+     "predicate": "RESCUED",
+     "object": "陈达",
+     "evidence": "我有一条苦计，若救他不得，我和你都休",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "RESCUED",
+     "object": "陈达",
+     "evidence": "当时史进大喜，解放陈达",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱武",
+     "predicate": "SERVED",
+     "object": "史进",
+     "evidence": "朱武、杨春、陈达拜谢大恩",
+     "confidence": 0.8
+    },
+    {
+     "subject": "陈达",
+     "predicate": "OWNS",
+     "object": "丈八点钢矛",
+     "evidence": "手中横着丈八点钢矛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王进",
+     "predicate": "SERVED",
+     "object": "老种经略相公",
+     "evidence": "投托老种经略相公处勾当",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王进",
+     "predicate": "FRAMED",
+     "object": "高俅",
+     "evidence": "原被先父打翻，今做殿帅府太尉，怀挟旧仇，要奈何王进",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 1931,
+   "entities": [
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "史家庄少庄主，与少华山头领交好"
+    },
+    {
+     "name": "朱武",
+     "type": "Person",
+     "aliases": [
+      "定远"
+     ],
+     "nickname": "神机军师",
+     "description": "少华山头领"
+    },
+    {
+     "name": "陈达",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "跳涧虎",
+     "description": "少华山头领"
+    },
+    {
+     "name": "杨春",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "白花蛇",
+     "description": "少华山头领"
+    },
+    {
+     "name": "王四",
+     "type": "Person",
+     "aliases": [
+      "赛伯当"
+     ],
+     "nickname": "",
+     "description": "史家庄为头的庄客，口舌利便"
+    },
+    {
+     "name": "李吉",
+     "type": "Person",
+     "aliases": [
+      "摽兔李吉"
+     ],
+     "nickname": "",
+     "description": "猎户，出首史进与少华山往来"
+    },
+    {
+     "name": "少华山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱武、陈达、杨春落草的山寨"
+    },
+    {
+     "name": "史家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进所居庄院"
+    },
+    {
+     "name": "华阴县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，出赏钱捉拿少华山贼人"
+    },
+    {
+     "name": "中秋赏月饮酒",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进约朱武等三人中秋夜来庄饮酒赏月"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "史进",
+     "predicate": "FRIEND",
+     "object": "朱武",
+     "evidence": "史进自此常常与朱武等三人往来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "FRIEND",
+     "object": "陈达",
+     "evidence": "史进自此常常与朱武等三人往来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "FRIEND",
+     "object": "杨春",
+     "evidence": "史进自此常常与朱武等三人往来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱武",
+     "predicate": "LEADS",
+     "object": "少华山",
+     "evidence": "少华山上朱武、陈达、杨春三个头领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈达",
+     "predicate": "MEMBER_OF",
+     "object": "少华山",
+     "evidence": "少华山上朱武、陈达、杨春三个头领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨春",
+     "predicate": "MEMBER_OF",
+     "object": "少华山",
+     "evidence": "少华山上朱武、陈达、杨春三个头领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱武",
+     "predicate": "MEMBER_OF",
+     "object": "少华山",
+     "evidence": "少华山上朱武、陈达、杨春三个头领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王四",
+     "predicate": "SERVED",
+     "object": "史进",
+     "evidence": "史进庄上，有个为头的庄客王四",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "STATIONED_AT",
+     "object": "史家庄",
+     "evidence": "史进庄上，有个为头的庄客王四",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李吉",
+     "predicate": "FRAMED",
+     "object": "史进",
+     "evidence": "银子并书都拿去了，望华阴县里来出首",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "PARTICIPATED_IN",
+     "object": "中秋赏月饮酒",
+     "evidence": "史进要和三人说话，约至十五夜来庄上赏月饮酒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱武",
+     "predicate": "PARTICIPATED_IN",
+     "object": "中秋赏月饮酒",
+     "evidence": "请朱武、陈达、杨春来庄上赴席",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈达",
+     "predicate": "PARTICIPATED_IN",
+     "object": "中秋赏月饮酒",
+     "evidence": "请朱武、陈达、杨春来庄上赴席",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨春",
+     "predicate": "PARTICIPATED_IN",
+     "object": "中秋赏月饮酒",
+     "evidence": "请朱武、陈达、杨春来庄上赴席",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中秋赏月饮酒",
+     "predicate": "OCCURRED_AT",
+     "object": "史家庄",
+     "evidence": "约至十五夜来庄上赏月饮酒",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:58.931Z"
+}

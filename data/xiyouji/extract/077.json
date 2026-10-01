@@ -1,0 +1,851 @@
+{
+ "no": 77,
+ "title": "群魔欺本性 一体拜真如",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6012,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "如来",
+     "description": "西天佛祖，统领灵山"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "北海龙王",
+     "description": "北海龙王，名敖顺"
+    },
+    {
+     "name": "大鹏金翅雕",
+     "type": "Person",
+     "aliases": [
+      "云程万里鹏",
+      "大鹏",
+      "如来舅舅"
+     ],
+     "nickname": "大鹏",
+     "description": "狮驼岭三魔之一，如来舅舅"
+    },
+    {
+     "name": "老魔",
+     "type": "Person",
+     "aliases": [
+      "狮王"
+     ],
+     "nickname": "老魔",
+     "description": "狮驼岭大魔，青毛狮子怪"
+    },
+    {
+     "name": "狮驼洞",
+     "type": "Organization",
+     "aliases": [
+      "狮驼山狮驼洞"
+     ],
+     "nickname": "",
+     "description": "狮驼岭妖洞"
+    },
+    {
+     "name": "狮驼城",
+     "type": "Place",
+     "aliases": [
+      "狮驼国"
+     ],
+     "nickname": "",
+     "description": "狮驼岭妖国城池"
+    },
+    {
+     "name": "灵山",
+     "type": "Place",
+     "aliases": [
+      "鹫峰"
+     ],
+     "nickname": "",
+     "description": "如来佛祖道场"
+    },
+    {
+     "name": "锦香亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "狮驼城皇宫内亭子，藏铁柜"
+    },
+    {
+     "name": "铁柜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "锦香亭内铁柜，藏唐僧"
+    },
+    {
+     "name": "瞌睡虫",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空法宝，使人瞌睡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "保护唐僧，拜为师范",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "保护唐僧，拜为师范",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "把唐僧推下殿来。那长老于灯光前，忽见三个徒弟都捆在地下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "把唐僧推下殿来。那长老于灯光前，忽见三个徒弟都捆在地下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒道：哥啊，救便要脱根救，莫又要复蒸笼。行者却揭开笼头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧道：哥哥，你在外面叫哩？行者道：我不在外面，好和你们在里边受罪？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "老魔",
+     "evidence": "那三个魔头齐心竭力，与大圣兄弟三人，在城东半山内努力争持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "大鹏金翅雕",
+     "evidence": "那三个魔头齐心竭力，与大圣兄弟三人，在城东半山内努力争持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "老魔",
+     "evidence": "那三个魔头齐心竭力，与大圣兄弟三人，在城东半山内努力争持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "大鹏金翅雕",
+     "evidence": "那三个魔头齐心竭力，与大圣兄弟三人，在城东半山内努力争持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "老魔",
+     "evidence": "那三个魔头齐心竭力，与大圣兄弟三人，在城东半山内努力争持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "大鹏金翅雕",
+     "evidence": "那三个魔头齐心竭力，与大圣兄弟三人，在城东半山内努力争持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老魔",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "被老魔举刀砍去，几乎伤命，幸躲过头脑，被口刀削断几根鬃毛，赶上张开口咬着领头，拿入城中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "被他一把挝住，拿在手中，左右挣挫不得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老魔",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "那长老唬得脚软筋麻，跌下墙来，被老魔拿住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "三魔擒倒八戒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "北海龙王",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "龙王随即将身变作一阵冷风，吹入锅下，盘旋围护，更没火气烧锅。他三人方不损命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "北海龙王",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "龙王随即将身变作一阵冷风，吹入锅下，盘旋围护，更没火气烧锅。他三人方不损命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "北海龙王",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "龙王随即将身变作一阵冷风，吹入锅下，盘旋围护，更没火气烧锅。他三人方不损命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者却揭开笼头，解了师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "又一层层放了沙僧，放了八戒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "又一层层放了沙僧，放了八戒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "灵山",
+     "evidence": "托庇在佛爷爷之门下，自归正果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "LEADS",
+     "object": "灵山",
+     "evidence": "如来佛祖正端坐在九品宝莲台上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老魔",
+     "predicate": "LEADS",
+     "object": "狮驼洞",
+     "evidence": "三个魔头，同上宝殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "LEADS",
+     "object": "狮驼洞",
+     "evidence": "三个魔头，同上宝殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老魔",
+     "predicate": "STATIONED_AT",
+     "object": "狮驼城",
+     "evidence": "三个魔头，同上宝殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "STATIONED_AT",
+     "object": "狮驼城",
+     "evidence": "三个魔头，同上宝殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "狮驼洞",
+     "evidence": "径至狮驼洞里，一路棍，把那万数小妖，尽情剿绝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "瞌睡虫",
+     "evidence": "曾在北天门与护国天王猜枚耍子，赢得他瞌睡虫儿，还有几个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "锦香亭",
+     "evidence": "把唐僧藏在柜里，关了亭子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "铁柜",
+     "evidence": "把唐僧藏在柜里，关了亭子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "ORIGIN_OF",
+     "object": "如来佛祖",
+     "evidence": "如来舅舅",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2053,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，曾闹天宫"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被囚铁柜"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "如来",
+     "description": "佛教教主，收伏大鹏"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "佛教菩萨"
+    },
+    {
+     "name": "文殊菩萨",
+     "type": "Person",
+     "aliases": [
+      "文殊",
+      "文殊师利",
+      "七佛之师"
+     ],
+     "nickname": "文殊",
+     "description": "佛教菩萨，收青狮"
+    },
+    {
+     "name": "普贤菩萨",
+     "type": "Person",
+     "aliases": [
+      "普贤",
+      "遍吉"
+     ],
+     "nickname": "普贤",
+     "description": "佛教菩萨，收白象"
+    },
+    {
+     "name": "大鹏金翅雕",
+     "type": "Person",
+     "aliases": [
+      "云程万里鹏",
+      "大鹏",
+      "如来舅舅"
+     ],
+     "nickname": "大鹏",
+     "description": "狮驼国三怪，凤凰所生"
+    },
+    {
+     "name": "阿傩",
+     "type": "Person",
+     "aliases": [
+      "阿难"
+     ],
+     "nickname": "",
+     "description": "如来弟子"
+    },
+    {
+     "name": "迦叶",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来弟子"
+    },
+    {
+     "name": "青狮",
+     "type": "Person",
+     "aliases": [
+      "老魔",
+      "老怪"
+     ],
+     "nickname": "青狮",
+     "description": "文殊坐骑，狮驼国老怪"
+    },
+    {
+     "name": "白象",
+     "type": "Person",
+     "aliases": [
+      "二怪",
+      "二魔"
+     ],
+     "nickname": "白象",
+     "description": "普贤坐骑，狮驼国二怪"
+    },
+    {
+     "name": "孔雀",
+     "type": "Person",
+     "aliases": [
+      "佛母孔雀大明王菩萨"
+     ],
+     "nickname": "孔雀",
+     "description": "凤凰所生，曾吞如来"
+    },
+    {
+     "name": "凤凰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凤凰",
+     "description": "飞禽之长，育孔雀大鹏"
+    },
+    {
+     "name": "灵山",
+     "type": "Organization",
+     "aliases": [
+      "雷音宝刹"
+     ],
+     "nickname": "",
+     "description": "如来居所"
+    },
+    {
+     "name": "狮驼国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖怪占据的国度"
+    },
+    {
+     "name": "五台山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "文殊菩萨道场"
+    },
+    {
+     "name": "峨眉山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "普贤菩萨道场"
+    },
+    {
+     "name": "锦香亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "狮驼国囚唐僧处"
+    },
+    {
+     "name": "铁柜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "囚禁唐僧的铁柜"
+    },
+    {
+     "name": "降妖杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧兵器"
+    },
+    {
+     "name": "方天戟",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "大鹏兵器"
+    },
+    {
+     "name": "铁棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空兵器"
+    },
+    {
+     "name": "收伏大鹏",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来降伏大鹏金翅雕"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "如来佛祖",
+     "predicate": "MASTER_OF",
+     "object": "阿傩",
+     "evidence": "叫阿傩迦叶来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "MASTER_OF",
+     "object": "迦叶",
+     "evidence": "叫阿傩迦叶来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "RECOMMENDED",
+     "object": "文殊菩萨",
+     "evidence": "去五台山、峨眉山宣文殊、普贤来见",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "RECOMMENDED",
+     "object": "普贤菩萨",
+     "evidence": "去五台山、峨眉山宣文殊、普贤来见",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文殊菩萨",
+     "predicate": "ORIGIN_OF",
+     "object": "青狮",
+     "evidence": "菩萨之兽，下山多少时了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "普贤菩萨",
+     "predicate": "ORIGIN_OF",
+     "object": "白象",
+     "evidence": "菩萨之兽，下山多少时了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "DEFEATED",
+     "object": "大鹏金翅雕",
+     "evidence": "被佛爷把手往上一指，那妖翅膊上鞦了筋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "SURRENDERED_TO",
+     "object": "如来佛祖",
+     "evidence": "没奈何，只得皈依",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青狮",
+     "predicate": "SURRENDERED_TO",
+     "object": "文殊菩萨",
+     "evidence": "二怪遂泯耳皈依",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白象",
+     "predicate": "SURRENDERED_TO",
+     "object": "普贤菩萨",
+     "evidence": "二怪遂泯耳皈依",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文殊菩萨",
+     "predicate": "DEFEATED",
+     "object": "青狮",
+     "evidence": "唬得老怪、二怪，不敢撑持，丢了兵器，打个滚，现了本相",
+     "confidence": 0.9
+    },
+    {
+     "subject": "普贤菩萨",
+     "predicate": "DEFEATED",
+     "object": "白象",
+     "evidence": "唬得老怪、二怪，不敢撑持，丢了兵器，打个滚，现了本相",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "KIN",
+     "object": "孔雀",
+     "evidence": "伤孔雀如伤我母，故此留他在灵山会上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "KIN",
+     "object": "大鹏金翅雕",
+     "evidence": "大鹏与他是一母所生，故此有些亲处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔雀",
+     "predicate": "KIN",
+     "object": "大鹏金翅雕",
+     "evidence": "大鹏与他是一母所生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凤凰",
+     "predicate": "KIN",
+     "object": "孔雀",
+     "evidence": "育生孔雀、大鹏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凤凰",
+     "predicate": "KIN",
+     "object": "大鹏金翅雕",
+     "evidence": "育生孔雀、大鹏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "青狮",
+     "evidence": "三个魔头各持兵器赶上城来，见了行者更不打话，举兵器一齐乱刺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "白象",
+     "evidence": "三个魔头各持兵器赶上城来，见了行者更不打话，举兵器一齐乱刺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "大鹏金翅雕",
+     "evidence": "三个魔头各持兵器赶上城来，见了行者更不打话，举兵器一齐乱刺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者才解救了八戒、沙僧，寻着行李马匹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "行者才解救了八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "行者才解救了八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "MASTERMINDED",
+     "object": "收伏大鹏",
+     "evidence": "那怪须是我去，方可收得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "收伏大鹏",
+     "predicate": "OCCURRED_AT",
+     "object": "狮驼国",
+     "evidence": "那放黑气的乃是狮驼国也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "锦香亭",
+     "evidence": "如今在那锦香亭铁柜里不是",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖杖",
+     "evidence": "沙僧使降妖杖打开铁锁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "OWNS",
+     "object": "方天戟",
+     "evidence": "丢了方天戟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "行者轮铁棒掣手相迎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青狮",
+     "predicate": "MEMBER_OF",
+     "object": "狮驼国",
+     "evidence": "那放黑气的乃是狮驼国也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白象",
+     "predicate": "MEMBER_OF",
+     "object": "狮驼国",
+     "evidence": "那放黑气的乃是狮驼国也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大鹏金翅雕",
+     "predicate": "MEMBER_OF",
+     "object": "狮驼国",
+     "evidence": "那放黑气的乃是狮驼国也",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:56.924Z"
+}

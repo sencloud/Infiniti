@@ -1,0 +1,45 @@
+{
+ "no": 379,
+ "title": "沅俗",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 240,
+   "entities": [
+    {
+     "name": "李季霖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沅江县令，代理县篆"
+    },
+    {
+     "name": "舆夫",
+     "type": "Person",
+     "aliases": [
+      "轿夫"
+     ],
+     "nickname": "",
+     "description": "李季霖的轿夫，被飞手所害"
+    },
+    {
+     "name": "沅江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，李季霖任职地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李季霖",
+     "predicate": "LIVES_AT",
+     "object": "沅江",
+     "evidence": "李季霖摄篆沅江，初莅任",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:32.499Z"
+}

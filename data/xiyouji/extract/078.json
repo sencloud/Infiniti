@@ -1,0 +1,630 @@
+{
+ "no": 78,
+ "title": "比丘怜子遣阴神 金殿识魔谈道德",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6004,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐差往西天取经的圣僧"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "孙大圣",
+      "悟空",
+      "大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "呆子",
+      "猪悟能",
+      "天蓬元帅"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，贪吃懒做"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实"
+    },
+    {
+     "name": "比丘国国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "陛下",
+      "当今",
+      "昏君"
+     ],
+     "nickname": "",
+     "description": "比丘国君主，被国丈蛊惑"
+    },
+    {
+     "name": "国丈",
+     "type": "Person",
+     "aliases": [
+      "老道者",
+      "道人",
+      "国丈爷爷"
+     ],
+     "nickname": "国丈",
+     "description": "进贡美后给国王的老道，实为妖精"
+    },
+    {
+     "name": "美后",
+     "type": "Person",
+     "aliases": [
+      "小女子",
+      "其女"
+     ],
+     "nickname": "美后",
+     "description": "国丈进贡给国王的十六岁女子"
+    },
+    {
+     "name": "驿丞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金亭馆驿的驿丞"
+    },
+    {
+     "name": "如来",
+     "type": "Person",
+     "aliases": [
+      "佛祖"
+     ],
+     "nickname": "",
+     "description": "西天佛祖"
+    },
+    {
+     "name": "城隍",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被孙悟空拘来的神祇"
+    },
+    {
+     "name": "土地",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被孙悟空拘来的神祇"
+    },
+    {
+     "name": "护教伽蓝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "护法神众"
+    },
+    {
+     "name": "比丘国",
+     "type": "Organization",
+     "aliases": [
+      "小子城",
+      "小儿城"
+     ],
+     "nickname": "",
+     "description": "西行路上的国度，国王无道"
+    },
+    {
+     "name": "金亭馆驿",
+     "type": "Place",
+     "aliases": [
+      "馆驿"
+     ],
+     "nickname": "",
+     "description": "比丘国接待外宾的驿馆"
+    },
+    {
+     "name": "比丘国朝堂",
+     "type": "Place",
+     "aliases": [
+      "朝中",
+      "金銮殿"
+     ],
+     "nickname": "",
+     "description": "比丘国国王上朝理政之处"
+    },
+    {
+     "name": "鹅笼",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "装小儿的笼子，五彩缎遮幔"
+    },
+    {
+     "name": "通关文牒",
+     "type": "Item",
+     "aliases": [
+      "文牒"
+     ],
+     "nickname": "",
+     "description": "唐僧取经的通关文书"
+    },
+    {
+     "name": "九环锡杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧所持的锡杖"
+    },
+    {
+     "name": "锦襕袈裟",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧所穿的袈裟"
+    },
+    {
+     "name": "救小儿",
+     "type": "Event",
+     "aliases": [
+      "阴神救小儿"
+     ],
+     "nickname": "",
+     "description": "孙悟空请神将鹅笼中小儿摄出城外"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "解脱三藏师徒之难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "解脱三藏师徒之难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "解脱三藏师徒之难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "比丘国",
+     "evidence": "师徒四众牵着马，挑着担，在街市上行彀多时",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "比丘国",
+     "evidence": "师徒四众牵着马，挑着担，在街市上行彀多时",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "比丘国",
+     "evidence": "师徒四众牵着马，挑着担，在街市上行彀多时",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "比丘国",
+     "evidence": "师徒四众牵着马，挑着担，在街市上行彀多时",
+     "confidence": 0.8
+    },
+    {
+     "subject": "国丈",
+     "predicate": "SERVED",
+     "object": "比丘国国王",
+     "evidence": "那进女子的道人，受我主诰封，称为国丈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "美后",
+     "predicate": "SPOUSE",
+     "object": "比丘国国王",
+     "evidence": "陛下爱其色美，宠幸在宫，号为美后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "国丈",
+     "predicate": "KIN",
+     "object": "美后",
+     "evidence": "携一小女子，年方一十六岁，其女形容娇俊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "解脱三藏师徒之难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "解脱三藏师徒之难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "解脱三藏师徒之难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTERMINDED",
+     "object": "救小儿",
+     "evidence": "行者道：如今先将鹅笼小儿摄离此城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "救小儿",
+     "predicate": "OCCURRED_AT",
+     "object": "比丘国",
+     "evidence": "今因路过比丘国，那国王无道，听信妖邪，要取小儿心肝做药引子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救小儿",
+     "evidence": "行者抖擞神威，即起身吩咐八戒沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "城隍",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救小儿",
+     "evidence": "拘得那城隍、土地、社令、真官，并五方揭谛、四值功曹、六丁六甲与护教伽蓝等众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "土地",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救小儿",
+     "evidence": "拘得那城隍、土地、社令、真官，并五方揭谛、四值功曹、六丁六甲与护教伽蓝等众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "护教伽蓝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救小儿",
+     "evidence": "拘得那城隍、土地、社令、真官，并五方揭谛、四值功曹、六丁六甲与护教伽蓝等众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "通关文牒",
+     "evidence": "长老将文牒献上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "九环锡杖",
+     "evidence": "九环锡杖手中拿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "锦襕袈裟",
+     "evidence": "身上穿一领锦襕异宝佛袈裟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蜜蜂",
+     "evidence": "摇身一变，变作一个蜜蜂儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "蟭蟟虫",
+     "evidence": "摇身一变，变做个蟭蟟虫儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "如来",
+     "evidence": "请如来收了众怪",
+     "confidence": 0.8
+    },
+    {
+     "subject": "国丈",
+     "predicate": "FRAMED",
+     "object": "比丘国国王",
+     "evidence": "那昏君听信诬言",
+     "confidence": 0.9
+    },
+    {
+     "subject": "国丈",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "要取师父的心肝做药引",
+     "confidence": 0.9
+    },
+    {
+     "subject": "比丘国国王",
+     "predicate": "ATTACKED",
+     "object": "金亭馆驿",
+     "evidence": "点兵围了金亭馆驿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "金亭馆驿",
+     "evidence": "一翅飞奔馆驿，现了本相",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "金亭馆驿",
+     "evidence": "四众欣然而入",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "金亭馆驿",
+     "evidence": "四众欣然而入",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "金亭馆驿",
+     "evidence": "四众欣然而入",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "比丘国朝堂",
+     "evidence": "一翅飞在金銮殿翡翠屏中钉下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "比丘国朝堂",
+     "evidence": "长老阶下朝见毕，复请上殿赐坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "国丈",
+     "predicate": "STATIONED_AT",
+     "object": "比丘国朝堂",
+     "evidence": "那国丈到宝殿前，更不行礼，昂昂烈烈径到殿上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "比丘国国王",
+     "predicate": "STATIONED_AT",
+     "object": "比丘国朝堂",
+     "evidence": "那国王即扶着近侍小宦，挣下龙床",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹅笼",
+     "predicate": "OWNS",
+     "object": "比丘国",
+     "evidence": "家家门口一个鹅笼",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 557,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "东土大唐高僧，取经人"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "齐天大圣",
+      "美猴王"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，憨厚贪吃"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚沉稳"
+    },
+    {
+     "name": "锦衣官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "比丘国官员，奉王命请唐僧"
+    },
+    {
+     "name": "驿丞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "馆驿小吏，战兢兢回话"
+    },
+    {
+     "name": "比丘国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行路上的国度"
+    },
+    {
+     "name": "羽林卫",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "比丘国王宫禁军"
+    },
+    {
+     "name": "馆驿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "比丘国接待外宾的驿馆"
+    },
+    {
+     "name": "金殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "比丘国国王上朝的大殿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者道：“若要全命，师作徒，徒作师，方可保全。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "唐僧",
+     "evidence": "摇身变作唐僧的嘴脸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "TRANSFORMED",
+     "object": "孙悟空",
+     "evidence": "那长老即变做个行者模样",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "孙悟空",
+     "evidence": "教：“八戒，快和些泥来。”那呆子即使钉钯，筑了些土",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锦衣官",
+     "predicate": "SERVED",
+     "object": "比丘国",
+     "evidence": "锦衣官即至客房里道：“唐长老，我王有请。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "羽林卫",
+     "predicate": "ATTACKED",
+     "object": "馆驿",
+     "evidence": "原来是羽林卫官，领三千兵把馆驿围了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锦衣官",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "锦衣官上前一把扯住道：“我与你进朝去，想必有取用也。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "馆驿",
+     "evidence": "在下面客房里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锦衣官",
+     "predicate": "STATIONED_AT",
+     "object": "馆驿",
+     "evidence": "锦衣官走进驿庭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "羽林卫",
+     "predicate": "MEMBER_OF",
+     "object": "比丘国",
+     "evidence": "原来是羽林卫官，领三千兵把馆驿围了",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:55.160Z"
+}

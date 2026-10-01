@@ -1,0 +1,339 @@
+{
+ "no": 103,
+ "title": "第一百三回 张管营因妾弟丧身 范节级为表兄医脸",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5934,
+   "entities": [
+    {
+     "name": "王庆",
+     "type": "Person",
+     "aliases": [
+      "李德"
+     ],
+     "nickname": "",
+     "description": "配军，后杀张世开、庞元，逃至房州"
+    },
+    {
+     "name": "龚端",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚家村龚端庄院主人，从王庆学枪棒"
+    },
+    {
+     "name": "龚正",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚端兄弟，从王庆学枪棒"
+    },
+    {
+     "name": "黄达",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东村人，被王庆、龚端等打伤"
+    },
+    {
+     "name": "孙琳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "防送公人，押送王庆至陕州"
+    },
+    {
+     "name": "贺吉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "防送公人，押送王庆至陕州"
+    },
+    {
+     "name": "张世开",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕州牢城营管营，被王庆杀死"
+    },
+    {
+     "name": "庞元",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张世开妾弟，被王庆杀死"
+    },
+    {
+     "name": "庞氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张世开妾，庞元之姐"
+    },
+    {
+     "name": "范全",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "房州两院押牢节级，王庆表兄，助其藏匿"
+    },
+    {
+     "name": "安道全",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "神医",
+     "description": "神医，范全曾从其学疗金印之法"
+    },
+    {
+     "name": "张医士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕州营西武功牌坊东侧药铺医士"
+    },
+    {
+     "name": "龚端庄院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "龚家村内庄院"
+    },
+    {
+     "name": "龚家村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王庆点拨龚端兄弟处"
+    },
+    {
+     "name": "东村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄达所居村庄"
+    },
+    {
+     "name": "邙东镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王庆曾在此赢使枪棒，打伤庞元"
+    },
+    {
+     "name": "陕州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王庆刺配地，杀张世开处"
+    },
+    {
+     "name": "房州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "范全任职地，王庆藏匿处"
+    },
+    {
+     "name": "定山堡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "房州城外，范全草房所在"
+    },
+    {
+     "name": "段家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "定山堡内，段氏兄弟搭戏台处"
+    },
+    {
+     "name": "牢城营",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕州牢城营，张世开管辖"
+    },
+    {
+     "name": "开封府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "王庆原籍官府，发配文书出处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王庆",
+     "predicate": "MASTER_OF",
+     "object": "龚端",
+     "evidence": "点拨龚端兄弟使拳拽腿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "MASTER_OF",
+     "object": "龚正",
+     "evidence": "把枪棒觔节，尽传与龚端、龚正",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "FOUGHT",
+     "object": "黄达",
+     "evidence": "只一枷望黄达膀上打去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "龚端",
+     "predicate": "FOUGHT",
+     "object": "黄达",
+     "evidence": "被龚端、龚正并两个庄客，一齐上前按住，拳头脚尖，将黄达脊背胸脯……无处不着拳脚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "龚正",
+     "predicate": "FOUGHT",
+     "object": "黄达",
+     "evidence": "被龚端、龚正并两个庄客，一齐上前按住，拳头脚尖，将黄达脊背胸脯……无处不着拳脚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙琳",
+     "predicate": "SERVED",
+     "object": "开封府",
+     "evidence": "防送公人孙琳、贺吉再三来劝",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贺吉",
+     "predicate": "SERVED",
+     "object": "开封府",
+     "evidence": "防送公人孙琳、贺吉再三来劝",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王庆",
+     "predicate": "SERVED",
+     "object": "张世开",
+     "evidence": "张世开日日差王庆买办食用供应",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张世开",
+     "predicate": "FRAMED",
+     "object": "王庆",
+     "evidence": "张世开嫌好道歉，非打即骂……总计打了三百余棒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庞元",
+     "predicate": "KIN",
+     "object": "庞氏",
+     "evidence": "他是张管营小夫人的同胞兄弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张世开",
+     "predicate": "SPOUSE",
+     "object": "庞氏",
+     "evidence": "那庞夫人是张管营最得意的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王庆",
+     "predicate": "KILLED",
+     "object": "张世开",
+     "evidence": "被王庆早落一刀，把张世开齐耳根连脖子砍着……照后心又刺一刀，结果了性命",
+     "confidence": 0.98
+    },
+    {
+     "subject": "王庆",
+     "predicate": "KILLED",
+     "object": "庞元",
+     "evidence": "被王庆飞抢上前，暗地里望着庞元，一刀刺去，正中胁肋……一刀割下头来",
+     "confidence": 0.98
+    },
+    {
+     "subject": "王庆",
+     "predicate": "RESCUED",
+     "object": "范全",
+     "evidence": "哥哥，救兄弟则个！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "范全",
+     "predicate": "KIN",
+     "object": "王庆",
+     "evidence": "这个乃是我母姨表兄院长范全",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范全",
+     "predicate": "MASTER_OF",
+     "object": "王庆",
+     "evidence": "学得个疗金印的法儿。却将毒药与王庆点去了",
+     "confidence": 0.85
+    },
+    {
+     "subject": "安道全",
+     "predicate": "MASTER_OF",
+     "object": "范全",
+     "evidence": "闻得神医安道全的名，用厚币交结他，学得个疗金印的法儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "杀张世开庞元",
+     "evidence": "被王庆早落一刀，把张世开齐耳根连脖子砍着……一刀割下头来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杀张世开庞元",
+     "predicate": "OCCURRED_AT",
+     "object": "陕州",
+     "evidence": "那陕州是座土城……当夜被王庆越城去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "STATIONED_AT",
+     "object": "定山堡",
+     "evidence": "引王庆出城，到定山堡东草房内藏匿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "NATIVE_OF",
+     "object": "开封府",
+     "evidence": "你是东京人，必知价直真假",
+     "confidence": 0.9
+    },
+    {
+     "subject": "范全",
+     "predicate": "STATIONED_AT",
+     "object": "房州",
+     "evidence": "他从小随父亲在房州经纪得利，因此就充做本州两院押牢节级",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王庆",
+     "predicate": "MEMBER_OF",
+     "object": "牢城营",
+     "evidence": "州尹随即把王庆帖发本处牢城营来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张世开",
+     "predicate": "LEADS",
+     "object": "牢城营",
+     "evidence": "那个管营姓张，双名世开",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:37:30.455Z"
+}

@@ -1,0 +1,539 @@
+{
+ "no": 74,
+ "title": "第七十四回 燕青智扑擎天柱 李逵寿张乔坐衙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5907,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，送燕青下山相扑"
+    },
+    {
+     "name": "卢俊义",
+     "type": "Person",
+     "aliases": [
+      "玉麒麟",
+      "卢员外",
+      "河北玉麒麟"
+     ],
+     "nickname": "玉麒麟",
+     "description": "梁山好汉，燕青主人，率众接应"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "梁山好汉，善相扑，智扑任原"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，偷下山助燕青，打死任原"
+    },
+    {
+     "name": "任原",
+     "type": "Person",
+     "aliases": [
+      "擎天柱"
+     ],
+     "nickname": "擎天柱",
+     "description": "太原相扑教师，被燕青攧下献台"
+    },
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "九纹龙",
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "梁山好汉，随卢俊义策应"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "梁山好汉，随卢俊义策应，后寻李逵"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "花和尚",
+      "鲁提辖",
+      "鲁达"
+     ],
+     "nickname": "花和尚",
+     "description": "梁山好汉，随卢俊义策应"
+    },
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "梁山好汉，随卢俊义策应"
+    },
+    {
+     "name": "解珍",
+     "type": "Person",
+     "aliases": [
+      "两头蛇"
+     ],
+     "nickname": "两头蛇",
+     "description": "梁山好汉，随卢俊义策应"
+    },
+    {
+     "name": "解宝",
+     "type": "Person",
+     "aliases": [
+      "双尾蝎"
+     ],
+     "nickname": "双尾蝎",
+     "description": "梁山好汉，随卢俊义策应"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉山寨势力"
+    },
+    {
+     "name": "泰安州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕青相扑之地，东岳庙所在"
+    },
+    {
+     "name": "东岳庙",
+     "type": "Place",
+     "aliases": [
+      "岱岳庙"
+     ],
+     "nickname": "",
+     "description": "泰安州庙宇，相扑献圣之所"
+    },
+    {
+     "name": "寿张县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "靠近梁山泊的县，李逵乔坐衙处"
+    },
+    {
+     "name": "智扑擎天柱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕青在泰安东岳庙相扑攧翻任原"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "卢俊义",
+     "evidence": "小乙自幼跟着卢员外，学得这身相扑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "MASTER_OF",
+     "object": "燕青",
+     "evidence": "小乙自幼跟着卢员外，学得这身相扑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "弟兄聚会梁山泊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "休教走了梁山泊黑旋风",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "卢俊义引众还山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "后面带着史进、穆弘、鲁智深、武松、解珍、解宝七条好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "后面带着史进、穆弘、鲁智深、武松、解珍、解宝七条好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "后面带着史进、穆弘、鲁智深、武松、解珍、解宝七条好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "后面带着史进、穆弘、鲁智深、武松、解珍、解宝七条好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解珍",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "后面带着史进、穆弘、鲁智深、武松、解珍、解宝七条好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解宝",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "后面带着史进、穆弘、鲁智深、武松、解珍、解宝七条好汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "当日燕青禀宋江道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智扑擎天柱",
+     "evidence": "燕青智扑擎天柱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "任原",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智扑擎天柱",
+     "evidence": "燕青智扑擎天柱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "智扑擎天柱",
+     "predicate": "OCCURRED_AT",
+     "object": "东岳庙",
+     "evidence": "燕青却随了众人来到岱岳庙里看时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "DEFEATED",
+     "object": "任原",
+     "evidence": "把任原头在下，脚在上，直撺下献台来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "KILLED",
+     "object": "任原",
+     "evidence": "李逵揭块石板，把任原头打得粉碎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "RESCUED",
+     "object": "燕青",
+     "evidence": "引一千余人，杀开庙门，入来策应",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卢俊义",
+     "predicate": "RESCUED",
+     "object": "李逵",
+     "evidence": "引一千余人，杀开庙门，入来策应",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "FOUGHT",
+     "object": "任原",
+     "evidence": "李逵揭块石板，把任原头打得粉碎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "STATIONED_AT",
+     "object": "泰安州",
+     "evidence": "取路望泰安州来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "STATIONED_AT",
+     "object": "寿张县",
+     "evidence": "李逵手持双斧，直到寿张县",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1780,
+   "entities": [
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，寿张县乔坐衙"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "梁山好汉，拖李逵回山"
+    },
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山首领，怒骂李逵"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "梁山好汉，在忠义堂受庆"
+    },
+    {
+     "name": "陈宗善",
+     "type": "Person",
+     "aliases": [
+      "陈太尉"
+     ],
+     "nickname": "",
+     "description": "殿前太尉，奉命招安梁山"
+    },
+    {
+     "name": "崔靖",
+     "type": "Person",
+     "aliases": [
+      "御史大夫"
+     ],
+     "nickname": "",
+     "description": "御史大夫，奏请招安梁山"
+    },
+    {
+     "name": "道君皇帝",
+     "type": "Person",
+     "aliases": [
+      "天子",
+      "圣主"
+     ],
+     "nickname": "",
+     "description": "当朝皇帝，准奏招安"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "山寨",
+      "梁山"
+     ],
+     "nickname": "",
+     "description": "宋江等好汉聚义势力"
+    },
+    {
+     "name": "寿张县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵乔坐衙的县"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Place",
+     "aliases": [
+      "金沙滩",
+      "忠义堂"
+     ],
+     "nickname": "",
+     "description": "好汉落草的山寨地点"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [
+      "京国"
+     ],
+     "nickname": "",
+     "description": "朝廷都城"
+    },
+    {
+     "name": "泰安州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "申奏梁山反乱的州"
+    },
+    {
+     "name": "李逵寿张乔坐衙",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵穿官服坐寿张县衙取笑"
+    },
+    {
+     "name": "陈太尉招安",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈宗善奉命赍诏招安梁山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李逵只得离了寿张县，径奔梁山泊来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "穆弘叫道：“众人忧得你苦，你却在这里风！快上山去！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江正与燕青庆喜……宋江骂道：“你这厮忒大胆……”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "宋江正与燕青庆喜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "李逵寿张乔坐衙",
+     "evidence": "李逵径去知县椅子上坐了……李逵只得离了寿张县",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵寿张乔坐衙",
+     "predicate": "OCCURRED_AT",
+     "object": "寿张县",
+     "evidence": "正在寿张县前，走过东，走过西",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "RESCUED",
+     "object": "李逵",
+     "evidence": "穆弘叫道：“众人忧得你苦，你却在这里风！快上山去！”那里由他，拖着便走。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRAMED",
+     "object": "李逵",
+     "evidence": "宋江骂道：“你这厮忒大胆，不曾着我知道，私走下山。这是该死的罪过！”",
+     "confidence": 0.7
+    },
+    {
+     "subject": "崔靖",
+     "predicate": "MASTERMINDED",
+     "object": "陈太尉招安",
+     "evidence": "御史大夫崔靖出班奏曰：“……若降一封丹诏……招安来降……”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈宗善",
+     "predicate": "PARTICIPATED_IN",
+     "object": "陈太尉招安",
+     "evidence": "便差殿前太尉陈宗善为使，赍擎丹诏御酒，前去招安梁山泊大小人数。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈太尉招安",
+     "predicate": "OCCURRED_AT",
+     "object": "东京",
+     "evidence": "是日朝散，陈太尉领了诏敕，回家收拾。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "泰安州",
+     "predicate": "ATTACKED",
+     "object": "梁山泊",
+     "evidence": "泰安州备将前事申奏东京……皆为宋江等反乱骚扰一事。",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:34:33.752Z"
+}

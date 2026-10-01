@@ -1,0 +1,363 @@
+{
+ "no": 109,
+ "title": "4.4 数据的离散程度",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6122,
+   "entities": [
+    {
+     "name": "离差平方和",
+     "type": "Concept",
+     "aliases": [
+      "sum of squares of deviation"
+     ],
+     "nickname": "",
+     "description": "各数据与平均数差的平方和"
+    },
+    {
+     "name": "方差",
+     "type": "Concept",
+     "aliases": [
+      "variance"
+     ],
+     "nickname": "",
+     "description": "离差平方和的平均数，刻画离散程度"
+    },
+    {
+     "name": "标准差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "方差的算术平方根，描述离散程度"
+    },
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的总和除以数据个数"
+    },
+    {
+     "name": "组内离差平方和",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分组后各组离差平方和之和"
+    },
+    {
+     "name": "方差公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "s²=1/n[(x₁-x̄)²+…+(xₙ-x̄)²]"
+    },
+    {
+     "name": "标准差公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "s=√[1/nΣ(xᵢ-x̄)²]"
+    },
+    {
+     "name": "离差平方和公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "S²=(x₁-x̄)²+…+(xₙ-x̄)²"
+    },
+    {
+     "name": "分组标准",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "组内离差平方和达到最小"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "离差平方和",
+     "predicate": "PREREQUISITE",
+     "object": "方差",
+     "evidence": "将一组数据中各数据与平均数的差的平方和称为离差平方和",
+     "confidence": 0.95
+    },
+    {
+     "subject": "离差平方和",
+     "predicate": "PREREQUISITE",
+     "object": "标准差",
+     "evidence": "方差能较为精确地反映一组数据相对于平均数的平均偏差",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方差",
+     "predicate": "PREREQUISITE",
+     "object": "标准差",
+     "evidence": "也常用方差的算术平方根",
+     "confidence": 0.95
+    },
+    {
+     "subject": "离差平方和",
+     "predicate": "INCLUDES",
+     "object": "离差平方和公式",
+     "evidence": "这组数据的离差平方和为：S²=(x₁-x̄)²+…+(xₙ-x̄)²",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方差",
+     "predicate": "INCLUDES",
+     "object": "方差公式",
+     "evidence": "s²=1/n[(x₁-x̄)²+…+(xₙ-x̄)²]",
+     "confidence": 0.95
+    },
+    {
+     "subject": "标准差",
+     "predicate": "INCLUDES",
+     "object": "标准差公式",
+     "evidence": "s=√[1/nΣ(xᵢ-x̄)²]",
+     "confidence": 0.95
+    },
+    {
+     "subject": "离差平方和公式",
+     "predicate": "DERIVES",
+     "object": "方差公式",
+     "evidence": "用离差平方和的平均数代替这组数据的总偏差",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方差公式",
+     "predicate": "DERIVES",
+     "object": "标准差公式",
+     "evidence": "也常用方差的算术平方根",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方差",
+     "predicate": "PROPERTY_OF",
+     "object": "离散程度",
+     "evidence": "方差是刻画数据的离散程度的常用统计量",
+     "confidence": 0.95
+    },
+    {
+     "subject": "标准差",
+     "predicate": "PROPERTY_OF",
+     "object": "离散程度",
+     "evidence": "来描述一组数据的离散程度，并把它叫作这组数据的标准差",
+     "confidence": 0.95
+    },
+    {
+     "subject": "离差平方和",
+     "predicate": "PROPERTY_OF",
+     "object": "离散程度",
+     "evidence": "离差平方和反映的是一组数据与其平均数之间的总的偏差程度",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方差",
+     "predicate": "APPLIES_TO",
+     "object": "离散程度",
+     "evidence": "方差是刻画数据的离散程度的常用统计量",
+     "confidence": 0.95
+    },
+    {
+     "subject": "标准差",
+     "predicate": "APPLIES_TO",
+     "object": "离散程度",
+     "evidence": "来描述一组数据的离散程度",
+     "confidence": 0.95
+    },
+    {
+     "subject": "离差平方和",
+     "predicate": "APPLIES_TO",
+     "object": "分组标准",
+     "evidence": "可以用离差平方和描述！一组数据的离差平方和越小，它们之间就越接近",
+     "confidence": 0.9
+    },
+    {
+     "subject": "组内离差平方和",
+     "predicate": "INCLUDES",
+     "object": "离差平方和",
+     "evidence": "S_a²+S_b²称为组内离差平方和",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分组标准",
+     "predicate": "APPLIES_TO",
+     "object": "组内离差平方和",
+     "evidence": "当S_a²+S_b²达到最小时，分组较合理",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方差",
+     "predicate": "CONTRASTS",
+     "object": "平均数",
+     "evidence": "方差与平均数配合使用时，可以同时反映数据的集中趋势与离散程度",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方差",
+     "predicate": "RELATED",
+     "object": "平均数",
+     "evidence": "方差实际上反映了各个数据与平均数之间的平均偏差程度",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 4509,
+   "entities": [
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的总和除以数据个数所得的商"
+    },
+    {
+     "name": "中位数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "将一组数据按大小顺序排列后，处于中间位置的数"
+    },
+    {
+     "name": "四分位数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "将数据排序后分成四等份的数值"
+    },
+    {
+     "name": "众数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据中出现次数最多的数据"
+    },
+    {
+     "name": "方差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "各数据与平均数差的平方的平均数，衡量离散程度"
+    },
+    {
+     "name": "箱线图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "用四分位数和极值展示数据分布的统计图"
+    },
+    {
+     "name": "平均差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "各数据与平均数差的绝对值的平均数"
+    },
+    {
+     "name": "离散程度",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数据波动大小或分散程度的度量"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "方差",
+     "predicate": "PROPERTY_OF",
+     "object": "离散程度",
+     "evidence": "方差越大，那么平均差也越大",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平均差",
+     "predicate": "PROPERTY_OF",
+     "object": "离散程度",
+     "evidence": "平均差也能描述一组数据的离散程度吗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四分位数",
+     "predicate": "APPLIES_TO",
+     "object": "箱线图",
+     "evidence": "绘制各城市月平均相对湿度的箱线图",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平均数",
+     "predicate": "RELATED",
+     "object": "中位数",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平均数",
+     "predicate": "RELATED",
+     "object": "众数",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平均数",
+     "predicate": "RELATED",
+     "object": "方差",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "中位数",
+     "predicate": "RELATED",
+     "object": "众数",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "中位数",
+     "predicate": "RELATED",
+     "object": "方差",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "众数",
+     "predicate": "RELATED",
+     "object": "方差",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四分位数",
+     "predicate": "RELATED",
+     "object": "平均数",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四分位数",
+     "predicate": "RELATED",
+     "object": "中位数",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四分位数",
+     "predicate": "RELATED",
+     "object": "众数",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四分位数",
+     "predicate": "RELATED",
+     "object": "方差",
+     "evidence": "利用平均数、中位数、四分位数、众数和方差解决问题",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:27.228Z"
+}

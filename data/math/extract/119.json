@@ -1,0 +1,106 @@
+{
+ "no": 119,
+ "title": "6.1 图上距离与实际距离",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2254,
+   "entities": [
+    {
+     "name": "成比例线段",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条线段中，两条线段的比等于另两条线段的比"
+    },
+    {
+     "name": "比例的基本性质",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "如果a:b=c:d，那么ad=bc；反之亦然"
+    },
+    {
+     "name": "比例中项",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在比例式a:b=b:c中，b叫做a和c的比例中项"
+    },
+    {
+     "name": "相似形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形状相同的图形"
+    },
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的三角形"
+    },
+    {
+     "name": "全等",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的图形"
+    },
+    {
+     "name": "比例尺",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图上距离与实际距离的比"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "比例的基本性质",
+     "predicate": "PROPERTY_OF",
+     "object": "成比例线段",
+     "evidence": "在小学里，我们学习过比例的基本性质：如果 a:b = c:d，那么 ad = bc；反过来，如果 ad = bc（b ≠ 0,d ≠ 0），那么 a:b = c:d。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "比例中项",
+     "predicate": "INCLUDES",
+     "object": "成比例线段",
+     "evidence": "在比例式 a:b = b:c 中，b 叫做 a 和 c 的比例中项。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似形",
+     "evidence": "“全等”、“相似”，具有特殊与一般的关系，",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形",
+     "predicate": "INCLUDES",
+     "object": "相似形",
+     "evidence": "本章将学习相似形的概念，探索并证明三角形相似的判定方法和相似三角形的性质，并运用这些知识解决简单的实际问题。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成比例线段",
+     "predicate": "PREREQUISITE",
+     "object": "相似三角形",
+     "evidence": "本章将学习相似形的概念，探索并证明三角形相似的判定方法和相似三角形的性质，并运用这些知识解决简单的实际问题。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "比例尺",
+     "predicate": "APPLIES_TO",
+     "object": "成比例线段",
+     "evidence": "比例尺=图上距离:实际距离=4:8000=1:2000。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:26.166Z"
+}

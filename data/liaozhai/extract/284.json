@@ -1,0 +1,143 @@
+{
+ "no": 284,
+ "title": "甄后",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1280,
+   "entities": [
+    {
+     "name": "刘仲堪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "洛城书生，甄后故事主角"
+    },
+    {
+     "name": "甄氏",
+     "type": "Spirit",
+     "aliases": [
+      "甄后"
+     ],
+     "nickname": "",
+     "description": "仙籍美人，自称甄氏"
+    },
+    {
+     "name": "陈氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "老姥，司香之母"
+    },
+    {
+     "name": "司香",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈氏女，铜雀故妓，仙籍"
+    },
+    {
+     "name": "术士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘母所请作法者"
+    },
+    {
+     "name": "瞽媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牵黄犬乞食的老妇"
+    },
+    {
+     "name": "黄犬",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操所化之犬"
+    },
+    {
+     "name": "刘母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘仲堪之母"
+    },
+    {
+     "name": "玉脂合",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "甄氏赠刘仲堪的玉盒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "甄氏",
+     "predicate": "LOVES",
+     "object": "刘仲堪",
+     "evidence": "今日之会，亦聊以报情痴也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘仲堪",
+     "predicate": "SPOUSE",
+     "object": "司香",
+     "evidence": "愿求作妇……坐待成礼而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈氏",
+     "predicate": "KIN",
+     "object": "司香",
+     "evidence": "自言陈氏，女其所出，名司香",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄犬",
+     "predicate": "HARMED",
+     "object": "司香",
+     "evidence": "犬断索咋女。女骇走，罗衿断",
+     "confidence": 0.95
+    },
+    {
+     "subject": "术士",
+     "predicate": "HARMED",
+     "object": "司香",
+     "evidence": "母阴觅术士来，作法于庭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司香",
+     "predicate": "KILLED",
+     "object": "术士",
+     "evidence": "见术士七窍流血死矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘仲堪",
+     "predicate": "LIVES_AT",
+     "object": "洛城",
+     "evidence": "洛城刘仲堪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘仲堪",
+     "predicate": "NATIVE_OF",
+     "object": "洛城",
+     "evidence": "洛城刘仲堪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘仲堪",
+     "predicate": "OWNS",
+     "object": "玉脂合",
+     "evidence": "乃以玉脂合赠刘",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:00.431Z"
+}

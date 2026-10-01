@@ -1,0 +1,78 @@
+{
+ "no": 16,
+ "title": "长清僧",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 670,
+   "entities": [
+    {
+     "name": "长清僧",
+     "type": "Person",
+     "aliases": [
+      "老僧",
+      "老和尚"
+     ],
+     "nickname": "",
+     "description": "长清县僧人，道行高洁，八十余岁圆寂后魂附河南公子"
+    },
+    {
+     "name": "河南故绅子",
+     "type": "Person",
+     "aliases": [
+      "公子"
+     ],
+     "nickname": "",
+     "description": "河南旧官绅之子，坠马而亡，被长清僧魂附体"
+    },
+    {
+     "name": "长清县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山东地名，长清僧原籍及旧寺所在"
+    },
+    {
+     "name": "河南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，故绅子家乡，长清僧魂飘至此"
+    },
+    {
+     "name": "兰若",
+     "type": "Place",
+     "aliases": [
+      "旧寺"
+     ],
+     "nickname": "",
+     "description": "长清僧生前所居寺院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "长清僧",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "竟至兰若。弟子数人见贵客至，伏谒甚恭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "长清僧",
+     "predicate": "NATIVE_OF",
+     "object": "长清县",
+     "evidence": "山东长清县，知之否？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "河南故绅子",
+     "predicate": "LIVES_AT",
+     "object": "河南",
+     "evidence": "河南有故绅子，率十馀骑，按鹰猎兔。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:19.073Z"
+}

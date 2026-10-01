@@ -1,0 +1,70 @@
+{
+ "no": 4,
+ "title": "喷水",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 267,
+   "entities": [
+    {
+     "name": "宋玉叔",
+     "type": "Person",
+     "aliases": [
+      "宋先生"
+     ],
+     "nickname": "",
+     "description": "莱阳人，部曹官员，租住荒宅"
+    },
+    {
+     "name": "太夫人",
+     "type": "Person",
+     "aliases": [
+      "宋母"
+     ],
+     "nickname": "",
+     "description": "宋玉叔之母，夜宿厅上遇怪"
+    },
+    {
+     "name": "莱阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋玉叔籍贯地"
+    },
+    {
+     "name": "所僦第",
+     "type": "Place",
+     "aliases": [
+      "荒宅"
+     ],
+     "nickname": "",
+     "description": "宋玉叔租住的荒僻宅院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋玉叔",
+     "predicate": "NATIVE_OF",
+     "object": "莱阳",
+     "evidence": "莱阳宋玉叔先生为部曹时",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋玉叔",
+     "predicate": "LIVES_AT",
+     "object": "所僦第",
+     "evidence": "所僦第甚荒落",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太夫人",
+     "predicate": "KIN",
+     "object": "宋玉叔",
+     "evidence": "二婢奉太夫人宿厅上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:15.757Z"
+}

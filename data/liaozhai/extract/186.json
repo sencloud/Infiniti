@@ -1,0 +1,169 @@
+{
+ "no": 186,
+ "title": "西湖主",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2810,
+   "entities": [
+    {
+     "name": "陈弼教",
+     "type": "Person",
+     "aliases": [
+      "陈生",
+      "陈明允",
+      "弼教"
+     ],
+     "nickname": "",
+     "description": "燕人，字明允，家贫，从贾绾作记室"
+    },
+    {
+     "name": "贾绾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "副将军，陈弼教上司"
+    },
+    {
+     "name": "西湖主",
+     "type": "Spirit",
+     "aliases": [
+      "公主",
+      "西湖公主"
+     ],
+     "nickname": "",
+     "description": "洞庭湖君之女，神人，后嫁陈弼教"
+    },
+    {
+     "name": "王妃",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "西湖主之母，湖君妃子，扬江王女"
+    },
+    {
+     "name": "阿念",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "公主心腹婢女，曾为小鱼衔龙尾"
+    },
+    {
+     "name": "梁子俊",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈弼教童稚之交，宦游南服十馀年"
+    },
+    {
+     "name": "洞庭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "湖泊，陈弼教泊舟、覆舟处"
+    },
+    {
+     "name": "首山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西湖主狩猎之地"
+    },
+    {
+     "name": "燕",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈弼教籍贯地"
+    },
+    {
+     "name": "红巾",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "公主所遗，陈弼教题诗其上"
+    },
+    {
+     "name": "明珠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈弼教赠梁子俊之宝"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陈弼教",
+     "predicate": "NATIVE_OF",
+     "object": "燕",
+     "evidence": "陈生弼教，字明允，燕人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈弼教",
+     "predicate": "HELPED",
+     "object": "西湖主",
+     "evidence": "生恻然心动，请于贾而释之。携有金创药，戏敷患处，纵之水中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈弼教",
+     "predicate": "SPOUSE",
+     "object": "西湖主",
+     "evidence": "数十妖姬，扶公主交拜。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西湖主",
+     "predicate": "KIN",
+     "object": "王妃",
+     "evidence": "妾母，湖君妃子，乃扬江王女。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈弼教",
+     "predicate": "FRIEND",
+     "object": "梁子俊",
+     "evidence": "有童稚之交梁子俊者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈弼教",
+     "predicate": "OWNS",
+     "object": "明珠",
+     "evidence": "遂命侍儿进明珠一颗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈弼教",
+     "predicate": "OWNS",
+     "object": "红巾",
+     "evidence": "见篱下有红巾，知为群美所遗，喜内袖中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈弼教",
+     "predicate": "LIVES_AT",
+     "object": "洞庭",
+     "evidence": "泊舟洞庭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "西湖主",
+     "predicate": "PARTICIPATED_IN",
+     "object": "首山狩猎",
+     "evidence": "此西湖主猎首山也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "首山狩猎",
+     "predicate": "OCCURRED_AT",
+     "object": "首山",
+     "evidence": "此西湖主猎首山也。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:24.842Z"
+}

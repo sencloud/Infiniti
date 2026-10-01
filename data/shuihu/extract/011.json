@@ -1,0 +1,534 @@
+{
+ "no": 11,
+ "title": "第十一回 朱贵水亭施号箭 林冲雪夜上梁山",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5994,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "东京八十万禁军教头，被高俅陷害刺配沧州，雪夜投梁山"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "柴大官人"
+     ],
+     "nickname": "小旋风",
+     "description": "沧州横海郡庄主，仗义疏财，举荐林冲上梁山"
+    },
+    {
+     "name": "朱贵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "旱地忽律",
+     "description": "沂州沂水县人，梁山耳目，在酒店探听客商"
+    },
+    {
+     "name": "王伦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "白衣秀士",
+     "description": "梁山寨主，不及第秀才，心胸狭窄"
+    },
+    {
+     "name": "杜迁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "摸着天",
+     "description": "梁山二头领，随王伦落草"
+    },
+    {
+     "name": "宋万",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "云里金刚",
+     "description": "梁山三头领，聚集人马"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "陷害林冲的权臣"
+    },
+    {
+     "name": "陆虞候",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被林冲杀死于草料场"
+    },
+    {
+     "name": "富安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被林冲杀死于草料场"
+    },
+    {
+     "name": "差拨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沧州牢城营差拨，被林冲杀死"
+    },
+    {
+     "name": "完颜亮",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "大金国主，作《百字令》咏雪"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "山寨"
+     ],
+     "nickname": "",
+     "description": "山东济州水乡，王伦等扎寨的强人山寨"
+    },
+    {
+     "name": "沧州牢城营",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "沧州牢城营，管营首告林冲杀人"
+    },
+    {
+     "name": "柴进东庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柴进在沧州东面的庄院，林冲曾藏身"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Place",
+     "aliases": [
+      "宛子城",
+      "蓼儿洼"
+     ],
+     "nickname": "",
+     "description": "方圆八百余里的水乡，中间有宛子城、蓼儿洼"
+    },
+    {
+     "name": "金沙滩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊岸边，朱贵引林冲由此上岸"
+    },
+    {
+     "name": "聚义厅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山寨中大厅，王伦等头领坐此议事"
+    },
+    {
+     "name": "断金亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山半山中的亭子"
+    },
+    {
+     "name": "沂州沂水县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱贵的籍贯"
+    },
+    {
+     "name": "沧州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲刺配之地，草料场所在"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲原任禁军教头之地"
+    },
+    {
+     "name": "火烧草料场",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲在沧州草料场杀死差拨、陆虞候、富安并放火"
+    },
+    {
+     "name": "雪夜上梁山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲雪夜投奔梁山入伙"
+    },
+    {
+     "name": "响箭",
+     "type": "Item",
+     "aliases": [
+      "号箭"
+     ],
+     "nickname": "",
+     "description": "朱贵使用的鹊画弓响箭，梁山号箭"
+    },
+    {
+     "name": "投名状",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "好汉入伙须杀一人献头，谓之投名状"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "柴进",
+     "predicate": "RESCUED",
+     "object": "林冲",
+     "evidence": "那官人向前来看时，认得是林冲，慌忙喝退庄客，亲自解下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴进",
+     "predicate": "RECOMMENDED",
+     "object": "林冲",
+     "evidence": "柴进道：'既是兄长要行，小人有个去处。作书一封与兄长去，如何？'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "SERVED",
+     "object": "柴进",
+     "evidence": "自此林冲只在柴进东庄上，住了五七日",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "KILLED",
+     "object": "差拨",
+     "evidence": "首告林冲杀死差拨、陆虞候、富安等三人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "KILLED",
+     "object": "陆虞候",
+     "evidence": "首告林冲杀死差拨、陆虞候、富安等三人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "KILLED",
+     "object": "富安",
+     "evidence": "首告林冲杀死差拨、陆虞候、富安等三人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧草料场",
+     "evidence": "把这火烧草料场一事，备细告诉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "火烧草料场",
+     "predicate": "OCCURRED_AT",
+     "object": "沧州",
+     "evidence": "沧州牢城营里管营，首告林冲杀死差拨、陆虞候、富安等三人，放火沿烧大军草料场",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "谁想今日被高俅这贼坑陷了我这一场",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "小人是王头领手下耳目",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王伦",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "为头的唤做白衣秀士王伦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜迁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "第二个唤做摸着天杜迁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋万",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "第三个唤做云里金刚宋万",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "山寨里教小弟在此间开酒店为名",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "便请林冲来坐第四位交椅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "雪夜上梁山",
+     "evidence": "林冲与柴大官人别后，上路行了十数日……奔入那酒店里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雪夜上梁山",
+     "predicate": "OCCURRED_AT",
+     "object": "梁山泊",
+     "evidence": "此间去梁山泊还有多少路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "OWNS",
+     "object": "响箭",
+     "evidence": "取出一张鹊画弓，搭上那一枝响箭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王伦",
+     "predicate": "OWNS",
+     "object": "投名状",
+     "evidence": "你若真心入伙时，把一个投名状来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "FRIEND",
+     "object": "王伦",
+     "evidence": "柴大官人与山寨中大王头领交厚，常有书信往来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "RESCUED",
+     "object": "王伦",
+     "evidence": "王伦当初不得第之时，与杜迁投奔柴进，多得柴进留在庄子上住了几时；临起身又赍发盘缠银两",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "RESCUED",
+     "object": "杜迁",
+     "evidence": "王伦当初不得第之时，与杜迁投奔柴进，多得柴进留在庄子上住了几时；临起身又赍发盘缠银两",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王伦",
+     "predicate": "SERVED",
+     "object": "柴进",
+     "evidence": "王伦当初不得第之时，与杜迁投奔柴进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜迁",
+     "predicate": "SERVED",
+     "object": "柴进",
+     "evidence": "王伦当初不得第之时，与杜迁投奔柴进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "SERVED",
+     "object": "王伦",
+     "evidence": "小人是王头领手下耳目",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "NATIVE_OF",
+     "object": "沂州沂水县",
+     "evidence": "小人姓朱名贵，原是沂州沂水县人氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "柴进东庄",
+     "evidence": "自此林冲只在柴进东庄上，住了五七日",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "便请林冲来坐第四位交椅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "山寨里教小弟在此间开酒店为名",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王伦",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "如今有三个好汉在那里扎寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜迁",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "如今有三个好汉在那里扎寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋万",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "如今有三个好汉在那里扎寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "这位是东京八十万禁军教头，姓林名冲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "FOUGHT",
+     "object": "高俅",
+     "evidence": "谁想今日被高俅这贼坑陷了我这一场",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 691,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头"
+     ],
+     "nickname": "豹子头",
+     "description": "被高俅陷害流落梁山，奉命取投名状"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陷害林冲的权臣"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "水浒寨"
+     ],
+     "nickname": "",
+     "description": "林冲落草的山寨势力"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲落草所在的山寨地点"
+    },
+    {
+     "name": "朴刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲所提的兵器"
+    },
+    {
+     "name": "腰刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲所跨的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "不想我今日被高俅那贼陷害，流落到此",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "林冲雪夜上梁山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "林冲雪夜上梁山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "跨了腰刀，提了朴刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "OWNS",
+     "object": "腰刀",
+     "evidence": "跨了腰刀，提了朴刀",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:59.649Z"
+}

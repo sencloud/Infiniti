@@ -1,0 +1,391 @@
+{
+ "no": 36,
+ "title": "心猿正处诸缘伏 劈破旁门见月明",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5881,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "大唐高僧，西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，挑担"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，牵马"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "佛祖",
+     "description": "西天佛祖"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "南海菩萨，取经护法"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "兜率天宫主人"
+    },
+    {
+     "name": "文殊菩萨",
+     "type": "Person",
+     "aliases": [
+      "文殊",
+      "文殊师利",
+      "七佛之师"
+     ],
+     "nickname": "文殊",
+     "description": "佛教菩萨"
+    },
+    {
+     "name": "清风",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "菩萨童子"
+    },
+    {
+     "name": "明月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "菩萨童子"
+    },
+    {
+     "name": "僧官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝林寺住持"
+    },
+    {
+     "name": "道人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝林寺扫地道人"
+    },
+    {
+     "name": "宝林寺",
+     "type": "Organization",
+     "aliases": [
+      "敕建宝林寺"
+     ],
+     "nickname": "",
+     "description": "敕建寺院"
+    },
+    {
+     "name": "东土大唐",
+     "type": "Organization",
+     "aliases": [
+      "大唐",
+      "唐朝"
+     ],
+     "nickname": "",
+     "description": "唐僧出发的国度"
+    },
+    {
+     "name": "西天",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛祖所在，取经目的地"
+    },
+    {
+     "name": "宝林寺",
+     "type": "Place",
+     "aliases": [
+      "敕建宝林寺"
+     ],
+     "nickname": "",
+     "description": "山凹中的寺院"
+    },
+    {
+     "name": "长安城",
+     "type": "Place",
+     "aliases": [
+      "长安"
+     ],
+     "nickname": "",
+     "description": "大唐都城"
+    },
+    {
+     "name": "三十里店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "正西四五里处的店"
+    },
+    {
+     "name": "铁棒",
+     "type": "Item",
+     "aliases": [
+      "金箍棒",
+      "棍子"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "孙行者执了铁棒，剖开路，径下高山前进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "猪八戒挑着行李",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "沙和尚拢着马头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "西天",
+     "evidence": "我老孙保领大唐圣僧往西天拜佛求取真经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "东土大唐",
+     "evidence": "弟子是东土大唐驾下差来上西天拜佛求经的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "NATIVE_OF",
+     "object": "长安城",
+     "evidence": "我记得离了长安城，在路上春尽夏来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "孙行者执了铁棒，剖开路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "宝林寺",
+     "evidence": "一顿棍打碎金身，教你还现本相泥土",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "僧官",
+     "evidence": "那老和尚慌得把方丈门关了。行者赶上，扑的打破门扇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "僧官",
+     "predicate": "LEADS",
+     "object": "宝林寺",
+     "evidence": "我是僧官，但只有城上来的士夫降香，我方出来迎接",
+     "confidence": 0.9
+    },
+    {
+     "subject": "道人",
+     "predicate": "SERVED",
+     "object": "僧官",
+     "evidence": "我是这里扫地撞钟打勤劳的道人，里面还有个管家的老师父哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西天取经",
+     "evidence": "弟子是东土大唐驾下差来上西天拜佛求经的",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1337,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，师父"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "猪悟能",
+      "天蓬元帅",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟"
+    },
+    {
+     "name": "明月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寺中僧官"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "行者闻言，近前答曰：“师父啊，你只知月色光华，心怀故里，更不知月中之意，乃先天法象之规绳也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒上前扯住长老道：“师父，莫听乱讲，误了睡觉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧在旁笑道：“师兄此言虽当，只说的是弦前属阳，弦后属阴，阴中阳半，得水之金；更不道水火相搀各有缘，全凭土母配如然。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "行者、八戒，沙僧都出来侍立。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "行者、八戒，沙僧都出来侍立。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "行者、八戒，沙僧都出来侍立。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:37.316Z"
+}

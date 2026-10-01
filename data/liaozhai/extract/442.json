@@ -1,0 +1,255 @@
+{
+ "no": 442,
+ "title": "乐仲",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2329,
+   "entities": [
+    {
+     "name": "乐仲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西安人，乐仲篇主角，嗜酒善啖，割股疗母"
+    },
+    {
+     "name": "乐母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐仲之母，好佛不茹荤酒，死后居南海"
+    },
+    {
+     "name": "顾文渊",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐仲前妻之父，顾翁"
+    },
+    {
+     "name": "琼华",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "名妓，实为散花天女，谪人间三十馀年"
+    },
+    {
+     "name": "阿辛",
+     "type": "Person",
+     "aliases": [
+      "雍阿辛"
+     ],
+     "nickname": "",
+     "description": "乐仲与顾氏之子，姓雍，本乐姓"
+    },
+    {
+     "name": "顾氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐仲前妻，嫁雍六月生阿辛，早卒"
+    },
+    {
+     "name": "雍某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "顾氏后夫，流寓于闽"
+    },
+    {
+     "name": "西安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐仲籍贯地"
+    },
+    {
+     "name": "南海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐母所居，乐仲朝拜处"
+    },
+    {
+     "name": "闽",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "福建，乐仲遇琼华处"
+    },
+    {
+     "name": "乐家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐仲宅院"
+    },
+    {
+     "name": "离婚书",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐仲当年与顾家离婚文书"
+    },
+    {
+     "name": "双槥",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "琼华命工所治两口棺材"
+    },
+    {
+     "name": "朝南海",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐仲与琼华赴南海朝拜"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乐仲",
+     "predicate": "KIN",
+     "object": "乐母",
+     "evidence": "父早丧，遗腹生仲。母好佛",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐仲",
+     "predicate": "SPOUSE",
+     "object": "顾氏",
+     "evidence": "年二十始娶，身犹童子。娶三日",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顾文渊",
+     "predicate": "KIN",
+     "object": "顾氏",
+     "evidence": "妻父顾文渊，浼戚求返",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐仲",
+     "predicate": "KIN",
+     "object": "阿辛",
+     "evidence": "惊曰：真吾儿也！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顾氏",
+     "predicate": "KIN",
+     "object": "阿辛",
+     "evidence": "阿辛，姓雍，母顾氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顾氏",
+     "predicate": "SPOUSE",
+     "object": "雍某",
+     "evidence": "适雍六月，遂生余",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐仲",
+     "predicate": "SPOUSE",
+     "object": "琼华",
+     "evidence": "计两全者，无如从君，是以不惮千里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐仲",
+     "predicate": "LIVES_AT",
+     "object": "乐家",
+     "evidence": "仲遂携与俱归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐仲",
+     "predicate": "NATIVE_OF",
+     "object": "西安",
+     "evidence": "乐仲，西安人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐母",
+     "predicate": "LIVES_AT",
+     "object": "南海",
+     "evidence": "母曰：南海",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐仲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "朝南海",
+     "evidence": "既起，思朝南海",
+     "confidence": 0.95
+    },
+    {
+     "subject": "琼华",
+     "predicate": "PARTICIPATED_IN",
+     "object": "朝南海",
+     "evidence": "琼华愿附以行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朝南海",
+     "predicate": "OCCURRED_AT",
+     "object": "南海",
+     "evidence": "既至南海",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿辛",
+     "predicate": "OWNS",
+     "object": "离婚书",
+     "evidence": "付一函书，嘱勿遗失",
+     "confidence": 0.9
+    },
+    {
+     "subject": "琼华",
+     "predicate": "OWNS",
+     "object": "双槥",
+     "evidence": "遂命工治双槥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐仲",
+     "predicate": "HELPED",
+     "object": "阿辛",
+     "evidence": "仲遂携与俱归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "琼华",
+     "predicate": "HELPED",
+     "object": "阿辛",
+     "evidence": "儿母之，琼华亦善抚儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "琼华",
+     "predicate": "HELPED",
+     "object": "乐仲",
+     "evidence": "琼华渐出金珠，赎故产，广置婢仆马牛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顾文渊",
+     "predicate": "HELPED",
+     "object": "阿辛",
+     "evidence": "顾自投官，言女大归日，再醮日，及生子年月",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐氏诸子弟",
+     "predicate": "HARMED",
+     "object": "阿辛",
+     "evidence": "共谋逐辛，讼诸官",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:02.208Z"
+}

@@ -1,0 +1,273 @@
+{
+ "no": 285,
+ "title": "宦娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1891,
+   "entities": [
+    {
+     "name": "温如春",
+     "type": "Person",
+     "aliases": [
+      "温生"
+     ],
+     "nickname": "",
+     "description": "秦之世家，善琴，娶良工"
+    },
+    {
+     "name": "宦娘",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵氏之鬼，太守女，死百年，善琴筝"
+    },
+    {
+     "name": "良工",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "葛公之女，善词赋，后嫁温如春"
+    },
+    {
+     "name": "葛公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "林下部郎，良工之父，喜文士"
+    },
+    {
+     "name": "刘公子",
+     "type": "Person",
+     "aliases": [
+      "刘方伯之公子"
+     ],
+     "nickname": "",
+     "description": "临邑刘方伯之子，曾向葛家求亲"
+    },
+    {
+     "name": "道人",
+     "type": "Person",
+     "aliases": [
+      "布衲道人"
+     ],
+     "nickname": "",
+     "description": "古寺中道人，授温如春琴技"
+    },
+    {
+     "name": "赵氏老妪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宦娘之姑母，曾留宿温如春"
+    },
+    {
+     "name": "古寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "温如春遇道人之地"
+    },
+    {
+     "name": "赵氏小村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "温如春避雨借宿之处"
+    },
+    {
+     "name": "葛府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "葛公宅邸，良工居所"
+    },
+    {
+     "name": "温如春书斋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "温如春读书弹琴之处"
+    },
+    {
+     "name": "古镜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "良工家传宝镜，可鉴魑魅"
+    },
+    {
+     "name": "琴",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "温如春所弹之琴，后宦娘借弹"
+    },
+    {
+     "name": "《惜馀春》词笺",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宦娘所作词笺，促成温葛姻缘"
+    },
+    {
+     "name": "绿菊",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "葛家秘种，后温庭菊变绿"
+    },
+    {
+     "name": "宦娘小像",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宦娘赠温如春之画像"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "温如春",
+     "predicate": "SPOUSE",
+     "object": "良工",
+     "evidence": "夫人恐其迹益彰，计不如以女归温。葛然之，遥致温，温喜极。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "葛公",
+     "predicate": "KIN",
+     "object": "良工",
+     "evidence": "盖公有一女，小字良工",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宦娘",
+     "predicate": "KIN",
+     "object": "赵氏老妪",
+     "evidence": "此宦娘，老身之犹子也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "温如春",
+     "predicate": "FRIEND",
+     "object": "道人",
+     "evidence": "温惊极，拜请受业。道人三复之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "道人",
+     "predicate": "HELPED",
+     "object": "温如春",
+     "evidence": "道人试使弹，点正疏节，曰：此尘间已无对矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宦娘",
+     "predicate": "HELPED",
+     "object": "温如春",
+     "evidence": "阴为君胹合佳偶，以报眷顾之情",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宦娘",
+     "predicate": "HELPED",
+     "object": "良工",
+     "evidence": "阴为君胹合佳偶，以报眷顾之情",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宦娘",
+     "predicate": "LOVES",
+     "object": "温如春",
+     "evidence": "惠顾时，得聆雅奏，倾心向往",
+     "confidence": 0.9
+    },
+    {
+     "subject": "良工",
+     "predicate": "LOVES",
+     "object": "温如春",
+     "evidence": "女自闻琴以后，心窃倾慕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "温如春",
+     "predicate": "LOVES",
+     "object": "良工",
+     "evidence": "温心动，归与母言，媒通之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "温如春",
+     "predicate": "LIVES_AT",
+     "object": "温如春书斋",
+     "evidence": "温自诣之，果不妄。其声梗涩",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宦娘",
+     "predicate": "LIVES_AT",
+     "object": "赵氏小村",
+     "evidence": "此宦娘，老身之犹子也",
+     "confidence": 0.8
+    },
+    {
+     "subject": "良工",
+     "predicate": "LIVES_AT",
+     "object": "葛府",
+     "evidence": "盖公有一女，小字良工",
+     "confidence": 0.9
+    },
+    {
+     "subject": "温如春",
+     "predicate": "OWNS",
+     "object": "琴",
+     "evidence": "少癖嗜琴，虽逆旅未尝暂舍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "良工",
+     "predicate": "OWNS",
+     "object": "古镜",
+     "evidence": "良工因言其家有古镜，可鉴魑魅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宦娘",
+     "predicate": "OWNS",
+     "object": "《惜馀春》词笺",
+     "evidence": "刘公子之女舄，《惜馀春》之俚词，皆妾为之也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宦娘",
+     "predicate": "OWNS",
+     "object": "宦娘小像",
+     "evidence": "因以一卷授温曰：此妾小像",
+     "confidence": 0.95
+    },
+    {
+     "subject": "葛公",
+     "predicate": "OWNS",
+     "object": "绿菊",
+     "evidence": "葛有绿菊种，吝不传",
+     "confidence": 0.9
+    },
+    {
+     "subject": "温如春",
+     "predicate": "PARTICIPATED_IN",
+     "object": "绿菊之宴",
+     "evidence": "是日招客为绿菊之宴，焚香弹琴",
+     "confidence": 0.9
+    },
+    {
+     "subject": "绿菊之宴",
+     "predicate": "OCCURRED_AT",
+     "object": "温如春书斋",
+     "evidence": "是日招客为绿菊之宴，焚香弹琴",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:03.278Z"
+}

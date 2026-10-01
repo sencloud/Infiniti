@@ -1,0 +1,126 @@
+{
+ "no": 494,
+ "title": "人妖",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 926,
+   "entities": [
+    {
+     "name": "马万宝",
+     "type": "Person",
+     "aliases": [
+      "马生"
+     ],
+     "nickname": "",
+     "description": "东昌人，疏狂不羁，妻田氏"
+    },
+    {
+     "name": "田氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "马万宝妻，放诞风流"
+    },
+    {
+     "name": "王二喜",
+     "type": "Person",
+     "aliases": [
+      "女子"
+     ],
+     "nickname": "",
+     "description": "谷城人，男扮女装，桑冲门人"
+    },
+    {
+     "name": "寡媪",
+     "type": "Person",
+     "aliases": [
+      "媪"
+     ],
+     "nickname": "",
+     "description": "邻人寡妇，留王二喜寄居"
+    },
+    {
+     "name": "桑冲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王二喜师兄，后伏诛"
+    },
+    {
+     "name": "东昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "马万宝籍贯地"
+    },
+    {
+     "name": "谷城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王二喜籍贯地"
+    },
+    {
+     "name": "马氏墓侧",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "府西墓地，王二喜葬处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "马万宝",
+     "predicate": "SPOUSE",
+     "object": "田氏",
+     "evidence": "妻田氏，亦放诞风流。伉俪甚敦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马万宝",
+     "predicate": "NATIVE_OF",
+     "object": "东昌",
+     "evidence": "马生万宝者，东昌人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王二喜",
+     "predicate": "NATIVE_OF",
+     "object": "谷城",
+     "evidence": "云是谷城人王二喜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王二喜",
+     "predicate": "LIVES_AT",
+     "object": "寡媪家",
+     "evidence": "有女子来，寄居邻人寡媪家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马万宝",
+     "predicate": "HARMED",
+     "object": "王二喜",
+     "evidence": "生以其行可诛，思欲告郡，而怜其美，遂反接而宫之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马万宝",
+     "predicate": "HELPED",
+     "object": "王二喜",
+     "evidence": "我以药医汝，创痏平，从我终焉可也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王二喜",
+     "predicate": "LIVES_AT",
+     "object": "马氏墓侧",
+     "evidence": "后卒，即葬府西马氏墓侧",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:22.016Z"
+}

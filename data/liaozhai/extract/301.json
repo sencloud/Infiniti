@@ -1,0 +1,87 @@
+{
+ "no": 301,
+ "title": "黄将军",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 198,
+   "entities": [
+    {
+     "name": "黄得功",
+     "type": "Person",
+     "aliases": [
+      "黄靖南"
+     ],
+     "nickname": "",
+     "description": "《黄将军》中微时与孝廉赴都的勇者"
+    },
+    {
+     "name": "响寇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《黄将军》中途中抢劫的强盗"
+    },
+    {
+     "name": "晋人某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《黄将军》中有勇力、过中州的山西人"
+    },
+    {
+     "name": "少林弟子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《黄将军》中受晋人某羞辱的少林僧人"
+    },
+    {
+     "name": "少林师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《黄将军》中少林弟子的师傅"
+    },
+    {
+     "name": "寺众",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《黄将军》中设宴邀晋人某的少林众僧"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "黄得功",
+     "predicate": "HARMED",
+     "object": "响寇",
+     "evidence": "黄拳之臂断",
+     "confidence": 0.95
+    },
+    {
+     "subject": "少林弟子",
+     "predicate": "KIN",
+     "object": "少林师",
+     "evidence": "忿告其师",
+     "confidence": 0.9
+    },
+    {
+     "subject": "少林弟子",
+     "predicate": "HARMED",
+     "object": "晋人某",
+     "evidence": "有少林弟子受其辱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寺众",
+     "predicate": "HARMED",
+     "object": "晋人某",
+     "evidence": "群谋设宴相邀，将以困之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:06.428Z"
+}

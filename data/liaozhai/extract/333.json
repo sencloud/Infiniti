@@ -1,0 +1,85 @@
+{
+ "no": 333,
+ "title": "陆押官",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 942,
+   "entities": [
+    {
+     "name": "赵公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "湖广武陵人，官宫詹，致仕归，陆押官主人"
+    },
+    {
+     "name": "陆押官",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "少年，自荐司笔札，能幻术，实为精怪"
+    },
+    {
+     "name": "阿鸭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵公宫詹僮，后随陆押官离去"
+    },
+    {
+     "name": "湖广武陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵公籍贯地"
+    },
+    {
+     "name": "临街店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陆押官邀众饮酒的街边饭馆"
+    },
+    {
+     "name": "洞府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陆押官所居山中洞府，华耀异于人间"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "赵公",
+     "predicate": "NATIVE_OF",
+     "object": "湖广武陵",
+     "evidence": "赵公，湖广武陵人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陆押官",
+     "predicate": "HELPED",
+     "object": "赵公",
+     "evidence": "往来笺奏，任意裁答，无不工妙。主人与客弈，陆睨之，指点辄胜。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆押官",
+     "predicate": "LIVES_AT",
+     "object": "洞府",
+     "evidence": "至一洞府，见舍宇华耀，迥异人间。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆押官",
+     "predicate": "PARTICIPATED_IN",
+     "object": "临街店",
+     "evidence": "遂遍邀诸侣赴临街店，皆坐。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:18.188Z"
+}

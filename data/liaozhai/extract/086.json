@@ -1,0 +1,131 @@
+{
+ "no": 86,
+ "title": "胡氏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1151,
+   "entities": [
+    {
+     "name": "胡氏",
+     "type": "Spirit",
+     "aliases": [
+      "胡生"
+     ],
+     "nickname": "",
+     "description": "狐精，自称胡氏，为直隶巨家塾师"
+    },
+    {
+     "name": "主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "直隶巨家主人，聘胡氏为塾师"
+    },
+    {
+     "name": "胡氏之妹",
+     "type": "Spirit",
+     "aliases": [
+      "新妇"
+     ],
+     "nickname": "",
+     "description": "胡生之妹，后嫁主人幼子"
+    },
+    {
+     "name": "主人之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "主人幼子，年十五，娶胡氏之妹"
+    },
+    {
+     "name": "胡媪",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡生之母，常来看望胡氏之妹"
+    },
+    {
+     "name": "胡生之弟",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡生之弟，送妹出嫁"
+    },
+    {
+     "name": "直隶",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "直隶，故事发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "胡氏",
+     "predicate": "LIVES_AT",
+     "object": "直隶",
+     "evidence": "直隶有巨家，欲延师。忽一秀才，踵门自荐。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡氏",
+     "predicate": "FRIEND",
+     "object": "主人",
+     "evidence": "主人延入，词语开爽，遂相知悦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡氏",
+     "predicate": "LOVES",
+     "object": "主人之女",
+     "evidence": "胡知主人有女，求为姻好，屡示意",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡氏之妹",
+     "predicate": "SPOUSE",
+     "object": "主人之子",
+     "evidence": "胡喜曰：仆有弱妹，少公子一岁，颇不陋劣。以奉箕帚，如何？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡氏",
+     "predicate": "KIN",
+     "object": "胡氏之妹",
+     "evidence": "胡喜曰：仆有弱妹，少公子一岁，颇不陋劣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡媪",
+     "predicate": "KIN",
+     "object": "胡氏之妹",
+     "evidence": "胡生兄弟，以及胡媪，时来望女，人人皆见之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡生之弟",
+     "predicate": "KIN",
+     "object": "胡氏之妹",
+     "evidence": "胡生与一弟来送女，谈吐俱风雅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡氏",
+     "predicate": "HARMED",
+     "object": "主人",
+     "evidence": "次日，果有狐兵大至，或骑或步，或戈或弩，马嘶人沸，声势汹汹。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "主人",
+     "predicate": "HELPED",
+     "object": "胡氏",
+     "evidence": "主人近握其手，邀入故斋，置酒相款。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:46.143Z"
+}

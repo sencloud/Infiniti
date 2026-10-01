@@ -1,0 +1,73 @@
+{
+ "no": 279,
+ "title": "僧术",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 472,
+   "entities": [
+    {
+     "name": "黄生",
+     "type": "Person",
+     "aliases": [
+      "黄公子"
+     ],
+     "nickname": "",
+     "description": "故家子，才情颇赡，后以副榜准贡"
+    },
+    {
+     "name": "僧某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村外兰若居僧，与黄生交好，能通冥中"
+    },
+    {
+     "name": "兰若",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村外寺庙，僧某所居"
+    },
+    {
+     "name": "汲水井",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄家旧井，深不竭，云通河海"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "黄生",
+     "predicate": "FRIEND",
+     "object": "僧某",
+     "evidence": "村外兰若，有居僧某，素与分深。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "僧某",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "村外兰若，有居僧某",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄生",
+     "predicate": "LIVES_AT",
+     "object": "汲水井",
+     "evidence": "黄家旧有汲水井",
+     "confidence": 0.9
+    },
+    {
+     "subject": "僧某",
+     "predicate": "HELPED",
+     "object": "黄生",
+     "evidence": "请为君贿冥中主者。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:57.386Z"
+}

@@ -1,0 +1,261 @@
+{
+ "no": 7,
+ "title": "2.4 有理数的加法与减法",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6224,
+   "entities": [
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整数和分数的统称"
+    },
+    {
+     "name": "有理数的加法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数加法的运算法则"
+    },
+    {
+     "name": "有理数的减法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数减法的运算法则"
+    },
+    {
+     "name": "有理数加法法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "同号相加取同号并加绝对值；异号相加取绝对值较大符号并相减；与0相加得原数"
+    },
+    {
+     "name": "有理数减法法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "减去一个数等于加上这个数的相反数，即a-b=a+(-b)"
+    },
+    {
+     "name": "加法交换律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a+b=b+a"
+    },
+    {
+     "name": "加法结合律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a+b)+c=a+(b+c)"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有符号不同的两个数"
+    },
+    {
+     "name": "绝对值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上表示一个数的点到原点的距离"
+    },
+    {
+     "name": "有理数的加减混合运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "统一为加法运算后运用运算律简化计算"
+    },
+    {
+     "name": "数轴",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "有理数",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的加法",
+     "evidence": "引入负数后，怎样进行有理数的加法和减法运算呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的减法",
+     "evidence": "引入负数后，怎样进行有理数的加法和减法运算呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数加法法则",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的加法",
+     "evidence": "一般地，我们有下面的有理数加法法则：同号两数相加，取相同的符号，并把绝对值相加。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数减法法则",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的减法",
+     "evidence": "对于有理数减法，有下面的有理数减法法则：减去一个数，等于加上这个数的相反数。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数减法法则",
+     "predicate": "DERIVES",
+     "object": "有理数的加减混合运算",
+     "evidence": "根据有理数减法法则，有理数的加减混合运算可以统一为加法运算。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "加法交换律",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的加法",
+     "evidence": "事实上，小学里学过的加法交换律、结合律，在有理数范围内仍然适用。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "加法结合律",
+     "predicate": "PROPERTY_OF",
+     "object": "有理数的加法",
+     "evidence": "事实上，小学里学过的加法交换律、结合律，在有理数范围内仍然适用。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "加法交换律",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的加减混合运算",
+     "evidence": "利用运算律，将加数“凑整”，可以简化计算。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "加法结合律",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的加减混合运算",
+     "evidence": "利用运算律，将加数“凑整”，可以简化计算。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相反数",
+     "predicate": "PREREQUISITE",
+     "object": "有理数减法法则",
+     "evidence": "减去一个数，等于加上这个数的相反数。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "绝对值",
+     "predicate": "PREREQUISITE",
+     "object": "有理数加法法则",
+     "evidence": "和的绝对值等于较大的绝对值减去较小的绝对值。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数轴",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的加减混合运算",
+     "evidence": "如果把铁路看成数轴，巡道员的出发地看成原点，规定向东为正，那么根据题意，可得7+3+(-11.5)=-1.5。",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2392,
+   "entities": [
+    {
+     "name": "有理数的加法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数加法法则，包括同号相加、异号相加等。"
+    },
+    {
+     "name": "有理数的减法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数减法法则，减去一个数等于加上这个数的相反数。"
+    },
+    {
+     "name": "有理数的加减混合运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "包含加法和减法的有理数运算，按从左到右顺序进行。"
+    },
+    {
+     "name": "计算器",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用于进行有理数加减混合运算的工具。"
+    },
+    {
+     "name": "数轴",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线。"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有符号不同的两个数互为相反数。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "有理数的加法",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的加减混合运算",
+     "evidence": "进行有理数的加减混合运算，可依次输入算式中各有理数、加号键或减号键",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数的减法",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的加减混合运算",
+     "evidence": "进行有理数的加减混合运算，可依次输入算式中各有理数、加号键或减号键",
+     "confidence": 0.9
+    },
+    {
+     "subject": "计算器",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的加减混合运算",
+     "evidence": "进行有理数的加减混合运算，可依次输入算式中各有理数、加号键或减号键，以及各级括号，输入完毕，按等号键，即得运算结果。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数轴",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的减法",
+     "evidence": "利用数轴比较a与a-3的大小。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "相反数",
+     "predicate": "RELATED",
+     "object": "有理数的减法",
+     "evidence": "已知两数a,b，判断a-b与b-a是否互为相反数，并说明理由。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:33.521Z"
+}

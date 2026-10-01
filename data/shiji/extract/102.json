@@ -1,0 +1,171 @@
+{
+ "no": 102,
+ "title": "张释之冯唐列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 337,
+   "entities": [
+    {
+     "name": "张释之",
+     "type": "Person",
+     "aliases": [
+      "张廷尉"
+     ],
+     "nickname": "季",
+     "description": "堵阳人，汉文帝时廷尉"
+    },
+    {
+     "name": "张仲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张释之的兄长"
+    },
+    {
+     "name": "袁盎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉文帝时中郎将"
+    },
+    {
+     "name": "刘恒",
+     "type": "Person",
+     "aliases": [
+      "孝文帝",
+      "文帝"
+     ],
+     "nickname": "",
+     "description": "汉文帝"
+    },
+    {
+     "name": "周勃",
+     "type": "Person",
+     "aliases": [
+      "绛侯"
+     ],
+     "nickname": "",
+     "description": "汉初功臣，封绛侯"
+    },
+    {
+     "name": "张相如",
+     "type": "Person",
+     "aliases": [
+      "东阳侯"
+     ],
+     "nickname": "",
+     "description": "汉初功臣，封东阳侯"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉朝"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦朝"
+    },
+    {
+     "name": "谒者仆射",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "郎中令属官，掌宾赞受事"
+    },
+    {
+     "name": "骑郎",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "郎中令属官，骑兵侍卫"
+    },
+    {
+     "name": "上林令",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "上林苑长官"
+    },
+    {
+     "name": "中郎将",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "郎中令属官，统领郎官"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张释之",
+     "predicate": "KIN",
+     "object": "张仲",
+     "evidence": "有兄仲同居。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张释之",
+     "predicate": "SERVED",
+     "object": "刘恒",
+     "evidence": "事孝文帝，十岁不得调",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张释之",
+     "predicate": "HELD_OFFICE",
+     "object": "骑郎",
+     "evidence": "以訾为骑郎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张释之",
+     "predicate": "HELD_OFFICE",
+     "object": "谒者仆射",
+     "evidence": "乃拜释之为谒者仆射",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袁盎",
+     "predicate": "HELD_OFFICE",
+     "object": "中郎将",
+     "evidence": "中郎将袁盎知其贤",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袁盎",
+     "predicate": "ADVISED",
+     "object": "刘恒",
+     "evidence": "乃请徙释之补谒者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张释之",
+     "predicate": "ADVISED",
+     "object": "刘恒",
+     "evidence": "释之言秦汉之间事，秦所以失而汉所以兴者久之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘恒",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "事孝文帝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张相如",
+     "predicate": "ENFEOFFED",
+     "object": "东阳",
+     "evidence": "东阳侯张相如",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:50:38.862Z"
+}

@@ -1,0 +1,629 @@
+{
+ "no": 69,
+ "title": "心主夜间修药物 君王筵上论妖邪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5269,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "孙大圣",
+      "神僧",
+      "孙长老"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大，擅医术"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "长老",
+      "法师",
+      "御弟圣僧"
+     ],
+     "nickname": "金蝉子",
+     "description": "取经僧人，被国王留作当头"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "呆子",
+      "猪长老"
+     ],
+     "nickname": "天蓬元帅",
+     "description": "唐僧二徒弟，协助制药"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "卷帘大将",
+     "description": "唐僧三徒弟，协助制药"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "菩萨"
+     ],
+     "nickname": "七佛之师",
+     "description": "救白龙马，令其驮唐僧取经"
+    },
+    {
+     "name": "王母娘娘",
+     "type": "Person",
+     "aliases": [
+      "西王母",
+      "王母"
+     ],
+     "nickname": "金母",
+     "description": "药引中提及的神仙"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "李老君"
+     ],
+     "nickname": "道德天尊",
+     "description": "药引中提及的神仙"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王"
+     ],
+     "nickname": "",
+     "description": "应孙悟空之请，吐津化甘霖助药"
+    },
+    {
+     "name": "白龙马",
+     "type": "Person",
+     "aliases": [
+      "西海飞龙",
+      "玉龙"
+     ],
+     "nickname": "",
+     "description": "西海龙身，因犯天条被观音所救，变马驮唐僧"
+    },
+    {
+     "name": "国王",
+     "type": "Person",
+     "aliases": [
+      "陛下",
+      "主公"
+     ],
+     "nickname": "",
+     "description": "西方某国国王，患病得孙悟空医治"
+    },
+    {
+     "name": "太医官",
+     "type": "Person",
+     "aliases": [
+      "医官"
+     ],
+     "nickname": "",
+     "description": "太医院官员，与孙悟空论药"
+    },
+    {
+     "name": "会同馆",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "接待使臣的馆驿，制药之处"
+    },
+    {
+     "name": "太医院",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "宫廷医官机构"
+    },
+    {
+     "name": "乌金丹",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空所制丸药，用大黄、巴豆、锅灰、马尿等制成"
+    },
+    {
+     "name": "无根水",
+     "type": "Item",
+     "aliases": [
+      "甘霖",
+      "仙水"
+     ],
+     "nickname": "",
+     "description": "天上落下不沾地的雨水，作药引"
+    },
+    {
+     "name": "金线",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空悬丝诊脉所用金线"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者往殿上请师父同至馆中制药",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "行者往殿上请师父同至馆中制药",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "交与我师弟二人收下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "交与我师弟二人收下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒迎着笑道：师兄，我知道你了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧便问道：师兄，师父在那里哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "八戒、沙僧分坐左右",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "白龙马",
+     "evidence": "观音菩萨救了我，将我锯了角，退了鳞，变作马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白龙马",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "变作马，驮师父往西天取经",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金线",
+     "evidence": "将三条金线与宦官拿入里面",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "乌金丹",
+     "evidence": "此名乌金丹",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "为国王制药",
+     "evidence": "行者道：诊了脉，如今对证制药哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "为国王制药",
+     "evidence": "八戒道：哥哥，制何药？赶早干事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "为国王制药",
+     "evidence": "沙僧乃道：大黄味苦，性寒无毒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "东海龙王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "为国王制药",
+     "evidence": "请你来助些无根水与国王下药",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白龙马",
+     "predicate": "PARTICIPATED_IN",
+     "object": "为国王制药",
+     "evidence": "要丸药……马尿等半盏来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "国王",
+     "evidence": "行者接了线头，以自己右手大指先托着食指，看了寸脉",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "国王",
+     "evidence": "医好国王，得意处辞朝走路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "国王",
+     "predicate": "SURRENDERED_TO",
+     "object": "唐僧",
+     "evidence": "国王闻此言甚喜……即登宝殿见了唐僧，辄倒身下拜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太医官",
+     "predicate": "MEMBER_OF",
+     "object": "太医院",
+     "evidence": "时有太医院官在旁道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "会同馆",
+     "evidence": "可将诸药之数并制药一应器皿，都送入会同馆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "会同馆",
+     "evidence": "交与我师弟二人收下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "会同馆",
+     "evidence": "交与我师弟二人收下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "太医官",
+     "evidence": "行者笑道：有雌雄二鸟……",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2111,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经僧人，孙悟空的师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "取经人，孙悟空师弟"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "取经人，孙悟空师弟"
+    },
+    {
+     "name": "赛太岁",
+     "type": "Person",
+     "aliases": [
+      "金毛犼",
+      "观音坐骑"
+     ],
+     "nickname": "",
+     "description": "麒麟山獬豸洞妖怪，摄走金圣宫"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "老孙",
+      "神僧",
+      "大圣"
+     ],
+     "nickname": "",
+     "description": "取经人，唐僧大徒弟"
+    },
+    {
+     "name": "朱紫国国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "陛下",
+      "寡人",
+      "朕"
+     ],
+     "nickname": "",
+     "description": "朱紫国国王，患病三年"
+    },
+    {
+     "name": "金圣宫",
+     "type": "Person",
+     "aliases": [
+      "金圣宫娘娘",
+      "娘娘"
+     ],
+     "nickname": "",
+     "description": "朱紫国正宫皇后，被赛太岁摄走"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度，国王患病"
+    },
+    {
+     "name": "麒麟山獬豸洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "赛太岁盘踞的妖洞"
+    },
+    {
+     "name": "避妖楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国御花园后地下避难所"
+    },
+    {
+     "name": "朱紫国御花园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国皇宫花园"
+    },
+    {
+     "name": "海榴亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "御花园中亭子，金圣宫被摄处"
+    },
+    {
+     "name": "朱紫国皇宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国国王居所"
+    },
+    {
+     "name": "赛太岁摄金圣宫",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "三年前端阳节赛太岁摄走金圣宫"
+    },
+    {
+     "name": "孙悟空揭榜医国王",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空揭皇榜为国王治病"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "赛太岁",
+     "predicate": "ATTACKED",
+     "object": "朱紫国",
+     "evidence": "半空中现出一个妖精，自称赛太岁……将满城黎民，尽皆吃绝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "STATIONED_AT",
+     "object": "麒麟山獬豸洞",
+     "evidence": "说他在麒麟山獬豸洞居住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赛太岁摄金圣宫",
+     "evidence": "被那妖响一声摄将去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赛太岁摄金圣宫",
+     "predicate": "OCCURRED_AT",
+     "object": "海榴亭",
+     "evidence": "朕与嫔后都在御花园海榴亭下解粽插艾……被那妖响一声摄将去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱紫国国王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赛太岁摄金圣宫",
+     "evidence": "朕与嫔后都在御花园海榴亭下解粽插艾……被那妖响一声摄将去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱紫国国王",
+     "predicate": "SPOUSE",
+     "object": "金圣宫",
+     "evidence": "将正宫称为金圣宫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱紫国国王",
+     "predicate": "LEADS",
+     "object": "朱紫国",
+     "evidence": "寡人……将一国江山尽付神僧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱紫国国王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "孙悟空揭榜医国王",
+     "evidence": "寡人有数载忧疑病，被神僧一贴灵丹打通，所以就好了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "孙悟空揭榜医国王",
+     "evidence": "寡人有数载忧疑病，被神僧一贴灵丹打通，所以就好了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "朱紫国国王",
+     "evidence": "寡人有数载忧疑病，被神僧一贴灵丹打通，所以就好了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "同师父沙僧笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "同师父沙僧笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "同师父沙僧笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "同师父沙僧笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "同师父沙僧笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "同师父沙僧笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒在旁见出此言行此礼，忍不住呵呵大笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧，你可认得他？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱紫国国王",
+     "predicate": "OWNS",
+     "object": "避妖楼",
+     "evidence": "是朕命工起了一座避妖楼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "避妖楼",
+     "predicate": "OCCURRED_AT",
+     "object": "朱紫国御花园",
+     "evidence": "穿过皇宫到了御花园后，更不见楼台殿阁。行者道：避妖楼何在？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱紫国国王",
+     "predicate": "STATIONED_AT",
+     "object": "朱紫国皇宫",
+     "evidence": "穿过皇宫到了御花园后",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:39.869Z"
+}

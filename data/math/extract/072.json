@@ -1,0 +1,92 @@
+{
+ "no": 72,
+ "title": "6.5 频数分布表和频数分布直方图",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2980,
+   "entities": [
+    {
+     "name": "极差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据中最大值与最小值的差"
+    },
+    {
+     "name": "频数分布表",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "统计每组数据出现频数的表格"
+    },
+    {
+     "name": "频数分布直方图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用条形高度表示频数分布特征的统计图"
+    },
+    {
+     "name": "条形统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用条形长度表示各类对象数量的统计图"
+    },
+    {
+     "name": "组距",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分组后每组两个端点之间的距离"
+    },
+    {
+     "name": "频数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "落在各组中的数据个数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "极差",
+     "predicate": "PREREQUISITE",
+     "object": "频数分布表",
+     "evidence": "首先，根据极差把这些数据分成10组",
+     "confidence": 0.9
+    },
+    {
+     "subject": "频数分布表",
+     "predicate": "PREREQUISITE",
+     "object": "频数分布直方图",
+     "evidence": "最后，根据频数分布表，用横轴表示各分组数据，用纵轴表示各组数据的频数，绘制条形统计图",
+     "confidence": 0.95
+    },
+    {
+     "subject": "频数分布直方图",
+     "predicate": "CONTRASTS",
+     "object": "条形统计图",
+     "evidence": "频数分布直方图与以前学习的条形统计图各有特点",
+     "confidence": 0.95
+    },
+    {
+     "subject": "频数分布直方图",
+     "predicate": "INCLUDES",
+     "object": "组距",
+     "evidence": "其中长方形的宽度表示组距，高度表示频数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "频数分布直方图",
+     "predicate": "INCLUDES",
+     "object": "频数",
+     "evidence": "其中长方形的宽度表示组距，高度表示频数",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:01.834Z"
+}

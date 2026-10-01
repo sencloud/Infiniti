@@ -1,0 +1,225 @@
+{
+ "no": 328,
+ "title": "诗谳",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 999,
+   "entities": [
+    {
+     "name": "范小山",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州居民，贩笔为业，贺氏之夫"
+    },
+    {
+     "name": "贺氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "范小山之妻，独居被张成所杀"
+    },
+    {
+     "name": "吴蜚卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都富户，被诬杀人，后得昭雪"
+    },
+    {
+     "name": "王晟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "不知何人，扇上题赠者，张成表兄"
+    },
+    {
+     "name": "周元亮",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "分守青州道官员，审明冤案"
+    },
+    {
+     "name": "李秀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "日照秀才，扇上诗作者"
+    },
+    {
+     "name": "王佐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂州人，扇上字书写者"
+    },
+    {
+     "name": "张成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都铁商，真凶，杀贺氏嫁祸吴蜚卿"
+    },
+    {
+     "name": "神人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "托梦告知吴蜚卿‘里边吉’者"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "范小山、吴蜚卿所居之地"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴蜚卿、张成籍贯地"
+    },
+    {
+     "name": "日照",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李秀等秀才籍贯地"
+    },
+    {
+     "name": "沂州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王佐籍贯地"
+    },
+    {
+     "name": "南郭某肆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南门外店铺，壁有李秀题诗"
+    },
+    {
+     "name": "诗扇",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "王晟赠吴蜚卿的题诗扇，遗于凶案现场"
+    },
+    {
+     "name": "冤案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴蜚卿被诬杀贺氏，三年冤狱"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "范小山",
+     "predicate": "SPOUSE",
+     "object": "贺氏",
+     "evidence": "青州居民范小山，贩笔为业，行贾未归。四月间，妻贺氏独居",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张成",
+     "predicate": "KILLED",
+     "object": "贺氏",
+     "evidence": "成益窘，遂杀之，委扇而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张成",
+     "predicate": "HARMED",
+     "object": "吴蜚卿",
+     "evidence": "故伪为吴扇，执而往……不谐则嫁名于吴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周元亮",
+     "predicate": "PUNISHED",
+     "object": "张成",
+     "evidence": "执成至，一讯遂伏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周元亮",
+     "predicate": "HELPED",
+     "object": "吴蜚卿",
+     "evidence": "立命脱其死械，自监移之仓",
+     "confidence": 0.95
+    },
+    {
+     "subject": "神人",
+     "predicate": "HELPED",
+     "object": "吴蜚卿",
+     "evidence": "夜梦神人告之曰：“子勿死，曩日‘外边凶’，目下‘里边吉’矣。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴蜚卿",
+     "predicate": "LIVES_AT",
+     "object": "青州",
+     "evidence": "吴，益都之素封，与范同里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴蜚卿",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "吴，益都之素封",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张成",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "此益都铁商张成索某书者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李秀",
+     "predicate": "NATIVE_OF",
+     "object": "日照",
+     "evidence": "有日照二三秀才，饮醉留题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王佐",
+     "predicate": "NATIVE_OF",
+     "object": "沂州",
+     "evidence": "迹似沂州王佐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴蜚卿",
+     "predicate": "OWNS",
+     "object": "诗扇",
+     "evidence": "泥中遗诗扇一柄，乃王晟之赠吴蜚卿者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴蜚卿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "冤案",
+     "evidence": "郡县拘质，坚不伏，惨被械梏，诬以成案",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冤案",
+     "predicate": "OCCURRED_AT",
+     "object": "青州",
+     "evidence": "青州居民范小山……郡县拘质",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:18.792Z"
+}

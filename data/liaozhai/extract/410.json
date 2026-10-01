@@ -1,0 +1,190 @@
+{
+ "no": 410,
+ "title": "申氏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1867,
+   "entities": [
+    {
+     "name": "申氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泾河侧士人子，家贫，后得金致富"
+    },
+    {
+     "name": "申妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "申氏之妻，曾劝夫为盗"
+    },
+    {
+     "name": "申父",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "申氏亡父，鬼魂现身救子"
+    },
+    {
+     "name": "亢翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "富室亢氏家主，悬赏驱怪"
+    },
+    {
+     "name": "亢女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "亢翁之女，被巨龟精所祟"
+    },
+    {
+     "name": "巨龟",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "龟精，祟亢女，被申氏打死"
+    },
+    {
+     "name": "某乙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中贫民，曾行劫，后改业"
+    },
+    {
+     "name": "某乙妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某乙之妻"
+    },
+    {
+     "name": "荷梃人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某乙同伙，骗乙入柜后逃走"
+    },
+    {
+     "name": "泾河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "申氏所居之地"
+    },
+    {
+     "name": "亢氏第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "亢翁宅院，巨龟精作祟处"
+    },
+    {
+     "name": "嫁女家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "前村嫁女之家，某乙行劫处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "申氏",
+     "predicate": "SPOUSE",
+     "object": "申妻",
+     "evidence": "夫妻相对，无以为计。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "申父",
+     "predicate": "KIN",
+     "object": "申氏",
+     "evidence": "但见父来，惊曰：“痴儿！何至于此！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "申父",
+     "predicate": "HELPED",
+     "object": "申氏",
+     "evidence": "断其绳，嘱曰：“盗可以为，须择禾黍深处伏之。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "申氏",
+     "predicate": "KILLED",
+     "object": "巨龟",
+     "evidence": "大惊，又连击之，遂毙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "巨龟",
+     "predicate": "HARMED",
+     "object": "亢女",
+     "evidence": "有丈夫入室，狎逼为欢。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "亢翁",
+     "predicate": "KIN",
+     "object": "亢女",
+     "evidence": "先是，亢翁有女，绝惠美，父母皆怜爱之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "申氏",
+     "predicate": "HELPED",
+     "object": "亢翁",
+     "evidence": "翁喜，延之上座，使人舁龟于庭，脔割之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "申氏",
+     "predicate": "LIVES_AT",
+     "object": "泾河",
+     "evidence": "泾河之侧，有士人子申氏者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "亢翁",
+     "predicate": "LIVES_AT",
+     "object": "亢氏第",
+     "evidence": "默意垣内为富室亢氏第",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某乙",
+     "predicate": "SPOUSE",
+     "object": "某乙妻",
+     "evidence": "不敢与妻言",
+     "confidence": 0.9
+    },
+    {
+     "subject": "荷梃人",
+     "predicate": "HARMED",
+     "object": "某乙",
+     "evidence": "又绐之曰：“再索之。”乃闭椟加锁而去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某乙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "嫁女家被盗",
+     "evidence": "嫁女家被盗，四方流播，或议乙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嫁女家被盗",
+     "predicate": "OCCURRED_AT",
+     "object": "嫁女家",
+     "evidence": "前村有嫁女者，营办中夜",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:48.625Z"
+}

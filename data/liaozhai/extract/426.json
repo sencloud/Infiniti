@@ -1,0 +1,56 @@
+{
+ "no": 426,
+ "title": "大蝎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 136,
+   "entities": [
+    {
+     "name": "彭宏",
+     "type": "Person",
+     "aliases": [
+      "彭将军宏"
+     ],
+     "nickname": "",
+     "description": "明朝将军，征寇入蜀，火烧妖寺"
+    },
+    {
+     "name": "大蝎",
+     "type": "Spirit",
+     "aliases": [
+      "蝎"
+     ],
+     "nickname": "",
+     "description": "琵琶大的蝎子，寺中妖物"
+    },
+    {
+     "name": "大禅院",
+     "type": "Place",
+     "aliases": [
+      "寺"
+     ],
+     "nickname": "",
+     "description": "蜀地深山中百年无僧的寺院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "大蝎",
+     "predicate": "HARMED",
+     "object": "彭宏",
+     "evidence": "但入者皆头痛不能禁。彭亲入亦然。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大蝎",
+     "predicate": "LIVES_AT",
+     "object": "大禅院",
+     "evidence": "寺中有妖，入者辄死。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:53.101Z"
+}

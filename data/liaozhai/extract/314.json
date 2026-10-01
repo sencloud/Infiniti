@@ -1,0 +1,94 @@
+{
+ "no": 314,
+ "title": "周克昌",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 549,
+   "entities": [
+    {
+     "name": "周天仪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "淮上贡士，周克昌之父，年五旬"
+    },
+    {
+     "name": "周克昌",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周天仪之子，真克昌，性顽钝"
+    },
+    {
+     "name": "鬼假克昌",
+     "type": "Spirit",
+     "aliases": [
+      "鬼"
+     ],
+     "nickname": "",
+     "description": "假冒周克昌之鬼，聪慧中举后离去"
+    },
+    {
+     "name": "赵进士女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵进士之女，有姿色，嫁周克昌"
+    },
+    {
+     "name": "富商",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "买周克昌为子之富商，无子"
+    },
+    {
+     "name": "淮上",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "周天仪籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "周天仪",
+     "predicate": "KIN",
+     "object": "周克昌",
+     "evidence": "淮上贡士周天仪，年五旬，止一子，名克昌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周克昌",
+     "predicate": "SPOUSE",
+     "object": "赵进士女",
+     "evidence": "赵进士女有姿，周强为娶之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鬼假克昌",
+     "predicate": "SPOUSE",
+     "object": "赵进士女",
+     "evidence": "既入门，夫妻调笑甚欢，而昌恒独宿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "富商",
+     "predicate": "KIN",
+     "object": "周克昌",
+     "evidence": "商无子，子焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周天仪",
+     "predicate": "NATIVE_OF",
+     "object": "淮上",
+     "evidence": "淮上贡士周天仪",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:10.609Z"
+}

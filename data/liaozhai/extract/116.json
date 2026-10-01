@@ -1,0 +1,56 @@
+{
+ "no": 116,
+ "title": "梦别",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 201,
+   "entities": [
+    {
+     "name": "王春",
+     "type": "Person",
+     "aliases": [
+      "李先生之祖"
+     ],
+     "nickname": "",
+     "description": "梦别篇中李先生之祖，与玉田公交好"
+    },
+    {
+     "name": "玉田公",
+     "type": "Person",
+     "aliases": [
+      "先叔祖玉田公"
+     ],
+     "nickname": "",
+     "description": "梦别篇中作者先叔祖，与王春交好"
+    },
+    {
+     "name": "太公敬一",
+     "type": "Person",
+     "aliases": [
+      "太公李敬一"
+     ],
+     "nickname": "",
+     "description": "梦别篇中王春之亲属，建议先探虚实"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王春",
+     "predicate": "FRIEND",
+     "object": "玉田公",
+     "evidence": "与先叔祖玉田公交最善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王春",
+     "predicate": "KIN",
+     "object": "太公敬一",
+     "evidence": "以告太公敬一",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:55.217Z"
+}

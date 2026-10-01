@@ -1,0 +1,450 @@
+{
+ "no": 99,
+ "title": "九九数完魔刬尽 三三行满道归根",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4810,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，取经后成佛"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经高僧，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "佛祖",
+     "description": "西天灵山教主"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "取经护法菩萨"
+    },
+    {
+     "name": "灵吉菩萨",
+     "type": "Person",
+     "aliases": [
+      "灵吉",
+      "小须弥山菩萨"
+     ],
+     "nickname": "灵吉",
+     "description": "小须弥山菩萨，曾降黄风怪"
+    },
+    {
+     "name": "黄风怪",
+     "type": "Person",
+     "aliases": [
+      "黄风大王",
+      "黄风大圣",
+      "灵山得道老鼠"
+     ],
+     "nickname": "黄风大王",
+     "description": "灵山得道老鼠成妖"
+    },
+    {
+     "name": "陈澄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄老者，曾受唐僧救女之恩"
+    },
+    {
+     "name": "陈清",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄老者，陈澄之弟"
+    },
+    {
+     "name": "陈关保",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈清之子，曾被祭赛"
+    },
+    {
+     "name": "白鼋",
+     "type": "Person",
+     "aliases": [
+      "老鼋",
+      "大白赖头鼋"
+     ],
+     "nickname": "老鼋",
+     "description": "通天河老鼋，驮唐僧师徒过河"
+    },
+    {
+     "name": "护教伽蓝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "护法伽蓝神"
+    },
+    {
+     "name": "陈家庄",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "通天河畔村庄，陈澄陈清所居"
+    },
+    {
+     "name": "救生寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄为唐僧所建寺院"
+    },
+    {
+     "name": "通天河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧取经途经河流"
+    },
+    {
+     "name": "晒经石",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "通天河岸晒经之石"
+    },
+    {
+     "name": "凌云渡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧脱胎之处"
+    },
+    {
+     "name": "流沙河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧原居之河"
+    },
+    {
+     "name": "陈家庄遇鼋落水",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "老鼋因唐僧未问寿年，淬水使师徒落水"
+    },
+    {
+     "name": "阴魔夺经",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴魔作号欲夺经书，被孙悟空护持"
+    },
+    {
+     "name": "晒经",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "师徒在通天河岸晒晾经书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者道：“师父，你不知就里，我等保护你取获此经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏道：“悟空，这是怎的起？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒道：“师父，我们把经搬到陈家庄上晒去。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧道：“二哥休报怨。我的师父已得了道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTERMINDED",
+     "object": "陈家庄遇鼋落水",
+     "evidence": "即令揭谛，“赶上金刚，还生一难者。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈家庄遇鼋落水",
+     "predicate": "OCCURRED_AT",
+     "object": "通天河",
+     "evidence": "此通天河也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阴魔夺经",
+     "predicate": "OCCURRED_AT",
+     "object": "通天河",
+     "evidence": "那风搅得个通天河波浪翻腾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晒经",
+     "predicate": "OCCURRED_AT",
+     "object": "晒经石",
+     "evidence": "至今彼处晒经之石尚存",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "阴魔夺经",
+     "evidence": "行者却双手轮起铁棒，左右护持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "陈家庄遇鼋落水",
+     "evidence": "把他四众连马并经，通皆落水",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白鼋",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "那老鼋蹬开四足，踏水面如行平地，将他师徒四众，连马五口，驮在身上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者笑巍巍显大神通，把唐僧扶驾出水",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈澄",
+     "predicate": "MEMBER_OF",
+     "object": "陈家庄",
+     "evidence": "我们是陈家庄上人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈清",
+     "predicate": "MEMBER_OF",
+     "object": "陈家庄",
+     "evidence": "陈清闻说，就摆香案在门前迎迓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈关保",
+     "predicate": "KIN",
+     "object": "陈清",
+     "evidence": "唤出原替祭之儿女陈关保、一秤金叩谢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈澄",
+     "predicate": "KIN",
+     "object": "陈清",
+     "evidence": "陈清闻说，就摆香案在门前迎迓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈家庄",
+     "predicate": "ATTACKED",
+     "object": "救生寺",
+     "evidence": "已创建一座院宇，名曰救生寺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "晒经",
+     "evidence": "却移经于高崖上，开包晒晾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "晒经",
+     "evidence": "他四众检看经本，一一晒晾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "晒经",
+     "evidence": "他四众检看经本，一一晒晾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "晒经",
+     "evidence": "他四众检看经本，一一晒晾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄风怪",
+     "predicate": "ORIGIN_OF",
+     "object": "灵吉菩萨",
+     "evidence": "黄风怪阻十三难，请求灵吉十四难",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "行者却双手轮起铁棒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "经包",
+     "evidence": "三藏按住了经包",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "经担",
+     "evidence": "沙僧压住了经担",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "白马",
+     "evidence": "八戒牵住了白马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "NATIVE_OF",
+     "object": "陈家庄",
+     "evidence": "我们是陈家庄上人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈澄",
+     "predicate": "NATIVE_OF",
+     "object": "陈家庄",
+     "evidence": "我们是陈家庄上人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈清",
+     "predicate": "NATIVE_OF",
+     "object": "陈家庄",
+     "evidence": "我们是陈家庄上人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白鼋",
+     "predicate": "STATIONED_AT",
+     "object": "通天河",
+     "evidence": "此通天河也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "LEADS",
+     "object": "护教伽蓝",
+     "evidence": "走向观音菩萨前启道：“弟子等向蒙菩萨法旨，暗中保护圣僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "阴魔夺经",
+     "evidence": "唬得那三藏按住了经包",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "阴魔夺经",
+     "evidence": "八戒牵住了白马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "阴魔夺经",
+     "evidence": "沙僧压住了经担",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:27.919Z"
+}

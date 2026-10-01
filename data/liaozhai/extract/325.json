@@ -1,0 +1,78 @@
+{
+ "no": 325,
+ "title": "姚安",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 549,
+   "entities": [
+    {
+     "name": "姚安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临洮人，美丰标，杀妻娶绿娥"
+    },
+    {
+     "name": "绿娥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宫姓女，艳而知书，嫁姚安"
+    },
+    {
+     "name": "宫翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "绿娥之父，告姚安于官"
+    },
+    {
+     "name": "临洮",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "姚安籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "姚安",
+     "predicate": "NATIVE_OF",
+     "object": "临洮",
+     "evidence": "姚安，临洮人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姚安",
+     "predicate": "KILLED",
+     "object": "姚安妻",
+     "evidence": "绐妻窥井，挤堕之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姚安",
+     "predicate": "SPOUSE",
+     "object": "绿娥",
+     "evidence": "遂娶绿娥",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宫翁",
+     "predicate": "KIN",
+     "object": "绿娥",
+     "evidence": "同里宫姓，有女子字绿娥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宫翁",
+     "predicate": "PUNISHED",
+     "object": "姚安",
+     "evidence": "宫翁忿质官。官收姚，褫衿苦械",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:14.253Z"
+}

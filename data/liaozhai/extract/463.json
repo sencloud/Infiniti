@@ -1,0 +1,148 @@
+{
+ "no": 463,
+ "title": "青城妇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 283,
+   "entities": [
+    {
+     "name": "高梦说",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "费邑人，任成都太守，审理青城妇案"
+    },
+    {
+     "name": "西商",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "从西边来的客商，娶青城山寡妇后暴卒"
+    },
+    {
+     "name": "青城山寡妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青城山寡妇，被疑杀夫，后无罪释放"
+    },
+    {
+     "name": "老医",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "老医生，道出青城妇尖嘴之秘"
+    },
+    {
+     "name": "巫媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "巫婆，能用药使妇舌出以验"
+    },
+    {
+     "name": "成都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西商客居之地，高梦说任太守处"
+    },
+    {
+     "name": "青城山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寡妇所居之地，绕山村落妇女多与蛇交"
+    },
+    {
+     "name": "费邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高梦说的籍贯地"
+    },
+    {
+     "name": "奇狱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "西商暴卒，寡妇被疑杀夫之案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "高梦说",
+     "predicate": "NATIVE_OF",
+     "object": "费邑",
+     "evidence": "费邑高梦说为成都守",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高梦说",
+     "predicate": "LIVES_AT",
+     "object": "成都",
+     "evidence": "费邑高梦说为成都守",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西商",
+     "predicate": "LIVES_AT",
+     "object": "成都",
+     "evidence": "有西商客成都",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西商",
+     "predicate": "SPOUSE",
+     "object": "青城山寡妇",
+     "evidence": "娶青城山寡妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青城山寡妇",
+     "predicate": "LIVES_AT",
+     "object": "青城山",
+     "evidence": "娶青城山寡妇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高梦说",
+     "predicate": "PUNISHED",
+     "object": "青城山寡妇",
+     "evidence": "官亦疑妇有私，苦讯之。横加酷掠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老医",
+     "predicate": "HELPED",
+     "object": "青城山寡妇",
+     "evidence": "医闻之，遽曰：妇尖嘴否？……高即如言，使媪治之，舌果出，疑始解",
+     "confidence": 0.85
+    },
+    {
+     "subject": "巫媪",
+     "predicate": "HELPED",
+     "object": "高梦说",
+     "evidence": "高即如言，使媪治之，舌果出，疑始解",
+     "confidence": 0.85
+    },
+    {
+     "subject": "奇狱",
+     "predicate": "OCCURRED_AT",
+     "object": "成都",
+     "evidence": "费邑高梦说为成都守，有一奇狱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高梦说",
+     "predicate": "PARTICIPATED_IN",
+     "object": "奇狱",
+     "evidence": "费邑高梦说为成都守，有一奇狱",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:10.117Z"
+}

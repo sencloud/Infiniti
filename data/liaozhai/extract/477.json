@@ -1,0 +1,99 @@
+{
+ "no": 477,
+ "title": "果报",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 240,
+   "entities": [
+    {
+     "name": "安丘某生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "安丘人，通卜筮之术，邪荡不检"
+    },
+    {
+     "name": "某甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贪财背盟，并三家之产，富甲一乡"
+    },
+    {
+     "name": "某甲伯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某甲伯父，无嗣，死后田产归某甲"
+    },
+    {
+     "name": "某甲叔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某甲叔父，家颇裕，无子，死后产归某甲"
+    },
+    {
+     "name": "某甲子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某甲之子，某甲死后不久亦死"
+    },
+    {
+     "name": "冥中",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间，怒某生狎亵天数而谴之"
+    },
+    {
+     "name": "安丘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，某生籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "某甲",
+     "predicate": "KIN",
+     "object": "某甲伯",
+     "evidence": "某甲者，伯无嗣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某甲",
+     "predicate": "KIN",
+     "object": "某甲叔",
+     "evidence": "又有叔，家颇裕，亦无子。甲又父之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某甲",
+     "predicate": "KIN",
+     "object": "某甲子",
+     "evidence": "未几，子亦死，产业归人矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥中",
+     "predicate": "PUNISHED",
+     "object": "安丘某生",
+     "evidence": "冥中怒我狎亵天数，将重谴矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安丘某生",
+     "predicate": "NATIVE_OF",
+     "object": "安丘",
+     "evidence": "安丘某生，通卜筮之术。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:15.133Z"
+}

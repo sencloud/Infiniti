@@ -1,0 +1,176 @@
+{
+ "no": 452,
+ "title": "嘉平公子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 924,
+   "entities": [
+    {
+     "name": "嘉平公子",
+     "type": "Person",
+     "aliases": [
+      "公子"
+     ],
+     "nickname": "",
+     "description": "嘉平某公子，风仪秀美，赴童子试，与温姬相恋"
+    },
+    {
+     "name": "温姬",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "女鬼，小字温姬，慕公子风流而自荐"
+    },
+    {
+     "name": "宋氏",
+     "type": "Person",
+     "aliases": [
+      "宋"
+     ],
+     "nickname": "",
+     "description": "公子姊夫，世家子，窥温姬而颠倒"
+    },
+    {
+     "name": "许娼",
+     "type": "Person",
+     "aliases": [
+      "许媪"
+     ],
+     "nickname": "",
+     "description": "妓院老鸨，温姬生前所在"
+    },
+    {
+     "name": "公子母",
+     "type": "Person",
+     "aliases": [
+      "母"
+     ],
+     "nickname": "",
+     "description": "公子之母，闻温姬为鬼而大惊"
+    },
+    {
+     "name": "公子父",
+     "type": "Person",
+     "aliases": [
+      "父"
+     ],
+     "nickname": "",
+     "description": "公子之父，忧心公子，百术驱鬼"
+    },
+    {
+     "name": "郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "公子赴童子试之地"
+    },
+    {
+     "name": "许娼之门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "许姓妓院，公子偶过之处"
+    },
+    {
+     "name": "公子寓所",
+     "type": "Place",
+     "aliases": [
+      "寓"
+     ],
+     "nickname": "",
+     "description": "公子在郡中应试时的住所"
+    },
+    {
+     "name": "公子家",
+     "type": "Place",
+     "aliases": [
+      "家"
+     ],
+     "nickname": "",
+     "description": "公子家乡的宅院，有斋中"
+    },
+    {
+     "name": "童子试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "公子参加的郡学入学考试"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "嘉平公子",
+     "predicate": "LOVES",
+     "object": "温姬",
+     "evidence": "妾慕公子风流，故背媪而来。区区之意，愿奉终身。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "嘉平公子",
+     "predicate": "LIVES_AT",
+     "object": "公子寓所",
+     "evidence": "女问：寓居何处？具告之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嘉平公子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "童子试",
+     "evidence": "年十七八，入郡赴童子试。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "童子试",
+     "predicate": "OCCURRED_AT",
+     "object": "郡",
+     "evidence": "入郡赴童子试。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "温姬",
+     "predicate": "LIVES_AT",
+     "object": "许娼之门",
+     "evidence": "偶过许娼之门，见内有二八丽人。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋氏",
+     "predicate": "KIN",
+     "object": "嘉平公子",
+     "evidence": "公子姊夫宋氏，亦世家子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋氏",
+     "predicate": "LOVES",
+     "object": "温姬",
+     "evidence": "宋向往甚殷，乃修贽见许媪，指名求之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公子母",
+     "predicate": "KIN",
+     "object": "嘉平公子",
+     "evidence": "女归宁，始隐以告母。母大惊，戒公子绝之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公子父",
+     "predicate": "KIN",
+     "object": "嘉平公子",
+     "evidence": "父母深以为忧，百术驱之不能去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "嘉平公子",
+     "predicate": "LIVES_AT",
+     "object": "公子家",
+     "evidence": "试毕而归，女亦从之。至家，寄诸斋中。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:06.058Z"
+}

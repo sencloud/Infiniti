@@ -1,0 +1,50 @@
+{
+ "no": 203,
+ "title": "钱流",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 64,
+   "entities": [
+    {
+     "name": "刘宗玉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂水人，讲述钱流奇事者"
+    },
+    {
+     "name": "杜和",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘宗玉的仆人，园中见钱流"
+    },
+    {
+     "name": "沂水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，刘宗玉籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘宗玉",
+     "predicate": "NATIVE_OF",
+     "object": "沂水",
+     "evidence": "沂水刘宗玉云",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜和",
+     "predicate": "KIN",
+     "object": "刘宗玉",
+     "evidence": "其仆杜和",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:28.349Z"
+}

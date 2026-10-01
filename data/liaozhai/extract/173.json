@@ -1,0 +1,127 @@
+{
+ "no": 173,
+ "title": "秦生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 411,
+   "entities": [
+    {
+     "name": "秦生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莱州人，制毒酒误饮而亡，后被狐仙救活"
+    },
+    {
+     "name": "秦生妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦生之妻，苦劝丈夫勿饮毒酒"
+    },
+    {
+     "name": "狐仙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "身高不满三尺的美人，救活秦生"
+    },
+    {
+     "name": "狐仙之夫",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐仙的丈夫，因偷酒醉死被救回"
+    },
+    {
+     "name": "丘行素",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贡士，嗜酒，以醋代酒"
+    },
+    {
+     "name": "丘行素妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "丘行素之妻，为夫煨醋"
+    },
+    {
+     "name": "丘襄宸",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "丘行素的叔伯弟弟"
+    },
+    {
+     "name": "莱州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦生籍贯所在地"
+    },
+    {
+     "name": "陈家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐仙之夫偷酒醉死之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "秦生",
+     "predicate": "SPOUSE",
+     "object": "秦生妻",
+     "evidence": "妻苦劝谏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦生",
+     "predicate": "NATIVE_OF",
+     "object": "莱州",
+     "evidence": "莱州秦生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "HELPED",
+     "object": "秦生",
+     "evidence": "以瓯水灌之，豁然顿苏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "SPOUSE",
+     "object": "狐仙之夫",
+     "evidence": "我狐仙也。适丈夫入陈家窃酒醉死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐仙之夫",
+     "predicate": "OCCURRED_AT",
+     "object": "陈家",
+     "evidence": "适丈夫入陈家窃酒醉死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丘行素",
+     "predicate": "SPOUSE",
+     "object": "丘行素妻",
+     "evidence": "谋诸妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丘襄宸",
+     "predicate": "KIN",
+     "object": "丘行素",
+     "evidence": "道遇伯弟襄宸",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:19.188Z"
+}

@@ -1,0 +1,833 @@
+{
+ "no": 90,
+ "title": "驱巨兽六破蛮兵 烧藤甲七擒孟获",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5778,
+   "entities": [
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙",
+      "常山赵子龙",
+      "虎威将军"
+     ],
+     "nickname": "子龙",
+     "description": "蜀汉名将"
+    },
+    {
+     "name": "魏延",
+     "type": "Person",
+     "aliases": [
+      "文长",
+      "镇北将军",
+      "汉中太守"
+     ],
+     "nickname": "文长",
+     "description": "蜀汉将领"
+    },
+    {
+     "name": "马岱",
+     "type": "Person",
+     "aliases": [
+      "平北将军"
+     ],
+     "nickname": "",
+     "description": "蜀汉将领"
+    },
+    {
+     "name": "王平",
+     "type": "Person",
+     "aliases": [
+      "子均",
+      "镇北大将军",
+      "安汉侯"
+     ],
+     "nickname": "子均",
+     "description": "蜀汉将领"
+    },
+    {
+     "name": "张翼",
+     "type": "Person",
+     "aliases": [
+      "伯恭"
+     ],
+     "nickname": "伯恭",
+     "description": "蜀汉将领"
+    },
+    {
+     "name": "张嶷",
+     "type": "Person",
+     "aliases": [
+      "伯岐"
+     ],
+     "nickname": "伯岐",
+     "description": "蜀汉将领"
+    },
+    {
+     "name": "马忠",
+     "type": "Person",
+     "aliases": [
+      "德信"
+     ],
+     "nickname": "德信",
+     "description": "蜀汉将领"
+    },
+    {
+     "name": "孟获",
+     "type": "Person",
+     "aliases": [
+      "南蛮王"
+     ],
+     "nickname": "",
+     "description": "南蛮王，被诸葛亮七擒七纵"
+    },
+    {
+     "name": "祝融夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟获之妻，善使飞刀"
+    },
+    {
+     "name": "带来洞主",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟获妻弟，八番部长"
+    },
+    {
+     "name": "朵思大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "三江城守将，死于乱军"
+    },
+    {
+     "name": "木鹿大王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "八纳洞主，能驱虎豹，死于乱军"
+    },
+    {
+     "name": "兀突骨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌戈国主，藤甲军首领，被烧死"
+    },
+    {
+     "name": "杨锋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮首领，被封官爵"
+    },
+    {
+     "name": "吕凯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀汉官员，熟悉南蛮"
+    },
+    {
+     "name": "土安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌戈国领兵俘长"
+    },
+    {
+     "name": "奚泥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌戈国领兵俘长"
+    },
+    {
+     "name": "蜀汉",
+     "type": "Organization",
+     "aliases": [
+      "蜀兵",
+      "蜀军"
+     ],
+     "nickname": "",
+     "description": "刘备建立的蜀汉政权"
+    },
+    {
+     "name": "南蛮",
+     "type": "Organization",
+     "aliases": [
+      "蛮兵",
+      "蛮洞"
+     ],
+     "nickname": "",
+     "description": "南方蛮族势力"
+    },
+    {
+     "name": "乌戈国",
+     "type": "Organization",
+     "aliases": [
+      "藤甲军"
+     ],
+     "nickname": "",
+     "description": "南蛮小国，以藤甲军闻名"
+    },
+    {
+     "name": "银坑洞",
+     "type": "Place",
+     "aliases": [
+      "银坑山"
+     ],
+     "nickname": "",
+     "description": "孟获巢穴，产银矿"
+    },
+    {
+     "name": "三江城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮城池，三面傍江"
+    },
+    {
+     "name": "桃花渡口",
+     "type": "Place",
+     "aliases": [
+      "桃花水"
+     ],
+     "nickname": "",
+     "description": "乌戈国与蜀军对峙处"
+    },
+    {
+     "name": "盘蛇谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如长蛇的峡谷，火烧藤甲军处"
+    },
+    {
+     "name": "八纳洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "木鹿大王所居洞府"
+    },
+    {
+     "name": "泸水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮三江之一"
+    },
+    {
+     "name": "甘南水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮三江之一"
+    },
+    {
+     "name": "西城水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮三江之一"
+    },
+    {
+     "name": "梁都洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮洞府"
+    },
+    {
+     "name": "塔郎甸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "盘蛇谷前地名"
+    },
+    {
+     "name": "七擒孟获",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛亮七次擒获孟获"
+    },
+    {
+     "name": "火烧藤甲军",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛亮在盘蛇谷火烧藤甲军"
+    },
+    {
+     "name": "三江城之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛亮攻取三江城"
+    },
+    {
+     "name": "藤甲军",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌戈国特殊铠甲军队"
+    },
+    {
+     "name": "飞刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝融夫人所用暗器"
+    },
+    {
+     "name": "黑油柜车",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛亮所备火药车"
+    },
+    {
+     "name": "红油柜车",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛亮所备假兽车"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "祝融夫人",
+     "predicate": "SPOUSE",
+     "object": "孟获",
+     "evidence": "获视之，乃妻祝融夫人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "带来洞主",
+     "predicate": "KIN",
+     "object": "孟获",
+     "evidence": "乃孟获妻弟，现为八番部长，名曰带来洞主。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝融夫人",
+     "predicate": "KIN",
+     "object": "带来洞主",
+     "evidence": "乃孟获妻弟，现为八番部长，名曰带来洞主。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "LEADS",
+     "object": "南蛮",
+     "evidence": "孟获在洞中，聚集宗党千余人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "兀突骨",
+     "predicate": "LEADS",
+     "object": "乌戈国",
+     "evidence": "兀突骨曰：吾起本洞之兵，与汝报仇。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "木鹿大王",
+     "predicate": "LEADS",
+     "object": "八纳洞",
+     "evidence": "此去西南八纳洞，洞主木鹿大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朵思大王",
+     "predicate": "STATIONED_AT",
+     "object": "三江城",
+     "evidence": "却令朵思大王守把三江城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟获",
+     "predicate": "STATIONED_AT",
+     "object": "银坑洞",
+     "evidence": "孟获等连夜奔回银坑洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "兀突骨",
+     "predicate": "STATIONED_AT",
+     "object": "桃花渡口",
+     "evidence": "兀突骨兵至桃花渡口下寨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏延",
+     "predicate": "STATIONED_AT",
+     "object": "桃花渡口",
+     "evidence": "汝可引本部兵去桃花渡口下寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火烧藤甲军",
+     "predicate": "OCCURRED_AT",
+     "object": "盘蛇谷",
+     "evidence": "将兀突骨并三万藤甲军，烧得互相拥抱，死于盘蛇谷中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三江城之战",
+     "predicate": "OCCURRED_AT",
+     "object": "三江城",
+     "evidence": "孔明取了三江城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝融夫人",
+     "predicate": "OWNS",
+     "object": "飞刀",
+     "evidence": "祝融夫人背插五口飞刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "兀突骨",
+     "predicate": "OWNS",
+     "object": "藤甲军",
+     "evidence": "起三万兵，皆穿藤甲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张嶷",
+     "predicate": "FOUGHT",
+     "object": "祝融夫人",
+     "evidence": "二人骤马交锋。战不数合，夫人拨马便走。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马忠",
+     "predicate": "FOUGHT",
+     "object": "祝融夫人",
+     "evidence": "忠忿怒向前去战，坐下马绊倒，亦被擒了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝融夫人",
+     "predicate": "DEFEATED",
+     "object": "张嶷",
+     "evidence": "蛮兵发一声喊，将张嶷执缚去了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝融夫人",
+     "predicate": "DEFEATED",
+     "object": "马忠",
+     "evidence": "早被蛮兵捆住。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马岱",
+     "predicate": "DEFEATED",
+     "object": "祝融夫人",
+     "evidence": "原来马岱埋伏在此，用绊马索绊倒。就里擒缚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵云",
+     "predicate": "FOUGHT",
+     "object": "祝融夫人",
+     "evidence": "二人战不数合，云拨马便走。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏延",
+     "predicate": "FOUGHT",
+     "object": "祝融夫人",
+     "evidence": "魏延又引军来搦战，夫人纵马相迎。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "木鹿大王",
+     "predicate": "FOUGHT",
+     "object": "赵云",
+     "evidence": "赵云、魏延听知蛮兵出，遂将军马布成阵势。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "木鹿大王",
+     "predicate": "FOUGHT",
+     "object": "魏延",
+     "evidence": "赵云、魏延听知蛮兵出，遂将军马布成阵势。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马岱",
+     "predicate": "DEFEATED",
+     "object": "孟获",
+     "evidence": "被马岱生擒活捉了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王平",
+     "predicate": "DEFEATED",
+     "object": "祝融夫人",
+     "evidence": "将祝融夫人并一应老小皆活捉而来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张翼",
+     "predicate": "DEFEATED",
+     "object": "祝融夫人",
+     "evidence": "将祝融夫人并一应老小皆活捉而来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "带来洞主",
+     "predicate": "RECOMMENDED",
+     "object": "木鹿大王",
+     "evidence": "吾举一人，可破诸葛亮。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "带来洞主",
+     "predicate": "RECOMMENDED",
+     "object": "兀突骨",
+     "evidence": "此去东南七百里，有一国，名乌戈国。国主兀突骨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七擒孟获",
+     "evidence": "吾擒住六番，尚然不服，欲待何时耶？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "兀突骨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧藤甲军",
+     "evidence": "将兀突骨并三万藤甲军，烧得互相拥抱，死于盘蛇谷中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朵思大王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三江城之战",
+     "evidence": "朵思大王死于乱军之中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜀汉",
+     "predicate": "ATTACKED",
+     "object": "三江城",
+     "evidence": "孔明提兵直至三江城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜀汉",
+     "predicate": "ATTACKED",
+     "object": "银坑洞",
+     "evidence": "孔明大军占了银坑洞。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌戈国",
+     "predicate": "ATTACKED",
+     "object": "蜀汉",
+     "evidence": "兀突骨曰：吾起本洞之兵，与汝报仇。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "南蛮",
+     "predicate": "ALLIED_WITH",
+     "object": "乌戈国",
+     "evidence": "孟获大喜，遂投乌戈国，来见兀突骨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "带来洞主",
+     "predicate": "BETRAYED",
+     "object": "孟获",
+     "evidence": "今将孟获并祝融夫人及宗党数百余人尽皆擒来，献与丞相。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "BETRAYED",
+     "object": "蜀汉",
+     "evidence": "吾屡受辱于蜀兵，立誓欲报之。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1018,
+   "entities": [
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙",
+      "常山赵子龙",
+      "虎威将军"
+     ],
+     "nickname": "子龙",
+     "description": "蜀汉名将"
+    },
+    {
+     "name": "魏延",
+     "type": "Person",
+     "aliases": [
+      "文长",
+      "镇北将军",
+      "汉中太守"
+     ],
+     "nickname": "文长",
+     "description": "蜀汉将领"
+    },
+    {
+     "name": "马岱",
+     "type": "Person",
+     "aliases": [
+      "平北将军"
+     ],
+     "nickname": "",
+     "description": "蜀汉将领"
+    },
+    {
+     "name": "张纮",
+     "type": "Person",
+     "aliases": [
+      "子纲",
+      "长史",
+      "会稽东部都尉"
+     ],
+     "nickname": "子纲",
+     "description": "东吴谋士"
+    },
+    {
+     "name": "孟获",
+     "type": "Person",
+     "aliases": [
+      "南蛮王"
+     ],
+     "nickname": "",
+     "description": "南蛮首领，被七擒七纵"
+    },
+    {
+     "name": "费祎",
+     "type": "Person",
+     "aliases": [
+      "文伟",
+      "尚书令",
+      "大将军"
+     ],
+     "nickname": "文伟",
+     "description": "蜀汉官员"
+    },
+    {
+     "name": "祝融夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟获之妻"
+    },
+    {
+     "name": "孟优",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟获之弟"
+    },
+    {
+     "name": "带来洞主",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮洞主"
+    },
+    {
+     "name": "兀突骨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌戈国国王，藤甲军统帅"
+    },
+    {
+     "name": "蜀汉",
+     "type": "Organization",
+     "aliases": [
+      "蜀"
+     ],
+     "nickname": "",
+     "description": "刘备建立的政权"
+    },
+    {
+     "name": "南蛮",
+     "type": "Organization",
+     "aliases": [
+      "蛮方",
+      "蛮兵"
+     ],
+     "nickname": "",
+     "description": "南方少数民族势力"
+    },
+    {
+     "name": "乌戈国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "南蛮中的国家，以藤甲军闻名"
+    },
+    {
+     "name": "盘蛇谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山谷名，诸葛亮火烧藤甲军处"
+    },
+    {
+     "name": "泸水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "河流名，班师回蜀途经"
+    },
+    {
+     "name": "火烧藤甲军",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸葛亮火攻破藤甲军"
+    },
+    {
+     "name": "七擒孟获",
+     "type": "Event",
+     "aliases": [
+      "七擒七纵"
+     ],
+     "nickname": "",
+     "description": "诸葛亮七次擒获并释放孟获"
+    },
+    {
+     "name": "地雷",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "预先造下的火炮，一炮中藏九炮"
+    },
+    {
+     "name": "黑油柜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "装载地雷的柜子"
+    },
+    {
+     "name": "草车",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵云预备的草车"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "火烧藤甲军",
+     "predicate": "OCCURRED_AT",
+     "object": "盘蛇谷",
+     "evidence": "吾见盘蛇谷止一条路……因令马岱将黑油柜安排于谷中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马岱",
+     "predicate": "OWNS",
+     "object": "黑油柜",
+     "evidence": "因令马岱将黑油柜安排于谷中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "OWNS",
+     "object": "草车",
+     "evidence": "吾又令赵子龙预备草车，安排于谷中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "SPOUSE",
+     "object": "祝融夫人",
+     "evidence": "孟获与祝融夫人并孟优、带来洞主、一切宗党在别帐饮酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "KIN",
+     "object": "孟优",
+     "evidence": "孟获与祝融夫人并孟优、带来洞主、一切宗党在别帐饮酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "MEMBER_OF",
+     "object": "南蛮",
+     "evidence": "孟获宗党及诸蛮兵，无不感戴",
+     "confidence": 0.9
+    },
+    {
+     "subject": "兀突骨",
+     "predicate": "LEADS",
+     "object": "乌戈国",
+     "evidence": "令魏延赚兀突骨并藤甲军入谷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "兀突骨",
+     "predicate": "MEMBER_OF",
+     "object": "乌戈国",
+     "evidence": "令魏延赚兀突骨并藤甲军入谷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "费祎",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "长史费祎入谏曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏延",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧藤甲军",
+     "evidence": "令魏延赚兀突骨并藤甲军入谷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马岱",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧藤甲军",
+     "evidence": "因令马岱将黑油柜安排于谷中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧藤甲军",
+     "evidence": "吾又令赵子龙预备草车，安排于谷中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟获",
+     "predicate": "PARTICIPATED_IN",
+     "object": "七擒孟获",
+     "evidence": "七擒七纵，自古未尝有也",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:57:04.723Z"
+}

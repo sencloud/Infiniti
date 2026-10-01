@@ -1,0 +1,104 @@
+{
+ "no": 245,
+ "title": "董公子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 479,
+   "entities": [
+    {
+     "name": "董可畏",
+     "type": "Person",
+     "aliases": [
+      "董尚书",
+      "董公子"
+     ],
+     "nickname": "",
+     "description": "青州董尚书，家法严肃，董公子"
+    },
+    {
+     "name": "伟丈夫",
+     "type": "Spirit",
+     "aliases": [
+      "关公",
+      "寿亭侯"
+     ],
+     "nickname": "",
+     "description": "赤面修髯，似关公像，捉人头入斋"
+    },
+    {
+     "name": "官役",
+     "type": "Person",
+     "aliases": [
+      "衙役"
+     ],
+     "nickname": "",
+     "description": "官府差役，叩门告董公子"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "董尚书籍贯地"
+    },
+    {
+     "name": "关庙",
+     "type": "Place",
+     "aliases": [
+      "关帝庙"
+     ],
+     "nickname": "",
+     "description": "关公庙，埋首处"
+    },
+    {
+     "name": "斋",
+     "type": "Place",
+     "aliases": [
+      "书斋"
+     ],
+     "nickname": "",
+     "description": "董公子与僮夜卧之处"
+    },
+    {
+     "name": "公庭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "官府公堂"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "董可畏",
+     "predicate": "NATIVE_OF",
+     "object": "青州",
+     "evidence": "青州董尚书可畏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董可畏",
+     "predicate": "LIVES_AT",
+     "object": "斋",
+     "evidence": "公子偕僮卧斋中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伟丈夫",
+     "predicate": "HELPED",
+     "object": "董可畏",
+     "evidence": "捉一人头入",
+     "confidence": 0.8
+    },
+    {
+     "subject": "董可畏",
+     "predicate": "PARTICIPATED_IN",
+     "object": "公庭",
+     "evidence": "趋赴公庭",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:46.246Z"
+}

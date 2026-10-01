@@ -1,0 +1,161 @@
+{
+ "no": 70,
+ "title": "阿宝",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1949,
+   "entities": [
+    {
+     "name": "孙子楚",
+     "type": "Person",
+     "aliases": [
+      "孙生",
+      "孙公子"
+     ],
+     "nickname": "孙痴",
+     "description": "粤西名士，性迂讷，有枝指，后中进士"
+    },
+    {
+     "name": "阿宝",
+     "type": "Person",
+     "aliases": [
+      "宝娘",
+      "阿宝女"
+     ],
+     "nickname": "",
+     "description": "粤西大贾之女，绝色，后嫁孙子楚"
+    },
+    {
+     "name": "贾父",
+     "type": "Person",
+     "aliases": [
+      "贾某",
+      "大贾某翁"
+     ],
+     "nickname": "",
+     "description": "粤西大商人，阿宝之父，富埒王侯"
+    },
+    {
+     "name": "粤西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，孙子楚籍贯"
+    },
+    {
+     "name": "水月寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寺庙，浴佛节阿宝降香处"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥界，孙子楚死后见冥王处"
+    },
+    {
+     "name": "绣履",
+     "type": "Item",
+     "aliases": [
+      "绣鞋"
+     ],
+     "nickname": "",
+     "description": "阿宝的信誓之物，鹦鹉衔之"
+    },
+    {
+     "name": "乡试",
+     "type": "Event",
+     "aliases": [
+      "大比"
+     ],
+     "nickname": "",
+     "description": "科举考试，孙子楚抡魁"
+    },
+    {
+     "name": "婚嫁",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙子楚与阿宝成亲"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙子楚",
+     "predicate": "NATIVE_OF",
+     "object": "粤西",
+     "evidence": "粤西孙子楚，名士也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿宝",
+     "predicate": "KIN",
+     "object": "贾父",
+     "evidence": "邑大贾某翁……有女阿宝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙子楚",
+     "predicate": "LOVES",
+     "object": "阿宝",
+     "evidence": "生独默然……魂随阿宝去耶？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙子楚",
+     "predicate": "SPOUSE",
+     "object": "阿宝",
+     "evidence": "生乃亲迎成礼，相逢如隔世欢。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙子楚",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乡试",
+     "evidence": "值岁大比，入闱之前……生以是抡魁。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙子楚",
+     "predicate": "PARTICIPATED_IN",
+     "object": "婚嫁",
+     "evidence": "生乃亲迎成礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "婚嫁",
+     "predicate": "OCCURRED_AT",
+     "object": "粤西",
+     "evidence": "粤西孙子楚……生乃亲迎成礼",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阿宝",
+     "predicate": "LIVES_AT",
+     "object": "粤西",
+     "evidence": "邑大贾某翁……有女阿宝",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阿宝",
+     "predicate": "OWNS",
+     "object": "绣履",
+     "evidence": "鹦鹉骤下，衔履飞去……是阿宝信誓物",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙子楚",
+     "predicate": "LIVES_AT",
+     "object": "冥府",
+     "evidence": "见冥王，以生平朴诚，命作部曹",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:39.518Z"
+}

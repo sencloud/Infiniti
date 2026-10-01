@@ -1,0 +1,363 @@
+{
+ "no": 8,
+ "title": "第八回 林教头刺配沧州道 鲁智深大闹野猪林",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5544,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "东京八十万禁军教头，被高俅陷害刺配沧州"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉",
+      "太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，陷害林冲的权臣"
+    },
+    {
+     "name": "高衙内",
+     "type": "Person",
+     "aliases": [
+      "小衙内"
+     ],
+     "nickname": "",
+     "description": "高俅之子，调戏林冲妻子"
+    },
+    {
+     "name": "陆谦",
+     "type": "Person",
+     "aliases": [
+      "陆虞候"
+     ],
+     "nickname": "",
+     "description": "高太尉府心腹人，设计陷害林冲"
+    },
+    {
+     "name": "富安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高衙内帮闲，参与骗林冲妻子"
+    },
+    {
+     "name": "滕府尹",
+     "type": "Person",
+     "aliases": [
+      "府尹"
+     ],
+     "nickname": "",
+     "description": "开封府尹，审理林冲案"
+    },
+    {
+     "name": "孙定",
+     "type": "Person",
+     "aliases": [
+      "孙孔目"
+     ],
+     "nickname": "孙佛儿",
+     "description": "开封府当案孔目，为人鲠直好善，周全林冲"
+    },
+    {
+     "name": "张教头",
+     "type": "Person",
+     "aliases": [
+      "泰山"
+     ],
+     "nickname": "",
+     "description": "林冲的岳父，禁军教头"
+    },
+    {
+     "name": "林冲娘子",
+     "type": "Person",
+     "aliases": [
+      "张氏",
+      "娘子"
+     ],
+     "nickname": "",
+     "description": "林冲之妻，张教头之女"
+    },
+    {
+     "name": "锦儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲娘子的女使"
+    },
+    {
+     "name": "董超",
+     "type": "Person",
+     "aliases": [
+      "董端公"
+     ],
+     "nickname": "",
+     "description": "开封府防送公人，押送林冲"
+    },
+    {
+     "name": "薛霸",
+     "type": "Person",
+     "aliases": [
+      "薛端公"
+     ],
+     "nickname": "",
+     "description": "开封府防送公人，押送林冲"
+    },
+    {
+     "name": "开封府",
+     "type": "Organization",
+     "aliases": [
+      "南衙开封府"
+     ],
+     "nickname": "",
+     "description": "北宋京城官府，审理林冲案"
+    },
+    {
+     "name": "高太尉府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅的府邸势力"
+    },
+    {
+     "name": "野猪林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京去沧州路上第一个险峻去处"
+    },
+    {
+     "name": "沧州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲刺配的牢城所在地"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，林冲原居地"
+    },
+    {
+     "name": "岳庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲与妻还香愿之处"
+    },
+    {
+     "name": "林冲刺配沧州",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲被高俅陷害，刺配沧州牢城"
+    },
+    {
+     "name": "大闹野猪林",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "董超薛霸在野猪林欲害林冲，鲁智深救之"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "不想太尉从外面进来，设计陷害林冲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "又使陆虞候赚小人吃酒，却使富安来骗林冲妻子到陆虞候家楼上调戏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "富安",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "却使富安来骗林冲妻子到陆虞候家楼上调戏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高衙内",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "正迎见高太尉的小衙内把妻子调戏",
+     "confidence": 0.85
+    },
+    {
+     "subject": "孙定",
+     "predicate": "RESCUED",
+     "object": "林冲",
+     "evidence": "多得孙孔目维持，这棒不毒，因此走得动弹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张教头",
+     "predicate": "RESCUED",
+     "object": "林冲",
+     "evidence": "林冲的丈人张教头亦来买上告下，使用财帛",
+     "confidence": 0.85
+    },
+    {
+     "subject": "林冲",
+     "predicate": "SPOUSE",
+     "object": "林冲娘子",
+     "evidence": "自蒙泰山错爱，将令爱嫁事小人，已经三载",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张教头",
+     "predicate": "KIN",
+     "object": "林冲娘子",
+     "evidence": "张教头道：我儿放心。虽是林冲恁的主张",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "KIN",
+     "object": "张教头",
+     "evidence": "林冲执手对丈人说道：泰山在上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董超",
+     "predicate": "SERVED",
+     "object": "开封府",
+     "evidence": "小人两个奉本府差遣，监押林冲直到那里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛霸",
+     "predicate": "SERVED",
+     "object": "开封府",
+     "evidence": "小人两个奉本府差遣，监押林冲直到那里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "我是高太尉府心腹人陆虞候便是",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董超",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "今奉着太尉钧旨，教将这十两金子送与二位",
+     "confidence": 0.85
+    },
+    {
+     "subject": "薛霸",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "今奉着太尉钧旨，教将这十两金子送与二位",
+     "confidence": 0.85
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "开封府",
+     "evidence": "东京八十万禁军教头林冲，为因身犯重罪，断配沧州",
+     "confidence": 0.7
+    },
+    {
+     "subject": "林冲",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "东京八十万禁军教头林冲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "林冲刺配沧州",
+     "evidence": "断了二十脊杖，唤个文笔匠刺了面颊，量地方远近，该配沧州牢城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "MASTERMINDED",
+     "object": "林冲刺配沧州",
+     "evidence": "高太尉批仰定罪，定要问他‘手执利刃，故入节堂，杀害本官’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲刺配沧州",
+     "predicate": "OCCURRED_AT",
+     "object": "开封府",
+     "evidence": "府尹回来升厅，叫林冲除了长枷，断了二十脊杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "沧州",
+     "evidence": "该配沧州牢城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董超",
+     "predicate": "ATTACKED",
+     "object": "林冲",
+     "evidence": "薛霸便提起水火棍来，望着林冲脑袋上劈将来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛霸",
+     "predicate": "ATTACKED",
+     "object": "林冲",
+     "evidence": "薛霸便提起水火棍来，望着林冲脑袋上劈将来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大闹野猪林",
+     "predicate": "OCCURRED_AT",
+     "object": "野猪林",
+     "evidence": "这座猛恶林子，有名唤做‘野猪林’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹野猪林",
+     "evidence": "今日，这两个公人带林冲奔入这林子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董超",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹野猪林",
+     "evidence": "今日，这两个公人带林冲奔入这林子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛霸",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹野猪林",
+     "evidence": "今日，这两个公人带林冲奔入这林子里来",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:48.382Z"
+}

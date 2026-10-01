@@ -1,0 +1,243 @@
+{
+ "no": 161,
+ "title": "念秧",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4007,
+   "entities": [
+    {
+     "name": "王子巽",
+     "type": "Person",
+     "aliases": [
+      "王生"
+     ],
+     "nickname": "",
+     "description": "《念秧》中邑诸生，北上探亲遇骗"
+    },
+    {
+     "name": "张姓",
+     "type": "Person",
+     "aliases": [
+      "张"
+     ],
+     "nickname": "",
+     "description": "《念秧》中栖霞隶，念秧同党"
+    },
+    {
+     "name": "许姓",
+     "type": "Person",
+     "aliases": [
+      "许"
+     ],
+     "nickname": "",
+     "description": "《念秧》中清苑人，念秧同党"
+    },
+    {
+     "name": "金姓少年",
+     "type": "Person",
+     "aliases": [
+      "金",
+      "史郎",
+      "史"
+     ],
+     "nickname": "",
+     "description": "《念秧》中江南人，念秧同党"
+    },
+    {
+     "name": "佟姓",
+     "type": "Person",
+     "aliases": [
+      "佟"
+     ],
+     "nickname": "",
+     "description": "《念秧》中旗下逻捉赌者，念秧同党"
+    },
+    {
+     "name": "吴生",
+     "type": "Person",
+     "aliases": [
+      "吴安仁",
+      "安仁"
+     ],
+     "nickname": "",
+     "description": "《念秧》中邑人，字安仁，三十丧偶"
+    },
+    {
+     "name": "鬼头",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《念秧》中狐的小奴"
+    },
+    {
+     "name": "报儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《念秧》中吴生的书僮"
+    },
+    {
+     "name": "黄姓",
+     "type": "Person",
+     "aliases": [
+      "黄"
+     ],
+     "nickname": "",
+     "description": "《念秧》中山东人，户部提塘官，念秧同党"
+    },
+    {
+     "name": "主人之子妇",
+     "type": "Person",
+     "aliases": [
+      "女子"
+     ],
+     "nickname": "",
+     "description": "《念秧》中旅店主人儿媳，被遣饵吴生"
+    },
+    {
+     "name": "旅店主人",
+     "type": "Person",
+     "aliases": [
+      "主人"
+     ],
+     "nickname": "",
+     "description": "《念秧》中涿州旅店主人，念秧同党"
+    },
+    {
+     "name": "王子巽之仆",
+     "type": "Person",
+     "aliases": [
+      "仆"
+     ],
+     "nickname": "",
+     "description": "《念秧》中王子巽的仆人"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《念秧》中地名，王子巽出发地"
+    },
+    {
+     "name": "涿州",
+     "type": "Place",
+     "aliases": [
+      "涿"
+     ],
+     "nickname": "",
+     "description": "《念秧》中地名，吴生遇黄姓处"
+    },
+    {
+     "name": "屈律店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《念秧》中旅店名"
+    },
+    {
+     "name": "念秧",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《念秧》中骗局事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王子巽",
+     "predicate": "PARTICIPATED_IN",
+     "object": "念秧",
+     "evidence": "王始惊曰：“今被念秧者骗矣！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张姓",
+     "predicate": "HARMED",
+     "object": "王子巽",
+     "evidence": "始悟张、许、佟皆其一党，一局不行，又易一局，务求其必入也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许姓",
+     "predicate": "HARMED",
+     "object": "王子巽",
+     "evidence": "始悟张、许、佟皆其一党，一局不行，又易一局，务求其必入也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金姓少年",
+     "predicate": "HARMED",
+     "object": "王子巽",
+     "evidence": "始悟张、许、佟皆其一党，一局不行，又易一局，务求其必入也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "佟姓",
+     "predicate": "HARMED",
+     "object": "王子巽",
+     "evidence": "始悟张、许、佟皆其一党，一局不行，又易一局，务求其必入也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "念秧",
+     "evidence": "吴客都中，将旋里，闻王生遭念秧之祸，因戒僮警备。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黄姓",
+     "predicate": "HARMED",
+     "object": "吴生",
+     "evidence": "黄于途，益谄事吴。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "主人之子妇",
+     "predicate": "HARMED",
+     "object": "吴生",
+     "evidence": "妾实主人遣以饵君者。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鬼头",
+     "predicate": "HELPED",
+     "object": "吴生",
+     "evidence": "盖鬼头知女止一兄，远出十馀年不返，遂幻化作其兄状，使报儿冒弟行，入门索姊妹。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "报儿",
+     "predicate": "HELPED",
+     "object": "吴生",
+     "evidence": "盖鬼头知女止一兄，远出十馀年不返，遂幻化作其兄状，使报儿冒弟行，入门索姊妹。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王子巽",
+     "predicate": "LIVES_AT",
+     "object": "济南",
+     "evidence": "出济南，行数里",
+     "confidence": 0.8
+    },
+    {
+     "subject": "吴生",
+     "predicate": "LIVES_AT",
+     "object": "涿州",
+     "evidence": "至涿，一人系马坐烟肆",
+     "confidence": 0.7
+    },
+    {
+     "subject": "念秧",
+     "predicate": "OCCURRED_AT",
+     "object": "屈律店",
+     "evidence": "前去屈律店不远矣。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:17.835Z"
+}

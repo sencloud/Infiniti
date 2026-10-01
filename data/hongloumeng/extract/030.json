@@ -1,0 +1,552 @@
+{
+ "no": 30,
+ "title": "宝钗借扇机带双敲 龄官划蔷痴及局外",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5771,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "宝玉",
+      "宝二爷",
+      "怡红公子",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "怡红公子",
+     "description": "贾府公子，多情体贴"
+    },
+    {
+     "name": "林黛玉",
+     "type": "Person",
+     "aliases": [
+      "黛玉",
+      "林妹妹",
+      "颦儿",
+      "潇湘妃子",
+      "绛珠仙子"
+     ],
+     "nickname": "潇湘妃子",
+     "description": "贾母外孙女，多愁善感"
+    },
+    {
+     "name": "薛宝钗",
+     "type": "Person",
+     "aliases": [
+      "宝钗",
+      "宝姐姐",
+      "宝丫头",
+      "蘅芜君"
+     ],
+     "nickname": "蘅芜君",
+     "description": "薛家之女，稳重端庄"
+    },
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤姐",
+      "凤辣子",
+      "琏二奶奶",
+      "凤丫头",
+      "泼皮破落户"
+     ],
+     "nickname": "凤辣子",
+     "description": "贾琏之妻，精明泼辣"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "老太太",
+      "老祖宗",
+      "史太君"
+     ],
+     "nickname": "史太君",
+     "description": "贾府最高长辈"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾宝玉之母"
+    },
+    {
+     "name": "袭人",
+     "type": "Person",
+     "aliases": [
+      "珍珠",
+      "蕊珠",
+      "袭姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟"
+    },
+    {
+     "name": "晴雯",
+     "type": "Person",
+     "aliases": [
+      "晴姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟"
+    },
+    {
+     "name": "紫鹃",
+     "type": "Person",
+     "aliases": [
+      "鹦哥"
+     ],
+     "nickname": "",
+     "description": "林黛玉的丫鬟"
+    },
+    {
+     "name": "麝月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟"
+    },
+    {
+     "name": "金钏儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王夫人的丫鬟"
+    },
+    {
+     "name": "玉钏儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王夫人的丫鬟，金钏儿之妹"
+    },
+    {
+     "name": "龄官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府十二个学戏的女孩子之一"
+    },
+    {
+     "name": "文官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府十二个学戏的女孩子之一"
+    },
+    {
+     "name": "宝官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府十二个学戏的女孩子之一，小生"
+    },
+    {
+     "name": "玉官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府十二个学戏的女孩子之一，正旦"
+    },
+    {
+     "name": "靛儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "小丫头"
+    },
+    {
+     "name": "贾府",
+     "type": "Organization",
+     "aliases": [
+      "贾家"
+     ],
+     "nickname": "",
+     "description": "贾氏家族府第"
+    },
+    {
+     "name": "大观园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府园林"
+    },
+    {
+     "name": "怡红院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾宝玉在大观园的住所"
+    },
+    {
+     "name": "蔷薇花架",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中花架"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "紫鹃",
+     "predicate": "SERVANT_OF",
+     "object": "林黛玉",
+     "evidence": "紫鹃度其意，乃劝道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袭人",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "袭人笑道：“谁这会子叫门？没人开去。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "晴雯道：“胡说！宝姑娘这会子做什么来。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "麝月",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "麝月道：“是宝姑娘的声音。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金钏儿",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "金钏儿坐在旁边捶腿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉钏儿",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "王夫人便叫玉钏儿：“把你妈叫来，带出你姐姐去！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉钏儿",
+     "predicate": "KIN",
+     "object": "金钏儿",
+     "evidence": "带出你姐姐去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "王夫人固然是个宽仁慈厚的人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "我同你往老太太跟前去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "凤姐笑道：“我说他们不用人费心，自己就会好的。老祖宗不信”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "挨着贾母坐下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "林黛玉",
+     "evidence": "宝玉笑道：“我知道妹妹不恼我。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "薛宝钗",
+     "evidence": "宝玉没甚说的，便向宝钗笑道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "FRIEND",
+     "object": "薛宝钗",
+     "evidence": "黛玉笑向宝玉道：“你也试着比我利害的人了。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "FRIEND",
+     "object": "林黛玉",
+     "evidence": "凤姐道：“又叫她们作什么？有我服侍你呢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "FRIEND",
+     "object": "贾宝玉",
+     "evidence": "宝玉在后面跟着出了园门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "LOVES",
+     "object": "林黛玉",
+     "evidence": "宝玉笑道：“你死了，我做和尚！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "LOVES",
+     "object": "金钏儿",
+     "evidence": "宝玉上来便拉着手，悄悄的笑道：“我明日和太太讨你，咱们在一处罢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "贾宝玉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "林黛玉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "薛宝钗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "王熙凤",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "贾母",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "王夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袭人",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "袭人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "晴雯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "紫鹃",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "紫鹃",
+     "confidence": 0.9
+    },
+    {
+     "subject": "麝月",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "麝月",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金钏儿",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "金钏儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉钏儿",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "玉钏儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龄官",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "倒像是那十二个学戏的女孩子之内的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文官",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "那文官等十二个女子都放了学",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宝官",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "小生宝官、正旦玉官等两个女孩子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉官",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "小生宝官、正旦玉官等两个女孩子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "靛儿",
+     "predicate": "MEMBER_OF",
+     "object": "贾府",
+     "evidence": "小丫头靛儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "只得一气跑回怡红院去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "林黛玉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "薛宝钗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袭人",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "袭人等都在游廊上嘻笑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "晴雯道：“胡说！宝姑娘这会子做什么来。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "麝月",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "麝月道：“是宝姑娘的声音。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龄官",
+     "predicate": "STATIONED_AT",
+     "object": "蔷薇花架",
+     "evidence": "刚到了蔷薇花架，只听有人哽噎之声",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "龄官划蔷",
+     "evidence": "只见那女孩子还在那里画呢，画来画去，还是个“蔷”字",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龄官",
+     "predicate": "PARTICIPATED_IN",
+     "object": "龄官划蔷",
+     "evidence": "只见那女孩子还在那里画呢，画来画去，还是个“蔷”字",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龄官划蔷",
+     "predicate": "OCCURRED_AT",
+     "object": "蔷薇花架",
+     "evidence": "刚到了蔷薇花架，只听有人哽噎之声",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "香雪润津丹",
+     "evidence": "便自己向身边荷包里带的香雪润津丹掏了出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龄官",
+     "predicate": "OWNS",
+     "object": "簪子",
+     "evidence": "手里拿着根绾头的簪子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "QUARRELED",
+     "object": "林黛玉",
+     "evidence": "林黛玉与宝玉角口后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "FRAMED",
+     "object": "金钏儿",
+     "evidence": "王夫人翻身起来，照金钏儿脸上就打着了个嘴巴子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KILLED",
+     "object": "金钏儿",
+     "evidence": "金钏儿含羞忍辱的出去了",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:54:15.378Z"
+}

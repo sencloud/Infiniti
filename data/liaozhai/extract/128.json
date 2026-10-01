@@ -1,0 +1,99 @@
+{
+ "no": 128,
+ "title": "余德",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 851,
+   "entities": [
+    {
+     "name": "尹图南",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武昌人，别第主人，好奇余德"
+    },
+    {
+     "name": "余德",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "租住尹图南别第的秀才，来历神秘"
+    },
+    {
+     "name": "余德之妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "余德妻，美艳逾于仙人"
+    },
+    {
+     "name": "武昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "尹图南籍贯地"
+    },
+    {
+     "name": "尹图南别第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "尹图南别墅，余德租住处"
+    },
+    {
+     "name": "小白石缸",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "余德所遗，龙宫蓄水器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "尹图南",
+     "predicate": "NATIVE_OF",
+     "object": "武昌",
+     "evidence": "武昌尹图南，有别第",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尹图南",
+     "predicate": "OWNS",
+     "object": "尹图南别第",
+     "evidence": "武昌尹图南，有别第",
+     "confidence": 0.95
+    },
+    {
+     "subject": "余德",
+     "predicate": "LIVES_AT",
+     "object": "尹图南别第",
+     "evidence": "尝为一秀才税居",
+     "confidence": 0.9
+    },
+    {
+     "subject": "余德",
+     "predicate": "SPOUSE",
+     "object": "余德之妻",
+     "evidence": "室有丽姝，美艳逾于仙人",
+     "confidence": 0.85
+    },
+    {
+     "subject": "尹图南",
+     "predicate": "FRIEND",
+     "object": "余德",
+     "evidence": "命酒款宴，言笑甚欢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尹图南",
+     "predicate": "OWNS",
+     "object": "小白石缸",
+     "evidence": "惟舍后遗一小白石缸……尹携归",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:01.313Z"
+}

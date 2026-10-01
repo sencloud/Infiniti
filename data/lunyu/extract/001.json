@@ -1,0 +1,367 @@
+{
+ "no": 1,
+ "title": "学而篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 669,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，本篇中多次论述仁、礼、学等概念。"
+    },
+    {
+     "name": "有若",
+     "type": "Person",
+     "aliases": [
+      "子有",
+      "有子",
+      "若"
+     ],
+     "nickname": "子有",
+     "description": "孔子弟子，本篇中论述孝弟、礼等。"
+    },
+    {
+     "name": "曾参",
+     "type": "Person",
+     "aliases": [
+      "子舆",
+      "曾子",
+      "参"
+     ],
+     "nickname": "子舆",
+     "description": "孔子弟子，以孝著称，本篇中论自省与慎终追远。"
+    },
+    {
+     "name": "子夏",
+     "type": "Person",
+     "aliases": [
+      "卜商",
+      "商",
+      "卜子夏"
+     ],
+     "nickname": "商",
+     "description": "孔子弟子，本篇中论贤贤易色、事父母等。"
+    },
+    {
+     "name": "子贡",
+     "type": "Person",
+     "aliases": [
+      "端木赐",
+      "赐",
+      "子赣"
+     ],
+     "nickname": "赐",
+     "description": "孔子弟子，本篇中与孔子论贫富与《诗》。"
+    },
+    {
+     "name": "子禽",
+     "type": "Person",
+     "aliases": [
+      "陈亢",
+      "陈子禽",
+      "亢"
+     ],
+     "nickname": "亢",
+     "description": "孔子弟子，本篇中问子贡关于孔子闻政之事。"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心道德范畴，本篇中多次论及。"
+    },
+    {
+     "name": "孝",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "孝顺父母，本篇中与弟并称，为仁之本。"
+    },
+    {
+     "name": "弟",
+     "type": "Concept",
+     "aliases": [
+      "悌"
+     ],
+     "nickname": "",
+     "description": "敬爱兄长，本篇中与孝并称。"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "礼节、礼法，本篇中论其用和为贵。"
+    },
+    {
+     "name": "信",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "诚信，本篇中多次论及。"
+    },
+    {
+     "name": "忠",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "忠诚，本篇中与信并论。"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有德行的人，本篇中多次论及。"
+    },
+    {
+     "name": "学",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "学习，本篇首章即论学。"
+    },
+    {
+     "name": "政",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "政事，本篇中论治理国家。"
+    },
+    {
+     "name": "诗",
+     "type": "Text",
+     "aliases": [
+      "《诗》"
+     ],
+     "nickname": "",
+     "description": "《诗经》，本篇中子贡引述。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "子曰：“学而时习之，不亦说乎？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "人不知而不愠，不亦君子乎？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有若",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "其为人也孝弟而好犯上者，鲜矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有若",
+     "predicate": "DISCUSSED",
+     "object": "弟",
+     "evidence": "其为人也孝弟而好犯上者，鲜矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有若",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "孝弟也者，其为仁之本与！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "巧言令色，鲜矣仁!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCUSSED",
+     "object": "忠",
+     "evidence": "为人谋而不忠乎?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "与朋友交而不信乎?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "道千乘之国,敬事而信，节用而爱人，使民以时。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "弟子入则孝，出则弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "弟",
+     "evidence": "弟子入则孝，出则弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "谨而信，泛爱众，而亲仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "泛爱众，而亲仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "事父母，能竭其力",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "与朋友交，言而有信",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子不重则不威，学则不固",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "忠",
+     "evidence": "主忠信",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "主忠信",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子禽",
+     "predicate": "ASKED",
+     "object": "子贡",
+     "evidence": "子禽问于子贡曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "夫子至于是邦也，必闻其政",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "三年无改于父之道，可谓孝矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有若",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "礼之用，和为贵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有若",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "信近于义，言可复也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有若",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "恭近于礼，远耻辱也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子食无求饱，居无求安",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "可谓好学也已",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "未若贫而乐、富而好礼者也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "CITED",
+     "object": "诗",
+     "evidence": "《诗》云‘如切如磋，如琢如磨'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "诗",
+     "evidence": "始可与言《诗》已矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "PRAISED",
+     "object": "子贡",
+     "evidence": "赐也，始可与言《诗》已矣",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:24.257Z"
+}

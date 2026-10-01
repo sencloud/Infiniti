@@ -1,0 +1,239 @@
+{
+ "no": 366,
+ "title": "张鸿渐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3000,
+   "entities": [
+    {
+     "name": "张鸿渐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "永平人，郡名士，因讼案逃亡"
+    },
+    {
+     "name": "方氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张鸿渐妻，美而贤"
+    },
+    {
+     "name": "舜华",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐仙，施氏长女，与张鸿渐有夙缘"
+    },
+    {
+     "name": "赵某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卢龙令，贪暴，杖毙范生"
+    },
+    {
+     "name": "范生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被赵县令杖毙的书生"
+    },
+    {
+     "name": "张孝廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张鸿渐之子，后中举"
+    },
+    {
+     "name": "许翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "京堂林下者，留张鸿渐诲其少子"
+    },
+    {
+     "name": "永平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张鸿渐籍贯地"
+    },
+    {
+     "name": "卢龙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵县令任职地"
+    },
+    {
+     "name": "凤翔",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张鸿渐逃亡所至之地"
+    },
+    {
+     "name": "太原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张鸿渐化名宫子迁后居十年之地"
+    },
+    {
+     "name": "施氏宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "舜华所居之村舍院落"
+    },
+    {
+     "name": "南华经注",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "舜华几上之书，张鸿渐翻阅"
+    },
+    {
+     "name": "竹夫人",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "舜华幻化之物，可跨之飞行"
+    },
+    {
+     "name": "讼案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸生告赵县令，被坐结党收押"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张鸿渐",
+     "predicate": "SPOUSE",
+     "object": "方氏",
+     "evidence": "妻方氏，美而贤",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张鸿渐",
+     "predicate": "SPOUSE",
+     "object": "舜华",
+     "evidence": "妾以君风流才士，欲以门户相托",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张鸿渐",
+     "predicate": "KIN",
+     "object": "张孝廉",
+     "evidence": "真子也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方氏",
+     "predicate": "KIN",
+     "object": "张孝廉",
+     "evidence": "儿妇耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张鸿渐",
+     "predicate": "NATIVE_OF",
+     "object": "永平",
+     "evidence": "张鸿渐，永平人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵某",
+     "predicate": "NATIVE_OF",
+     "object": "卢龙",
+     "evidence": "卢龙令赵某贪暴",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张鸿渐",
+     "predicate": "LIVES_AT",
+     "object": "施氏宅",
+     "evidence": "命妪引客入舍",
+     "confidence": 0.85
+    },
+    {
+     "subject": "张鸿渐",
+     "predicate": "LIVES_AT",
+     "object": "太原",
+     "evidence": "既晓，问其地，太原也。遂至郡，赁屋授徒焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "舜华",
+     "predicate": "LIVES_AT",
+     "object": "施氏宅",
+     "evidence": "吾家施氏，太翁、夫人俱谢世，止遗三女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张鸿渐",
+     "predicate": "OWNS",
+     "object": "南华经注",
+     "evidence": "张视几上有《南华经注》，因取就枕上，伏榻翻阅",
+     "confidence": 0.8
+    },
+    {
+     "subject": "舜华",
+     "predicate": "OWNS",
+     "object": "竹夫人",
+     "evidence": "乃向床头取竹夫人共跨之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张鸿渐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "讼案",
+     "evidence": "张许之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵某",
+     "predicate": "KILLED",
+     "object": "范生",
+     "evidence": "有范生被杖毙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵某",
+     "predicate": "HARMED",
+     "object": "张鸿渐",
+     "evidence": "赵以巨金纳大僚，诸生坐结党被收，又追捉刀人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "舜华",
+     "predicate": "HELPED",
+     "object": "张鸿渐",
+     "evidence": "女出，以手指械，械立脱，曳张共跨一马，驶如龙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "许翁",
+     "predicate": "HELPED",
+     "object": "张鸿渐",
+     "evidence": "翁留诲其少子",
+     "confidence": 0.85
+    },
+    {
+     "subject": "张鸿渐",
+     "predicate": "FRIEND",
+     "object": "许翁",
+     "evidence": "翁见仪貌都雅，知非赚食者，延入相款",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:32.508Z"
+}

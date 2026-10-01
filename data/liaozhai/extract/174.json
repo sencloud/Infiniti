@@ -1,0 +1,200 @@
+{
+ "no": 174,
+ "title": "鸦头",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2520,
+   "entities": [
+    {
+     "name": "王文",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东昌人，诚笃书生，与鸦头相恋成婚"
+    },
+    {
+     "name": "鸦头",
+     "type": "Spirit",
+     "aliases": [
+      "鸦女",
+      "鸦娘"
+     ],
+     "nickname": "",
+     "description": "狐女，年十四，被迫为妓，后与王文私奔"
+    },
+    {
+     "name": "赵东楼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "大贾，王文里戚，助王文与鸦头相会"
+    },
+    {
+     "name": "妮子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女，鸦头之姊，助母迫害鸦头"
+    },
+    {
+     "name": "王孜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王文与鸦头之子，孔武有力，能见鬼狐"
+    },
+    {
+     "name": "六河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王文遇鸦头之处"
+    },
+    {
+     "name": "汉江口",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王文与鸦头私奔后居此"
+    },
+    {
+     "name": "燕都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王文在此遇王孜"
+    },
+    {
+     "name": "育婴堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕都收养弃婴之所，王孜曾居于此"
+    },
+    {
+     "name": "东昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王文籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王文",
+     "predicate": "NATIVE_OF",
+     "object": "东昌",
+     "evidence": "诸生王文，东昌人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王文",
+     "predicate": "FRIEND",
+     "object": "赵东楼",
+     "evidence": "遇里戚赵东楼……见王，相执甚欢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王文",
+     "predicate": "LOVES",
+     "object": "鸦头",
+     "evidence": "王与女欢爱甚至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王文",
+     "predicate": "SPOUSE",
+     "object": "鸦头",
+     "evidence": "夫妇重谐，悲喜交至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王文",
+     "predicate": "LIVES_AT",
+     "object": "六河",
+     "evidence": "过六河，休于旅舍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王文",
+     "predicate": "LIVES_AT",
+     "object": "汉江口",
+     "evidence": "平明，至汉江口，税屋而止",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鸦头",
+     "predicate": "KIN",
+     "object": "妮子",
+     "evidence": "阿姊来矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鸦头",
+     "predicate": "KIN",
+     "object": "王孜",
+     "evidence": "生一男，弃诸曲巷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王文",
+     "predicate": "KIN",
+     "object": "王孜",
+     "evidence": "此君遗体也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妮子",
+     "predicate": "HARMED",
+     "object": "鸦头",
+     "evidence": "即出索子絷女颈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王孜",
+     "predicate": "KILLED",
+     "object": "妮子",
+     "evidence": "孜骤进杀之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王孜",
+     "predicate": "HELPED",
+     "object": "鸦头",
+     "evidence": "寻得母所，投石破扃，母子各失声",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵东楼",
+     "predicate": "HELPED",
+     "object": "王文",
+     "evidence": "赵知女性激烈，必当不允，故许以十金为助",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王文",
+     "predicate": "HELPED",
+     "object": "赵东楼",
+     "evidence": "心德赵，报以巨金",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王文",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私奔",
+     "evidence": "请以宵遁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "私奔",
+     "predicate": "OCCURRED_AT",
+     "object": "六河",
+     "evidence": "请以宵遁……至汉江口",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:20.826Z"
+}

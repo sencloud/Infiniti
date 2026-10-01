@@ -1,0 +1,108 @@
+{
+ "no": 235,
+ "title": "萧七",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1791,
+   "entities": [
+    {
+     "name": "徐继长",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临淄人，居磨房庄，业儒未成而为吏"
+    },
+    {
+     "name": "萧七",
+     "type": "Spirit",
+     "aliases": [
+      "七姐"
+     ],
+     "nickname": "",
+     "description": "狐女，萧姓行七，嫁徐继长"
+    },
+    {
+     "name": "徐妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐继长之妻，平善"
+    },
+    {
+     "name": "于氏殡宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "于氏墓地，狐宅幻化之处"
+    },
+    {
+     "name": "磨房庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "临淄城东，徐继长居所"
+    },
+    {
+     "name": "临淄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐继长籍贯"
+    },
+    {
+     "name": "绫巾",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "六姐袖中绫巾，被徐继长窃取"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "徐继长",
+     "predicate": "NATIVE_OF",
+     "object": "临淄",
+     "evidence": "徐继长，临淄人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐继长",
+     "predicate": "LIVES_AT",
+     "object": "磨房庄",
+     "evidence": "居城东之磨房庄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐继长",
+     "predicate": "SPOUSE",
+     "object": "萧七",
+     "evidence": "乃使小鬟引夫妇入帏，馆同爰止",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐继长",
+     "predicate": "SPOUSE",
+     "object": "徐妻",
+     "evidence": "告妻。妻戏为除馆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐继长",
+     "predicate": "OWNS",
+     "object": "绫巾",
+     "evidence": "见袖中有绫巾，窃之而出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐继长",
+     "predicate": "LIVES_AT",
+     "object": "于氏殡宫",
+     "evidence": "细认其处，乃于氏殡宫也",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:42.697Z"
+}

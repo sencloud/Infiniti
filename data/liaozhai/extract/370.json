@@ -1,0 +1,47 @@
+{
+ "no": 370,
+ "title": "刁姓",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 238,
+   "entities": [
+    {
+     "name": "刁姓",
+     "type": "Person",
+     "aliases": [
+      "刁"
+     ],
+     "nickname": "",
+     "description": "《刁姓》中无术相士，以诈术骗钱"
+    },
+    {
+     "name": "里人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《刁姓》中同乡人，客于外窥刁所为"
+    },
+    {
+     "name": "贵妇",
+     "type": "Person",
+     "aliases": [
+      "夫人"
+     ],
+     "nickname": "",
+     "description": "《刁姓》中微服混于众妇中的贵人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "里人",
+     "predicate": "HARMED",
+     "object": "刁姓",
+     "evidence": "里人归述其诈慧。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:29.495Z"
+}

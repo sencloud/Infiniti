@@ -1,0 +1,138 @@
+{
+ "no": 93,
+ "title": "黄九郎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2555,
+   "entities": [
+    {
+     "name": "何师参",
+     "type": "Person",
+     "aliases": [
+      "何子萧",
+      "何生",
+      "翰林"
+     ],
+     "nickname": "子萧",
+     "description": "字子萧，苕溪东岸书生，有断袖之癖，后借翰林尸还魂"
+    },
+    {
+     "name": "黄九郎",
+     "type": "Spirit",
+     "aliases": [
+      "九郎"
+     ],
+     "nickname": "",
+     "description": "狐精，排行第九，少年貌美，与何生相恋"
+    },
+    {
+     "name": "齐野王",
+     "type": "Person",
+     "aliases": [
+      "齐太医"
+     ],
+     "nickname": "",
+     "description": "太医，能制先天丹，诊出何生鬼脉"
+    },
+    {
+     "name": "巡抚",
+     "type": "Person",
+     "aliases": [
+      "抚公",
+      "中丞"
+     ],
+     "nickname": "",
+     "description": "原陕西贪暴藩王，升任中丞，后得九郎而病薨"
+    },
+    {
+     "name": "王太史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "何生好友，设宴献九郎于巡抚"
+    },
+    {
+     "name": "苕溪",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "何生书斋所在地，门临旷野"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "何师参",
+     "predicate": "LOVES",
+     "object": "黄九郎",
+     "evidence": "何生素有断袖之癖，睹之，神出于舍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄九郎",
+     "predicate": "LOVES",
+     "object": "何师参",
+     "evidence": "九郎细语曰：区区之意，实以相爱无益于弟，而有害于兄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何师参",
+     "predicate": "FRIEND",
+     "object": "黄九郎",
+     "evidence": "以君风雅士，故与流连",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何师参",
+     "predicate": "FRIEND",
+     "object": "王太史",
+     "evidence": "驰书与所善之王太史",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄九郎",
+     "predicate": "HELPED",
+     "object": "何师参",
+     "evidence": "九郎日来省侍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何师参",
+     "predicate": "HELPED",
+     "object": "黄九郎",
+     "evidence": "生入城求药，及暮付之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄九郎",
+     "predicate": "HELPED",
+     "object": "何师参",
+     "evidence": "九郎不得已，诺之",
+     "confidence": 0.85
+    },
+    {
+     "subject": "巡抚",
+     "predicate": "HARMED",
+     "object": "何师参",
+     "evidence": "抚疑其诈，必欲排陷之，使人索千金于公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何师参",
+     "predicate": "LIVES_AT",
+     "object": "苕溪",
+     "evidence": "斋于苕溪之东，门临旷野",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何师参",
+     "predicate": "OWNS",
+     "object": "先天丹",
+     "evidence": "藏其药，不以尽予",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:49.316Z"
+}

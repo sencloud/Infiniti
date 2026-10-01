@@ -1,0 +1,246 @@
+{
+ "no": 36,
+ "title": "王兰",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1176,
+   "entities": [
+    {
+     "name": "王兰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "利津人，暴死后成鬼仙，附张某身行医"
+    },
+    {
+     "name": "张某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王兰之友，被王兰附身行医致富"
+    },
+    {
+     "name": "鬼卒",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "误勾王兰魂的阴间差役"
+    },
+    {
+     "name": "贺才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张某同乡，酗酒赌博，死后魂附张某"
+    },
+    {
+     "name": "富翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "山西富室，女病愈后赠千金"
+    },
+    {
+     "name": "富翁之女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "山西富室女，魂亡被王兰寻回"
+    },
+    {
+     "name": "巡方御史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "巡查御史，获张某后梦神释之"
+    },
+    {
+     "name": "金甲人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "神人，托梦御史传达帝命"
+    },
+    {
+     "name": "阎王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间之主，覆勘王兰冤死"
+    },
+    {
+     "name": "利津",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王兰籍贯地"
+    },
+    {
+     "name": "山西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王兰与张某行医致富之地"
+    },
+    {
+     "name": "高第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐所居的楼阁府第"
+    },
+    {
+     "name": "铁围山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贺才被罚流放之地"
+    },
+    {
+     "name": "烟墩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王兰、张某、贺才聚饮处"
+    },
+    {
+     "name": "金丹",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐所炼之丹，吞之魂不散"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鬼卒",
+     "predicate": "HARMED",
+     "object": "王兰",
+     "evidence": "乃鬼卒之误勾也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鬼卒",
+     "predicate": "HELPED",
+     "object": "王兰",
+     "evidence": "鬼导去，入一高第",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王兰",
+     "predicate": "OWNS",
+     "object": "金丹",
+     "evidence": "付王吞之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王兰",
+     "predicate": "FRIEND",
+     "object": "张某",
+     "evidence": "其友张姓者，闻而省之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王兰",
+     "predicate": "HELPED",
+     "object": "张某",
+     "evidence": "今有术，可以致富。子能从我游乎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王兰",
+     "predicate": "HELPED",
+     "object": "富翁之女",
+     "evidence": "此魂亡也，当为觅之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张某",
+     "predicate": "HELPED",
+     "object": "富翁之女",
+     "evidence": "张乃请翁再入，又抚之",
+     "confidence": 0.85
+    },
+    {
+     "subject": "富翁",
+     "predicate": "HELPED",
+     "object": "张某",
+     "evidence": "果贻千金",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贺才",
+     "predicate": "FRIEND",
+     "object": "张某",
+     "evidence": "张于郊外遇同乡人贺才",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张某",
+     "predicate": "HELPED",
+     "object": "贺才",
+     "evidence": "张泻囊授之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贺才",
+     "predicate": "HARMED",
+     "object": "张某",
+     "evidence": "才实告金所自来。乃遣隶押才捉张",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巡方御史",
+     "predicate": "PUNISHED",
+     "object": "张某",
+     "evidence": "御史怒，笞而牒于神",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金甲人",
+     "predicate": "HELPED",
+     "object": "张某",
+     "evidence": "张某无罪，当宥之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金甲人",
+     "predicate": "PUNISHED",
+     "object": "贺才",
+     "evidence": "贺才邪荡，已罚窜铁围山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王兰",
+     "predicate": "LIVES_AT",
+     "object": "利津",
+     "evidence": "利津王兰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贺才",
+     "predicate": "LIVES_AT",
+     "object": "铁围山",
+     "evidence": "已罚窜铁围山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王兰",
+     "predicate": "PARTICIPATED_IN",
+     "object": "聚饮",
+     "evidence": "一日，聚饮于烟墩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "聚饮",
+     "predicate": "OCCURRED_AT",
+     "object": "烟墩",
+     "evidence": "聚饮于烟墩",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:27.674Z"
+}

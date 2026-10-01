@@ -1,0 +1,43 @@
+{
+ "no": 108,
+ "title": "于江",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 354,
+   "entities": [
+    {
+     "name": "于江",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乡民，十六岁，为父报仇杀狼"
+    },
+    {
+     "name": "于江父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "于江之父，宿田间为狼所食"
+    },
+    {
+     "name": "眢井",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "枯井，于江投狼尸处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "于江",
+     "predicate": "KIN",
+     "object": "于江父",
+     "evidence": "乡民于江，父宿田间",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:51.495Z"
+}

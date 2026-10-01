@@ -1,0 +1,234 @@
+{
+ "no": 415,
+ "title": "书痴",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1757,
+   "entities": [
+    {
+     "name": "郎玉柱",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "彭城人，书痴，后中进士"
+    },
+    {
+     "name": "颜如玉",
+     "type": "Spirit",
+     "aliases": [
+      "颜氏"
+     ],
+     "nickname": "",
+     "description": "书中仙女，自称颜氏，字如玉"
+    },
+    {
+     "name": "史公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "闽人，少年进士，邑宰"
+    },
+    {
+     "name": "观察使",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郎父同年，好佛，赠金马"
+    },
+    {
+     "name": "郎玉柱之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "颜如玉所生之子"
+    },
+    {
+     "name": "郎玉柱表亲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "司理官，逼郎纳妾"
+    },
+    {
+     "name": "彭城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郎玉柱籍贯"
+    },
+    {
+     "name": "闽",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史公籍贯及为官地"
+    },
+    {
+     "name": "《劝学篇》",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "郎父所书座右铭"
+    },
+    {
+     "name": "《汉书》",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "第八卷夹藏颜如玉"
+    },
+    {
+     "name": "金辇",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "镀金车，尺余，献作佛龛"
+    },
+    {
+     "name": "科举考试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "郎玉柱参加科考，中举人进士"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "郎玉柱",
+     "predicate": "NATIVE_OF",
+     "object": "彭城",
+     "evidence": "彭城郎玉柱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "OWNS",
+     "object": "《劝学篇》",
+     "evidence": "父在时，曾书《劝学篇》黏其座右",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "OWNS",
+     "object": "《汉书》",
+     "evidence": "读《汉书》至八卷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "OWNS",
+     "object": "金辇",
+     "evidence": "于乱卷中得金辇径尺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "HELPED",
+     "object": "观察使",
+     "evidence": "劝郎献辇为佛龛。观察大悦",
+     "confidence": 0.8
+    },
+    {
+     "subject": "观察使",
+     "predicate": "HELPED",
+     "object": "郎玉柱",
+     "evidence": "赠金三百、马二匹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "LOVES",
+     "object": "颜如玉",
+     "evidence": "郎喜，遂与寝处。然枕席间亲爱倍至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "SPOUSE",
+     "object": "颜如玉",
+     "evidence": "遂与寝处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "颜如玉",
+     "predicate": "HELPED",
+     "object": "郎玉柱",
+     "evidence": "女乃日与饮博，郎遂乐而忘读。女又纵之出门，使结客",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "KIN",
+     "object": "郎玉柱之子",
+     "evidence": "女果举一男",
+     "confidence": 0.95
+    },
+    {
+     "subject": "颜如玉",
+     "predicate": "KIN",
+     "object": "郎玉柱之子",
+     "evidence": "女果举一男",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史公",
+     "predicate": "HARMED",
+     "object": "郎玉柱",
+     "evidence": "宰怒，收郎，斥革衣衿，梏械备加",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史公",
+     "predicate": "HARMED",
+     "object": "颜如玉",
+     "evidence": "因而拘郎及女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "PUNISHED",
+     "object": "史公",
+     "evidence": "访史恶款，籍其家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科举考试",
+     "evidence": "是年秋捷，次年举进士",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郎玉柱",
+     "predicate": "LIVES_AT",
+     "object": "彭城",
+     "evidence": "彭城郎玉柱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史公",
+     "predicate": "NATIVE_OF",
+     "object": "闽",
+     "evidence": "史，闽人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郎玉柱表亲",
+     "predicate": "KIN",
+     "object": "郎玉柱",
+     "evidence": "时有中表为司理",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郎玉柱表亲",
+     "predicate": "HELPED",
+     "object": "郎玉柱",
+     "evidence": "逼纳爱妾，托言买婢寄署中",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:51.750Z"
+}

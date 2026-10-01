@@ -1,0 +1,92 @@
+{
+ "no": 355,
+ "title": "牧竖",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 231,
+   "entities": [
+    {
+     "name": "牧竖甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《牧竖》中两牧童之一，捉小狼登树"
+    },
+    {
+     "name": "牧竖乙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《牧竖》中两牧童之一，捉小狼登树"
+    },
+    {
+     "name": "大狼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《牧竖》中被牧童戏弄至死的狼"
+    },
+    {
+     "name": "小狼甲",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《牧竖》中狼穴里的小狼之一"
+    },
+    {
+     "name": "小狼乙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《牧竖》中狼穴里的小狼之一"
+    },
+    {
+     "name": "狼穴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《牧竖》中山里的大狼洞穴"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "牧竖甲",
+     "predicate": "HARMED",
+     "object": "大狼",
+     "evidence": "竖于树上扭小狼蹄耳故令嗥",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牧竖乙",
+     "predicate": "HARMED",
+     "object": "大狼",
+     "evidence": "其一竖又在彼树致小狼鸣急",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大狼",
+     "predicate": "KIN",
+     "object": "小狼甲",
+     "evidence": "穴有小狼二",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大狼",
+     "predicate": "KIN",
+     "object": "小狼乙",
+     "evidence": "穴有小狼二",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大狼",
+     "predicate": "LIVES_AT",
+     "object": "狼穴",
+     "evidence": "入穴失子",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:26.048Z"
+}

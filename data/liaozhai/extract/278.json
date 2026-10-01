@@ -1,0 +1,187 @@
+{
+ "no": 278,
+ "title": "胡四娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1849,
+   "entities": [
+    {
+     "name": "程孝思",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "剑南人，胡四娘之夫，后为官"
+    },
+    {
+     "name": "胡四娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "贵人",
+     "description": "胡银台幼女，程孝思之妻"
+    },
+    {
+     "name": "胡银台",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡公，通政司官，四娘之父"
+    },
+    {
+     "name": "李氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡公爱妾，三娘之母"
+    },
+    {
+     "name": "桂儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "四娘婢女"
+    },
+    {
+     "name": "春香",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "二娘婢女"
+    },
+    {
+     "name": "大郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡公长子"
+    },
+    {
+     "name": "李兰台",
+     "type": "Person",
+     "aliases": [
+      "李公"
+     ],
+     "nickname": "",
+     "description": "东海御史，程孝思恩主"
+    },
+    {
+     "name": "剑南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "程孝思籍贯地"
+    },
+    {
+     "name": "都",
+     "type": "Place",
+     "aliases": [
+      "京城"
+     ],
+     "nickname": "",
+     "description": "京城，程孝思赴考为官地"
+    },
+    {
+     "name": "邑庠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县学"
+    },
+    {
+     "name": "顺天举",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "顺天府科举考试"
+    },
+    {
+     "name": "科试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "学使主持的科举考试"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "程孝思",
+     "predicate": "SPOUSE",
+     "object": "胡四娘",
+     "evidence": "遂赘程",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡银台",
+     "predicate": "KIN",
+     "object": "胡四娘",
+     "evidence": "止有少女四娘，孽出",
+     "confidence": 0.95
+    },
+    {
+     "subject": "桂儿",
+     "predicate": "HELPED",
+     "object": "胡四娘",
+     "evidence": "桂儿噪诉四娘",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李氏",
+     "predicate": "HELPED",
+     "object": "胡四娘",
+     "evidence": "恒礼重四娘，往往相顾恤",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程孝思",
+     "predicate": "NATIVE_OF",
+     "object": "剑南",
+     "evidence": "程孝思，剑南人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "程孝思",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科试",
+     "evidence": "学使科试士",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程孝思",
+     "predicate": "PARTICIPATED_IN",
+     "object": "顺天举",
+     "evidence": "使应顺天举",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程孝思",
+     "predicate": "LIVES_AT",
+     "object": "都",
+     "evidence": "携卷入都",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程孝思",
+     "predicate": "HELPED",
+     "object": "李氏",
+     "evidence": "迎养若母焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李兰台",
+     "predicate": "HELPED",
+     "object": "程孝思",
+     "evidence": "收诸幕中，资以膏火",
+     "confidence": 0.95
+    },
+    {
+     "subject": "桂儿",
+     "predicate": "HARMED",
+     "object": "春香",
+     "evidence": "桂儿逼索眼睛",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:59.369Z"
+}

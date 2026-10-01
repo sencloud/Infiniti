@@ -1,0 +1,176 @@
+{
+ "no": 208,
+ "title": "窦氏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1285,
+   "entities": [
+    {
+     "name": "南三复",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋阳世家子弟，负心人"
+    },
+    {
+     "name": "窦廷章",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "窦女之父，农民"
+    },
+    {
+     "name": "窦女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "窦廷章之女，与南三复相恋"
+    },
+    {
+     "name": "曹进士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹女之父，进士"
+    },
+    {
+     "name": "曹女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹进士之女，南三复续娶"
+    },
+    {
+     "name": "姚孝廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "姚女之父，孝廉"
+    },
+    {
+     "name": "姚女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "姚孝廉之女，新葬被盗"
+    },
+    {
+     "name": "晋阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南三复籍贯地"
+    },
+    {
+     "name": "窦家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "窦廷章家，小村农舍"
+    },
+    {
+     "name": "南家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南三复家"
+    },
+    {
+     "name": "后园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南家后园，新娘自缢处"
+    },
+    {
+     "name": "官府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "审理案件的官署"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "南三复",
+     "predicate": "NATIVE_OF",
+     "object": "晋阳",
+     "evidence": "南三复，晋阳世家也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "南三复",
+     "predicate": "LOVES",
+     "object": "窦女",
+     "evidence": "南心动。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "南三复",
+     "predicate": "HARMED",
+     "object": "窦女",
+     "evidence": "南遂绝迹不往。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "窦女",
+     "predicate": "KIN",
+     "object": "窦廷章",
+     "evidence": "父怒搒女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "窦女",
+     "predicate": "KIN",
+     "object": "南三复",
+     "evidence": "女临蓐，产一男。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "窦廷章",
+     "predicate": "HARMED",
+     "object": "窦女",
+     "evidence": "父怒搒女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "南三复",
+     "predicate": "PARTICIPATED_IN",
+     "object": "行赂",
+     "evidence": "以千金行赂得免",
+     "confidence": 0.9
+    },
+    {
+     "subject": "窦女",
+     "predicate": "KILLED",
+     "object": "曹女",
+     "evidence": "必勿许负心郎。若许，我必杀之！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹女",
+     "predicate": "KIN",
+     "object": "曹进士",
+     "evidence": "曹进士女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "南三复",
+     "predicate": "SPOUSE",
+     "object": "曹女",
+     "evidence": "远于百里外聘曹进士女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "姚女",
+     "predicate": "KIN",
+     "object": "姚孝廉",
+     "evidence": "姚孝廉女",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:32.787Z"
+}

@@ -1,0 +1,940 @@
+{
+ "no": 92,
+ "title": "第九十二回 振军威小李广神箭 打盖郡智多星密筹",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5618,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，率军攻打盖州"
+    },
+    {
+     "name": "卢俊义",
+     "type": "Person",
+     "aliases": [
+      "玉麒麟",
+      "卢员外",
+      "河北玉麒麟",
+      "卢俊义员外"
+     ],
+     "nickname": "玉麒麟",
+     "description": "梁山泊副首领，随宋江攻打盖州"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，策划攻城"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "小李广",
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "梁山泊神箭手，射杀方琼、张翔、杨端"
+    },
+    {
+     "name": "孙立",
+     "type": "Person",
+     "aliases": [
+      "病尉迟",
+      "孙提辖"
+     ],
+     "nickname": "病尉迟",
+     "description": "梁山泊将领，阵前斗方琼"
+    },
+    {
+     "name": "秦明",
+     "type": "Person",
+     "aliases": [
+      "霹雳火",
+      "秦统制"
+     ],
+     "nickname": "霹雳火",
+     "description": "梁山泊将领，力敌张翔、郭信"
+    },
+    {
+     "name": "索超",
+     "type": "Person",
+     "aliases": [
+      "急先锋",
+      "索超将军"
+     ],
+     "nickname": "急先锋",
+     "description": "梁山泊将领，参与攻城"
+    },
+    {
+     "name": "董平",
+     "type": "Person",
+     "aliases": [
+      "双枪将",
+      "董都监"
+     ],
+     "nickname": "双枪将",
+     "description": "梁山泊将领，率左翼冲杀"
+    },
+    {
+     "name": "黄信",
+     "type": "Person",
+     "aliases": [
+      "镇三山"
+     ],
+     "nickname": "镇三山",
+     "description": "梁山泊将领，率右翼冲杀"
+    },
+    {
+     "name": "欧鹏",
+     "type": "Person",
+     "aliases": [
+      "摩云金翅"
+     ],
+     "nickname": "摩云金翅",
+     "description": "梁山泊将领，寨左埋伏"
+    },
+    {
+     "name": "邓飞",
+     "type": "Person",
+     "aliases": [
+      "火眼狻猊"
+     ],
+     "nickname": "火眼狻猊",
+     "description": "梁山泊将领，寨左埋伏"
+    },
+    {
+     "name": "燕顺",
+     "type": "Person",
+     "aliases": [
+      "锦毛虎"
+     ],
+     "nickname": "锦毛虎",
+     "description": "梁山泊将领，寨左埋伏"
+    },
+    {
+     "name": "马麟",
+     "type": "Person",
+     "aliases": [
+      "铁笛仙"
+     ],
+     "nickname": "铁笛仙",
+     "description": "梁山泊将领，寨左埋伏"
+    },
+    {
+     "name": "王英",
+     "type": "Person",
+     "aliases": [
+      "矮脚虎"
+     ],
+     "nickname": "矮脚虎",
+     "description": "梁山泊将领，寨右埋伏，杀死王吉"
+    },
+    {
+     "name": "陈达",
+     "type": "Person",
+     "aliases": [
+      "跳涧虎"
+     ],
+     "nickname": "跳涧虎",
+     "description": "梁山泊将领，寨右埋伏"
+    },
+    {
+     "name": "杨春",
+     "type": "Person",
+     "aliases": [
+      "白花蛇"
+     ],
+     "nickname": "白花蛇",
+     "description": "梁山泊将领，寨右埋伏"
+    },
+    {
+     "name": "李忠",
+     "type": "Person",
+     "aliases": [
+      "打虎将"
+     ],
+     "nickname": "打虎将",
+     "description": "梁山泊将领，寨右埋伏"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "花和尚",
+      "鲁提辖",
+      "鲁达"
+     ],
+     "nickname": "花和尚",
+     "description": "梁山泊将领，寨中埋伏"
+    },
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "梁山泊将领，砍死沈安"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山泊将领，寨中埋伏，拦截钮文忠"
+    },
+    {
+     "name": "鲍旭",
+     "type": "Person",
+     "aliases": [
+      "丧门神"
+     ],
+     "nickname": "丧门神",
+     "description": "梁山泊将领，寨中埋伏"
+    },
+    {
+     "name": "项充",
+     "type": "Person",
+     "aliases": [
+      "八臂哪吒"
+     ],
+     "nickname": "八臂哪吒",
+     "description": "梁山泊将领，寨中埋伏"
+    },
+    {
+     "name": "李衮",
+     "type": "Person",
+     "aliases": [
+      "飞天大圣"
+     ],
+     "nickname": "飞天大圣",
+     "description": "梁山泊将领，寨中埋伏"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山泊将领，攻打东门"
+    },
+    {
+     "name": "宣赞",
+     "type": "Person",
+     "aliases": [
+      "丑郡马",
+      "郡马"
+     ],
+     "nickname": "丑郡马",
+     "description": "梁山泊将领，攻打东门"
+    },
+    {
+     "name": "郝思文",
+     "type": "Person",
+     "aliases": [
+      "井木犴"
+     ],
+     "nickname": "井木犴",
+     "description": "梁山泊将领，攻打东门"
+    },
+    {
+     "name": "徐宁",
+     "type": "Person",
+     "aliases": [
+      "金枪手",
+      "徐教师"
+     ],
+     "nickname": "金枪手",
+     "description": "梁山泊将领，攻打南门，戳死安士荣"
+    },
+    {
+     "name": "韩滔",
+     "type": "Person",
+     "aliases": [
+      "百胜将"
+     ],
+     "nickname": "百胜将",
+     "description": "梁山泊将领，攻打南门"
+    },
+    {
+     "name": "彭玘",
+     "type": "Person",
+     "aliases": [
+      "天目将"
+     ],
+     "nickname": "天目将",
+     "description": "梁山泊将领，攻打南门"
+    },
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "青面兽",
+      "杨制使"
+     ],
+     "nickname": "青面兽",
+     "description": "梁山泊将领，攻打西门"
+    },
+    {
+     "name": "单廷珪",
+     "type": "Person",
+     "aliases": [
+      "圣水将"
+     ],
+     "nickname": "圣水将",
+     "description": "梁山泊将领，攻打西门"
+    },
+    {
+     "name": "魏定国",
+     "type": "Person",
+     "aliases": [
+      "神火将"
+     ],
+     "nickname": "神火将",
+     "description": "梁山泊将领，攻打西门"
+    },
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "九纹龙",
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "梁山泊将领，埋伏城东北"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [
+      "美髯公",
+      "朱都头"
+     ],
+     "nickname": "美髯公",
+     "description": "梁山泊将领，埋伏城东北"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "梁山泊将领，埋伏城东北"
+    },
+    {
+     "name": "张青",
+     "type": "Person",
+     "aliases": [
+      "菜园子"
+     ],
+     "nickname": "菜园子",
+     "description": "梁山泊将领，游骑探听"
+    },
+    {
+     "name": "孙新",
+     "type": "Person",
+     "aliases": [
+      "小尉迟"
+     ],
+     "nickname": "小尉迟",
+     "description": "梁山泊将领，游骑探听"
+    },
+    {
+     "name": "李立",
+     "type": "Person",
+     "aliases": [
+      "催命判官"
+     ],
+     "nickname": "催命判官",
+     "description": "梁山泊将领，游骑探听"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "梁山泊将领，步兵策应"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎",
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "梁山泊将领，步兵策应"
+    },
+    {
+     "name": "李云",
+     "type": "Person",
+     "aliases": [
+      "青眼虎"
+     ],
+     "nickname": "青眼虎",
+     "description": "梁山泊将领，督修云梯飞楼"
+    },
+    {
+     "name": "汤隆",
+     "type": "Person",
+     "aliases": [
+      "金钱豹子"
+     ],
+     "nickname": "金钱豹子",
+     "description": "梁山泊将领，督修云梯飞楼"
+    },
+    {
+     "name": "时迁",
+     "type": "Person",
+     "aliases": [
+      "鼓上蚤"
+     ],
+     "nickname": "鼓上蚤",
+     "description": "梁山泊将领，混入城中放火"
+    },
+    {
+     "name": "石秀",
+     "type": "Person",
+     "aliases": [
+      "拚命三郎",
+      "石三郎"
+     ],
+     "nickname": "拚命三郎",
+     "description": "梁山泊将领，混入城中放火"
+    },
+    {
+     "name": "凌振",
+     "type": "Person",
+     "aliases": [
+      "轰天雷"
+     ],
+     "nickname": "轰天雷",
+     "description": "梁山泊将领，携带号炮"
+    },
+    {
+     "name": "解珍",
+     "type": "Person",
+     "aliases": [
+      "两头蛇",
+      "解珍猎户"
+     ],
+     "nickname": "两头蛇",
+     "description": "梁山泊将领，攀城杀敌"
+    },
+    {
+     "name": "解宝",
+     "type": "Person",
+     "aliases": [
+      "双尾蝎",
+      "解宝猎户"
+     ],
+     "nickname": "双尾蝎",
+     "description": "梁山泊将领，搠翻褚亨"
+    },
+    {
+     "name": "杨雄",
+     "type": "Person",
+     "aliases": [
+      "病关索",
+      "杨节级"
+     ],
+     "nickname": "病关索",
+     "description": "梁山泊将领，备火把依计而行"
+    },
+    {
+     "name": "郁保四",
+     "type": "Person",
+     "aliases": [
+      "险道神"
+     ],
+     "nickname": "险道神",
+     "description": "梁山泊将领，备火把依计而行"
+    },
+    {
+     "name": "段景住",
+     "type": "Person",
+     "aliases": [
+      "金毛犬"
+     ],
+     "nickname": "金毛犬",
+     "description": "梁山泊将领，备火把依计而行"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山泊将领，密传号令"
+    },
+    {
+     "name": "钮文忠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州守将，枢密使，绿林出身"
+    },
+    {
+     "name": "方琼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "猊威将",
+     "description": "盖州四威将之一，被花荣射中面门，孙立结果"
+    },
+    {
+     "name": "安士荣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "貔威将",
+     "description": "盖州四威将之一，劫寨失败，被徐宁戳死"
+    },
+    {
+     "name": "褚亨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "彪威将",
+     "description": "盖州四威将之一，被解宝搠翻，解珍剁头"
+    },
+    {
+     "name": "于玉麟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "熊威将",
+     "description": "盖州四威将之一，随钮文忠出逃"
+    },
+    {
+     "name": "杨端",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被花荣射中咽喉"
+    },
+    {
+     "name": "郭信",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，与秦明交战"
+    },
+    {
+     "name": "苏吉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，出城迎敌"
+    },
+    {
+     "name": "张翔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被花荣射中后心"
+    },
+    {
+     "name": "沈安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被武松砍死"
+    },
+    {
+     "name": "王吉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被王英杀死"
+    },
+    {
+     "name": "卢元",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，劫寨被围"
+    },
+    {
+     "name": "石敬",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被宋兵杀死"
+    },
+    {
+     "name": "秦升",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被宋兵杀死"
+    },
+    {
+     "name": "莫真",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被乱兵所杀"
+    },
+    {
+     "name": "赫仁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被乱兵所杀"
+    },
+    {
+     "name": "曹洪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，被乱兵所杀"
+    },
+    {
+     "name": "石逊",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州偏将，身带重伤"
+    },
+    {
+     "name": "田虎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "占据宋朝州郡造反，钮文忠资助"
+    },
+    {
+     "name": "田彪",
+     "type": "Person",
+     "aliases": [
+      "三大王"
+     ],
+     "nickname": "三大王",
+     "description": "田虎兄弟，晋宁守将，遣王远救援盖州"
+    },
+    {
+     "name": "王远",
+     "type": "Person",
+     "aliases": [
+      "凤翔王远"
+     ],
+     "nickname": "凤翔王远",
+     "description": "田彪部下猛将，领兵救援盖州，被伏击败逃"
+    },
+    {
+     "name": "耿恭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临川降将，为吴用指路"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江等好汉聚义势力"
+    },
+    {
+     "name": "盖州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "钮文忠据守的州城"
+    },
+    {
+     "name": "威胜",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "田虎势力所在，发令旨处"
+    },
+    {
+     "name": "晋宁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "田彪守地，发救兵处"
+    },
+    {
+     "name": "陵川",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "被宋军攻破的城池"
+    },
+    {
+     "name": "高平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "被宋军攻破的城池"
+    },
+    {
+     "name": "阳城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王远救兵经过之地"
+    },
+    {
+     "name": "当境土地神祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "盖州城内神祠，时迁石秀藏身"
+    },
+    {
+     "name": "盖州之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江率梁山军攻打盖州钮文忠"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江统领军兵人马，分五队进发，来打盖州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钮文忠",
+     "predicate": "LEADS",
+     "object": "盖州",
+     "evidence": "钮文忠同正偏将佐，统领着三万北兵，据守盖州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钮文忠",
+     "predicate": "SERVED",
+     "object": "田虎",
+     "evidence": "尽行资助田虎，同谋造反，占据宋朝州郡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方琼",
+     "predicate": "MEMBER_OF",
+     "object": "盖州",
+     "evidence": "那四员？猊威将方琼，貔威将安士荣，彪威将褚亨，熊威将于玉麟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安士荣",
+     "predicate": "MEMBER_OF",
+     "object": "盖州",
+     "evidence": "那四员？猊威将方琼，貔威将安士荣，彪威将褚亨，熊威将于玉麟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "褚亨",
+     "predicate": "MEMBER_OF",
+     "object": "盖州",
+     "evidence": "那四员？猊威将方琼，貔威将安士荣，彪威将褚亨，熊威将于玉麟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "于玉麟",
+     "predicate": "MEMBER_OF",
+     "object": "盖州",
+     "evidence": "那四员？猊威将方琼，貔威将安士荣，彪威将褚亨，熊威将于玉麟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙立",
+     "predicate": "FOUGHT",
+     "object": "方琼",
+     "evidence": "拍马直抢方琼。二将在征尘影里，杀气业中，斗过三十余合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "KILLED",
+     "object": "方琼",
+     "evidence": "觑定方琼较亲，飕的只一箭，正中方琼面门，翻身落马。孙立赶上，一枪结果",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张翔",
+     "predicate": "FOUGHT",
+     "object": "孙立",
+     "evidence": "张翔见射不倒孙立，飞马提刀，又来助战",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "FOUGHT",
+     "object": "张翔",
+     "evidence": "张翔与秦明厮杀，秦明那条棍不离张翔的顶门上下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "KILLED",
+     "object": "张翔",
+     "evidence": "正中张翔后心，射个透明，那枝箭直透前胸而出",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭信",
+     "predicate": "FOUGHT",
+     "object": "秦明",
+     "evidence": "北阵里郭信，拍马拈枪，来助张翔。秦明力敌二将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "钮文忠",
+     "predicate": "ATTACKED",
+     "object": "宋江",
+     "evidence": "钮文忠恐方琼有失，令安士荣、于玉麟，各领五千军马，分两路合杀拢来",
+     "confidence": 0.85
+    },
+    {
+     "subject": "安士荣",
+     "predicate": "PARTICIPATED_IN",
+     "object": "盖州之战",
+     "evidence": "当有貔威将安士荣献计道：……今夜安某领一支兵去劫寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "KILLED",
+     "object": "沈安",
+     "evidence": "沈安被武松一戒刀砍死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王英",
+     "predicate": "KILLED",
+     "object": "王吉",
+     "evidence": "王吉被王英杀死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钮文忠",
+     "predicate": "RESCUED",
+     "object": "安士荣",
+     "evidence": "却得钮文忠同偏将曹洪、石逊领兵救应",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "KILLED",
+     "object": "杨端",
+     "evidence": "觑定杨端较亲，只一箭正中杨端咽喉，扑通的望后便倒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "时迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "盖州之战",
+     "evidence": "便唤时迁、石秀近前，密语道：……相机行事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "PARTICIPATED_IN",
+     "object": "盖州之战",
+     "evidence": "便唤时迁、石秀近前，密语道：……相机行事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "KILLED",
+     "object": "道人",
+     "evidence": "被石秀从背后槅察的一刀，割下头来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解宝",
+     "predicate": "DEFEATED",
+     "object": "褚亨",
+     "evidence": "褚亨见二人上城，挺枪来斗了十数合，被解宝一朴刀搠翻",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解珍",
+     "predicate": "KILLED",
+     "object": "褚亨",
+     "evidence": "解珍赶上，剁下头来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "KILLED",
+     "object": "安士荣",
+     "evidence": "安士荣抵敌不住，被徐宁戳死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "FOUGHT",
+     "object": "王远",
+     "evidence": "史进、朱仝、穆弘、马麟、黄信、孙立、欧鹏、邓飞八员猛将，一万雄兵，卷杀过来",
+     "confidence": 0.85
+    },
+    {
+     "subject": "王远",
+     "predicate": "SURRENDERED_TO",
+     "object": "田彪",
+     "evidence": "田彪，接了盖州求救文书，便遣部下猛将凤翔王远，领兵二万，前来救援",
+     "confidence": 0.85
+    },
+    {
+     "subject": "钮文忠",
+     "predicate": "STATIONED_AT",
+     "object": "盖州",
+     "evidence": "钮文忠同正偏将佐，统领着三万北兵，据守盖州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "ATTACKED",
+     "object": "盖州",
+     "evidence": "宋江统领军兵人马，分五队进发，来打盖州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "盖州之战",
+     "predicate": "OCCURRED_AT",
+     "object": "盖州",
+     "evidence": "宋江统领军兵人马，分五队进发，来打盖州",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:36:11.458Z"
+}

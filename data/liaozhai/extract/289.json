@@ -1,0 +1,139 @@
+{
+ "no": 289,
+ "title": "金和尚",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1305,
+   "entities": [
+    {
+     "name": "金和尚",
+     "type": "Person",
+     "aliases": [
+      "金太公"
+     ],
+     "nickname": "太公",
+     "description": "诸城人，五莲山寺僧，后暴富，买异姓儿为子"
+    },
+    {
+     "name": "金和尚父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "无赖，鬻子于五莲山寺"
+    },
+    {
+     "name": "金和尚本师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五莲山寺僧，金和尚之师，死后遗金"
+    },
+    {
+     "name": "金和尚养子",
+     "type": "Person",
+     "aliases": [
+      "孝廉",
+      "太学生"
+     ],
+     "nickname": "",
+     "description": "金和尚买异姓儿为子，中举，称孝廉"
+    },
+    {
+     "name": "金和尚夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孝廉夫人，灵帏后细泣"
+    },
+    {
+     "name": "五莲山寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金和尚被鬻入寺之处"
+    },
+    {
+     "name": "水坡里",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金和尚买田宅之处"
+    },
+    {
+     "name": "诸城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金和尚籍贯"
+    },
+    {
+     "name": "金和尚丧葬",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "金和尚死后盛大殡葬之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "金和尚",
+     "predicate": "NATIVE_OF",
+     "object": "诸城",
+     "evidence": "金和尚，诸城人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金和尚父",
+     "predicate": "KIN",
+     "object": "金和尚",
+     "evidence": "父无赖，以数百钱鬻子五莲山寺。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金和尚",
+     "predicate": "LIVES_AT",
+     "object": "五莲山寺",
+     "evidence": "父无赖，以数百钱鬻子五莲山寺。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金和尚",
+     "predicate": "LIVES_AT",
+     "object": "水坡里",
+     "evidence": "买田宅于水坡里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金和尚",
+     "predicate": "KIN",
+     "object": "金和尚养子",
+     "evidence": "金又买异姓儿，私子之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金和尚养子",
+     "predicate": "KIN",
+     "object": "金和尚夫人",
+     "evidence": "惟孝廉夫人一而已",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金和尚",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金和尚丧葬",
+     "evidence": "无何，太公僧薨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金和尚丧葬",
+     "predicate": "OCCURRED_AT",
+     "object": "水坡里",
+     "evidence": "买田宅于水坡里",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:02.034Z"
+}

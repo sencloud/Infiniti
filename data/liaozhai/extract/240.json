@@ -1,0 +1,158 @@
+{
+ "no": 240,
+ "title": "饿鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 603,
+   "entities": [
+    {
+     "name": "马永",
+     "type": "Person",
+     "aliases": [
+      "饿鬼",
+      "马儿"
+     ],
+     "nickname": "饿鬼",
+     "description": "齐人，贪婪无赖，后投胎为朱叟之子"
+    },
+    {
+     "name": "朱叟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中老者，曾助马永，后得子马儿"
+    },
+    {
+     "name": "学官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "县学教官，曾纵容马永勒索"
+    },
+    {
+     "name": "某生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "殷富秀才，被马永勒索"
+    },
+    {
+     "name": "县尹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "县令，审断马永案"
+    },
+    {
+     "name": "狂生某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "以茜根欺骗马儿之秀才"
+    },
+    {
+     "name": "临邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻近的县，马永曾去，马儿任训导"
+    },
+    {
+     "name": "学宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县学，马永曾夜宿于此"
+    },
+    {
+     "name": "旅邸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "旅店，马儿考试时寓居"
+    },
+    {
+     "name": "五都之市",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "繁华都市，朱叟少时居此"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "朱叟",
+     "predicate": "HELPED",
+     "object": "马永",
+     "evidence": "怜之，代给其直。引归，赠以数百，俾作本。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马永",
+     "predicate": "HARMED",
+     "object": "某生",
+     "evidence": "登门强索赀，故挑其怒，乃以刀自劙，诬而控诸学。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "学官",
+     "predicate": "HARMED",
+     "object": "某生",
+     "evidence": "学官勒取重赂，始免申黜。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "县尹",
+     "predicate": "PUNISHED",
+     "object": "马永",
+     "evidence": "尹廉得实，笞四十，梏其颈，三日毙焉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马永",
+     "predicate": "LIVES_AT",
+     "object": "学宫",
+     "evidence": "暮宿学宫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱叟",
+     "predicate": "LIVES_AT",
+     "object": "五都之市",
+     "evidence": "少携妻居于五都之市",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马儿",
+     "predicate": "LIVES_AT",
+     "object": "旅邸",
+     "evidence": "后考试寓旅邸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马儿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "考试",
+     "evidence": "后考试寓旅邸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狂生某",
+     "predicate": "HARMED",
+     "object": "马儿",
+     "evidence": "有狂生某，剉茜根绐之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马永",
+     "predicate": "KIN",
+     "object": "朱叟",
+     "evidence": "朱叟梦马冠带而入，曰：“负公大德，今来相报。”既寤，妾举子。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:44.757Z"
+}

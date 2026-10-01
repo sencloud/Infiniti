@@ -1,0 +1,45 @@
+{
+ "no": 27,
+ "title": "狐入瓶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 118,
+   "entities": [
+    {
+     "name": "石氏之妇",
+     "type": "Person",
+     "aliases": [
+      "妇"
+     ],
+     "nickname": "",
+     "description": "万村石家儿媳，被狐祟所扰"
+    },
+    {
+     "name": "万村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "石氏所居之村"
+    },
+    {
+     "name": "瓶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "门后之瓶，狐藏身之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "石氏之妇",
+     "predicate": "LIVES_AT",
+     "object": "万村",
+     "evidence": "万村石氏之妇",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:21.254Z"
+}

@@ -1,0 +1,376 @@
+{
+ "no": 67,
+ "title": "拯救驼罗禅性稳 脱离秽污道心清",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5816,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐高僧，前往西天取经"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "美猴王",
+      "齐天大圣",
+      "悟空"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "李老者",
+     "type": "Person",
+     "aliases": [
+      "老李",
+      "李施主"
+     ],
+     "nickname": "",
+     "description": "驼罗庄李姓老者，留宿唐僧师徒"
+    },
+    {
+     "name": "红鳞大蟒",
+     "type": "Person",
+     "aliases": [
+      "妖精",
+      "怪物",
+      "大蟒"
+     ],
+     "nickname": "",
+     "description": "七绝山稀柿衕红鳞大蟒怪，被孙悟空打死"
+    },
+    {
+     "name": "驼罗庄",
+     "type": "Organization",
+     "aliases": [
+      "李家庄"
+     ],
+     "nickname": "",
+     "description": "七绝山附近村庄，有五百余人家"
+    },
+    {
+     "name": "七绝山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "驼罗庄西三十余里，满山柿树"
+    },
+    {
+     "name": "稀柿衕",
+     "type": "Place",
+     "aliases": [
+      "稀屎衕"
+     ],
+     "nickname": "",
+     "description": "七绝山夹石胡同，被烂柿子填满污秽"
+    },
+    {
+     "name": "小西天",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "驼罗庄附近地名"
+    },
+    {
+     "name": "打死红鳞大蟒",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空与猪八戒在七绝山打死红鳞大蟒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏勒马道：\"徒弟啊，天色晚矣，往那条路上求宿去？\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏勒马道：\"徒弟啊，天色晚矣，往那条路上求宿去？\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "三藏勒马道：\"徒弟啊，天色晚矣，往那条路上求宿去？\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒笑道：\"沙僧，你在这里护持，让老猪去帮打帮打\"",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "八戒笑道：\"沙僧，你在这里护持，让老猪去帮打帮打\"",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "八戒笑道：\"沙僧，你在这里护持，让老猪去帮打帮打\"",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李老者",
+     "predicate": "MEMBER_OF",
+     "object": "驼罗庄",
+     "evidence": "老者道：\"不是，这里唤做驼罗庄，共有五百多人家居住。别姓俱多，惟我姓李。\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红鳞大蟒",
+     "predicate": "STATIONED_AT",
+     "object": "七绝山",
+     "evidence": "那怪不敢恋战，回头就走。行者与八戒一齐赶来，忽闻得污秽之气熏人，乃是七绝山稀柿衕也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "红鳞大蟒",
+     "evidence": "好行者，纵身打个唿哨跳到空中，执铁棒厉声高叫道：\"慢来！慢来！有吾在此！\"那怪见了，挺住身躯，将一根长枪乱舞。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "红鳞大蟒",
+     "evidence": "好呆子，就跳起云头，赶上就筑，那怪物又使一条枪抵住。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "红鳞大蟒",
+     "evidence": "那厮忍疼挣命，往前一撺，比使风更快，撺回旧路，下了山有二十余里，却才倒在尘埃，动荡不得，呜呼丧矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "红鳞大蟒",
+     "evidence": "那厮忍疼挣命，往前一撺，比使风更快，撺回旧路，下了山有二十余里，却才倒在尘埃，动荡不得，呜呼丧矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "打死红鳞大蟒",
+     "evidence": "行者与八戒拖着一条大蟒，吆吆喝喝前来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "打死红鳞大蟒",
+     "evidence": "行者与八戒拖着一条大蟒，吆吆喝喝前来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "打死红鳞大蟒",
+     "predicate": "OCCURRED_AT",
+     "object": "七绝山",
+     "evidence": "那怪不敢恋战，回头就走。行者与八戒一齐赶来，忽闻得污秽之气熏人，乃是七绝山稀柿衕也。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1320,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "悟空",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，慈悲为怀"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，能变化大猪"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，挑担随行"
+    },
+    {
+     "name": "李老儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "驼罗庄老者，送唐僧师徒"
+    },
+    {
+     "name": "七绝山稀柿衕",
+     "type": "Place",
+     "aliases": [
+      "稀柿衕",
+      "七绝胡同"
+     ],
+     "nickname": "",
+     "description": "恶秽填塞的山路"
+    },
+    {
+     "name": "驼罗庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "庄名，众人所居"
+    },
+    {
+     "name": "八戒开山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒变猪拱开稀柿衕"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "行者笑道：'你这老儿，俱言之欠当。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "行者叫沙僧脱了脚，好生挑担",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏见行者说难，便就眼中垂泪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏道：'悟能，你果有本事拱开胡同，领我过山，注你这场头功。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "三藏与行者、沙僧谢了众人，分手两别。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "八戒开山",
+     "evidence": "八戒满心欢喜，脱了皂直裰，丢了九齿钯，对众道：'休笑话，看老猪干这场臭功。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "八戒开山",
+     "predicate": "OCCURRED_AT",
+     "object": "七绝山稀柿衕",
+     "evidence": "须是还从旧胡同过去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李老儿",
+     "predicate": "MEMBER_OF",
+     "object": "驼罗庄",
+     "evidence": "李老儿与众上前道",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:29.974Z"
+}

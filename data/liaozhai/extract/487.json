@@ -1,0 +1,71 @@
+{
+ "no": 487,
+ "title": "李象先",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 275,
+   "entities": [
+    {
+     "name": "李象先",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寿光闻人，前世为执爨僧"
+    },
+    {
+     "name": "执爨僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某寺烧饭僧，李象先前世"
+    },
+    {
+     "name": "某寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李象先前世所在寺庙"
+    },
+    {
+     "name": "寿光",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李象先籍贯地"
+    },
+    {
+     "name": "李象先之弟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "名士，生有隐疾"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李象先",
+     "predicate": "NATIVE_OF",
+     "object": "寿光",
+     "evidence": "李象先，寿光之闻人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李象先",
+     "predicate": "LIVES_AT",
+     "object": "某寺",
+     "evidence": "前世为某寺执爨僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李象先",
+     "predicate": "KIN",
+     "object": "李象先之弟",
+     "evidence": "弟亦名士。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:17.668Z"
+}

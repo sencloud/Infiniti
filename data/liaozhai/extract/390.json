@@ -1,0 +1,103 @@
+{
+ "no": 390,
+ "title": "布商",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 323,
+   "entities": [
+    {
+     "name": "布商某",
+     "type": "Person",
+     "aliases": [
+      "客"
+     ],
+     "nickname": "",
+     "description": "《布商》中卖布商人，青州废寺遇僧"
+    },
+    {
+     "name": "防海将军",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《布商》中路过废寺、救布商杀僧的将军"
+    },
+    {
+     "name": "红裳女子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《布商》中神佛现化，引将军入寺救人"
+    },
+    {
+     "name": "赵孝廉丰原",
+     "type": "Person",
+     "aliases": [
+      "赵丰原"
+     ],
+     "nickname": "",
+     "description": "《布商》中讲述此事最详的孝廉"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《布商》故事发生地"
+    },
+    {
+     "name": "废寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《布商》中青州境内荒废寺庙"
+    },
+    {
+     "name": "暗室",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《布商》中僧逼布商自尽的密室"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "布商某",
+     "predicate": "LIVES_AT",
+     "object": "废寺",
+     "evidence": "偶入废寺",
+     "confidence": 0.6
+    },
+    {
+     "subject": "防海将军",
+     "predicate": "HELPED",
+     "object": "布商某",
+     "evidence": "救之，片时复苏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "红裳女子",
+     "predicate": "HELPED",
+     "object": "布商某",
+     "evidence": "盖神佛现化也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "布商某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "修庙宇",
+     "evidence": "客益募修庙宇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "修庙宇",
+     "predicate": "OCCURRED_AT",
+     "object": "废寺",
+     "evidence": "客益募修庙宇，由此香火大盛",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:37.612Z"
+}

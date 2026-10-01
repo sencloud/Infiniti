@@ -1,0 +1,78 @@
+{
+ "no": 125,
+ "title": "毛狐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1009,
+   "entities": [
+    {
+     "name": "马天荣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "农子，年二十馀丧偶，贫不能娶，后娶驼背女"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "毛狐篇中狐女，与马天荣相恋，赠金后离去"
+    },
+    {
+     "name": "媒人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "为马天荣提亲的媒人"
+    },
+    {
+     "name": "驼背女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "马天荣所娶之妻，胸背皆驼，项缩如龟，脚大"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "马天荣",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "夜分，果至，遂相悦爱。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "马天荣",
+     "evidence": "忽以三金赠马，曰：子屡相索，我以子命不应有藏金。今媒聘有期，请以一妇之资相馈",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "马天荣",
+     "evidence": "授黄末一刀圭，曰：别后恐病，服此可疗。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马天荣",
+     "predicate": "SPOUSE",
+     "object": "驼背女",
+     "evidence": "择吉迎女归，入门，则胸背皆驼，项缩如龟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "媒人",
+     "predicate": "HELPED",
+     "object": "马天荣",
+     "evidence": "次日，果有媒来。先诘女貌，答：在妍媸之间。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:59.582Z"
+}

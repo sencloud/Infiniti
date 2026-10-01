@@ -1,0 +1,106 @@
+{
+ "no": 116,
+ "title": "5.3 用待定系数法确定二次函数表达式",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1947,
+   "entities": [
+    {
+     "name": "二次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=ax²+bx+c（a≠0）的函数"
+    },
+    {
+     "name": "待定系数法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据已知条件列出方程（组）求待定系数的方法"
+    },
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "反比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=k/x（k≠0）的函数"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数次数为1的方程"
+    },
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两个二元一次方程组成的方程组"
+    },
+    {
+     "name": "一元二次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如ax²+bx+c=0（a≠0）的方程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "待定系数法",
+     "predicate": "APPLIES_TO",
+     "object": "一次函数",
+     "evidence": "根据已知条件用待定系数法可以确定一次函数、反比例函数的表达式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "待定系数法",
+     "predicate": "APPLIES_TO",
+     "object": "反比例函数",
+     "evidence": "根据已知条件用待定系数法可以确定一次函数、反比例函数的表达式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "待定系数法",
+     "predicate": "APPLIES_TO",
+     "object": "二次函数",
+     "evidence": "根据已知条件用待定系数法也可以确定二次函数的表达式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "待定系数法",
+     "evidence": "列出关于a的一元一次方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "PREREQUISITE",
+     "object": "待定系数法",
+     "evidence": "列出关于a、c的二元一次方程组",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数",
+     "predicate": "RELATED",
+     "object": "一元二次方程",
+     "evidence": "二次函数y=ax²+bx+c与一元二次方程ax²+bx+c=0有怎样的关系？",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:23.647Z"
+}

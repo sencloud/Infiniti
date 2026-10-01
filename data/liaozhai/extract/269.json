@@ -1,0 +1,229 @@
+{
+ "no": 269,
+ "title": "青娥",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3157,
+   "entities": [
+    {
+     "name": "霍桓",
+     "type": "Person",
+     "aliases": [
+      "匡九"
+     ],
+     "nickname": "",
+     "description": "晋人，字匡九，神童，娶青娥为妻"
+    },
+    {
+     "name": "青娥",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "武评事之女，后成仙，霍桓之妻"
+    },
+    {
+     "name": "武评事",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青娥之父，好道入山不返"
+    },
+    {
+     "name": "霍母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍桓之母，疼爱霍桓"
+    },
+    {
+     "name": "欧公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦中欧公，宰是邑，助霍桓成婚"
+    },
+    {
+     "name": "孟仙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍桓与青娥之子"
+    },
+    {
+     "name": "仲仙",
+     "type": "Person",
+     "aliases": [
+      "霍仲仙"
+     ],
+     "nickname": "",
+     "description": "霍桓与青娥之子，后中举"
+    },
+    {
+     "name": "老王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "山中老叟，为霍桓作伐"
+    },
+    {
+     "name": "晋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍桓籍贯"
+    },
+    {
+     "name": "武第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "武评事家宅"
+    },
+    {
+     "name": "仙府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青娥所居仙府"
+    },
+    {
+     "name": "小镵",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士所赠小铲，可凿石"
+    },
+    {
+     "name": "凤钗",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "青娥枕边凤钗，霍桓窃取"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "霍桓",
+     "predicate": "NATIVE_OF",
+     "object": "晋",
+     "evidence": "霍桓，字匡九，晋人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "KIN",
+     "object": "霍母",
+     "evidence": "遗生最幼，聪惠绝人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "LOVES",
+     "object": "青娥",
+     "evidence": "生于门外瞥见之。童子虽无知，只觉爱之极",
+     "confidence": 0.95
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "SPOUSE",
+     "object": "青娥",
+     "evidence": "逾岁，娶归。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "KIN",
+     "object": "孟仙",
+     "evidence": "年馀，生一子孟仙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "KIN",
+     "object": "仲仙",
+     "evidence": "仲仙喜曰：弟赴都时，父嘱文场中如逢山右霍姓者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青娥",
+     "predicate": "KIN",
+     "object": "武评事",
+     "evidence": "有女青娥，年十四，美异常伦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青娥",
+     "predicate": "KIN",
+     "object": "孟仙",
+     "evidence": "年馀，生一子孟仙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青娥",
+     "predicate": "KIN",
+     "object": "仲仙",
+     "evidence": "仲仙喜曰：弟赴都时，父嘱文场中如逢山右霍姓者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "OWNS",
+     "object": "小镵",
+     "evidence": "生大喜，酬之以钱，不受而去。持归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "OWNS",
+     "object": "凤钗",
+     "evidence": "生觑枕边，有凤钗一股，阴纳袖中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "LIVES_AT",
+     "object": "武第",
+     "evidence": "直至武第，凡穴两重垣，始达中庭。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青娥",
+     "predicate": "LIVES_AT",
+     "object": "仙府",
+     "evidence": "女曰：非也，此乃仙府。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "欧公",
+     "predicate": "HELPED",
+     "object": "霍桓",
+     "evidence": "公笑曰：我当为子成之。即委县尉、教谕，纳币于武。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老王",
+     "predicate": "HELPED",
+     "object": "霍桓",
+     "evidence": "叟遥指山村曰：此处有一佳人，倘能从我去，仆当为君作伐。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍桓",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "后以拔贡入北闱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仲仙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "是科仲领乡荐。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:56.466Z"
+}

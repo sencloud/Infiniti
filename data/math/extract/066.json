@@ -1,0 +1,113 @@
+{
+ "no": 66,
+ "title": "5.4 用一次函数解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3894,
+   "entities": [
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个变量之间的对应关系"
+    },
+    {
+     "name": "函数表达式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示函数关系的数学式子"
+    },
+    {
+     "name": "自变量",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "函数中主动变化的量"
+    },
+    {
+     "name": "函数图象",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "函数关系的图形表示"
+    },
+    {
+     "name": "一次函数模型",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用一次函数解决实际问题的方法"
+    },
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的四边形"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四边相等且四个角是直角的四边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "函数",
+     "predicate": "PREREQUISITE",
+     "object": "一次函数",
+     "evidence": "纸杯的总高度y cm是纸杯个数x的函数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一次函数",
+     "predicate": "INCLUDES",
+     "object": "函数表达式",
+     "evidence": "函数表达式为y=9.5+0.5(x-1)",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一次函数",
+     "predicate": "INCLUDES",
+     "object": "自变量",
+     "evidence": "其中自变量x取正整数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一次函数",
+     "predicate": "INCLUDES",
+     "object": "函数图象",
+     "evidence": "这两种运输方式的图象如图5-20所示",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一次函数模型",
+     "predicate": "APPLIES_TO",
+     "object": "一次函数",
+     "evidence": "建立一次函数的模型，可以帮助我们解决一类实际问题",
+     "confidence": 0.95
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "长方形",
+     "evidence": "正方形ABCD的顶点A，B的坐标分别为A(-1,1)，B(1,1)",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:59.753Z"
+}

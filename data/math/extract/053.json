@@ -1,0 +1,405 @@
+{
+ "no": 53,
+ "title": "1.5 等腰三角形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6135,
+   "entities": [
+    {
+     "name": "等腰三角形",
+     "type": "Concept",
+     "aliases": [
+      "isosceles triangle"
+     ],
+     "nickname": "",
+     "description": "有两条边相等的三角形"
+    },
+    {
+     "name": "等腰三角形的性质定理1",
+     "type": "Theorem",
+     "aliases": [
+      "等边对等角"
+     ],
+     "nickname": "",
+     "description": "等腰三角形的两底角相等"
+    },
+    {
+     "name": "等腰三角形的性质定理2",
+     "type": "Theorem",
+     "aliases": [
+      "三线合一"
+     ],
+     "nickname": "",
+     "description": "等腰三角形底边上的高线、中线及顶角平分线重合"
+    },
+    {
+     "name": "等腰三角形的判定定理",
+     "type": "Theorem",
+     "aliases": [
+      "等角对等边"
+     ],
+     "nickname": "",
+     "description": "有两个角相等的三角形是等腰三角形"
+    },
+    {
+     "name": "等边三角形",
+     "type": "Concept",
+     "aliases": [
+      "equilateral triangle"
+     ],
+     "nickname": "",
+     "description": "三边都相等的三角形"
+    },
+    {
+     "name": "等边三角形的性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等边三角形的各角都等于60°"
+    },
+    {
+     "name": "等边三角形的判定定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三个角都相等的三角形是等边三角形；有一个角是60°的等腰三角形是等边三角形"
+    },
+    {
+     "name": "直角三角形的性质定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形斜边上的中线等于斜边的一半"
+    },
+    {
+     "name": "含30°角的直角三角形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "在直角三角形中，如果一个锐角等于30°，那么它所对的直角边是斜边的一半"
+    },
+    {
+     "name": "全等三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的两个三角形"
+    },
+    {
+     "name": "SSS",
+     "type": "Theorem",
+     "aliases": [
+      "边边边"
+     ],
+     "nickname": "",
+     "description": "三边分别相等的两个三角形全等"
+    },
+    {
+     "name": "SAS",
+     "type": "Theorem",
+     "aliases": [
+      "边角边"
+     ],
+     "nickname": "",
+     "description": "两边及其夹角分别相等的两个三角形全等"
+    },
+    {
+     "name": "ASA",
+     "type": "Theorem",
+     "aliases": [
+      "角边角"
+     ],
+     "nickname": "",
+     "description": "两角及其夹边分别相等的两个三角形全等"
+    },
+    {
+     "name": "AAS",
+     "type": "Theorem",
+     "aliases": [
+      "角角边"
+     ],
+     "nickname": "",
+     "description": "两角及其中一个角的对边分别相等的两个三角形全等"
+    },
+    {
+     "name": "尺规作图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用无刻度直尺和圆规作图的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "等腰三角形",
+     "predicate": "INCLUDES",
+     "object": "等边三角形",
+     "evidence": "等边三角形是特殊的等腰三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等腰三角形的性质定理1",
+     "predicate": "PROPERTY_OF",
+     "object": "等腰三角形",
+     "evidence": "等腰三角形的两底角相等（简称“等边对等角”）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等腰三角形的性质定理2",
+     "predicate": "PROPERTY_OF",
+     "object": "等腰三角形",
+     "evidence": "等腰三角形底边上的高线、中线及顶角平分线重合（简称“三线合一”）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等腰三角形的判定定理",
+     "predicate": "PROPERTY_OF",
+     "object": "等腰三角形",
+     "evidence": "有两个角相等的三角形是等腰三角形（简称“等角对等边”）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等边三角形的性质定理",
+     "predicate": "PROPERTY_OF",
+     "object": "等边三角形",
+     "evidence": "等边三角形的各角都等于60°",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等边三角形的判定定理",
+     "predicate": "PROPERTY_OF",
+     "object": "等边三角形",
+     "evidence": "三个角都相等的三角形是等边三角形；有一个角是60°的等腰三角形是等边三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "直角三角形的性质定理",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "直角三角形斜边上的中线等于斜边的一半",
+     "confidence": 0.95
+    },
+    {
+     "subject": "含30°角的直角三角形的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "在直角三角形中，如果一个锐角等于30°，那么它所对的直角边是斜边的一半",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "INCLUDES",
+     "object": "SSS",
+     "evidence": "判定：边边边(SSS)；边角边(SAS)；角边角(ASA)，角角边(AAS)",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "INCLUDES",
+     "object": "SAS",
+     "evidence": "判定：边边边(SSS)；边角边(SAS)；角边角(ASA)，角角边(AAS)",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "INCLUDES",
+     "object": "ASA",
+     "evidence": "判定：边边边(SSS)；边角边(SAS)；角边角(ASA)，角角边(AAS)",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "INCLUDES",
+     "object": "AAS",
+     "evidence": "判定：边边边(SSS)；边角边(SAS)；角边角(ASA)，角角边(AAS)",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等腰三角形的性质定理1",
+     "predicate": "DERIVES",
+     "object": "等腰三角形的判定定理",
+     "evidence": "反过来，有两个角相等的三角形一定是等腰三角形吗？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "等腰三角形的性质定理2",
+     "predicate": "DERIVES",
+     "object": "等腰三角形的判定定理",
+     "evidence": "如果三角形中从一个顶点出发的中线、高线、角平分线有两条重合，那么这个三角形是否一定是等腰三角形？",
+     "confidence": 0.7
+    },
+    {
+     "subject": "尺规作图",
+     "predicate": "APPLIES_TO",
+     "object": "等腰三角形",
+     "evidence": "尺规作图：如图1-46，已知线段a，h，作等腰三角形ABC",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3993,
+   "entities": [
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "平面几何的基本图形"
+    },
+    {
+     "name": "全等三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的两个三角形"
+    },
+    {
+     "name": "等腰三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有两条边相等的三角形"
+    },
+    {
+     "name": "等边三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三条边都相等的三角形"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "线段垂直平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "垂直于线段且平分线段的直线"
+    },
+    {
+     "name": "角平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把一个角分成两个相等角的射线"
+    },
+    {
+     "name": "全等三角形的判定",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "判断两个三角形全等的方法"
+    },
+    {
+     "name": "全等三角形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "全等三角形的对应边、对应角相等"
+    },
+    {
+     "name": "直角三角形全等的判定(HL)",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "斜边和一条直角边对应相等的两个直角三角形全等"
+    },
+    {
+     "name": "线段垂直平分线的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "线段垂直平分线上的点到线段两端点的距离相等"
+    },
+    {
+     "name": "角平分线的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "角平分线上的点到角两边的距离相等"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "三角形",
+     "predicate": "INCLUDES",
+     "object": "等腰三角形",
+     "evidence": "特殊三角形：等腰三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形",
+     "predicate": "INCLUDES",
+     "object": "直角三角形",
+     "evidence": "特殊三角形：直角三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等腰三角形",
+     "predicate": "INCLUDES",
+     "object": "等边三角形",
+     "evidence": "等腰三角形：等边三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "APPLIES_TO",
+     "object": "线段垂直平分线的性质",
+     "evidence": "运用全等三角形研究线段垂直平分线的性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "APPLIES_TO",
+     "object": "角平分线的性质",
+     "evidence": "运用全等三角形研究角平分线的性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "APPLIES_TO",
+     "object": "等腰三角形",
+     "evidence": "运用全等三角形研究特殊三角形的一些性质",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "APPLIES_TO",
+     "object": "直角三角形",
+     "evidence": "运用全等三角形研究特殊三角形的一些性质",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形的判定",
+     "predicate": "PROPERTY_OF",
+     "object": "全等三角形",
+     "evidence": "全等三角形的性质与判定有什么关系？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "全等三角形的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "全等三角形",
+     "evidence": "全等三角形的性质与判定有什么关系？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "直角三角形全等的判定(HL)",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "直角三角形全等的判定(HL)",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:58.787Z"
+}

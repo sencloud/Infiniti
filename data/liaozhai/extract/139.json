@@ -1,0 +1,155 @@
+{
+ "no": 139,
+ "title": "水灾",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 267,
+   "entities": [
+    {
+     "name": "老叟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "石门庄老人，预见水灾携家迁走"
+    },
+    {
+     "name": "农人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "水灾中弃儿救母的农民"
+    },
+    {
+     "name": "农人之妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与农人一同扶老母避水的妻子"
+    },
+    {
+     "name": "农人之母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "农人所扶避水的老母"
+    },
+    {
+     "name": "农人之两儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被弃家中却无恙的两子"
+    },
+    {
+     "name": "孝子某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平阳地震中仅存一屋的孝子"
+    },
+    {
+     "name": "石门庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山东村庄，水灾发生地"
+    },
+    {
+     "name": "山东",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "康熙二十一年大旱之地"
+    },
+    {
+     "name": "平阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "康熙二十四年地震之地"
+    },
+    {
+     "name": "水灾",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "康熙二十一年六月大雨成灾"
+    },
+    {
+     "name": "平阳地震",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "康熙二十四年平阳大地震"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "老叟",
+     "predicate": "LIVES_AT",
+     "object": "石门庄",
+     "evidence": "石门庄有老叟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "农人",
+     "predicate": "KIN",
+     "object": "农人之妻",
+     "evidence": "与妻扶老母",
+     "confidence": 0.95
+    },
+    {
+     "subject": "农人",
+     "predicate": "KIN",
+     "object": "农人之母",
+     "evidence": "与妻扶老母",
+     "confidence": 0.95
+    },
+    {
+     "subject": "农人",
+     "predicate": "KIN",
+     "object": "农人之两儿",
+     "evidence": "一农人弃其两儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "农人之妻",
+     "predicate": "KIN",
+     "object": "农人之两儿",
+     "evidence": "一农人弃其两儿，与妻扶老母",
+     "confidence": 0.9
+    },
+    {
+     "subject": "农人之母",
+     "predicate": "KIN",
+     "object": "农人之两儿",
+     "evidence": "一农人弃其两儿，与妻扶老母",
+     "confidence": 0.9
+    },
+    {
+     "subject": "水灾",
+     "predicate": "OCCURRED_AT",
+     "object": "石门庄",
+     "evidence": "石门庄有老叟……大水将至矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平阳地震",
+     "predicate": "OCCURRED_AT",
+     "object": "平阳",
+     "evidence": "康熙二十四年，平阳地震",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孝子某",
+     "predicate": "LIVES_AT",
+     "object": "平阳",
+     "evidence": "平阳地震……仅存一屋，则孝子某家也",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:05.204Z"
+}

@@ -1,0 +1,38 @@
+{
+ "no": 353,
+ "title": "大鼠",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 224,
+   "entities": [
+    {
+     "name": "宫中鼠",
+     "type": "Spirit",
+     "aliases": [
+      "大鼠"
+     ],
+     "nickname": "",
+     "description": "万历年间宫中大老鼠，与猫等大，为害甚剧"
+    },
+    {
+     "name": "狮猫",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "异国进贡的白猫，毛白如雪，捕杀大鼠"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "狮猫",
+     "predicate": "KILLED",
+     "object": "宫中鼠",
+     "evidence": "猫即疾下，爪掬顶毛，口龁首领……则鼠首已嚼碎矣",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:24.887Z"
+}

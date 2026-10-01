@@ -1,0 +1,283 @@
+{
+ "no": 432,
+ "title": "织成",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1651,
+   "entities": [
+    {
+     "name": "织成",
+     "type": "Spirit",
+     "aliases": [
+      "成娘",
+      "织成女"
+     ],
+     "nickname": "",
+     "description": "洞庭君侍女，后嫁柳生"
+    },
+    {
+     "name": "柳生",
+     "type": "Person",
+     "aliases": [
+      "柳公子"
+     ],
+     "nickname": "",
+     "description": "襄阳名士，落第书生，娶织成"
+    },
+    {
+     "name": "洞庭君",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "洞庭湖水神，赐柳生金及界方"
+    },
+    {
+     "name": "王妃",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "洞庭君之妃，喜爱织成"
+    },
+    {
+     "name": "崔媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武昌卖女老妇，实为织成之媒"
+    },
+    {
+     "name": "柳毅",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐代书生，遇龙女为洞庭君婿，后逊位"
+    },
+    {
+     "name": "许真君",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙人，曾执柳毅付郡狱"
+    },
+    {
+     "name": "郡伯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郡守，受柳毅托梦代求许真君"
+    },
+    {
+     "name": "毛将军",
+     "type": "Spirit",
+     "aliases": [
+      "毛尉"
+     ],
+     "nickname": "",
+     "description": "水神部将，执行溺籍"
+    },
+    {
+     "name": "南将军",
+     "type": "Spirit",
+     "aliases": [
+      "南尉"
+     ],
+     "nickname": "",
+     "description": "水神部将，执行溺籍"
+    },
+    {
+     "name": "洞庭湖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "故事主要发生地"
+    },
+    {
+     "name": "武昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柳生遇崔媪处"
+    },
+    {
+     "name": "襄阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柳生籍贯"
+    },
+    {
+     "name": "郡狱",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "关押柳毅的监狱"
+    },
+    {
+     "name": "水晶界方",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "洞庭君所赠宝物，可避水劫"
+    },
+    {
+     "name": "鬼面",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "洞庭君付柳毅以摄水怪"
+    },
+    {
+     "name": "溺籍",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "溺死名单，一百二十八人"
+    },
+    {
+     "name": "风鬟雾鬓赋",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "柳生应洞庭君命所作赋"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "织成",
+     "predicate": "SPOUSE",
+     "object": "柳生",
+     "evidence": "女果及一婢在焉。见生入，含笑承迎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "织成",
+     "predicate": "LIVES_AT",
+     "object": "洞庭湖",
+     "evidence": "妾之来，从妃命也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柳生",
+     "predicate": "NATIVE_OF",
+     "object": "襄阳",
+     "evidence": "生固襄阳名士",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "风鬟雾鬓赋",
+     "evidence": "便授笔札，令赋“风鬟雾鬓”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳生",
+     "predicate": "OWNS",
+     "object": "水晶界方",
+     "evidence": "王者赠黄金十斤，又水晶界方一握",
+     "confidence": 0.95
+    },
+    {
+     "subject": "洞庭君",
+     "predicate": "HELPED",
+     "object": "柳生",
+     "evidence": "王者赠黄金十斤，又水晶界方一握，曰：“湖中小有劫数，持此可免。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "洞庭君",
+     "predicate": "KIN",
+     "object": "织成",
+     "evidence": "仰慕鸿才，便欲以妾相赠",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王妃",
+     "predicate": "HELPED",
+     "object": "织成",
+     "evidence": "妾之来，从妃命也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王妃",
+     "predicate": "LOVES",
+     "object": "织成",
+     "evidence": "因妾过为王妃所爱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "崔媪",
+     "predicate": "KIN",
+     "object": "织成",
+     "evidence": "有崔媪卖女",
+     "confidence": 0.8
+    },
+    {
+     "subject": "崔媪",
+     "predicate": "HELPED",
+     "object": "柳生",
+     "evidence": "故遂送女归舟耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毛将军",
+     "predicate": "KILLED",
+     "object": "溺籍",
+     "evidence": "签差何人矣？答云：“毛、南二尉。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "南将军",
+     "predicate": "KILLED",
+     "object": "溺籍",
+     "evidence": "签差何人矣？答云：“毛、南二尉。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "柳毅",
+     "predicate": "SPOUSE",
+     "object": "龙女",
+     "evidence": "相传唐柳毅遇龙女，洞庭君以为婿。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳毅",
+     "predicate": "OWNS",
+     "object": "鬼面",
+     "evidence": "付以鬼面，昼戴夜除。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "许真君",
+     "predicate": "PUNISHED",
+     "object": "柳毅",
+     "evidence": "真君怒，执毅付郡狱。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郡伯",
+     "predicate": "HELPED",
+     "object": "柳毅",
+     "evidence": "因代求之，遂得释。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳毅",
+     "predicate": "LIVES_AT",
+     "object": "郡狱",
+     "evidence": "执毅付郡狱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "溺籍",
+     "predicate": "OCCURRED_AT",
+     "object": "洞庭湖",
+     "evidence": "湖中小有劫数",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:58.876Z"
+}

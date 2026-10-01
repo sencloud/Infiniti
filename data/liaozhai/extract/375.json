@@ -1,0 +1,76 @@
+{
+ "no": 375,
+ "title": "义犬",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 316,
+   "entities": [
+    {
+     "name": "贾某",
+     "type": "Person",
+     "aliases": [
+      "贾父"
+     ],
+     "nickname": "",
+     "description": "周村商人，贸易芜湖获重赀，被舟人劫掠，义犬救之"
+    },
+    {
+     "name": "舟人",
+     "type": "Person",
+     "aliases": [
+      "盗",
+      "屠人"
+     ],
+     "nickname": "",
+     "description": "积寇，劫杀贾某，后被犬咬住擒获"
+    },
+    {
+     "name": "周村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾某籍贯地"
+    },
+    {
+     "name": "芜湖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾某贸易之地，亦为返程候盗处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾某",
+     "predicate": "NATIVE_OF",
+     "object": "周村",
+     "evidence": "周村有贾某",
+     "confidence": 0.95
+    },
+    {
+     "subject": "舟人",
+     "predicate": "HARMED",
+     "object": "贾某",
+     "evidence": "操刀欲杀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "贸易芜湖",
+     "evidence": "贸易芜湖，获重赀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贸易芜湖",
+     "predicate": "OCCURRED_AT",
+     "object": "芜湖",
+     "evidence": "贸易芜湖",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:32.022Z"
+}

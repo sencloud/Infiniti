@@ -1,0 +1,158 @@
+{
+ "no": 20,
+ "title": "尧曰篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 323,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，弟子尊称夫子"
+    },
+    {
+     "name": "子张",
+     "type": "Person",
+     "aliases": [
+      "颛孙师",
+      "师",
+      "颛孙"
+     ],
+     "nickname": "子张",
+     "description": "孔子弟子，颛孙师"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家理想人格，有德位者"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心德性，爱人"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "社会规范与典章制度"
+    },
+    {
+     "name": "知",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "认知、智慧，知命知言"
+    },
+    {
+     "name": "政",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "治理国家政事"
+    },
+    {
+     "name": "命",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "天命、命运"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "子张",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "子张问于孔子曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子张问于孔子曰：“何如斯可以从政矣？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "子曰：“尊五美，屏四恶，斯可以从政矣。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "子曰：“君子惠而不费，劳而不怨，欲而不贪，泰而不骄，威而不猛。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "欲仁而得仁，又焉贪？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "命",
+     "evidence": "子曰：“不知命，无以为君子也；",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "不知礼，无以立也；",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "不知言，无以知人也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "君子",
+     "predicate": "RELATED",
+     "object": "命",
+     "evidence": "不知命，无以为君子也；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "君子",
+     "predicate": "RELATED",
+     "object": "礼",
+     "evidence": "不知礼，无以立也；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "君子",
+     "predicate": "RELATED",
+     "object": "知",
+     "evidence": "不知言，无以知人也。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:41.570Z"
+}

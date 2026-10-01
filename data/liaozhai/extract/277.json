@@ -1,0 +1,125 @@
+{
+ "no": 277,
+ "title": "颠道人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 566,
+   "entities": [
+    {
+     "name": "颠道人",
+     "type": "Spirit",
+     "aliases": [
+      "道士",
+      "疯道人"
+     ],
+     "nickname": "",
+     "description": "不知姓名，寓蒙山寺，能幻术"
+    },
+    {
+     "name": "邑贵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "城中富贵者，重阳登临蒙山"
+    },
+    {
+     "name": "同游者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑贵同行者，持刀斗蟒被吞"
+    },
+    {
+     "name": "蒙山寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒙山中的寺庙，颠道人寓居处"
+    },
+    {
+     "name": "殷文屏",
+     "type": "Person",
+     "aliases": [
+      "殷生"
+     ],
+     "nickname": "",
+     "description": "淄川生员，毕司农妹夫，玩世不恭"
+    },
+    {
+     "name": "周生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "章丘生员，寒贱起家，出必驾肩"
+    },
+    {
+     "name": "毕司农",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "官员，殷文屏妻兄，与周生有旧"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "颠道人",
+     "predicate": "LIVES_AT",
+     "object": "蒙山寺",
+     "evidence": "颠道人，不知姓名，寓蒙山寺。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "颠道人",
+     "predicate": "HARMED",
+     "object": "邑贵",
+     "evidence": "则道士赤足着破衲，自张黄盖，作警跸声而出，意近玩弄。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑贵",
+     "predicate": "HARMED",
+     "object": "颠道人",
+     "evidence": "邑贵乃惭怒，挥仆辈逐骂之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "颠道人",
+     "predicate": "KILLED",
+     "object": "同游者",
+     "evidence": "蟒张吻怒逆，吞客咽之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "殷文屏",
+     "predicate": "KIN",
+     "object": "毕司农",
+     "evidence": "予乡殷生文屏，毕司农之妹夫也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周生",
+     "predicate": "FRIEND",
+     "object": "毕司农",
+     "evidence": "亦与司农有瓜葛之旧。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "殷文屏",
+     "predicate": "PARTICIPATED_IN",
+     "object": "太夫人寿",
+     "evidence": "值太夫人寿，殷料其必来，先候于道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "太夫人寿",
+     "evidence": "值太夫人寿，殷料其必来，先候于道",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:57.942Z"
+}

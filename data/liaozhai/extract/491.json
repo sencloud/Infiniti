@@ -1,0 +1,94 @@
+{
+ "no": 491,
+ "title": "博兴女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 153,
+   "entities": [
+    {
+     "name": "王某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "博兴县乡民，王女之父"
+    },
+    {
+     "name": "王女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王某之女，被恶霸杀害后化龙复仇"
+    },
+    {
+     "name": "势豪某",
+     "type": "Person",
+     "aliases": [
+      "豪"
+     ],
+     "nickname": "",
+     "description": "博兴县恶霸，掠杀王女"
+    },
+    {
+     "name": "博兴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，故事发生地"
+    },
+    {
+     "name": "深渊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "恶霸家门外深渊，沉尸处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王某",
+     "predicate": "KIN",
+     "object": "王女",
+     "evidence": "博兴民王某，有女及笄。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "势豪某",
+     "predicate": "KILLED",
+     "object": "王女",
+     "evidence": "女号嘶撑拒，某缢杀之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "势豪某",
+     "predicate": "HARMED",
+     "object": "王女",
+     "evidence": "至家逼淫，女号嘶撑拒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王女",
+     "predicate": "KILLED",
+     "object": "势豪某",
+     "evidence": "龙下攫豪首去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王某",
+     "predicate": "LIVES_AT",
+     "object": "博兴",
+     "evidence": "博兴民王某，有女及笄。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "势豪某",
+     "predicate": "LIVES_AT",
+     "object": "深渊",
+     "evidence": "门外故有深渊",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:19.693Z"
+}

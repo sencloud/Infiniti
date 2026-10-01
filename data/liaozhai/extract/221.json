@@ -1,0 +1,114 @@
+{
+ "no": 221,
+ "title": "白莲教",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 336,
+   "entities": [
+    {
+     "name": "徐鸿儒",
+     "type": "Person",
+     "aliases": [
+      "白莲盗首"
+     ],
+     "nickname": "",
+     "description": "白莲教首领，得左道之书，能役鬼神"
+    },
+    {
+     "name": "彭都司",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长山人，艺勇绝伦的都司，与白莲教女将战三日而死"
+    },
+    {
+     "name": "垂髫女",
+     "type": "Spirit",
+     "aliases": [
+      "二垂髫女"
+     ],
+     "nickname": "",
+     "description": "白莲教派出的两名年轻女将，持木刀骑木凳"
+    },
+    {
+     "name": "鉴人终身镜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐鸿儒所有，能照见人一生形象的镜子"
+    },
+    {
+     "name": "滕县",
+     "type": "Place",
+     "aliases": [
+      "滕"
+     ],
+     "nickname": "",
+     "description": "地名，白莲教势力所及之处"
+    },
+    {
+     "name": "峄县",
+     "type": "Place",
+     "aliases": [
+      "峄"
+     ],
+     "nickname": "",
+     "description": "地名，白莲教势力所及之处"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，彭都司的籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "徐鸿儒",
+     "predicate": "OWNS",
+     "object": "鉴人终身镜",
+     "evidence": "因出一镜，言能鉴人终身。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐鸿儒",
+     "predicate": "HARMED",
+     "object": "彭都司",
+     "evidence": "寇出二垂髫女与战。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "垂髫女",
+     "predicate": "KILLED",
+     "object": "彭都司",
+     "evidence": "如此三日，彭觉筋力俱竭，哮喘而卒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭都司",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "有彭都司者，长山人，艺勇绝伦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐鸿儒",
+     "predicate": "LIVES_AT",
+     "object": "滕县",
+     "evidence": "滕、峄一带，望风而靡。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "徐鸿儒",
+     "predicate": "LIVES_AT",
+     "object": "峄县",
+     "evidence": "滕、峄一带，望风而靡。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:36.099Z"
+}

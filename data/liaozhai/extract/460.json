@@ -1,0 +1,155 @@
+{
+ "no": 460,
+ "title": "雹神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 468,
+   "entities": [
+    {
+     "name": "唐济武",
+     "type": "Person",
+     "aliases": [
+      "唐太史"
+     ],
+     "nickname": "",
+     "description": "淄川太史，途经雹神祠掷石戏鱼"
+    },
+    {
+     "name": "李左车",
+     "type": "Spirit",
+     "aliases": [
+      "雹神",
+      "广武君"
+     ],
+     "nickname": "",
+     "description": "雹神，祠庙受祀，能致风雹"
+    },
+    {
+     "name": "唐凉武",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐济武之弟，后行不知有雹"
+    },
+    {
+     "name": "安氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "日照安村人家，办葬礼，惧雹神"
+    },
+    {
+     "name": "稗贩客",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "小商贩，被雹神附体传言"
+    },
+    {
+     "name": "雹神祠",
+     "type": "Place",
+     "aliases": [
+      "李左车祠"
+     ],
+     "nickname": "",
+     "description": "雹神李左车祠庙，前有清池"
+    },
+    {
+     "name": "安村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "日照安氏所居村落，外有关圣祠"
+    },
+    {
+     "name": "关圣祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "安村外关帝庙，稗贩客舞刀处"
+    },
+    {
+     "name": "日照",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，唐济武前往参加葬礼处"
+    },
+    {
+     "name": "淄川",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐济武籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐济武",
+     "predicate": "NATIVE_OF",
+     "object": "淄川",
+     "evidence": "明日将陪从淄川唐太史一助执绋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐济武",
+     "predicate": "KIN",
+     "object": "唐凉武",
+     "evidence": "太史弟凉武在后，追及与语",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐济武",
+     "predicate": "PARTICIPATED_IN",
+     "object": "安氏葬",
+     "evidence": "唐太史济武，适日照会安氏葬",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安氏葬",
+     "predicate": "OCCURRED_AT",
+     "object": "日照",
+     "evidence": "适日照会安氏葬",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐济武",
+     "predicate": "LIVES_AT",
+     "object": "雹神祠",
+     "evidence": "道经雹神李左车祠，入游眺",
+     "confidence": 0.5
+    },
+    {
+     "subject": "李左车",
+     "predicate": "HARMED",
+     "object": "唐济武",
+     "evidence": "则有黑云如盖，随之以行，簌簌雹落",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李左车",
+     "predicate": "LIVES_AT",
+     "object": "雹神祠",
+     "evidence": "道经雹神李左车祠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "稗贩客",
+     "predicate": "LIVES_AT",
+     "object": "关圣祠",
+     "evidence": "释肩门外，忽弃双簏，趋祠中",
+     "confidence": 0.5
+    },
+    {
+     "subject": "安氏",
+     "predicate": "LIVES_AT",
+     "object": "安村",
+     "evidence": "安村外有关圣祠",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:09.381Z"
+}

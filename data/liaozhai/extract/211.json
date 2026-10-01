@@ -1,0 +1,64 @@
+{
+ "no": 211,
+ "title": "潞令",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 329,
+   "entities": [
+    {
+     "name": "宋国英",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东平人，潞城令，贪暴酷虐"
+    },
+    {
+     "name": "徐白山",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "作者同乡，曾讽谏宋国英"
+    },
+    {
+     "name": "潞城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋国英任县令之地"
+    },
+    {
+     "name": "东平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋国英籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋国英",
+     "predicate": "NATIVE_OF",
+     "object": "东平",
+     "evidence": "宋国英，东平人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋国英",
+     "predicate": "LIVES_AT",
+     "object": "潞城",
+     "evidence": "以教习授潞城令",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋国英",
+     "predicate": "KILLED",
+     "object": "徐白山",
+     "evidence": "诛五十八人矣",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:31.647Z"
+}

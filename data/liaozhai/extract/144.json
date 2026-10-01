@@ -1,0 +1,152 @@
+{
+ "no": 144,
+ "title": "狐谐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1559,
+   "entities": [
+    {
+     "name": "万福",
+     "type": "Person",
+     "aliases": [
+      "万子祥"
+     ],
+     "nickname": "",
+     "description": "博兴人，字子祥，幼业儒，逃役至济南"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [
+      "狐娘子"
+     ],
+     "nickname": "狐娘子",
+     "description": "狐精，自称实狐，与万福相好，诙谐善谑"
+    },
+    {
+     "name": "孙得言",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "万福友人，善俳谑，常与狐女笑骂"
+    },
+    {
+     "name": "陈所见",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈氏兄弟之一，万福友人，参与酒会"
+    },
+    {
+     "name": "陈所闻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈氏兄弟之一，万福友人，参与酒会"
+    },
+    {
+     "name": "博兴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，万福籍贯及与狐女同归处"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "万福逃役后税居逆旅之地"
+    },
+    {
+     "name": "逆旅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南旅店，万福租住之处"
+    },
+    {
+     "name": "庄园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女远亲所居，重门叠阁如世家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "万福",
+     "predicate": "NATIVE_OF",
+     "object": "博兴",
+     "evidence": "万福，字子祥，博兴人也。",
+     "confidence": 1
+    },
+    {
+     "subject": "万福",
+     "predicate": "LIVES_AT",
+     "object": "逆旅",
+     "evidence": "如济南，税居逆旅。",
+     "confidence": 1
+    },
+    {
+     "subject": "万福",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "夜有奔女，颜色颇丽，万悦而私之。",
+     "confidence": 1
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "万福",
+     "evidence": "凡日用所需，无不仰给于狐。",
+     "confidence": 1
+    },
+    {
+     "subject": "孙得言",
+     "predicate": "FRIEND",
+     "object": "万福",
+     "evidence": "二三相识，辄来造访，恒信宿不去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈所见",
+     "predicate": "FRIEND",
+     "object": "万福",
+     "evidence": "二客，陈氏兄弟，一名所见，一名所闻。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈所闻",
+     "predicate": "FRIEND",
+     "object": "万福",
+     "evidence": "二客，陈氏兄弟，一名所见，一名所闻。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈所见",
+     "predicate": "KIN",
+     "object": "陈所闻",
+     "evidence": "二客，陈氏兄弟，一名所见，一名所闻。",
+     "confidence": 1
+    },
+    {
+     "subject": "狐女",
+     "predicate": "LIVES_AT",
+     "object": "庄园",
+     "evidence": "二里许，果见一庄，生平所未历。狐往叩关。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "LIVES_AT",
+     "object": "博兴",
+     "evidence": "居数月，与万偕归。及博兴界。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:08.930Z"
+}

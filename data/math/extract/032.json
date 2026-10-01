@@ -1,0 +1,241 @@
+{
+ "no": 32,
+ "title": "9.1 平移",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2877,
+   "entities": [
+    {
+     "name": "平移",
+     "type": "Concept",
+     "aliases": [
+      "translation"
+     ],
+     "nickname": "",
+     "description": "平面内，将图形沿直线方向平行移动一定距离的变换"
+    },
+    {
+     "name": "轴对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形关于某直线对称的变换"
+    },
+    {
+     "name": "旋转",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形绕某点转动一定角度的变换"
+    },
+    {
+     "name": "图形变换",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形的位置或形状发生变化的变换"
+    },
+    {
+     "name": "对应点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移前后图形中相互对应的点"
+    },
+    {
+     "name": "对应线段",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移前后图形中相互对应的线段"
+    },
+    {
+     "name": "对应角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移前后图形中相互对应的角"
+    },
+    {
+     "name": "平移的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移前后两组对应点的连线段平行且相等"
+    },
+    {
+     "name": "平移的方向",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移时图形移动的方向"
+    },
+    {
+     "name": "平移的距离",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移时图形移动的长度"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "线段",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "直线上两点间的部分"
+    },
+    {
+     "name": "正六边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "六条边相等、六个角相等的多边形"
+    },
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的平行四边形"
+    },
+    {
+     "name": "四边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由四条线段首尾顺次相接组成的图形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平移",
+     "predicate": "INCLUDES",
+     "object": "图形变换",
+     "evidence": "平移、轴对称和旋转是图形变换的基本形式.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "INCLUDES",
+     "object": "图形变换",
+     "evidence": "平移、轴对称和旋转是图形变换的基本形式.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "旋转",
+     "predicate": "INCLUDES",
+     "object": "图形变换",
+     "evidence": "平移、轴对称和旋转是图形变换的基本形式.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平移",
+     "predicate": "RELATED",
+     "object": "轴对称",
+     "evidence": "平移、轴对称和旋转是图形变换的基本形式.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "RELATED",
+     "object": "旋转",
+     "evidence": "平移、轴对称和旋转是图形变换的基本形式.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "RELATED",
+     "object": "旋转",
+     "evidence": "平移、轴对称和旋转是图形变换的基本形式.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "INCLUDES",
+     "object": "对应点",
+     "evidence": "其中点A'是点A的对应点",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "INCLUDES",
+     "object": "对应线段",
+     "evidence": "线段A'B'是线段AB的对应线段",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "INCLUDES",
+     "object": "对应角",
+     "evidence": "∠A'B'C'是∠ABC的对应角",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "INCLUDES",
+     "object": "平移的方向",
+     "evidence": "射线BB'的方向就是平移的方向",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "INCLUDES",
+     "object": "平移的距离",
+     "evidence": "线段BB'的长度就是平移的距离",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移的基本性质",
+     "predicate": "PROPERTY_OF",
+     "object": "平移",
+     "evidence": "一般地，图形的平移具有如下性质：平移前后的两个图形中，两组对应点的连线段平行（或在同一条直线上）且相等。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平移",
+     "predicate": "APPLIES_TO",
+     "object": "三角形",
+     "evidence": "平移一个三角形的关键是找到三个顶点的对应点．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "APPLIES_TO",
+     "object": "线段",
+     "evidence": "要画出一条线段平移后的对应线段，只需画出两个端点的对应点，连接这两个对应点就得到对应线段。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "APPLIES_TO",
+     "object": "正六边形",
+     "evidence": "平移图中的正六边形ABCDEF，使点C移到点E的位置，画出平移后的正六边形．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "APPLIES_TO",
+     "object": "长方形",
+     "evidence": "在长方形ABCD中，点P在边AB上，连接DP，平移△APD，得到△BP'C。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "APPLIES_TO",
+     "object": "四边形",
+     "evidence": "平移四边形ABCD得到四边形A'B'C'D'。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:46.292Z"
+}

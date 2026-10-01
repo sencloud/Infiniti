@@ -1,0 +1,467 @@
+{
+ "no": 32,
+ "title": "诉肺腑心迷活宝玉 含耻辱情烈死金钏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5833,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "宝玉",
+      "宝二爷",
+      "怡红公子",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "怡红公子",
+     "description": "贾府公子，多情叛逆"
+    },
+    {
+     "name": "林黛玉",
+     "type": "Person",
+     "aliases": [
+      "黛玉",
+      "林妹妹",
+      "颦儿",
+      "潇湘妃子",
+      "绛珠仙子"
+     ],
+     "nickname": "潇湘妃子",
+     "description": "贾母外孙女，多愁善感"
+    },
+    {
+     "name": "薛宝钗",
+     "type": "Person",
+     "aliases": [
+      "宝钗",
+      "宝姐姐",
+      "宝丫头",
+      "蘅芜君"
+     ],
+     "nickname": "蘅芜君",
+     "description": "薛家之女，稳重端庄"
+    },
+    {
+     "name": "史湘云",
+     "type": "Person",
+     "aliases": [
+      "湘云",
+      "云妹妹",
+      "史大姑娘",
+      "枕霞旧友"
+     ],
+     "nickname": "枕霞旧友",
+     "description": "贾母侄孙女，豪爽直率"
+    },
+    {
+     "name": "袭人",
+     "type": "Person",
+     "aliases": [
+      "珍珠",
+      "蕊珠",
+      "袭姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的贴身丫鬟"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，宝玉之母"
+    },
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤姐",
+      "凤辣子",
+      "琏二奶奶",
+      "凤丫头",
+      "泼皮破落户"
+     ],
+     "nickname": "凤辣子",
+     "description": "贾琏之妻，荣府管家"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "老太太",
+      "老祖宗",
+      "史太君"
+     ],
+     "nickname": "",
+     "description": "贾府最高长辈"
+    },
+    {
+     "name": "贾雨村",
+     "type": "Person",
+     "aliases": [
+      "雨村",
+      "贾化",
+      "时飞",
+      "贾时飞"
+     ],
+     "nickname": "",
+     "description": "贾府同宗，官员"
+    },
+    {
+     "name": "金钏儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王夫人房中大丫鬟，投井而死"
+    },
+    {
+     "name": "鸳鸯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾母房中大丫鬟"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "贾府"
+     ],
+     "nickname": "",
+     "description": "贾府府邸"
+    },
+    {
+     "name": "大观园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府园林"
+    },
+    {
+     "name": "西边暖阁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府内建筑"
+    },
+    {
+     "name": "东南角井",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园内水井"
+    },
+    {
+     "name": "金钏儿投井",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "金钏儿被撵后投井自尽"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "袭人",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "怎么就把你派了跟二哥哥",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金钏儿",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "就是太太屋里的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "王夫人道：你从园子里来，可看见你宝兄弟么？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "老太太还怕她劳碌着了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "老太太还怕她劳碌着了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "谁知凤丫头说，可巧都没什么新做的衣服",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "姨娘是慈善人，固然是这么想",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "史湘云",
+     "evidence": "好哥哥，你不必说话教我恶心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "林黛玉",
+     "evidence": "素日认他是个知己，果然是个知己",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袭人",
+     "predicate": "FRIEND",
+     "object": "史湘云",
+     "evidence": "咱们在西边暖阁住着，晚上你同我说的话儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "LOVES",
+     "object": "林黛玉",
+     "evidence": "我为你也弄了一身的病在这里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "LOVES",
+     "object": "贾宝玉",
+     "evidence": "你既为我之知己，自然我亦可为你之知己矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "QUARRELED",
+     "object": "史湘云",
+     "evidence": "姑娘请别的姊妹屋里坐坐，我这里仔细脏了你知经济学问的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "QUARRELED",
+     "object": "薛宝钗",
+     "evidence": "上回也是宝姑娘曾说过一回，他也不管人脸上过得去过不去，他就咳了一声，拿起脚来走了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "老爷叫二爷出去会",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "从园子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "从园子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史湘云",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "云丫头在你们家做什么呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袭人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "我们这屋里的针线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金钏儿",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "就是太太屋里的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "王夫人道：你从园子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "老太太还怕她劳碌着了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "谁知凤丫头说",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾雨村",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "兴隆街的大爷来了，老爷叫二爷出去会",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "从园子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "从园子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "从园子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史湘云",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "云丫头在你们家做什么呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袭人",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "我们这屋里的针线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金钏儿",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "就是太太屋里的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "王夫人道：你从园子里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "老太太还怕她劳碌着了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "谁知凤丫头说",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾雨村",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "兴隆街的大爷来了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金钏儿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "金钏儿投井",
+     "evidence": "金钏儿姑娘好好的，投井死了！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金钏儿投井",
+     "predicate": "OCCURRED_AT",
+     "object": "东南角井",
+     "evidence": "刚才打水的人在那东南角上井里打水，只见一个尸首",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "KILLED",
+     "object": "金钏儿",
+     "evidence": "我一时生气，打了她一下，撵了她下去。我只说气她两天，还叫她上来，谁知她这么气性大，就投井死了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "FRAMED",
+     "object": "金钏儿",
+     "evidence": "前儿不知为什么撵她出去",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "麒麟",
+     "evidence": "宝玉见那麒麟，心中甚是欢喜，便伸手来拿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史湘云",
+     "predicate": "OWNS",
+     "object": "戒指",
+     "evidence": "将戒指递与袭人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袭人",
+     "predicate": "OWNS",
+     "object": "扇子",
+     "evidence": "袭人怕他热，忙拿了扇子赶来送与他",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "扇子",
+     "evidence": "夺了扇子，便忙忙的抽身跑了",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:54:19.124Z"
+}

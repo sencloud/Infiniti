@@ -1,0 +1,219 @@
+{
+ "no": 80,
+ "title": "红玉",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2357,
+   "entities": [
+    {
+     "name": "冯相如",
+     "type": "Person",
+     "aliases": [
+      "相如"
+     ],
+     "nickname": "",
+     "description": "广平冯翁之子，秀才，字相如"
+    },
+    {
+     "name": "冯翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "冯相如之父，年近六旬，性方鲠"
+    },
+    {
+     "name": "红玉",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女，自称邻女，与冯相如相恋"
+    },
+    {
+     "name": "卫氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴村卫家女，年十八，嫁冯相如"
+    },
+    {
+     "name": "福儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "冯相如与卫氏之子"
+    },
+    {
+     "name": "宋御史",
+     "type": "Person",
+     "aliases": [
+      "宋氏"
+     ],
+     "nickname": "",
+     "description": "邑绅，曾任御史，因行赇免官"
+    },
+    {
+     "name": "虬髯客",
+     "type": "Person",
+     "aliases": [
+      "丈夫"
+     ],
+     "nickname": "",
+     "description": "虬髯阔颔的侠客，为冯相如报仇"
+    },
+    {
+     "name": "邑令",
+     "type": "Person",
+     "aliases": [
+      "令"
+     ],
+     "nickname": "",
+     "description": "广平县县令，审理冯相如案"
+    },
+    {
+     "name": "广平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，冯相如家乡"
+    },
+    {
+     "name": "吴村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "离广平六十里，卫氏所居"
+    },
+    {
+     "name": "南山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冯相如抱子逃亡被抓处"
+    },
+    {
+     "name": "秦",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "红玉抱养福儿之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冯相如",
+     "predicate": "KIN",
+     "object": "冯翁",
+     "evidence": "广平冯翁有一子，字相如",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯相如",
+     "predicate": "LOVES",
+     "object": "红玉",
+     "evidence": "生大爱悦，与订永好",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯相如",
+     "predicate": "SPOUSE",
+     "object": "卫氏",
+     "evidence": "至日，卫果送女至。女勤俭，有顺德，琴瑟甚笃。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯相如",
+     "predicate": "KIN",
+     "object": "福儿",
+     "evidence": "逾二年，举一男，名福儿。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卫氏",
+     "predicate": "KIN",
+     "object": "福儿",
+     "evidence": "逾二年，举一男，名福儿。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "红玉",
+     "predicate": "HELPED",
+     "object": "冯相如",
+     "evidence": "出白金四十两赠生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "红玉",
+     "predicate": "HELPED",
+     "object": "福儿",
+     "evidence": "适宵行，见儿啼谷口，抱养于秦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋御史",
+     "predicate": "HARMED",
+     "object": "冯翁",
+     "evidence": "竟遣数人入生家，殴翁及子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋御史",
+     "predicate": "HARMED",
+     "object": "冯相如",
+     "evidence": "竟遣数人入生家，殴翁及子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋御史",
+     "predicate": "HARMED",
+     "object": "卫氏",
+     "evidence": "群篡舁之，哄然便去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "虬髯客",
+     "predicate": "KILLED",
+     "object": "宋御史",
+     "evidence": "有人越重垣入，杀御史父子三人，及一媳一婢。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑令",
+     "predicate": "PUNISHED",
+     "object": "冯相如",
+     "evidence": "乃收诸狱。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯相如",
+     "predicate": "LIVES_AT",
+     "object": "广平",
+     "evidence": "广平冯翁有一子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卫氏",
+     "predicate": "LIVES_AT",
+     "object": "吴村",
+     "evidence": "去此六十里，有吴村卫氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "福儿",
+     "predicate": "LIVES_AT",
+     "object": "秦",
+     "evidence": "抱养于秦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冯相如",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "是科遂领乡荐。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:44.682Z"
+}

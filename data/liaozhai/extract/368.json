@@ -1,0 +1,50 @@
+{
+ "no": 368,
+ "title": "牛飞",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 113,
+   "entities": [
+    {
+     "name": "邑人某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《牛飞》中县里买牛之人"
+    },
+    {
+     "name": "牛",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑人某所购健壮之牛"
+    },
+    {
+     "name": "鹰",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "途中驯服之鹰，带巾飞去"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "邑人某",
+     "predicate": "OWNS",
+     "object": "牛",
+     "evidence": "邑人某，购一牛，颇健。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邑人某",
+     "predicate": "OWNS",
+     "object": "鹰",
+     "evidence": "遂以巾头絷股，臂之。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:28.905Z"
+}

@@ -1,0 +1,800 @@
+{
+ "no": 72,
+ "title": "诸葛亮智取汉中 曹阿瞒兵退斜谷",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4212,
+   "entities": [
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "孟德",
+      "阿瞒",
+      "曹公",
+      "魏王",
+      "魏武帝"
+     ],
+     "nickname": "孟德",
+     "description": "魏王，统军与刘备争夺汉中"
+    },
+    {
+     "name": "刘备",
+     "type": "Person",
+     "aliases": [
+      "玄德",
+      "刘皇叔",
+      "先主",
+      "昭烈帝"
+     ],
+     "nickname": "玄德",
+     "description": "蜀主，率军取汉中"
+    },
+    {
+     "name": "张飞",
+     "type": "Person",
+     "aliases": [
+      "翼德",
+      "车骑将军"
+     ],
+     "nickname": "翼德",
+     "description": "蜀将，刺伤许褚夺粮"
+    },
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙",
+      "常山赵子龙",
+      "虎威将军"
+     ],
+     "nickname": "子龙",
+     "description": "蜀将，伏兵擂鼓惊曹兵"
+    },
+    {
+     "name": "马超",
+     "type": "Person",
+     "aliases": [
+      "孟起",
+      "骠骑将军"
+     ],
+     "nickname": "孟起",
+     "description": "蜀将，劫曹寨"
+    },
+    {
+     "name": "黄忠",
+     "type": "Person",
+     "aliases": [
+      "汉升",
+      "后将军"
+     ],
+     "nickname": "汉升",
+     "description": "蜀将，夹攻徐晃"
+    },
+    {
+     "name": "许褚",
+     "type": "Person",
+     "aliases": [
+      "仲康",
+      "虎痴",
+      "虎侯"
+     ],
+     "nickname": "仲康",
+     "description": "魏将，醉后被张飞刺伤"
+    },
+    {
+     "name": "夏侯惇",
+     "type": "Person",
+     "aliases": [
+      "元让",
+      "盲夏侯",
+      "大将军"
+     ],
+     "nickname": "元让",
+     "description": "魏将，传鸡肋口号"
+    },
+    {
+     "name": "曹丕",
+     "type": "Person",
+     "aliases": [
+      "子桓",
+      "魏文帝",
+      "五官中郎将"
+     ],
+     "nickname": "子桓",
+     "description": "曹操长子，与杨修有隙"
+    },
+    {
+     "name": "曹植",
+     "type": "Person",
+     "aliases": [
+      "子建",
+      "陈思王",
+      "临淄侯"
+     ],
+     "nickname": "子建",
+     "description": "曹操三子，爱杨修之才"
+    },
+    {
+     "name": "徐晃",
+     "type": "Person",
+     "aliases": [
+      "公明",
+      "右将军"
+     ],
+     "nickname": "公明",
+     "description": "魏将，渡汉水被夹攻大败"
+    },
+    {
+     "name": "魏延",
+     "type": "Person",
+     "aliases": [
+      "文长",
+      "镇北将军",
+      "汉中太守"
+     ],
+     "nickname": "文长",
+     "description": "蜀将，射中曹操"
+    },
+    {
+     "name": "王平",
+     "type": "Person",
+     "aliases": [
+      "子均",
+      "镇北大将军",
+      "安汉侯"
+     ],
+     "nickname": "子均",
+     "description": "原魏将，降刘备献地理"
+    },
+    {
+     "name": "严颜",
+     "type": "Person",
+     "aliases": [
+      "巴郡太守",
+      "前将军"
+     ],
+     "nickname": "",
+     "description": "蜀将，代守阆中"
+    },
+    {
+     "name": "庞德",
+     "type": "Person",
+     "aliases": [
+      "令明",
+      "庞令明",
+      "白马将军"
+     ],
+     "nickname": "令明",
+     "description": "魏将，救曹操战退魏延"
+    },
+    {
+     "name": "曹彰",
+     "type": "Person",
+     "aliases": [
+      "子文",
+      "曹子文",
+      "黄须儿"
+     ],
+     "nickname": "子文",
+     "description": "曹操次子，来助战刺吴兰"
+    },
+    {
+     "name": "杨修",
+     "type": "Person",
+     "aliases": [
+      "德祖",
+      "杨德祖"
+     ],
+     "nickname": "德祖",
+     "description": "魏主簿，因鸡肋被杀"
+    },
+    {
+     "name": "孟达",
+     "type": "Person",
+     "aliases": [
+      "子度",
+      "孟子度"
+     ],
+     "nickname": "子度",
+     "description": "蜀将，随刘备出战"
+    },
+    {
+     "name": "刘封",
+     "type": "Person",
+     "aliases": [
+      "副军将军"
+     ],
+     "nickname": "",
+     "description": "刘备义子，出战曹彰"
+    },
+    {
+     "name": "吴兰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀将，被曹彰刺死"
+    },
+    {
+     "name": "吴质",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹丕亲信，朝歌长"
+    },
+    {
+     "name": "蜀汉",
+     "type": "Organization",
+     "aliases": [
+      "蜀",
+      "蜀兵",
+      "蜀营"
+     ],
+     "nickname": "",
+     "description": "刘备势力"
+    },
+    {
+     "name": "曹魏",
+     "type": "Organization",
+     "aliases": [
+      "魏",
+      "曹兵",
+      "曹军"
+     ],
+     "nickname": "",
+     "description": "曹操势力"
+    },
+    {
+     "name": "汉水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "河流，两军隔水相拒"
+    },
+    {
+     "name": "阳平关",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "关隘，曹操退守处"
+    },
+    {
+     "name": "斜谷界口",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操最后安营处"
+    },
+    {
+     "name": "南郑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉中要地，被蜀军先得"
+    },
+    {
+     "name": "阆中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "严颜代守之地"
+    },
+    {
+     "name": "五界山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "两军列阵交战处"
+    },
+    {
+     "name": "褒州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜀兵追至之地"
+    },
+    {
+     "name": "代郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹彰讨乌桓处"
+    },
+    {
+     "name": "桑干",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹彰北征至处"
+    },
+    {
+     "name": "汉中之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备与曹操争夺汉中的战役"
+    },
+    {
+     "name": "鸡肋事件",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨修因鸡肋口号被杀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王平",
+     "predicate": "SERVED",
+     "object": "徐晃",
+     "evidence": "徐晃引军渡汉水，王平苦谏不听",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄忠",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "黄忠、赵云告玄德曰：某等各引本部兵去迎曹兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "黄忠、赵云告玄德曰：某等各引本部兵去迎曹兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐晃",
+     "predicate": "FOUGHT",
+     "object": "黄忠",
+     "evidence": "黄忠领兵左出，赵云领兵右出。两下夹攻，徐晃大败",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐晃",
+     "predicate": "FOUGHT",
+     "object": "赵云",
+     "evidence": "黄忠领兵左出，赵云领兵右出。两下夹攻，徐晃大败",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄忠",
+     "predicate": "DEFEATED",
+     "object": "徐晃",
+     "evidence": "两下夹攻，徐晃大败，军士逼入汉水，死者无数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "DEFEATED",
+     "object": "徐晃",
+     "evidence": "两下夹攻，徐晃大败，军士逼入汉水，死者无数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王平",
+     "predicate": "BETRAYED",
+     "object": "徐晃",
+     "evidence": "平当夜引本部军就营中放起火来，曹兵大乱，徐晃弃营而走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王平",
+     "predicate": "SURRENDERED_TO",
+     "object": "刘备",
+     "evidence": "王平渡汉水来投赵云，云引见玄德",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "RECOMMENDED",
+     "object": "王平",
+     "evidence": "王平渡汉水来投赵云，云引见玄德",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "PARTICIPATED_IN",
+     "object": "汉中之战",
+     "evidence": "玄德与孔明来观形势",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "PARTICIPATED_IN",
+     "object": "汉中之战",
+     "evidence": "操大怒，亲统大军来夺汉水寨栅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汉中之战",
+     "predicate": "OCCURRED_AT",
+     "object": "汉水",
+     "evidence": "两军隔水相拒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐晃",
+     "predicate": "FOUGHT",
+     "object": "刘封",
+     "evidence": "操怒，命徐晃出马来战，刘封出迎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘封",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "玄德引刘封、孟达并川中诸将而出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟达",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "玄德引刘封、孟达并川中诸将而出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏延",
+     "predicate": "ATTACKED",
+     "object": "南郑",
+     "evidence": "魏延、张飞得严颜代守阆中，分兵杀来，先得了南郑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "ATTACKED",
+     "object": "南郑",
+     "evidence": "魏延、张飞得严颜代守阆中，分兵杀来，先得了南郑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "严颜",
+     "predicate": "STATIONED_AT",
+     "object": "阆中",
+     "evidence": "魏延、张飞得严颜代守阆中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "FOUGHT",
+     "object": "许褚",
+     "evidence": "为首大将，乃张飞也，挺矛纵马，直取许褚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "DEFEATED",
+     "object": "许褚",
+     "evidence": "被飞一矛刺中肩膀，翻身落马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许褚",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "许褚曰：某愿往！操令许褚引一千精兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹彰",
+     "predicate": "KIN",
+     "object": "曹操",
+     "evidence": "乃操次子曹彰也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹彰",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "因闻操在阳平败阵，故来助战",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹彰",
+     "predicate": "FOUGHT",
+     "object": "刘封",
+     "evidence": "曹彰出马与封交战，只三合，封大败而回",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹彰",
+     "predicate": "DEFEATED",
+     "object": "刘封",
+     "evidence": "曹彰出马与封交战，只三合，封大败而回",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹彰",
+     "predicate": "KILLED",
+     "object": "吴兰",
+     "evidence": "曹彰一戟刺吴兰于马下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马超",
+     "predicate": "ATTACKED",
+     "object": "曹魏",
+     "evidence": "原来马超、吴兰两军杀来，曹兵惊动",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨修",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "行军主簿杨修，见传鸡肋二字",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "KILLED",
+     "object": "杨修",
+     "evidence": "喝刀斧手推出斩之，将首级号令于辕门外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨修",
+     "predicate": "PARTICIPATED_IN",
+     "object": "鸡肋事件",
+     "evidence": "修以鸡肋之意对。操大怒曰：汝怎敢造言乱我军心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "MASTERMINDED",
+     "object": "鸡肋事件",
+     "evidence": "操随口曰：鸡肋！鸡肋！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鸡肋事件",
+     "predicate": "OCCURRED_AT",
+     "object": "斜谷界口",
+     "evidence": "操屯兵日久……于斜谷界口扎住",
+     "confidence": 0.8
+    },
+    {
+     "subject": "曹植",
+     "predicate": "KIN",
+     "object": "曹操",
+     "evidence": "操第三子曹植，爱修之才",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹丕",
+     "predicate": "KIN",
+     "object": "曹操",
+     "evidence": "曹丕知之，密请朝歌长吴质入内府商议",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹植",
+     "predicate": "FRIEND",
+     "object": "杨修",
+     "evidence": "操第三子曹植，爱修之才，常邀修谈论",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹丕",
+     "predicate": "FRAMED",
+     "object": "杨修",
+     "evidence": "操因疑修谮害曹丕，愈恶之",
+     "confidence": 0.8
+    },
+    {
+     "subject": "魏延",
+     "predicate": "FOUGHT",
+     "object": "庞德",
+     "evidence": "操令庞德出战。二将正斗间",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏延",
+     "predicate": "ATTACKED",
+     "object": "曹操",
+     "evidence": "拈弓搭箭，射中曹操",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庞德",
+     "predicate": "RESCUED",
+     "object": "曹操",
+     "evidence": "德奋力向前，战退魏延，保操前行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庞德",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "操令庞德出战",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马超",
+     "predicate": "ATTACKED",
+     "object": "曹魏",
+     "evidence": "人报马超劫了中后二寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "STATIONED_AT",
+     "object": "阳平关",
+     "evidence": "曹操退守阳平关",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "STATIONED_AT",
+     "object": "斜谷界口",
+     "evidence": "于斜谷界口安营",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "STATIONED_AT",
+     "object": "汉水",
+     "evidence": "玄德亲渡汉水，背水结营",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "LEADS",
+     "object": "曹魏",
+     "evidence": "操大怒，亲统大军来夺汉水寨栅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘备",
+     "predicate": "LEADS",
+     "object": "蜀汉",
+     "evidence": "玄德引军出迎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王平",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "遂命王平为偏将军，领向导使",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐晃",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "徐晃逃回见操",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张飞",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "张飞尽夺粮草车辆而回",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵云",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "赵云引一枝兵从背后杀来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄忠",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "黄忠又引兵从褒州杀来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马超",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "马超士卒，蓄锐日久",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏延",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "为首大将乃魏延也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庞德",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "操令庞德出战",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹彰",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "因闻操在阳平败阵，故来助战",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许褚",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "操令许褚引一千精兵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨修",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "行军主簿杨修",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘封",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "玄德引刘封、孟达并川中诸将而出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟达",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "玄德引刘封、孟达并川中诸将而出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴兰",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "马超、吴兰两军杀来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "严颜",
+     "predicate": "MEMBER_OF",
+     "object": "蜀汉",
+     "evidence": "魏延、张飞得严颜代守阆中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹丕",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "曹丕知之，密请朝歌长吴质入内府商议",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹植",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "操第三子曹植，爱修之才",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴质",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "密请朝歌长吴质入内府商议",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹彰",
+     "predicate": "ATTACKED",
+     "object": "代郡",
+     "evidence": "代郡乌桓反，操令彰引兵五万讨之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹彰",
+     "predicate": "STATIONED_AT",
+     "object": "桑干",
+     "evidence": "直杀至桑干，北方皆平",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:56:09.421Z"
+}

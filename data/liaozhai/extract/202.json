@@ -1,0 +1,191 @@
+{
+ "no": 202,
+ "title": "侯静山",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 470,
+   "entities": [
+    {
+     "name": "高念东",
+     "type": "Person",
+     "aliases": [
+      "高少宰",
+      "少宰"
+     ],
+     "nickname": "",
+     "description": "崇祯间吏部侍郎，侯静山篇中人物"
+    },
+    {
+     "name": "侯静山",
+     "type": "Spirit",
+     "aliases": [
+      "静山",
+      "猴仙"
+     ],
+     "nickname": "",
+     "description": "猴仙，附于河间叟，能谈诗文决休咎"
+    },
+    {
+     "name": "河间叟",
+     "type": "Person",
+     "aliases": [
+      "叟"
+     ],
+     "nickname": "",
+     "description": "河间老汉，被猴仙侯静山依附"
+    },
+    {
+     "name": "高念东祖父",
+     "type": "Person",
+     "aliases": [
+      "太先生"
+     ],
+     "nickname": "",
+     "description": "高念东祖父，侯静山篇中卧病谢世"
+    },
+    {
+     "name": "高念东兄弟",
+     "type": "Person",
+     "aliases": [
+      "二公",
+      "少宰兄弟"
+     ],
+     "nickname": "",
+     "description": "高念东及其兄弟，时方为诸生"
+    },
+    {
+     "name": "猴人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "旧时弄猴于村的耍猴人"
+    },
+    {
+     "name": "长沙猴",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "长沙猴仙，颈系金，往来士大夫家"
+    },
+    {
+     "name": "河间",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，河间叟所居之地"
+    },
+    {
+     "name": "长沙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，长沙猴出没之地"
+    },
+    {
+     "name": "村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猴人弄猴及猴逃入之村落"
+    },
+    {
+     "name": "山中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猴断锁逃入之山"
+    },
+    {
+     "name": "野",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村外野地，猴被射杀处"
+    },
+    {
+     "name": "闱",
+     "type": "Event",
+     "aliases": [
+      "乡试"
+     ],
+     "nickname": "",
+     "description": "科举乡试，高念东兄弟方入闱归"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "侯静山",
+     "predicate": "LIVES_AT",
+     "object": "河间",
+     "evidence": "托神于河间之叟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "侯静山",
+     "predicate": "HELPED",
+     "object": "河间叟",
+     "evidence": "汝能奉我，我为汝致富",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高念东",
+     "predicate": "KIN",
+     "object": "高念东祖父",
+     "evidence": "时先生祖寝疾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高念东兄弟",
+     "predicate": "KIN",
+     "object": "高念东祖父",
+     "evidence": "二公敬问祖病",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高念东兄弟",
+     "predicate": "PARTICIPATED_IN",
+     "object": "闱",
+     "evidence": "时少宰兄弟尚诸生，方入闱归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "侯静山",
+     "predicate": "HELPED",
+     "object": "高念东兄弟",
+     "evidence": "仙言：二公闱卷亦佳，但经不熟，再须勤勉，云路亦不远矣",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猴人",
+     "predicate": "LIVES_AT",
+     "object": "村",
+     "evidence": "旧有猴人，弄猴于村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "侯静山",
+     "predicate": "LIVES_AT",
+     "object": "山中",
+     "evidence": "猴断锁而逸，不可追，入山中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "村人",
+     "predicate": "KILLED",
+     "object": "侯静山",
+     "evidence": "一日，为村人所睹，逐诸野，射而杀之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "长沙猴",
+     "predicate": "LIVES_AT",
+     "object": "长沙",
+     "evidence": "长沙有猴，颈系金，尝往来士大夫家",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:31.040Z"
+}

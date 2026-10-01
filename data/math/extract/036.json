@@ -1,0 +1,59 @@
+{
+ "no": 36,
+ "title": "10.2 二元一次方程组的概念",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2048,
+   "entities": [
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [
+      "system of linear equations with two unknowns"
+     ],
+     "nickname": "",
+     "description": "只含有两个未知数，且含未知数的项的次数都是1的方程组"
+    },
+    {
+     "name": "二元一次方程组的解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "二元一次方程组中两个方程的公共解"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含有一个未知数，且未知数的次数都是1的方程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "二元一次方程组",
+     "evidence": "试用二元一次方程组解决“鸡兔同笼”问题，并与一元一次方程解法进行比较．",
+     "confidence": 0.8
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "INCLUDES",
+     "object": "二元一次方程组的解",
+     "evidence": "我们把二元一次方程组中两个方程的公共解叫作二元一次方程组的解．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "CONTRASTS",
+     "object": "一元一次方程",
+     "evidence": "试用二元一次方程组解决“鸡兔同笼”问题，并与一元一次方程解法进行比较．",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:44.205Z"
+}

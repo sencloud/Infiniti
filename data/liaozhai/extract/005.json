@@ -1,0 +1,127 @@
+{
+ "no": 5,
+ "title": "瞳人语",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 928,
+   "entities": [
+    {
+     "name": "方栋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长安士人，有才名而佻脱，因轻薄失明后自新"
+    },
+    {
+     "name": "芙蓉城七郎子新妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "芙蓉城七郎子之新妇，归宁途中被方栋窥视"
+    },
+    {
+     "name": "婢女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新妇之婢，掬辙土飏方栋致其目盲"
+    },
+    {
+     "name": "瞳人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "方栋眼中两个小人，能出鼻游逛并打通左眼"
+    },
+    {
+     "name": "长安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "方栋籍贯及故事发生地"
+    },
+    {
+     "name": "郊郭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "长安城郊，方栋遇新妇处"
+    },
+    {
+     "name": "方栋家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "方栋居所，有园亭植兰"
+    },
+    {
+     "name": "光明经",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛经，方栋持诵以解厄"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "方栋",
+     "predicate": "NATIVE_OF",
+     "object": "长安",
+     "evidence": "长安士方栋，颇有才名",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方栋",
+     "predicate": "LIVES_AT",
+     "object": "方栋家",
+     "evidence": "惊疑而返，觉目终不快",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方栋",
+     "predicate": "OWNS",
+     "object": "光明经",
+     "evidence": "闻《光明经》能解厄，持一卷，浼人教诵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方栋",
+     "predicate": "PARTICIPATED_IN",
+     "object": "清明郊游",
+     "evidence": "清明前一日，偶步郊郭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "清明郊游",
+     "predicate": "OCCURRED_AT",
+     "object": "郊郭",
+     "evidence": "清明前一日，偶步郊郭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "婢女",
+     "predicate": "HARMED",
+     "object": "方栋",
+     "evidence": "言已，掬辙土飏生。生眯，目不可开",
+     "confidence": 0.95
+    },
+    {
+     "subject": "瞳人",
+     "predicate": "HELPED",
+     "object": "方栋",
+     "evidence": "遂觉左眶内隐似抓裂。有顷，开视，豁见几物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "瞳人",
+     "predicate": "LIVES_AT",
+     "object": "方栋家",
+     "evidence": "见有小人自生鼻内出，大不及豆，营营然竟出门去",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:16.622Z"
+}

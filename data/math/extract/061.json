@@ -1,0 +1,96 @@
+{
+ "no": 61,
+ "title": "4.1 点的位置与坐标表示",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3331,
+   "entities": [
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [
+      "直角坐标系"
+     ],
+     "nickname": "",
+     "description": "两条互相垂直且有公共原点的数轴构成的坐标系"
+    },
+    {
+     "name": "有序实数对",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用一对有序实数表示点的位置"
+    },
+    {
+     "name": "点的坐标",
+     "type": "Concept",
+     "aliases": [
+      "坐标"
+     ],
+     "nickname": "",
+     "description": "过点作坐标轴的垂线，垂足对应的有序实数对"
+    },
+    {
+     "name": "象限",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "坐标轴将平面分成的四个区域，按逆时针顺序编号"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "建立数与形之间联系的数学方法"
+    },
+    {
+     "name": "极坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用角度和距离确定点位置的坐标系"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "INCLUDES",
+     "object": "有序实数对",
+     "evidence": "本章将通过平面直角坐标系建立点和有序实数对之间的一一对应",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "INCLUDES",
+     "object": "点的坐标",
+     "evidence": "在平面直角坐标系中，任意一个点的位置都可以用有序实数对表示",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "INCLUDES",
+     "object": "象限",
+     "evidence": "在平面直角坐标系中，两条坐标轴将平面分成的四个区域称为象限",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "平面直角坐标系",
+     "evidence": "数形结合是一种常用的数学方法，有助于建立数与形之间的联系",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "PREREQUISITE",
+     "object": "极坐标系",
+     "evidence": "牛顿在平面直角坐标系的基础上，发明了极坐标系",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:57.070Z"
+}

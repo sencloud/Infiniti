@@ -1,0 +1,114 @@
+{
+ "no": 157,
+ "title": "蹇偿债",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 498,
+   "entities": [
+    {
+     "name": "李著明",
+     "type": "Person",
+     "aliases": [
+      "李公著明",
+      "李公"
+     ],
+     "nickname": "",
+     "description": "《蹇偿债》中慷慨好施的读书人"
+    },
+    {
+     "name": "乡人某",
+     "type": "Person",
+     "aliases": [
+      "某",
+      "同乡"
+     ],
+     "nickname": "",
+     "description": "《蹇偿债》中佣居李家的懒惰乡人，后转生为驴偿债"
+    },
+    {
+     "name": "衡府内监",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《蹇偿债》中欲购李公驴的衡王府内监"
+    },
+    {
+     "name": "牛医",
+     "type": "Person",
+     "aliases": [
+      "兽医"
+     ],
+     "nickname": "",
+     "description": "《蹇偿债》中为李公疗养驴并售驴的兽医"
+    },
+    {
+     "name": "萧寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《蹇偿债》中李公读书的寺院"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《蹇偿债》中李公骑驴前往之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李著明",
+     "predicate": "HELPED",
+     "object": "乡人某",
+     "evidence": "公辄给以升斗",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李著明",
+     "predicate": "HELPED",
+     "object": "乡人某",
+     "evidence": "公忻然，立命授之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乡人某",
+     "predicate": "LIVES_AT",
+     "object": "李著明",
+     "evidence": "佣居公室",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李著明",
+     "predicate": "LIVES_AT",
+     "object": "萧寺",
+     "evidence": "公读书于萧寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李著明",
+     "predicate": "PARTICIPATED_IN",
+     "object": "衡府内监购驴",
+     "evidence": "衡府内监见而悦之，愿以重价购之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "衡府内监购驴",
+     "predicate": "OCCURRED_AT",
+     "object": "青州",
+     "evidence": "公乘赴青州，衡府内监见而悦之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛医",
+     "predicate": "HELPED",
+     "object": "李著明",
+     "evidence": "乞以驹付小人，朝夕疗养",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:12.072Z"
+}

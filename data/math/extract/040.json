@@ -1,0 +1,120 @@
+{
+ "no": 40,
+ "title": "11.1 不等式",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4654,
+   "entities": [
+    {
+     "name": "不等式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用不等号表示数量之间关系的式子"
+    },
+    {
+     "name": "不等号",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示不等关系的符号，如>、<、≥、≤"
+    },
+    {
+     "name": "不等式的基本性质1",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "不等式两边加(减)同一个数或整式，不等号方向不变"
+    },
+    {
+     "name": "不等式的基本性质2",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "不等式两边乘(除)同一个正数，不等号方向不变；乘(除)同一个负数，不等号方向改变"
+    },
+    {
+     "name": "等式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等式两边加(减)同一个数或整式，结果仍相等；等式两边乘(除)同一个不为0的数，结果仍相等"
+    },
+    {
+     "name": "一元一次不等式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数，未知数的次数是1的不等式"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数，未知数的次数是1的方程"
+    },
+    {
+     "name": "数轴",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "不等式",
+     "predicate": "INCLUDES",
+     "object": "不等号",
+     "evidence": "用不等号（>，<，≥，≤）表示数量之间关系的式子叫作不等式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "不等式的基本性质1",
+     "predicate": "PROPERTY_OF",
+     "object": "不等式",
+     "evidence": "不等式的基本性质1：不等式的两边都加上（或减去）同一个数或整式，不等号的方向不变",
+     "confidence": 0.95
+    },
+    {
+     "subject": "不等式的基本性质2",
+     "predicate": "PROPERTY_OF",
+     "object": "不等式",
+     "evidence": "不等式的基本性质2：不等式的两边都乘（或除以）同一个正数，不等号的方向不变；不等式的两边都乘（或除以）同一个负数，不等号的方向改变",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等式的基本性质",
+     "predicate": "CONTRASTS",
+     "object": "不等式的基本性质1",
+     "evidence": "不等式的基本性质与等式的基本性质有什么相同点和不同点？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等式的基本性质",
+     "predicate": "CONTRASTS",
+     "object": "不等式的基本性质2",
+     "evidence": "不等式的基本性质与等式的基本性质有什么相同点和不同点？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次不等式",
+     "evidence": "在学习一元一次不等式时，可以与一元一次方程进行类比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数轴",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次不等式",
+     "evidence": "x在数轴上对应的点到原点的距离大于2",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:47.760Z"
+}

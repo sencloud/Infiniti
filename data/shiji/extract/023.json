@@ -1,0 +1,343 @@
+{
+ "no": 23,
+ "title": "礼书",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2880,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "尼父"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家宗师，强调正名"
+    },
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉高祖",
+      "沛公",
+      "高祖",
+      "汉王"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "子长",
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "《史记》作者，太史令"
+    },
+    {
+     "name": "晁错",
+     "type": "Person",
+     "aliases": [
+      "晁大夫"
+     ],
+     "nickname": "",
+     "description": "汉景帝时御史大夫，主张削藩"
+    },
+    {
+     "name": "比干",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商纣王叔父，因谏被杀"
+    },
+    {
+     "name": "箕子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商纣王叔父，被囚"
+    },
+    {
+     "name": "叔孙通",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉初儒生，为高祖制礼仪"
+    },
+    {
+     "name": "孝文",
+     "type": "Person",
+     "aliases": [
+      "汉文帝"
+     ],
+     "nickname": "",
+     "description": "汉文帝，好道家之学"
+    },
+    {
+     "name": "孝景",
+     "type": "Person",
+     "aliases": [
+      "汉景帝"
+     ],
+     "nickname": "",
+     "description": "汉景帝，用晁错计削藩"
+    },
+    {
+     "name": "今上",
+     "type": "Person",
+     "aliases": [
+      "汉武帝"
+     ],
+     "nickname": "",
+     "description": "汉武帝，招儒定仪"
+    },
+    {
+     "name": "唐昧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国将领，战死于垂涉"
+    },
+    {
+     "name": "庄蹻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国起义者，导致楚分裂"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝诸侯国，后统一天下"
+    },
+    {
+     "name": "楚",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝诸侯国，南方大国"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘邦建立的王朝"
+    },
+    {
+     "name": "周",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝"
+    },
+    {
+     "name": "卫",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝诸侯国"
+    },
+    {
+     "name": "齐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝诸侯国"
+    },
+    {
+     "name": "河海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "泛指河流海洋"
+    },
+    {
+     "name": "垂涉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，楚军战败处"
+    },
+    {
+     "name": "鄢郢",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国都城"
+    },
+    {
+     "name": "太山",
+     "type": "Place",
+     "aliases": [
+      "泰山"
+     ],
+     "nickname": "",
+     "description": "五岳之首，封禅之地"
+    },
+    {
+     "name": "御史大夫",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦汉高级官职，副丞相"
+    },
+    {
+     "name": "太史令",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "掌管天文历法、修史"
+    },
+    {
+     "name": "六国畔逆",
+     "type": "Event",
+     "aliases": [
+      "吴楚七国之乱"
+     ],
+     "nickname": "",
+     "description": "汉景帝时诸侯叛乱"
+    },
+    {
+     "name": "封太山",
+     "type": "Event",
+     "aliases": [
+      "封禅泰山"
+     ],
+     "nickname": "",
+     "description": "汉武帝封禅大典"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "司马迁",
+     "predicate": "HELD_OFFICE",
+     "object": "太史令",
+     "evidence": "太史公曰：洋洋美德乎！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁错",
+     "predicate": "HELD_OFFICE",
+     "object": "御史大夫",
+     "evidence": "孝景时，御史大夫晁错明于世务刑名",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁错",
+     "predicate": "ADVISED",
+     "object": "孝景",
+     "evidence": "数干谏孝景曰：“诸侯藩辅，臣子一例，古今之制也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孝景",
+     "predicate": "KILLED",
+     "object": "晁错",
+     "evidence": "天子诛错以解难",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孝景",
+     "predicate": "PARTICIPATED_IN",
+     "object": "六国畔逆",
+     "evidence": "孝景用其计，而六国畔逆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "六国畔逆",
+     "predicate": "OCCURRED_AT",
+     "object": "汉",
+     "evidence": "孝景用其计，而六国畔逆",
+     "confidence": 0.8
+    },
+    {
+     "subject": "叔孙通",
+     "predicate": "SERVED",
+     "object": "刘邦",
+     "evidence": "至于高祖，光有四海，叔孙通颇有所增益减损",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "至于高祖，光有四海",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孝文",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "孝文即位",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孝景",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "孝景时",
+     "confidence": 0.95
+    },
+    {
+     "subject": "今上",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "今上即位",
+     "confidence": 0.95
+    },
+    {
+     "subject": "今上",
+     "predicate": "PARTICIPATED_IN",
+     "object": "封太山",
+     "evidence": "乃以太初之元改正朔，易服色，封太山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "封太山",
+     "predicate": "OCCURRED_AT",
+     "object": "太山",
+     "evidence": "封太山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "SERVED",
+     "object": "卫",
+     "evidence": "孔子曰“必也正名”，于卫所居不合",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐昧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "垂涉之战",
+     "evidence": "然而兵殆于垂涉，唐昧死焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庄蹻",
+     "predicate": "PARTICIPATED_IN",
+     "object": "楚分裂",
+     "evidence": "庄蹻起，楚分而为四参",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦",
+     "predicate": "DEFEATED",
+     "object": "楚",
+     "evidence": "然而秦师至鄢郢，举若振藁",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:17.811Z"
+}

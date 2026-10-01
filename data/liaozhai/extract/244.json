@@ -1,0 +1,164 @@
+{
+ "no": 244,
+ "title": "向杲",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 734,
+   "entities": [
+    {
+     "name": "向杲",
+     "type": "Person",
+     "aliases": [
+      "初旦"
+     ],
+     "nickname": "",
+     "description": "太原人，向晟之弟，为兄报仇化虎"
+    },
+    {
+     "name": "向晟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "向杲庶兄，娶妓波斯，被庄公子打死"
+    },
+    {
+     "name": "波斯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "妓女，与向晟有割臂之盟，后嫁向晟"
+    },
+    {
+     "name": "庄公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "素善波斯，怒夺所好，打死向晟，被虎咬死"
+    },
+    {
+     "name": "焦桐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汾州人，勇而善射，受聘为庄公子保镖，射杀虎"
+    },
+    {
+     "name": "太原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "向杲籍贯地"
+    },
+    {
+     "name": "汾州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "焦桐籍贯地"
+    },
+    {
+     "name": "山神祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "岭上旧有祠庙，向杲化虎处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "向杲",
+     "predicate": "KIN",
+     "object": "向晟",
+     "evidence": "与庶兄晟，友于最敦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "向晟",
+     "predicate": "LOVES",
+     "object": "波斯",
+     "evidence": "晟狎一妓，名波斯，有割臂之盟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "向晟",
+     "predicate": "SPOUSE",
+     "object": "波斯",
+     "evidence": "竭赀聘波斯以归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "庄公子",
+     "predicate": "HARMED",
+     "object": "向晟",
+     "evidence": "遂嗾从人折箠笞之，垂毙，乃去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "庄公子",
+     "predicate": "KILLED",
+     "object": "向晟",
+     "evidence": "杲闻奔视，则兄已死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "向杲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赴郡告状",
+     "evidence": "具造赴郡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赴郡告状",
+     "predicate": "OCCURRED_AT",
+     "object": "太原",
+     "evidence": "向杲字初旦，太原人",
+     "confidence": 0.8
+    },
+    {
+     "subject": "向杲",
+     "predicate": "KILLED",
+     "object": "庄公子",
+     "evidence": "虎暴出，于马上扑庄落，龁其首，咽之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "焦桐",
+     "predicate": "KILLED",
+     "object": "向杲",
+     "evidence": "焦桐返马而射，中虎腹，蹶然遂毙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "向杲",
+     "predicate": "LIVES_AT",
+     "object": "太原",
+     "evidence": "向杲字初旦，太原人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "向杲",
+     "predicate": "NATIVE_OF",
+     "object": "太原",
+     "evidence": "向杲字初旦，太原人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "焦桐",
+     "predicate": "NATIVE_OF",
+     "object": "汾州",
+     "evidence": "闻汾州有焦桐者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "向杲",
+     "predicate": "LIVES_AT",
+     "object": "山神祠",
+     "evidence": "强起奔赴。既入庙",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:46.328Z"
+}

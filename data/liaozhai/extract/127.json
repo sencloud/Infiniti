@@ -1,0 +1,52 @@
+{
+ "no": 127,
+ "title": "黑兽",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 314,
+   "entities": [
+    {
+     "name": "李敬一",
+     "type": "Person",
+     "aliases": [
+      "李太公"
+     ],
+     "nickname": "",
+     "description": "太公，讲述黑兽故事的人"
+    },
+    {
+     "name": "某公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "在沈阳山顶宴集的人"
+    },
+    {
+     "name": "黑兽",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "毛长数寸、击毙老虎的黑色野兽"
+    },
+    {
+     "name": "沈阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某公宴集之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "某公",
+     "predicate": "LIVES_AT",
+     "object": "沈阳",
+     "evidence": "某公在沈阳，宴集山颠。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:00.341Z"
+}

@@ -1,0 +1,109 @@
+{
+ "no": 216,
+ "title": "河间生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 345,
+   "entities": [
+    {
+     "name": "河间生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "河间府秀才，与狐翁交游"
+    },
+    {
+     "name": "狐翁",
+     "type": "Spirit",
+     "aliases": [
+      "老翁",
+      "狐"
+     ],
+     "nickname": "",
+     "description": "居麦穰洞中的狐，化老翁与河间生交"
+    },
+    {
+     "name": "河间",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "河间府，河间生籍贯地"
+    },
+    {
+     "name": "鱼台",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山东鱼台县，酒肆所在城市"
+    },
+    {
+     "name": "酒肆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鱼台城中酒馆，狐翁携生入饮"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "河间生",
+     "predicate": "NATIVE_OF",
+     "object": "河间",
+     "evidence": "河间某生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐翁",
+     "predicate": "LIVES_AT",
+     "object": "河间",
+     "evidence": "有狐居其中，常与主人相见，老翁也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "河间生",
+     "predicate": "FRIEND",
+     "object": "狐翁",
+     "evidence": "有狐居其中，常与主人相见，老翁也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐翁",
+     "predicate": "HELPED",
+     "object": "河间生",
+     "evidence": "翁自下楼，任意取案上酒果，抔来供生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐翁",
+     "predicate": "HARMED",
+     "object": "河间生",
+     "evidence": "挽生臂，疾如乘风",
+     "confidence": 0.6
+    },
+    {
+     "subject": "河间生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "酒肆饮宴",
+     "evidence": "入酒肆，见坐客良多，聚饮颇哗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "酒肆饮宴",
+     "predicate": "OCCURRED_AT",
+     "object": "酒肆",
+     "evidence": "入酒肆，见坐客良多，聚饮颇哗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "酒肆",
+     "predicate": "OCCURRED_AT",
+     "object": "鱼台",
+     "evidence": "问其处，乃鱼台",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:34.976Z"
+}

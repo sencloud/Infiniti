@@ -1,0 +1,48 @@
+{
+ "no": 21,
+ "title": "建元以来王子侯者年表",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 76,
+   "entities": [
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "西汉史学家，《史记》作者"
+    },
+    {
+     "name": "汉武帝",
+     "type": "Person",
+     "aliases": [
+      "天子",
+      "朕"
+     ],
+     "nickname": "",
+     "description": "西汉皇帝，下诏分封诸侯王子弟"
+    },
+    {
+     "name": "御史",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "中央监察官署或官员"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "汉武帝",
+     "predicate": "HELD_OFFICE",
+     "object": "御史",
+     "evidence": "制诏御史：“诸侯王或欲推私恩分子弟邑者，令各条上，朕且临定其号名。”",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:10.855Z"
+}

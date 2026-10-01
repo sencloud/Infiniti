@@ -1,0 +1,559 @@
+{
+ "no": 15,
+ "title": "蛇盘山诸神暗佑 鹰愁涧意马收缰",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5813,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "悟空",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐取经僧人"
+    },
+    {
+     "name": "白龙马",
+     "type": "Person",
+     "aliases": [
+      "玉龙三太子",
+      "小白龙",
+      "八部天龙马",
+      "西海龙子"
+     ],
+     "nickname": "玉龙三太子",
+     "description": "西海龙王之子，化马驮唐僧"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "南海普陀山菩萨，取经策划者"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭最高主宰"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王",
+      "东海敖广"
+     ],
+     "nickname": "敖广",
+     "description": "东海龙王"
+    },
+    {
+     "name": "西海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖闰",
+      "龙王",
+      "西海敖闰"
+     ],
+     "nickname": "敖闰",
+     "description": "西海龙王，白龙马之父"
+    },
+    {
+     "name": "南海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖钦",
+      "龙王",
+      "南海敖钦"
+     ],
+     "nickname": "敖钦",
+     "description": "南海龙王"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "敖顺",
+     "description": "北海龙王"
+    },
+    {
+     "name": "文殊菩萨",
+     "type": "Person",
+     "aliases": [
+      "文殊",
+      "文殊师利",
+      "七佛之师"
+     ],
+     "nickname": "文殊",
+     "description": "佛教菩萨"
+    },
+    {
+     "name": "惠岸行者",
+     "type": "Person",
+     "aliases": [
+      "木叉",
+      "木吒",
+      "惠岸"
+     ],
+     "nickname": "木吒",
+     "description": "观音菩萨弟子"
+    },
+    {
+     "name": "金头揭谛",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五方揭谛之一，昼夜保护唐僧"
+    },
+    {
+     "name": "鹰愁涧",
+     "type": "Place",
+     "aliases": [
+      "蛇盘山鹰愁涧",
+      "鹰愁陡涧"
+     ],
+     "nickname": "",
+     "description": "蛇盘山中的深涧，白龙马居所"
+    },
+    {
+     "name": "蛇盘山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鹰愁涧所在的山"
+    },
+    {
+     "name": "里社祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西番哈咇国界的庙宇"
+    },
+    {
+     "name": "西番哈咇国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "取经路上经过的国度"
+    },
+    {
+     "name": "落伽山",
+     "type": "Place",
+     "aliases": [
+      "南海",
+      "普陀"
+     ],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    },
+    {
+     "name": "鹰愁涧收白龙马",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨点化玉龙三太子化为白马"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者伏侍唐僧西进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "教我跟他做徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白龙马",
+     "predicate": "KIN",
+     "object": "西海龙王",
+     "evidence": "这厮本是西海敖闰之子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "白龙马",
+     "evidence": "是我亲见玉帝，讨他下来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "今蒙观音菩萨劝善，着唐朝驾下真僧救出我来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "白龙马",
+     "evidence": "他两个在涧边前这一场赌斗",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "白龙马",
+     "evidence": "那条龙力软筋麻，不能抵敌",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "DEFEATED",
+     "object": "白龙马",
+     "evidence": "菩萨上前，把那小龙的项下明珠摘了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白龙马",
+     "predicate": "SURRENDERED_TO",
+     "object": "唐僧",
+     "evidence": "教他与唐僧做个脚力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白龙马",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "教他与唐僧做个脚力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "鹰愁涧收白龙马",
+     "evidence": "行者才按落云头，揪着那龙马的顶鬃",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTERMINDED",
+     "object": "鹰愁涧收白龙马",
+     "evidence": "菩萨将杨柳叶儿，摘下三个，放在行者的脑后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹰愁涧收白龙马",
+     "predicate": "OCCURRED_AT",
+     "object": "鹰愁涧",
+     "evidence": "唐僧在蛇盘山鹰愁陡涧失了马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白龙马",
+     "predicate": "STATIONED_AT",
+     "object": "鹰愁涧",
+     "evidence": "送他在此，教他等候那取经人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍铁棒",
+     "evidence": "攥着金箍铁棒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "OWNS",
+     "object": "杨柳叶儿",
+     "evidence": "菩萨将杨柳叶儿，摘下三个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "鹰愁涧收白龙马",
+     "evidence": "三藏一见大喜道：徒弟，马有了也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金头揭谛",
+     "predicate": "SERVED",
+     "object": "观音菩萨",
+     "evidence": "我等是观音菩萨差来的一路神祇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金头揭谛",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "特来暗中保取经者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "是我亲见玉帝，讨他下来",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1537,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "西天取经的圣僧"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "救苦救难的菩萨，曾擒龙化马"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭最高主宰"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "道教尊神，兜率天宫主人"
+    },
+    {
+     "name": "落伽山山神",
+     "type": "Person",
+     "aliases": [
+      "土地"
+     ],
+     "nickname": "",
+     "description": "落伽山山神土地，奉菩萨差遣送鞍辔"
+    },
+    {
+     "name": "鹰愁涧",
+     "type": "Place",
+     "aliases": [
+      "鹰愁陡涧"
+     ],
+     "nickname": "",
+     "description": "蛇盘山中的深涧，孽龙出没处"
+    },
+    {
+     "name": "蛇盘山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鹰愁涧所在的山"
+    },
+    {
+     "name": "落伽山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    },
+    {
+     "name": "圣祠",
+     "type": "Place",
+     "aliases": [
+      "社祠"
+     ],
+     "nickname": "",
+     "description": "老者所居庙祠，实为山神土地所化"
+    },
+    {
+     "name": "鞍辔",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "一副精美的马鞍辔头，山神所赠"
+    },
+    {
+     "name": "挽手儿",
+     "type": "Item",
+     "aliases": [
+      "鞭儿"
+     ],
+     "nickname": "",
+     "description": "香藤柄虎筋丝马鞭，山神所赠"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "又感得观音菩萨来涧边擒住那龙，教他就变做我原骑的白马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTERMINDED",
+     "object": "鹰愁涧",
+     "evidence": "蒙菩萨差送鞍辔与汝等的",
+     "confidence": 0.8
+    },
+    {
+     "subject": "落伽山山神",
+     "predicate": "SERVED",
+     "object": "观音菩萨",
+     "evidence": "我是落伽山山神、土地，蒙菩萨差送鞍辔与汝等的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "落伽山山神",
+     "predicate": "OWNS",
+     "object": "鞍辔",
+     "evidence": "那老儿，果擎着一副鞍辔……放在廊下道：'师父，鞍辔奉上。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "落伽山山神",
+     "predicate": "OWNS",
+     "object": "挽手儿",
+     "evidence": "那老儿复袖中取出一条鞭儿来……在路旁拱手奉上道：'圣僧，我还有一条挽手儿，一发送了你罢。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "鞍辔",
+     "evidence": "三藏见了，欢喜领受。教行者拿了，背上马看",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "挽手儿",
+     "evidence": "那三藏在马上接了道：'多承布施！多承布施！'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "幸亏我徒弟有些本事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "唐僧",
+     "evidence": "上前来扯住唐僧道：'师父，你起来罢。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "玉皇大帝",
+     "evidence": "就是见了玉皇大帝、太上老君，我也只是唱个喏便罢了",
+     "confidence": 0.7
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "太上老君",
+     "evidence": "就是见了玉皇大帝、太上老君，我也只是唱个喏便罢了",
+     "confidence": 0.7
+    },
+    {
+     "subject": "落伽山山神",
+     "predicate": "STATIONED_AT",
+     "object": "落伽山",
+     "evidence": "我是落伽山山神、土地",
+     "confidence": 0.95
+    },
+    {
+     "subject": "落伽山山神",
+     "predicate": "STATIONED_AT",
+     "object": "圣祠",
+     "evidence": "故充为庙祝，侍奉香火",
+     "confidence": 0.8
+    },
+    {
+     "subject": "鹰愁涧",
+     "predicate": "OCCURRED_AT",
+     "object": "蛇盘山",
+     "evidence": "至鹰愁陡涧……那涧里有条孽龙",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:06.575Z"
+}

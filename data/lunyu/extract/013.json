@@ -1,0 +1,720 @@
+{
+ "no": 13,
+ "title": "子路篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1465,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，春秋时期思想家、教育家"
+    },
+    {
+     "name": "子路",
+     "type": "Person",
+     "aliases": [
+      "仲由",
+      "季路",
+      "由"
+     ],
+     "nickname": "季路",
+     "description": "孔门弟子，以政事见长"
+    },
+    {
+     "name": "冉雍",
+     "type": "Person",
+     "aliases": [
+      "仲弓",
+      "雍"
+     ],
+     "nickname": "仲弓",
+     "description": "孔门弟子，以德行著称"
+    },
+    {
+     "name": "冉求",
+     "type": "Person",
+     "aliases": [
+      "子有",
+      "冉有",
+      "求",
+      "冉子"
+     ],
+     "nickname": "子有",
+     "description": "孔门弟子，多才多艺，善理财"
+    },
+    {
+     "name": "子贡",
+     "type": "Person",
+     "aliases": [
+      "端木赐",
+      "赐",
+      "子赣"
+     ],
+     "nickname": "子赣",
+     "description": "孔门弟子，利口巧辞，善于外交"
+    },
+    {
+     "name": "樊迟",
+     "type": "Person",
+     "aliases": [
+      "樊须",
+      "子迟",
+      "须"
+     ],
+     "nickname": "子迟",
+     "description": "孔门弟子，曾问学稼圃"
+    },
+    {
+     "name": "子夏",
+     "type": "Person",
+     "aliases": [
+      "卜商",
+      "商",
+      "卜子夏"
+     ],
+     "nickname": "卜子夏",
+     "description": "孔门弟子，以文学著称"
+    },
+    {
+     "name": "叶公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国叶县尹，曾问政于孔子"
+    },
+    {
+     "name": "鲁定公",
+     "type": "Person",
+     "aliases": [
+      "定公"
+     ],
+     "nickname": "",
+     "description": "鲁国国君，曾问孔子一言兴邦"
+    },
+    {
+     "name": "卫公子荆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卫国公子，孔子称其善居室"
+    },
+    {
+     "name": "季氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国权臣，冉雍曾为其宰"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心道德范畴，指爱人、仁德"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "社会规范与典章制度"
+    },
+    {
+     "name": "义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "合宜的道德准则"
+    },
+    {
+     "name": "孝",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "孝顺父母"
+    },
+    {
+     "name": "悌",
+     "type": "Concept",
+     "aliases": [
+      "弟"
+     ],
+     "nickname": "",
+     "description": "敬爱兄长"
+    },
+    {
+     "name": "信",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "诚信不欺"
+    },
+    {
+     "name": "忠",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "忠诚尽责"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "品德高尚的人"
+    },
+    {
+     "name": "小人",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "品德低下的人"
+    },
+    {
+     "name": "政",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "政事、治理国家"
+    },
+    {
+     "name": "学",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "学习、学问"
+    },
+    {
+     "name": "知",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "知识、智慧"
+    },
+    {
+     "name": "中庸",
+     "type": "Concept",
+     "aliases": [
+      "中行"
+     ],
+     "nickname": "",
+     "description": "不偏不倚的处世原则"
+    },
+    {
+     "name": "德",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道德、德行"
+    },
+    {
+     "name": "士",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有德行有学识的人"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，孔子故乡"
+    },
+    {
+     "name": "卫",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，孔子曾游历"
+    },
+    {
+     "name": "诗",
+     "type": "Text",
+     "aliases": [
+      "《诗》"
+     ],
+     "nickname": "",
+     "description": "《诗经》，儒家经典"
+    },
+    {
+     "name": "易",
+     "type": "Text",
+     "aliases": [
+      "《周易》"
+     ],
+     "nickname": "",
+     "description": "《周易》，儒家经典"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "子路",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子路问政。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "子曰：“先之，劳之。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冉雍",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "仲弓为季氏宰，问政。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "子曰：“先有司，赦小过，举贤才。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冉雍",
+     "predicate": "SERVED",
+     "object": "季氏",
+     "evidence": "仲弓为季氏宰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子路",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子路曰：“卫君待子而为政，子将奚先？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "子曰：“必也正名乎！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CRITICIZED",
+     "object": "子路",
+     "evidence": "子曰：“野哉，由也！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "礼乐不兴则刑罚不中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子于其所不知，盖阙如也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "樊迟",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "樊迟请学稼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "子曰：“吾不如老农。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CRITICIZED",
+     "object": "樊迟",
+     "evidence": "子曰：“小人哉，樊须也！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "上好礼，则民莫敢不敬",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "上好义，则民莫敢不服",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "上好信，则民莫敢不用情",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "诗",
+     "evidence": "诵《诗》三百",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "授之以政，不达",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "其身正，不令而行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "鲁卫之政，兄弟也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "PRAISED",
+     "object": "卫公子荆",
+     "evidence": "子谓卫公子荆：“善居室。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "VISITED",
+     "object": "卫",
+     "evidence": "子适卫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冉求",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "冉有曰：“既庶矣又何加焉？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "曰：“富之。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "曰：“教之。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "苟有用我者，期月而已可也，三年有成。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "如有王者，必世而后仁。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "苟正其身矣，于从政乎何有？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冉求",
+     "predicate": "SERVED",
+     "object": "鲁",
+     "evidence": "冉子退朝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁定公",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "定公问：“一言而可以兴邦，有诸？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "孔子对曰：“言不可以若是。其几也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叶公",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "叶公问政",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "子曰：“近者说，远者来。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子夏",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子夏为莒父宰，问政",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "子曰：“无欲速，无见小利。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叶公",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "叶公语孔子曰：“吾党有直躬者，其父攘羊，而子证之。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "父为子隐，子为父隐，直在其中矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "樊迟",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "樊迟问仁。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "子曰：“居处恭，执事敬，与人忠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子贡问曰：“何如斯可谓之士矣？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "士",
+     "evidence": "子曰：“行己有耻，使于四方，不辱君命，可谓士矣。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "宗族称孝焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "悌",
+     "evidence": "乡党称弟焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "言必信，行必果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "硁硁然小人哉！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "中庸",
+     "evidence": "不得中行而与之，必也狂狷乎！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "易",
+     "evidence": "不恒其德，或承之羞。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子和而不同",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "小人同而不和",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子贡问曰：“乡人皆好之，何如？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子易事而难说也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "小人难事而易说也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子泰而不骄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "小人骄而不泰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "刚、毅、木、讷，近仁。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子路",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子路问曰：“何如斯可谓之士矣？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "士",
+     "evidence": "子曰：“切切偲偲，怡怡如也，可谓士矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "善人教民七年，亦可以即戎矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "以不教民战，是谓弃之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "君子",
+     "predicate": "CONTRASTED",
+     "object": "小人",
+     "evidence": "君子和而不同，小人同而不和。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "君子",
+     "predicate": "CONTRASTED",
+     "object": "小人",
+     "evidence": "君子泰而不骄，小人骄而不泰。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "君子",
+     "predicate": "CONTRASTED",
+     "object": "小人",
+     "evidence": "君子易事而难说也……小人难事而易说也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孝",
+     "predicate": "RELATED",
+     "object": "悌",
+     "evidence": "宗族称孝焉，乡党称弟焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "礼",
+     "predicate": "RELATED",
+     "object": "义",
+     "evidence": "上好礼，则民莫敢不敬；上好义，则民莫敢不服",
+     "confidence": 0.9
+    },
+    {
+     "subject": "信",
+     "predicate": "RELATED",
+     "object": "义",
+     "evidence": "上好义，则民莫敢不服；上好信，则民莫敢不用情",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:37.676Z"
+}

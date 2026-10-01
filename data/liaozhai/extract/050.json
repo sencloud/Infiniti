@@ -1,0 +1,57 @@
+{
+ "no": 50,
+ "title": "义鼠",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 150,
+   "entities": [
+    {
+     "name": "杨天一",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《义鼠》中讲述见闻的人"
+    },
+    {
+     "name": "张历友",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《义鼠》中作《义鼠行》的友人"
+    },
+    {
+     "name": "义鼠",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《义鼠》中为同伴复仇的老鼠"
+    },
+    {
+     "name": "死鼠",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《义鼠》中被蛇吞食的老鼠"
+    },
+    {
+     "name": "《义鼠行》",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "张历友为义鼠所作的诗"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张历友",
+     "predicate": "OWNS",
+     "object": "《义鼠行》",
+     "evidence": "友人张历友为作《义鼠行》",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:30.891Z"
+}

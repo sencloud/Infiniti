@@ -1,0 +1,78 @@
+{
+ "no": 76,
+ "title": "7.3 频率与概率",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5679,
+   "entities": [
+    {
+     "name": "频率的稳定性",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "大量重复试验中，随机事件发生的频率在某一常数附近摆动并趋于稳定"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对随机事件发生可能性大小的一种度量"
+    },
+    {
+     "name": "随机事件",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在一定条件下可能发生也可能不发生的事件"
+    },
+    {
+     "name": "频率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "频数与试验次数的比值"
+    },
+    {
+     "name": "用频率估计概率",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过大量重复试验，用频率的稳定值估计概率"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "频率的稳定性",
+     "predicate": "PREREQUISITE",
+     "object": "用频率估计概率",
+     "evidence": "在大量重复试验中，随机事件发生的频率具有稳定性。实际生活中，能够进行大量重复试验的随机事件，可以通过频率估计概率。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "用频率估计概率",
+     "predicate": "APPLIES_TO",
+     "object": "概率",
+     "evidence": "可以通过频率估计概率",
+     "confidence": 0.9
+    },
+    {
+     "subject": "频率的稳定性",
+     "predicate": "PROPERTY_OF",
+     "object": "频率",
+     "evidence": "在大量重复试验中，一个随机事件发生的频率在某一常数附近摆动，并趋于稳定，我们把这种现象称为频率的稳定性",
+     "confidence": 0.95
+    },
+    {
+     "subject": "概率",
+     "predicate": "PROPERTY_OF",
+     "object": "随机事件",
+     "evidence": "概率是对随机事件发生可能性大小的一种度量",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:03.090Z"
+}

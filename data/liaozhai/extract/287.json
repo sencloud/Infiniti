@@ -1,0 +1,64 @@
+{
+ "no": 287,
+ "title": "杨疤眼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 126,
+   "entities": [
+    {
+     "name": "杨疤眼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐精，左目有瘢痕如钱，篇中称杨疤眼"
+    },
+    {
+     "name": "猎人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "夜伏山中，叱走小人，获一狐"
+    },
+    {
+     "name": "小人甲",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "长二尺已来，往望杨疤眼"
+    },
+    {
+     "name": "小人乙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "高亦如之，亦往望杨疤眼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "小人甲",
+     "predicate": "FRIEND",
+     "object": "杨疤眼",
+     "evidence": "我将往望杨疤眼。前见其气色晦黯，多罹不吉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小人乙",
+     "predicate": "FRIEND",
+     "object": "杨疤眼",
+     "evidence": "我亦为此，汝言不谬。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猎人",
+     "predicate": "HARMED",
+     "object": "杨疤眼",
+     "evidence": "夜获一狐，左目上有瘢痕，大如钱。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:00.420Z"
+}

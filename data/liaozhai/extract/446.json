@@ -1,0 +1,194 @@
+{
+ "no": 446,
+ "title": "王十",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1403,
+   "entities": [
+    {
+     "name": "王十",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高苑县民，因贩私盐被鬼卒捉去淘奈河"
+    },
+    {
+     "name": "阎罗",
+     "type": "Spirit",
+     "aliases": [
+      "阎王"
+     ],
+     "nickname": "",
+     "description": "冥府新阎王，审断私盐案"
+    },
+    {
+     "name": "鬼卒",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府差役，捉王十淘河"
+    },
+    {
+     "name": "高苑肆商",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高苑盐商，死后在奈河淘河受王十责打"
+    },
+    {
+     "name": "张石年",
+     "type": "Person",
+     "aliases": [
+      "张公"
+     ],
+     "nickname": "",
+     "description": "淄川县令，爱民，曾放走私盐贩"
+    },
+    {
+     "name": "私盐贩",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被张石年审问后故意放走的贩盐者"
+    },
+    {
+     "name": "高苑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，王十籍贯"
+    },
+    {
+     "name": "博兴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，王十负盐之地"
+    },
+    {
+     "name": "奈河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府河流，淤平后需淘挖"
+    },
+    {
+     "name": "官署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府阎罗审案之处"
+    },
+    {
+     "name": "蒺藜骨朵",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "阎罗授予王十的监督河工刑具"
+    },
+    {
+     "name": "淘河",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府惩罚私盐等三种人的劳役"
+    },
+    {
+     "name": "私盐案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "张石年审理私盐贩的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鬼卒",
+     "predicate": "HARMED",
+     "object": "王十",
+     "evidence": "夜为二人所获",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鬼卒",
+     "predicate": "HELPED",
+     "object": "王十",
+     "evidence": "前二鬼仍送至家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗",
+     "predicate": "HELPED",
+     "object": "王十",
+     "evidence": "罚二鬼市盐四斗，并十所负，代运至家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗",
+     "predicate": "PUNISHED",
+     "object": "高苑肆商",
+     "evidence": "捉三种人淘河：小偷、私铸、私盐",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王十",
+     "predicate": "HARMED",
+     "object": "高苑肆商",
+     "evidence": "十独苛遇之，入河楚背，上岸敲股",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王十",
+     "predicate": "PARTICIPATED_IN",
+     "object": "淘河",
+     "evidence": "令随诸鬼督河工",
+     "confidence": 0.9
+    },
+    {
+     "subject": "淘河",
+     "predicate": "OCCURRED_AT",
+     "object": "奈河",
+     "evidence": "至奈河边，见河内人夫[纟+强]续如蚁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王十",
+     "predicate": "LIVES_AT",
+     "object": "高苑",
+     "evidence": "高苑民王十",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王十",
+     "predicate": "NATIVE_OF",
+     "object": "高苑",
+     "evidence": "高苑民王十",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张石年",
+     "predicate": "PUNISHED",
+     "object": "私盐贩",
+     "evidence": "其一被执到官",
+     "confidence": 0.8
+    },
+    {
+     "subject": "私盐贩",
+     "predicate": "PARTICIPATED_IN",
+     "object": "私盐案",
+     "evidence": "后肆中获二负贩者，其一逃去，其一被执到官",
+     "confidence": 0.9
+    },
+    {
+     "subject": "私盐案",
+     "predicate": "OCCURRED_AT",
+     "object": "官署",
+     "evidence": "被执到官",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:03.242Z"
+}

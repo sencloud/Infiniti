@@ -1,0 +1,155 @@
+{
+ "no": 295,
+ "title": "画马",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 357,
+   "entities": [
+    {
+     "name": "崔生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临清人，家贫，得画妖马售于晋王致富"
+    },
+    {
+     "name": "曾某",
+     "type": "Person",
+     "aliases": [
+      "曾"
+     ],
+     "nickname": "",
+     "description": "崔生东邻，家中挂子昂画马，因马逸入其家被讼"
+    },
+    {
+     "name": "晋王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋地藩王，以八百金购崔生之马"
+    },
+    {
+     "name": "校尉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋王所遣校尉，骑马赴临清，马逸后讼曾某"
+    },
+    {
+     "name": "画妖",
+     "type": "Spirit",
+     "aliases": [
+      "马",
+      "画马"
+     ],
+     "nickname": "",
+     "description": "赵子昂画中马所化之妖，黑质白章，尾毛似火燎断"
+    },
+    {
+     "name": "临清",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "崔生籍贯及故事发生地"
+    },
+    {
+     "name": "晋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "崔生好友为官之地，晋王所在"
+    },
+    {
+     "name": "子昂画马",
+     "type": "Item",
+     "aliases": [
+      "画马一帧"
+     ],
+     "nickname": "",
+     "description": "赵子昂所画之马，挂于曾家壁间，为画妖本体"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "崔生",
+     "predicate": "NATIVE_OF",
+     "object": "临清",
+     "evidence": "临清崔生，家窭贫，围垣不修。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔生",
+     "predicate": "FRIEND",
+     "object": "晋王",
+     "evidence": "崔有好友，官于晋，欲往就之",
+     "confidence": 0.5
+    },
+    {
+     "subject": "崔生",
+     "predicate": "OWNS",
+     "object": "画妖",
+     "evidence": "遂捉马施勒乘去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "崔生",
+     "predicate": "OWNS",
+     "object": "子昂画马",
+     "evidence": "见壁间挂子昂画马一帧",
+     "confidence": 0.5
+    },
+    {
+     "subject": "崔生",
+     "predicate": "HELPED",
+     "object": "曾某",
+     "evidence": "自愿以直贷曾，付校尉去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晋王",
+     "predicate": "OWNS",
+     "object": "画妖",
+     "evidence": "遂以八百金货于晋邸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晋王",
+     "predicate": "HELPED",
+     "object": "校尉",
+     "evidence": "后王以急务，遣校尉骑赴临清",
+     "confidence": 0.8
+    },
+    {
+     "subject": "校尉",
+     "predicate": "PUNISHED",
+     "object": "曾某",
+     "evidence": "校尉难复王命，因讼曾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "画妖",
+     "predicate": "LIVES_AT",
+     "object": "子昂画马",
+     "evidence": "始知马，画妖也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "画妖",
+     "predicate": "HARMED",
+     "object": "曾某",
+     "evidence": "马逸，追至崔之东邻，入门，不见，索诸主人",
+     "confidence": 0.8
+    },
+    {
+     "subject": "子昂画马",
+     "predicate": "LIVES_AT",
+     "object": "曾某",
+     "evidence": "及入室，见壁间挂子昂画马一帧",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:05.796Z"
+}

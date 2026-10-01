@@ -1,0 +1,206 @@
+{
+ "no": 177,
+ "title": "封三娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2653,
+   "entities": [
+    {
+     "name": "范十一娘",
+     "type": "Person",
+     "aliases": [
+      "十一娘"
+     ],
+     "nickname": "",
+     "description": "《封三娘》中[田+鹿]城祭酒之女，貌美工诗"
+    },
+    {
+     "name": "封三娘",
+     "type": "Spirit",
+     "aliases": [
+      "三娘",
+      "封娘"
+     ],
+     "nickname": "",
+     "description": "《封三娘》中狐女，与范十一娘结为姊妹"
+    },
+    {
+     "name": "孟安仁",
+     "type": "Person",
+     "aliases": [
+      "安仁",
+      "孟生",
+      "孟公子"
+     ],
+     "nickname": "",
+     "description": "《封三娘》中贫而多才的秀才，后官翰林"
+    },
+    {
+     "name": "范公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《封三娘》中范十一娘之父，[田+鹿]城祭酒"
+    },
+    {
+     "name": "范夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《封三娘》中范十一娘之母"
+    },
+    {
+     "name": "水月寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《封三娘》中作盂兰盆会之寺院"
+    },
+    {
+     "name": "[田+鹿]城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《封三娘》中范十一娘籍贯地"
+    },
+    {
+     "name": "金凤钗",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《封三娘》中范十一娘赠封三娘之金钗"
+    },
+    {
+     "name": "绿簪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《封三娘》中封三娘回赠范十一娘之簪"
+    },
+    {
+     "name": "盂兰盆会",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《封三娘》中水月寺尼姑所办法会"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "范十一娘",
+     "predicate": "NATIVE_OF",
+     "object": "[田+鹿]城",
+     "evidence": "范十一娘，[田+鹿]城祭酒之女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范十一娘",
+     "predicate": "KIN",
+     "object": "范公",
+     "evidence": "范十一娘，[田+鹿]城祭酒之女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范十一娘",
+     "predicate": "KIN",
+     "object": "范夫人",
+     "evidence": "父母钟爱之，求聘者辄令自择",
+     "confidence": 0.9
+    },
+    {
+     "subject": "范十一娘",
+     "predicate": "PARTICIPATED_IN",
+     "object": "盂兰盆会",
+     "evidence": "会上元日，水月寺中诸尼作“盂兰盆会”。是日，游女如云，女亦诣之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "盂兰盆会",
+     "predicate": "OCCURRED_AT",
+     "object": "水月寺",
+     "evidence": "会上元日，水月寺中诸尼作“盂兰盆会”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范十一娘",
+     "predicate": "FRIEND",
+     "object": "封三娘",
+     "evidence": "把臂欢笑，词致温婉，于是大相爱悦，依恋不舍。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范十一娘",
+     "predicate": "OWNS",
+     "object": "金凤钗",
+     "evidence": "十一娘乃脱金钗一股赠之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "封三娘",
+     "predicate": "OWNS",
+     "object": "绿簪",
+     "evidence": "封亦摘髻上绿簪为报",
+     "confidence": 0.9
+    },
+    {
+     "subject": "封三娘",
+     "predicate": "HELPED",
+     "object": "范十一娘",
+     "evidence": "封曰：“旧年邂逅处，今复作道场，明日再烦一往，当令见一如意郎君。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "封三娘",
+     "predicate": "HELPED",
+     "object": "孟安仁",
+     "evidence": "封乃以钗示生。生喜不自已",
+     "confidence": 0.9
+    },
+    {
+     "subject": "范十一娘",
+     "predicate": "LOVES",
+     "object": "孟安仁",
+     "evidence": "使人潜告夫人：非孟生，死不嫁！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟安仁",
+     "predicate": "LOVES",
+     "object": "范十一娘",
+     "evidence": "矢曰：“劳眷注若此，仆不得十一娘，宁终鳏耳。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "封三娘",
+     "predicate": "HELPED",
+     "object": "范十一娘",
+     "evidence": "封曰：“我所谓就者，正以其亡。可急唤家人发冢，我有异药，能令苏。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟安仁",
+     "predicate": "SPOUSE",
+     "object": "范十一娘",
+     "evidence": "生自负尸，与三娘俱归，置榻上，投以药，逾时而苏。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "范十一娘",
+     "predicate": "KIN",
+     "object": "封三娘",
+     "evidence": "订为姊妹，衣服履舄，辄互易着。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "封三娘",
+     "predicate": "HARMED",
+     "object": "范十一娘",
+     "evidence": "三娘醒曰：“妹子害我矣！倘色戒不破，道成当升第一天。今堕奸谋，命耳！”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:22.739Z"
+}

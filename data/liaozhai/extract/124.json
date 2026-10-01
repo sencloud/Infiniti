@@ -1,0 +1,66 @@
+{
+ "no": 124,
+ "title": "五羖大夫",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 110,
+   "entities": [
+    {
+     "name": "畅体元",
+     "type": "Person",
+     "aliases": [
+      "汝玉"
+     ],
+     "nickname": "五羖大夫",
+     "description": "河津人，字汝玉，后授雒南知县"
+    },
+    {
+     "name": "河津",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "畅体元籍贯地"
+    },
+    {
+     "name": "雒南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "畅体元任知县之地"
+    },
+    {
+     "name": "流寇之乱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "畅体元遭流寇剥衣关押之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "畅体元",
+     "predicate": "NATIVE_OF",
+     "object": "河津",
+     "evidence": "河津畅体元，字汝玉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "畅体元",
+     "predicate": "PARTICIPATED_IN",
+     "object": "流寇之乱",
+     "evidence": "及遇流寇之乱，尽剥其衣，闭置空室。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "流寇之乱",
+     "predicate": "OCCURRED_AT",
+     "object": "河津",
+     "evidence": "河津畅体元，字汝玉。为诸生时，梦人呼为“五羖大夫”，喜为佳兆。及遇流寇之乱",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:58.626Z"
+}

@@ -1,0 +1,183 @@
+{
+ "no": 398,
+ "title": "席方平",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2440,
+   "entities": [
+    {
+     "name": "席方平",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东安人，席廉之子，为父伸冤"
+    },
+    {
+     "name": "席廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "席方平之父，性戆拙"
+    },
+    {
+     "name": "羊某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "里中富室，与席廉有隙"
+    },
+    {
+     "name": "城隍",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "县城隍，受贿枉法"
+    },
+    {
+     "name": "郡司",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "郡城隍，贪酷"
+    },
+    {
+     "name": "冥王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "阎王，贪暴"
+    },
+    {
+     "name": "狱吏",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府狱吏，受赇拷打席廉"
+    },
+    {
+     "name": "东安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "席方平籍贯"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴曹地府"
+    },
+    {
+     "name": "灌口",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "二郎神所在"
+    },
+    {
+     "name": "东岳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东岳大帝处，施行刑罚之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "席方平",
+     "predicate": "KIN",
+     "object": "席廉",
+     "evidence": "席方平，东安人。其父名廉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "席廉",
+     "predicate": "NATIVE_OF",
+     "object": "东安",
+     "evidence": "席方平，东安人。其父名廉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "席方平",
+     "predicate": "NATIVE_OF",
+     "object": "东安",
+     "evidence": "席方平，东安人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "羊某",
+     "predicate": "HARMED",
+     "object": "席廉",
+     "evidence": "羊某今贿嘱冥使搒我矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狱吏",
+     "predicate": "HARMED",
+     "object": "席廉",
+     "evidence": "狱吏悉受赇嘱，日夜搒掠，胫股摧残甚矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "席方平",
+     "predicate": "HELPED",
+     "object": "席廉",
+     "evidence": "我将赴地下，代伸冤气耳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "城隍",
+     "predicate": "PUNISHED",
+     "object": "席方平",
+     "evidence": "城隍以所告无据，颇不直席",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郡司",
+     "predicate": "PUNISHED",
+     "object": "席方平",
+     "evidence": "郡司扑席，仍批城隍覆案",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥王",
+     "predicate": "PUNISHED",
+     "object": "席方平",
+     "evidence": "命笞二十",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥王",
+     "predicate": "HARMED",
+     "object": "席方平",
+     "evidence": "命置火床",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥王",
+     "predicate": "HARMED",
+     "object": "席方平",
+     "evidence": "命以锯解其体",
+     "confidence": 0.9
+    },
+    {
+     "subject": "席方平",
+     "predicate": "LIVES_AT",
+     "object": "冥府",
+     "evidence": "遁赴冥府",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥王",
+     "predicate": "OCCURRED_AT",
+     "object": "东岳",
+     "evidence": "即押赴东岳施行",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:41.867Z"
+}

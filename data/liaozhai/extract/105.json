@@ -1,0 +1,162 @@
+{
+ "no": 105,
+ "title": "霍生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 506,
+   "entities": [
+    {
+     "name": "霍生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "文登人，与严生少相狎长相谑"
+    },
+    {
+     "name": "严生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍生友，因霍生诬其妻而虐妻致死"
+    },
+    {
+     "name": "严妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "严生之妻，被严生虐待自经死，死后为厉鬼"
+    },
+    {
+     "name": "霍妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍生之妻，梦严妻后病卒"
+    },
+    {
+     "name": "邻妪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍生邻居老妇，曾为严妻导产"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑人，与同窗某狎，因戏言得吼疾"
+    },
+    {
+     "name": "同窗某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王氏同窗，其妻被王氏戏弄"
+    },
+    {
+     "name": "某妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "同窗某之妻，归宁途中被王氏戏弄"
+    },
+    {
+     "name": "文登",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，霍生籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "霍生",
+     "predicate": "FRIEND",
+     "object": "严生",
+     "evidence": "文登霍生，与严生少相狎，长相谑也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "严生",
+     "predicate": "SPOUSE",
+     "object": "严妻",
+     "evidence": "严止窗外，听之既悉，不入径去。至家，苦掠其妻",
+     "confidence": 0.95
+    },
+    {
+     "subject": "霍生",
+     "predicate": "SPOUSE",
+     "object": "霍妇",
+     "evidence": "偶与霍妇语，言其私处有两赘疣，妇以告霍。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邻妪",
+     "predicate": "HELPED",
+     "object": "严妻",
+     "evidence": "霍有邻妪，曾与严妻导产。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "严生",
+     "predicate": "HARMED",
+     "object": "严妻",
+     "evidence": "至家，苦掠其妻，妻不服，搒益残。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "严生",
+     "predicate": "KILLED",
+     "object": "严妻",
+     "evidence": "妻不堪虐，自经死。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "严妻",
+     "predicate": "HARMED",
+     "object": "霍妇",
+     "evidence": "霍妇梦女子披发大叫曰：“我死得良苦，汝夫妻何得欢乐耶！”既醒而病，数日寻卒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "严妻",
+     "predicate": "HARMED",
+     "object": "霍生",
+     "evidence": "霍亦梦女子指数诟骂，以掌批其吻。惊而寤，觉唇际隐痛，扪之高起，三日而成双疣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "FRIEND",
+     "object": "同窗某",
+     "evidence": "邑王氏与同窗某狎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同窗某",
+     "predicate": "SPOUSE",
+     "object": "某妻",
+     "evidence": "其妻归宁，王知其驴善惊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王氏",
+     "predicate": "HARMED",
+     "object": "某妻",
+     "evidence": "王乃殷勤抱控甚至，妇亦不识谁何。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍生",
+     "predicate": "NATIVE_OF",
+     "object": "文登",
+     "evidence": "文登霍生",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:53.204Z"
+}

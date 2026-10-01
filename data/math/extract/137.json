@@ -1,0 +1,303 @@
+{
+ "no": 137,
+ "title": "8.6 收取多少保险费才合理",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6111,
+   "entities": [
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "随机事件发生可能性大小的度量"
+    },
+    {
+     "name": "随机事件",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在一定条件下可能发生也可能不发生的事件"
+    },
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的算术平均值"
+    },
+    {
+     "name": "简单随机抽样",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "总体中每个个体被抽到的可能性相同的抽样方法"
+    },
+    {
+     "name": "样本",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "从总体中抽取的一部分个体"
+    },
+    {
+     "name": "总体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "所要考察的对象的全体"
+    },
+    {
+     "name": "方差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "衡量一组数据波动大小的量"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "概率",
+     "predicate": "PREREQUISITE",
+     "object": "平均数",
+     "evidence": "一般地，如果随机事件 A 发生的概率是 P(A)，那么在相同条件下重复 n 次试验，事件 A 发生的次数的平均值为 n×P(A)。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "简单随机抽样",
+     "predicate": "APPLIES_TO",
+     "object": "总体",
+     "evidence": "“简单随机抽样”是最常用的一种抽样方法，其特点是抽取样本时总体中的每个个体被抽到的可能性相同。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "样本",
+     "predicate": "PREREQUISITE",
+     "object": "总体",
+     "evidence": "在统计里，我们通常是从总体中抽取样本，并对样本数据进行整理、描述、分析，目的是获得样本的某种特性，从而根据样本特性去估计总体的相应特性。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方差",
+     "predicate": "RELATED",
+     "object": "平均数",
+     "evidence": "分别计算第一天和第二天各种不同溶液中种子发芽数的平均数和方差",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2141,
+   "entities": [
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的平均水平"
+    },
+    {
+     "name": "方差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "衡量一组数据波动大小的量"
+    },
+    {
+     "name": "反比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如 y=k/x (k≠0) 的函数"
+    },
+    {
+     "name": "图形相似",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形状相同、大小不一定相同的图形"
+    },
+    {
+     "name": "平移",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形沿某个方向移动一定距离"
+    },
+    {
+     "name": "点动成线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "点运动形成线"
+    },
+    {
+     "name": "抛物线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次函数的图像"
+    },
+    {
+     "name": "函数表达式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示函数关系的数学式子"
+    },
+    {
+     "name": "误差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "测量值与真实值之间的差异"
+    },
+    {
+     "name": "测量",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过工具获取数据的方法"
+    },
+    {
+     "name": "收集数据",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "获取数据的过程"
+    },
+    {
+     "name": "整理数据",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "对数据分类、排序等处理"
+    },
+    {
+     "name": "描述数据",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用图表等展示数据"
+    },
+    {
+     "name": "分析数据",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "对数据进行比较、推断等"
+    },
+    {
+     "name": "做出结论",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据分析得出最终判断"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "随机事件发生的可能性大小"
+    },
+    {
+     "name": "统计",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "收集、整理、分析数据的学科"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平均数",
+     "predicate": "RELATED",
+     "object": "方差",
+     "evidence": "分别计算小组同学的身高、两臂展开宽的平均数和方差",
+     "confidence": 0.9
+    },
+    {
+     "subject": "收集数据",
+     "predicate": "PREREQUISITE",
+     "object": "整理数据",
+     "evidence": "收集、整理、描述、分析数据",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整理数据",
+     "predicate": "PREREQUISITE",
+     "object": "描述数据",
+     "evidence": "收集、整理、描述、分析数据",
+     "confidence": 0.9
+    },
+    {
+     "subject": "描述数据",
+     "predicate": "PREREQUISITE",
+     "object": "分析数据",
+     "evidence": "收集、整理、描述、分析数据",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分析数据",
+     "predicate": "PREREQUISITE",
+     "object": "做出结论",
+     "evidence": "收集、整理、描述、分析数据，做出结论",
+     "confidence": 0.9
+    },
+    {
+     "subject": "图形相似",
+     "predicate": "APPLIES_TO",
+     "object": "测量",
+     "evidence": "你能运用图形相似的知识解释课本提供的测量方法的合理性吗？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "APPLIES_TO",
+     "object": "制作动画片",
+     "evidence": "小车依次向左平移一格，连续的若干幅画装订在一起，快速翻动，你会发现小车在“向左开动”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "点动成线",
+     "predicate": "APPLIES_TO",
+     "object": "制作动画片",
+     "evidence": "点动成线：画反比例函数 y=1/x 在第一象限内的一支图像。在这支图像上从左到右依次取24个点，第一幅画第一个点，后面的每幅画都比前一幅画多画一个点。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反比例函数",
+     "predicate": "APPLIES_TO",
+     "object": "制作动画片",
+     "evidence": "点动成线：画反比例函数 y=1/x 在第一象限内的一支图像。在这支图像上从左到右依次取24个点，第一幅画第一个点，后面的每幅画都比前一幅画多画一个点。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抛物线",
+     "predicate": "RELATED",
+     "object": "函数表达式",
+     "evidence": "你能根据景观设计要求，求出抛物线形拱桥的函数表达式吗？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "测量",
+     "predicate": "RELATED",
+     "object": "误差",
+     "evidence": "测量中，是否产生过误差？你能分析产生误差的原因吗？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "概率",
+     "predicate": "RELATED",
+     "object": "统计",
+     "evidence": "九下 第8章 统计和概率的简单应用",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:37.551Z"
+}

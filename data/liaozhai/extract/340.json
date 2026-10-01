@@ -1,0 +1,106 @@
+{
+ "no": 340,
+ "title": "狂生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 419,
+   "entities": [
+    {
+     "name": "狂生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "狂生",
+     "description": "济宁狂放书生，善饮，家贫无田宅"
+    },
+    {
+     "name": "刺史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新任济宁刺史，善饮，与狂生共饮"
+    },
+    {
+     "name": "狂生妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "狂生之妻，随其居城堞上"
+    },
+    {
+     "name": "刘学师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "讲述狂生故事的人"
+    },
+    {
+     "name": "济宁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，狂生所在州"
+    },
+    {
+     "name": "城堞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "城墙上的矮墙，狂生携妻居此"
+    },
+    {
+     "name": "斗室",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朋友为狂生购买的小屋"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "狂生",
+     "predicate": "SPOUSE",
+     "object": "狂生妻",
+     "evidence": "惟携妻在城堞上住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狂生",
+     "predicate": "LIVES_AT",
+     "object": "城堞",
+     "evidence": "惟携妻在城堞上住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狂生",
+     "predicate": "LIVES_AT",
+     "object": "斗室",
+     "evidence": "为买数尺地，购斗室焉。入而居之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狂生",
+     "predicate": "NATIVE_OF",
+     "object": "济宁",
+     "evidence": "济宁有狂生某",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刺史",
+     "predicate": "HELPED",
+     "object": "狂生",
+     "evidence": "刺史闻而释之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刺史",
+     "predicate": "PUNISHED",
+     "object": "狂生",
+     "evidence": "但逐不令居城垣",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:21.622Z"
+}

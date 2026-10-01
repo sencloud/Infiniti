@@ -1,0 +1,220 @@
+{
+ "no": 265,
+ "title": "阿英",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2484,
+   "entities": [
+    {
+     "name": "甘玉",
+     "type": "Person",
+     "aliases": [
+      "璧人"
+     ],
+     "nickname": "",
+     "description": "庐陵人，字璧人，甘珏之兄"
+    },
+    {
+     "name": "甘珏",
+     "type": "Person",
+     "aliases": [
+      "双璧"
+     ],
+     "nickname": "",
+     "description": "甘玉之弟，字双璧"
+    },
+    {
+     "name": "阿英",
+     "type": "Spirit",
+     "aliases": [
+      "英娘",
+      "阿英女"
+     ],
+     "nickname": "",
+     "description": "鹦鹉所化，与甘珏有婚约"
+    },
+    {
+     "name": "秦氏",
+     "type": "Spirit",
+     "aliases": [
+      "秦娘子"
+     ],
+     "nickname": "",
+     "description": "秦吉了所化，被甘玉所救"
+    },
+    {
+     "name": "姜氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "甘珏后娶之妻"
+    },
+    {
+     "name": "甘翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "甘玉、甘珏之父，已故"
+    },
+    {
+     "name": "伟丈夫",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖物，伤秦氏右臂"
+    },
+    {
+     "name": "庐陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "甘玉、甘珏籍贯"
+    },
+    {
+     "name": "匡山僧寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "甘玉读书之处"
+    },
+    {
+     "name": "东山望村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阿英自称所居之地"
+    },
+    {
+     "name": "函谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦氏来处"
+    },
+    {
+     "name": "粤",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "甘玉表兄为官之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "甘玉",
+     "predicate": "KIN",
+     "object": "甘珏",
+     "evidence": "遗弟珏，字双璧，始五岁，从兄鞠养。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘玉",
+     "predicate": "KIN",
+     "object": "甘翁",
+     "evidence": "父殁时，我二十馀岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘珏",
+     "predicate": "KIN",
+     "object": "甘翁",
+     "evidence": "父殁时，我二十馀岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘玉",
+     "predicate": "HELPED",
+     "object": "秦氏",
+     "evidence": "玉怜恻不可复忍，乃急袖剑拔关出，挥之，中股，股落，负痛逃去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘玉",
+     "predicate": "LIVES_AT",
+     "object": "匡山僧寺",
+     "evidence": "适读书匡山僧寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘玉",
+     "predicate": "NATIVE_OF",
+     "object": "庐陵",
+     "evidence": "甘玉，字璧人，庐陵人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘珏",
+     "predicate": "NATIVE_OF",
+     "object": "庐陵",
+     "evidence": "甘玉，字璧人，庐陵人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿英",
+     "predicate": "SPOUSE",
+     "object": "甘珏",
+     "evidence": "女自言：“小字阿英。……妾陆氏，居东山望村。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿英",
+     "predicate": "LIVES_AT",
+     "object": "东山望村",
+     "evidence": "妾陆氏，居东山望村。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿英",
+     "predicate": "KIN",
+     "object": "秦氏",
+     "evidence": "惟外姊秦氏同居。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘珏",
+     "predicate": "SPOUSE",
+     "object": "姜氏",
+     "evidence": "后二年，为弟聘姜氏女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阿英",
+     "predicate": "HELPED",
+     "object": "甘珏",
+     "evidence": "女撮土拦户，嘱安居勿出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿英",
+     "predicate": "HELPED",
+     "object": "姜氏",
+     "evidence": "女遂早起为姜理妆，梳竟，细匀铅黄，人视之，艳增数倍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦氏",
+     "predicate": "HELPED",
+     "object": "甘玉",
+     "evidence": "一秦吉了，飞集棘上，展翼覆之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伟丈夫",
+     "predicate": "HARMED",
+     "object": "秦氏",
+     "evidence": "丈夫吼怒，龁手断指，就便嚼食，女郎踣地若死。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "粤司李",
+     "evidence": "有表兄为粤司李，玉往省之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:55.149Z"
+}

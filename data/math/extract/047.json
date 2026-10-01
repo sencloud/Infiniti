@@ -1,0 +1,295 @@
+{
+ "no": 47,
+ "title": "12.3 证明",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3779,
+   "entities": [
+    {
+     "name": "命题",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "判断一件事情的语句，由条件和结论组成"
+    },
+    {
+     "name": "真命题",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "条件成立时结论一定成立的命题"
+    },
+    {
+     "name": "假命题",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "条件成立时结论不一定成立的命题"
+    },
+    {
+     "name": "证明",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "从条件出发，根据已知事实推出结论的过程"
+    },
+    {
+     "name": "反例",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "说明一个命题为假的具体例子"
+    },
+    {
+     "name": "偶数的定义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能被2整除的整数称为偶数"
+    },
+    {
+     "name": "不等式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "不等式两边加同一个数，不等号方向不变"
+    },
+    {
+     "name": "等量代换",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用相等的量替换另一个量"
+    },
+    {
+     "name": "分配律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a(b+c)=ab+ac"
+    },
+    {
+     "name": "垂直的定义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条直线相交成直角，称这两条直线垂直"
+    },
+    {
+     "name": "同位角相等，两直线平行",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "同位角相等，则两直线平行"
+    },
+    {
+     "name": "内错角相等，两直线平行",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "内错角相等，则两直线平行"
+    },
+    {
+     "name": "两直线平行，同位角相等",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两直线平行，则同位角相等"
+    },
+    {
+     "name": "两直线平行，同旁内角互补",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两直线平行，则同旁内角互补"
+    },
+    {
+     "name": "逻辑推理",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "数学中推理的统称，包括归纳、类比、演绎"
+    },
+    {
+     "name": "归纳推理",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从特殊到一般的推理方式"
+    },
+    {
+     "name": "类比推理",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从特殊到一般的推理方式"
+    },
+    {
+     "name": "演绎推理",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从一般到特殊的推理方式，是数学证明的主要方式"
+    },
+    {
+     "name": "三段论推理",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "演绎推理的基本形式，由大前提、小前提、结论组成"
+    },
+    {
+     "name": "等式性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等式两边加或减同一个数，等式仍成立"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "反例",
+     "predicate": "APPLIES_TO",
+     "object": "假命题",
+     "evidence": "我们可以用反例说明一个命题为假",
+     "confidence": 0.95
+    },
+    {
+     "subject": "证明",
+     "predicate": "APPLIES_TO",
+     "object": "真命题",
+     "evidence": "从命题的条件出发，根据一些已知的事实……从而确定这个命题为真命题的过程称为证明",
+     "confidence": 0.95
+    },
+    {
+     "subject": "命题",
+     "predicate": "INCLUDES",
+     "object": "真命题",
+     "evidence": "判断命题的真假是数学的一个基本活动",
+     "confidence": 0.9
+    },
+    {
+     "subject": "命题",
+     "predicate": "INCLUDES",
+     "object": "假命题",
+     "evidence": "判断命题的真假是数学的一个基本活动",
+     "confidence": 0.9
+    },
+    {
+     "subject": "偶数的定义",
+     "predicate": "PREREQUISITE",
+     "object": "证明",
+     "evidence": "根据一些已知的事实（如概念的定义，基本性质，真命题等）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "不等式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "证明",
+     "evidence": "根据一些已知的事实（如概念的定义，基本性质，真命题等）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等量代换",
+     "predicate": "APPLIES_TO",
+     "object": "证明",
+     "evidence": "用“因为……，所以……”的形式一步一步推出命题的结论",
+     "confidence": 0.85
+    },
+    {
+     "subject": "分配律",
+     "predicate": "APPLIES_TO",
+     "object": "证明",
+     "evidence": "用“因为……，所以……”的形式一步一步推出命题的结论",
+     "confidence": 0.85
+    },
+    {
+     "subject": "垂直的定义",
+     "predicate": "PREREQUISITE",
+     "object": "证明",
+     "evidence": "根据一些已知的事实（如概念的定义，基本性质，真命题等）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "同位角相等，两直线平行",
+     "predicate": "APPLIES_TO",
+     "object": "证明",
+     "evidence": "∴a∥b（同位角相等，两直线平行）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "内错角相等，两直线平行",
+     "predicate": "APPLIES_TO",
+     "object": "证明",
+     "evidence": "∴AC∥ED（内错角相等，两直线平行）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两直线平行，同位角相等",
+     "predicate": "APPLIES_TO",
+     "object": "证明",
+     "evidence": "∴∠3=∠D（两直线平行，同位角相等）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "两直线平行，同旁内角互补",
+     "predicate": "APPLIES_TO",
+     "object": "证明",
+     "evidence": "∴∠B+∠BCE=180°（两直线平行，同旁内角互补）",
+     "confidence": 0.95
+    },
+    {
+     "subject": "逻辑推理",
+     "predicate": "INCLUDES",
+     "object": "归纳推理",
+     "evidence": "数学中的逻辑推理主要包括归纳推理、类比推理与演绎推理",
+     "confidence": 0.95
+    },
+    {
+     "subject": "逻辑推理",
+     "predicate": "INCLUDES",
+     "object": "类比推理",
+     "evidence": "数学中的逻辑推理主要包括归纳推理、类比推理与演绎推理",
+     "confidence": 0.95
+    },
+    {
+     "subject": "逻辑推理",
+     "predicate": "INCLUDES",
+     "object": "演绎推理",
+     "evidence": "数学中的逻辑推理主要包括归纳推理、类比推理与演绎推理",
+     "confidence": 0.95
+    },
+    {
+     "subject": "演绎推理",
+     "predicate": "INCLUDES",
+     "object": "三段论推理",
+     "evidence": "演绎推理的一种基本形式称为“三段论推理”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "归纳推理",
+     "predicate": "CONTRASTS",
+     "object": "演绎推理",
+     "evidence": "归纳推理和类比推理是从特殊到一般的推理方式……演绎推理是一种从一般到特殊的推理方式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "类比推理",
+     "predicate": "CONTRASTS",
+     "object": "演绎推理",
+     "evidence": "归纳推理和类比推理是从特殊到一般的推理方式……演绎推理是一种从一般到特殊的推理方式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等式性质",
+     "predicate": "APPLIES_TO",
+     "object": "证明",
+     "evidence": "∴∠BAD-∠____=∠DCB-∠____（等式性质）",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:53.192Z"
+}

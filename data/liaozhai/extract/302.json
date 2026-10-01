@@ -1,0 +1,110 @@
+{
+ "no": 302,
+ "title": "三朝元老",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 209,
+   "entities": [
+    {
+     "name": "某中堂",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《三朝元老》中故明相，曾降流寇"
+    },
+    {
+     "name": "洪经略",
+     "type": "Person",
+     "aliases": [
+      "洪承畴"
+     ],
+     "nickname": "",
+     "description": "《三朝元老》中降清将领，南征凯旋"
+    },
+    {
+     "name": "旧门人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《三朝元老》中洪经略旧部下，读祭文"
+    },
+    {
+     "name": "明思宗",
+     "type": "Person",
+     "aliases": [
+      "崇祯"
+     ],
+     "nickname": "",
+     "description": "《三朝元老》中明朝皇帝，作祭洪辽阳死难文"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《三朝元老》中洪经略凯旋后至地"
+    },
+    {
+     "name": "三朝元老匾",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《三朝元老》中堂上匾额"
+    },
+    {
+     "name": "对联",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《三朝元老》中堂上对联"
+    },
+    {
+     "name": "祭洪辽阳死难文",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《三朝元老》中明思宗御制祭文"
+    },
+    {
+     "name": "醮荐阵亡将士",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《三朝元老》中洪经略祭奠阵亡将士"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "洪经略",
+     "predicate": "PARTICIPATED_IN",
+     "object": "醮荐阵亡将士",
+     "evidence": "洪经略南征，凯旋。至金陵，醮荐阵亡将士。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "醮荐阵亡将士",
+     "predicate": "OCCURRED_AT",
+     "object": "金陵",
+     "evidence": "至金陵，醮荐阵亡将士。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "旧门人",
+     "predicate": "FRIEND",
+     "object": "洪经略",
+     "evidence": "有旧门人谒见",
+     "confidence": 0.8
+    },
+    {
+     "subject": "明思宗",
+     "predicate": "OWNS",
+     "object": "祭洪辽阳死难文",
+     "evidence": "乃故明思宗御制祭洪辽阳死难文也。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:07.566Z"
+}

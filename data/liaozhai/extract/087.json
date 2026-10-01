@@ -1,0 +1,71 @@
+{
+ "no": 87,
+ "title": "戏术",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 214,
+   "entities": [
+    {
+     "name": "李见田",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "利津人，在颜镇闲游，能搬运陶瓮"
+    },
+    {
+     "name": "陶人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "颜镇陶场主人，与李见田争价"
+    },
+    {
+     "name": "魁星楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "颜镇南山上的楼，瓮被移至此处"
+    },
+    {
+     "name": "颜镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李见田闲游之地，有陶场"
+    },
+    {
+     "name": "利津",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李见田的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李见田",
+     "predicate": "NATIVE_OF",
+     "object": "利津",
+     "evidence": "利津李见田，在颜镇闲游陶场",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李见田",
+     "predicate": "LIVES_AT",
+     "object": "颜镇",
+     "evidence": "在颜镇闲游陶场",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李见田",
+     "predicate": "HELPED",
+     "object": "陶人",
+     "evidence": "我代汝出窑，一瓮不损，在魁星楼下非与？",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:44.517Z"
+}

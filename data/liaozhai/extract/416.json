@@ -1,0 +1,187 @@
+{
+ "no": 416,
+ "title": "齐天大圣",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1445,
+   "entities": [
+    {
+     "name": "许盛",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "兖州人，刚直不信神，后信奉大圣"
+    },
+    {
+     "name": "许成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "许盛之兄，与弟经商于闽"
+    },
+    {
+     "name": "齐天大圣",
+     "type": "Spirit",
+     "aliases": [
+      "孙悟空"
+     ],
+     "nickname": "",
+     "description": "神猴首人身，灵验显圣"
+    },
+    {
+     "name": "青衣使者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "大圣祠中使者，持旨请命阎罗"
+    },
+    {
+     "name": "阎罗",
+     "type": "Spirit",
+     "aliases": [
+      "阎摩"
+     ],
+     "nickname": "",
+     "description": "冥府之主，掌鬼籍"
+    },
+    {
+     "name": "褐衣人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "实为齐天大圣所化，引许盛游天宫"
+    },
+    {
+     "name": "老者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "天宫中财星，赐许盛白石"
+    },
+    {
+     "name": "大圣祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "闽地祠庙，供奉齐天大圣"
+    },
+    {
+     "name": "天宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "琉璃世界，光明异色"
+    },
+    {
+     "name": "白石",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "状类雀卵，莹澈如冰，财星所赐"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "许盛",
+     "predicate": "KIN",
+     "object": "许成",
+     "evidence": "许盛，兖人，从兄成贾于闽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "许盛",
+     "predicate": "HARMED",
+     "object": "齐天大圣",
+     "evidence": "盛潜去之",
+     "confidence": 0.8
+    },
+    {
+     "subject": "齐天大圣",
+     "predicate": "HARMED",
+     "object": "许盛",
+     "evidence": "盛果病，头痛大作",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许盛",
+     "predicate": "HELPED",
+     "object": "许成",
+     "evidence": "但为延医剉药",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐天大圣",
+     "predicate": "HELPED",
+     "object": "许成",
+     "evidence": "乃命青衣使请命于阎罗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐天大圣",
+     "predicate": "HELPED",
+     "object": "许盛",
+     "evidence": "今不少施法力，益令狂妄者引为口实",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青衣使者",
+     "predicate": "HELPED",
+     "object": "齐天大圣",
+     "evidence": "使青衣执之而去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗",
+     "predicate": "PUNISHED",
+     "object": "许成",
+     "evidence": "阎摩不敢擅专",
+     "confidence": 0.7
+    },
+    {
+     "subject": "褐衣人",
+     "predicate": "HELPED",
+     "object": "许盛",
+     "evidence": "因命以两手抱腰，略一点首，遂觉云生足下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老者",
+     "predicate": "HELPED",
+     "object": "许盛",
+     "evidence": "叟命僮出白石一柈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许盛",
+     "predicate": "OWNS",
+     "object": "白石",
+     "evidence": "遂取其六",
+     "confidence": 0.9
+    },
+    {
+     "subject": "许盛",
+     "predicate": "LIVES_AT",
+     "object": "大圣祠",
+     "evidence": "至则殿阁连蔓",
+     "confidence": 0.6
+    },
+    {
+     "subject": "许盛",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祷祠",
+     "evidence": "将祷诸祠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祷祠",
+     "predicate": "OCCURRED_AT",
+     "object": "大圣祠",
+     "evidence": "将祷诸祠",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:51.839Z"
+}

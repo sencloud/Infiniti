@@ -1,0 +1,199 @@
+{
+ "no": 296,
+ "title": "局诈",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2234,
+   "entities": [
+    {
+     "name": "御史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中受骗的官员"
+    },
+    {
+     "name": "王姓内使",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中冒充公主内使的骗子"
+    },
+    {
+     "name": "公主",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中骗子假扮的公主"
+    },
+    {
+     "name": "副将军",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中买官受骗的武官"
+    },
+    {
+     "name": "裘马者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中骗副将军的中间人"
+    },
+    {
+     "name": "田某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中裘马者所称的内兄"
+    },
+    {
+     "name": "李生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中嘉祥善琴的书生"
+    },
+    {
+     "name": "程氏",
+     "type": "Person",
+     "aliases": [
+      "程道士"
+     ],
+     "nickname": "",
+     "description": "《局诈》中骗琴的假县丞"
+    },
+    {
+     "name": "程氏妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中程氏之妻，善琴"
+    },
+    {
+     "name": "古琴",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中李生所得宝物"
+    },
+    {
+     "name": "公主第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中骗子租用的宅院"
+    },
+    {
+     "name": "嘉祥",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中李生所在县"
+    },
+    {
+     "name": "楚中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《局诈》中程氏自称籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王姓内使",
+     "predicate": "HARMED",
+     "object": "御史",
+     "evidence": "王先持贽入，久之，出，宣言：“公主召某御史。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王姓内使",
+     "predicate": "HELPED",
+     "object": "御史",
+     "evidence": "王曰：“公主待人以礼，能覆翼人。某侍郎系仆阶进。倘不惜千金贽，见公主当亦不难。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "御史",
+     "predicate": "LIVES_AT",
+     "object": "公主第",
+     "evidence": "曲折十馀里，始至公主第，下骑祗候。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裘马者",
+     "predicate": "HARMED",
+     "object": "副将军",
+     "evidence": "其人持券向某曰：“适与内兄议，率非万金不可，请即署尾。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裘马者",
+     "predicate": "HELPED",
+     "object": "副将军",
+     "evidence": "其人曰：“此无须踟蹰。某不过欲抽小数于内兄，于将军锱铢无所望。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裘马者",
+     "predicate": "KIN",
+     "object": "田某",
+     "evidence": "自言：“内兄为天子近侍。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李生",
+     "predicate": "OWNS",
+     "object": "古琴",
+     "evidence": "李欣然曰：“仆蓄一琴，颇异凡品。今遇锺期，何敢终密？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李生",
+     "predicate": "NATIVE_OF",
+     "object": "嘉祥",
+     "evidence": "嘉祥李生，善琴。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程氏",
+     "predicate": "SPOUSE",
+     "object": "程氏妻",
+     "evidence": "丞曰：“适此操乃传自细君者。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程氏",
+     "predicate": "HARMED",
+     "object": "李生",
+     "evidence": "乃知道士之纳官，皆为琴也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程氏",
+     "predicate": "FRIEND",
+     "object": "李生",
+     "evidence": "自此二人以琴交，情分益笃。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程氏",
+     "predicate": "LIVES_AT",
+     "object": "嘉祥",
+     "evidence": "程故楚产，三年前，捐赀授嘉祥。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "程氏",
+     "predicate": "NATIVE_OF",
+     "object": "楚中",
+     "evidence": "程故楚产，三年前，捐赀授嘉祥。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:06.362Z"
+}

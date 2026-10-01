@@ -1,0 +1,260 @@
+{
+ "no": 339,
+ "title": "于去恶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2456,
+   "entities": [
+    {
+     "name": "陶圣俞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北平名士，顺治间赴乡试"
+    },
+    {
+     "name": "于去恶",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "顺天人，鬼魂，与陶圣俞同住"
+    },
+    {
+     "name": "方子晋",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "于去恶好友，后托生为陶圣俞弟"
+    },
+    {
+     "name": "张桓侯",
+     "type": "Spirit",
+     "aliases": [
+      "张翼德",
+      "张巡环"
+     ],
+     "nickname": "",
+     "description": "阴间神祇，巡行阴阳两界"
+    },
+    {
+     "name": "师旷",
+     "type": "Spirit",
+     "aliases": [
+      "乐正师旷"
+     ],
+     "nickname": "",
+     "description": "阴间游神，主持科考"
+    },
+    {
+     "name": "和峤",
+     "type": "Spirit",
+     "aliases": [
+      "司库和峤"
+     ],
+     "nickname": "",
+     "description": "阴间耗鬼，主持科考"
+    },
+    {
+     "name": "陶翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陶圣俞之父"
+    },
+    {
+     "name": "小晋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陶圣俞之弟，方子晋后身"
+    },
+    {
+     "name": "北平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，陶圣俞籍贯"
+    },
+    {
+     "name": "顺天",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，于去恶籍贯"
+    },
+    {
+     "name": "郊郭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "城郊，陶圣俞寓居处"
+    },
+    {
+     "name": "东野",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东郊，陶圣俞呼于去恶处"
+    },
+    {
+     "name": "交南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，于去恶任巡海使处"
+    },
+    {
+     "name": "乡试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "科举考试，陶圣俞参与"
+    },
+    {
+     "name": "帘官之考",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间选拔帘官的考试"
+    },
+    {
+     "name": "士子入闱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间科举考试，于去恶、方子晋参与"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陶圣俞",
+     "predicate": "FRIEND",
+     "object": "于去恶",
+     "evidence": "陶大说之，请与同居。客喜，携囊入，遂同栖止。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于去恶",
+     "predicate": "FRIEND",
+     "object": "方子晋",
+     "evidence": "此方子晋，是我良友",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶圣俞",
+     "predicate": "FRIEND",
+     "object": "方子晋",
+     "evidence": "陶亦无方不欢也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张桓侯",
+     "predicate": "HELPED",
+     "object": "于去恶",
+     "evidence": "桓侯前夕至，裂碎地榜，榜上名字，止存三之一。遍阅遗卷，得五兄甚喜，荐作交南巡海使",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张桓侯",
+     "predicate": "HELPED",
+     "object": "陶圣俞",
+     "evidence": "丁酉，文场事发，帘官多遭诛遣，贡举之途一肃，乃张巡环力也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "师旷",
+     "predicate": "HARMED",
+     "object": "于去恶",
+     "evidence": "数十年游神耗鬼，杂入衡文，吾辈宁有望耶！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "和峤",
+     "predicate": "HARMED",
+     "object": "于去恶",
+     "evidence": "数十年游神耗鬼，杂入衡文，吾辈宁有望耶！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "陶圣俞",
+     "predicate": "LIVES_AT",
+     "object": "郊郭",
+     "evidence": "顺治间，赴乡试，寓居郊郭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶圣俞",
+     "predicate": "NATIVE_OF",
+     "object": "北平",
+     "evidence": "北平陶圣俞，名下士。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于去恶",
+     "predicate": "NATIVE_OF",
+     "object": "顺天",
+     "evidence": "客自言：“顺天人，姓于，字去恶。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶圣俞",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乡试",
+     "evidence": "顺治间，赴乡试",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于去恶",
+     "predicate": "PARTICIPATED_IN",
+     "object": "士子入闱",
+     "evidence": "我将入闱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方子晋",
+     "predicate": "PARTICIPATED_IN",
+     "object": "士子入闱",
+     "evidence": "适于场中相邂逅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "士子入闱",
+     "predicate": "OCCURRED_AT",
+     "object": "东野",
+     "evidence": "持香炷于东野，三呼去恶",
+     "confidence": 0.8
+    },
+    {
+     "subject": "陶圣俞",
+     "predicate": "KIN",
+     "object": "小晋",
+     "evidence": "乃知儿即子晋后身也。父子各喜，名之小晋。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶翁",
+     "predicate": "KIN",
+     "object": "小晋",
+     "evidence": "乃知儿即子晋后身也。父子各喜，名之小晋。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶翁",
+     "predicate": "KIN",
+     "object": "陶圣俞",
+     "evidence": "因为父述之。父喜曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于去恶",
+     "predicate": "LIVES_AT",
+     "object": "交南",
+     "evidence": "荐作交南巡海使",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:23.684Z"
+}

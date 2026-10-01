@@ -1,0 +1,877 @@
+{
+ "no": 59,
+ "title": "柳叶渚边嗔莺咤燕 绛云轩里召将飞符",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1709,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "怡红公子",
+      "宝玉",
+      "宝二爷",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "",
+     "description": "贾府公子，多情善良"
+    },
+    {
+     "name": "林黛玉",
+     "type": "Person",
+     "aliases": [
+      "潇湘妃子",
+      "黛玉",
+      "林妹妹",
+      "颦儿",
+      "绛珠仙子"
+     ],
+     "nickname": "",
+     "description": "贾母外孙女，才情出众"
+    },
+    {
+     "name": "薛宝钗",
+     "type": "Person",
+     "aliases": [
+      "蘅芜君",
+      "宝钗",
+      "宝姐姐",
+      "宝丫头"
+     ],
+     "nickname": "",
+     "description": "薛姨妈之女，端庄稳重"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "",
+     "description": "贾府最高长辈"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，宝玉之母"
+    },
+    {
+     "name": "贾琏",
+     "type": "Person",
+     "aliases": [
+      "琏二爷",
+      "琏二哥"
+     ],
+     "nickname": "",
+     "description": "贾赦之子，王熙凤之夫"
+    },
+    {
+     "name": "贾珍",
+     "type": "Person",
+     "aliases": [
+      "珍大爷",
+      "珍哥儿"
+     ],
+     "nickname": "",
+     "description": "宁国府族长"
+    },
+    {
+     "name": "尤氏",
+     "type": "Person",
+     "aliases": [
+      "珍大奶奶"
+     ],
+     "nickname": "",
+     "description": "贾珍之妻"
+    },
+    {
+     "name": "史湘云",
+     "type": "Person",
+     "aliases": [
+      "枕霞旧友",
+      "湘云",
+      "云妹妹",
+      "史大姑娘"
+     ],
+     "nickname": "",
+     "description": "贾母侄孙女，豪爽活泼"
+    },
+    {
+     "name": "薛姨妈",
+     "type": "Person",
+     "aliases": [
+      "姨太太"
+     ],
+     "nickname": "",
+     "description": "薛宝钗之母"
+    },
+    {
+     "name": "鸳鸯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾母贴身丫鬟"
+    },
+    {
+     "name": "紫鹃",
+     "type": "Person",
+     "aliases": [
+      "鹦哥"
+     ],
+     "nickname": "",
+     "description": "林黛玉贴身丫鬟"
+    },
+    {
+     "name": "莺儿",
+     "type": "Person",
+     "aliases": [
+      "黄金莺"
+     ],
+     "nickname": "",
+     "description": "薛宝钗丫鬟，手巧"
+    },
+    {
+     "name": "赖大",
+     "type": "Person",
+     "aliases": [
+      "赖大爷"
+     ],
+     "nickname": "",
+     "description": "荣国府管家"
+    },
+    {
+     "name": "林之孝",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "荣国府管家"
+    },
+    {
+     "name": "春燕",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "何婆之女，怡红院小丫鬟"
+    },
+    {
+     "name": "藕官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府梨香院戏子"
+    },
+    {
+     "name": "蕊官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府梨香院戏子"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "荣府"
+     ],
+     "nickname": "",
+     "description": "贾府长房府邸"
+    },
+    {
+     "name": "蘅芜苑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中薛宝钗居所"
+    },
+    {
+     "name": "潇湘馆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中林黛玉居所"
+    },
+    {
+     "name": "杏叶渚",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中柳堤附近景点"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "王夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "贾母",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "贾琏恐路上不便，一面打发了他父母起身，赶上贾母、王夫人驮轿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "贾琏恐路上不便，一面打发了他父母起身，赶上贾母、王夫人驮轿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "KIN",
+     "object": "尤氏",
+     "evidence": "尤氏率领诸人送至大门外方回",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "KIN",
+     "object": "薛姨妈",
+     "evidence": "莺儿又问侯了薛姨妈",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "KIN",
+     "object": "薛蟠",
+     "evidence": "宝钗道：“前儿剩的都给了妹子了。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "FRIEND",
+     "object": "史湘云",
+     "evidence": "于是唤起湘云等人来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "FRIEND",
+     "object": "林黛玉",
+     "evidence": "因说：“颦儿配了许多，我正要和他她要些”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "FRIEND",
+     "object": "薛宝钗",
+     "evidence": "你回去说与姐姐，不用过来问候妈了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莺儿",
+     "predicate": "SERVANT_OF",
+     "object": "薛宝钗",
+     "evidence": "因命莺儿去取些来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "紫鹃",
+     "predicate": "SERVANT_OF",
+     "object": "林黛玉",
+     "evidence": "一面便命紫鹃挂在那里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鸳鸯",
+     "predicate": "SERVANT_OF",
+     "object": "贾母",
+     "evidence": "鸳鸯、琥珀、翡翠、玻璃四人，都忙着打点贾母之物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "春燕",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "倒被宝玉赖了她一大些不是",
+     "confidence": 0.9
+    },
+    {
+     "subject": "藕官",
+     "predicate": "SERVANT_OF",
+     "object": "林黛玉",
+     "evidence": "一面便将黛玉的匙箸用一块洋巾包了，交与藕官道：“你先带了这个去，也算一趟差了。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蕊官",
+     "predicate": "SERVANT_OF",
+     "object": "薛宝钗",
+     "evidence": "蕊官便说：“我同你去，顺便瞧瞧藕官。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赖大",
+     "predicate": "SERVANT_OF",
+     "object": "荣国府",
+     "evidence": "荣府内，赖大添派人丁上夜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林之孝",
+     "predicate": "SERVANT_OF",
+     "object": "荣国府",
+     "evidence": "每日林之孝之妻进来，带领十来个婆子上夜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾母带着蓉妻坐一乘驮轿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "王夫人在后亦坐一乘驮轿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾琏恐路上不便",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾珍骑马，率了众家丁卫护",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "STATIONED_AT",
+     "object": "蘅芜苑",
+     "evidence": "一径同莺儿出了蘅芜苑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "STATIONED_AT",
+     "object": "潇湘馆",
+     "evidence": "来至潇湘馆中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莺儿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "编花篮",
+     "evidence": "她却一行走，一行编花篮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蕊官",
+     "predicate": "PARTICIPATED_IN",
+     "object": "编花篮",
+     "evidence": "命蕊官拿着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莺儿",
+     "predicate": "OWNS",
+     "object": "花篮",
+     "evidence": "编出一个玲珑过梁的篮子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "OWNS",
+     "object": "蔷薇硝",
+     "evidence": "黛玉忙命紫鹃包了一包，递与莺儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "OWNS",
+     "object": "蔷薇硝",
+     "evidence": "前儿剩的都给了妹子了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史湘云",
+     "predicate": "OWNS",
+     "object": "蔷薇硝",
+     "evidence": "因问宝钗要些蔷薇硝擦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "春燕",
+     "predicate": "QUARRELED",
+     "object": "藕官",
+     "evidence": "你们在外头这二三年积了些什么仇恨，如今还不解开？",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3309,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "怡红公子",
+      "宝玉",
+      "宝二爷",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "",
+     "description": "贾府公子，居怡红院，怜惜丫鬟。"
+    },
+    {
+     "name": "林黛玉",
+     "type": "Person",
+     "aliases": [
+      "潇湘妃子",
+      "黛玉",
+      "林妹妹",
+      "颦儿",
+      "绛珠仙子"
+     ],
+     "nickname": "",
+     "description": "贾府表亲，居潇湘馆。"
+    },
+    {
+     "name": "尤氏",
+     "type": "Person",
+     "aliases": [
+      "珍大奶奶"
+     ],
+     "nickname": "",
+     "description": "贾珍之妻，宁国府当家奶奶。"
+    },
+    {
+     "name": "李纨",
+     "type": "Person",
+     "aliases": [
+      "稻香老农",
+      "大奶奶",
+      "珠大嫂子"
+     ],
+     "nickname": "",
+     "description": "贾珠之妻，居稻香村。"
+    },
+    {
+     "name": "平儿",
+     "type": "Person",
+     "aliases": [
+      "平姑娘"
+     ],
+     "nickname": "",
+     "description": "王熙凤的丫鬟，处事周全。"
+    },
+    {
+     "name": "袭人",
+     "type": "Person",
+     "aliases": [
+      "珍珠",
+      "蕊珠",
+      "袭姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟，性情温和。"
+    },
+    {
+     "name": "晴雯",
+     "type": "Person",
+     "aliases": [
+      "晴姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟，性格刚烈。"
+    },
+    {
+     "name": "莺儿",
+     "type": "Person",
+     "aliases": [
+      "黄金莺"
+     ],
+     "nickname": "",
+     "description": "薛宝钗的丫鬟，善编花篮。"
+    },
+    {
+     "name": "麝月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟，处事稳重。"
+    },
+    {
+     "name": "春燕",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "怡红院小丫鬟，何婆之女。"
+    },
+    {
+     "name": "芳官",
+     "type": "Person",
+     "aliases": [
+      "耶律雄奴",
+      "温都里纳",
+      "金星玻璃"
+     ],
+     "nickname": "",
+     "description": "贾府戏子，后为丫鬟。"
+    },
+    {
+     "name": "藕官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府戏子，认春燕姨妈为干娘。"
+    },
+    {
+     "name": "何婆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "春燕之母，在梨香院照看。"
+    },
+    {
+     "name": "春燕姨妈",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "春燕的姨妈，藕官认作干娘。"
+    },
+    {
+     "name": "春燕姑妈",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "春燕的姑妈，管花草。"
+    },
+    {
+     "name": "小鸠儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "春燕的妹妹。"
+    },
+    {
+     "name": "林大娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府管家娘子。"
+    },
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤姐",
+      "琏二奶奶"
+     ],
+     "nickname": "",
+     "description": "贾琏之妻，荣国府管家。"
+    },
+    {
+     "name": "怡红院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾宝玉的住所。"
+    },
+    {
+     "name": "梨香院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府戏班住处。"
+    },
+    {
+     "name": "潇湘馆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林黛玉的住所。"
+    },
+    {
+     "name": "大观园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府园林。"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "贾府"
+     ],
+     "nickname": "",
+     "description": "贾府家族。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "春燕",
+     "predicate": "KIN",
+     "object": "何婆",
+     "evidence": "她娘也正为芳官之气未平，又恨春燕不遂她的心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕",
+     "predicate": "KIN",
+     "object": "春燕姨妈",
+     "evidence": "她是我的姨妈",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕",
+     "predicate": "KIN",
+     "object": "春燕姑妈",
+     "evidence": "她姑妈果然拄了拐走来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕",
+     "predicate": "KIN",
+     "object": "小鸠儿",
+     "evidence": "她又叫我妹妹小鸠儿洗了才叫芳官",
+     "confidence": 0.95
+    },
+    {
+     "subject": "藕官",
+     "predicate": "KIN",
+     "object": "春燕姨妈",
+     "evidence": "藕官认了我姨妈",
+     "confidence": 0.95
+    },
+    {
+     "subject": "芳官",
+     "predicate": "KIN",
+     "object": "何婆",
+     "evidence": "芳官认了我妈",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袭人",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "袭人见她娘来了，不免生气",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "晴雯等道：理他呢！打发去了是正经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "麝月",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "麝月正在海棠下晾手巾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "春燕",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "春燕会意，便直奔了宝玉去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莺儿",
+     "predicate": "SERVANT_OF",
+     "object": "薛宝钗",
+     "evidence": "莺儿道：别人乱折乱掐使不得，独我使得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "是二奶奶屋里的平姑娘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "把我挑进来，可巧把我分到怡红院",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袭人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "袭人见她娘来了，不免生气",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "晴雯等道：理他呢！打发去了是正经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "麝月",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "麝月正在海棠下晾手巾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莺儿",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "莺儿道：别人乱折乱掐使不得，独我使得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "是二奶奶屋里的平姑娘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "把我分到怡红院",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林黛玉",
+     "predicate": "STATIONED_AT",
+     "object": "潇湘馆",
+     "evidence": "袭人往黛玉处去问安",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袭人",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "把我分到怡红院",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "把我分到怡红院",
+     "confidence": 0.9
+    },
+    {
+     "subject": "麝月",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "把我分到怡红院",
+     "confidence": 0.9
+    },
+    {
+     "subject": "春燕",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "把我分到怡红院",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何婆",
+     "predicate": "STATIONED_AT",
+     "object": "梨香院",
+     "evidence": "老姊妹二人都派到梨香院去照看她们",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕姨妈",
+     "predicate": "STATIONED_AT",
+     "object": "梨香院",
+     "evidence": "老姊妹二人都派到梨香院去照看她们",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕姑妈",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "这一带地上的东西，都是我姑妈管着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "RESCUED",
+     "object": "春燕",
+     "evidence": "宝玉拉了春燕的手说：你别怕，有我呢！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袭人",
+     "predicate": "RESCUED",
+     "object": "春燕",
+     "evidence": "春燕便一把抱住袭人说：姑娘救我！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "春燕姑妈",
+     "predicate": "QUARRELED",
+     "object": "春燕",
+     "evidence": "拿起拄杖来向春燕身上击了几下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何婆",
+     "predicate": "QUARRELED",
+     "object": "春燕",
+     "evidence": "便走上来打耳刮子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何婆",
+     "predicate": "QUARRELED",
+     "object": "芳官",
+     "evidence": "我妈为洗头就和芳官吵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕姨妈",
+     "predicate": "QUARRELED",
+     "object": "藕官",
+     "evidence": "我姨妈刚和藕官吵了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕姑妈",
+     "predicate": "QUARRELED",
+     "object": "莺儿",
+     "evidence": "莺儿忙道：那是我编的，你老别指桑骂槐！",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:56:04.811Z"
+}

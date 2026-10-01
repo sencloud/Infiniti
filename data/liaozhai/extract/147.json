@@ -1,0 +1,121 @@
+{
+ "no": 147,
+ "title": "驱怪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 769,
+   "entities": [
+    {
+     "name": "徐远公",
+     "type": "Person",
+     "aliases": [
+      "徐生"
+     ],
+     "nickname": "",
+     "description": "长山秀才，明亡后学道术，能驱怪"
+    },
+    {
+     "name": "某邑钜公",
+     "type": "Person",
+     "aliases": [
+      "主人"
+     ],
+     "nickname": "",
+     "description": "某县大员，请徐远公驱怪"
+    },
+    {
+     "name": "兽首人身怪",
+     "type": "Spirit",
+     "aliases": [
+      "怪"
+     ],
+     "nickname": "",
+     "description": "兽首人身、毛如马鬐的怪物"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，徐远公籍贯"
+    },
+    {
+     "name": "某邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某县，钜公所居之地"
+    },
+    {
+     "name": "园中阁",
+     "type": "Place",
+     "aliases": [
+      "阁"
+     ],
+     "nickname": "",
+     "description": "钜公花园中的小楼，怪物出没处"
+    },
+    {
+     "name": "马厩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "钜公家马厩，徐远公翻墙后所至"
+    },
+    {
+     "name": "如意钩",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐远公橐中藏的钩状器物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "徐远公",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山徐远公，故明诸生也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某邑钜公",
+     "predicate": "LIVES_AT",
+     "object": "某邑",
+     "evidence": "某邑一钜公，具币，致诚款书，招之以骑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐远公",
+     "predicate": "OWNS",
+     "object": "如意钩",
+     "evidence": "我橐中蓄如意钩一，又不送达寝所",
+     "confidence": 0.95
+    },
+    {
+     "subject": "兽首人身怪",
+     "predicate": "HARMED",
+     "object": "徐远公",
+     "evidence": "已而趋近榻，嗅徐被。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "徐远公",
+     "predicate": "HELPED",
+     "object": "某邑钜公",
+     "evidence": "主人宴集园中，辄笑向客曰：“我不忘徐生功也。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "兽首人身怪",
+     "predicate": "LIVES_AT",
+     "object": "园中阁",
+     "evidence": "抵一阁，覆板上悬蛛错缀……顷之，板上橐橐，似踏蹴声",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:08.643Z"
+}

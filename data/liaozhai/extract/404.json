@@ -1,0 +1,337 @@
+{
+ "no": 404,
+ "title": "仇大娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3749,
+   "entities": [
+    {
+     "name": "仇仲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晋人，被寇俘去，后卖旗下"
+    },
+    {
+     "name": "仇福",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "仇仲长子，赌博败家"
+    },
+    {
+     "name": "仇禄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "仇仲次子，后入赘范家"
+    },
+    {
+     "name": "邵氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "仇仲继室，抚育二子"
+    },
+    {
+     "name": "仇尚廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "仇仲叔，谋夺邵氏嫁"
+    },
+    {
+     "name": "魏名",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "里人，狡狯，屡害仇家"
+    },
+    {
+     "name": "姜屺瞻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秀才，仇福妻之父"
+    },
+    {
+     "name": "姜女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "仇福妻，贤能贞烈"
+    },
+    {
+     "name": "赵阎罗",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑人，巨盗，武断一乡"
+    },
+    {
+     "name": "仇大娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "仇仲前室女，刚猛，助母家"
+    },
+    {
+     "name": "范子文",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "范公子，家中名园为晋第一"
+    },
+    {
+     "name": "蕙娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "范公子女，美而知书"
+    },
+    {
+     "name": "亲王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "亲王，为仇仲昭雪"
+    },
+    {
+     "name": "晋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山西，仇仲籍贯"
+    },
+    {
+     "name": "范家花园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "范公子名园，晋第一"
+    },
+    {
+     "name": "赵家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵阎罗家"
+    },
+    {
+     "name": "邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县邑，官府所在"
+    },
+    {
+     "name": "郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郡衙，郡守所在"
+    },
+    {
+     "name": "关外",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "关外，将军屯所"
+    },
+    {
+     "name": "都北",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "京城以北，旅肆所在"
+    },
+    {
+     "name": "讼兴",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "姜家告状事件"
+    },
+    {
+     "name": "昭雪",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "亲王为仇家昭雪事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "仇仲",
+     "predicate": "KIN",
+     "object": "仇福",
+     "evidence": "二子福、禄俱幼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇仲",
+     "predicate": "KIN",
+     "object": "仇禄",
+     "evidence": "二子福、禄俱幼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇仲",
+     "predicate": "SPOUSE",
+     "object": "邵氏",
+     "evidence": "继室邵氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇仲",
+     "predicate": "KIN",
+     "object": "仇大娘",
+     "evidence": "仲有前室女大娘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇尚廉",
+     "predicate": "KIN",
+     "object": "仇仲",
+     "evidence": "仲叔尚廉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇福",
+     "predicate": "SPOUSE",
+     "object": "姜女",
+     "evidence": "妇，姜秀才屺瞻之女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "姜屺瞻",
+     "predicate": "KIN",
+     "object": "姜女",
+     "evidence": "姜秀才屺瞻之女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏名",
+     "predicate": "HARMED",
+     "object": "仇福",
+     "evidence": "魏乘间告曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏名",
+     "predicate": "HARMED",
+     "object": "邵氏",
+     "evidence": "伪造浮言以相败辱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仇福",
+     "predicate": "HARMED",
+     "object": "姜女",
+     "evidence": "赚妻付之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵阎罗",
+     "predicate": "HARMED",
+     "object": "姜女",
+     "evidence": "鞭挞之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇大娘",
+     "predicate": "HELPED",
+     "object": "邵氏",
+     "evidence": "养母教弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇大娘",
+     "predicate": "HELPED",
+     "object": "仇禄",
+     "evidence": "频嘱媒为之觅姻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仇大娘",
+     "predicate": "HELPED",
+     "object": "姜女",
+     "evidence": "时市药饵珍肴，馈遗姜女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "范子文",
+     "predicate": "KIN",
+     "object": "蕙娘",
+     "evidence": "公子有女名蕙娘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇禄",
+     "predicate": "SPOUSE",
+     "object": "蕙娘",
+     "evidence": "仆欲以息女奉箕帚",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仇禄",
+     "predicate": "LIVES_AT",
+     "object": "范家花园",
+     "evidence": "禄赘入公子家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仇禄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "昭雪",
+     "evidence": "遂得昭雪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "昭雪",
+     "predicate": "OCCURRED_AT",
+     "object": "都北",
+     "evidence": "至都北",
+     "confidence": 0.8
+    },
+    {
+     "subject": "仇仲",
+     "predicate": "LIVES_AT",
+     "object": "关外",
+     "evidence": "时从主屯关外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仇禄",
+     "predicate": "LIVES_AT",
+     "object": "关外",
+     "evidence": "禄至关外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仇仲",
+     "predicate": "NATIVE_OF",
+     "object": "晋",
+     "evidence": "仇仲，晋人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏名",
+     "predicate": "HARMED",
+     "object": "仇禄",
+     "evidence": "引旗下逃人诬禄寄赀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "亲王",
+     "predicate": "HELPED",
+     "object": "仇仲",
+     "evidence": "亲王为之婉转",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:47.510Z"
+}

@@ -1,0 +1,256 @@
+{
+ "no": 8,
+ "title": "泰伯篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 836,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，本篇主要言说者"
+    },
+    {
+     "name": "曾参",
+     "type": "Person",
+     "aliases": [
+      "子舆",
+      "曾子",
+      "参"
+     ],
+     "nickname": "子舆",
+     "description": "孔子弟子，以孝著称，本篇多章言说者"
+    },
+    {
+     "name": "泰伯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周太王长子，以让天下著称"
+    },
+    {
+     "name": "孟敬子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国大夫，曾探问曾子病情"
+    },
+    {
+     "name": "周公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周武王之弟，以才能与美德著称"
+    },
+    {
+     "name": "武王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周武王，自言有乱臣十人"
+    },
+    {
+     "name": "师挚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国乐师，孔子赞其演奏之始"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心德性，爱人、成己成物"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "社会规范与仪式，立身之本"
+    },
+    {
+     "name": "德",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道德品质，至德为最高境界"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有德位者，理想人格"
+    },
+    {
+     "name": "学",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "学习、求知，孔子重学"
+    },
+    {
+     "name": "信",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "诚信、守信，君子所贵"
+    },
+    {
+     "name": "诗",
+     "type": "Text",
+     "aliases": [],
+     "nickname": "",
+     "description": "《诗经》，孔子教弟子兴于诗"
+    },
+    {
+     "name": "关雎",
+     "type": "Text",
+     "aliases": [],
+     "nickname": "",
+     "description": "《诗经》首篇，乐章名"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国，孔子母国，孟敬子为鲁大夫"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孔子",
+     "predicate": "PRAISED",
+     "object": "泰伯",
+     "evidence": "泰伯，其可谓至德也已矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "恭而无礼则劳，慎而无礼则葸，勇而无礼则乱，直而无礼则绞。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "君子笃于亲，则民兴于仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "CITED",
+     "object": "诗",
+     "evidence": "《诗》云：‘战战兢兢，如临深渊，如履薄冰。’",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟敬子",
+     "predicate": "ASKED",
+     "object": "曾参",
+     "evidence": "曾子有疾，孟敬子问之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子所贵乎道者三：动容貌，斯远暴慢矣：正颜色，斯近信矣：出辞气，斯远鄙倍矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "正颜色，斯近信矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "可以托六尺之孤，可以寄百里之命，临大节而不可夺也。君子人与？君子人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "仁以为己任，不亦重乎？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "诗",
+     "evidence": "兴于诗",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "立于礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "三年学，不至于谷，不易得也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "笃信好学，守死善道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "PRAISED",
+     "object": "师挚",
+     "evidence": "师挚之始，《关雎》之乱，洋洋乎盈耳哉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "关雎",
+     "evidence": "《关雎》之乱，洋洋乎盈耳哉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "学如不及，犹恐失之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "周之德，其可谓至德也已矣。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:23.796Z"
+}

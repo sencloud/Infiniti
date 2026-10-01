@@ -1,0 +1,210 @@
+{
+ "no": 57,
+ "title": "2.4 近似值",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5056,
+   "entities": [
+    {
+     "name": "近似值",
+     "type": "Concept",
+     "aliases": [
+      "近似数"
+     ],
+     "nickname": "",
+     "description": "与准确值接近的数，生产生活中许多数据是近似值"
+    },
+    {
+     "name": "准确值",
+     "type": "Concept",
+     "aliases": [
+      "准确数"
+     ],
+     "nickname": "",
+     "description": "与实际完全符合的数"
+    },
+    {
+     "name": "四舍五入法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "取近似值时常用的方法"
+    },
+    {
+     "name": "无理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "无限不循环小数，如π、√2等"
+    },
+    {
+     "name": "实数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数和无理数的统称"
+    },
+    {
+     "name": "数轴",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将数量关系与图形结合分析的方法"
+    },
+    {
+     "name": "逼近思想",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用有理数逐步逼近无理数的思想方法"
+    },
+    {
+     "name": "圆周率",
+     "type": "Concept",
+     "aliases": [
+      "π"
+     ],
+     "nickname": "",
+     "description": "圆的周长与直径的比值，是一个无理数"
+    },
+    {
+     "name": "平方根",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "若x²=a，则x叫做a的平方根"
+    },
+    {
+     "name": "算术平方根",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "正数a的正的平方根"
+    },
+    {
+     "name": "立方根",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "若x³=a，则x叫做a的立方根"
+    },
+    {
+     "name": "开方",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求平方根、立方根的运算"
+    },
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整数和分数的统称"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "四舍五入法",
+     "predicate": "APPLIES_TO",
+     "object": "近似值",
+     "evidence": "取近似值时，一般采用四舍五入的方法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "无理数",
+     "predicate": "PREREQUISITE",
+     "object": "近似值",
+     "evidence": "对于像π，√2，√3，…这样的无理数，计算时应根据具体的要求取它们的近似值。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "实数",
+     "predicate": "INCLUDES",
+     "object": "有理数",
+     "evidence": "实数包括有理数、无理数。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "实数",
+     "predicate": "INCLUDES",
+     "object": "无理数",
+     "evidence": "实数包括有理数、无理数。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "实数",
+     "evidence": "数形结合的方法可以帮助我们理解实数的相关概念、比较实数的大小。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "逼近思想",
+     "predicate": "APPLIES_TO",
+     "object": "无理数",
+     "evidence": "理解逼近思想在认识无理数中的价值",
+     "confidence": 0.9
+    },
+    {
+     "subject": "实数",
+     "predicate": "RELATED",
+     "object": "数轴",
+     "evidence": "实数与数轴上的点是一一对应的。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平方根",
+     "predicate": "PREREQUISITE",
+     "object": "实数",
+     "evidence": "我们通过实例，引入了平方根、算术平方根、立方根等概念，进而将有理数扩充到实数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "算术平方根",
+     "predicate": "PREREQUISITE",
+     "object": "实数",
+     "evidence": "我们通过实例，引入了平方根、算术平方根、立方根等概念，进而将有理数扩充到实数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "立方根",
+     "predicate": "PREREQUISITE",
+     "object": "实数",
+     "evidence": "我们通过实例，引入了平方根、算术平方根、立方根等概念，进而将有理数扩充到实数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "开方",
+     "predicate": "INCLUDES",
+     "object": "平方根",
+     "evidence": "运算：开方（平方根、立方根）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "开方",
+     "predicate": "INCLUDES",
+     "object": "立方根",
+     "evidence": "运算：开方（平方根、立方根）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆周率",
+     "predicate": "SPECIAL_CASE",
+     "object": "无理数",
+     "evidence": "1767年，数学家朗伯证明圆周率不能精确表示为有限小数或循环小数。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:57.654Z"
+}

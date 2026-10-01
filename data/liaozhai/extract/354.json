@@ -1,0 +1,47 @@
+{
+ "no": 354,
+ "title": "张不量",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 140,
+   "entities": [
+    {
+     "name": "张不量",
+     "type": "Person",
+     "aliases": [
+      "张氏"
+     ],
+     "nickname": "不量",
+     "description": "直隶富户，积粟甚富，贷粮不计量，故称不量"
+    },
+    {
+     "name": "贾人某",
+     "type": "Person",
+     "aliases": [
+      "商人"
+     ],
+     "nickname": "",
+     "description": "行商之人，至直隶遇雹，闻空中语而访张不量"
+    },
+    {
+     "name": "直隶",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，故事发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾人某",
+     "predicate": "LIVES_AT",
+     "object": "直隶",
+     "evidence": "贾人某，至直隶界",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:24.838Z"
+}

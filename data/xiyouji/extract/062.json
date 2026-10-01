@@ -1,0 +1,663 @@
+{
+ "no": 62,
+ "title": "涤垢洗心惟扫塔 缚魔归正乃修身",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5929,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐取经高僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "万圣龙王",
+     "type": "Person",
+     "aliases": [
+      "万圣老龙"
+     ],
+     "nickname": "万圣老龙",
+     "description": "乱石山碧波潭龙王，盗宝主谋"
+    },
+    {
+     "name": "万圣公主",
+     "type": "Person",
+     "aliases": [
+      "万圣宫主"
+     ],
+     "nickname": "万圣公主",
+     "description": "万圣龙王之女，盗灵芝草"
+    },
+    {
+     "name": "奔波儿灞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲇鱼怪，碧波潭巡塔小妖"
+    },
+    {
+     "name": "灞波儿奔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑鱼精，碧波潭巡塔小妖"
+    },
+    {
+     "name": "王母娘娘",
+     "type": "Person",
+     "aliases": [
+      "西王母",
+      "王母",
+      "金母"
+     ],
+     "nickname": "王母",
+     "description": "天庭女神，九叶灵芝草之主"
+    },
+    {
+     "name": "祭赛国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西域上邦，金光寺所在国度"
+    },
+    {
+     "name": "金光寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国护国寺，宝塔被污"
+    },
+    {
+     "name": "碧波潭",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "万圣龙王所居龙潭势力"
+    },
+    {
+     "name": "祭赛国国王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国君主，疑僧盗宝"
+    },
+    {
+     "name": "金光寺众僧",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "被诬盗宝的祭赛国僧人"
+    },
+    {
+     "name": "乱石山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "碧波潭所在之山"
+    },
+    {
+     "name": "金光寺宝塔",
+     "type": "Place",
+     "aliases": [
+      "黄金宝塔"
+     ],
+     "nickname": "",
+     "description": "金光寺内宝塔，舍利子被盗"
+    },
+    {
+     "name": "祭赛国城池",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国国都，唐僧师徒入城处"
+    },
+    {
+     "name": "舍利子佛宝",
+     "type": "Item",
+     "aliases": [
+      "舍利子"
+     ],
+     "nickname": "",
+     "description": "金光寺塔中宝物，被万圣龙王盗走"
+    },
+    {
+     "name": "九叶灵芝草",
+     "type": "Item",
+     "aliases": [
+      "灵芝"
+     ],
+     "nickname": "",
+     "description": "王母娘娘所有，被万圣公主盗取"
+    },
+    {
+     "name": "扫塔",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧夜扫金光寺宝塔"
+    },
+    {
+     "name": "盗取舍利子",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "万圣龙王与九头虫盗取塔中舍利子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者道：“困了，你且坐下，等老孙替你扫罢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏道：“悟空，你替我把那三层扫净下来罢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒道：“师父，扫了塔不去睡觉，在这里讲甚么哩？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧道：“哥哥，也带挈小弟带挈。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万圣龙王",
+     "predicate": "KIN",
+     "object": "万圣公主",
+     "evidence": "因我万圣老龙生了一个女儿，就唤做万圣公主。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "万圣龙王",
+     "predicate": "LEADS",
+     "object": "碧波潭",
+     "evidence": "我两个是乱石山碧波潭万圣龙王差来巡塔的。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "万圣龙王",
+     "predicate": "STATIONED_AT",
+     "object": "乱石山",
+     "evidence": "住居在本国东南，离此处路有百十，潭号碧波，山名乱石。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万圣龙王",
+     "predicate": "STATIONED_AT",
+     "object": "碧波潭",
+     "evidence": "潭号碧波，山名乱石。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "奔波儿灞",
+     "predicate": "MEMBER_OF",
+     "object": "碧波潭",
+     "evidence": "我两个是乱石山碧波潭万圣龙王差来巡塔的。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "灞波儿奔",
+     "predicate": "MEMBER_OF",
+     "object": "碧波潭",
+     "evidence": "我两个是乱石山碧波潭万圣龙王差来巡塔的。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "奔波儿灞",
+     "evidence": "被行者横铁棒拦住道：“我若打死你，没人供状。”只把棒逼将去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "灞波儿奔",
+     "evidence": "被行者横铁棒拦住道：“我若打死你，没人供状。”只把棒逼将去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万圣龙王",
+     "predicate": "MASTERMINDED",
+     "object": "盗取舍利子",
+     "evidence": "有个万圣龙王，帅领许多亲戚……与龙王合盘做贼，先下血雨一场，后把舍利偷讫。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "万圣公主",
+     "predicate": "PARTICIPATED_IN",
+     "object": "盗取舍利子",
+     "evidence": "公主施能，寂寂密密，又偷了王母灵芝，在潭中温养宝物。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "盗取舍利子",
+     "predicate": "OCCURRED_AT",
+     "object": "金光寺宝塔",
+     "evidence": "他知你塔上珍奇，与龙王合盘做贼，先下血雨一场，后把舍利偷讫。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万圣龙王",
+     "predicate": "OWNS",
+     "object": "舍利子佛宝",
+     "evidence": "后把舍利偷讫。见如今照耀龙宫，纵黑夜明如白日。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万圣公主",
+     "predicate": "OWNS",
+     "object": "九叶灵芝草",
+     "evidence": "公主施能，寂寂密密，又偷了王母灵芝，在潭中温养宝物。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王母娘娘",
+     "predicate": "OWNS",
+     "object": "九叶灵芝草",
+     "evidence": "公主又去大罗天上灵霄殿前，偷了王母娘娘的九叶灵芝草。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "扫塔",
+     "evidence": "三藏发心将塔扫，管教重见旧时容。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "扫塔",
+     "evidence": "行者道：“困了，你且坐下，等老孙替你扫罢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "扫塔",
+     "predicate": "OCCURRED_AT",
+     "object": "金光寺宝塔",
+     "evidence": "三藏发心将塔扫，管教重见旧时容。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金光寺众僧",
+     "predicate": "MEMBER_OF",
+     "object": "金光寺",
+     "evidence": "众僧跪倒道：“爷爷，我等是金光寺负屈的和尚。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金光寺",
+     "predicate": "MEMBER_OF",
+     "object": "祭赛国",
+     "evidence": "此城名唤祭赛国……敕建护国金光寺。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祭赛国国王",
+     "predicate": "LEADS",
+     "object": "祭赛国",
+     "evidence": "那国王闻言大喜。传旨教宣唐朝圣僧上金銮殿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祭赛国",
+     "predicate": "ATTACKED",
+     "object": "金光寺众僧",
+     "evidence": "那些赃官，将我僧众拿了去，千般拷打，万样追求。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "祭赛国国王",
+     "predicate": "FRAMED",
+     "object": "金光寺众僧",
+     "evidence": "我王欲要征伐，众臣谏道：“我寺里僧人偷了塔上宝贝……”昏君更不察理，那些赃官，将我僧众拿了去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "金光寺众僧",
+     "evidence": "国王教锦衣卫好生收监，传旨：“赦了金光寺众僧的枷锁……”",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 860,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿",
+      "行者",
+      "大圣",
+      "孙大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，法名悟空，观音菩萨取名"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧",
+      "圣僧",
+      "长老"
+     ],
+     "nickname": "三藏",
+     "description": "俗家姓陈，法名玄奘，唐王赐号三藏"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，法名悟能，观音菩萨取名"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉",
+      "和尚"
+     ],
+     "nickname": "沙和尚",
+     "description": "唐僧三徒弟，法名悟净，观音菩萨取名"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "",
+     "description": "南海观世音菩萨，为唐僧三徒取名"
+    },
+    {
+     "name": "祭赛国国王",
+     "type": "Person",
+     "aliases": [
+      "国王"
+     ],
+     "nickname": "",
+     "description": "祭赛国国王，宴请唐僧师徒"
+    },
+    {
+     "name": "光禄寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国掌管宴席的官署"
+    },
+    {
+     "name": "锦衣卫",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国掌管缉捕的官署"
+    },
+    {
+     "name": "教坊司",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国掌管乐舞的官署"
+    },
+    {
+     "name": "麒麟殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国宫殿，国王宴请唐僧处"
+    },
+    {
+     "name": "建章宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国宫殿，国王再宴唐僧处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "此乃南海观世音菩萨起的名字",
+     "confidence": 0.6
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "此乃南海观世音菩萨起的名字",
+     "confidence": 0.6
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "此乃南海观世音菩萨起的名字",
+     "confidence": 0.6
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "因拜贫僧为师",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "因拜贫僧为师",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "因拜贫僧为师",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祭赛国国王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "麒麟殿筵席",
+     "evidence": "国王请唐僧四众上麒麟殿叙坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "麒麟殿筵席",
+     "evidence": "国王请唐僧四众上麒麟殿叙坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "麒麟殿筵席",
+     "evidence": "国王请唐僧四众上麒麟殿叙坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "麒麟殿筵席",
+     "evidence": "国王请唐僧四众上麒麟殿叙坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "麒麟殿筵席",
+     "evidence": "国王请唐僧四众上麒麟殿叙坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "麒麟殿筵席",
+     "predicate": "OCCURRED_AT",
+     "object": "麒麟殿",
+     "evidence": "国王请唐僧四众上麒麟殿叙坐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祭赛国国王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "建章宫筵席",
+     "evidence": "教光禄寺：快翻席到建章宫里，再请圣僧定捕贼首，取宝归塔之计",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "建章宫筵席",
+     "evidence": "教光禄寺：快翻席到建章宫里，再请圣僧定捕贼首，取宝归塔之计",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "建章宫筵席",
+     "evidence": "教光禄寺：快翻席到建章宫里，再请圣僧定捕贼首，取宝归塔之计",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "建章宫筵席",
+     "evidence": "教光禄寺：快翻席到建章宫里，再请圣僧定捕贼首，取宝归塔之计",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "建章宫筵席",
+     "evidence": "教光禄寺：快翻席到建章宫里，再请圣僧定捕贼首，取宝归塔之计",
+     "confidence": 0.9
+    },
+    {
+     "subject": "建章宫筵席",
+     "predicate": "OCCURRED_AT",
+     "object": "建章宫",
+     "evidence": "教光禄寺：快翻席到建章宫里，再请圣僧定捕贼首，取宝归塔之计",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "取宝擒妖行动",
+     "evidence": "教大徒弟孙悟空去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取宝擒妖行动",
+     "evidence": "我共师兄去，手到擒来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取宝擒妖行动",
+     "evidence": "我共师兄去，手到擒来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "着沙僧弟保护师父",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:27.329Z"
+}

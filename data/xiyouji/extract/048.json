@@ -1,0 +1,524 @@
+{
+ "no": 48,
+ "title": "魔弄寒风飘大雪 僧思拜佛履层冰",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6023,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "东土大唐圣僧，奉旨西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "孙大圣"
+     ],
+     "nickname": "",
+     "description": "唐僧大徒弟，齐天大圣"
+    },
+    {
+     "name": "金鱼精",
+     "type": "Person",
+     "aliases": [
+      "灵感大王",
+      "金鱼",
+      "观音莲花池金鱼"
+     ],
+     "nickname": "灵感大王",
+     "description": "通天河妖怪，原观音莲花池金鱼"
+    },
+    {
+     "name": "斑衣鳜婆",
+     "type": "Person",
+     "aliases": [
+      "鳜婆"
+     ],
+     "nickname": "",
+     "description": "通天河水族，献计捉唐僧"
+    },
+    {
+     "name": "陈澄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄老者，祭主"
+    },
+    {
+     "name": "陈清",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄老者"
+    },
+    {
+     "name": "陈关保",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄童男，祭品"
+    },
+    {
+     "name": "陈家庄",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "通天河畔村庄，陈澄陈清等居住"
+    },
+    {
+     "name": "灵感庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄祭祀灵感大王的庙宇"
+    },
+    {
+     "name": "通天河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "八百里宽大河，妖怪盘踞"
+    },
+    {
+     "name": "水府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "通天河内妖怪宫殿"
+    },
+    {
+     "name": "西梁女国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "通天河西岸国度"
+    },
+    {
+     "name": "祭赛",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈家庄每年献童男女给灵感大王"
+    },
+    {
+     "name": "捉唐僧",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "金鱼精设计捉住唐僧"
+    },
+    {
+     "name": "九环锡杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧所持锡杖"
+    },
+    {
+     "name": "钉钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒的九齿钉钯"
+    },
+    {
+     "name": "降妖宝杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧的兵器"
+    },
+    {
+     "name": "铁棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的如意金箍棒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我等乃东土大唐圣僧三藏奉钦差西天取经之徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我等乃东土大唐圣僧三藏奉钦差西天取经之徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我等乃东土大唐圣僧三藏奉钦差西天取经之徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鱼精",
+     "predicate": "STATIONED_AT",
+     "object": "通天河",
+     "evidence": "他化一阵狂风，钻入通天河内",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金鱼精",
+     "predicate": "STATIONED_AT",
+     "object": "水府",
+     "evidence": "回归水内，坐在宫中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金鱼精",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祭赛",
+     "evidence": "年年要童男女祭赛",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈澄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祭赛",
+     "evidence": "陈家庄祭主陈澄等众信，年甲不齐，谨遵年例，供献童男一名陈关保",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈清",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祭赛",
+     "evidence": "陈家庄祭主陈澄等众信，年甲不齐，谨遵年例，供献童男一名陈关保",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈关保",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祭赛",
+     "evidence": "供献童男一名陈关保",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祭赛",
+     "predicate": "OCCURRED_AT",
+     "object": "灵感庙",
+     "evidence": "直抬至灵感庙里排下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "金鱼精",
+     "evidence": "行者也现本相看处，原来是冰盘大小两个鱼鳞，喝声‘赶上！’二人跳到空中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "金鱼精",
+     "evidence": "呆子扑的跳下来，现了本相，掣钉钯，劈手一筑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鱼精",
+     "predicate": "MASTERMINDED",
+     "object": "捉唐僧",
+     "evidence": "有心要捉唐僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "斑衣鳜婆",
+     "predicate": "MASTERMINDED",
+     "object": "捉唐僧",
+     "evidence": "鳜婆道：‘今夜有三更天气，大王不必迟疑，趁早作法，起一阵寒风，下一阵大雪，把通天河尽皆冻结。’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金鱼精",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "那妖邪将三藏捉住，引群精径回水府",
+     "confidence": 0.95
+    },
+    {
+     "subject": "捉唐僧",
+     "predicate": "OCCURRED_AT",
+     "object": "通天河",
+     "evidence": "他在底下弄个神通，滑喇的迸开冰冻……那妖邪将三藏捉住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "行者横担着铁棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "腰横着钉钯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖宝杖",
+     "evidence": "沙僧横担着降妖宝杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "九环锡杖",
+     "evidence": "八戒把九环锡杖递与唐僧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金鱼精",
+     "predicate": "ORIGIN_OF",
+     "object": "观音",
+     "evidence": "观音莲花池金鱼",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 490,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧",
+      "陈到底"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被灵感大王算计擒去"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅，掌管天河八万水兵"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，出身流沙河，知水性"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "大圣",
+      "行者",
+      "美猴王",
+      "齐天大圣",
+      "悟空"
+     ],
+     "nickname": "大圣",
+     "description": "唐僧大徒弟，在空中指引寻师擒怪"
+    },
+    {
+     "name": "灵感大王",
+     "type": "Person",
+     "aliases": [
+      "金鱼精",
+      "灵感",
+      "金鱼"
+     ],
+     "nickname": "灵感大王",
+     "description": "妖邪，弄法算计擒走唐僧"
+    },
+    {
+     "name": "陈家庄",
+     "type": "Organization",
+     "aliases": [
+      "陈家"
+     ],
+     "nickname": "",
+     "description": "庄院，二老及庄人所在"
+    },
+    {
+     "name": "西海",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "龙王所居海域，白马出身之地"
+    },
+    {
+     "name": "流沙河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙和尚出身之地"
+    },
+    {
+     "name": "天河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天蓬元帅当年掌管水兵之处"
+    },
+    {
+     "name": "东崖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "师徒回转晒刷马匹之处"
+    },
+    {
+     "name": "白马",
+     "type": "Person",
+     "aliases": [
+      "西海龙孙",
+      "白龙马"
+     ],
+     "nickname": "白马",
+     "description": "西海龙孙所化，能知水性"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父何在？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父何在？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父何在？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "NATIVE_OF",
+     "object": "天河",
+     "evidence": "原来八戒本是天蓬元帅临凡，他当年掌管天河八万水兵大众",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "NATIVE_OF",
+     "object": "流沙河",
+     "evidence": "沙和尚是流沙河内出身",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白马",
+     "predicate": "NATIVE_OF",
+     "object": "西海",
+     "evidence": "白马本是西海龙孙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "灵感大王",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "决然是那灵感大王弄法算计去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "等我弟兄寻着那厮，救出师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "等我弟兄寻着那厮，救出师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "等我弟兄寻着那厮，救出师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "陈家庄",
+     "evidence": "师父姓陈，名到底了",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:03.129Z"
+}

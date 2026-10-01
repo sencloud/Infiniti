@@ -1,0 +1,92 @@
+{
+ "no": 362,
+ "title": "皂隶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 154,
+   "entities": [
+    {
+     "name": "历城令",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "万历年间历城县令，梦城隍索人服役"
+    },
+    {
+     "name": "城隍",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "历城城隍神，向县令索人服役"
+    },
+    {
+     "name": "皂隶",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "历城县衙差役，被焚牒后死去"
+    },
+    {
+     "name": "肆主",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "庙东酒肆主人，与一皂隶有旧交"
+    },
+    {
+     "name": "城隍庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "历城城隍庙，皂隶焚牒及塑像处"
+    },
+    {
+     "name": "酒肆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "城隍庙东边的酒店"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "历城令",
+     "predicate": "PARTICIPATED_IN",
+     "object": "梦城隍索人服役",
+     "evidence": "历城令梦城隍索人服役",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梦城隍索人服役",
+     "predicate": "OCCURRED_AT",
+     "object": "城隍庙",
+     "evidence": "即以皂隶八人书姓名于牒，焚庙中",
+     "confidence": 0.8
+    },
+    {
+     "subject": "城隍",
+     "predicate": "KILLED",
+     "object": "皂隶",
+     "evidence": "至夜，八人皆死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "肆主",
+     "predicate": "FRIEND",
+     "object": "皂隶",
+     "evidence": "肆主故与一隶有素",
+     "confidence": 0.9
+    },
+    {
+     "subject": "肆主",
+     "predicate": "LIVES_AT",
+     "object": "酒肆",
+     "evidence": "庙东有酒肆，肆主故与一隶有素",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:28.302Z"
+}

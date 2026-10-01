@@ -1,0 +1,73 @@
+{
+ "no": 103,
+ "title": "老饕",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 995,
+   "entities": [
+    {
+     "name": "邢德",
+     "type": "Person",
+     "aliases": [
+      "连珠箭邢某"
+     ],
+     "nickname": "连珠箭邢某",
+     "description": "泽州人，绿林好汉，善连珠箭"
+    },
+    {
+     "name": "老饕",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "老饕",
+     "description": "白发老人，武艺高强，自称老饕"
+    },
+    {
+     "name": "僮仆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "老饕的僮仆，黄发蓬乱，武艺高强"
+    },
+    {
+     "name": "泽州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邢德的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "邢德",
+     "predicate": "NATIVE_OF",
+     "object": "泽州",
+     "evidence": "邢德，泽州人，绿林之杰也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "僮仆",
+     "predicate": "HELPED",
+     "object": "老饕",
+     "evidence": "僮行觞，误翻柈具，污叟衣。少年怒，立摘其耳，捧巾持帨，代叟揩拭。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "老饕",
+     "predicate": "HARMED",
+     "object": "邢德",
+     "evidence": "叟吐矢跃起，鼓掌曰：“初会面，何便作此恶剧？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "僮仆",
+     "predicate": "HARMED",
+     "object": "邢德",
+     "evidence": "僮下骑，便将搜括。邢以弓卧挞之。僮夺弓去，拗折为两，又折为四，抛置之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:50.335Z"
+}

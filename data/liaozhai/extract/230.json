@@ -1,0 +1,126 @@
+{
+ "no": 230,
+ "title": "狼三则",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 584,
+   "entities": [
+    {
+     "name": "屠人（狼三则·悬肉）",
+     "type": "Person",
+     "aliases": [
+      "屠夫"
+     ],
+     "nickname": "",
+     "description": "狼三则中货肉归、悬肉于树杀狼的屠夫"
+    },
+    {
+     "name": "狼（狼三则·悬肉）",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狼三则中尾随屠夫、吞肉被钩刺腭而死的狼"
+    },
+    {
+     "name": "屠人（狼三则·杀两狼）",
+     "type": "Person",
+     "aliases": [
+      "屠夫"
+     ],
+     "nickname": "",
+     "description": "狼三则中晚归遇两狼、倚薪持刀杀两狼的屠夫"
+    },
+    {
+     "name": "狼甲（狼三则·杀两狼）",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狼三则中犬坐于前、假寐诱敌被屠夫劈首毙命的狼"
+    },
+    {
+     "name": "狼乙（狼三则·杀两狼）",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狼三则中洞入积薪、欲隧入攻后被屠夫断股毙命的狼"
+    },
+    {
+     "name": "屠人（狼三则·吹狼）",
+     "type": "Person",
+     "aliases": [
+      "屠夫"
+     ],
+     "nickname": "",
+     "description": "狼三则中暮行为狼所逼、吹狼使胀如牛的屠夫"
+    },
+    {
+     "name": "狼（狼三则·吹狼）",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狼三则中探爪入行室、被屠夫吹气胀如牛的狼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "狼（狼三则·悬肉）",
+     "predicate": "HARMED",
+     "object": "屠人（狼三则·悬肉）",
+     "evidence": "欻一狼来，瞰担中肉，似甚涎垂，步亦步，尾行数里。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "屠人（狼三则·悬肉）",
+     "predicate": "KILLED",
+     "object": "狼（狼三则·悬肉）",
+     "evidence": "见口中含肉，肉钩刺狼腭，如鱼吞饵。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狼甲（狼三则·杀两狼）",
+     "predicate": "HARMED",
+     "object": "屠人（狼三则·杀两狼）",
+     "evidence": "途中两狼，缀行甚远。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狼乙（狼三则·杀两狼）",
+     "predicate": "HARMED",
+     "object": "屠人（狼三则·杀两狼）",
+     "evidence": "途中两狼，缀行甚远。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "屠人（狼三则·杀两狼）",
+     "predicate": "KILLED",
+     "object": "狼甲（狼三则·杀两狼）",
+     "evidence": "屠暴起，以刀劈狼首，又数刀毙之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "屠人（狼三则·杀两狼）",
+     "predicate": "KILLED",
+     "object": "狼乙（狼三则·杀两狼）",
+     "evidence": "屠自后断其股，亦毙之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狼（狼三则·吹狼）",
+     "predicate": "HARMED",
+     "object": "屠人（狼三则·吹狼）",
+     "evidence": "一屠暮行，为狼所逼。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "屠人（狼三则·吹狼）",
+     "predicate": "KILLED",
+     "object": "狼（狼三则·吹狼）",
+     "evidence": "出视，则狼胀如牛，股直不能屈，口张不得合。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:40.212Z"
+}

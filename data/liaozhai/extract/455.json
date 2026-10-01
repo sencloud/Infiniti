@@ -1,0 +1,71 @@
+{
+ "no": 455,
+ "title": "乩仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 157,
+   "entities": [
+    {
+     "name": "米步云",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "章丘人，善以乩卜"
+    },
+    {
+     "name": "老董",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "城南牧豕叟"
+    },
+    {
+     "name": "乩仙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "扶乩所召之仙"
+    },
+    {
+     "name": "章丘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "米步云籍贯地"
+    },
+    {
+     "name": "城南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "米步云偶适之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "米步云",
+     "predicate": "NATIVE_OF",
+     "object": "章丘",
+     "evidence": "章丘米步云，善以乩卜。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "米步云",
+     "predicate": "FRIEND",
+     "object": "乩仙",
+     "evidence": "每同人雅集，辄召仙相与赓和。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "米步云",
+     "predicate": "LIVES_AT",
+     "object": "城南",
+     "evidence": "后以故偶适城南，至一处",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:04.369Z"
+}

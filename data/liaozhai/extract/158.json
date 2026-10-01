@@ -1,0 +1,91 @@
+{
+ "no": 158,
+ "title": "头滚",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 63,
+   "entities": [
+    {
+     "name": "苏贞下",
+     "type": "Person",
+     "aliases": [
+      "苏孝廉贞下"
+     ],
+     "nickname": "",
+     "description": "头滚篇中举人，其父见人头受惊而死"
+    },
+    {
+     "name": "苏贞下之父",
+     "type": "Person",
+     "aliases": [
+      "封公"
+     ],
+     "nickname": "",
+     "description": "头滚篇中苏贞下之父，见人头受惊而亡"
+    },
+    {
+     "name": "苏贞下之二弟",
+     "type": "Person",
+     "aliases": [
+      "次公"
+     ],
+     "nickname": "",
+     "description": "头滚篇中苏贞下二弟，与荡妇宿遭杀身之祸"
+    },
+    {
+     "name": "荡妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "头滚篇中与苏贞下次公过夜之妇人"
+    },
+    {
+     "name": "人头",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "头滚篇中从地中冒出旋转的怪异人头"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "苏贞下",
+     "predicate": "KIN",
+     "object": "苏贞下之父",
+     "evidence": "苏孝廉贞下封公昼卧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苏贞下",
+     "predicate": "KIN",
+     "object": "苏贞下之二弟",
+     "evidence": "后其次公就荡妇宿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "人头",
+     "predicate": "HARMED",
+     "object": "苏贞下之父",
+     "evidence": "见一人头从地中出，其大如斛，在床下旋转不已。惊而中疾，遂以不起",
+     "confidence": 0.95
+    },
+    {
+     "subject": "苏贞下之二弟",
+     "predicate": "PARTICIPATED_IN",
+     "object": "杀身之祸",
+     "evidence": "后其次公就荡妇宿，罹杀身之祸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苏贞下之二弟",
+     "predicate": "LOVES",
+     "object": "荡妇",
+     "evidence": "后其次公就荡妇宿",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:12.317Z"
+}

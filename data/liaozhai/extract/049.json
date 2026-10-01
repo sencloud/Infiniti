@@ -1,0 +1,151 @@
+{
+ "no": 49,
+ "title": "聂小倩",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2994,
+   "entities": [
+    {
+     "name": "宁采臣",
+     "type": "Person",
+     "aliases": [
+      "宁生",
+      "宁公子"
+     ],
+     "nickname": "",
+     "description": "浙人，性慷爽，廉隅自重，后登进士"
+    },
+    {
+     "name": "聂小倩",
+     "type": "Spirit",
+     "aliases": [
+      "小倩",
+      "聂女"
+     ],
+     "nickname": "",
+     "description": "十八夭殂之鬼，葬寺侧，后随宁采臣归"
+    },
+    {
+     "name": "燕赤霞",
+     "type": "Person",
+     "aliases": [
+      "燕生"
+     ],
+     "nickname": "",
+     "description": "秦人，剑客，侨居兰若南舍"
+    },
+    {
+     "name": "金华",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宁采臣赴试之地，有北郭兰若"
+    },
+    {
+     "name": "兰若",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金华北郭寺庙，殿塔壮丽，蓬蒿没人"
+    },
+    {
+     "name": "剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕赤霞所藏小剑，长二寸，可击妖"
+    },
+    {
+     "name": "革囊",
+     "type": "Item",
+     "aliases": [
+      "剑袋"
+     ],
+     "nickname": "",
+     "description": "燕赤霞赠宁采臣之破皮袋，可远魑魅"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宁采臣",
+     "predicate": "NATIVE_OF",
+     "object": "金华",
+     "evidence": "宁采臣，浙人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宁采臣",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "适赴金华，至北郭，解装兰若",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕赤霞",
+     "predicate": "LIVES_AT",
+     "object": "兰若",
+     "evidence": "此间无房主，仆亦侨居",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宁采臣",
+     "predicate": "FRIEND",
+     "object": "燕赤霞",
+     "evidence": "二人促膝殿廊，各展姓字",
+     "confidence": 0.9
+    },
+    {
+     "subject": "聂小倩",
+     "predicate": "HARMED",
+     "object": "宁采臣",
+     "evidence": "女笑曰：月夜不寐，愿修燕好",
+     "confidence": 0.8
+    },
+    {
+     "subject": "聂小倩",
+     "predicate": "HELPED",
+     "object": "宁采臣",
+     "evidence": "妾阅人多矣，未有刚肠如君者。君诚圣贤，妾不敢欺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕赤霞",
+     "predicate": "HELPED",
+     "object": "宁采臣",
+     "evidence": "以破革囊赠宁，曰：此剑袋也，宝藏可远魑魅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宁采臣",
+     "predicate": "HELPED",
+     "object": "聂小倩",
+     "evidence": "宁乃托有妹葬此，发掘女骨，敛以衣衾，赁舟而归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宁采臣",
+     "predicate": "OWNS",
+     "object": "革囊",
+     "evidence": "以破革囊赠宁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕赤霞",
+     "predicate": "OWNS",
+     "object": "剑",
+     "evidence": "取一物，对月嗅视，白光晶莹，长可二寸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "聂小倩",
+     "predicate": "SPOUSE",
+     "object": "宁采臣",
+     "evidence": "母阴有纳女意，宁喜，因列筵告戚党",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:31.744Z"
+}

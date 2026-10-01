@@ -1,0 +1,78 @@
+{
+ "no": 180,
+ "title": "农人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 462,
+   "entities": [
+    {
+     "name": "农人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《农人》篇中山下除草的农民，曾击狐"
+    },
+    {
+     "name": "贵家女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《农人》篇中山南大户人家的女儿，被狐缠祟"
+    },
+    {
+     "name": "贵家主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《农人》篇中贵家女之父，请农人驱狐"
+    },
+    {
+     "name": "北山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《农人》篇中狐十年前偷食之处"
+    },
+    {
+     "name": "山南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《农人》篇中贵家女所居之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "农人",
+     "predicate": "HELPED",
+     "object": "贵家女",
+     "evidence": "女见狐奉头鼠窜而去，自是遂安",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贵家主人",
+     "predicate": "HELPED",
+     "object": "贵家女",
+     "evidence": "女告父。父思投其所畏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贵家女",
+     "predicate": "KIN",
+     "object": "贵家主人",
+     "evidence": "女告父",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贵家女",
+     "predicate": "LIVES_AT",
+     "object": "山南",
+     "evidence": "山南有贵家女",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:21.919Z"
+}

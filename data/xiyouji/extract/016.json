@@ -1,0 +1,387 @@
+{
+ "no": 16,
+ "title": "观音院僧谋宝贝 黑风山怪窃袈裟",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5523,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐高僧，奉旨西天取经"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "救苦救难、指点取经的菩萨"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭最高主宰"
+    },
+    {
+     "name": "广目天王",
+     "type": "Person",
+     "aliases": [
+      "四大天王之一"
+     ],
+     "nickname": "天王",
+     "description": "南天门四大天王之一，持有辟火罩"
+    },
+    {
+     "name": "广智",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音禅院小和尚，提议杀唐僧"
+    },
+    {
+     "name": "广谋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "广智师弟，提议放火烧唐僧"
+    },
+    {
+     "name": "黑风山妖精",
+     "type": "Person",
+     "aliases": [
+      "黑风洞妖精"
+     ],
+     "nickname": "",
+     "description": "黑风山黑风洞妖怪，趁火窃取袈裟"
+    },
+    {
+     "name": "观音禅院",
+     "type": "Organization",
+     "aliases": [
+      "观音院"
+     ],
+     "nickname": "",
+     "description": "观音菩萨道场，老僧主持的寺院"
+    },
+    {
+     "name": "黑风洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑风山中的妖洞，妖精盘踞之所"
+    },
+    {
+     "name": "观音禅院",
+     "type": "Place",
+     "aliases": [
+      "观音院"
+     ],
+     "nickname": "",
+     "description": "唐僧师徒借宿的寺院"
+    },
+    {
+     "name": "黑风山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音院正南二十里的山，黑风洞所在"
+    },
+    {
+     "name": "南天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭门户，孙悟空借辟火罩处"
+    },
+    {
+     "name": "锦襕袈裟",
+     "type": "Item",
+     "aliases": [
+      "袈裟"
+     ],
+     "nickname": "",
+     "description": "佛门异宝，唐僧的袈裟"
+    },
+    {
+     "name": "辟火罩",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "广目天王的法宝，能辟火护身"
+    },
+    {
+     "name": "观音院纵火事件",
+     "type": "Event",
+     "aliases": [
+      "火烧观音院"
+     ],
+     "nickname": "",
+     "description": "观音院众僧放火谋害唐僧，反烧毁寺院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "他是我的徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "如今保唐僧，不得身闲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "广目天王",
+     "evidence": "我来寻广目天王的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "广目天王",
+     "predicate": "OWNS",
+     "object": "辟火罩",
+     "evidence": "特来寻你借‘辟火罩儿’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "辟火罩",
+     "evidence": "天王不敢不借，遂将罩儿递与行者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "锦襕袈裟",
+     "evidence": "曾见那领袈裟，不是件宝贝？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑风山妖精",
+     "predicate": "OWNS",
+     "object": "锦襕袈裟",
+     "evidence": "拿着那袈裟，趁哄打劫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "广智",
+     "predicate": "MEMBER_OF",
+     "object": "观音禅院",
+     "evidence": "有一个小和尚，名唤广智",
+     "confidence": 0.9
+    },
+    {
+     "subject": "广谋",
+     "predicate": "MEMBER_OF",
+     "object": "观音禅院",
+     "evidence": "有一个小和尚，名唤广谋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑风山妖精",
+     "predicate": "STATIONED_AT",
+     "object": "黑风洞",
+     "evidence": "山中有一个黑风洞，洞中有一个妖精",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音院纵火事件",
+     "predicate": "OCCURRED_AT",
+     "object": "观音禅院",
+     "evidence": "把一座观音院，处处通红",
+     "confidence": 0.9
+    },
+    {
+     "subject": "广智",
+     "predicate": "MASTERMINDED",
+     "object": "观音院纵火事件",
+     "evidence": "广智道：……将他杀了，把尸首埋在后园",
+     "confidence": 0.9
+    },
+    {
+     "subject": "广谋",
+     "predicate": "MASTERMINDED",
+     "object": "观音院纵火事件",
+     "evidence": "广谋道：……放起火来，教他欲走无门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "观音院纵火事件",
+     "evidence": "他转捻诀念咒，望巽地上吸一口气吹将去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑风山妖精",
+     "predicate": "PARTICIPATED_IN",
+     "object": "观音院纵火事件",
+     "evidence": "他也不救火，他也不叫水，拿着那袈裟，趁哄打劫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音禅院",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "将他杀了，把尸首埋在后园",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音禅院",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "将他杀了，把尸首埋在后园",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "护住了唐僧无伤",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2258,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，护法神僧"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，袈裟被窃"
+    },
+    {
+     "name": "黑熊精",
+     "type": "Person",
+     "aliases": [
+      "黑风怪",
+      "黑大王",
+      "熊罴怪"
+     ],
+     "nickname": "黑大王",
+     "description": "黑风山黑风洞妖怪，偷袈裟"
+    },
+    {
+     "name": "观音院",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音禅院，老和尚所居"
+    },
+    {
+     "name": "黑风山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音院东南二十里之山"
+    },
+    {
+     "name": "黑风洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑风山中的妖洞"
+    },
+    {
+     "name": "锦襕袈裟",
+     "type": "Item",
+     "aliases": [
+      "袈裟"
+     ],
+     "nickname": "",
+     "description": "佛宝袈裟，被黑熊精偷去"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者叫道：师父，天亮了，起来罢。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "STATIONED_AT",
+     "object": "黑风洞",
+     "evidence": "黑风洞内有一个黑大王。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "OWNS",
+     "object": "锦襕袈裟",
+     "evidence": "一定是那黑怪偷去无疑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "黑风山",
+     "evidence": "急纵筋斗云，径上黑风山，寻找这袈裟。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:04.275Z"
+}

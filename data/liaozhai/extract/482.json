@@ -1,0 +1,180 @@
+{
+ "no": 482,
+ "title": "粉蝶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1830,
+   "entities": [
+    {
+     "name": "阳曰旦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "琼州士人，遇仙后归家"
+    },
+    {
+     "name": "晏海屿",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "十娘之夫，神仙岛居民"
+    },
+    {
+     "name": "粉蝶",
+     "type": "Spirit",
+     "aliases": [
+      "荷生"
+     ],
+     "nickname": "",
+     "description": "十娘婢女，后转世为荷生"
+    },
+    {
+     "name": "荷生",
+     "type": "Person",
+     "aliases": [
+      "粉蝶"
+     ],
+     "nickname": "",
+     "description": "钱秀才之女，粉蝶转世"
+    },
+    {
+     "name": "钱秀才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临邑秀才，荷生之父"
+    },
+    {
+     "name": "神仙岛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "十娘与晏海屿所居岛屿"
+    },
+    {
+     "name": "琼州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阳曰旦家乡"
+    },
+    {
+     "name": "临邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "钱秀才所居之地"
+    },
+    {
+     "name": "琴",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "十娘赠阳曰旦之琴"
+    },
+    {
+     "name": "药",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "十娘赠阳曰旦之药，可治病延年"
+    },
+    {
+     "name": "裙",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "十娘之裙，用作船帆"
+    },
+    {
+     "name": "饼",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "十娘所赠之饼，食之不饥"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "阳曰旦",
+     "predicate": "LIVES_AT",
+     "object": "神仙岛",
+     "evidence": "此名神仙岛，离琼三千里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阳曰旦",
+     "predicate": "NATIVE_OF",
+     "object": "琼州",
+     "evidence": "阳曰旦，琼州士人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "粉蝶",
+     "predicate": "LIVES_AT",
+     "object": "神仙岛",
+     "evidence": "有婢自内出，年约十四五",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阳曰旦",
+     "predicate": "OWNS",
+     "object": "琴",
+     "evidence": "乃赠以琴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阳曰旦",
+     "predicate": "OWNS",
+     "object": "药",
+     "evidence": "又授以药",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阳曰旦",
+     "predicate": "OWNS",
+     "object": "裙",
+     "evidence": "解裙裹饼而归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阳曰旦",
+     "predicate": "OWNS",
+     "object": "饼",
+     "evidence": "但啖胡饼一枚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阳曰旦",
+     "predicate": "SPOUSE",
+     "object": "荷生",
+     "evidence": "涓吉成礼。既入门，光艳绝代，旦视之，则粉蝶也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钱秀才",
+     "predicate": "KIN",
+     "object": "荷生",
+     "evidence": "临邑钱秀才，有女名荷生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "荷生",
+     "predicate": "NATIVE_OF",
+     "object": "临邑",
+     "evidence": "临邑钱秀才，有女名荷生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晏海屿",
+     "predicate": "HARMED",
+     "object": "粉蝶",
+     "evidence": "宜鞭三百！",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:18.180Z"
+}

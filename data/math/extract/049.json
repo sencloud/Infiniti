@@ -1,0 +1,171 @@
+{
+ "no": 49,
+ "title": "1.1 三角形中的线段和角",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4403,
+   "entities": [
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由不在同一直线上的三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "全等三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的两个三角形"
+    },
+    {
+     "name": "三角形两边之和大于第三边",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形的任意两边之和大于第三边"
+    },
+    {
+     "name": "三角形两边之差小于第三边",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形的任意两边之差小于第三边"
+    },
+    {
+     "name": "大边对大角，大角对大边",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "同一个三角形中，较大的边所对的角较大，较大的角所对的边较大"
+    },
+    {
+     "name": "三角形的中线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "连接三角形一个顶点与它的对边中点的线段"
+    },
+    {
+     "name": "三角形的角平分线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形一个内角的平分线与对边相交，顶点与交点之间的线段"
+    },
+    {
+     "name": "三角形的高线",
+     "type": "Concept",
+     "aliases": [
+      "三角形的高"
+     ],
+     "nickname": "",
+     "description": "从三角形一个顶点向对边所在直线作垂线，顶点与垂足之间的线段"
+    },
+    {
+     "name": "三角形的面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形面积等于底乘以高的一半"
+    },
+    {
+     "name": "两点之间线段最短",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两点之间的所有连线中，线段最短"
+    },
+    {
+     "name": "不等式的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "不等式两边加或减同一个数，不等号方向不变"
+    },
+    {
+     "name": "图形变换",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "平移、轴对称、旋转等改变图形位置或形状的变换"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "三角形",
+     "predicate": "PREREQUISITE",
+     "object": "全等三角形",
+     "evidence": "三角形是基本的几何图形．我们把可以完全重合的两个三角形称为全等三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等三角形",
+     "predicate": "RELATED",
+     "object": "图形变换",
+     "evidence": "全等也是平移、轴对称、旋转三种图形变换的基本特征：变换前后的两个三角形全等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "两点之间线段最短",
+     "predicate": "DERIVES",
+     "object": "三角形两边之和大于第三边",
+     "evidence": "根据基本事实“两点之间的所有连线中，线段最短”，可知BA+AC>BC",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形两边之和大于第三边",
+     "predicate": "DERIVES",
+     "object": "三角形两边之差小于第三边",
+     "evidence": "根据例1，可以进一步发现：三角形的任意两边之差小于第三边",
+     "confidence": 0.9
+    },
+    {
+     "subject": "不等式的性质",
+     "predicate": "APPLIES_TO",
+     "object": "三角形两边之差小于第三边",
+     "evidence": "∴ AC+BC-BC>AB-BC（不等式的性质）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大边对大角，大角对大边",
+     "predicate": "PROPERTY_OF",
+     "object": "三角形",
+     "evidence": "在同一个三角形中，较大的边所对的角也比较大，较大的角所对的边也比较大",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形的中线",
+     "predicate": "INCLUDES",
+     "object": "三角形",
+     "evidence": "在三角形中，连接一个顶点与它的对边中点的线段，叫作三角形的中线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形的角平分线",
+     "predicate": "INCLUDES",
+     "object": "三角形",
+     "evidence": "在三角形中，一个内角的平分线与这个角的对边相交，这个角的顶点与交点之间的线段叫作三角形的角平分线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形的高线",
+     "predicate": "INCLUDES",
+     "object": "三角形",
+     "evidence": "从三角形的一个顶点向它的对边所在直线作垂线，顶点与垂足之间的线段叫作三角形的高线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形的面积公式",
+     "predicate": "APPLIES_TO",
+     "object": "三角形的中线",
+     "evidence": "因为AD是△ABC的中线，所以BD=DC。又因为S△ABD=1/2BD·AH，S△ADC=1/2DC·AH，所以S△ABD=S△ADC",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:52.702Z"
+}

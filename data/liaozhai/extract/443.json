@@ -1,0 +1,139 @@
+{
+ "no": 443,
+ "title": "香玉",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2560,
+   "entities": [
+    {
+     "name": "黄生",
+     "type": "Person",
+     "aliases": [
+      "黄公子"
+     ],
+     "nickname": "",
+     "description": "胶州书生，舍读下清宫，与香玉、绛雪相恋"
+    },
+    {
+     "name": "香玉",
+     "type": "Spirit",
+     "aliases": [
+      "香女",
+      "玉娘"
+     ],
+     "nickname": "",
+     "description": "白牡丹花妖，后为花鬼，与黄生相恋"
+    },
+    {
+     "name": "绛雪",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "耐冬花妖，香玉义姊，与黄生为友"
+    },
+    {
+     "name": "劳山道士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "下清宫道士，后老死"
+    },
+    {
+     "name": "蓝氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "即墨人，掘移白牡丹，致其枯萎"
+    },
+    {
+     "name": "下清宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "劳山道观，黄生读书处，牡丹耐冬所在"
+    },
+    {
+     "name": "胶州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄生籍贯地"
+    },
+    {
+     "name": "即墨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蓝氏籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "黄生",
+     "predicate": "LOVES",
+     "object": "香玉",
+     "evidence": "生握腕曰：卿秀外惠中，令人爱而忘死。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄生",
+     "predicate": "SPOUSE",
+     "object": "香玉",
+     "evidence": "谓曰：香玉吾爱妻，绛雪吾良友也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄生",
+     "predicate": "FRIEND",
+     "object": "绛雪",
+     "evidence": "谓曰：香玉吾爱妻，绛雪吾良友也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "香玉",
+     "predicate": "KIN",
+     "object": "绛雪",
+     "evidence": "此名绛雪，乃妾义姊。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蓝氏",
+     "predicate": "HARMED",
+     "object": "香玉",
+     "evidence": "有即墨蓝氏，入宫游瞩，见白牡丹，悦之，掘移径去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄生",
+     "predicate": "HELPED",
+     "object": "绛雪",
+     "evidence": "生急止之。入夜，绛雪来谢。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄生",
+     "predicate": "LIVES_AT",
+     "object": "下清宫",
+     "evidence": "胶州黄生，舍读其中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄生",
+     "predicate": "NATIVE_OF",
+     "object": "胶州",
+     "evidence": "胶州黄生，舍读其中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蓝氏",
+     "predicate": "NATIVE_OF",
+     "object": "即墨",
+     "evidence": "有即墨蓝氏，入宫游瞩。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:02.088Z"
+}

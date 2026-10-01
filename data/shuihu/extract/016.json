@@ -1,0 +1,623 @@
+{
+ "no": 16,
+ "title": "第十六回 杨志押送金银担 吴用智取生辰纲",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5921,
+   "entities": [
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "吴学究",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山好汉，智谋之士"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "梁山好汉，道士"
+    },
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "杨制使"
+     ],
+     "nickname": "青面兽",
+     "description": "梁山好汉，押送生辰纲"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [
+      "阮小二郎"
+     ],
+     "nickname": "立地太岁",
+     "description": "梁山好汉，阮氏三兄弟之一"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [
+      "阮小五郎"
+     ],
+     "nickname": "短命二郎",
+     "description": "梁山好汉，阮氏三兄弟之一"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [
+      "阮小七郎"
+     ],
+     "nickname": "活阎罗",
+     "description": "梁山好汉，阮氏三兄弟之一"
+    },
+    {
+     "name": "白胜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "白日鼠",
+     "description": "闲汉，参与智取生辰纲"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [
+      "保正"
+     ],
+     "nickname": "",
+     "description": "东溪村保正，七星聚义之首"
+    },
+    {
+     "name": "梁中书",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北京大名府留守，生辰纲押送者"
+    },
+    {
+     "name": "蔡夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书之妻，蔡京之女"
+    },
+    {
+     "name": "谢都管",
+     "type": "Person",
+     "aliases": [
+      "老都管",
+      "奶公谢都管"
+     ],
+     "nickname": "",
+     "description": "太师府奶公，随杨志押送生辰纲"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "起义好汉聚集的山寨势力"
+    },
+    {
+     "name": "黄泥冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，生辰纲被劫处"
+    },
+    {
+     "name": "石碣村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阮氏三兄弟所居村庄"
+    },
+    {
+     "name": "安乐村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄泥冈东十里村庄，白胜所居"
+    },
+    {
+     "name": "北京大名府",
+     "type": "Place",
+     "aliases": [
+      "北京"
+     ],
+     "nickname": "",
+     "description": "梁中书镇守的府城"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，生辰纲目的地"
+    },
+    {
+     "name": "生辰纲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书献给蔡京的价值十万贯的金珠宝贝"
+    },
+    {
+     "name": "智取生辰纲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴用等七人设计劫取生辰纲的事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴用",
+     "predicate": "FRIEND",
+     "object": "公孙胜",
+     "evidence": "江湖上久闻人说入云龙公孙胜一清大名，不期今日此处得会",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "FRIEND",
+     "object": "公孙胜",
+     "evidence": "只是保正疏财仗义，以此天下豪杰都投门下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "FRIEND",
+     "object": "吴用",
+     "evidence": "这位秀士先生，便是智多星吴学究",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "FRIEND",
+     "object": "刘唐",
+     "evidence": "三个人入到里面，就与刘唐、三阮都相见了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "FRIEND",
+     "object": "阮小二",
+     "evidence": "三个人入到里面，就与刘唐、三阮都相见了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "FRIEND",
+     "object": "阮小五",
+     "evidence": "三个人入到里面，就与刘唐、三阮都相见了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "FRIEND",
+     "object": "阮小七",
+     "evidence": "三个人入到里面，就与刘唐、三阮都相见了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "KIN",
+     "object": "阮小五",
+     "evidence": "阮家三兄且请回归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "KIN",
+     "object": "阮小七",
+     "evidence": "阮家三兄且请回归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "KIN",
+     "object": "阮小七",
+     "evidence": "阮家三兄且请回归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "RESCUED",
+     "object": "白胜",
+     "evidence": "有一个闲汉，叫做白日鼠白胜，也曾来投奔我，我曾赍助他盘缠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白胜",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "有一个闲汉，叫做白日鼠白胜，也曾来投奔我",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "SPOUSE",
+     "object": "蔡夫人",
+     "evidence": "只见蔡夫人问道：“相公，生辰纲几时起程？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "SERVED",
+     "object": "杨志",
+     "evidence": "梁中书大喜，随即唤杨志上厅说道：“我正忘了你。你若与我送得生辰纲去，我自有抬举你处。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "SERVED",
+     "object": "梁中书",
+     "evidence": "杨志叉手向前禀道：“恩相差遣，不敢不依。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "谢都管",
+     "predicate": "SERVED",
+     "object": "梁中书",
+     "evidence": "特地再教奶公谢都管，并两个虞候，和你一同去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "智取生辰纲",
+     "evidence": "我已安排定了圈套，只看他来的光景。力则力取，智则智取。我有一条计策",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "今日我等七人聚义举事，岂不应天垂象。此一套富贵，唾手而取",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "贫道已打听知他来的路数了。只是黄泥冈大路上来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "所说央刘兄去探听路程从那里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "阮家三兄且请回归，至期来小庄聚会",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "阮家三兄且请回归，至期来小庄聚会",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "阮家三兄且请回归，至期来小庄聚会",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "只这个白胜家，便是我们安身处。亦还要用了白胜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "智取生辰纲",
+     "predicate": "OCCURRED_AT",
+     "object": "黄泥冈",
+     "evidence": "只是黄泥冈大路上来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "OWNS",
+     "object": "生辰纲",
+     "evidence": "杨志提辖情愿委了一纸领状，监押生辰纲十一担金珠宝贝赴京",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "OWNS",
+     "object": "生辰纲",
+     "evidence": "梁中书道：“礼物都已完备，明后日便用起身。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "NATIVE_OF",
+     "object": "石碣村",
+     "evidence": "阮家三弟兄相别了，自回石碣村去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "NATIVE_OF",
+     "object": "石碣村",
+     "evidence": "阮家三弟兄相别了，自回石碣村去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "NATIVE_OF",
+     "object": "石碣村",
+     "evidence": "阮家三弟兄相别了，自回石碣村去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白胜",
+     "predicate": "NATIVE_OF",
+     "object": "安乐村",
+     "evidence": "黄泥冈东十里路，地名安乐村，有一个闲汉，叫做白日鼠白胜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "STATIONED_AT",
+     "object": "北京大名府",
+     "evidence": "梁中书看阶下那人时，却是青面兽杨志",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "STATIONED_AT",
+     "object": "北京大名府",
+     "evidence": "却说北京大名府梁中书，收买了十万贯庆贺生辰礼物完备",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "STATIONED_AT",
+     "object": "东溪村",
+     "evidence": "晁盖只得坐了第一位",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2340,
+   "entities": [
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "杨制使",
+      "杨提辖"
+     ],
+     "nickname": "青面兽",
+     "description": "押送生辰纲的提辖，被蒙汗药麻翻"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "智取生辰纲的主谋"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "参与智取生辰纲的七人之一"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "赤发鬼",
+     "description": "参与智取生辰纲的七人之一"
+    },
+    {
+     "name": "白胜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "白日鼠",
+     "description": "挑酒汉子，参与智取生辰纲"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "参与智取生辰纲的七人之一"
+    },
+    {
+     "name": "阮小二",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "三阮之一，参与智取生辰纲"
+    },
+    {
+     "name": "阮小五",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "三阮之一，参与智取生辰纲"
+    },
+    {
+     "name": "阮小七",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "三阮之一，参与智取生辰纲"
+    },
+    {
+     "name": "梁中书",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "派杨志押送生辰纲的官员"
+    },
+    {
+     "name": "黄泥冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "智取生辰纲发生地"
+    },
+    {
+     "name": "智取生辰纲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴用等七人用蒙汗药劫取生辰纲"
+    },
+    {
+     "name": "生辰纲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书献给蔡京的金珠宝贝"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "智取生辰纲",
+     "evidence": "那计较都是吴用主张。这个唤做“智取生辰纲”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "原来正是晁盖、吴用、公孙胜、刘唐、三阮这七个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "原来正是晁盖、吴用、公孙胜、刘唐、三阮这七个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "原来正是晁盖、吴用、公孙胜、刘唐、三阮这七个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "原来正是晁盖、吴用、公孙胜、刘唐、三阮这七个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小二",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "原来正是晁盖、吴用、公孙胜、刘唐、三阮这七个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小五",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "原来正是晁盖、吴用、公孙胜、刘唐、三阮这七个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阮小七",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "原来正是晁盖、吴用、公孙胜、刘唐、三阮这七个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "却才那个挑酒的汉子，便是白日鼠白胜。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "智取生辰纲",
+     "predicate": "OCCURRED_AT",
+     "object": "黄泥冈",
+     "evidence": "将这十一担金珠宝贝，却装在车子内，叫声：“聒噪！”一直望黄泥冈下推了去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨志",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "杨志口里只是叫苦，软了身体，扎挣不起。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "SERVED",
+     "object": "梁中书",
+     "evidence": "不争你把了生辰纲去，教俺如何回去见得梁中书！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "OWNS",
+     "object": "生辰纲",
+     "evidence": "杨志押送金银担",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "OWNS",
+     "object": "生辰纲",
+     "evidence": "将这十一担金珠宝贝，却装在车子内",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:06.507Z"
+}

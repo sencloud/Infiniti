@@ -1,0 +1,122 @@
+{
+ "no": 201,
+ "title": "上仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 547,
+   "entities": [
+    {
+     "name": "高季文",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《上仙》中人物，与作者同赴稷下，忽病"
+    },
+    {
+     "name": "高振美",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《上仙》中人物，从念东先生至郡"
+    },
+    {
+     "name": "念东先生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《上仙》中人物，高振美随其至郡"
+    },
+    {
+     "name": "袁鳞公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《上仙》中人物，告知梁氏家有狐仙"
+    },
+    {
+     "name": "梁氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《上仙》中南郭四十余岁女子，通狐仙"
+    },
+    {
+     "name": "狐仙",
+     "type": "Spirit",
+     "aliases": [
+      "上仙"
+     ],
+     "nickname": "",
+     "description": "《上仙》中梁氏所奉狐仙，善医术，自称健叟"
+    },
+    {
+     "name": "稷下",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《上仙》中地名，作者与高季文同赴之处"
+    },
+    {
+     "name": "南郭梁氏家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《上仙》中梁氏居所，供狐仙处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "高季文",
+     "predicate": "FRIEND",
+     "object": "高振美",
+     "evidence": "会高振美亦从念东先生至郡，因谋医药",
+     "confidence": 0.8
+    },
+    {
+     "subject": "高振美",
+     "predicate": "FRIEND",
+     "object": "念东先生",
+     "evidence": "会高振美亦从念东先生至郡",
+     "confidence": 0.8
+    },
+    {
+     "subject": "袁鳞公",
+     "predicate": "FRIEND",
+     "object": "高季文",
+     "evidence": "闻袁鳞公言：南郭梁氏家有狐仙，善“长桑之术”",
+     "confidence": 0.7
+    },
+    {
+     "subject": "梁氏",
+     "predicate": "LIVES_AT",
+     "object": "南郭梁氏家",
+     "evidence": "南郭梁氏家有狐仙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "LIVES_AT",
+     "object": "南郭梁氏家",
+     "evidence": "南郭梁氏家有狐仙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐仙",
+     "predicate": "HELPED",
+     "object": "高季文",
+     "evidence": "已乃为季文求药。曰：“归当夜祀茶水，我于大士处讨药奉赠，何恙不已。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高季文",
+     "predicate": "PARTICIPATED_IN",
+     "object": "求药",
+     "evidence": "已乃为季文求药",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:29.338Z"
+}

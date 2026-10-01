@@ -1,0 +1,267 @@
+{
+ "no": 433,
+ "title": "竹青",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1560,
+   "entities": [
+    {
+     "name": "鱼客",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "湖南人，下第归，后为汉江神女之夫"
+    },
+    {
+     "name": "竹青",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌鸦所化，后为汉江神女"
+    },
+    {
+     "name": "吴王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴王庙神，掌黑衣队"
+    },
+    {
+     "name": "和氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鱼客之妻，苦不育"
+    },
+    {
+     "name": "汉产",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鱼客与竹青之子，后入郡庠"
+    },
+    {
+     "name": "汉生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鱼客与竹青之子，双胞胎之一"
+    },
+    {
+     "name": "玉佩",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鱼客与竹青之女，双胞胎之一"
+    },
+    {
+     "name": "卮娘",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "神女之女，汉产之妻"
+    },
+    {
+     "name": "吴王庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鱼客憩息、化乌之处"
+    },
+    {
+     "name": "汉阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "竹青居所，鱼客移家于此"
+    },
+    {
+     "name": "汉水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "竹青为神女之处，孤屿有楼舍"
+    },
+    {
+     "name": "洞庭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鱼客泊舟处"
+    },
+    {
+     "name": "黑衣",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "着之可化乌飞行"
+    },
+    {
+     "name": "绣橐",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "竹青赠鱼客，内装金赀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鱼客",
+     "predicate": "LIVES_AT",
+     "object": "吴王庙",
+     "evidence": "暂憩吴王庙中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "NATIVE_OF",
+     "object": "湖南",
+     "evidence": "鱼客，湖南人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴王",
+     "predicate": "HELPED",
+     "object": "鱼客",
+     "evidence": "王曰：“可。”即授黑衣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "SPOUSE",
+     "object": "竹青",
+     "evidence": "吴王怜其无偶，配以雌，呼之竹青。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "LOVES",
+     "object": "竹青",
+     "evidence": "雅相爱乐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "竹青",
+     "predicate": "HELPED",
+     "object": "鱼客",
+     "evidence": "幸竹青衔去之，得不被擒。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "竹青",
+     "predicate": "HELPED",
+     "object": "鱼客",
+     "evidence": "竹青仍投饵哺鱼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "竹青",
+     "predicate": "LIVES_AT",
+     "object": "汉水",
+     "evidence": "妾今为汉江神女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "SPOUSE",
+     "object": "竹青",
+     "evidence": "宛如夫妻之久别",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "LIVES_AT",
+     "object": "汉阳",
+     "evidence": "此汉阳也。妾家即君家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "OWNS",
+     "object": "黑衣",
+     "evidence": "女出黑衣，曰：“君向所着旧衣尚在。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "OWNS",
+     "object": "绣橐",
+     "evidence": "又有绣橐维絷腰际",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "SPOUSE",
+     "object": "和氏",
+     "evidence": "妻和氏，苦不育",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "KIN",
+     "object": "汉产",
+     "evidence": "生喜，名之汉产。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "竹青",
+     "predicate": "KIN",
+     "object": "汉产",
+     "evidence": "越数日，果产……男也。生喜，名之汉产。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "KIN",
+     "object": "汉生",
+     "evidence": "男名汉生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "KIN",
+     "object": "玉佩",
+     "evidence": "女名玉佩",
+     "confidence": 0.95
+    },
+    {
+     "subject": "竹青",
+     "predicate": "KIN",
+     "object": "汉生",
+     "evidence": "女双生男女各一，男名汉生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "竹青",
+     "predicate": "KIN",
+     "object": "玉佩",
+     "evidence": "女双生男女各一，女名玉佩",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汉产",
+     "predicate": "SPOUSE",
+     "object": "卮娘",
+     "evidence": "为之娶妇，始遣归。妇名卮娘",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汉产",
+     "predicate": "PARTICIPATED_IN",
+     "object": "入郡庠",
+     "evidence": "汉产十二岁入郡庠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鱼客",
+     "predicate": "LIVES_AT",
+     "object": "汉阳",
+     "evidence": "因移家汉阳",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:59.630Z"
+}

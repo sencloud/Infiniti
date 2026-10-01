@@ -1,0 +1,204 @@
+{
+ "no": 123,
+ "title": "6.5 相似三角形的性质",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5450,
+   "entities": [
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的三角形"
+    },
+    {
+     "name": "相似比",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形对应边的比值"
+    },
+    {
+     "name": "相似三角形周长的比等于相似比",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形周长的比等于相似比"
+    },
+    {
+     "name": "相似三角形面积的比等于相似比的平方",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形面积的比等于相似比的平方"
+    },
+    {
+     "name": "相似多边形周长的比等于相似比",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似多边形周长的比等于相似比"
+    },
+    {
+     "name": "相似多边形面积的比等于相似比的平方",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似多边形面积的比等于相似比的平方"
+    },
+    {
+     "name": "相似三角形对应线段的比等于相似比",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形对应线段的比等于相似比"
+    },
+    {
+     "name": "相似三角形对应高的比等于相似比",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形对应高的比等于相似比"
+    },
+    {
+     "name": "相似三角形对应中线的比等于相似比",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形对应中线的比等于相似比"
+    },
+    {
+     "name": "相似三角形对应角平分线的比等于相似比",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形对应角平分线的比等于相似比"
+    },
+    {
+     "name": "相似三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "形状相同的三角形"
+    },
+    {
+     "name": "相似多边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "形状相同的多边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "相似三角形",
+     "predicate": "PREREQUISITE",
+     "object": "相似三角形周长的比等于相似比",
+     "evidence": "相似三角形除了具有对应角相等、对应边成比例的性质外，还具有什么性质？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形",
+     "predicate": "PREREQUISITE",
+     "object": "相似三角形面积的比等于相似比的平方",
+     "evidence": "相似三角形除了具有对应角相等、对应边成比例的性质外，还具有什么性质？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形",
+     "predicate": "PREREQUISITE",
+     "object": "相似三角形对应线段的比等于相似比",
+     "evidence": "相似三角形除了具有对应角相等、对应边成比例的性质外，还具有什么性质？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形周长的比等于相似比",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "相似三角形周长的比等于相似比。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形面积的比等于相似比的平方",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "相似三角形面积的比等于相似比的平方。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形对应线段的比等于相似比",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "相似三角形对应线段的比等于相似比。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形对应高的比等于相似比",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "相似三角形对应高的比等于相似比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形对应中线的比等于相似比",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "相似三角形对应中线的比等于相似比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形对应角平分线的比等于相似比",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "相似三角形对应角平分线的比等于相似比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形对应线段的比等于相似比",
+     "predicate": "INCLUDES",
+     "object": "相似三角形对应高的比等于相似比",
+     "evidence": "相似三角形对应线段的比等于相似比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形对应线段的比等于相似比",
+     "predicate": "INCLUDES",
+     "object": "相似三角形对应中线的比等于相似比",
+     "evidence": "相似三角形对应线段的比等于相似比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形对应线段的比等于相似比",
+     "predicate": "INCLUDES",
+     "object": "相似三角形对应角平分线的比等于相似比",
+     "evidence": "相似三角形对应线段的比等于相似比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形周长的比等于相似比",
+     "predicate": "DERIVES",
+     "object": "相似多边形周长的比等于相似比",
+     "evidence": "类似地，我们还可以得到：相似多边形周长的比等于相似比。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形面积的比等于相似比的平方",
+     "predicate": "DERIVES",
+     "object": "相似多边形面积的比等于相似比的平方",
+     "evidence": "如果把两个相似多边形分成若干个相似的三角形，我们还可以得到：相似多边形面积的比等于相似比的平方。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似多边形",
+     "evidence": "相似多边形周长的比等于相似比",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:27.721Z"
+}

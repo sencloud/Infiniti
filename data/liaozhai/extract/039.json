@@ -1,0 +1,215 @@
+{
+ "no": 39,
+ "title": "青凤",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2135,
+   "entities": [
+    {
+     "name": "耿去病",
+     "type": "Person",
+     "aliases": [
+      "去病",
+      "耿生",
+      "耿公子"
+     ],
+     "nickname": "狂生",
+     "description": "太原耿氏从子，狂放不羁，与青凤相恋"
+    },
+    {
+     "name": "青凤",
+     "type": "Person",
+     "aliases": [
+      "凤女",
+      "青娘"
+     ],
+     "nickname": "",
+     "description": "胡叟侄女，狐女，与耿去病相恋成婚"
+    },
+    {
+     "name": "胡叟",
+     "type": "Person",
+     "aliases": [
+      "义君",
+      "叟"
+     ],
+     "nickname": "",
+     "description": "自称涂山氏后裔，青凤之叔，曾化厉鬼吓耿生"
+    },
+    {
+     "name": "孝儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡叟之子，与耿去病交好，后为其子师"
+    },
+    {
+     "name": "胡媪",
+     "type": "Person",
+     "aliases": [
+      "媪",
+      "老荆"
+     ],
+     "nickname": "",
+     "description": "胡叟之妻，青凤之婶"
+    },
+    {
+     "name": "耿氏",
+     "type": "Person",
+     "aliases": [
+      "老主人"
+     ],
+     "nickname": "",
+     "description": "太原耿氏家主，耿去病之叔"
+    },
+    {
+     "name": "莫三郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "耿去病年家子，猎狐者，赠黑狐与耿生"
+    },
+    {
+     "name": "太原耿氏第宅",
+     "type": "Place",
+     "aliases": [
+      "第宅",
+      "楼宅"
+     ],
+     "nickname": "",
+     "description": "耿氏故宅，后为胡叟一家与耿生同住"
+    },
+    {
+     "name": "涂山外传",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "耿去病祖上所纂之书，记涂山氏事迹"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "耿去病",
+     "predicate": "KIN",
+     "object": "耿氏",
+     "evidence": "耿有从子去病",
+     "confidence": 0.95
+    },
+    {
+     "subject": "耿去病",
+     "predicate": "LOVES",
+     "object": "青凤",
+     "evidence": "心萦萦，不能忘情于青凤也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "耿去病",
+     "predicate": "SPOUSE",
+     "object": "青凤",
+     "evidence": "生喜，另舍舍之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡叟",
+     "predicate": "KIN",
+     "object": "青凤",
+     "evidence": "此青凤，鄙人之犹女也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡叟",
+     "predicate": "KIN",
+     "object": "孝儿",
+     "evidence": "此豚儿也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡叟",
+     "predicate": "KIN",
+     "object": "胡媪",
+     "evidence": "此为老荆",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡媪",
+     "predicate": "KIN",
+     "object": "孝儿",
+     "evidence": "可请阿母及青凤来共听之",
+     "confidence": 0.85
+    },
+    {
+     "subject": "耿去病",
+     "predicate": "FRIEND",
+     "object": "孝儿",
+     "evidence": "孝儿亦倜傥，倾吐间，雅相爱悦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡叟",
+     "predicate": "HARMED",
+     "object": "耿去病",
+     "evidence": "阿叔畏君狂，故化厉鬼以相吓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡叟",
+     "predicate": "HARMED",
+     "object": "青凤",
+     "evidence": "贱婢辱吾门户！不速去，鞭挞且从其后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "耿去病",
+     "predicate": "HELPED",
+     "object": "青凤",
+     "evidence": "生怜之，启裳衿，提抱以归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "耿去病",
+     "predicate": "HELPED",
+     "object": "胡叟",
+     "evidence": "生即付青凤，乃与客饮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莫三郎",
+     "predicate": "HELPED",
+     "object": "耿去病",
+     "evidence": "莫慨然解赠",
+     "confidence": 0.85
+    },
+    {
+     "subject": "耿去病",
+     "predicate": "LIVES_AT",
+     "object": "太原耿氏第宅",
+     "evidence": "生喜，携家口而迁焉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青凤",
+     "predicate": "LIVES_AT",
+     "object": "太原耿氏第宅",
+     "evidence": "生喜，另舍舍之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡叟",
+     "predicate": "LIVES_AT",
+     "object": "太原耿氏第宅",
+     "evidence": "入夜，果举家来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "耿去病",
+     "predicate": "OWNS",
+     "object": "涂山外传",
+     "evidence": "闻君祖纂《涂山外传》，知之乎",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:27.950Z"
+}

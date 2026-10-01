@@ -1,0 +1,605 @@
+{
+ "no": 23,
+ "title": "三藏不忘本 四圣试禅心",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6026,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经团队师父，东土大唐高僧"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "大圣",
+      "孙大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，齐天大圣"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "悟净"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "救苦救难，点化取经人"
+    },
+    {
+     "name": "敖闰",
+     "type": "Person",
+     "aliases": [
+      "西海龙王",
+      "龙王",
+      "西海敖闰"
+     ],
+     "nickname": "西海龙王",
+     "description": "西海龙王，龙马三太子之父"
+    },
+    {
+     "name": "龙马三太子",
+     "type": "Person",
+     "aliases": [
+      "白龙马",
+      "玉龙三太子"
+     ],
+     "nickname": "龙马",
+     "description": "西海龙王之子，化身为白马"
+    },
+    {
+     "name": "贾氏",
+     "type": "Person",
+     "aliases": [
+      "莫贾氏",
+      "妇人",
+      "寡妇"
+     ],
+     "nickname": "贾氏",
+     "description": "莫家寡妇，四圣所化"
+    },
+    {
+     "name": "真真",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾氏长女，四圣所化"
+    },
+    {
+     "name": "爱爱",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾氏次女，四圣所化"
+    },
+    {
+     "name": "怜怜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾氏三女，四圣所化"
+    },
+    {
+     "name": "高太公",
+     "type": "Person",
+     "aliases": [
+      "高老儿"
+     ],
+     "nickname": "",
+     "description": "乌斯藏高老庄庄主"
+    },
+    {
+     "name": "莫家",
+     "type": "Organization",
+     "aliases": [
+      "莫家庄院"
+     ],
+     "nickname": "",
+     "description": "贾氏夫家，有万贯家资"
+    },
+    {
+     "name": "取经团队",
+     "type": "Organization",
+     "aliases": [
+      "师徒四众"
+     ],
+     "nickname": "",
+     "description": "唐僧师徒四人"
+    },
+    {
+     "name": "西牛贺洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "四大部洲之一"
+    },
+    {
+     "name": "高老庄",
+     "type": "Place",
+     "aliases": [
+      "乌斯藏高老儿庄"
+     ],
+     "nickname": "",
+     "description": "猪八戒曾入赘之地"
+    },
+    {
+     "name": "鹰愁陡涧",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "收服龙马之处"
+    },
+    {
+     "name": "四圣试禅心",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "黎山老母等四圣化庄院试探取经团队"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏道：“悟空，你在这里罢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏道：“你两个不肯，便教悟净在这里罢。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "自蒙师父收了我，又承教诲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "敖闰",
+     "predicate": "KIN",
+     "object": "龙马三太子",
+     "evidence": "本是西海龙王敖闰之子，唤名龙马三太子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "龙马三太子",
+     "evidence": "多亏观音菩萨救了他的性命",
+     "confidence": 0.95
+    },
+    {
+     "subject": "龙马三太子",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "愿驮师父往西天拜佛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "投师父往西拜佛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "自蒙师父收了我，又承教诲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KIN",
+     "object": "高太公",
+     "evidence": "他本是乌斯藏高老儿庄高太公的女婿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾氏",
+     "predicate": "KIN",
+     "object": "真真",
+     "evidence": "大女儿名真真",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾氏",
+     "predicate": "KIN",
+     "object": "爱爱",
+     "evidence": "次女名爱爱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾氏",
+     "predicate": "KIN",
+     "object": "怜怜",
+     "evidence": "三小女名怜怜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾氏",
+     "predicate": "LEADS",
+     "object": "莫家",
+     "evidence": "小妇居孀，今岁服满。空遗下田产家业",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "一行四众，路过宝方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "一行四众，路过宝方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "一行四众，路过宝方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "一行四众，路过宝方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "三藏坐在上面，好便似雷惊的孩子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "孙大圣佯佯不睬",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "那八戒闻得这般富贵，这般美色，他却心痒难挠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "少沙僧转背回身",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四圣试禅心",
+     "predicate": "OCCURRED_AT",
+     "object": "西牛贺洲",
+     "evidence": "此间乃西牛贺洲之地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "NATIVE_OF",
+     "object": "高老庄",
+     "evidence": "他本是乌斯藏高老儿庄高太公的女婿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龙马三太子",
+     "predicate": "STATIONED_AT",
+     "object": "鹰愁陡涧",
+     "evidence": "他在那鹰愁陡涧，久等师父",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1497,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，好色贪心"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "孙大圣",
+      "悟空"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "南海菩萨，请黎山老母等试禅心"
+    },
+    {
+     "name": "文殊菩萨",
+     "type": "Person",
+     "aliases": [
+      "文殊",
+      "文殊师利",
+      "七佛之师"
+     ],
+     "nickname": "文殊",
+     "description": "菩萨之一，化美女试禅心"
+    },
+    {
+     "name": "普贤菩萨",
+     "type": "Person",
+     "aliases": [
+      "普贤",
+      "遍吉"
+     ],
+     "nickname": "普贤",
+     "description": "菩萨之一，化美女试禅心"
+    },
+    {
+     "name": "黎山老母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黎山老母，化妇人试禅心"
+    },
+    {
+     "name": "真真",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黎山老母等所化美女之一"
+    },
+    {
+     "name": "爱爱",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黎山老母等所化美女之一"
+    },
+    {
+     "name": "怜怜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黎山老母等所化美女之一"
+    },
+    {
+     "name": "四圣试禅心",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "黎山老母、观音、文殊、普贤化美女试禅心"
+    },
+    {
+     "name": "松柏林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒醒来所在松柏林"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏道：'悟空，那叫唤的可是悟能么？'沙僧道：'正是。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "三藏道：'悟空，那叫唤的可是悟能么？'沙僧道：'正是。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏道：'悟空，那叫唤的可是悟能么？'沙僧道：'正是。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "八戒道：'娘，既怕相争，都与我罢，省得闹闹吵吵，乱了家法。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "三藏闻言，合掌顶礼，又只见那后边古柏树上，飘飘荡荡的，挂着一张简帖儿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "孙大圣心中明白，微微的笑道：'怎么说？'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "沙僧道：'哥哥，罢了！罢了！我们遇着鬼了！'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "黎山老母不思凡，南海菩萨请下山。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文殊菩萨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "普贤文殊皆是客，化成美女在林间。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "普贤菩萨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "普贤文殊皆是客，化成美女在林间。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黎山老母",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四圣试禅心",
+     "evidence": "黎山老母不思凡，南海菩萨请下山。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四圣试禅心",
+     "predicate": "OCCURRED_AT",
+     "object": "松柏林",
+     "evidence": "一个个都睡在松柏林中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "黎山老母",
+     "evidence": "黎山老母不思凡，南海菩萨请下山。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "三藏道：'那呆子虽是心性愚顽，却只是一味懞直，倒也有些膂力，挑得行李；还看当日菩萨之念，救他随我们去罢。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "TRANSFORMED",
+     "object": "真真",
+     "evidence": "他丈母叫：'真真、爱爱、怜怜，都来撞天婚，配与你女婿。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文殊菩萨",
+     "predicate": "TRANSFORMED",
+     "object": "爱爱",
+     "evidence": "他丈母叫：'真真、爱爱、怜怜，都来撞天婚，配与你女婿。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "普贤菩萨",
+     "predicate": "TRANSFORMED",
+     "object": "怜怜",
+     "evidence": "他丈母叫：'真真、爱爱、怜怜，都来撞天婚，配与你女婿。'",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:21.814Z"
+}

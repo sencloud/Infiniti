@@ -1,0 +1,64 @@
+{
+ "no": 483,
+ "title": "李檀斯",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 97,
+   "entities": [
+    {
+     "name": "李檀斯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "檀老",
+     "description": "长山国学生，无疾而卒后投生"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李檀斯籍贯所在县"
+    },
+    {
+     "name": "淄川柏家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李檀斯投生之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李檀斯",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山李檀斯，国学生也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李檀斯",
+     "predicate": "LIVES_AT",
+     "object": "长山",
+     "evidence": "长山李檀斯，国学生也。其村中有媪走无常",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李檀斯",
+     "predicate": "PARTICIPATED_IN",
+     "object": "投生",
+     "evidence": "今夜与一人舁檀老投生淄川柏家庄一新门中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "投生",
+     "predicate": "OCCURRED_AT",
+     "object": "淄川柏家庄",
+     "evidence": "投生淄川柏家庄一新门中",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:15.803Z"
+}

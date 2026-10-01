@@ -1,0 +1,161 @@
+{
+ "no": 233,
+ "title": "蕙芳",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1164,
+   "entities": [
+    {
+     "name": "马二混",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州东门内卖面人，家贫无妇，后娶蕙芳"
+    },
+    {
+     "name": "董蕙芳",
+     "type": "Spirit",
+     "aliases": [
+      "蕙芳"
+     ],
+     "nickname": "",
+     "description": "谪降人间的仙女，自愿嫁马二混"
+    },
+    {
+     "name": "马母",
+     "type": "Person",
+     "aliases": [
+      "媪"
+     ],
+     "nickname": "",
+     "description": "马二混之母，与子共作苦"
+    },
+    {
+     "name": "吕媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西巷中吕老太太，为蕙芳做媒"
+    },
+    {
+     "name": "秋月",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "蕙芳的婢女，能自革袋取酒食"
+    },
+    {
+     "name": "秋松",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "蕙芳的婢女"
+    },
+    {
+     "name": "秦氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蕙芳离去后马二混续娶的妻子"
+    },
+    {
+     "name": "青州东门内",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "马二混居住之地"
+    },
+    {
+     "name": "白木搔具",
+     "type": "Item",
+     "aliases": [
+      "痒痒挠"
+     ],
+     "nickname": "",
+     "description": "蕙芳赠吕媪之物，后化为白金"
+    },
+    {
+     "name": "革袋",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "秋月所持，能取出酒食的宝物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "马二混",
+     "predicate": "LIVES_AT",
+     "object": "青州东门内",
+     "evidence": "马二混，居青州东门内，以货面为业。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马二混",
+     "predicate": "KIN",
+     "object": "马母",
+     "evidence": "家贫，无妇，与母共作苦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董蕙芳",
+     "predicate": "SPOUSE",
+     "object": "马二混",
+     "evidence": "邻女董蕙芳，孤而无依，自愿为贤郎妇，胡弗纳？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董蕙芳",
+     "predicate": "KIN",
+     "object": "秋月",
+     "evidence": "女乃呼：“秋月、秋松！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董蕙芳",
+     "predicate": "KIN",
+     "object": "秋松",
+     "evidence": "女乃呼：“秋月、秋松！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秋月",
+     "predicate": "OWNS",
+     "object": "革袋",
+     "evidence": "秋月出一革袋，执向扉后，格格撼摆之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董蕙芳",
+     "predicate": "OWNS",
+     "object": "白木搔具",
+     "evidence": "女赠白木搔具一事，曰：“无以报德，姑奉此为姥姥爬背耳。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董蕙芳",
+     "predicate": "HELPED",
+     "object": "吕媪",
+     "evidence": "女赠白木搔具一事，曰：“无以报德，姑奉此为姥姥爬背耳。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕媪",
+     "predicate": "HELPED",
+     "object": "董蕙芳",
+     "evidence": "邻女董蕙芳，孤而无依，自愿为贤郎妇，胡弗纳？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马二混",
+     "predicate": "SPOUSE",
+     "object": "秦氏",
+     "evidence": "马乃娶秦氏。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:41.992Z"
+}

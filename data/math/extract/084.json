@@ -1,0 +1,143 @@
+{
+ "no": 84,
+ "title": "10.1 分式的概念",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2379,
+   "entities": [
+    {
+     "name": "分式",
+     "type": "Concept",
+     "aliases": [
+      "fraction"
+     ],
+     "nickname": "",
+     "description": "如果A,B表示两个整式，并且B中含有字母，那么代数式A/B叫作分式。"
+    },
+    {
+     "name": "整式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "单项式和多项式的统称。"
+    },
+    {
+     "name": "分数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示一个数是另一个数的几分之几的数。"
+    },
+    {
+     "name": "分式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式的分子与分母都乘（或除以）同一个不等于零的整式，分式的值不变。"
+    },
+    {
+     "name": "等式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "等式两边加（或减）同一个数（或式子），结果仍相等；等式两边乘同一个数，或除以同一个不为0的数，结果仍相等。"
+    },
+    {
+     "name": "分式方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母中含有未知数的方程。"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含有一个未知数，并且未知数的次数都是1的整式方程。"
+    },
+    {
+     "name": "化归",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将未知问题转化为已知问题求解的数学思想方法。"
+    },
+    {
+     "name": "类比",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据两个对象在某些方面的相似，推断它们在其他方面也可能相似的思维方法。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "整式",
+     "predicate": "PREREQUISITE",
+     "object": "分式",
+     "evidence": "分式是整式的扩展",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分数",
+     "predicate": "PREREQUISITE",
+     "object": "分式",
+     "evidence": "可将分式与分数进行类比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "分式方程",
+     "evidence": "分式的基本性质及等式的基本性质是分式运算和解分式方程的基础",
+     "confidence": 0.95
+    },
+    {
+     "subject": "等式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "分式方程",
+     "evidence": "分式的基本性质及等式的基本性质是分式运算和解分式方程的基础",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式",
+     "predicate": "INCLUDES",
+     "object": "分式的基本性质",
+     "evidence": "本章主要学习分式及其性质与运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式方程",
+     "predicate": "INCLUDES",
+     "object": "一元一次方程",
+     "evidence": "可化为一元一次方程的简单分式方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "化归",
+     "predicate": "APPLIES_TO",
+     "object": "分式",
+     "evidence": "许多分式问题可以化归为整式问题求解",
+     "confidence": 0.9
+    },
+    {
+     "subject": "类比",
+     "predicate": "APPLIES_TO",
+     "object": "分式",
+     "evidence": "可将分式与分数进行类比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式",
+     "predicate": "CONTRASTS",
+     "object": "分数",
+     "evidence": "可将分式与分数进行类比",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:07.094Z"
+}

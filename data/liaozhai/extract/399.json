@@ -1,0 +1,231 @@
+{
+ "no": 399,
+ "title": "素秋",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3335,
+   "entities": [
+    {
+     "name": "俞慎",
+     "type": "Person",
+     "aliases": [
+      "谨庵",
+      "俞谨庵"
+     ],
+     "nickname": "",
+     "description": "字谨庵，顺天旧家子，与俞忱结拜"
+    },
+    {
+     "name": "俞忱",
+     "type": "Person",
+     "aliases": [
+      "恂九",
+      "俞士忱"
+     ],
+     "nickname": "",
+     "description": "金陵人，实为蠹鱼精，与俞慎结拜"
+    },
+    {
+     "name": "素秋",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "俞忱之妹，实为精怪，善幻术"
+    },
+    {
+     "name": "韩荃",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "俞慎妻弟，欲购素秋为妾"
+    },
+    {
+     "name": "某甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "故尚书之孙，素秋之夫"
+    },
+    {
+     "name": "周生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宛平名士，后娶素秋"
+    },
+    {
+     "name": "韩夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "俞慎之妻，韩侍郎侄女"
+    },
+    {
+     "name": "韩侍郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "韩荃之父，已休致"
+    },
+    {
+     "name": "顺天",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "俞慎籍贯"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "俞忱自称籍贯"
+    },
+    {
+     "name": "胶莱之界",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "素秋离去所至之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "俞慎",
+     "predicate": "FRIEND",
+     "object": "俞忱",
+     "evidence": "因订为昆仲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "俞忱",
+     "predicate": "KIN",
+     "object": "素秋",
+     "evidence": "呼妹出拜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "俞慎",
+     "predicate": "SPOUSE",
+     "object": "韩夫人",
+     "evidence": "公子妻，韩侍郎之犹女也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩荃",
+     "predicate": "KIN",
+     "object": "韩夫人",
+     "evidence": "公子之妻弟韩荃",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩荃",
+     "predicate": "KIN",
+     "object": "韩侍郎",
+     "evidence": "以情告父。父时休致",
+     "confidence": 0.95
+    },
+    {
+     "subject": "素秋",
+     "predicate": "SPOUSE",
+     "object": "某甲",
+     "evidence": "竟许之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "素秋",
+     "predicate": "SPOUSE",
+     "object": "周生",
+     "evidence": "婚嫁成礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "俞慎",
+     "predicate": "LIVES_AT",
+     "object": "顺天",
+     "evidence": "顺天旧家子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "俞忱",
+     "predicate": "NATIVE_OF",
+     "object": "金陵",
+     "evidence": "自言：“金陵人，姓俞，名士忱，字恂九。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "素秋",
+     "predicate": "LIVES_AT",
+     "object": "胶莱之界",
+     "evidence": "至胶莱之界，尘雾幛天",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韩荃",
+     "predicate": "HARMED",
+     "object": "素秋",
+     "evidence": "愿以两妾及五百金易素秋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某甲",
+     "predicate": "HARMED",
+     "object": "素秋",
+     "evidence": "伪告素秋，言公子暴病相呼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "俞慎",
+     "predicate": "HELPED",
+     "object": "俞忱",
+     "evidence": "除舍舍之，又遣一婢为之服役",
+     "confidence": 0.9
+    },
+    {
+     "subject": "俞慎",
+     "predicate": "HELPED",
+     "object": "素秋",
+     "evidence": "盛备奁装，计费不赀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "HELPED",
+     "object": "素秋",
+     "evidence": "母遣生率一媪送之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "俞慎",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科试",
+     "evidence": "逾年科试，并为郡、邑冠军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "俞忱",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科试",
+     "evidence": "逾年科试，并为郡、邑冠军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大比",
+     "evidence": "次年大比，生将与公子偕往",
+     "confidence": 0.9
+    },
+    {
+     "subject": "俞慎",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大比",
+     "evidence": "次年大比，生将与公子偕往",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:42.644Z"
+}

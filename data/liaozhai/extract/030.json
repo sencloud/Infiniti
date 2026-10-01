@@ -1,0 +1,102 @@
+{
+ "no": 30,
+ "title": "焦螟",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 381,
+   "entities": [
+    {
+     "name": "董默庵",
+     "type": "Person",
+     "aliases": [
+      "董侍读",
+      "董公"
+     ],
+     "nickname": "",
+     "description": "《焦螟》中侍读学士，家为狐所扰"
+    },
+    {
+     "name": "焦螟",
+     "type": "Person",
+     "aliases": [
+      "道士",
+      "关东道士焦螟"
+     ],
+     "nickname": "",
+     "description": "《焦螟》中关东道士，善敕勒之术"
+    },
+    {
+     "name": "孙祚庭",
+     "type": "Person",
+     "aliases": [
+      "祚庭孙司马"
+     ],
+     "nickname": "",
+     "description": "《焦螟》中司马，董公借其第避狐"
+    },
+    {
+     "name": "董家",
+     "type": "Place",
+     "aliases": [
+      "公家"
+     ],
+     "nickname": "",
+     "description": "《焦螟》中董默庵宅第，狐扰之处"
+    },
+    {
+     "name": "孙司马第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《焦螟》中孙祚庭府第，董公移避处"
+    },
+    {
+     "name": "内城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《焦螟》中道士焦螟所居之地"
+    },
+    {
+     "name": "西域",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《焦螟》中狐自述产地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "董默庵",
+     "predicate": "LIVES_AT",
+     "object": "董家",
+     "evidence": "董侍读默庵家，为狐所扰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "董默庵",
+     "predicate": "LIVES_AT",
+     "object": "孙司马第",
+     "evidence": "假祚庭孙司马第移避之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "焦螟",
+     "predicate": "LIVES_AT",
+     "object": "内城",
+     "evidence": "关东道士焦螟，居内城",
+     "confidence": 0.95
+    },
+    {
+     "subject": "焦螟",
+     "predicate": "HELPED",
+     "object": "董默庵",
+     "evidence": "公造庐而请之。道士朱书符，使归黏壁上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:23.707Z"
+}

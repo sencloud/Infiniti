@@ -1,0 +1,85 @@
+{
+ "no": 344,
+ "title": "辽阳军",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 197,
+   "entities": [
+    {
+     "name": "沂水某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂水人，明末充辽阳军，被杀后复活"
+    },
+    {
+     "name": "执簿人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "夜间持簿点鬼，令续沂水某头"
+    },
+    {
+     "name": "沂令",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂水县县令，拘讯沂水某"
+    },
+    {
+     "name": "辽阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "辽阳城，明末陷落"
+    },
+    {
+     "name": "沂水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂水县，沂水某故乡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "沂水某",
+     "predicate": "NATIVE_OF",
+     "object": "沂水",
+     "evidence": "视其地，则故里也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沂水某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "辽阳城陷",
+     "evidence": "会辽城陷，为乱兵所杀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辽阳城陷",
+     "predicate": "OCCURRED_AT",
+     "object": "辽阳",
+     "evidence": "会辽城陷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "执簿人",
+     "predicate": "HELPED",
+     "object": "沂水某",
+     "evidence": "谓其不宜死，使左右续其头而送之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沂令",
+     "predicate": "PUNISHED",
+     "object": "沂水某",
+     "evidence": "拘讯而得其情",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:22.322Z"
+}

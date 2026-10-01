@@ -1,0 +1,176 @@
+{
+ "no": 111,
+ "title": "宫梦弼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2601,
+   "entities": [
+    {
+     "name": "柳芳华",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "保定人，财雄一乡，慷慨好客"
+    },
+    {
+     "name": "宫梦弼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕人，柳家客，后化石成金"
+    },
+    {
+     "name": "柳和",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "柳芳华之子，后中乡选"
+    },
+    {
+     "name": "黄女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "无极黄氏女，柳和之妻"
+    },
+    {
+     "name": "刘媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄家对门老妇，怜助柳和"
+    },
+    {
+     "name": "李四",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "优人，曾受柳家恩恤"
+    },
+    {
+     "name": "黄翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "无极富户，黄女之父"
+    },
+    {
+     "name": "黄妪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄女之母"
+    },
+    {
+     "name": "保定",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柳芳华、柳和籍贯地"
+    },
+    {
+     "name": "无极",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄氏所居县"
+    },
+    {
+     "name": "白金",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宫梦弼所化银子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "柳芳华",
+     "predicate": "NATIVE_OF",
+     "object": "保定",
+     "evidence": "柳芳华，保定人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳和",
+     "predicate": "KIN",
+     "object": "柳芳华",
+     "evidence": "柳子名和",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宫梦弼",
+     "predicate": "FRIEND",
+     "object": "柳芳华",
+     "evidence": "柳与寝处时最多",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宫梦弼",
+     "predicate": "FRIEND",
+     "object": "柳和",
+     "evidence": "宫亦喜与和戏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宫梦弼",
+     "predicate": "HELPED",
+     "object": "柳和",
+     "evidence": "宫乃自出囊金，为柳经纪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳和",
+     "predicate": "SPOUSE",
+     "object": "黄女",
+     "evidence": "为和论亲于无极黄氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄女",
+     "predicate": "KIN",
+     "object": "黄翁",
+     "evidence": "黄女已及笄，闻父绝和",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄女",
+     "predicate": "KIN",
+     "object": "黄妪",
+     "evidence": "黄妪愧丧无色，辞欲归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘媪",
+     "predicate": "HELPED",
+     "object": "柳和",
+     "evidence": "怜而进之食，赠钱三百",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李四",
+     "predicate": "HELPED",
+     "object": "柳和",
+     "evidence": "义赠一金",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柳和",
+     "predicate": "OWNS",
+     "object": "白金",
+     "evidence": "尽为白金",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柳和",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乡选",
+     "evidence": "三年中乡选",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:55.647Z"
+}

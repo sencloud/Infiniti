@@ -1,0 +1,92 @@
+{
+ "no": 63,
+ "title": "祝翁",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 474,
+   "entities": [
+    {
+     "name": "祝翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济阳祝村人，五十余岁病卒又复活"
+    },
+    {
+     "name": "祝媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝翁之妻，随祝翁同死"
+    },
+    {
+     "name": "祝翁弟妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝翁弟媳，佣于毕刺史家"
+    },
+    {
+     "name": "毕刺史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "官员，祝翁弟妇在其家做工"
+    },
+    {
+     "name": "祝村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济阳县村庄，祝翁所居"
+    },
+    {
+     "name": "济阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，祝村所在"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "祝翁",
+     "predicate": "SPOUSE",
+     "object": "祝媪",
+     "evidence": "翁但谓媪曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝翁",
+     "predicate": "KIN",
+     "object": "祝翁弟妇",
+     "evidence": "翁弟妇佣于毕刺史之家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝翁",
+     "predicate": "LIVES_AT",
+     "object": "祝村",
+     "evidence": "济阳祝村有祝翁者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝翁",
+     "predicate": "NATIVE_OF",
+     "object": "济阳",
+     "evidence": "济阳祝村有祝翁者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝翁弟妇",
+     "predicate": "LIVES_AT",
+     "object": "毕刺史之家",
+     "evidence": "翁弟妇佣于毕刺史之家",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:36.221Z"
+}

@@ -1,0 +1,386 @@
+{
+ "no": 10,
+ "title": "2.7 有理数的混合运算",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6073,
+   "entities": [
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整数和分数的统称"
+    },
+    {
+     "name": "有理数的混合运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有加、减、乘、除、乘方中至少两种运算的算式"
+    },
+    {
+     "name": "有理数的运算顺序",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "先乘方，后乘除，再加减；有括号先算括号内"
+    },
+    {
+     "name": "分类",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把研究对象按一定标准分成若干类分别研究"
+    },
+    {
+     "name": "有理数的加法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数加法运算"
+    },
+    {
+     "name": "有理数的减法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数减法运算"
+    },
+    {
+     "name": "有理数的乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数乘法运算"
+    },
+    {
+     "name": "有理数的除法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数除法运算"
+    },
+    {
+     "name": "有理数的乘方",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求几个相同因数的积的运算"
+    },
+    {
+     "name": "数轴",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    },
+    {
+     "name": "绝对值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上表示一个数的点与原点的距离"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有符号不同的两个数"
+    },
+    {
+     "name": "倒数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘积为1的两个数"
+    },
+    {
+     "name": "有理数大小比较",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "比较有理数的大小"
+    },
+    {
+     "name": "科学记数法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把数表示成a×10^n的形式（1≤|a|<10）"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "有理数的运算顺序",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的混合运算",
+     "evidence": "对于有理数的混合运算，如计算8-2^3÷(-4)×(-7+5)，这个算式中含有有理数的加、减、乘、除、乘方运算，一般有以下运算顺序：先乘方，后乘除，再加减。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数的混合运算",
+     "predicate": "INCLUDES",
+     "object": "有理数的加法",
+     "evidence": "这个算式中含有有理数的加、减、乘、除、乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数的混合运算",
+     "predicate": "INCLUDES",
+     "object": "有理数的减法",
+     "evidence": "这个算式中含有有理数的加、减、乘、除、乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数的混合运算",
+     "predicate": "INCLUDES",
+     "object": "有理数的乘法",
+     "evidence": "这个算式中含有有理数的加、减、乘、除、乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数的混合运算",
+     "predicate": "INCLUDES",
+     "object": "有理数的除法",
+     "evidence": "这个算式中含有有理数的加、减、乘、除、乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数的混合运算",
+     "predicate": "INCLUDES",
+     "object": "有理数的乘方",
+     "evidence": "这个算式中含有有理数的加、减、乘、除、乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分类",
+     "predicate": "APPLIES_TO",
+     "object": "有理数",
+     "evidence": "在讨论有理数的有关问题时，我们常把有理数分为正有理数、负有理数和零三类",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分类",
+     "predicate": "APPLIES_TO",
+     "object": "绝对值",
+     "evidence": "把有理数的绝对值分为正数的绝对值、负数的绝对值和零的绝对值三种情况来讨论",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分类",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的加法",
+     "evidence": "在研究有理数的运算（如有理数的加法、乘法）时，把两个有理数分为同号、异号以及两数中至少有一个是零来研究",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分类",
+     "predicate": "APPLIES_TO",
+     "object": "有理数的乘法",
+     "evidence": "在研究有理数的运算（如有理数的加法、乘法）时，把两个有理数分为同号、异号以及两数中至少有一个是零来研究",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "数轴",
+     "evidence": "通过用数轴上的点表示有理数，比较有理数的大小",
+     "confidence": 0.85
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "有理数大小比较",
+     "evidence": "通过用数轴上的点表示有理数，比较有理数的大小",
+     "confidence": 0.85
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "绝对值",
+     "evidence": "有关概念：数轴、有理数大小比较、绝对值、相反数、倒数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "相反数",
+     "evidence": "有关概念：数轴、有理数大小比较、绝对值、相反数、倒数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "倒数",
+     "evidence": "有关概念：数轴、有理数大小比较、绝对值、相反数、倒数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "有理数的加法",
+     "evidence": "有理数的运算：加、减、乘、除运算，乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "有理数的减法",
+     "evidence": "有理数的运算：加、减、乘、除运算，乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "有理数的乘法",
+     "evidence": "有理数的运算：加、减、乘、除运算，乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "有理数的除法",
+     "evidence": "有理数的运算：加、减、乘、除运算，乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "有理数的乘方",
+     "evidence": "有理数的运算：加、减、乘、除运算，乘方运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数的减法",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的加法",
+     "evidence": "有理数的减法可以转化为加法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数的除法",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的乘法",
+     "evidence": "有理数的除法可以转化为乘法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有理数的混合运算",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的加法",
+     "evidence": "有理数的混合运算可以转化为加法和乘法运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数的混合运算",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的乘法",
+     "evidence": "有理数的混合运算可以转化为加法和乘法运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "科学记数法",
+     "predicate": "APPLIES_TO",
+     "object": "有理数",
+     "evidence": "用科学记数法表示下列各数",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 6064,
+   "entities": [
+    {
+     "name": "有理数的混合运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有理数的加、减、乘、除、乘方混合运算"
+    },
+    {
+     "name": "绝对值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上表示数a的点与原点的距离"
+    },
+    {
+     "name": "数轴",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "规定了原点、正方向和单位长度的直线"
+    },
+    {
+     "name": "正数和负数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用正负数表示具有相反意义的量"
+    },
+    {
+     "name": "循环小数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "无限小数中循环节依次不断重复出现的小数"
+    },
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整数和分数统称为有理数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "有理数",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的混合运算",
+     "evidence": "2.7 有理数的混合运算",
+     "confidence": 0.95
+    },
+    {
+     "subject": "绝对值",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的混合运算",
+     "evidence": "如果a的绝对值和a相等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数轴",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的混合运算",
+     "evidence": "画出数轴，并在该数轴上表示A，B，C三个村庄的位置",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正数和负数",
+     "predicate": "PREREQUISITE",
+     "object": "有理数的混合运算",
+     "evidence": "如果某天借出52册，就记作+2；如果某天借出40册，就记作-10",
+     "confidence": 0.9
+    },
+    {
+     "subject": "循环小数",
+     "predicate": "RELATED",
+     "object": "有理数的混合运算",
+     "evidence": "利用循环小数的循环规律，设计一幅纺织品图案",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 4741,
+   "entities": [],
+   "relations": []
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:38.418Z"
+}

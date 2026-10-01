@@ -1,0 +1,82 @@
+{
+ "no": 45,
+ "title": "龁石",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 97,
+   "entities": [
+    {
+     "name": "王钦文太翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新城人，家中养有马伕"
+    },
+    {
+     "name": "王姓圉人",
+     "type": "Person",
+     "aliases": [
+      "王姓马伕"
+     ],
+     "nickname": "",
+     "description": "新城王钦文家马伕，幼入劳山学道，啖石"
+    },
+    {
+     "name": "王母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王姓圉人之母，年老，后去世"
+    },
+    {
+     "name": "新城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王钦文太翁家所在"
+    },
+    {
+     "name": "劳山",
+     "type": "Place",
+     "aliases": [
+      "崂山"
+     ],
+     "nickname": "",
+     "description": "山名，王姓圉人学道之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王姓圉人",
+     "predicate": "NATIVE_OF",
+     "object": "新城",
+     "evidence": "新城王钦文太翁家，有圉人王姓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王姓圉人",
+     "predicate": "LIVES_AT",
+     "object": "劳山",
+     "evidence": "幼入劳山学道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王姓圉人",
+     "predicate": "KIN",
+     "object": "王母",
+     "evidence": "念母老归里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王姓圉人",
+     "predicate": "LIVES_AT",
+     "object": "新城",
+     "evidence": "念母老归里",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:29.153Z"
+}

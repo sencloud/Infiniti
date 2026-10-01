@@ -1,0 +1,132 @@
+{
+ "no": 334,
+ "title": "蒋太史",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 173,
+   "entities": [
+    {
+     "name": "蒋太史超",
+     "type": "Person",
+     "aliases": [
+      "蒋超",
+      "蒋太史"
+     ],
+     "nickname": "",
+     "description": "翰林修撰，前世为峨嵋僧，笃嗜内典"
+    },
+    {
+     "name": "蒋超之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋超之子，哭挽其父"
+    },
+    {
+     "name": "峨嵋僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒋超前世，峨嵋山僧人"
+    },
+    {
+     "name": "成都金沙寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "成都寺庙，蒋超曾居"
+    },
+    {
+     "name": "伏虎寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "峨嵋山寺庙，蒋超示疾处"
+    },
+    {
+     "name": "峨嵋",
+     "type": "Place",
+     "aliases": [
+      "峨嵋山"
+     ],
+     "nickname": "",
+     "description": "山名，蒋超前世为僧处"
+    },
+    {
+     "name": "秦邮",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，蒋超假归江南所抵"
+    },
+    {
+     "name": "江南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地区名，蒋超假归之地"
+    },
+    {
+     "name": "蜀",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地区名，蒋超入蜀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "蒋太史超",
+     "predicate": "KIN",
+     "object": "蒋超之子",
+     "evidence": "子哭挽之，弗听。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋太史超",
+     "predicate": "LIVES_AT",
+     "object": "成都金沙寺",
+     "evidence": "遂入蜀，居成都金沙寺。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋太史超",
+     "predicate": "LIVES_AT",
+     "object": "伏虎寺",
+     "evidence": "又之峨嵋，居伏虎寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋太史超",
+     "predicate": "LIVES_AT",
+     "object": "峨嵋",
+     "evidence": "又之峨嵋，居伏虎寺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋太史超",
+     "predicate": "LIVES_AT",
+     "object": "秦邮",
+     "evidence": "假归江南，抵秦邮，不欲归。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蒋太史超",
+     "predicate": "LIVES_AT",
+     "object": "江南",
+     "evidence": "假归江南，抵秦邮，不欲归。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蒋太史超",
+     "predicate": "LIVES_AT",
+     "object": "蜀",
+     "evidence": "遂入蜀，居成都金沙寺。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:19.657Z"
+}

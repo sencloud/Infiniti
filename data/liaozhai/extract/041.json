@@ -1,0 +1,239 @@
+{
+ "no": 41,
+ "title": "贾儿",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1645,
+   "entities": [
+    {
+     "name": "楚某翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚地商人，贾于外，妻为狐所祟"
+    },
+    {
+     "name": "楚某翁之妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚商人之妻，被狐迷惑发狂，后卒"
+    },
+    {
+     "name": "楚某翁之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "十岁儿，设计毒杀三狐，后贵至总戎"
+    },
+    {
+     "name": "庖媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚家做饭的老太太，曾陪宿"
+    },
+    {
+     "name": "长鬣奴",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐仆，衣老棕色，尾垂后部，被毒酒毒死"
+    },
+    {
+     "name": "北郭王氏妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北城王家媳妇，向祟于狐，狐绝病愈"
+    },
+    {
+     "name": "舅氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "儿之舅，城居，业猎"
+    },
+    {
+     "name": "何氏园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "何家花园，狐藏身之处"
+    },
+    {
+     "name": "北村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "长鬣奴自称居处"
+    },
+    {
+     "name": "山洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "儿伪称世居洞府"
+    },
+    {
+     "name": "东村某翁家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "一狐所宿之处"
+    },
+    {
+     "name": "北郭王氏妇家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "一狐私通之处"
+    },
+    {
+     "name": "帽肆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "市中帽店，挂狐尾"
+    },
+    {
+     "name": "肆廊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "店铺走廊，寄放毒酒"
+    },
+    {
+     "name": "狐尾",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "帽肆所买狐尾，儿用以伪装"
+    },
+    {
+     "name": "厨刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "儿磨之，用以砍狐断尾"
+    },
+    {
+     "name": "猎药",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "舅家毒药，儿窃取置酒中毒狐"
+    },
+    {
+     "name": "白酒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "儿沽酒，置毒药，毒杀三狐"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "楚某翁",
+     "predicate": "SPOUSE",
+     "object": "楚某翁之妻",
+     "evidence": "楚某翁，贾于外。妇独居",
+     "confidence": 0.95
+    },
+    {
+     "subject": "楚某翁",
+     "predicate": "KIN",
+     "object": "楚某翁之子",
+     "evidence": "有子十岁，素别榻卧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "楚某翁之妻",
+     "predicate": "KIN",
+     "object": "楚某翁之子",
+     "evidence": "有子十岁，素别榻卧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "KIN",
+     "object": "舅氏",
+     "evidence": "有舅氏城居，素业猎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "HARMED",
+     "object": "长鬣奴",
+     "evidence": "隐以药置酒中……取酒授之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "KILLED",
+     "object": "长鬣奴",
+     "evidence": "则两狐毙于亭上，一狐死于草中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "HELPED",
+     "object": "楚某翁之妻",
+     "evidence": "至夜果绝，儿窃喜。但母痴卧如死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "HELPED",
+     "object": "北郭王氏妇",
+     "evidence": "至是问之，则狐绝而病亦愈",
+     "confidence": 0.85
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "LIVES_AT",
+     "object": "山洞",
+     "evidence": "儿伪云：山洞",
+     "confidence": 0.8
+    },
+    {
+     "subject": "长鬣奴",
+     "predicate": "LIVES_AT",
+     "object": "北村",
+     "evidence": "答言：北村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "OWNS",
+     "object": "狐尾",
+     "evidence": "见帽肆挂狐尾，乞翁市之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "OWNS",
+     "object": "厨刀",
+     "evidence": "遂把厨刀霍霍磨之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "OWNS",
+     "object": "猎药",
+     "evidence": "自发药裹，窃盈掬而怀之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "楚某翁之子",
+     "predicate": "OWNS",
+     "object": "白酒",
+     "evidence": "沽白酒，寄肆廊",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:32.050Z"
+}

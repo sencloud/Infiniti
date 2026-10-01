@@ -1,0 +1,87 @@
+{
+ "no": 59,
+ "title": "3.2 勾股定理的逆定理",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1892,
+   "entities": [
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "勾股定理的逆定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "如果三角形三边长a,b,c满足a²+b²=c²，那么这个三角形是直角三角形"
+    },
+    {
+     "name": "勾股数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "满足a²+b²=c²的三个正整数a,b,c"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "全等三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的两个三角形"
+    },
+    {
+     "name": "SSS",
+     "type": "Theorem",
+     "aliases": [
+      "边边边"
+     ],
+     "nickname": "",
+     "description": "三边分别相等的两个三角形全等"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "勾股定理",
+     "predicate": "PREREQUISITE",
+     "object": "勾股定理的逆定理",
+     "evidence": "根据勾股定理，得A'B'^2=a^2+b^2",
+     "confidence": 0.95
+    },
+    {
+     "subject": "勾股定理的逆定理",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "如果三角形的三边长分别为a，b，c，且a^2+b^2=c^2，那么这个三角形是直角三角形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "勾股数",
+     "predicate": "RELATED",
+     "object": "勾股定理的逆定理",
+     "evidence": "如果三个正整数a，b，c满足关系a^2+b^2=c^2，则称a，b，c为勾股数",
+     "confidence": 0.9
+    },
+    {
+     "subject": "SSS",
+     "predicate": "APPLIES_TO",
+     "object": "全等三角形",
+     "evidence": "根据“SSS”，可知△ABC≌△A'B'C'",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:56.265Z"
+}

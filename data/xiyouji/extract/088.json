@@ -1,0 +1,494 @@
+{
+ "no": 88,
+ "title": "禅到玉华施法会 心猿木母授门人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5745,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，法力通天，授玉华县三王子武艺"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐取经僧，玉华王敬重"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，使九齿钉钯"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，使降妖宝杖"
+    },
+    {
+     "name": "玉华王",
+     "type": "Person",
+     "aliases": [
+      "老王"
+     ],
+     "nickname": "",
+     "description": "天竺国玉华县城主，贤德敬僧"
+    },
+    {
+     "name": "大王子",
+     "type": "Person",
+     "aliases": [
+      "大的个"
+     ],
+     "nickname": "",
+     "description": "玉华王长子，好武，使齐眉棍"
+    },
+    {
+     "name": "玉华县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天竺国下郡，玉华王封地"
+    },
+    {
+     "name": "玉华王府",
+     "type": "Place",
+     "aliases": [
+      "王府"
+     ],
+     "nickname": "",
+     "description": "玉华王宫殿，唐僧倒换关文处"
+    },
+    {
+     "name": "暴纱亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉华王府内亭子，师徒吃斋处"
+    },
+    {
+     "name": "天竺国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西域大国，玉华县所属"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "如意金箍棒",
+      "金箍铁棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空兵器，重一万三千五百斤"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [
+      "钉钯"
+     ],
+     "nickname": "",
+     "description": "猪八戒兵器，重五千零四十八斤"
+    },
+    {
+     "name": "降妖宝杖",
+     "type": "Item",
+     "aliases": [
+      "降妖杖"
+     ],
+     "nickname": "",
+     "description": "沙僧兵器，重五千零四十八斤"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "大王子",
+     "evidence": "行者道：你三人不知学那般武艺。王子道：愿使棍的就学棍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "自当年在两界山蒙师父大德救脱弟子，秉教沙门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒、沙僧见行者行礼，也那转身朝三藏磕头道：师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "八戒、沙僧见行者行礼，也那转身朝三藏磕头道：师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华王",
+     "predicate": "KIN",
+     "object": "大王子",
+     "evidence": "宫中有三个小王子……父王今日为何有此惊恐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华王",
+     "predicate": "LEADS",
+     "object": "玉华县",
+     "evidence": "县中城主，就是天竺皇帝之宗室，封为玉华王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华县",
+     "predicate": "MEMBER_OF",
+     "object": "天竺国",
+     "evidence": "我这敝处，乃天竺国下郡，地名玉华县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "行者去耳朵里取出一个针儿来，迎风幌一幌，就有碗来粗细",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "八戒闻言，欣然取出钉钯，抛在地下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖宝杖",
+     "evidence": "沙僧将宝杖抛出，倚在墙边",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大王子",
+     "predicate": "OWNS",
+     "object": "齐眉棍",
+     "evidence": "大的个拿一条齐眉棍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "玉华县传艺",
+     "evidence": "三个小王子礼拜道：猪师、沙师之兵……虔心求授",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "玉华县传艺",
+     "evidence": "三个小王子礼拜道：猪师、沙师之兵……虔心求授",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "玉华县传艺",
+     "evidence": "三个小王子礼拜道：猪师、沙师之兵……虔心求授",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华县传艺",
+     "predicate": "OCCURRED_AT",
+     "object": "玉华县",
+     "evidence": "三藏道：贫僧东土唐朝差往雷音拜佛求经者，今至宝方……乃天竺国下郡，地名玉华县",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 781,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，授三王子武艺"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "天蓬元帅",
+      "猪悟能",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，参与授艺"
+    },
+    {
+     "name": "玉华州大王子",
+     "type": "Person",
+     "aliases": [
+      "大王子"
+     ],
+     "nickname": "",
+     "description": "玉华州国王长子，学使金箍棒"
+    },
+    {
+     "name": "玉华州二王子",
+     "type": "Person",
+     "aliases": [
+      "二王子"
+     ],
+     "nickname": "",
+     "description": "玉华州国王次子，学使九齿钯"
+    },
+    {
+     "name": "玉华州三王子",
+     "type": "Person",
+     "aliases": [
+      "三王子"
+     ],
+     "nickname": "",
+     "description": "玉华州国王三子，学使降妖杖"
+    },
+    {
+     "name": "玉华州国王",
+     "type": "Person",
+     "aliases": [
+      "老王"
+     ],
+     "nickname": "",
+     "description": "玉华州国王，三王子之父"
+    },
+    {
+     "name": "黄狮精",
+     "type": "Person",
+     "aliases": [
+      "妖精"
+     ],
+     "nickname": "",
+     "description": "豹头山虎口洞妖精，偷走三般兵器"
+    },
+    {
+     "name": "玉华州",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度，国王与三王子所在"
+    },
+    {
+     "name": "豹头山虎口洞",
+     "type": "Place",
+     "aliases": [
+      "豹头山",
+      "虎口洞"
+     ],
+     "nickname": "",
+     "description": "妖精盘踞的洞府，离城七十里"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的随身兵器"
+    },
+    {
+     "name": "九齿钯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒的随身兵器"
+    },
+    {
+     "name": "降妖杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "沙僧的随身兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "玉华州大王子",
+     "evidence": "行者才教三个王子就于暴纱亭后，静室之间，画了罡斗，教三人都俯伏在内",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "玉华州二王子",
+     "evidence": "行者才教三个王子就于暴纱亭后，静室之间，画了罡斗，教三人都俯伏在内",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "玉华州三王子",
+     "evidence": "行者才教三个王子就于暴纱亭后，静室之间，画了罡斗，教三人都俯伏在内",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "玉华州大王子",
+     "evidence": "就在筵前各传各授：学棍的演棍，学钯的演钯，学杖的演杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "玉华州二王子",
+     "evidence": "就在筵前各传各授：学棍的演棍，学钯的演钯，学杖的演杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "玉华州三王子",
+     "evidence": "就在筵前各传各授：学棍的演棍，学钯的演钯，学杖的演杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华州国王",
+     "predicate": "KIN",
+     "object": "玉华州大王子",
+     "evidence": "那三个小王子，方才苏醒，一齐爬将起来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华州国王",
+     "predicate": "KIN",
+     "object": "玉华州二王子",
+     "evidence": "那三个小王子，方才苏醒，一齐爬将起来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华州国王",
+     "predicate": "KIN",
+     "object": "玉华州三王子",
+     "evidence": "那三个小王子，方才苏醒，一齐爬将起来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华州大王子",
+     "predicate": "KIN",
+     "object": "玉华州二王子",
+     "evidence": "那三个小王子，方才苏醒，一齐爬将起来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华州大王子",
+     "predicate": "KIN",
+     "object": "玉华州三王子",
+     "evidence": "那三个小王子，方才苏醒，一齐爬将起来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉华州二王子",
+     "predicate": "KIN",
+     "object": "玉华州三王子",
+     "evidence": "那三个小王子，方才苏醒，一齐爬将起来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "大王子就拿得金箍棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钯",
+     "evidence": "二王子就抡得九齿钯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄狮精",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "将三般兵器，一股收之，径转本洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄狮精",
+     "predicate": "OWNS",
+     "object": "九齿钯",
+     "evidence": "将三般兵器，一股收之，径转本洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄狮精",
+     "predicate": "OWNS",
+     "object": "降妖杖",
+     "evidence": "将三般兵器，一股收之，径转本洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄狮精",
+     "predicate": "STATIONED_AT",
+     "object": "豹头山虎口洞",
+     "evidence": "山唤豹头山，洞唤虎口洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉华州国王",
+     "predicate": "LEADS",
+     "object": "玉华州",
+     "evidence": "老王见了欢喜不胜，又排素宴，启谢他师徒四众",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:09.637Z"
+}

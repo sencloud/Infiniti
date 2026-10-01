@@ -1,0 +1,50 @@
+{
+ "no": 182,
+ "title": "馎饦媪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 199,
+   "entities": [
+    {
+     "name": "韩生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "馎饦媪篇中人物，居别墅半载后返家"
+    },
+    {
+     "name": "韩妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "馎饦媪篇中韩生之妻，夜遇老媪"
+    },
+    {
+     "name": "别墅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "馎饦媪篇中韩生所居之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "韩生",
+     "predicate": "SPOUSE",
+     "object": "韩妻",
+     "evidence": "韩生居别墅半载，腊尽始返。一夜，妻方卧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩生",
+     "predicate": "LIVES_AT",
+     "object": "别墅",
+     "evidence": "韩生居别墅半载",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:20.700Z"
+}

@@ -1,0 +1,120 @@
+{
+ "no": 53,
+ "title": "丁前溪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 672,
+   "entities": [
+    {
+     "name": "丁前溪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸城人，富有钱谷，游侠好义"
+    },
+    {
+     "name": "杨某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "安丘人，开赌场为生，丁前溪之友"
+    },
+    {
+     "name": "杨妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨某之妻，好客仗义"
+    },
+    {
+     "name": "诸城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "丁前溪籍贯地"
+    },
+    {
+     "name": "安丘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨某所居地，丁前溪避雨处"
+    },
+    {
+     "name": "逆旅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "安丘的客店，丁前溪避雨处"
+    },
+    {
+     "name": "杨宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨某在安丘的家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "丁前溪",
+     "predicate": "NATIVE_OF",
+     "object": "诸城",
+     "evidence": "丁前溪，诸城人。",
+     "confidence": 1
+    },
+    {
+     "subject": "杨某",
+     "predicate": "LIVES_AT",
+     "object": "安丘",
+     "evidence": "至安丘，遇雨，避身逆旅。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁前溪",
+     "predicate": "LIVES_AT",
+     "object": "逆旅",
+     "evidence": "至安丘，遇雨，避身逆旅。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨妻",
+     "predicate": "SPOUSE",
+     "object": "杨某",
+     "evidence": "家惟娘子在。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨妻",
+     "predicate": "HELPED",
+     "object": "丁前溪",
+     "evidence": "适娘子撤屋上茅耳。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁前溪",
+     "predicate": "HELPED",
+     "object": "杨某",
+     "evidence": "已代经纪矣。",
+     "confidence": 1
+    },
+    {
+     "subject": "丁前溪",
+     "predicate": "HELPED",
+     "object": "杨妻",
+     "evidence": "又婢十指，为妾驱使。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨某",
+     "predicate": "LIVES_AT",
+     "object": "杨宅",
+     "evidence": "止宿其家。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:33.164Z"
+}

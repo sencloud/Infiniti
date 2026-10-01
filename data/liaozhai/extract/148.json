@@ -1,0 +1,324 @@
+{
+ "no": 148,
+ "title": "姊妹易嫁",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1412,
+   "entities": [
+    {
+     "name": "毛公",
+     "type": "Person",
+     "aliases": [
+      "毛纪"
+     ],
+     "nickname": "",
+     "description": "掖县人，家贫，后中进士，官至宰相"
+    },
+    {
+     "name": "毛父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "毛公之父，为人牧牛，溺死于废圹"
+    },
+    {
+     "name": "毛母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "毛公之母，曾向张氏乞地葬夫"
+    },
+    {
+     "name": "张公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "掖县世族，曾许长女嫁毛公，后以次女代嫁"
+    },
+    {
+     "name": "张妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张公之妻，主张守约嫁女"
+    },
+    {
+     "name": "张家长女",
+     "type": "Person",
+     "aliases": [
+      "大女儿"
+     ],
+     "nickname": "",
+     "description": "张公长女，嫌毛家贫，拒嫁，后为尼"
+    },
+    {
+     "name": "张家次女",
+     "type": "Person",
+     "aliases": [
+      "小女儿"
+     ],
+     "nickname": "",
+     "description": "张公次女，代姊嫁毛公，后为夫人"
+    },
+    {
+     "name": "店主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王舍人店主人，梦神示毛公为解元，后因命案入狱获毛公救"
+    },
+    {
+     "name": "神人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "托梦给店主人的神"
+    },
+    {
+     "name": "墓中鬼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "张家墓地中叱咤警告的鬼魂"
+    },
+    {
+     "name": "掖县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "毛公籍贯所在地"
+    },
+    {
+     "name": "东山之阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张家新阡所在地"
+    },
+    {
+     "name": "废圹",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张家故墓废弃的墓穴，毛父溺死处"
+    },
+    {
+     "name": "王舍人店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "毛公赴试途中投宿的客店"
+    },
+    {
+     "name": "冥司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间官署，掌科考黜落"
+    },
+    {
+     "name": "秋闱试",
+     "type": "Event",
+     "aliases": [
+      "乡试"
+     ],
+     "nickname": "",
+     "description": "毛公参加的科举考试"
+    },
+    {
+     "name": "易嫁",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "张家以次女代长女嫁毛公之事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "毛公",
+     "predicate": "KIN",
+     "object": "毛父",
+     "evidence": "相国父牧，出张家故墓",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛公",
+     "predicate": "KIN",
+     "object": "毛母",
+     "evidence": "母自诣张，愿丐咫尺地，掩儿父",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛父",
+     "predicate": "SPOUSE",
+     "object": "毛母",
+     "evidence": "母自诣张，愿丐咫尺地，掩儿父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "SPOUSE",
+     "object": "张妻",
+     "evidence": "张妻云：“既已有言，奈何中改？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "KIN",
+     "object": "张家长女",
+     "evidence": "又请以长女妻儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张公",
+     "predicate": "KIN",
+     "object": "张家次女",
+     "evidence": "其次女在侧，颇非其姊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张家长女",
+     "predicate": "KIN",
+     "object": "张家次女",
+     "evidence": "其次女在侧，颇非其姊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛公",
+     "predicate": "SPOUSE",
+     "object": "张家次女",
+     "evidence": "即以姊妆妆女，仓猝登车而去。入门，夫妇雅敦逑好",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张公",
+     "predicate": "HELPED",
+     "object": "毛公",
+     "evidence": "张一见辄喜，即留其家，教之读",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "HELPED",
+     "object": "毛母",
+     "evidence": "乃使就故圹窆焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "墓中鬼",
+     "predicate": "HARMED",
+     "object": "张公",
+     "evidence": "由是家数不利",
+     "confidence": 0.8
+    },
+    {
+     "subject": "神人",
+     "predicate": "HELPED",
+     "object": "店主人",
+     "evidence": "店主人先一夕梦神曰：“旦日当有毛解元来，后且脱汝于厄。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "店主人",
+     "predicate": "HELPED",
+     "object": "毛公",
+     "evidence": "供具殊丰善，不索直",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毛公",
+     "predicate": "HELPED",
+     "object": "店主人",
+     "evidence": "后店主人以人命事逮系囹圄，公为力解释罪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛公",
+     "predicate": "PARTICIPATED_IN",
+     "object": "秋闱试",
+     "evidence": "应秋闱试，道经王舍人店",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秋闱试",
+     "predicate": "OCCURRED_AT",
+     "object": "王舍人店",
+     "evidence": "应秋闱试，道经王舍人店",
+     "confidence": 0.7
+    },
+    {
+     "subject": "毛公",
+     "predicate": "LIVES_AT",
+     "object": "掖县",
+     "evidence": "掖县相国毛公",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛公",
+     "predicate": "NATIVE_OF",
+     "object": "掖县",
+     "evidence": "掖县相国毛公",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张公",
+     "predicate": "LIVES_AT",
+     "object": "掖县",
+     "evidence": "时邑世族张姓者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "NATIVE_OF",
+     "object": "掖县",
+     "evidence": "时邑世族张姓者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "LIVES_AT",
+     "object": "东山之阳",
+     "evidence": "有新阡在东山之阳",
+     "confidence": 0.8
+    },
+    {
+     "subject": "毛父",
+     "predicate": "LIVES_AT",
+     "object": "废圹",
+     "evidence": "匿身废圹中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张家次女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "易嫁",
+     "evidence": "即以姊妆妆女，仓猝登车而去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张家长女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "易嫁",
+     "evidence": "女掩袂向隅而哭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毛公",
+     "predicate": "PARTICIPATED_IN",
+     "object": "易嫁",
+     "evidence": "入门，夫妇雅敦逑好",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥司",
+     "predicate": "PUNISHED",
+     "object": "毛公",
+     "evidence": "秀才以阴欲易妻，故被冥司黜落",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:12.725Z"
+}

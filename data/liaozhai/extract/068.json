@@ -1,0 +1,50 @@
+{
+ "no": 68,
+ "title": "酒友",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 571,
+   "entities": [
+    {
+     "name": "车生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《酒友》中嗜酒的书生，家贫后致富"
+    },
+    {
+     "name": "车生妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《酒友》中车生的妻子"
+    },
+    {
+     "name": "车生子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《酒友》中车生的孩子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "车生",
+     "predicate": "SPOUSE",
+     "object": "车生妻",
+     "evidence": "呼生妻以嫂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "车生",
+     "predicate": "KIN",
+     "object": "车生子",
+     "evidence": "视子犹子焉",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:37.505Z"
+}

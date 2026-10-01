@@ -1,0 +1,778 @@
+{
+ "no": 3,
+ "title": "四海千山皆拱伏 九幽十类尽除名",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6010,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "美猴王",
+      "齐天大圣",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "美猴王",
+     "description": "花果山天生石猴，后为齐天大圣"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王",
+      "东海敖广"
+     ],
+     "nickname": "敖广",
+     "description": "东海龙王，居水晶宫"
+    },
+    {
+     "name": "西海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖闰",
+      "龙王",
+      "西海敖闰"
+     ],
+     "nickname": "敖闰",
+     "description": "西海龙王"
+    },
+    {
+     "name": "南海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖钦",
+      "龙王",
+      "南海敖钦"
+     ],
+     "nickname": "敖钦",
+     "description": "南海龙王"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "敖顺",
+     "description": "北海龙王"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎罗王",
+     "description": "十代冥王之一"
+    },
+    {
+     "name": "地藏王菩萨",
+     "type": "Person",
+     "aliases": [
+      "地藏",
+      "幽冥教主",
+      "地藏菩萨"
+     ],
+     "nickname": "地藏王菩萨",
+     "description": "幽冥教主，居翠云宫"
+    },
+    {
+     "name": "牛魔王",
+     "type": "Person",
+     "aliases": [
+      "大力牛魔王",
+      "平天大圣",
+      "牛王",
+      "西方大力王"
+     ],
+     "nickname": "牛魔王",
+     "description": "孙悟空结义兄弟之一"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉皇大帝",
+     "description": "天庭之主"
+    },
+    {
+     "name": "傲来国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "傲来国，有君王军民"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的老家"
+    },
+    {
+     "name": "水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山上的洞府"
+    },
+    {
+     "name": "傲来国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "傲来国都城"
+    },
+    {
+     "name": "东海龙宫",
+     "type": "Place",
+     "aliases": [
+      "水晶宫"
+     ],
+     "nickname": "",
+     "description": "东海龙王的宫殿"
+    },
+    {
+     "name": "幽冥界",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间地府"
+    },
+    {
+     "name": "森罗殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "幽冥界中十代冥王议事之殿"
+    },
+    {
+     "name": "翠云宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地藏王菩萨居所"
+    },
+    {
+     "name": "如意金箍棒",
+     "type": "Item",
+     "aliases": [
+      "天河定底神珍铁",
+      "天河镇底神珍"
+     ],
+     "nickname": "",
+     "description": "重一万三千五百斤，可变化大小"
+    },
+    {
+     "name": "锁子黄金甲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "西海龙王所献披挂"
+    },
+    {
+     "name": "凤翅紫金冠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "南海龙王所献披挂"
+    },
+    {
+     "name": "藕丝步云履",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "北海龙王所献披挂"
+    },
+    {
+     "name": "傲来国兵器",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "傲来国武库中的兵器"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "秦广王"
+     ],
+     "nickname": "阎罗王",
+     "description": "十代冥王之一"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "花果山",
+     "evidence": "悟空会聚群猴，计有四万七千余口。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "水帘洞",
+     "evidence": "美猴王荣归故里，自剿了混世魔王，夺了一口大刀。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "傲来国",
+     "evidence": "悟空才按下云头，径闯入朝门里。直寻到兵器馆、武库中，打开门扇，看时，那里面无数器械",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "如意金箍棒",
+     "evidence": "悟空将宝贝执在手中，坐在水晶宫殿上。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "锁子黄金甲",
+     "evidence": "悟空将金冠、金甲、云履那穿戴停当",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "凤翅紫金冠",
+     "evidence": "悟空将金冠、金甲、云履那穿戴停当",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "藕丝步云履",
+     "evidence": "悟空将金冠、金甲、云履那穿戴停当",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "幽冥界",
+     "evidence": "那猴王恼起性来，耳朵中掣出宝贝，幌一幌，碗来粗细；略举手，把两个勾死人打为肉酱。自解其索，丢开手，抡着棒，打入城中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "阎罗王",
+     "evidence": "是我显神通，直嚷到森罗殿，与那十王争吵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "牛魔王",
+     "evidence": "此时又会了个七弟兄，乃牛魔王、蛟魔王、鹏魔王、狮驼王、猕猴王、狨王，连自家美猴王七个。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "东海龙王",
+     "predicate": "MEMBER_OF",
+     "object": "东海龙宫",
+     "evidence": "东海龙王敖广即忙起身，与龙子、龙孙、虾兵、蟹将出宫迎道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "西海龙王",
+     "predicate": "MEMBER_OF",
+     "object": "东海龙宫",
+     "evidence": "舍弟乃南海龙王敖钦、北海龙王敖顺、西海龙王敖闰是也。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "南海龙王",
+     "predicate": "MEMBER_OF",
+     "object": "东海龙宫",
+     "evidence": "舍弟乃南海龙王敖钦、北海龙王敖顺、西海龙王敖闰是也。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "北海龙王",
+     "predicate": "MEMBER_OF",
+     "object": "东海龙宫",
+     "evidence": "舍弟乃南海龙王敖钦、北海龙王敖顺、西海龙王敖闰是也。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "MEMBER_OF",
+     "object": "幽冥界",
+     "evidence": "我等是阴间天子十代冥王。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "地藏王菩萨",
+     "predicate": "MEMBER_OF",
+     "object": "幽冥界",
+     "evidence": "那十王不敢相近，都去翠云宫，同拜地藏王菩萨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "LEADS",
+     "object": "天庭",
+     "evidence": "驾坐金阙云宫灵霄宝殿，聚集文武仙卿早朝之际",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "吾乃花果山天生圣人孙悟空",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "花果山",
+     "evidence": "自剿了混世魔王，夺了一口大刀。",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1256,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "花果山天产石猴，修成仙道，闹龙宫地府"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "",
+     "description": "佛教菩萨，未在片段中出场"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "",
+     "description": "天庭最高主宰，遣将擒拿孙悟空"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "",
+     "description": "天庭文臣，建议招安孙悟空并下界宣旨"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "",
+     "description": "地府冥君，被孙悟空强销死籍"
+    },
+    {
+     "name": "东海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖广",
+      "龙王",
+      "东海敖广"
+     ],
+     "nickname": "",
+     "description": "东海龙王，被孙悟空索兵器披挂，上表天庭"
+    },
+    {
+     "name": "西海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖闰",
+      "龙王",
+      "西海敖闰"
+     ],
+     "nickname": "",
+     "description": "西海龙王，被孙悟空欺虐"
+    },
+    {
+     "name": "南海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖钦",
+      "龙王",
+      "南海敖钦"
+     ],
+     "nickname": "",
+     "description": "南海龙王，被孙悟空欺虐"
+    },
+    {
+     "name": "北海龙王",
+     "type": "Person",
+     "aliases": [
+      "敖顺",
+      "龙王",
+      "北海敖顺"
+     ],
+     "nickname": "",
+     "description": "北海龙王，被孙悟空欺虐"
+    },
+    {
+     "name": "地藏王菩萨",
+     "type": "Person",
+     "aliases": [
+      "地藏",
+      "幽冥教主",
+      "地藏菩萨"
+     ],
+     "nickname": "",
+     "description": "幽冥教主，上表天庭请求收降孙悟空"
+    },
+    {
+     "name": "顺风耳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭神将，能听千里"
+    },
+    {
+     "name": "葛仙翁天师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭天师，启奏地藏王菩萨表文"
+    },
+    {
+     "name": "文曲星官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭星官，奉旨修招安诏书"
+    },
+    {
+     "name": "花果山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空及众猴所居势力"
+    },
+    {
+     "name": "天庭",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉皇大帝统领的天界朝廷"
+    },
+    {
+     "name": "地府",
+     "type": "Organization",
+     "aliases": [
+      "幽冥境界",
+      "阴司"
+     ],
+     "nickname": "",
+     "description": "地藏王菩萨与十殿阎罗管辖的冥界"
+    },
+    {
+     "name": "东海龙宫",
+     "type": "Organization",
+     "aliases": [
+      "水宅"
+     ],
+     "nickname": "",
+     "description": "东海龙王敖广的龙宫"
+    },
+    {
+     "name": "水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山孙悟空及众猴居住的洞府"
+    },
+    {
+     "name": "南天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭入口"
+    },
+    {
+     "name": "九幽",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地府深处"
+    },
+    {
+     "name": "龙宫索宝",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空闯龙宫索兵器披挂"
+    },
+    {
+     "name": "大闹地府",
+     "type": "Event",
+     "aliases": [
+      "强销死籍"
+     ],
+     "nickname": "",
+     "description": "孙悟空打绝鬼使，强销名号"
+    },
+    {
+     "name": "招安",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉帝采纳太白金星建议，招安孙悟空"
+    },
+    {
+     "name": "如意金箍棒",
+     "type": "Item",
+     "aliases": [
+      "神珍之铁棒"
+     ],
+     "nickname": "",
+     "description": "东海龙宫定海神珍铁，孙悟空兵器"
+    },
+    {
+     "name": "凤翅之金冠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "东海龙王献予孙悟空的披挂"
+    },
+    {
+     "name": "锁子甲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "东海龙王献予孙悟空的披挂"
+    },
+    {
+     "name": "步云履",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "东海龙王献予孙悟空的披挂"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "东海龙王",
+     "predicate": "ATTACKED",
+     "object": "东海龙宫",
+     "evidence": "欺虐小龙，强坐水宅，索兵器，施法施威",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "如意金箍棒",
+     "evidence": "献神珍之铁棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "凤翅之金冠",
+     "evidence": "凤翅之金冠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "锁子甲",
+     "evidence": "与那锁子甲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "步云履",
+     "evidence": "步云履",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "龙宫索宝",
+     "evidence": "强坐水宅，索兵器",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹地府",
+     "evidence": "打绝九幽鬼使；恃势力，惊伤十代慈王。大闹罗森，强销名号",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "阎罗王",
+     "evidence": "惊伤十代慈王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "花果山",
+     "evidence": "花果山生、水帘洞住妖仙孙悟空者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "LEADS",
+     "object": "花果山",
+     "evidence": "花果山生、水帘洞住妖仙孙悟空者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "水帘洞",
+     "evidence": "水帘洞住妖仙孙悟空者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "LEADS",
+     "object": "天庭",
+     "evidence": "大天尊宣众文武仙卿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RECOMMENDED",
+     "object": "孙悟空",
+     "evidence": "臣启陛下，可念生化之慈恩，降一道招安圣旨，把他宣来上界",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "太白长庚星，俯首启奏道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "PARTICIPATED_IN",
+     "object": "招安",
+     "evidence": "着太白金星招安",
+     "confidence": 0.95
+    },
+    {
+     "subject": "玉皇大帝",
+     "predicate": "MASTERMINDED",
+     "object": "招安",
+     "evidence": "即着文曲星官修诏，着太白金星招安",
+     "confidence": 0.95
+    },
+    {
+     "subject": "地藏王菩萨",
+     "predicate": "LEADS",
+     "object": "地府",
+     "evidence": "幽冥教主地藏王菩萨表文进上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "MEMBER_OF",
+     "object": "地府",
+     "evidence": "冥司秦广王赍奉幽冥教主地藏王菩萨表文进上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "东海龙王",
+     "predicate": "MEMBER_OF",
+     "object": "东海龙宫",
+     "evidence": "东海小龙臣敖广启奏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顺风耳",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "班中闪出千里眼、顺风耳道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "葛仙翁天师",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "葛仙翁天师启奏道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文曲星官",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "即着文曲星官修诏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "龙宫索宝",
+     "predicate": "OCCURRED_AT",
+     "object": "东海龙宫",
+     "evidence": "强坐水宅，索兵器",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大闹地府",
+     "predicate": "OCCURRED_AT",
+     "object": "九幽",
+     "evidence": "打绝九幽鬼使",
+     "confidence": 0.95
+    },
+    {
+     "subject": "招安",
+     "predicate": "OCCURRED_AT",
+     "object": "南天门",
+     "evidence": "出南天门外，按下祥云，直至花果山水帘洞",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:36:56.116Z"
+}

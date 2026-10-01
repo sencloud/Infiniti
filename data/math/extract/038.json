@@ -1,0 +1,85 @@
+{
+ "no": 38,
+ "title": "10.4 三元一次方程组",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1905,
+   "entities": [
+    {
+     "name": "三元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含三个未知数，且含未知数的项的次数都是1的方程组"
+    },
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有两个未知数，且含未知数的项的次数都是1的方程组"
+    },
+    {
+     "name": "代入消元法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过代入消去一个未知数，将方程组转化为更简单的方程组"
+    },
+    {
+     "name": "加减消元法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过相加或相减消去一个未知数，将方程组转化为更简单的方程组"
+    },
+    {
+     "name": "消元",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "减少未知数的个数，将多元方程组转化为少元方程组"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "二元一次方程组",
+     "predicate": "PREREQUISITE",
+     "object": "三元一次方程组",
+     "evidence": "把解三元一次方程组转化为解二元一次方程组",
+     "confidence": 0.95
+    },
+    {
+     "subject": "代入消元法",
+     "predicate": "APPLIES_TO",
+     "object": "三元一次方程组",
+     "evidence": "用代入消元法或加减消元法消去一个未知数，就可以把解三元一次方程组转化为解二元一次方程组",
+     "confidence": 0.95
+    },
+    {
+     "subject": "加减消元法",
+     "predicate": "APPLIES_TO",
+     "object": "三元一次方程组",
+     "evidence": "用代入消元法或加减消元法消去一个未知数，就可以把解三元一次方程组转化为解二元一次方程组",
+     "confidence": 0.95
+    },
+    {
+     "subject": "消元",
+     "predicate": "APPLIES_TO",
+     "object": "三元一次方程组",
+     "evidence": "用代入消元法或加减消元法消去一个未知数，就可以把解三元一次方程组转化为解二元一次方程组",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三元一次方程组",
+     "predicate": "INCLUDES",
+     "object": "二元一次方程组",
+     "evidence": "把解三元一次方程组转化为解二元一次方程组",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:46.388Z"
+}

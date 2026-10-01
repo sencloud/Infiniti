@@ -1,0 +1,988 @@
+{
+ "no": 73,
+ "title": "第七十三回 黑旋风乔捉鬼 梁山泊双献头",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5977,
+   "entities": [
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，性急莽撞，使双斧"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "梁山好汉，相扑天下第一，善弩箭"
+    },
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊寨主，忠义堂首领"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "小旋风",
+      "柴大官人"
+     ],
+     "nickname": "小旋风",
+     "description": "梁山好汉，后周皇裔"
+    },
+    {
+     "name": "关胜",
+     "type": "Person",
+     "aliases": [
+      "大刀",
+      "关将军"
+     ],
+     "nickname": "大刀",
+     "description": "梁山五虎将之一"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山五虎将之一"
+    },
+    {
+     "name": "秦明",
+     "type": "Person",
+     "aliases": [
+      "霹雳火",
+      "秦统制"
+     ],
+     "nickname": "霹雳火",
+     "description": "梁山五虎将之一"
+    },
+    {
+     "name": "呼延灼",
+     "type": "Person",
+     "aliases": [
+      "双鞭",
+      "呼延将军"
+     ],
+     "nickname": "双鞭",
+     "description": "梁山五虎将之一"
+    },
+    {
+     "name": "董平",
+     "type": "Person",
+     "aliases": [
+      "双枪将",
+      "董都监"
+     ],
+     "nickname": "双枪将",
+     "description": "梁山五虎将之一"
+    },
+    {
+     "name": "裴宣",
+     "type": "Person",
+     "aliases": [
+      "铁面孔目"
+     ],
+     "nickname": "铁面孔目",
+     "description": "梁山好汉，掌文书军令"
+    },
+    {
+     "name": "狄太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "四柳村庄主，女儿被邪祟所迷"
+    },
+    {
+     "name": "刘太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "荆门镇附近庄主，女儿被抢"
+    },
+    {
+     "name": "王小二",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东村头会粘雀儿的后生，与狄太公女儿私通"
+    },
+    {
+     "name": "狄太公女儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "狄太公之女，与王小二私通"
+    },
+    {
+     "name": "刘太公女儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘太公之女，年十八，被假宋江抢去"
+    },
+    {
+     "name": "李师师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京名妓，宋江曾往其家"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，率军出城追赶"
+    },
+    {
+     "name": "童贯",
+     "type": "Person",
+     "aliases": [
+      "枢密院童贯"
+     ],
+     "nickname": "",
+     "description": "枢密院官员，与高俅商议剿捕"
+    },
+    {
+     "name": "杨太尉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京官员，归家将息"
+    },
+    {
+     "name": "罗真人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蓟州二仙山道士，李逵自称其徒弟"
+    },
+    {
+     "name": "阎婆惜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江昔日所杀之妾"
+    },
+    {
+     "name": "王江",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛头山强人，假冒宋江抢掠"
+    },
+    {
+     "name": "董海",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛头山强人，假冒宋江抢掠"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "梁山寨",
+      "大寨"
+     ],
+     "nickname": "",
+     "description": "梁山好汉聚义势力"
+    },
+    {
+     "name": "官军",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅所率追捕军马"
+    },
+    {
+     "name": "牛头山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山名，上有旧道院，被王江董海占据"
+    },
+    {
+     "name": "四柳村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村庄名，狄太公庄院所在"
+    },
+    {
+     "name": "荆门镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇名，近刘太公庄"
+    },
+    {
+     "name": "陈留县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，李逵燕青绕道所经"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "都城，高俅出城追赶处"
+    },
+    {
+     "name": "忠义堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊议事厅堂"
+    },
+    {
+     "name": "凌州高唐",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州界地名，李逵燕青寻人经过"
+    },
+    {
+     "name": "古庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山边古庙，李逵燕青夜宿处"
+    },
+    {
+     "name": "杏黄旗",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊忠义堂前旗，上书替天行道"
+    },
+    {
+     "name": "双斧",
+     "type": "Item",
+     "aliases": [
+      "板斧",
+      "大斧"
+     ],
+     "nickname": "",
+     "description": "李逵所用兵器"
+    },
+    {
+     "name": "弩子",
+     "type": "Item",
+     "aliases": [
+      "弩弓"
+     ],
+     "nickname": "",
+     "description": "燕青所用弩箭"
+    },
+    {
+     "name": "齐眉杆棒",
+     "type": "Item",
+     "aliases": [
+      "杆棒"
+     ],
+     "nickname": "",
+     "description": "燕青所用棍棒"
+    },
+    {
+     "name": "军令状",
+     "type": "Item",
+     "aliases": [
+      "赌赛军令状"
+     ],
+     "nickname": "",
+     "description": "宋江与李逵所立赌赛文书"
+    },
+    {
+     "name": "荆杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵负荆请罪所背之杖"
+    },
+    {
+     "name": "李逵捉鬼",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵在四柳村狄太公庄假捉鬼，杀奸夫淫妇"
+    },
+    {
+     "name": "李逵负荆请罪",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵误怪宋江，回寨负荆请罪"
+    },
+    {
+     "name": "刘太公女儿被抢",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "假宋江抢走刘太公女儿之事"
+    },
+    {
+     "name": "李逵砍杏黄旗",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵怒砍忠义堂杏黄旗，欲杀宋江"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江见了李逵、燕青回来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我便是梁山泊黑旋风李逵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "这个便是浪子燕青",
+     "confidence": 0.95
+    },
+    {
+     "subject": "关胜",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "当有关胜、林冲、秦明、呼延灼、董平五虎将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "当有关胜、林冲、秦明、呼延灼、董平五虎将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "当有关胜、林冲、秦明、呼延灼、董平五虎将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "当有关胜、林冲、秦明、呼延灼、董平五虎将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董平",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "当有关胜、林冲、秦明、呼延灼、董平五虎将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裴宣",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "便叫铁面孔目裴宣写了赌赛军令状二纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "这位兄弟便是柴进",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "李逵",
+     "evidence": "因此宋公明着令燕青相守李逵",
+     "confidence": 0.5
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "因此宋公明着令燕青相守李逵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "我便是梁山泊黑旋风李逵……既是宋江夺了你的女儿，我去讨来还你",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "FRIEND",
+     "object": "燕青",
+     "evidence": "燕青和李逵不敢从大路上走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "KILLED",
+     "object": "王小二",
+     "evidence": "斧起处早把后生砍翻……李逵把那汉子先一斧砍下头来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "KILLED",
+     "object": "狄太公女儿",
+     "evidence": "揪到床边，一斧砍下头来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王小二",
+     "predicate": "SPOUSE",
+     "object": "狄太公女儿",
+     "evidence": "是我奸夫王小二",
+     "confidence": 0.5
+    },
+    {
+     "subject": "狄太公",
+     "predicate": "KIN",
+     "object": "狄太公女儿",
+     "evidence": "嫡亲止有一个女儿，年二十余岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘太公",
+     "predicate": "KIN",
+     "object": "刘太公女儿",
+     "evidence": "我家有个女儿，年方一十八岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "李逵捉鬼",
+     "evidence": "李逵道：'你真个要我捉鬼？'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "李逵砍杏黄旗",
+     "evidence": "先砍倒了杏黄旗，把'替天行道'四个字扯做粉碎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "李逵负荆请罪",
+     "evidence": "只见黑旋风脱得赤条条地，背上负着一把荆杖，跪在堂前",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "MASTERMINDED",
+     "object": "李逵负荆请罪",
+     "evidence": "燕青道：'我教你一个法则，唤做负荆请罪。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "刘太公女儿被抢",
+     "evidence": "多敢是这两个抢了去",
+     "confidence": 0.8
+    },
+    {
+     "subject": "董海",
+     "predicate": "PARTICIPATED_IN",
+     "object": "刘太公女儿被抢",
+     "evidence": "多敢是这两个抢了去",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王江",
+     "predicate": "STATIONED_AT",
+     "object": "牛头山",
+     "evidence": "占住了道院，专一下来打劫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "董海",
+     "predicate": "STATIONED_AT",
+     "object": "牛头山",
+     "evidence": "占住了道院，专一下来打劫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "OWNS",
+     "object": "双斧",
+     "evidence": "手搦双斧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "OWNS",
+     "object": "弩子",
+     "evidence": "便去房中取了弩子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "OWNS",
+     "object": "齐眉杆棒",
+     "evidence": "绰了齐眉杆棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "军令状",
+     "evidence": "便叫铁面孔目裴宣写了赌赛军令状二纸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "OWNS",
+     "object": "军令状",
+     "evidence": "两个各书了字",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "OWNS",
+     "object": "荆杖",
+     "evidence": "背上负着一把荆杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "ATTACKED",
+     "object": "杏黄旗",
+     "evidence": "先砍倒了杏黄旗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "ATTACKED",
+     "object": "梁山泊",
+     "evidence": "高太尉引军出城，追赶不上自回",
+     "confidence": 0.5
+    },
+    {
+     "subject": "李逵",
+     "predicate": "FOUGHT",
+     "object": "宋江",
+     "evidence": "李逵拿了双斧，抢上堂来，径奔宋江",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "李逵道：'我闲常把你做好汉，你原来却是畜生！'",
+     "confidence": 0.5
+    },
+    {
+     "subject": "李逵",
+     "predicate": "NATIVE_OF",
+     "object": "蓟州",
+     "evidence": "我是蓟州罗真人的徒弟",
+     "confidence": 0.5
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MASTER_OF",
+     "object": "罗真人",
+     "evidence": "我是蓟州罗真人的徒弟",
+     "confidence": 0.5
+    },
+    {
+     "subject": "李逵",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "直到忠义堂上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "梁山泊",
+     "evidence": "宋江、柴进先归到忠义堂上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "RESCUED",
+     "object": "刘太公女儿",
+     "evidence": "我去讨来还你",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李逵",
+     "predicate": "RESCUED",
+     "object": "狄太公女儿",
+     "evidence": "李逵救得良人女",
+     "confidence": 0.5
+    },
+    {
+     "subject": "李逵捉鬼",
+     "predicate": "OCCURRED_AT",
+     "object": "四柳村",
+     "evidence": "地名唤做四柳村",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵负荆请罪",
+     "predicate": "OCCURRED_AT",
+     "object": "忠义堂",
+     "evidence": "拜伏在忠义堂前",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘太公女儿被抢",
+     "predicate": "OCCURRED_AT",
+     "object": "荆门镇",
+     "evidence": "将近荆门镇，当日天晚了，便去刘太公庄上投宿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵砍杏黄旗",
+     "predicate": "OCCURRED_AT",
+     "object": "忠义堂",
+     "evidence": "直到忠义堂上……先砍倒了杏黄旗",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1609,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "刘太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "庄主，女儿被掳"
+    },
+    {
+     "name": "刘太公女儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被掳女子"
+    },
+    {
+     "name": "任原",
+     "type": "Person",
+     "aliases": [
+      "擎天柱"
+     ],
+     "nickname": "擎天柱",
+     "description": "太原府扑手好汉"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊好汉势力"
+    },
+    {
+     "name": "牛头山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "形似牛头的山，贼人巢穴"
+    },
+    {
+     "name": "刘太公庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘太公的庄园"
+    },
+    {
+     "name": "忠义堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊议事厅"
+    },
+    {
+     "name": "泰安州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，东岳庙所在"
+    },
+    {
+     "name": "凤翔府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "府名，香客来处"
+    },
+    {
+     "name": "太原府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "府名，任原籍贯"
+    },
+    {
+     "name": "东岳庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "泰安州庙宇，相扑场所"
+    },
+    {
+     "name": "嘉宁殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东岳庙中殿宇"
+    },
+    {
+     "name": "祥符县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，燕青将大闹"
+    },
+    {
+     "name": "乔捉鬼",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵、燕青捉鬼救女事件"
+    },
+    {
+     "name": "双献头",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵、燕青献人头事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "燕青",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我便是梁山泊浪子燕青",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "他便是黑旋风李逵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "拜见宋江",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "RESCUED",
+     "object": "刘太公女儿",
+     "evidence": "今日得将军搭救，便是重生父母",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "RESCUED",
+     "object": "刘太公女儿",
+     "evidence": "今日得将军搭救，便是重生父母",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "KILLED",
+     "object": "贼人",
+     "evidence": "被李逵后心只一斧，砍翻在地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "DEFEATED",
+     "object": "贼人",
+     "evidence": "一棒正中那好汉脸颊骨上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "KILLED",
+     "object": "贼人",
+     "evidence": "只一斧劈胸膛砍倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘太公女儿",
+     "predicate": "KIN",
+     "object": "刘太公",
+     "evidence": "奴家正是刘太公女儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "你来寨里拜谢俺哥哥宋公明",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "拜见宋江",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘太公",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "刘太公也收拾金银上山，来到忠义堂上，拜谢宋江",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乔捉鬼",
+     "evidence": "燕青将前事一一说了一遍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乔捉鬼",
+     "evidence": "燕青将前事一一说了一遍",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "PARTICIPATED_IN",
+     "object": "双献头",
+     "evidence": "提了人头，径到忠义堂上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "双献头",
+     "evidence": "提了人头，径到忠义堂上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乔捉鬼",
+     "predicate": "OCCURRED_AT",
+     "object": "牛头山",
+     "evidence": "到那山看时，苦不甚高，果似牛头之状",
+     "confidence": 0.9
+    },
+    {
+     "subject": "双献头",
+     "predicate": "OCCURRED_AT",
+     "object": "忠义堂",
+     "evidence": "径到忠义堂上，拜见宋江",
+     "confidence": 0.9
+    },
+    {
+     "subject": "任原",
+     "predicate": "NATIVE_OF",
+     "object": "太原府",
+     "evidence": "是太原府人氏，姓任名原",
+     "confidence": 0.95
+    },
+    {
+     "subject": "任原",
+     "predicate": "STATIONED_AT",
+     "object": "泰安州",
+     "evidence": "今年又贴招儿，单搦天下人相扑",
+     "confidence": 0.8
+    },
+    {
+     "subject": "燕青",
+     "predicate": "ATTACKED",
+     "object": "泰安州",
+     "evidence": "哄动了泰安州，大闹了祥符县",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:34:34.703Z"
+}

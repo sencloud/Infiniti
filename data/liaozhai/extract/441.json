@@ -1,0 +1,227 @@
+{
+ "no": 441,
+ "title": "王大",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1847,
+   "entities": [
+    {
+     "name": "李信",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "博徒，故事中人物"
+    },
+    {
+     "name": "王大",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鬼魂，李信旧友"
+    },
+    {
+     "name": "冯九",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鬼魂，李信旧友"
+    },
+    {
+     "name": "周子明",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村中赌徒"
+    },
+    {
+     "name": "黄公子",
+     "type": "Person",
+     "aliases": [
+      "黄八官人"
+     ],
+     "nickname": "",
+     "description": "放债人，居燕子谷"
+    },
+    {
+     "name": "赵氏妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村中妇人，喜骂人"
+    },
+    {
+     "name": "城隍",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间神祇，审判赌徒"
+    },
+    {
+     "name": "燕子谷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄公子所居之地"
+    },
+    {
+     "name": "村东庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村东的庙宇"
+    },
+    {
+     "name": "邑城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县城"
+    },
+    {
+     "name": "衙署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "城隍审案之处"
+    },
+    {
+     "name": "观音庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "捉获博徒之处"
+    },
+    {
+     "name": "博赌",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "赌博事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李信",
+     "predicate": "FRIEND",
+     "object": "王大",
+     "evidence": "忽见昔年博友王大、冯九来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李信",
+     "predicate": "FRIEND",
+     "object": "冯九",
+     "evidence": "忽见昔年博友王大、冯九来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李信",
+     "predicate": "PARTICIPATED_IN",
+     "object": "博赌",
+     "evidence": "欣然从之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王大",
+     "predicate": "PARTICIPATED_IN",
+     "object": "博赌",
+     "evidence": "邀与敖戏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯九",
+     "predicate": "PARTICIPATED_IN",
+     "object": "博赌",
+     "evidence": "邀与敖戏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周子明",
+     "predicate": "PARTICIPATED_IN",
+     "object": "博赌",
+     "evidence": "周果同王至",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李信",
+     "predicate": "LIVES_AT",
+     "object": "村东庙",
+     "evidence": "入村东庙中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄公子",
+     "predicate": "LIVES_AT",
+     "object": "燕子谷",
+     "evidence": "燕子谷黄八官人放利债",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄公子",
+     "predicate": "HELPED",
+     "object": "李信",
+     "evidence": "便以大钱一提付李",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄公子",
+     "predicate": "HELPED",
+     "object": "周子明",
+     "evidence": "亦授一千而出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冯九",
+     "predicate": "HARMED",
+     "object": "赵氏妻",
+     "evidence": "冯掬土塞其口",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周子明",
+     "predicate": "HARMED",
+     "object": "赵氏妻",
+     "evidence": "周赞曰：此等妇，只宜椓杙阴中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "城隍",
+     "predicate": "PUNISHED",
+     "object": "周子明",
+     "evidence": "笞三十，立押偿主",
+     "confidence": 0.9
+    },
+    {
+     "subject": "城隍",
+     "predicate": "PUNISHED",
+     "object": "李信",
+     "evidence": "并令以利斧斫去将指",
+     "confidence": 0.9
+    },
+    {
+     "subject": "城隍",
+     "predicate": "PUNISHED",
+     "object": "王大",
+     "evidence": "并令以利斧斫去将指",
+     "confidence": 0.9
+    },
+    {
+     "subject": "城隍",
+     "predicate": "PUNISHED",
+     "object": "冯九",
+     "evidence": "并令以利斧斫去将指",
+     "confidence": 0.9
+    },
+    {
+     "subject": "博赌",
+     "predicate": "OCCURRED_AT",
+     "object": "村东庙",
+     "evidence": "复入庙，相与博赌",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:01.042Z"
+}

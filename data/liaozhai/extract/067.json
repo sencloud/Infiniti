@@ -1,0 +1,120 @@
+{
+ "no": 67,
+ "title": "侠女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2322,
+   "entities": [
+    {
+     "name": "顾生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金陵人，侠女篇中书生，家贫，二十五岁未娶"
+    },
+    {
+     "name": "侠女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "侠女篇中少女，浙人，父官司马，隐姓埋名三年"
+    },
+    {
+     "name": "顾母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "侠女篇中顾生之母，年老，曾患疽疮"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "侠女篇中顾生的籍贯地"
+    },
+    {
+     "name": "浙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "侠女篇中侠女的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "顾生",
+     "predicate": "NATIVE_OF",
+     "object": "金陵",
+     "evidence": "顾生，金陵人。",
+     "confidence": 1
+    },
+    {
+     "subject": "侠女",
+     "predicate": "NATIVE_OF",
+     "object": "浙",
+     "evidence": "妾浙人，父官司马",
+     "confidence": 1
+    },
+    {
+     "subject": "顾生",
+     "predicate": "KIN",
+     "object": "顾母",
+     "evidence": "生入问母",
+     "confidence": 1
+    },
+    {
+     "subject": "侠女",
+     "predicate": "KIN",
+     "object": "顾母",
+     "evidence": "女慰之曰：郎子大孝，胜我寡母孤女什百矣。",
+     "confidence": 0.6
+    },
+    {
+     "subject": "顾生",
+     "predicate": "LOVES",
+     "object": "侠女",
+     "evidence": "生喜出意外，趋而从诸其家，挑之，亦不拒，欣然交欢。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顾生",
+     "predicate": "SPOUSE",
+     "object": "侠女",
+     "evidence": "业夫妇矣，何必复言嫁娶乎？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "侠女",
+     "predicate": "HELPED",
+     "object": "顾生",
+     "evidence": "为君贫不能婚，将为君延一线之续。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顾生",
+     "predicate": "HELPED",
+     "object": "侠女",
+     "evidence": "生竭力葬之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "顾生",
+     "predicate": "LIVES_AT",
+     "object": "金陵",
+     "evidence": "顾生，金陵人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "侠女",
+     "predicate": "LIVES_AT",
+     "object": "金陵",
+     "evidence": "对户旧有空第，一老妪及少女，税居其中。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:37.906Z"
+}

@@ -1,0 +1,113 @@
+{
+ "no": 424,
+ "title": "衢州三怪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 123,
+   "entities": [
+    {
+     "name": "张握仲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "衢州从戎者，讲述衢州三怪之事"
+    },
+    {
+     "name": "钟楼鬼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "衢州钟楼上的鬼，头上一角，貌狞恶"
+    },
+    {
+     "name": "白布怪",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "衢州城中池塘夜出白布，卷人入水"
+    },
+    {
+     "name": "鸭鬼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "衢州塘边夜静时闻鸭声即病之鬼"
+    },
+    {
+     "name": "衢州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "故事发生地，张握仲从戎之处"
+    },
+    {
+     "name": "钟楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "衢州钟楼，鬼所居处"
+    },
+    {
+     "name": "池塘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "衢州城中池塘，白布怪与鸭鬼出没"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张握仲",
+     "predicate": "LIVES_AT",
+     "object": "衢州",
+     "evidence": "张握仲从戎衢州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钟楼鬼",
+     "predicate": "LIVES_AT",
+     "object": "钟楼",
+     "evidence": "钟楼上有鬼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "钟楼鬼",
+     "predicate": "HARMED",
+     "object": "张握仲",
+     "evidence": "然见之辄病，且多死者",
+     "confidence": 0.8
+    },
+    {
+     "subject": "白布怪",
+     "predicate": "LIVES_AT",
+     "object": "池塘",
+     "evidence": "又城中一塘，夜出白布一匹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白布怪",
+     "predicate": "HARMED",
+     "object": "张握仲",
+     "evidence": "过者拾之，即卷入水",
+     "confidence": 0.8
+    },
+    {
+     "subject": "鸭鬼",
+     "predicate": "LIVES_AT",
+     "object": "池塘",
+     "evidence": "又有鸭鬼，夜既静，塘边并寂无一物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鸭鬼",
+     "predicate": "HARMED",
+     "object": "张握仲",
+     "evidence": "若闻鸭声，人即病",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:53.211Z"
+}

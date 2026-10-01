@@ -1,0 +1,854 @@
+{
+ "no": 61,
+ "title": "猪八戒助力败魔王 孙行者三调芭蕉扇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6022,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "西天取经的圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，天蓬元帅转世"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "佛祖",
+     "description": "西天灵山教主"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭最高主宰"
+    },
+    {
+     "name": "托塔李天王",
+     "type": "Person",
+     "aliases": [
+      "李靖",
+      "托塔天王",
+      "李天王"
+     ],
+     "nickname": "李天王",
+     "description": "天庭降魔大元帅"
+    },
+    {
+     "name": "哪吒",
+     "type": "Person",
+     "aliases": [
+      "三太子",
+      "哪吒太子",
+      "三坛海会大神"
+     ],
+     "nickname": "哪吒太子",
+     "description": "李天王三子，天庭勇将"
+    },
+    {
+     "name": "巨灵神",
+     "type": "Person",
+     "aliases": [
+      "巨灵"
+     ],
+     "nickname": "巨灵",
+     "description": "天庭神将"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎王",
+     "description": "地府冥王"
+    },
+    {
+     "name": "牛魔王",
+     "type": "Person",
+     "aliases": [
+      "大力牛魔王",
+      "平天大圣",
+      "牛王",
+      "西方大力王"
+     ],
+     "nickname": "牛王",
+     "description": "火焰山妖魔，铁扇公主之夫"
+    },
+    {
+     "name": "铁扇公主",
+     "type": "Person",
+     "aliases": [
+      "罗刹女",
+      "铁扇仙",
+      "公主"
+     ],
+     "nickname": "罗刹女",
+     "description": "牛魔王之妻，芭蕉扇主人"
+    },
+    {
+     "name": "玉面公主",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛魔王爱妾，玉面狸精"
+    },
+    {
+     "name": "火焰山土地",
+     "type": "Person",
+     "aliases": [
+      "土地"
+     ],
+     "nickname": "土地",
+     "description": "火焰山土地神，助悟空战牛王"
+    },
+    {
+     "name": "泼法金刚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五台山秘魔岩金刚，奉佛旨擒牛王"
+    },
+    {
+     "name": "胜至金刚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "峨眉山清凉洞金刚，奉佛旨擒牛王"
+    },
+    {
+     "name": "大力金刚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "须弥山摩耳崖金刚，奉佛旨擒牛王"
+    },
+    {
+     "name": "永住金刚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "昆仑山金霞岭金刚，奉佛旨擒牛王"
+    },
+    {
+     "name": "火焰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "烈焰熊熊的火山，取经必经之地"
+    },
+    {
+     "name": "积雷山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛魔王与玉面公主所居之山"
+    },
+    {
+     "name": "摩云洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "积雷山上牛魔王与玉面公主的洞府"
+    },
+    {
+     "name": "翠云山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "铁扇公主所居之山"
+    },
+    {
+     "name": "芭蕉洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "翠云山上铁扇公主的洞府"
+    },
+    {
+     "name": "乱石山碧波潭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛魔王赴宴之处，蛟精龙精所居"
+    },
+    {
+     "name": "芭蕉扇",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "能扇息火焰的宝扇，铁扇公主所有"
+    },
+    {
+     "name": "辟水金睛兽",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛魔王坐骑，被悟空偷走"
+    },
+    {
+     "name": "定风丹",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "悟空所持宝丹，可定风"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "如意棒"
+     ],
+     "nickname": "如意棒",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [
+      "钉钯"
+     ],
+     "nickname": "钉钯",
+     "description": "猪八戒的兵器"
+    },
+    {
+     "name": "三调芭蕉扇",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空三借芭蕉扇熄火焰山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父见你许久不回",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "兄弟，你往那里去？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "SPOUSE",
+     "object": "铁扇公主",
+     "evidence": "那女子与老孙结了一场干夫妻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "SPOUSE",
+     "object": "玉面公主",
+     "evidence": "原来就是他爱妾玉面公主",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "TRANSFORMED",
+     "object": "猪八戒",
+     "evidence": "即变作八戒一般嘴脸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "牛魔王",
+     "evidence": "变了老牛的模样",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "辟水金睛兽",
+     "evidence": "偷了他所骑的辟水金睛兽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "定风丹",
+     "evidence": "将定风丹噙在口里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "掣铁棒，劈头便打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "举钉钯当面骂道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "牛魔王",
+     "evidence": "孙行者与牛王厮杀哩",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "牛魔王",
+     "evidence": "举钉钯当面骂道",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "玉面公主",
+     "evidence": "那老牛的娘子被我一钯筑死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "八戒措手不及，倒拽着钯败阵而走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "大圣纵筋斗云跳出重围",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "STATIONED_AT",
+     "object": "摩云洞",
+     "evidence": "前面是他的积雷山摩云洞口",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铁扇公主",
+     "predicate": "STATIONED_AT",
+     "object": "芭蕉洞",
+     "evidence": "罗刹女正在此间",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三调芭蕉扇",
+     "evidence": "只为芭蕉扇，相逢各骋强",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三调芭蕉扇",
+     "evidence": "只为芭蕉扇，相逢各骋强",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三调芭蕉扇",
+     "predicate": "OCCURRED_AT",
+     "object": "火焰山",
+     "evidence": "火焰山土地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "泼法金刚",
+     "predicate": "SERVED",
+     "object": "如来佛祖",
+     "evidence": "我等乃释迦牟尼佛祖差来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胜至金刚",
+     "predicate": "SERVED",
+     "object": "如来佛祖",
+     "evidence": "吾奉佛旨在此",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大力金刚",
+     "predicate": "SERVED",
+     "object": "如来佛祖",
+     "evidence": "我蒙如来密令",
+     "confidence": 0.9
+    },
+    {
+     "subject": "永住金刚",
+     "predicate": "SERVED",
+     "object": "如来佛祖",
+     "evidence": "我领西天大雷音寺佛老亲言",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "吾奉玉帝旨意",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "玉帝传旨，特差我父王领众助力",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "使两只铁角去触天王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "牛魔王",
+     "evidence": "手执一条铁棒，着头就打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火焰山土地",
+     "predicate": "SERVED",
+     "object": "孙悟空",
+     "evidence": "我与你去来",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1642,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "取经团队大师兄，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经团队师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "取经团队二师兄"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "取经团队三师弟"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "佛门大士，取经护法"
+    },
+    {
+     "name": "托塔李天王",
+     "type": "Person",
+     "aliases": [
+      "李靖",
+      "托塔天王",
+      "李天王"
+     ],
+     "nickname": "李天王",
+     "description": "天庭神将，率天兵助战"
+    },
+    {
+     "name": "哪吒",
+     "type": "Person",
+     "aliases": [
+      "三太子",
+      "哪吒太子",
+      "三坛海会大神"
+     ],
+     "nickname": "三太子",
+     "description": "李天王之子，降伏牛魔王"
+    },
+    {
+     "name": "巨灵神",
+     "type": "Person",
+     "aliases": [
+      "巨灵"
+     ],
+     "nickname": "巨灵",
+     "description": "天庭神将"
+    },
+    {
+     "name": "牛魔王",
+     "type": "Person",
+     "aliases": [
+      "大力牛魔王",
+      "平天大圣",
+      "牛王",
+      "西方大力王"
+     ],
+     "nickname": "牛王",
+     "description": "火焰山妖王，铁扇公主之夫"
+    },
+    {
+     "name": "铁扇公主",
+     "type": "Person",
+     "aliases": [
+      "罗刹女",
+      "铁扇仙",
+      "公主"
+     ],
+     "nickname": "罗刹女",
+     "description": "牛魔王之妻，芭蕉扇主人"
+    },
+    {
+     "name": "清风",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "片段中未明确出现，仅列名"
+    },
+    {
+     "name": "四大金刚",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛门护法神将"
+    },
+    {
+     "name": "六丁六甲",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "道教护法神将"
+    },
+    {
+     "name": "护教伽蓝",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛门护法神"
+    },
+    {
+     "name": "火焰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "八百里火焰，取经必经之地"
+    },
+    {
+     "name": "芭蕉洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "铁扇公主与牛魔王的洞府"
+    },
+    {
+     "name": "芭蕉扇",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "能扇息火焰山烈火的宝扇"
+    },
+    {
+     "name": "照妖镜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "托塔李天王所持宝镜，能照妖本象"
+    },
+    {
+     "name": "斩妖剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒所用宝剑"
+    },
+    {
+     "name": "缚妖索",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒所用绳索，能缚妖"
+    },
+    {
+     "name": "火轮儿",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "哪吒所用法宝，能吹真火"
+    },
+    {
+     "name": "三调芭蕉扇",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空三借芭蕉扇熄火焰山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "牛魔王",
+     "predicate": "SPOUSE",
+     "object": "铁扇公主",
+     "evidence": "扇子在我山妻处收着哩",
+     "confidence": 0.95
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "DEFEATED",
+     "object": "牛魔王",
+     "evidence": "被哪吒又砍一剑，头落处，又钻出一个头来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "DEFEATED",
+     "object": "牛魔王",
+     "evidence": "又被托塔天王将照妖镜照住本象，腾那不动，无计逃生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "SURRENDERED_TO",
+     "object": "观音菩萨",
+     "evidence": "情愿归顺佛家也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铁扇公主",
+     "predicate": "SURRENDERED_TO",
+     "object": "孙悟空",
+     "evidence": "愿将此扇奉承孙叔叔成功去也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "芭蕉扇",
+     "evidence": "行者近前接了扇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "OWNS",
+     "object": "照妖镜",
+     "evidence": "拿镜的是托塔李天王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "斩妖剑",
+     "evidence": "使斩妖剑望颈项上一挥",
+     "confidence": 0.95
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "缚妖索",
+     "evidence": "将缚妖索子解下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "OWNS",
+     "object": "火轮儿",
+     "evidence": "取出火轮儿挂在那老牛的角上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "铁扇公主",
+     "predicate": "OWNS",
+     "object": "芭蕉扇",
+     "evidence": "双手捧那柄丈二长短的芭蕉扇子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三调芭蕉扇",
+     "evidence": "孙行者三调芭蕉扇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三调芭蕉扇",
+     "evidence": "牛王叫道：夫人，将扇子出来，救我性命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铁扇公主",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三调芭蕉扇",
+     "evidence": "罗刹听叫，急卸了钗环",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三调芭蕉扇",
+     "predicate": "OCCURRED_AT",
+     "object": "火焰山",
+     "evidence": "火焰山遥八百程",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三调芭蕉扇",
+     "predicate": "OCCURRED_AT",
+     "object": "芭蕉洞",
+     "evidence": "回至芭蕉洞口",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "STATIONED_AT",
+     "object": "芭蕉洞",
+     "evidence": "扇子在我山妻处收着哩",
+     "confidence": 0.85
+    },
+    {
+     "subject": "铁扇公主",
+     "predicate": "STATIONED_AT",
+     "object": "芭蕉洞",
+     "evidence": "罗刹听叫，急卸了钗环",
+     "confidence": 0.85
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "哪吒",
+     "evidence": "太子笑道：大圣勿疑，你看我擒他",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "托塔李天王",
+     "evidence": "天王收刀，却才与行者相见",
+     "confidence": 0.9
+    },
+    {
+     "subject": "哪吒",
+     "predicate": "MEMBER_OF",
+     "object": "四大金刚",
+     "evidence": "哪吒见说，将缚妖索子解下",
+     "confidence": 0.5
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "MEMBER_OF",
+     "object": "四大金刚",
+     "evidence": "托塔天王将照妖镜照住本象",
+     "confidence": 0.5
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "火焰山",
+     "evidence": "孙大圣执着扇子，行近山边，尽气力挥了一扇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "铁扇公主",
+     "predicate": "RESCUED",
+     "object": "牛魔王",
+     "evidence": "夫人，将扇子出来，救我性命",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:27.285Z"
+}

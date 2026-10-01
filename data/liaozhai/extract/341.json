@@ -1,0 +1,50 @@
+{
+ "no": 341,
+ "title": "澂俗",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 73,
+   "entities": [
+    {
+     "name": "主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "澂俗篇中旅店主人，全家暴卒"
+    },
+    {
+     "name": "主人子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "澂俗篇中主人唯一活着的儿子"
+    },
+    {
+     "name": "旅邸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "澂俗篇中客人所住的旅店"
+    },
+    {
+     "name": "米盎",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "澂俗篇中群鼠钻入的米缸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "主人",
+     "predicate": "KIN",
+     "object": "主人子",
+     "evidence": "主人全家暴卒，惟一子在",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:20.780Z"
+}

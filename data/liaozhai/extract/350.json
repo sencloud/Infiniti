@@ -1,0 +1,36 @@
+{
+ "no": 350,
+ "title": "元宝",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 61,
+   "entities": [
+    {
+     "name": "元宝",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "广东临江山崖石上嵌的宝物"
+    },
+    {
+     "name": "临江山崖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "广东临江的险峻山崖，嵌有元宝"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "临江山崖",
+     "predicate": "OWNS",
+     "object": "元宝",
+     "evidence": "广东临江山崖巉岩，常有元宝嵌石上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:23.198Z"
+}

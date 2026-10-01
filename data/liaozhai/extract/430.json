@@ -1,0 +1,59 @@
+{
+ "no": 430,
+ "title": "司训",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 518,
+   "entities": [
+    {
+     "name": "教官某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《司训》中聋教官，与狐善，因献伪器免官"
+    },
+    {
+     "name": "学使",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《司训》中主持文场的学使，索呈进并叱免教官"
+    },
+    {
+     "name": "迟某",
+     "type": "Person",
+     "aliases": [
+      "迟"
+     ],
+     "nickname": "",
+     "description": "《司训》中沂水司训，性颠痴，埋金被门斗窃取"
+    },
+    {
+     "name": "门斗",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《司训》中迟某的仆役，掘取迟某所埋银两"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "学使",
+     "predicate": "PUNISHED",
+     "object": "教官某",
+     "evidence": "学使叱出之，遂免官",
+     "confidence": 0.95
+    },
+    {
+     "subject": "门斗",
+     "predicate": "HARMED",
+     "object": "迟某",
+     "evidence": "次日，迟出，门斗入，掘取而去",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:55.234Z"
+}

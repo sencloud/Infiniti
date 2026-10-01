@@ -1,0 +1,78 @@
+{
+ "no": 1,
+ "title": "1.1 生活 观察",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1081,
+   "entities": [
+    {
+     "name": "数学",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "研究数量关系和空间形式的科学"
+    },
+    {
+     "name": "数量关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数学研究的一个方面"
+    },
+    {
+     "name": "空间形式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数学研究的一个方面"
+    },
+    {
+     "name": "几何图形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "空间中物体的形状"
+    },
+    {
+     "name": "数字",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示数量的符号"
+    },
+    {
+     "name": "图形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "几何形状"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "数学",
+     "predicate": "INCLUDES",
+     "object": "数量关系",
+     "evidence": "数学来源于生活，是研究数量关系和空间形式的科学。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数学",
+     "predicate": "INCLUDES",
+     "object": "空间形式",
+     "evidence": "数学来源于生活，是研究数量关系和空间形式的科学。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "几何图形",
+     "predicate": "RELATED",
+     "object": "数字",
+     "evidence": "在人类文明的发展过程中，图形和数字是人们表达和传递信息的重要载体。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:29.445Z"
+}

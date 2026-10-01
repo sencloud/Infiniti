@@ -1,0 +1,533 @@
+{
+ "no": 35,
+ "title": "外道施威欺正性 心猿获宝伏邪魔",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5897,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿",
+      "行者孙",
+      "者行孙"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大，变化多端"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，孙悟空师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "道教尊神，葫芦原主"
+    },
+    {
+     "name": "银角大王",
+     "type": "Person",
+     "aliases": [
+      "银角",
+      "太上老君看银炉童子"
+     ],
+     "nickname": "银角",
+     "description": "平顶山莲花洞二魔，太上老君童子"
+    },
+    {
+     "name": "狐阿七大王",
+     "type": "Person",
+     "aliases": [
+      "狐阿七"
+     ],
+     "nickname": "阿七",
+     "description": "压龙山老魔之舅，率妖兵助阵"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "秉教上雷音，求经归觉正",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "秉教上雷音，求经归觉正",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "家居花果山，祖贯水帘洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "紫金红葫芦",
+     "evidence": "行者就于袖中取出葫芦道：泼魔，你看！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "银角大王",
+     "evidence": "照定妖魔，叫声银角大王。那怪不敢闭口，只得应了一声，倏的装在里面",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "这大圣才按落云头，闯入莲花洞里，解下唐僧与八戒、沙和尚来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "这大圣才按落云头，闯入莲花洞里，解下唐僧与八戒、沙和尚来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "这大圣才按落云头，闯入莲花洞里，解下唐僧与八戒、沙和尚来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "银角大王",
+     "evidence": "这老魔与大圣战经二十回合，不分胜负",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "狐阿七大王",
+     "evidence": "两个在山头一来一往，战经三四回合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "ORIGIN_OF",
+     "object": "太上老君",
+     "evidence": "我这葫芦是混沌初分……有一位太上老祖……老君留下到如今者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "MEMBER_OF",
+     "object": "莲花洞",
+     "evidence": "我和你私离上界，转托尘凡，指望同享荣华，永为山洞之主",
+     "confidence": 0.9
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "OWNS",
+     "object": "芭蕉扇",
+     "evidence": "还有七星剑、芭蕉扇与净瓶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "银角大王",
+     "predicate": "OWNS",
+     "object": "羊脂玉净瓶",
+     "evidence": "还有七星剑、芭蕉扇与净瓶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐阿七大王",
+     "predicate": "KIN",
+     "object": "银角大王",
+     "evidence": "原来那老舅爷是他母亲之弟，名唤狐阿七大王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐阿七大王",
+     "predicate": "MEMBER_OF",
+     "object": "压龙山",
+     "evidence": "帅本洞妖兵二百余名，特来助阵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐阿七大王",
+     "predicate": "ATTACKED",
+     "object": "孙悟空",
+     "evidence": "那怪物侧身躲过，使方天戟劈面相印",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "狐阿七大王",
+     "evidence": "这壁厢八戒见了，急掣九齿钯挡住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "请我师徒们下来，与你令弟念卷受生经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "请我师徒们下来，与你令弟念卷受生经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "请我师徒们下来，与你令弟念卷受生经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "羊脂玉净瓶",
+     "evidence": "你看他窃了这瓶子，喜喜欢欢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "芭蕉扇",
+     "evidence": "被他轻轻的走上前拔了扇子",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 996,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，孙悟空师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，使九齿钉钯"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，使降妖宝杖"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "南海菩萨，安排此难考验取经人"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "兜率天宫主人，金角银角之主人"
+    },
+    {
+     "name": "金角大王",
+     "type": "Person",
+     "aliases": [
+      "金角",
+      "太上老君看金炉童子"
+     ],
+     "nickname": "金角大王",
+     "description": "太上老君看金炉童子，下界为妖"
+    },
+    {
+     "name": "阿七",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "阿七",
+     "description": "狐狸精，金角大王老舅，被八戒筑死"
+    },
+    {
+     "name": "莲花洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "金角大王、银角大王盘踞的妖洞"
+    },
+    {
+     "name": "兜率院",
+     "type": "Organization",
+     "aliases": [
+      "兜率天宫"
+     ],
+     "nickname": "",
+     "description": "太上老君所居天宫"
+    },
+    {
+     "name": "紫金红葫芦",
+     "type": "Item",
+     "aliases": [
+      "葫芦"
+     ],
+     "nickname": "",
+     "description": "太上老君盛丹的葫芦"
+    },
+    {
+     "name": "羊脂玉净瓶",
+     "type": "Item",
+     "aliases": [
+      "净瓶"
+     ],
+     "nickname": "",
+     "description": "太上老君盛水的净瓶"
+    },
+    {
+     "name": "七星剑",
+     "type": "Item",
+     "aliases": [
+      "宝剑"
+     ],
+     "nickname": "",
+     "description": "太上老君炼魔的宝剑"
+    },
+    {
+     "name": "芭蕉扇",
+     "type": "Item",
+     "aliases": [
+      "扇子"
+     ],
+     "nickname": "",
+     "description": "太上老君搧火的扇子"
+    },
+    {
+     "name": "幌金绳",
+     "type": "Item",
+     "aliases": [
+      "绳子"
+     ],
+     "nickname": "",
+     "description": "太上老君勒袍的带子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "阿七",
+     "evidence": "被八戒赶上，照背后一钯，就筑得九点鲜红往外冒，可怜一灵真性赴前程。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "金角大王",
+     "evidence": "解下净瓶，罩定老魔，叫声“金角大王！”那怪只道是自家败残的小妖呼叫，就回头应了一声，飕的装将进去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "七星剑",
+     "evidence": "只见那七星剑坠落尘埃，也归了行者。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "羊脂玉净瓶",
+     "evidence": "解下净瓶，罩定老魔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "OWNS",
+     "object": "紫金红葫芦",
+     "evidence": "葫芦是我盛丹的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "OWNS",
+     "object": "羊脂玉净瓶",
+     "evidence": "净瓶是我盛水的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "OWNS",
+     "object": "七星剑",
+     "evidence": "宝剑是我炼魔的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "OWNS",
+     "object": "芭蕉扇",
+     "evidence": "扇子是我搧火的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "OWNS",
+     "object": "幌金绳",
+     "evidence": "绳子是我一根勒袍的带",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金角大王",
+     "predicate": "ORIGIN_OF",
+     "object": "太上老君",
+     "evidence": "一个是我看金炉的童子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTERMINDED",
+     "object": "金角大王",
+     "evidence": "此乃海上菩萨问我借了三次，送他在此托化妖魔，看你师徒可有真心往西去也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金角大王",
+     "predicate": "MEMBER_OF",
+     "object": "莲花洞",
+     "evidence": "却说那三藏坐在莲花洞里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金角大王",
+     "predicate": "STATIONED_AT",
+     "object": "莲花洞",
+     "evidence": "却说那三藏坐在莲花洞里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "MEMBER_OF",
+     "object": "兜率院",
+     "evidence": "缥缈同归兜率院，逍遥直上大罗天。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "教保唐僧西去取经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "教保唐僧西去取经",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:39.854Z"
+}

@@ -1,0 +1,92 @@
+{
+ "no": 276,
+ "title": "阎罗薨",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 634,
+   "entities": [
+    {
+     "name": "巡抚某公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《阎罗薨》中人物，其父曾任南服总督"
+    },
+    {
+     "name": "巡抚某公父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《阎罗薨》中人物，生前为南服总督，死后受冥罚"
+    },
+    {
+     "name": "魏经历",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《阎罗薨》中人物，实为阎罗，押解粮食至，后死于廨中"
+    },
+    {
+     "name": "张禹定",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《阎罗薨》中人物，松江人，讲述此事"
+    },
+    {
+     "name": "南服",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《阎罗薨》中地名，南方地区"
+    },
+    {
+     "name": "廨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《阎罗薨》中官署，魏经历死于此"
+    },
+    {
+     "name": "松江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《阎罗薨》中地名，张禹定籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "巡抚某公",
+     "predicate": "KIN",
+     "object": "巡抚某公父",
+     "evidence": "巡抚某公父，先为南服总督",
+     "confidence": 0.95
+    },
+    {
+     "subject": "巡抚某公父",
+     "predicate": "NATIVE_OF",
+     "object": "南服",
+     "evidence": "先为南服总督",
+     "confidence": 0.8
+    },
+    {
+     "subject": "魏经历",
+     "predicate": "LIVES_AT",
+     "object": "廨",
+     "evidence": "及明，视魏，则已死于廨中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张禹定",
+     "predicate": "NATIVE_OF",
+     "object": "松江",
+     "evidence": "松江张禹定言之",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:57.283Z"
+}

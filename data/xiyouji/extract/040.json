@@ -1,0 +1,776 @@
+{
+ "no": 40,
+ "title": "婴儿戏化禅心乱 猿马刀归木母空",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5691,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "白龙马",
+     "type": "Person",
+     "aliases": [
+      "玉龙三太子",
+      "小白龙",
+      "八部天龙马",
+      "西海龙子"
+     ],
+     "nickname": "小白龙",
+     "description": "唐僧坐骑，西海龙王三太子"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "南海观音菩萨，取经护法"
+    },
+    {
+     "name": "文殊菩萨",
+     "type": "Person",
+     "aliases": [
+      "文殊",
+      "文殊师利",
+      "七佛之师"
+     ],
+     "nickname": "文殊菩萨",
+     "description": "文殊菩萨，曾降伏乌鸡国妖怪"
+    },
+    {
+     "name": "红孩儿",
+     "type": "Person",
+     "aliases": [
+      "圣婴大王"
+     ],
+     "nickname": "圣婴大王",
+     "description": "牛魔王与铁扇公主之子，善吐三昧真火"
+    },
+    {
+     "name": "乌鸡国国王",
+     "type": "Person",
+     "aliases": [
+      "乌鸡国王"
+     ],
+     "nickname": "",
+     "description": "乌鸡国国王，被妖怪推入井中三年"
+    },
+    {
+     "name": "乌鸡国太子",
+     "type": "Person",
+     "aliases": [
+      "太子"
+     ],
+     "nickname": "",
+     "description": "乌鸡国国王之子"
+    },
+    {
+     "name": "宝林寺僧人",
+     "type": "Organization",
+     "aliases": [
+      "宝林寺众僧"
+     ],
+     "nickname": "",
+     "description": "宝林寺的僧人群体"
+    },
+    {
+     "name": "乌鸡国",
+     "type": "Organization",
+     "aliases": [
+      "乌鸡国朝廷"
+     ],
+     "nickname": "",
+     "description": "西牛贺洲国度，国王被妖怪篡位"
+    },
+    {
+     "name": "枯松涧",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿故事发生地，号山枯松涧"
+    },
+    {
+     "name": "号山",
+     "type": "Place",
+     "aliases": [
+      "高山"
+     ],
+     "nickname": "",
+     "description": "险峻高山，红孩儿盘踞处"
+    },
+    {
+     "name": "红百万",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "红百万",
+     "description": "红孩儿谎称的祖公公，广积金银"
+    },
+    {
+     "name": "红十万",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "红十万",
+     "description": "红孩儿谎称的父亲，结交豪杰"
+    },
+    {
+     "name": "红孩儿之母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿谎称被掳走的母亲"
+    },
+    {
+     "name": "李四",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿谎称的姨夫"
+    },
+    {
+     "name": "红三",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿谎称的族伯"
+    },
+    {
+     "name": "红孩儿外公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿谎称的外公，住山南"
+    },
+    {
+     "name": "红孩儿姑娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿谎称的姑姑，住岭北"
+    },
+    {
+     "name": "红孩儿堂叔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿谎称的堂叔，住本庄"
+    },
+    {
+     "name": "红孩儿堂兄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿谎称的堂兄，住本庄"
+    },
+    {
+     "name": "红孩儿之庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿谎称的家乡，枯松涧那边"
+    },
+    {
+     "name": "红孩儿戏化唐僧",
+     "type": "Event",
+     "aliases": [
+      "婴儿戏化禅心乱"
+     ],
+     "nickname": "",
+     "description": "红孩儿变作七岁顽童吊在树上，骗唐僧救他"
+    },
+    {
+     "name": "红孩儿摄走唐僧",
+     "type": "Event",
+     "aliases": [
+      "摄走唐僧"
+     ],
+     "nickname": "",
+     "description": "红孩儿弄旋风将唐僧摄去"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "如意金箍棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器，可随意变化"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [
+      "钉钯"
+     ],
+     "nickname": "",
+     "description": "猪八戒的兵器"
+    },
+    {
+     "name": "降妖宝杖",
+     "type": "Item",
+     "aliases": [
+      "宝杖"
+     ],
+     "nickname": "",
+     "description": "沙僧的兵器"
+    },
+    {
+     "name": "冲天冠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌鸡国国王的冠冕"
+    },
+    {
+     "name": "碧玉带",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌鸡国国王的玉带"
+    },
+    {
+     "name": "赭黄袍",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌鸡国国王的龙袍"
+    },
+    {
+     "name": "无忧履",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌鸡国国王的鞋子"
+    },
+    {
+     "name": "白玉圭",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌鸡国国王的玉圭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "红孩儿",
+     "evidence": "行者道：'我驮！我驮！'那怪物暗自欢喜，顺顺当当的要行者驮他。",
+     "confidence": 0.6
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "红百万",
+     "evidence": "我祖公公姓红，只因广积金银，家私巨万，混名唤做红百万。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "红十万",
+     "evidence": "家产遗与我父。近来人事奢侈，家私渐废，改名唤做红十万。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "红孩儿之母",
+     "evidence": "见我母亲有些颜色，拐将去做甚么压寨夫人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "李四",
+     "evidence": "涧头李四，是我姨夫。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "红三",
+     "evidence": "林内红三，是我族伯。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "红孩儿外公",
+     "evidence": "我外公家在山南。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "红孩儿姑娘",
+     "evidence": "姑娘住居岭北。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "红孩儿堂叔",
+     "evidence": "还有堂叔堂兄都住在本庄左右。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "KIN",
+     "object": "红孩儿堂兄",
+     "evidence": "还有堂叔堂兄都住在本庄左右。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "NATIVE_OF",
+     "object": "红孩儿之庄",
+     "evidence": "山西去有一条枯松涧，涧那边有一庄村，我是那里人家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "STATIONED_AT",
+     "object": "号山",
+     "evidence": "他朝朝在山间等候，不期今日到了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "红孩儿戏化唐僧",
+     "evidence": "好妖怪，即散红光，按云头落下，去那山坡里，摇身一变，变作七岁顽童。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "红孩儿摄走唐僧",
+     "evidence": "那怪已骋风头，将唐僧摄去了，无踪无影。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿戏化唐僧",
+     "predicate": "OCCURRED_AT",
+     "object": "号山",
+     "evidence": "师徒们离了乌鸡国……忽又见一座高山……那山凹里有一朵红云。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿摄走唐僧",
+     "predicate": "OCCURRED_AT",
+     "object": "号山",
+     "evidence": "好怪物，就在半空里弄了一阵旋风……将唐僧摄去了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "把金箍棒往后一指。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "慌得个八戒急掣钉钯。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "降妖宝杖",
+     "evidence": "沙僧忙轮宝杖。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国国王",
+     "predicate": "OWNS",
+     "object": "冲天冠",
+     "evidence": "原来是那宝林寺僧人，捧着那冲天冠、碧玉带、赭黄袍、无忧履进得来也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国国王",
+     "predicate": "OWNS",
+     "object": "碧玉带",
+     "evidence": "原来是那宝林寺僧人，捧着那冲天冠、碧玉带、赭黄袍、无忧履进得来也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国国王",
+     "predicate": "OWNS",
+     "object": "赭黄袍",
+     "evidence": "原来是那宝林寺僧人，捧着那冲天冠、碧玉带、赭黄袍、无忧履进得来也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国国王",
+     "predicate": "OWNS",
+     "object": "无忧履",
+     "evidence": "原来是那宝林寺僧人，捧着那冲天冠、碧玉带、赭黄袍、无忧履进得来也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国国王",
+     "predicate": "OWNS",
+     "object": "白玉圭",
+     "evidence": "教太子拿出白玉圭来，与他执在手里。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国国王",
+     "predicate": "KIN",
+     "object": "乌鸡国太子",
+     "evidence": "他与三宫妃后并太子一家儿，捧毂推轮，送出城廓。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国国王",
+     "predicate": "LEADS",
+     "object": "乌鸡国",
+     "evidence": "那国王苦让不过，只得上了宝殿，南面称孤，大赦天下。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宝林寺僧人",
+     "predicate": "MEMBER_OF",
+     "object": "乌鸡国",
+     "evidence": "封赠了宝林寺僧人回去。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "那长老只得宽怀，加鞭策马，奔至山岩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "慌得个八戒急掣钉钯，沙僧忙轮宝杖，把唐僧围护在当中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "慌得个八戒急掣钉钯，沙僧忙轮宝杖，把唐僧围护在当中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白龙马",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "只见白龙马战兢兢发喊声嘶。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "乌鸡国国王",
+     "evidence": "行者将菩萨降魔收怪的那一节，陈诉与他君臣听了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文殊菩萨",
+     "predicate": "ORIGIN_OF",
+     "object": "乌鸡国妖怪",
+     "evidence": "假捏文殊菩萨哄了我等。",
+     "confidence": 0.6
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1966,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "西天取经的圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "劝化唐僧师徒的菩萨"
+    },
+    {
+     "name": "牛魔王",
+     "type": "Person",
+     "aliases": [
+      "大力牛魔王",
+      "平天大圣",
+      "牛王",
+      "西方大力王"
+     ],
+     "nickname": "牛魔王",
+     "description": "红孩儿之父，孙悟空结义大哥"
+    },
+    {
+     "name": "铁扇公主",
+     "type": "Person",
+     "aliases": [
+      "罗刹女",
+      "铁扇仙",
+      "公主"
+     ],
+     "nickname": "铁扇公主",
+     "description": "红孩儿之母，牛魔王之妻"
+    },
+    {
+     "name": "红孩儿",
+     "type": "Person",
+     "aliases": [
+      "圣婴大王",
+      "善财童子",
+      "红孩"
+     ],
+     "nickname": "圣婴大王",
+     "description": "牛魔王与罗刹女之子，镇守号山"
+    },
+    {
+     "name": "号山",
+     "type": "Place",
+     "aliases": [
+      "六百里钻头号山"
+     ],
+     "nickname": "",
+     "description": "红孩儿盘踞的六百里大山"
+    },
+    {
+     "name": "枯松涧",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "号山中的山涧"
+    },
+    {
+     "name": "火云洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿居住的洞府"
+    },
+    {
+     "name": "火焰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "红孩儿曾修行之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "感蒙观世音菩萨劝化，与我们摩顶受戒，改换法名，皈依佛果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "感蒙观世音菩萨劝化，与我们摩顶受戒，改换法名，皈依佛果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "感蒙观世音菩萨劝化，与我们摩顶受戒，改换法名，皈依佛果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "情愿保护唐僧上西方拜佛求经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "情愿保护唐僧上西方拜佛求经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "情愿保护唐僧上西方拜佛求经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "KIN",
+     "object": "红孩儿",
+     "evidence": "他是牛魔王的儿子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "铁扇公主",
+     "predicate": "KIN",
+     "object": "红孩儿",
+     "evidence": "罗刹女养的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛魔王",
+     "predicate": "SPOUSE",
+     "object": "铁扇公主",
+     "evidence": "牛魔王的儿子，罗刹女养的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "STATIONED_AT",
+     "object": "号山",
+     "evidence": "牛魔王使他来镇守号山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "STATIONED_AT",
+     "object": "火云洞",
+     "evidence": "涧边有一座洞，叫做火云洞，那洞里有一个魔王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "NATIVE_OF",
+     "object": "火焰山",
+     "evidence": "他曾在火焰山修行了三百年",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "牛魔王",
+     "evidence": "那牛魔王曾与老孙结七弟兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "ATTACKED",
+     "object": "号山",
+     "evidence": "常常的把我们山神土地拿了去，烧火顶门",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:53.371Z"
+}

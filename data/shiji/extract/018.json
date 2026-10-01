@@ -1,0 +1,141 @@
+{
+ "no": 18,
+ "title": "高祖功臣侯者年表",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 488,
+   "entities": [
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉高祖",
+      "沛公",
+      "高祖",
+      "汉王"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝，封功臣为侯"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "《史记》作者，本篇作者"
+    },
+    {
+     "name": "萧何",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉初功臣，受封侯"
+    },
+    {
+     "name": "曹参",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉初功臣，受封侯"
+    },
+    {
+     "name": "绛侯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉初功臣，受封侯"
+    },
+    {
+     "name": "灌婴",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉初功臣，受封侯"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘邦建立的王朝"
+    },
+    {
+     "name": "周",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周朝"
+    },
+    {
+     "name": "夏",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "夏朝"
+    },
+    {
+     "name": "商",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "商朝"
+    },
+    {
+     "name": "唐虞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐尧虞舜时期"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘邦",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "汉兴，功臣受封者百有余人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "ENFEOFFED",
+     "object": "萧何",
+     "evidence": "萧、曹、绛、灌之属或至四万",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "ENFEOFFED",
+     "object": "曹参",
+     "evidence": "萧、曹、绛、灌之属或至四万",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "ENFEOFFED",
+     "object": "绛侯",
+     "evidence": "萧、曹、绛、灌之属或至四万",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "ENFEOFFED",
+     "object": "灌婴",
+     "evidence": "萧、曹、绛、灌之属或至四万",
+     "confidence": 0.8
+    },
+    {
+     "subject": "司马迁",
+     "predicate": "SERVED",
+     "object": "汉",
+     "evidence": "余读高祖侯功臣，察其首封，所以失之者",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:08.413Z"
+}

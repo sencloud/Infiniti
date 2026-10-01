@@ -1,0 +1,99 @@
+{
+ "no": 26,
+ "title": "7.2 幂的乘方与积的乘方",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3796,
+   "entities": [
+    {
+     "name": "幂的乘方",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "幂的乘方，底数不变，指数相乘，即(a^m)^n=a^{mn}"
+    },
+    {
+     "name": "积的乘方",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "积的乘方，把积的每一个因式分别乘方，再把所得的幂相乘，即(ab)^m=a^m b^m"
+    },
+    {
+     "name": "同底数幂的乘法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "同底数幂相乘，底数不变，指数相加，即a^m·a^n=a^{m+n}"
+    },
+    {
+     "name": "乘法交换律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘法交换律：a·b=b·a"
+    },
+    {
+     "name": "乘法结合律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘法结合律：(a·b)·c=a·(b·c)"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "同底数幂的乘法",
+     "predicate": "PREREQUISITE",
+     "object": "幂的乘方",
+     "evidence": "同底数幂的乘法运算性质 于是，我们得到幂的乘方运算性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同底数幂的乘法",
+     "predicate": "DERIVES",
+     "object": "幂的乘方",
+     "evidence": "同底数幂的乘法运算性质 于是，我们得到幂的乘方运算性质",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘法交换律",
+     "predicate": "PREREQUISITE",
+     "object": "积的乘方",
+     "evidence": "乘法交换律、乘法结合律",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乘法结合律",
+     "predicate": "PREREQUISITE",
+     "object": "积的乘方",
+     "evidence": "乘法交换律、乘法结合律",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乘法交换律",
+     "predicate": "DERIVES",
+     "object": "积的乘方",
+     "evidence": "乘法交换律、乘法结合律",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乘法结合律",
+     "predicate": "DERIVES",
+     "object": "积的乘方",
+     "evidence": "乘法交换律、乘法结合律",
+     "confidence": 0.9
+    },
+    {
+     "subject": "幂的乘方",
+     "predicate": "APPLIES_TO",
+     "object": "积的乘方",
+     "evidence": "例4（1）(-2ab^3c^2)^4 = 2^4 · a^4 · (b^3)^4 · (c^2)^4",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:40.396Z"
+}

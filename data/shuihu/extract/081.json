@@ -1,0 +1,827 @@
+{
+ "no": 81,
+ "title": "第八十一回 燕青月夜遇道君 戴宗定计出乐和",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5583,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，主张招安"
+    },
+    {
+     "name": "卢俊义",
+     "type": "Person",
+     "aliases": [
+      "玉麒麟",
+      "卢员外",
+      "河北玉麒麟"
+     ],
+     "nickname": "玉麒麟",
+     "description": "梁山泊好汉"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，定计探听招安"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "小旋风",
+      "柴大官人",
+      "柴皇城"
+     ],
+     "nickname": "小旋风",
+     "description": "柴世宗嫡派子孙，梁山好汉"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山好汉，随燕青赴东京"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，曾与杨太尉厮打"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "北京大名府人氏，梁山好汉，入李师师家干事"
+    },
+    {
+     "name": "朱武",
+     "type": "Person",
+     "aliases": [
+      "神机军师",
+      "定远"
+     ],
+     "nickname": "神机军师",
+     "description": "梁山好汉，建议求宿太尉"
+    },
+    {
+     "name": "萧让",
+     "type": "Person",
+     "aliases": [
+      "圣手书生"
+     ],
+     "nickname": "圣手书生",
+     "description": "梁山好汉，被高俅带往京师"
+    },
+    {
+     "name": "乐和",
+     "type": "Person",
+     "aliases": [
+      "铁叫子"
+     ],
+     "nickname": "铁叫子",
+     "description": "梁山好汉，被高俅带往京师"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，被梁山擒捉后放还"
+    },
+    {
+     "name": "闻焕章",
+     "type": "Person",
+     "aliases": [
+      "闻参谋"
+     ],
+     "nickname": "",
+     "description": "高俅留下的参谋，与宿元景同窗"
+    },
+    {
+     "name": "宿元景",
+     "type": "Person",
+     "aliases": [
+      "宿太尉"
+     ],
+     "nickname": "",
+     "description": "太尉，与闻焕章同窗，与宋江有旧"
+    },
+    {
+     "name": "李师师",
+     "type": "Person",
+     "aliases": [
+      "李行首",
+      "花魁娘子"
+     ],
+     "nickname": "",
+     "description": "东京名妓，天子心爱之人"
+    },
+    {
+     "name": "李妈妈",
+     "type": "Person",
+     "aliases": [
+      "虔婆"
+     ],
+     "nickname": "",
+     "description": "李师师之母，爱财"
+    },
+    {
+     "name": "道君皇帝",
+     "type": "Person",
+     "aliases": [
+      "官家",
+      "天子",
+      "圣上",
+      "道君"
+     ],
+     "nickname": "",
+     "description": "宋朝皇帝，私行李师师家"
+    },
+    {
+     "name": "杨太尉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾与李逵厮打"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "梁山泊好汉",
+      "梁山泊众头目"
+     ],
+     "nickname": "",
+     "description": "梁山泊好汉势力"
+    },
+    {
+     "name": "朝廷",
+     "type": "Organization",
+     "aliases": [
+      "京师",
+      "殿帅府"
+     ],
+     "nickname": "",
+     "description": "宋朝朝廷"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [
+      "开封府",
+      "京师"
+     ],
+     "nickname": "",
+     "description": "宋朝都城"
+    },
+    {
+     "name": "李师师家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李师师居所"
+    },
+    {
+     "name": "华州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宿太尉曾降香之地"
+    },
+    {
+     "name": "金沙滩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊渡口"
+    },
+    {
+     "name": "万寿门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京城门"
+    },
+    {
+     "name": "招安",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊受朝廷招安之事"
+    },
+    {
+     "name": "燕青见道君",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕青在李师师家面见道君皇帝求赦书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "话说梁山泊好汉，水战三败高俅，尽被擒捉上山。宋公明不肯杀害，尽数放还。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "吴用笑道：“我观此人生的蜂目蛇形，是个转面无恩之人。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "燕青便起身说道：“旧年闹了东京，是小弟去李师师家入肩。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "戴宗便道：“小弟帮他去走一遭。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "萧让",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "就带萧让、乐和前往京师听候招安一事。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐和",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "就带萧让、乐和前往京师听候招安一事。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱武",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "神机军师朱武道：“兄长昔日打华州时，尝与宿太尉有恩。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "DEFEATED",
+     "object": "梁山泊",
+     "evidence": "话说梁山泊好汉，水战三败高俅，尽被擒捉上山。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "高俅",
+     "evidence": "宋公明不肯杀害，尽数放还。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "SERVED",
+     "object": "朝廷",
+     "evidence": "高太尉许多人马回京，就带萧让、乐和前往京师听候招安一事。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "闻焕章",
+     "predicate": "FRIEND",
+     "object": "宿元景",
+     "evidence": "闻焕章道：“他是在下同窗朋友，如今和圣上寸步不离。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "宿元景",
+     "evidence": "宿太尉旧日在华州降香，曾与宋江有一面之识。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "燕青便起身说道：“旧年闹了东京，是小弟去李师师家入肩。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "戴宗便道：“小弟帮他去走一遭。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "NATIVE_OF",
+     "object": "北京大名府",
+     "evidence": "小人是北京大名府人氏，人都唤小人做浪子燕青。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "STATIONED_AT",
+     "object": "李师师家",
+     "evidence": "便向客位侧边，收拾一间房，教燕青安歇。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李师师",
+     "predicate": "SPOUSE",
+     "object": "道君皇帝",
+     "evidence": "他却是天子心爱的人，官家那里疑他？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SWORN_BROTHER",
+     "object": "李师师",
+     "evidence": "燕青说道：“小人今年二十有五，却小两年。娘子既然错爱，愿拜为姐姐。”燕青便起身，推金山，倒玉柱，拜了八拜。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "KIN",
+     "object": "李妈妈",
+     "evidence": "当时燕青又请李妈妈来，也拜了，拜做干娘。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青见道君",
+     "evidence": "燕青听的，便去拜告李师师道：“姐姐做个方便，今夜教小弟得见圣颜，告的纸御笔赦书，赦了小乙罪犯，出自姐姐之德。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青见道君",
+     "predicate": "OCCURRED_AT",
+     "object": "李师师家",
+     "evidence": "只见道君皇帝引着一个小黄门，扮作白衣秀士，从地道中径到李师师家后门来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "道君皇帝",
+     "predicate": "OWNS",
+     "object": "赦书",
+     "evidence": "天子便写御书道云：“神霄玉府真主宣和羽士虚静道君皇帝，特赦燕青本身一应无罪，诸司不许拿问。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "OWNS",
+     "object": "赦书",
+     "evidence": "燕青再拜，叩头受命。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "FOUGHT",
+     "object": "杨太尉",
+     "evidence": "门首和杨太尉厮打的，正是黑旋风李逵。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "招安",
+     "evidence": "指望将替天行道、保国安民之心，上达天听，早得招安，免致生灵受苦。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "招安",
+     "evidence": "吴用道：“哥哥再选两个乖觉的人，多将金宝前去京师，探听消息，就行钻刺关节，斡运衷情，达知今上，令高太尉藏匿不得，此为上计。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "李师师",
+     "evidence": "燕青拜谢道：“小人也唱个曲儿伏侍娘子。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李师师",
+     "predicate": "SERVED",
+     "object": "道君皇帝",
+     "evidence": "李师师冠梳插带，整肃衣裳，前来接驾。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "道君皇帝",
+     "evidence": "李师师叫燕青吹箫，伏侍圣上饮酒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "萧让",
+     "evidence": "萧让、乐和，软监在府里。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "乐和",
+     "evidence": "萧让、乐和，软监在府里。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2617,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，主张招安"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山好汉，与燕青同去东京"
+    },
+    {
+     "name": "燕青",
+     "type": "Person",
+     "aliases": [
+      "浪子",
+      "燕小乙"
+     ],
+     "nickname": "浪子",
+     "description": "梁山好汉，月夜遇道君"
+    },
+    {
+     "name": "萧让",
+     "type": "Person",
+     "aliases": [
+      "圣手书生"
+     ],
+     "nickname": "圣手书生",
+     "description": "梁山好汉，被高俅带至东京"
+    },
+    {
+     "name": "乐和",
+     "type": "Person",
+     "aliases": [
+      "铁叫子"
+     ],
+     "nickname": "铁叫子",
+     "description": "梁山好汉，被高俅带至东京"
+    },
+    {
+     "name": "李师师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京名妓，与天子相好"
+    },
+    {
+     "name": "宿太尉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "朝廷官员，天子近侍"
+    },
+    {
+     "name": "闻焕章",
+     "type": "Person",
+     "aliases": [
+      "闻参谋"
+     ],
+     "nickname": "",
+     "description": "宿太尉同窗，被留梁山为质"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉",
+      "高殿帅"
+     ],
+     "nickname": "",
+     "description": "朝廷太尉，曾征梁山被擒"
+    },
+    {
+     "name": "童贯",
+     "type": "Person",
+     "aliases": [
+      "童枢密"
+     ],
+     "nickname": "",
+     "description": "朝廷枢密，曾征梁山败回"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江等好汉聚义之处"
+    },
+    {
+     "name": "高太尉府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高俅府邸，在东京"
+    },
+    {
+     "name": "宿太尉府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宿太尉府邸，在东京"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋朝都城"
+    },
+    {
+     "name": "客店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕青戴宗所住客店"
+    },
+    {
+     "name": "茶坊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "太平桥附近茶坊"
+    },
+    {
+     "name": "太平桥",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高太尉府附近地点"
+    },
+    {
+     "name": "招安",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊受朝廷招安之事"
+    },
+    {
+     "name": "燕青月夜遇道君",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕青通过李师师得见天子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "燕青",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "男女是梁山泊浪子燕青",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我同戴宗在这里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "萧让",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "带领梁山萧让、乐和赴京",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐和",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "带领梁山萧让、乐和赴京",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江这伙，旗上大书‘替天行道’",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "宋江哥哥有些微物相送",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "宋江哥哥有些微物相送",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐和",
+     "predicate": "KIN",
+     "object": "戴宗",
+     "evidence": "一个跟的叫做乐和，与我这哥哥是亲眷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "闻焕章",
+     "predicate": "FRIEND",
+     "object": "宿太尉",
+     "evidence": "原来是我幼年间同窗的闻焕章",
+     "confidence": 0.95
+    },
+    {
+     "subject": "闻焕章",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "昨蒙高殿帅唤至军前，参谋大事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "DEFEATED",
+     "object": "梁山泊",
+     "evidence": "高太尉提督军马……只三阵，杀的手脚无措",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁山泊",
+     "predicate": "DEFEATED",
+     "object": "高俅",
+     "evidence": "自己亦被活捉上山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁山泊",
+     "predicate": "DEFEATED",
+     "object": "童贯",
+     "evidence": "童枢密引军到来，只两阵杀的片甲不回",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "PARTICIPATED_IN",
+     "object": "燕青月夜遇道君",
+     "evidence": "燕青奏道：‘宋江这伙……’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青月夜遇道君",
+     "predicate": "OCCURRED_AT",
+     "object": "东京",
+     "evidence": "清夜宫车暗出游，青楼深处乐绸缪",
+     "confidence": 0.8
+    },
+    {
+     "subject": "燕青",
+     "predicate": "PARTICIPATED_IN",
+     "object": "招安",
+     "evidence": "宋江等满眼只望太尉来招安",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "PARTICIPATED_IN",
+     "object": "招安",
+     "evidence": "我两个去下宿太尉的书",
+     "confidence": 0.85
+    },
+    {
+     "subject": "燕青",
+     "predicate": "OWNS",
+     "object": "赦书",
+     "evidence": "燕青拿了赦书",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "STATIONED_AT",
+     "object": "客店",
+     "evidence": "径来客店里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "STATIONED_AT",
+     "object": "客店",
+     "evidence": "径来客店里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "萧让",
+     "predicate": "STATIONED_AT",
+     "object": "高太尉府",
+     "evidence": "萧让、乐和在高太尉府中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐和",
+     "predicate": "STATIONED_AT",
+     "object": "高太尉府",
+     "evidence": "萧让、乐和在高太尉府中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕青",
+     "predicate": "RESCUED",
+     "object": "乐和",
+     "evidence": "定计赚你两个出去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "RESCUED",
+     "object": "萧让",
+     "evidence": "定计赚你两个出去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "RESCUED",
+     "object": "乐和",
+     "evidence": "我同戴宗在这里，定计赚你两个出去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "RESCUED",
+     "object": "萧让",
+     "evidence": "我同戴宗在这里，定计赚你两个出去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕青",
+     "predicate": "FRIEND",
+     "object": "李师师",
+     "evidence": "天子与李师师上床同寝",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:35:14.542Z"
+}

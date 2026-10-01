@@ -1,0 +1,85 @@
+{
+ "no": 307,
+ "title": "夏雪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 445,
+   "entities": [
+    {
+     "name": "大王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州大王庙之神，附人言，喜谄"
+    },
+    {
+     "name": "苏州百姓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州民众，因大雪祷于大王庙"
+    },
+    {
+     "name": "苏州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，丁亥年七月初六大雪"
+    },
+    {
+     "name": "大王庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州祭祀大王的庙宇"
+    },
+    {
+     "name": "河南归德府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，丁亥年六月初三大雪"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "苏州百姓",
+     "predicate": "LIVES_AT",
+     "object": "苏州",
+     "evidence": "苏州大雪。百姓皇骇",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苏州百姓",
+     "predicate": "PARTICIPATED_IN",
+     "object": "祷于大王庙",
+     "evidence": "共祷诸大王之庙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祷于大王庙",
+     "predicate": "OCCURRED_AT",
+     "object": "大王庙",
+     "evidence": "共祷诸大王之庙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大王",
+     "predicate": "HARMED",
+     "object": "苏州百姓",
+     "evidence": "苏州大雪。百姓皇骇",
+     "confidence": 0.8
+    },
+    {
+     "subject": "苏州百姓",
+     "predicate": "HELPED",
+     "object": "大王",
+     "evidence": "齐呼“大老爷”，雪立止",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:08.095Z"
+}

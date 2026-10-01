@@ -1,0 +1,245 @@
+{
+ "no": 136,
+ "title": "公孙九娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2354,
+   "entities": [
+    {
+     "name": "公孙九娘",
+     "type": "Spirit",
+     "aliases": [
+      "九娘"
+     ],
+     "nickname": "",
+     "description": "栖霞公孙氏女，死于于七之难，鬼魂与莱阳生相恋"
+    },
+    {
+     "name": "莱阳生",
+     "type": "Person",
+     "aliases": [
+      "吕生"
+     ],
+     "nickname": "",
+     "description": "莱阳人，于七案后至稷下，与九娘相恋"
+    },
+    {
+     "name": "朱生",
+     "type": "Spirit",
+     "aliases": [
+      "朱尔旦"
+     ],
+     "nickname": "",
+     "description": "莱阳生同邑友人，死于于七之难，为鬼后为甥女作媒"
+    },
+    {
+     "name": "甥女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "莱阳生外甥女，死于于七之难，鬼魂嫁朱生"
+    },
+    {
+     "name": "公孙老夫人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "九娘之母，死于于七之难，鬼魂"
+    },
+    {
+     "name": "莱霞里",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鬼村，因栖霞、莱阳两县新鬼聚居得名"
+    },
+    {
+     "name": "演武场",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南演武场，于七案中数百人被戮之处"
+    },
+    {
+     "name": "南郊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南南郊，伏刑东鬼多葬于此"
+    },
+    {
+     "name": "稷下",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "莱阳生至稷下，税舍下院"
+    },
+    {
+     "name": "于七一案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "于七起事失败后连坐被诛的事件"
+    },
+    {
+     "name": "罗袜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "九娘赠莱阳生的罗袜，后着风寸断"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "公孙九娘",
+     "predicate": "LOVES",
+     "object": "莱阳生",
+     "evidence": "邂逅含情，极尽欢昵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙九娘",
+     "predicate": "SPOUSE",
+     "object": "莱阳生",
+     "evidence": "入室，则九娘华烛凝待。邂逅含情，极尽欢昵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙九娘",
+     "predicate": "KIN",
+     "object": "公孙老夫人",
+     "evidence": "九娘母子，原解赴都",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙九娘",
+     "predicate": "LIVES_AT",
+     "object": "莱霞里",
+     "evidence": "此村何名？曰：莱霞里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙九娘",
+     "predicate": "PARTICIPATED_IN",
+     "object": "于七一案",
+     "evidence": "于七一案，连坐被诛者，栖霞、莱阳两县最多",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莱阳生",
+     "predicate": "KIN",
+     "object": "甥女",
+     "evidence": "生有甥女，早失恃，遗生鞠养",
+     "confidence": 0.95
+    },
+    {
+     "subject": "莱阳生",
+     "predicate": "LIVES_AT",
+     "object": "稷下",
+     "evidence": "有莱阳生至稷下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "莱阳生",
+     "predicate": "NATIVE_OF",
+     "object": "莱阳",
+     "evidence": "有莱阳生至稷下",
+     "confidence": 0.95
+    },
+    {
+     "subject": "莱阳生",
+     "predicate": "OWNS",
+     "object": "罗袜",
+     "evidence": "乃以罗袜赠生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "莱阳生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "于七一案",
+     "evidence": "有亲友二三人，亦在诛数",
+     "confidence": 0.7
+    },
+    {
+     "subject": "朱生",
+     "predicate": "FRIEND",
+     "object": "莱阳生",
+     "evidence": "仆与君文字交",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱生",
+     "predicate": "SPOUSE",
+     "object": "甥女",
+     "evidence": "甥女华妆迎笑。生问：何时于归？朱云：三日矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱生",
+     "predicate": "HELPED",
+     "object": "莱阳生",
+     "evidence": "仆已代致之矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "于七一案",
+     "evidence": "同邑朱生，亦死于于七之难者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甥女",
+     "predicate": "KIN",
+     "object": "公孙九娘",
+     "evidence": "旦晚与儿还往",
+     "confidence": 0.6
+    },
+    {
+     "subject": "甥女",
+     "predicate": "LIVES_AT",
+     "object": "莱霞里",
+     "evidence": "此村何名？曰：莱霞里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "甥女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "于七一案",
+     "evidence": "俘至济南，闻父被刑，惊恸而绝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙老夫人",
+     "predicate": "LIVES_AT",
+     "object": "莱霞里",
+     "evidence": "此村何名？曰：莱霞里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙老夫人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "于七一案",
+     "evidence": "九娘母子，原解赴都。至郡，母不堪困苦死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "于七一案",
+     "predicate": "OCCURRED_AT",
+     "object": "演武场",
+     "evidence": "一日俘数百人，尽戮于演武场中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于七一案",
+     "predicate": "OCCURRED_AT",
+     "object": "南郊",
+     "evidence": "以故伏刑东鬼，多葬南郊",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:05.932Z"
+}

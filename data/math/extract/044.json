@@ -1,0 +1,205 @@
+{
+ "no": 44,
+ "title": "11.5 用一元一次不等式解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6183,
+   "entities": [
+    {
+     "name": "一元一次不等式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数，未知数次数为1的不等式"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数，未知数次数为1的方程"
+    },
+    {
+     "name": "不等式的基本性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "不等式两边加、减、乘、除同一数时不等号方向的变化规律"
+    },
+    {
+     "name": "一元一次不等式组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "几个一元一次不等式合在一起组成的不等式组"
+    },
+    {
+     "name": "不等关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "实际问题中数量之间的大小关系"
+    },
+    {
+     "name": "列一元一次不等式",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据不等关系设未知数并列出不等式的方法"
+    },
+    {
+     "name": "解一元一次不等式",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用不等式性质求不等式解集的方法"
+    },
+    {
+     "name": "解一元一次方程",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用等式性质求方程解的方法"
+    },
+    {
+     "name": "模型观念",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从实际问题抽象出数学模型并求解的观念"
+    },
+    {
+     "name": "抽象能力",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从具体情境中抽象出数学概念和关系的能力"
+    },
+    {
+     "name": "运算能力",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据法则和运算律进行正确运算的能力"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次不等式",
+     "evidence": "类比一元一次方程学习一元一次不等式（组）的概念和解法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "不等式的基本性质",
+     "predicate": "PREREQUISITE",
+     "object": "解一元一次不等式",
+     "evidence": "不等式的基本性质是解一元一次不等式（组）的依据",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元一次不等式",
+     "predicate": "INCLUDES",
+     "object": "一元一次不等式组",
+     "evidence": "类比一元一次方程学习一元一次不等式（组）的概念和解法",
+     "confidence": 0.9
+    },
+    {
+     "subject": "列一元一次不等式",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次不等式",
+     "evidence": "可以通过设未知数，列一元一次不等式解决问题",
+     "confidence": 0.95
+    },
+    {
+     "subject": "解一元一次不等式",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次不等式",
+     "evidence": "解这个一元一次不等式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元一次不等式",
+     "predicate": "CONTRASTS",
+     "object": "一元一次方程",
+     "evidence": "用一元一次不等式解决问题的步骤与用一元一次方程解决问题类似，不同的是，用一元一次不等式解决问题时需要找出实际问题中数量之间的不等关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "列一元一次不等式",
+     "predicate": "APPLIES_TO",
+     "object": "不等关系",
+     "evidence": "根据数量之间的不等关系列一元一次不等式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "模型观念",
+     "predicate": "RELATED",
+     "object": "一元一次不等式",
+     "evidence": "用一元一次不等式解决问题的过程，可以用下图表示",
+     "confidence": 0.8
+    },
+    {
+     "subject": "抽象能力",
+     "predicate": "RELATED",
+     "object": "一元一次不等式",
+     "evidence": "进一步发展抽象能力、运算能力，形成模型观念",
+     "confidence": 0.8
+    },
+    {
+     "subject": "运算能力",
+     "predicate": "RELATED",
+     "object": "一元一次不等式",
+     "evidence": "进一步发展抽象能力、运算能力，形成模型观念",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 166,
+   "entities": [
+    {
+     "name": "一元一次不等式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含一个未知数且未知数次数为1的不等式"
+    },
+    {
+     "name": "方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含未知数的等式，用于解决实际问题"
+    },
+    {
+     "name": "不等式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用不等号连接表示不等关系的式子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "方程",
+     "predicate": "CONTRASTS",
+     "object": "不等式",
+     "evidence": "方程与不等式都是解决问题的数学工具，讨论它们在实际应用中的特点与联系。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元一次不等式",
+     "predicate": "APPLIES_TO",
+     "object": "方程",
+     "evidence": "方程与不等式都是解决问题的数学工具，讨论它们在实际应用中的特点与联系。",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:51.344Z"
+}

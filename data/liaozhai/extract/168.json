@@ -1,0 +1,267 @@
+{
+ "no": 168,
+ "title": "阳武侯",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 515,
+   "entities": [
+    {
+     "name": "薛禄",
+     "type": "Person",
+     "aliases": [
+      "阳武侯",
+      "薛公禄"
+     ],
+     "nickname": "",
+     "description": "胶州薛家岛人，后封阳武侯"
+    },
+    {
+     "name": "薛太公",
+     "type": "Person",
+     "aliases": [
+      "薛公"
+     ],
+     "nickname": "",
+     "description": "薛禄之父，贫苦牧牛"
+    },
+    {
+     "name": "太夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛禄之母"
+    },
+    {
+     "name": "薛禄兄",
+     "type": "Person",
+     "aliases": [
+      "翁长子"
+     ],
+     "nickname": "",
+     "description": "薛禄之兄，担忧戍边"
+    },
+    {
+     "name": "婢子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛禄兄之婢，后嫁薛禄"
+    },
+    {
+     "name": "指挥使",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "两位奉命稽海的指挥使"
+    },
+    {
+     "name": "乡先生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛太公牧牛的主人"
+    },
+    {
+     "name": "袭侯某公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "启祯间袭阳武侯者，无子"
+    },
+    {
+     "name": "夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袭侯某公之妻，生女又生男"
+    },
+    {
+     "name": "遗腹子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "袭侯某公遗腹子，后生为男"
+    },
+    {
+     "name": "旁支",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛氏旁支，争爵位"
+    },
+    {
+     "name": "薛家岛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "胶州地名，薛禄籍贯"
+    },
+    {
+     "name": "辽阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戍守之地"
+    },
+    {
+     "name": "戍所",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戍守的处所"
+    },
+    {
+     "name": "危崖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "路侧崖石，薛禄夫妻避雨处"
+    },
+    {
+     "name": "宅兆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乡先生给薛公的宅基地"
+    },
+    {
+     "name": "戍辽阳",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛家出丁口戍守辽阳"
+    },
+    {
+     "name": "封阳武侯世爵",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛禄因军功受封"
+    },
+    {
+     "name": "袭爵",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "启祯间袭侯及争爵事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "薛禄",
+     "predicate": "NATIVE_OF",
+     "object": "薛家岛",
+     "evidence": "阳武侯薛公禄，胶薛家岛人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛禄",
+     "predicate": "KIN",
+     "object": "薛太公",
+     "evidence": "父薛公最贫，牧牛乡先生家。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛禄",
+     "predicate": "KIN",
+     "object": "太夫人",
+     "evidence": "后数年，太夫人临蓐，值雨骤至。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛禄",
+     "predicate": "KIN",
+     "object": "薛禄兄",
+     "evidence": "忽自谓兄曰：“大哥啾唧，得无以遣戍无人耶？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛禄",
+     "predicate": "SPOUSE",
+     "object": "婢子",
+     "evidence": "兄喜，即配婢，侯遂携室赴戍所。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛禄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "戍辽阳",
+     "evidence": "是年应翁家出一丁口戍辽阳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛禄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "封阳武侯世爵",
+     "evidence": "后以军功封阳武侯世爵。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛太公",
+     "predicate": "LIVES_AT",
+     "object": "宅兆",
+     "evidence": "因请于主人为宅兆，构茅而居。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛太公",
+     "predicate": "HELPED",
+     "object": "乡先生",
+     "evidence": "父薛公最贫，牧牛乡先生家。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "指挥使",
+     "predicate": "HELPED",
+     "object": "薛禄",
+     "evidence": "是必极贵！不然，何以得我两指挥护守门户也？",
+     "confidence": 0.7
+    },
+    {
+     "subject": "袭侯某公",
+     "predicate": "SPOUSE",
+     "object": "夫人",
+     "evidence": "年馀，夫人生女，产后，腹犹震动",
+     "confidence": 0.9
+    },
+    {
+     "subject": "遗腹子",
+     "predicate": "KIN",
+     "object": "袭侯某公",
+     "evidence": "袭侯某公薨，无子，止有遗腹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "遗腹子",
+     "predicate": "KIN",
+     "object": "夫人",
+     "evidence": "年馀，夫人生女，产后，腹犹震动，凡十五年，更数媪，又生男。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旁支",
+     "predicate": "HARMED",
+     "object": "遗腹子",
+     "evidence": "旁支噪之，以为非薛产。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "戍辽阳",
+     "predicate": "OCCURRED_AT",
+     "object": "辽阳",
+     "evidence": "是年应翁家出一丁口戍辽阳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "封阳武侯世爵",
+     "predicate": "OCCURRED_AT",
+     "object": "薛家岛",
+     "evidence": "后以军功封阳武侯世爵。",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:20.156Z"
+}

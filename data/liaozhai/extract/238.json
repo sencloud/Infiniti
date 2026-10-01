@@ -1,0 +1,64 @@
+{
+ "no": 238,
+ "title": "雷公",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 123,
+   "entities": [
+    {
+     "name": "王从简",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "亳州百姓，其母泼便溺逐雷公"
+    },
+    {
+     "name": "王从简之母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王从简的母亲，泼便溺伤雷公"
+    },
+    {
+     "name": "雷公",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "持锤鼓翼的雷神，被便溺所污"
+    },
+    {
+     "name": "亳州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王从简籍贯所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王从简",
+     "predicate": "NATIVE_OF",
+     "object": "亳州",
+     "evidence": "亳州民王从简",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王从简之母",
+     "predicate": "KIN",
+     "object": "王从简",
+     "evidence": "亳州民王从简，其母坐室中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王从简之母",
+     "predicate": "HARMED",
+     "object": "雷公",
+     "evidence": "急以器中便溺倾注之。雷公沾秽，若中刀斧",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:41.956Z"
+}

@@ -1,0 +1,138 @@
+{
+ "no": 492,
+ "title": "一员官",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 546,
+   "entities": [
+    {
+     "name": "吴公",
+     "type": "Person",
+     "aliases": [
+      "吴同知"
+     ],
+     "nickname": "",
+     "description": "济南同知，刚正不阿"
+    },
+    {
+     "name": "穆情怀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高苑人，被狐附体"
+    },
+    {
+     "name": "张公",
+     "type": "Person",
+     "aliases": [
+      "橛子"
+     ],
+     "nickname": "橛子",
+     "description": "泰安知州，性木强"
+    },
+    {
+     "name": "张公夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张公之妻，自都中来省"
+    },
+    {
+     "name": "张公公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张公之子，随母来省"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "府名，吴公任职地"
+    },
+    {
+     "name": "高苑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，穆情怀籍贯"
+    },
+    {
+     "name": "泰安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，张公任职地"
+    },
+    {
+     "name": "都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "京城，张公家人所居"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴公",
+     "predicate": "LIVES_AT",
+     "object": "济南",
+     "evidence": "济南同知吴公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆情怀",
+     "predicate": "NATIVE_OF",
+     "object": "高苑",
+     "evidence": "会高苑有穆情怀者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "LIVES_AT",
+     "object": "泰安",
+     "evidence": "是时泰安知州张公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "SPOUSE",
+     "object": "张公夫人",
+     "evidence": "别妻子者十二年",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "KIN",
+     "object": "张公公子",
+     "evidence": "夫人及公子自都中来省之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公夫人",
+     "predicate": "KIN",
+     "object": "张公公子",
+     "evidence": "夫人及公子自都中来省之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "HARMED",
+     "object": "张公夫人",
+     "evidence": "公怒，大骂，呼杖，逼夫人伏受",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张公",
+     "predicate": "HARMED",
+     "object": "张公公子",
+     "evidence": "公横施挞楚",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:20.978Z"
+}

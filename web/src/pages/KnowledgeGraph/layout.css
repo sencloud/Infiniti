@@ -1,0 +1,180 @@
+.kg-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  background: var(--bg);
+}
+
+.kg-appbar {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  height: 54px;
+  padding: 0 16px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink-2);
+  position: relative;
+  z-index: 20;
+}
+
+.kg-appbar-home {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+}
+
+.kg-appbar-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.kg-appbar-brand b {
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: 0.12em;
+}
+
+.kg-appbar-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: none;
+  padding: 2px 4px;
+  margin: 0 -4px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--ink-3);
+  font-size: 11px;
+}
+
+.kg-appbar-switch:hover {
+  background: var(--well);
+}
+
+.kg-appbar-sub {
+  font-size: 11px;
+  color: var(--ink-3);
+  letter-spacing: 0.25em;
+}
+
+.kg-switch-item em {
+  font-style: normal;
+  font-size: 11px;
+  color: var(--ink-3);
+  margin-left: 8px;
+}
+
+.kg-appbar-tabs {
+  display: flex;
+  align-self: stretch;
+  gap: 4px;
+}
+
+.kg-appbar-tabs a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 12px;
+  font-size: 14px;
+  color: var(--ink-2);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  letter-spacing: 0.05em;
+}
+
+.kg-appbar-tabs a:hover {
+  color: var(--ink);
+}
+
+.kg-appbar-tabs a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 500;
+}
+
+.kg-appbar-stats {
+  margin-left: auto;
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+
+.kg-appbar-stats b {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.kg-shell-body {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+
+.kg-shell-loading {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  .kg-appbar-stats span:nth-child(n + 3) {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .kg-appbar {
+    gap: 10px;
+    height: 50px;
+    padding: 0 10px;
+  }
+
+  .kg-appbar-sub,
+  .kg-appbar-stats {
+    display: none;
+  }
+
+  .kg-appbar-brand b {
+    font-size: 16px;
+    letter-spacing: 0.06em;
+  }
+
+  .kg-appbar-tabs {
+    margin-left: auto;
+    gap: 0;
+  }
+
+  .kg-appbar-tabs a {
+    padding: 0 9px;
+    font-size: 13px;
+  }
+
+  .kg-appbar .icon-btn {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .kg-appbar-tabs a span {
+    display: none;
+  }
+
+  .kg-appbar-tabs a {
+    font-size: 17px;
+    padding: 0 11px;
+  }
+}

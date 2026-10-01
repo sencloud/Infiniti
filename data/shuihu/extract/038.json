@@ -1,0 +1,401 @@
+{
+ "no": 38,
+ "title": "第三十八回 及时雨会神行太保 黑旋风斗浪里白条",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5668,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "及时雨",
+     "description": "郓城县押司，因罪刺配江州"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "江州两院押牢节级，会神行法"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "江州小牢子，沂水县百丈村人"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，曾荐戴宗"
+    },
+    {
+     "name": "小张乙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州城外赌房主人"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉山寨势力"
+    },
+    {
+     "name": "江州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江刺配地，浔阳江畔州府"
+    },
+    {
+     "name": "沂州沂水县百丈村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵祖贯籍贯"
+    },
+    {
+     "name": "琵琶亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州浔阳江边酒馆，唐朝白乐天古迹"
+    },
+    {
+     "name": "浔阳江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州江边，琵琶亭所在"
+    },
+    {
+     "name": "牢城营",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江州囚徒服役营所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "吴用",
+     "predicate": "RECOMMENDED",
+     "object": "戴宗",
+     "evidence": "便是吴学究所荐的江州两院押牢节级戴院长戴宗",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "戴宗",
+     "evidence": "戴宗、宋江俱各大喜。两个坐在阁子里……就酒楼上两个饮酒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "李逵",
+     "evidence": "李逵拍手叫道：……扑翻身躯便拜。宋江连忙答礼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "戴宗也倾心吐胆，把和这吴学究相交来往的事，告诉了一遍",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李逵",
+     "predicate": "SERVED",
+     "object": "戴宗",
+     "evidence": "这个是小弟身边牢里一个小牢子，姓李名逵",
+     "confidence": 0.85
+    },
+    {
+     "subject": "李逵",
+     "predicate": "NATIVE_OF",
+     "object": "沂州沂水县百丈村",
+     "evidence": "祖贯是沂州沂水县百丈村人氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "流落在此江州，不曾还乡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "牢城营",
+     "evidence": "宋江慌忙到房里，取了吴用的书……便和那人离了牢城营内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "便是吴学究所荐的江州两院押牢节级戴院长戴宗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "吴用的书",
+     "evidence": "宋江慌忙到房里，取了吴用的书",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "李逵",
+     "evidence": "宋江听罢，便去身边取出一个十两银子把与李逵",
+     "confidence": 0.85
+    },
+    {
+     "subject": "李逵",
+     "predicate": "FOUGHT",
+     "object": "小张乙",
+     "evidence": "被李逵一指一跤。十二三个赌博的，一发齐上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "琵琶亭饮酒",
+     "evidence": "当时三人便望琵琶亭上来……三个坐定，便叫酒保铺下菜蔬果品海鲜按酒之类",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "琵琶亭饮酒",
+     "evidence": "当时三人便望琵琶亭上来……三个坐定",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "PARTICIPATED_IN",
+     "object": "琵琶亭饮酒",
+     "evidence": "当时三人便望琵琶亭上来……三个坐定",
+     "confidence": 0.9
+    },
+    {
+     "subject": "琵琶亭饮酒",
+     "predicate": "OCCURRED_AT",
+     "object": "琵琶亭",
+     "evidence": "当时三人便望琵琶亭上来。到得亭子上看时",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3933,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，梁山首领"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "江州两院押牢节级，能日行八百"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "沂水县壮汉，性烈力大"
+    },
+    {
+     "name": "张顺",
+     "type": "Person",
+     "aliases": [
+      "浪里白跳",
+      "浪里白条",
+      "张顺艄公"
+     ],
+     "nickname": "浪里白跳",
+     "description": "浔阳江卖鱼主人，水性极佳"
+    },
+    {
+     "name": "张横",
+     "type": "Person",
+     "aliases": [
+      "船火儿",
+      "张横艄公"
+     ],
+     "nickname": "船火儿",
+     "description": "张顺之兄，浔阳江艄公"
+    },
+    {
+     "name": "李俊",
+     "type": "Person",
+     "aliases": [
+      "混江龙",
+      "李俊头领"
+     ],
+     "nickname": "混江龙",
+     "description": "揭阳岭好汉"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "揭阳镇好汉"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李逵",
+     "predicate": "FOUGHT",
+     "object": "张顺",
+     "evidence": "李逵也不回话，轮过竹篙，却望那人便打。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "DEFEATED",
+     "object": "李逵",
+     "evidence": "那人把李逵提将起来，又淹将下去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "李逵",
+     "evidence": "宋江见李逵吃亏，便叫戴宗央人去救。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "RESCUED",
+     "object": "李逵",
+     "evidence": "戴宗听了，便向岸边高声叫道：“张二哥不要动手，有你令兄张横家书在此。这黑大汉是俺们兄弟，你且饶了他，上岸来说话。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "RESCUED",
+     "object": "李逵",
+     "evidence": "张顺早凫到分际，带住了李逵一只手，自把两条腿踏着水浪，如行平地。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "KIN",
+     "object": "张横",
+     "evidence": "有你令兄张横家书在此。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "张顺",
+     "evidence": "张顺纳头便拜道：“久闻大名，不想今日得会。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "FRIEND",
+     "object": "张顺",
+     "evidence": "戴宗道：“你两个今番却做个至交的弟兄。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "李俊",
+     "evidence": "前日来时，揭阳岭下混江龙李俊家里，住了几日。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "穆弘",
+     "evidence": "后在浔阳江上，因穆弘相会，得遇令兄张横。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "张横",
+     "evidence": "得遇令兄张横，修了一封家书寄来与足下。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "琵琶亭",
+     "evidence": "今日便和戴院长并李大哥来这里琵琶亭吃三杯，就观江景。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张顺",
+     "predicate": "STATIONED_AT",
+     "object": "江州",
+     "evidence": "这个好汉便是本处卖鱼主人，唤做张顺。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "NATIVE_OF",
+     "object": "沂水县",
+     "evidence": "一个是沂水县成精异物。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:37.092Z"
+}

@@ -1,0 +1,826 @@
+{
+ "no": 56,
+ "title": "第五十六回 吴用使时迁盗甲 汤隆赚徐宁上山",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5980,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山泊好汉，原禁军教头"
+    },
+    {
+     "name": "徐宁",
+     "type": "Person",
+     "aliases": [
+      "金枪手",
+      "徐教师"
+     ],
+     "nickname": "金枪手",
+     "description": "东京金枪班教师，钩镰枪法传人"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山泊好汉，善神行法"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎",
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "梁山泊好汉，祖上打铁出身"
+    },
+    {
+     "name": "彭玘",
+     "type": "Person",
+     "aliases": [
+      "天目将"
+     ],
+     "nickname": "天目将",
+     "description": "梁山泊好汉，团练出身"
+    },
+    {
+     "name": "杨林",
+     "type": "Person",
+     "aliases": [
+      "锦豹子"
+     ],
+     "nickname": "锦豹子",
+     "description": "梁山泊好汉"
+    },
+    {
+     "name": "乐和",
+     "type": "Person",
+     "aliases": [
+      "铁叫子"
+     ],
+     "nickname": "铁叫子",
+     "description": "梁山泊好汉"
+    },
+    {
+     "name": "薛永",
+     "type": "Person",
+     "aliases": [
+      "病大虫"
+     ],
+     "nickname": "病大虫",
+     "description": "梁山泊好汉"
+    },
+    {
+     "name": "汤隆",
+     "type": "Person",
+     "aliases": [
+      "金钱豹子"
+     ],
+     "nickname": "金钱豹子",
+     "description": "延安知寨之子，祖代打造军器"
+    },
+    {
+     "name": "李云",
+     "type": "Person",
+     "aliases": [
+      "青眼虎"
+     ],
+     "nickname": "青眼虎",
+     "description": "梁山泊好汉"
+    },
+    {
+     "name": "时迁",
+     "type": "Person",
+     "aliases": [
+      "鼓上蚤"
+     ],
+     "nickname": "鼓上蚤",
+     "description": "梁山泊好汉，善偷盗"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉山寨势力"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城"
+    },
+    {
+     "name": "延安府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，汤隆父曾任知寨"
+    },
+    {
+     "name": "颍州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，彭玘家眷所在"
+    },
+    {
+     "name": "雁翎锁子甲",
+     "type": "Item",
+     "aliases": [
+      "赛唐猊",
+      "雁翎砌就圈金甲"
+     ],
+     "nickname": "",
+     "description": "徐宁祖传宝甲，刀剑难透"
+    },
+    {
+     "name": "钩镰枪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "可破连环甲马的兵器"
+    },
+    {
+     "name": "盗甲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "时迁盗取徐宁雁翎锁子甲"
+    },
+    {
+     "name": "赚徐宁上山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "汤隆设计诱徐宁上梁山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "汤隆",
+     "predicate": "KIN",
+     "object": "徐宁",
+     "evidence": "只除非是我那个姑舅哥哥。他在东京，见做金枪班教师。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "MASTER_OF",
+     "object": "汤隆",
+     "evidence": "这钩镰枪法，只有他一个教头。他家祖传习学，不教外人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "FRIEND",
+     "object": "徐宁",
+     "evidence": "在京师时，多与我相会，较量武艺，彼此相敬相爱。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MASTERMINDED",
+     "object": "盗甲",
+     "evidence": "吴用道：“若是如此，何难之有。放着有高手弟兄在此，今次却用着鼓上蚤时迁去走一遭。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "时迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "盗甲",
+     "evidence": "时迁随即应道：“只怕无有此一物在彼。若端的有时，好歹定要取了来。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "MASTERMINDED",
+     "object": "赚徐宁上山",
+     "evidence": "汤隆道：“你若盗的甲来，我便包办赚他上山。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "时迁",
+     "predicate": "OWNS",
+     "object": "雁翎锁子甲",
+     "evidence": "时迁打开皮匣，取出那副雁翎锁子甲来，做一包袱包了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "OWNS",
+     "object": "雁翎锁子甲",
+     "evidence": "这副雁翎甲乃是祖宗留传四代之宝，不曾有失。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "OWNS",
+     "object": "钩镰枪",
+     "evidence": "汤隆打起一把钩镰枪做样",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赚徐宁上山",
+     "evidence": "却叫雷横提调监督。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "杨林",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "便唤杨林，可将金银书信，带领伴当前往颍州取彭玘将军老小。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛永",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "薛永扮作使枪棒卖药的，往东京取凌统领老小。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李云",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "李云扮作客商，同往东京收买烟火药料等物。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐和",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "乐和随汤隆同行，又帮薛永往来作伴。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "时迁离了梁山泊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "汤隆辞别下山去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "次日又送戴宗下山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨林",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杨林、薛永、李云、乐和、汤隆辞别下山去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛永",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杨林、薛永、李云、乐和、汤隆辞别下山去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李云",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杨林、薛永、李云、乐和、汤隆辞别下山去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐和",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "杨林、薛永、李云、乐和、汤隆辞别下山去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "STATIONED_AT",
+     "object": "东京",
+     "evidence": "在路迤逦来到东京，投个客店安下了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "STATIONED_AT",
+     "object": "东京",
+     "evidence": "他在东京，见做金枪班教师。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "NATIVE_OF",
+     "object": "延安府",
+     "evidence": "有个延安府汤知寨儿子汤隆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "盗甲",
+     "predicate": "OCCURRED_AT",
+     "object": "东京",
+     "evidence": "时迁离了梁山泊，身边藏了暗器、诸般行头，在路迤逦来到东京",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "RECRUITED",
+     "object": "徐宁",
+     "evidence": "汤隆诡计赚徐宁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "DEFEATED",
+     "object": "徐宁",
+     "evidence": "时迁妙术更多奇。雁翎金甲逡巡得",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1741,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，主张招安报国"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，定计赚徐宁上山"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "入云龙",
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "梁山泊头领，参与赔话作庆"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山泊头领，劝徐宁留下"
+    },
+    {
+     "name": "呼延灼",
+     "type": "Person",
+     "aliases": [
+      "双鞭",
+      "呼延将军"
+     ],
+     "nickname": "双鞭",
+     "description": "官军将领，用连环甲马冲阵"
+    },
+    {
+     "name": "徐宁",
+     "type": "Person",
+     "aliases": [
+      "金枪手",
+      "徐教师"
+     ],
+     "nickname": "金枪手",
+     "description": "东京金枪班教师，被赚上梁山，教钩镰枪法"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山泊头领，往东京搬取徐宁老小"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山泊头领，汤隆拜其为兄"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎",
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "梁山泊头领，监造钩镰枪"
+    },
+    {
+     "name": "彭玘",
+     "type": "Person",
+     "aliases": [
+      "天目将"
+     ],
+     "nickname": "天目将",
+     "description": "梁山泊头领，杨林取其老小上山"
+    },
+    {
+     "name": "杨林",
+     "type": "Person",
+     "aliases": [
+      "锦豹子"
+     ],
+     "nickname": "锦豹子",
+     "description": "梁山泊头领，自颍州取彭玘老小"
+    },
+    {
+     "name": "凌振",
+     "type": "Person",
+     "aliases": [
+      "轰天雷"
+     ],
+     "nickname": "轰天雷",
+     "description": "梁山泊头领，薛永取其老小上山"
+    },
+    {
+     "name": "乐和",
+     "type": "Person",
+     "aliases": [
+      "铁叫子"
+     ],
+     "nickname": "铁叫子",
+     "description": "梁山泊头领，假扮李荣赚徐宁"
+    },
+    {
+     "name": "薛永",
+     "type": "Person",
+     "aliases": [
+      "病大虫"
+     ],
+     "nickname": "病大虫",
+     "description": "梁山泊头领，自东京取凌振老小"
+    },
+    {
+     "name": "汤隆",
+     "type": "Person",
+     "aliases": [
+      "金钱豹子"
+     ],
+     "nickname": "金钱豹子",
+     "description": "梁山泊头领，献钩镰枪法并赚徐宁上山"
+    },
+    {
+     "name": "朱贵",
+     "type": "Person",
+     "aliases": [
+      "旱地忽律"
+     ],
+     "nickname": "旱地忽律",
+     "description": "梁山泊头领，经营酒店接应"
+    },
+    {
+     "name": "李云",
+     "type": "Person",
+     "aliases": [
+      "青眼虎"
+     ],
+     "nickname": "青眼虎",
+     "description": "梁山泊头领，收买烟火药料回寨"
+    },
+    {
+     "name": "时迁",
+     "type": "Person",
+     "aliases": [
+      "鼓上蚤"
+     ],
+     "nickname": "鼓上蚤",
+     "description": "梁山泊头领，盗取徐宁雁翎甲"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊头领，参与赔话作庆"
+    },
+    {
+     "name": "李荣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "乐和假扮的泰安州客人，赚徐宁"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山好汉山寨势力"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，徐宁原居地"
+    },
+    {
+     "name": "泰安州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，李荣欲往之地"
+    },
+    {
+     "name": "武冈镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汤隆拜李逵之处"
+    },
+    {
+     "name": "颍州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，彭玘老小所在"
+    },
+    {
+     "name": "金沙滩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊登岸处"
+    },
+    {
+     "name": "雁翎甲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐宁祖传宝甲，被时迁盗取"
+    },
+    {
+     "name": "钩镰枪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "破连环甲马的兵器，徐宁会使"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "汤隆",
+     "predicate": "FRIEND",
+     "object": "李荣",
+     "evidence": "我去年在泰安州烧香，结识得这个兄弟，姓李名荣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐和",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "李荣是谁？却是铁叫子乐和。三个从车上跳将下来，赶着车子，直送到旱地忽律朱贵酒店里",
+     "confidence": 0.8
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "SERVED",
+     "object": "李逵",
+     "evidence": "在武冈镇拜黑旋风李逵做哥哥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "投托大寨入伙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "OWNS",
+     "object": "雁翎甲",
+     "evidence": "使时迁先来盗了你的甲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "OWNS",
+     "object": "雁翎甲",
+     "evidence": "只可惜将我这副甲陷在家里了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "请哥哥上山来坐把交椅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江已有人报知，和众头领下山接着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "一面使戴宗和汤隆星夜往东京搬取徐宁老小",
+     "confidence": 0.8
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "一面使戴宗和汤隆星夜往东京搬取徐宁老小",
+     "confidence": 0.8
+    },
+    {
+     "subject": "杨林",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "杨林自颍州取到彭玘老小",
+     "confidence": 0.8
+    },
+    {
+     "subject": "薛永",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "薛永自东京取到凌振老小",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李云",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "李云收买到五车烟火药料回寨",
+     "confidence": 0.8
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "SPOUSE",
+     "object": "徐宁妻",
+     "evidence": "徐宁见了妻子到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "FRAMED",
+     "object": "徐宁",
+     "evidence": "我把哥哥的雁翎甲穿了，搽画了脸，说哥哥名姓，劫了那伙客人的财物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "此时雷横监造钩镰枪已都完备",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "MASTER_OF",
+     "object": "梁山泊",
+     "evidence": "宋江、吴用等启请徐宁教众军健学使钩镰枪法",
+     "confidence": 0.9
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "ATTACKED",
+     "object": "梁山泊",
+     "evidence": "今被呼延灼用连环甲马冲阵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RECRUITED",
+     "object": "徐宁",
+     "evidence": "宋江执杯向前陪告道：见今宋江暂居水泊，专待朝廷招安",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "MASTERMINDED",
+     "object": "赚徐宁上山",
+     "evidence": "因此定这条计，使时迁先来盗了你的甲，却教小弟赚哥哥上路",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赚徐宁上山",
+     "predicate": "OCCURRED_AT",
+     "object": "梁山泊",
+     "evidence": "请哥哥上山来坐把交椅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐宁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赚徐宁上山",
+     "evidence": "徐宁此时麻药已醒，众人又用解药解了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "时迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赚徐宁上山",
+     "evidence": "使时迁先来盗了你的甲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乐和",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赚徐宁上山",
+     "evidence": "后使乐和假做李荣，过山时，下了蒙汗药",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赚徐宁上山",
+     "evidence": "却教小弟赚哥哥上路",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:33:28.842Z"
+}

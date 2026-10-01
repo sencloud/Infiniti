@@ -1,0 +1,380 @@
+{
+ "no": 4,
+ "title": "第四回 赵员外重修文殊院 鲁智深大闹五台山",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5787,
+   "entities": [
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁达",
+      "鲁提辖",
+      "花和尚"
+     ],
+     "nickname": "花和尚",
+     "description": "渭州提辖，三拳打死郑屠后出家为僧"
+    },
+    {
+     "name": "金老",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被鲁达救下的老汉，赵员外外宅之女之父"
+    },
+    {
+     "name": "赵员外",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "七宝村大财主，文殊院施主，助鲁达出家"
+    },
+    {
+     "name": "智真长老",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五台山文殊院住持，为鲁达剃度赐名智深"
+    },
+    {
+     "name": "郑屠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "渭州状元桥下屠户，被鲁达三拳打死"
+    },
+    {
+     "name": "金翠莲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金老之女，赵员外外宅"
+    },
+    {
+     "name": "五台山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "文殊菩萨道场，文殊院所在"
+    },
+    {
+     "name": "文殊院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "五台山上的寺院，鲁智深出家处"
+    },
+    {
+     "name": "七宝村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵员外庄院所在，离代州十里多路"
+    },
+    {
+     "name": "代州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁达逃难所至州府"
+    },
+    {
+     "name": "渭州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁达打死郑屠之地"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金老原籍，欲回未回之地"
+    },
+    {
+     "name": "大闹五台山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深在五台山寺中醉酒闹事"
+    },
+    {
+     "name": "三拳打死郑屠",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁达在状元桥下三拳打死郑屠"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鲁智深",
+     "predicate": "RESCUED",
+     "object": "金老",
+     "evidence": "自从得恩人救了，老汉寻得一辆车子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "RESCUED",
+     "object": "金翠莲",
+     "evidence": "若非恩人垂救，怎能勾有今日！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金老",
+     "predicate": "KIN",
+     "object": "金翠莲",
+     "evidence": "就与老汉女儿做媒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵员外",
+     "predicate": "SPOUSE",
+     "object": "金翠莲",
+     "evidence": "结交此间一个大财主赵员外，养做外宅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "KILLED",
+     "object": "郑屠",
+     "evidence": "正迎着郑屠那厮，被洒家三拳打死了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "三拳打死郑屠",
+     "evidence": "被洒家三拳打死了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FRIEND",
+     "object": "赵员外",
+     "evidence": "若蒙员外不弃贫贱，结为相识",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "SERVED",
+     "object": "赵员外",
+     "evidence": "洒家情愿做了和尚，专靠员外照管",
+     "confidence": 0.85
+    },
+    {
+     "subject": "赵员外",
+     "predicate": "STATIONED_AT",
+     "object": "七宝村",
+     "evidence": "离此间十里多路，地名七宝村便是",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "七宝村",
+     "evidence": "鲁达自此之后，在这赵员外庄上住了五七日",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "文殊院",
+     "evidence": "情愿弃俗出家。万望长老收录",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "五台山",
+     "evidence": "鲁智深在五台山寺中，不觉搅了四五个月",
+     "confidence": 0.9
+    },
+    {
+     "subject": "智真长老",
+     "predicate": "LEADS",
+     "object": "文殊院",
+     "evidence": "寺里有五七百僧人，为头智真长老",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵员外",
+     "predicate": "FRIEND",
+     "object": "智真长老",
+     "evidence": "为头智真长老，是我弟兄",
+     "confidence": 0.85
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MASTER_OF",
+     "object": "智真长老",
+     "evidence": "长老赐名已罢，把度牒转将下来",
+     "confidence": 0.5
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹五台山",
+     "evidence": "鲁智深在五台山寺中，不觉搅了四五个月",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大闹五台山",
+     "predicate": "OCCURRED_AT",
+     "object": "五台山",
+     "evidence": "鲁智深在五台山寺中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三拳打死郑屠",
+     "predicate": "OCCURRED_AT",
+     "object": "渭州",
+     "evidence": "就那日回到状元桥下，正迎着郑屠那厮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "NATIVE_OF",
+     "object": "渭州",
+     "evidence": "渭州酒楼上救了的金老",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5477,
+   "entities": [
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁达",
+      "鲁提辖"
+     ],
+     "nickname": "花和尚",
+     "description": "五台山出家和尚，原为军官，性烈嗜酒"
+    },
+    {
+     "name": "智真长老",
+     "type": "Person",
+     "aliases": [
+      "长老",
+      "真长老"
+     ],
+     "nickname": "",
+     "description": "五台山文殊院长老，鲁智深师父"
+    },
+    {
+     "name": "赵员外",
+     "type": "Person",
+     "aliases": [
+      "赵檀越"
+     ],
+     "nickname": "",
+     "description": "鲁智深的施主，剃度并资助他"
+    },
+    {
+     "name": "五台山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "文殊菩萨道场，鲁智深出家地"
+    },
+    {
+     "name": "文殊院",
+     "type": "Organization",
+     "aliases": [
+      "五台山寺"
+     ],
+     "nickname": "",
+     "description": "五台山上的寺院，鲁智深出家之所"
+    },
+    {
+     "name": "大闹五台山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深醉酒打坏山门金刚、亭子，搅乱僧堂"
+    },
+    {
+     "name": "水磨禅杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深定制的六十二斤重禅杖"
+    },
+    {
+     "name": "戒刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深定制的戒刀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "智真长老",
+     "predicate": "MASTER_OF",
+     "object": "鲁智深",
+     "evidence": "我与你摩顶受记，教你一不可杀生，二不可偷盗……",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵员外",
+     "predicate": "RESCUED",
+     "object": "鲁智深",
+     "evidence": "今来赵员外檀越剃度了你",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "文殊院",
+     "evidence": "鲁智深一者初做和尚，二来旧性未改",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "五台山",
+     "evidence": "鲁智深自从吃酒醉闹了这一场，一连三四个月不敢出寺门去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹五台山",
+     "evidence": "把半山亭子、山门下金刚都打坏了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大闹五台山",
+     "predicate": "OCCURRED_AT",
+     "object": "五台山",
+     "evidence": "把半山亭子、山门下金刚都打坏了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "水磨禅杖",
+     "evidence": "好生打一条六十二斤的水磨禅杖与师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "洒家要打条禅杖，一口戒刀",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:49.464Z"
+}

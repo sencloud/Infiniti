@@ -1,0 +1,740 @@
+{
+ "no": 46,
+ "title": "用奇谋孔明借箭 献密计黄盖受刑",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4814,
+   "entities": [
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "孟德",
+      "阿瞒",
+      "曹公",
+      "魏王",
+      "魏武帝"
+     ],
+     "nickname": "孟德",
+     "description": "魏国君主，水军都督被换"
+    },
+    {
+     "name": "孙权",
+     "type": "Person",
+     "aliases": [
+      "仲谋",
+      "吴侯",
+      "吴王",
+      "大帝"
+     ],
+     "nickname": "仲谋",
+     "description": "东吴君主，黄盖受其厚恩"
+    },
+    {
+     "name": "周瑜",
+     "type": "Person",
+     "aliases": [
+      "公瑾",
+      "周郎",
+      "大都督"
+     ],
+     "nickname": "公瑾",
+     "description": "东吴大都督，设计害诸葛亮"
+    },
+    {
+     "name": "鲁肃",
+     "type": "Person",
+     "aliases": [
+      "子敬",
+      "鲁子敬"
+     ],
+     "nickname": "子敬",
+     "description": "东吴谋士，往来于周瑜与诸葛亮之间"
+    },
+    {
+     "name": "张昭",
+     "type": "Person",
+     "aliases": [
+      "子布",
+      "张子布"
+     ],
+     "nickname": "子布",
+     "description": "东吴文臣，主张投降"
+    },
+    {
+     "name": "甘宁",
+     "type": "Person",
+     "aliases": [
+      "兴霸",
+      "锦帆贼"
+     ],
+     "nickname": "兴霸",
+     "description": "东吴将领，受命提防蔡中蔡和"
+    },
+    {
+     "name": "张辽",
+     "type": "Person",
+     "aliases": [
+      "文远",
+      "张文远",
+      "五子良将"
+     ],
+     "nickname": "文远",
+     "description": "曹魏将领，带弓弩军助射"
+    },
+    {
+     "name": "徐晃",
+     "type": "Person",
+     "aliases": [
+      "公明",
+      "右将军"
+     ],
+     "nickname": "公明",
+     "description": "曹魏将领，带弓弩军助射"
+    },
+    {
+     "name": "于禁",
+     "type": "Person",
+     "aliases": [
+      "文则",
+      "左将军"
+     ],
+     "nickname": "文则",
+     "description": "曹魏水军都督，中计放箭"
+    },
+    {
+     "name": "孙坚",
+     "type": "Person",
+     "aliases": [
+      "文台",
+      "乌程侯",
+      "破虏将军"
+     ],
+     "nickname": "文台",
+     "description": "东吴先主，黄盖曾随其征战"
+    },
+    {
+     "name": "孙策",
+     "type": "Person",
+     "aliases": [
+      "伯符",
+      "小霸王",
+      "讨逆将军",
+      "吴侯"
+     ],
+     "nickname": "伯符",
+     "description": "东吴先主，黄盖历三世之一"
+    },
+    {
+     "name": "黄盖",
+     "type": "Person",
+     "aliases": [
+      "公覆",
+      "武锋中郎将",
+      "偏将军"
+     ],
+     "nickname": "公覆",
+     "description": "东吴老将，献苦肉计"
+    },
+    {
+     "name": "蒋干",
+     "type": "Person",
+     "aliases": [
+      "子翼",
+      "蒋子翼"
+     ],
+     "nickname": "子翼",
+     "description": "曹操谋士，曾被周瑜用计"
+    },
+    {
+     "name": "蔡瑁",
+     "type": "Person",
+     "aliases": [
+      "德珪",
+      "蔡德珪"
+     ],
+     "nickname": "德珪",
+     "description": "原荆州水军都督，被曹操所杀"
+    },
+    {
+     "name": "蔡中",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蔡瑁族弟，诈降东吴"
+    },
+    {
+     "name": "蔡和",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蔡瑁族弟，诈降东吴"
+    },
+    {
+     "name": "毛玠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹魏水军都督，中计放箭"
+    },
+    {
+     "name": "荀攸",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操谋士，献诈降计"
+    },
+    {
+     "name": "阚泽",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴参谋，愿献诈降书"
+    },
+    {
+     "name": "东吴",
+     "type": "Organization",
+     "aliases": [
+      "江东",
+      "吴"
+     ],
+     "nickname": "",
+     "description": "孙权建立的势力"
+    },
+    {
+     "name": "曹魏",
+     "type": "Organization",
+     "aliases": [
+      "曹操军",
+      "曹军"
+     ],
+     "nickname": "",
+     "description": "曹操建立的势力"
+    },
+    {
+     "name": "蔡氏宗族",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "蔡瑁家族，在曹军中"
+    },
+    {
+     "name": "草船借箭",
+     "type": "Event",
+     "aliases": [
+      "孔明借箭"
+     ],
+     "nickname": "",
+     "description": "诸葛亮用草船向曹操借箭"
+    },
+    {
+     "name": "苦肉计",
+     "type": "Event",
+     "aliases": [
+      "黄盖受刑"
+     ],
+     "nickname": "",
+     "description": "周瑜打黄盖以行诈降"
+    },
+    {
+     "name": "赤壁之战",
+     "type": "Event",
+     "aliases": [
+      "火烧赤壁"
+     ],
+     "nickname": "",
+     "description": "孙刘联军与曹操的决战"
+    },
+    {
+     "name": "长江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "草船借箭发生地"
+    },
+    {
+     "name": "曹操水寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹操水军驻地"
+    },
+    {
+     "name": "东吴",
+     "type": "Place",
+     "aliases": [
+      "江东"
+     ],
+     "nickname": "",
+     "description": "孙权领地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鲁肃",
+     "predicate": "SERVED",
+     "object": "周瑜",
+     "evidence": "鲁肃领了周瑜言语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "吾奉主公之命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "某受孙氏厚恩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "甘宁",
+     "predicate": "SERVED",
+     "object": "周瑜",
+     "evidence": "甘宁领命而去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "FRIEND",
+     "object": "鲁肃",
+     "evidence": "鲁肃应诺而去，回见周瑜",
+     "confidence": 0.8
+    },
+    {
+     "subject": "草船借箭",
+     "predicate": "OCCURRED_AT",
+     "object": "长江",
+     "evidence": "是夜大雾漫天，长江之中，雾气更甚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "MASTERMINDED",
+     "object": "苦肉计",
+     "evidence": "今日痛打黄盖，乃计也。吾欲令他诈降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "苦肉计",
+     "evidence": "某愿行此计",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赤壁之战",
+     "evidence": "即日将与曹军交战",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赤壁之战",
+     "evidence": "某受孙氏厚恩，虽肝脑涂地，亦无怨悔",
+     "confidence": 0.8
+    },
+    {
+     "subject": "曹操",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赤壁之战",
+     "evidence": "操引百万之众，连络三百余里",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蔡中",
+     "predicate": "SURRENDERED_TO",
+     "object": "东吴",
+     "evidence": "特来投降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡和",
+     "predicate": "SURRENDERED_TO",
+     "object": "东吴",
+     "evidence": "特来投降",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡中",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "蔡瑁被诛，蔡氏宗族，皆在军中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡和",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "蔡瑁被诛，蔡氏宗族，皆在军中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡中",
+     "predicate": "MEMBER_OF",
+     "object": "蔡氏宗族",
+     "evidence": "蔡瑁被诛，蔡氏宗族，皆在军中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡和",
+     "predicate": "MEMBER_OF",
+     "object": "蔡氏宗族",
+     "evidence": "蔡瑁被诛，蔡氏宗族，皆在军中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡中",
+     "predicate": "KIN",
+     "object": "蔡瑁",
+     "evidence": "瑁之族弟蔡中、蔡和现为副将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡和",
+     "predicate": "KIN",
+     "object": "蔡瑁",
+     "evidence": "瑁之族弟蔡中、蔡和现为副将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "KILLED",
+     "object": "蔡瑁",
+     "evidence": "吾兄无罪，被操贼所杀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "DEFEATED",
+     "object": "曹操",
+     "evidence": "孔明今日伏周郎",
+     "confidence": 0.7
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "OWNS",
+     "object": "苦肉计",
+     "evidence": "某愿行此计",
+     "confidence": 0.8
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "ATTACKED",
+     "object": "曹操水寨",
+     "evidence": "某昨观曹操水寨，极是严整有法",
+     "confidence": 0.8
+    },
+    {
+     "subject": "曹操",
+     "predicate": "ATTACKED",
+     "object": "东吴",
+     "evidence": "操引百万之众，连络三百余里",
+     "confidence": 0.8
+    },
+    {
+     "subject": "东吴",
+     "predicate": "ALLIED_WITH",
+     "object": "刘备",
+     "evidence": "两家公事，岂有漏泄之理",
+     "confidence": 0.7
+    },
+    {
+     "subject": "阚泽",
+     "predicate": "SERVED",
+     "object": "黄盖",
+     "evidence": "阚泽欣然领诺",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "SERVED",
+     "object": "孙坚",
+     "evidence": "吾自随破虏将军，纵横东南，已历三世",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "SERVED",
+     "object": "孙策",
+     "evidence": "吾自随破虏将军，纵横东南，已历三世",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "某受吴侯三世厚恩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "吾奉主公之命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁肃",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "鲁肃领了周瑜言语",
+     "confidence": 0.8
+    },
+    {
+     "subject": "甘宁",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "甘宁领命而去",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张辽",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "又差人往旱寨内唤张辽、徐晃各带弓弩军三千",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐晃",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "又差人往旱寨内唤张辽、徐晃各带弓弩军三千",
+     "confidence": 0.9
+    },
+    {
+     "subject": "于禁",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "毛玠、于禁二人慌忙飞报曹操",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毛玠",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "毛玠、于禁二人慌忙飞报曹操",
+     "confidence": 0.9
+    },
+    {
+     "subject": "荀攸",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "荀攸进计曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋干",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "这条计只好弄蒋干",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蔡中",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "操从之，当夜密唤二人入帐嘱付",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡和",
+     "predicate": "SERVED",
+     "object": "曹操",
+     "evidence": "操从之，当夜密唤二人入帐嘱付",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "LEADS",
+     "object": "东吴",
+     "evidence": "吾奉主公之命，督兵破曹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "LEADS",
+     "object": "曹魏",
+     "evidence": "操引百万之众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙权",
+     "predicate": "LEADS",
+     "object": "东吴",
+     "evidence": "吾主遣使来催督进军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "MEMBER_OF",
+     "object": "东吴",
+     "evidence": "公覆乃东吴旧臣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "甘宁",
+     "predicate": "MEMBER_OF",
+     "object": "东吴",
+     "evidence": "甘宁进前告曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁肃",
+     "predicate": "MEMBER_OF",
+     "object": "东吴",
+     "evidence": "鲁肃入见周瑜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "MEMBER_OF",
+     "object": "东吴",
+     "evidence": "周瑜鸣鼓大会诸将于帐下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张辽",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "唤张辽、徐晃各带弓弩军三千",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐晃",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "唤张辽、徐晃各带弓弩军三千",
+     "confidence": 0.9
+    },
+    {
+     "subject": "于禁",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "毛玠、于禁二人慌忙飞报曹操",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毛玠",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "毛玠、于禁二人慌忙飞报曹操",
+     "confidence": 0.9
+    },
+    {
+     "subject": "荀攸",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "荀攸进计曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋干",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "这条计只好弄蒋干",
+     "confidence": 0.8
+    },
+    {
+     "subject": "蔡中",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "蔡瑁被诛，蔡氏宗族，皆在军中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡和",
+     "predicate": "MEMBER_OF",
+     "object": "曹魏",
+     "evidence": "蔡瑁被诛，蔡氏宗族，皆在军中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡中",
+     "predicate": "MEMBER_OF",
+     "object": "蔡氏宗族",
+     "evidence": "蔡瑁被诛，蔡氏宗族，皆在军中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡和",
+     "predicate": "MEMBER_OF",
+     "object": "蔡氏宗族",
+     "evidence": "蔡瑁被诛，蔡氏宗族，皆在军中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡中",
+     "predicate": "KIN",
+     "object": "蔡瑁",
+     "evidence": "瑁之族弟蔡中、蔡和现为副将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡和",
+     "predicate": "KIN",
+     "object": "蔡瑁",
+     "evidence": "瑁之族弟蔡中、蔡和现为副将",
+     "confidence": 0.9
+    },
+    {
+     "subject": "曹操",
+     "predicate": "KILLED",
+     "object": "蔡瑁",
+     "evidence": "吾兄无罪，被操贼所杀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "DEFEATED",
+     "object": "曹操",
+     "evidence": "孔明今日伏周郎",
+     "confidence": 0.7
+    },
+    {
+     "subject": "黄盖",
+     "predicate": "OWNS",
+     "object": "苦肉计",
+     "evidence": "某愿行此计",
+     "confidence": 0.8
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "ATTACKED",
+     "object": "曹操水寨",
+     "evidence": "某昨观曹操水寨，极是严整有法",
+     "confidence": 0.8
+    },
+    {
+     "subject": "曹操",
+     "predicate": "ATTACKED",
+     "object": "东吴",
+     "evidence": "操引百万之众，连络三百余里",
+     "confidence": 0.8
+    },
+    {
+     "subject": "东吴",
+     "predicate": "ALLIED_WITH",
+     "object": "刘备",
+     "evidence": "两家公事，岂有漏泄之理",
+     "confidence": 0.7
+    },
+    {
+     "subject": "阚泽",
+     "predicate": "SERVED",
+     "object": "黄盖",
+     "evidence": "阚泽欣然领诺",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:55:09.120Z"
+}

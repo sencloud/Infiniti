@@ -1,0 +1,71 @@
+{
+ "no": 306,
+ "title": "夜明",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 113,
+   "entities": [
+    {
+     "name": "贾客",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泛舟南海的商人，见巨物夜明"
+    },
+    {
+     "name": "巨物",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "南海中半身出水、目如日光的巨大怪物"
+    },
+    {
+     "name": "南海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾客泛舟之处，巨物出没之地"
+    },
+    {
+     "name": "闽中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "福建一带，贾客后至之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾客",
+     "predicate": "PARTICIPATED_IN",
+     "object": "夜明",
+     "evidence": "有贾客泛于南海。三更时，舟中大亮似晓。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夜明",
+     "predicate": "OCCURRED_AT",
+     "object": "南海",
+     "evidence": "有贾客泛于南海。三更时，舟中大亮似晓。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巨物",
+     "predicate": "OCCURRED_AT",
+     "object": "南海",
+     "evidence": "见一巨物，半身出水上，俨若山岳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾客",
+     "predicate": "LIVES_AT",
+     "object": "闽中",
+     "evidence": "后至闽中，俱言某夜明而复昏",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:07.492Z"
+}

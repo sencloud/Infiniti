@@ -1,0 +1,127 @@
+{
+ "no": 236,
+ "title": "乱离二则",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 603,
+   "entities": [
+    {
+     "name": "刘芳辉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "京都人，学师，戴生妻兄"
+    },
+    {
+     "name": "戴生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘芳辉妹之未婚夫"
+    },
+    {
+     "name": "刘氏女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘芳辉之妹，许配戴生"
+    },
+    {
+     "name": "牛录",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "清军军官，俘获刘氏女"
+    },
+    {
+     "name": "陕西某公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "任盐秩，姜瓖之乱中与母妻失散"
+    },
+    {
+     "name": "老班役",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕西某公的差役，丧偶"
+    },
+    {
+     "name": "某公母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕西某公之母，被俘后为老班役所赎"
+    },
+    {
+     "name": "某公妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕西某公之妻，被俘后为老班役所赎"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘芳辉",
+     "predicate": "KIN",
+     "object": "刘氏女",
+     "evidence": "有妹许聘戴生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘氏女",
+     "predicate": "SPOUSE",
+     "object": "戴生",
+     "evidence": "有妹许聘戴生，出阁有日矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛录",
+     "predicate": "HARMED",
+     "object": "刘氏女",
+     "evidence": "女为牛录俘去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛录",
+     "predicate": "HELPED",
+     "object": "戴生",
+     "evidence": "牛录乃使同榻，浃洽甚乐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陕西某公",
+     "predicate": "KIN",
+     "object": "某公母",
+     "evidence": "公视之，果母也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陕西某公",
+     "predicate": "KIN",
+     "object": "某公妻",
+     "evidence": "公视之，真其夫人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "老班役",
+     "predicate": "HELPED",
+     "object": "某公母",
+     "evidence": "中一媪甚整洁，遂赎以归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老班役",
+     "predicate": "HELPED",
+     "object": "某公妻",
+     "evidence": "见一妇年三十馀，风范超脱，因赎之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:42.910Z"
+}

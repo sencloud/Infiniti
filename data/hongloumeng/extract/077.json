@@ -1,0 +1,868 @@
+{
+ "no": 77,
+ "title": "俏丫鬟抱屈夭风流 美优伶斩情归水月",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6007,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "怡红公子",
+      "宝玉",
+      "宝二爷",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "怡红公子",
+     "description": "贾府公子，多情叛逆"
+    },
+    {
+     "name": "薛宝钗",
+     "type": "Person",
+     "aliases": [
+      "蘅芜君",
+      "宝钗",
+      "宝姐姐",
+      "宝丫头"
+     ],
+     "nickname": "蘅芜君",
+     "description": "贾府亲戚，稳重识大体"
+    },
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤辣子",
+      "凤姐",
+      "琏二奶奶",
+      "凤丫头",
+      "泼皮破落户"
+     ],
+     "nickname": "凤辣子",
+     "description": "贾府管家，精明强干"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "史太君",
+     "description": "贾府最高长辈"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾宝玉之母，严厉治家"
+    },
+    {
+     "name": "邢夫人",
+     "type": "Person",
+     "aliases": [
+      "大太太"
+     ],
+     "nickname": "",
+     "description": "贾赦之妻，迎春名义之母"
+    },
+    {
+     "name": "贾迎春",
+     "type": "Person",
+     "aliases": [
+      "二姑娘",
+      "迎春",
+      "二姐姐"
+     ],
+     "nickname": "",
+     "description": "贾府二小姐，懦弱善良"
+    },
+    {
+     "name": "袭人",
+     "type": "Person",
+     "aliases": [
+      "珍珠",
+      "蕊珠",
+      "袭姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉大丫鬟，贤惠"
+    },
+    {
+     "name": "晴雯",
+     "type": "Person",
+     "aliases": [
+      "晴姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉丫鬟，风流灵巧"
+    },
+    {
+     "name": "鸳鸯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾母丫鬟，忠心"
+    },
+    {
+     "name": "司棋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "迎春丫鬟，因私情被逐"
+    },
+    {
+     "name": "入画",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "惜春丫鬟，已被逐出"
+    },
+    {
+     "name": "麝月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾宝玉丫鬟"
+    },
+    {
+     "name": "秋纹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾宝玉丫鬟"
+    },
+    {
+     "name": "周瑞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府管家"
+    },
+    {
+     "name": "周瑞家的",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周瑞之妻，王夫人陪房"
+    },
+    {
+     "name": "芳官",
+     "type": "Person",
+     "aliases": [
+      "耶律雄奴",
+      "温都里纳",
+      "金星玻璃"
+     ],
+     "nickname": "",
+     "description": "贾府戏子，后为宝玉丫鬟"
+    },
+    {
+     "name": "彩云",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王夫人丫鬟"
+    },
+    {
+     "name": "绣橘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "迎春丫鬟"
+    },
+    {
+     "name": "王善保家的",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邢夫人陪房，挑唆生事"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "贾府"
+     ],
+     "nickname": "",
+     "description": "贾府家族府第"
+    },
+    {
+     "name": "怡红院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中贾宝玉居所"
+    },
+    {
+     "name": "沁芳亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中亭子"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王夫人",
+     "predicate": "KIN",
+     "object": "贾宝玉",
+     "evidence": "难道我通共一个宝玉，就白放心凭你们勾引坏了不成！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾母",
+     "predicate": "KIN",
+     "object": "贾宝玉",
+     "evidence": "贾母忙命鸳鸯取出当日所余的来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邢夫人",
+     "predicate": "KIN",
+     "object": "贾迎春",
+     "evidence": "因思司棋系迎春之人，皆系那边的人，只得令人去回邢夫人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袭人",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "因又吩咐袭人、麝月等人：“你们小心！往后再有一点分外之事，我一概不饶。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "快叫怡红院的晴雯姑娘的哥嫂来，在这里等着，领出他妹妹去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司棋",
+     "predicate": "SERVANT_OF",
+     "object": "贾迎春",
+     "evidence": "因思司棋系迎春之人，皆系那边的人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鸳鸯",
+     "predicate": "SERVANT_OF",
+     "object": "贾母",
+     "evidence": "贾母忙命鸳鸯取出当日所余的来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "芳官",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "老嬷嬷们便将芳官指出。王夫人道：“唱戏的女孩子，自然是狐狸精了！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑞家的",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "周瑞家的方才要去时，宝钗因在坐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彩云",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "彩云道：“想是没了，就只有这个。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "绣橘",
+     "predicate": "SERVANT_OF",
+     "object": "贾迎春",
+     "evidence": "后头只见后头绣橘赶来，一面也擦着泪，一面递与司棋一个绢包",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "难道我通共一个宝玉，就白放心凭你们勾引坏了不成！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "王夫人见中秋已过，凤姐病已比先减了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾母忙命鸳鸯取出当日所余的来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾迎春",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "因思司棋系迎春之人，皆系那边的人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "凤姐病已比先减了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛宝钗",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "宝钗因在坐，乃笑道：“姨娘且住。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "快叫怡红院的晴雯姑娘的哥嫂来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "STATIONED_AT",
+     "object": "沁芳亭",
+     "evidence": "一直跟送王夫人到沁芳亭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MASTERMINDED",
+     "object": "抄检大观园",
+     "evidence": "王夫人自那日着恼之后，王善保家的去趁势告倒了晴雯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王善保家的",
+     "predicate": "FRAMED",
+     "object": "晴雯",
+     "evidence": "王善保家的去趁势告倒了晴雯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "FRAMED",
+     "object": "晴雯",
+     "evidence": "王夫人吩咐：“只许把她贴身衣服撂出去，余者，好衣服留下，给好丫头们穿。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "FRAMED",
+     "object": "芳官",
+     "evidence": "王夫人道：“唱戏的女孩子，自然是狐狸精了！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "LOVES",
+     "object": "晴雯",
+     "evidence": "且去了心上第一等的人，岂不伤心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "LOVES",
+     "object": "袭人",
+     "evidence": "袭人知他心内别的还犹可，独有晴雯是第一件大事",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "薛宝钗",
+     "evidence": "宝钗因在坐，乃笑道：“姨娘且住。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "QUARRELED",
+     "object": "袭人",
+     "evidence": "宝玉冷笑道：“你不必虚宽我的心。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "通灵宝玉",
+     "evidence": "难道我通共一个宝玉，就白放心凭你们勾引坏了不成！",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 4700,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "怡红公子",
+      "宝玉",
+      "宝二爷",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "",
+     "description": "贾府公子，多情善良"
+    },
+    {
+     "name": "晴雯",
+     "type": "Person",
+     "aliases": [
+      "晴姑娘"
+     ],
+     "nickname": "",
+     "description": "宝玉丫鬟，被逐后病亡"
+    },
+    {
+     "name": "袭人",
+     "type": "Person",
+     "aliases": [
+      "珍珠",
+      "蕊珠",
+      "袭姑娘"
+     ],
+     "nickname": "",
+     "description": "宝玉丫鬟，贤惠稳重"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "",
+     "description": "贾府老祖宗"
+    },
+    {
+     "name": "贾政",
+     "type": "Person",
+     "aliases": [
+      "存周",
+      "政老爷",
+      "二老爷",
+      "贾存周"
+     ],
+     "nickname": "",
+     "description": "宝玉之父"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "宝玉之母"
+    },
+    {
+     "name": "邢夫人",
+     "type": "Person",
+     "aliases": [
+      "大太太"
+     ],
+     "nickname": "",
+     "description": "贾赦之妻"
+    },
+    {
+     "name": "贾琏",
+     "type": "Person",
+     "aliases": [
+      "琏二爷",
+      "琏二哥"
+     ],
+     "nickname": "",
+     "description": "贾府公子"
+    },
+    {
+     "name": "贾迎春",
+     "type": "Person",
+     "aliases": [
+      "二姑娘",
+      "迎春",
+      "二姐姐"
+     ],
+     "nickname": "",
+     "description": "贾府二小姐"
+    },
+    {
+     "name": "贾探春",
+     "type": "Person",
+     "aliases": [
+      "蕉下客",
+      "三姑娘",
+      "探春",
+      "三妹妹"
+     ],
+     "nickname": "",
+     "description": "贾府三小姐"
+    },
+    {
+     "name": "薛姨妈",
+     "type": "Person",
+     "aliases": [
+      "姨太太"
+     ],
+     "nickname": "",
+     "description": "薛蟠之母"
+    },
+    {
+     "name": "赖大",
+     "type": "Person",
+     "aliases": [
+      "赖大爷"
+     ],
+     "nickname": "",
+     "description": "贾府管家"
+    },
+    {
+     "name": "赖嬷嬷",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赖大之母，贾府老仆"
+    },
+    {
+     "name": "贾兰",
+     "type": "Person",
+     "aliases": [
+      "兰哥儿"
+     ],
+     "nickname": "",
+     "description": "贾珠之子"
+    },
+    {
+     "name": "贾环",
+     "type": "Person",
+     "aliases": [
+      "环三爷",
+      "环儿"
+     ],
+     "nickname": "",
+     "description": "贾政庶子"
+    },
+    {
+     "name": "芳官",
+     "type": "Person",
+     "aliases": [
+      "耶律雄奴",
+      "温都里纳",
+      "金星玻璃"
+     ],
+     "nickname": "",
+     "description": "宝玉丫鬟，后出家"
+    },
+    {
+     "name": "藕官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝玉丫鬟，后出家"
+    },
+    {
+     "name": "蕊官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝玉丫鬟，后出家"
+    },
+    {
+     "name": "多浑虫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晴雯姑舅哥哥，厨子"
+    },
+    {
+     "name": "灯姑娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "多浑虫之妻，风流美色"
+    },
+    {
+     "name": "智通",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "水月庵尼姑"
+    },
+    {
+     "name": "圆信",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "地藏庵尼姑"
+    },
+    {
+     "name": "宋妈",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府婆子"
+    },
+    {
+     "name": "贾府",
+     "type": "Organization",
+     "aliases": [
+      "荣国府",
+      "贾家"
+     ],
+     "nickname": "",
+     "description": "贾氏家族府第"
+    },
+    {
+     "name": "水月庵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "尼姑庵"
+    },
+    {
+     "name": "地藏庵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "尼姑庵"
+    },
+    {
+     "name": "怡红院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中宝玉居所"
+    },
+    {
+     "name": "大观园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府园林"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "袭人",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "袭人听了，笑道：“你太把我们看得又小器又没人心了。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "她服侍我一场，我私自来瞧瞧她。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "SERVANT_OF",
+     "object": "贾母",
+     "evidence": "故此赖嬷嬷就孝敬了贾母使唤，后来所以到了宝玉房里。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赖嬷嬷",
+     "predicate": "SERVANT_OF",
+     "object": "贾母",
+     "evidence": "故此赖嬷嬷就孝敬了贾母使唤",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "KIN",
+     "object": "多浑虫",
+     "evidence": "只知有个姑舅哥哥，专能庖宰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多浑虫",
+     "predicate": "SPOUSE",
+     "object": "灯姑娘",
+     "evidence": "便是上回贾琏所接见的多浑虫、灯姑娘儿的便是了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "宝玉忙行了省晨之礼。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "王夫人等自来不曾听见这等考语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾环",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "贾环贾兰二人也都见过宝玉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾兰",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "贾环贾兰二人也都见过宝玉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "晴雯",
+     "evidence": "二人自是依依不舍，也少不得一别。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "袭人",
+     "evidence": "宝玉听了，感谢不尽。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "芳官",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "芳官自前日蒙太太的恩典赏了出去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "藕官",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "勾引上藕官、蕊官",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蕊官",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "勾引上藕官、蕊官",
+     "confidence": 0.9
+    },
+    {
+     "subject": "芳官",
+     "predicate": "MASTER_OF",
+     "object": "智通",
+     "evidence": "芳官跟了水月庵的智通",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蕊官",
+     "predicate": "MASTER_OF",
+     "object": "圆信",
+     "evidence": "蕊官、藕官二人跟了地藏庵的圆信",
+     "confidence": 0.9
+    },
+    {
+     "subject": "藕官",
+     "predicate": "MASTER_OF",
+     "object": "圆信",
+     "evidence": "蕊官、藕官二人跟了地藏庵的圆信",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "我将来在棺材里独自躺着，也就像还在怡红院一样了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "我将来在棺材里独自躺着，也就像还在怡红院一样了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "STATIONED_AT",
+     "object": "大观园",
+     "evidence": "宝玉进入园中，且喜无人知道。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "芳官",
+     "predicate": "MEMBER_OF",
+     "object": "水月庵",
+     "evidence": "芳官跟了水月庵的智通",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蕊官",
+     "predicate": "MEMBER_OF",
+     "object": "地藏庵",
+     "evidence": "蕊官、藕官二人跟了地藏庵的圆信",
+     "confidence": 0.9
+    },
+    {
+     "subject": "藕官",
+     "predicate": "MEMBER_OF",
+     "object": "地藏庵",
+     "evidence": "蕊官、藕官二人跟了地藏庵的圆信",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "指甲",
+     "evidence": "藏了指甲。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晴雯",
+     "predicate": "OWNS",
+     "object": "银镯",
+     "evidence": "腕上犹戴着四个银镯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "红绫袄",
+     "evidence": "将贴身穿著的一件旧红绫袄脱下，并指甲都与宝玉道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "QUARRELED",
+     "object": "灯姑娘",
+     "evidence": "灯姑娘便一手拉了宝玉进里间来",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:56:32.951Z"
+}

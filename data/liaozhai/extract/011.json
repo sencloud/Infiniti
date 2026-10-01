@@ -1,0 +1,68 @@
+{
+ "no": 11,
+ "title": "宅妖",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 310,
+   "entities": [
+    {
+     "name": "李公",
+     "type": "Person",
+     "aliases": [
+      "长山李公"
+     ],
+     "nickname": "",
+     "description": "长山人，大司寇之侄，宅多妖异"
+    },
+    {
+     "name": "王俊升",
+     "type": "Person",
+     "aliases": [
+      "王生"
+     ],
+     "nickname": "",
+     "description": "康熙十七年设帐李家的书生"
+    },
+    {
+     "name": "小人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "长三寸许的妖异小人，出入李宅"
+    },
+    {
+     "name": "李公宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "长山李公的宅第，多妖异"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李公",
+     "predicate": "LIVES_AT",
+     "object": "李公宅",
+     "evidence": "长山李公，大司寇之侄也。宅多妖异。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王俊升",
+     "predicate": "LIVES_AT",
+     "object": "李公宅",
+     "evidence": "康熙十七年，王生俊升设帐其家。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小人",
+     "predicate": "HARMED",
+     "object": "王俊升",
+     "evidence": "生睥睨良久，毛森立，如霜被于体。因大呼，遽走，颠床下，摇战莫能起。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:17.426Z"
+}

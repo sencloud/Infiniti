@@ -1,0 +1,85 @@
+{
+ "no": 112,
+ "title": "雊鹆",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 366,
+   "entities": [
+    {
+     "name": "养八哥者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王汾滨同乡，养八哥多年，后携鸟至西安"
+    },
+    {
+     "name": "中贵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王府宦官，见八哥后禀告王爷"
+    },
+    {
+     "name": "王汾滨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "讲述此故事的人"
+    },
+    {
+     "name": "毕载积",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "记录此故事的人"
+    },
+    {
+     "name": "绛州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山西地名，主人携八哥路过之处"
+    },
+    {
+     "name": "王邸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王爷府邸，八哥被卖之处"
+    },
+    {
+     "name": "西安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕西城市，后有人见主人携鸟在市上"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "养八哥者",
+     "predicate": "PARTICIPATED_IN",
+     "object": "卖八哥",
+     "evidence": "其人从之。携至城，相问答，观者渐众。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卖八哥",
+     "predicate": "OCCURRED_AT",
+     "object": "王邸",
+     "evidence": "王召入，欲买之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "养八哥者",
+     "predicate": "LIVES_AT",
+     "object": "西安",
+     "evidence": "后有往秦中者，见其人携鸟在西安市上。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:56.133Z"
+}

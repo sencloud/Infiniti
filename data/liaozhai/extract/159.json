@@ -1,0 +1,99 @@
+{
+ "no": 159,
+ "title": "鬼作筵",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 642,
+   "entities": [
+    {
+     "name": "杜九畹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "杜秀才",
+     "description": "《鬼作筵》中秀才，妻病，父魂附妻身"
+    },
+    {
+     "name": "杜妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《鬼作筵》中杜九畹之妻，被父魂附体"
+    },
+    {
+     "name": "杜父",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "阿翁",
+     "description": "《鬼作筵》中杜九畹亡父之魂，附妻身作祟"
+    },
+    {
+     "name": "杜母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《鬼作筵》中杜九畹之母，灵柩未殡"
+    },
+    {
+     "name": "张怀玉",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《鬼作筵》中勾魂四人之首"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杜九畹",
+     "predicate": "SPOUSE",
+     "object": "杜妻",
+     "evidence": "杜秀才九畹，内人病。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜九畹",
+     "predicate": "KIN",
+     "object": "杜父",
+     "evidence": "妻骂曰：“畜产何不识尔父？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜九畹",
+     "predicate": "KIN",
+     "object": "杜母",
+     "evidence": "时杜有母柩未殡，疑其灵爽所凭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜父",
+     "predicate": "KIN",
+     "object": "杜母",
+     "evidence": "尔母老，龙钟不能料理中馈。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜父",
+     "predicate": "HARMED",
+     "object": "杜妻",
+     "evidence": "既为吾父，何乃归家祟儿妇？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜父",
+     "predicate": "HELPED",
+     "object": "杜妻",
+     "evidence": "我万端哀乞，甫能得允遂。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张怀玉",
+     "predicate": "HARMED",
+     "object": "杜妻",
+     "evidence": "有四人来勾致，首者张怀玉。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:13.370Z"
+}

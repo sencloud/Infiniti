@@ -1,0 +1,122 @@
+{
+ "no": 114,
+ "title": "5.1 二次函数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2017,
+   "entities": [
+    {
+     "name": "二次函数",
+     "type": "Concept",
+     "aliases": [
+      "quadratic function"
+     ],
+     "nickname": "",
+     "description": "形如y=ax²+bx+c（a,b,c是常数，a≠0）的函数"
+    },
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "反比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=k/x（k≠0）的函数"
+    },
+    {
+     "name": "函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "揭示变量之间关系的数学概念"
+    },
+    {
+     "name": "抛物线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次函数的图像"
+    },
+    {
+     "name": "直线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "一次函数的图像"
+    },
+    {
+     "name": "双曲线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "反比例函数的图像"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一次函数",
+     "predicate": "PREREQUISITE",
+     "object": "二次函数",
+     "evidence": "一次函数、反比例函数、二次函数……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反比例函数",
+     "predicate": "PREREQUISITE",
+     "object": "二次函数",
+     "evidence": "一次函数、反比例函数、二次函数……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "函数",
+     "predicate": "INCLUDES",
+     "object": "一次函数",
+     "evidence": "一次函数、反比例函数、二次函数……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "函数",
+     "predicate": "INCLUDES",
+     "object": "反比例函数",
+     "evidence": "一次函数、反比例函数、二次函数……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "函数",
+     "predicate": "INCLUDES",
+     "object": "二次函数",
+     "evidence": "一次函数、反比例函数、二次函数……",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数",
+     "predicate": "RELATED",
+     "object": "抛物线",
+     "evidence": "直线、双曲线、抛物线……直观地显示了函数的性质．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一次函数",
+     "predicate": "RELATED",
+     "object": "直线",
+     "evidence": "直线、双曲线、抛物线……直观地显示了函数的性质．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反比例函数",
+     "predicate": "RELATED",
+     "object": "双曲线",
+     "evidence": "直线、双曲线、抛物线……直观地显示了函数的性质．",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:23.257Z"
+}

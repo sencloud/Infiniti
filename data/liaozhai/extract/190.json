@@ -1,0 +1,168 @@
+{
+ "no": 190,
+ "title": "土偶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 459,
+   "entities": [
+    {
+     "name": "马姓者",
+     "type": "Person",
+     "aliases": [
+      "马某"
+     ],
+     "nickname": "",
+     "description": "沂水人，早逝，土偶篇"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "马某之妻，守节，土偶篇"
+    },
+    {
+     "name": "马父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "马某之父，生有损德，土偶篇"
+    },
+    {
+     "name": "马某之鬼",
+     "type": "Spirit",
+     "aliases": [
+      "鬼",
+      "土偶人"
+     ],
+     "nickname": "",
+     "description": "马某魂魄，借土偶还阳，土偶篇"
+    },
+    {
+     "name": "里正",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与马某有隙，告官，土偶篇"
+    },
+    {
+     "name": "邑令",
+     "type": "Person",
+     "aliases": [
+      "令"
+     ],
+     "nickname": "",
+     "description": "县令，断案验证鬼儿，土偶篇"
+    },
+    {
+     "name": "王氏母",
+     "type": "Person",
+     "aliases": [
+      "母"
+     ],
+     "nickname": "",
+     "description": "王氏之母，劝女改嫁，土偶篇"
+    },
+    {
+     "name": "王氏姑",
+     "type": "Person",
+     "aliases": [
+      "姑"
+     ],
+     "nickname": "",
+     "description": "马某之母，劝媳改嫁，土偶篇"
+    },
+    {
+     "name": "沂水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，马某籍贯，土偶篇"
+    },
+    {
+     "name": "土偶",
+     "type": "Item",
+     "aliases": [
+      "夫像"
+     ],
+     "nickname": "",
+     "description": "王氏所塑马某泥像，土偶篇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "马姓者",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "沂水马姓者，娶妻王氏，琴瑟甚敦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马某之鬼",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "遂燕好如平生。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马某之鬼",
+     "predicate": "KIN",
+     "object": "马父",
+     "evidence": "吾父生有损德，应无嗣，遂至促我茂龄。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王氏",
+     "predicate": "KIN",
+     "object": "王氏母",
+     "evidence": "王父母欲夺其志，王矢不他。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王氏",
+     "predicate": "KIN",
+     "object": "王氏姑",
+     "evidence": "姑怜其少，亦劝之，王不听。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马姓者",
+     "predicate": "NATIVE_OF",
+     "object": "沂水",
+     "evidence": "沂水马姓者，娶妻王氏，琴瑟甚敦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王氏",
+     "predicate": "OWNS",
+     "object": "土偶",
+     "evidence": "女命塑工肖夫像，每食，酹献如生时。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马某之鬼",
+     "predicate": "HELPED",
+     "object": "王氏",
+     "evidence": "冥司念尔苦节，故令我归，与汝生一子承祧绪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "里正",
+     "predicate": "HARMED",
+     "object": "王氏",
+     "evidence": "有里正故与马有隙，告诸邑令。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑令",
+     "predicate": "PUNISHED",
+     "object": "王氏",
+     "evidence": "令拘讯邻人，并无异言。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:26.605Z"
+}

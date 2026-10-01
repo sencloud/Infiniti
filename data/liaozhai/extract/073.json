@@ -1,0 +1,254 @@
+{
+ "no": 73,
+ "title": "张诚",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2333,
+   "entities": [
+    {
+     "name": "张讷",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张诚之兄，受继母虐待，后寻弟团圆"
+    },
+    {
+     "name": "张诚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张讷之弟，性孝友，被虎衔去后为别驾收养"
+    },
+    {
+     "name": "张父",
+     "type": "Person",
+     "aliases": [
+      "张炳之"
+     ],
+     "nickname": "",
+     "description": "张讷、张诚之父，原齐人，流寓河南"
+    },
+    {
+     "name": "牛氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张诚之母，张讷继母，悍妒虐待张讷"
+    },
+    {
+     "name": "张别驾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张父前妻所生之子，官别驾，后与兄弟团圆"
+    },
+    {
+     "name": "太夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张父前妻，被北兵掠去，后为别驾之母"
+    },
+    {
+     "name": "皂衫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府中穿黑衣的差役，掌管牒册"
+    },
+    {
+     "name": "菩萨",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥司中洒甘露救苦的菩萨"
+    },
+    {
+     "name": "豫",
+     "type": "Place",
+     "aliases": [
+      "河南"
+     ],
+     "nickname": "",
+     "description": "张父流寓定居之地"
+    },
+    {
+     "name": "齐",
+     "type": "Place",
+     "aliases": [
+      "山东"
+     ],
+     "nickname": "",
+     "description": "张氏原籍，明末大乱之地"
+    },
+    {
+     "name": "东昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张父原籍所属府"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张讷寻弟途中到达之地，遇张诚处"
+    },
+    {
+     "name": "冥司",
+     "type": "Place",
+     "aliases": [
+      "冥府"
+     ],
+     "nickname": "",
+     "description": "阴间地府，张讷死后所至"
+    },
+    {
+     "name": "饼",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "张诚偷面请邻妇所做，饵兄之食"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张讷",
+     "predicate": "KIN",
+     "object": "张诚",
+     "evidence": "生子讷。无何，妻卒，又娶继室，生子诚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张讷",
+     "predicate": "KIN",
+     "object": "张父",
+     "evidence": "娶于豫，生子讷。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张诚",
+     "predicate": "KIN",
+     "object": "张父",
+     "evidence": "又娶继室，生子诚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛氏",
+     "predicate": "KIN",
+     "object": "张诚",
+     "evidence": "又娶继室，生子诚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛氏",
+     "predicate": "HARMED",
+     "object": "张讷",
+     "evidence": "继室牛氏悍，每嫉讷，奴畜之，啖以恶草具。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张诚",
+     "predicate": "HELPED",
+     "object": "张讷",
+     "evidence": "怀饼来饵兄。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张诚",
+     "predicate": "HELPED",
+     "object": "张讷",
+     "evidence": "以手足断柴助兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张讷",
+     "predicate": "HELPED",
+     "object": "张诚",
+     "evidence": "讷力斧之，中胯，虎痛狂奔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张别驾",
+     "predicate": "HELPED",
+     "object": "张诚",
+     "evidence": "适张别驾自都中来，过之，见其貌文，怜而抚之，渐苏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张别驾",
+     "predicate": "KIN",
+     "object": "张诚",
+     "evidence": "别驾无长君，子之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张别驾",
+     "predicate": "KIN",
+     "object": "张讷",
+     "evidence": "太夫人大哭，谓别驾曰：“此汝弟也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太夫人",
+     "predicate": "KIN",
+     "object": "张别驾",
+     "evidence": "身属黑固山半年，生汝兄。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太夫人",
+     "predicate": "KIN",
+     "object": "张父",
+     "evidence": "我适汝父三年，流离北去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菩萨",
+     "predicate": "HELPED",
+     "object": "张讷",
+     "evidence": "菩萨以杨柳枝遍洒甘露，其细如尘。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张讷",
+     "predicate": "LIVES_AT",
+     "object": "豫",
+     "evidence": "张常客豫，遂家焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张父",
+     "predicate": "NATIVE_OF",
+     "object": "齐",
+     "evidence": "豫人张氏者，其先齐人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张父",
+     "predicate": "NATIVE_OF",
+     "object": "东昌",
+     "evidence": "曾闻父言，属东昌辖。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张讷",
+     "predicate": "LIVES_AT",
+     "object": "冥司",
+     "evidence": "至一都会，见一皂衫人，自城中出",
+     "confidence": 0.85
+    },
+    {
+     "subject": "张诚",
+     "predicate": "OWNS",
+     "object": "饼",
+     "evidence": "怀饼来饵兄。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:42.989Z"
+}

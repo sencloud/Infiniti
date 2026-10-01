@@ -1,0 +1,89 @@
+{
+ "no": 107,
+ "title": "4.2 中位数与众数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5489,
+   "entities": [
+    {
+     "name": "中位数",
+     "type": "Concept",
+     "aliases": [
+      "median"
+     ],
+     "nickname": "",
+     "description": "将一组数据按大小顺序排列，处于中间位置的一个数或两个数的平均数"
+    },
+    {
+     "name": "众数",
+     "type": "Concept",
+     "aliases": [
+      "mode"
+     ],
+     "nickname": "",
+     "description": "一组数据中出现次数最多的数据"
+    },
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的总和除以数据的个数"
+    },
+    {
+     "name": "数据的集中趋势",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "描述一组数据向某一中心值靠拢的趋势"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "中位数",
+     "predicate": "PROPERTY_OF",
+     "object": "数据的集中趋势",
+     "evidence": "当一组数据中个别数据与其他数据的大小差异很大时，可以用中位数来描述这组数据的集中趋势。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "众数",
+     "predicate": "PROPERTY_OF",
+     "object": "数据的集中趋势",
+     "evidence": "当一组数据中有较多的重复数据时，可以用众数来描述这组数据的集中趋势。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平均数",
+     "predicate": "PROPERTY_OF",
+     "object": "数据的集中趋势",
+     "evidence": "平均数、中位数和众数都反映了一组数据的集中趋势。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中位数",
+     "predicate": "RELATED",
+     "object": "众数",
+     "evidence": "平均数、中位数和众数都反映了一组数据的集中趋势。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "中位数",
+     "predicate": "RELATED",
+     "object": "平均数",
+     "evidence": "平均数、中位数和众数都反映了一组数据的集中趋势。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "众数",
+     "predicate": "RELATED",
+     "object": "平均数",
+     "evidence": "平均数、中位数和众数都反映了一组数据的集中趋势。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:18.516Z"
+}

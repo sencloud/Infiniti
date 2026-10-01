@@ -1,0 +1,365 @@
+{
+ "no": 16,
+ "title": "季氏篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 946,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，本篇主要论述者"
+    },
+    {
+     "name": "冉求",
+     "type": "Person",
+     "aliases": [
+      "子有",
+      "冉有",
+      "求",
+      "冉子"
+     ],
+     "nickname": "子有",
+     "description": "孔门弟子，季氏家臣"
+    },
+    {
+     "name": "仲由",
+     "type": "Person",
+     "aliases": [
+      "子路",
+      "季路",
+      "由"
+     ],
+     "nickname": "子路",
+     "description": "孔门弟子，季氏家臣"
+    },
+    {
+     "name": "有若",
+     "type": "Person",
+     "aliases": [
+      "子有",
+      "有子",
+      "若"
+     ],
+     "nickname": "子有",
+     "description": "孔门弟子，被称有子"
+    },
+    {
+     "name": "陈亢",
+     "type": "Person",
+     "aliases": [
+      "子禽",
+      "陈子禽",
+      "亢"
+     ],
+     "nickname": "子禽",
+     "description": "孔门弟子，问伯鱼"
+    },
+    {
+     "name": "齐景公",
+     "type": "Person",
+     "aliases": [
+      "景公",
+      "杵臼"
+     ],
+     "nickname": "景公",
+     "description": "齐国国君，有马千驷"
+    },
+    {
+     "name": "伯夷",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孤竹君之子，饿于首阳山"
+    },
+    {
+     "name": "叔齐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孤竹君之子，饿于首阳山"
+    },
+    {
+     "name": "伯鱼",
+     "type": "Person",
+     "aliases": [
+      "鲤"
+     ],
+     "nickname": "伯鱼",
+     "description": "孔子之子，名鲤"
+    },
+    {
+     "name": "季氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国大夫，欲伐颛臾"
+    },
+    {
+     "name": "颛臾",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国附庸小国，东蒙主"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国，孔子母国"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心德行"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "礼制、礼乐"
+    },
+    {
+     "name": "义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道义、合宜"
+    },
+    {
+     "name": "孝",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "孝顺父母"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有德者或在位者"
+    },
+    {
+     "name": "小人",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "无德者"
+    },
+    {
+     "name": "德",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "德行"
+    },
+    {
+     "name": "政",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "政事、政权"
+    },
+    {
+     "name": "学",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "学习"
+    },
+    {
+     "name": "知",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "知识、智慧"
+    },
+    {
+     "name": "诗",
+     "type": "Text",
+     "aliases": [],
+     "nickname": "",
+     "description": "《诗经》"
+    },
+    {
+     "name": "礼",
+     "type": "Text",
+     "aliases": [],
+     "nickname": "",
+     "description": "《礼》经"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冉求",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "冉有、季路见于孔子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仲由",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "冉有、季路见于孔子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冉求",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "冉有、季路见于孔子，曰：“季氏将有事于颛臾。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仲由",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "冉有、季路见于孔子，曰：“季氏将有事于颛臾。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CRITICIZED",
+     "object": "冉求",
+     "evidence": "孔子曰：“求！无乃尔是过与？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "天下有道，则政不在大夫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "天下有道，则礼乐征伐自天子出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "侍于君子有三愆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "小人不知天命而不畏也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "生而知之者，上也；学而知之者，次也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "生而知之者，上也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "见得思义",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "民无德而称焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "诗",
+     "evidence": "不学诗，无以言",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "礼",
+     "evidence": "不学礼，无以立",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈亢",
+     "predicate": "ASKED",
+     "object": "伯鱼",
+     "evidence": "陈亢问于伯鱼曰：“子亦有异闻乎？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "伯鱼",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "鲤趋而过庭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伯鱼",
+     "predicate": "KIN",
+     "object": "孔子",
+     "evidence": "鲤趋而过庭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "不学礼，无以立",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "诗",
+     "evidence": "不学诗，无以言",
+     "confidence": 0.9
+    },
+    {
+     "subject": "君子",
+     "predicate": "CONTRASTED",
+     "object": "小人",
+     "evidence": "君子有三畏：畏天命，畏大人，畏圣人之言。小人不知天命而不畏也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "义",
+     "predicate": "RELATED",
+     "object": "礼",
+     "evidence": "乐节礼乐，乐道人之善",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:35.457Z"
+}

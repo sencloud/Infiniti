@@ -1,0 +1,88 @@
+{
+ "no": 138,
+ "title": "柳秀才",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 254,
+   "entities": [
+    {
+     "name": "沂令",
+     "type": "Person",
+     "aliases": [
+      "县令"
+     ],
+     "nickname": "",
+     "description": "沂水县县令，忧心蝗灾，梦遇柳秀才"
+    },
+    {
+     "name": "柳秀才",
+     "type": "Spirit",
+     "aliases": [
+      "柳神"
+     ],
+     "nickname": "",
+     "description": "峨冠绿衣秀才，实为柳神，献御蝗之策"
+    },
+    {
+     "name": "蝗神",
+     "type": "Spirit",
+     "aliases": [
+      "妇"
+     ],
+     "nickname": "",
+     "description": "骑硕腹牝驴的妇人，掌管蝗灾之神"
+    },
+    {
+     "name": "沂",
+     "type": "Place",
+     "aliases": [
+      "沂水"
+     ],
+     "nickname": "",
+     "description": "沂水县，蝗灾所集之地"
+    },
+    {
+     "name": "青兖",
+     "type": "Place",
+     "aliases": [
+      "青州兖州"
+     ],
+     "nickname": "",
+     "description": "青州、兖州一带，蝗虫初生处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "柳秀才",
+     "predicate": "HELPED",
+     "object": "沂令",
+     "evidence": "梦一秀才来谒，峨冠绿衣，状貌修伟，自言御蝗有策。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沂令",
+     "predicate": "HELPED",
+     "object": "沂",
+     "evidence": "区区小治，幸悯脱蝗口！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蝗神",
+     "predicate": "HARMED",
+     "object": "柳秀才",
+     "evidence": "当即以其身受，不损禾稼可耳。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沂令",
+     "predicate": "LIVES_AT",
+     "object": "沂",
+     "evidence": "沂令忧之。退卧署幕",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:04.152Z"
+}

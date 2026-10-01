@@ -1,0 +1,128 @@
+{
+ "no": 129,
+ "title": "7.4 由三角函数值求锐角",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1484,
+   "entities": [
+    {
+     "name": "锐角三角函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形中锐角的正弦、余弦、正切"
+    },
+    {
+     "name": "由三角函数值求锐角",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用计算器由三角函数值求对应锐角"
+    },
+    {
+     "name": "正弦",
+     "type": "Concept",
+     "aliases": [
+      "sin"
+     ],
+     "nickname": "",
+     "description": "锐角A的对边与斜边之比"
+    },
+    {
+     "name": "余弦",
+     "type": "Concept",
+     "aliases": [
+      "cos"
+     ],
+     "nickname": "",
+     "description": "锐角A的邻边与斜边之比"
+    },
+    {
+     "name": "正切",
+     "type": "Concept",
+     "aliases": [
+      "tan"
+     ],
+     "nickname": "",
+     "description": "锐角A的对边与邻边之比"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [
+      "Rt△"
+     ],
+     "nickname": "",
+     "description": "有一个角为直角的三角形"
+    },
+    {
+     "name": "等腰三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有两条边相等的三角形"
+    },
+    {
+     "name": "计算器",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用于计算三角函数值或由值求角的工具"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "锐角三角函数",
+     "predicate": "PREREQUISITE",
+     "object": "由三角函数值求锐角",
+     "evidence": "用计算器可以由一个锐角的三角函数值求得这个角的大小。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正弦",
+     "evidence": "则 sin A = 5/13。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "余弦",
+     "evidence": "（1）cos A = 1/4；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正切",
+     "evidence": "（2）tan A = 2。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "由三角函数值求锐角",
+     "predicate": "APPLIES_TO",
+     "object": "直角三角形",
+     "evidence": "在 Rt△ABC 中，∠C=90°，AB=13，BC=5。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "由三角函数值求锐角",
+     "predicate": "APPLIES_TO",
+     "object": "等腰三角形",
+     "evidence": "在等腰三角形 ABC 中，AB=AC=4，BC=6。求 ∠B。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "计算器",
+     "predicate": "APPLIES_TO",
+     "object": "由三角函数值求锐角",
+     "evidence": "用计算器可以由一个锐角的三角函数值求得这个角的大小。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:30.587Z"
+}

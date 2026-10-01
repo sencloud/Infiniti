@@ -64,12 +64,67 @@ npm run worker
 
 ### 3. 使用
 
-1. 打开 `http://localhost:3100`
-2. 搜索框输入任意内容：
+1. 打开 `http://localhost:3100`：知识图谱首页，按「文学名著 / 经史典籍 / 学科知识 / 人物关系」分类浏览，顶部可跨图谱搜索
+2. 每个图谱有两个视图：语义星图 `/g/<图谱>/galaxy`、关系探索 `/g/<图谱>/explore`
+3. 「人物关系」分类即原来的 3D 人物图谱（`/people/`），搜索框输入任意内容：
    - **已有**：直接跳转图谱探索
    - **没有**：选择「抓取人物资料」或「自动构建知识图谱」
-3. 队列面板（右下角）可管理任务：添加 / 重试 / 置顶 / 删除 / 清空
-4. ⚙ 配置面板（右上角）：数据源库 / 构建规模 / LLM 模型
+   - 队列面板（右下角）管理任务，⚙ 配置面板（右上角）设置数据源库 / 构建规模 / LLM 模型
+
+页面支持亮 / 暗主题和手机浏览（≤768px 时侧栏、详情卡、原文都改成底部抽屉）。
+
+## 多图谱（语义星图 / 关系探索）
+
+移植自 AIB 的知识图谱模块。库里每个节点带 `graph_id`，各图谱互不干扰；图谱配置（实体类型、谓词、单元名称、线索规则、分类）在 `src/kg/domains/index.js`。
+
+| 图谱 | id | 来源 | 单元 |
+|------|----|------|------|
+| 水浒传 | `shuihu` | [5000yan](https://shuihu.5000yan.com/) | 120 回 |
+| 西游记 / 红楼梦 / 三国演义 | `xiyouji` / `hongloumeng` / `sanguo` | 5000yan | 100 / 120 / 120 回 |
+| 聊斋志异 | `liaozhai` | 5000yan | 494 篇 |
+| 论语 / 史记 | `lunyu` / `shiji` | 5000yan | 20 / 130 篇 |
+| 初中数学 | `math` | [国家中小学智慧教育平台](https://basic.smartedu.cn/) 苏科版 6 册 | 137 节 |
+
+- **语义星图**：原文分段向量化（本地 bge-small-zh）→ PCA + UMAP → KMeans 聚成情节群 / 知识簇，DeepSeek 命名；子群、跨群关联、离群段、分期漂移、按实体检索，点任意一段看原文高亮。
+- **关系探索**：实体关系 3D 图（Y 轴为章回 / 节）；浏览、路径探查、关联强度、社区、时序台账、流转、线索。
+  线索规则按图谱类型选：小说 / 史传用 R1–R4（关系反转 / 死后再现 / 出场断档 / 籍贯冲突），
+  教材用 M1–M4（前置倒挂 / 循环依赖 / 孤立知识点 / 跨册长跳）。
+- **媒体**（水浒传）：维基共享资源的公有领域古画 + 百科配图（节点卡图集，注明出处和许可），
+  央视 1998 版 43 集与回目的对应表（节点卡和原文抽屉里点集数，弹窗播放 B 站外链）。
+- **教材原页**（初中数学）：原文抽屉按页显示教材页码，可切到页面原图。
+
+### 数据生成
+
+每个图谱一条管线：抓取 → 种子 → 抽取 → 入库 → 星图与关系分析，每步可续跑（已完成的部分跳过），进度写到 `data/<图谱>/status.json`，首页卡片据此显示构建进度。
+
+```bash
+npm run kg:run -- <图谱>                 # 全流程，如 npm run kg:run -- xiyouji
+npm run kg:run -- <图谱> load build      # 只跑指定步骤
+npm run classics:all                     # 后台批量跑 5000yan 的名著与典籍（失败的会串行重试一次）
+npm run math:fetch                       # 数学：下载教材页图，deepseek-flash 识图转写，按目录切节
+npm run math:all                         # 数学全流程（抓取步骤即 math:fetch，转写有缓存）
+npm run shuihu:media                     # 水浒人物图片 + 央视版分集表，写入 Entity.media
+npm run kg:covers                        # 首页封面（维基数据的公有领域书影）→ data/covers/
+```
+
+入库只清当前图谱的节点。抽取结果缓存在 `data/<图谱>/extract/`，重跑 load / build 不再调用模型抽取（星图命名仍会调用 DeepSeek）。
+仓库里带了原文、抽取缓存和教材转写；向量文件、教材页图、水浒图片不入库，clone 后分别由 `kg:run -- <图谱> load build`、`math:fetch`、`shuihu:media` 重新生成。
+页面上的「重新计算」按钮等价于 build 的对应阶段。
+
+教材 PDF 需要登录，管线改用平台公开的逐页图片，由 `DEEPSEEK_VISION_MODEL`（默认 `deepseek-flash`）识图转写，
+结果缓存在 `data/math/ocr/<册>/<页>.md`，页图在 `data/math/media/`。
+
+### 前端
+
+前端是独立的 Vite + React + antd 子工程（`web/`），构建产物输出到 `public/app/`（已 gitignore），由 Express 托管：
+
+```bash
+npm --prefix web install
+npm run web:build        # 生成 public/app/
+npm run web:dev          # 开发模式（http://localhost:5173，/api 和 /media 代理到 3100）
+```
+
+旧地址 `/kg/*` 会跳到 `/g/shuihu/*`。
 
 ## 本体（Ontology）
 
@@ -169,11 +224,21 @@ src/
 │   ├── crawler.js          # 多源抓取（真浏览器）
 │   ├── analyzer.js         # DeepSeek 抽取（人物/知识/消歧/规划）
 │   └── worker.js           # 管道主循环（person/knowledge 双流程）
+├── kg/                     # 多图谱后端（/api/knowledge-graph/*，?graph=<id>）
+│   ├── domains/index.js    # 图谱配置：分类、实体类型、谓词、单元名、线索规则
+│   ├── galaxyBuild.js      # 向量化 + PCA/UMAP/KMeans + 命名 + 关联/子群/离群/漂移
+│   ├── analysisBuild.js    # 关联强度 / Louvain 社区 / 枢纽 / 线索规则（R1–R4 / M1–M4）
+│   └── *Query.js           # 星图 / 探索 / 分析查询
 └── scripts/
-    └── seed.js             # 种子脚本
+    ├── seed.js             # 种子脚本
+    ├── kg/                 # 通用管线（crawl / seeds / extract / load / build / run / all / covers / wikimedia）
+    ├── math/fetch.js       # 教材页图下载 + 识图转写 + 按目录切节
+    └── shuihu/             # 水浒专用：一百单八将词典、人物图片与分集表（media.js）
 public/
-├── index.html              # 单页应用
-└── app-3d.js               # Three.js 3D 图谱引擎
+├── app/                    # 知识图谱单页应用构建产物（来自 web/）
+└── people/                 # 人物关系 3D 图谱（index.html + app-3d.js）
+web/                        # 首页 + 语义星图 + 关系探索前端（Vite + React + antd）
+data/<图谱>/                # 原文、抽取缓存、status.json、媒体（/media/<图谱>/…）
 ```
 
 ## 配置说明（.env）
@@ -186,6 +251,8 @@ NEO4J_PASSWORD=infiniti123
 DEEPSEEK_API_KEY=sk-xxx            # 必填
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 DEEPSEEK_MODEL=deepseek-chat
+DEEPSEEK_VISION_MODEL=deepseek-flash  # 教材页图转写（需多模态）
+MATH_OCR_PARALLEL=6                # 转写并发
 MAX_PERSONS=500                    # 构建规模上限
 MAX_DEPTH=6                        # 探索深度上限
 CRAWL_DELAY_MS=2000                # 抓取限速（对源友好）

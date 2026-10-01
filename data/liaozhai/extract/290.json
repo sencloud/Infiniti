@@ -1,0 +1,64 @@
+{
+ "no": 290,
+ "title": "龙戏蛛",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 273,
+   "entities": [
+    {
+     "name": "徐公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐东县令，廉正爱民，后遭雷震病死"
+    },
+    {
+     "name": "蜘蛛",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "大如斗的蜘蛛，居县署楼中，后遭雷震"
+    },
+    {
+     "name": "齐东",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，徐公任县令之地"
+    },
+    {
+     "name": "署中楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县衙中藏肴饵之楼，蜘蛛所居"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "徐公",
+     "predicate": "LIVES_AT",
+     "object": "齐东",
+     "evidence": "徐公为齐东令",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜘蛛",
+     "predicate": "LIVES_AT",
+     "object": "署中楼",
+     "evidence": "署中有楼，用藏肴饵，往往被物窃食",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐公",
+     "predicate": "HELPED",
+     "object": "蜘蛛",
+     "evidence": "日遣婢辈投饵焉",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:01.700Z"
+}

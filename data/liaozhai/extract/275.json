@@ -1,0 +1,220 @@
+{
+ "no": 275,
+ "title": "仙人岛",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3726,
+   "entities": [
+    {
+     "name": "王勉",
+     "type": "Person",
+     "aliases": [
+      "黾斋"
+     ],
+     "nickname": "黾翁",
+     "description": "灵山才子，字黾斋，心高气傲"
+    },
+    {
+     "name": "芳云",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙人岛桓文若长女，地仙"
+    },
+    {
+     "name": "绿云",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "桓文若幼女，芳云之妹，地仙"
+    },
+    {
+     "name": "明珰",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "采莲女，救王勉，后为侍妾"
+    },
+    {
+     "name": "桓文若",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙人岛主人，芳云绿云之父，地仙"
+    },
+    {
+     "name": "云和夫人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "跨彩凤弹乐器的女仙"
+    },
+    {
+     "name": "王勉父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王勉之父，年老尚存"
+    },
+    {
+     "name": "王勉子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王勉之子，好赌"
+    },
+    {
+     "name": "黄子介",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王勉同门学友，名士坎坷者"
+    },
+    {
+     "name": "仙人岛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "远绝人世的海岛，桓文若居所"
+    },
+    {
+     "name": "灵山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王勉籍贯"
+    },
+    {
+     "name": "巨宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士带王勉所至的宫殿式宅院"
+    },
+    {
+     "name": "西村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王勉父与子暂居之处"
+    },
+    {
+     "name": "草制楼阁",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "绿云所赠细草制楼阁，可化巨宅"
+    },
+    {
+     "name": "素练",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "芳云所出白练，抛去化为长堤"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王勉",
+     "predicate": "NATIVE_OF",
+     "object": "灵山",
+     "evidence": "王勉，字黾斋，灵山人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "明珰",
+     "predicate": "HELPED",
+     "object": "王勉",
+     "evidence": "一女子援登舟上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王勉",
+     "predicate": "SPOUSE",
+     "object": "芳云",
+     "evidence": "诸婢导夫妻入内寝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王勉",
+     "predicate": "KIN",
+     "object": "王勉父",
+     "evidence": "王以亲老子幼，每切怀忆。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王勉",
+     "predicate": "KIN",
+     "object": "王勉子",
+     "evidence": "问不肖子，则出赌未归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王勉",
+     "predicate": "FRIEND",
+     "object": "黄子介",
+     "evidence": "独有黄子介，夙与同门学，亦名士之坎坷者，王留之甚久",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王勉",
+     "predicate": "LIVES_AT",
+     "object": "仙人岛",
+     "evidence": "此名仙人岛，远绝人世。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王勉",
+     "predicate": "LIVES_AT",
+     "object": "巨宅",
+     "evidence": "即抽杖去，落巨宅中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王勉父",
+     "predicate": "LIVES_AT",
+     "object": "西村",
+     "evidence": "暂僦居于西村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王勉子",
+     "predicate": "LIVES_AT",
+     "object": "西村",
+     "evidence": "暂僦居于西村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王勉",
+     "predicate": "OWNS",
+     "object": "草制楼阁",
+     "evidence": "绿云提篮入，曰：‘姊姊远别，莫可持赠。……夙夜代营宫室’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "芳云",
+     "predicate": "OWNS",
+     "object": "素练",
+     "evidence": "芳云出素练一疋，望南抛去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王勉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "仙人岛婚宴",
+     "evidence": "桓翁张筵祖饯",
+     "confidence": 0.8
+    },
+    {
+     "subject": "仙人岛婚宴",
+     "predicate": "OCCURRED_AT",
+     "object": "仙人岛",
+     "evidence": "此名仙人岛，远绝人世。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:59.611Z"
+}

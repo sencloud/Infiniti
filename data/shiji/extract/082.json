@@ -1,0 +1,343 @@
+{
+ "no": 82,
+ "title": "田单列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1367,
+   "entities": [
+    {
+     "name": "田单",
+     "type": "Person",
+     "aliases": [
+      "安平君"
+     ],
+     "nickname": "",
+     "description": "齐国宗室，即墨守将，以火牛阵破燕复齐"
+    },
+    {
+     "name": "乐毅",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕国名将，率军伐齐"
+    },
+    {
+     "name": "齐湣王",
+     "type": "Person",
+     "aliases": [
+      "愍王"
+     ],
+     "nickname": "",
+     "description": "齐国君主，被淖齿所杀"
+    },
+    {
+     "name": "淖齿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚国将领，杀齐湣王于莒"
+    },
+    {
+     "name": "燕昭王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕国君主，支持乐毅伐齐"
+    },
+    {
+     "name": "燕惠王",
+     "type": "Person",
+     "aliases": [
+      "惠王"
+     ],
+     "nickname": "",
+     "description": "燕昭王之子，继位后以骑劫代乐毅"
+    },
+    {
+     "name": "骑劫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "燕国将领，代乐毅攻即墨，被齐人杀死"
+    },
+    {
+     "name": "齐襄王",
+     "type": "Person",
+     "aliases": [
+      "法章",
+      "襄王"
+     ],
+     "nickname": "",
+     "description": "齐湣王之子，莒人立为齐王，后复国"
+    },
+    {
+     "name": "君王后",
+     "type": "Person",
+     "aliases": [
+      "太史氏女"
+     ],
+     "nickname": "",
+     "description": "太史嬓之女，齐襄王后"
+    },
+    {
+     "name": "太史嬓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莒地太史，法章曾在其家灌园"
+    },
+    {
+     "name": "王蠋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "画邑贤人，义不事燕，自缢而死"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "《史记》作者，篇末发表评论"
+    },
+    {
+     "name": "齐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，田单复国"
+    },
+    {
+     "name": "燕",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，乐毅伐齐"
+    },
+    {
+     "name": "赵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国，乐毅归赵"
+    },
+    {
+     "name": "即墨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国城邑，田单坚守并反攻"
+    },
+    {
+     "name": "莒",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国城邑，齐湣王奔保，后立襄王"
+    },
+    {
+     "name": "安平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国城邑，田单封号安平君"
+    },
+    {
+     "name": "临菑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国都城"
+    },
+    {
+     "name": "画邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国城邑，王蠋故乡"
+    },
+    {
+     "name": "即墨之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "田单以火牛阵大破燕军，复齐七十余城"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "田单",
+     "predicate": "NATIVE_OF",
+     "object": "齐",
+     "evidence": "田单者，齐诸田疏属也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田单",
+     "predicate": "HELD_OFFICE",
+     "object": "临菑市掾",
+     "evidence": "愍王时，单为临菑市掾，不见知。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐毅",
+     "predicate": "SERVED",
+     "object": "燕",
+     "evidence": "及燕使乐毅伐破齐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐毅",
+     "predicate": "FOUGHT",
+     "object": "齐",
+     "evidence": "及燕使乐毅伐破齐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐毅",
+     "predicate": "DEFEATED",
+     "object": "齐",
+     "evidence": "燕师长驱平齐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐湣王",
+     "predicate": "RULED",
+     "object": "齐",
+     "evidence": "齐湣王出奔，已而保莒城。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "淖齿",
+     "predicate": "KILLED",
+     "object": "齐湣王",
+     "evidence": "淖齿既杀愍王于莒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田单",
+     "predicate": "ENFEOFFED",
+     "object": "安平",
+     "evidence": "襄王封田单，号曰安平君。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田单",
+     "predicate": "SERVED",
+     "object": "齐",
+     "evidence": "立以为将军，以即墨距燕。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕惠王",
+     "predicate": "SUCCEEDED",
+     "object": "燕昭王",
+     "evidence": "燕昭王卒，惠王立",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕惠王",
+     "predicate": "FRAMED",
+     "object": "乐毅",
+     "evidence": "惠王立，与乐毅有隙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田单",
+     "predicate": "FRAMED",
+     "object": "乐毅",
+     "evidence": "田单闻之，乃纵反间于燕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "骑劫",
+     "predicate": "SUCCEEDED",
+     "object": "乐毅",
+     "evidence": "燕王以为然，使骑劫代乐毅。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乐毅",
+     "predicate": "BETRAYED",
+     "object": "燕",
+     "evidence": "乐毅因归赵",
+     "confidence": 0.8
+    },
+    {
+     "subject": "田单",
+     "predicate": "DEFEATED",
+     "object": "燕",
+     "evidence": "燕军大骇，败走。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐",
+     "predicate": "DEFEATED",
+     "object": "燕",
+     "evidence": "齐人遂夷杀其将骑劫。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐襄王",
+     "predicate": "SUCCEEDED",
+     "object": "齐湣王",
+     "evidence": "及莒人共立法章为齐王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐襄王",
+     "predicate": "RULED",
+     "object": "齐",
+     "evidence": "及莒人共立法章为齐王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "君王后",
+     "predicate": "SPOUSE",
+     "object": "齐襄王",
+     "evidence": "女遂与通。及莒人共立法章为齐王……而太史氏女遂为后",
+     "confidence": 0.95
+    },
+    {
+     "subject": "君王后",
+     "predicate": "KIN",
+     "object": "太史嬓",
+     "evidence": "莒人求愍王子法章，得之太史嬓之家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王蠋",
+     "predicate": "NATIVE_OF",
+     "object": "画邑",
+     "evidence": "闻画邑人王蠋贤",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王蠋",
+     "predicate": "SERVED",
+     "object": "齐",
+     "evidence": "齐王不听吾谏，故退而耕于野。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "田单",
+     "predicate": "PARTICIPATED_IN",
+     "object": "即墨之战",
+     "evidence": "田单乃收城中得千余牛……夜纵牛，壮士五千人随其后。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "即墨之战",
+     "predicate": "OCCURRED_AT",
+     "object": "即墨",
+     "evidence": "燕引兵东围即墨",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:49:43.497Z"
+}

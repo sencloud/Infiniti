@@ -1,0 +1,57 @@
+{
+ "no": 183,
+ "title": "金永年",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 93,
+   "entities": [
+    {
+     "name": "金永年",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "利津人，八十二岁无子，贸贩平准"
+    },
+    {
+     "name": "金永年之媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金永年之妻，七十八岁，后生子"
+    },
+    {
+     "name": "利津",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金永年籍贯所在县"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "金永年",
+     "predicate": "NATIVE_OF",
+     "object": "利津",
+     "evidence": "利津金永年",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金永年",
+     "predicate": "SPOUSE",
+     "object": "金永年之媪",
+     "evidence": "八十二岁无子，媪亦七十八岁",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金永年",
+     "predicate": "KIN",
+     "object": "金永年之子",
+     "evidence": "十月，竟举一男",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:21.464Z"
+}

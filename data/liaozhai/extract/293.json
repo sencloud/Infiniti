@@ -1,0 +1,64 @@
+{
+ "no": 293,
+ "title": "役鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 117,
+   "entities": [
+    {
+     "name": "杨医",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "山西医生，善针灸，能役鬼"
+    },
+    {
+     "name": "长脚王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "鬼物，身材修伟，为杨医前驱"
+    },
+    {
+     "name": "大头李",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "鬼物，身材修伟，为杨医前驱"
+    },
+    {
+     "name": "友人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨医之友，同行途中见鬼大骇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨医",
+     "predicate": "HELPED",
+     "object": "友人",
+     "evidence": "与友人同行",
+     "confidence": 0.6
+    },
+    {
+     "subject": "长脚王",
+     "predicate": "HELPED",
+     "object": "杨医",
+     "evidence": "为我前驱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大头李",
+     "predicate": "HELPED",
+     "object": "杨医",
+     "evidence": "为我前驱",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:02.094Z"
+}

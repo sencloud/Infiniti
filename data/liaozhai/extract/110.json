@@ -1,0 +1,258 @@
+{
+ "no": 110,
+ "title": "庚娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2002,
+   "entities": [
+    {
+     "name": "金大用",
+     "type": "Person",
+     "aliases": [
+      "金生",
+      "常大用"
+     ],
+     "nickname": "",
+     "description": "中州旧家子，庚娘之夫"
+    },
+    {
+     "name": "庚娘",
+     "type": "Person",
+     "aliases": [
+      "尤庚娘"
+     ],
+     "nickname": "",
+     "description": "尤太守女，金大用之妻，烈妇"
+    },
+    {
+     "name": "王十八",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "广陵少年，谋害金家，被庚娘所杀"
+    },
+    {
+     "name": "唐氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王十八之妻，后为金大用妾"
+    },
+    {
+     "name": "尹翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "淮上富民，救金大用并留其教子"
+    },
+    {
+     "name": "袁公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "副将军，与尹翁有旧，请金大用为记室"
+    },
+    {
+     "name": "耿夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇江巨家寡媪，收庚娘为女"
+    },
+    {
+     "name": "王十九",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王十八之弟，追庚娘"
+    },
+    {
+     "name": "尤太守",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "庚娘之父"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王十八家乡"
+    },
+    {
+     "name": "广陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王十八自称籍贯"
+    },
+    {
+     "name": "淮上",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "淮河一带，尹翁救人之地"
+    },
+    {
+     "name": "镇江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，耿夫人居处"
+    },
+    {
+     "name": "金山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇江名胜，金大用与庚娘重逢处"
+    },
+    {
+     "name": "南郊",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "金陵南郊，庚娘初葬处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "金大用",
+     "predicate": "SPOUSE",
+     "object": "庚娘",
+     "evidence": "聘尤太守女，字庚娘，丽而贤，逑好甚敦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金大用",
+     "predicate": "KIN",
+     "object": "尤太守",
+     "evidence": "聘尤太守女，字庚娘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庚娘",
+     "predicate": "KIN",
+     "object": "尤太守",
+     "evidence": "聘尤太守女，字庚娘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王十八",
+     "predicate": "KILLED",
+     "object": "金大用",
+     "evidence": "王邀金父子出户一豁，乃乘间挤金入水。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王十八",
+     "predicate": "KILLED",
+     "object": "金父",
+     "evidence": "金父见之，欲号，舟人以篙筑之，亦溺。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王十八",
+     "predicate": "KILLED",
+     "object": "金母",
+     "evidence": "生母闻声出窥，又筑溺之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庚娘",
+     "predicate": "KILLED",
+     "object": "王十八",
+     "evidence": "庚娘力切之，不死，号而起；又挥之，始殪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "庚娘",
+     "predicate": "KILLED",
+     "object": "王母",
+     "evidence": "媪仿佛有闻，趋问之，女亦杀之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王十八",
+     "predicate": "SPOUSE",
+     "object": "唐氏",
+     "evidence": "妇与庚娘同居，意度亦颇温婉。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "金大用",
+     "predicate": "SPOUSE",
+     "object": "唐氏",
+     "evidence": "金以居丧为辞，且将复仇，惧细弱作累。妇曰：……翁以其言善，请暂代收养，金乃许之。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "尹翁",
+     "predicate": "HELPED",
+     "object": "金大用",
+     "evidence": "舟盖富民尹翁专设以拯溺者。金既苏，诣翁申谢。翁优厚之，留教其子。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袁公",
+     "predicate": "HELPED",
+     "object": "金大用",
+     "evidence": "见生，大相知爱，请为记室。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "耿夫人",
+     "predicate": "HELPED",
+     "object": "庚娘",
+     "evidence": "见庚娘大喜，以为己出。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金大用",
+     "predicate": "LIVES_AT",
+     "object": "金陵",
+     "evidence": "未几，抵金陵，导庚娘至家",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王十八",
+     "predicate": "LIVES_AT",
+     "object": "金陵",
+     "evidence": "请从我至金陵。家中田庐，颇足赡给",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庚娘",
+     "predicate": "LIVES_AT",
+     "object": "南郊",
+     "evidence": "于是葬诸南郊。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "庚娘",
+     "predicate": "LIVES_AT",
+     "object": "镇江",
+     "evidence": "遂载去，至耿夫人家",
+     "confidence": 0.8
+    },
+    {
+     "subject": "金大用",
+     "predicate": "PARTICIPATED_IN",
+     "object": "流寇之乱",
+     "evidence": "以流寇之乱，家人离逖。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "流寇之乱",
+     "predicate": "OCCURRED_AT",
+     "object": "中州",
+     "evidence": "金大用，中州旧家子也。……以流寇之乱，家人离逖。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:57.181Z"
+}

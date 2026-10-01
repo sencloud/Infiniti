@@ -1,0 +1,120 @@
+{
+ "no": 87,
+ "title": "10.4 分式的乘除",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4351,
+   "entities": [
+    {
+     "name": "分式的乘除运算法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式乘除的运算规则：乘用分子积作分子，分母积作分母；除转乘"
+    },
+    {
+     "name": "分式的乘方",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式的乘方等于分子分母分别乘方"
+    },
+    {
+     "name": "分式的混合运算",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式混合运算顺序：先乘除后加减，有括号先算括号内"
+    },
+    {
+     "name": "因式分解",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将多项式化为乘积形式的方法"
+    },
+    {
+     "name": "约分",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "约去分子分母公因式的方法"
+    },
+    {
+     "name": "分式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如A/B，B中含字母的代数式"
+    },
+    {
+     "name": "分数乘除法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "分数的乘除运算法则"
+    },
+    {
+     "name": "完全平方公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a±b)^2=a^2±2ab+b^2"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "分数乘除法",
+     "predicate": "PREREQUISITE",
+     "object": "分式的乘除运算法则",
+     "evidence": "与分数乘法和除法的运算法则类似，分式乘法、除法的运算法则是：",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式的乘除运算法则",
+     "predicate": "INCLUDES",
+     "object": "分式的乘方",
+     "evidence": "可以发现 $\\left(\\frac{b}{a}\\right)^2 = \\frac{b^2}{a^2}$。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式的乘除运算法则",
+     "predicate": "PREREQUISITE",
+     "object": "分式的混合运算",
+     "evidence": "与分数的乘除混合运算类似，分式的乘除混合运算，要按从左到右的顺序进行．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "因式分解",
+     "predicate": "APPLIES_TO",
+     "object": "分式的乘除运算法则",
+     "evidence": "进行分式乘除运算时，可以先分解因式，便于约分。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "约分",
+     "predicate": "APPLIES_TO",
+     "object": "分式的乘除运算法则",
+     "evidence": "进行分式乘除运算时，可以先分解因式，便于约分。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分式的乘除运算法则",
+     "predicate": "PROPERTY_OF",
+     "object": "分式",
+     "evidence": "分式乘分式，用分子的积做积的分子，分母的积做积的分母；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "完全平方公式",
+     "predicate": "APPLIES_TO",
+     "object": "分式的混合运算",
+     "evidence": "因为$\\left(x+\\frac{1}{x}\\right)^2=x^2+2\\cdot x\\cdot \\frac{1}{x}+\\left(\\frac{1}{x}\\right)^2$",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:08.258Z"
+}

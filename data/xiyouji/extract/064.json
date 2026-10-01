@@ -1,0 +1,511 @@
+{
+ "no": 64,
+ "title": "荆棘岭悟能努力 木仙庵三藏谈诗",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5998,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "圣僧",
+     "description": "西行取经的僧人，被荆棘岭树精摄去谈诗。"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧徒弟，用钉钯开路，劈开荆棘岭。"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧徒弟，挑行李随行。"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "美猴王",
+      "齐天大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧徒弟，识破树精变化，但师父仍被摄走。"
+    },
+    {
+     "name": "孤直公",
+     "type": "Person",
+     "aliases": [
+      "柏树精"
+     ],
+     "nickname": "孤直公",
+     "description": "荆棘岭柏树精，参与谈诗。"
+    },
+    {
+     "name": "凌空子",
+     "type": "Person",
+     "aliases": [
+      "桧树精"
+     ],
+     "nickname": "凌空子",
+     "description": "荆棘岭桧树精，参与谈诗。"
+    },
+    {
+     "name": "拂云叟",
+     "type": "Person",
+     "aliases": [
+      "竹精"
+     ],
+     "nickname": "拂云叟",
+     "description": "荆棘岭竹精，参与谈诗。"
+    },
+    {
+     "name": "杏仙",
+     "type": "Person",
+     "aliases": [
+      "杏树精"
+     ],
+     "nickname": "杏仙",
+     "description": "荆棘岭杏树精，对唐僧有爱慕之情。"
+    },
+    {
+     "name": "赤身鬼",
+     "type": "Person",
+     "aliases": [
+      "枫树精",
+      "鬼使"
+     ],
+     "nickname": "赤身鬼",
+     "description": "荆棘岭枫树精，为树精们服务。"
+    },
+    {
+     "name": "荆棘岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "八百里荆棘丛生的山岭，有石碣为记。"
+    },
+    {
+     "name": "木仙庵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荆棘岭中的石屋，树精们聚会谈诗之处。"
+    },
+    {
+     "name": "祭赛国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒曾为其获宝擒怪的国度。"
+    },
+    {
+     "name": "伏龙寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "祭赛国寺庙，僧人送唐僧师徒西行。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "大圣才引师父策马而去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "八戒道：“不打紧，等我使出钯柴手来，把钉钯分开荆棘，莫说乘马，就抬轿也包你过去。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "后面沙僧挑着行李，行者也使铁棒拨开。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "木仙庵谈诗",
+     "evidence": "十八公请得圣僧来也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "木仙庵谈诗",
+     "predicate": "OCCURRED_AT",
+     "object": "木仙庵",
+     "evidence": "门上有三个大字，乃“木仙庵”。遂此同入。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孤直公",
+     "predicate": "STATIONED_AT",
+     "object": "荆棘岭",
+     "evidence": "霜姿者号孤直公，绿鬓者号凌空子，虚心者号拂云叟，老拙号曰劲节。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凌空子",
+     "predicate": "STATIONED_AT",
+     "object": "荆棘岭",
+     "evidence": "霜姿者号孤直公，绿鬓者号凌空子，虚心者号拂云叟，老拙号曰劲节。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "拂云叟",
+     "predicate": "STATIONED_AT",
+     "object": "荆棘岭",
+     "evidence": "霜姿者号孤直公，绿鬓者号凌空子，虚心者号拂云叟，老拙号曰劲节。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杏仙",
+     "predicate": "STATIONED_AT",
+     "object": "荆棘岭",
+     "evidence": "那女子对众道了万福道：“知有佳客在此赓酬，特来相访，敢求一见。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赤身鬼",
+     "predicate": "STATIONED_AT",
+     "object": "荆棘岭",
+     "evidence": "后跟着一个青脸獠牙、红须赤身鬼使，头顶着一盘面饼。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孤直公",
+     "predicate": "FRIEND",
+     "object": "凌空子",
+     "evidence": "孤直公道：“好句漫裁抟锦绣。”凌空子道：“佳文不点唾奇珍。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孤直公",
+     "predicate": "FRIEND",
+     "object": "拂云叟",
+     "evidence": "孤直公道：“好句漫裁抟锦绣。”拂云叟道：“六朝一洗繁华尽，四始重删雅颂分。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凌空子",
+     "predicate": "FRIEND",
+     "object": "拂云叟",
+     "evidence": "凌空子道：“佳文不点唾奇珍。”拂云叟道：“六朝一洗繁华尽，四始重删雅颂分。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孤直公",
+     "predicate": "FRIEND",
+     "object": "杏仙",
+     "evidence": "四老欠身问道：“杏仙何来？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凌空子",
+     "predicate": "FRIEND",
+     "object": "杏仙",
+     "evidence": "四老欠身问道：“杏仙何来？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "拂云叟",
+     "predicate": "FRIEND",
+     "object": "杏仙",
+     "evidence": "四老欠身问道：“杏仙何来？”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "把钉钯幌一幌，教“变！”就变了有三十丈长短的钯柄。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "铁棒",
+     "evidence": "行者也使铁棒拨开。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "伏龙寺",
+     "evidence": "伏龙寺僧人送有五六十里不回。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "祭赛国",
+     "evidence": "祭赛国王谢了唐三藏师徒获宝擒怪之恩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "祭赛国",
+     "evidence": "祭赛国王谢了唐三藏师徒获宝擒怪之恩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "祭赛国",
+     "evidence": "祭赛国王谢了唐三藏师徒获宝擒怪之恩。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "祭赛国",
+     "evidence": "祭赛国王谢了唐三藏师徒获宝擒怪之恩。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1151,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，被树精摄至木仙庵谈诗逼婚"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧徒弟，钉钯筑倒树精"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧徒弟，随行寻师"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "孙大圣",
+      "行者",
+      "悟空"
+     ],
+     "nickname": "行者",
+     "description": "唐僧徒弟，识破树精本相"
+    },
+    {
+     "name": "孤直公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "孤直公",
+     "description": "柏树精，木仙庵四老之一"
+    },
+    {
+     "name": "凌空子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凌空子",
+     "description": "桧树精，木仙庵四老之一"
+    },
+    {
+     "name": "拂云叟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "拂云叟",
+     "description": "竹精，木仙庵四老之一"
+    },
+    {
+     "name": "赤身鬼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "赤身鬼",
+     "description": "枫树精，木仙庵鬼使"
+    },
+    {
+     "name": "杏仙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "杏仙",
+     "description": "杏树精，欲求配偶于唐僧"
+    },
+    {
+     "name": "木仙庵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "树精所居庵堂，实为树精聚集之所"
+    },
+    {
+     "name": "荆棘岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "八百里荆棘岭，唐僧被摄经行之地"
+    },
+    {
+     "name": "木仙庵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "石崖上刻有木仙庵三字的庵堂"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孤直公",
+     "predicate": "MEMBER_OF",
+     "object": "木仙庵",
+     "evidence": "第二个号孤直公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "凌空子",
+     "predicate": "MEMBER_OF",
+     "object": "木仙庵",
+     "evidence": "第三个号凌空子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "拂云叟",
+     "predicate": "MEMBER_OF",
+     "object": "木仙庵",
+     "evidence": "第四个号拂云叟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赤身鬼",
+     "predicate": "MEMBER_OF",
+     "object": "木仙庵",
+     "evidence": "赤身鬼乃枫树",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杏仙",
+     "predicate": "MEMBER_OF",
+     "object": "木仙庵",
+     "evidence": "那女子，人称他做杏仙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杏仙",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "欲求配偶，我方省悟，正不从时，又被他做媒的做媒，保亲的保亲，主婚的主婚",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "DEFEATED",
+     "object": "孤直公",
+     "evidence": "那呆子索性一顿钯，将松柏桧竹一齐皆筑倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "DEFEATED",
+     "object": "凌空子",
+     "evidence": "那呆子索性一顿钯，将松柏桧竹一齐皆筑倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "DEFEATED",
+     "object": "拂云叟",
+     "evidence": "那呆子索性一顿钯，将松柏桧竹一齐皆筑倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "DEFEATED",
+     "object": "赤身鬼",
+     "evidence": "把两棵腊梅、丹桂、老杏、枫杨俱挥倒在地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "DEFEATED",
+     "object": "杏仙",
+     "evidence": "把两棵腊梅、丹桂、老杏、枫杨俱挥倒在地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "木仙庵谈诗",
+     "evidence": "我与他赓和相攀，觉有夜半时候",
+     "confidence": 0.9
+    },
+    {
+     "subject": "木仙庵谈诗",
+     "predicate": "OCCURRED_AT",
+     "object": "木仙庵",
+     "evidence": "只见一座石崖，崖上有木仙庵三字",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "荆棘岭",
+     "evidence": "过了八百里荆棘岭西下",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:30.648Z"
+}

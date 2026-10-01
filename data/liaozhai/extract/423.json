@@ -1,0 +1,57 @@
+{
+ "no": 423,
+ "title": "某甲",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 129,
+   "entities": [
+    {
+     "name": "某甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《某甲》篇中人物，私通仆妇、杀仆纳妇者"
+    },
+    {
+     "name": "仆妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《某甲》篇中仆人之妻，被某甲纳为妾"
+    },
+    {
+     "name": "少年贼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《某甲》篇中酷类死仆的年轻贼寇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "某甲",
+     "predicate": "LOVES",
+     "object": "仆妇",
+     "evidence": "某甲私其仆妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某甲",
+     "predicate": "SPOUSE",
+     "object": "仆妇",
+     "evidence": "因杀仆纳妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "少年贼",
+     "predicate": "KILLED",
+     "object": "某甲",
+     "evidence": "共杀一家二十七口而去。甲头未断，寇去少苏，犹能言之。三日寻毙。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:52.817Z"
+}

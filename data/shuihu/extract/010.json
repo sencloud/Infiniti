@@ -1,0 +1,447 @@
+{
+ "no": 10,
+ "title": "第十回 林教头风雪山神庙 陆虞候火烧草料场",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5957,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "东京八十万禁军教头，被高俅陷害刺配沧州"
+    },
+    {
+     "name": "李小二",
+     "type": "Person",
+     "aliases": [
+      "小二哥",
+      "酒生儿"
+     ],
+     "nickname": "",
+     "description": "东京酒生儿，曾受林冲救济，在沧州开茶酒店"
+    },
+    {
+     "name": "陆谦",
+     "type": "Person",
+     "aliases": [
+      "陆虞候"
+     ],
+     "nickname": "",
+     "description": "林冲自幼相交的朋友，后投靠高俅陷害林冲"
+    },
+    {
+     "name": "富安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高衙内帮闲，参与火烧草料场谋害林冲"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，陷害林冲的主谋"
+    },
+    {
+     "name": "高衙内",
+     "type": "Person",
+     "aliases": [
+      "衙内"
+     ],
+     "nickname": "",
+     "description": "高俅之子，因林冲娘子患病"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "柴大官人",
+      "柴皇城"
+     ],
+     "nickname": "小旋风",
+     "description": "沧州横海郡庄主，好汉，曾照看林冲"
+    },
+    {
+     "name": "张教头",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲的岳父，禁军教头"
+    },
+    {
+     "name": "差拨",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沧州牢城营差拨，被陆谦收买参与谋害林冲"
+    },
+    {
+     "name": "管营",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沧州牢城营管营，被陆谦收买参与谋害林冲"
+    },
+    {
+     "name": "老军",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "原看守大军草料场的老军"
+    },
+    {
+     "name": "沧州牢城营",
+     "type": "Organization",
+     "aliases": [
+      "牢城营"
+     ],
+     "nickname": "",
+     "description": "沧州牢城营，林冲刺配服役之处"
+    },
+    {
+     "name": "高太尉府",
+     "type": "Organization",
+     "aliases": [
+      "殿帅府"
+     ],
+     "nickname": "",
+     "description": "高俅的府邸势力"
+    },
+    {
+     "name": "沧州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲刺配之地"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，林冲、李小二、陆谦原籍"
+    },
+    {
+     "name": "天王堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沧州牢城营中林冲看守之处"
+    },
+    {
+     "name": "大军草料场",
+     "type": "Place",
+     "aliases": [
+      "草料场",
+      "草场"
+     ],
+     "nickname": "",
+     "description": "沧州东门外十五里的大军草料场"
+    },
+    {
+     "name": "山神庙",
+     "type": "Place",
+     "aliases": [
+      "古庙"
+     ],
+     "nickname": "",
+     "description": "草料场附近半里处的古庙，林冲在此避雪"
+    },
+    {
+     "name": "火烧草料场",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "陆谦、富安、差拨火烧草料场谋害林冲的事件"
+    },
+    {
+     "name": "风雪山神庙",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲在山神庙听见真相并杀死陆谦等人的事件"
+    },
+    {
+     "name": "解腕尖刀",
+     "type": "Item",
+     "aliases": [
+      "尖刀"
+     ],
+     "nickname": "",
+     "description": "林冲在街上买的解腕尖刀"
+    },
+    {
+     "name": "花枪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "林冲使用的花枪"
+    },
+    {
+     "name": "酒葫芦",
+     "type": "Item",
+     "aliases": [
+      "葫芦"
+     ],
+     "nickname": "",
+     "description": "草料场老军给林冲的葫芦，用于买酒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "林冲",
+     "predicate": "RESCUED",
+     "object": "李小二",
+     "evidence": "却得林冲主张赔话，救了他免送官司。又与他陪了些钱财，方得脱免。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "FRIEND",
+     "object": "李小二",
+     "evidence": "当初东京时，多得林冲看顾。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李小二",
+     "predicate": "SERVED",
+     "object": "王店主",
+     "evidence": "投托一个酒店里，姓王，留小人在店中做过卖。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李小二",
+     "predicate": "SPOUSE",
+     "object": "李小二浑家",
+     "evidence": "主人家有个女儿，就招了小人做女婿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "我因恶了高太尉，生事陷害，受了一场官司，刺配到这里。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "沧州牢城营",
+     "evidence": "如今叫我管天王堂，未知久后如何。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "天王堂",
+     "evidence": "如今叫我管天王堂，未知久后如何。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "这三十岁的却正是陆虞候。那泼贱贼也敢来这里害我！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "MASTERMINDED",
+     "object": "火烧草料场",
+     "evidence": "太尉特使俺两个央浼二位干这件事，不想而今完备了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "火烧草料场",
+     "predicate": "OCCURRED_AT",
+     "object": "大军草料场",
+     "evidence": "只见草料场里火起，刮刮杂杂烧着。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧草料场",
+     "evidence": "一个是差拨，一个是陆虞候，一个是富安。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "富安",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧草料场",
+     "evidence": "一个是差拨，一个是陆虞候，一个是富安。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "差拨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧草料场",
+     "evidence": "一个是差拨，一个是陆虞候，一个是富安。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "管营",
+     "predicate": "PARTICIPATED_IN",
+     "object": "火烧草料场",
+     "evidence": "端的亏管营、差拨两位用心。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "KILLED",
+     "object": "差拨",
+     "evidence": "林冲举手肐察的一枪，先戳倒差拨。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "KILLED",
+     "object": "富安",
+     "evidence": "那富安走不到十来步，被林冲赶上，后心只一枪，又搠倒了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "KILLED",
+     "object": "陆谦",
+     "evidence": "把陆谦上身衣服扯开，把尖刀向心窝只一剜，七窍迸出血来，将心肝提在手里。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "风雪山神庙",
+     "evidence": "林冲听那三个人时，一个是差拨，一个是陆虞候，一个是富安。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "风雪山神庙",
+     "predicate": "OCCURRED_AT",
+     "object": "山神庙",
+     "evidence": "入的庙门，再把门掩上……林冲听那三个人时。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "OWNS",
+     "object": "解腕尖刀",
+     "evidence": "先去街上买把解腕尖刀，带在身上。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "OWNS",
+     "object": "花枪",
+     "evidence": "带了尖刀，拿了条花枪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "OWNS",
+     "object": "酒葫芦",
+     "evidence": "把花枪挑了酒葫芦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "STATIONED_AT",
+     "object": "大军草料场",
+     "evidence": "管营拨我去大军草场管事。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "当初东京时，多得林冲看顾。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李小二",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "这李小二先前在东京时。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "NATIVE_OF",
+     "object": "东京",
+     "evidence": "这两个人语言声音，是东京人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "LEADS",
+     "object": "高太尉府",
+     "evidence": "回到京师，禀过太尉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陆谦",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "太尉特使俺两个央浼二位干这件事。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "富安",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "太尉特使俺两个央浼二位干这件事。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "KIN",
+     "object": "张教头",
+     "evidence": "你的女婿殁了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "FRIEND",
+     "object": "陆谦",
+     "evidence": "我与你自幼相交，今日倒来害我。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "FRIEND",
+     "object": "林冲",
+     "evidence": "柴大官人面皮不曾抬举的你。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 216,
+   "entities": [
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "被庄客缚住解投他处"
+    }
+   ],
+   "relations": []
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:55.478Z"
+}

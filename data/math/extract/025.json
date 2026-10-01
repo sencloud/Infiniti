@@ -1,0 +1,78 @@
+{
+ "no": 25,
+ "title": "7.1 同底数幂的乘法",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3882,
+   "entities": [
+    {
+     "name": "幂",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "几个相同因数的乘积的简写形式"
+    },
+    {
+     "name": "乘方",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "求几个相同因数乘积的运算"
+    },
+    {
+     "name": "乘法运算律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘法交换律、结合律等运算规律"
+    },
+    {
+     "name": "同底数幂的乘法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "同底数幂相乘，底数不变，指数相加"
+    },
+    {
+     "name": "整式运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式的加、减、乘、除等运算"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乘方",
+     "predicate": "PREREQUISITE",
+     "object": "同底数幂的乘法",
+     "evidence": "乘方的意义、乘法运算律是研究幂的运算性质的基础",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘法运算律",
+     "predicate": "PREREQUISITE",
+     "object": "同底数幂的乘法",
+     "evidence": "乘方的意义、乘法运算律是研究幂的运算性质的基础",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同底数幂的乘法",
+     "predicate": "PREREQUISITE",
+     "object": "整式运算",
+     "evidence": "幂的运算是整式运算的基础",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同底数幂的乘法",
+     "predicate": "PROPERTY_OF",
+     "object": "幂",
+     "evidence": "同底数幂相乘，底数不变，指数相加",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:39.479Z"
+}

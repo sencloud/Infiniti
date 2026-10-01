@@ -1,0 +1,545 @@
+{
+ "no": 71,
+ "title": "行者假名降怪犼 观音现象伏妖王",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5639,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "取经僧，变化神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经师父"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "救苦救难，洒甘露救火"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主"
+    },
+    {
+     "name": "王母娘娘",
+     "type": "Person",
+     "aliases": [
+      "西王母",
+      "王母",
+      "金母"
+     ],
+     "nickname": "王母",
+     "description": "瑶池金母"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "兜率天宫主人，炼金丹"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "金星",
+     "description": "天庭星君，曾招安孙悟空"
+    },
+    {
+     "name": "托塔李天王",
+     "type": "Person",
+     "aliases": [
+      "李靖",
+      "托塔天王",
+      "李天王"
+     ],
+     "nickname": "李天王",
+     "description": "天庭元帅"
+    },
+    {
+     "name": "赛太岁",
+     "type": "Person",
+     "aliases": [
+      "金毛犼",
+      "观音坐骑"
+     ],
+     "nickname": "赛太岁",
+     "description": "麒麟山獬豸洞妖王，观音坐骑"
+    },
+    {
+     "name": "金圣宫娘娘",
+     "type": "Person",
+     "aliases": [
+      "金圣娘娘",
+      "圣宫娘娘",
+      "娘娘"
+     ],
+     "nickname": "金圣宫娘娘",
+     "description": "朱紫国皇后，被赛太岁摄来"
+    },
+    {
+     "name": "春娇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "春娇",
+     "description": "赛太岁洞中玉面狐狸侍婢"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "金圣宫娘娘所属国度"
+    },
+    {
+     "name": "麒麟山獬豸洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "赛太岁盘踞的妖洞"
+    },
+    {
+     "name": "紫金铃",
+     "type": "Item",
+     "aliases": [
+      "金铃",
+      "铃儿",
+      "宝贝"
+     ],
+     "nickname": "紫金铃",
+     "description": "太上老君所炼法宝，能放烟火黄沙"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "如意棒",
+      "铁棒"
+     ],
+     "nickname": "金箍棒",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "宣花钺斧",
+     "type": "Item",
+     "aliases": [
+      "宣花斧"
+     ],
+     "nickname": "宣花钺斧",
+     "description": "赛太岁的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "赛太岁",
+     "predicate": "STATIONED_AT",
+     "object": "麒麟山獬豸洞",
+     "evidence": "那赛太岁紧关了前后门户，搜寻行者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "OWNS",
+     "object": "紫金铃",
+     "evidence": "我这铃儿是：太清仙君道源深，八卦炉中久炼金。结就铃儿称至宝，老君留下到如今。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "行者把金箍棒攥在右手",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "OWNS",
+     "object": "宣花钺斧",
+     "evidence": "手持一柄宣花钺斧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "赛太岁",
+     "evidence": "他两个战经五十回合，不分胜负。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "春娇",
+     "evidence": "行者跳下来，摇身一变，变做那春娇一般模样",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "金圣宫娘娘",
+     "evidence": "我好脱身行事，别作区处救你也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "原来是观音菩萨，左手托着净瓶，右手拿着杨柳，洒下甘露救火哩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "ORIGIN_OF",
+     "object": "观音菩萨",
+     "evidence": "赛太岁（金毛犼/观音坐骑）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "朱紫国",
+     "evidence": "我受朱紫国拜请之礼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金圣宫娘娘",
+     "predicate": "MEMBER_OF",
+     "object": "朱紫国",
+     "evidence": "我在宫，只知内里辅助君王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "ATTACKED",
+     "object": "朱紫国",
+     "evidence": "拆凤三年何日会？分鸳两处致悲伤。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹天宫",
+     "evidence": "想我五百年前大闹天宫时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "特保唐僧西域去",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1975,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经僧人，孙悟空师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "",
+     "description": "取经人，孙悟空师弟"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "",
+     "description": "收伏金毛犼的菩萨"
+    },
+    {
+     "name": "赛太岁",
+     "type": "Person",
+     "aliases": [
+      "金毛犼",
+      "观音坐骑"
+     ],
+     "nickname": "",
+     "description": "麒麟山獬豸洞妖王，观音坐骑"
+    },
+    {
+     "name": "紫阳真人",
+     "type": "Person",
+     "aliases": [
+      "张紫阳",
+      "张伯端"
+     ],
+     "nickname": "",
+     "description": "大罗天上紫云仙，临凡解魇"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "孙大圣",
+      "悟空"
+     ],
+     "nickname": "",
+     "description": "取经人，降妖主角"
+    },
+    {
+     "name": "朱紫国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "君王"
+     ],
+     "nickname": "",
+     "description": "朱紫国国王，曾射伤孔雀"
+    },
+    {
+     "name": "皇后",
+     "type": "Person",
+     "aliases": [
+      "圣宫娘娘",
+      "娘娘",
+      "金圣宫娘娘"
+     ],
+     "nickname": "",
+     "description": "朱紫国皇后，被赛太岁摄去"
+    },
+    {
+     "name": "佛母孔雀大明王菩萨",
+     "type": "Person",
+     "aliases": [
+      "佛母"
+     ],
+     "nickname": "",
+     "description": "孔雀大明王菩萨，二雀雏之母"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒途经的国度"
+    },
+    {
+     "name": "麒麟山獬豸洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "赛太岁盘踞的妖洞"
+    },
+    {
+     "name": "落凤坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国王射猎孔雀之处"
+    },
+    {
+     "name": "南海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    },
+    {
+     "name": "金铃",
+     "type": "Item",
+     "aliases": [
+      "三个金铃"
+     ],
+     "nickname": "",
+     "description": "赛太岁项下法宝，被孙悟空盗走"
+    },
+    {
+     "name": "棕衣",
+     "type": "Item",
+     "aliases": [
+      "旧棕衣",
+      "新霞裳"
+     ],
+     "nickname": "",
+     "description": "紫阳真人变化为霞裳，使皇后生毒刺"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "ORIGIN_OF",
+     "object": "赛太岁",
+     "evidence": "他是我跨的个金毛犼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "ATTACKED",
+     "object": "朱紫国",
+     "evidence": "他在这里欺君骗后，败俗伤风，与那国王生灾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱紫国王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "落凤坡射孔雀",
+     "evidence": "被此王弓开处，射伤了雄孔雀，那雌孔雀也带箭归西。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "落凤坡射孔雀",
+     "predicate": "OCCURRED_AT",
+     "object": "落凤坡",
+     "evidence": "正来到落凤坡前……被此王弓开处，射伤了雄孔雀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "佛母孔雀大明王菩萨",
+     "predicate": "KIN",
+     "object": "雄孔雀",
+     "evidence": "有西方佛母孔雀大明王菩萨所生二子，乃雌雄两个雀雏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "佛母孔雀大明王菩萨",
+     "predicate": "KIN",
+     "object": "雌孔雀",
+     "evidence": "有西方佛母孔雀大明王菩萨所生二子，乃雌雄两个雀雏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "DEFEATED",
+     "object": "赛太岁",
+     "evidence": "菩萨才喝了一声：孽畜！还不还原，待何时也！只见那怪打个滚，现了原身",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金铃",
+     "evidence": "铃儿在这里哩！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "麒麟山獬豸洞",
+     "evidence": "轮铁棒打进獬豸洞去，把群妖众怪，尽情打死。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "皇后",
+     "evidence": "请圣宫娘娘回国……我带你回朝见主也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "紫阳真人",
+     "predicate": "RESCUED",
+     "object": "皇后",
+     "evidence": "是我将一件旧棕衣变作一领新霞裳……教皇后穿了妆新。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "紫阳真人",
+     "predicate": "OWNS",
+     "object": "棕衣",
+     "evidence": "是我将一件旧棕衣变作一领新霞裳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "紫阳真人",
+     "predicate": "TRANSFORMED",
+     "object": "棕衣",
+     "evidence": "是我将一件旧棕衣变作一领新霞裳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者叫：师父，拿那战书来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "唐僧道：一则是贤王之福，二来是小徒之功。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "朱紫国",
+     "evidence": "行者将菩萨降妖并拆凤原由备说了一遍",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:40.491Z"
+}

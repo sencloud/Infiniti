@@ -1,0 +1,101 @@
+{
+ "no": 435,
+ "title": "狐女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 469,
+   "entities": [
+    {
+     "name": "伊衮",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "九江人，与狐女相恋"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "与伊衮相恋的狐女"
+    },
+    {
+     "name": "伊衮父",
+     "type": "Person",
+     "aliases": [
+      "翁"
+     ],
+     "nickname": "",
+     "description": "伊衮之父，伴子寝"
+    },
+    {
+     "name": "九江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "伊衮籍贯地"
+    },
+    {
+     "name": "昆仑山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "伊衮避难处"
+    },
+    {
+     "name": "金屋",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女所造铜墙铁柱之屋"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "伊衮",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "夜有女来，相与寝处。心知为狐，而爱其美",
+     "confidence": 0.95
+    },
+    {
+     "subject": "伊衮",
+     "predicate": "NATIVE_OF",
+     "object": "九江",
+     "evidence": "伊衮，九江人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "伊衮",
+     "predicate": "KIN",
+     "object": "伊衮父",
+     "evidence": "父母穷诘，始实告之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "伊衮",
+     "predicate": "LIVES_AT",
+     "object": "昆仑山",
+     "evidence": "伊奔入昆仑山，四顾荒凉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "伊衮",
+     "evidence": "女曰：“日已西下，君姑止此。我相佳地，暂创一室，以避虎狼。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "OWNS",
+     "object": "金屋",
+     "evidence": "女笑曰：“君子居之，明日即以相赠。”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:57.100Z"
+}

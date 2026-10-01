@@ -1,0 +1,268 @@
+{
+ "no": 39,
+ "title": "10.5 用二元一次方程组解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6054,
+   "entities": [
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有两个未知数，且含未知数的项的次数都是1的方程组"
+    },
+    {
+     "name": "等量关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "实际问题中数量之间的相等关系"
+    },
+    {
+     "name": "列表法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用表格梳理、分析问题中的数量关系"
+    },
+    {
+     "name": "画示意图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用图形直观分析问题中的数量关系"
+    },
+    {
+     "name": "消元",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "解方程组的基本思路，减少未知数个数"
+    },
+    {
+     "name": "转化与化归",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将复杂问题转化为简单问题的数学思想"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数，且未知数的次数是1的方程"
+    },
+    {
+     "name": "模型观念",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用数学模型刻画现实世界数量关系的意识"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "二元一次方程组",
+     "evidence": "本章在已经学过的一元一次方程的基础上，从具体实例引入二元一次方程（组）的概念",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "INCLUDES",
+     "object": "等量关系",
+     "evidence": "根据问题中的等量关系列出二元一次方程组",
+     "confidence": 0.9
+    },
+    {
+     "subject": "列表法",
+     "predicate": "APPLIES_TO",
+     "object": "二元一次方程组",
+     "evidence": "列表是梳理、分析问题中等量关系的常用策略",
+     "confidence": 0.9
+    },
+    {
+     "subject": "画示意图",
+     "predicate": "APPLIES_TO",
+     "object": "二元一次方程组",
+     "evidence": "在利用方程组解决问题时，列表、画示意图是分析等量关系的常用策略",
+     "confidence": 0.9
+    },
+    {
+     "subject": "消元",
+     "predicate": "APPLIES_TO",
+     "object": "二元一次方程组",
+     "evidence": "解方程组的基本思路是消元，将解二元一次方程组转化为解一元一次方程",
+     "confidence": 0.95
+    },
+    {
+     "subject": "转化与化归",
+     "predicate": "APPLIES_TO",
+     "object": "二元一次方程组",
+     "evidence": "在解方程的过程中感悟转化与化归的思想",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "RELATED",
+     "object": "模型观念",
+     "evidence": "学习本章有助于我们学会分析问题、解决问题，进一步形成模型观念",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2730,
+   "entities": [
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两个含有两个未知数的一次方程组成的方程组"
+    },
+    {
+     "name": "二元一次方程组的解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "同时满足二元一次方程组中各个方程的解"
+    },
+    {
+     "name": "解二元一次方程组",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "求二元一次方程组解的过程"
+    },
+    {
+     "name": "代入消元法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过代入消去一个未知数，将方程组转化为一元一次方程求解"
+    },
+    {
+     "name": "加减消元法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过加减消去一个未知数，将方程组转化为一元一次方程求解"
+    },
+    {
+     "name": "二元一次方程组的应用",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用二元一次方程组解决实际问题"
+    },
+    {
+     "name": "平行线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在同一平面内不相交的两条直线"
+    },
+    {
+     "name": "平行线的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两直线平行，同位角相等、内错角相等、同旁内角互补"
+    },
+    {
+     "name": "四边形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由不在同一直线上的四条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "三角形内角和定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "三角形三个内角的和等于180°"
+    },
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的平行四边形"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含有一个未知数，且未知数的次数是1的整式方程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "二元一次方程组",
+     "predicate": "INCLUDES",
+     "object": "二元一次方程组的解",
+     "evidence": "讨论下列二元一次方程组解的情况",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解二元一次方程组",
+     "predicate": "INCLUDES",
+     "object": "代入消元法",
+     "evidence": "用二元一次方程组解决问题",
+     "confidence": 0.8
+    },
+    {
+     "subject": "解二元一次方程组",
+     "predicate": "INCLUDES",
+     "object": "加减消元法",
+     "evidence": "用二元一次方程组解决问题",
+     "confidence": 0.8
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "PREREQUISITE",
+     "object": "二元一次方程组的应用",
+     "evidence": "用二元一次方程组解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "二元一次方程组",
+     "evidence": "用二元一次方程组解决问题",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平行线的性质",
+     "predicate": "APPLIES_TO",
+     "object": "四边形",
+     "evidence": "在四边形 ABCD 中，AB∥CD，∠CAD=90°",
+     "confidence": 0.8
+    },
+    {
+     "subject": "三角形内角和定理",
+     "predicate": "APPLIES_TO",
+     "object": "四边形",
+     "evidence": "在四边形 ABCD 中，AB∥CD，∠CAD=90°",
+     "confidence": 0.8
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "APPLIES_TO",
+     "object": "长方形",
+     "evidence": "宽为 50 cm 的大长方形是由 10 个相同的小长方形拼成的",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:50.133Z"
+}

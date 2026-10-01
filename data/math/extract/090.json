@@ -1,0 +1,158 @@
+{
+ "no": 90,
+ "title": "11.2 二次根式的乘除",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6134,
+   "entities": [
+    {
+     "name": "二次根式的乘法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "√a·√b=√ab (a≥0, b≥0)"
+    },
+    {
+     "name": "二次根式的除法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "√a/√b=√(a/b) (a≥0, b>0)"
+    },
+    {
+     "name": "分母有理化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "使分母中不含根号的方法"
+    },
+    {
+     "name": "二次根式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如√a (a≥0)的式子"
+    },
+    {
+     "name": "算术平方根",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "正数的正平方根"
+    },
+    {
+     "name": "矩形面积",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "矩形面积等于相邻两边之积"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "算术平方根",
+     "predicate": "PREREQUISITE",
+     "object": "二次根式的乘法",
+     "evidence": "所以由算术平方根的定义，可得√a·√b=√ab",
+     "confidence": 0.95
+    },
+    {
+     "subject": "算术平方根",
+     "predicate": "PREREQUISITE",
+     "object": "二次根式的除法",
+     "evidence": "所以由算术平方根的定义，可得√a/√b=√(a/b)",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式的乘法",
+     "predicate": "DERIVES",
+     "object": "二次根式的除法",
+     "evidence": "把√a·√b=√ab反过来，可得√ab=√a·√b",
+     "confidence": 0.8
+    },
+    {
+     "subject": "二次根式的除法",
+     "predicate": "DERIVES",
+     "object": "分母有理化",
+     "evidence": "上面这种使分母中不含根号的方法称为分母有理化",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式的乘法",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式",
+     "evidence": "于是，可得二次根式乘法的性质",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式的除法",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式",
+     "evidence": "于是，我们得到二次根式除法的性质",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分母有理化",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式",
+     "evidence": "化简下列各式，使分母有理化",
+     "confidence": 0.9
+    },
+    {
+     "subject": "矩形面积",
+     "predicate": "RELATED",
+     "object": "二次根式的乘法",
+     "evidence": "矩形面积等于相邻两边之积",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2032,
+   "entities": [
+    {
+     "name": "最简二次根式",
+     "type": "Concept",
+     "aliases": [
+      "simplest quadratic radical"
+     ],
+     "nickname": "",
+     "description": "被开方数不含分母且不含能开得尽方的因数或因式的二次根式"
+    },
+    {
+     "name": "分母有理化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过乘以适当的代数式，使分母中不含二次根式的方法"
+    },
+    {
+     "name": "二次根式的化简",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将二次根式化为最简二次根式的过程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "分母有理化",
+     "predicate": "PREREQUISITE",
+     "object": "二次根式的化简",
+     "evidence": "化简含二次根式的代数式时，一般先通过分母有理化使得代数式的分母中不含二次根式，然后将其中的每个二次根式化为最简二次根式。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式的化简",
+     "predicate": "APPLIES_TO",
+     "object": "最简二次根式",
+     "evidence": "然后将其中的每个二次根式化为最简二次根式。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:11.483Z"
+}

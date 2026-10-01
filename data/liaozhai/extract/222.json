@@ -1,0 +1,197 @@
+{
+ "no": 222,
+ "title": "颜氏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1244,
+   "entities": [
+    {
+     "name": "颜氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "顺天某生之妻，名士孤女，聪慧女扮男装中进士"
+    },
+    {
+     "name": "顺天某生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "顺天府书生，家贫性钝，后承妻官衔"
+    },
+    {
+     "name": "邻妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "颜氏邻家妇人，为颜氏与某生做媒"
+    },
+    {
+     "name": "邻生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻妇之夫，与某生交好，受托送聘礼"
+    },
+    {
+     "name": "叔兄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某生堂兄，照顾某生与颜氏"
+    },
+    {
+     "name": "洛汭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "洛阳附近水边，某生授童蒙处"
+    },
+    {
+     "name": "顺天",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "顺天府，某生籍贯及科考地"
+    },
+    {
+     "name": "桐城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "颜氏中进士后任县令之地"
+    },
+    {
+     "name": "金鸦镮",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "某生母遗金饰指环，用作聘礼"
+    },
+    {
+     "name": "婚嫁",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "颜氏与某生结为夫妻之事"
+    },
+    {
+     "name": "科考",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "颜氏女扮男装代某生应试中进士"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "颜氏",
+     "predicate": "SPOUSE",
+     "object": "顺天某生",
+     "evidence": "刻日成礼，鱼水甚欢。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邻妇",
+     "predicate": "HELPED",
+     "object": "颜氏",
+     "evidence": "邻妇窥其意，私语曰：……妾嘱渠侬胹合之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邻妇",
+     "predicate": "HELPED",
+     "object": "顺天某生",
+     "evidence": "妇归，以意授夫。邻生故与生善，告之，大悦。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邻生",
+     "predicate": "FRIEND",
+     "object": "顺天某生",
+     "evidence": "邻生故与生善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顺天某生",
+     "predicate": "OWNS",
+     "object": "金鸦镮",
+     "evidence": "有母遗金鸦镮，托委致焉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顺天某生",
+     "predicate": "LIVES_AT",
+     "object": "洛汭",
+     "evidence": "授童蒙于洛汭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顺天某生",
+     "predicate": "NATIVE_OF",
+     "object": "顺天",
+     "evidence": "顺天某生，家贫，值岁饥，从父之洛。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "颜氏",
+     "predicate": "PARTICIPATED_IN",
+     "object": "婚嫁",
+     "evidence": "刻日成礼，鱼水甚欢。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "顺天某生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "婚嫁",
+     "evidence": "刻日成礼，鱼水甚欢。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "颜氏",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "弟以冠军应试，中顺天第四，明年成进士",
+     "confidence": 0.95
+    },
+    {
+     "subject": "科考",
+     "predicate": "OCCURRED_AT",
+     "object": "顺天",
+     "evidence": "中顺天第四",
+     "confidence": 0.95
+    },
+    {
+     "subject": "颜氏",
+     "predicate": "LIVES_AT",
+     "object": "桐城",
+     "evidence": "授桐城令，有吏治。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叔兄",
+     "predicate": "KIN",
+     "object": "顺天某生",
+     "evidence": "生叔兄尚在，见两弟如冠玉，甚喜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叔兄",
+     "predicate": "HELPED",
+     "object": "顺天某生",
+     "evidence": "晨夕恤顾之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叔兄",
+     "predicate": "HELPED",
+     "object": "颜氏",
+     "evidence": "晨夕恤顾之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:38.568Z"
+}

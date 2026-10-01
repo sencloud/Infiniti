@@ -1,0 +1,102 @@
+{
+ "no": 485,
+ "title": "太原狱",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 639,
+   "entities": [
+    {
+     "name": "无赖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "太原村中无赖，与姑私通"
+    },
+    {
+     "name": "孙柳下",
+     "type": "Person",
+     "aliases": [
+      "孙进士",
+      "孙公"
+     ],
+     "nickname": "",
+     "description": "淄邑进士，临晋县令，善断案"
+    },
+    {
+     "name": "太原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "故事发生地，民家所在"
+    },
+    {
+     "name": "临晋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙柳下任县令之地，案件移交处"
+    },
+    {
+     "name": "宪院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "省级司法机构，妇上诉处"
+    },
+    {
+     "name": "太原狱案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "姑妇互诬通奸案，经孙柳下审结"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙柳下",
+     "predicate": "PUNISHED",
+     "object": "无赖",
+     "evidence": "笞无赖三十，其案始结",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太原狱案",
+     "predicate": "OCCURRED_AT",
+     "object": "太原",
+     "evidence": "太原有民家，姑妇皆寡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙柳下",
+     "predicate": "LIVES_AT",
+     "object": "临晋",
+     "evidence": "时淄邑孙进士柳下令临晋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙柳下",
+     "predicate": "NATIVE_OF",
+     "object": "淄邑",
+     "evidence": "时淄邑孙进士柳下令临晋",
+     "confidence": 0.9
+    },
+    {
+     "subject": "无赖",
+     "predicate": "PARTICIPATED_IN",
+     "object": "太原狱案",
+     "evidence": "拘无赖至，又哗辨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙柳下",
+     "predicate": "PARTICIPATED_IN",
+     "object": "太原狱案",
+     "evidence": "遂下其案于临晋",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:19.613Z"
+}

@@ -1,0 +1,428 @@
+{
+ "no": 68,
+ "title": "朱紫国唐僧论前世 孙行者施为三折肱",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5909,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "孙行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "大唐高僧，西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，相貌丑陋"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，面黑身长"
+    },
+    {
+     "name": "朱紫国王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国国王，久病不愈"
+    },
+    {
+     "name": "魏徵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "大唐丞相，梦斩泾河龙王"
+    },
+    {
+     "name": "崔珏",
+     "type": "Person",
+     "aliases": [
+      "崔判官"
+     ],
+     "nickname": "崔判官",
+     "description": "酆都城判官，为唐王添寿"
+    },
+    {
+     "name": "唐王",
+     "type": "Person",
+     "aliases": [
+      "李世民"
+     ],
+     "nickname": "",
+     "description": "大唐皇帝，派唐僧取经"
+    },
+    {
+     "name": "泾河龙王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泾河龙王，因犯天条被斩"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲国度"
+    },
+    {
+     "name": "大唐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "东土大唐王朝"
+    },
+    {
+     "name": "会同馆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国接待使臣的馆驿"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲城池"
+    },
+    {
+     "name": "五凤楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国皇宫楼阁"
+    },
+    {
+     "name": "披香殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国宫殿"
+    },
+    {
+     "name": "鼓楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国街市鼓楼"
+    },
+    {
+     "name": "郑家杂货店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国街市店铺"
+    },
+    {
+     "name": "招医皇榜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国王招医榜文"
+    },
+    {
+     "name": "通关文牒",
+     "type": "Item",
+     "aliases": [
+      "关文"
+     ],
+     "nickname": "",
+     "description": "唐僧西行通关文书"
+    },
+    {
+     "name": "揭皇榜",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空揭招医皇榜"
+    },
+    {
+     "name": "梦斩泾河龙王",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏徵梦中斩泾河龙王"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "话表三藏师徒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "话表三藏师徒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "话表三藏师徒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "话表三藏师徒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "贫僧乃东土大唐驾下，差往西天取经者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "贫僧乃东土大唐驾下，差往西天取经者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "贫僧乃东土大唐驾下，差往西天取经者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "贫僧乃东土大唐驾下，差往西天取经者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "揭皇榜",
+     "evidence": "这招医榜，委是我揭的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "揭皇榜",
+     "predicate": "OCCURRED_AT",
+     "object": "鼓楼",
+     "evidence": "那皇榜张挂楼下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "招医皇榜",
+     "evidence": "这招医榜，委是我揭的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "通关文牒",
+     "evidence": "将关文献上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏徵",
+     "predicate": "MASTERMINDED",
+     "object": "梦斩泾河龙王",
+     "evidence": "因他梦斩了泾河龙王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梦斩泾河龙王",
+     "predicate": "OCCURRED_AT",
+     "object": "大唐",
+     "evidence": "因他梦斩了泾河龙王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏徵",
+     "predicate": "SERVED",
+     "object": "唐王",
+     "evidence": "就是我王驾前丞相，姓魏名徵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "崔珏",
+     "predicate": "SERVED",
+     "object": "唐王",
+     "evidence": "寄与酆都城判官崔珏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱紫国王",
+     "predicate": "LEADS",
+     "object": "朱紫国",
+     "evidence": "朕西牛贺洲朱紫国王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "会同馆",
+     "evidence": "我们进这衙门去也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "会同馆",
+     "evidence": "我们进这衙门去也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "会同馆",
+     "evidence": "我们进这衙门去也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "STATIONED_AT",
+     "object": "会同馆",
+     "evidence": "我们进这衙门去也",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1106,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "孙长老",
+      "老孙"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，揭榜为国王治病"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "师父",
+      "长老"
+     ],
+     "nickname": "三藏",
+     "description": "孙悟空师父，斥责悟空鲁莽"
+    },
+    {
+     "name": "朱紫国王",
+     "type": "Person",
+     "aliases": [
+      "国王",
+      "主公",
+      "病君"
+     ],
+     "nickname": "",
+     "description": "朱紫国国王，患病三年"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行路上的国度"
+    },
+    {
+     "name": "太医院",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国宫廷医官机构"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "唐僧迎着骂道：\"你这泼猴，害了我也！\"行者笑道：\"好师父，我倒与你壮观，你返说我害你？\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "行者笑道：\"好师父，我倒与你壮观，你返说我害你？\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "朱紫国国王治病",
+     "evidence": "行者却就上了宝殿，唐僧迎着骂道：\"你这泼猴，害了我也！\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱紫国国王治病",
+     "predicate": "OCCURRED_AT",
+     "object": "朱紫国",
+     "evidence": "行者却就上了宝殿，唐僧迎着骂道：\"你这泼猴，害了我也！\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "太医院",
+     "evidence": "那两班文武丛中有太医院官，一闻此言，对众称扬道：\"这和尚也说得有理。\"",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:32.677Z"
+}

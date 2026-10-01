@@ -1,0 +1,216 @@
+{
+ "no": 84,
+ "title": "鲁公女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1788,
+   "entities": [
+    {
+     "name": "张于旦",
+     "type": "Person",
+     "aliases": [
+      "张生",
+      "张公子"
+     ],
+     "nickname": "",
+     "description": "招远人，性疏狂，读书萧寺，与鲁公女相恋"
+    },
+    {
+     "name": "鲁公女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁公之女，好猎，暴卒后与张于旦相恋，后转世卢户部家"
+    },
+    {
+     "name": "鲁公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "招远邑令，三韩人，鲁公女之父"
+    },
+    {
+     "name": "卢户部",
+     "type": "Person",
+     "aliases": [
+      "卢公"
+     ],
+     "nickname": "",
+     "description": "河北户部尚书，鲁公女转世后之父"
+    },
+    {
+     "name": "张明",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张于旦次子，后擢高科"
+    },
+    {
+     "name": "张政",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张于旦长子，后擢高科"
+    },
+    {
+     "name": "萧寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张于旦读书之寺庙，鲁公女灵柩寄放处"
+    },
+    {
+     "name": "河北卢户部家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁公女转世投生之处"
+    },
+    {
+     "name": "土地祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "招魂之处"
+    },
+    {
+     "name": "金刚经",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛经，张于旦为鲁公女诵念一藏数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张于旦",
+     "predicate": "LOVES",
+     "object": "鲁公女",
+     "evidence": "归忆容华，极意钦想。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "SPOUSE",
+     "object": "鲁公女",
+     "evidence": "择吉成礼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁公",
+     "predicate": "KIN",
+     "object": "鲁公女",
+     "evidence": "有女好猎。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢户部",
+     "predicate": "KIN",
+     "object": "鲁公女",
+     "evidence": "卢公生一女，生而能言。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "KIN",
+     "object": "张明",
+     "evidence": "次子明、长子政。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "KIN",
+     "object": "张政",
+     "evidence": "次子明、长子政。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "LIVES_AT",
+     "object": "萧寺",
+     "evidence": "读书萧寺。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "NATIVE_OF",
+     "object": "招远",
+     "evidence": "招远张于旦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "OWNS",
+     "object": "金刚经",
+     "evidence": "烦代诵《金刚经》一藏数。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "秋闱",
+     "evidence": "生将赴秋闱。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张明",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "次子明、长子政，相继擢高科。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张政",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "次子明、长子政，相继擢高科。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "HELPED",
+     "object": "鲁公女",
+     "evidence": "烦代诵《金刚经》一藏数。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "HELPED",
+     "object": "鲁公女",
+     "evidence": "急探卢氏之门……招魂而归。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁公女",
+     "predicate": "HELPED",
+     "object": "张于旦",
+     "evidence": "君福薄，徒劳驰驱。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "HELPED",
+     "object": "鲁公",
+     "evidence": "生乃自陈：某有薄壤近寺，愿葬女公子。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁公",
+     "predicate": "HELPED",
+     "object": "张于旦",
+     "evidence": "卢公悦，肃客出，置酒宴会。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张于旦",
+     "predicate": "HELPED",
+     "object": "卢户部",
+     "evidence": "生迎养之，遂家焉。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:46.252Z"
+}

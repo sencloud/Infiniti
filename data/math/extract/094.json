@@ -1,0 +1,94 @@
+{
+ "no": 94,
+ "title": "1.3 一元二次方程的根与系数的关系",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3320,
+   "entities": [
+    {
+     "name": "一元二次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数最高次数为2的整式方程"
+    },
+    {
+     "name": "一元二次方程的根与系数的关系",
+     "type": "Theorem",
+     "aliases": [
+      "韦达定理"
+     ],
+     "nickname": "",
+     "description": "若ax²+bx+c=0有两实根x₁,x₂，则x₁+x₂=-b/a, x₁x₂=c/a"
+    },
+    {
+     "name": "求根公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "一元二次方程ax²+bx+c=0的求根公式x=(-b±√(b²-4ac))/(2a)"
+    },
+    {
+     "name": "因式分解法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将一元二次方程化为a(x-x₁)(x-x₂)=0的形式求解的方法"
+    },
+    {
+     "name": "一元三次方程的根与系数的关系",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "若ax³+bx²+cx+d=0有三根x₁,x₂,x₃，则x₁+x₂+x₃=-b/a, x₁x₂+x₂x₃+x₃x₁=c/a, x₁x₂x₃=-d/a"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元二次方程",
+     "predicate": "PREREQUISITE",
+     "object": "一元二次方程的根与系数的关系",
+     "evidence": "比较一元二次方程 ax^2+bx+c=0 两个实数根的表达式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "求根公式",
+     "predicate": "DERIVES",
+     "object": "一元二次方程的根与系数的关系",
+     "evidence": "通过下面的计算可以发现，方程系数之间的关系也可以用两个实数根表示",
+     "confidence": 0.95
+    },
+    {
+     "subject": "一元二次方程的根与系数的关系",
+     "predicate": "PROPERTY_OF",
+     "object": "一元二次方程",
+     "evidence": "由此可以得到如下一元二次方程的根与系数的关系",
+     "confidence": 0.95
+    },
+    {
+     "subject": "因式分解法",
+     "predicate": "DERIVES",
+     "object": "一元二次方程的根与系数的关系",
+     "evidence": "由因式分解法可知，以 x1，x2 为根的一元二次方程还可以表示为 a(x-x1)(x-x2)=0",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元二次方程的根与系数的关系",
+     "predicate": "APPLIES_TO",
+     "object": "一元二次方程",
+     "evidence": "不解方程，判断方程2x^2 + x = 1是否有实数根，若有，求两根的和与两根的积",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元三次方程的根与系数的关系",
+     "predicate": "RELATED",
+     "object": "一元二次方程的根与系数的关系",
+     "evidence": "我们可以用类似的方法探究一元三次方程的根与系数关系",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:11.590Z"
+}

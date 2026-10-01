@@ -1,0 +1,122 @@
+{
+ "no": 246,
+ "title": "周三",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 459,
+   "entities": [
+    {
+     "name": "张太华",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泰安富吏，家有狐扰"
+    },
+    {
+     "name": "胡二爷",
+     "type": "Spirit",
+     "aliases": [
+      "胡二"
+     ],
+     "nickname": "胡二爷",
+     "description": "东村狐精，白发叟，行二"
+    },
+    {
+     "name": "周三",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐精，虬髯铁面，居岳庙"
+    },
+    {
+     "name": "州尹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泰安知州，为吏策"
+    },
+    {
+     "name": "泰安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，张太华籍贯"
+    },
+    {
+     "name": "岳庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "周三侨居之庙"
+    },
+    {
+     "name": "东村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州东之村，胡二爷所居"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张太华",
+     "predicate": "NATIVE_OF",
+     "object": "泰安",
+     "evidence": "泰安张太华，富吏也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡二爷",
+     "predicate": "LIVES_AT",
+     "object": "东村",
+     "evidence": "时州之东亦有狐居村民家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周三",
+     "predicate": "LIVES_AT",
+     "object": "岳庙",
+     "evidence": "仆友人周三，侨居岳庙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡二爷",
+     "predicate": "FRIEND",
+     "object": "周三",
+     "evidence": "仆友人周三",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡二爷",
+     "predicate": "HELPED",
+     "object": "张太华",
+     "evidence": "胡果导周至。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周三",
+     "predicate": "HELPED",
+     "object": "张太华",
+     "evidence": "蒙重托，妖类已荡灭矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周三",
+     "predicate": "KILLED",
+     "object": "小狐",
+     "evidence": "墀中有小狐首数枚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周三",
+     "predicate": "LIVES_AT",
+     "object": "张太华家",
+     "evidence": "自是馆于其家",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:45.969Z"
+}

@@ -1,0 +1,99 @@
+{
+ "no": 32,
+ "title": "四十千",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 243,
+   "entities": [
+    {
+     "name": "王大司马",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新城人，官至大司马，篇中仅提及"
+    },
+    {
+     "name": "主计仆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王大司马家主管账目的仆人，家富"
+    },
+    {
+     "name": "主计仆之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "主计仆妻所生男，实为讨债者投胎"
+    },
+    {
+     "name": "讨债人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梦中奔入向主计仆索债之人，后投胎为其子"
+    },
+    {
+     "name": "新城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王大司马籍贯"
+    },
+    {
+     "name": "高僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "回答老而无子者疑问的僧人"
+    },
+    {
+     "name": "老而无子者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "向高僧问无子之故的老人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "主计仆",
+     "predicate": "NATIVE_OF",
+     "object": "新城",
+     "evidence": "新城王大司马，有主计仆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "主计仆",
+     "predicate": "KIN",
+     "object": "主计仆之子",
+     "evidence": "既醒，妻产男",
+     "confidence": 0.95
+    },
+    {
+     "subject": "讨债人",
+     "predicate": "HARMED",
+     "object": "主计仆",
+     "evidence": "汝欠四十千，今宜还矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "主计仆",
+     "predicate": "KILLED",
+     "object": "主计仆之子",
+     "evidence": "言已，儿忽颜色蹙变，项折目张。再抚之，气已绝矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老而无子者",
+     "predicate": "HELPED",
+     "object": "高僧",
+     "evidence": "昔有老而无子者，问诸高僧",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:23.767Z"
+}

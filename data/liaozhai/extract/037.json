@@ -1,0 +1,84 @@
+{
+ "no": 37,
+ "title": "鹰虎神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 222,
+   "entities": [
+    {
+     "name": "道士任姓",
+     "type": "Person",
+     "aliases": [
+      "任道士"
+     ],
+     "nickname": "",
+     "description": "东岳庙中道士，姓任，每日鸡鸣焚诵"
+    },
+    {
+     "name": "偷儿",
+     "type": "Person",
+     "aliases": [
+      "小偷"
+     ],
+     "nickname": "",
+     "description": "潜入东岳庙偷钱的小偷"
+    },
+    {
+     "name": "鹰虎神",
+     "type": "Spirit",
+     "aliases": [
+      "神"
+     ],
+     "nickname": "",
+     "description": "东岳庙门神，面铜青色，左臂苍鹰"
+    },
+    {
+     "name": "东岳庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郡城南郭的庙宇，供有鹰虎神"
+    },
+    {
+     "name": "千佛山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "小偷欲逃往的山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "道士任姓",
+     "predicate": "LIVES_AT",
+     "object": "东岳庙",
+     "evidence": "庙中道士任姓，每鸡鸣，辄起焚诵。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "偷儿",
+     "predicate": "HARMED",
+     "object": "道士任姓",
+     "evidence": "有偷儿预匿廊间，伺道士起，潜入寝室，搜括财物。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹰虎神",
+     "predicate": "HARMED",
+     "object": "偷儿",
+     "evidence": "神揪令还入庙，使倾所盗钱，跪守之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹰虎神",
+     "predicate": "HELPED",
+     "object": "道士任姓",
+     "evidence": "神揪令还入庙，使倾所盗钱，跪守之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:25.916Z"
+}

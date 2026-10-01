@@ -1,0 +1,369 @@
+{
+ "no": 13,
+ "title": "陷虎穴金星解厄 双叉岭伯钦留僧",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5935,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "大唐高僧，奉旨西天取经"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "金星",
+     "description": "西天太白星，变化老叟救唐僧"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎王",
+     "description": "阴司主宰，掌管生死轮回"
+    },
+    {
+     "name": "刘伯钦",
+     "type": "Person",
+     "aliases": [
+      "镇山太保"
+     ],
+     "nickname": "镇山太保",
+     "description": "双叉岭猎户，救唐僧并留宿"
+    },
+    {
+     "name": "寅将军",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "双叉岭老虎精，捉住唐僧"
+    },
+    {
+     "name": "熊山君",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "熊罴精，寅将军之客"
+    },
+    {
+     "name": "特处士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "野牛精，寅将军之客"
+    },
+    {
+     "name": "刘伯钦之母",
+     "type": "Person",
+     "aliases": [
+      "老妪"
+     ],
+     "nickname": "",
+     "description": "刘伯钦母亲，安排素斋"
+    },
+    {
+     "name": "刘伯钦之妻",
+     "type": "Person",
+     "aliases": [
+      "媳妇",
+      "山妻"
+     ],
+     "nickname": "",
+     "description": "刘伯钦妻子，协助备斋"
+    },
+    {
+     "name": "刘伯钦之父",
+     "type": "Person",
+     "aliases": [
+      "公公"
+     ],
+     "nickname": "",
+     "description": "刘伯钦亡父，经超度托生"
+    },
+    {
+     "name": "法门寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "长安外寺庙，唐僧初歇处"
+    },
+    {
+     "name": "福原寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "河州卫寺庙，唐僧歇处"
+    },
+    {
+     "name": "双叉岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "虎狼巢穴，唐僧遇险处"
+    },
+    {
+     "name": "巩州城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧西行途经城池"
+    },
+    {
+     "name": "河州卫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大唐边界卫所"
+    },
+    {
+     "name": "刘伯钦山庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘伯钦住所，唐僧留宿处"
+    },
+    {
+     "name": "双叉岭遇难",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧在双叉岭被妖怪捉住"
+    },
+    {
+     "name": "太白金星救唐僧",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "太白金星化作老叟救唐僧脱险"
+    },
+    {
+     "name": "刘伯钦打虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘伯钦用钢叉刺死斑斓虎"
+    },
+    {
+     "name": "刘伯钦留僧",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘伯钦留唐僧在家念经超度亡父"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "双叉岭遇难",
+     "evidence": "忽然失足，三人连马都跌落坑坎之中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "双叉岭遇难",
+     "predicate": "OCCURRED_AT",
+     "object": "双叉岭",
+     "evidence": "此是双叉岭，乃虎狼巢穴处。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寅将军",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "魔王喝令绑了，众妖一齐将三人用绳索绑缚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寅将军",
+     "predicate": "KILLED",
+     "object": "唐僧二从者",
+     "evidence": "将二从者剖腹剜心，剁碎其尸。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "吾乃西天太白星，特来搭救汝生灵。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太白金星救唐僧",
+     "predicate": "OCCURRED_AT",
+     "object": "双叉岭",
+     "evidence": "此是双叉岭，乃虎狼巢穴处。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘伯钦",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "忽见太保来，众兽皆走，救了贫僧性命。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘伯钦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "刘伯钦打虎",
+     "evidence": "被太保举叉平胸刺倒，可怜呵，钢叉尖穿透心肝。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘伯钦打虎",
+     "predicate": "OCCURRED_AT",
+     "object": "双叉岭",
+     "evidence": "太保与那虎在那山坡下，人虎相持。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘伯钦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "刘伯钦留僧",
+     "evidence": "闻得母言，就要安排香纸，留住三藏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘伯钦留僧",
+     "predicate": "OCCURRED_AT",
+     "object": "刘伯钦山庄",
+     "evidence": "忽见一座山庄。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘伯钦",
+     "predicate": "KIN",
+     "object": "刘伯钦之母",
+     "evidence": "此是家母、山妻。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘伯钦",
+     "predicate": "SPOUSE",
+     "object": "刘伯钦之妻",
+     "evidence": "此是家母、山妻。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘伯钦",
+     "predicate": "KIN",
+     "object": "刘伯钦之父",
+     "evidence": "恰好明日你父亲周忌。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "刘伯钦留僧",
+     "evidence": "请开启念经。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "法门寺",
+     "evidence": "早至法门寺。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "福原寺",
+     "evidence": "着僧纲请往福原寺安歇。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "巩州城",
+     "evidence": "到了巩州城。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "河州卫",
+     "evidence": "又至河州卫。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "RESCUED",
+     "object": "刘伯钦之父",
+     "evidence": "阎王差人送我上中华富地，长者人家托生去了。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 485,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "长老",
+     "description": "取经僧人，法名三藏"
+    },
+    {
+     "name": "刘伯钦",
+     "type": "Person",
+     "aliases": [
+      "伯钦",
+      "太保"
+     ],
+     "nickname": "镇山太保",
+     "description": "双叉岭猎户，护送唐僧"
+    },
+    {
+     "name": "两界山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大唐与鞑靼分界之山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘伯钦",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "伯钦与母妻无奈，急做了些粗面烧饼干粮，叫伯钦远送。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "双叉岭遇险",
+     "evidence": "三藏道：贫僧有何能处，敢劳致谢？",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:00.723Z"
+}

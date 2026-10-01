@@ -1,0 +1,229 @@
+{
+ "no": 299,
+ "title": "锺生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1920,
+   "entities": [
+    {
+     "name": "锺庆余",
+     "type": "Person",
+     "aliases": [
+      "锺生"
+     ],
+     "nickname": "",
+     "description": "辽东名士，应济南乡试，至孝"
+    },
+    {
+     "name": "方叟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "山村老人，姓方，收留锺生并嫁甥女"
+    },
+    {
+     "name": "方氏女",
+     "type": "Person",
+     "aliases": [
+      "新娘"
+     ],
+     "nickname": "",
+     "description": "方叟甥女，十六岁，艳绝无双，后嫁锺生"
+    },
+    {
+     "name": "老僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方氏女之父，南山出家，道术颇神"
+    },
+    {
+     "name": "王世子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "六七岁，被驴挤堕河中，后官府追查"
+    },
+    {
+     "name": "趵突泉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南名泉，锺生遇道士处"
+    },
+    {
+     "name": "南山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "老僧修行之山，有兰若禅堂"
+    },
+    {
+     "name": "辽阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "锺生故乡，辽东"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "锺生应乡试之地"
+    },
+    {
+     "name": "中州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士预言继室所在之地"
+    },
+    {
+     "name": "阴司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府，锺母梦中见阎王处"
+    },
+    {
+     "name": "药丸",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士所授，服之可延寿七日"
+    },
+    {
+     "name": "断杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "老僧所付竹杖，代锺生受死，断处有血痕"
+    },
+    {
+     "name": "乡试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南乡试，锺生参与并中举"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "锺庆余",
+     "predicate": "NATIVE_OF",
+     "object": "辽阳",
+     "evidence": "锺庆余，辽东名士。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锺庆余",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乡试",
+     "evidence": "应济南乡试。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乡试",
+     "predicate": "OCCURRED_AT",
+     "object": "济南",
+     "evidence": "应济南乡试。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锺庆余",
+     "predicate": "OWNS",
+     "object": "药丸",
+     "evidence": "乃以一丸授之曰：“可遣人夙夜将去，服之可延七日，场毕而行，母子犹及见也。”生藏之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锺庆余",
+     "predicate": "KIN",
+     "object": "锺母",
+     "evidence": "生至孝，闻之泣下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锺母",
+     "predicate": "LIVES_AT",
+     "object": "辽阳",
+     "evidence": "星夜归辽阳",
+     "confidence": 0.8
+    },
+    {
+     "subject": "锺庆余",
+     "predicate": "SPOUSE",
+     "object": "方氏女",
+     "evidence": "生喜极，赘焉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "方叟",
+     "predicate": "KIN",
+     "object": "方氏女",
+     "evidence": "遗有孤女，从仆鞠养",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老僧",
+     "predicate": "KIN",
+     "object": "方氏女",
+     "evidence": "女参曰：“久不定省，今女已嫁，故偕婿来。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方氏女",
+     "predicate": "LIVES_AT",
+     "object": "南山",
+     "evidence": "余姊夫慕道，挂锡南山",
+     "confidence": 0.85
+    },
+    {
+     "subject": "老僧",
+     "predicate": "LIVES_AT",
+     "object": "南山",
+     "evidence": "余姊夫慕道，挂锡南山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锺庆余",
+     "predicate": "HARMED",
+     "object": "王世子",
+     "evidence": "驴冲过，扈从皆不及防，挤堕河中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "方叟",
+     "predicate": "HELPED",
+     "object": "锺庆余",
+     "evidence": "叟言：“不妨。请即寄居此间，当使徼者去。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "老僧",
+     "predicate": "HELPED",
+     "object": "锺庆余",
+     "evidence": "山中遣僮来，以断杖付生云：“代死者，此君也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锺庆余",
+     "predicate": "OWNS",
+     "object": "断杖",
+     "evidence": "以断杖付生云：“代死者，此君也。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锺母",
+     "predicate": "PARTICIPATED_IN",
+     "object": "阴司",
+     "evidence": "适梦之阴司，见王者颜色和霁。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:08.044Z"
+}

@@ -1,0 +1,337 @@
+{
+ "no": 131,
+ "title": "7.6 用锐角三角函数解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6100,
+   "entities": [
+    {
+     "name": "锐角三角函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "揭示直角三角形边与角关系的函数"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角为直角的三角形"
+    },
+    {
+     "name": "解直角三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由已知元素求未知元素的过程"
+    },
+    {
+     "name": "坡度",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "坡面的垂直高度与水平宽度的比"
+    },
+    {
+     "name": "坡角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "坡面与水平面的夹角"
+    },
+    {
+     "name": "仰角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "视线在水平线上方的角"
+    },
+    {
+     "name": "俯角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "视线在水平线下方的角"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "锐角互余",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两锐角互余"
+    },
+    {
+     "name": "正弦",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "锐角A的对边与斜边的比"
+    },
+    {
+     "name": "余弦",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "锐角A的邻边与斜边的比"
+    },
+    {
+     "name": "正切",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "锐角A的对边与邻边的比"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "锐角三角函数",
+     "predicate": "APPLIES_TO",
+     "object": "解直角三角形",
+     "evidence": "利用锐角三角函数的相关知识解决问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "RELATED",
+     "object": "直角三角形",
+     "evidence": "锐角三角函数揭示了直角三角形的边与角的关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "坡度",
+     "predicate": "RELATED",
+     "object": "正切",
+     "evidence": "坡度i（即tanβ）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "坡角",
+     "predicate": "RELATED",
+     "object": "坡度",
+     "evidence": "背水坡AD的坡度i = tanβ",
+     "confidence": 0.9
+    },
+    {
+     "subject": "仰角",
+     "predicate": "RELATED",
+     "object": "俯角",
+     "evidence": "仰角（从低处观测高处的目标时，视线与水平线所成的锐角）",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "三边之间的关系：a^2+b^2=c^2",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角互余",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "锐角之间的关系：∠A+∠B=90°",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正弦",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "边、角之间的关系：sinA=a/c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "余弦",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "边、角之间的关系：cosA=b/c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正切",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "边、角之间的关系：tanA=a/b",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正弦",
+     "evidence": "sinA=a/c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "余弦",
+     "evidence": "cosA=b/c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正切",
+     "evidence": "tanA=a/b",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1388,
+   "entities": [
+    {
+     "name": "锐角三角函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "锐角的正弦、余弦、正切函数"
+    },
+    {
+     "name": "解直角三角形",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "由已知元素求未知元素的过程"
+    },
+    {
+     "name": "正弦",
+     "type": "Concept",
+     "aliases": [
+      "sin"
+     ],
+     "nickname": "",
+     "description": "锐角对边与斜边的比"
+    },
+    {
+     "name": "余弦",
+     "type": "Concept",
+     "aliases": [
+      "cos"
+     ],
+     "nickname": "",
+     "description": "锐角邻边与斜边的比"
+    },
+    {
+     "name": "正切",
+     "type": "Concept",
+     "aliases": [
+      "tan"
+     ],
+     "nickname": "",
+     "description": "锐角对边与邻边的比"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角为直角的三角形"
+    },
+    {
+     "name": "等边三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三边相等的三角形"
+    },
+    {
+     "name": "锐角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三个角都是锐角的三角形"
+    },
+    {
+     "name": "三角形面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "面积等于两边长与夹角正弦乘积的一半"
+    },
+    {
+     "name": "同角三角函数关系",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "锐角三角函数值之间的关系"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正弦",
+     "evidence": "根据下列三角函数值，求锐角α：（1）sin α=0.365 7；",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "余弦",
+     "evidence": "根据下列三角函数值，求锐角α：（2）cos α=0.915 0；",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "INCLUDES",
+     "object": "正切",
+     "evidence": "根据下列三角函数值，求锐角α：（3）tan α=6。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "APPLIES_TO",
+     "object": "解直角三角形",
+     "evidence": "在△ABC中，∠C=90°。（1）已知∠A=30°，BC=8 cm，求AB和AC的长；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "解直角三角形",
+     "predicate": "APPLIES_TO",
+     "object": "直角三角形",
+     "evidence": "在△ABC中，∠C=90°。（1）已知∠A=30°，BC=8 cm，求AB和AC的长；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "APPLIES_TO",
+     "object": "等边三角形",
+     "evidence": "已知等边三角形的边长为a，求它的面积。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "锐角三角函数",
+     "predicate": "APPLIES_TO",
+     "object": "锐角三角形",
+     "evidence": "证明：锐角三角形的面积等于两边的长与其夹角的正弦值的乘积的一半。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三角形面积公式",
+     "predicate": "PROPERTY_OF",
+     "object": "锐角三角形",
+     "evidence": "证明：锐角三角形的面积等于两边的长与其夹角的正弦值的乘积的一半。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同角三角函数关系",
+     "predicate": "RELATED",
+     "object": "锐角三角函数",
+     "evidence": "探索锐角α的三角函数值之间的关系。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:35.498Z"
+}

@@ -1,0 +1,50 @@
+{
+ "no": 25,
+ "title": "野狗",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 286,
+   "entities": [
+    {
+     "name": "李化龙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《野狗》中乡民，躲于尸丛中"
+    },
+    {
+     "name": "野狗子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《野狗》中兽首人身怪物，吸人脑"
+    },
+    {
+     "name": "于七之乱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《野狗》中战乱事件，杀人如麻"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "野狗子",
+     "predicate": "HARMED",
+     "object": "李化龙",
+     "evidence": "物来拨李肩，欲得李首。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李化龙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "于七之乱",
+     "evidence": "于七之乱，杀人如麻。乡民李化龙，自山中窜归。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:20.458Z"
+}

@@ -1,0 +1,71 @@
+{
+ "no": 193,
+ "title": "鄱阳神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 140,
+   "entities": [
+    {
+     "name": "翟湛持",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鄱阳神篇中饶州司理，途经鄱阳湖"
+    },
+    {
+     "name": "翟姓神",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "鄱阳湖神祠中翟姓神像，后救翟湛持"
+    },
+    {
+     "name": "丁普郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鄱阳神篇中死节忠臣，神祠有其像"
+    },
+    {
+     "name": "鄱阳湖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "翟湛持途经之湖，上有神祠"
+    },
+    {
+     "name": "神祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鄱阳湖上供奉死节臣像的祠庙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "翟湛持",
+     "predicate": "LIVES_AT",
+     "object": "鄱阳湖",
+     "evidence": "翟湛持，司理饶州，道经鄱阳湖。",
+     "confidence": 0.6
+    },
+    {
+     "subject": "翟湛持",
+     "predicate": "KIN",
+     "object": "翟姓神",
+     "evidence": "翟曰：“吾家宗人，何得在下！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "翟姓神",
+     "predicate": "HELPED",
+     "object": "翟湛持",
+     "evidence": "俄一小舟破浪而来，既近官舟，急挽翟登小舟",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:26.154Z"
+}

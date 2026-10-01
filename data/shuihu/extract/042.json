@@ -1,0 +1,1278 @@
+{
+ "no": 42,
+ "title": "第四十二回 还道村受三卷天书 宋公明遇九天玄女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5837,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县人，梁山好汉首领"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "托塔天王",
+     "description": "梁山泊头领"
+    },
+    {
+     "name": "宋清",
+     "type": "Person",
+     "aliases": [
+      "铁扇子",
+      "宋四郎"
+     ],
+     "nickname": "铁扇子",
+     "description": "宋江之弟"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "欧鹏",
+     "type": "Person",
+     "aliases": [
+      "摩云金翅"
+     ],
+     "nickname": "摩云金翅",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "陶宗旺",
+     "type": "Person",
+     "aliases": [
+      "九尾龟"
+     ],
+     "nickname": "九尾龟",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "朱贵",
+     "type": "Person",
+     "aliases": [
+      "旱地忽律"
+     ],
+     "nickname": "旱地忽律",
+     "description": "梁山好汉，经营酒店"
+    },
+    {
+     "name": "李立",
+     "type": "Person",
+     "aliases": [
+      "催命判官"
+     ],
+     "nickname": "催命判官",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "石勇",
+     "type": "Person",
+     "aliases": [
+      "石将军"
+     ],
+     "nickname": "石将军",
+     "description": "梁山好汉"
+    },
+    {
+     "name": "赵能",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县都头，追捕宋江"
+    },
+    {
+     "name": "赵得",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县都头，赵能之弟"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江等好汉聚义的山寨"
+    },
+    {
+     "name": "还道村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江避难的村庄"
+    },
+    {
+     "name": "玄女之庙",
+     "type": "Place",
+     "aliases": [
+      "古庙"
+     ],
+     "nickname": "",
+     "description": "还道村中供奉九天玄女的庙宇"
+    },
+    {
+     "name": "宋家村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江家乡"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江籍贯县"
+    },
+    {
+     "name": "还道村受三卷天书",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江在还道村玄女庙得天书"
+    },
+    {
+     "name": "三卷天书",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "九天玄女赐予宋江的仙书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋清",
+     "evidence": "宋江道：'我特来家取父亲和你。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "小可宋江，自蒙救护上山，到此连日饮宴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "晁盖道：'贤弟，这件是人伦中大事……'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "晁盖",
+     "evidence": "宋江在筵上对众好汉道：'小可宋江，自蒙救护上山……'",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "宋江道：'我生居郓城县，不曾听的说有这个去处。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "还道村",
+     "evidence": "看了那个去处，有名唤做还道村。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "还道村受三卷天书",
+     "evidence": "娘娘法旨道：'教取那三卷天书，赐与星主。'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "还道村受三卷天书",
+     "predicate": "OCCURRED_AT",
+     "object": "玄女之庙",
+     "evidence": "旧牌额上刻着四个金字道：'玄女之庙'。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "三卷天书",
+     "evidence": "宋江拜受看时，可长五寸，阔三寸，厚三寸。不敢开看，再拜祗受，藏于袖中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵能",
+     "predicate": "FOUGHT",
+     "object": "宋江",
+     "evidence": "赵能、赵得引着四五十人，拿着火把，各到处照，看看照上殿来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵得",
+     "predicate": "FOUGHT",
+     "object": "宋江",
+     "evidence": "赵得一只手将朴刀杆挑起神帐，上下把火只一照",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "KILLED",
+     "object": "赵能",
+     "evidence": "李逵见他两个赶来，恐怕争功坏了义气，就手把赵能一斧，砍做两半",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "宋江方才敢挺身出来，说道：'感谢众兄弟们，又来救我性命'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "宋江方才敢挺身出来，说道：'感谢众兄弟们，又来救我性命'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石勇",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "宋江方才敢挺身出来，说道：'感谢众兄弟们，又来救我性命'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李立",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "宋江方才敢挺身出来，说道：'感谢众兄弟们，又来救我性命'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "欧鹏",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "宋江方才敢挺身出来，说道：'感谢众兄弟们，又来救我性命'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶宗旺",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "宋江方才敢挺身出来，说道：'感谢众兄弟们，又来救我性命'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "晁盖",
+     "evidence": "晁盖道：'贤弟，这件是人伦中大事……'",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "宋清",
+     "evidence": "宋江道：'我特来家取父亲和你。'",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2202,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，孝义黑三郎"
+    },
+    {
+     "name": "刘唐",
+     "type": "Person",
+     "aliases": [
+      "赤发鬼"
+     ],
+     "nickname": "赤发鬼",
+     "description": "梁山好汉，赤发鬼"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [
+      "晁头领",
+      "晁天王"
+     ],
+     "nickname": "",
+     "description": "梁山泊头领，托塔天王"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山军师，智多星"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山好汉，神行太保"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "入云龙",
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "梁山好汉，入云龙"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，黑旋风"
+    },
+    {
+     "name": "石勇",
+     "type": "Person",
+     "aliases": [
+      "石将军"
+     ],
+     "nickname": "石将军",
+     "description": "梁山好汉，石将军"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "小李广",
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "梁山好汉，小李广"
+    },
+    {
+     "name": "秦明",
+     "type": "Person",
+     "aliases": [
+      "霹雳火",
+      "秦统制"
+     ],
+     "nickname": "霹雳火",
+     "description": "梁山好汉，霹雳火"
+    },
+    {
+     "name": "黄信",
+     "type": "Person",
+     "aliases": [
+      "镇三山"
+     ],
+     "nickname": "镇三山",
+     "description": "梁山好汉，镇三山"
+    },
+    {
+     "name": "薛永",
+     "type": "Person",
+     "aliases": [
+      "病大虫"
+     ],
+     "nickname": "病大虫",
+     "description": "梁山好汉，病大虫"
+    },
+    {
+     "name": "蒋敬",
+     "type": "Person",
+     "aliases": [
+      "神算子"
+     ],
+     "nickname": "神算子",
+     "description": "梁山好汉，神算子"
+    },
+    {
+     "name": "马麟",
+     "type": "Person",
+     "aliases": [
+      "铁笛仙"
+     ],
+     "nickname": "铁笛仙",
+     "description": "梁山好汉，铁笛仙"
+    },
+    {
+     "name": "李立",
+     "type": "Person",
+     "aliases": [
+      "催命判官"
+     ],
+     "nickname": "催命判官",
+     "description": "梁山好汉，催命判官"
+    },
+    {
+     "name": "李俊",
+     "type": "Person",
+     "aliases": [
+      "混江龙"
+     ],
+     "nickname": "混江龙",
+     "description": "梁山好汉，混江龙"
+    },
+    {
+     "name": "穆弘",
+     "type": "Person",
+     "aliases": [
+      "没遮拦",
+      "穆大郎"
+     ],
+     "nickname": "没遮拦",
+     "description": "梁山好汉，没遮拦"
+    },
+    {
+     "name": "张横",
+     "type": "Person",
+     "aliases": [
+      "船火儿"
+     ],
+     "nickname": "船火儿",
+     "description": "梁山好汉，船火儿"
+    },
+    {
+     "name": "张顺",
+     "type": "Person",
+     "aliases": [
+      "浪里白跳"
+     ],
+     "nickname": "浪里白跳",
+     "description": "梁山好汉，浪里白跳"
+    },
+    {
+     "name": "穆春",
+     "type": "Person",
+     "aliases": [
+      "小遮拦"
+     ],
+     "nickname": "小遮拦",
+     "description": "梁山好汉，小遮拦"
+    },
+    {
+     "name": "侯健",
+     "type": "Person",
+     "aliases": [
+      "通臂猿"
+     ],
+     "nickname": "通臂猿",
+     "description": "梁山好汉，通臂猿"
+    },
+    {
+     "name": "萧让",
+     "type": "Person",
+     "aliases": [
+      "圣手书生"
+     ],
+     "nickname": "圣手书生",
+     "description": "梁山好汉，圣手书生"
+    },
+    {
+     "name": "金大坚",
+     "type": "Person",
+     "aliases": [
+      "玉臂匠"
+     ],
+     "nickname": "玉臂匠",
+     "description": "梁山好汉，玉臂匠"
+    },
+    {
+     "name": "杜迁",
+     "type": "Person",
+     "aliases": [
+      "摸着天"
+     ],
+     "nickname": "摸着天",
+     "description": "梁山好汉，摸着天"
+    },
+    {
+     "name": "宋万",
+     "type": "Person",
+     "aliases": [
+      "云里金刚"
+     ],
+     "nickname": "云里金刚",
+     "description": "梁山好汉，云里金刚"
+    },
+    {
+     "name": "王矮虎",
+     "type": "Person",
+     "aliases": [
+      "王英"
+     ],
+     "nickname": "矮脚虎",
+     "description": "梁山好汉，矮脚虎"
+    },
+    {
+     "name": "郑天寿",
+     "type": "Person",
+     "aliases": [
+      "白面郎君"
+     ],
+     "nickname": "白面郎君",
+     "description": "梁山好汉，白面郎君"
+    },
+    {
+     "name": "童威",
+     "type": "Person",
+     "aliases": [
+      "出洞蛟"
+     ],
+     "nickname": "出洞蛟",
+     "description": "梁山好汉，出洞蛟"
+    },
+    {
+     "name": "童猛",
+     "type": "Person",
+     "aliases": [
+      "翻江蜃"
+     ],
+     "nickname": "翻江蜃",
+     "description": "梁山好汉，翻江蜃"
+    },
+    {
+     "name": "宋清",
+     "type": "Person",
+     "aliases": [
+      "铁扇子",
+      "宋四郎"
+     ],
+     "nickname": "铁扇子",
+     "description": "宋江之弟，铁扇子"
+    },
+    {
+     "name": "宋太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江之父"
+    },
+    {
+     "name": "赵能",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城县都头，曾追捕宋江"
+    },
+    {
+     "name": "赵得",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵能之弟，曾追捕宋江"
+    },
+    {
+     "name": "吕方",
+     "type": "Person",
+     "aliases": [
+      "小温侯"
+     ],
+     "nickname": "小温侯",
+     "description": "梁山好汉，小温侯"
+    },
+    {
+     "name": "郭盛",
+     "type": "Person",
+     "aliases": [
+      "赛仁贵"
+     ],
+     "nickname": "赛仁贵",
+     "description": "梁山好汉，赛仁贵"
+    },
+    {
+     "name": "朱贵",
+     "type": "Person",
+     "aliases": [
+      "旱地忽律"
+     ],
+     "nickname": "旱地忽律",
+     "description": "梁山好汉，旱地忽律"
+    },
+    {
+     "name": "白胜",
+     "type": "Person",
+     "aliases": [
+      "白日鼠"
+     ],
+     "nickname": "白日鼠",
+     "description": "梁山好汉，白日鼠"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [
+      "梁山",
+      "山寨"
+     ],
+     "nickname": "",
+     "description": "梁山泊好汉势力"
+    },
+    {
+     "name": "还道村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江遇九天玄女处"
+    },
+    {
+     "name": "蓟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "公孙胜家乡"
+    },
+    {
+     "name": "金沙滩",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊入口"
+    },
+    {
+     "name": "沂水县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李逵家乡"
+    },
+    {
+     "name": "还道村受三卷天书",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江在还道村得九天玄女授天书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "晁盖",
+     "evidence": "晁盖道：我叫贤弟不须亲自下山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "刘唐",
+     "evidence": "宋江问刘唐道：你们如何得知来这里救我？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "李逵",
+     "evidence": "宋江连忙问道：兄弟，你如何烦恼？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "花荣",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "秦明",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "黄信",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "薛永",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "蒋敬",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "马麟",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "李俊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "穆弘",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "张横",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "张顺",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "穆春",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "侯健",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "萧让",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "金大坚",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "戴宗",
+     "evidence": "晁头领与吴军师放心不下，便叫戴院长随即下来探听哥哥下落",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "吴用",
+     "evidence": "晁头领与吴军师放心不下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "公孙胜",
+     "evidence": "公孙胜起身对众头领说道：感蒙众位豪杰相带贫道许多时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "石勇",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "李立",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SWORN_BROTHER",
+     "object": "宋清",
+     "evidence": "叫兄弟宋清拜谢了众头领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋太公",
+     "evidence": "宋江问道：老父何在？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋清",
+     "evidence": "叫兄弟宋清拜谢了众头领",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋太公",
+     "predicate": "KIN",
+     "object": "宋清",
+     "evidence": "教你兄弟四郎收拾了箱笼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵能",
+     "predicate": "KIN",
+     "object": "赵得",
+     "evidence": "叵耐赵能那厮弟兄两个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵能",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "叵耐赵能那厮弟兄两个，每日拨人来守定了我们，只待江州公文到来，便要捉取我父子二人解送官司",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵得",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "叵耐赵能那厮弟兄两个，每日拨人来守定了我们，只待江州公文到来，便要捉取我父子二人解送官司",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "晁头领又自己放心不下，再着我等众人前来接应",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "RESCUED",
+     "object": "宋太公",
+     "evidence": "令尊并令弟家眷，我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去，已到山寨中了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "RESCUED",
+     "object": "宋太公",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去，已到山寨中了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜迁",
+     "predicate": "RESCUED",
+     "object": "宋太公",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去，已到山寨中了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋万",
+     "predicate": "RESCUED",
+     "object": "宋太公",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去，已到山寨中了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王矮虎",
+     "predicate": "RESCUED",
+     "object": "宋太公",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去，已到山寨中了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郑天寿",
+     "predicate": "RESCUED",
+     "object": "宋太公",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去，已到山寨中了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童威",
+     "predicate": "RESCUED",
+     "object": "宋太公",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去，已到山寨中了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "童猛",
+     "predicate": "RESCUED",
+     "object": "宋太公",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去，已到山寨中了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "且说一行人马离了还道村，径回梁山泊来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "晁盖、宋江俱各欢喜，与众头领各各上马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "宋江在马上以手加额，望空顶礼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "吴学究领了守山头领，直到金沙滩，都来迎接着",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "小道自从跟随着晁头领到山，逐日宴乐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只见黑旋风李逵就关下放声大哭起来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘唐",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "刘唐答道：哥哥前脚下得山来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴宗",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "便叫戴院长随即下来探听哥哥下落",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦明",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄信",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛永",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋敬",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "马麟",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李俊",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆弘",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张横",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张顺",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆春",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "侯健",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "萧让",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金大坚",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石勇",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "石勇引将晁盖、花荣、秦明、黄信、薛永、蒋敬、马麟到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李立",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "李立引将李俊、穆弘、张横、张顺、穆春、侯健、萧让、金大坚一行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋清",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "铁扇子宋清策着一乘山轿，抬着宋太公到来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕方",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只教留下吴军师、公孙胜、阮家三弟兄、吕方、郭盛、朱贵、白胜看守寨栅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭盛",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只教留下吴军师、公孙胜、阮家三弟兄、吕方、郭盛、朱贵、白胜看守寨栅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱贵",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只教留下吴军师、公孙胜、阮家三弟兄、吕方、郭盛、朱贵、白胜看守寨栅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白胜",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "只教留下吴军师、公孙胜、阮家三弟兄、吕方、郭盛、朱贵、白胜看守寨栅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杜迁",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋万",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王矮虎",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郑天寿",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "童威",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "童猛",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "我先叫戴宗引杜迁、宋万、王矮虎、郑天寿、童威、童猛送去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "还道村",
+     "evidence": "听得人说道：赶宋江入还道村去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "NATIVE_OF",
+     "object": "蓟州",
+     "evidence": "思忆老母在蓟州，离家日久",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李逵",
+     "predicate": "NATIVE_OF",
+     "object": "沂水县",
+     "evidence": "沂水县中，损几个生灵性命",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "还道村受三卷天书",
+     "evidence": "还道村受三卷天书 宋公明遇九天玄女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "还道村受三卷天书",
+     "predicate": "OCCURRED_AT",
+     "object": "还道村",
+     "evidence": "还道村受三卷天书",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "天书",
+     "evidence": "还道村受三卷天书",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "OWNS",
+     "object": "雌雄宝剑",
+     "evidence": "背上雌雄宝剑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "OWNS",
+     "object": "鳖壳扇",
+     "evidence": "手中拿把鳖壳扇",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:33:01.197Z"
+}

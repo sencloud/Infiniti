@@ -1,0 +1,85 @@
+{
+ "no": 291,
+ "title": "商妇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 261,
+   "entities": [
+    {
+     "name": "商人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "天津商人，借贷远行"
+    },
+    {
+     "name": "商人妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商人之妻，被鬼诱自缢"
+    },
+    {
+     "name": "偷儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "小偷，目击鬼事并自首"
+    },
+    {
+     "name": "邻人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商人邻居，被诬杀人"
+    },
+    {
+     "name": "宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "商人所居宅院，旧主少妇曾缢死"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "商人",
+     "predicate": "SPOUSE",
+     "object": "商人妇",
+     "evidence": "但闻商人妇转侧床上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "偷儿",
+     "predicate": "HELPED",
+     "object": "邻人",
+     "evidence": "偷儿愤其冤，自首于堂，告以是夜所见。鞫之情真，邻人遂免",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商人",
+     "predicate": "LIVES_AT",
+     "object": "宅",
+     "evidence": "预匿室中以俟其归",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商人妇",
+     "predicate": "LIVES_AT",
+     "object": "宅",
+     "evidence": "但闻商人妇转侧床上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "偷儿",
+     "predicate": "LIVES_AT",
+     "object": "宅",
+     "evidence": "预匿室中以俟其归",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:02.875Z"
+}

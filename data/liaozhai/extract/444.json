@@ -1,0 +1,134 @@
+{
+ "no": 444,
+ "title": "三仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 385,
+   "entities": [
+    {
+     "name": "士人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赴金陵应试的读书人，遇三仙得文章中举"
+    },
+    {
+     "name": "介秋衡",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "三仙之一，自称秀才，实为三仙洞灵物"
+    },
+    {
+     "name": "常丰林",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "三仙之一，自称秀才，实为三仙洞灵物"
+    },
+    {
+     "name": "麻西池",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "三仙之一，自称秀才，实为三仙洞灵物"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "士人赴试之地"
+    },
+    {
+     "name": "宿迁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "士人途经之地，遇三秀才处"
+    },
+    {
+     "name": "三仙洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑北山洞，蟹蛇虾蟆三灵物所居"
+    },
+    {
+     "name": "入闱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "士人参加科举考试"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "士人",
+     "predicate": "FRIEND",
+     "object": "介秋衡",
+     "evidence": "遇三秀才，谈论超旷，遂与沽酒款洽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "士人",
+     "predicate": "FRIEND",
+     "object": "常丰林",
+     "evidence": "遇三秀才，谈论超旷，遂与沽酒款洽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "士人",
+     "predicate": "FRIEND",
+     "object": "麻西池",
+     "evidence": "遇三秀才，谈论超旷，遂与沽酒款洽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "士人",
+     "predicate": "LIVES_AT",
+     "object": "三仙洞",
+     "evidence": "主仆卧山谷中……始知为“三仙洞”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "介秋衡",
+     "predicate": "LIVES_AT",
+     "object": "三仙洞",
+     "evidence": "始知为“三仙洞”。盖洞中有蟹、蛇、虾蟆三物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "常丰林",
+     "predicate": "LIVES_AT",
+     "object": "三仙洞",
+     "evidence": "始知为“三仙洞”。盖洞中有蟹、蛇、虾蟆三物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "麻西池",
+     "predicate": "LIVES_AT",
+     "object": "三仙洞",
+     "evidence": "始知为“三仙洞”。盖洞中有蟹、蛇、虾蟆三物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "士人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "入闱",
+     "evidence": "士人入闱，三题即仙作，以是擢解",
+     "confidence": 0.95
+    },
+    {
+     "subject": "入闱",
+     "predicate": "OCCURRED_AT",
+     "object": "金陵",
+     "evidence": "一士人赴试金陵",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:01.872Z"
+}

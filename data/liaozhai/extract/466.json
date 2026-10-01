@@ -1,0 +1,75 @@
+{
+ "no": 466,
+ "title": "元少先生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 452,
+   "entities": [
+    {
+     "name": "韩元少",
+     "type": "Person",
+     "aliases": [
+      "元少先生"
+     ],
+     "nickname": "元少先生",
+     "description": "《元少先生》中秀才，后中会元、状元"
+    },
+    {
+     "name": "公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《元少先生》中王者之子，年十五六，聪慧"
+    },
+    {
+     "name": "王者",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《元少先生》中冥府王者，坐殿审断"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [
+      "殿阁"
+     ],
+     "nickname": "",
+     "description": "《元少先生》中王者所居殿阁，类藩邸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "韩元少",
+     "predicate": "LIVES_AT",
+     "object": "冥府",
+     "evidence": "既就馆",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王者",
+     "predicate": "KIN",
+     "object": "公子",
+     "evidence": "则公子出拜",
+     "confidence": 0.8
+    },
+    {
+     "subject": "韩元少",
+     "predicate": "HELPED",
+     "object": "公子",
+     "evidence": "请业始至师所",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王者",
+     "predicate": "HELPED",
+     "object": "韩元少",
+     "evidence": "因赠束金使行",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:11.259Z"
+}

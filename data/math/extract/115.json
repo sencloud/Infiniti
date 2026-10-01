@@ -1,0 +1,324 @@
+{
+ "no": 115,
+ "title": "5.2 二次函数的图像和性质",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6143,
+   "entities": [
+    {
+     "name": "二次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=ax²+bx+c（a≠0）的函数"
+    },
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "反比例函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=k/x（k≠0）的函数"
+    },
+    {
+     "name": "抛物线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次函数的图像，关于对称轴对称"
+    },
+    {
+     "name": "顶点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "抛物线与对称轴的交点"
+    },
+    {
+     "name": "对称轴",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "抛物线关于其对称的直线"
+    },
+    {
+     "name": "描点法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过列表、描点、连线画函数图像的方法"
+    },
+    {
+     "name": "配方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将二次函数一般式化为顶点式的方法"
+    },
+    {
+     "name": "二次函数y=ax²的图像和性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "y=ax²的图像是抛物线，顶点在原点，对称轴是y轴"
+    },
+    {
+     "name": "二次函数y=ax²+bx+c的图像和性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "y=ax²+bx+c的图像是抛物线，顶点为(-b/2a, (4ac-b²)/4a)"
+    },
+    {
+     "name": "二次函数图像的平移",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过平移y=ax²的图像得到其他二次函数图像"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一次函数",
+     "predicate": "PREREQUISITE",
+     "object": "二次函数",
+     "evidence": "我们已经学习了一次函数和反比例函数的图像的画法，并借助图像研究这些函数的性质．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "反比例函数",
+     "predicate": "PREREQUISITE",
+     "object": "二次函数",
+     "evidence": "我们已经学习了一次函数和反比例函数的图像的画法，并借助图像研究这些函数的性质．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "描点法",
+     "predicate": "APPLIES_TO",
+     "object": "二次函数",
+     "evidence": "用描点法画出二次函数 $y=x^2$ 的图像．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次函数",
+     "predicate": "INCLUDES",
+     "object": "二次函数y=ax²的图像和性质",
+     "evidence": "我们先研究二次函数 $y=x^2$ 的图像和性质．",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数",
+     "predicate": "INCLUDES",
+     "object": "二次函数y=ax²+bx+c的图像和性质",
+     "evidence": "一般地，二次函数$y=ax^2+bx+c$可以变形为$y=a(x+h)^2+k$的形式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数y=ax²的图像和性质",
+     "predicate": "PROPERTY_OF",
+     "object": "抛物线",
+     "evidence": "二次函数$y=ax^2$的图像是一条抛物线，抛物线的顶点在原点、对称轴是$y$轴。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次函数y=ax²+bx+c的图像和性质",
+     "predicate": "PROPERTY_OF",
+     "object": "抛物线",
+     "evidence": "二次函数 $y=ax^2+bx+c$ 的图像是一条抛物线，它的顶点坐标是 $\\left(-\\frac{b}{2a},\\frac{4ac-b^2}{4a}\\right)$，对称轴是过顶点且平行于 $y$ 轴的直线。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "配方法",
+     "predicate": "APPLIES_TO",
+     "object": "二次函数y=ax²+bx+c的图像和性质",
+     "evidence": "可先将函数表达式变形为 $y=a(x+h)^2+k$ 的形式。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数y=ax²的图像和性质",
+     "predicate": "PREREQUISITE",
+     "object": "二次函数y=ax²+bx+c的图像和性质",
+     "evidence": "把函数$y=x^2$的图像向左平移1个单位长度，可得到函数$y=(x+1)^2$的图像，再把函数$y=(x+1)^2$的图像向上平移2个单位长度，就得到函数$y=(x+1)^2+2$的图像。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数图像的平移",
+     "predicate": "APPLIES_TO",
+     "object": "二次函数y=ax²+bx+c的图像和性质",
+     "evidence": "把函数$y=x^2$的图像向左平移1个单位长度，可得到函数$y=(x+1)^2$的图像，再把函数$y=(x+1)^2$的图像向上平移2个单位长度，就得到函数$y=(x+1)^2+2$的图像。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数y=ax²的图像和性质",
+     "predicate": "RELATED",
+     "object": "二次函数y=ax²+bx+c的图像和性质",
+     "evidence": "函数 $y = x^2 + 1$ 的图像与函数 $y = x^2$ 的图像之间有什么关系？",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1095,
+   "entities": [
+    {
+     "name": "二次函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如y=ax²+bx+c（a≠0）的函数"
+    },
+    {
+     "name": "二次函数的图像",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次函数对应的抛物线图形"
+    },
+    {
+     "name": "二次函数的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "开口方向、对称轴、顶点、增减性、最值等"
+    },
+    {
+     "name": "抛物线",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "二次函数的图像，轴对称曲线"
+    },
+    {
+     "name": "对称轴",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "抛物线关于其对称的直线"
+    },
+    {
+     "name": "顶点坐标",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "抛物线顶点位置的坐标"
+    },
+    {
+     "name": "开口方向",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "抛物线开口向上或向下，由a的符号决定"
+    },
+    {
+     "name": "最大值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "函数值能达到的最大数值"
+    },
+    {
+     "name": "最小值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "函数值能达到的最小数值"
+    },
+    {
+     "name": "平移",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "图像左右或上下移动的变换方法"
+    },
+    {
+     "name": "配方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将二次函数一般式化为顶点式的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "二次函数",
+     "predicate": "INCLUDES",
+     "object": "二次函数的图像",
+     "evidence": "画出下列函数的图像",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数",
+     "predicate": "INCLUDES",
+     "object": "二次函数的性质",
+     "evidence": "二次函数的图像和性质",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数的图像",
+     "predicate": "INCLUDES",
+     "object": "抛物线",
+     "evidence": "二次函数y=ax^2的图像",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抛物线",
+     "predicate": "INCLUDES",
+     "object": "对称轴",
+     "evidence": "画出下列函数的图像及其对称轴",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抛物线",
+     "predicate": "INCLUDES",
+     "object": "顶点坐标",
+     "evidence": "写出它们的顶点坐标",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数的性质",
+     "predicate": "INCLUDES",
+     "object": "开口方向",
+     "evidence": "图像开口向下的是",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数的性质",
+     "predicate": "INCLUDES",
+     "object": "最大值",
+     "evidence": "y有最大值还是有最小值",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次函数的性质",
+     "predicate": "INCLUDES",
+     "object": "最小值",
+     "evidence": "y有最大值还是有最小值",
+     "confidence": 0.9
+    },
+    {
+     "subject": "配方法",
+     "predicate": "APPLIES_TO",
+     "object": "二次函数",
+     "evidence": "求下列函数的最大值或最小值",
+     "confidence": 0.8
+    },
+    {
+     "subject": "平移",
+     "predicate": "APPLIES_TO",
+     "object": "二次函数的图像",
+     "evidence": "怎样平移函数y=-x^2的图像，可以得到函数y=-x^2-8x-7的图像",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:28.810Z"
+}

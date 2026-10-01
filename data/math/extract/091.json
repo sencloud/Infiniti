@@ -1,0 +1,312 @@
+{
+ "no": 91,
+ "title": "11.3 二次根式的加减",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6124,
+   "entities": [
+    {
+     "name": "二次根式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示算术平方根的代数式，如√a (a≥0)"
+    },
+    {
+     "name": "代数式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用运算符号连接数和表示数的字母的式子"
+    },
+    {
+     "name": "同类二次根式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "化简后被开方数相同的二次根式"
+    },
+    {
+     "name": "二次根式的加减法",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "先化简每个二次根式，然后合并同类二次根式"
+    },
+    {
+     "name": "合并同类二次根式",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "类似合并同类项，将同类二次根式的系数相加"
+    },
+    {
+     "name": "二次根式的混合运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "综合运用运算律、运算法则和运算性质进行二次根式运算"
+    },
+    {
+     "name": "有理化因式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个含有二次根式的代数式相乘，积不含二次根式，则互为有理化因式"
+    },
+    {
+     "name": "分母有理化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用有理化因式将分母中的根号化去"
+    },
+    {
+     "name": "平方差公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a+b)(a-b)=a²-b²"
+    },
+    {
+     "name": "完全平方公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a±b)²=a²±2ab+b²"
+    },
+    {
+     "name": "分配律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a(b+c)=ab+ac"
+    },
+    {
+     "name": "圆的面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "S=πr²"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "二次根式",
+     "predicate": "INCLUDES",
+     "object": "同类二次根式",
+     "evidence": "经过化简，可以使被开方数相同的二次根式，叫作同类二次根式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式的加减法",
+     "predicate": "APPLIES_TO",
+     "object": "同类二次根式",
+     "evidence": "二次根式相加减，先化简每个二次根式，然后合并同类二次根式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "合并同类二次根式",
+     "predicate": "PREREQUISITE",
+     "object": "二次根式的加减法",
+     "evidence": "二次根式相加减，先化简每个二次根式，然后合并同类二次根式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "二次根式的混合运算",
+     "predicate": "INCLUDES",
+     "object": "二次根式的加减法",
+     "evidence": "二次根式的混合运算往往涉及代数式的各种运算",
+     "confidence": 0.85
+    },
+    {
+     "subject": "有理化因式",
+     "predicate": "APPLIES_TO",
+     "object": "分母有理化",
+     "evidence": "在进行二次根式计算时，利用有理化因式，可以将分母有理化",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平方差公式",
+     "predicate": "APPLIES_TO",
+     "object": "分母有理化",
+     "evidence": "利用有理化因式，可以将分母有理化",
+     "confidence": 0.8
+    },
+    {
+     "subject": "完全平方公式",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式的混合运算",
+     "evidence": "二次根式的混合运算往往涉及代数式的各种运算",
+     "confidence": 0.8
+    },
+    {
+     "subject": "分配律",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式的混合运算",
+     "evidence": "二次根式的混合运算往往涉及代数式的各种运算",
+     "confidence": 0.8
+    },
+    {
+     "subject": "圆的面积公式",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式的加减法",
+     "evidence": "由圆的面积公式，得R=√(18/π)，r=√(8/π)",
+     "confidence": 0.85
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "二次根式的混合运算",
+     "evidence": "设直角三角形的两条直角边分别是a，b，斜边是c",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3038,
+   "entities": [
+    {
+     "name": "二次根式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如√a（a≥0）的式子"
+    },
+    {
+     "name": "最简二次根式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "被开方数不含分母且不含能开得尽方的因数或因式的二次根式"
+    },
+    {
+     "name": "同类二次根式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "化简后被开方数相同的二次根式"
+    },
+    {
+     "name": "二次根式的加减",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "先将各个二次根式化简，再合并同类二次根式"
+    },
+    {
+     "name": "三斜求积术",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "已知三角形三边求面积的公式，秦九韶提出"
+    },
+    {
+     "name": "海伦公式",
+     "type": "Formula",
+     "aliases": [
+      "海伦-秦九韶公式"
+     ],
+     "nickname": "",
+     "description": "已知三角形三边求面积的公式，S=√[p(p-a)(p-b)(p-c)]"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的平行四边形"
+    },
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "二次根式",
+     "predicate": "PREREQUISITE",
+     "object": "二次根式的加减",
+     "evidence": "二次根式相加减，先将各个二次根式化简，再合并同类二次根式。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "最简二次根式",
+     "predicate": "PREREQUISITE",
+     "object": "二次根式的加减",
+     "evidence": "二次根式相加减，先将各个二次根式化简，再合并同类二次根式。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同类二次根式",
+     "predicate": "PREREQUISITE",
+     "object": "二次根式的加减",
+     "evidence": "二次根式相加减，先将各个二次根式化简，再合并同类二次根式。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二次根式的加减",
+     "predicate": "INCLUDES",
+     "object": "同类二次根式",
+     "evidence": "二次根式相加减，先将各个二次根式化简，再合并同类二次根式。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "三斜求积术",
+     "predicate": "DERIVES",
+     "object": "海伦公式",
+     "evidence": "实际上，由公式①可以方便地推导出公式②",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三斜求积术",
+     "predicate": "APPLIES_TO",
+     "object": "三角形",
+     "evidence": "提出了解决“已知三角形的三条边，求三角形面积”这个问题的办法，即著名的“三斜求积术”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "海伦公式",
+     "predicate": "APPLIES_TO",
+     "object": "三角形",
+     "evidence": "古希腊数学家海伦也给出了根据三角形三边求面积的公式，即“海伦公式”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "海伦公式",
+     "predicate": "RELATED",
+     "object": "三斜求积术",
+     "evidence": "因此“海伦公式”又被称为“海伦-秦九韶公式”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "APPLIES_TO",
+     "object": "三角形",
+     "evidence": "在△ABC中，∠C=90°，AC=√10，AB=√34. 求BC.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:14.844Z"
+}

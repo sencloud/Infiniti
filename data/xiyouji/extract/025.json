@@ -1,0 +1,564 @@
+{
+ "no": 25,
+ "title": "镇元仙赶捉取经僧 孙行者大闹五庄观",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5796,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐高僧，取经团队师父"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "大圣",
+      "孙行者"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "悟能",
+      "天蓬元帅",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，贪吃懒做"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，忠厚老实"
+    },
+    {
+     "name": "镇元子",
+     "type": "Person",
+     "aliases": [
+      "镇元大仙",
+      "地仙之祖",
+      "与世同君"
+     ],
+     "nickname": "镇元大仙",
+     "description": "五庄观观主，地仙之祖"
+    },
+    {
+     "name": "清风",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五庄观道童"
+    },
+    {
+     "name": "明月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五庄观道童"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音菩萨",
+     "description": "佛教菩萨，赐予唐僧紧箍咒"
+    },
+    {
+     "name": "增长天王",
+     "type": "Person",
+     "aliases": [
+      "持国天王",
+      "广目天王",
+      "多闻天王"
+     ],
+     "nickname": "",
+     "description": "四大天王之一"
+    },
+    {
+     "name": "五庄观",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇元子修行的道观"
+    },
+    {
+     "name": "取经团队",
+     "type": "Organization",
+     "aliases": [
+      "师徒四众"
+     ],
+     "nickname": "",
+     "description": "唐僧师徒四人及白龙马"
+    },
+    {
+     "name": "人参果树",
+     "type": "Item",
+     "aliases": [
+      "草还丹",
+      "仙根"
+     ],
+     "nickname": "",
+     "description": "五庄观中的仙树，结人参果"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "铁棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "紧箍儿咒",
+     "type": "Item",
+     "aliases": [
+      "紧箍儿经",
+      "旧话儿经"
+     ],
+     "nickname": "",
+     "description": "观音菩萨赐予唐僧的咒语，能令孙悟空头疼"
+    },
+    {
+     "name": "瞌睡虫",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空在東天门赢得的法宝，能使人沉睡"
+    },
+    {
+     "name": "推倒人参果树",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空推倒五庄观人参果树的事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父哄我戴了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "徒弟息怒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "徒弟，不是问饭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "徒弟息怒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "我们是出家人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "我兄弟各人吃了一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "陪绑的在这里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "取经团队",
+     "evidence": "我们是出家人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "清风",
+     "predicate": "MEMBER_OF",
+     "object": "五庄观",
+     "evidence": "清风、明月，却也中用",
+     "confidence": 0.9
+    },
+    {
+     "subject": "明月",
+     "predicate": "MEMBER_OF",
+     "object": "五庄观",
+     "evidence": "清风、明月，却也中用",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "LEADS",
+     "object": "五庄观",
+     "evidence": "万寿山五庄观，便是贫道栖止处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "把条金箍棒揝了又揝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "瞌睡虫",
+     "evidence": "腰里有带的瞌睡虫儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "OWNS",
+     "object": "紧箍儿咒",
+     "evidence": "是观音菩萨赐与我师父的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "紧箍儿咒",
+     "evidence": "是观音菩萨赐与我师父的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "推倒人参果树",
+     "evidence": "把树一推推倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "推倒人参果树",
+     "predicate": "OCCURRED_AT",
+     "object": "五庄观",
+     "evidence": "径到人参园里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "人参果树",
+     "evidence": "掣金箍棒往树上乒乓一下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "取经团队",
+     "evidence": "把四僧连马一袖子笼住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "望大仙劈头就打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "镇元子",
+     "evidence": "望大仙劈头就打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "FRAMED",
+     "object": "唐僧",
+     "evidence": "变作个行脚全真",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "他却解了三藏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "放下八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "放下八戒、沙僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "唐僧",
+     "evidence": "一根变作长老",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "猪八戒",
+     "evidence": "那两根变作沙僧、八戒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "沙悟净",
+     "evidence": "那两根变作沙僧、八戒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "TRANSFORMED",
+     "object": "行脚全真",
+     "evidence": "变作个行脚全真",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1848,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "取经僧，曾大闹天宫，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "取经僧，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "取经僧，原卷帘大将"
+    },
+    {
+     "name": "镇元子",
+     "type": "Person",
+     "aliases": [
+      "镇元大仙",
+      "地仙之祖",
+      "与世同君"
+     ],
+     "nickname": "大仙",
+     "description": "五庄观观主，地仙之祖"
+    },
+    {
+     "name": "五庄观",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇元子修行的道观"
+    },
+    {
+     "name": "取经僧",
+     "type": "Organization",
+     "aliases": [
+      "师徒四众"
+     ],
+     "nickname": "",
+     "description": "唐僧师徒四人组成的取经团队"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "柳树",
+     "evidence": "我将四颗柳树变作我师徒四众",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "石狮子",
+     "evidence": "把石狮子喷了一口，叫声“变！”变作他本身模样",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "镇元子",
+     "evidence": "沙僧掣宝杖，八戒举钉钯，大圣使铁棒，一齐上前，把大仙围住在空中，乱打乱筑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "镇元子",
+     "evidence": "沙僧掣宝杖，八戒举钉钯，大圣使铁棒，一齐上前，把大仙围住在空中，乱打乱筑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "镇元子",
+     "evidence": "沙僧掣宝杖，八戒举钉钯，大圣使铁棒，一齐上前，把大仙围住在空中，乱打乱筑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "他将袍袖一展，依然将四僧一马并行李，一袖笼去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "他将袍袖一展，依然将四僧一马并行李，一袖笼去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "他将袍袖一展，依然将四僧一马并行李，一袖笼去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "沙悟净",
+     "evidence": "他将袍袖一展，依然将四僧一马并行李，一袖笼去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "我还去救他一救",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "取经僧",
+     "evidence": "师徒四众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "取经僧",
+     "evidence": "师徒四众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "取经僧",
+     "evidence": "师徒四众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "取经僧",
+     "evidence": "师徒四众",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "LEADS",
+     "object": "五庄观",
+     "evidence": "众仙接着，仙师坐于殿上",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:22.190Z"
+}

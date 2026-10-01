@@ -1,0 +1,156 @@
+{
+ "no": 322,
+ "title": "丑狐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 946,
+   "entities": [
+    {
+     "name": "穆生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长沙人，家清贫，贪财负心"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [
+      "狐仙",
+      "女"
+     ],
+     "nickname": "",
+     "description": "丑狐，先与穆生相好，后嫁于氏"
+    },
+    {
+     "name": "穆生妻",
+     "type": "Person",
+     "aliases": [
+      "妻",
+      "君家娘子"
+     ],
+     "nickname": "",
+     "description": "穆生之妻，助缝纫"
+    },
+    {
+     "name": "术士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "穆生所聘，画符被割耳"
+    },
+    {
+     "name": "于氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "近村农民，后娶狐女"
+    },
+    {
+     "name": "于子",
+     "type": "Person",
+     "aliases": [
+      "儿辈"
+     ],
+     "nickname": "",
+     "description": "于氏之子，求狐女勿取金帛"
+    },
+    {
+     "name": "长沙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "穆生籍贯"
+    },
+    {
+     "name": "近村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "于氏所居之村"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "穆生",
+     "predicate": "NATIVE_OF",
+     "object": "长沙",
+     "evidence": "穆生，长沙人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "穆生",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "生悦而从之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆生",
+     "predicate": "SPOUSE",
+     "object": "穆生妻",
+     "evidence": "生告妻，妻亦喜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "穆生",
+     "evidence": "女以元宝置几上，曰：若相谐好，以此相赠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "穆生",
+     "predicate": "HARMED",
+     "object": "狐女",
+     "evidence": "聘术士至，画符于门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HARMED",
+     "object": "穆生",
+     "evidence": "物嚼指，爽脆有声。生痛极",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HARMED",
+     "object": "术士",
+     "evidence": "术士作坛，陈设未已，忽颠地下，血流满颊，视之，割去一耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "SPOUSE",
+     "object": "于氏",
+     "evidence": "狐适近村于氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "于氏",
+     "predicate": "LIVES_AT",
+     "object": "近村",
+     "evidence": "狐适近村于氏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "于子",
+     "predicate": "KIN",
+     "object": "于氏",
+     "evidence": "父即去世，儿辈皆若子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "HELPED",
+     "object": "穆生",
+     "evidence": "但以素巾裹五六金，遥掷生",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:14.142Z"
+}

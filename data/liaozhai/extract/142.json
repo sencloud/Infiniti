@@ -1,0 +1,124 @@
+{
+ "no": 142,
+ "title": "酆都御史",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 514,
+   "entities": [
+    {
+     "name": "华公",
+     "type": "Person",
+     "aliases": [
+      "御史行台华公"
+     ],
+     "nickname": "",
+     "description": "明朝御史行台，巡视酆都入冥府"
+    },
+    {
+     "name": "尊官",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府尊官，坐殿审断"
+    },
+    {
+     "name": "金甲神人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "捧黄帛诏书至冥府的神人"
+    },
+    {
+     "name": "神将",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "赤面长髯、光射数尺的神将"
+    },
+    {
+     "name": "酆都县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，外有洞"
+    },
+    {
+     "name": "洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "酆都县外深不可测之洞，相传为阎罗天子署"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [
+      "地府"
+     ],
+     "nickname": "",
+     "description": "阴间官府，洞中广殿"
+    },
+    {
+     "name": "金刚经",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛经，华公诵之得光"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "华公",
+     "predicate": "LIVES_AT",
+     "object": "酆都县",
+     "evidence": "明有御史行台华公，按及酆都",
+     "confidence": 0.9
+    },
+    {
+     "subject": "华公",
+     "predicate": "PARTICIPATED_IN",
+     "object": "入洞",
+     "evidence": "欲入洞以决其惑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "入洞",
+     "predicate": "OCCURRED_AT",
+     "object": "洞",
+     "evidence": "欲入洞以决其惑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尊官",
+     "predicate": "PUNISHED",
+     "object": "华公",
+     "evidence": "尊官指虚坐曰：此为君坐，那可复还！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金甲神人",
+     "predicate": "HELPED",
+     "object": "华公",
+     "evidence": "乃贺公曰：君有回阳之机矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "神将",
+     "predicate": "HELPED",
+     "object": "华公",
+     "evidence": "神人曰：诵佛经可出。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "华公",
+     "predicate": "OWNS",
+     "object": "金刚经",
+     "evidence": "惟《金刚经》颇曾习之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:07.271Z"
+}

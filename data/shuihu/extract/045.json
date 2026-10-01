@@ -1,0 +1,517 @@
+{
+ "no": 45,
+ "title": "第四十五回 杨雄醉骂潘巧云 石秀智杀裴如海",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5915,
+   "entities": [
+    {
+     "name": "石秀",
+     "type": "Person",
+     "aliases": [
+      "拚命三郎",
+      "石三郎"
+     ],
+     "nickname": "拚命三郎",
+     "description": "金陵人氏，杨雄义弟，好管闲事"
+    },
+    {
+     "name": "杨雄",
+     "type": "Person",
+     "aliases": [
+      "病关索",
+      "杨节级"
+     ],
+     "nickname": "病关索",
+     "description": "蓟州两院押狱，潘巧云之夫"
+    },
+    {
+     "name": "潘巧云",
+     "type": "Person",
+     "aliases": [
+      "潘氏"
+     ],
+     "nickname": "",
+     "description": "杨雄之妻，与裴如海私通"
+    },
+    {
+     "name": "潘公",
+     "type": "Person",
+     "aliases": [
+      "丈丈"
+     ],
+     "nickname": "",
+     "description": "潘巧云之父，开肉铺"
+    },
+    {
+     "name": "裴如海",
+     "type": "Person",
+     "aliases": [
+      "海阇黎",
+      "海公"
+     ],
+     "nickname": "",
+     "description": "报恩寺僧人，与潘巧云私通"
+    },
+    {
+     "name": "王押司",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘巧云前夫，已故"
+    },
+    {
+     "name": "迎儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘家丫鬟"
+    },
+    {
+     "name": "报恩寺",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "蓟州佛寺，裴如海出家处"
+    },
+    {
+     "name": "潘家",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘公所开肉铺兼居所"
+    },
+    {
+     "name": "蓟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨雄、石秀所在州府"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "石秀籍贯"
+    },
+    {
+     "name": "报恩寺水陆堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "报恩寺内做法事场所"
+    },
+    {
+     "name": "裴如海卧房",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "报恩寺内裴如海居室"
+    },
+    {
+     "name": "血盆愿心",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘巧云为亡母还愿之事"
+    },
+    {
+     "name": "报恩寺道场",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "为王押司追荐亡魂的法事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "石秀",
+     "predicate": "SWORN_BROTHER",
+     "object": "杨雄",
+     "evidence": "这个叔叔便是拙夫新认义的兄弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "SPOUSE",
+     "object": "潘巧云",
+     "evidence": "那妇人便笑道：是师兄海阇黎裴如海……家下拙夫却不恁的计较",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘公",
+     "predicate": "KIN",
+     "object": "潘巧云",
+     "evidence": "我这小女先嫁得本府一个王押司",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘巧云",
+     "predicate": "SPOUSE",
+     "object": "王押司",
+     "evidence": "我这小女先嫁得本府一个王押司，不幸没了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "KIN",
+     "object": "潘公",
+     "evidence": "因他师父是家里门徒，结拜我父做干爷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "MEMBER_OF",
+     "object": "报恩寺",
+     "evidence": "出家在报恩寺中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "NATIVE_OF",
+     "object": "金陵",
+     "evidence": "我姓石名秀，金陵人氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "STATIONED_AT",
+     "object": "潘家",
+     "evidence": "叔叔两夜不曾回家，今日回来，见收拾过了家火什物",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "STATIONED_AT",
+     "object": "蓟州",
+     "evidence": "杨雄到申牌时分，回家走一遭，分付石秀道：贤弟，我今夜却限当牢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘公",
+     "predicate": "PARTICIPATED_IN",
+     "object": "报恩寺道场",
+     "evidence": "今日请下报恩寺僧人来做功德，就要央叔叔管待则个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "PARTICIPATED_IN",
+     "object": "报恩寺道场",
+     "evidence": "石秀自在门前照管",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "PARTICIPATED_IN",
+     "object": "报恩寺道场",
+     "evidence": "海阇黎引领众僧却来赴道场",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘巧云",
+     "predicate": "PARTICIPATED_IN",
+     "object": "报恩寺道场",
+     "evidence": "只见那妇人乔素梳妆，来到法坛上，执着手炉，拈香礼佛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "报恩寺道场",
+     "predicate": "OCCURRED_AT",
+     "object": "潘家",
+     "evidence": "今日请下报恩寺僧人来做功德",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘巧云",
+     "predicate": "PARTICIPATED_IN",
+     "object": "血盆愿心",
+     "evidence": "我要替娘还了血盆忏旧愿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘公",
+     "predicate": "PARTICIPATED_IN",
+     "object": "血盆愿心",
+     "evidence": "潘公和迎儿跟着轿子，一径望报恩寺里来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "PARTICIPATED_IN",
+     "object": "血盆愿心",
+     "evidence": "小僧夜来所说血盆忏愿心这一事，特禀知贤妹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "血盆愿心",
+     "predicate": "OCCURRED_AT",
+     "object": "报恩寺水陆堂",
+     "evidence": "把这妇人和老子一引到水陆堂上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "STATIONED_AT",
+     "object": "裴如海卧房",
+     "evidence": "这和尚把那妇人一引，引到一处楼上，却是海阇黎的卧房",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5249,
+   "entities": [
+    {
+     "name": "杨雄",
+     "type": "Person",
+     "aliases": [
+      "杨节级"
+     ],
+     "nickname": "病关索",
+     "description": "蓟州两院押狱兼刽子手，石秀结义兄长"
+    },
+    {
+     "name": "石秀",
+     "type": "Person",
+     "aliases": [
+      "石三郎"
+     ],
+     "nickname": "拚命三郎",
+     "description": "杨雄结义兄弟，卖柴出身，精明乖觉"
+    },
+    {
+     "name": "潘巧云",
+     "type": "Person",
+     "aliases": [
+      "潘姬"
+     ],
+     "nickname": "",
+     "description": "杨雄之妻，与裴如海私通"
+    },
+    {
+     "name": "裴如海",
+     "type": "Person",
+     "aliases": [
+      "海阇黎",
+      "海和尚"
+     ],
+     "nickname": "",
+     "description": "报恩寺僧人，与潘巧云私通"
+    },
+    {
+     "name": "迎儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘巧云侍女，助其私通"
+    },
+    {
+     "name": "胡道",
+     "type": "Person",
+     "aliases": [
+      "胡头陀",
+      "胡道人"
+     ],
+     "nickname": "",
+     "description": "报晓头陀，受裴如海指使策望"
+    },
+    {
+     "name": "潘公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘巧云之父，开肉铺"
+    },
+    {
+     "name": "王公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "城中卖糕粥的老者"
+    },
+    {
+     "name": "王押司",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "潘巧云前夫，已故"
+    },
+    {
+     "name": "蓟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨雄、石秀所在州府"
+    },
+    {
+     "name": "报恩寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "裴如海所在寺院"
+    },
+    {
+     "name": "州桥",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蓟州城中桥，旁有酒楼"
+    },
+    {
+     "name": "杨雄家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨雄宅院，后门临死巷"
+    },
+    {
+     "name": "智杀裴如海",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "石秀杀头陀并裴如海之事"
+    },
+    {
+     "name": "解腕尖刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "石秀防身尖刀"
+    },
+    {
+     "name": "木鱼",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "头陀报晓所用木鱼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨雄",
+     "predicate": "SWORN_BROTHER",
+     "object": "石秀",
+     "evidence": "杨雄与我结交",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "SPOUSE",
+     "object": "潘巧云",
+     "evidence": "今日嫁得你十分豪杰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘巧云",
+     "predicate": "SPOUSE",
+     "object": "王押司",
+     "evidence": "我爷娘当初把我嫁王押司",
+     "confidence": 0.9
+    },
+    {
+     "subject": "潘公",
+     "predicate": "KIN",
+     "object": "潘巧云",
+     "evidence": "潘公的女儿要和我来往",
+     "confidence": 0.95
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "SPOUSE",
+     "object": "潘巧云",
+     "evidence": "海阇黎和潘公女儿有染",
+     "confidence": 0.9
+    },
+    {
+     "subject": "迎儿",
+     "predicate": "SERVED",
+     "object": "潘巧云",
+     "evidence": "那妇人专得迎儿做脚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡道",
+     "predicate": "SERVED",
+     "object": "裴如海",
+     "evidence": "小道便是海阇黎心腹之人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "MASTER_OF",
+     "object": "胡道",
+     "evidence": "日常又承师父的恩惠",
+     "confidence": 0.8
+    },
+    {
+     "subject": "石秀",
+     "predicate": "KILLED",
+     "object": "胡道",
+     "evidence": "被石秀将刀就项上一勒，杀倒在地",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "KILLED",
+     "object": "裴如海",
+     "evidence": "三四刀搠死了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "潘巧云",
+     "predicate": "FRAMED",
+     "object": "石秀",
+     "evidence": "这妇人反坐石秀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石秀",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智杀裴如海",
+     "evidence": "石秀智杀裴如海",
+     "confidence": 0.95
+    },
+    {
+     "subject": "智杀裴如海",
+     "predicate": "OCCURRED_AT",
+     "object": "杨雄家",
+     "evidence": "径踅到杨雄后门头巷内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石秀",
+     "predicate": "OWNS",
+     "object": "解腕尖刀",
+     "evidence": "跨了解腕尖刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡道",
+     "predicate": "OWNS",
+     "object": "木鱼",
+     "evidence": "头陀挟着木鱼",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨雄",
+     "predicate": "STATIONED_AT",
+     "object": "蓟州",
+     "evidence": "杨雄此日正该当牢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "裴如海",
+     "predicate": "STATIONED_AT",
+     "object": "报恩寺",
+     "evidence": "海阇黎只送那妇人到山门外",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:51.238Z"
+}

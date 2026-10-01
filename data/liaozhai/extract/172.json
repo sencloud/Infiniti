@@ -1,0 +1,78 @@
+{
+ "no": 172,
+ "title": "小人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 128,
+   "entities": [
+    {
+     "name": "术人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "康熙年间变戏法的人，迷拐童子"
+    },
+    {
+     "name": "小人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被术人迷拐缩小的读书童子"
+    },
+    {
+     "name": "掖宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "掖县县令，审问小人并杀术人"
+    },
+    {
+     "name": "掖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "掖县，故事发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "术人",
+     "predicate": "HARMED",
+     "object": "小人",
+     "evidence": "为术人所迷，复投以药，四体暴缩",
+     "confidence": 0.95
+    },
+    {
+     "subject": "掖宰",
+     "predicate": "KILLED",
+     "object": "术人",
+     "evidence": "宰怒，杀术人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "掖宰",
+     "predicate": "HELPED",
+     "object": "小人",
+     "evidence": "留童子，欲医之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "掖宰",
+     "predicate": "PUNISHED",
+     "object": "小人",
+     "evidence": "细审小人出处",
+     "confidence": 0.8
+    },
+    {
+     "subject": "掖宰",
+     "predicate": "LIVES_AT",
+     "object": "掖",
+     "evidence": "至掖，掖宰索榼入署",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:17.352Z"
+}

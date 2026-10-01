@@ -1,0 +1,43 @@
+{
+ "no": 255,
+ "title": "戏缢",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 155,
+   "entities": [
+    {
+     "name": "邑人某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《戏缢》中轻薄无赖的同乡人"
+    },
+    {
+     "name": "少妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《戏缢》中骑马经过的妇人"
+    },
+    {
+     "name": "同游者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《戏缢》中与邑人某同游的伙伴"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "邑人某",
+     "predicate": "HARMED",
+     "object": "少妇",
+     "evidence": "某遽奔去，出马前，连声哗曰：“我要死！”",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:47.722Z"
+}

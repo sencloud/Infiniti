@@ -1,0 +1,50 @@
+{
+ "no": 134,
+ "title": "产龙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 112,
+   "entities": [
+    {
+     "name": "李氏妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《产龙》中邢村李家的媳妇，丈夫死后怀有遗腹子"
+    },
+    {
+     "name": "王媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《产龙》中会作法的老太太，为李氏妇催生"
+    },
+    {
+     "name": "邢村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《产龙》中李氏妇所居的村庄"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李氏妇",
+     "predicate": "LIVES_AT",
+     "object": "邢村",
+     "evidence": "邑邢村李氏妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王媪",
+     "predicate": "HELPED",
+     "object": "李氏妇",
+     "evidence": "有王媪者，焚香禹步，且捺且咒。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:01.648Z"
+}

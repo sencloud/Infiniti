@@ -1,0 +1,285 @@
+{
+ "no": 45,
+ "title": "12.1 定义",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1246,
+   "entities": [
+    {
+     "name": "定义",
+     "type": "Concept",
+     "aliases": [
+      "definition"
+     ],
+     "nickname": "",
+     "description": "对一个概念作出明确规定的语句"
+    },
+    {
+     "name": "命题",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "需要证明的数学陈述"
+    },
+    {
+     "name": "推理",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数学学习与研究的基本活动"
+    },
+    {
+     "name": "证明",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "规范地表达推理过程"
+    },
+    {
+     "name": "整数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "正整数、负整数、零统称为整数"
+    },
+    {
+     "name": "方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有未知数的等式叫作方程"
+    },
+    {
+     "name": "平行线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在同一平面内，不相交的两条直线"
+    },
+    {
+     "name": "对顶角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条相交直线所成的四个角中，有公共顶点没有公共边的两个角"
+    },
+    {
+     "name": "单项式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示数或字母的积的代数式"
+    },
+    {
+     "name": "整式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "单项式和多项式的统称"
+    },
+    {
+     "name": "代数式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用运算符号把数和表示数的字母连接起来的式子"
+    },
+    {
+     "name": "三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由不在同一直线上的三条线段首尾顺次相接所组成的图形"
+    },
+    {
+     "name": "等腰三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "有两条边相等的三角形"
+    },
+    {
+     "name": "等边三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "三条边都相等的三角形"
+    },
+    {
+     "name": "绝对值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数轴上表示一个数的点到原点的距离"
+    },
+    {
+     "name": "余角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "如果两个角的和是90°，那么这两个角互为余角"
+    },
+    {
+     "name": "补角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "如果两个角的和是180°，那么这两个角互为补角"
+    },
+    {
+     "name": "有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整数和分数的统称"
+    },
+    {
+     "name": "正有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "大于0的有理数"
+    },
+    {
+     "name": "负有理数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "小于0的有理数"
+    },
+    {
+     "name": "零",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "既不是正数也不是负数的有理数"
+    },
+    {
+     "name": "相反数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只有符号不同的两个数互为相反数"
+    },
+    {
+     "name": "完全数",
+     "type": "Concept",
+     "aliases": [
+      "完美数"
+     ],
+     "nickname": "",
+     "description": "一个数等于它的所有真因数之和"
+    },
+    {
+     "name": "四色定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "任何地图只需四种颜色即可区分相邻区域"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "定义",
+     "predicate": "PREREQUISITE",
+     "object": "命题",
+     "evidence": "概念需要定义，命题需要证明。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "定义",
+     "predicate": "PREREQUISITE",
+     "object": "证明",
+     "evidence": "概念需要定义，命题需要证明。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "推理",
+     "predicate": "PREREQUISITE",
+     "object": "证明",
+     "evidence": "推理是数学学习与研究的基本活动。我们要逐步掌握逻辑推理的基本方法，学会规范地表达证明过程。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整数",
+     "predicate": "INCLUDES",
+     "object": "正整数",
+     "evidence": "正整数、负整数、零统称为整数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "整数",
+     "predicate": "INCLUDES",
+     "object": "负整数",
+     "evidence": "正整数、负整数、零统称为整数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "整数",
+     "predicate": "INCLUDES",
+     "object": "零",
+     "evidence": "正整数、负整数、零统称为整数",
+     "confidence": 0.95
+    },
+    {
+     "subject": "整式",
+     "predicate": "INCLUDES",
+     "object": "单项式",
+     "evidence": "单项式都属于整式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "代数式",
+     "predicate": "INCLUDES",
+     "object": "整式",
+     "evidence": "整式都属于代数式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "三角形",
+     "predicate": "INCLUDES",
+     "object": "等腰三角形",
+     "evidence": "三角形、等腰三角形、等边三角形之间有什么关系？画出表示它们之间关系的示意图。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等腰三角形",
+     "predicate": "INCLUDES",
+     "object": "等边三角形",
+     "evidence": "三角形、等腰三角形、等边三角形之间有什么关系？画出表示它们之间关系的示意图。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "正有理数",
+     "evidence": "画示意图表示下列概念之间的关系：有理数、正有理数、负有理数、零。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "负有理数",
+     "evidence": "画示意图表示下列概念之间的关系：有理数、正有理数、负有理数、零。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有理数",
+     "predicate": "INCLUDES",
+     "object": "零",
+     "evidence": "画示意图表示下列概念之间的关系：有理数、正有理数、负有理数、零。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "四色定理",
+     "predicate": "RELATED",
+     "object": "地图着色",
+     "evidence": "不管什么样的地图，只需要四种颜色就可以区分相邻区域。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:51.041Z"
+}

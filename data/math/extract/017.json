@@ -1,0 +1,302 @@
+{
+ "no": 17,
+ "title": "5.1 观察 抽象",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1162,
+   "entities": [
+    {
+     "name": "点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "构成几何体的基本要素之一"
+    },
+    {
+     "name": "线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "构成几何体的基本要素之一"
+    },
+    {
+     "name": "面",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "构成几何体的基本要素之一"
+    },
+    {
+     "name": "几何体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由点、线、面构成的立体图形"
+    },
+    {
+     "name": "平面图形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "源自现实世界抽象的二维图形"
+    },
+    {
+     "name": "多面体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由若干个面围成的封闭图形"
+    },
+    {
+     "name": "棱",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "多面体中相邻两个面的公共边"
+    },
+    {
+     "name": "顶点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "多面体中棱与棱的交点"
+    },
+    {
+     "name": "圆柱",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一种常见的几何体"
+    },
+    {
+     "name": "圆锥",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一种常见的几何体"
+    },
+    {
+     "name": "正方体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一种常见的几何体"
+    },
+    {
+     "name": "长方体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一种常见的几何体"
+    },
+    {
+     "name": "球",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一种常见的几何体"
+    },
+    {
+     "name": "四棱锥",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "底面为四边形的棱锥"
+    },
+    {
+     "name": "四棱柱",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "底面为四边形的棱柱"
+    },
+    {
+     "name": "三棱锥",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "底面为三角形的棱锥"
+    },
+    {
+     "name": "三棱柱",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "底面为三角形的棱柱"
+    },
+    {
+     "name": "棱柱",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "上下底面平行且全等的多面体"
+    },
+    {
+     "name": "棱锥",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一个面是多边形，其余各面是有一个公共顶点的三角形的多面体"
+    },
+    {
+     "name": "轴对称",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "一种图形变换方法"
+    },
+    {
+     "name": "旋转",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "一种图形变换方法"
+    },
+    {
+     "name": "空间观念",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "几何学习培养的核心素养之一"
+    },
+    {
+     "name": "几何直观",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "几何学习培养的核心素养之一"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "点",
+     "predicate": "INCLUDES",
+     "object": "几何体",
+     "evidence": "点、线、面是图形的基本要素",
+     "confidence": 0.9
+    },
+    {
+     "subject": "线",
+     "predicate": "INCLUDES",
+     "object": "几何体",
+     "evidence": "点、线、面是图形的基本要素",
+     "confidence": 0.9
+    },
+    {
+     "subject": "面",
+     "predicate": "INCLUDES",
+     "object": "几何体",
+     "evidence": "点、线、面是图形的基本要素",
+     "confidence": 0.9
+    },
+    {
+     "subject": "几何体",
+     "predicate": "INCLUDES",
+     "object": "多面体",
+     "evidence": "可以抽象出四棱锥、四棱柱等不同的多面体",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多面体",
+     "predicate": "INCLUDES",
+     "object": "棱",
+     "evidence": "相邻两个面的公共边称为棱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多面体",
+     "predicate": "INCLUDES",
+     "object": "顶点",
+     "evidence": "棱与棱的交点称为顶点",
+     "confidence": 0.9
+    },
+    {
+     "subject": "棱柱",
+     "predicate": "INCLUDES",
+     "object": "三棱柱",
+     "evidence": "三棱柱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "棱柱",
+     "predicate": "INCLUDES",
+     "object": "四棱柱",
+     "evidence": "四棱柱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "棱锥",
+     "predicate": "INCLUDES",
+     "object": "三棱锥",
+     "evidence": "三棱锥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "棱锥",
+     "predicate": "INCLUDES",
+     "object": "四棱锥",
+     "evidence": "四棱锥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "几何体",
+     "predicate": "INCLUDES",
+     "object": "圆柱",
+     "evidence": "圆柱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "几何体",
+     "predicate": "INCLUDES",
+     "object": "圆锥",
+     "evidence": "圆锥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "几何体",
+     "predicate": "INCLUDES",
+     "object": "正方体",
+     "evidence": "正方体",
+     "confidence": 0.9
+    },
+    {
+     "subject": "几何体",
+     "predicate": "INCLUDES",
+     "object": "长方体",
+     "evidence": "长方体",
+     "confidence": 0.9
+    },
+    {
+     "subject": "几何体",
+     "predicate": "INCLUDES",
+     "object": "球",
+     "evidence": "球",
+     "confidence": 0.9
+    },
+    {
+     "subject": "轴对称",
+     "predicate": "APPLIES_TO",
+     "object": "几何体",
+     "evidence": "剪纸艺术中利用了轴对称、旋转等方法",
+     "confidence": 0.8
+    },
+    {
+     "subject": "旋转",
+     "predicate": "APPLIES_TO",
+     "object": "几何体",
+     "evidence": "剪纸艺术中利用了轴对称、旋转等方法",
+     "confidence": 0.8
+    },
+    {
+     "subject": "几何体",
+     "predicate": "RELATED",
+     "object": "平面图形",
+     "evidence": "小学里，我们已经认识了一些几何体与平面图形",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:37.956Z"
+}

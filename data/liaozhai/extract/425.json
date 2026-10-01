@@ -1,0 +1,99 @@
+{
+ "no": 425,
+ "title": "拆楼人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 188,
+   "entities": [
+    {
+     "name": "何冏卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "平阴人，初令秦中，后仕至铨司"
+    },
+    {
+     "name": "卖油者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦中卖油郎，因薄罪被何杖杀"
+    },
+    {
+     "name": "何妾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "何冏卿之妾，生拆楼人"
+    },
+    {
+     "name": "何子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "何冏卿之子，顽劣荡家"
+    },
+    {
+     "name": "平阴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "何冏卿籍贯地"
+    },
+    {
+     "name": "秦中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "何冏卿初仕为令之地"
+    },
+    {
+     "name": "何家楼",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "何冏卿所建之楼"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "何冏卿",
+     "predicate": "NATIVE_OF",
+     "object": "平阴",
+     "evidence": "何冏卿，平阴人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何冏卿",
+     "predicate": "KILLED",
+     "object": "卖油者",
+     "evidence": "何怒，杖杀之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何冏卿",
+     "predicate": "LIVES_AT",
+     "object": "何家楼",
+     "evidence": "建一楼，上梁日，亲宾称觞为贺。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何子",
+     "predicate": "KIN",
+     "object": "何冏卿",
+     "evidence": "俄报妾生子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何子",
+     "predicate": "KIN",
+     "object": "何妾",
+     "evidence": "俄报妾生子。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:53.674Z"
+}

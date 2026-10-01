@@ -1,0 +1,86 @@
+{
+ "no": 30,
+ "title": "8.3 多项式乘多项式",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1415,
+   "entities": [
+    {
+     "name": "多项式乘多项式",
+     "type": "Formula",
+     "aliases": [
+      "多项式乘法法则"
+     ],
+     "nickname": "",
+     "description": "多项式与多项式相乘，先用一个多项式的每一项乘另一个多项式的每一项，再把所得的积相加。"
+    },
+    {
+     "name": "乘法分配律",
+     "type": "Formula",
+     "aliases": [
+      "分配律"
+     ],
+     "nickname": "",
+     "description": "a(b+c)=ab+ac"
+    },
+    {
+     "name": "单项式乘多项式法则",
+     "type": "Formula",
+     "aliases": [
+      "单项式乘多项式"
+     ],
+     "nickname": "",
+     "description": "单项式与多项式相乘，用单项式乘多项式的每一项，再把积相加。"
+    },
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [
+      "矩形"
+     ],
+     "nickname": "",
+     "description": "四个角都是直角的四边形"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乘法分配律",
+     "predicate": "PREREQUISITE",
+     "object": "多项式乘多项式",
+     "evidence": "在乘法分配律和单项式乘多项式法则的基础上，我们可以得到多项式乘多项式的法则",
+     "confidence": 0.95
+    },
+    {
+     "subject": "单项式乘多项式法则",
+     "predicate": "PREREQUISITE",
+     "object": "多项式乘多项式",
+     "evidence": "在乘法分配律和单项式乘多项式法则的基础上，我们可以得到多项式乘多项式的法则",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘法分配律",
+     "predicate": "DERIVES",
+     "object": "多项式乘多项式",
+     "evidence": "在乘法分配律和单项式乘多项式法则的基础上，我们可以得到多项式乘多项式的法则",
+     "confidence": 0.9
+    },
+    {
+     "subject": "单项式乘多项式法则",
+     "predicate": "DERIVES",
+     "object": "多项式乘多项式",
+     "evidence": "在乘法分配律和单项式乘多项式法则的基础上，我们可以得到多项式乘多项式的法则",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多项式乘多项式",
+     "predicate": "APPLIES_TO",
+     "object": "长方形",
+     "evidence": "如图8-4，现有一块长为a、宽为d的长方形绿地，将其长和宽分别加长b，c，请计算扩大后的长方形绿地的面积。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:42.254Z"
+}

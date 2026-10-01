@@ -1,0 +1,43 @@
+{
+ "no": 474,
+ "title": "土化兔",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 50,
+   "entities": [
+    {
+     "name": "张勇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "靖逆侯",
+     "description": "靖逆侯，镇守兰州时出猎获兔"
+    },
+    {
+     "name": "兰州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张勇镇守之地"
+    },
+    {
+     "name": "秦中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "传说土能化兔之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张勇",
+     "predicate": "LIVES_AT",
+     "object": "兰州",
+     "evidence": "靖逆侯张勇镇兰州时",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:12.276Z"
+}

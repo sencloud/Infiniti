@@ -1,0 +1,71 @@
+{
+ "no": 94,
+ "title": "金陵女子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 491,
+   "entities": [
+    {
+     "name": "赵某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂水居民，金陵女子的丈夫"
+    },
+    {
+     "name": "金陵女子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白衣女子，父卖药金陵"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，女子父卖药处"
+    },
+    {
+     "name": "沂水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，赵某居处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "赵某",
+     "predicate": "SPOUSE",
+     "object": "金陵女子",
+     "evidence": "赵忻然自荐，女从之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵某",
+     "predicate": "LIVES_AT",
+     "object": "沂水",
+     "evidence": "沂水居民赵某",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金陵女子",
+     "predicate": "LIVES_AT",
+     "object": "金陵",
+     "evidence": "身父货药金陵。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金陵女子",
+     "predicate": "HELPED",
+     "object": "赵某",
+     "evidence": "已售之矣，直在此。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:47.167Z"
+}

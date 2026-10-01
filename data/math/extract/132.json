@@ -1,0 +1,206 @@
+{
+ "no": 132,
+ "title": "8.1 中学生的视力情况调查",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4569,
+   "entities": [
+    {
+     "name": "统计",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "收集、整理、描述和分析数据的方法"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "随机事件发生可能性大小的度量"
+    },
+    {
+     "name": "总体",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "所要考察的对象的全体"
+    },
+    {
+     "name": "样本",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "从总体中抽取的一部分个体"
+    },
+    {
+     "name": "简单随机抽样",
+     "type": "Concept",
+     "aliases": [
+      "simple random sampling"
+     ],
+     "nickname": "",
+     "description": "每个个体被抽到的可能性相同的抽样方法"
+    },
+    {
+     "name": "抽样调查",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "从总体中抽取样本进行调查的方法"
+    },
+    {
+     "name": "普查",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对总体中所有个体进行调查的方法"
+    },
+    {
+     "name": "频数分布表",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "将数据分组后统计各组频数的表格"
+    },
+    {
+     "name": "频数分布直方图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用矩形面积表示频数分布的统计图"
+    },
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的算术平均值"
+    },
+    {
+     "name": "方差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "衡量一组数据波动大小的量"
+    },
+    {
+     "name": "中位数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "将数据排序后位于中间的数"
+    },
+    {
+     "name": "样本容量",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "样本中个体的数目"
+    },
+    {
+     "name": "样本的代表性",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "样本能反映总体特征的程度"
+    },
+    {
+     "name": "视力不良率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "视力低于5.0的学生所占的比例"
+    },
+    {
+     "name": "频率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "频数与样本容量的比值"
+    },
+    {
+     "name": "折线统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用折线表示数据变化趋势的统计图"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "统计",
+     "predicate": "PREREQUISITE",
+     "object": "简单随机抽样",
+     "evidence": "运用统计、概率知识可以帮助我们做出估计、推断、决策.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "概率",
+     "predicate": "PREREQUISITE",
+     "object": "简单随机抽样",
+     "evidence": "运用统计、概率知识可以帮助我们做出估计、推断、决策.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "简单随机抽样",
+     "predicate": "INCLUDES",
+     "object": "抽样调查",
+     "evidence": "一般地，从个体总数为N的总体中抽取容量为n的样本（n<N），且每次抽取样本时，总体中的每个个体被抽到的可能性相同，这种抽样方法叫做简单随机抽样",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抽样调查",
+     "predicate": "CONTRASTS",
+     "object": "普查",
+     "evidence": "学生D的调查为普查，但工作量较大；学生E抽取的样本具有代表性，对总体的估计比较准确。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "简单随机抽样",
+     "predicate": "APPLIES_TO",
+     "object": "样本的代表性",
+     "evidence": "为了使估计、推断更加准确，抽样时要注意样本的代表性。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "频数分布表",
+     "predicate": "RELATED",
+     "object": "频数分布直方图",
+     "evidence": "从上面的视力统计表、视力频数分布表和视力频数分布直方图中，你能获得哪些信息？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平均数",
+     "predicate": "RELATED",
+     "object": "方差",
+     "evidence": "计算这50名学生身高的平均数和方差；",
+     "confidence": 0.9
+    },
+    {
+     "subject": "中位数",
+     "predicate": "RELATED",
+     "object": "频数分布直方图",
+     "evidence": "调查所得数据的中位数落在什么范围内？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "样本容量",
+     "predicate": "RELATED",
+     "object": "频率",
+     "evidence": "该研究性学习小组抽取的样本容量是多少？在所抽查的学生中，周末家庭劳动时间超过120 min的频率是多少？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "折线统计图",
+     "predicate": "RELATED",
+     "object": "统计",
+     "evidence": "小明通过互联网收集A、B、C三种品牌冰箱销售的有关数据，并列出统计表、绘制出折线统计图如下：",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:33.037Z"
+}

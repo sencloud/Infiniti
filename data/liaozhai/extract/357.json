@@ -1,0 +1,104 @@
+{
+ "no": 357,
+ "title": "王司马",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 313,
+   "entities": [
+    {
+     "name": "王霁宇",
+     "type": "Person",
+     "aliases": [
+      "王大司马",
+      "王司马",
+      "司马"
+     ],
+     "nickname": "",
+     "description": "新城人，官至大司马，镇守北边"
+    },
+    {
+     "name": "北人",
+     "type": "Person",
+     "aliases": [
+      "北兵",
+      "诸部落"
+     ],
+     "nickname": "",
+     "description": "北方部落兵民，与王司马对峙"
+    },
+    {
+     "name": "新城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王司马籍贯地"
+    },
+    {
+     "name": "北边",
+     "type": "Place",
+     "aliases": [
+      "塞上",
+      "边外"
+     ],
+     "nickname": "",
+     "description": "北部边防地区"
+    },
+    {
+     "name": "大杆刀",
+     "type": "Item",
+     "aliases": [
+      "大刀"
+     ],
+     "nickname": "",
+     "description": "王司马所铸重刀，阔盈尺重百钧"
+    },
+    {
+     "name": "桐木刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "王司马暗制的桐木假刀，贴银箔"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王霁宇",
+     "predicate": "NATIVE_OF",
+     "object": "新城",
+     "evidence": "新城王大司马霁宇镇北边时",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王霁宇",
+     "predicate": "LIVES_AT",
+     "object": "北边",
+     "evidence": "新城王大司马霁宇镇北边时",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王霁宇",
+     "predicate": "OWNS",
+     "object": "大杆刀",
+     "evidence": "常使匠人铸一大杆刀，阔盈尺，重百钧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王霁宇",
+     "predicate": "OWNS",
+     "object": "桐木刀",
+     "evidence": "司马阴以桐木依样为刀，宽狭大小无异，贴以银箔",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王霁宇",
+     "predicate": "HARMED",
+     "object": "北人",
+     "evidence": "北兵焚薄，药石尽发，死伤甚众",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:27.014Z"
+}

@@ -1,0 +1,240 @@
+{
+ "no": 31,
+ "title": "叶生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1208,
+   "entities": [
+    {
+     "name": "叶生",
+     "type": "Person",
+     "aliases": [
+      "叶生者"
+     ],
+     "nickname": "",
+     "description": "淮阳书生，文章冠绝当时，困于名场，死后魂从知己"
+    },
+    {
+     "name": "丁乘鹤",
+     "type": "Person",
+     "aliases": [
+      "丁公"
+     ],
+     "nickname": "",
+     "description": "关东人，任淮阳县令，赏识叶生，携其北归"
+    },
+    {
+     "name": "丁再昌",
+     "type": "Person",
+     "aliases": [
+      "公子"
+     ],
+     "nickname": "",
+     "description": "丁乘鹤之子，十六岁从叶生学文，后中举授官"
+    },
+    {
+     "name": "叶生妻",
+     "type": "Person",
+     "aliases": [
+      "妻"
+     ],
+     "nickname": "",
+     "description": "叶生之妻，家贫守柩，见叶生魂归而惊走"
+    },
+    {
+     "name": "叶生子",
+     "type": "Person",
+     "aliases": [
+      "阿大",
+      "子"
+     ],
+     "nickname": "",
+     "description": "叶生之子，幼年丧父，后得丁公子资助入学"
+    },
+    {
+     "name": "淮阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "叶生籍贯及故事发生地"
+    },
+    {
+     "name": "官署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "丁乘鹤任县令时的官衙，叶生曾居此读书"
+    },
+    {
+     "name": "邑庠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县学，丁再昌入邑庠为生员"
+    },
+    {
+     "name": "北闱",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "京城举行的乡试考场，叶生魂入北闱中举"
+    },
+    {
+     "name": "科试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "省级科考，叶生因丁公游扬领冠军"
+    },
+    {
+     "name": "乡试",
+     "type": "Event",
+     "aliases": [
+      "闱"
+     ],
+     "nickname": "",
+     "description": "叶生多次参加乡试均落第，后魂入北闱中举"
+    },
+    {
+     "name": "会试",
+     "type": "Event",
+     "aliases": [
+      "南宫"
+     ],
+     "nickname": "",
+     "description": "丁再昌参加会试高中，授部中主政"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "丁乘鹤",
+     "predicate": "FRIEND",
+     "object": "叶生",
+     "evidence": "召与语，大悦。使即官署，受灯火，时赐钱谷恤其家。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丁乘鹤",
+     "predicate": "HELPED",
+     "object": "叶生",
+     "evidence": "公游扬于学使，遂领冠军。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丁乘鹤",
+     "predicate": "HELPED",
+     "object": "叶生",
+     "evidence": "公闻，召之来而慰之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁乘鹤",
+     "predicate": "HELPED",
+     "object": "叶生",
+     "evidence": "公遗问不绝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁乘鹤",
+     "predicate": "HELPED",
+     "object": "叶生",
+     "evidence": "公不忍去，徐待之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叶生",
+     "predicate": "LIVES_AT",
+     "object": "官署",
+     "evidence": "使即官署，受灯火",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶生",
+     "predicate": "NATIVE_OF",
+     "object": "淮阳",
+     "evidence": "淮阳叶生者，失其名字。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科试",
+     "evidence": "值科试，公游扬于学使，遂领冠军。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乡试",
+     "evidence": "闱后，索文读之，击节称叹。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "叶生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "北闱",
+     "evidence": "逾岁，生入北闱，竟领乡荐。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丁再昌",
+     "predicate": "PARTICIPATED_IN",
+     "object": "会试",
+     "evidence": "公子又捷南宫，授部中主政。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丁再昌",
+     "predicate": "LIVES_AT",
+     "object": "邑庠",
+     "evidence": "益之公力，遂入邑庠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶生",
+     "predicate": "KIN",
+     "object": "叶生妻",
+     "evidence": "妻携簸具以出，见生，掷具骇走。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶生",
+     "predicate": "KIN",
+     "object": "叶生子",
+     "evidence": "子自塾中归，见结驷于门",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶生妻",
+     "predicate": "KIN",
+     "object": "叶生子",
+     "evidence": "母挥涕告诉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁乘鹤",
+     "predicate": "KIN",
+     "object": "丁再昌",
+     "evidence": "命子师事生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "叶生",
+     "predicate": "HELPED",
+     "object": "丁再昌",
+     "evidence": "生以生平所拟举子业，悉录授读。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丁再昌",
+     "predicate": "HELPED",
+     "object": "叶生子",
+     "evidence": "又厚遗其子，为延师教读。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:26.527Z"
+}

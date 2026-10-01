@@ -1,0 +1,77 @@
+{
+ "no": 74,
+ "title": "7.1 随机事件",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2116,
+   "entities": [
+    {
+     "name": "随机事件",
+     "type": "Concept",
+     "aliases": [
+      "random event"
+     ],
+     "nickname": "",
+     "description": "在一定条件下，事先不能确定会不会发生的事件"
+    },
+    {
+     "name": "不可能事件",
+     "type": "Concept",
+     "aliases": [
+      "impossible event"
+     ],
+     "nickname": "",
+     "description": "在一定条件下，事先能确定一定不会发生的事件"
+    },
+    {
+     "name": "必然事件",
+     "type": "Concept",
+     "aliases": [
+      "certain event"
+     ],
+     "nickname": "",
+     "description": "在一定条件下，事先能确定一定会发生的事件"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "反映随机事件发生可能性大小的度量"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "随机事件",
+     "predicate": "PREREQUISITE",
+     "object": "概率",
+     "evidence": "本章将学习反映随机事件发生可能性大小的一种度量：概率",
+     "confidence": 0.95
+    },
+    {
+     "subject": "不可能事件",
+     "predicate": "CONTRASTS",
+     "object": "必然事件",
+     "evidence": "有些事件我们事先能确定它一定不会发生，这样的事件是不可能事件……有些事件我们事先能确定它一定会发生，这样的事件是必然事件",
+     "confidence": 0.9
+    },
+    {
+     "subject": "随机事件",
+     "predicate": "CONTRASTS",
+     "object": "必然事件",
+     "evidence": "很多事件我们事先不能确定它会不会发生，这样的事件是随机事件……有些事件我们事先能确定它一定会发生，这样的事件是必然事件",
+     "confidence": 0.9
+    },
+    {
+     "subject": "随机事件",
+     "predicate": "CONTRASTS",
+     "object": "不可能事件",
+     "evidence": "很多事件我们事先不能确定它会不会发生，这样的事件是随机事件……有些事件我们事先能确定它一定不会发生，这样的事件是不可能事件",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:02.031Z"
+}

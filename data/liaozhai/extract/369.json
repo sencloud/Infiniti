@@ -1,0 +1,50 @@
+{
+ "no": 369,
+ "title": "王子安",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 885,
+   "entities": [
+    {
+     "name": "王子安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东昌名士，困于场屋，醉中被狐戏弄"
+    },
+    {
+     "name": "王妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王子安之妻，扶醉并笑其妄"
+    },
+    {
+     "name": "东昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王子安的籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王子安",
+     "predicate": "NATIVE_OF",
+     "object": "东昌",
+     "evidence": "王子安，东昌名士",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王子安",
+     "predicate": "SPOUSE",
+     "object": "王妻",
+     "evidence": "妻入，扶之曰：“何醉至此！”",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:29.274Z"
+}

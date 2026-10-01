@@ -7,3 +7,16 @@ node_modules/
 
 # 本地 Neo4j 安装目录（数据库二进制 + 数据，体积巨大）
 neo4j-community-*/
+
+# 知识图谱：本地向量模型缓存、可再生的向量文件、前端构建产物（npm run web:build 生成）
+data/models/
+data/*/embeddings.json
+public/app/
+public/kg/
+
+# 可重新下载的媒体（npm run math:fetch / shuihu:media）与运行时状态
+data/math/media/
+data/shuihu/media/
+data/*/status.json
+data/logs/
+logs/

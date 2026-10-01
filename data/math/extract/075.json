@@ -1,0 +1,80 @@
+{
+ "no": 75,
+ "title": "7.2 概率",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1595,
+   "entities": [
+    {
+     "name": "随机事件",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在一定条件下可能发生也可能不发生的事件"
+    },
+    {
+     "name": "概率",
+     "type": "Concept",
+     "aliases": [
+      "probability"
+     ],
+     "nickname": "",
+     "description": "度量随机事件发生可能性大小的数值"
+    },
+    {
+     "name": "必然事件",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在一定条件下必然发生的事件"
+    },
+    {
+     "name": "不可能事件",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "在一定条件下不可能发生的事件"
+    },
+    {
+     "name": "频率",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "频数与试验总次数的比值"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "随机事件",
+     "predicate": "PREREQUISITE",
+     "object": "概率",
+     "evidence": "我们把用于度量一个随机事件发生的可能性大小的数值，称为这个事件发生的概率",
+     "confidence": 0.95
+    },
+    {
+     "subject": "必然事件",
+     "predicate": "SPECIAL_CASE",
+     "object": "随机事件",
+     "evidence": "通常规定，必然事件A发生的概率是1",
+     "confidence": 0.9
+    },
+    {
+     "subject": "不可能事件",
+     "predicate": "SPECIAL_CASE",
+     "object": "随机事件",
+     "evidence": "不可能事件A发生的概率是0",
+     "confidence": 0.9
+    },
+    {
+     "subject": "频率",
+     "predicate": "RELATED",
+     "object": "概率",
+     "evidence": "记录朝上一面的数字，并将试验结果填入下表：试验结果 划记 频数 频率",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:02.632Z"
+}

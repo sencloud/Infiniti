@@ -1,0 +1,66 @@
+{
+ "no": 101,
+ "title": "小髻",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 247,
+   "entities": [
+    {
+     "name": "长山居民某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长山县居民，与短客交谈"
+    },
+    {
+     "name": "短客",
+     "type": "Spirit",
+     "aliases": [
+      "狐"
+     ],
+     "nickname": "",
+     "description": "矮个子客人，疑为狐"
+    },
+    {
+     "name": "古冢",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村北古墓，狐所居"
+    },
+    {
+     "name": "小髻",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡桃壳大小，纱饰金线"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "长山居民某",
+     "predicate": "FRIEND",
+     "object": "短客",
+     "evidence": "辄有短客来，久与扳谈。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "短客",
+     "predicate": "LIVES_AT",
+     "object": "古冢",
+     "evidence": "村北有古冢，陷不可测，意必居此。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "短客",
+     "predicate": "OWNS",
+     "object": "小髻",
+     "evidence": "惟遗一小髻，如胡桃壳然，纱饰而金线。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:49.309Z"
+}

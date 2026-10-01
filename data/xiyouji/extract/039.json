@@ -1,0 +1,679 @@
+{
+ "no": 39,
+ "title": "一粒金丹天上得 三年故主世间生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5865,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "大唐高僧，西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "指点唐僧西行"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "老君",
+     "description": "兜率天宫主人，炼丹"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎王",
+     "description": "阴司之主"
+    },
+    {
+     "name": "乌鸡国王",
+     "type": "Person",
+     "aliases": [
+      "皇帝",
+      "陛下",
+      "真主"
+     ],
+     "nickname": "",
+     "description": "乌鸡国国王，被害三年"
+    },
+    {
+     "name": "乌鸡国太子",
+     "type": "Person",
+     "aliases": [
+      "太子",
+      "孩儿"
+     ],
+     "nickname": "",
+     "description": "乌鸡国王之子"
+    },
+    {
+     "name": "假国王",
+     "type": "Person",
+     "aliases": [
+      "妖精",
+      "魔王",
+      "全真怪",
+      "道人"
+     ],
+     "nickname": "",
+     "description": "假冒乌鸡国王的妖精"
+    },
+    {
+     "name": "魏徵",
+     "type": "Person",
+     "aliases": [
+      "魏丞相"
+     ],
+     "nickname": "",
+     "description": "大唐丞相，梦斩泾河龙"
+    },
+    {
+     "name": "李世民",
+     "type": "Person",
+     "aliases": [
+      "唐王",
+      "大唐王"
+     ],
+     "nickname": "",
+     "description": "大唐皇帝"
+    },
+    {
+     "name": "泾河老龙",
+     "type": "Person",
+     "aliases": [
+      "老龙"
+     ],
+     "nickname": "",
+     "description": "被魏徵梦斩的龙王"
+    },
+    {
+     "name": "乌鸡国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西行路上的国度"
+    },
+    {
+     "name": "大唐",
+     "type": "Organization",
+     "aliases": [
+      "东土大唐",
+      "唐朝"
+     ],
+     "nickname": "",
+     "description": "东土大唐王朝"
+    },
+    {
+     "name": "宝林寺",
+     "type": "Place",
+     "aliases": [
+      "敕建宝林寺"
+     ],
+     "nickname": "",
+     "description": "乌鸡国寺庙"
+    },
+    {
+     "name": "兜率宫",
+     "type": "Place",
+     "aliases": [
+      "兜率院",
+      "离恨天宫"
+     ],
+     "nickname": "",
+     "description": "太上老君天宫"
+    },
+    {
+     "name": "乌鸡国皇宫",
+     "type": "Place",
+     "aliases": [
+      "金銮殿",
+      "朝门"
+     ],
+     "nickname": "",
+     "description": "乌鸡国朝廷宫殿"
+    },
+    {
+     "name": "九转还魂丹",
+     "type": "Item",
+     "aliases": [
+      "金丹",
+      "还魂丹"
+     ],
+     "nickname": "",
+     "description": "太上老君仙丹，可起死回生"
+    },
+    {
+     "name": "芭蕉扇",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "太上老君炼丹扇火用"
+    },
+    {
+     "name": "通关文牒",
+     "type": "Item",
+     "aliases": [
+      "文牒"
+     ],
+     "nickname": "",
+     "description": "大唐通关文书"
+    },
+    {
+     "name": "救活乌鸡国王",
+     "type": "Event",
+     "aliases": [
+      "起死回生"
+     ],
+     "nickname": "",
+     "description": "孙悟空求丹救活乌鸡国王"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "师父，莫念！莫念！等我医罢！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "师父，莫念！莫念！等我医罢！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "师父莫信他。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧见他数落，便去寻几枝香来烧献",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "八戒笑得打跌道：哥耶！哥耶！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙僧见他数落，便去寻几枝香来烧献",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "唐僧",
+     "evidence": "忽得南海观世音菩萨指教来西",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏徵",
+     "predicate": "KILLED",
+     "object": "泾河老龙",
+     "evidence": "奉天条梦斩泾河老龙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国王",
+     "predicate": "KIN",
+     "object": "乌鸡国太子",
+     "evidence": "父王息怒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假国王",
+     "predicate": "FRAMED",
+     "object": "乌鸡国王",
+     "evidence": "阴害了国王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假国王",
+     "predicate": "TRANSFORMED",
+     "object": "乌鸡国王",
+     "evidence": "那妖假变国王相貌",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "乌鸡国王",
+     "evidence": "是老孙今夜救活",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "九转还魂丹",
+     "evidence": "倾出一粒金丹，递与行者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "OWNS",
+     "object": "九转还魂丹",
+     "evidence": "倾出一粒金丹，递与行者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "OWNS",
+     "object": "芭蕉扇",
+     "evidence": "与众仙童执芭蕉扇扇火炼丹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "通关文牒",
+     "evidence": "蒙唐王赐与文牒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "救活乌鸡国王",
+     "evidence": "是老孙今夜救活",
+     "confidence": 0.9
+    },
+    {
+     "subject": "救活乌鸡国王",
+     "predicate": "OCCURRED_AT",
+     "object": "宝林寺",
+     "evidence": "径至宝林寺山门外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "兜率宫",
+     "evidence": "径来到三十三天离恨天兜率宫中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "STATIONED_AT",
+     "object": "兜率宫",
+     "evidence": "太上老君正坐在那丹房中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假国王",
+     "predicate": "STATIONED_AT",
+     "object": "乌鸡国皇宫",
+     "evidence": "现坐金銮殿上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国王",
+     "predicate": "STATIONED_AT",
+     "object": "乌鸡国皇宫",
+     "evidence": "同入禅堂",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "我是南赡部洲东土大唐国奉钦差前往西域天竺国大雷音寺拜活佛求真经者",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "我师父乃唐王御弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "又到乌斯国界高家庄，收了二徒弟",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "流沙河界，又收了三徒弟",
+     "confidence": 0.8
+    },
+    {
+     "subject": "乌鸡国王",
+     "predicate": "MEMBER_OF",
+     "object": "乌鸡国",
+     "evidence": "这本是乌鸡国王，乃汝之真主也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国太子",
+     "predicate": "MEMBER_OF",
+     "object": "乌鸡国",
+     "evidence": "原来是乌鸡国王的太子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假国王",
+     "predicate": "MEMBER_OF",
+     "object": "乌鸡国",
+     "evidence": "那妖假变国王相貌，现坐金銮殿上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国王",
+     "predicate": "LEADS",
+     "object": "乌鸡国",
+     "evidence": "这本是乌鸡国王，乃汝之真主也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假国王",
+     "predicate": "LEADS",
+     "object": "乌鸡国",
+     "evidence": "那妖假变国王相貌，现坐金銮殿上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李世民",
+     "predicate": "LEADS",
+     "object": "大唐",
+     "evidence": "你想那李世民自称王位，一统江山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "假国王",
+     "evidence": "这棍子在我耳朵里跳哩，如今决要见功，管取打杀妖魔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "假国王",
+     "predicate": "FOUGHT",
+     "object": "孙悟空",
+     "evidence": "这棍子在我耳朵里跳哩，如今决要见功，管取打杀妖魔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "乌鸡国皇宫",
+     "evidence": "引至朝门",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "东土大唐",
+     "evidence": "我是南赡部洲东土大唐国奉钦差",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "NATIVE_OF",
+     "object": "东土大唐",
+     "evidence": "我师父乃唐王御弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌鸡国王",
+     "predicate": "NATIVE_OF",
+     "object": "乌鸡国",
+     "evidence": "祖居原是此间人",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2010,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "师父",
+     "description": "取经僧人，孙悟空等的师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "取经的护法菩萨，传紧箍咒"
+    },
+    {
+     "name": "文殊菩萨",
+     "type": "Person",
+     "aliases": [
+      "文殊",
+      "文殊师利",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "五台山菩萨，青狮精的主人"
+    },
+    {
+     "name": "青狮精",
+     "type": "Person",
+     "aliases": [
+      "狮驼王",
+      "青毛狮子",
+      "文殊坐骑"
+     ],
+     "nickname": "魔王",
+     "description": "文殊菩萨坐骑，下界为妖"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "徒弟莫打，是我！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "徒弟莫打，是我！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "徒弟莫打，是我！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "菩萨又传与我师父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "文殊菩萨",
+     "predicate": "ORIGIN_OF",
+     "object": "青狮精",
+     "evidence": "原来文殊一个狮猁王",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "青狮精",
+     "evidence": "他两个搭上手，这一场好杀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "青狮精",
+     "evidence": "三个狠和尚，围住一个泼妖魔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "FOUGHT",
+     "object": "青狮精",
+     "evidence": "三个狠和尚，围住一个泼妖魔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青狮精",
+     "predicate": "TRANSFORMED",
+     "object": "唐僧",
+     "evidence": "即变得与唐三藏一般模样",
+     "confidence": 0.95
+    },
+    {
+     "subject": "文殊菩萨",
+     "predicate": "DEFEATED",
+     "object": "青狮精",
+     "evidence": "那菩萨却念个咒，喝道：畜生，还不皈正，更待何时！那魔王才现了原身",
+     "confidence": 0.95
+    },
+    {
+     "subject": "文殊菩萨",
+     "predicate": "RESCUED",
+     "object": "青狮精",
+     "evidence": "我来替你收这个妖怪的",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:47.778Z"
+}

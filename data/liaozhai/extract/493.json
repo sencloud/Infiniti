@@ -1,0 +1,265 @@
+{
+ "no": 493,
+ "title": "丐仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1998,
+   "entities": [
+    {
+     "name": "高玉成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "金城广里人，善针灸，世家子"
+    },
+    {
+     "name": "陈九",
+     "type": "Spirit",
+     "aliases": [
+      "丐者"
+     ],
+     "nickname": "",
+     "description": "乞丐，实为仙人，自称陈九"
+    },
+    {
+     "name": "蝶子",
+     "type": "Spirit",
+     "aliases": [
+      "丽人",
+      "夜叉"
+     ],
+     "nickname": "",
+     "description": "巨蝶所化丽人，能变夜叉"
+    },
+    {
+     "name": "捣衣女子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "天上捣衣女子，艳丽无双"
+    },
+    {
+     "name": "高妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高玉成之妻"
+    },
+    {
+     "name": "金城广里",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高玉成居住地"
+    },
+    {
+     "name": "耳舍",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高家耳房，曾安置陈九"
+    },
+    {
+     "name": "园中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高家花园，陈九设宴处"
+    },
+    {
+     "name": "西山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高玉成避寿之处"
+    },
+    {
+     "name": "云窟",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高玉成堕入的深窟，内有天地"
+    },
+    {
+     "name": "天上",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈九所居天界"
+    },
+    {
+     "name": "水晶屏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "亭中宝物，莹澈可鉴"
+    },
+    {
+     "name": "杵衣",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "被捣衣女子木杵击中后留红印的衣服"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "高玉成",
+     "predicate": "HELPED",
+     "object": "陈九",
+     "evidence": "高见而怜焉，遣人扶归，置于耳舍。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "HELPED",
+     "object": "陈九",
+     "evidence": "高出艾亲为之灸，日饷以疏食。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "HELPED",
+     "object": "陈九",
+     "evidence": "高知前命不行，呼仆痛笞之，立命持酒炙饵丐者。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈九",
+     "predicate": "HELPED",
+     "object": "高玉成",
+     "evidence": "陈每代高呼采，雉卢无不如意。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈九",
+     "predicate": "HELPED",
+     "object": "高玉成",
+     "evidence": "君寿不永，明日速避西山中，当可免。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "FRIEND",
+     "object": "陈九",
+     "evidence": "日与同坐处。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "FRIEND",
+     "object": "陈九",
+     "evidence": "相得甚欢，何遽诀绝？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "LIVES_AT",
+     "object": "金城广里",
+     "evidence": "高玉成，故家子，居金城之广里。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈九",
+     "predicate": "LIVES_AT",
+     "object": "耳舍",
+     "evidence": "遣人扶归，置于耳舍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "LIVES_AT",
+     "object": "天上",
+     "evidence": "君家当在天上。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "OWNS",
+     "object": "水晶屏",
+     "evidence": "有一水晶屏，莹澈可鉴。",
+     "confidence": 0.7
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "OWNS",
+     "object": "杵衣",
+     "evidence": "衷杵衣于内，满座皆闻其香。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "PARTICIPATED_IN",
+     "object": "陈九设宴",
+     "evidence": "今薄设相邀，勿以人从也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈九设宴",
+     "predicate": "OCCURRED_AT",
+     "object": "园中",
+     "evidence": "答云：园中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "PARTICIPATED_IN",
+     "object": "避寿",
+     "evidence": "早起从陈言，裹粮入山。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "避寿",
+     "predicate": "OCCURRED_AT",
+     "object": "西山",
+     "evidence": "明日速避西山中，当可免。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "PARTICIPATED_IN",
+     "object": "堕云窟",
+     "evidence": "忽失足，堕云窟中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "堕云窟",
+     "predicate": "OCCURRED_AT",
+     "object": "云窟",
+     "evidence": "忽失足，堕云窟中。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "KIN",
+     "object": "高妻",
+     "evidence": "归与妻子言，共相骇异。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高玉成",
+     "predicate": "HARMED",
+     "object": "蝶子",
+     "evidence": "遽起狎抱。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蝶子",
+     "predicate": "HARMED",
+     "object": "高玉成",
+     "evidence": "视之，则变为夜叉，睛突于眦，牙出于喙，黑肉凹凸，怪恶不可状。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "捣衣女子",
+     "predicate": "HARMED",
+     "object": "高玉成",
+     "evidence": "辄以杵投之，中其背。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:25.413Z"
+}

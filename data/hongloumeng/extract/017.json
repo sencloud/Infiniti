@@ -1,0 +1,550 @@
+{
+ "no": 17,
+ "title": "大观园试才题对额 怡红院迷路探曲折",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5751,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "宝玉",
+      "宝二爷",
+      "怡红公子",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "怡红公子",
+     "description": "贾政之子，聪慧多才，善题对额"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "史太君",
+     "description": "贾府老祖宗，疼爱宝玉"
+    },
+    {
+     "name": "贾政",
+     "type": "Person",
+     "aliases": [
+      "政老爷",
+      "二老爷",
+      "贾存周"
+     ],
+     "nickname": "存周",
+     "description": "宝玉之父，工部员外郎"
+    },
+    {
+     "name": "贾赦",
+     "type": "Person",
+     "aliases": [
+      "大老爷",
+      "赦老爷"
+     ],
+     "nickname": "恩侯",
+     "description": "贾政之兄，荣国府长子"
+    },
+    {
+     "name": "贾琏",
+     "type": "Person",
+     "aliases": [
+      "琏二爷",
+      "琏二哥"
+     ],
+     "nickname": "",
+     "description": "贾赦之子，管理府中事务"
+    },
+    {
+     "name": "贾珍",
+     "type": "Person",
+     "aliases": [
+      "珍大爷",
+      "珍哥儿"
+     ],
+     "nickname": "",
+     "description": "宁国府族长，负责大观园工程"
+    },
+    {
+     "name": "贾雨村",
+     "type": "Person",
+     "aliases": [
+      "时飞",
+      "贾化",
+      "雨村",
+      "贾时飞"
+     ],
+     "nickname": "时飞",
+     "description": "贾府清客，善题咏"
+    },
+    {
+     "name": "秦钟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝玉好友，已故"
+    },
+    {
+     "name": "李贵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝玉的仆人"
+    },
+    {
+     "name": "引泉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宝玉的小厮"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "贾府"
+     ],
+     "nickname": "",
+     "description": "贾家府邸"
+    },
+    {
+     "name": "大观园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府新建园林"
+    },
+    {
+     "name": "怡红院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中院落，后为宝玉居所"
+    },
+    {
+     "name": "潇湘馆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中院落，后为黛玉居所"
+    },
+    {
+     "name": "蘅芜苑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中院落，后为宝钗居所"
+    },
+    {
+     "name": "稻香村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中田园景致"
+    },
+    {
+     "name": "沁芳亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中桥亭"
+    },
+    {
+     "name": "有凤来仪",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中匾额，后为潇湘馆"
+    },
+    {
+     "name": "杏帘在望",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中匾额，后为稻香村"
+    },
+    {
+     "name": "蓼汀花溆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中景致"
+    },
+    {
+     "name": "蘅芷清芬",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中匾额，后为蘅芜苑"
+    },
+    {
+     "name": "曲径通幽处",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园入口处题额"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "贾政近因闻得塾掌称赞宝玉专能对对联",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "贾母常命人带他到新园中来戏耍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾政",
+     "predicate": "KIN",
+     "object": "贾赦",
+     "evidence": "大老爷已瞧过了，只等老爷瞧了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "KIN",
+     "object": "贾赦",
+     "evidence": "贾琏赶来，贾政问他共有几种",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "KIN",
+     "object": "贾宝玉",
+     "evidence": "贾珍笑道：还是宝兄弟拟一个来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "FRIEND",
+     "object": "秦钟",
+     "evidence": "宝玉因思念秦钟，忧戚不尽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李贵",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "李贵等好容易劝解半日方住",
+     "confidence": 0.9
+    },
+    {
+     "subject": "引泉",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "带着奶娘、小厮们，一溜烟就出园来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾母帮了几十两银子，外又另备奠仪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾政",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾政听了，沉思一回",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾赦",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "大老爷已瞧过了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾琏赶来，贾政问他共有几种",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾珍等来回贾政",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大观园试才题对额",
+     "evidence": "贾政命他跟来。宝玉只得随往",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾政",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大观园试才题对额",
+     "evidence": "贾政引着众清客来了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大观园试才题对额",
+     "evidence": "贾珍先去园中知会众人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大观园试才题对额",
+     "evidence": "贾琏赶来，贾政问他共有几种",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大观园试才题对额",
+     "predicate": "OCCURRED_AT",
+     "object": "大观园",
+     "evidence": "大家去逛逛。说着起身，引众人前往",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "通灵宝玉",
+     "evidence": "宝玉听了，带着奶娘、小厮们",
+     "confidence": 0.7
+    },
+    {
+     "subject": "贾政",
+     "predicate": "QUARRELED",
+     "object": "贾宝玉",
+     "evidence": "贾政一声断喝：无知的业障！",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2011,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "怡红公子",
+      "宝玉",
+      "宝二爷",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "怡红公子",
+     "description": "贾政之子，聪慧多情，善题对额"
+    },
+    {
+     "name": "贾政",
+     "type": "Person",
+     "aliases": [
+      "存周",
+      "政老爷",
+      "二老爷",
+      "贾存周"
+     ],
+     "nickname": "存周",
+     "description": "贾宝玉之父，荣国府二老爷"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "史太君",
+     "description": "贾府老祖宗，贾宝玉祖母"
+    },
+    {
+     "name": "贾珍",
+     "type": "Person",
+     "aliases": [
+      "珍大爷",
+      "珍哥儿"
+     ],
+     "nickname": "珍大爷",
+     "description": "宁国府当家，贾宝玉族兄"
+    },
+    {
+     "name": "贾雨村",
+     "type": "Person",
+     "aliases": [
+      "时飞",
+      "贾化",
+      "雨村",
+      "贾时飞"
+     ],
+     "nickname": "时飞",
+     "description": "贾府故交，曾为林黛玉师"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，贾宝玉之母"
+    },
+    {
+     "name": "大观园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾府为元妃省亲所建园林"
+    },
+    {
+     "name": "怡红院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中贾宝玉居所"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "贾府"
+     ],
+     "nickname": "",
+     "description": "贾政、贾母等所居府第"
+    },
+    {
+     "name": "沁芳闸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大观园中引泉入闸处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "贾政又命他作题，宝玉只顾细思前景",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "贾政心中也怕贾母不放心",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "王夫人为贾政之妻，宝玉之母",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾政",
+     "predicate": "SPOUSE",
+     "object": "王夫人",
+     "evidence": "王夫人为贾政之妻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "KIN",
+     "object": "贾宝玉",
+     "evidence": "贾珍笑道：“老爷随我来。”",
+     "confidence": 0.85
+    },
+    {
+     "subject": "贾雨村",
+     "predicate": "FRIEND",
+     "object": "贾政",
+     "evidence": "有雨村处遣人来回话",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大观园试才题对额",
+     "evidence": "贾政又命他作题，宝玉只顾细思前景",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾政",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大观园试才题对额",
+     "evidence": "贾政道：“此处书以何文？”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大观园试才题对额",
+     "predicate": "OCCURRED_AT",
+     "object": "大观园",
+     "evidence": "说着，大家出来。行不多远，则见崇阁巍峨",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "STATIONED_AT",
+     "object": "怡红院",
+     "evidence": "怡红院迷路探曲折",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾政",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾政与众人进去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾政心中也怕贾母不放心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "宝玉听说，方退了出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾珍",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾珍笑道：“老爷随我来。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "沁芳闸",
+     "evidence": "宝玉道：“此乃沁芳泉之正源，就名‘沁芳闸’。”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:53:54.610Z"
+}

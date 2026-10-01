@@ -1,0 +1,229 @@
+{
+ "no": 320,
+ "title": "霍女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3015,
+   "entities": [
+    {
+     "name": "朱大兴",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "彰德人，家富吝啬，好色"
+    },
+    {
+     "name": "霍女",
+     "type": "Spirit",
+     "aliases": [
+      "霍氏"
+     ],
+     "nickname": "",
+     "description": "自称霍氏，实为仙，三易其主"
+    },
+    {
+     "name": "何氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻村大姓，豪纵好客，纳霍女"
+    },
+    {
+     "name": "顾生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "何家座客，劝何氏罢讼"
+    },
+    {
+     "name": "黄生",
+     "type": "Person",
+     "aliases": [
+      "黄公子"
+     ],
+     "nickname": "",
+     "description": "贫士，无偶，后娶霍女"
+    },
+    {
+     "name": "阿美",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张贡士之女，新寡，后嫁黄生"
+    },
+    {
+     "name": "霍大郎",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍女兄弟，按剑胁逼阿美"
+    },
+    {
+     "name": "霍三郎",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍女兄弟，谈吐豪放"
+    },
+    {
+     "name": "张贡士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阿美之父，贡士"
+    },
+    {
+     "name": "仙赐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄生与阿美之子"
+    },
+    {
+     "name": "彰德",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱大兴籍贯"
+    },
+    {
+     "name": "镇江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍女自称籍贯"
+    },
+    {
+     "name": "扬州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄生与霍女泊舟处"
+    },
+    {
+     "name": "瓜州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄生归途经过之地"
+    },
+    {
+     "name": "南海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "霍女与大姊省阿姨处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "朱大兴",
+     "predicate": "NATIVE_OF",
+     "object": "彰德",
+     "evidence": "朱大兴，彰德人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱大兴",
+     "predicate": "HARMED",
+     "object": "霍女",
+     "evidence": "强胁之，引与俱归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱大兴",
+     "predicate": "SPOUSE",
+     "object": "霍女",
+     "evidence": "留与寝处。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何氏",
+     "predicate": "SPOUSE",
+     "object": "霍女",
+     "evidence": "竟纳焉。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄生",
+     "predicate": "SPOUSE",
+     "object": "霍女",
+     "evidence": "黄心动，留之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄生",
+     "predicate": "SPOUSE",
+     "object": "阿美",
+     "evidence": "女强为娶之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍女",
+     "predicate": "HELPED",
+     "object": "黄生",
+     "evidence": "今有一疗贫之法",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍大郎",
+     "predicate": "HELPED",
+     "object": "阿美",
+     "evidence": "大郎挽登黄舟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍大郎",
+     "predicate": "HARMED",
+     "object": "阿美",
+     "evidence": "按剑相胁，逼女风走。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄生",
+     "predicate": "LIVES_AT",
+     "object": "镇江",
+     "evidence": "瞬息达镇江",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍女",
+     "predicate": "LIVES_AT",
+     "object": "镇江",
+     "evidence": "妾镇江人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "霍女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "南海",
+     "evidence": "至南海一省阿姨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄生",
+     "predicate": "KIN",
+     "object": "仙赐",
+     "evidence": "后阿美生子，取名仙赐。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阿美",
+     "predicate": "KIN",
+     "object": "仙赐",
+     "evidence": "后阿美生子，取名仙赐。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张贡士",
+     "predicate": "KIN",
+     "object": "阿美",
+     "evidence": "有张贡士之女新寡",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:13.517Z"
+}

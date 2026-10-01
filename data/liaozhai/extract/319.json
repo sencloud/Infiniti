@@ -1,0 +1,134 @@
+{
+ "no": 319,
+ "title": "某乙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 464,
+   "entities": [
+    {
+     "name": "某乙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑西人，原为小偷，后改过，又复偷，终成富户"
+    },
+    {
+     "name": "某乙妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某乙的妻子，曾劝其改过"
+    },
+    {
+     "name": "善卜者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "占卜者，为某乙占卜"
+    },
+    {
+     "name": "曹州大寇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹州大盗，被小盗劫掠后投充马捕"
+    },
+    {
+     "name": "小盗",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "二三小盗，劫掠曹州大寇"
+    },
+    {
+     "name": "邑令",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑令，赐匾某乙"
+    },
+    {
+     "name": "苏松间",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州、松江一带"
+    },
+    {
+     "name": "寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "某乙投石之寺庙"
+    },
+    {
+     "name": "巨第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "被盗的巨宅"
+    },
+    {
+     "name": "曹州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "曹州大寇所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "某乙",
+     "predicate": "SPOUSE",
+     "object": "某乙妻",
+     "evidence": "其妻深以为惧，屡劝止之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某乙",
+     "predicate": "LIVES_AT",
+     "object": "苏松间",
+     "evidence": "遂南行，抵苏、松间，日游村郭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某乙",
+     "predicate": "PARTICIPATED_IN",
+     "object": "盗巨第",
+     "evidence": "乃授以兵，率与共去。至一巨第",
+     "confidence": 0.9
+    },
+    {
+     "subject": "盗巨第",
+     "predicate": "OCCURRED_AT",
+     "object": "巨第",
+     "evidence": "至一巨第，出耎梯，争逾垣入",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑令",
+     "predicate": "HELPED",
+     "object": "某乙",
+     "evidence": "邑令扁其门曰“善士”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "小盗",
+     "predicate": "HARMED",
+     "object": "曹州大寇",
+     "evidence": "箠灼并施，罄所有，乃去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹州大寇",
+     "predicate": "PUNISHED",
+     "object": "小盗",
+     "evidence": "获曩寇，亦以所施者施之",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:12.312Z"
+}

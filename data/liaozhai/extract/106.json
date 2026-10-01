@@ -1,0 +1,185 @@
+{
+ "no": 106,
+ "title": "汪士秀",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 859,
+   "entities": [
+    {
+     "name": "汪士秀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "庐州人，刚勇有力，能举石舂，善蹴鞠"
+    },
+    {
+     "name": "汪父",
+     "type": "Person",
+     "aliases": [
+      "叟",
+      "老翁"
+     ],
+     "nickname": "",
+     "description": "汪士秀之父，溺江未死，为鱼精侍者"
+    },
+    {
+     "name": "黄衣人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "洞庭湖鱼精，衣黄，被汪士秀断臂"
+    },
+    {
+     "name": "白衣人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "洞庭湖鱼精，衣白，被汪士秀剁颅"
+    },
+    {
+     "name": "小乌皮",
+     "type": "Spirit",
+     "aliases": [
+      "僮"
+     ],
+     "nickname": "",
+     "description": "鱼精侍者，似童，持兵器捉汪士秀"
+    },
+    {
+     "name": "洞庭",
+     "type": "Place",
+     "aliases": [
+      "洞庭湖"
+     ],
+     "nickname": "",
+     "description": "汪士秀夜泊之处，鱼精出没之地"
+    },
+    {
+     "name": "钱塘",
+     "type": "Place",
+     "aliases": [
+      "钱塘江"
+     ],
+     "nickname": "",
+     "description": "汪父溺江之处"
+    },
+    {
+     "name": "庐州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汪士秀籍贯"
+    },
+    {
+     "name": "湖南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汪士秀因故前往之地"
+    },
+    {
+     "name": "石鼓",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "汪士秀舟上二石鼓，各重百斤，用以投水退浪"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "汪士秀",
+     "predicate": "KIN",
+     "object": "汪父",
+     "evidence": "父子善蹴鞠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪父",
+     "predicate": "LIVES_AT",
+     "object": "钱塘",
+     "evidence": "父四十馀，过钱塘没焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汪士秀",
+     "predicate": "NATIVE_OF",
+     "object": "庐州",
+     "evidence": "汪士秀，庐州人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪士秀",
+     "predicate": "LIVES_AT",
+     "object": "洞庭",
+     "evidence": "夜泊洞庭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汪士秀",
+     "predicate": "PARTICIPATED_IN",
+     "object": "蹴鞠",
+     "evidence": "父子善蹴鞠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汪父",
+     "predicate": "PARTICIPATED_IN",
+     "object": "蹴鞠",
+     "evidence": "父子善蹴鞠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄衣人",
+     "predicate": "HARMED",
+     "object": "汪父",
+     "evidence": "黄衣人呼叟共蹴之",
+     "confidence": 0.7
+    },
+    {
+     "subject": "白衣人",
+     "predicate": "HARMED",
+     "object": "汪父",
+     "evidence": "白衣人嗔其语戏，怒曰：……胫股当有椎吃也！",
+     "confidence": 0.8
+    },
+    {
+     "subject": "汪士秀",
+     "predicate": "HARMED",
+     "object": "黄衣人",
+     "evidence": "汪以刀截其臂落，黄衣者乃逃",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪士秀",
+     "predicate": "KILLED",
+     "object": "白衣人",
+     "evidence": "一白衣人奔汪，汪剁其颅，堕水有声",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汪士秀",
+     "predicate": "HELPED",
+     "object": "汪父",
+     "evidence": "汪力与夺，摇舟断缆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汪父",
+     "predicate": "HELPED",
+     "object": "汪士秀",
+     "evidence": "叟曰：儿急作匿，不然都死矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汪士秀",
+     "predicate": "OWNS",
+     "object": "石鼓",
+     "evidence": "舟上有石鼓二，皆重百斤",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:53.931Z"
+}

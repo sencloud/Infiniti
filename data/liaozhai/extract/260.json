@@ -1,0 +1,189 @@
+{
+ "no": 260,
+ "title": "二商",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1293,
+   "entities": [
+    {
+     "name": "商大",
+     "type": "Person",
+     "aliases": [
+      "大商",
+      "兄",
+      "商老大"
+     ],
+     "nickname": "",
+     "description": "《二商》中莒人商姓者之兄，富而吝"
+    },
+    {
+     "name": "商二",
+     "type": "Person",
+     "aliases": [
+      "二商",
+      "弟",
+      "商老二"
+     ],
+     "nickname": "",
+     "description": "《二商》中莒人商姓者之弟，贫而义"
+    },
+    {
+     "name": "大商妻",
+     "type": "Person",
+     "aliases": [
+      "嫂",
+      "伯母",
+      "长舌妇"
+     ],
+     "nickname": "",
+     "description": "《二商》中大商之妻，吝啬挑拨"
+    },
+    {
+     "name": "大商子",
+     "type": "Person",
+     "aliases": [
+      "侄",
+      "丑儿"
+     ],
+     "nickname": "",
+     "description": "《二商》中大商之子，五岁丧父"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《二商》中受理二商诉状的县令"
+    },
+    {
+     "name": "州守",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《二商》中处理抢粮贫民的州官"
+    },
+    {
+     "name": "莒",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《二商》中商姓兄弟的籍贯地"
+    },
+    {
+     "name": "大商宅",
+     "type": "Place",
+     "aliases": [
+      "故宅",
+      "邻垣"
+     ],
+     "nickname": "",
+     "description": "《二商》中大商的宅院，后卖与二商"
+    },
+    {
+     "name": "邻村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《二商》中二商卖宅后迁居之地"
+    },
+    {
+     "name": "窖金",
+     "type": "Item",
+     "aliases": [
+      "五百金"
+     ],
+     "nickname": "",
+     "description": "《二商》中大商故宅屋后蓬颗下所藏之金"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "商大",
+     "predicate": "KIN",
+     "object": "商二",
+     "evidence": "莒人商姓者，兄富而弟贫，邻垣而居。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商大",
+     "predicate": "SPOUSE",
+     "object": "大商妻",
+     "evidence": "伯踌蹰目视伯母",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商大",
+     "predicate": "KIN",
+     "object": "大商子",
+     "evidence": "大商遗幼子，才五岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商二",
+     "predicate": "KIN",
+     "object": "大商子",
+     "evidence": "大商遗幼子，才五岁，家既贫，往往自投叔所",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商大",
+     "predicate": "LIVES_AT",
+     "object": "大商宅",
+     "evidence": "邻垣而居",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商二",
+     "predicate": "LIVES_AT",
+     "object": "大商宅",
+     "evidence": "邻垣而居",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商二",
+     "predicate": "LIVES_AT",
+     "object": "邻村",
+     "evidence": "二商于是徙居邻村。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商大",
+     "predicate": "NATIVE_OF",
+     "object": "莒",
+     "evidence": "莒人商姓者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商二",
+     "predicate": "NATIVE_OF",
+     "object": "莒",
+     "evidence": "莒人商姓者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商二",
+     "predicate": "HELPED",
+     "object": "商大",
+     "evidence": "率子越垣，大声疾呼。二商父子故武勇，人所畏惧，又恐惊致他援，盗乃去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "商二",
+     "predicate": "HELPED",
+     "object": "大商妻",
+     "evidence": "视兄嫂，两股焦灼，扶榻上，招集婢仆，乃归。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商二",
+     "predicate": "OWNS",
+     "object": "窖金",
+     "evidence": "果发得五百金。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:53.312Z"
+}

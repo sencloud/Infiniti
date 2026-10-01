@@ -1,0 +1,66 @@
+{
+ "no": 134,
+ "title": "8.3 统计分析帮你做预测",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1394,
+   "entities": [
+    {
+     "name": "一次函数",
+     "type": "Concept",
+     "aliases": [
+      "线性函数"
+     ],
+     "nickname": "",
+     "description": "形如y=kx+b（k≠0）的函数"
+    },
+    {
+     "name": "待定系数法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过已知点坐标列方程组求函数表达式的方法"
+    },
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两条互相垂直的数轴组成的坐标系"
+    },
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "含有两个未知数的一次方程组"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "待定系数法",
+     "predicate": "APPLIES_TO",
+     "object": "一次函数",
+     "evidence": "设直线AB上点的坐标满足函数表达式y=kx+b。由直线AB过点(2011, 487940.2)、(2020, 1015986.2)，可得方程组",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "PREREQUISITE",
+     "object": "待定系数法",
+     "evidence": "可得方程组...解得k≈58671.8，b≈-117501049.6",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平面直角坐标系",
+     "predicate": "PREREQUISITE",
+     "object": "一次函数",
+     "evidence": "在平面直角坐标系中画出对应的点，并选用一条适当的直线近似表示",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:32.075Z"
+}

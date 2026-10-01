@@ -1,0 +1,76 @@
+{
+ "no": 115,
+ "title": "泥鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 248,
+   "entities": [
+    {
+     "name": "唐济武",
+     "type": "Person",
+     "aliases": [
+      "唐太史",
+      "太史"
+     ],
+     "nickname": "",
+     "description": "《泥鬼》中同乡唐翰林，幼时胆大"
+    },
+    {
+     "name": "表亲某",
+     "type": "Person",
+     "aliases": [
+      "某"
+     ],
+     "nickname": "",
+     "description": "《泥鬼》中唐济武的表亲，被泥鬼附体"
+    },
+    {
+     "name": "泥鬼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《泥鬼》中寺庙庑中的泥塑鬼像，有灵"
+    },
+    {
+     "name": "寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《泥鬼》中唐济武幼时玩耍的寺庙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐济武",
+     "predicate": "KIN",
+     "object": "表亲某",
+     "evidence": "有表亲某，相携戏寺中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐济武",
+     "predicate": "HARMED",
+     "object": "泥鬼",
+     "evidence": "阴以指抉取，怀之而归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "泥鬼",
+     "predicate": "HARMED",
+     "object": "表亲某",
+     "evidence": "某暴病不语，移时忽起，厉声曰：“何故抉我睛！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐济武",
+     "predicate": "LIVES_AT",
+     "object": "寺",
+     "evidence": "相携戏寺中",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:55.845Z"
+}

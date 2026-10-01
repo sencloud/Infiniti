@@ -1,0 +1,102 @@
+{
+ "no": 457,
+ "title": "蝎客",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 177,
+   "entities": [
+    {
+     "name": "南商贩蝎者",
+     "type": "Person",
+     "aliases": [
+      "蝎客",
+      "南客"
+     ],
+     "nickname": "蝎客",
+     "description": "南方来的贩蝎商人，每年到临朐收买蝎子"
+    },
+    {
+     "name": "主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "临朐客邸店主，收留蝎客"
+    },
+    {
+     "name": "虿鬼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "蝎子所化之鬼，黄发狞丑，来杀蝎客"
+    },
+    {
+     "name": "临朐",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，蝎客每年至此收买蝎子"
+    },
+    {
+     "name": "客邸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "临朐的客店，蝎客寓居之处"
+    },
+    {
+     "name": "巨瓮",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "客邸室中的大瓮，主人用以藏匿蝎客"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "南商贩蝎者",
+     "predicate": "LIVES_AT",
+     "object": "客邸",
+     "evidence": "一岁，商复来，寓客邸。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "南商贩蝎者",
+     "predicate": "NATIVE_OF",
+     "object": "临朐",
+     "evidence": "南商贩蝎者，岁至临朐，收买甚多。",
+     "confidence": 0.6
+    },
+    {
+     "subject": "主人",
+     "predicate": "HELPED",
+     "object": "南商贩蝎者",
+     "evidence": "主人顾室中有巨瓮，乃使蹲伏，以瓮覆之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "主人",
+     "predicate": "OWNS",
+     "object": "巨瓮",
+     "evidence": "主人顾室中有巨瓮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虿鬼",
+     "predicate": "KILLED",
+     "object": "南商贩蝎者",
+     "evidence": "及启瓮视客，已化为血水。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "虿鬼",
+     "predicate": "HARMED",
+     "object": "南商贩蝎者",
+     "evidence": "今见怒于虿鬼，将杀我矣！",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:06.435Z"
+}

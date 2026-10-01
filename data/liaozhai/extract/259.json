@@ -1,0 +1,240 @@
+{
+ "no": 259,
+ "title": "巩仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2332,
+   "entities": [
+    {
+     "name": "巩道人",
+     "type": "Spirit",
+     "aliases": [
+      "巩仙",
+      "道士"
+     ],
+     "nickname": "",
+     "description": "无名字，不知何里人，有道术，居尚秀才家"
+    },
+    {
+     "name": "鲁王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁王府王爷，召见巩道人，赐宴观戏"
+    },
+    {
+     "name": "中贵人",
+     "type": "Person",
+     "aliases": [
+      "太监"
+     ],
+     "nickname": "",
+     "description": "鲁王府太监，初逐巩道人，后引其游园"
+    },
+    {
+     "name": "尚生",
+     "type": "Person",
+     "aliases": [
+      "尚秀才"
+     ],
+     "nickname": "",
+     "description": "秀才，与惠哥相恋，巩道人助其相见"
+    },
+    {
+     "name": "惠哥",
+     "type": "Person",
+     "aliases": [
+      "曲妓惠哥"
+     ],
+     "nickname": "",
+     "description": "曲妓，善歌，与尚生相恋，被鲁王召入府"
+    },
+    {
+     "name": "尚妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "尚生之妻，贤惠，年近三十"
+    },
+    {
+     "name": "秀生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "尚生与惠哥之子，名秀生，十一岁"
+    },
+    {
+     "name": "织女",
+     "type": "Spirit",
+     "aliases": [
+      "天孙"
+     ],
+     "nickname": "",
+     "description": "仙女，献天衣一袭"
+    },
+    {
+     "name": "王母",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "巩道人袖中变出的仙女，自称王母"
+    },
+    {
+     "name": "董双成",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙女，巩道人袖中变出"
+    },
+    {
+     "name": "许飞琼",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙女，巩道人袖中变出"
+    },
+    {
+     "name": "鲁王府",
+     "type": "Place",
+     "aliases": [
+      "府内"
+     ],
+     "nickname": "",
+     "description": "鲁王宫殿，有后苑花木楼台"
+    },
+    {
+     "name": "尚秀才家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "尚生住所，巩道人常居于此"
+    },
+    {
+     "name": "天衣",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "织女所献无缝天衣，金彩绚烂"
+    },
+    {
+     "name": "旧衲",
+     "type": "Item",
+     "aliases": [
+      "道袍"
+     ],
+     "nickname": "",
+     "description": "巩道人的道袍，烧灰可疗难产"
+    },
+    {
+     "name": "瑶池宴",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "巩道人献演之戏，为鲁王祝寿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "巩道人",
+     "predicate": "LIVES_AT",
+     "object": "尚秀才家",
+     "evidence": "闻馆于尚秀才家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "巩道人",
+     "predicate": "HELPED",
+     "object": "尚生",
+     "evidence": "我所以报君者，原不在情私也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "巩道人",
+     "predicate": "HELPED",
+     "object": "惠哥",
+     "evidence": "见妾三叉腰时，便一拯救",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尚生",
+     "predicate": "LOVES",
+     "object": "惠哥",
+     "evidence": "尚与曲妓惠哥善，矢志嫁娶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尚生",
+     "predicate": "SPOUSE",
+     "object": "惠哥",
+     "evidence": "十年前订婚嫁耶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "尚生",
+     "predicate": "KIN",
+     "object": "秀生",
+     "evidence": "惠所生子，名之秀生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "惠哥",
+     "predicate": "KIN",
+     "object": "秀生",
+     "evidence": "惠所生子，名之秀生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "尚生",
+     "predicate": "KIN",
+     "object": "尚妻",
+     "evidence": "尚妻最贤",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "瑶池宴",
+     "evidence": "道士命扮瑶池宴本，祝王万年",
+     "confidence": 0.9
+    },
+    {
+     "subject": "瑶池宴",
+     "predicate": "OCCURRED_AT",
+     "object": "鲁王府",
+     "evidence": "王赐宴坐，便请作剧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巩道人",
+     "predicate": "OWNS",
+     "object": "旧衲",
+     "evidence": "所藏旧衲，当留少许自用",
+     "confidence": 0.95
+    },
+    {
+     "subject": "织女",
+     "predicate": "OWNS",
+     "object": "天衣",
+     "evidence": "末有织女来谒，献天衣一袭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "巩道人",
+     "predicate": "HARMED",
+     "object": "中贵人",
+     "evidence": "道人一推，但觉身堕楼外",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁王",
+     "predicate": "PUNISHED",
+     "object": "惠哥",
+     "evidence": "鲁王闻其名，召入供奉",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:52.349Z"
+}

@@ -1,0 +1,113 @@
+{
+ "no": 459,
+ "title": "毛大福",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 586,
+   "entities": [
+    {
+     "name": "毛大福",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "太行疡医，为狼治病"
+    },
+    {
+     "name": "宁泰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中银商，被盗杀于途"
+    },
+    {
+     "name": "丛薪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某村人，杀宁泰之凶手"
+    },
+    {
+     "name": "太行",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "毛大福籍贯地"
+    },
+    {
+     "name": "狼穴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山中狼的洞穴"
+    },
+    {
+     "name": "公庭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县官审案之处"
+    },
+    {
+     "name": "金饰",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "布裹金饰数事，狼所吐"
+    },
+    {
+     "name": "敝履",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "破鞋，丛薪之物，狼衔以献官"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "毛大福",
+     "predicate": "NATIVE_OF",
+     "object": "太行",
+     "evidence": "太行毛大福，疡医也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丛薪",
+     "predicate": "KILLED",
+     "object": "宁泰",
+     "evidence": "盖薪杀宁，取其巨金",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毛大福",
+     "predicate": "OWNS",
+     "object": "金饰",
+     "evidence": "毛拾视，则布裹金饰数事。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丛薪",
+     "predicate": "OWNS",
+     "object": "敝履",
+     "evidence": "拘来认之，果其履也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毛大福",
+     "predicate": "LIVES_AT",
+     "object": "狼穴",
+     "evidence": "未几，至穴",
+     "confidence": 0.8
+    },
+    {
+     "subject": "毛大福",
+     "predicate": "PARTICIPATED_IN",
+     "object": "公庭",
+     "evidence": "执赴公庭。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:08.805Z"
+}

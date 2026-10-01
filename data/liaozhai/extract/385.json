@@ -1,0 +1,227 @@
+{
+ "no": 385,
+ "title": "刘夫人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2398,
+   "entities": [
+    {
+     "name": "廉生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "彰德人，书生，后为盐商，登贤书"
+    },
+    {
+     "name": "刘夫人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘氏亡妻，实为鬼魂，廉生妻之外祖母"
+    },
+    {
+     "name": "伍姓仆",
+     "type": "Person",
+     "aliases": [
+      "伍"
+     ],
+     "nickname": "",
+     "description": "廉生雇用的仆人，老于行旅"
+    },
+    {
+     "name": "慕生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "廉生同乡，送妹为廉生妻"
+    },
+    {
+     "name": "慕女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "慕生之妹，年十五六，嫁廉生"
+    },
+    {
+     "name": "薛生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "桃源人，与廉生最善"
+    },
+    {
+     "name": "刘荆卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘夫人长孙，文学士"
+    },
+    {
+     "name": "刘玉卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘夫人次孙，饮博无赖"
+    },
+    {
+     "name": "彰德",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "廉生籍贯地"
+    },
+    {
+     "name": "桃源",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛生所居地"
+    },
+    {
+     "name": "淮上",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "廉生经商为鹾贾之地"
+    },
+    {
+     "name": "刘氏墓",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘夫人所居坟冢，后为廉生所修"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "廉生",
+     "predicate": "NATIVE_OF",
+     "object": "彰德",
+     "evidence": "廉生者，彰德人",
+     "confidence": 1
+    },
+    {
+     "subject": "刘夫人",
+     "predicate": "SPOUSE",
+     "object": "刘氏亡夫",
+     "evidence": "亡夫刘氏，客江右，遭变遽殒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘夫人",
+     "predicate": "KIN",
+     "object": "刘荆卿",
+     "evidence": "虽有两孙，非鸱鸮，即驽骀耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘夫人",
+     "predicate": "KIN",
+     "object": "刘玉卿",
+     "evidence": "虽有两孙，非鸱鸮，即驽骀耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘夫人",
+     "predicate": "HELPED",
+     "object": "廉生",
+     "evidence": "遣婢运赀出，交兑八百馀两",
+     "confidence": 0.95
+    },
+    {
+     "subject": "廉生",
+     "predicate": "OWNS",
+     "object": "鬼马",
+     "evidence": "此马调良，可以乘御，即赠公子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "廉生",
+     "predicate": "LIVES_AT",
+     "object": "刘氏墓",
+     "evidence": "回视第宅，则为墟墓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "廉生",
+     "predicate": "FRIEND",
+     "object": "薛生",
+     "evidence": "桃源薛生与最善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "慕生",
+     "predicate": "KIN",
+     "object": "慕女",
+     "evidence": "将送舍妹于薛官人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "廉生",
+     "predicate": "SPOUSE",
+     "object": "慕女",
+     "evidence": "生喜，始整巾向慕展谢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "慕生",
+     "predicate": "NATIVE_OF",
+     "object": "彰德",
+     "evidence": "先世彰德人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘夫人",
+     "predicate": "KIN",
+     "object": "慕女",
+     "evidence": "夫人与岳母远近？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "廉生",
+     "predicate": "KIN",
+     "object": "刘夫人",
+     "evidence": "今日吾甥婿也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘玉卿",
+     "predicate": "HARMED",
+     "object": "刘氏墓",
+     "evidence": "发墓搜之，剖棺露胔",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘玉卿",
+     "predicate": "HARMED",
+     "object": "廉生",
+     "evidence": "盗入生家，执索金赀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘玉卿",
+     "predicate": "HELPED",
+     "object": "廉生",
+     "evidence": "一盗带面具，力呵止之，声似玉卿",
+     "confidence": 0.85
+    },
+    {
+     "subject": "刘荆卿",
+     "predicate": "HELPED",
+     "object": "刘玉卿",
+     "evidence": "荆卿代哀，仅得赊死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "廉生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "生后登贤书",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:36.987Z"
+}

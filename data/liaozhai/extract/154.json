@@ -1,0 +1,164 @@
+{
+ "no": 154,
+ "title": "白莲教",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 605,
+   "entities": [
+    {
+     "name": "白莲教某",
+     "type": "Person",
+     "aliases": [
+      "某"
+     ],
+     "nickname": "",
+     "description": "山西人，白莲教徒，左道惑众，徐鸿儒之徒"
+    },
+    {
+     "name": "门人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白莲教某的徒弟，后与爱妾私通，被化为猪"
+    },
+    {
+     "name": "爱妾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白莲教某的爱妾，与门人私通"
+    },
+    {
+     "name": "门人父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "门人的父亲，控告白莲教某"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "县令，受理门人父控告，上报上官"
+    },
+    {
+     "name": "巨人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "太行山中的妖怪，高与树等，吞食白莲教某妻、子及本人"
+    },
+    {
+     "name": "同师者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白莲教某的同门，暗中向门人父泄露实情"
+    },
+    {
+     "name": "山西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "白莲教某的籍贯"
+    },
+    {
+     "name": "太行山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "押解途中经过的山，巨人出没之处"
+    },
+    {
+     "name": "白莲教",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "白莲教某所从事的教派活动"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "白莲教某",
+     "predicate": "NATIVE_OF",
+     "object": "山西",
+     "evidence": "白莲教某者，山西人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白莲教某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "白莲教",
+     "evidence": "白莲教某者，山西人，忘其姓名，大约徐鸿儒之徒。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白莲教某",
+     "predicate": "KIN",
+     "object": "爱妾",
+     "evidence": "后有爱妾与门人通",
+     "confidence": 0.9
+    },
+    {
+     "subject": "爱妾",
+     "predicate": "LOVES",
+     "object": "门人",
+     "evidence": "后有爱妾与门人通",
+     "confidence": 0.9
+    },
+    {
+     "subject": "白莲教某",
+     "predicate": "KILLED",
+     "object": "门人",
+     "evidence": "某即呼屠人杀之，货其肉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "门人父",
+     "predicate": "KIN",
+     "object": "门人",
+     "evidence": "门人父以子不归，过问之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同师者",
+     "predicate": "HELPED",
+     "object": "门人父",
+     "evidence": "有同师者，隐知其事，泄诸门人父。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "门人父",
+     "predicate": "PARTICIPATED_IN",
+     "object": "白莲教",
+     "evidence": "门人父告之邑宰。",
+     "confidence": 0.5
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "PUNISHED",
+     "object": "白莲教某",
+     "evidence": "宰恐其遁，不敢捕治，达于上官，请甲士千人，围其第",
+     "confidence": 0.8
+    },
+    {
+     "subject": "巨人",
+     "predicate": "KILLED",
+     "object": "白莲教某",
+     "evidence": "巨人抓攫入口，伸颈咽下，从容竟去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白莲教某",
+     "predicate": "LIVES_AT",
+     "object": "太行山",
+     "evidence": "途经太行山",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:12.841Z"
+}

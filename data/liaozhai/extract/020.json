@@ -1,0 +1,99 @@
+{
+ "no": 20,
+ "title": "雹神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 426,
+   "entities": [
+    {
+     "name": "王太常",
+     "type": "Person",
+     "aliases": [
+      "王公筠苍",
+      "王公"
+     ],
+     "nickname": "",
+     "description": "《雹神》中赴楚任职、登龙虎山谒天师的官员"
+    },
+    {
+     "name": "李左车",
+     "type": "Spirit",
+     "aliases": [
+      "雹神"
+     ],
+     "nickname": "",
+     "description": "《雹神》中世传的雹神，奉旨雨雹"
+    },
+    {
+     "name": "张天师",
+     "type": "Person",
+     "aliases": [
+      "天师"
+     ],
+     "nickname": "",
+     "description": "《雹神》中龙虎山天师，设宴款待王公"
+    },
+    {
+     "name": "龙虎山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《雹神》中天师所居之山"
+    },
+    {
+     "name": "章丘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《雹神》中雹神奉命降雨雹之地"
+    },
+    {
+     "name": "楚中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《雹神》中王公筠苍莅任之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王太常",
+     "predicate": "LIVES_AT",
+     "object": "楚中",
+     "evidence": "王公筠苍，莅任楚中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李左车",
+     "predicate": "HELPED",
+     "object": "王太常",
+     "evidence": "闻驺从将临，先遣负弩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张天师",
+     "predicate": "HELPED",
+     "object": "王太常",
+     "evidence": "天师治具相款",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李左车",
+     "predicate": "PARTICIPATED_IN",
+     "object": "雨雹",
+     "evidence": "适言奉旨雨雹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雨雹",
+     "predicate": "OCCURRED_AT",
+     "object": "章丘",
+     "evidence": "曰：章丘",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:19.967Z"
+}

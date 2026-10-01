@@ -1,0 +1,144 @@
+{
+ "no": 113,
+ "title": "刘海石",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 963,
+   "entities": [
+    {
+     "name": "刘海石",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "蒲台人，后成仙，师从山石道人"
+    },
+    {
+     "name": "刘沧客",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "滨州生员，家境富裕"
+    },
+    {
+     "name": "刘吉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘沧客长子，十七岁名士"
+    },
+    {
+     "name": "倪氏女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐属精怪，化女害人"
+    },
+    {
+     "name": "山石道人",
+     "type": "Spirit",
+     "aliases": [
+      "吕仙",
+      "吕洞宾"
+     ],
+     "nickname": "",
+     "description": "刘海石之师，实为吕洞宾"
+    },
+    {
+     "name": "蒲台",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘海石籍贯地"
+    },
+    {
+     "name": "滨州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘沧客家乡，刘海石避乱地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘海石",
+     "predicate": "NATIVE_OF",
+     "object": "蒲台",
+     "evidence": "刘海石，蒲台人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘海石",
+     "predicate": "LIVES_AT",
+     "object": "滨州",
+     "evidence": "避乱于滨州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘海石",
+     "predicate": "FRIEND",
+     "object": "刘沧客",
+     "evidence": "与滨州生刘沧客同函丈，因相善，订为昆季",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘沧客",
+     "predicate": "KIN",
+     "object": "刘吉",
+     "evidence": "长子吉，十七岁，为邑名士",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘沧客",
+     "predicate": "SPOUSE",
+     "object": "倪氏女",
+     "evidence": "沧客又内邑中倪氏女，大嬖之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "倪氏女",
+     "predicate": "HARMED",
+     "object": "刘吉",
+     "evidence": "长子患脑痛卒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "倪氏女",
+     "predicate": "HARMED",
+     "object": "刘沧客",
+     "evidence": "兄有灭门之祸",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘海石",
+     "predicate": "HELPED",
+     "object": "刘沧客",
+     "evidence": "幸而遇仆，请为兄贺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘海石",
+     "predicate": "PUNISHED",
+     "object": "倪氏女",
+     "evidence": "海石以界方击其首",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘海石",
+     "predicate": "KILLED",
+     "object": "倪氏女",
+     "evidence": "执而拔之，随手复化为狸",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘海石",
+     "predicate": "FRIEND",
+     "object": "山石道人",
+     "evidence": "特从师习小技耳",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:56.870Z"
+}

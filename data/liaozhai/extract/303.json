@@ -1,0 +1,99 @@
+{
+ "no": 303,
+ "title": "医术",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 680,
+   "entities": [
+    {
+     "name": "张氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂县贫民，后成医生"
+    },
+    {
+     "name": "青州太守",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "患咳嗽，征召医生"
+    },
+    {
+     "name": "韩翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都名医，未著时卖药"
+    },
+    {
+     "name": "沂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂县，张氏籍贯"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州府，太守所在"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都县，韩翁籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张氏",
+     "predicate": "NATIVE_OF",
+     "object": "沂",
+     "evidence": "张氏者，沂之贫民。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张氏",
+     "predicate": "PARTICIPATED_IN",
+     "object": "青州太守征医",
+     "evidence": "会青州太守病嗽，牒檄所属征医。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青州太守征医",
+     "predicate": "OCCURRED_AT",
+     "object": "青州",
+     "evidence": "会青州太守病嗽，牒檄所属征医。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张氏",
+     "predicate": "HELPED",
+     "object": "青州太守",
+     "evidence": "以沈进太守。一服，病良已。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩翁",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "益都韩翁，名医也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韩翁",
+     "predicate": "HELPED",
+     "object": "伤寒将死之子",
+     "evidence": "遂付之。中夜，主人挝门甚急。……乃知病者汗出而愈矣。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:08.315Z"
+}

@@ -1,0 +1,113 @@
+{
+ "no": 419,
+ "title": "任秀",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 966,
+   "entities": [
+    {
+     "name": "任建之",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鱼台人，贩毡裘为业，病死于陕"
+    },
+    {
+     "name": "申竹亭",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宿迁人，与任建之结拜，后负义"
+    },
+    {
+     "name": "任秀",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "任建之之子，后成富商"
+    },
+    {
+     "name": "张某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "任秀表叔，贾京师"
+    },
+    {
+     "name": "鱼台",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，任建之籍贯"
+    },
+    {
+     "name": "陕",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，任建之经商病逝处"
+    },
+    {
+     "name": "宿迁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，申竹亭籍贯"
+    },
+    {
+     "name": "临清",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，任秀泊舟赌博处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "任建之",
+     "predicate": "NATIVE_OF",
+     "object": "鱼台",
+     "evidence": "任建之，鱼台人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "申竹亭",
+     "predicate": "NATIVE_OF",
+     "object": "宿迁",
+     "evidence": "申竹亭，宿迁人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "任建之",
+     "predicate": "FRIEND",
+     "object": "申竹亭",
+     "evidence": "话言投契，盟为弟昆",
+     "confidence": 0.95
+    },
+    {
+     "subject": "任秀",
+     "predicate": "KIN",
+     "object": "任建之",
+     "evidence": "任子秀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "任秀",
+     "predicate": "KIN",
+     "object": "张某",
+     "evidence": "有表叔张某",
+     "confidence": 0.95
+    },
+    {
+     "subject": "任秀",
+     "predicate": "LIVES_AT",
+     "object": "临清",
+     "evidence": "至临清，泊舟关外",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:50.860Z"
+}

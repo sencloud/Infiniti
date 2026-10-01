@@ -1,0 +1,92 @@
+{
+ "no": 123,
+ "title": "李司鉴",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 199,
+   "entities": [
+    {
+     "name": "李司鉴",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "永年举人，打死妻子后自残伏冥诛"
+    },
+    {
+     "name": "李氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李司鉴之妻，被其打死"
+    },
+    {
+     "name": "朱云门",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "总督，题参革除李司鉴功名"
+    },
+    {
+     "name": "永年",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，李司鉴籍贯及案发地"
+    },
+    {
+     "name": "广平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "府名，受理李司鉴案"
+    },
+    {
+     "name": "城隍庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李司鉴自残跪神之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李司鉴",
+     "predicate": "KILLED",
+     "object": "李氏",
+     "evidence": "于康熙四年九月二十八日，打死其妻李氏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李司鉴",
+     "predicate": "SPOUSE",
+     "object": "李氏",
+     "evidence": "打死其妻李氏。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李司鉴",
+     "predicate": "NATIVE_OF",
+     "object": "永年",
+     "evidence": "李司鉴，永年举人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李司鉴",
+     "predicate": "LIVES_AT",
+     "object": "永年",
+     "evidence": "李司鉴，永年举人也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱云门",
+     "predicate": "PUNISHED",
+     "object": "李司鉴",
+     "evidence": "时总督朱云门题参革褫究拟，已奉俞旨",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:58.437Z"
+}

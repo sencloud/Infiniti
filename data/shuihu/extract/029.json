@@ -1,0 +1,183 @@
+{
+ "no": 29,
+ "title": "第二十九回 施恩重霸孟州道 武松醉打蒋门神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5677,
+   "entities": [
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "打虎英雄，被发配孟州，醉打蒋门神"
+    },
+    {
+     "name": "施恩",
+     "type": "Person",
+     "aliases": [
+      "小管营"
+     ],
+     "nickname": "金眼彪",
+     "description": "孟州管营之子，快活林被夺，求武松报仇"
+    },
+    {
+     "name": "蒋门神",
+     "type": "Person",
+     "aliases": [
+      "蒋忠"
+     ],
+     "nickname": "蒋门神",
+     "description": "张团练带来的人，夺快活林，被武松醉打"
+    },
+    {
+     "name": "老管营",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "施恩之父，孟州管营，敬重武松"
+    },
+    {
+     "name": "张团练",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州团练，带蒋门神夺快活林"
+    },
+    {
+     "name": "快活林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州东门外市井，施恩旧业被蒋门神夺"
+    },
+    {
+     "name": "孟州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州名，武松发配地，快活林所在"
+    },
+    {
+     "name": "安平寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孟州牢城营寨，武松配军处"
+    },
+    {
+     "name": "东潞州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，张团练从东潞州来"
+    },
+    {
+     "name": "景阳冈打虎",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松醉后景阳冈打死大虫"
+    },
+    {
+     "name": "醉打蒋门神",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "武松醉打蒋门神，夺回快活林"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武松",
+     "predicate": "SWORN_BROTHER",
+     "object": "施恩",
+     "evidence": "武松连忙答礼，结为弟兄。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "施恩",
+     "predicate": "KIN",
+     "object": "老管营",
+     "evidence": "待家尊出来相见了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "SERVED",
+     "object": "张团练",
+     "evidence": "近来被这本营内张团练，新从东潞州来，带一个人到此。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "DEFEATED",
+     "object": "施恩",
+     "evidence": "小弟不肯让他，吃那厮一顿拳脚打了，两个月起不得床。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "ATTACKED",
+     "object": "快活林",
+     "evidence": "公然夺了这个去处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "DEFEATED",
+     "object": "蒋门神",
+     "evidence": "打的蒋门神在地下叫饶。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "醉打蒋门神",
+     "evidence": "武松醉打蒋门神",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "PARTICIPATED_IN",
+     "object": "景阳冈打虎",
+     "evidence": "景阳冈上如何打得这只大虫！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "STATIONED_AT",
+     "object": "安平寨",
+     "evidence": "施恩和武松两个离了安平寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "施恩",
+     "predicate": "STATIONED_AT",
+     "object": "孟州",
+     "evidence": "孟州一境起小弟一个诨名",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蒋门神",
+     "predicate": "STATIONED_AT",
+     "object": "孟州",
+     "evidence": "正是蒋门神初来孟州新娶的妾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张团练",
+     "predicate": "NATIVE_OF",
+     "object": "东潞州",
+     "evidence": "新从东潞州来",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:18.614Z"
+}

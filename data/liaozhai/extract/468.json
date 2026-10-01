@@ -1,0 +1,225 @@
+{
+ "no": 468,
+ "title": "田子成",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1172,
+   "entities": [
+    {
+     "name": "田子成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江宁人，过洞庭舟覆而没"
+    },
+    {
+     "name": "田良耜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "田子成之子，明季进士"
+    },
+    {
+     "name": "杜氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "田子成之妻，闻讣仰药而死"
+    },
+    {
+     "name": "卢十兄",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "田子成鬼魂，与良耜对酌"
+    },
+    {
+     "name": "江叟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "茅屋中对酌之叟，自称姓江"
+    },
+    {
+     "name": "杜野侯",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "江西人，年十九溺于江，鬼魂"
+    },
+    {
+     "name": "高翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "二十年前富而好善，埋溺者"
+    },
+    {
+     "name": "洞庭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "江湖，田子成溺死处"
+    },
+    {
+     "name": "江宁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "田子成籍贯"
+    },
+    {
+     "name": "汉阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "田良耜降县丞隶汉阳"
+    },
+    {
+     "name": "竹桥",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杜夫人葬处，诗中所忆"
+    },
+    {
+     "name": "江西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杜野侯籍贯"
+    },
+    {
+     "name": "酒令",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "叟所行之令，掷骰说典"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "田子成",
+     "predicate": "SPOUSE",
+     "object": "杜氏",
+     "evidence": "妻杜氏，闻讣，仰药而死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田良耜",
+     "predicate": "KIN",
+     "object": "田子成",
+     "evidence": "是先君也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田良耜",
+     "predicate": "KIN",
+     "object": "杜氏",
+     "evidence": "妻杜氏，闻讣，仰药而死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田良耜",
+     "predicate": "NATIVE_OF",
+     "object": "江宁",
+     "evidence": "江宁田子成",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田子成",
+     "predicate": "NATIVE_OF",
+     "object": "江宁",
+     "evidence": "江宁田子成",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田良耜",
+     "predicate": "LIVES_AT",
+     "object": "汉阳",
+     "evidence": "降县丞，隶汉阳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜野侯",
+     "predicate": "NATIVE_OF",
+     "object": "江西",
+     "evidence": "此江西杜野侯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜氏",
+     "predicate": "LIVES_AT",
+     "object": "竹桥",
+     "evidence": "葬竹桥之西",
+     "confidence": 0.85
+    },
+    {
+     "subject": "卢十兄",
+     "predicate": "FRIEND",
+     "object": "田子成",
+     "evidence": "少时相善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢十兄",
+     "predicate": "HELPED",
+     "object": "田子成",
+     "evidence": "因收其骨，葬江边耳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "卢十兄",
+     "predicate": "HELPED",
+     "object": "田良耜",
+     "evidence": "明日来此，当指示之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高翁",
+     "predicate": "HELPED",
+     "object": "田子成",
+     "evidence": "溺水者皆拯其尸而埋之",
+     "confidence": 0.85
+    },
+    {
+     "subject": "田良耜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "酒令",
+     "evidence": "一令请共行之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "江叟",
+     "predicate": "PARTICIPATED_IN",
+     "object": "酒令",
+     "evidence": "一令请共行之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杜野侯",
+     "predicate": "PARTICIPATED_IN",
+     "object": "酒令",
+     "evidence": "次少年，掷得双二单四",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卢十兄",
+     "predicate": "PARTICIPATED_IN",
+     "object": "酒令",
+     "evidence": "卢得双幺单二",
+     "confidence": 0.9
+    },
+    {
+     "subject": "酒令",
+     "predicate": "OCCURRED_AT",
+     "object": "洞庭",
+     "evidence": "艤舟江岸，闻洞箫声",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:13.241Z"
+}

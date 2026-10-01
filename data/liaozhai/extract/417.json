@@ -1,0 +1,139 @@
+{
+ "no": 417,
+ "title": "青蛙神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1843,
+   "entities": [
+    {
+     "name": "薛崑生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚地人，幼惠美姿容，娶蛙神女十娘"
+    },
+    {
+     "name": "薛翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛崑生之父，性朴拙"
+    },
+    {
+     "name": "神使青衣媪",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "蛙神使者，为神传意嫁女"
+    },
+    {
+     "name": "蛙神",
+     "type": "Spirit",
+     "aliases": [
+      "神翁",
+      "神媪"
+     ],
+     "nickname": "",
+     "description": "江汉间所祀蛙神，十娘之父"
+    },
+    {
+     "name": "姜氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾与薛崑生议婚，因神阻而退"
+    },
+    {
+     "name": "袁氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "曾与十娘议婚，后十娘退聘"
+    },
+    {
+     "name": "薛母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛崑生之母，为十娘事流泪"
+    },
+    {
+     "name": "蛙神祠",
+     "type": "Place",
+     "aliases": [
+      "祠"
+     ],
+     "nickname": "",
+     "description": "江汉间祀蛙神之庙"
+    },
+    {
+     "name": "薛家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "薛崑生家宅，后为神所建"
+    },
+    {
+     "name": "袁家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁氏宅，曾候十娘嫁入"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "薛崑生",
+     "predicate": "KIN",
+     "object": "薛翁",
+     "evidence": "薛翁性朴拙，雅不欲，辞以儿幼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "薛崑生",
+     "predicate": "KIN",
+     "object": "薛母",
+     "evidence": "母一日忿曰：儿既娶，仍累媪！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "神使青衣媪",
+     "predicate": "HELPED",
+     "object": "蛙神",
+     "evidence": "有青衣媪至其家，自称神使，坐致神意，愿以女下嫁崑生。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛崑生",
+     "predicate": "LIVES_AT",
+     "object": "薛家",
+     "evidence": "趋归告翁。翁仓遽无所为计。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛崑生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "婚嫁",
+     "evidence": "即夕合卺，琴瑟甚谐。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蛙神",
+     "predicate": "HELPED",
+     "object": "薛崑生",
+     "evidence": "至夜，神示梦于近村，使为婿家营宅。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "薛崑生",
+     "predicate": "OWNS",
+     "object": "第舍",
+     "evidence": "不数日，第舍一新，床幕器具悉备焉。",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:52.617Z"
+}

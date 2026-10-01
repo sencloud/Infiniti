@@ -1,0 +1,284 @@
+{
+ "no": 315,
+ "title": "嫦娥",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3648,
+   "entities": [
+    {
+     "name": "宗子美",
+     "type": "Person",
+     "aliases": [
+      "宗生"
+     ],
+     "nickname": "",
+     "description": "太原人，从父游学流寓广陵，后娶嫦娥"
+    },
+    {
+     "name": "嫦娥",
+     "type": "Spirit",
+     "aliases": [
+      "姮娥"
+     ],
+     "nickname": "",
+     "description": "月宫仙子，被谪下凡，托为寇劫绝宗望"
+    },
+    {
+     "name": "颠当",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "西山狐女，与宗子美相好，后归嫦娥"
+    },
+    {
+     "name": "林妪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "红桥下老妇，留养嫦娥，欲奇货居之"
+    },
+    {
+     "name": "王母",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "王母娘娘，老尼为其守府者"
+    },
+    {
+     "name": "老尼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西山古寺老尼，一目眇，王母守府者"
+    },
+    {
+     "name": "宗父",
+     "type": "Person",
+     "aliases": [
+      "翁"
+     ],
+     "nickname": "",
+     "description": "宗子美之父，与林妪有素，曾戏约婚"
+    },
+    {
+     "name": "宗母",
+     "type": "Person",
+     "aliases": [
+      "媪"
+     ],
+     "nickname": "",
+     "description": "宗子美之母，逾年与翁并卒"
+    },
+    {
+     "name": "广陵",
+     "type": "Place",
+     "aliases": [
+      "扬州"
+     ],
+     "nickname": "",
+     "description": "宗子美流寓之地"
+    },
+    {
+     "name": "太原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宗子美籍贯"
+    },
+    {
+     "name": "红桥",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "广陵地名，林妪居所附近"
+    },
+    {
+     "name": "西山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "颠当所居，有古寺老尼"
+    },
+    {
+     "name": "姚巷",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "京城小巷，宗子美遇颠当处"
+    },
+    {
+     "name": "黄金一铤",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "嫦娥赠宗子美之金，用以纳林妪"
+    },
+    {
+     "name": "紫荷囊",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "颠当胁下佩囊，嫦娥嘱宗窃取"
+    },
+    {
+     "name": "美人画卷",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宗子美家藏画卷，嫦娥效飞燕杨妃"
+    },
+    {
+     "name": "玉瓶插柳",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "颠当用以学观音之器物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宗子美",
+     "predicate": "NATIVE_OF",
+     "object": "太原",
+     "evidence": "太原宗子美，从父游学，流寓广陵。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宗子美",
+     "predicate": "LIVES_AT",
+     "object": "广陵",
+     "evidence": "太原宗子美，从父游学，流寓广陵。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林妪",
+     "predicate": "LIVES_AT",
+     "object": "红桥",
+     "evidence": "父与红桥下林妪有素。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宗父",
+     "predicate": "FRIEND",
+     "object": "林妪",
+     "evidence": "父与红桥下林妪有素。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "LIVES_AT",
+     "object": "红桥",
+     "evidence": "女忽自至，告诉孤苦。问其小字，则名嫦娥。妪爱而留之",
+     "confidence": 0.85
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "SPOUSE",
+     "object": "宗子美",
+     "evidence": "即遣媒纳金林妪，妪无辞，以嫦娥归宗。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宗子美",
+     "predicate": "LOVES",
+     "object": "嫦娥",
+     "evidence": "子美不能忘情嫦娥",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宗子美",
+     "predicate": "LOVES",
+     "object": "颠当",
+     "evidence": "宗喜挽之，遂相燕好。约为嫁娶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "颠当",
+     "predicate": "LIVES_AT",
+     "object": "西山",
+     "evidence": "宗问其生平，乃知其西山狐也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "OWNS",
+     "object": "黄金一铤",
+     "evidence": "便入室，取黄金一铤付之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宗子美",
+     "predicate": "OWNS",
+     "object": "美人画卷",
+     "evidence": "适见美人画卷",
+     "confidence": 0.9
+    },
+    {
+     "subject": "颠当",
+     "predicate": "OWNS",
+     "object": "紫荷囊",
+     "evidence": "胁下有紫荷囊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "颠当",
+     "predicate": "OWNS",
+     "object": "玉瓶插柳",
+     "evidence": "颠当悄以玉瓶插柳，置几上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "HELPED",
+     "object": "宗子美",
+     "evidence": "便入室，取黄金一铤付之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "HELPED",
+     "object": "宗子美",
+     "evidence": "俄见嫦娥来，捉而提之，足离于地，入寺，取树上尸推挤之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "颠当",
+     "predicate": "HELPED",
+     "object": "宗子美",
+     "evidence": "女曰：'其行踪缥缈，妾亦不能深悉。西山有老尼，一目眇，问之，当自知。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "PUNISHED",
+     "object": "颠当",
+     "evidence": "嫦娥叠指弹之，曰：'小鬼头陷人不浅！'颠当叩头，但求赊死。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "PUNISHED",
+     "object": "颠当",
+     "evidence": "嫦娥乃掐其耳，逾刻释手",
+     "confidence": 0.9
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "KIN",
+     "object": "宗子美",
+     "evidence": "遂以刃破左胁出之，果男。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "嫦娥",
+     "predicate": "PARTICIPATED_IN",
+     "object": "宗子美",
+     "evidence": "即遣媒纳金林妪，妪无辞，以嫦娥归宗。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:14.372Z"
+}

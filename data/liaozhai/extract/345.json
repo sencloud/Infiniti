@@ -1,0 +1,36 @@
+{
+ "no": 345,
+ "title": "张贡士",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 94,
+   "entities": [
+    {
+     "name": "张贡士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "安丘人，患病卧床，见心头小人唱戏"
+    },
+    {
+     "name": "小人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "从张贡士心头出，半尺高，儒冠儒服唱昆曲"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "小人",
+     "predicate": "LIVES_AT",
+     "object": "张贡士心头",
+     "evidence": "忽见心头有小人出",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:21.526Z"
+}

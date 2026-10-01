@@ -1,0 +1,524 @@
+{
+ "no": 125,
+ "title": "6.7 用相似三角形解决问题",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6013,
+   "entities": [
+    {
+     "name": "平行投影",
+     "type": "Concept",
+     "aliases": [
+      "parallel projection"
+     ],
+     "nickname": "",
+     "description": "在平行光照射下物体所产生的影"
+    },
+    {
+     "name": "中心投影",
+     "type": "Concept",
+     "aliases": [
+      "central projection"
+     ],
+     "nickname": "",
+     "description": "在点光源照射下物体所产生的影"
+    },
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的三角形"
+    },
+    {
+     "name": "相似三角形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形对应边成比例，对应角相等"
+    },
+    {
+     "name": "相似三角形的判定",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "判定两个三角形相似的方法"
+    },
+    {
+     "name": "平行于三角形一边的直线",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "平行于三角形一边的直线截其他两边，所截三角形与原三角形相似"
+    },
+    {
+     "name": "物高与影长成比例",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "平行光下同一时刻不同物体的物高与影长成比例"
+    },
+    {
+     "name": "全等形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "能够完全重合的两个图形"
+    },
+    {
+     "name": "位似形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "具有特殊位置关系的相似形"
+    },
+    {
+     "name": "黄金分割",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "把线段分成两部分，使其中一部分与全长的比等于另一部分与这部分的比"
+    },
+    {
+     "name": "比例尺",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图上距离与实际距离的比"
+    },
+    {
+     "name": "图形的平移",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形沿某个方向移动一定距离的变换"
+    },
+    {
+     "name": "图形的旋转",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形绕某一点转动一定角度的变换"
+    },
+    {
+     "name": "图形的对称",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形关于某直线或点对称的变换"
+    },
+    {
+     "name": "图形的位似",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形按一定比例放大或缩小的变换"
+    },
+    {
+     "name": "由特殊到一般",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从特殊情况出发归纳一般结论的思想方法"
+    },
+    {
+     "name": "由一般到特殊",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从一般结论出发研究特殊情况的思想方法"
+    },
+    {
+     "name": "数学抽象",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把实际问题抽象成数学问题的思想方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平行投影",
+     "predicate": "PREREQUISITE",
+     "object": "物高与影长成比例",
+     "evidence": "在平行光的照射下，在同一时刻，不同物体的物高与影长成比例。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "中心投影",
+     "predicate": "CONTRASTS",
+     "object": "平行投影",
+     "evidence": "在点光源的照射下，物体所产生的影称为中心投影。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "物高与影长成比例",
+     "predicate": "APPLIES_TO",
+     "object": "相似三角形",
+     "evidence": "把一些实际问题抽象成相似三角形问题，然后用相似形的知识解决这些问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "相似三角形的对应边成比例，对应角相等",
+     "confidence": 0.95
+    },
+    {
+     "subject": "相似三角形的判定",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "探索三角形相似的条件",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行于三角形一边的直线",
+     "predicate": "DERIVES",
+     "object": "相似三角形的判定",
+     "evidence": "通过推理得到“平行于三角形一边的直线与其他两边相交，所截得的三角形与原三角形相似”的结论，并运用这个结论探索三角形相似的条件",
+     "confidence": 0.95
+    },
+    {
+     "subject": "全等形",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似三角形",
+     "evidence": "全等形是具有特殊数量关系的相似形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "位似形",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似三角形",
+     "evidence": "位似形是具有特殊位置关系的相似形",
+     "confidence": 0.95
+    },
+    {
+     "subject": "由特殊到一般",
+     "predicate": "RELATED",
+     "object": "由一般到特殊",
+     "evidence": "我们经历了“由特殊到一般，再由一般到特殊”的认识过程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数学抽象",
+     "predicate": "APPLIES_TO",
+     "object": "相似三角形",
+     "evidence": "把一些实际问题抽象成相似三角形问题",
+     "confidence": 0.9
+    },
+    {
+     "subject": "比例尺",
+     "predicate": "APPLIES_TO",
+     "object": "相似三角形",
+     "evidence": "量出A、B两点间的图上距离，就可以根据比例尺求出A、B两地间的实际距离",
+     "confidence": 0.85
+    },
+    {
+     "subject": "图形的平移",
+     "predicate": "RELATED",
+     "object": "图形的位似",
+     "evidence": "我们已经学习了图形的平移、旋转、对称、位似等变化",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2742,
+   "entities": [
+    {
+     "name": "相似三角形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "对应角相等、对应边成比例的三角形"
+    },
+    {
+     "name": "相似三角形的判定",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "判定两个三角形相似的方法"
+    },
+    {
+     "name": "相似三角形的性质",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似三角形的对应边成比例、面积比等于相似比的平方"
+    },
+    {
+     "name": "位似",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一种特殊的相似图形，对应点连线交于一点"
+    },
+    {
+     "name": "位似中心",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "位似图形对应点连线的交点"
+    },
+    {
+     "name": "相似比",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "相似图形对应边的比"
+    },
+    {
+     "name": "平移",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形沿某一方向平行移动"
+    },
+    {
+     "name": "旋转",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形绕某一点转动一定角度"
+    },
+    {
+     "name": "翻折",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "图形沿某直线折叠"
+    },
+    {
+     "name": "平面直角坐标系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用坐标表示点位置的坐标系"
+    },
+    {
+     "name": "等腰直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条直角边相等的直角三角形"
+    },
+    {
+     "name": "矩形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个角都是直角的平行四边形"
+    },
+    {
+     "name": "正方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四条边相等且四个角都是直角的四边形"
+    },
+    {
+     "name": "三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由三条线段首尾顺次相接组成的图形"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "圆",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "平面内到定点距离等于定长的点的集合"
+    },
+    {
+     "name": "平行线分线段成比例",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条直线被一组平行线所截，所得的对应线段成比例"
+    },
+    {
+     "name": "面积比",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两个图形面积的比值"
+    },
+    {
+     "name": "函数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "描述两个变量之间对应关系的数学概念"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "相似三角形的判定",
+     "predicate": "PREREQUISITE",
+     "object": "相似三角形",
+     "evidence": "判断△ABC与△EAB是否相似，并说明理由",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的性质",
+     "predicate": "PREREQUISITE",
+     "object": "相似三角形",
+     "evidence": "求△CEF和△CAD的面积",
+     "confidence": 0.9
+    },
+    {
+     "subject": "位似",
+     "predicate": "PREREQUISITE",
+     "object": "相似三角形",
+     "evidence": "以点O为位似中心，在第一象限内把△AOB按相似比2:1放大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "位似中心",
+     "predicate": "PREREQUISITE",
+     "object": "位似",
+     "evidence": "以点O为位似中心",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似比",
+     "predicate": "PREREQUISITE",
+     "object": "位似",
+     "evidence": "按相似比2:1放大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "PREREQUISITE",
+     "object": "平面直角坐标系",
+     "evidence": "把△AOB沿x轴向左平移1个单位长度得到△A1O1B1",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旋转",
+     "predicate": "PREREQUISITE",
+     "object": "平面直角坐标系",
+     "evidence": "把△AOB绕原点旋转180°得到△A2OB2",
+     "confidence": 0.9
+    },
+    {
+     "subject": "翻折",
+     "predicate": "PREREQUISITE",
+     "object": "平面直角坐标系",
+     "evidence": "把△AOB沿x轴翻折得到△A3OB",
+     "confidence": 0.9
+    },
+    {
+     "subject": "等腰直角三角形",
+     "predicate": "SPECIAL_CASE",
+     "object": "直角三角形",
+     "evidence": "△ABC与△DEA是两个全等的等腰直角三角形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "正方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "矩形",
+     "evidence": "在正方形ABCD中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的性质",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "求△CEF和△CAD的面积",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的判定",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "判断△ABC与△EAB是否相似",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平行线分线段成比例",
+     "predicate": "PROPERTY_OF",
+     "object": "相似三角形",
+     "evidence": "EF∥BC，交AC于点F",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的性质",
+     "predicate": "APPLIES_TO",
+     "object": "面积比",
+     "evidence": "求△CEF和△CAD的面积",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的判定",
+     "predicate": "APPLIES_TO",
+     "object": "三角形",
+     "evidence": "判断△ABC与△EAB是否相似",
+     "confidence": 0.9
+    },
+    {
+     "subject": "位似",
+     "predicate": "APPLIES_TO",
+     "object": "平面直角坐标系",
+     "evidence": "以点O为位似中心，在第一象限内把△AOB按相似比2:1放大",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平移",
+     "predicate": "CONTRASTS",
+     "object": "旋转",
+     "evidence": "把△AOB沿x轴向左平移1个单位长度得到△A1O1B1；把△AOB绕原点旋转180°得到△A2OB2",
+     "confidence": 0.9
+    },
+    {
+     "subject": "旋转",
+     "predicate": "CONTRASTS",
+     "object": "翻折",
+     "evidence": "把△AOB绕原点旋转180°得到△A2OB2；把△AOB沿x轴翻折得到△A3OB",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的性质",
+     "predicate": "APPLIES_TO",
+     "object": "函数",
+     "evidence": "设AD=x，S'/S=y，求y与x的函数表达式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的判定",
+     "predicate": "RELATED",
+     "object": "等腰直角三角形",
+     "evidence": "△ABC与△DEA是两个全等的等腰直角三角形，图中有哪几对相似三角形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的判定",
+     "predicate": "RELATED",
+     "object": "正方形",
+     "evidence": "在正方形ABCD中，图中有哪几对相似三角形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似三角形的判定",
+     "predicate": "RELATED",
+     "object": "圆",
+     "evidence": "以DE为直径的⊙O交AE于点F",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:35.935Z"
+}

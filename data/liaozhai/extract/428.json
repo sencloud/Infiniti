@@ -1,0 +1,66 @@
+{
+ "no": 428,
+ "title": "司札吏",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 277,
+   "entities": [
+    {
+     "name": "游击官某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "司札吏篇中的武将，妻妾甚多，忌讳小名"
+    },
+    {
+     "name": "司札吏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "司札吏篇中主管书信的小吏，被游击官打死"
+    },
+    {
+     "name": "铁汉",
+     "type": "Person",
+     "aliases": [
+      "铁屎"
+     ],
+     "nickname": "",
+     "description": "牛首山僧人，自名铁汉，又名铁屎"
+    },
+    {
+     "name": "王司直",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秀水人，刻印铁汉诗集"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "游击官某",
+     "predicate": "KILLED",
+     "object": "司札吏",
+     "evidence": "大怒，以研击之，立毙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司札吏",
+     "predicate": "HARMED",
+     "object": "游击官某",
+     "evidence": "见吏持刺入。问：“何为？”曰：“‘马子安’来拜。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王司直",
+     "predicate": "HELPED",
+     "object": "铁汉",
+     "evidence": "秀水王司直梓其诗，名曰牛山四十屁",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:54.499Z"
+}

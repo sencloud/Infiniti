@@ -1,0 +1,169 @@
+{
+ "no": 382,
+ "title": "天宫",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1492,
+   "entities": [
+    {
+     "name": "郭生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "京都人，年二十馀，仪容修美，被仙人引入洞府"
+    },
+    {
+     "name": "仙人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "自称仙，居洞府，与郭生有夙缘"
+    },
+    {
+     "name": "严东楼",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "严嵩之子，其家楼阁似天宫"
+    },
+    {
+     "name": "达官",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "闻郭生事而诘之的官员"
+    },
+    {
+     "name": "洞府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙人居所，石壁阴阴有土气"
+    },
+    {
+     "name": "天宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "楼阁无数，堂上垂珠帘，烧巨烛如昼"
+    },
+    {
+     "name": "京都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郭生籍贯"
+    },
+    {
+     "name": "郭生斋",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "郭生书房，醒来处"
+    },
+    {
+     "name": "黄金",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙人赠郭生一斤黄金"
+    },
+    {
+     "name": "珠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙人赠郭生百颗珍珠"
+    },
+    {
+     "name": "锦被",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "裹郭生之被，湖绵杂香屑为之"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "郭生",
+     "predicate": "LIVES_AT",
+     "object": "洞府",
+     "evidence": "此是洞府。与有夙缘，勿相讶，但耐居之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仙人",
+     "predicate": "LIVES_AT",
+     "object": "洞府",
+     "evidence": "此是洞府。与有夙缘，勿相讶，但耐居之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仙人",
+     "predicate": "LIVES_AT",
+     "object": "天宫",
+     "evidence": "此是天宫。未明，宜早去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭生",
+     "predicate": "NATIVE_OF",
+     "object": "京都",
+     "evidence": "郭生，京都人，年二十馀，仪容修美。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭生",
+     "predicate": "LOVES",
+     "object": "仙人",
+     "evidence": "郭曰：今有人夜得名花，闻香扪干，而苦无灯烛，此情何以能堪？",
+     "confidence": 0.8
+    },
+    {
+     "subject": "郭生",
+     "predicate": "SPOUSE",
+     "object": "仙人",
+     "evidence": "遂与交。交已",
+     "confidence": 0.7
+    },
+    {
+     "subject": "郭生",
+     "predicate": "OWNS",
+     "object": "黄金",
+     "evidence": "赠以黄金一斤、珠百颗。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭生",
+     "predicate": "OWNS",
+     "object": "珠",
+     "evidence": "赠以黄金一斤、珠百颗。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "郭生",
+     "predicate": "OWNS",
+     "object": "锦被",
+     "evidence": "被置床头，香盈一室，拆视，则湖绵杂香屑为之，因珍藏焉。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "仙人",
+     "predicate": "HELPED",
+     "object": "郭生",
+     "evidence": "赠以黄金一斤、珠百颗。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "达官",
+     "predicate": "PUNISHED",
+     "object": "郭生",
+     "evidence": "后某达官闻而诘之，笑曰：此贾后之故智也。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:37.054Z"
+}

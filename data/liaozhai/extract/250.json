@@ -1,0 +1,50 @@
+{
+ "no": 250,
+ "title": "狐惩淫",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 720,
+   "entities": [
+    {
+     "name": "某生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《狐惩淫》中购新第的书生，好蓄媚药"
+    },
+    {
+     "name": "某生妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《狐惩淫》中某生之妻，误食狐置媚药"
+    },
+    {
+     "name": "新第",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《狐惩淫》中某生新购的宅院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "某生",
+     "predicate": "SPOUSE",
+     "object": "某生妻",
+     "evidence": "生妻备馔供客",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某生",
+     "predicate": "LIVES_AT",
+     "object": "新第",
+     "evidence": "某生购新第",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:47.876Z"
+}

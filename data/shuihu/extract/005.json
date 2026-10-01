@@ -1,0 +1,610 @@
+{
+ "no": 5,
+ "title": "第五回 小霸王醉入销金帐 花和尚大闹桃花村",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5983,
+   "entities": [
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁达",
+      "鲁提辖",
+      "花和尚"
+     ],
+     "nickname": "花和尚",
+     "description": "五台山出家和尚，原延安府提辖"
+    },
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "九纹龙",
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "江湖好汉，鲁智深好友"
+    },
+    {
+     "name": "李忠",
+     "type": "Person",
+     "aliases": [
+      "打虎将"
+     ],
+     "nickname": "打虎将",
+     "description": "江湖使枪棒卖药教头，桃花山大头领"
+    },
+    {
+     "name": "周通",
+     "type": "Person",
+     "aliases": [
+      "小霸王"
+     ],
+     "nickname": "小霸王",
+     "description": "桃花山二头领，欲强娶刘太公女"
+    },
+    {
+     "name": "智真长老",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五台山文殊院长老，鲁智深师父"
+    },
+    {
+     "name": "智清禅师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京大相国寺住持，智真长老师弟"
+    },
+    {
+     "name": "赵员外",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "代州雁门县财主，曾资助鲁智深"
+    },
+    {
+     "name": "刘太公",
+     "type": "Person",
+     "aliases": [
+      "桃花庄刘太公"
+     ],
+     "nickname": "",
+     "description": "桃花庄老人，刘女之父"
+    },
+    {
+     "name": "刘女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘太公之女，年十九岁"
+    },
+    {
+     "name": "桃花山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州附近山寨，李忠、周通为首"
+    },
+    {
+     "name": "五台山文殊院",
+     "type": "Organization",
+     "aliases": [
+      "五台山"
+     ],
+     "nickname": "",
+     "description": "鲁智深出家寺院"
+    },
+    {
+     "name": "桃花村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘太公所居村庄"
+    },
+    {
+     "name": "桃花庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘太公的庄院"
+    },
+    {
+     "name": "五台山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深出家之地"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，大相国寺所在"
+    },
+    {
+     "name": "延安府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深原任职地"
+    },
+    {
+     "name": "渭州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深打死镇关西之地"
+    },
+    {
+     "name": "代州雁门县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深逃亡后遇金老之地"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "桃花山附近州府"
+    },
+    {
+     "name": "禅杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深所使铁禅杖"
+    },
+    {
+     "name": "戒刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深所佩戒刀"
+    },
+    {
+     "name": "销金帐",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘女房中的销金帐子"
+    },
+    {
+     "name": "大闹桃花村",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深在桃花村打周通、闹庄事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "智真长老",
+     "predicate": "MASTER_OF",
+     "object": "鲁智深",
+     "evidence": "俺的师父是智真长老，与俺取了个讳字",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "五台山文殊院",
+     "evidence": "鲁智深自离了五台山文殊院",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "五台山",
+     "evidence": "鲁智深自离了五台山文殊院",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "NATIVE_OF",
+     "object": "延安府",
+     "evidence": "俺是延安府老种经略相公帐前提辖官",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "禅杖",
+     "evidence": "提了禅杖，作别了客店主人并铁匠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "跨了戒刀，提了禅杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FRIEND",
+     "object": "史进",
+     "evidence": "与哥哥在渭州酒楼前同史进三人分散",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FRIEND",
+     "object": "李忠",
+     "evidence": "和李忠都到厅上叙旧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李忠",
+     "predicate": "LEADS",
+     "object": "桃花山",
+     "evidence": "留小弟在山上为寨主，让第一把交椅教小弟坐了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周通",
+     "predicate": "MEMBER_OF",
+     "object": "桃花山",
+     "evidence": "先在这里桃花山扎寨，唤做小霸王周通",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李忠",
+     "predicate": "DEFEATED",
+     "object": "周通",
+     "evidence": "和小弟厮杀，被我赢了他",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "DEFEATED",
+     "object": "周通",
+     "evidence": "被鲁智深就势劈头巾带角儿揪住，一按按将下床来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹桃花村",
+     "evidence": "鲁智深把直裰脱了，拽扎起下面衣服，跨了戒刀，大踏步提了禅杖，出到打麦场上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大闹桃花村",
+     "predicate": "OCCURRED_AT",
+     "object": "桃花村",
+     "evidence": "此间唤做桃花村",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘太公",
+     "predicate": "KIN",
+     "object": "刘女",
+     "evidence": "老汉止有这个小女，今年方得一十九岁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周通",
+     "predicate": "ATTACKED",
+     "object": "桃花庄",
+     "evidence": "只见远远地四五十火把，照耀如同白日，一簇人马飞奔庄上来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "RESCUED",
+     "object": "刘女",
+     "evidence": "小僧有个道理，教他回心转意，不要娶你女儿如何",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵员外",
+     "predicate": "RESCUED",
+     "object": "鲁智深",
+     "evidence": "那员外赔钱去送俺五台山智真长老处落发为僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "销金帐",
+     "evidence": "把销金帐子下了，脱得赤条条地，跳上床去坐了",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1866,
+   "entities": [
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁达",
+      "鲁提辖"
+     ],
+     "nickname": "花和尚",
+     "description": "三拳打死镇关西后出家为僧，路过桃花山"
+    },
+    {
+     "name": "李忠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "打虎将",
+     "description": "桃花山寨主之一，曾与鲁智深相识"
+    },
+    {
+     "name": "周通",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "小霸王",
+     "description": "桃花山寨主之一，曾强娶刘太公之女"
+    },
+    {
+     "name": "刘太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "桃花村老人，其女被周通逼婚"
+    },
+    {
+     "name": "镇关西",
+     "type": "Person",
+     "aliases": [
+      "郑屠"
+     ],
+     "nickname": "",
+     "description": "被鲁智深三拳打死的恶霸"
+    },
+    {
+     "name": "真长老",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五台山文殊院长老，鲁智深的师父"
+    },
+    {
+     "name": "桃花山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "李忠、周通落草的山寨势力"
+    },
+    {
+     "name": "桃花村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘太公所居村庄，周通曾来逼婚"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "北宋都城，鲁智深离开桃花山后前往"
+    },
+    {
+     "name": "五台山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深出家之地，真长老所在"
+    },
+    {
+     "name": "销金帐",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "周通欲入的帐幕，代指逼婚事件"
+    },
+    {
+     "name": "金银酒器",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "桃花山寨中酒器，被鲁智深卷走"
+    },
+    {
+     "name": "戒刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深所携戒刀"
+    },
+    {
+     "name": "禅杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深所携禅杖"
+    },
+    {
+     "name": "度牒",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深的出家凭证，内藏真长老书信"
+    },
+    {
+     "name": "大闹桃花村",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深在桃花村打周通、救刘太公之女"
+    },
+    {
+     "name": "卷走金银酒器",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深打翻喽啰，取走桃花山金银酒器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鲁智深",
+     "predicate": "FRIEND",
+     "object": "李忠",
+     "evidence": "李忠也下了马，邀请智深入到寨中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FRIEND",
+     "object": "周通",
+     "evidence": "周通把头摸一摸，叫声：“呵呀！”扑翻身便剪拂。鲁智深答礼道：“休怪冲撞。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李忠",
+     "predicate": "LEADS",
+     "object": "桃花山",
+     "evidence": "这李忠、周通自在桃花山打劫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周通",
+     "predicate": "LEADS",
+     "object": "桃花山",
+     "evidence": "这李忠、周通自在桃花山打劫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李忠",
+     "predicate": "MEMBER_OF",
+     "object": "桃花山",
+     "evidence": "这李忠、周通自在桃花山打劫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周通",
+     "predicate": "MEMBER_OF",
+     "object": "桃花山",
+     "evidence": "这李忠、周通自在桃花山打劫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "KILLED",
+     "object": "镇关西",
+     "evidence": "三拳打死镇关西的便是他",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MASTER_OF",
+     "object": "真长老",
+     "evidence": "胸前度牒袋内，藏了真长老的书信",
+     "confidence": 0.5
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "跨了戒刀，提了禅杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "禅杖",
+     "evidence": "跨了戒刀，提了禅杖",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "度牒",
+     "evidence": "胸前度牒袋内，藏了真长老的书信",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹桃花村",
+     "evidence": "鲁智深便道：“周家兄弟，你来听俺说。刘太公这头亲事，你却不知……你依着洒家，把来弃了”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "卷走金银酒器",
+     "evidence": "只拿了桌上金银酒器，都踏匾了，拴在包里",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大闹桃花村",
+     "predicate": "OCCURRED_AT",
+     "object": "桃花村",
+     "evidence": "刘太公这头亲事，你却不知……你依着洒家，把来弃了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "卷走金银酒器",
+     "predicate": "OCCURRED_AT",
+     "object": "桃花山",
+     "evidence": "到得寨里，打一看时，只见两个小喽啰捆做一块在亭柱边；桌子上金银酒器都不见了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "五台山",
+     "evidence": "胸前度牒袋内，藏了真长老的书信",
+     "confidence": 0.7
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "东京",
+     "evidence": "拽开脚手，投东京便走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周通",
+     "predicate": "ATTACKED",
+     "object": "刘太公",
+     "evidence": "刘太公这头亲事，你却不知……你若娶了，教他老人家失所",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李忠",
+     "predicate": "FOUGHT",
+     "object": "客人",
+     "evidence": "那客人内有一个便捻着朴刀来斗李忠，一来一往，一去一回，斗了十馀合，不分胜负",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周通",
+     "predicate": "FOUGHT",
+     "object": "客人",
+     "evidence": "周通大怒，赶向前来，喝一声，众小喽啰一齐都上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李忠",
+     "predicate": "DEFEATED",
+     "object": "客人",
+     "evidence": "那伙客人抵当不住，转身便走，有那走得迟的，尽被搠死七八个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周通",
+     "predicate": "DEFEATED",
+     "object": "客人",
+     "evidence": "那伙客人抵当不住，转身便走，有那走得迟的，尽被搠死七八个",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:54.115Z"
+}

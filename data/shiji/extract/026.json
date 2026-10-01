@@ -1,0 +1,322 @@
+{
+ "no": 26,
+ "title": "历书",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4183,
+   "entities": [
+    {
+     "name": "黄帝",
+     "type": "Person",
+     "aliases": [
+      "轩辕",
+      "轩辕氏",
+      "有熊",
+      "公孙轩辕"
+     ],
+     "nickname": "",
+     "description": "上古帝王，考定星历，创建五行"
+    },
+    {
+     "name": "颛顼",
+     "type": "Person",
+     "aliases": [
+      "高阳",
+      "高阳氏"
+     ],
+     "nickname": "",
+     "description": "上古帝王，命重、黎分司天地"
+    },
+    {
+     "name": "羲和",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "尧时掌历法之官"
+    },
+    {
+     "name": "邹衍",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国时明五德之传的学者"
+    },
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉高祖",
+      "沛公",
+      "高祖",
+      "汉王"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝"
+    },
+    {
+     "name": "吕雉",
+     "type": "Person",
+     "aliases": [
+      "吕后",
+      "高后",
+      "吕太后"
+     ],
+     "nickname": "",
+     "description": "刘邦之妻，汉初女主"
+    },
+    {
+     "name": "张苍",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉初丞相，学律历"
+    },
+    {
+     "name": "公孙臣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁人，以终始五德上书"
+    },
+    {
+     "name": "新垣平",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "以望气见，言正历服色事"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "子长",
+      "太史公"
+     ],
+     "nickname": "",
+     "description": "《史记》作者，太史令"
+    },
+    {
+     "name": "唐都",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "方士，分天部"
+    },
+    {
+     "name": "落下闳",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "巴人，运算转历"
+    },
+    {
+     "name": "周襄王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东周天子"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸侯国，后统一六国"
+    },
+    {
+     "name": "汉",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘邦建立的王朝"
+    },
+    {
+     "name": "周",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周王朝"
+    },
+    {
+     "name": "夏",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "夏王朝"
+    },
+    {
+     "name": "殷",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "殷商王朝"
+    },
+    {
+     "name": "九黎",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "上古部族"
+    },
+    {
+     "name": "三苗",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "上古部族"
+    },
+    {
+     "name": "南正",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "官名，司天属神"
+    },
+    {
+     "name": "火正",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "官名，司地属民"
+    },
+    {
+     "name": "丞相",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "百官之长"
+    },
+    {
+     "name": "太史令",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "掌天文历法之官"
+    },
+    {
+     "name": "成纪",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，黄龙出现处"
+    },
+    {
+     "name": "泰山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "山名，封禅之地"
+    },
+    {
+     "name": "太初",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "汉武帝年号，改历事件"
+    },
+    {
+     "name": "封泰山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "封禅泰山"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "颛顼",
+     "predicate": "SUCCEEDED",
+     "object": "少暤氏",
+     "evidence": "少暤氏之衰也，九黎乱德……颛顼受之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "汉兴，高祖曰“北畤待我而起”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕雉",
+     "predicate": "RULED",
+     "object": "汉",
+     "evidence": "高后女主",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张苍",
+     "predicate": "HELD_OFFICE",
+     "object": "丞相",
+     "evidence": "事下丞相张苍",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙臣",
+     "predicate": "ADVISED",
+     "object": "汉",
+     "evidence": "鲁人公孙臣以终始五德上书",
+     "confidence": 0.9
+    },
+    {
+     "subject": "新垣平",
+     "predicate": "ADVISED",
+     "object": "汉",
+     "evidence": "新垣平以望气见，颇言正历服色事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马迁",
+     "predicate": "HELD_OFFICE",
+     "object": "太史令",
+     "evidence": "太史公曰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐都",
+     "predicate": "SERVED",
+     "object": "汉",
+     "evidence": "招致方士唐都，分其天部",
+     "confidence": 0.9
+    },
+    {
+     "subject": "落下闳",
+     "predicate": "SERVED",
+     "object": "汉",
+     "evidence": "巴落下闳运算转历",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "太初",
+     "evidence": "太初元年，岁名“焉逢摄提格”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "封泰山",
+     "evidence": "封泰山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "封泰山",
+     "predicate": "OCCURRED_AT",
+     "object": "泰山",
+     "evidence": "封泰山",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄帝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "太初",
+     "evidence": "盖闻昔者黄帝合而不死",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:45:24.820Z"
+}

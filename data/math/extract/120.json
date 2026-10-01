@@ -1,0 +1,103 @@
+{
+ "no": 120,
+ "title": "6.2 黄金分割",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2028,
+   "entities": [
+    {
+     "name": "黄金分割",
+     "type": "Concept",
+     "aliases": [
+      "golden section"
+     ],
+     "nickname": "",
+     "description": "点B把线段AC分成两部分，使BC/AB=AB/AC"
+    },
+    {
+     "name": "黄金分割点",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "线段上满足黄金分割的点"
+    },
+    {
+     "name": "黄金比",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄金分割中AB与AC的比，值为(√5-1)/2"
+    },
+    {
+     "name": "黄金矩形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "宽与长的比为黄金比的矩形"
+    },
+    {
+     "name": "相似形",
+     "type": "Concept",
+     "aliases": [
+      "similar figures"
+     ],
+     "nickname": "",
+     "description": "形状相同的图形"
+    },
+    {
+     "name": "相似多边形",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形状相同的多边形"
+    },
+    {
+     "name": "一元二次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数最高次数为2的方程"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "黄金分割",
+     "predicate": "INCLUDES",
+     "object": "黄金分割点",
+     "evidence": "那么称线段AC被点B黄金分割，点B为线段AC的黄金分割点",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄金分割",
+     "predicate": "INCLUDES",
+     "object": "黄金比",
+     "evidence": "AB与AC（或BC与AB）的比称为黄金比",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄金矩形",
+     "predicate": "SPECIAL_CASE",
+     "object": "黄金分割",
+     "evidence": "在图6-3中，BC与AB的比为黄金比，这样的矩形称为黄金矩形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "相似多边形",
+     "predicate": "SPECIAL_CASE",
+     "object": "相似形",
+     "evidence": "形状相同的图形叫做相似形。在数学中，两个多边形具有怎样的特征才能说它们“形状相同”，称为相似多边形呢？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "一元二次方程",
+     "predicate": "PREREQUISITE",
+     "object": "黄金分割",
+     "evidence": "解这个方程，得 x1=(√5-1)/2, x2=(-√5-1)/2（不合题意，舍去）。于是，AB的长为(√5-1)/2。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:25.765Z"
+}

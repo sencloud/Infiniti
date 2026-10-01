@@ -1,0 +1,85 @@
+{
+ "no": 473,
+ "title": "刘全",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 761,
+   "entities": [
+    {
+     "name": "侯某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "侯翁、侯大哥、侯大爷",
+     "description": "邹平牛医，行善积德，后寿终"
+    },
+    {
+     "name": "刘全",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "绿衣人",
+     "description": "冥间吏人，曾受侯某恩惠"
+    },
+    {
+     "name": "城隍庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邹平城隍庙，内有刘全献瓜像"
+    },
+    {
+     "name": "官衙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥间官衙，审理案件"
+    },
+    {
+     "name": "邹平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，侯某籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "侯某",
+     "predicate": "NATIVE_OF",
+     "object": "邹平",
+     "evidence": "邹平牛医侯某",
+     "confidence": 0.95
+    },
+    {
+     "subject": "侯某",
+     "predicate": "HELPED",
+     "object": "刘全",
+     "evidence": "因以爪甲为除去之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘全",
+     "predicate": "HELPED",
+     "object": "侯某",
+     "evidence": "我禁使弗须。君可归治后事",
+     "confidence": 0.95
+    },
+    {
+     "subject": "侯某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "马讼案",
+     "evidence": "有一马相讼，一质便可复返",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马讼案",
+     "predicate": "OCCURRED_AT",
+     "object": "官衙",
+     "evidence": "至官衙前",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:13.026Z"
+}

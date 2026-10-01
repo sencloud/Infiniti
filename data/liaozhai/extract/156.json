@@ -1,0 +1,132 @@
+{
+ "no": 156,
+ "title": "捉鬼射狐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 585,
+   "entities": [
+    {
+     "name": "李著明",
+     "type": "Person",
+     "aliases": [
+      "李公著明",
+      "李公"
+     ],
+     "nickname": "",
+     "description": "睢宁令李襟卓之子，豪爽无馁怯，益都人"
+    },
+    {
+     "name": "李襟卓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "睢宁县令，李著明之父"
+    },
+    {
+     "name": "王季良",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新城人，李著明之姐夫"
+    },
+    {
+     "name": "李友三",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李著明长子，作者姻家"
+    },
+    {
+     "name": "鬼魅",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "王季良家楼阁中作祟的鬼物"
+    },
+    {
+     "name": "新城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王季良先生家所在地"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李著明的籍贯地"
+    },
+    {
+     "name": "淄之孙氏第",
+     "type": "Place",
+     "aliases": [
+      "孙氏第"
+     ],
+     "nickname": "",
+     "description": "淄川县孙氏住宅，李著明侨居处"
+    },
+    {
+     "name": "王季良家楼阁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王季良家多楼阁，常现怪异"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李著明",
+     "predicate": "KIN",
+     "object": "李襟卓",
+     "evidence": "李公著明，睢宁令襟卓先生公子也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李著明",
+     "predicate": "KIN",
+     "object": "王季良",
+     "evidence": "为新城王季良先生内弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李著明",
+     "predicate": "KIN",
+     "object": "李友三",
+     "evidence": "公长公友三，为余姻家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李著明",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "公益都人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李著明",
+     "predicate": "LIVES_AT",
+     "object": "淄之孙氏第",
+     "evidence": "侨居于淄之孙氏第",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李著明",
+     "predicate": "LIVES_AT",
+     "object": "王季良家楼阁",
+     "evidence": "公常暑月寄宿，爱阁上晚凉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鬼魅",
+     "predicate": "HARMED",
+     "object": "李著明",
+     "evidence": "忽一物腾击颊上，觉似履状",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:12.308Z"
+}

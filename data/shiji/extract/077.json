@@ -1,0 +1,700 @@
+{
+ "no": 77,
+ "title": "魏公子列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1938,
+   "entities": [
+    {
+     "name": "魏无忌",
+     "type": "Person",
+     "aliases": [
+      "信陵君",
+      "公子无忌",
+      "魏公子"
+     ],
+     "nickname": "",
+     "description": "魏昭王少子，魏安厘王异母弟，封信陵君"
+    },
+    {
+     "name": "魏昭王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国君主，魏无忌之父"
+    },
+    {
+     "name": "魏安厘王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国君主，魏无忌异母兄"
+    },
+    {
+     "name": "范雎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏人，亡魏入秦为相"
+    },
+    {
+     "name": "魏齐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏人，与范雎有仇"
+    },
+    {
+     "name": "芒卯",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏将，被秦军击败逃走"
+    },
+    {
+     "name": "侯嬴",
+     "type": "Person",
+     "aliases": [
+      "侯生"
+     ],
+     "nickname": "",
+     "description": "大梁夷门监者，隐士，信陵君上客"
+    },
+    {
+     "name": "朱亥",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "大梁屠者，力士，信陵君门客"
+    },
+    {
+     "name": "赵胜",
+     "type": "Person",
+     "aliases": [
+      "平原君",
+      "公子胜"
+     ],
+     "nickname": "",
+     "description": "赵惠文王弟，平原君，信陵君姻亲"
+    },
+    {
+     "name": "赵惠文王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵国君主，平原君之兄"
+    },
+    {
+     "name": "秦昭王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦国君主，破赵长平军，围邯郸"
+    },
+    {
+     "name": "晋鄙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏将，率十万众救赵，被朱亥椎杀"
+    },
+    {
+     "name": "如姬",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏安厘王宠姬，盗兵符助信陵君"
+    },
+    {
+     "name": "魏",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国诸侯国"
+    },
+    {
+     "name": "秦",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国诸侯国"
+    },
+    {
+     "name": "赵",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国诸侯国"
+    },
+    {
+     "name": "大梁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国都城"
+    },
+    {
+     "name": "华阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，秦破魏华阳下军处"
+    },
+    {
+     "name": "夷门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大梁城门，侯嬴为监者处"
+    },
+    {
+     "name": "邯郸",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵国都城"
+    },
+    {
+     "name": "邺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏地，晋鄙留军壁处"
+    },
+    {
+     "name": "长平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，秦破赵长平军处"
+    },
+    {
+     "name": "信陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏无忌封邑"
+    },
+    {
+     "name": "秦围邯郸",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦昭王进兵围赵国邯郸"
+    },
+    {
+     "name": "窃符救赵",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "信陵君窃兵符夺晋鄙军救赵"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "魏无忌",
+     "predicate": "KIN",
+     "object": "魏昭王",
+     "evidence": "魏公子无忌者，魏昭王少子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "KIN",
+     "object": "魏安厘王",
+     "evidence": "魏昭王少子而魏安厘王异母弟也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏安厘王",
+     "predicate": "SUCCEEDED",
+     "object": "魏昭王",
+     "evidence": "昭王薨，安厘王即位",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "ENFEOFFED",
+     "object": "信陵",
+     "evidence": "封公子为信陵君",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范雎",
+     "predicate": "SERVED",
+     "object": "秦",
+     "evidence": "范雎亡魏相秦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "范雎",
+     "predicate": "BETRAYED",
+     "object": "魏",
+     "evidence": "范雎亡魏相秦",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦",
+     "predicate": "DEFEATED",
+     "object": "魏",
+     "evidence": "秦兵围大梁，破魏华阳下军，走芒卯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦",
+     "predicate": "FOUGHT",
+     "object": "魏",
+     "evidence": "秦兵围大梁，破魏华阳下军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "SERVED",
+     "object": "魏",
+     "evidence": "魏王及公子患之",
+     "confidence": 0.8
+    },
+    {
+     "subject": "侯嬴",
+     "predicate": "SERVED",
+     "object": "魏无忌",
+     "evidence": "侯生遂为上客",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱亥",
+     "predicate": "SERVED",
+     "object": "魏无忌",
+     "evidence": "公子往数请之，朱亥故不复谢",
+     "confidence": 0.8
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "KIN",
+     "object": "赵胜",
+     "evidence": "公子姊为赵惠文王弟平原君夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赵胜",
+     "predicate": "KIN",
+     "object": "赵惠文王",
+     "evidence": "赵惠文王弟平原君",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵胜",
+     "predicate": "SPOUSE",
+     "object": "魏无忌",
+     "evidence": "公子姊为赵惠文王弟平原君夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦昭王",
+     "predicate": "DEFEATED",
+     "object": "赵",
+     "evidence": "秦昭王已破赵长平军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦",
+     "predicate": "FOUGHT",
+     "object": "赵",
+     "evidence": "又进兵围邯郸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦围邯郸",
+     "predicate": "OCCURRED_AT",
+     "object": "邯郸",
+     "evidence": "又进兵围邯郸",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏安厘王",
+     "predicate": "SERVED",
+     "object": "魏",
+     "evidence": "魏王使将军晋鄙将十万众救赵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晋鄙",
+     "predicate": "SERVED",
+     "object": "魏",
+     "evidence": "魏王使将军晋鄙将十万众救赵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏",
+     "predicate": "ALLIED_WITH",
+     "object": "赵",
+     "evidence": "魏王使将军晋鄙将十万众救赵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "ADVISED",
+     "object": "魏安厘王",
+     "evidence": "公子患之，数请魏王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "侯嬴",
+     "predicate": "ADVISED",
+     "object": "魏无忌",
+     "evidence": "侯生乃屏人间语",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如姬",
+     "predicate": "SERVED",
+     "object": "魏安厘王",
+     "evidence": "如姬最幸，出入王卧内",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "KILLED",
+     "object": "如姬父仇人",
+     "evidence": "公子使客斩其仇头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如姬",
+     "predicate": "SERVED",
+     "object": "魏无忌",
+     "evidence": "如姬之欲为公子死，无所辞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱亥",
+     "predicate": "KILLED",
+     "object": "晋鄙",
+     "evidence": "朱亥袖四十斤铁椎，椎杀晋鄙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "DEFEATED",
+     "object": "秦",
+     "evidence": "进兵击秦军。秦军解去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "PARTICIPATED_IN",
+     "object": "窃符救赵",
+     "evidence": "得虎符夺晋鄙军，北救赵而西却秦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "窃符救赵",
+     "predicate": "OCCURRED_AT",
+     "object": "邺",
+     "evidence": "至邺，矫魏王令代晋鄙",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1262,
+   "entities": [
+    {
+     "name": "魏无忌",
+     "type": "Person",
+     "aliases": [
+      "信陵君",
+      "公子无忌",
+      "魏公子"
+     ],
+     "nickname": "",
+     "description": "魏国公子，窃符救赵，后率五国兵破秦"
+    },
+    {
+     "name": "魏安厘王",
+     "type": "Person",
+     "aliases": [
+      "魏王"
+     ],
+     "nickname": "",
+     "description": "魏国君主，信陵君之兄"
+    },
+    {
+     "name": "晋鄙",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国将军，被信陵君矫杀"
+    },
+    {
+     "name": "赵孝成王",
+     "type": "Person",
+     "aliases": [
+      "赵王"
+     ],
+     "nickname": "",
+     "description": "赵国君主，以五城封信陵君"
+    },
+    {
+     "name": "平原君",
+     "type": "Person",
+     "aliases": [
+      "赵胜",
+      "公子胜"
+     ],
+     "nickname": "",
+     "description": "赵国公子，信陵君姐夫"
+    },
+    {
+     "name": "毛公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵国处士，藏于博徒"
+    },
+    {
+     "name": "薛公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵国处士，藏于卖浆家"
+    },
+    {
+     "name": "蒙骜",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦国将领，被信陵君击败"
+    },
+    {
+     "name": "刘邦",
+     "type": "Person",
+     "aliases": [
+      "汉高祖",
+      "高祖",
+      "沛公",
+      "汉王"
+     ],
+     "nickname": "",
+     "description": "汉朝开国皇帝，祠信陵君"
+    },
+    {
+     "name": "英布",
+     "type": "Person",
+     "aliases": [
+      "黥布",
+      "九江王",
+      "淮南王"
+     ],
+     "nickname": "",
+     "description": "汉初诸侯王，被刘邦击"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "《史记》作者"
+    },
+    {
+     "name": "魏国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国诸侯国"
+    },
+    {
+     "name": "赵国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "战国诸侯国"
+    },
+    {
+     "name": "秦国",
+     "type": "Organization",
+     "aliases": [
+      "秦"
+     ],
+     "nickname": "",
+     "description": "战国诸侯国"
+    },
+    {
+     "name": "大梁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "魏国都城"
+    },
+    {
+     "name": "鄗",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵国城邑，赵王封给信陵君"
+    },
+    {
+     "name": "河外",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地区名，信陵君破秦军处"
+    },
+    {
+     "name": "函谷关",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦国关隘"
+    },
+    {
+     "name": "东郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦攻魏后所置郡"
+    },
+    {
+     "name": "夷门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "大梁城东门"
+    },
+    {
+     "name": "上将军",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "高级武官"
+    },
+    {
+     "name": "窃符救赵",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "信陵君窃兵符救赵"
+    },
+    {
+     "name": "河外之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "信陵君率五国兵破秦军"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "魏无忌",
+     "predicate": "KIN",
+     "object": "魏安厘王",
+     "evidence": "魏王怒公子之盗其兵符",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "KIN",
+     "object": "平原君",
+     "evidence": "始吾闻夫人弟公子天下无双",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "KILLED",
+     "object": "晋鄙",
+     "evidence": "矫杀晋鄙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "PARTICIPATED_IN",
+     "object": "窃符救赵",
+     "evidence": "矫魏王令，夺晋鄙兵以救赵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "ENFEOFFED",
+     "object": "鄗",
+     "evidence": "赵王以鄗为公子汤沐邑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "FRIEND",
+     "object": "毛公",
+     "evidence": "公子闻所在，乃间步往从此两人游，甚欢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "FRIEND",
+     "object": "薛公",
+     "evidence": "公子闻所在，乃间步往从此两人游，甚欢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "HELD_OFFICE",
+     "object": "上将军",
+     "evidence": "以上将军印授公子，公子遂将",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "PARTICIPATED_IN",
+     "object": "河外之战",
+     "evidence": "公子率五国之兵破秦军于河外",
+     "confidence": 0.95
+    },
+    {
+     "subject": "魏无忌",
+     "predicate": "DEFEATED",
+     "object": "蒙骜",
+     "evidence": "走蒙骜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "河外之战",
+     "predicate": "OCCURRED_AT",
+     "object": "河外",
+     "evidence": "破秦军于河外",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秦国",
+     "predicate": "DEFEATED",
+     "object": "魏国",
+     "evidence": "秦闻公子死，使蒙骜攻魏，拔二十城",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "击英布",
+     "evidence": "从击黥布还",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘邦",
+     "predicate": "SERVED",
+     "object": "魏无忌",
+     "evidence": "每过大梁，常祠公子",
+     "confidence": 0.8
+    },
+    {
+     "subject": "司马迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "过大梁",
+     "evidence": "吾过大梁之墟",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:50:23.261Z"
+}

@@ -1,0 +1,647 @@
+{
+ "no": 58,
+ "title": "二心搅乱大乾坤 一体难修真寂灭",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5855,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，孙悟空师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "佛祖",
+     "description": "西天雷音寺教主，识破六耳猕猴"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "南海落伽山菩萨，多次辨认真假"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主，令照妖镜辨真假"
+    },
+    {
+     "name": "托塔李天王",
+     "type": "Person",
+     "aliases": [
+      "李靖",
+      "托塔天王",
+      "李天王"
+     ],
+     "nickname": "李天王",
+     "description": "天庭天王，持照妖镜"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "阎王",
+     "description": "阴司十殿阎王之一"
+    },
+    {
+     "name": "地藏王菩萨",
+     "type": "Person",
+     "aliases": [
+      "地藏",
+      "幽冥教主",
+      "地藏菩萨"
+     ],
+     "nickname": "地藏",
+     "description": "幽冥教主，令谛听听真假"
+    },
+    {
+     "name": "惠岸行者",
+     "type": "Person",
+     "aliases": [
+      "木叉",
+      "木吒",
+      "惠岸"
+     ],
+     "nickname": "木吒",
+     "description": "观音弟子，协助辨认真假"
+    },
+    {
+     "name": "红孩儿",
+     "type": "Person",
+     "aliases": [
+      "圣婴大王",
+      "善财童子",
+      "红孩"
+     ],
+     "nickname": "善财童子",
+     "description": "观音座下善财童子"
+    },
+    {
+     "name": "谛听",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "地藏菩萨经案下伏兽，能听真假"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [
+      "水帘洞"
+     ],
+     "nickname": "",
+     "description": "孙悟空老家，被六耳猕猴占据"
+    },
+    {
+     "name": "南海落伽山",
+     "type": "Place",
+     "aliases": [
+      "普陀崖",
+      "潮音洞"
+     ],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    },
+    {
+     "name": "南天门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭门户"
+    },
+    {
+     "name": "灵霄宝殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉帝宝殿"
+    },
+    {
+     "name": "森罗宝殿",
+     "type": "Place",
+     "aliases": [
+      "阴司",
+      "幽冥"
+     ],
+     "nickname": "",
+     "description": "阴间十王殿"
+    },
+    {
+     "name": "雷音寺",
+     "type": "Place",
+     "aliases": [
+      "大西天灵鹫仙山雷音宝刹"
+     ],
+     "nickname": "",
+     "description": "如来佛祖道场"
+    },
+    {
+     "name": "西天",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来所在，取经目的地"
+    },
+    {
+     "name": "阴山",
+     "type": "Place",
+     "aliases": [
+      "背阴山"
+     ],
+     "nickname": "",
+     "description": "阴司背后之山"
+    },
+    {
+     "name": "东胜神洲",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山所在大洲"
+    },
+    {
+     "name": "西梁国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "取经途经国度"
+    },
+    {
+     "name": "取经",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒西天取经之行"
+    },
+    {
+     "name": "真假美猴王",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "六耳猕猴假变孙悟空，众神难辨"
+    },
+    {
+     "name": "大闹天宫",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空昔日大闹天宫之事"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "如意金箍棒",
+      "铁棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空兵器"
+    },
+    {
+     "name": "随心铁杆兵",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "六耳猕猴兵器"
+    },
+    {
+     "name": "照妖镜",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "李天王宝物，可照妖邪"
+    },
+    {
+     "name": "金钵盂",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "如来宝物，盖住六耳猕猴"
+    },
+    {
+     "name": "紧箍儿咒",
+     "type": "Item",
+     "aliases": [
+      "紧箍咒"
+     ],
+     "nickname": "",
+     "description": "唐僧咒语，可令孙悟空头疼"
+    },
+    {
+     "name": "生死簿",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴司记录生死名号之簿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "弟子保护唐僧，来造宝山，求取真经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "弟子保护唐僧，来造宝山，求取真经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒挑着我们包袱",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "沙僧搀住一个",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "大哥不必这等藏头露尾，先去安根，待小弟与你一同走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "我本山取讨包袱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "手中也拿一条儿金箍铁棒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "托塔李天王",
+     "predicate": "OWNS",
+     "object": "照妖镜",
+     "evidence": "把照妖镜来照这厮谁真谁假",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "OWNS",
+     "object": "金钵盂",
+     "evidence": "如来将金钵盂撇起去，正盖着那蜂儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "紧箍儿咒",
+     "evidence": "三藏见了，就念《紧箍儿咒》",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎罗王",
+     "predicate": "OWNS",
+     "object": "生死簿",
+     "evidence": "望阴君与我查看生死簿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "取经",
+     "evidence": "弟子保护唐僧，来造宝山，求取真经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "大闹天宫",
+     "evidence": "你当年官拜弼马温，大闹天宫时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "真假美猴王",
+     "predicate": "OCCURRED_AT",
+     "object": "花果山",
+     "evidence": "才自水帘洞打起",
+     "confidence": 0.9
+    },
+    {
+     "subject": "真假美猴王",
+     "predicate": "OCCURRED_AT",
+     "object": "南海落伽山",
+     "evidence": "直嚷到南海，径至落伽山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "真假美猴王",
+     "predicate": "OCCURRED_AT",
+     "object": "灵霄宝殿",
+     "evidence": "直至灵霄宝殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "真假美猴王",
+     "predicate": "OCCURRED_AT",
+     "object": "森罗宝殿",
+     "evidence": "打至森罗殿下",
+     "confidence": 0.9
+    },
+    {
+     "subject": "真假美猴王",
+     "predicate": "OCCURRED_AT",
+     "object": "雷音寺",
+     "evidence": "打至雷音胜境",
+     "confidence": 0.9
+    },
+    {
+     "subject": "谛听",
+     "predicate": "SERVED",
+     "object": "地藏王菩萨",
+     "evidence": "那谛听是地藏菩萨经案下伏的一个兽名",
+     "confidence": 0.9
+    },
+    {
+     "subject": "惠岸行者",
+     "predicate": "SERVED",
+     "object": "观音菩萨",
+     "evidence": "菩萨唤木吒与善财上前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "红孩儿",
+     "predicate": "SERVED",
+     "object": "观音菩萨",
+     "evidence": "菩萨与木吒行者、善财童子、龙女降莲台",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "弟子保护唐僧，来造宝山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "沙僧搀住一个",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "八戒挑着我们包袱",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 645,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经人，被假悟空打伤"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "大圣",
+      "行者",
+      "悟空"
+     ],
+     "nickname": "齐天大圣",
+     "description": "真悟空，打死六耳猕猴"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "",
+     "description": "取经人，寻回包袱"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "取经人，请师父迎接菩萨"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "",
+     "description": "奉如来命送悟空归队"
+    },
+    {
+     "name": "惠岸行者",
+     "type": "Person",
+     "aliases": [
+      "木叉",
+      "木吒",
+      "惠岸"
+     ],
+     "nickname": "",
+     "description": "观音弟子，随行"
+    },
+    {
+     "name": "如来",
+     "type": "Person",
+     "aliases": [
+      "佛祖"
+     ],
+     "nickname": "",
+     "description": "识破六耳猕猴，命观音送悟空"
+    },
+    {
+     "name": "花果山水帘洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "悟空旧居，假唐僧假八戒所在"
+    },
+    {
+     "name": "灵山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛祖所在，取经目的地"
+    },
+    {
+     "name": "草舍人家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "中途村舍，师徒暂住"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "我教观音送你去，不怕他不收",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "假唐僧",
+     "evidence": "果见一个假唐僧假八戒，都被弟子打死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "假八戒",
+     "evidence": "果见一个假唐僧假八戒，都被弟子打死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "包袱",
+     "evidence": "猪八戒背着两个包袱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "SERVED",
+     "object": "如来",
+     "evidence": "即合掌谢了圣恩，领悟空，辄驾云而去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "惠岸行者",
+     "predicate": "SERVED",
+     "object": "观音菩萨",
+     "evidence": "随后木吒行者、白鹦哥，一同赶上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MEMBER_OF",
+     "object": "花果山水帘洞",
+     "evidence": "弟子前日别了师父至花果山水帘洞寻得包袱",
+     "confidence": 0.8
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "草舍人家",
+     "evidence": "到了中途草舍人家，沙和尚看见，急请师父拜门迎接",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:19.786Z"
+}

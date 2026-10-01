@@ -1,0 +1,180 @@
+{
+ "no": 34,
+ "title": "新郎",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 616,
+   "entities": [
+    {
+     "name": "梅耦长",
+     "type": "Person",
+     "aliases": [
+      "梅孝廉耦长"
+     ],
+     "nickname": "",
+     "description": "江南举人，讲述此奇案"
+    },
+    {
+     "name": "孙公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "德州宰，审理此案"
+    },
+    {
+     "name": "新郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村人子，娶妇后失踪"
+    },
+    {
+     "name": "新妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新郎之妻，实为鬼女"
+    },
+    {
+     "name": "村人父",
+     "type": "Person",
+     "aliases": [
+      "翁"
+     ],
+     "nickname": "",
+     "description": "新郎之父"
+    },
+    {
+     "name": "妇父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新妇之父"
+    },
+    {
+     "name": "女僮",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "妇家应门女童"
+    },
+    {
+     "name": "岳父母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新妇父母，实为鬼"
+    },
+    {
+     "name": "高冢",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "妇家宅院消失后现出的大坟"
+    },
+    {
+     "name": "德州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙公为宰之地"
+    },
+    {
+     "name": "村落",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "新郎随新妇所入之村"
+    },
+    {
+     "name": "改嫁事件",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "妇家请村人父欲别醮女"
+    },
+    {
+     "name": "诉讼事件",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "妇父讼于庭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "新郎",
+     "predicate": "SPOUSE",
+     "object": "新妇",
+     "evidence": "村人有为子娶妇者，新人入门",
+     "confidence": 0.95
+    },
+    {
+     "subject": "新郎",
+     "predicate": "KIN",
+     "object": "村人父",
+     "evidence": "村人有为子娶妇者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "新妇",
+     "predicate": "KIN",
+     "object": "妇父",
+     "evidence": "妇父益衔之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "新妇",
+     "predicate": "KIN",
+     "object": "岳父母",
+     "evidence": "则岳父母俱在堂上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "新郎",
+     "predicate": "LIVES_AT",
+     "object": "村落",
+     "evidence": "行数里，入村落。……遂居之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "新郎",
+     "predicate": "LIVES_AT",
+     "object": "高冢",
+     "evidence": "回视院宇无存，但见高冢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙公",
+     "predicate": "PUNISHED",
+     "object": "妇父",
+     "evidence": "孙公拘妇父谕之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妇父",
+     "predicate": "PARTICIPATED_IN",
+     "object": "诉讼事件",
+     "evidence": "妇父益衔之，讼于庭",
+     "confidence": 0.95
+    },
+    {
+     "subject": "诉讼事件",
+     "predicate": "OCCURRED_AT",
+     "object": "德州",
+     "evidence": "为德州宰，鞫一奇案",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妇父",
+     "predicate": "PARTICIPATED_IN",
+     "object": "改嫁事件",
+     "evidence": "妇家悼女无偶，遂请于村人父，欲别醮女",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:26.050Z"
+}

@@ -1,0 +1,371 @@
+{
+ "no": 62,
+ "title": "管晏列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1258,
+   "entities": [
+    {
+     "name": "管仲",
+     "type": "Person",
+     "aliases": [
+      "夷吾",
+      "管子",
+      "管敬仲"
+     ],
+     "nickname": "",
+     "description": "齐国政治家，辅佐齐桓公称霸"
+    },
+    {
+     "name": "鲍叔牙",
+     "type": "Person",
+     "aliases": [
+      "鲍叔",
+      "鲍子"
+     ],
+     "nickname": "",
+     "description": "齐国大夫，举荐管仲"
+    },
+    {
+     "name": "齐桓公",
+     "type": "Person",
+     "aliases": [
+      "小白",
+      "公子小白",
+      "桓公"
+     ],
+     "nickname": "",
+     "description": "齐国国君，春秋五霸之首"
+    },
+    {
+     "name": "公子纠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐桓公之兄，与小白争位"
+    },
+    {
+     "name": "召忽",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "公子纠之臣，为纠而死"
+    },
+    {
+     "name": "晏婴",
+     "type": "Person",
+     "aliases": [
+      "晏子",
+      "平仲",
+      "晏平仲"
+     ],
+     "nickname": "",
+     "description": "齐国名相，历事三君"
+    },
+    {
+     "name": "越石父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贤者，被晏婴赎出待为上客"
+    },
+    {
+     "name": "晏子之御",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏婴的车夫，后荐为大夫"
+    },
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "尼父"
+     ],
+     "nickname": "",
+     "description": "儒家创始人，评论管仲"
+    },
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "子长",
+      "太史公"
+     ],
+     "nickname": "",
+     "description": "《史记》作者，篇末评论"
+    },
+    {
+     "name": "召公",
+     "type": "Person",
+     "aliases": [
+      "召公奭",
+      "召康公",
+      "邵公"
+     ],
+     "nickname": "",
+     "description": "燕国始祖，管仲令燕修其政"
+    },
+    {
+     "name": "齐灵公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国国君，晏婴所事"
+    },
+    {
+     "name": "齐庄公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国国君，晏婴所事"
+    },
+    {
+     "name": "齐景公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国国君，晏婴所事"
+    },
+    {
+     "name": "蔡",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "楚",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "山戎",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "古代北方部族"
+    },
+    {
+     "name": "燕",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "齐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周代诸侯国"
+    },
+    {
+     "name": "周室",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "周王朝"
+    },
+    {
+     "name": "颍上",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "管仲籍贯"
+    },
+    {
+     "name": "莱之夷维",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "晏婴籍贯"
+    },
+    {
+     "name": "柯之会",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐桓公与诸侯会盟，曹沫劫盟"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "管仲",
+     "predicate": "NATIVE_OF",
+     "object": "颍上",
+     "evidence": "管仲夷吾者，颍上人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "管仲",
+     "predicate": "FRIEND",
+     "object": "鲍叔牙",
+     "evidence": "少时常与鲍叔牙游，鲍叔知其贤。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲍叔牙",
+     "predicate": "SERVED",
+     "object": "齐桓公",
+     "evidence": "已而鲍叔事齐公子小白",
+     "confidence": 0.95
+    },
+    {
+     "subject": "管仲",
+     "predicate": "SERVED",
+     "object": "公子纠",
+     "evidence": "管仲事公子纠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐桓公",
+     "predicate": "SUCCEEDED",
+     "object": "公子纠",
+     "evidence": "及小白立，为桓公，公子纠死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲍叔牙",
+     "predicate": "ADVISED",
+     "object": "齐桓公",
+     "evidence": "鲍叔遂进管仲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "管仲",
+     "predicate": "SERVED",
+     "object": "齐",
+     "evidence": "管仲既用，任政于齐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐桓公",
+     "predicate": "RULED",
+     "object": "齐",
+     "evidence": "齐桓公以霸，九合诸侯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "召忽",
+     "predicate": "SERVED",
+     "object": "公子纠",
+     "evidence": "公子纠败，召忽死之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "管仲",
+     "predicate": "HELD_OFFICE",
+     "object": "齐相",
+     "evidence": "管仲既任政相齐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐桓公",
+     "predicate": "FOUGHT",
+     "object": "蔡",
+     "evidence": "桓公实怒少姬，南袭蔡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "管仲",
+     "predicate": "FOUGHT",
+     "object": "楚",
+     "evidence": "管仲因而伐楚，责包茅不入贡于周室",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐桓公",
+     "predicate": "FOUGHT",
+     "object": "山戎",
+     "evidence": "桓公实北征山戎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "管仲",
+     "predicate": "ADVISED",
+     "object": "燕",
+     "evidence": "管仲因而令燕修召公之政",
+     "confidence": 0.85
+    },
+    {
+     "subject": "齐桓公",
+     "predicate": "PARTICIPATED_IN",
+     "object": "柯之会",
+     "evidence": "于柯之会，桓公欲背曹沫之约",
+     "confidence": 0.9
+    },
+    {
+     "subject": "晏婴",
+     "predicate": "NATIVE_OF",
+     "object": "莱之夷维",
+     "evidence": "晏平仲婴者，莱之夷维人也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏婴",
+     "predicate": "SERVED",
+     "object": "齐灵公",
+     "evidence": "事齐灵公、庄公、景公",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏婴",
+     "predicate": "SERVED",
+     "object": "齐庄公",
+     "evidence": "事齐灵公、庄公、景公",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏婴",
+     "predicate": "SERVED",
+     "object": "齐景公",
+     "evidence": "事齐灵公、庄公、景公",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏婴",
+     "predicate": "HELD_OFFICE",
+     "object": "齐相",
+     "evidence": "既相齐，食不重肉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏婴",
+     "predicate": "FRIEND",
+     "object": "越石父",
+     "evidence": "晏子于是延入为上客",
+     "confidence": 0.85
+    },
+    {
+     "subject": "晏婴",
+     "predicate": "ADVISED",
+     "object": "晏子之御",
+     "evidence": "晏子荐以为大夫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔子",
+     "predicate": "ADVISED",
+     "object": "管仲",
+     "evidence": "管仲，世所谓贤臣，然孔子小之",
+     "confidence": 0.85
+    },
+    {
+     "subject": "司马迁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "柯之会",
+     "evidence": "吾读管氏《牧民》……",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:48:53.399Z"
+}

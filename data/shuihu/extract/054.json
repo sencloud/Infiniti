@@ -1,0 +1,810 @@
+{
+ "no": 54,
+ "title": "第五十四回 入云龙斗法破高廉 黑旋风探穴救柴进",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5705,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊主将，率军攻打高唐州"
+    },
+    {
+     "name": "吴用",
+     "type": "Person",
+     "aliases": [
+      "智多星",
+      "吴学究",
+      "加亮先生",
+      "吴教授"
+     ],
+     "nickname": "智多星",
+     "description": "梁山泊军师，定计擒高廉"
+    },
+    {
+     "name": "公孙胜",
+     "type": "Person",
+     "aliases": [
+      "入云龙",
+      "公孙一清",
+      "清道人",
+      "一清先生"
+     ],
+     "nickname": "入云龙",
+     "description": "罗真人弟子，以五雷天罡正法破高廉妖术"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，下枯井救柴进"
+    },
+    {
+     "name": "戴宗",
+     "type": "Person",
+     "aliases": [
+      "神行太保",
+      "戴院长"
+     ],
+     "nickname": "神行太保",
+     "description": "梁山好汉，先行报信并接应公孙胜"
+    },
+    {
+     "name": "汤隆",
+     "type": "Person",
+     "aliases": [
+      "金钱豹子"
+     ],
+     "nickname": "金钱豹子",
+     "description": "延安府知寨之后，打铁匠人，随李逵入伙"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "小旋风",
+      "柴大官人",
+      "柴皇城"
+     ],
+     "nickname": "小旋风",
+     "description": "被高廉监押，藏于枯井中获救"
+    },
+    {
+     "name": "高廉",
+     "type": "Person",
+     "aliases": [
+      "高唐州知府"
+     ],
+     "nickname": "",
+     "description": "高唐州知府，会妖法，被雷横所杀"
+    },
+    {
+     "name": "罗真人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "公孙胜师父，传授五雷天罡正法"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "小李广",
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "梁山好汉，箭射薛元辉"
+    },
+    {
+     "name": "秦明",
+     "type": "Person",
+     "aliases": [
+      "霹雳火",
+      "秦统制"
+     ],
+     "nickname": "霹雳火",
+     "description": "梁山好汉，随宋江出战"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头",
+      "林冲教头"
+     ],
+     "nickname": "豹子头",
+     "description": "梁山好汉，追杀高廉"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [
+      "美髯公",
+      "朱都头"
+     ],
+     "nickname": "美髯公",
+     "description": "梁山好汉，截住高廉去路"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎",
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "梁山好汉，斩杀高廉"
+    },
+    {
+     "name": "孙立",
+     "type": "Person",
+     "aliases": [
+      "病尉迟",
+      "孙提辖"
+     ],
+     "nickname": "病尉迟",
+     "description": "梁山好汉，拦住高廉去路"
+    },
+    {
+     "name": "吕方",
+     "type": "Person",
+     "aliases": [
+      "小温侯"
+     ],
+     "nickname": "小温侯",
+     "description": "梁山好汉，引军接应"
+    },
+    {
+     "name": "郭盛",
+     "type": "Person",
+     "aliases": [
+      "赛仁贵"
+     ],
+     "nickname": "赛仁贵",
+     "description": "梁山好汉，引军接应"
+    },
+    {
+     "name": "欧鹏",
+     "type": "Person",
+     "aliases": [
+      "摩云金翅"
+     ],
+     "nickname": "摩云金翅",
+     "description": "梁山好汉，随军出战"
+    },
+    {
+     "name": "邓飞",
+     "type": "Person",
+     "aliases": [
+      "火眼狻猊"
+     ],
+     "nickname": "火眼狻猊",
+     "description": "梁山好汉，随军出战"
+    },
+    {
+     "name": "马麟",
+     "type": "Person",
+     "aliases": [
+      "铁笛仙"
+     ],
+     "nickname": "铁笛仙",
+     "description": "梁山好汉，随军出战"
+    },
+    {
+     "name": "薛元辉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高廉麾下统制官，被花荣射死"
+    },
+    {
+     "name": "蔺仁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高唐州当牢节级，暗中保护柴进"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江等好汉聚义的山寨势力"
+    },
+    {
+     "name": "高唐州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高廉镇守的州城，宋江军攻打之地"
+    },
+    {
+     "name": "武冈镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "公孙胜、李逵途中经过的市镇"
+    },
+    {
+     "name": "二仙山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗真人修道之处"
+    },
+    {
+     "name": "九宫县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "二仙山所在县"
+    },
+    {
+     "name": "延安府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "汤隆父亲任知寨之地"
+    },
+    {
+     "name": "东昌",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高廉求救的邻近州府"
+    },
+    {
+     "name": "寇州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高廉求救的邻近州府"
+    },
+    {
+     "name": "五雷天罡正法",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "罗真人传授公孙胜的道家法术"
+    },
+    {
+     "name": "松文古定剑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "公孙胜所用宝剑"
+    },
+    {
+     "name": "聚兽铜牌",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "高廉施妖法召唤怪兽的铜牌"
+    },
+    {
+     "name": "破高廉",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "公孙胜以正法破高廉妖术并擒杀之"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "罗真人",
+     "predicate": "MASTER_OF",
+     "object": "公孙胜",
+     "evidence": "吾今传授与汝五雷天罡正法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "OWNS",
+     "object": "五雷天罡正法",
+     "evidence": "吾今传授与汝五雷天罡正法",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "OWNS",
+     "object": "松文古定剑",
+     "evidence": "背上悬松文古定剑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "SWORN_BROTHER",
+     "object": "汤隆",
+     "evidence": "就拜李逵为兄……当时李逵认汤隆为弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "SERVED",
+     "object": "李逵",
+     "evidence": "若得哥哥不弃，肯带携兄弟时，愿随鞭镫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "不如跟我上梁山泊入伙，教你也做个头领",
+     "confidence": 0.9
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "NATIVE_OF",
+     "object": "延安府",
+     "evidence": "父亲原是延安府知寨官来",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "为头是主将宋公明",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴用",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "坐着的便是梁山泊掌握兵权军师吴学究",
+     "confidence": 0.95
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "坐着的便是梁山泊掌握行兵布阵副军师公孙胜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "左手下五将：花荣、秦明、朱仝、欧鹏、吕方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秦明",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "左手下五将：花荣、秦明、朱仝、欧鹏、吕方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "左手下五将：花荣、秦明、朱仝、欧鹏、吕方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "欧鹏",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "左手下五将：花荣、秦明、朱仝、欧鹏、吕方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕方",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "左手下五将：花荣、秦明、朱仝、欧鹏、吕方",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "右手下五将是林冲、孙立、邓飞、马麟、郭盛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙立",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "右手下五将是林冲、孙立、邓飞、马麟、郭盛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓飞",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "右手下五将是林冲、孙立、邓飞、马麟、郭盛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "马麟",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "右手下五将是林冲、孙立、邓飞、马麟、郭盛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郭盛",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "右手下五将是林冲、孙立、邓飞、马麟、郭盛",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高廉",
+     "predicate": "LEADS",
+     "object": "高唐州",
+     "evidence": "高唐州知府高廉出在阵前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "KILLED",
+     "object": "薛元辉",
+     "evidence": "只一箭，把薛元辉头重脚轻射下马去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "FOUGHT",
+     "object": "薛元辉",
+     "evidence": "两个在阵前斗了数合",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "DEFEATED",
+     "object": "高廉",
+     "evidence": "将剑望空一指，只见高廉从云中倒撞下来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "雷横",
+     "predicate": "KILLED",
+     "object": "高廉",
+     "evidence": "侧首抢过插翅虎雷横，一朴刀把高廉挥做两段",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "ATTACKED",
+     "object": "高唐州",
+     "evidence": "各寨一齐引军起身，直抵高唐州城壕，下寨已定",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "MASTERMINDED",
+     "object": "破高廉",
+     "evidence": "宋江、吴用、公孙胜商议破高廉一事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "公孙胜",
+     "predicate": "PARTICIPATED_IN",
+     "object": "破高廉",
+     "evidence": "公孙胜仗剑作法，就空寨中平地上刮剌剌起个霹雳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "破高廉",
+     "predicate": "OCCURRED_AT",
+     "object": "高唐州",
+     "evidence": "直抵高唐州城壕，下寨已定",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔺仁",
+     "predicate": "RESCUED",
+     "object": "柴进",
+     "evidence": "小人恐见罪责，昨日引柴进去后面枯井边，开了枷锁，推放里面躲避",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "RESCUED",
+     "object": "柴进",
+     "evidence": "李逵叫一声：柴大官人！……恁的时还有救性",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高廉",
+     "predicate": "FRAMED",
+     "object": "柴进",
+     "evidence": "前日蒙知府高廉所委，专一牢固监守柴进",
+     "confidence": 0.85
+    },
+    {
+     "subject": "高廉",
+     "predicate": "OWNS",
+     "object": "聚兽铜牌",
+     "evidence": "急去马鞍前鞒取下那面聚兽铜牌",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1756,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "梁山泊首领，指挥救柴进"
+    },
+    {
+     "name": "李逵",
+     "type": "Person",
+     "aliases": [
+      "黑旋风",
+      "李铁牛"
+     ],
+     "nickname": "黑旋风",
+     "description": "梁山好汉，下井救柴进"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "小旋风",
+      "柴大官人",
+      "柴皇城"
+     ],
+     "nickname": "小旋风",
+     "description": "被救出井，头破额裂"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "插翅虎",
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "梁山好汉，护送柴进上山"
+    },
+    {
+     "name": "汤隆",
+     "type": "Person",
+     "aliases": [
+      "金钱豹子"
+     ],
+     "nickname": "金钱豹子",
+     "description": "新添头领，随柴进上山"
+    },
+    {
+     "name": "晁盖",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊首领，安排柴进安歇"
+    },
+    {
+     "name": "高廉",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "高唐州知府，被杀死"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，举荐呼延灼"
+    },
+    {
+     "name": "呼延灼",
+     "type": "Person",
+     "aliases": [
+      "双鞭",
+      "呼延将军"
+     ],
+     "nickname": "双鞭",
+     "description": "汝宁郡都统制，被举荐征剿梁山"
+    },
+    {
+     "name": "道君皇帝",
+     "type": "Person",
+     "aliases": [
+      "徽宗天子"
+     ],
+     "nickname": "",
+     "description": "宋朝皇帝，准奏征剿梁山"
+    },
+    {
+     "name": "呼延赞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "开国名将，呼延灼祖先"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江等好汉聚义的山寨势力"
+    },
+    {
+     "name": "高唐州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "被梁山攻破的州城"
+    },
+    {
+     "name": "汝宁州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "呼延灼任职之地"
+    },
+    {
+     "name": "京师",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋朝都城"
+    },
+    {
+     "name": "踢雪乌骓",
+     "type": "Item",
+     "aliases": [
+      "踢雪乌骓马"
+     ],
+     "nickname": "",
+     "description": "皇帝赐给呼延灼的宝马"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李逵",
+     "predicate": "RESCUED",
+     "object": "柴进",
+     "evidence": "李逵爬将出箩去，却把柴大官人抱在箩里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "柴进",
+     "evidence": "宋江见柴进头破额裂……叫请医士调治",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李逵",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "李逵只得再坐箩里，又下井去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "雷横",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "叫李逵、雷横先护送上梁山泊去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴进",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "又添得柴进、汤隆两个头领",
+     "confidence": 0.95
+    },
+    {
+     "subject": "汤隆",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "又添得柴进、汤隆两个头领",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "今有济州梁山泊贼首晁盖、宋江",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晁盖",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "今有济州梁山泊贼首晁盖、宋江",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "RECOMMENDED",
+     "object": "呼延灼",
+     "evidence": "臣举保此人，可以征剿梁山泊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "SERVED",
+     "object": "高俅",
+     "evidence": "呼延灼就谢恩已罢，随高太尉再到殿帅府",
+     "confidence": 0.9
+    },
+    {
+     "subject": "道君皇帝",
+     "predicate": "OWNS",
+     "object": "踢雪乌骓",
+     "evidence": "就赐踢雪乌骓一匹",
+     "confidence": 0.95
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "OWNS",
+     "object": "踢雪乌骓",
+     "evidence": "圣旨赐与呼延灼骑坐",
+     "confidence": 0.95
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "NATIVE_OF",
+     "object": "汝宁州",
+     "evidence": "见受汝宁郡都统制",
+     "confidence": 0.8
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "STATIONED_AT",
+     "object": "汝宁州",
+     "evidence": "呼延灼在汝宁州统军司坐衙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "呼延灼",
+     "predicate": "KIN",
+     "object": "呼延赞",
+     "evidence": "此人乃开国之初，河东名将呼延赞嫡派子孙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高俅",
+     "predicate": "ATTACKED",
+     "object": "梁山泊",
+     "evidence": "前去剿捕，务要扫清水泊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "高俅",
+     "predicate": "KIN",
+     "object": "高廉",
+     "evidence": "知道杀死他兄弟高廉",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:33:21.210Z"
+}

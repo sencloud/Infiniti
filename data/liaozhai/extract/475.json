@@ -1,0 +1,94 @@
+{
+ "no": 475,
+ "title": "鸟使",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 89,
+   "entities": [
+    {
+     "name": "史乌程",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "苑城人，篇中主人公，见鸟使而卒"
+    },
+    {
+     "name": "吴木欣",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长山人，目睹史乌程殡葬之事"
+    },
+    {
+     "name": "鸟使",
+     "type": "Spirit",
+     "aliases": [
+      "鸦"
+     ],
+     "nickname": "",
+     "description": "夫人所遣之鸟，形似乌鸦，召史乌程"
+    },
+    {
+     "name": "苑城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史乌程所居之地"
+    },
+    {
+     "name": "新城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "殡葬所至之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "史乌程",
+     "predicate": "NATIVE_OF",
+     "object": "苑城",
+     "evidence": "苑城史乌程家居",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史乌程",
+     "predicate": "LIVES_AT",
+     "object": "苑城",
+     "evidence": "苑城史乌程家居",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鸟使",
+     "predicate": "HARMED",
+     "object": "史乌程",
+     "evidence": "夫人遣鸟使召我矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史乌程",
+     "predicate": "PARTICIPATED_IN",
+     "object": "殡葬",
+     "evidence": "殡日，鸦复至，随槥缓飞，由苑之新",
+     "confidence": 0.9
+    },
+    {
+     "subject": "殡葬",
+     "predicate": "OCCURRED_AT",
+     "object": "新城",
+     "evidence": "由苑之新",
+     "confidence": 0.85
+    },
+    {
+     "subject": "吴木欣",
+     "predicate": "PARTICIPATED_IN",
+     "object": "殡葬",
+     "evidence": "长山吴木欣目睹之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:14.027Z"
+}

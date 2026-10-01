@@ -1,0 +1,181 @@
+{
+ "no": 106,
+ "title": "4.1 平均数",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6116,
+   "entities": [
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [
+      "算术平均数"
+     ],
+     "nickname": "",
+     "description": "一组数据的总和除以数据个数所得的商"
+    },
+    {
+     "name": "加权平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "考虑各数据权重的平均数"
+    },
+    {
+     "name": "权",
+     "type": "Concept",
+     "aliases": [
+      "权重"
+     ],
+     "nickname": "",
+     "description": "衡量各个数据重要程度的数值"
+    },
+    {
+     "name": "样本平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "样本中所有个体的平均数"
+    },
+    {
+     "name": "总体平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "总体中所有个体的平均数"
+    },
+    {
+     "name": "集中趋势",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数据向某一中心值聚集的程度"
+    },
+    {
+     "name": "离散程度",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数据远离中心值的程度"
+    },
+    {
+     "name": "分布式计算",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将任务分配给多个节点分别计算再整合的方法"
+    },
+    {
+     "name": "统计的思想方法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "通过数据收集、整理、分析来解决问题的思想方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "平均数",
+     "predicate": "INCLUDES",
+     "object": "加权平均数",
+     "evidence": "一般地，若n个数据x1，x2，…，xn的权分别为w1，w2，…，wn，则加权平均数为...",
+     "confidence": 0.95
+    },
+    {
+     "subject": "加权平均数",
+     "predicate": "PREREQUISITE",
+     "object": "权",
+     "evidence": "我们把衡量各个数据“重要程度”的数值叫作权（weight），也称为权重。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "样本平均数",
+     "predicate": "APPLIES_TO",
+     "object": "总体平均数",
+     "evidence": "在调查研究中，常常用样本平均数来估计总体平均数。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平均数",
+     "predicate": "PROPERTY_OF",
+     "object": "集中趋势",
+     "evidence": "平均数可以表示一组数据的平均水平，平均数在一定程度上体现了这组数据的“集中趋势”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分布式计算",
+     "predicate": "APPLIES_TO",
+     "object": "加权平均数",
+     "evidence": "上述方法体现了分布式计算的思路：先把任务分配给各个市场，由各个市场分别抽样，算出各市场样本的平均数，然后整合各个市场的样本数据，得到一个大样本的平均数。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "统计的思想方法",
+     "predicate": "RELATED",
+     "object": "平均数",
+     "evidence": "从本章开始，我们将学习用数据的数字特征描述数据的分布情况，利用数据分析解决问题，进一步感悟统计的思想方法。",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2886,
+   "entities": [
+    {
+     "name": "加权平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据权重计算的平均数，公式为加权平均。"
+    },
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的总和除以数据个数所得的值。"
+    },
+    {
+     "name": "分布式计算",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "处理大数据的方法，采用分而治之的计算方式。"
+    },
+    {
+     "name": "大数据",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "需要分布式计算处理的海量数据。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "加权平均数",
+     "predicate": "PREREQUISITE",
+     "object": "平均数",
+     "evidence": "由加权平均数的计算方法，得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "加权平均数",
+     "predicate": "APPLIES_TO",
+     "object": "平均数",
+     "evidence": "由加权平均数的计算方法，得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分布式计算",
+     "predicate": "APPLIES_TO",
+     "object": "大数据",
+     "evidence": "分布式计算是处理大数据的重要方法",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:19.863Z"
+}

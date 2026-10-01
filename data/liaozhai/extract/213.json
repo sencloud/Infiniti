@@ -1,0 +1,43 @@
+{
+ "no": 213,
+ "title": "魁星",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 97,
+   "entities": [
+    {
+     "name": "张济宇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郓城人，见魁星异象后自负，终落拓无成"
+    },
+    {
+     "name": "郓城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张济宇籍贯所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张济宇",
+     "predicate": "NATIVE_OF",
+     "object": "郓城",
+     "evidence": "郓城张济宇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张济宇",
+     "predicate": "LIVES_AT",
+     "object": "郓城",
+     "evidence": "郓城张济宇，卧而未寐",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:32.207Z"
+}

@@ -1,0 +1,248 @@
+{
+ "no": 100,
+ "title": "夜叉国",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2286,
+   "entities": [
+    {
+     "name": "徐某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "交州商人，漂至夜叉国，娶母夜叉"
+    },
+    {
+     "name": "母夜叉",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "夜叉国雌性夜叉，徐某之妻"
+    },
+    {
+     "name": "徐彪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐某与母夜叉之子，官至副将"
+    },
+    {
+     "name": "徐豹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐某与母夜叉之子，武进士"
+    },
+    {
+     "name": "夜儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐某与母夜叉之女，嫁袁守备"
+    },
+    {
+     "name": "大夜叉",
+     "type": "Spirit",
+     "aliases": [
+      "天王"
+     ],
+     "nickname": "",
+     "description": "夜叉国首领，天寿节受朝拜"
+    },
+    {
+     "name": "商人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "泛海遭风漂至卧眉，遇徐彪之弟"
+    },
+    {
+     "name": "袁守备",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐彪标下守备，娶夜儿为妻"
+    },
+    {
+     "name": "交州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐某故乡，徐彪为官之地"
+    },
+    {
+     "name": "卧眉山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "夜叉国所在，徐某流落之地"
+    },
+    {
+     "name": "天寿节",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "夜叉国王生日，群夜叉朝拜"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "徐某",
+     "predicate": "SPOUSE",
+     "object": "母夜叉",
+     "evidence": "携一雌来妻徐。徐初畏惧，莫敢伸，雌自开其股就徐，徐乃与交。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐某",
+     "predicate": "KIN",
+     "object": "徐彪",
+     "evidence": "子取名彪，十四五岁，能举百钧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐某",
+     "predicate": "KIN",
+     "object": "徐豹",
+     "evidence": "弟曰豹，妹曰夜儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐某",
+     "predicate": "KIN",
+     "object": "夜儿",
+     "evidence": "弟曰豹，妹曰夜儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "母夜叉",
+     "predicate": "KIN",
+     "object": "徐彪",
+     "evidence": "雌忽产，一胎而生二雄一雌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "母夜叉",
+     "predicate": "KIN",
+     "object": "徐豹",
+     "evidence": "雌忽产，一胎而生二雄一雌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "母夜叉",
+     "predicate": "KIN",
+     "object": "夜儿",
+     "evidence": "雌忽产，一胎而生二雄一雌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐彪",
+     "predicate": "KIN",
+     "object": "徐豹",
+     "evidence": "弟曰豹，妹曰夜儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐彪",
+     "predicate": "KIN",
+     "object": "夜儿",
+     "evidence": "弟曰豹，妹曰夜儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐豹",
+     "predicate": "KIN",
+     "object": "夜儿",
+     "evidence": "弟曰豹，妹曰夜儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袁守备",
+     "predicate": "SPOUSE",
+     "object": "夜儿",
+     "evidence": "会标下袁守备失偶，强妻之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐某",
+     "predicate": "LIVES_AT",
+     "object": "卧眉山",
+     "evidence": "居四年馀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐某",
+     "predicate": "NATIVE_OF",
+     "object": "交州",
+     "evidence": "交州徐姓，泛海为贾",
+     "confidence": 0.95
+    },
+    {
+     "subject": "徐彪",
+     "predicate": "NATIVE_OF",
+     "object": "交州",
+     "evidence": "父子登舟，一昼夜达交",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐彪",
+     "predicate": "PARTICIPATED_IN",
+     "object": "天寿节",
+     "evidence": "徐煮肉毕，雌来邀去，云：接天王。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "天寿节",
+     "predicate": "OCCURRED_AT",
+     "object": "卧眉山",
+     "evidence": "此天寿节。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大夜叉",
+     "predicate": "PUNISHED",
+     "object": "徐某",
+     "evidence": "且责常供",
+     "confidence": 0.8
+    },
+    {
+     "subject": "母夜叉",
+     "predicate": "HELPED",
+     "object": "徐某",
+     "evidence": "雌又自解十枚，共得五十之数，以野苎为绳，穿挂徐项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "母夜叉",
+     "predicate": "HARMED",
+     "object": "别洞雌夜叉",
+     "evidence": "徐妻自外至，暴怒相搏，龁断其耳",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商人",
+     "predicate": "FRIEND",
+     "object": "徐某",
+     "evidence": "商在客中尝识之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "商人",
+     "predicate": "HELPED",
+     "object": "徐彪",
+     "evidence": "径抵交，达副总府，备述所见",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐彪",
+     "predicate": "HELPED",
+     "object": "母夜叉",
+     "evidence": "彪告其意，母曰：恐去为人所凌。彪曰：儿在中国甚荣贵，人不敢欺。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:51.967Z"
+}

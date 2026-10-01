@@ -1,0 +1,747 @@
+{
+ "no": 26,
+ "title": "孙悟空三岛求方 观世音甘泉活树",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6011,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "保护唐僧取经的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经的圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧的二徒弟"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧的三徒弟"
+    },
+    {
+     "name": "镇元子",
+     "type": "Person",
+     "aliases": [
+      "镇元大仙",
+      "地仙之祖",
+      "与世同君"
+     ],
+     "nickname": "镇元大仙",
+     "description": "五庄观主人，地仙之祖"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "救苦救难的菩萨"
+    },
+    {
+     "name": "福星",
+     "type": "Person",
+     "aliases": [
+      "福神"
+     ],
+     "nickname": "福星",
+     "description": "蓬莱三星之一"
+    },
+    {
+     "name": "禄星",
+     "type": "Person",
+     "aliases": [
+      "禄神"
+     ],
+     "nickname": "禄星",
+     "description": "蓬莱三星之一"
+    },
+    {
+     "name": "寿星",
+     "type": "Person",
+     "aliases": [
+      "南极星君"
+     ],
+     "nickname": "寿星",
+     "description": "蓬莱三星之一"
+    },
+    {
+     "name": "东华帝君",
+     "type": "Person",
+     "aliases": [
+      "东华大帝君"
+     ],
+     "nickname": "东华帝君",
+     "description": "方丈仙山的神仙"
+    },
+    {
+     "name": "东方朔",
+     "type": "Person",
+     "aliases": [
+      "曼倩"
+     ],
+     "nickname": "东方朔",
+     "description": "东华帝君的弟子"
+    },
+    {
+     "name": "黑熊",
+     "type": "Person",
+     "aliases": [
+      "熊罴",
+      "守山大神"
+     ],
+     "nickname": "黑熊",
+     "description": "观音的守山大神"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君"
+     ],
+     "nickname": "太上老君",
+     "description": "道教神仙"
+    },
+    {
+     "name": "五庄观",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇元子的道观"
+    },
+    {
+     "name": "蓬莱仙境",
+     "type": "Place",
+     "aliases": [
+      "蓬莱"
+     ],
+     "nickname": "",
+     "description": "海上仙山"
+    },
+    {
+     "name": "方丈仙山",
+     "type": "Place",
+     "aliases": [
+      "方丈"
+     ],
+     "nickname": "",
+     "description": "海上仙山"
+    },
+    {
+     "name": "瀛洲海岛",
+     "type": "Place",
+     "aliases": [
+      "瀛洲"
+     ],
+     "nickname": "",
+     "description": "海上仙山"
+    },
+    {
+     "name": "普陀岩",
+     "type": "Place",
+     "aliases": [
+      "落伽山",
+      "紫竹林"
+     ],
+     "nickname": "",
+     "description": "观音菩萨的道场"
+    },
+    {
+     "name": "人参果树",
+     "type": "Item",
+     "aliases": [
+      "草还丹",
+      "万寿草还丹"
+     ],
+     "nickname": "",
+     "description": "五庄观的灵根"
+    },
+    {
+     "name": "九转太乙还丹",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "东华帝君的仙丹"
+    },
+    {
+     "name": "甘露水",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音净瓶中的神水"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "推倒人参果树",
+     "evidence": "把他人参果树推倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "推倒人参果树",
+     "predicate": "OCCURRED_AT",
+     "object": "五庄观",
+     "evidence": "路过万寿山五庄观",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "五庄观",
+     "evidence": "把他人参果树推倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "LEADS",
+     "object": "五庄观",
+     "evidence": "五庄观是镇元大仙的仙宫",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "镇元子",
+     "evidence": "遂与他赌斗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "被他闪一闪，把袍袖展开，一袖子都笼去了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "唐僧",
+     "evidence": "将布裹滚了我师父与两师弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "将布裹滚了我师父与两师弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "DEFEATED",
+     "object": "沙悟净",
+     "evidence": "将布裹滚了我师父与两师弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "你解了我师父，我还你一颗活树如何",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "你解了我师父，我还你一颗活树如何",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "你解了我师父，我还你一颗活树如何",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "福星",
+     "evidence": "老弟们，作揖了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "禄星",
+     "evidence": "老弟们，作揖了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "寿星",
+     "evidence": "老弟们，作揖了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "东华帝君",
+     "evidence": "帝君，起手了",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "东方朔",
+     "evidence": "这个小贼在这里哩",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "黑熊",
+     "evidence": "当初不是老孙饶了你",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "唐僧乃我之弟子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "黑熊",
+     "evidence": "今日跟了菩萨，受了善果",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "MASTER_OF",
+     "object": "东方朔",
+     "evidence": "我师父没有仙丹你偷吃",
+     "confidence": 0.9
+    },
+    {
+     "subject": "东华帝君",
+     "predicate": "MASTER_OF",
+     "object": "东方朔",
+     "evidence": "我师父没有仙丹你偷吃",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "人参果树",
+     "evidence": "把他人参果树推倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "东华帝君",
+     "predicate": "OWNS",
+     "object": "九转太乙还丹",
+     "evidence": "我有一粒‘九转太乙还丹’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "OWNS",
+     "object": "甘露水",
+     "evidence": "我这净瓶底的‘甘露水’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "人参果树",
+     "evidence": "善治得仙树灵苗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "以救唐僧早早西去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "理当赔偿宝树",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "FOUGHT",
+     "object": "太上老君",
+     "evidence": "当年太上老君曾与我赌胜",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "花果馨香满树红",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 893,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，天蓬元帅转世"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，卷帘大将转世"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "南海普陀岩菩萨，救活人参果树"
+    },
+    {
+     "name": "镇元子",
+     "type": "Person",
+     "aliases": [
+      "镇元大仙",
+      "地仙之祖",
+      "与世同君"
+     ],
+     "nickname": "镇元大仙",
+     "description": "万寿山五庄观观主，地仙之祖"
+    },
+    {
+     "name": "清风",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五庄观小童子"
+    },
+    {
+     "name": "明月",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "五庄观小童子"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "美猴王",
+      "齐天大圣",
+      "行者",
+      "悟空"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，齐天大圣"
+    },
+    {
+     "name": "五庄观",
+     "type": "Organization",
+     "aliases": [
+      "本观"
+     ],
+     "nickname": "",
+     "description": "镇元子所居道观"
+    },
+    {
+     "name": "人参果树",
+     "type": "Item",
+     "aliases": [
+      "灵根",
+      "草还丹"
+     ],
+     "nickname": "",
+     "description": "五庄观仙树，结人参果"
+    },
+    {
+     "name": "玉瓢",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "舀水玉器"
+    },
+    {
+     "name": "玉茶盏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉制茶盏"
+    },
+    {
+     "name": "玉酒杯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "玉制酒杯"
+    },
+    {
+     "name": "金击子",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "敲打人参果的器具"
+    },
+    {
+     "name": "人参果",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "五庄观仙果，食之长生不老"
+    },
+    {
+     "name": "人参果会",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "镇元子设宴谢菩萨三老"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "观音菩萨",
+     "predicate": "RESCUED",
+     "object": "人参果树",
+     "evidence": "菩萨将杨柳枝，蘸出瓶中甘露，把行者手心里画了一道起死回生的符字",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "OWNS",
+     "object": "玉瓢",
+     "evidence": "菩萨道：那个水不许犯五行之器，须用玉瓢舀出",
+     "confidence": 0.8
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "OWNS",
+     "object": "玉茶盏",
+     "evidence": "镇元子道：贫道荒山，没有玉瓢，只有玉茶盏、玉酒杯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "OWNS",
+     "object": "玉酒杯",
+     "evidence": "镇元子道：贫道荒山，没有玉瓢，只有玉茶盏、玉酒杯",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "OWNS",
+     "object": "金击子",
+     "evidence": "那大仙十分欢喜，急令取金击子来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "MASTERMINDED",
+     "object": "人参果会",
+     "evidence": "那大仙十分欢喜，急令取金击子来，把果子敲下十个，请菩萨与三老复回宝殿，一则谢劳，二来做个人参果会",
+     "confidence": 0.95
+    },
+    {
+     "subject": "人参果会",
+     "predicate": "OCCURRED_AT",
+     "object": "五庄观",
+     "evidence": "请菩萨与三老复回宝殿，一则谢劳，二来做个人参果会",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "人参果会",
+     "evidence": "请菩萨坐了上面正席，三老左席，唐僧右席，镇元子前席相陪，各食了一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "人参果会",
+     "evidence": "唐僧右席，镇元子前席相陪，各食了一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "人参果会",
+     "evidence": "悟空三人亦各吃一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "人参果会",
+     "evidence": "悟空三人亦各吃一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "人参果会",
+     "evidence": "悟空三人亦各吃一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "人参果会",
+     "evidence": "镇元子陪了一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "清风",
+     "predicate": "MEMBER_OF",
+     "object": "五庄观",
+     "evidence": "清风、明月二童子道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "明月",
+     "predicate": "MEMBER_OF",
+     "object": "五庄观",
+     "evidence": "清风、明月二童子道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "LEADS",
+     "object": "五庄观",
+     "evidence": "那大仙即命设具香案，打扫后园",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "FRIEND",
+     "object": "孙悟空",
+     "evidence": "镇元子却又安排蔬酒，与行者结为兄弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "人参果",
+     "evidence": "前日老孙只偷了三个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "人参果",
+     "evidence": "八戒只嚷我打了偏手",
+     "confidence": 0.8
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "OWNS",
+     "object": "人参果",
+     "evidence": "悟空三人亦各吃一个",
+     "confidence": 0.8
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "OWNS",
+     "object": "人参果",
+     "evidence": "此时菩萨与三老各吃了一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "人参果",
+     "evidence": "唐僧始知是仙家宝贝，也吃了一个",
+     "confidence": 0.9
+    },
+    {
+     "subject": "镇元子",
+     "predicate": "OWNS",
+     "object": "人参果",
+     "evidence": "镇元子陪了一个",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:25.184Z"
+}

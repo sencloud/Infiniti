@@ -1,0 +1,64 @@
+{
+ "no": 215,
+ "title": "绛妃",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1592,
+   "entities": [
+    {
+     "name": "绛妃",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "花神，自称妾花神也，居殿阁"
+    },
+    {
+     "name": "毕刺史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "绛妃篇中刺史，家有绰然堂"
+    },
+    {
+     "name": "封家婢子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "绛妃篇中封氏，风神，摧残花木"
+    },
+    {
+     "name": "绰然堂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "毕刺史家堂馆，余设馆处"
+    },
+    {
+     "name": "殿阁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "绛妃所居宫殿，高接云汉"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "绛妃",
+     "predicate": "LIVES_AT",
+     "object": "殿阁",
+     "evidence": "俄睹殿阁，高接云汉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "封家婢子",
+     "predicate": "HARMED",
+     "object": "绛妃",
+     "evidence": "屡被封家婢子横见摧残",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:33.840Z"
+}

@@ -1,0 +1,214 @@
+{
+ "no": 69,
+ "title": "莲香",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4289,
+   "entities": [
+    {
+     "name": "桑晓",
+     "type": "Person",
+     "aliases": [
+      "桑生",
+      "桑公子",
+      "子明"
+     ],
+     "nickname": "",
+     "description": "沂州书生，字子明，寓居红花埠"
+    },
+    {
+     "name": "莲香",
+     "type": "Spirit",
+     "aliases": [
+      "莲娘",
+      "香女"
+     ],
+     "nickname": "",
+     "description": "狐女，自称西家妓女，与桑晓相恋"
+    },
+    {
+     "name": "李氏",
+     "type": "Spirit",
+     "aliases": [
+      "李姑娘",
+      "李女",
+      "燕儿"
+     ],
+     "nickname": "",
+     "description": "李通判之女，早夭成鬼，与桑晓相恋"
+    },
+    {
+     "name": "东邻生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "桑晓的邻居书生，曾戏弄桑晓"
+    },
+    {
+     "name": "张燕儿",
+     "type": "Person",
+     "aliases": [
+      "燕儿"
+     ],
+     "nickname": "",
+     "description": "富室张姓之女，借李女魂还魂"
+    },
+    {
+     "name": "张母",
+     "type": "Person",
+     "aliases": [
+      "媪"
+     ],
+     "nickname": "",
+     "description": "燕儿之母"
+    },
+    {
+     "name": "沂州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "桑晓的籍贯地"
+    },
+    {
+     "name": "红花埠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "桑晓寓居之地"
+    },
+    {
+     "name": "南山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "莲香穴居之处"
+    },
+    {
+     "name": "绣履",
+     "type": "Item",
+     "aliases": [
+      "绣鞋"
+     ],
+     "nickname": "",
+     "description": "李女赠桑晓的绣花鞋，可寄思慕"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "桑晓",
+     "predicate": "NATIVE_OF",
+     "object": "沂州",
+     "evidence": "桑生名晓，字子明，沂州人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "桑晓",
+     "predicate": "LIVES_AT",
+     "object": "红花埠",
+     "evidence": "少孤，馆于红花埠。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "桑晓",
+     "predicate": "LOVES",
+     "object": "莲香",
+     "evidence": "妾莲香，西家妓女。……息烛登床，绸缪甚至。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "桑晓",
+     "predicate": "LOVES",
+     "object": "李氏",
+     "evidence": "妾良家女，姓李氏。慕君高雅，幸能垂盼。生喜。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "莲香",
+     "predicate": "LIVES_AT",
+     "object": "南山",
+     "evidence": "去，吾尾之，南山而穴居。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李氏",
+     "predicate": "OWNS",
+     "object": "绣履",
+     "evidence": "赠绣履一钩，曰：此妾下体所着",
+     "confidence": 0.95
+    },
+    {
+     "subject": "桑晓",
+     "predicate": "OWNS",
+     "object": "绣履",
+     "evidence": "受而视之，翘翘如解结锥，心甚爱悦。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莲香",
+     "predicate": "HELPED",
+     "object": "桑晓",
+     "evidence": "果出刀圭药啖生。顷刻，洞下三两行，觉脏腑清虚，精神顿爽。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李氏",
+     "predicate": "HARMED",
+     "object": "桑晓",
+     "evidence": "由是与李夙夜必偕，约两月馀，觉大困顿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莲香",
+     "predicate": "HELPED",
+     "object": "桑晓",
+     "evidence": "莲解囊出药……遂以丸纳生吻……生觉丹田火热，精神焕发。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李氏",
+     "predicate": "HELPED",
+     "object": "桑晓",
+     "evidence": "李不得已，唾之。……凡三四唾，丸已下咽",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张燕儿",
+     "predicate": "KIN",
+     "object": "张母",
+     "evidence": "张母闻生果未归，益奇之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "桑晓",
+     "predicate": "SPOUSE",
+     "object": "张燕儿",
+     "evidence": "媪议择吉赘生。……生往亲迎",
+     "confidence": 0.95
+    },
+    {
+     "subject": "莲香",
+     "predicate": "SPOUSE",
+     "object": "桑晓",
+     "evidence": "莲举一子。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莲香",
+     "predicate": "KIN",
+     "object": "狐儿",
+     "evidence": "子名狐儿，燕抚如己出。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张燕儿",
+     "predicate": "KIN",
+     "object": "狐儿",
+     "evidence": "子名狐儿，燕抚如己出。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:40.259Z"
+}

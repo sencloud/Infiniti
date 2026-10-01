@@ -1,0 +1,244 @@
+{
+ "no": 47,
+ "title": "陆判",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2606,
+   "entities": [
+    {
+     "name": "朱尔旦",
+     "type": "Person",
+     "aliases": [
+      "朱生",
+      "朱孝廉"
+     ],
+     "nickname": "小明",
+     "description": "陵阳书生，性豪放，后与陆判交好"
+    },
+    {
+     "name": "陆判",
+     "type": "Spirit",
+     "aliases": [
+      "陆判官"
+     ],
+     "nickname": "",
+     "description": "十王殿判官，为朱尔旦换心换头"
+    },
+    {
+     "name": "朱妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱尔旦之妻，被陆判换美人头"
+    },
+    {
+     "name": "吴侍御",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "官员，其女被杨大年杀害"
+    },
+    {
+     "name": "吴女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴侍御之女，被杀后头被换给朱妻"
+    },
+    {
+     "name": "杨大年",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏溪无赖，杀害吴女"
+    },
+    {
+     "name": "朱玮",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱尔旦之子，后中进士"
+    },
+    {
+     "name": "陵阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，朱尔旦籍贯"
+    },
+    {
+     "name": "十王殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陵阳的冥府庙宇，供有判官像"
+    },
+    {
+     "name": "苏溪",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，杨大年籍贯"
+    },
+    {
+     "name": "太华",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "西岳华山，朱尔旦任太华卿"
+    },
+    {
+     "name": "华阴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，朱玮遇父处"
+    },
+    {
+     "name": "佩刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱尔旦赠朱玮的刀，镌有铭文"
+    },
+    {
+     "name": "科试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "科举考试，朱尔旦参加并夺冠"
+    },
+    {
+     "name": "秋闱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "乡试，朱尔旦中经元"
+    },
+    {
+     "name": "礼闱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "会试，朱尔旦三入皆落榜"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "朱尔旦",
+     "predicate": "NATIVE_OF",
+     "object": "陵阳",
+     "evidence": "陵阳朱尔旦，字小明。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陆判",
+     "predicate": "LIVES_AT",
+     "object": "十王殿",
+     "evidence": "盖陵阳有十王殿，神鬼皆以木雕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "FRIEND",
+     "object": "陆判",
+     "evidence": "自是三两日辄一来，情益洽，时抵足卧。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陆判",
+     "predicate": "HELPED",
+     "object": "朱尔旦",
+     "evidence": "陆笑曰：勿惧，我为君易慧心耳。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陆判",
+     "predicate": "HELPED",
+     "object": "朱妻",
+     "evidence": "陆以头授朱抱之，自于靴中出白刃如匕首，按夫人项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "SPOUSE",
+     "object": "朱妻",
+     "evidence": "山荆，予结发人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨大年",
+     "predicate": "KILLED",
+     "object": "吴女",
+     "evidence": "儿为苏溪杨大年所贼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴侍御",
+     "predicate": "KIN",
+     "object": "吴女",
+     "evidence": "吴侍御有女甚美",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科试",
+     "evidence": "未几，科试冠军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "秋闱",
+     "evidence": "秋闱果中经元",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "PARTICIPATED_IN",
+     "object": "礼闱",
+     "evidence": "朱三入礼闱，皆以场规被放",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "KIN",
+     "object": "朱玮",
+     "evidence": "子玮方五岁，来辄捉抱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "OWNS",
+     "object": "佩刀",
+     "evidence": "解佩刀遣人持赠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱玮",
+     "predicate": "OWNS",
+     "object": "佩刀",
+     "evidence": "解佩刀遣人持赠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱尔旦",
+     "predicate": "LIVES_AT",
+     "object": "太华",
+     "evidence": "承帝命为太华卿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱玮",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科试",
+     "evidence": "十五入邑庠",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:32.316Z"
+}

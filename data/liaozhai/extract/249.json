@@ -1,0 +1,94 @@
+{
+ "no": 249,
+ "title": "冷生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 507,
+   "entities": [
+    {
+     "name": "冷生",
+     "type": "Person",
+     "aliases": [
+      "笑生"
+     ],
+     "nickname": "笑生",
+     "description": "平城人，少钝，后得狂易病，大笑成文"
+    },
+    {
+     "name": "学使",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "规矩严肃，黜冷生名"
+    },
+    {
+     "name": "孙景夏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "学师，访友闻笑声"
+    },
+    {
+     "name": "宫生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑人，畜一驴，驴伏地"
+    },
+    {
+     "name": "宫生妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宫生之妻，伪作客"
+    },
+    {
+     "name": "平城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冷生籍贯地"
+    },
+    {
+     "name": "颠草",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "冷生所著四卷书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冷生",
+     "predicate": "NATIVE_OF",
+     "object": "平城",
+     "evidence": "平城冷生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冷生",
+     "predicate": "OWNS",
+     "object": "颠草",
+     "evidence": "著有颠草四卷",
+     "confidence": 0.95
+    },
+    {
+     "subject": "学使",
+     "predicate": "PUNISHED",
+     "object": "冷生",
+     "evidence": "释之而黜其名",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宫生",
+     "predicate": "SPOUSE",
+     "object": "宫生妻",
+     "evidence": "因与妻谋",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:46.750Z"
+}

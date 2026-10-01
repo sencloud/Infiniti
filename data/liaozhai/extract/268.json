@@ -1,0 +1,148 @@
+{
+ "no": 268,
+ "title": "牛成章",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 692,
+   "entities": [
+    {
+     "name": "牛成章",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "江西布商，死后化鬼，牛忠之父"
+    },
+    {
+     "name": "郑氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛成章之妻，改嫁，牛忠之母"
+    },
+    {
+     "name": "牛忠",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛成章之子，继承父业"
+    },
+    {
+     "name": "牛女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛成章之女，嫁毛姓富商"
+    },
+    {
+     "name": "毛姓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛女之夫，富商"
+    },
+    {
+     "name": "牛从嫂",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛成章叔伯嫂子，抚育牛忠兄妹"
+    },
+    {
+     "name": "姬氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛成章后妻，当铺内室"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，牛忠遇寇及当铺所在"
+    },
+    {
+     "name": "江西",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "牛成章籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "牛成章",
+     "predicate": "SPOUSE",
+     "object": "郑氏",
+     "evidence": "娶郑氏，生子女各一。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛成章",
+     "predicate": "KIN",
+     "object": "牛忠",
+     "evidence": "子名忠，时方十二",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛成章",
+     "predicate": "KIN",
+     "object": "牛女",
+     "evidence": "生子女各一",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛女",
+     "predicate": "SPOUSE",
+     "object": "毛姓",
+     "evidence": "妹适毛姓，毛富贾也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛从嫂",
+     "predicate": "HELPED",
+     "object": "牛忠",
+     "evidence": "幸有伯母抚育",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛从嫂",
+     "predicate": "HELPED",
+     "object": "牛女",
+     "evidence": "遗两孤，难以存济。有牛从嫂……送与居处。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛成章",
+     "predicate": "SPOUSE",
+     "object": "姬氏",
+     "evidence": "娶我已六年矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛成章",
+     "predicate": "NATIVE_OF",
+     "object": "江西",
+     "evidence": "牛成章，江西之布商也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "牛忠",
+     "predicate": "LIVES_AT",
+     "object": "金陵",
+     "evidence": "兄从人适金陵",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛成章",
+     "predicate": "HARMED",
+     "object": "郑氏",
+     "evidence": "牛摘耳顿骂……牛以口龁其项。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:54.515Z"
+}

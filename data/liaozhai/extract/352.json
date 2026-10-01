@@ -1,0 +1,36 @@
+{
+ "no": 352,
+ "title": "武夷",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 104,
+   "entities": [
+    {
+     "name": "太守",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "武夷篇中登云梯探峭壁的官员"
+    },
+    {
+     "name": "武夷山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "有削壁千仞，下可拾沈香玉块"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "太守",
+     "predicate": "LIVES_AT",
+     "object": "武夷山",
+     "evidence": "武夷山有削壁千仞……太守闻之",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:23.851Z"
+}

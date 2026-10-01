@@ -1,0 +1,233 @@
+{
+ "no": 427,
+ "title": "陈云栖",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3259,
+   "entities": [
+    {
+     "name": "真毓生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚夷陵人，孝廉之子，陈云栖之夫"
+    },
+    {
+     "name": "陈云栖",
+     "type": "Spirit",
+     "aliases": [
+      "云栖"
+     ],
+     "nickname": "",
+     "description": "吕祖庵女道士，后嫁真毓生"
+    },
+    {
+     "name": "白云深",
+     "type": "Spirit",
+     "aliases": [
+      "云深"
+     ],
+     "nickname": "",
+     "description": "吕祖庵女道士，年三十许"
+    },
+    {
+     "name": "盛云眠",
+     "type": "Spirit",
+     "aliases": [
+      "云眠"
+     ],
+     "nickname": "",
+     "description": "吕祖庵女道士，后嫁真毓生"
+    },
+    {
+     "name": "梁云栋",
+     "type": "Spirit",
+     "aliases": [
+      "云栋"
+     ],
+     "nickname": "",
+     "description": "吕祖庵女道士，约二十余岁"
+    },
+    {
+     "name": "臧夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "真毓生之母，祖居黄冈"
+    },
+    {
+     "name": "王道成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "栖鹤观道士，云栖师叔"
+    },
+    {
+     "name": "京氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "臧夫人族妹，云栖舅母"
+    },
+    {
+     "name": "吕祖庵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黄州女道士庵堂"
+    },
+    {
+     "name": "栖鹤观",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王道成所在道观"
+    },
+    {
+     "name": "莲峰",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "臧夫人进香还愿之山"
+    },
+    {
+     "name": "黄冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "臧夫人祖居地"
+    },
+    {
+     "name": "夷陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "真毓生籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "真毓生",
+     "predicate": "LOVES",
+     "object": "陈云栖",
+     "evidence": "生乃以白头相约",
+     "confidence": 0.95
+    },
+    {
+     "subject": "真毓生",
+     "predicate": "SPOUSE",
+     "object": "陈云栖",
+     "evidence": "涓吉为之成礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "真毓生",
+     "predicate": "SPOUSE",
+     "object": "盛云眠",
+     "evidence": "乃使生与行夫妇礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈云栖",
+     "predicate": "FRIEND",
+     "object": "盛云眠",
+     "evidence": "云眠独与女善",
+     "confidence": 0.9
+    },
+    {
+     "subject": "臧夫人",
+     "predicate": "KIN",
+     "object": "真毓生",
+     "evidence": "生母臧夫人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "京氏",
+     "predicate": "KIN",
+     "object": "臧夫人",
+     "evidence": "则族妹也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "京氏",
+     "predicate": "KIN",
+     "object": "陈云栖",
+     "evidence": "此王氏女也，京氏甥也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈云栖",
+     "predicate": "LIVES_AT",
+     "object": "吕祖庵",
+     "evidence": "庵中女道士皆美",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈云栖",
+     "predicate": "LIVES_AT",
+     "object": "栖鹤观",
+     "evidence": "暂寄栖鹤观师叔王道成所",
+     "confidence": 0.9
+    },
+    {
+     "subject": "盛云眠",
+     "predicate": "LIVES_AT",
+     "object": "栖鹤观",
+     "evidence": "女与云眠俱依王道成",
+     "confidence": 0.9
+    },
+    {
+     "subject": "真毓生",
+     "predicate": "NATIVE_OF",
+     "object": "夷陵",
+     "evidence": "真毓生，楚夷陵人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "臧夫人",
+     "predicate": "NATIVE_OF",
+     "object": "黄冈",
+     "evidence": "祖居黄冈",
+     "confidence": 0.95
+    },
+    {
+     "subject": "白云深",
+     "predicate": "HARMED",
+     "object": "真毓生",
+     "evidence": "两人代裸之，迭就淫焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "梁云栋",
+     "predicate": "HARMED",
+     "object": "真毓生",
+     "evidence": "两人代裸之，迭就淫焉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈云栖",
+     "predicate": "HELPED",
+     "object": "真毓生",
+     "evidence": "人皆以妾为饵，钓君也。频来，身命殆矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "臧夫人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "莲峰进香",
+     "evidence": "夫人以香愿登莲峰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "莲峰进香",
+     "predicate": "OCCURRED_AT",
+     "object": "莲峰",
+     "evidence": "夫人以香愿登莲峰",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:56.549Z"
+}

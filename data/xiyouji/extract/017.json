@@ -1,0 +1,602 @@
+{
+ "no": 17,
+ "title": "孙行者大闹黑风山 观世音收伏熊罴怪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5958,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "孙行者",
+      "行者",
+      "孙大圣",
+      "齐天大圣",
+      "美猴王",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "大唐高僧，孙悟空师父"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "观音",
+     "description": "南海落伽山菩萨，禅院之主"
+    },
+    {
+     "name": "黑熊精",
+     "type": "Person",
+     "aliases": [
+      "黑风怪",
+      "黑大王",
+      "熊罴怪",
+      "黑汉"
+     ],
+     "nickname": "黑大王",
+     "description": "黑风山黑风洞妖怪，偷袈裟"
+    },
+    {
+     "name": "白衣秀士",
+     "type": "Person",
+     "aliases": [
+      "白花蛇怪"
+     ],
+     "nickname": "白衣秀士",
+     "description": "白花蛇成精，被孙悟空打死"
+    },
+    {
+     "name": "金池长老",
+     "type": "Person",
+     "aliases": [
+      "老和尚",
+      "老剥皮",
+      "金池老上人"
+     ],
+     "nickname": "金池长老",
+     "description": "观音院老院主，与黑熊精为友"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭之主"
+    },
+    {
+     "name": "王母娘娘",
+     "type": "Person",
+     "aliases": [
+      "西王母",
+      "王母",
+      "金母"
+     ],
+     "nickname": "王母",
+     "description": "天庭女仙之首"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君"
+     ],
+     "nickname": "老君",
+     "description": "兜率天宫道祖"
+    },
+    {
+     "name": "哪吒",
+     "type": "Person",
+     "aliases": [
+      "三太子",
+      "哪吒太子",
+      "三坛海会大神"
+     ],
+     "nickname": "哪吒",
+     "description": "天庭三坛海会大神"
+    },
+    {
+     "name": "惠岸行者",
+     "type": "Person",
+     "aliases": [
+      "木叉",
+      "木吒",
+      "惠岸"
+     ],
+     "nickname": "木吒",
+     "description": "观音菩萨弟子，护法"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "我佛如来",
+      "如来"
+     ],
+     "nickname": "如来",
+     "description": "西天佛祖，曾压孙悟空于五行山"
+    },
+    {
+     "name": "黑风山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑熊精盘踞之山"
+    },
+    {
+     "name": "黑风洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑熊精的洞府"
+    },
+    {
+     "name": "观音院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "观音菩萨禅院，金池长老所居"
+    },
+    {
+     "name": "南海落伽山",
+     "type": "Place",
+     "aliases": [
+      "南海",
+      "落伽山"
+     ],
+     "nickname": "",
+     "description": "观音菩萨道场"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空老家"
+    },
+    {
+     "name": "水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山孙悟空洞府"
+    },
+    {
+     "name": "灵霄殿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭宫殿"
+    },
+    {
+     "name": "五行山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "压孙悟空之山"
+    },
+    {
+     "name": "佛衣会",
+     "type": "Event",
+     "aliases": [
+      "庆赏佛衣会"
+     ],
+     "nickname": "",
+     "description": "黑熊精为庆贺锦襕佛衣举办的宴会"
+    },
+    {
+     "name": "锦襕佛衣",
+     "type": "Item",
+     "aliases": [
+      "锦襕袈裟",
+      "袈裟",
+      "佛衣"
+     ],
+     "nickname": "",
+     "description": "唐僧的宝贝袈裟，被黑熊精偷去"
+    },
+    {
+     "name": "金箍棒",
+     "type": "Item",
+     "aliases": [
+      "如意棒",
+      "铁棒"
+     ],
+     "nickname": "金箍棒",
+     "description": "孙悟空的兵器"
+    },
+    {
+     "name": "黑缨枪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "黑熊精的兵器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "你老外公乃大唐上国驾前御弟三藏法师之徒弟，姓孙，名悟空行者。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "白衣秀士",
+     "evidence": "只把个白衣秀士，一棒打死。拖将过来看处，却是一条白花蛇怪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "OWNS",
+     "object": "锦襕佛衣",
+     "evidence": "我夜来得了一件宝贝，名唤锦襕佛衣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "OWNS",
+     "object": "黑缨枪",
+     "evidence": "绰一杆黑缨枪，走出门来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "双手举起金箍棒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "黑熊精",
+     "evidence": "那怪与行者斗了十数回合，不分胜负。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "STATIONED_AT",
+     "object": "黑风洞",
+     "evidence": "门上有一横石板，明书六个大字，乃“黑风山黑风洞”。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "MASTERMINDED",
+     "object": "佛衣会",
+     "evidence": "我明日就以他为寿，大开筵宴，邀请各山道官，庆贺佛衣，就称为‘佛衣会’如何？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "佛衣会",
+     "predicate": "OCCURRED_AT",
+     "object": "黑风洞",
+     "evidence": "黑风山黑风洞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金池长老",
+     "predicate": "FRIEND",
+     "object": "黑熊精",
+     "evidence": "那怪物与这死的老剥皮，原是朋友。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "LEADS",
+     "object": "观音院",
+     "evidence": "他有这个禅院，在此受了这里人家香火",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "花果山前为帅首，水帘洞里聚群妖。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "水帘洞",
+     "evidence": "水帘洞里聚群妖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "佛衣会",
+     "evidence": "变做那老和尚，进他洞去，骗了一钟茶吃",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "金池长老",
+     "evidence": "念动咒语，迎着风一变，果然就像那老和尚一般",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "哪吒",
+     "evidence": "战退天王归上界，哪吒负痛领兵逃。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如来佛祖",
+     "predicate": "DEFEATED",
+     "object": "孙悟空",
+     "evidence": "我佛如来施法力，五行山压老孙腰。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "灵霄殿",
+     "evidence": "几番大闹灵霄殿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "下海降龙真宝贝，才有金箍棒一条。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "吾今皈正西方去，转上雷音见玉毫。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "FRIEND",
+     "object": "金池长老",
+     "evidence": "他传了我师父些养神服气之术，故以朋友相称。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "小妖",
+     "evidence": "举起棒，劈头一下，可怜不禁打，就打得似个肉饼一般",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2411,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "孙行者",
+      "行者",
+      "美猴王",
+      "齐天大圣",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "保护唐僧取经的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "孙悟空的师父，西行取经"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "南海观音",
+     "description": "救苦救难的菩萨"
+    },
+    {
+     "name": "黑熊精",
+     "type": "Person",
+     "aliases": [
+      "黑风怪",
+      "黑大王",
+      "熊罴怪"
+     ],
+     "nickname": "黑大王",
+     "description": "黑风山妖怪，偷袈裟"
+    },
+    {
+     "name": "凌虚子",
+     "type": "Person",
+     "aliases": [
+      "凌虚仙",
+      "狼精"
+     ],
+     "nickname": "凌虚仙",
+     "description": "苍狼精，黑熊精朋友"
+    },
+    {
+     "name": "白衣秀士",
+     "type": "Person",
+     "aliases": [
+      "白花蛇怪"
+     ],
+     "nickname": "白衣秀士",
+     "description": "白花蛇怪，黑熊精朋友"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "因保唐僧，路逢一事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "唐僧",
+     "evidence": "因保唐僧，路逢一事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "观音菩萨",
+     "evidence": "行者道：“因保唐僧，路逢一事，特见菩萨，烦为通报。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "FRIEND",
+     "object": "凌虚子",
+     "evidence": "他是那黑熊精的朋友",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "FRIEND",
+     "object": "白衣秀士",
+     "evidence": "他昨日和一个白衣秀士，都在芳草坡前坐讲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "凌虚子",
+     "evidence": "掣出棒，就照头一下，打得脑里浆流出，腔中血迸撺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "仙丹",
+     "evidence": "行者变了那颗丹",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "TRANSFORMED",
+     "object": "凌虚子",
+     "evidence": "变作凌虚仙子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "DEFEATED",
+     "object": "黑熊精",
+     "evidence": "菩萨将真言念起。那怪依旧头疼，丢了枪，满地乱滚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "SURRENDERED_TO",
+     "object": "观音菩萨",
+     "evidence": "那怪满口道：“心愿皈依，只望饶命！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "OWNS",
+     "object": "袈裟",
+     "evidence": "菩萨现相，问妖取了佛衣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "OWNS",
+     "object": "袈裟",
+     "evidence": "着他偷了我师父袈裟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "袈裟",
+     "evidence": "行者才捧着袈裟，叩头而别",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "LEADS",
+     "object": "落伽山",
+     "evidence": "我那落伽山后，无人看管",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黑熊精",
+     "predicate": "STATIONED_AT",
+     "object": "黑风山",
+     "evidence": "遂同驾祥云，早到黑风山",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "收伏熊罴怪",
+     "evidence": "观世音收伏熊罴怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "PARTICIPATED_IN",
+     "object": "收伏熊罴怪",
+     "evidence": "观世音收伏熊罴怪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "收伏熊罴怪",
+     "predicate": "OCCURRED_AT",
+     "object": "黑风山",
+     "evidence": "早到黑风山",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:12.569Z"
+}

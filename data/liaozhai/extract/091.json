@@ -1,0 +1,124 @@
+{
+ "no": 91,
+ "title": "苏仙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 547,
+   "entities": [
+    {
+     "name": "苏氏",
+     "type": "Person",
+     "aliases": [
+      "苏女"
+     ],
+     "nickname": "",
+     "description": "郴州民女，浣衣感孕，生子苏仙"
+    },
+    {
+     "name": "苏仙",
+     "type": "Spirit",
+     "aliases": [
+      "少年"
+     ],
+     "nickname": "",
+     "description": "苏氏所生，非人种，腾云仙去"
+    },
+    {
+     "name": "苏母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏氏之母，病卒"
+    },
+    {
+     "name": "高公明图",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "郴州知州，故事背景人物"
+    },
+    {
+     "name": "郴州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，故事发生地"
+    },
+    {
+     "name": "河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏氏浣衣处"
+    },
+    {
+     "name": "椟",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "藏儿及取物之柜"
+    },
+    {
+     "name": "苏仙桃树",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "墓前桃树，结实甘芳"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "苏氏",
+     "predicate": "KIN",
+     "object": "苏仙",
+     "evidence": "数月，竟举一子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "苏氏",
+     "predicate": "KIN",
+     "object": "苏母",
+     "evidence": "女告母，母大奇之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "苏氏",
+     "predicate": "LIVES_AT",
+     "object": "郴州",
+     "evidence": "高公明图知郴州时，有民女苏氏，浣衣于河。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苏氏",
+     "predicate": "OWNS",
+     "object": "椟",
+     "evidence": "藏诸椟而养之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苏仙",
+     "predicate": "OWNS",
+     "object": "椟",
+     "evidence": "可启藏儿椟索之，必能如愿。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苏仙",
+     "predicate": "HELPED",
+     "object": "苏氏",
+     "evidence": "由是有求辄应。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苏仙",
+     "predicate": "OWNS",
+     "object": "苏仙桃树",
+     "evidence": "少年出金葬母，植二桃于墓。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:47.127Z"
+}

@@ -1,0 +1,295 @@
+{
+ "no": 380,
+ "title": "云萝公主",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4156,
+   "entities": [
+    {
+     "name": "安大业",
+     "type": "Person",
+     "aliases": [
+      "大业",
+      "安生",
+      "安公子"
+     ],
+     "nickname": "",
+     "description": "卢龙人，云萝公主之夫，后中举"
+    },
+    {
+     "name": "云萝公主",
+     "type": "Spirit",
+     "aliases": [
+      "云萝",
+      "公主"
+     ],
+     "nickname": "",
+     "description": "圣后府公主，与安大业成婚"
+    },
+    {
+     "name": "袁大用",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "滦州书生，侠盗，与安大业交好"
+    },
+    {
+     "name": "安母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "安大业之母，因受惊病卒"
+    },
+    {
+     "name": "大器",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "安大业与云萝公主之子，十七岁及第"
+    },
+    {
+     "name": "可弃",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "安大业与云萝公主次子，后改行为善"
+    },
+    {
+     "name": "侯女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "可弃之妻，慧丽，能制可弃"
+    },
+    {
+     "name": "云氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "大器之妻，孝友"
+    },
+    {
+     "name": "樊英",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "云萝公主婢女，代公主生子"
+    },
+    {
+     "name": "卢龙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "安大业籍贯地"
+    },
+    {
+     "name": "滦州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁大用籍贯地"
+    },
+    {
+     "name": "乐亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "盗案发生地"
+    },
+    {
+     "name": "圣后府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "云萝公主所居之处"
+    },
+    {
+     "name": "北院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "公主与安大业所居之院"
+    },
+    {
+     "name": "南院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "婢媪所居，做生计之处"
+    },
+    {
+     "name": "象箸",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁大用赠安大业的象牙筷子"
+    },
+    {
+     "name": "楠珠",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "袁大用赠安大业的楠木珠"
+    },
+    {
+     "name": "遗袴",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "云萝公主所遗之裤，轻软可挡刀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "安大业",
+     "predicate": "NATIVE_OF",
+     "object": "卢龙",
+     "evidence": "安大业，卢龙人。",
+     "confidence": 1
+    },
+    {
+     "subject": "袁大用",
+     "predicate": "NATIVE_OF",
+     "object": "滦州",
+     "evidence": "先是，有滦州生袁大用，侨寓邻坊",
+     "confidence": 1
+    },
+    {
+     "subject": "安大业",
+     "predicate": "SPOUSE",
+     "object": "云萝公主",
+     "evidence": "女乃默然，遂相燕好。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安大业",
+     "predicate": "KIN",
+     "object": "安母",
+     "evidence": "母知之，疑以为妖。",
+     "confidence": 1
+    },
+    {
+     "subject": "安大业",
+     "predicate": "KIN",
+     "object": "大器",
+     "evidence": "因名大器。绷纳生怀",
+     "confidence": 1
+    },
+    {
+     "subject": "安大业",
+     "predicate": "KIN",
+     "object": "可弃",
+     "evidence": "又生一子，女举之曰：“豺狼也！”",
+     "confidence": 1
+    },
+    {
+     "subject": "云萝公主",
+     "predicate": "KIN",
+     "object": "大器",
+     "evidence": "因名大器。绷纳生怀",
+     "confidence": 1
+    },
+    {
+     "subject": "云萝公主",
+     "predicate": "KIN",
+     "object": "可弃",
+     "evidence": "又生一子，女举之曰：“豺狼也！”",
+     "confidence": 1
+    },
+    {
+     "subject": "大器",
+     "predicate": "SPOUSE",
+     "object": "云氏",
+     "evidence": "大器十七岁及第，娶云氏",
+     "confidence": 1
+    },
+    {
+     "subject": "可弃",
+     "predicate": "SPOUSE",
+     "object": "侯女",
+     "evidence": "又逾年，可弃二十有三，侯女十五矣。兄忆母言，欲急为完婚。",
+     "confidence": 1
+    },
+    {
+     "subject": "安大业",
+     "predicate": "FRIEND",
+     "object": "袁大用",
+     "evidence": "由此交情款密，三数日辄一过从。",
+     "confidence": 1
+    },
+    {
+     "subject": "袁大用",
+     "predicate": "HELPED",
+     "object": "安大业",
+     "evidence": "赠象箸、楠珠等十馀事，白金五百，用助兴作。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "云萝公主",
+     "predicate": "HELPED",
+     "object": "安大业",
+     "evidence": "因取生胸前带，连结十馀扣，嘱云：“见官时，拈此结而解之，可以弭祸。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袁大用",
+     "predicate": "KILLED",
+     "object": "屠氏",
+     "evidence": "忽一夜，盗入邻家，父子十馀口，尽行杀戮",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安大业",
+     "predicate": "LIVES_AT",
+     "object": "北院",
+     "evidence": "每独宿北院，沐其馀芳。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云萝公主",
+     "predicate": "LIVES_AT",
+     "object": "北院",
+     "evidence": "北院中并无烟火，惟棋枰、酒具而已。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安大业",
+     "predicate": "OWNS",
+     "object": "象箸",
+     "evidence": "适有小仆窃象箸，卖诸其家，知袁所赠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安大业",
+     "predicate": "OWNS",
+     "object": "楠珠",
+     "evidence": "赠象箸、楠珠等十馀事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "云氏",
+     "predicate": "OWNS",
+     "object": "遗袴",
+     "evidence": "先是，主有遗袴，绝轻耎，云拾作寝衣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安大业",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "生键户下帏，遂领乡荐。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "大器",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "大器十七岁及第",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:37.802Z"
+}

@@ -1,0 +1,355 @@
+{
+ "no": 317,
+ "title": "褚生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1676,
+   "entities": [
+    {
+     "name": "陈孝廉",
+     "type": "Person",
+     "aliases": [
+      "陈生"
+     ],
+     "nickname": "",
+     "description": "顺天人，褚生挚友，后中举"
+    },
+    {
+     "name": "褚生",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "山东人，实为鬼魂，附陈生体代考"
+    },
+    {
+     "name": "吕先生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "越地宿儒，设馆授徒，后得子"
+    },
+    {
+     "name": "刘天若",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "褚生表兄，冥司典簿"
+    },
+    {
+     "name": "李遏云",
+     "type": "Spirit",
+     "aliases": [
+      "李姬"
+     ],
+     "nickname": "",
+     "description": "都中名妓，工诗善歌，已死为鬼"
+    },
+    {
+     "name": "陈父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈生之父，商人，曾责陈生窃金"
+    },
+    {
+     "name": "吕长子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕先生长子，自越来寻父"
+    },
+    {
+     "name": "吕妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕先生之妻，五十余岁忽生子"
+    },
+    {
+     "name": "吕儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕先生之子，掌有褚字，后入泮"
+    },
+    {
+     "name": "僧寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈生与褚生最初从师读书处"
+    },
+    {
+     "name": "天宁寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈生遇褚生作火具处"
+    },
+    {
+     "name": "阜成门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕先生设馆处"
+    },
+    {
+     "name": "李皇亲园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "中秋游园处，陈生题词壁上"
+    },
+    {
+     "name": "越地",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕先生故乡，陈生后往访"
+    },
+    {
+     "name": "冥司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间官府，刘天若任典簿"
+    },
+    {
+     "name": "地府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间地府，主者掌投生"
+    },
+    {
+     "name": "乡试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈生应考，褚生代考"
+    },
+    {
+     "name": "春闱",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "会试，陈生求褚生代考未果"
+    },
+    {
+     "name": "廷试",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吕先生以岁贡入都参加"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陈孝廉",
+     "predicate": "FRIEND",
+     "object": "褚生",
+     "evidence": "陈与最善",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "HELPED",
+     "object": "褚生",
+     "evidence": "陈辄窃父金，代褚遗师",
+     "confidence": 0.95
+    },
+    {
+     "subject": "褚生",
+     "predicate": "HELPED",
+     "object": "陈孝廉",
+     "evidence": "故附君体，以代捉刀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "褚生",
+     "predicate": "KIN",
+     "object": "刘天若",
+     "evidence": "云是表兄刘天若",
+     "confidence": 0.95
+    },
+    {
+     "subject": "褚生",
+     "predicate": "KIN",
+     "object": "吕先生",
+     "evidence": "吕先生与仆有父子之分",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕先生",
+     "predicate": "HELPED",
+     "object": "褚生",
+     "evidence": "乃悉以金返陈父，止褚读如故，与共饔飧，若子焉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "FRIEND",
+     "object": "李遏云",
+     "evidence": "陈曾与友人饮其家，故识之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乡试",
+     "evidence": "以“遗才”应试",
+     "confidence": 0.95
+    },
+    {
+     "subject": "褚生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "乡试",
+     "evidence": "褚请代之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "春闱",
+     "evidence": "陈复求赴春闱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕先生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "廷试",
+     "evidence": "后吕以岁贡廷试入都",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "LIVES_AT",
+     "object": "僧寺",
+     "evidence": "尝从塾师读于僧寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "褚生",
+     "predicate": "LIVES_AT",
+     "object": "僧寺",
+     "evidence": "且寄宿斋中",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "LIVES_AT",
+     "object": "阜成门",
+     "evidence": "阜成门有吕先生……请与俱迁之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "褚生",
+     "predicate": "LIVES_AT",
+     "object": "阜成门",
+     "evidence": "阜成门有吕先生……请与俱迁之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕先生",
+     "predicate": "LIVES_AT",
+     "object": "阜成门",
+     "evidence": "阜成门有吕先生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘天若",
+     "predicate": "LIVES_AT",
+     "object": "冥司",
+     "evidence": "表兄为冥司典簿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "LIVES_AT",
+     "object": "越地",
+     "evidence": "于是治装如越",
+     "confidence": 0.9
+    },
+    {
+     "subject": "吕先生",
+     "predicate": "NATIVE_OF",
+     "object": "越地",
+     "evidence": "吕，越之宿儒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "褚生",
+     "predicate": "NATIVE_OF",
+     "object": "山东",
+     "evidence": "自言山东人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "NATIVE_OF",
+     "object": "顺天",
+     "evidence": "顺天陈孝廉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈孝廉",
+     "predicate": "KIN",
+     "object": "陈父",
+     "evidence": "陈父固肆贾",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕先生",
+     "predicate": "KIN",
+     "object": "吕长子",
+     "evidence": "吕长子自越来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕先生",
+     "predicate": "KIN",
+     "object": "吕妻",
+     "evidence": "吕妻断育几十年",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕先生",
+     "predicate": "KIN",
+     "object": "吕儿",
+     "evidence": "忽生一子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕妻",
+     "predicate": "KIN",
+     "object": "吕儿",
+     "evidence": "忽生一子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乡试",
+     "predicate": "OCCURRED_AT",
+     "object": "阜成门",
+     "evidence": "至期，褚偕一人来",
+     "confidence": 0.5
+    },
+    {
+     "subject": "春闱",
+     "predicate": "OCCURRED_AT",
+     "object": "阜成门",
+     "evidence": "陈复求赴春闱",
+     "confidence": 0.5
+    },
+    {
+     "subject": "廷试",
+     "predicate": "OCCURRED_AT",
+     "object": "阜成门",
+     "evidence": "后吕以岁贡廷试入都",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:16.930Z"
+}

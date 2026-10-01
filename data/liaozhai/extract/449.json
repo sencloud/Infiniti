@@ -1,0 +1,155 @@
+{
+ "no": 449,
+ "title": "韦公子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 975,
+   "entities": [
+    {
+     "name": "韦公子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "魏",
+     "description": "咸阳世家子，后成进士，任苏州令"
+    },
+    {
+     "name": "罗惠卿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西安优僮，实为韦公子与婢女吕氏之子"
+    },
+    {
+     "name": "沈韦娘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "苏州乐妓，实为韦公子与名妓之女"
+    },
+    {
+     "name": "吕氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "韦公子家婢女，后卖至罗家，生罗惠卿"
+    },
+    {
+     "name": "韦公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "韦公子之叔，名宦，管教韦公子"
+    },
+    {
+     "name": "咸阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "韦公子籍贯地"
+    },
+    {
+     "name": "西安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "韦公子遇罗惠卿之地"
+    },
+    {
+     "name": "苏州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "韦公子任苏州令之地"
+    },
+    {
+     "name": "黄金鸳鸯",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "韦公子赠沈韦娘之母的定情物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "韦公子",
+     "predicate": "NATIVE_OF",
+     "object": "咸阳",
+     "evidence": "韦公子，咸阳世家",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韦公子",
+     "predicate": "KIN",
+     "object": "韦公",
+     "evidence": "叔亦名宦，休致归",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韦公子",
+     "predicate": "KIN",
+     "object": "罗惠卿",
+     "evidence": "盖其母即生家婢也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韦公子",
+     "predicate": "KIN",
+     "object": "沈韦娘",
+     "evidence": "有咸阳公子，与公同姓，留三月，订盟昏娶。公子去，八月生妾",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韦公子",
+     "predicate": "LOVES",
+     "object": "罗惠卿",
+     "evidence": "见优僮罗惠卿，年十六七，秀丽如好女，悦之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韦公子",
+     "predicate": "KILLED",
+     "object": "沈韦娘",
+     "evidence": "暗置鸩毒杯中。韦娘才下咽，溃乱呻嘶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "韦公子",
+     "predicate": "OWNS",
+     "object": "黄金鸳鸯",
+     "evidence": "赠黄金鸳鸯，今尚在",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韦公子",
+     "predicate": "LIVES_AT",
+     "object": "苏州",
+     "evidence": "后令苏州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "罗惠卿",
+     "predicate": "KIN",
+     "object": "吕氏",
+     "evidence": "母少服役于咸阳韦氏，卖至罗家，四月即生余",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沈韦娘",
+     "predicate": "KIN",
+     "object": "吕氏",
+     "evidence": "妾母十七为名妓",
+     "confidence": 0.9
+    },
+    {
+     "subject": "韦公子",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "数年，中乡榜。……后成进士",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:04.232Z"
+}

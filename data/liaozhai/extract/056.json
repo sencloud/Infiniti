@@ -1,0 +1,279 @@
+{
+ "no": 56,
+ "title": "水莽草",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1469,
+   "entities": [
+    {
+     "name": "祝生",
+     "type": "Person",
+     "aliases": [
+      "祝生者"
+     ],
+     "nickname": "",
+     "description": "楚地书生，误食水莽草而死，后为鬼，有功人世被封四渎牧龙君"
+    },
+    {
+     "name": "寇三娘",
+     "type": "Spirit",
+     "aliases": [
+      "三娘"
+     ],
+     "nickname": "",
+     "description": "南村寇氏女，误食水莽草而死成水莽鬼，后为祝生妻"
+    },
+    {
+     "name": "祝母",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝生之母，哺养孤孙，后去世"
+    },
+    {
+     "name": "寇家翁媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇三娘父母，南村富室，初吝惜不给解药"
+    },
+    {
+     "name": "任侍郎",
+     "type": "Person",
+     "aliases": [
+      "任公"
+     ],
+     "nickname": "",
+     "description": "官员，其妾生女夭折后投生为寇三娘，后与祝生订翁婿"
+    },
+    {
+     "name": "祝鹗",
+     "type": "Person",
+     "aliases": [
+      "离尘"
+     ],
+     "nickname": "",
+     "description": "祝生之子，字离尘，后娶任侍郎孙女"
+    },
+    {
+     "name": "倪姓媪",
+     "type": "Spirit",
+     "aliases": [
+      "媪"
+     ],
+     "nickname": "",
+     "description": "卖茶水的老太太，水莽鬼，求三娘助其迷惑行人"
+    },
+    {
+     "name": "李九",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "水莽鬼，害村中人中毒，被祝生驱走"
+    },
+    {
+     "name": "同年某",
+     "type": "Person",
+     "aliases": [
+      "某"
+     ],
+     "nickname": "",
+     "description": "祝生的同年，其父死于水莽鬼，助祝生求药"
+    },
+    {
+     "name": "桃花江",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "楚中一带，水莽鬼尤多之地"
+    },
+    {
+     "name": "南村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇氏所居之村"
+    },
+    {
+     "name": "郡城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "倪姓媪转生卖浆者之家所在"
+    },
+    {
+     "name": "任侍郎家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "任侍郎府邸，寇三娘曾投生于此"
+    },
+    {
+     "name": "祝家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "祝生家宅，祝生夫妇居此"
+    },
+    {
+     "name": "寇家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇三娘父母家，南村富室"
+    },
+    {
+     "name": "水莽草",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "毒草，误食立死，即为水莽鬼"
+    },
+    {
+     "name": "指环",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇三娘所戴指环，被祝生脱去"
+    },
+    {
+     "name": "四渎牧龙君",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "上帝封祝生之职，因有功人世"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "祝生",
+     "predicate": "LOVES",
+     "object": "寇三娘",
+     "evidence": "生受盏神驰，嗅其茶，芳烈无伦。吸尽再索。觑媪出，戏捉纤腕，脱指环一枚。女赪颊微笑，生益惑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝生",
+     "predicate": "SPOUSE",
+     "object": "寇三娘",
+     "evidence": "儿往，则三娘已投生任侍郎家，儿驰去，强捉之来。今为儿妇，亦相得，颇无苦。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝生",
+     "predicate": "KIN",
+     "object": "祝母",
+     "evidence": "儿地下闻母哭，甚怆于怀，故来奉晨昏耳。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝生",
+     "predicate": "KIN",
+     "object": "祝鹗",
+     "evidence": "遗一子，甫周岁。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇三娘",
+     "predicate": "KIN",
+     "object": "寇家翁媪",
+     "evidence": "寇家翁媪，闻而大骇。命车疾至，视之，果三娘，相向哭失声",
+     "confidence": 0.95
+    },
+    {
+     "subject": "祝鹗",
+     "predicate": "SPOUSE",
+     "object": "任侍郎孙女",
+     "evidence": "为儿娶妇。妇，任侍郎之孙女也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "任侍郎",
+     "predicate": "KIN",
+     "object": "寇三娘",
+     "evidence": "三娘已投生任侍郎家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝生",
+     "predicate": "HARMED",
+     "object": "寇三娘",
+     "evidence": "儿驰去，强捉之来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇家翁媪",
+     "predicate": "HARMED",
+     "object": "祝生",
+     "evidence": "寇以其将代女死故，靳不与。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝生",
+     "predicate": "HELPED",
+     "object": "村中人",
+     "evidence": "是我活之也。彼为李九所害，我为之驱其鬼而去之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝生",
+     "predicate": "HARMED",
+     "object": "李九",
+     "evidence": "彼为李九所害，我为之驱其鬼而去之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "倪姓媪",
+     "predicate": "HARMED",
+     "object": "祝生",
+     "evidence": "媪承迎入棚，给奉甚殷。嗅之有异味，不类茶茗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝生",
+     "predicate": "LIVES_AT",
+     "object": "祝家",
+     "evidence": "由此居故室，遂留不去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇三娘",
+     "predicate": "LIVES_AT",
+     "object": "祝家",
+     "evidence": "由此居故室，遂留不去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇三娘",
+     "predicate": "LIVES_AT",
+     "object": "任侍郎家",
+     "evidence": "三娘已投生任侍郎家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "倪姓媪",
+     "predicate": "LIVES_AT",
+     "object": "郡城",
+     "evidence": "今已生于郡城卖浆者之家。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝生",
+     "predicate": "OWNS",
+     "object": "指环",
+     "evidence": "觑媪出，戏捉纤腕，脱指环一枚。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "祝生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "四渎牧龙君",
+     "evidence": "上帝以我有功人世，策为‘四渎牧龙君’。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:37.922Z"
+}

@@ -1,0 +1,137 @@
+{
+ "no": 486,
+ "title": "新郑讼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 506,
+   "entities": [
+    {
+     "name": "石宗玉",
+     "type": "Person",
+     "aliases": [
+      "石公",
+      "石进士"
+     ],
+     "nickname": "",
+     "description": "长山进士，新郑县令，断案如神"
+    },
+    {
+     "name": "张某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "远方客商，经商于外，携赀五千"
+    },
+    {
+     "name": "某甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新郑人，劫张某钱，久有逋赋"
+    },
+    {
+     "name": "甲邻人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "某甲近邻，知情不报，后吐实"
+    },
+    {
+     "name": "新郑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，石宗玉任县令之地"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，石宗玉籍贯"
+    },
+    {
+     "name": "劫赀案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "某甲劫张某五千赀，石公智断"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "石宗玉",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山石进士宗玉，为新郑令。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "石宗玉",
+     "predicate": "LIVES_AT",
+     "object": "新郑",
+     "evidence": "长山石进士宗玉，为新郑令。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某甲",
+     "predicate": "HARMED",
+     "object": "张某",
+     "evidence": "有某甲过，睨之，见旁无人，夺赀去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某甲",
+     "predicate": "HARMED",
+     "object": "张某",
+     "evidence": "怒执为贼，缚见石公",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石宗玉",
+     "predicate": "PUNISHED",
+     "object": "某甲",
+     "evidence": "乃责甲押偿之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甲邻人",
+     "predicate": "HELPED",
+     "object": "某甲",
+     "evidence": "邻急曰：“然，固有之矣。”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "张某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "劫赀案",
+     "evidence": "有某甲过，睨之，见旁无人，夺赀去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某甲",
+     "predicate": "PARTICIPATED_IN",
+     "object": "劫赀案",
+     "evidence": "有某甲过，睨之，见旁无人，夺赀去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "石宗玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "劫赀案",
+     "evidence": "公以无质实，叱去之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "劫赀案",
+     "predicate": "OCCURRED_AT",
+     "object": "新郑",
+     "evidence": "至新郑，两夫往市饮食，张守赀独卧车中。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:19.432Z"
+}

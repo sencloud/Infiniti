@@ -1,0 +1,204 @@
+{
+ "no": 137,
+ "title": "促织",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1826,
+   "entities": [
+    {
+     "name": "成名",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中童生，被充里正，因促织而富"
+    },
+    {
+     "name": "成妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中成名之妻"
+    },
+    {
+     "name": "成子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中成名九岁之子，魂化促织"
+    },
+    {
+     "name": "驼背巫",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中能以神卜的巫婆"
+    },
+    {
+     "name": "华阴令",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中进献促织的华阴县令"
+    },
+    {
+     "name": "抚军",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中献促织于上的巡抚"
+    },
+    {
+     "name": "小虫",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中成子魂化之促织，轻捷善斗"
+    },
+    {
+     "name": "蟹壳青",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中少年驯养的促织，常胜"
+    },
+    {
+     "name": "华阴县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中征促织之地"
+    },
+    {
+     "name": "大佛阁",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中村东寺庙，成名捉虫处"
+    },
+    {
+     "name": "宫中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中皇宫，尚促织之戏"
+    },
+    {
+     "name": "促织之戏",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中宫中斗蟋蟀之戏"
+    },
+    {
+     "name": "童子业",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "《促织》中成名所操科举童生之业"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "成名",
+     "predicate": "SPOUSE",
+     "object": "成妻",
+     "evidence": "妻曰：“死何裨益？不如自行搜觅，冀有万一之得。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成名",
+     "predicate": "KIN",
+     "object": "成子",
+     "evidence": "成有子九岁，窥父不在，窃发盆。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成妻",
+     "predicate": "KIN",
+     "object": "成子",
+     "evidence": "儿惧，啼告母。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成妻",
+     "predicate": "HELPED",
+     "object": "成名",
+     "evidence": "妻曰：“死何裨益？不如自行搜觅，冀有万一之得。”成然之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "驼背巫",
+     "predicate": "HELPED",
+     "object": "成妻",
+     "evidence": "成妻具赀诣问……少间，帘内掷一纸出，即道人意中事，无毫发爽。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成名",
+     "predicate": "PARTICIPATED_IN",
+     "object": "童子业",
+     "evidence": "邑有成名者，操童子业，久不售。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成名",
+     "predicate": "LIVES_AT",
+     "object": "华阴县",
+     "evidence": "邑有成名者，操童子业，久不售。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成名",
+     "predicate": "LIVES_AT",
+     "object": "大佛阁",
+     "evidence": "细瞻景状，与村东大佛阁真逼似。乃强起扶杖，执图诣寺后。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "华阴令",
+     "predicate": "PARTICIPATED_IN",
+     "object": "促织之戏",
+     "evidence": "有华阴令欲媚上官，以一头进，试使斗而才，因责常供。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "促织之戏",
+     "predicate": "OCCURRED_AT",
+     "object": "宫中",
+     "evidence": "宣德间，宫中尚促织之戏，岁征民间。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "成子",
+     "predicate": "KILLED",
+     "object": "小虫",
+     "evidence": "及扑入手，已股落腹裂，斯须就毙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小虫",
+     "predicate": "HARMED",
+     "object": "蟹壳青",
+     "evidence": "俄见小虫跃起，张尾伸须，直龁敌领。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抚军",
+     "predicate": "HELPED",
+     "object": "成名",
+     "evidence": "抚军亦厚赉成。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "成名",
+     "predicate": "OWNS",
+     "object": "小虫",
+     "evidence": "壁上小虫，忽跃落衿袖间……喜而收之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:06.263Z"
+}

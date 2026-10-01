@@ -1,0 +1,170 @@
+{
+ "no": 184,
+ "title": "花姑子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2766,
+   "entities": [
+    {
+     "name": "安幼舆",
+     "type": "Person",
+     "aliases": [
+      "安生"
+     ],
+     "nickname": "",
+     "description": "陕之拔贡生，好放生，与花姑子相恋"
+    },
+    {
+     "name": "花姑子",
+     "type": "Spirit",
+     "aliases": [
+      "獐女"
+     ],
+     "nickname": "",
+     "description": "獐精之女，报恩安幼舆，救其性命"
+    },
+    {
+     "name": "章叟",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "花姑子之父，獐精，曾受安幼舆放生之恩"
+    },
+    {
+     "name": "蛇精",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冒充花姑子害死安幼舆的妖物"
+    },
+    {
+     "name": "阎摩王",
+     "type": "Spirit",
+     "aliases": [
+      "阎王"
+     ],
+     "nickname": "",
+     "description": "冥府之王，审理花姑子父女讼案"
+    },
+    {
+     "name": "华岳",
+     "type": "Place",
+     "aliases": [
+      "华山"
+     ],
+     "nickname": "",
+     "description": "安幼舆迷路及放獐之处"
+    },
+    {
+     "name": "章氏茅庐",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "章叟所居小村茅屋"
+    },
+    {
+     "name": "西村王主政家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "安幼舆死后投生之处"
+    },
+    {
+     "name": "紫姑",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "花姑子用薥心扎制的玩偶"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "安幼舆",
+     "predicate": "LOVES",
+     "object": "花姑子",
+     "evidence": "安注目情动",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安幼舆",
+     "predicate": "SPOUSE",
+     "object": "花姑子",
+     "evidence": "安喜极，抱与绸缪，恩爱甚至",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花姑子",
+     "predicate": "KIN",
+     "object": "章叟",
+     "evidence": "老夫章姓，七十年止有此女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "安幼舆",
+     "predicate": "HELPED",
+     "object": "章叟",
+     "evidence": "君五年前，曾于华山道上买猎獐而放之否？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花姑子",
+     "predicate": "HELPED",
+     "object": "安幼舆",
+     "evidence": "乃登榻，坐安股上，以两手为按太阳穴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蛇精",
+     "predicate": "KILLED",
+     "object": "安幼舆",
+     "evidence": "安骇绝，急欲逃脱，而身若巨绠之缚。少时，闷然不觉矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花姑子",
+     "predicate": "HELPED",
+     "object": "安幼舆",
+     "evidence": "女出青草一束，燂汤升许，即床头进之，顷刻能言",
+     "confidence": 0.95
+    },
+    {
+     "subject": "阎摩王",
+     "predicate": "PUNISHED",
+     "object": "章叟",
+     "evidence": "妾与父讼诸阎摩王，阎摩王弗善也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安幼舆",
+     "predicate": "LIVES_AT",
+     "object": "章氏茅庐",
+     "evidence": "从行里许，睹小村。叟扣荆扉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安幼舆",
+     "predicate": "NATIVE_OF",
+     "object": "华岳",
+     "evidence": "安幼舆，陕之拔贡生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花姑子",
+     "predicate": "OWNS",
+     "object": "紫姑",
+     "evidence": "见炉傍有薥心插紫姑未竟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "安幼舆",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "安幼舆，陕之拔贡生",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:24.858Z"
+}

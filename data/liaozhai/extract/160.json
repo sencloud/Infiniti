@@ -1,0 +1,199 @@
+{
+ "no": 160,
+ "title": "胡四相公",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1420,
+   "entities": [
+    {
+     "name": "张虚一",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莱芜人，张道一之仲兄，性豪放"
+    },
+    {
+     "name": "胡四相公",
+     "type": "Spirit",
+     "aliases": [
+      "胡"
+     ],
+     "nickname": "",
+     "description": "狐精，姓胡行四，与张虚一交好"
+    },
+    {
+     "name": "张道一",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "张虚一之弟，官学使"
+    },
+    {
+     "name": "巫媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "南城巫婆，托狐神骗钱"
+    },
+    {
+     "name": "小狐",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡四相公的狐仆从"
+    },
+    {
+     "name": "胡四相公之兄",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡四相公的狐兄，道行浅"
+    },
+    {
+     "name": "苍头",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡四相公派来送银的老仆"
+    },
+    {
+     "name": "莱芜",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张虚一的籍贯地"
+    },
+    {
+     "name": "陕中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡四相公的出生地"
+    },
+    {
+     "name": "南城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "巫媪所居之地"
+    },
+    {
+     "name": "某氏宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中狐狸所居的宅院"
+    },
+    {
+     "name": "西川",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张道一任学使之地"
+    },
+    {
+     "name": "白镪",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡四相公所赠的白银"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "张虚一",
+     "predicate": "FRIEND",
+     "object": "胡四相公",
+     "evidence": "于是酬酢议论，意气颇洽。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张虚一",
+     "predicate": "KIN",
+     "object": "张道一",
+     "evidence": "莱芜张虚一者，学使张道一之仲兄也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张虚一",
+     "predicate": "NATIVE_OF",
+     "object": "莱芜",
+     "evidence": "莱芜张虚一者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡四相公",
+     "predicate": "NATIVE_OF",
+     "object": "陕中",
+     "evidence": "弟陕中产，将归去矣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "胡四相公",
+     "predicate": "LIVES_AT",
+     "object": "某氏宅",
+     "evidence": "闻邑中某氏宅为狐狸所居",
+     "confidence": 0.9
+    },
+    {
+     "subject": "巫媪",
+     "predicate": "LIVES_AT",
+     "object": "南城",
+     "evidence": "南城中巫媪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小狐",
+     "predicate": "HELPED",
+     "object": "张虚一",
+     "evidence": "张请恕之，乃止。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "小狐",
+     "predicate": "HARMED",
+     "object": "巫媪",
+     "evidence": "空中发半砖来，中巫臂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡四相公",
+     "predicate": "HELPED",
+     "object": "张虚一",
+     "evidence": "受而开视，则白镪满中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张虚一",
+     "predicate": "OWNS",
+     "object": "白镪",
+     "evidence": "受而开视，则白镪满中。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张道一",
+     "predicate": "LIVES_AT",
+     "object": "西川",
+     "evidence": "后道一先生为西川学使",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡四相公",
+     "predicate": "KIN",
+     "object": "胡四相公之兄",
+     "evidence": "此必家兄。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "苍头",
+     "predicate": "HELPED",
+     "object": "张虚一",
+     "evidence": "胡四相公敬致先生。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:16.328Z"
+}

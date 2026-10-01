@@ -1,0 +1,170 @@
+{
+ "no": 68,
+ "title": "6.1 普查与抽样调查",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3369,
+   "entities": [
+    {
+     "name": "统计学",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "研究如何收集、分析和表述数据，并通过数据信息得出结论的科学"
+    },
+    {
+     "name": "普查",
+     "type": "Concept",
+     "aliases": [
+      "thorough survey"
+     ],
+     "nickname": "",
+     "description": "为一特定目的对所有考察对象所做的调查"
+    },
+    {
+     "name": "抽样调查",
+     "type": "Concept",
+     "aliases": [
+      "sampling survey",
+      "抽样"
+     ],
+     "nickname": "",
+     "description": "为一特定目的对部分考察对象所做的调查"
+    },
+    {
+     "name": "总体",
+     "type": "Concept",
+     "aliases": [
+      "population"
+     ],
+     "nickname": "",
+     "description": "所考察对象的全体"
+    },
+    {
+     "name": "个体",
+     "type": "Concept",
+     "aliases": [
+      "element"
+     ],
+     "nickname": "",
+     "description": "组成总体的每一个考察对象"
+    },
+    {
+     "name": "样本",
+     "type": "Concept",
+     "aliases": [
+      "sample"
+     ],
+     "nickname": "",
+     "description": "从总体中抽取的一部分个体"
+    },
+    {
+     "name": "样本容量",
+     "type": "Concept",
+     "aliases": [
+      "size of a sample"
+     ],
+     "nickname": "",
+     "description": "样本中个体的数目"
+    },
+    {
+     "name": "简单随机抽样",
+     "type": "Concept",
+     "aliases": [
+      "simple random sampling"
+     ],
+     "nickname": "",
+     "description": "使每个个体被抽取机会相同，样本具有较好代表性的抽样方法"
+    },
+    {
+     "name": "统计表",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用于整理数据的表格"
+    },
+    {
+     "name": "条形统计图",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用条形表示数据大小的统计图"
+    },
+    {
+     "name": "统计思想",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用数据说话，从数据中挖掘信息的数学思想"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "普查",
+     "predicate": "INCLUDES",
+     "object": "总体",
+     "evidence": "为一特定目的对所有考察对象所做的调查，叫作普查",
+     "confidence": 0.9
+    },
+    {
+     "subject": "普查",
+     "predicate": "INCLUDES",
+     "object": "个体",
+     "evidence": "为一特定目的对所有考察对象所做的调查，叫作普查",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抽样调查",
+     "predicate": "INCLUDES",
+     "object": "样本",
+     "evidence": "为一特定目的对部分考察对象所做的调查，叫作抽样调查",
+     "confidence": 0.9
+    },
+    {
+     "subject": "抽样调查",
+     "predicate": "INCLUDES",
+     "object": "样本容量",
+     "evidence": "样本中个体的数目叫作样本容量",
+     "confidence": 0.9
+    },
+    {
+     "subject": "简单随机抽样",
+     "predicate": "SPECIAL_CASE",
+     "object": "抽样调查",
+     "evidence": "简单随机抽样是能使样本具有较好代表性的一种抽样方法",
+     "confidence": 0.9
+    },
+    {
+     "subject": "普查",
+     "predicate": "CONTRASTS",
+     "object": "抽样调查",
+     "evidence": "普查的结果可靠，但往往工作量大，而且有些调查不宜使用普查. 抽样调查可以提高效率、节约成本，便于实施",
+     "confidence": 0.9
+    },
+    {
+     "subject": "统计表",
+     "predicate": "APPLIES_TO",
+     "object": "数据的整理与描述",
+     "evidence": "用统计表对调查结果进行整理",
+     "confidence": 0.9
+    },
+    {
+     "subject": "条形统计图",
+     "predicate": "APPLIES_TO",
+     "object": "数据的整理与描述",
+     "evidence": "画出条形统计图",
+     "confidence": 0.9
+    },
+    {
+     "subject": "统计思想",
+     "predicate": "APPLIES_TO",
+     "object": "统计学",
+     "evidence": "掌握统计方法和统计思想，可以帮助我们从各种数据中挖掘有用的信息",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:02.202Z"
+}

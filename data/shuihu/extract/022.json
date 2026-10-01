@@ -1,0 +1,512 @@
+{
+ "no": 22,
+ "title": "第二十二回 阎婆大闹郓城县 朱仝义释宋公明",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5926,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "宋押司",
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，因杀阎婆惜逃亡"
+    },
+    {
+     "name": "阎婆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "阎婆惜之母，告状宋江"
+    },
+    {
+     "name": "阎婆惜",
+     "type": "Person",
+     "aliases": [
+      "婆惜"
+     ],
+     "nickname": "",
+     "description": "宋江外宅，被宋江杀死"
+    },
+    {
+     "name": "唐牛儿",
+     "type": "Person",
+     "aliases": [
+      "唐二"
+     ],
+     "nickname": "",
+     "description": "郓城县卖糟姜的，被屈打成招"
+    },
+    {
+     "name": "张文远",
+     "type": "Person",
+     "aliases": [
+      "张三"
+     ],
+     "nickname": "",
+     "description": "郓城县押司，阎婆惜表子，唆使告状"
+    },
+    {
+     "name": "宋太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江之父，宋家村居住"
+    },
+    {
+     "name": "宋清",
+     "type": "Person",
+     "aliases": [
+      "宋四郎"
+     ],
+     "nickname": "铁扇子",
+     "description": "宋江之弟，随兄逃亡"
+    },
+    {
+     "name": "朱仝",
+     "type": "Person",
+     "aliases": [
+      "朱都头"
+     ],
+     "nickname": "美髯公",
+     "description": "郓城县都头，义释宋江"
+    },
+    {
+     "name": "雷横",
+     "type": "Person",
+     "aliases": [
+      "雷都头"
+     ],
+     "nickname": "插翅虎",
+     "description": "郓城县都头，与朱仝同搜宋家庄"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "柴大官人"
+     ],
+     "nickname": "小旋风",
+     "description": "沧州横海郡庄主，仗义疏财"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "青州清风寨知寨，宋江投奔处之一"
+    },
+    {
+     "name": "孔明",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "毛头星",
+     "description": "白虎山孔太公长子"
+    },
+    {
+     "name": "孔亮",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "独火星",
+     "description": "白虎山孔太公次子"
+    },
+    {
+     "name": "孔太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白虎山孔明孔亮之父"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江任押司的县份"
+    },
+    {
+     "name": "宋家村",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋太公庄院所在村庄"
+    },
+    {
+     "name": "沧州横海郡",
+     "type": "Place",
+     "aliases": [
+      "沧州"
+     ],
+     "nickname": "",
+     "description": "柴进庄院所在州郡"
+    },
+    {
+     "name": "清风寨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州清风寨，花荣任职处"
+    },
+    {
+     "name": "白虎山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔太公庄院所在山名"
+    },
+    {
+     "name": "宋家庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋太公庄院"
+    },
+    {
+     "name": "地窨子",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江藏身的地窖"
+    },
+    {
+     "name": "杀阎婆惜",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江杀死外宅阎婆惜的事件"
+    },
+    {
+     "name": "朱仝义释宋江",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱仝私放宋江并周全其脱罪"
+    },
+    {
+     "name": "压衣刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江的凶器，遗落现场"
+    },
+    {
+     "name": "执凭公文",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋太公告宋江忤逆出籍的官文书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋太公",
+     "evidence": "他父亲宋太公并兄弟宋清",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋清",
+     "evidence": "他父亲宋太公并兄弟宋清",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋太公",
+     "predicate": "KIN",
+     "object": "宋清",
+     "evidence": "老汉自和孩儿宋清在此荒村",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SPOUSE",
+     "object": "阎婆惜",
+     "evidence": "有个女儿唤做婆惜，典与宋押司做外宅",
+     "confidence": 0.9
+    },
+    {
+     "subject": "阎婆",
+     "predicate": "KIN",
+     "object": "阎婆惜",
+     "evidence": "老身姓阎，有个女儿唤做婆惜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KILLED",
+     "object": "阎婆惜",
+     "evidence": "今早宋江出去走了一遭回来，把我女儿杀了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "杀阎婆惜",
+     "evidence": "今早宋江出去走了一遭回来，把我女儿杀了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杀阎婆惜",
+     "predicate": "OCCURRED_AT",
+     "object": "郓城县",
+     "evidence": "老身结扭到县前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张文远",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "张文远又禀道：犯人宋江逃去……可以勾追到官",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张文远",
+     "predicate": "SPOUSE",
+     "object": "阎婆惜",
+     "evidence": "正是我的表子",
+     "confidence": 0.85
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "若不是贤兄如此周全，宋江定遭缧绁之厄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "PARTICIPATED_IN",
+     "object": "朱仝义释宋江",
+     "evidence": "朱仝自进庄里……宋江从地窨子里钻将出来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱仝义释宋江",
+     "predicate": "OCCURRED_AT",
+     "object": "宋家庄",
+     "evidence": "径奔宋家庄上来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "地窨子",
+     "evidence": "宋江从地窨子里钻将出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "柴进",
+     "evidence": "弟兄二人寻思无处安身，思起大官人仗义疏财，特来投奔",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋清",
+     "predicate": "SERVED",
+     "object": "柴进",
+     "evidence": "弟兄二人寻思无处安身……特来投奔",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "柴进",
+     "evidence": "他虽和我常常书信来往",
+     "confidence": 0.85
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "我是郓城县宋江的便是",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋太公",
+     "predicate": "STATIONED_AT",
+     "object": "宋家村",
+     "evidence": "他父亲宋太公并兄弟宋清，见在宋家村居住",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴进",
+     "predicate": "STATIONED_AT",
+     "object": "沧州横海郡",
+     "evidence": "沧州横海郡小旋风柴进庄上",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "青州清风寨小李广花荣处",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔明",
+     "predicate": "STATIONED_AT",
+     "object": "白虎山",
+     "evidence": "白虎山孔太公庄上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔亮",
+     "predicate": "STATIONED_AT",
+     "object": "白虎山",
+     "evidence": "白虎山孔太公庄上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孔太公",
+     "predicate": "KIN",
+     "object": "孔明",
+     "evidence": "他有两个孩儿，长男叫做毛头星孔明",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔太公",
+     "predicate": "KIN",
+     "object": "孔亮",
+     "evidence": "次子叫做独火星孔亮",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔明",
+     "predicate": "KIN",
+     "object": "孔亮",
+     "evidence": "长男叫做毛头星孔明，次子叫做独火星孔亮",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "压衣刀",
+     "evidence": "见有刀子是宋江的压衣刀",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋太公",
+     "predicate": "OWNS",
+     "object": "执凭公文",
+     "evidence": "见有执凭公文存照",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱仝",
+     "predicate": "MEMBER_OF",
+     "object": "郓城县",
+     "evidence": "朱仝、雷横二都头当厅发落",
+     "confidence": 0.85
+    },
+    {
+     "subject": "雷横",
+     "predicate": "MEMBER_OF",
+     "object": "郓城县",
+     "evidence": "朱仝、雷横二都头当厅发落",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 789,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，仗义疏财，天下闻名"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "小旋风",
+      "柴大官人",
+      "柴皇城"
+     ],
+     "nickname": "小旋风",
+     "description": "柴大官人，庄院主人，好客仗义"
+    },
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "害疟疾的大汉，后投奔宋江"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江任职的县"
+    },
+    {
+     "name": "柴进庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柴进的庄院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "郓城县",
+     "evidence": "他敢比不得郓城宋押司少些儿！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "柴进庄",
+     "evidence": "柴大官人亲赶到说：'我接不着押司，如何却在这里闹？'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "SERVED",
+     "object": "宋江",
+     "evidence": "我如今只等病好时，便去投奔他。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "武松",
+     "predicate": "FRIEND",
+     "object": "宋江",
+     "evidence": "那汉定睛看了看，纳头便拜，说道：'我不是梦里么？与兄长相见！'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "武松",
+     "evidence": "把那火锨里炭火，都掀在那汉脸上。那汉吃了一惊，惊出一身汗来，自此疟疾好了",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:09.650Z"
+}

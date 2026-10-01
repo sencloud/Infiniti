@@ -1,0 +1,494 @@
+{
+ "no": 6,
+ "title": "第六回 九纹龙剪径赤松林 鲁智深火烧瓦罐寺",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5973,
+   "entities": [
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁达",
+      "鲁提辖"
+     ],
+     "nickname": "花和尚",
+     "description": "五台山来的僧人，原为提辖，好汉"
+    },
+    {
+     "name": "史进",
+     "type": "Person",
+     "aliases": [
+      "史大郎"
+     ],
+     "nickname": "九纹龙",
+     "description": "少华山好汉，与鲁智深相识"
+    },
+    {
+     "name": "崔道成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "生铁佛",
+     "description": "瓦罐寺住持和尚，强贼"
+    },
+    {
+     "name": "丘小乙",
+     "type": "Person",
+     "aliases": [
+      "丘道人"
+     ],
+     "nickname": "飞天夜叉",
+     "description": "瓦罐寺道人，与崔道成同伙"
+    },
+    {
+     "name": "朱武",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "神机军师",
+     "description": "少华山头领"
+    },
+    {
+     "name": "王进",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进的师父"
+    },
+    {
+     "name": "智清禅师",
+     "type": "Person",
+     "aliases": [
+      "清长老"
+     ],
+     "nickname": "",
+     "description": "东京大相国寺长老"
+    },
+    {
+     "name": "真长老",
+     "type": "Person",
+     "aliases": [
+      "真大师"
+     ],
+     "nickname": "",
+     "description": "五台山长老，鲁智深的师父"
+    },
+    {
+     "name": "瓦罐寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "败落寺院，被崔道成、丘小乙占据"
+    },
+    {
+     "name": "赤松林",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深与史进相遇的松林"
+    },
+    {
+     "name": "东京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "都城，大相国寺所在"
+    },
+    {
+     "name": "大相国寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京大刹，鲁智深投奔处"
+    },
+    {
+     "name": "少华山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱武等三人落草的山寨"
+    },
+    {
+     "name": "五台山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深出家之地"
+    },
+    {
+     "name": "渭州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深与史进分别之地"
+    },
+    {
+     "name": "延州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进寻王进所到之处"
+    },
+    {
+     "name": "北京",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进盘缠使尽之地"
+    },
+    {
+     "name": "华州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "史进前往少华山途经之地"
+    },
+    {
+     "name": "少华山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱武等三人为首的山寨势力"
+    },
+    {
+     "name": "瓦罐寺事件",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深火烧瓦罐寺，杀崔道成、丘小乙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "鲁智深",
+     "predicate": "FOUGHT",
+     "object": "崔道成",
+     "evidence": "智深见了，大吼一声，抡起手中禅杖，来斗崔道成。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FOUGHT",
+     "object": "丘小乙",
+     "evidence": "崔道成和丘道人两个，又并了十合之上。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "KILLED",
+     "object": "崔道成",
+     "evidence": "只一禅杖，把生铁佛打下桥去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "KILLED",
+     "object": "丘小乙",
+     "evidence": "史进喝道：“那里去！”赶上，望后心一朴刀，扑地一声响，道人倒在一边。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FRIEND",
+     "object": "史进",
+     "evidence": "那汉撇了朴刀，翻身便剪拂，说道：“认得史进么？”智深笑道：“原来是史大郎。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王进",
+     "predicate": "MASTER_OF",
+     "object": "史进",
+     "evidence": "寻师父王进。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "SERVED",
+     "object": "朱武",
+     "evidence": "我如今只得再回少华山，去投奔朱武等三人入了伙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "MEMBER_OF",
+     "object": "少华山",
+     "evidence": "我如今只得再回少华山，去投奔朱武等三人入了伙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "朱武",
+     "predicate": "LEADS",
+     "object": "少华山",
+     "evidence": "去投奔朱武等三人入了伙。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "瓦罐寺事件",
+     "evidence": "智深与史进看着，等了一回，四下火都着了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "PARTICIPATED_IN",
+     "object": "瓦罐寺事件",
+     "evidence": "智深与史进看着，等了一回，四下火都着了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "瓦罐寺事件",
+     "predicate": "OCCURRED_AT",
+     "object": "瓦罐寺",
+     "evidence": "智深与史进看着，等了一回，四下火都着了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "五台山",
+     "evidence": "俺是五台山来的僧人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "SERVED",
+     "object": "智清禅师",
+     "evidence": "着小僧来投上刹清大师长老处，讨个职事僧做。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "真长老",
+     "predicate": "MASTER_OF",
+     "object": "鲁智深",
+     "evidence": "本师真长老有书在此。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "禅杖",
+     "evidence": "智深把禅杖就地下搠着。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "他恰才见你有戒刀、禅杖。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "崔道成",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "那生铁佛崔道成，仗着一条朴刀。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丘小乙",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "这丘道人见他当不住，却从背后拿了条朴刀。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "史进",
+     "predicate": "OWNS",
+     "object": "朴刀",
+     "evidence": "那汉拈着朴刀，来斗和尚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "NATIVE_OF",
+     "object": "渭州",
+     "evidence": "自渭州别后，你一向在何处？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "史进",
+     "predicate": "NATIVE_OF",
+     "object": "渭州",
+     "evidence": "自那日酒楼前与哥哥分手，次日听得哥哥打死了郑屠，逃走去了。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1722,
+   "entities": [
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "花和尚",
+      "鲁提辖",
+      "鲁达",
+      "智深"
+     ],
+     "nickname": "花和尚",
+     "description": "延安府老种经略相公帐前提辖官，因打死人落发为僧，后管菜园"
+    },
+    {
+     "name": "智真长老",
+     "type": "Person",
+     "aliases": [
+      "智真和尚",
+      "智真禅师",
+      "真大师",
+      "师兄"
+     ],
+     "nickname": "",
+     "description": "鲁智深的剃度师父，大相国寺清长老的师兄"
+    },
+    {
+     "name": "清长老",
+     "type": "Person",
+     "aliases": [
+      "清公大德禅师"
+     ],
+     "nickname": "",
+     "description": "大相国寺住持，智真长老的师弟"
+    },
+    {
+     "name": "赵员外",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "敝寺檀越，资助鲁智深剃度"
+    },
+    {
+     "name": "老种经略相公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "延安府经略相公，鲁达曾在其帐下任提辖官"
+    },
+    {
+     "name": "大相国寺",
+     "type": "Organization",
+     "aliases": [
+      "大刹",
+      "敝寺"
+     ],
+     "nickname": "",
+     "description": "东京著名寺院，清长老住持"
+    },
+    {
+     "name": "酸枣门外菜园",
+     "type": "Place",
+     "aliases": [
+      "大菜园",
+      "菜园",
+      "廨宇"
+     ],
+     "nickname": "",
+     "description": "大相国寺在酸枣门外的菜园，鲁智深住持管领"
+    },
+    {
+     "name": "延安府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁达俗家籍贯所在地"
+    },
+    {
+     "name": "粪窖",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "菜园中粪窖，泼皮欲将鲁智深攧入其中"
+    },
+    {
+     "name": "禅杖",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深所持兵器"
+    },
+    {
+     "name": "戒刀",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深所佩戒刀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "智真长老",
+     "predicate": "MASTER_OF",
+     "object": "鲁智深",
+     "evidence": "敝寺檀越赵员外剃度僧人智深",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵员外",
+     "predicate": "RESCUED",
+     "object": "鲁智深",
+     "evidence": "敝寺檀越赵员外剃度僧人智深",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "NATIVE_OF",
+     "object": "延安府",
+     "evidence": "俗姓是延安府老种经略相公帐前提辖官鲁达",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "SERVED",
+     "object": "老种经略相公",
+     "evidence": "延安府老种经略相公帐前提辖官鲁达",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "大相国寺",
+     "evidence": "清长老升法座，押了法帖，委智深管菜园",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "STATIONED_AT",
+     "object": "酸枣门外菜园",
+     "evidence": "委智深管菜园……直来酸枣门外廨宇里来住持",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "禅杖",
+     "evidence": "提了禅杖，和两个送入院的和尚直来酸枣门外廨宇里来住持",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "OWNS",
+     "object": "戒刀",
+     "evidence": "跨了戒刀，提了禅杖",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "菜园降伏泼皮",
+     "evidence": "那伙泼皮一齐向前，一个来抢左脚，一个来抢右脚，指望来攧智深",
+     "confidence": 0.9
+    },
+    {
+     "subject": "菜园降伏泼皮",
+     "predicate": "OCCURRED_AT",
+     "object": "酸枣门外菜园",
+     "evidence": "智深不知是计，直走到粪窖边来",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:31:51.516Z"
+}

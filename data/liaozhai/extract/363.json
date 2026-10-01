@@ -1,0 +1,98 @@
+{
+ "no": 363,
+ "title": "绩女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1206,
+   "entities": [
+    {
+     "name": "寡媪",
+     "type": "Person",
+     "aliases": [
+      "媪",
+      "老姥",
+      "姥",
+      "婆子",
+      "老妈妈"
+     ],
+     "nickname": "",
+     "description": "绍兴寡居老妇，夜绩为生，与绩女相伴半载"
+    },
+    {
+     "name": "绩女",
+     "type": "Spirit",
+     "aliases": [
+      "女",
+      "少女",
+      "仙人",
+      "妾"
+     ],
+     "nickname": "",
+     "description": "自称仙人的少女，仪容秀美，善纺绩，与寡媪相伴"
+    },
+    {
+     "name": "费生",
+     "type": "Person",
+     "aliases": [
+      "生"
+     ],
+     "nickname": "",
+     "description": "邑之名士，倾产以重金求见绩女"
+    },
+    {
+     "name": "绍兴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，寡媪所居之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "绩女",
+     "predicate": "LIVES_AT",
+     "object": "绍兴",
+     "evidence": "绍兴有寡媪夜绩，忽一少女推扉入",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寡媪",
+     "predicate": "LIVES_AT",
+     "object": "绍兴",
+     "evidence": "绍兴有寡媪夜绩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "绩女",
+     "predicate": "HELPED",
+     "object": "寡媪",
+     "evidence": "女竟升床代绩",
+     "confidence": 0.9
+    },
+    {
+     "subject": "绩女",
+     "predicate": "FRIEND",
+     "object": "寡媪",
+     "evidence": "由是两心浃洽，日同操作",
+     "confidence": 0.9
+    },
+    {
+     "subject": "费生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "求见绩女",
+     "evidence": "有费生者，邑之名士，倾其产，以重金啖媪",
+     "confidence": 0.9
+    },
+    {
+     "subject": "求见绩女",
+     "predicate": "OCCURRED_AT",
+     "object": "绍兴",
+     "evidence": "绍兴有寡媪夜绩",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:28.268Z"
+}

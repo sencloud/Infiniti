@@ -1,0 +1,73 @@
+{
+ "no": 58,
+ "title": "3.1 勾股定理的探究",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3222,
+   "entities": [
+    {
+     "name": "勾股定理",
+     "type": "Theorem",
+     "aliases": [
+      "毕达哥拉斯定理"
+     ],
+     "nickname": "",
+     "description": "直角三角形两直角边的平方和等于斜边的平方"
+    },
+    {
+     "name": "直角三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "有一个角是直角的三角形"
+    },
+    {
+     "name": "弦图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵爽用于证明勾股定理的图形"
+    },
+    {
+     "name": "面积法",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "利用图形面积关系进行证明的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "直角三角形",
+     "predicate": "PREREQUISITE",
+     "object": "勾股定理",
+     "evidence": "直角三角形是一种特殊三角形．……本章将学习这三者之间的一种特殊关系，即勾股定理．",
+     "confidence": 0.95
+    },
+    {
+     "subject": "勾股定理",
+     "predicate": "PROPERTY_OF",
+     "object": "直角三角形",
+     "evidence": "直角三角形两条直角边的平方和等于斜边的平方。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "面积法",
+     "predicate": "APPLIES_TO",
+     "object": "勾股定理",
+     "evidence": "其中多数用到了图形剪拼中的面积相等关系。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "弦图",
+     "predicate": "APPLIES_TO",
+     "object": "勾股定理",
+     "evidence": "公元3世纪初，数学家赵爽通过“弦图”证明了勾股定理。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:55.598Z"
+}

@@ -1,0 +1,111 @@
+{
+ "no": 166,
+ "title": "寒月芙蕖",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1004,
+   "entities": [
+    {
+     "name": "济南道人",
+     "type": "Spirit",
+     "aliases": [
+      "道人"
+     ],
+     "nickname": "",
+     "description": "不知何许人，冬夏单衣，能作幻术，篇名寒月芙蕖"
+    },
+    {
+     "name": "无赖子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "井曲无赖少年，求术不得，抱衣相胁"
+    },
+    {
+     "name": "济东观察公",
+     "type": "Person",
+     "aliases": [
+      "观察公",
+      "公"
+     ],
+     "nickname": "",
+     "description": "济东道道员，悦道人幻术，携归署中"
+    },
+    {
+     "name": "水面亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南背湖之亭，道人设宴处"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士初来及离去的城府"
+    },
+    {
+     "name": "金陵",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "后有人遇道士之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "无赖子",
+     "predicate": "HARMED",
+     "object": "济南道人",
+     "evidence": "遇道人浴于河津，骤抱其衣以胁之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "济南道人",
+     "predicate": "HARMED",
+     "object": "无赖子",
+     "evidence": "俄见黄绦化为蛇，围可数握，绕其身六七匝，怒目昂首，吐舌相向",
+     "confidence": 0.9
+    },
+    {
+     "subject": "济东观察公",
+     "predicate": "HARMED",
+     "object": "济南道人",
+     "evidence": "执以为妖，笞之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "济南道人",
+     "predicate": "HARMED",
+     "object": "济东观察公",
+     "evidence": "杖才加，公觉股暴痛，再加，臀肉欲裂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "济南道人",
+     "predicate": "LIVES_AT",
+     "object": "济南",
+     "evidence": "济南道人者，不知何许人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "济南道人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "水面亭宴",
+     "evidence": "道人请于水面亭报诸宪之饮",
+     "confidence": 0.95
+    },
+    {
+     "subject": "水面亭宴",
+     "predicate": "OCCURRED_AT",
+     "object": "水面亭",
+     "evidence": "道人请于水面亭报诸宪之饮",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:15.715Z"
+}

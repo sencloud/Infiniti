@@ -1,0 +1,50 @@
+{
+ "no": 326,
+ "title": "采薇翁",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 574,
+   "entities": [
+    {
+     "name": "刘芝生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "於陵人，聚众数万，采薇翁故事中的兵主"
+    },
+    {
+     "name": "采薇翁",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "肥男子，自号采薇翁，腹藏兵器，妖术"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘芝生",
+     "predicate": "FRIEND",
+     "object": "采薇翁",
+     "evidence": "刘延入与语，大悦之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "采薇翁",
+     "predicate": "HARMED",
+     "object": "军中悍将骄卒",
+     "evidence": "军中悍将骄卒，辄首自堕地",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘芝生",
+     "predicate": "KILLED",
+     "object": "采薇翁",
+     "evidence": "刘从其言，谋俟其寝，诛之。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:14.799Z"
+}

@@ -1,0 +1,237 @@
+{
+ "no": 48,
+ "title": "婴宁",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4091,
+   "entities": [
+    {
+     "name": "王子服",
+     "type": "Person",
+     "aliases": [
+      "王生",
+      "王公子"
+     ],
+     "nickname": "",
+     "description": "莒州罗店人，十四入泮，痴情书生"
+    },
+    {
+     "name": "婴宁",
+     "type": "Spirit",
+     "aliases": [
+      "宁女",
+      "狐女"
+     ],
+     "nickname": "",
+     "description": "狐母所生，由鬼母抚养，爱笑"
+    },
+    {
+     "name": "吴生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王子服舅氏子，表兄"
+    },
+    {
+     "name": "婴宁母",
+     "type": "Spirit",
+     "aliases": [
+      "狐母"
+     ],
+     "nickname": "",
+     "description": "狐精，生婴宁后离去"
+    },
+    {
+     "name": "小荣",
+     "type": "Spirit",
+     "aliases": [
+      "荣姐"
+     ],
+     "nickname": "",
+     "description": "狐精，狐母留以照顾婴宁"
+    },
+    {
+     "name": "秦媪",
+     "type": "Spirit",
+     "aliases": [
+      "鬼母"
+     ],
+     "nickname": "",
+     "description": "鬼魂，抚养婴宁十余年"
+    },
+    {
+     "name": "萧氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王子服原聘妻，未嫁而夭"
+    },
+    {
+     "name": "西人子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邻家子，觊觎婴宁，被蝎蜇死"
+    },
+    {
+     "name": "邑宰",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "审理邻人讼王子服案的县令"
+    },
+    {
+     "name": "莒州罗店",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王子服籍贯地"
+    },
+    {
+     "name": "西南山中村落",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "婴宁与鬼母所居村落"
+    },
+    {
+     "name": "秦氏墓",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "秦媪葬处，后与婴宁母合葬"
+    },
+    {
+     "name": "梅花",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "婴宁上元所遗，王子服珍藏"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王子服",
+     "predicate": "NATIVE_OF",
+     "object": "莒州罗店",
+     "evidence": "王子服，莒之罗店人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王子服",
+     "predicate": "KIN",
+     "object": "吴生",
+     "evidence": "有舅氏子吴生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王子服",
+     "predicate": "KIN",
+     "object": "萧氏",
+     "evidence": "聘萧氏，未嫁而夭",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王子服",
+     "predicate": "LOVES",
+     "object": "婴宁",
+     "evidence": "生注目不移，竟忘顾忌",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王子服",
+     "predicate": "OWNS",
+     "object": "梅花",
+     "evidence": "至家，藏花枕底",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王子服",
+     "predicate": "LIVES_AT",
+     "object": "西南山中村落",
+     "evidence": "从媪入，见门内白石砌路",
+     "confidence": 0.8
+    },
+    {
+     "subject": "婴宁",
+     "predicate": "KIN",
+     "object": "婴宁母",
+     "evidence": "妾本狐产。母临去，以妾托鬼母",
+     "confidence": 0.95
+    },
+    {
+     "subject": "婴宁",
+     "predicate": "KIN",
+     "object": "秦媪",
+     "evidence": "以妾托鬼母，相依十馀年",
+     "confidence": 0.95
+    },
+    {
+     "subject": "婴宁",
+     "predicate": "FRIEND",
+     "object": "小荣",
+     "evidence": "是亦狐，最黠，狐母留以视妾",
+     "confidence": 0.9
+    },
+    {
+     "subject": "婴宁",
+     "predicate": "LIVES_AT",
+     "object": "西南山中村落",
+     "evidence": "下山入村，见舍宇无多",
+     "confidence": 0.85
+    },
+    {
+     "subject": "婴宁",
+     "predicate": "SPOUSE",
+     "object": "王子服",
+     "evidence": "使华妆行新妇礼",
+     "confidence": 0.95
+    },
+    {
+     "subject": "婴宁",
+     "predicate": "HARMED",
+     "object": "西人子",
+     "evidence": "女指墙底笑而下，西人子谓示约处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑宰",
+     "predicate": "PUNISHED",
+     "object": "邻翁",
+     "evidence": "谓邻翁讼诬，将杖责之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王子服",
+     "predicate": "HELPED",
+     "object": "邻翁",
+     "evidence": "生为乞免，逐释而出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王子服",
+     "predicate": "HELPED",
+     "object": "婴宁",
+     "evidence": "刻日，夫妻舆榇而往",
+     "confidence": 0.9
+    },
+    {
+     "subject": "婴宁",
+     "predicate": "HELPED",
+     "object": "王子服",
+     "evidence": "每值母忧怒，女至，一笑即解",
+     "confidence": 0.85
+    },
+    {
+     "subject": "婴宁",
+     "predicate": "PARTICIPATED_IN",
+     "object": "合葬",
+     "evidence": "舁归，寻秦氏墓合葬焉",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:32.108Z"
+}

@@ -1,0 +1,389 @@
+{
+ "no": 64,
+ "title": "司马穰苴列传",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 956,
+   "entities": [
+    {
+     "name": "司马迁",
+     "type": "Person",
+     "aliases": [
+      "太史公"
+     ],
+     "nickname": "子长",
+     "description": "《史记》作者，篇末发表评论"
+    },
+    {
+     "name": "齐威王",
+     "type": "Person",
+     "aliases": [
+      "齐王"
+     ],
+     "nickname": "",
+     "description": "齐国君主，田和曾孙，用兵行威"
+    },
+    {
+     "name": "晏婴",
+     "type": "Person",
+     "aliases": [
+      "晏子",
+      "晏平仲"
+     ],
+     "nickname": "平仲",
+     "description": "齐国大夫，荐举司马穰苴"
+    },
+    {
+     "name": "司马穰苴",
+     "type": "Person",
+     "aliases": [
+      "田穰苴",
+      "穰苴"
+     ],
+     "nickname": "",
+     "description": "齐国将军，田完苗裔，著兵法"
+    },
+    {
+     "name": "田完",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈国公子，田氏始祖"
+    },
+    {
+     "name": "齐景公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国君主，任用司马穰苴"
+    },
+    {
+     "name": "庄贾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐景公宠臣，监军，被穰苴斩"
+    },
+    {
+     "name": "田乞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "田氏族人，怨高、国等"
+    },
+    {
+     "name": "田豹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "田氏族人，怨高、国等"
+    },
+    {
+     "name": "田常",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "田氏首领，杀齐简公，灭高、国族"
+    },
+    {
+     "name": "齐简公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国君主，被田常所杀"
+    },
+    {
+     "name": "田和",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "田常曾孙，自立为齐威王"
+    },
+    {
+     "name": "鲍氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国大夫家族，谮害穰苴"
+    },
+    {
+     "name": "高子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国大夫家族，谮害穰苴"
+    },
+    {
+     "name": "国子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国大夫家族，谮害穰苴"
+    },
+    {
+     "name": "晋",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "春秋诸侯国，伐齐"
+    },
+    {
+     "name": "燕",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "春秋诸侯国，侵齐"
+    },
+    {
+     "name": "齐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "春秋诸侯国，司马穰苴效力之国"
+    },
+    {
+     "name": "田氏",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国卿族，司马穰苴所属"
+    },
+    {
+     "name": "阿",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国城邑，被晋攻伐"
+    },
+    {
+     "name": "甄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国城邑，被晋攻伐"
+    },
+    {
+     "name": "河上",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国地区，被燕侵"
+    },
+    {
+     "name": "军门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "军营之门，穰苴与庄贾约见处"
+    },
+    {
+     "name": "大司马",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "古代高级军事官职"
+    },
+    {
+     "name": "将军",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "古代高级军事官职"
+    },
+    {
+     "name": "大夫",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "古代高级官职"
+    },
+    {
+     "name": "军正",
+     "type": "Office",
+     "aliases": [],
+     "nickname": "",
+     "description": "军中执法官"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "司马穰苴",
+     "predicate": "KIN",
+     "object": "田完",
+     "evidence": "司马穰苴者，田完之苗裔也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晏婴",
+     "predicate": "ADVISED",
+     "object": "齐景公",
+     "evidence": "晏婴乃荐田穰苴曰：“穰苴虽田氏庶孽，然其人文能附众，武能威敌，愿君试之。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐景公",
+     "predicate": "HELD_OFFICE",
+     "object": "将军",
+     "evidence": "景公召穰苴，与语兵事，大说之，以为将军",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马穰苴",
+     "predicate": "HELD_OFFICE",
+     "object": "将军",
+     "evidence": "以为将军，将兵扞燕晋之师。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐景公",
+     "predicate": "SERVED",
+     "object": "齐",
+     "evidence": "景公召穰苴，与语兵事，大说之，以为将军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马穰苴",
+     "predicate": "SERVED",
+     "object": "齐",
+     "evidence": "将兵扞燕晋之师。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马穰苴",
+     "predicate": "KILLED",
+     "object": "庄贾",
+     "evidence": "于是遂斩庄贾以徇三军。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "晋",
+     "predicate": "FOUGHT",
+     "object": "齐",
+     "evidence": "晋伐阿、甄，而燕侵河上，齐师败绩。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "燕",
+     "predicate": "FOUGHT",
+     "object": "齐",
+     "evidence": "晋伐阿、甄，而燕侵河上，齐师败绩。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐",
+     "predicate": "DEFEATED",
+     "object": "晋",
+     "evidence": "晋师闻之，为罢去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐",
+     "predicate": "DEFEATED",
+     "object": "燕",
+     "evidence": "燕师闻之，度水而解。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "司马穰苴",
+     "predicate": "HELD_OFFICE",
+     "object": "大司马",
+     "evidence": "既见穰苴，尊为大司马。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲍氏",
+     "predicate": "FRAMED",
+     "object": "司马穰苴",
+     "evidence": "已而大夫鲍氏、高、国之属害之，谮于景公。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "高子",
+     "predicate": "FRAMED",
+     "object": "司马穰苴",
+     "evidence": "已而大夫鲍氏、高、国之属害之，谮于景公。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "国子",
+     "predicate": "FRAMED",
+     "object": "司马穰苴",
+     "evidence": "已而大夫鲍氏、高、国之属害之，谮于景公。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田乞",
+     "predicate": "BETRAYED",
+     "object": "高子",
+     "evidence": "田乞、田豹之徒由此怨高、国等。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田乞",
+     "predicate": "BETRAYED",
+     "object": "国子",
+     "evidence": "田乞、田豹之徒由此怨高、国等。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田豹",
+     "predicate": "BETRAYED",
+     "object": "高子",
+     "evidence": "田乞、田豹之徒由此怨高、国等。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田豹",
+     "predicate": "BETRAYED",
+     "object": "国子",
+     "evidence": "田乞、田豹之徒由此怨高、国等。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "田常",
+     "predicate": "KILLED",
+     "object": "齐简公",
+     "evidence": "其后及田常杀简公，尽灭高子、国子之族。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田常",
+     "predicate": "DEFEATED",
+     "object": "高子",
+     "evidence": "尽灭高子、国子之族。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田常",
+     "predicate": "DEFEATED",
+     "object": "国子",
+     "evidence": "尽灭高子、国子之族。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "田和",
+     "predicate": "SUCCEEDED",
+     "object": "田常",
+     "evidence": "至常曾孙和，因自立为齐威王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐威王",
+     "predicate": "RULED",
+     "object": "齐",
+     "evidence": "因自立为齐威王，用兵行威，大放穰苴之法，而诸侯朝齐。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "齐威王",
+     "predicate": "PARTICIPATED_IN",
+     "object": "司马穰苴兵法",
+     "evidence": "齐威王使大夫追论古者《司马兵法》而附穰苴于其中，因号曰《司马穰苴兵法》。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:49:00.987Z"
+}

@@ -1,0 +1,232 @@
+{
+ "no": 31,
+ "title": "8.4 乘法公式",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6247,
+   "entities": [
+    {
+     "name": "完全平方公式",
+     "type": "Formula",
+     "aliases": [
+      "perfect square formula"
+     ],
+     "nickname": "",
+     "description": "(a±b)²=a²±2ab+b²"
+    },
+    {
+     "name": "平方差公式",
+     "type": "Formula",
+     "aliases": [
+      "difference of square formula"
+     ],
+     "nickname": "",
+     "description": "(a+b)(a-b)=a²-b²"
+    },
+    {
+     "name": "乘法公式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "完全平方公式和平方差公式的统称"
+    },
+    {
+     "name": "多项式乘多项式法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "多项式与多项式相乘的运算法则"
+    },
+    {
+     "name": "合并同类项",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把同类项的系数相加，字母和指数不变"
+    },
+    {
+     "name": "数形结合",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把数量关系与图形结合起来分析"
+    },
+    {
+     "name": "转化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把未知问题转化为已知问题的思想"
+    },
+    {
+     "name": "杨辉三角",
+     "type": "Concept",
+     "aliases": [
+      "贾宪三角"
+     ],
+     "nickname": "",
+     "description": "二项式展开系数排列成的三角形数表"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "多项式乘多项式法则",
+     "predicate": "PREREQUISITE",
+     "object": "完全平方公式",
+     "evidence": "由多项式乘多项式法则可以得到 (a+b)(a-b)=a²-b²",
+     "confidence": 0.95
+    },
+    {
+     "subject": "合并同类项",
+     "predicate": "PREREQUISITE",
+     "object": "完全平方公式",
+     "evidence": "合并同类项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "多项式乘多项式法则",
+     "predicate": "PREREQUISITE",
+     "object": "平方差公式",
+     "evidence": "由多项式乘多项式法则可以得到 (a+b)(a-b)=a²-b²",
+     "confidence": 0.95
+    },
+    {
+     "subject": "完全平方公式",
+     "predicate": "INCLUDES",
+     "object": "乘法公式",
+     "evidence": "完全平方公式、平方差公式通常叫作乘法公式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平方差公式",
+     "predicate": "INCLUDES",
+     "object": "乘法公式",
+     "evidence": "完全平方公式、平方差公式通常叫作乘法公式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "完全平方公式",
+     "evidence": "如何通过构图并计算图形面积的方法推导完全平方公式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "数形结合",
+     "predicate": "APPLIES_TO",
+     "object": "平方差公式",
+     "evidence": "如图8-6(1)，在边长为a的正方形纸片上剪去一个边长为b的小正方形，计算剩余部分的面积",
+     "confidence": 0.9
+    },
+    {
+     "subject": "转化",
+     "predicate": "APPLIES_TO",
+     "object": "整式乘法",
+     "evidence": "整式乘法的运算过程体现了转化的思想",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨辉三角",
+     "predicate": "RELATED",
+     "object": "完全平方公式",
+     "evidence": "第3行中的3个数1，2，1，对应着(a+b)²=a²+2ab+b²展开式中的各项系数",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1220,
+   "entities": [
+    {
+     "name": "乘法公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "平方差公式、完全平方公式等"
+    },
+    {
+     "name": "平方差公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a+b)(a-b)=a²-b²"
+    },
+    {
+     "name": "完全平方公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "(a±b)²=a²±2ab+b²"
+    },
+    {
+     "name": "整式乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "单项式、多项式相乘的运算"
+    },
+    {
+     "name": "代数式求值",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "代入数值计算代数式的值"
+    },
+    {
+     "name": "规律探索",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "观察特例，归纳一般规律"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乘法公式",
+     "predicate": "INCLUDES",
+     "object": "平方差公式",
+     "evidence": "用乘法公式计算：500²-498×502",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乘法公式",
+     "predicate": "INCLUDES",
+     "object": "完全平方公式",
+     "evidence": "用乘法公式计算：2001²",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式乘法",
+     "predicate": "PREREQUISITE",
+     "object": "乘法公式",
+     "evidence": "七下 第8章 整式乘法 · 8.4 乘法公式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平方差公式",
+     "predicate": "APPLIES_TO",
+     "object": "代数式求值",
+     "evidence": "用乘法公式计算：500²-498×502",
+     "confidence": 0.85
+    },
+    {
+     "subject": "完全平方公式",
+     "predicate": "APPLIES_TO",
+     "object": "代数式求值",
+     "evidence": "已知(a+b)²=7，(a-b)²=3。求a²+b²，ab的值",
+     "confidence": 0.85
+    },
+    {
+     "subject": "规律探索",
+     "predicate": "APPLIES_TO",
+     "object": "整式乘法",
+     "evidence": "探索以上式子的规律，试写出第n个等式",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:46.619Z"
+}

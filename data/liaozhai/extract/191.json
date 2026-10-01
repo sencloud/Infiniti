@@ -1,0 +1,108 @@
+{
+ "no": 191,
+ "title": "长治女子",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 856,
+   "entities": [
+    {
+     "name": "陈欢乐",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长治人，陈女之父"
+    },
+    {
+     "name": "陈氏女",
+     "type": "Person",
+     "aliases": [
+      "女"
+     ],
+     "nickname": "",
+     "description": "陈欢乐之女，被道士杀害"
+    },
+    {
+     "name": "瞽人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "算命瞎子，为道士述陈女生辰"
+    },
+    {
+     "name": "长治",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "潞州属县，陈欢乐籍贯"
+    },
+    {
+     "name": "牛头岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "岭下发现陈女尸身处"
+    },
+    {
+     "name": "官廨",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县令官署，审案处"
+    },
+    {
+     "name": "木人",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "道士以陈女心血点之，可役使鬼魂"
+    },
+    {
+     "name": "冤案",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈女被道士杀害一案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陈欢乐",
+     "predicate": "KIN",
+     "object": "陈氏女",
+     "evidence": "陈欢乐，潞之长治人，有女慧美。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈欢乐",
+     "predicate": "NATIVE_OF",
+     "object": "长治",
+     "evidence": "陈欢乐，潞之长治人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈氏女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "冤案",
+     "evidence": "女哽咽而前，历言道士杀己状，遣己状。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冤案",
+     "predicate": "OCCURRED_AT",
+     "object": "官廨",
+     "evidence": "瞬息至官廨，如言伏阁上。",
+     "confidence": 0.85
+    },
+    {
+     "subject": "陈氏女",
+     "predicate": "LIVES_AT",
+     "object": "官廨",
+     "evidence": "女良久曰：“官署即吾家，我将入矣。”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:26.211Z"
+}

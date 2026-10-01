@@ -1,0 +1,138 @@
+{
+ "no": 15,
+ "title": "4.2 一元一次方程及其解法",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4195,
+   "entities": [
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [
+      "linear equation with one unknown"
+     ],
+     "nickname": "",
+     "description": "等号两边都是整式，只含一个未知数，未知数次数为1的方程"
+    },
+    {
+     "name": "方程的解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "使方程左右两边相等的未知数的值"
+    },
+    {
+     "name": "移项",
+     "type": "Method",
+     "aliases": [
+      "moving terms"
+     ],
+     "nickname": "",
+     "description": "方程中的项改变符号后从一边移到另一边"
+    },
+    {
+     "name": "去括号法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "括号前是负号时，去括号后括号内各项都变号"
+    },
+    {
+     "name": "合并同类项",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将方程中同类项的系数相加，字母部分不变"
+    },
+    {
+     "name": "系数化为1",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "方程两边同除以未知数的系数，得到未知数的值"
+    },
+    {
+     "name": "去分母",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "方程两边同乘各分母的最小公倍数，去掉分母"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次方程",
+     "predicate": "INCLUDES",
+     "object": "方程的解",
+     "evidence": "判断x=2是否为下列一元一次方程的解",
+     "confidence": 0.9
+    },
+    {
+     "subject": "移项",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次方程",
+     "evidence": "在解一元一次方程时，移项的目的是把含有未知数的项移到方程的一边",
+     "confidence": 0.95
+    },
+    {
+     "subject": "去括号法则",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次方程",
+     "evidence": "如果方程中有括号，为了将方程转化为x=c的形式，一般需要先根据去括号法则去括号",
+     "confidence": 0.95
+    },
+    {
+     "subject": "合并同类项",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次方程",
+     "evidence": "合并同类项，得-3x=-21",
+     "confidence": 0.9
+    },
+    {
+     "subject": "系数化为1",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次方程",
+     "evidence": "系数化为1，得x=-4",
+     "confidence": 0.9
+    },
+    {
+     "subject": "去分母",
+     "predicate": "APPLIES_TO",
+     "object": "一元一次方程",
+     "evidence": "解一元一次方程——去分母",
+     "confidence": 0.95
+    },
+    {
+     "subject": "去分母",
+     "predicate": "PREREQUISITE",
+     "object": "去括号法则",
+     "evidence": "去分母，得4(2x-5)=3(x-3)-1。去括号，得8x-20=3x-9-1",
+     "confidence": 0.9
+    },
+    {
+     "subject": "去括号法则",
+     "predicate": "PREREQUISITE",
+     "object": "移项",
+     "evidence": "去括号，得2-3x-3=11。移项，得-3x=11-2+3",
+     "confidence": 0.9
+    },
+    {
+     "subject": "移项",
+     "predicate": "PREREQUISITE",
+     "object": "合并同类项",
+     "evidence": "移项，得x+1/2x=4+3。合并同类项，得3/2x=7",
+     "confidence": 0.9
+    },
+    {
+     "subject": "合并同类项",
+     "predicate": "PREREQUISITE",
+     "object": "系数化为1",
+     "evidence": "合并同类项，得-3x=12。系数化为1，得x=-4",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:35.321Z"
+}

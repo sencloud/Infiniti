@@ -1,0 +1,185 @@
+{
+ "no": 406,
+ "title": "龙飞相公",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1718,
+   "entities": [
+    {
+     "name": "戴生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "安庆书生，后中举"
+    },
+    {
+     "name": "季生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴生表兄，死后在冥府司录"
+    },
+    {
+     "name": "邻人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴生邻居，推戴生入井"
+    },
+    {
+     "name": "戴潜",
+     "type": "Person",
+     "aliases": [
+      "龙飞相公"
+     ],
+     "nickname": "龙飞相公",
+     "description": "戴生耳祖，城隍幕客"
+    },
+    {
+     "name": "戴堂",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴潜不肖孙，挖煤致祸"
+    },
+    {
+     "name": "转轮王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府之王"
+    },
+    {
+     "name": "城隍",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府神祇"
+    },
+    {
+     "name": "安庆",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴生籍贯地"
+    },
+    {
+     "name": "古煤井",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴生被困之井"
+    },
+    {
+     "name": "东原",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴潜迁葬地"
+    },
+    {
+     "name": "黑暗狱",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府地狱"
+    },
+    {
+     "name": "义冢",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "众鬼合葬处"
+    },
+    {
+     "name": "科考",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "戴生参加科举"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "戴生",
+     "predicate": "KIN",
+     "object": "季生",
+     "evidence": "途中遇故表兄季生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "季生",
+     "predicate": "HELPED",
+     "object": "戴生",
+     "evidence": "季曰：此非所能效力，惟善可以已之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邻人",
+     "predicate": "HARMED",
+     "object": "戴生",
+     "evidence": "绐窥眢井，因而堕之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴生",
+     "predicate": "KIN",
+     "object": "戴潜",
+     "evidence": "叟曰：我耳孙也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴潜",
+     "predicate": "KIN",
+     "object": "戴堂",
+     "evidence": "曩因不肖孙堂",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴潜",
+     "predicate": "HELPED",
+     "object": "戴生",
+     "evidence": "因饷以酒馔，遂置卷案头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴生",
+     "predicate": "LIVES_AT",
+     "object": "古煤井",
+     "evidence": "戴移闭洞中，不敢复作声",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴生",
+     "predicate": "NATIVE_OF",
+     "object": "安庆",
+     "evidence": "安庆戴生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "戴潜",
+     "predicate": "LIVES_AT",
+     "object": "古煤井",
+     "evidence": "余冢邻煤洞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "戴生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "是科以优等入闱，遂捷于乡",
+     "confidence": 0.95
+    },
+    {
+     "subject": "科考",
+     "predicate": "OCCURRED_AT",
+     "object": "安庆",
+     "evidence": "安庆戴生",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:46.620Z"
+}

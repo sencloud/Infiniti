@@ -1,0 +1,134 @@
+{
+ "no": 108,
+ "title": "4.3 四分位数和箱线图",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6117,
+   "entities": [
+    {
+     "name": "四分位数",
+     "type": "Concept",
+     "aliases": [
+      "quartile"
+     ],
+     "nickname": "",
+     "description": "把一组数据等分成四份的三个数，分别记为m25, m50, m75。"
+    },
+    {
+     "name": "百分位数",
+     "type": "Concept",
+     "aliases": [
+      "percentile"
+     ],
+     "nickname": "",
+     "description": "将一组数据从小到大排列后，小于或等于mk的数据至少占k%，大于或等于mk的数据至少占(100-k)%。"
+    },
+    {
+     "name": "中位数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据从小到大排列后处于中间位置的数，即第二四分位数m50。"
+    },
+    {
+     "name": "箱线图",
+     "type": "Concept",
+     "aliases": [
+      "box-and-whisker plot"
+     ],
+     "nickname": "",
+     "description": "利用一组数据的最大值、最小值及四分位数这5个数据直观描述数据分布情况的统计图。"
+    },
+    {
+     "name": "极差",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据中最大值与最小值的差。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "四分位数",
+     "predicate": "INCLUDES",
+     "object": "中位数",
+     "evidence": "特别地，$m_{50}$就是中位数。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "百分位数",
+     "predicate": "INCLUDES",
+     "object": "四分位数",
+     "evidence": "它们都属于百分位数（percentile）。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "四分位数",
+     "predicate": "APPLIES_TO",
+     "object": "箱线图",
+     "evidence": "利用一组数据的最大值、最小值及四分位数这 5 个数据直观描述一组数据分布情况的统计图称为箱线图。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "箱线图",
+     "predicate": "INCLUDES",
+     "object": "极差",
+     "evidence": "上、下两端的线段分别表示数据的最大值、最小值，它们的差是这组数据的极差",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 772,
+   "entities": [
+    {
+     "name": "四分位数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "将数据从小到大排列后，位于25%和75%位置处的数值"
+    },
+    {
+     "name": "箱线图",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "由最小值、下四分位数、中位数、上四分位数、最大值构成的统计图"
+    },
+    {
+     "name": "平均数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "一组数据的总和除以数据个数所得的商"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "四分位数",
+     "predicate": "PREREQUISITE",
+     "object": "箱线图",
+     "evidence": "画出这两种排队方式等待时间的箱线图",
+     "confidence": 0.9
+    },
+    {
+     "subject": "箱线图",
+     "predicate": "INCLUDES",
+     "object": "四分位数",
+     "evidence": "画出这两种排队方式等待时间的箱线图",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平均数",
+     "predicate": "RELATED",
+     "object": "箱线图",
+     "evidence": "分别计算两种排队方式等待时间的平均数。画出这两种排队方式等待时间的箱线图。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:22.128Z"
+}

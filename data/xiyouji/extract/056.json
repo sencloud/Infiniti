@@ -1,0 +1,448 @@
+{
+ "no": 56,
+ "title": "神狂诛草寇 道昧放心猿",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5865,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大，曾大闹天宫"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐高僧，奉旨西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "玉皇大帝",
+     "type": "Person",
+     "aliases": [
+      "玉帝",
+      "高天上圣大慈仁者玉皇大天尊玄穹高上帝",
+      "天帝"
+     ],
+     "nickname": "玉帝",
+     "description": "天庭最高统治者"
+    },
+    {
+     "name": "蝎子精",
+     "type": "Person",
+     "aliases": [
+      "琵琶精",
+      "蝎子",
+      "毒敌山琵琶洞妖"
+     ],
+     "nickname": "蝎子精",
+     "description": "毒敌山琵琶洞妖怪，被孙悟空等打死"
+    },
+    {
+     "name": "杨老者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "庄院老者，姓杨，七十四岁"
+    },
+    {
+     "name": "杨老者之子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨老者独子，专好打家截道"
+    },
+    {
+     "name": "强盗头目",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "拦路抢劫的强盗头领，被孙悟空打死"
+    },
+    {
+     "name": "强盗团伙",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "三十多人的拦路抢劫团伙"
+    },
+    {
+     "name": "杨家庄院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨老者所住的庄院，唐僧师徒借宿处"
+    },
+    {
+     "name": "高山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒遇强盗的山岭"
+    },
+    {
+     "name": "打死强盗",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空打死两个拦路强盗头目"
+    },
+    {
+     "name": "如意金箍棒",
+     "type": "Item",
+     "aliases": [
+      "金箍棒"
+     ],
+     "nickname": "",
+     "description": "孙悟空的兵器，重一万三千五百斤"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者道：'师父放心，我等皈命投诚，怕甚妖怪！'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "八戒道：'师父住下，等我去来。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "沙僧道：'莫争讲，这里不是那抓乖弄俏之处，且进去！'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "强盗头目",
+     "evidence": "荡的又一棍，把第二个又打死了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "强盗头目",
+     "evidence": "荡的一棍，把一个打倒在地，嘴唇揞土，再不做声。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "如意金箍棒",
+     "evidence": "这条棍本是如意金箍棒，天秤称的，一万三千五百斤重",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "行者五百年前曾受玉帝封在大罗天御马监养马，官名弼马温",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "蝎子精",
+     "evidence": "感蒙行者等打死蝎子精，救出琵琶洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "感蒙行者等打死蝎子精，救出琵琶洞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "打死强盗",
+     "evidence": "三藏见他这般凶恶，只得走起来，合掌当胸道",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "打死强盗",
+     "evidence": "行者笑道：'你也打得手困了，且让老孙打一棒儿，却休当真。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "打死强盗",
+     "predicate": "OCCURRED_AT",
+     "object": "高山",
+     "evidence": "四众进山，缓行良久，过了山头，下西坡，乃是一段平阳之地。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "强盗团伙",
+     "predicate": "STATIONED_AT",
+     "object": "高山",
+     "evidence": "忽听得一棒锣声，路两边闪出三十多人，一个个枪刀棍棒，拦住路口道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨老者",
+     "predicate": "KIN",
+     "object": "杨老者之子",
+     "evidence": "老者道：'止得一个，适才妈妈携的是小孙。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨老者之子",
+     "predicate": "MEMBER_OF",
+     "object": "强盗团伙",
+     "evidence": "那厮专生恶念，不务本等，专好打家截道，杀人放火！相交的都是些狐群狗党！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "打死强盗",
+     "evidence": "三藏教：'解开包，取几文衬钱，快去那里讨两个膏药与他两个贴贴。'",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1774,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经僧人，孙悟空师父"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "悟空"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "八戒",
+      "天蓬元帅",
+      "猪悟能",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "",
+     "description": "唐僧二徒弟"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "沙僧",
+      "沙和尚",
+      "卷帘大将",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "唐僧三徒弟"
+    },
+    {
+     "name": "阎罗王",
+     "type": "Person",
+     "aliases": [
+      "阎王",
+      "十殿阎罗",
+      "秦广王"
+     ],
+     "nickname": "",
+     "description": "阴间主宰"
+    },
+    {
+     "name": "杨老儿",
+     "type": "Person",
+     "aliases": [
+      "老者",
+      "老杨"
+     ],
+     "nickname": "",
+     "description": "老者，其子为贼"
+    },
+    {
+     "name": "杨老儿之子",
+     "type": "Person",
+     "aliases": [
+      "穿黄的",
+      "逆子"
+     ],
+     "nickname": "",
+     "description": "杨老儿之子，贼人"
+    },
+    {
+     "name": "贼众",
+     "type": "Organization",
+     "aliases": [
+      "贼",
+      "众贼",
+      "贼兵"
+     ],
+     "nickname": "",
+     "description": "一伙草寇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "三藏却才住口道：“没话说，我不要你跟了，你回去罢！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "三藏听说，战兢兢的叩头谢了老者，即唤八戒牵马",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "三藏听说，战兢兢的叩头谢了老者，即唤八戒牵马，沙僧挑担",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "杨老儿之子",
+     "evidence": "行者上前，夺过刀来，把个穿黄的割下头来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "贼众",
+     "evidence": "把那伙贼打得星落云散，汤着的就死，挽着的就亡",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨老儿",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "我老拙念你远来，不忍伤害，快早收拾行李，我送你往后门出去罢！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨老儿",
+     "predicate": "RESCUED",
+     "object": "孙悟空",
+     "evidence": "我老拙念你远来，不忍伤害，快早收拾行李，我送你往后门出去罢！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨老儿",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "我老拙念你远来，不忍伤害，快早收拾行李，我送你往后门出去罢！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨老儿",
+     "predicate": "RESCUED",
+     "object": "沙悟净",
+     "evidence": "我老拙念你远来，不忍伤害，快早收拾行李，我送你往后门出去罢！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨老儿",
+     "predicate": "KIN",
+     "object": "杨老儿之子",
+     "evidence": "却说那伙贼内果有老杨的儿子。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨老儿之子",
+     "predicate": "MEMBER_OF",
+     "object": "贼众",
+     "evidence": "却说那伙贼内果有老杨的儿子。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "贼众",
+     "evidence": "那厮们圈子阵把行者围在中间，举枪刀乱砍乱搠。这大圣把金箍棒幌一幌，碗来粗细，把那伙贼打得星落云散",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "这大圣把金箍棒幌一幌，碗来粗细",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:12.952Z"
+}

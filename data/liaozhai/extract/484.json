@@ -1,0 +1,204 @@
+{
+ "no": 484,
+ "title": "锦瑟",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2831,
+   "entities": [
+    {
+     "name": "王生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "沂人，清贫书生，娶兰氏女，后与锦瑟成婚"
+    },
+    {
+     "name": "锦瑟",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "东海薛侯女，仙姬被谪，居地下收养冤魂"
+    },
+    {
+     "name": "春燕",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "锦瑟婢女，后与王生私通生子"
+    },
+    {
+     "name": "兰氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "富翁兰氏之女，王生原配，骄倨悍妒"
+    },
+    {
+     "name": "瑶台",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "锦瑟长姊，四十许佳人，为妹主婚"
+    },
+    {
+     "name": "贾某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕中商人，与兰氏同居，买妾归"
+    },
+    {
+     "name": "兰翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "富翁，见王生悦之，妻以女"
+    },
+    {
+     "name": "给孤园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "锦瑟所设，收养九幽横死无归之鬼"
+    },
+    {
+     "name": "东海",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "锦瑟籍贯，薛侯封地"
+    },
+    {
+     "name": "沂",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王生籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王生",
+     "predicate": "SPOUSE",
+     "object": "兰氏",
+     "evidence": "富翁兰氏，见而悦之，妻以女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "SPOUSE",
+     "object": "锦瑟",
+     "evidence": "瑶台遽命酒，使两人易盏。生固辞，瑶台夺易之。生乃伏地谢罪，受饮之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锦瑟",
+     "predicate": "KIN",
+     "object": "瑶台",
+     "evidence": "一日，女长姊瑶台至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锦瑟",
+     "predicate": "KIN",
+     "object": "兰翁",
+     "evidence": "小字锦瑟，东海薛侯女也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王生",
+     "predicate": "LIVES_AT",
+     "object": "给孤园",
+     "evidence": "可使居西堂，主簿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锦瑟",
+     "predicate": "LIVES_AT",
+     "object": "给孤园",
+     "evidence": "自愿居地下，收养冤魂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王生",
+     "predicate": "NATIVE_OF",
+     "object": "沂",
+     "evidence": "沂人王生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锦瑟",
+     "predicate": "NATIVE_OF",
+     "object": "东海",
+     "evidence": "小字锦瑟，东海薛侯女也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "PARTICIPATED_IN",
+     "object": "童子试",
+     "evidence": "年十九，往应童子试，被黜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "HELPED",
+     "object": "锦瑟",
+     "evidence": "生弃刀负之，奔二三里许",
+     "confidence": 0.95
+    },
+    {
+     "subject": "锦瑟",
+     "predicate": "HELPED",
+     "object": "王生",
+     "evidence": "女止之，俯觅断臂，自为续之，乃裹之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕",
+     "predicate": "HELPED",
+     "object": "王生",
+     "evidence": "婢出叱退，曰：“求死郎来耶？吾家娘子悯君厄穷，使妾送君入安乐窝，从此无灾矣。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王生",
+     "predicate": "HARMED",
+     "object": "兰氏",
+     "evidence": "生忿投羹碗，败妇颡",
+     "confidence": 0.95
+    },
+    {
+     "subject": "兰氏",
+     "predicate": "HARMED",
+     "object": "王生",
+     "evidence": "妇恚，问死期，即授索为自经之具",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾某",
+     "predicate": "SPOUSE",
+     "object": "兰氏",
+     "evidence": "有陕中贾某，媒通兰氏，遂就生第与妇合",
+     "confidence": 0.95
+    },
+    {
+     "subject": "春燕",
+     "predicate": "LOVES",
+     "object": "王生",
+     "evidence": "婢颇风格，既熟，颇以眉目送情",
+     "confidence": 0.85
+    },
+    {
+     "subject": "春燕",
+     "predicate": "SPOUSE",
+     "object": "王生",
+     "evidence": "久之，婢亦私生",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:19.867Z"
+}

@@ -1,0 +1,241 @@
+{
+ "no": 224,
+ "title": "小谢",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3051,
+   "entities": [
+    {
+     "name": "陶望三",
+     "type": "Person",
+     "aliases": [
+      "陶生"
+     ],
+     "nickname": "",
+     "description": "渭南书生，倜傥好狎妓，借姜部郎废宅，与鬼女小谢、秋容相恋"
+    },
+    {
+     "name": "小谢",
+     "type": "Spirit",
+     "aliases": [
+      "阮家小谢"
+     ],
+     "nickname": "",
+     "description": "女鬼，年约十七八，与秋容同住废宅，后拜陶生为师"
+    },
+    {
+     "name": "秋容",
+     "type": "Spirit",
+     "aliases": [
+      "乔氏秋容"
+     ],
+     "nickname": "",
+     "description": "女鬼，年约二十，姓乔，与陶生相恋，后借郝氏女尸复生"
+    },
+    {
+     "name": "姜部郎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "渭南官员，有废宅多鬼魅，借与陶生"
+    },
+    {
+     "name": "黑判",
+     "type": "Spirit",
+     "aliases": [
+      "西廊黑判"
+     ],
+     "nickname": "",
+     "description": "城隍祠西廊判官，强摄秋容逼充御媵"
+    },
+    {
+     "name": "蔡子经",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与陶生同谱，其妹夭殒后尸失，后认小谢为妹"
+    },
+    {
+     "name": "郝氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "富室，其女殡葬时被秋容借尸复生，后认陶生为婿"
+    },
+    {
+     "name": "渭南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，姜部郎第所在"
+    },
+    {
+     "name": "姜部郎第",
+     "type": "Place",
+     "aliases": [
+      "废宅"
+     ],
+     "nickname": "",
+     "description": "姜部郎的宅院，多鬼魅，后借与陶生"
+    },
+    {
+     "name": "城隍祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "城隍庙，黑判居西廊，秋容被摄于此"
+    },
+    {
+     "name": "冥司",
+     "type": "Place",
+     "aliases": [
+      "冥府"
+     ],
+     "nickname": "",
+     "description": "阴间官府，三郎被押赴此处，冥王令其托生"
+    },
+    {
+     "name": "部院",
+     "type": "Place",
+     "aliases": [
+      "巡抚衙门"
+     ],
+     "nickname": "",
+     "description": "巡抚官署，三郎在此申冤，陶生在此受审"
+    },
+    {
+     "name": "金如意",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "三郎拜师时献给陶生的贽礼"
+    },
+    {
+     "name": "符",
+     "type": "Item",
+     "aliases": [
+      "二符"
+     ],
+     "nickname": "",
+     "description": "道士所画符箓，吞之可借尸复生"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陶望三",
+     "predicate": "LIVES_AT",
+     "object": "姜部郎第",
+     "evidence": "因请部郎假废第",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "NATIVE_OF",
+     "object": "渭南",
+     "evidence": "渭南姜部郎第",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小谢",
+     "predicate": "LIVES_AT",
+     "object": "姜部郎第",
+     "evidence": "见二女自房中出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "秋容",
+     "predicate": "LIVES_AT",
+     "object": "姜部郎第",
+     "evidence": "见二女自房中出",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "LOVES",
+     "object": "小谢",
+     "evidence": "二女以遭难故，妒念全消",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "LOVES",
+     "object": "秋容",
+     "evidence": "二女以遭难故，妒念全消",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "SPOUSE",
+     "object": "秋容",
+     "evidence": "郝乃识婿而去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "SPOUSE",
+     "object": "小谢",
+     "evidence": "后往来如郝焉",
+     "confidence": 0.8
+    },
+    {
+     "subject": "黑判",
+     "predicate": "HARMED",
+     "object": "秋容",
+     "evidence": "被西廊黑判强摄去，逼充御媵",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秋容",
+     "predicate": "HELPED",
+     "object": "陶望三",
+     "evidence": "以馔具馈生",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小谢",
+     "predicate": "HELPED",
+     "object": "陶望三",
+     "evidence": "出金三两，跛踦而没",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "生将赴试",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蔡子经",
+     "predicate": "KIN",
+     "object": "小谢",
+     "evidence": "真吾妹也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "郝氏",
+     "predicate": "KIN",
+     "object": "秋容",
+     "evidence": "郝乃识婿而去",
+     "confidence": 0.8
+    },
+    {
+     "subject": "陶望三",
+     "predicate": "OWNS",
+     "object": "符",
+     "evidence": "因书二符付生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "秋容",
+     "predicate": "OCCURRED_AT",
+     "object": "城隍祠",
+     "evidence": "经由城隍祠，被西廊黑判强摄去",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:41.940Z"
+}

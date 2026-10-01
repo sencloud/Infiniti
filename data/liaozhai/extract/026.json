@@ -1,0 +1,73 @@
+{
+ "no": 26,
+ "title": "三生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 798,
+   "entities": [
+    {
+     "name": "刘孝廉",
+     "type": "Person",
+     "aliases": [
+      "刘公"
+     ],
+     "nickname": "",
+     "description": "能记前身事的举人，历经三世轮回"
+    },
+    {
+     "name": "冥王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府之王，审判刘孝廉"
+    },
+    {
+     "name": "先文贲兄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘孝廉的同年，听其讲述前身事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冥王",
+     "predicate": "PUNISHED",
+     "object": "刘孝廉",
+     "evidence": "怒，命群鬼捽下，罚作马",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冥王",
+     "predicate": "PUNISHED",
+     "object": "刘孝廉",
+     "evidence": "剥其皮革，罚为犬",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冥王",
+     "predicate": "PUNISHED",
+     "object": "刘孝廉",
+     "evidence": "怒其狂猘，笞数百，俾作蛇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冥王",
+     "predicate": "HELPED",
+     "object": "刘孝廉",
+     "evidence": "冥王以无罪见杀，原之，准其满限复为人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘孝廉",
+     "predicate": "FRIEND",
+     "object": "先文贲兄",
+     "evidence": "与先文贲兄为同年",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:21.318Z"
+}

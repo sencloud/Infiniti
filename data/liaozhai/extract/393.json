@@ -1,0 +1,108 @@
+{
+ "no": 393,
+ "title": "牛同人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 352,
+   "entities": [
+    {
+     "name": "牛同人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "书生，曾作表上玉帝驱狐，后为游击女驱狐"
+    },
+    {
+     "name": "关帝",
+     "type": "Spirit",
+     "aliases": [
+      "关圣"
+     ],
+     "nickname": "",
+     "description": "伏魔帝君，曾杖责牛同人，后遣神将驱狐"
+    },
+    {
+     "name": "黑面将军",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "关帝部将，缚狐牵走"
+    },
+    {
+     "name": "济南游击女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南游击将军之女，被狐迷惑"
+    },
+    {
+     "name": "济南游击",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南游击将军，女被狐惑，求助牛同人"
+    },
+    {
+     "name": "金甲神",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "关帝所遣神将，降伏狐狸"
+    },
+    {
+     "name": "玉帝",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "天庭至尊，牛同人曾上表诉关帝不职"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "关帝",
+     "predicate": "PUNISHED",
+     "object": "牛同人",
+     "evidence": "即令杖牛二十，股肉几脱。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黑面将军",
+     "predicate": "HELPED",
+     "object": "牛同人",
+     "evidence": "有黑面将军缚一狐至，牵之而去，其怪遂绝。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "济南游击",
+     "predicate": "KIN",
+     "object": "济南游击女",
+     "evidence": "济南游击女为狐所惑",
+     "confidence": 0.9
+    },
+    {
+     "subject": "济南游击",
+     "predicate": "HELPED",
+     "object": "牛同人",
+     "evidence": "立捉兵至，捆责尽法。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛同人",
+     "predicate": "HELPED",
+     "object": "济南游击女",
+     "evidence": "牛不得已，为之呈告关帝。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "牛同人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "科考",
+     "evidence": "适提学按临，牛赴试",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:40.407Z"
+}

@@ -1,0 +1,89 @@
+{
+ "no": 318,
+ "title": "盗户",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 602,
+   "entities": [
+    {
+     "name": "李生",
+     "type": "Person",
+     "aliases": [
+      "李公子"
+     ],
+     "nickname": "",
+     "description": "《盗户》篇中章丘秀才，被某甲讼争地，公堂上拒认秀才身份"
+    },
+    {
+     "name": "某甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《盗户》篇中与李生争地并告官之人"
+    },
+    {
+     "name": "锺县令",
+     "type": "Person",
+     "aliases": [
+      "邑令锺"
+     ],
+     "nickname": "",
+     "description": "《盗户》篇中章丘县令，袒护奸民，审断李生争地案"
+    },
+    {
+     "name": "县令之女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《盗户》篇中县令的女儿，被官署狐精迷惑"
+    },
+    {
+     "name": "术士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《盗户》篇中被聘来以符咒捉狐之人"
+    },
+    {
+     "name": "章丘",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《盗户》篇中地名，漕粮徭役火耗繁重之地"
+    },
+    {
+     "name": "官署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《盗户》篇中多狐之官署"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "术士",
+     "predicate": "HELPED",
+     "object": "锺县令",
+     "evidence": "聘术士来，符捉入瓶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "某甲",
+     "predicate": "HARMED",
+     "object": "李生",
+     "evidence": "有李生为某甲所讼，同赴质审",
+     "confidence": 0.9
+    },
+    {
+     "subject": "锺县令",
+     "predicate": "PUNISHED",
+     "object": "李生",
+     "evidence": "令诘左右，共指为真秀才。令问：“何故不承？”",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:12.299Z"
+}

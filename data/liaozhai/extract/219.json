@@ -1,0 +1,38 @@
+{
+ "no": 219,
+ "title": "铁布衫法",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 102,
+   "entities": [
+    {
+     "name": "沙回子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "回族人，得铁布衫大力法，能断牛项洞牛腹"
+    },
+    {
+     "name": "仇彭三",
+     "type": "Person",
+     "aliases": [
+      "仇公子彭三"
+     ],
+     "nickname": "",
+     "description": "公子，沙回子曾在其家表演铁布衫法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "沙回子",
+     "predicate": "LIVES_AT",
+     "object": "仇彭三家",
+     "evidence": "曾在仇公子彭三家",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:33.559Z"
+}

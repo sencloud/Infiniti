@@ -1,0 +1,244 @@
+{
+ "no": 88,
+ "title": "10.5 分式方程",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6153,
+   "entities": [
+    {
+     "name": "分式方程",
+     "type": "Concept",
+     "aliases": [
+      "fractional equation"
+     ],
+     "nickname": "",
+     "description": "分母中含有未知数的方程"
+    },
+    {
+     "name": "整式方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母中不含未知数的方程"
+    },
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含一个未知数且未知数次数为1的整式方程"
+    },
+    {
+     "name": "增根",
+     "type": "Concept",
+     "aliases": [
+      "extraneous root"
+     ],
+     "nickname": "",
+     "description": "解分式方程时产生的使原方程分母为0的根"
+    },
+    {
+     "name": "最简公分母",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "各分式分母的所有因式的最高次幂的积"
+    },
+    {
+     "name": "类比",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "根据两个或两类事物在某些方面相同或类似，猜想在其他方面也相同或类似的方法"
+    },
+    {
+     "name": "转化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将未知问题转化为已知问题来解决的数学思想"
+    },
+    {
+     "name": "分式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母中含有字母的代数式"
+    },
+    {
+     "name": "分数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示一个数是另一个数的几分之几的数"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "分式方程",
+     "predicate": "PREREQUISITE",
+     "object": "一元一次方程",
+     "evidence": "解这个一元一次方程，得",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式方程",
+     "predicate": "PREREQUISITE",
+     "object": "整式方程",
+     "evidence": "可转化为整式方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式方程",
+     "predicate": "INCLUDES",
+     "object": "增根",
+     "evidence": "这样的解称为增根",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式方程",
+     "predicate": "APPLIES_TO",
+     "object": "最简公分母",
+     "evidence": "在方程的两边同乘各分式的最简公分母",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式方程",
+     "predicate": "APPLIES_TO",
+     "object": "转化",
+     "evidence": "解分式方程转化为解整式方程",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式",
+     "predicate": "RELATED",
+     "object": "分数",
+     "evidence": "分式和分数具有类似的形式，也具有类似的性质和运算",
+     "confidence": 0.9
+    },
+    {
+     "subject": "类比",
+     "predicate": "APPLIES_TO",
+     "object": "分式",
+     "evidence": "在分式的学习过程中，我们就常常和分数进行类比",
+     "confidence": 0.9
+    },
+    {
+     "subject": "转化",
+     "predicate": "APPLIES_TO",
+     "object": "分式方程",
+     "evidence": "解分式方程转化为解整式方程",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 631,
+   "entities": [
+    {
+     "name": "分式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "形如A/B，B中含字母的式子"
+    },
+    {
+     "name": "分式方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分母中含未知数的方程"
+    },
+    {
+     "name": "分式的值为0",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式值为0的条件：分子为0且分母不为0"
+    },
+    {
+     "name": "分式的化简求值",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "先化简分式再代入求值的方法"
+    },
+    {
+     "name": "分式的混合运算",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "分式的加、减、乘、除、乘方混合运算顺序"
+    },
+    {
+     "name": "分式拆分",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将分式拆成几个分式之和的方法"
+    },
+    {
+     "name": "基本不等式",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "a>0,b>0时，b/a+a/b≥2"
+    },
+    {
+     "name": "分式与整式的互化",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将分式写成整式与分式之和的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "分式",
+     "predicate": "PREREQUISITE",
+     "object": "分式方程",
+     "evidence": "八下 第10章 分式 · 八下·10.5「10.5 分式方程」",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式的混合运算",
+     "predicate": "PREREQUISITE",
+     "object": "分式的化简求值",
+     "evidence": "求$\\frac{3-a}{2a-4}\\div\\left(a+2-\\frac{5}{a-2}\\right)$的值",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式的值为0",
+     "predicate": "PROPERTY_OF",
+     "object": "分式",
+     "evidence": "当$x$，$y$满足什么条件时，分式$\\frac{x-y}{1+x}$的值为0？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式拆分",
+     "predicate": "APPLIES_TO",
+     "object": "分式",
+     "evidence": "将分式$\\frac{1}{n(n+2)}$写成$\\frac{A}{n}+\\frac{B}{n+2}$的形式",
+     "confidence": 0.9
+    },
+    {
+     "subject": "基本不等式",
+     "predicate": "PROPERTY_OF",
+     "object": "分式",
+     "evidence": "证明：当$a>0$，$b>0$时，$\\frac{b}{a}+\\frac{a}{b}\\geqslant2$",
+     "confidence": 0.9
+    },
+    {
+     "subject": "分式与整式的互化",
+     "predicate": "APPLIES_TO",
+     "object": "分式",
+     "evidence": "将分式$\\frac{a^4+2a^2-1}{a^2+1}$写成一个整式与一个分式之和的形式",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:12.559Z"
+}

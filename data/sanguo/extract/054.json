@@ -1,0 +1,397 @@
+{
+ "no": 54,
+ "title": "吴国太佛寺看新郎 刘皇叔洞房续佳偶",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5141,
+   "entities": [
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "孟德",
+      "阿瞒",
+      "曹公",
+      "魏王",
+      "魏武帝"
+     ],
+     "nickname": "孟德",
+     "description": "汉末权臣，魏王"
+    },
+    {
+     "name": "刘备",
+     "type": "Person",
+     "aliases": [
+      "玄德",
+      "刘皇叔",
+      "先主",
+      "昭烈帝"
+     ],
+     "nickname": "玄德",
+     "description": "汉室宗亲，荆州之主"
+    },
+    {
+     "name": "孙权",
+     "type": "Person",
+     "aliases": [
+      "仲谋",
+      "吴侯",
+      "吴王",
+      "大帝"
+     ],
+     "nickname": "仲谋",
+     "description": "东吴之主"
+    },
+    {
+     "name": "赵云",
+     "type": "Person",
+     "aliases": [
+      "子龙",
+      "常山赵子龙",
+      "虎威将军"
+     ],
+     "nickname": "子龙",
+     "description": "刘备麾下大将"
+    },
+    {
+     "name": "周瑜",
+     "type": "Person",
+     "aliases": [
+      "公瑾",
+      "周郎",
+      "大都督"
+     ],
+     "nickname": "公瑾",
+     "description": "东吴大都督"
+    },
+    {
+     "name": "鲁肃",
+     "type": "Person",
+     "aliases": [
+      "子敬",
+      "鲁子敬"
+     ],
+     "nickname": "子敬",
+     "description": "东吴谋士"
+    },
+    {
+     "name": "刘表",
+     "type": "Person",
+     "aliases": [
+      "景升",
+      "刘景升",
+      "荆州牧"
+     ],
+     "nickname": "景升",
+     "description": "荆州牧，刘备之兄"
+    },
+    {
+     "name": "刘璋",
+     "type": "Person",
+     "aliases": [
+      "季玉",
+      "益州牧"
+     ],
+     "nickname": "季玉",
+     "description": "益州牧"
+    },
+    {
+     "name": "孙尚香",
+     "type": "Person",
+     "aliases": [
+      "孙夫人",
+      "弓腰姬"
+     ],
+     "nickname": "",
+     "description": "孙权之妹，刘备之妻"
+    },
+    {
+     "name": "吴国太",
+     "type": "Person",
+     "aliases": [
+      "吴夫人",
+      "国太"
+     ],
+     "nickname": "",
+     "description": "孙权之母"
+    },
+    {
+     "name": "乔国老",
+     "type": "Person",
+     "aliases": [
+      "二乔之父"
+     ],
+     "nickname": "",
+     "description": "二乔之父，居于南徐"
+    },
+    {
+     "name": "吕范",
+     "type": "Person",
+     "aliases": [
+      "子衡"
+     ],
+     "nickname": "子衡",
+     "description": "东吴谋士，媒人"
+    },
+    {
+     "name": "孙乾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备谋士"
+    },
+    {
+     "name": "贾华",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴将领"
+    },
+    {
+     "name": "甘夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备之妻，已故"
+    },
+    {
+     "name": "东吴",
+     "type": "Organization",
+     "aliases": [
+      "吴"
+     ],
+     "nickname": "",
+     "description": "孙权建立的势力"
+    },
+    {
+     "name": "荆州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备暂借之地"
+    },
+    {
+     "name": "南徐",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "东吴都城"
+    },
+    {
+     "name": "甘露寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "南徐佛寺"
+    },
+    {
+     "name": "柴桑郡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "周瑜驻地"
+    },
+    {
+     "name": "西川",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘璋所据之地"
+    },
+    {
+     "name": "赤壁之战",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙刘联军破曹之战"
+    },
+    {
+     "name": "借荆州",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘备借荆州不还事件"
+    },
+    {
+     "name": "甘露寺招亲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴国太在甘露寺相看刘备"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘备",
+     "predicate": "KIN",
+     "object": "刘表",
+     "evidence": "况刘景升乃我主之兄也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "KIN",
+     "object": "刘璋",
+     "evidence": "西川刘璋闇弱，我主将图之",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘备",
+     "predicate": "SPOUSE",
+     "object": "甘夫人",
+     "evidence": "刘玄德没了甘夫人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "SPOUSE",
+     "object": "孙尚香",
+     "evidence": "孙夫人与玄德结亲",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙权",
+     "predicate": "KIN",
+     "object": "孙尚香",
+     "evidence": "吾有一妹，欲招赘玄德为婿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴国太",
+     "predicate": "KIN",
+     "object": "孙权",
+     "evidence": "我为你母亲，事当禀命于我",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吴国太",
+     "predicate": "KIN",
+     "object": "孙尚香",
+     "evidence": "我国太吴夫人甚爱幼女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵云",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "汝保主公入吴",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁肃",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "肃曰：昔日皇叔当阳受难时，是肃引孔明渡江，见我主公",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "周瑜写了书呈，选快船送鲁肃投南徐见孙权",
+     "confidence": 0.95
+    },
+    {
+     "subject": "吕范",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "遂召吕范至，谓曰：近闻刘玄德丧妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙乾",
+     "predicate": "SERVED",
+     "object": "刘备",
+     "evidence": "先教孙乾和吕范回见吴侯",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾华",
+     "predicate": "SERVED",
+     "object": "孙权",
+     "evidence": "权遂唤贾华，分付预先准备",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "MEMBER_OF",
+     "object": "东吴",
+     "evidence": "玄德入赘东吴",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙权",
+     "predicate": "LEADS",
+     "object": "东吴",
+     "evidence": "汝主乃钱塘小吏之子，素无功德于朝廷；今倚势力，占据六郡八十一州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "STATIONED_AT",
+     "object": "柴桑郡",
+     "evidence": "先到柴桑郡见周瑜",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "STATIONED_AT",
+     "object": "荆州",
+     "evidence": "皇叔亦不能安坐荆州",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赤壁之战",
+     "evidence": "且赤壁之战，我主多负勤劳",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "MASTERMINDED",
+     "object": "甘露寺招亲",
+     "evidence": "此是周瑜之计，因要取荆州，故将此为名，赚刘备来拘囚在此",
+     "confidence": 0.95
+    },
+    {
+     "subject": "甘露寺招亲",
+     "predicate": "OCCURRED_AT",
+     "object": "甘露寺",
+     "evidence": "来日甘露寺方丈设宴，国太要见刘备",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘备",
+     "predicate": "OWNS",
+     "object": "荆州",
+     "evidence": "暂借荆州为本",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙权",
+     "predicate": "ATTACKED",
+     "object": "荆州",
+     "evidence": "周瑜之计，因要取荆州",
+     "confidence": 0.9
+    },
+    {
+     "subject": "东吴",
+     "predicate": "ALLIED_WITH",
+     "object": "刘备",
+     "evidence": "若两家共结秦、晋之好，则曹贼不敢正视东南也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑜",
+     "predicate": "FRAMED",
+     "object": "刘备",
+     "evidence": "此是周瑜之计，因要取荆州，故将此为名，赚刘备来拘囚在此",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:55:17.102Z"
+}

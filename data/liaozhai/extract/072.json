@@ -1,0 +1,94 @@
+{
+ "no": 72,
+ "title": "遵化署狐",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 416,
+   "entities": [
+    {
+     "name": "丘公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "诸城人，遵化道台，刚烈，炮轰狐族"
+    },
+    {
+     "name": "狐妪",
+     "type": "Spirit",
+     "aliases": [
+      "狐"
+     ],
+     "nickname": "",
+     "description": "遵化署狐精，化老妇求宽限，后化叟告状复仇"
+    },
+    {
+     "name": "遵化署",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "遵化道台衙门，多狐，有楼"
+    },
+    {
+     "name": "诸城",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "丘公籍贯地"
+    },
+    {
+     "name": "班役家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "藏银之处，被搜出赃银"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "丘公",
+     "predicate": "NATIVE_OF",
+     "object": "诸城",
+     "evidence": "诸城丘公为遵化道。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "丘公",
+     "predicate": "LIVES_AT",
+     "object": "遵化署",
+     "evidence": "诸城丘公为遵化道。署中故多狐",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐妪",
+     "predicate": "LIVES_AT",
+     "object": "遵化署",
+     "evidence": "署中故多狐，最后一楼，绥绥者族而居之，以为家。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐妪",
+     "predicate": "HARMED",
+     "object": "丘公",
+     "evidence": "时出殃人，遣之益炽。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "丘公",
+     "predicate": "KILLED",
+     "object": "狐妪",
+     "evidence": "使尽扛诸营巨炮骤入，环楼千座并发。数仞之楼，顷刻摧为平地，革肉毛血，自天雨而下。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐妪",
+     "predicate": "HARMED",
+     "object": "丘公",
+     "evidence": "忽有一叟诣阙声屈，言妻子横被杀戮，又讦公尅削军粮，夤缘当路，现顿某家，可以验证。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:39.478Z"
+}

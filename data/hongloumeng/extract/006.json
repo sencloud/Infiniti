@@ -1,0 +1,959 @@
+{
+ "no": 6,
+ "title": "贾宝玉初试云雨情 刘姥姥一进荣国府",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5766,
+   "entities": [
+    {
+     "name": "贾宝玉",
+     "type": "Person",
+     "aliases": [
+      "宝玉",
+      "宝二爷",
+      "怡红公子",
+      "绛洞花王",
+      "神瑛侍者"
+     ],
+     "nickname": "怡红公子",
+     "description": "荣国府公子，与袭人初试云雨"
+    },
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤姐",
+      "凤辣子",
+      "琏二奶奶",
+      "凤丫头",
+      "泼皮破落户"
+     ],
+     "nickname": "凤辣子",
+     "description": "贾琏之妻，荣国府管家"
+    },
+    {
+     "name": "贾母",
+     "type": "Person",
+     "aliases": [
+      "史太君",
+      "老太太",
+      "老祖宗"
+     ],
+     "nickname": "史太君",
+     "description": "贾府老祖宗"
+    },
+    {
+     "name": "贾政",
+     "type": "Person",
+     "aliases": [
+      "存周",
+      "政老爷",
+      "二老爷",
+      "贾存周"
+     ],
+     "nickname": "存周",
+     "description": "荣国府二老爷"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，荣国府太太"
+    },
+    {
+     "name": "贾琏",
+     "type": "Person",
+     "aliases": [
+      "琏二爷",
+      "琏二哥"
+     ],
+     "nickname": "",
+     "description": "王熙凤之夫"
+    },
+    {
+     "name": "秦可卿",
+     "type": "Person",
+     "aliases": [
+      "可卿",
+      "蓉大奶奶",
+      "秦氏"
+     ],
+     "nickname": "可卿",
+     "description": "贾蓉之妻"
+    },
+    {
+     "name": "贾巧姐",
+     "type": "Person",
+     "aliases": [
+      "巧姐",
+      "大姐儿",
+      "巧哥儿"
+     ],
+     "nickname": "",
+     "description": "贾琏与王熙凤之女"
+    },
+    {
+     "name": "平儿",
+     "type": "Person",
+     "aliases": [
+      "平姑娘"
+     ],
+     "nickname": "",
+     "description": "王熙凤的心腹通房大丫头"
+    },
+    {
+     "name": "袭人",
+     "type": "Person",
+     "aliases": [
+      "珍珠",
+      "蕊珠",
+      "袭姑娘"
+     ],
+     "nickname": "",
+     "description": "贾宝玉的丫鬟"
+    },
+    {
+     "name": "刘姥姥",
+     "type": "Person",
+     "aliases": [
+      "姥姥"
+     ],
+     "nickname": "",
+     "description": "王狗儿岳母，一进荣国府"
+    },
+    {
+     "name": "周瑞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王夫人陪房，管春秋地租"
+    },
+    {
+     "name": "周瑞家的",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周瑞之妻，王夫人陪房"
+    },
+    {
+     "name": "王成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘姥姥亲家，已故"
+    },
+    {
+     "name": "狗儿",
+     "type": "Person",
+     "aliases": [
+      "王狗儿"
+     ],
+     "nickname": "",
+     "description": "王成之子，刘姥姥女婿"
+    },
+    {
+     "name": "板儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "狗儿之子，刘姥姥外孙"
+    },
+    {
+     "name": "青儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "狗儿之女"
+    },
+    {
+     "name": "刘氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "狗儿之妻，刘姥姥之女"
+    },
+    {
+     "name": "贾蓉",
+     "type": "Person",
+     "aliases": [
+      "蓉大爷",
+      "小大爷"
+     ],
+     "nickname": "",
+     "description": "东府贾蓉，凤姐侄儿"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "荣府",
+      "贾府"
+     ],
+     "nickname": "",
+     "description": "贾家府第"
+    },
+    {
+     "name": "王家",
+     "type": "Organization",
+     "aliases": [
+      "金陵王家",
+      "王府"
+     ],
+     "nickname": "",
+     "description": "王夫人、王熙凤娘家"
+    },
+    {
+     "name": "贾琏住处",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾琏与王熙凤居所"
+    },
+    {
+     "name": "荣府大门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荣国府正门"
+    },
+    {
+     "name": "后门",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荣国府后门"
+    },
+    {
+     "name": "倒厅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荣国府内厅堂"
+    },
+    {
+     "name": "东边屋内",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾琏女儿大姐儿睡觉之所"
+    },
+    {
+     "name": "长安城",
+     "type": "Place",
+     "aliases": [
+      "长安"
+     ],
+     "nickname": "",
+     "description": "京城"
+    },
+    {
+     "name": "宁荣街",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "荣国府所在街道"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "袭人",
+     "predicate": "SERVANT_OF",
+     "object": "贾宝玉",
+     "evidence": "袭人伸手与他系裤带时",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾母",
+     "evidence": "遂至贾母处来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "贾政",
+     "evidence": "荣国府贾二老爷的夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "荣国府贾二老爷的夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "SPOUSE",
+     "object": "贾琏",
+     "evidence": "琏二奶奶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾巧姐",
+     "predicate": "KIN",
+     "object": "贾琏",
+     "evidence": "贾琏的女儿大姐儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾巧姐",
+     "predicate": "KIN",
+     "object": "王熙凤",
+     "evidence": "贾琏的女儿大姐儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "平儿",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "凤姐的一个心腹通房大丫头名唤平儿的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周瑞家的",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "太太的陪房周瑞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周瑞",
+     "predicate": "SERVANT_OF",
+     "object": "王夫人",
+     "evidence": "太太的陪房周瑞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周瑞家的",
+     "predicate": "SPOUSE",
+     "object": "周瑞",
+     "evidence": "她丈夫周瑞",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "KIN",
+     "object": "狗儿",
+     "evidence": "狗儿遂将岳母刘姥姥接来一处过活",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "KIN",
+     "object": "刘氏",
+     "evidence": "刘氏又操井臼等事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "KIN",
+     "object": "板儿",
+     "evidence": "带了外孙子小板儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "KIN",
+     "object": "青儿",
+     "evidence": "又生一女，名唤青儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狗儿",
+     "predicate": "KIN",
+     "object": "王成",
+     "evidence": "王成新近亦因病故，只有其子，小名狗儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狗儿",
+     "predicate": "KIN",
+     "object": "板儿",
+     "evidence": "狗儿亦生一子，小名板儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狗儿",
+     "predicate": "KIN",
+     "object": "青儿",
+     "evidence": "又生一女，名唤青儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狗儿",
+     "predicate": "SPOUSE",
+     "object": "刘氏",
+     "evidence": "嫡妻刘氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "板儿",
+     "predicate": "KIN",
+     "object": "青儿",
+     "evidence": "青板姊弟两个无人看管",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "就是太太的内侄女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "KIN",
+     "object": "贾蓉",
+     "evidence": "这是我侄儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "SERVED",
+     "object": "王熙凤",
+     "evidence": "只得忍耻说道",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "SERVED",
+     "object": "王夫人",
+     "evidence": "也请请姑太太的安",
+     "confidence": 0.8
+    },
+    {
+     "subject": "周瑞家的",
+     "predicate": "RECOMMENDED",
+     "object": "刘姥姥",
+     "evidence": "我竟破个例，给你通个信去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狗儿",
+     "predicate": "RECOMMENDED",
+     "object": "刘姥姥",
+     "evidence": "你竟带了外孙子小板儿，先去找陪房周瑞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "LEADS",
+     "object": "荣国府",
+     "evidence": "都是琏二奶奶管家",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "荣国府贾二老爷的夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "王家",
+     "evidence": "就是太太的内侄女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王夫人",
+     "predicate": "MEMBER_OF",
+     "object": "王家",
+     "evidence": "昔年与凤姐之祖王夫人之父认识",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "荣国府贾二老爷的夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾母",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "老太太屋里摆了饭了没有",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾政",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "荣国府贾二老爷的夫人",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾琏",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾琏的住处",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾巧姐",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "贾琏的女儿大姐儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "凤姐的一个心腹通房大丫头",
+     "confidence": 0.9
+    },
+    {
+     "subject": "袭人",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "袭人伸手与他系裤带时",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑞",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "太太的陪房周瑞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "周瑞家的",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "太太的陪房周瑞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "NATIVE_OF",
+     "object": "长安城",
+     "evidence": "这长安城中，遍地都是钱",
+     "confidence": 0.8
+    },
+    {
+     "subject": "狗儿",
+     "predicate": "NATIVE_OF",
+     "object": "长安城",
+     "evidence": "这长安城中，遍地都是钱",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "STATIONED_AT",
+     "object": "长安城",
+     "evidence": "如今咱们虽离城住着，终是天子脚下",
+     "confidence": 0.8
+    },
+    {
+     "subject": "狗儿",
+     "predicate": "STATIONED_AT",
+     "object": "长安城",
+     "evidence": "如今咱们虽离城住着，终是天子脚下",
+     "confidence": 0.8
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "STATIONED_AT",
+     "object": "荣国府",
+     "evidence": "来至荣府大门石狮子前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "板儿",
+     "predicate": "STATIONED_AT",
+     "object": "荣国府",
+     "evidence": "带了外孙子小板儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "STATIONED_AT",
+     "object": "贾琏住处",
+     "evidence": "逶迤往贾琏的住处来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "STATIONED_AT",
+     "object": "贾琏住处",
+     "evidence": "平儿站在炕沿边",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾巧姐",
+     "predicate": "STATIONED_AT",
+     "object": "东边屋内",
+     "evidence": "乃是贾琏的女儿大姐儿睡觉之所",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "STATIONED_AT",
+     "object": "倒厅",
+     "evidence": "周瑞家的将刘姥姥安插在那里略等一等",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "STATIONED_AT",
+     "object": "宁荣街",
+     "evidence": "找至宁荣街",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "STATIONED_AT",
+     "object": "后门",
+     "evidence": "绕到后门上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "FRIEND",
+     "object": "周瑞家的",
+     "evidence": "周瑞家的认了半日，方笑道：“刘姥姥，你好呀！”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狗儿",
+     "predicate": "FRIEND",
+     "object": "周瑞",
+     "evidence": "这周瑞先时曾和我父亲交过一桩事，我们极好的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "小铜火箸儿",
+     "evidence": "手内拿着小铜火箸儿拨手炉内的灰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "手炉",
+     "evidence": "拨手炉内的灰",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "OWNS",
+     "object": "填漆茶盘",
+     "evidence": "捧着小小的一个填漆茶盘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "OWNS",
+     "object": "小盖钟",
+     "evidence": "盘内一个小盖钟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "银唾沫盒",
+     "evidence": "旁边有银唾沫盒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "锁子锦靠背",
+     "evidence": "靠东边板壁立着一个锁子锦靠背",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "引枕",
+     "evidence": "一个引枕",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "金心绿闪缎大坐褥",
+     "evidence": "铺着金心绿闪缎大坐褥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "大红撒花软帘",
+     "evidence": "悬着大红撒花软帘",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "大红毡条",
+     "evidence": "炕上大红毡条",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "紫貂昭君套",
+     "evidence": "家常带着紫貂昭君套",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "攒珠勒子",
+     "evidence": "围着攒珠勒子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "桃红撒花袄",
+     "evidence": "穿著桃红撒花袄",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "石青刻丝灰鼠披风",
+     "evidence": "石青刻丝灰鼠披风",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "大红洋绉银鼠皮裙",
+     "evidence": "大红洋绉银鼠皮裙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "中衣",
+     "evidence": "另取出一件中衣来与宝玉换上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "OWNS",
+     "object": "桂圆汤",
+     "evidence": "众人忙端上桂圆汤来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "OWNS",
+     "object": "猩红毡帘",
+     "evidence": "小丫头打起猩红毡帘",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "PARTICIPATED_IN",
+     "object": "初试云雨情",
+     "evidence": "贾宝玉初试云雨情",
+     "confidence": 0.95
+    },
+    {
+     "subject": "袭人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "初试云雨情",
+     "evidence": "遂和宝玉偷试一番",
+     "confidence": 0.95
+    },
+    {
+     "subject": "初试云雨情",
+     "predicate": "OCCURRED_AT",
+     "object": "荣国府",
+     "evidence": "过这边来",
+     "confidence": 0.8
+    },
+    {
+     "subject": "秦可卿",
+     "predicate": "PARTICIPATED_IN",
+     "object": "初试云雨情",
+     "evidence": "秦氏因听见宝玉从梦中唤她的乳名",
+     "confidence": 0.8
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "LOVES",
+     "object": "袭人",
+     "evidence": "宝玉亦素喜袭人柔媚娇俏",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾宝玉",
+     "predicate": "QUARRELED",
+     "object": "秦可卿",
+     "evidence": "心中自是纳闷",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1625,
+   "entities": [
+    {
+     "name": "王熙凤",
+     "type": "Person",
+     "aliases": [
+      "凤辣子",
+      "凤姐",
+      "琏二奶奶",
+      "凤丫头",
+      "泼皮破落户"
+     ],
+     "nickname": "",
+     "description": "荣国府管家奶奶，贾琏之妻"
+    },
+    {
+     "name": "王夫人",
+     "type": "Person",
+     "aliases": [
+      "太太",
+      "二太太"
+     ],
+     "nickname": "",
+     "description": "贾政之妻，荣国府二太太"
+    },
+    {
+     "name": "贾蓉",
+     "type": "Person",
+     "aliases": [
+      "蓉哥儿",
+      "小蓉大爷",
+      "蓉大爷"
+     ],
+     "nickname": "",
+     "description": "贾珍之子，宁国府贾府子弟"
+    },
+    {
+     "name": "平儿",
+     "type": "Person",
+     "aliases": [
+      "平姑娘"
+     ],
+     "nickname": "",
+     "description": "王熙凤的丫鬟"
+    },
+    {
+     "name": "刘姥姥",
+     "type": "Person",
+     "aliases": [
+      "姥姥"
+     ],
+     "nickname": "",
+     "description": "乡下老妪，与贾府连宗之亲"
+    },
+    {
+     "name": "周瑞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "荣国府管家"
+    },
+    {
+     "name": "周瑞家的",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周瑞之妻，荣国府女仆"
+    },
+    {
+     "name": "板儿",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘姥姥的外孙"
+    },
+    {
+     "name": "荣国府",
+     "type": "Organization",
+     "aliases": [
+      "贾府"
+     ],
+     "nickname": "",
+     "description": "贾府府第"
+    },
+    {
+     "name": "玻璃炕屏",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "王熙凤的玻璃炕屏"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾蓉",
+     "predicate": "KIN",
+     "object": "王熙凤",
+     "evidence": "我父亲打发我来求婶子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "KIN",
+     "object": "王夫人",
+     "evidence": "太太说，他们家原不是一家子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "平儿",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "因命平儿拿了楼房门钥匙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周瑞家的",
+     "predicate": "SERVANT_OF",
+     "object": "王熙凤",
+     "evidence": "凤姐又叫过周瑞家的去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘姥姥",
+     "predicate": "KIN",
+     "object": "板儿",
+     "evidence": "只得带了你侄儿奔了你老来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "OWNS",
+     "object": "玻璃炕屏",
+     "evidence": "上回老舅太太给婶子的那架玻璃炕屏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "RESCUED",
+     "object": "刘姥姥",
+     "evidence": "可巧昨儿太太给我的丫头们做衣裳的二十两银子，我还没动呢，你若不嫌少，就暂且先拿了去罢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王熙凤",
+     "predicate": "MEMBER_OF",
+     "object": "荣国府",
+     "evidence": "况是我近来接着管些事",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:53:38.121Z"
+}

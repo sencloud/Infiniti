@@ -1,0 +1,136 @@
+{
+ "no": 481,
+ "title": "桓侯",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1302,
+   "entities": [
+    {
+     "name": "彭好士",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "荆州人，饮归遇桓侯，得香草致富"
+    },
+    {
+     "name": "张桓侯",
+     "type": "Spirit",
+     "aliases": [
+      "桓侯"
+     ],
+     "nickname": "",
+     "description": "即张飞，神威刚猛，宴请彭好士"
+    },
+    {
+     "name": "刘子翚",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "村中赛社首事，彭好士借宿其家"
+    },
+    {
+     "name": "李生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "唇不掩门齿，宴集时被肘击堕齿"
+    },
+    {
+     "name": "青衣人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "桓侯使者，引彭好士至桓侯处"
+    },
+    {
+     "name": "阆中",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "四川地名，桓侯居所所在"
+    },
+    {
+     "name": "桓侯之庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "村中祭祀桓侯的庙宇"
+    },
+    {
+     "name": "香草",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "彭好士所怀异香草，可成仙或点金"
+    },
+    {
+     "name": "赛社",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "村中每年在桓侯庙举行的祭祀活动"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "彭好士",
+     "predicate": "FRIEND",
+     "object": "刘子翚",
+     "evidence": "已求此公作居停主人矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭好士",
+     "predicate": "LIVES_AT",
+     "object": "阆中",
+     "evidence": "此属何地？曰：阆中也",
+     "confidence": 0.9
+    },
+    {
+     "subject": "彭好士",
+     "predicate": "OWNS",
+     "object": "香草",
+     "evidence": "彭拔其馀茎，嗅之有异香，因纳诸怀",
+     "confidence": 0.95
+    },
+    {
+     "subject": "彭好士",
+     "predicate": "PARTICIPATED_IN",
+     "object": "赛社",
+     "evidence": "村中岁岁赛社于桓侯之庙",
+     "confidence": 0.8
+    },
+    {
+     "subject": "赛社",
+     "predicate": "OCCURRED_AT",
+     "object": "桓侯之庙",
+     "evidence": "村中岁岁赛社于桓侯之庙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张桓侯",
+     "predicate": "HELPED",
+     "object": "彭好士",
+     "evidence": "当报以良马，且将赐以万金",
+     "confidence": 0.9
+    },
+    {
+     "subject": "张桓侯",
+     "predicate": "HARMED",
+     "object": "彭好士",
+     "evidence": "彭觉捉处如被械梏，痛欲折",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青衣人",
+     "predicate": "HELPED",
+     "object": "彭好士",
+     "evidence": "代为捉衔，曰：天已近暮，吾家主人便请宿止",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:16.951Z"
+}

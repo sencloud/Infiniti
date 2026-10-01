@@ -1,0 +1,117 @@
+{
+ "no": 461,
+ "title": "李八缸",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 662,
+   "entities": [
+    {
+     "name": "李月生",
+     "type": "Person",
+     "aliases": [
+      "月生"
+     ],
+     "nickname": "",
+     "description": "太学生，升宇翁次子，为人朴诚"
+    },
+    {
+     "name": "升宇翁",
+     "type": "Person",
+     "aliases": [
+      "李升宇"
+     ],
+     "nickname": "八缸",
+     "description": "李月生之父，最富，以缸贮金"
+    },
+    {
+     "name": "车氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李月生之妻，最贤，有桓孟之德"
+    },
+    {
+     "name": "徐氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "羊贩者之妻，后为月生妻，性刚烈"
+    },
+    {
+     "name": "月生兄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "升宇翁长子，分金八之，贤良"
+    },
+    {
+     "name": "月生长子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "李月生长子，后殂谢"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李月生",
+     "predicate": "KIN",
+     "object": "升宇翁",
+     "evidence": "太学李月生，升宇翁之次子也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李月生",
+     "predicate": "KIN",
+     "object": "月生兄",
+     "evidence": "兄八之，弟二之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李月生",
+     "predicate": "SPOUSE",
+     "object": "车氏",
+     "evidence": "盖月生妻车氏，最贤，有桓、孟之德",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李月生",
+     "predicate": "SPOUSE",
+     "object": "徐氏",
+     "evidence": "寻买贩羊者之妻徐，冀得其小阜。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李月生",
+     "predicate": "KIN",
+     "object": "月生长子",
+     "evidence": "妻及长子相继殂谢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "升宇翁",
+     "predicate": "HELPED",
+     "object": "李月生",
+     "evidence": "尝许汝窖金，今其可矣。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "月生兄",
+     "predicate": "HELPED",
+     "object": "李月生",
+     "evidence": "赖兄小周给，不至大困。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "徐氏",
+     "predicate": "HARMED",
+     "object": "李月生",
+     "evidence": "而徐性刚烈，日凌藉之",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:18:08.834Z"
+}

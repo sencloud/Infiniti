@@ -1,0 +1,148 @@
+{
+ "no": 347,
+ "title": "单父宰",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 224,
+   "entities": [
+    {
+     "name": "青州民某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州百姓，五十多岁，被儿子割去睾丸而死"
+    },
+    {
+     "name": "某之二子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州民某的两个儿子，合谋害死父亲"
+    },
+    {
+     "name": "某之少妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州民某的继室，告发二子"
+    },
+    {
+     "name": "王生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "淄川人，娶妻月余即休妻"
+    },
+    {
+     "name": "辛公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "淄川县令，审理王生休妻案"
+    },
+    {
+     "name": "王生之妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王生之妻，被休"
+    },
+    {
+     "name": "王生妻父",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "王生妻子的父亲，告官"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，青州民某居住地"
+    },
+    {
+     "name": "淄川",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地名，王生籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "某之二子",
+     "predicate": "KILLED",
+     "object": "青州民某",
+     "evidence": "乘父醉，潜割睾丸而药糁之。父觉，托病不言。久之，创渐平。忽入室，刀缝绽裂，血溢不止，寻毙。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某之二子",
+     "predicate": "KIN",
+     "object": "青州民某",
+     "evidence": "二子恐其复育，乘父醉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某之少妇",
+     "predicate": "KIN",
+     "object": "青州民某",
+     "evidence": "继娶少妇",
+     "confidence": 0.95
+    },
+    {
+     "subject": "某之少妇",
+     "predicate": "PUNISHED",
+     "object": "某之二子",
+     "evidence": "妻知其故，讼于官。官械其子，果伏。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王生",
+     "predicate": "SPOUSE",
+     "object": "王生之妻",
+     "evidence": "娶月馀而出其妻",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生妻父",
+     "predicate": "KIN",
+     "object": "王生之妻",
+     "evidence": "妻父讼之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生妻父",
+     "predicate": "PUNISHED",
+     "object": "王生",
+     "evidence": "妻父讼之。时淄宰辛公，问王何故出妻。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "辛公",
+     "predicate": "PUNISHED",
+     "object": "王生",
+     "evidence": "时淄宰辛公，问王何故出妻。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "青州民某",
+     "predicate": "LIVES_AT",
+     "object": "青州",
+     "evidence": "青州民某",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王生",
+     "predicate": "NATIVE_OF",
+     "object": "淄川",
+     "evidence": "邑有王生者",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:24.940Z"
+}

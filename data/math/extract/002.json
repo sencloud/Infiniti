@@ -1,0 +1,64 @@
+{
+ "no": 2,
+ "title": "1.2 活动 思考",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 579,
+   "entities": [
+    {
+     "name": "长方形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "四个内角都等于90°的四边形"
+    },
+    {
+     "name": "四边形内角和",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "四边形的内角和等于360°"
+    },
+    {
+     "name": "月历中的数量关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "月历中相邻日期之间的数量关系"
+    },
+    {
+     "name": "调查表",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "收集数据、了解情况的表格工具"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "长方形",
+     "predicate": "PREREQUISITE",
+     "object": "四边形内角和",
+     "evidence": "长方形的四个内角都等于90°，其内角和为360°。根据图1-3的思路，你能得到一般四边形的内角和吗？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "长方形",
+     "predicate": "SPECIAL_CASE",
+     "object": "四边形内角和",
+     "evidence": "长方形的四个内角都等于90°，其内角和为360°。根据图1-3的思路，你能得到一般四边形的内角和吗？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "调查表",
+     "predicate": "APPLIES_TO",
+     "object": "月历中的数量关系",
+     "evidence": "小明设计了下表对各班同学进行调查。",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:29.508Z"
+}

@@ -1,0 +1,134 @@
+{
+ "no": 28,
+ "title": "8.1 单项式乘单项式",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2226,
+   "entities": [
+    {
+     "name": "整式乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式的一种基本运算，包括单项式乘单项式等"
+    },
+    {
+     "name": "单项式乘单项式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "系数、相同字母的幂分别相乘，只在一个单项式里含有的字母连同指数作为积的因式"
+    },
+    {
+     "name": "乘法交换律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘法中交换因数的位置，积不变"
+    },
+    {
+     "name": "乘法结合律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘法中先乘前两个数或先乘后两个数，积不变"
+    },
+    {
+     "name": "分配律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "乘法对加法的分配性质"
+    },
+    {
+     "name": "幂的运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "幂的运算性质，如同底数幂相乘等"
+    },
+    {
+     "name": "整式加减运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式的加法与减法运算"
+    },
+    {
+     "name": "整式运算",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式的各种运算，包括加减乘除等"
+    },
+    {
+     "name": "数的乘法",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "数的乘法运算"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "幂的运算",
+     "predicate": "PREREQUISITE",
+     "object": "整式乘法",
+     "evidence": "本章将在幂的运算和整式加减运算的基础上学习整式乘法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "整式加减运算",
+     "predicate": "PREREQUISITE",
+     "object": "整式乘法",
+     "evidence": "本章将在幂的运算和整式加减运算的基础上学习整式乘法。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "整式乘法",
+     "predicate": "INCLUDES",
+     "object": "单项式乘单项式",
+     "evidence": "由乘法交换律和结合律可以得到单项式乘单项式的法则",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乘法交换律",
+     "predicate": "DERIVES",
+     "object": "单项式乘单项式",
+     "evidence": "由乘法交换律和结合律可以得到单项式乘单项式的法则",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乘法结合律",
+     "predicate": "DERIVES",
+     "object": "单项式乘单项式",
+     "evidence": "由乘法交换律和结合律可以得到单项式乘单项式的法则",
+     "confidence": 0.95
+    },
+    {
+     "subject": "数的乘法",
+     "predicate": "PREREQUISITE",
+     "object": "整式乘法",
+     "evidence": "学习整式乘法时，可以类比数的乘法。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式乘法",
+     "predicate": "RELATED",
+     "object": "数的乘法",
+     "evidence": "学习整式乘法时，可以类比数的乘法。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式运算",
+     "predicate": "INCLUDES",
+     "object": "整式乘法",
+     "evidence": "整式运算是数学运算的基础，是代数学习的基本功。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:42.596Z"
+}

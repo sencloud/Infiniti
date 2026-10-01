@@ -1,0 +1,665 @@
+{
+ "no": 33,
+ "title": "第三十三回 宋江夜看小鳌山 花荣大闹清风寨",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5681,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "宋公明",
+      "宋押司",
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县押司，因杀阎婆惜逃亡，投奔花荣"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "清风寨武知寨，箭术高超，宋江好友"
+    },
+    {
+     "name": "刘高",
+     "type": "Person",
+     "aliases": [
+      "刘知寨"
+     ],
+     "nickname": "",
+     "description": "清风寨正知寨，文官，陷害宋江"
+    },
+    {
+     "name": "刘高妻",
+     "type": "Person",
+     "aliases": [
+      "刘知寨恭人"
+     ],
+     "nickname": "",
+     "description": "刘高之妻，曾被宋江救下，反诬宋江为贼"
+    },
+    {
+     "name": "崔氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "花荣之妻"
+    },
+    {
+     "name": "花荣妹",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "花荣之妹"
+    },
+    {
+     "name": "宋清",
+     "type": "Person",
+     "aliases": [
+      "铁扇子",
+      "宋四郎"
+     ],
+     "nickname": "铁扇子",
+     "description": "宋江之弟，曾寄书给宋江"
+    },
+    {
+     "name": "武松",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "武二郎",
+      "武都头"
+     ],
+     "nickname": "行者",
+     "description": "宋江在孔太公庄上遇见的好汉"
+    },
+    {
+     "name": "燕顺",
+     "type": "Person",
+     "aliases": [
+      "锦毛虎"
+     ],
+     "nickname": "锦毛虎",
+     "description": "清风山头领，曾捉宋江"
+    },
+    {
+     "name": "柴进",
+     "type": "Person",
+     "aliases": [
+      "小旋风",
+      "柴大官人"
+     ],
+     "nickname": "小旋风",
+     "description": "宋江曾投奔的庄主"
+    },
+    {
+     "name": "黄信",
+     "type": "Person",
+     "aliases": [
+      "镇三山"
+     ],
+     "nickname": "镇三山",
+     "description": "青州兵马都监，武艺高强"
+    },
+    {
+     "name": "慕容彦达",
+     "type": "Person",
+     "aliases": [
+      "慕容知府"
+     ],
+     "nickname": "",
+     "description": "青州知府，慕容贵妃之兄，横行残害良民"
+    },
+    {
+     "name": "阎婆惜",
+     "type": "Person",
+     "aliases": [
+      "泼烟花"
+     ],
+     "nickname": "",
+     "description": "被宋江所杀，引发官司"
+    },
+    {
+     "name": "王矮虎",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "清风山好汉，曾欲留刘高妻"
+    },
+    {
+     "name": "孔太公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔庄主人，宋江曾投奔"
+    },
+    {
+     "name": "清风山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州附近山寨，燕顺等为头领"
+    },
+    {
+     "name": "清风寨",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州三岔路口的官寨，设文武知寨"
+    },
+    {
+     "name": "青州府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州官署，知府慕容彦达管辖"
+    },
+    {
+     "name": "清风镇",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州三岔路口镇市，清风寨所在"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "州府名，辖清风山等地"
+    },
+    {
+     "name": "土地大王庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "清风镇上庙宇，元宵灯会所在"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江籍贯县份"
+    },
+    {
+     "name": "孔太公庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孔太公的庄园，宋江曾投奔"
+    },
+    {
+     "name": "元宵节",
+     "type": "Event",
+     "aliases": [
+      "元宵"
+     ],
+     "nickname": "",
+     "description": "清风镇放灯庆赏元宵，宋江看灯被捉"
+    },
+    {
+     "name": "宋江看灯被捉",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江在清风镇看灯被刘高妻认出并捉拿"
+    },
+    {
+     "name": "花荣大闹清风寨",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "花荣为救宋江，带兵闯入刘高寨夺人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "花荣",
+     "evidence": "只说宋公明独自一个，背着些包裹，迤逦来到清风镇上，便借问花知寨住处。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "FRIEND",
+     "object": "宋江",
+     "evidence": "花荣见宋江，拜罢……自从别了兄长之后，屈指又早五六年矣，常常念想。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "SPOUSE",
+     "object": "崔氏",
+     "evidence": "唤出浑家崔氏来拜伯伯。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "KIN",
+     "object": "花荣妹",
+     "evidence": "花荣又叫妹子出来拜了哥哥。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KIN",
+     "object": "宋清",
+     "evidence": "若非兄弟宋清寄书来孔太公庄上时，在下也特地要求贤弟这里走一遭。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "武松",
+     "evidence": "宋江把杀阎婆惜一事和投奔柴大官人并孔太公庄上遇见武松、清风山上被捉遇燕顺等事，细细地都说了一遍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "FRIEND",
+     "object": "燕顺",
+     "evidence": "宋江把杀阎婆惜一事和投奔柴大官人并孔太公庄上遇见武松、清风山上被捉遇燕顺等事，细细地都说了一遍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "SERVED",
+     "object": "柴进",
+     "evidence": "宋江把杀阎婆惜一事和投奔柴大官人并孔太公庄上遇见武松、清风山上被捉遇燕顺等事，细细地都说了一遍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "KILLED",
+     "object": "阎婆惜",
+     "evidence": "宋江把杀阎婆惜一事和投奔柴大官人并孔太公庄上遇见武松、清风山上被捉遇燕顺等事，细细地都说了一遍。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "RESCUED",
+     "object": "刘高妻",
+     "evidence": "宋江把救了刘知寨恭人的事，备细对花荣说了一遍。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘高妻",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "那刘知寨的老婆于灯下却认的宋江，便指与丈夫道：'兀那个黑矮汉子，便是前日清风山抢掳下我的贼头！'",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘高",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "刘知寨道：'说得是！'喝叫：'取过批头来打那厮！'一连打了两料。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "RESCUED",
+     "object": "宋江",
+     "evidence": "几个军汉便把绳索割断，铁锁打开，救出宋江。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "FOUGHT",
+     "object": "刘高",
+     "evidence": "花荣带了众人，自回到寨里来看视宋江。却说刘知寨见花荣救了人去，急忙点起一二百人，也叫来花荣寨夺人。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "DEFEATED",
+     "object": "刘高",
+     "evidence": "花荣再取第三枝箭，喝道：'你众人看我第三枝箭，要射你那队里穿白的教头心窝。'那人叫声：'哎呀！'便转身先走。众人发声喊，一齐都走了。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "清风山",
+     "evidence": "今晚我先走上清风山去躲避，你明日却好和他白赖，终久只是文武不和相殴的官司。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "宋江告道：'小人自是郓城县客人张三，与花知寨是故友，来此间多日了，从不曾在清风山打劫。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "LEADS",
+     "object": "青州府",
+     "evidence": "原来那个都监姓黄名信，为他本身武艺高强，威镇青州，因此称他为镇三山。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "慕容彦达",
+     "predicate": "LEADS",
+     "object": "青州府",
+     "evidence": "且说青州府知府正值升厅坐公座。那知府复姓慕容，双名彦达，是今上徽宗天子慕容贵妃之兄，倚托妹子的势要，在青州横行，残害良民，欺罔僚友，无所不为。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "元宵节",
+     "evidence": "宋江对花荣说道：'听闻此间市镇上今日晚点放花灯，我欲去观看观看。'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "PARTICIPATED_IN",
+     "object": "宋江看灯被捉",
+     "evidence": "宋江听得，回身便走。走不过十馀家，众军汉赶上，把宋江捉住，拿了来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "花荣",
+     "predicate": "PARTICIPATED_IN",
+     "object": "花荣大闹清风寨",
+     "evidence": "花荣披挂，拴束了弓箭，绰枪上马，带了三五十名军汉，都拖枪拽棒，直奔到刘高寨里来。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江看灯被捉",
+     "predicate": "OCCURRED_AT",
+     "object": "清风镇",
+     "evidence": "当晚，宋江和花荣家亲随梯己人两三个，跟随着宋江缓步徐行。到这清风镇上看灯时，只见家家门前搭起灯棚，悬挂花灯，不计其数。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣大闹清风寨",
+     "predicate": "OCCURRED_AT",
+     "object": "清风寨",
+     "evidence": "花荣披挂，拴束了弓箭，绰枪上马，带了三五十名军汉，都拖枪拽棒，直奔到刘高寨里来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "OWNS",
+     "object": "包裹",
+     "evidence": "只说宋公明独自一个，背着些包裹，迤逦来到清风镇上。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "OWNS",
+     "object": "弓箭",
+     "evidence": "花荣披挂，拴束了弓箭，绰枪上马。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "MEMBER_OF",
+     "object": "清风寨",
+     "evidence": "出来的年少将军不是别人，正是清风寨武知寨小李广花荣。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "刘高",
+     "predicate": "MEMBER_OF",
+     "object": "清风寨",
+     "evidence": "近日除将这个穷酸饿醋来做个正知寨。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "MEMBER_OF",
+     "object": "青州府",
+     "evidence": "便教唤那本州兵马都监来到厅上，分付他去。原来那个都监姓黄名信。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "慕容彦达",
+     "predicate": "MEMBER_OF",
+     "object": "青州府",
+     "evidence": "且说青州府知府正值升厅坐公座。那知府复姓慕容，双名彦达。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "燕顺",
+     "predicate": "LEADS",
+     "object": "清风山",
+     "evidence": "清风山上被捉遇燕顺等事。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "孔太公庄",
+     "evidence": "宋江把杀阎婆惜一事和投奔柴大官人并孔太公庄上遇见武松、清风山上被捉遇燕顺等事，细细地都说了一遍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "宋江在花荣寨里住了将及一月有馀。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "这清风寨衙门在镇市中间。南边有个小寨，是文官刘知寨住宅；北边那个小寨，正是武官花知寨住宅。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘高",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "这清风寨衙门在镇市中间。南边有个小寨，是文官刘知寨住宅。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "清风山",
+     "predicate": "STATIONED_AT",
+     "object": "青州",
+     "evidence": "话说这清风山离青州不远，只隔得百里来路。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "清风寨",
+     "predicate": "STATIONED_AT",
+     "object": "清风镇",
+     "evidence": "这清风寨却在青州三岔路口，地名清风镇。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "ATTACKED",
+     "object": "清风山",
+     "evidence": "宋江把杀阎婆惜一事和投奔柴大官人并孔太公庄上遇见武松、清风山上被捉遇燕顺等事，细细地都说了一遍。",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1824,
+   "entities": [
+    {
+     "name": "宋江",
+     "type": "Person",
+     "aliases": [
+      "呼保义",
+      "及时雨",
+      "孝义黑三郎",
+      "宋公明",
+      "宋押司"
+     ],
+     "nickname": "呼保义",
+     "description": "郓城县人，被刘高捉拿，囚车解送青州"
+    },
+    {
+     "name": "花荣",
+     "type": "Person",
+     "aliases": [
+      "小李广",
+      "花知寨"
+     ],
+     "nickname": "小李广",
+     "description": "清风寨武知寨，被黄信设计擒获"
+    },
+    {
+     "name": "黄信",
+     "type": "Person",
+     "aliases": [
+      "镇三山"
+     ],
+     "nickname": "镇三山",
+     "description": "青州兵马都监，设计擒拿花荣"
+    },
+    {
+     "name": "刘高",
+     "type": "Person",
+     "aliases": [
+      "刘知寨"
+     ],
+     "nickname": "",
+     "description": "清风寨正知寨，与花荣不和，捉拿宋江"
+    },
+    {
+     "name": "清风寨",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州辖下寨堡，刘高、花荣任职之地"
+    },
+    {
+     "name": "青州府",
+     "type": "Place",
+     "aliases": [
+      "青州"
+     ],
+     "nickname": "",
+     "description": "州府名，黄信、刘高押解宋江花荣前往之处"
+    },
+    {
+     "name": "郓城县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "宋江籍贯所在县"
+    },
+    {
+     "name": "清风山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "强人山寨，被指与花荣结连"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "黄信",
+     "predicate": "DEFEATED",
+     "object": "花荣",
+     "evidence": "把花荣拿倒在厅前。黄信喝道：“绑了！”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "黄信",
+     "predicate": "DEFEATED",
+     "object": "宋江",
+     "evidence": "后面取出宋江来，教黄信看了。黄信道：“这个不必问了。连夜合个囚车，把这厮盛在里面。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘高",
+     "predicate": "FRAMED",
+     "object": "宋江",
+     "evidence": "头上抹了红绢，插一个纸旗，上写着“清风山贼首郓城虎张三”。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘高",
+     "predicate": "FRAMED",
+     "object": "花荣",
+     "evidence": "你结连清风山强贼，一同背反朝廷，当得何罪？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "MEMBER_OF",
+     "object": "青州府",
+     "evidence": "这兵马都监黄信上厅来领了知府的言语出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "MEMBER_OF",
+     "object": "清风寨",
+     "evidence": "为是你清风寨内文武官僚不和",
+     "confidence": 0.9
+    },
+    {
+     "subject": "刘高",
+     "predicate": "MEMBER_OF",
+     "object": "清风寨",
+     "evidence": "刘知寨出来接着",
+     "confidence": 0.9
+    },
+    {
+     "subject": "宋江",
+     "predicate": "NATIVE_OF",
+     "object": "郓城县",
+     "evidence": "他自是郓城县人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "宋江",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "后面取出宋江来，教黄信看了。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "花荣",
+     "predicate": "STATIONED_AT",
+     "object": "清风寨",
+     "evidence": "来到花荣寨前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "STATIONED_AT",
+     "object": "青州府",
+     "evidence": "这兵马都监黄信上厅来领了知府的言语出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黄信",
+     "predicate": "ATTACKED",
+     "object": "清风寨",
+     "evidence": "连夜便下清风寨来，径到刘高寨前下马。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "花荣",
+     "predicate": "ALLIED_WITH",
+     "object": "清风山",
+     "evidence": "你结连清风山强贼，一同背反朝廷",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:34.764Z"
+}

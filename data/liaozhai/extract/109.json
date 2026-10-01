@@ -1,0 +1,157 @@
+{
+ "no": 109,
+ "title": "小二",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1802,
+   "entities": [
+    {
+     "name": "赵旺",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "滕邑人，小二之父，奉佛，后陷白莲教"
+    },
+    {
+     "name": "丁生",
+     "type": "Person",
+     "aliases": [
+      "丁紫陌"
+     ],
+     "nickname": "",
+     "description": "字紫陌，小二同学，后与小二成婚"
+    },
+    {
+     "name": "长春",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵旺之子，小二之兄"
+    },
+    {
+     "name": "徐鸿儒",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "白莲教首领，起兵反叛"
+    },
+    {
+     "name": "翁姓",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "小二西邻，绿林之雄"
+    },
+    {
+     "name": "承祧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "长春幼子，被丁生夫妇收养"
+    },
+    {
+     "name": "滕邑",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵旺家乡"
+    },
+    {
+     "name": "莱芜",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "小二与丁生私奔后抵达之地"
+    },
+    {
+     "name": "山阴里",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "小二与丁生租屋居住之地"
+    },
+    {
+     "name": "益都之西鄙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "小二与丁生后来迁居之地"
+    },
+    {
+     "name": "纸鸢",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "小二剪的纸鹞鹰，可骑乘飞行"
+    },
+    {
+     "name": "纸驴",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "小二剪的纸驴，可骑乘"
+    },
+    {
+     "name": "周礼",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "小二与丁生行酒令所用之书"
+    },
+    {
+     "name": "白莲教",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "徐鸿儒领导的叛乱"
+    },
+    {
+     "name": "蝗灾",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "蝗虫祸害庄稼的事件"
+    },
+    {
+     "name": "大饥",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "山左大饥荒，人相食"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "赵旺",
+     "predicate": "KIN",
+     "object": "长春",
+     "evidence": "使与兄长春并从师读",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赵旺",
+     "predicate": "PARTICIPATED_IN",
+     "object": "白莲教",
+     "evidence": "赵惑于白莲教",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁生",
+     "predicate": "LIVES_AT",
+     "object": "益都之西鄙",
+     "evidence": "止于益都之西鄙",
+     "confidence": 0.9
+    },
+    {
+     "subject": "丁生",
+     "predicate": "KIN",
+     "object": "承祧",
+     "evidence": "养为己出",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:54.934Z"
+}

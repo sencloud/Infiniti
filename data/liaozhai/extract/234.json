@@ -1,0 +1,50 @@
+{
+ "no": 234,
+ "title": "山神",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 140,
+   "entities": [
+    {
+     "name": "李会斗",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "益都人，偶山行遇山神"
+    },
+    {
+     "name": "山神",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "面狭长二三尺，冠高细"
+    },
+    {
+     "name": "益都",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "李会斗籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李会斗",
+     "predicate": "NATIVE_OF",
+     "object": "益都",
+     "evidence": "益都李会斗，偶山行",
+     "confidence": 0.95
+    },
+    {
+     "subject": "李会斗",
+     "predicate": "LIVES_AT",
+     "object": "益都",
+     "evidence": "益都李会斗",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:40.343Z"
+}

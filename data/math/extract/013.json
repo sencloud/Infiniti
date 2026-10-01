@@ -1,0 +1,320 @@
+{
+ "no": 13,
+ "title": "3.3 整式的加减",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6193,
+   "entities": [
+    {
+     "name": "单项式",
+     "type": "Concept",
+     "aliases": [
+      "monomial expression"
+     ],
+     "nickname": "",
+     "description": "由数与字母的积组成的代数式"
+    },
+    {
+     "name": "多项式",
+     "type": "Concept",
+     "aliases": [
+      "polynomial"
+     ],
+     "nickname": "",
+     "description": "几个单项式的和"
+    },
+    {
+     "name": "整式",
+     "type": "Concept",
+     "aliases": [
+      "integral expression"
+     ],
+     "nickname": "",
+     "description": "单项式和多项式统称整式"
+    },
+    {
+     "name": "同类项",
+     "type": "Concept",
+     "aliases": [
+      "like terms"
+     ],
+     "nickname": "",
+     "description": "所含字母相同，并且相同字母的指数也相同的项"
+    },
+    {
+     "name": "合并同类项",
+     "type": "Formula",
+     "aliases": [
+      "unite like terms"
+     ],
+     "nickname": "",
+     "description": "同类项的系数相加，所得的结果作为系数，字母和字母的指数不变"
+    },
+    {
+     "name": "去括号法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "括号前是+号，去括号后各项符号不变；括号前是-号，去括号后各项符号都改变"
+    },
+    {
+     "name": "乘法分配律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a(b+c)=ab+ac"
+    },
+    {
+     "name": "加法交换律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "a+b=b+a"
+    },
+    {
+     "name": "整式的加减",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式的加减运算，实质是合并同类项"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "单项式",
+     "predicate": "INCLUDES",
+     "object": "整式",
+     "evidence": "单项式和多项式统称整式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "多项式",
+     "predicate": "INCLUDES",
+     "object": "整式",
+     "evidence": "单项式和多项式统称整式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "同类项",
+     "predicate": "PREREQUISITE",
+     "object": "合并同类项",
+     "evidence": "所含字母相同，并且相同字母的指数也相同的项叫作同类项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乘法分配律",
+     "predicate": "PREREQUISITE",
+     "object": "合并同类项",
+     "evidence": "可以利用乘法分配律！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "合并同类项",
+     "predicate": "APPLIES_TO",
+     "object": "整式的加减",
+     "evidence": "通过合并同类项，可以将多项式化简",
+     "confidence": 0.9
+    },
+    {
+     "subject": "去括号法则",
+     "predicate": "APPLIES_TO",
+     "object": "整式的加减",
+     "evidence": "在进行整式的运算时，我们可以利用运算律把括号去掉",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乘法分配律",
+     "predicate": "DERIVES",
+     "object": "去括号法则",
+     "evidence": "a-(b-c)=a+(-1)(b-c)=a-b+c",
+     "confidence": 0.9
+    },
+    {
+     "subject": "加法交换律",
+     "predicate": "APPLIES_TO",
+     "object": "合并同类项",
+     "evidence": "=-3x-5x+2y-7y 加法交换律",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5320,
+   "entities": [
+    {
+     "name": "整式的加减",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "整式的加减运算，先去括号，再合并同类项"
+    },
+    {
+     "name": "合并同类项",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "把同类项的系数相加，字母和指数不变"
+    },
+    {
+     "name": "去括号法则",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "括号前是正号，去括号后各项符号不变；括号前是负号，去括号后各项符号改变"
+    },
+    {
+     "name": "运算律",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "加法交换律、结合律，乘法分配律等"
+    },
+    {
+     "name": "归纳",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "从特殊到一般探索规律、提出猜想的思想方法"
+    },
+    {
+     "name": "整体代换",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "把某个式子看成一个整体，用一个字母表示后进行运算"
+    },
+    {
+     "name": "代数式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由数、字母和运算符号组成的表达式"
+    },
+    {
+     "name": "整式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "单项式和多项式的统称"
+    },
+    {
+     "name": "单项式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "表示数或字母的积的代数式"
+    },
+    {
+     "name": "多项式",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "几个单项式的和"
+    },
+    {
+     "name": "字母表示数",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用字母表示数，是代数的基础"
+    },
+    {
+     "name": "代数式求值",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "用具体数值代替代数式中的字母，计算所得结果"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "合并同类项",
+     "predicate": "PREREQUISITE",
+     "object": "整式的加减",
+     "evidence": "利用合并同类项与去括号法则，我们可以进行整式的加减运算。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "去括号法则",
+     "predicate": "PREREQUISITE",
+     "object": "整式的加减",
+     "evidence": "利用合并同类项与去括号法则，我们可以进行整式的加减运算。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "整式的加减",
+     "predicate": "INCLUDES",
+     "object": "合并同类项",
+     "evidence": "利用合并同类项与去括号法则，我们可以进行整式的加减运算。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式的加减",
+     "predicate": "INCLUDES",
+     "object": "去括号法则",
+     "evidence": "利用合并同类项与去括号法则，我们可以进行整式的加减运算。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式的加减",
+     "predicate": "APPLIES_TO",
+     "object": "运算律",
+     "evidence": "整式的加减运算，像数的运算一样满足各种运算律",
+     "confidence": 0.9
+    },
+    {
+     "subject": "归纳",
+     "predicate": "APPLIES_TO",
+     "object": "代数式",
+     "evidence": "通过对现象的观察、分析，从特殊到一般地探索这类现象的规律、提出猜想的思想方法称为归纳。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "整体代换",
+     "predicate": "APPLIES_TO",
+     "object": "整式的加减",
+     "evidence": "把 $5(x-2y)-3(x-2y)+8(x-2y)-4(x-2y)$ 中的“$x-2y$”看成一个整体，用一个字母表示后进行合并同类项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式",
+     "predicate": "INCLUDES",
+     "object": "单项式",
+     "evidence": "整式是一类特殊的代数式，整式加减运算的基础是合并同类项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "整式",
+     "predicate": "INCLUDES",
+     "object": "多项式",
+     "evidence": "整式是一类特殊的代数式，整式加减运算的基础是合并同类项",
+     "confidence": 0.9
+    },
+    {
+     "subject": "代数式",
+     "predicate": "INCLUDES",
+     "object": "整式",
+     "evidence": "整式是一类特殊的代数式",
+     "confidence": 0.95
+    },
+    {
+     "subject": "字母表示数",
+     "predicate": "PREREQUISITE",
+     "object": "代数式",
+     "evidence": "本章中，我们借助对现实情境和简单问题中数量关系的分析，进一步理解了字母表示数的意义，认识了代数式的有关概念",
+     "confidence": 0.9
+    },
+    {
+     "subject": "代数式",
+     "predicate": "PREREQUISITE",
+     "object": "代数式求值",
+     "evidence": "代数式的值由代数式中的字母取值确定，它随字母取值的变化而变化。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:37.821Z"
+}

@@ -1,0 +1,351 @@
+{
+ "no": 72,
+ "title": "盘丝洞七情迷本 濯垢泉八戒忘形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5629,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "东土大唐高僧，奉旨西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，原卷帘大将"
+    },
+    {
+     "name": "蜘蛛精",
+     "type": "Person",
+     "aliases": [
+      "七仙姑",
+      "七姐妹"
+     ],
+     "nickname": "七仙姑",
+     "description": "盘丝洞七个女妖，占濯垢泉"
+    },
+    {
+     "name": "土地",
+     "type": "Person",
+     "aliases": [
+      "土地老儿",
+      "当境土地"
+     ],
+     "nickname": "",
+     "description": "盘丝岭当境土地神"
+    },
+    {
+     "name": "盘丝洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "盘丝岭下妖洞，蜘蛛精巢穴"
+    },
+    {
+     "name": "盘丝岭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒西行所经山岭"
+    },
+    {
+     "name": "濯垢泉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "天生热水泉，原七仙姑浴池"
+    },
+    {
+     "name": "盘丝洞遇妖",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧化斋被蜘蛛精捉住"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "一日为师，终身为父",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "你况是个父辈，我等俱是弟子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "师父的心性如此，不必违拗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "STATIONED_AT",
+     "object": "盘丝洞",
+     "evidence": "那庄村唤做盘丝洞。洞中有七个女怪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "ATTACKED",
+     "object": "唐僧",
+     "evidence": "把长老扯住，顺手牵羊，扑的掼倒在地。众人按住，将绳子捆了，悬梁高吊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "盘丝洞遇妖",
+     "evidence": "洞中有七个女怪，把我师父拿住，吊在洞里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "盘丝洞遇妖",
+     "predicate": "OCCURRED_AT",
+     "object": "盘丝洞",
+     "evidence": "那庄村唤做盘丝洞。洞中有七个女怪，把我师父拿住，吊在洞里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "我等快去解下师父走路罢",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "麻苍蝇儿",
+     "evidence": "摇身一变，变作个麻苍蝇儿",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "饿老鹰",
+     "evidence": "摇身一变，变作一个饿老鹰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "TRANSFORMED",
+     "object": "鲇鱼精",
+     "evidence": "变做一个鲇鱼精",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "蜘蛛精",
+     "evidence": "是我跟到那里，见他脱了衣服下水，我要打他",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "蜘蛛精",
+     "evidence": "那怪心中烦恼，一齐上前要打",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "STATIONED_AT",
+     "object": "濯垢泉",
+     "evidence": "自妖精到此居住，占了他的濯垢泉",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2180,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "取经僧人，被蜘蛛精捉住吊在洞中"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧徒弟，与蜘蛛精交战被丝绳困住"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "唐僧徒弟，随行者救师"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "美猴王",
+      "齐天大圣",
+      "悟空"
+     ],
+     "nickname": "行者",
+     "description": "唐僧徒弟，施法变鹰消灭虫妖救师"
+    },
+    {
+     "name": "蜘蛛精",
+     "type": "Person",
+     "aliases": [
+      "七仙姑",
+      "七姐妹"
+     ],
+     "nickname": "",
+     "description": "盘丝洞女妖，捉唐僧，有七虫干儿子"
+    },
+    {
+     "name": "盘丝洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜘蛛精居住的妖洞"
+    },
+    {
+     "name": "濯垢泉",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蜘蛛精洗浴的泉水"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我是东土大唐取经的唐长老之徒弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "徒弟呵，以后就是饿死，也再不自专了",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "行者即将绳索挑断放下唐僧",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "蜘蛛精",
+     "evidence": "举着钯，不分好歹，赶上前乱筑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "那怪物却将他困住，也不打他，也不伤他",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者即将绳索挑断放下唐僧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "STATIONED_AT",
+     "object": "盘丝洞",
+     "evidence": "各回本洞",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蜘蛛精",
+     "predicate": "STATIONED_AT",
+     "object": "濯垢泉",
+     "evidence": "才然被他徒弟拦在池里",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:41.204Z"
+}

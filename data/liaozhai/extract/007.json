@@ -1,0 +1,56 @@
+{
+ "no": 7,
+ "title": "山魈",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 400,
+   "entities": [
+    {
+     "name": "孙太白曾祖",
+     "type": "Person",
+     "aliases": [
+      "公"
+     ],
+     "nickname": "",
+     "description": "孙太白曾祖，肄业于南山柳沟寺"
+    },
+    {
+     "name": "山魈",
+     "type": "Spirit",
+     "aliases": [
+      "大鬼"
+     ],
+     "nickname": "",
+     "description": "柳沟寺中巨鬼，面似老瓜皮色"
+    },
+    {
+     "name": "南山柳沟寺",
+     "type": "Place",
+     "aliases": [
+      "柳沟寺"
+     ],
+     "nickname": "",
+     "description": "孙太白曾祖读书的寺院"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙太白曾祖",
+     "predicate": "LIVES_AT",
+     "object": "南山柳沟寺",
+     "evidence": "其曾祖肄业于南山柳沟寺",
+     "confidence": 0.95
+    },
+    {
+     "subject": "山魈",
+     "predicate": "HARMED",
+     "object": "孙太白曾祖",
+     "evidence": "鬼大怒，伸巨爪攫公",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:14.626Z"
+}

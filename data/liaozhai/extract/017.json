@@ -1,0 +1,87 @@
+{
+ "no": 17,
+ "title": "蛇人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1015,
+   "entities": [
+    {
+     "name": "蛇人",
+     "type": "Person",
+     "aliases": [
+      "东郡某甲"
+     ],
+     "nickname": "",
+     "description": "东郡人，以弄蛇为业，驯养大青、二青、小青"
+    },
+    {
+     "name": "大青",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "蛇人驯养的青色大蛇，一年后死去"
+    },
+    {
+     "name": "小青",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "二青引来的小蛇，随蛇人表演，后随二青去"
+    },
+    {
+     "name": "山寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "蛇人寄宿之寺，二青于此失踪"
+    },
+    {
+     "name": "淄邑东山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "淄川县东山，蛇人放二青之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "蛇人",
+     "predicate": "OWNS",
+     "object": "大青",
+     "evidence": "尝蓄驯蛇二，皆青色，其大者呼之大青",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蛇人",
+     "predicate": "OWNS",
+     "object": "小青",
+     "evidence": "因名之小青。衒技四方，获利无算",
+     "confidence": 0.95
+    },
+    {
+     "subject": "蛇人",
+     "predicate": "LIVES_AT",
+     "object": "山寺",
+     "evidence": "一夜，寄宿山寺",
+     "confidence": 0.9
+    },
+    {
+     "subject": "蛇人",
+     "predicate": "PARTICIPATED_IN",
+     "object": "放二青",
+     "evidence": "祝而纵之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "放二青",
+     "predicate": "OCCURRED_AT",
+     "object": "淄邑东山",
+     "evidence": "一日，至淄邑东山间，饲以美饵，祝而纵之",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:19.484Z"
+}

@@ -1,0 +1,236 @@
+{
+ "no": 374,
+ "title": "折狱",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1892,
+   "entities": [
+    {
+     "name": "贾某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西崖庄商人，被周成杀害"
+    },
+    {
+     "name": "王氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾某之妻，与周成有染后自尽"
+    },
+    {
+     "name": "贾弟",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾某之弟，为兄鸣冤"
+    },
+    {
+     "name": "费祎祉",
+     "type": "Person",
+     "aliases": [
+      "费公"
+     ],
+     "nickname": "",
+     "description": "淄川县令，断案如神"
+    },
+    {
+     "name": "周成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "杀害贾某的真凶"
+    },
+    {
+     "name": "胡成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与冯安同里，被诬杀人"
+    },
+    {
+     "name": "冯安",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡成同里，诬告胡成杀人"
+    },
+    {
+     "name": "郑伦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胡成妹夫，寄银于胡家"
+    },
+    {
+     "name": "何甲",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被王五与妻谋杀的无头尸"
+    },
+    {
+     "name": "何甲妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与王五私通，谋杀亲夫"
+    },
+    {
+     "name": "王五",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "与何甲妻私通，合谋杀人"
+    },
+    {
+     "name": "何甲叔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "何甲堂叔，被费公劝允妇再嫁"
+    },
+    {
+     "name": "西崖庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾某被杀之地"
+    },
+    {
+     "name": "淄",
+     "type": "Place",
+     "aliases": [
+      "淄川"
+     ],
+     "nickname": "",
+     "description": "费祎祉任县令之地"
+    },
+    {
+     "name": "南山眢井",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "何甲尸体被抛之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾某",
+     "predicate": "SPOUSE",
+     "object": "王氏",
+     "evidence": "其妻亦自经死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾某",
+     "predicate": "KIN",
+     "object": "贾弟",
+     "evidence": "贾弟鸣于官",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周成",
+     "predicate": "KILLED",
+     "object": "贾某",
+     "evidence": "于是杀贾",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周成",
+     "predicate": "HARMED",
+     "object": "王氏",
+     "evidence": "周潜就淫之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "费祎祉",
+     "predicate": "PUNISHED",
+     "object": "周成",
+     "evidence": "以周抵罪",
+     "confidence": 0.95
+    },
+    {
+     "subject": "费祎祉",
+     "predicate": "PUNISHED",
+     "object": "冯安",
+     "evidence": "冯以诬告，重笞，徒三年",
+     "confidence": 0.95
+    },
+    {
+     "subject": "费祎祉",
+     "predicate": "PUNISHED",
+     "object": "何甲妻",
+     "evidence": "并械之，果吐其实",
+     "confidence": 0.9
+    },
+    {
+     "subject": "费祎祉",
+     "predicate": "PUNISHED",
+     "object": "王五",
+     "evidence": "并械之，果吐其实",
+     "confidence": 0.9
+    },
+    {
+     "subject": "胡成",
+     "predicate": "KIN",
+     "object": "郑伦",
+     "evidence": "胡有妹夫郑伦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王五",
+     "predicate": "KILLED",
+     "object": "何甲",
+     "evidence": "谋杀其夫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何甲妻",
+     "predicate": "KILLED",
+     "object": "何甲",
+     "evidence": "谋杀其夫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王五",
+     "predicate": "LOVES",
+     "object": "何甲妻",
+     "evidence": "王五与妇私已久",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何甲",
+     "predicate": "KIN",
+     "object": "何甲叔",
+     "evidence": "但有堂叔一人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "费祎祉",
+     "predicate": "LIVES_AT",
+     "object": "淄",
+     "evidence": "时浙江费公祎祉令淄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾某",
+     "predicate": "LIVES_AT",
+     "object": "西崖庄",
+     "evidence": "邑之西崖庄，有贾某被人杀于途",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何甲",
+     "predicate": "LIVES_AT",
+     "object": "南山眢井",
+     "evidence": "我颠越于南山眢井中矣",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:33.472Z"
+}

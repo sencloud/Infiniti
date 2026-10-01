@@ -1,0 +1,392 @@
+{
+ "no": 70,
+ "title": "妖魔宝放烟沙火 悟空计盗紫金铃",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5203,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "齐天大圣",
+     "description": "保护唐僧西天取经，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "孙悟空的师父，前往西天取经的圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧的二徒弟，曾为天蓬元帅"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧的三徒弟，曾为卷帘大将"
+    },
+    {
+     "name": "赛太岁",
+     "type": "Person",
+     "aliases": [
+      "金毛犼",
+      "观音坐骑"
+     ],
+     "nickname": "赛太岁",
+     "description": "麒麟山獬豸洞妖王，观音坐骑金毛犼"
+    },
+    {
+     "name": "有来有去",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赛太岁部下心腹小校，被孙悟空打死"
+    },
+    {
+     "name": "金圣皇后",
+     "type": "Person",
+     "aliases": [
+      "金圣宫",
+      "金圣娘娘"
+     ],
+     "nickname": "金圣娘娘",
+     "description": "朱紫国皇后，被赛太岁强夺"
+    },
+    {
+     "name": "朱紫国国王",
+     "type": "Person",
+     "aliases": [
+      "陛下",
+      "君王",
+      "皇帝"
+     ],
+     "nickname": "",
+     "description": "朱紫国国王，金圣皇后之夫"
+    },
+    {
+     "name": "麒麟山獬豸洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "赛太岁盘踞的妖洞势力"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "金圣皇后所属的国度"
+    },
+    {
+     "name": "麒麟山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "赛太岁洞府所在的山"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "国王与皇后所在的国度"
+    },
+    {
+     "name": "避妖楼地穴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "朱紫国国王与唐僧躲避妖怪的地穴"
+    },
+    {
+     "name": "打死有来有去",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空变虫偷听战书后打死小妖有来有去"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "因保东土唐僧西天拜佛",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "LEADS",
+     "object": "麒麟山獬豸洞",
+     "evidence": "乃麒麟山獬豸洞赛太岁大王爷爷部下先锋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有来有去",
+     "predicate": "MEMBER_OF",
+     "object": "麒麟山獬豸洞",
+     "evidence": "心腹小校一名，有来有去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "STATIONED_AT",
+     "object": "麒麟山",
+     "evidence": "麒麟山獬豸洞赛太岁大王爷爷",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "SPOUSE",
+     "object": "金圣皇后",
+     "evidence": "三年前到朱紫国强夺了金圣皇后",
+     "confidence": 0.9
+    },
+    {
+     "subject": "朱紫国国王",
+     "predicate": "SPOUSE",
+     "object": "金圣皇后",
+     "evidence": "强夺御妻为压寨",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "有来有去",
+     "evidence": "望小妖脑后一下，可怜就打得头烂血流浆迸出",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "打死有来有去",
+     "evidence": "望小妖脑后一下，可怜就打得头烂血流浆迸出",
+     "confidence": 0.95
+    },
+    {
+     "subject": "打死有来有去",
+     "predicate": "OCCURRED_AT",
+     "object": "麒麟山",
+     "evidence": "正走处，忽见是个小妖儿",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "有来有去",
+     "evidence": "摇身一变，变做那有来有去的模样",
+     "confidence": 0.95
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "ATTACKED",
+     "object": "朱紫国",
+     "evidence": "我大王因此发怒，要与他国争持",
+     "confidence": 0.9
+    },
+    {
+     "subject": "赛太岁",
+     "predicate": "ORIGIN_OF",
+     "object": "观音",
+     "evidence": "赛太岁（金毛犼/观音坐骑）",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2569,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，变化有来有去盗金铃"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "师父",
+     "description": "东土大唐差往西天取经的和尚"
+    },
+    {
+     "name": "有来有去",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖王心腹小校，被孙悟空变作模样"
+    },
+    {
+     "name": "金圣娘娘",
+     "type": "Person",
+     "aliases": [
+      "娘娘"
+     ],
+     "nickname": "",
+     "description": "朱紫国皇后，被妖王摄来三年"
+    },
+    {
+     "name": "妖王",
+     "type": "Person",
+     "aliases": [
+      "大王"
+     ],
+     "nickname": "",
+     "description": "赛太岁，摄走金圣娘娘的妖怪"
+    },
+    {
+     "name": "朱紫国",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "金圣娘娘的故国"
+    },
+    {
+     "name": "朱紫国王",
+     "type": "Person",
+     "aliases": [
+      "君王"
+     ],
+     "nickname": "",
+     "description": "朱紫国国王，思念娘娘"
+    },
+    {
+     "name": "金铃",
+     "type": "Item",
+     "aliases": [
+      "三个金铃",
+      "紫金铃"
+     ],
+     "nickname": "",
+     "description": "妖王宝贝，能放火、烟、沙"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我师父是唐王御弟唐三藏，我是他大徒弟孙悟空。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "TRANSFORMED",
+     "object": "有来有去",
+     "evidence": "我变作有来有去模样，舍身到此，与你通信。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "金圣娘娘",
+     "evidence": "特请我来捉怪，救你回国。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金铃",
+     "evidence": "把三个金铃轻轻拿过，慢慢移步，溜出宫门",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妖王",
+     "predicate": "OWNS",
+     "object": "金铃",
+     "evidence": "宝贝在此，今日就当付你收之。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "妖王",
+     "predicate": "SPOUSE",
+     "object": "金圣娘娘",
+     "evidence": "我蒙大王辱爱，今已三年，未得共枕同衾，也是前世之缘，做了这场夫妻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金圣娘娘",
+     "predicate": "SPOUSE",
+     "object": "朱紫国王",
+     "evidence": "一片心，只忆着朱紫君王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "有来有去",
+     "predicate": "SERVED",
+     "object": "妖王",
+     "evidence": "他是大王爷爷心腹的小校，唤名有来有去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "妖王",
+     "evidence": "那行者慌了手脚，丢了金铃，现出本象，掣出金箍如意棒，撒开解数，往前乱打。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "先锋",
+     "evidence": "那战败先锋是我",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "KILLED",
+     "object": "小妖",
+     "evidence": "打死小妖也是我",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:38:36.054Z"
+}

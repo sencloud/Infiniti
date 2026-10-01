@@ -1,0 +1,108 @@
+{
+ "no": 309,
+ "title": "禽侠",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 432,
+   "entities": [
+    {
+     "name": "鹳鸟",
+     "type": "Spirit",
+     "aliases": [
+      "鹳"
+     ],
+     "nickname": "",
+     "description": "天津某寺筑巢的鹳鸟，为雏报仇"
+    },
+    {
+     "name": "大蛇",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "藏于殿承尘上的巨蛇，吞食鹳雏"
+    },
+    {
+     "name": "大鸟",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "羽族剑仙，应鹳求援击杀大蛇"
+    },
+    {
+     "name": "营卒",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济南士兵，射伤鹳鸟后遭报应"
+    },
+    {
+     "name": "天津某寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "鹳鸟筑巢、大蛇藏身之寺"
+    },
+    {
+     "name": "济南",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "营卒所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "大蛇",
+     "predicate": "HARMED",
+     "object": "鹳鸟",
+     "evidence": "每至鹳雏团翼时，辄出吞食净尽",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大鸟",
+     "predicate": "HELPED",
+     "object": "鹳鸟",
+     "evidence": "以爪击蛇，蛇首立堕",
+     "confidence": 0.95
+    },
+    {
+     "subject": "大鸟",
+     "predicate": "KILLED",
+     "object": "大蛇",
+     "evidence": "以爪击蛇，蛇首立堕",
+     "confidence": 0.95
+    },
+    {
+     "subject": "营卒",
+     "predicate": "HARMED",
+     "object": "鹳鸟",
+     "evidence": "见鹳鸟过，射之，应弦而落",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鹳鸟",
+     "predicate": "KILLED",
+     "object": "营卒",
+     "evidence": "忽大风摧门，门骤阖，触矢贯脑而死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鹳鸟",
+     "predicate": "LIVES_AT",
+     "object": "天津某寺",
+     "evidence": "天津某寺，鹳鸟巢于鸱尾",
+     "confidence": 0.95
+    },
+    {
+     "subject": "营卒",
+     "predicate": "LIVES_AT",
+     "object": "济南",
+     "evidence": "济南有营卒",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:09.503Z"
+}

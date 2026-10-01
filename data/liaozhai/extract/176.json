@@ -1,0 +1,50 @@
+{
+ "no": 176,
+ "title": "木雕美人",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 150,
+   "entities": [
+    {
+     "name": "白有功",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "商人，讲述泺口河上所见木雕美人表演"
+    },
+    {
+     "name": "木雕美人",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "一尺多高的木雕美人，手目转动，能作马戏表演"
+    },
+    {
+     "name": "木雕儿",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "木雕男童，插雉尾披羊裘，扮昭君出塞中的随从"
+    },
+    {
+     "name": "泺口河",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "白有功见木雕美人表演之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "白有功",
+     "predicate": "LIVES_AT",
+     "object": "泺口河",
+     "evidence": "商人白有功言：在泺口河上，见一人荷竹簏",
+     "confidence": 0.6
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:18.908Z"
+}

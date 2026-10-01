@@ -1,0 +1,88 @@
+{
+ "no": 418,
+ "title": "又",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1124,
+   "entities": [
+    {
+     "name": "周某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "富贾，性吝啬，被蛙神索捐"
+    },
+    {
+     "name": "青蛙神",
+     "type": "Spirit",
+     "aliases": [
+      "蛙神",
+      "巨蛙"
+     ],
+     "nickname": "",
+     "description": "托巫言事，索捐惩吝"
+    },
+    {
+     "name": "周妻",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "周某之妻，疑巫诈"
+    },
+    {
+     "name": "关圣祠",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "众人敛金所修之祠"
+    },
+    {
+     "name": "首事者",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "修祠领头人，共十五人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "周某",
+     "predicate": "SPOUSE",
+     "object": "周妻",
+     "evidence": "既归，告妻。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "青蛙神",
+     "predicate": "HARMED",
+     "object": "周某",
+     "evidence": "则一巨蛙，室门仅容其身，步履蹇缓，塞两扉而入。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "周某",
+     "predicate": "PARTICIPATED_IN",
+     "object": "修关圣祠",
+     "evidence": "会居人敛金修关圣祠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "修关圣祠",
+     "predicate": "OCCURRED_AT",
+     "object": "关圣祠",
+     "evidence": "会居人敛金修关圣祠",
+     "confidence": 0.9
+    },
+    {
+     "subject": "首事者",
+     "predicate": "PARTICIPATED_IN",
+     "object": "修关圣祠",
+     "evidence": "首事者无所为谋",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:50.905Z"
+}

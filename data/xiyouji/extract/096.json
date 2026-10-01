@@ -1,0 +1,490 @@
+{
+ "no": 96,
+ "title": "寇员外喜待高僧 唐长老不贪富贵",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5555,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "东土大唐钦差，往灵山拜佛求经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，贪吃村野"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，稳重知礼"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "美猴王",
+      "齐天大圣",
+      "悟空"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，机敏多智"
+    },
+    {
+     "name": "寇洪",
+     "type": "Person",
+     "aliases": [
+      "寇员外"
+     ],
+     "nickname": "寇员外",
+     "description": "铜台府地灵县富户，斋僧二十四年"
+    },
+    {
+     "name": "寇梁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪长子，少年秀才"
+    },
+    {
+     "name": "寇栋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪次子，少年秀才"
+    },
+    {
+     "name": "寇洪之妻",
+     "type": "Person",
+     "aliases": [
+      "老妪",
+      "妈妈",
+      "奶奶"
+     ],
+     "nickname": "老妪",
+     "description": "寇洪妻子，亦愿斋僧半月"
+    },
+    {
+     "name": "铜台府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "西牛贺洲府城"
+    },
+    {
+     "name": "地灵县",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "铜台府下辖县"
+    },
+    {
+     "name": "寇员外家",
+     "type": "Organization",
+     "aliases": [
+      "寇家"
+     ],
+     "nickname": "",
+     "description": "寇洪府第，门前有万僧不阻牌"
+    },
+    {
+     "name": "灵山",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "佛祖所在，取经目的地"
+    },
+    {
+     "name": "大唐",
+     "type": "Organization",
+     "aliases": [
+      "东土大唐"
+     ],
+     "nickname": "",
+     "description": "唐僧出发之国"
+    },
+    {
+     "name": "铜台府地灵县",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧师徒行经之地"
+    },
+    {
+     "name": "寇员外家宅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇洪宅院，有佛堂经堂斋堂"
+    },
+    {
+     "name": "十里长亭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇员外送别唐僧处"
+    },
+    {
+     "name": "圆满道场",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "寇员外斋僧万员圆满所办法事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "甚亏我三个徒弟保护",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "甚亏我三个徒弟保护",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "沙悟净",
+     "evidence": "甚亏我三个徒弟保护",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "SPOUSE",
+     "object": "寇洪之妻",
+     "evidence": "那老妪又出来道：“老师父，既蒙到舍，不必苦辞。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "KIN",
+     "object": "寇梁",
+     "evidence": "这是我两个小儿，唤名寇梁、寇栋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "KIN",
+     "object": "寇栋",
+     "evidence": "这是我两个小儿，唤名寇梁、寇栋",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇梁",
+     "predicate": "KIN",
+     "object": "寇栋",
+     "evidence": "寇栋兄弟又出来道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "LEADS",
+     "object": "寇员外家",
+     "evidence": "那员外拄着拐，正在天井中闲走",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "MEMBER_OF",
+     "object": "铜台府",
+     "evidence": "我敝处是铜台府",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "MEMBER_OF",
+     "object": "地灵县",
+     "evidence": "府后有一县叫做地灵县",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MEMBER_OF",
+     "object": "大唐",
+     "evidence": "贫僧是东土大唐钦差",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "圆满道场",
+     "evidence": "那员外才请了本处应佛僧二十四员，办做圆满道场",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "MASTERMINDED",
+     "object": "圆满道场",
+     "evidence": "那员外才请了本处应佛僧二十四员，办做圆满道场",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆满道场",
+     "predicate": "OCCURRED_AT",
+     "object": "寇员外家宅",
+     "evidence": "那员外才请了本处应佛僧二十四员，办做圆满道场",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "寇员外家宅",
+     "evidence": "三藏谦谦逊逊，一同都入",
+     "confidence": 0.9
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "OWNS",
+     "object": "万僧不阻之牌",
+     "evidence": "他门前有个万僧不阻之牌",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "通关文牒",
+     "evidence": "他将通关文牒的引磬儿，挂在胸前",
+     "confidence": 0.95
+    },
+    {
+     "subject": "寇洪",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "那员外拦住道：“老师，放心住几日儿。”",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 514,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "御弟圣僧",
+     "description": "大唐高僧，西行取经的师父"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "呆子",
+     "description": "唐僧二徒弟，挑担随行"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "美猴王",
+      "齐天大圣"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，举目遥观寻宿处"
+    },
+    {
+     "name": "如来佛祖",
+     "type": "Person",
+     "aliases": [
+      "释迦牟尼",
+      "佛祖",
+      "世尊",
+      "大日如来"
+     ],
+     "nickname": "佛祖",
+     "description": "西天佛祖，取经目标"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "取经护法菩萨"
+    },
+    {
+     "name": "华光菩萨",
+     "type": "Person",
+     "aliases": [
+      "五显灵官"
+     ],
+     "nickname": "",
+     "description": "火焰五光佛徒弟，因剿毒火鬼王降职"
+    },
+    {
+     "name": "火焰五光佛",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "华光菩萨的师父"
+    },
+    {
+     "name": "毒火鬼王",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被华光菩萨剿除的鬼王"
+    },
+    {
+     "name": "寇员外",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "送唐僧师徒至十里长亭的员外"
+    },
+    {
+     "name": "华光行院",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "倒塌的牌坊庙宇，师徒避雨处"
+    },
+    {
+     "name": "大唐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧取经的出发国度"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "孙悟空",
+     "evidence": "行者举目遥观，只见大路旁有几间房宇，急请师父道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "八戒挑着担，努着嘴道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西行取经",
+     "evidence": "待我们有缘拜了佛祖，取得真经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西行取经",
+     "evidence": "八戒挑着担，努着嘴道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "西行取经",
+     "evidence": "行者举目遥观",
+     "confidence": 0.9
+    },
+    {
+     "subject": "华光菩萨",
+     "predicate": "MASTER_OF",
+     "object": "毒火鬼王",
+     "evidence": "华光菩萨是火焰五光佛的徒弟，因剿除毒火鬼王",
+     "confidence": 0.9
+    },
+    {
+     "subject": "火焰五光佛",
+     "predicate": "MASTER_OF",
+     "object": "华光菩萨",
+     "evidence": "华光菩萨是火焰五光佛的徒弟",
+     "confidence": 0.9
+    },
+    {
+     "subject": "华光菩萨",
+     "predicate": "DEFEATED",
+     "object": "毒火鬼王",
+     "evidence": "因剿除毒火鬼王，降了职",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "STATIONED_AT",
+     "object": "华光行院",
+     "evidence": "长老至前，见是一座倒塌的牌坊……乃华光行院",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "华光行院",
+     "evidence": "遂一齐进去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "STATIONED_AT",
+     "object": "华光行院",
+     "evidence": "遂一齐进去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "SERVED",
+     "object": "大唐",
+     "evidence": "那时回转大唐，奏过主公",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:22.112Z"
+}

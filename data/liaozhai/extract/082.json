@@ -1,0 +1,103 @@
+{
+ "no": 82,
+ "title": "林四娘",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1054,
+   "entities": [
+    {
+     "name": "陈宝钥",
+     "type": "Person",
+     "aliases": [
+      "陈公"
+     ],
+     "nickname": "陈公",
+     "description": "青州道员，福建人，与林四娘相恋"
+    },
+    {
+     "name": "林四娘",
+     "type": "Spirit",
+     "aliases": [
+      "林氏"
+     ],
+     "nickname": "四娘",
+     "description": "衡王府宫人，遭难而死，鬼魂与陈公相恋"
+    },
+    {
+     "name": "陈夫人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈宝钥之妻，疑林四娘为鬼狐"
+    },
+    {
+     "name": "衡王府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "林四娘生前所属的王府"
+    },
+    {
+     "name": "青州",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "陈宝钥任职之地"
+    },
+    {
+     "name": "闽",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "福建，陈宝钥籍贯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "陈宝钥",
+     "predicate": "LOVES",
+     "object": "林四娘",
+     "evidence": "两人燕昵，过于琴瑟。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈宝钥",
+     "predicate": "SPOUSE",
+     "object": "林四娘",
+     "evidence": "两人燕昵，过于琴瑟。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈宝钥",
+     "predicate": "KIN",
+     "object": "陈夫人",
+     "evidence": "夫人窥见其容",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陈宝钥",
+     "predicate": "NATIVE_OF",
+     "object": "闽",
+     "evidence": "青州道陈公宝钥，闽人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陈宝钥",
+     "predicate": "LIVES_AT",
+     "object": "青州",
+     "evidence": "青州道陈公宝钥",
+     "confidence": 0.9
+    },
+    {
+     "subject": "林四娘",
+     "predicate": "LIVES_AT",
+     "object": "衡王府",
+     "evidence": "妾衡府宫人也。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:43.492Z"
+}

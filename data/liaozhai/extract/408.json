@@ -1,0 +1,113 @@
+{
+ "no": 408,
+ "title": "五通",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1186,
+   "entities": [
+    {
+     "name": "赵弘",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴之典商，阎氏之夫"
+    },
+    {
+     "name": "阎氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "赵弘之妻，颇有风韵"
+    },
+    {
+     "name": "万生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "会稽人，赵弘表弟，刚猛善射"
+    },
+    {
+     "name": "木商某",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "木商，有女未嫁"
+    },
+    {
+     "name": "木商女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "木商之女，年十六七"
+    },
+    {
+     "name": "吴",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴地，赵弘经商处"
+    },
+    {
+     "name": "会稽",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "万生籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "赵弘",
+     "predicate": "SPOUSE",
+     "object": "阎氏",
+     "evidence": "妻阎氏，颇风格。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "万生",
+     "predicate": "KIN",
+     "object": "赵弘",
+     "evidence": "有会稽万生者，赵之表弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "万生",
+     "predicate": "HELPED",
+     "object": "赵弘",
+     "evidence": "叩关告赵。赵大惊，共烛之，一马两豕死室中。举家相庆。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万生",
+     "predicate": "LIVES_AT",
+     "object": "赵弘家",
+     "evidence": "遂导客宿内院。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万生",
+     "predicate": "NATIVE_OF",
+     "object": "会稽",
+     "evidence": "有会稽万生者",
+     "confidence": 0.95
+    },
+    {
+     "subject": "万生",
+     "predicate": "HELPED",
+     "object": "木商某",
+     "evidence": "万追出，但见黑气欲飞，以刀跃挥之，断其一足，大嗥而去。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "万生",
+     "predicate": "SPOUSE",
+     "object": "木商女",
+     "evidence": "是夕即以所备床寝，使与女合卺焉。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:47.659Z"
+}

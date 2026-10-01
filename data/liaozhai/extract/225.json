@@ -1,0 +1,64 @@
+{
+ "no": 225,
+ "title": "缢鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 331,
+   "entities": [
+    {
+     "name": "范生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《缢鬼》中住旅店的书生，目睹少妇自缢"
+    },
+    {
+     "name": "少妇",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《缢鬼》中自缢而死的鬼魂，再现临死之状"
+    },
+    {
+     "name": "主人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《缢鬼》中旅店店主，儿媳曾自缢于此"
+    },
+    {
+     "name": "逆旅",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《缢鬼》中范生所宿的旅店"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "范生",
+     "predicate": "LIVES_AT",
+     "object": "逆旅",
+     "evidence": "范生者，宿于逆旅",
+     "confidence": 0.95
+    },
+    {
+     "subject": "少妇",
+     "predicate": "HARMED",
+     "object": "范生",
+     "evidence": "大骇奔出",
+     "confidence": 0.8
+    },
+    {
+     "subject": "主人",
+     "predicate": "KIN",
+     "object": "少妇",
+     "evidence": "曩子妇经于是",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:36.875Z"
+}

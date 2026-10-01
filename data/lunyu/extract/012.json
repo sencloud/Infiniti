@@ -1,0 +1,682 @@
+{
+ "no": 12,
+ "title": "颜渊篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1380,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，本篇中回答弟子与时人问仁、问政等"
+    },
+    {
+     "name": "颜回",
+     "type": "Person",
+     "aliases": [
+      "子渊",
+      "颜渊",
+      "回",
+      "颜氏之子"
+     ],
+     "nickname": "子渊",
+     "description": "孔子弟子，问仁，孔子告以克己复礼"
+    },
+    {
+     "name": "冉雍",
+     "type": "Person",
+     "aliases": [
+      "仲弓",
+      "雍"
+     ],
+     "nickname": "仲弓",
+     "description": "孔子弟子，问仁，孔子告以己所不欲勿施于人"
+    },
+    {
+     "name": "司马耕",
+     "type": "Person",
+     "aliases": [
+      "子牛",
+      "司马牛",
+      "耕"
+     ],
+     "nickname": "子牛",
+     "description": "孔子弟子，问仁、问君子，忧无兄弟"
+    },
+    {
+     "name": "子夏",
+     "type": "Person",
+     "aliases": [
+      "卜商",
+      "商",
+      "卜子夏"
+     ],
+     "nickname": "子夏",
+     "description": "孔子弟子，答司马牛四海之内皆兄弟，释举直错枉"
+    },
+    {
+     "name": "子张",
+     "type": "Person",
+     "aliases": [
+      "颛孙师",
+      "师",
+      "颛孙"
+     ],
+     "nickname": "子张",
+     "description": "孔子弟子，问明、问政、问达"
+    },
+    {
+     "name": "子贡",
+     "type": "Person",
+     "aliases": [
+      "端木赐",
+      "赐",
+      "子赣"
+     ],
+     "nickname": "子贡",
+     "description": "孔子弟子，问政、问友，与棘子成论君子"
+    },
+    {
+     "name": "有若",
+     "type": "Person",
+     "aliases": [
+      "子有",
+      "有子",
+      "若"
+     ],
+     "nickname": "子有",
+     "description": "孔子弟子，答鲁哀公问年饥用不足"
+    },
+    {
+     "name": "樊迟",
+     "type": "Person",
+     "aliases": [
+      "子迟",
+      "樊须",
+      "须"
+     ],
+     "nickname": "子迟",
+     "description": "孔子弟子，问崇德修慝辨惑、问仁知"
+    },
+    {
+     "name": "曾参",
+     "type": "Person",
+     "aliases": [
+      "子舆",
+      "曾子",
+      "参"
+     ],
+     "nickname": "子舆",
+     "description": "孔子弟子，言君子以文会友以友辅仁"
+    },
+    {
+     "name": "季康子",
+     "type": "Person",
+     "aliases": [
+      "季孙",
+      "肥"
+     ],
+     "nickname": "",
+     "description": "鲁国大夫，多次问政于孔子"
+    },
+    {
+     "name": "齐景公",
+     "type": "Person",
+     "aliases": [
+      "景公",
+      "杵臼"
+     ],
+     "nickname": "",
+     "description": "齐国国君，问政于孔子"
+    },
+    {
+     "name": "鲁哀公",
+     "type": "Person",
+     "aliases": [
+      "哀公",
+      "蒋"
+     ],
+     "nickname": "",
+     "description": "鲁国国君，问有若年饥用不足"
+    },
+    {
+     "name": "棘子成",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "卫国大夫，与子贡论君子质文"
+    },
+    {
+     "name": "仁",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心德目，爱人、克己复礼"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心范畴，规范行为与社会秩序"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家理想人格，有德者"
+    },
+    {
+     "name": "小人",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "与君子对举，无德者"
+    },
+    {
+     "name": "政",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "治理国家之事，孔子多论为政以正"
+    },
+    {
+     "name": "信",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "诚信，民信之矣，民无信不立"
+    },
+    {
+     "name": "德",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "品德，崇德、君子之德风"
+    },
+    {
+     "name": "忠",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "忠诚，主忠信、行之以忠"
+    },
+    {
+     "name": "义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道义，徙义、质直而好义"
+    },
+    {
+     "name": "知",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "智慧，问知，知人"
+    },
+    {
+     "name": "明",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "明智，浸润之谮不行焉可谓明"
+    },
+    {
+     "name": "达",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "通达，质直而好义，察言观色"
+    },
+    {
+     "name": "文",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "文采，与质对举，文犹质也"
+    },
+    {
+     "name": "质",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "本质，与文对举，质犹文也"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国，孔子母国，季康子、哀公所在"
+    },
+    {
+     "name": "齐",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "齐国，齐景公之邦"
+    },
+    {
+     "name": "诗",
+     "type": "Text",
+     "aliases": [],
+     "nickname": "",
+     "description": "《诗经》，孔子引‘诚不以富，亦祗以异’"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "颜回",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "颜渊问仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "克己复礼为仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "非礼勿视，非礼勿听，非礼勿言，非礼勿动",
+     "confidence": 0.95
+    },
+    {
+     "subject": "冉雍",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "仲弓问仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "己所不欲，勿施于人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马耕",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "司马牛问仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "仁者，其言也讱",
+     "confidence": 0.95
+    },
+    {
+     "subject": "司马耕",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "司马牛问君子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子不忧不惧",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子敬而无失，与人恭而有礼，四海之内皆兄弟也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子张问明",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "明",
+     "evidence": "浸润之谮，肤受之愬，不行焉，可谓明也已矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子贡问政",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "足食，足兵，民信之矣",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "民无信不立",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "CRITICIZED",
+     "object": "棘子成",
+     "evidence": "惜乎，夫子之说君子也！驷不及舌",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "文",
+     "evidence": "文犹质也，质犹文也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "DISCUSSED",
+     "object": "质",
+     "evidence": "文犹质也，质犹文也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁哀公",
+     "predicate": "ASKED",
+     "object": "有若",
+     "evidence": "哀公问于有若曰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "有若",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "百姓足，君孰与不足？百姓不足，君孰与足？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子张",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子张问崇德、辨惑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "主忠信，徙义，崇德也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "忠",
+     "evidence": "主忠信，徙义，崇德也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "主忠信，徙义，崇德也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "诗",
+     "evidence": "‘诚不以富，亦祗以异’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "齐景公",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "齐景公问政于孔子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "君君，臣臣，父父，子子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "PRAISED",
+     "object": "子路",
+     "evidence": "片言可以折狱者，其由也与？",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子张",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子张问政",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "居之无倦，行之以忠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "博学于文，约之以礼，亦可以弗畔矣夫",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子成人之美，不成人之恶",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "小人反是",
+     "confidence": 0.95
+    },
+    {
+     "subject": "季康子",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "季康子问政于孔子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "政者，正也。子帅以正，孰敢不正？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "季康子",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "季康子患盗，问于孔子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "季康子",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "季康子问政于孔子",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子之德风",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "小人之德草",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子张问：士何如斯可谓之达矣？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "达",
+     "evidence": "夫达也者，质直而好义，察言而观色，虑以下人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "质直而好义",
+     "confidence": 0.95
+    },
+    {
+     "subject": "樊迟",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "敢问崇德、修慝、辨惑",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "先事后得，非崇德与？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "樊迟",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "樊迟问仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "爱人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "樊迟",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "问知",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "知人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "樊迟",
+     "predicate": "ASKED",
+     "object": "子夏",
+     "evidence": "乡也，吾见于夫子而问知",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子夏",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "富哉言乎！舜有天下，选于众，举皋陶，不仁者远矣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "子贡",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子贡问友",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "忠",
+     "evidence": "忠告而善道之，不可则止，毋自辱焉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCUSSED",
+     "object": "仁",
+     "evidence": "君子以文会友，以友辅仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曾参",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子以文会友，以友辅仁",
+     "confidence": 0.95
+    },
+    {
+     "subject": "君子",
+     "predicate": "CONTRASTED",
+     "object": "小人",
+     "evidence": "君子成人之美，不成人之恶。小人反是",
+     "confidence": 0.95
+    },
+    {
+     "subject": "文",
+     "predicate": "RELATED",
+     "object": "质",
+     "evidence": "文犹质也，质犹文也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "德",
+     "predicate": "RELATED",
+     "object": "政",
+     "evidence": "君子之德风，小人之德草。草上之风，必偃",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:36.548Z"
+}

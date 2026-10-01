@@ -1,0 +1,92 @@
+{
+ "no": 65,
+ "title": "某公",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 230,
+   "entities": [
+    {
+     "name": "陕右某公",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "辛丑进士，能记前身，前生为士人"
+    },
+    {
+     "name": "冥王",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府阎王，判事"
+    },
+    {
+     "name": "簿吏",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府掌管名册的官吏"
+    },
+    {
+     "name": "前生士人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "陕右某公前身，中年而死"
+    },
+    {
+     "name": "冥府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥王判事之处，有鼎铛油镬"
+    },
+    {
+     "name": "白羊皮",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "冥府架上羊皮，用于罚作羊"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "冥王",
+     "predicate": "PUNISHED",
+     "object": "陕右某公",
+     "evidence": "闻冥王曰：“是宜作羊。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "簿吏",
+     "predicate": "HELPED",
+     "object": "陕右某公",
+     "evidence": "吏白：“是曾拯一人死。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "冥王",
+     "predicate": "HELPED",
+     "object": "陕右某公",
+     "evidence": "王检籍覆视，示曰：“免之。恶虽多，此善可赎。”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "陕右某公",
+     "predicate": "LIVES_AT",
+     "object": "冥府",
+     "evidence": "死后见冥王判事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "陕右某公",
+     "predicate": "OWNS",
+     "object": "白羊皮",
+     "evidence": "近肩处犹粘羊皮大如掌",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:36.964Z"
+}

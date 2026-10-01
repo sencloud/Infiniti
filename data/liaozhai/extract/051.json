@@ -1,0 +1,85 @@
+{
+ "no": 51,
+ "title": "地震",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 355,
+   "entities": [
+    {
+     "name": "李笃之",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "作者表兄，地震时与作者对烛饮"
+    },
+    {
+     "name": "邑人妇",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "地震篇中夜起溲溺、与狼争子的妇人"
+    },
+    {
+     "name": "稷下",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "作者地震时客居之地"
+    },
+    {
+     "name": "栖霞山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地震中裂开的山"
+    },
+    {
+     "name": "沂水",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "地震中陷穴广数亩的水域"
+    },
+    {
+     "name": "地震",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "康熙七年六月十七日戌刻发生的大地震"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "邑人妇",
+     "predicate": "KIN",
+     "object": "邑人妇之子",
+     "evidence": "回则狼衔其子",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑人妇",
+     "predicate": "HELPED",
+     "object": "邑人妇之子",
+     "evidence": "妇夺儿出，携抱中",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邑人妇",
+     "predicate": "LIVES_AT",
+     "object": "稷下",
+     "evidence": "有邑人妇",
+     "confidence": 0.6
+    },
+    {
+     "subject": "地震",
+     "predicate": "OCCURRED_AT",
+     "object": "稷下",
+     "evidence": "余适客稷下，方与表兄李笃之对烛饮。忽闻有声如雷",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:31.931Z"
+}

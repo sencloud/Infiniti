@@ -1,0 +1,73 @@
+{
+ "no": 175,
+ "title": "酒虫",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 357,
+   "entities": [
+    {
+     "name": "刘氏",
+     "type": "Person",
+     "aliases": [
+      "刘某"
+     ],
+     "nickname": "",
+     "description": "长山人，体肥嗜饮，家豪富"
+    },
+    {
+     "name": "番僧",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "西域僧人，识酒虫，为刘氏医治"
+    },
+    {
+     "name": "酒虫",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "赤肉长三寸，蠕动如游鱼，口眼悉备，酒之精"
+    },
+    {
+     "name": "长山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "刘氏籍贯地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "刘氏",
+     "predicate": "NATIVE_OF",
+     "object": "长山",
+     "evidence": "长山刘氏，体肥嗜饮。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "番僧",
+     "predicate": "HELPED",
+     "object": "刘氏",
+     "evidence": "便求医疗。曰：“易耳。”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "酒虫",
+     "predicate": "HARMED",
+     "object": "刘氏",
+     "evidence": "此酒虫也。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "番僧",
+     "predicate": "OWNS",
+     "object": "酒虫",
+     "evidence": "但乞其虫。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:19.105Z"
+}

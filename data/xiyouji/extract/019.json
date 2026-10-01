@@ -1,0 +1,669 @@
+{
+ "no": 19,
+ "title": "云栈洞悟空收八戒 浮屠山玄奘受心经",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3548,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "东土大唐高僧，往西天取经"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子",
+      "猪刚鬣"
+     ],
+     "nickname": "呆子",
+     "description": "原天蓬元帅，错投猪胎，后随唐僧取经"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "美猴王",
+      "齐天大圣",
+      "弼马温"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "",
+     "description": "佛教菩萨，劝善猪八戒"
+    },
+    {
+     "name": "王母娘娘",
+     "type": "Person",
+     "aliases": [
+      "西王母",
+      "王母",
+      "金母"
+     ],
+     "nickname": "",
+     "description": "天庭女神，举办蟠桃会"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "",
+     "description": "道教尊神，曾炼孙悟空"
+    },
+    {
+     "name": "太白金星",
+     "type": "Person",
+     "aliases": [
+      "金星",
+      "李长庚"
+     ],
+     "nickname": "",
+     "description": "天庭星君，为猪八戒求情"
+    },
+    {
+     "name": "如意真仙",
+     "type": "Person",
+     "aliases": [
+      "真仙"
+     ],
+     "nickname": "",
+     "description": "猪八戒遇到的仙人"
+    },
+    {
+     "name": "高老庄",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "高太公所居村庄"
+    },
+    {
+     "name": "云栈洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒盘踞的洞府"
+    },
+    {
+     "name": "福陵山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒下界后居住的山"
+    },
+    {
+     "name": "广寒宫",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "月宫，嫦娥居所"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空的老家"
+    },
+    {
+     "name": "水帘洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "花果山中的洞府"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [
+      "上宝逊金钯",
+      "钉钯"
+     ],
+     "nickname": "",
+     "description": "太上老君所造，猪八戒的兵器"
+    },
+    {
+     "name": "九转大还丹",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "如意真仙所传仙丹"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "猪八戒",
+     "evidence": "他两个在那半山之中，黑夜里赌斗。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SURRENDERED_TO",
+     "object": "唐僧",
+     "evidence": "我本是观世音菩萨劝善，受了他的戒行，这里持斋把素，教我跟随那取经人往西天拜佛求经，将功折罪，还得正果。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "猪八戒",
+     "evidence": "我本是观世音菩萨劝善，受了他的戒行，这里持斋把素，教我跟随那取经人往西天拜佛求经，将功折罪，还得正果。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "如意真仙",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "有缘立地拜为师，指示天关并地阙。得传九转大还丹，工夫昼夜无时辍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "取出一柄九齿钉钯来战。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "太上老君",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "老君自己动钤锤，荧惑亲身添炭屑。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "云栈洞",
+     "evidence": "径转他那本山洞里，取出一柄九齿钉钯，与老孙战了一夜。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "福陵山",
+     "evidence": "放生遭贬出天关，福陵山下图家业。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "ATTACKED",
+     "object": "广寒宫",
+     "evidence": "逞雄撞入广寒宫，风流仙子来相接。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "太白金星",
+     "predicate": "RESCUED",
+     "object": "猪八戒",
+     "evidence": "多亏太白李金星，出班俯囟亲言说。改刑重责二千锤，肉绽皮开骨将折。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "我记得你闹天宫时，家住在东胜神洲傲来国花果山水帘洞里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "水帘洞",
+     "evidence": "我记得你闹天宫时，家住在东胜神洲傲来国花果山水帘洞里",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "蟠桃会",
+     "evidence": "只因王母会蟠桃，开宴瑶池邀众客。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王母娘娘",
+     "predicate": "MASTERMINDED",
+     "object": "蟠桃会",
+     "evidence": "只因王母会蟠桃，开宴瑶池邀众客。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SERVED",
+     "object": "玉皇大帝",
+     "evidence": "敕封元帅管天河，总督水兵称宪节。",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2447,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，神通广大的猴王"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "取经僧人，金蝉子转世"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "原天蓬元帅，后为唐僧二徒弟"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "劝善猪八戒，指引取经的菩萨"
+    },
+    {
+     "name": "乌巢禅师",
+     "type": "Person",
+     "aliases": [
+      "乌巢"
+     ],
+     "nickname": "乌巢禅师",
+     "description": "浮屠山修行禅师，传授《多心经》"
+    },
+    {
+     "name": "高太公",
+     "type": "Person",
+     "aliases": [
+      "老高"
+     ],
+     "nickname": "高太公",
+     "description": "高老庄主人，猪八戒的丈人"
+    },
+    {
+     "name": "高才",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "高才",
+     "description": "高太公家僮，曾引唐僧"
+    },
+    {
+     "name": "高老庄",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "高太公家族庄园"
+    },
+    {
+     "name": "浮屠山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌巢禅师修行之山"
+    },
+    {
+     "name": "云栈洞",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒曾居住的洞府"
+    },
+    {
+     "name": "福陵山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "猪八戒原居地"
+    },
+    {
+     "name": "乌斯藏界",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "取经途经的地界"
+    },
+    {
+     "name": "多心经",
+     "type": "Item",
+     "aliases": [
+      "《多心经》"
+     ],
+     "nickname": "",
+     "description": "乌巢禅师传授的佛经"
+    },
+    {
+     "name": "九齿钉钯",
+     "type": "Item",
+     "aliases": [
+      "钉钯"
+     ],
+     "nickname": "",
+     "description": "猪八戒的兵器"
+    },
+    {
+     "name": "云栈洞悟空收八戒",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空降伏猪八戒并收为师弟"
+    },
+    {
+     "name": "浮屠山玄奘受心经",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "唐僧在浮屠山接受乌巢禅师传授《多心经》"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "又与行者拜了，以先进者为兄，遂称行者为师兄。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "MASTER_OF",
+     "object": "猪八戒",
+     "evidence": "那怪从新礼拜三藏，愿随西去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "观音菩萨",
+     "predicate": "RECOMMENDED",
+     "object": "猪八戒",
+     "evidence": "前年蒙观音菩萨劝善，愿随他做个徒弟。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SURRENDERED_TO",
+     "object": "唐僧",
+     "evidence": "那怪从新礼拜三藏，愿随西去。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MEMBER_OF",
+     "object": "高老庄",
+     "evidence": "他正是我家的女婿！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "SPOUSE",
+     "object": "高翠兰",
+     "evidence": "请我拙荆出来拜见公公、伯伯",
+     "confidence": 0.8
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "NATIVE_OF",
+     "object": "福陵山",
+     "evidence": "你是福陵山猪刚鬣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "STATIONED_AT",
+     "object": "云栈洞",
+     "evidence": "云栈洞悟空收八戒",
+     "confidence": 0.8
+    },
+    {
+     "subject": "乌巢禅师",
+     "predicate": "STATIONED_AT",
+     "object": "浮屠山",
+     "evidence": "这山唤做浮屠山，山中有一个乌巢禅师，在此修行。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌巢禅师",
+     "predicate": "OWNS",
+     "object": "多心经",
+     "evidence": "我有《多心经》一卷",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌巢禅师",
+     "predicate": "RECOMMENDED",
+     "object": "猪八戒",
+     "evidence": "他曾劝我跟他修行，我不曾去罢了。",
+     "confidence": 0.8
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "猪八戒",
+     "evidence": "行者拑着他的钯，揪着他的耳道",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "云栈洞悟空收八戒",
+     "evidence": "云栈洞悟空收八戒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "云栈洞悟空收八戒",
+     "evidence": "云栈洞悟空收八戒",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "浮屠山玄奘受心经",
+     "evidence": "浮屠山玄奘受心经",
+     "confidence": 0.95
+    },
+    {
+     "subject": "乌巢禅师",
+     "predicate": "PARTICIPATED_IN",
+     "object": "浮屠山玄奘受心经",
+     "evidence": "浮屠山玄奘受心经",
+     "confidence": 0.95
+    },
+    {
+     "subject": "云栈洞悟空收八戒",
+     "predicate": "OCCURRED_AT",
+     "object": "云栈洞",
+     "evidence": "云栈洞悟空收八戒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "浮屠山玄奘受心经",
+     "predicate": "OCCURRED_AT",
+     "object": "浮屠山",
+     "evidence": "浮屠山玄奘受心经",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "九齿钉钯",
+     "evidence": "行者拑着他的钯",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 897,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "三藏",
+     "description": "唐朝法师，取经人"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，原天蓬元帅"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "悟空",
+      "老孙",
+      "石猴"
+     ],
+     "nickname": "行者",
+     "description": "唐僧大徒弟，齐天大圣"
+    },
+    {
+     "name": "观音菩萨",
+     "type": "Person",
+     "aliases": [
+      "南海观音",
+      "观世音",
+      "菩萨",
+      "七佛之师"
+     ],
+     "nickname": "菩萨",
+     "description": "佛教菩萨，取经发起者"
+    },
+    {
+     "name": "乌巢禅师",
+     "type": "Person",
+     "aliases": [
+      "乌巢"
+     ],
+     "nickname": "乌巢",
+     "description": "浮屠山禅师，传心经"
+    },
+    {
+     "name": "心经",
+     "type": "Item",
+     "aliases": [
+      "《摩诃般若波罗蜜多心经》",
+      "《多心经》"
+     ],
+     "nickname": "",
+     "description": "乌巢禅师所传经文"
+    },
+    {
+     "name": "浮屠山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "乌巢禅师修行处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "乌巢禅师",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "那禅师传了经文",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "OWNS",
+     "object": "心经",
+     "evidence": "耳闻一遍《多心经》，即能记忆",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "乌巢禅师",
+     "evidence": "举铁棒望上乱捣",
+     "confidence": 0.9
+    },
+    {
+     "subject": "乌巢禅师",
+     "predicate": "STATIONED_AT",
+     "object": "浮屠山",
+     "evidence": "踏云光，要上乌巢而去",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:37:59.967Z"
+}

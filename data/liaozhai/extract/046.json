@@ -1,0 +1,43 @@
+{
+ "no": 46,
+ "title": "庙鬼",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 249,
+   "entities": [
+    {
+     "name": "王启后",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "新城诸生，方伯中宇公象坤曾孙"
+    },
+    {
+     "name": "武士",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "绾锁而入，怒叱妇人的神将"
+    },
+    {
+     "name": "城隍庙",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "庙门中有泥鬼四"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "武士",
+     "predicate": "HELPED",
+     "object": "王启后",
+     "evidence": "怒叱曰：朴诚者汝何敢扰！即絷妇项",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:29.707Z"
+}

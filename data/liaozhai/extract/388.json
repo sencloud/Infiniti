@@ -1,0 +1,78 @@
+{
+ "no": 388,
+ "title": "疲龙",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 289,
+   "entities": [
+    {
+     "name": "王侍御",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "胶州人，出使琉球，悬敕焚香祝龙"
+    },
+    {
+     "name": "疲龙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "天上行雨之龙，疲惫堕海"
+    },
+    {
+     "name": "群龙",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "清水潭下五色龙群，畏蛆伏水"
+    },
+    {
+     "name": "琉球",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王侍御出使的目的地"
+    },
+    {
+     "name": "清水潭",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "海中水清澈底之处，群龙所居"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王侍御",
+     "predicate": "LIVES_AT",
+     "object": "胶州",
+     "evidence": "胶州王侍御，出使琉球。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王侍御",
+     "predicate": "PARTICIPATED_IN",
+     "object": "出使琉球",
+     "evidence": "胶州王侍御，出使琉球。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "出使琉球",
+     "predicate": "OCCURRED_AT",
+     "object": "琉球",
+     "evidence": "胶州王侍御，出使琉球。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "群龙",
+     "predicate": "LIVES_AT",
+     "object": "清水潭",
+     "evidence": "去清水潭不远矣。……下有群龙，五色，如盆如瓮，条条尽伏。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:36.029Z"
+}

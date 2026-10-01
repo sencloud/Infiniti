@@ -1,0 +1,78 @@
+{
+ "no": 135,
+ "title": "保住",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 425,
+   "entities": [
+    {
+     "name": "保住",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "打虎将",
+     "description": "吴藩将士，健捷如猱，能飞檐走壁"
+    },
+    {
+     "name": "吴藩",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "平西王",
+     "description": "未叛时的藩王，有爱姬善琵琶"
+    },
+    {
+     "name": "爱姬",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "吴藩爱姬，善弹琵琶，珍藏暖玉琵琶"
+    },
+    {
+     "name": "绿奴",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "爱姬侍女，被唤出查看鹦鹉"
+    },
+    {
+     "name": "琵琶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "以暖玉为牙柱，抱之一室生温"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "保住",
+     "predicate": "OWNS",
+     "object": "琵琶",
+     "evidence": "住抱琵琶飞落筵前",
+     "confidence": 0.9
+    },
+    {
+     "subject": "爱姬",
+     "predicate": "OWNS",
+     "object": "琵琶",
+     "evidence": "所御琵琶，以暖玉为牙柱",
+     "confidence": 0.9
+    },
+    {
+     "subject": "保住",
+     "predicate": "HELPED",
+     "object": "吴藩",
+     "evidence": "不奉王命，臣能取之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "保住",
+     "predicate": "HARMED",
+     "object": "爱姬",
+     "evidence": "径携趋出。姬愕呼“寇至”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:02.626Z"
+}

@@ -1,0 +1,213 @@
+{
+ "no": 288,
+ "title": "小翠",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3121,
+   "entities": [
+    {
+     "name": "王太常",
+     "type": "Person",
+     "aliases": [
+      "王公",
+      "王御史"
+     ],
+     "nickname": "",
+     "description": "越人，少年登进士，官至侍御、太常"
+    },
+    {
+     "name": "王元丰",
+     "type": "Person",
+     "aliases": [
+      "元丰",
+      "公子"
+     ],
+     "nickname": "",
+     "description": "王太常之子，生性痴傻，后恢复"
+    },
+    {
+     "name": "小翠",
+     "type": "Spirit",
+     "aliases": [
+      "翠娘",
+      "小翠女"
+     ],
+     "nickname": "",
+     "description": "狐女，自称玉皇女，报恩嫁元丰"
+    },
+    {
+     "name": "虞氏",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "小翠之母，曾遭雷霆之劫"
+    },
+    {
+     "name": "王给谏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "同巷官员，与王太常不和，后诬告被充军"
+    },
+    {
+     "name": "锺太史",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "元丰续娶之妻的家族"
+    },
+    {
+     "name": "越地",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王太常的籍贯"
+    },
+    {
+     "name": "王家",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王太常的宅院"
+    },
+    {
+     "name": "公家亭园",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "王太常家村外的亭园"
+    },
+    {
+     "name": "玉瓶",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "广西中丞所赠，价值千金，被小翠打碎"
+    },
+    {
+     "name": "玉玦",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "小翠留赠元丰的玉玦"
+    },
+    {
+     "name": "翠小像",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "元丰请人画的小翠画像"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王太常",
+     "predicate": "NATIVE_OF",
+     "object": "越地",
+     "evidence": "王太常，越人。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王元丰",
+     "predicate": "KIN",
+     "object": "王太常",
+     "evidence": "生一子名元丰",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小翠",
+     "predicate": "KIN",
+     "object": "虞氏",
+     "evidence": "自言虞氏，女小翠",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小翠",
+     "predicate": "SPOUSE",
+     "object": "王元丰",
+     "evidence": "遂治别院，使夫妇成礼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "小翠",
+     "predicate": "LIVES_AT",
+     "object": "王家",
+     "evidence": "我在汝家，所保全者不止一瓶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王太常",
+     "predicate": "LIVES_AT",
+     "object": "王家",
+     "evidence": "王命仆马送之",
+     "confidence": 0.8
+    },
+    {
+     "subject": "小翠",
+     "predicate": "OWNS",
+     "object": "玉瓶",
+     "evidence": "女爱而把玩之，失手堕碎",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小翠",
+     "predicate": "OWNS",
+     "object": "玉玦",
+     "evidence": "展巾，则结玉玦一枚",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王元丰",
+     "predicate": "OWNS",
+     "object": "翠小像",
+     "evidence": "惟求良工画翠小像",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小翠",
+     "predicate": "HELPED",
+     "object": "王太常",
+     "evidence": "我在汝家，所保全者不止一瓶",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小翠",
+     "predicate": "HELPED",
+     "object": "王元丰",
+     "evidence": "女笑拉公子入室，代扑衣上尘，拭眼泪，摩挲杖痕，饵以枣栗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王给谏",
+     "predicate": "HARMED",
+     "object": "王太常",
+     "evidence": "忌公握河南道篆，思中伤之",
+     "confidence": 0.9
+    },
+    {
+     "subject": "王给谏",
+     "predicate": "PUNISHED",
+     "object": "王太常",
+     "evidence": "给谏归，果抗疏揭王不轨",
+     "confidence": 0.8
+    },
+    {
+     "subject": "王太常",
+     "predicate": "PUNISHED",
+     "object": "王给谏",
+     "evidence": "案乃定，以给谏充云南军",
+     "confidence": 0.9
+    },
+    {
+     "subject": "小翠",
+     "predicate": "LIVES_AT",
+     "object": "公家亭园",
+     "evidence": "今与大姊游戏，又相邂逅",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:03.899Z"
+}

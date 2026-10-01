@@ -1,0 +1,94 @@
+{
+ "no": 96,
+ "title": "阎罗",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 199,
+   "entities": [
+    {
+     "name": "李中之",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "莱芜秀才，性直谅不阿，每数日辄死，实为阎罗"
+    },
+    {
+     "name": "张生",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邑中张生，亦数日一死，为李中之属曹"
+    },
+    {
+     "name": "曹操",
+     "type": "Person",
+     "aliases": [
+      "阿瞒"
+     ],
+     "nickname": "",
+     "description": "历史人物，在阴司被提审笞二十"
+    },
+    {
+     "name": "莱芜",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "县名，李中之籍贯"
+    },
+    {
+     "name": "阴司",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "阴间官府，阎罗审案之处"
+    },
+    {
+     "name": "提勘曹操",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "李中之在阴司提审曹操并笞二十"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "李中之",
+     "predicate": "NATIVE_OF",
+     "object": "莱芜",
+     "evidence": "莱芜秀才李中之",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张生",
+     "predicate": "NATIVE_OF",
+     "object": "莱芜",
+     "evidence": "时邑有张生者",
+     "confidence": 0.8
+    },
+    {
+     "subject": "李中之",
+     "predicate": "PARTICIPATED_IN",
+     "object": "提勘曹操",
+     "evidence": "惟提勘曹操，笞二十",
+     "confidence": 0.95
+    },
+    {
+     "subject": "提勘曹操",
+     "predicate": "OCCURRED_AT",
+     "object": "阴司",
+     "evidence": "李昨赴阴司何事",
+     "confidence": 0.9
+    },
+    {
+     "subject": "李中之",
+     "predicate": "PUNISHED",
+     "object": "曹操",
+     "evidence": "惟提勘曹操，笞二十",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:47.830Z"
+}

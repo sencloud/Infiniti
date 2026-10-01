@@ -1,0 +1,144 @@
+{
+ "no": 178,
+ "title": "狐梦",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1713,
+   "entities": [
+    {
+     "name": "毕怡庵",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "肥郎",
+     "description": "聊斋友人，豪放不羁，与狐女相恋"
+    },
+    {
+     "name": "狐女",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐妇之女，与毕怡庵相恋，后为西王母花鸟使"
+    },
+    {
+     "name": "狐妇",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "年逾不惑的狐，将女儿许配毕怡庵"
+    },
+    {
+     "name": "大娘",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "狐女大姊，作筵主贺新郎"
+    },
+    {
+     "name": "青凤",
+     "type": "Spirit",
+     "aliases": [
+      "凤女",
+      "青娘"
+     ],
+     "nickname": "",
+     "description": "《青凤传》中狐女，毕怡庵向往之"
+    },
+    {
+     "name": "聊斋",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "作者蒲松龄，与毕怡庵文字交"
+    },
+    {
+     "name": "毕怡庵叔",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "刺史，有别墅，毕怡庵曾至其别业"
+    },
+    {
+     "name": "毕怡庵叔兄",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "毕怡庵叔伯哥哥，与狐女姊行相好"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "毕怡庵",
+     "predicate": "LOVES",
+     "object": "狐女",
+     "evidence": "毕与握手入帏，款曲备至",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毕怡庵",
+     "predicate": "SPOUSE",
+     "object": "狐女",
+     "evidence": "妇谓女曰：毕郎与有夙缘，即须留止",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐妇",
+     "predicate": "KIN",
+     "object": "狐女",
+     "evidence": "有小女及笄，可侍巾栉",
+     "confidence": 0.95
+    },
+    {
+     "subject": "狐女",
+     "predicate": "KIN",
+     "object": "大娘",
+     "evidence": "大姊作筵主",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毕怡庵",
+     "predicate": "FRIEND",
+     "object": "聊斋",
+     "evidence": "聊斋与君文字交",
+     "confidence": 0.95
+    },
+    {
+     "subject": "毕怡庵",
+     "predicate": "LIVES_AT",
+     "object": "叔刺史公之别业",
+     "evidence": "尝以故至叔刺史公之别业，休憩楼上",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毕怡庵叔兄",
+     "predicate": "LOVES",
+     "object": "狐女姊行",
+     "evidence": "曩有姊行，与君家叔兄，临别已产二女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "狐女",
+     "predicate": "PARTICIPATED_IN",
+     "object": "贺新郎宴",
+     "evidence": "姊妹辈将为我贺新郎，明日即屈同去",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贺新郎宴",
+     "predicate": "OCCURRED_AT",
+     "object": "大院落",
+     "evidence": "奄至一处，有大院落。直上中堂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "毕怡庵",
+     "predicate": "PARTICIPATED_IN",
+     "object": "贺新郎宴",
+     "evidence": "毕果候之。良久不至",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:22.099Z"
+}

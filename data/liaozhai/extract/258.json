@@ -1,0 +1,183 @@
+{
+ "no": 258,
+ "title": "邵女",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3888,
+   "entities": [
+    {
+     "name": "柴廷宾",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "太平人，娶金氏，后纳邵女为妾"
+    },
+    {
+     "name": "金氏",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "柴廷宾妻，不育而奇妒，虐待妾室"
+    },
+    {
+     "name": "林氏养女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "柴廷宾妾，燕产，被金氏虐待自经死"
+    },
+    {
+     "name": "邵女",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邵贫士女，聪慧通医，自愿为柴廷宾妾"
+    },
+    {
+     "name": "邵翁",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邵女父，贫士，鬻女后家暴富"
+    },
+    {
+     "name": "贾媪",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "媒婆，受柴廷宾贿为邵女作媒"
+    },
+    {
+     "name": "柴俊",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "邵女所生子，八岁神童，十五岁进士授翰林"
+    },
+    {
+     "name": "太平",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柴廷宾籍贯地"
+    },
+    {
+     "name": "别业",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "柴廷宾别居邵女之所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "柴廷宾",
+     "predicate": "SPOUSE",
+     "object": "金氏",
+     "evidence": "柴廷宾，太平人。妻金氏",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴廷宾",
+     "predicate": "SPOUSE",
+     "object": "林氏养女",
+     "evidence": "得林氏之养女",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴廷宾",
+     "predicate": "SPOUSE",
+     "object": "邵女",
+     "evidence": "娶女于别业",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邵翁",
+     "predicate": "KIN",
+     "object": "邵女",
+     "evidence": "邵贫士，止此女",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴俊",
+     "predicate": "KIN",
+     "object": "邵女",
+     "evidence": "女产一男",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴俊",
+     "predicate": "KIN",
+     "object": "柴廷宾",
+     "evidence": "子名曰俊",
+     "confidence": 0.9
+    },
+    {
+     "subject": "金氏",
+     "predicate": "HARMED",
+     "object": "林氏养女",
+     "evidence": "金暴遇之，经岁而死",
+     "confidence": 0.95
+    },
+    {
+     "subject": "金氏",
+     "predicate": "HARMED",
+     "object": "邵女",
+     "evidence": "妻烧赤铁烙女面，欲毁其容",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴廷宾",
+     "predicate": "HARMED",
+     "object": "金氏",
+     "evidence": "柴怒，夺鞭反扑，面肤绽裂",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邵女",
+     "predicate": "HELPED",
+     "object": "金氏",
+     "evidence": "女暗撮别剂易之。药下，食顷三遗，病若失",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邵女",
+     "predicate": "HELPED",
+     "object": "柴廷宾",
+     "evidence": "女迎门而劝，令诣嫡所",
+     "confidence": 0.85
+    },
+    {
+     "subject": "贾媪",
+     "predicate": "HELPED",
+     "object": "柴廷宾",
+     "evidence": "媪大喜，奔告。柴喜出非望",
+     "confidence": 0.9
+    },
+    {
+     "subject": "柴廷宾",
+     "predicate": "LIVES_AT",
+     "object": "太平",
+     "evidence": "柴廷宾，太平人",
+     "confidence": 0.95
+    },
+    {
+     "subject": "柴廷宾",
+     "predicate": "LIVES_AT",
+     "object": "别业",
+     "evidence": "娶女于别业",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邵女",
+     "predicate": "LIVES_AT",
+     "object": "别业",
+     "evidence": "娶女于别业",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:16:50.881Z"
+}

@@ -1,0 +1,64 @@
+{
+ "no": 83,
+ "title": "江中",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 249,
+   "entities": [
+    {
+     "name": "王圣俞",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《江中》篇中人物，南游泊舟江心遇鬼"
+    },
+    {
+     "name": "童仆",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《江中》篇中王圣俞的僮仆，为其按摩"
+    },
+    {
+     "name": "舟人",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "《江中》篇中船家，告知古战场鬼出没"
+    },
+    {
+     "name": "黑人",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "《江中》篇中水上骤起的黑色鬼影"
+    },
+    {
+     "name": "江心",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "《江中》篇中王圣俞泊舟之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "王圣俞",
+     "predicate": "LIVES_AT",
+     "object": "江心",
+     "evidence": "王圣俞南游，泊舟江心。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "黑人",
+     "predicate": "HARMED",
+     "object": "王圣俞",
+     "evidence": "即有黑人骤起，屹立水上，以手攀舟而行。",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:15:43.118Z"
+}

@@ -1,0 +1,235 @@
+{
+ "no": 105,
+ "title": "3.7 扇形",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6092,
+   "entities": [
+    {
+     "name": "扇形",
+     "type": "Concept",
+     "aliases": [
+      "sector"
+     ],
+     "nickname": "",
+     "description": "一条弧和经过这条弧的端点的两条半径组成的图形"
+    },
+    {
+     "name": "弧长公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "半径为R的圆中，n°圆心角所对弧长l=nπR/180"
+    },
+    {
+     "name": "扇形面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "n°圆心角所在扇形面积S=nπR²/360"
+    },
+    {
+     "name": "圆锥的侧面积公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆锥侧面积S=πrl，其中r为底面半径，l为母线长"
+    },
+    {
+     "name": "圆锥",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由一个底面和一个侧面围成的几何体"
+    },
+    {
+     "name": "圆锥的母线",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "连接圆锥的顶点和底面圆上一点的线段"
+    },
+    {
+     "name": "圆",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "平面内到定点距离等于定长的点的集合"
+    },
+    {
+     "name": "弧",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "圆上两点间的部分"
+    },
+    {
+     "name": "圆心角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "顶点在圆心的角"
+    },
+    {
+     "name": "圆周角",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "顶点在圆上且两边与圆相交的角"
+    },
+    {
+     "name": "圆周角定理",
+     "type": "Theorem",
+     "aliases": [],
+     "nickname": "",
+     "description": "一条弧所对的圆周角等于它所对圆心角的一半"
+    },
+    {
+     "name": "扇形面积与弧长关系公式",
+     "type": "Formula",
+     "aliases": [],
+     "nickname": "",
+     "description": "扇形面积S=1/2 lR，其中l为弧长，R为半径"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "弧",
+     "evidence": "一条弧和经过这条弧的端点的两条半径所组成的图形叫作扇形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆",
+     "predicate": "INCLUDES",
+     "object": "扇形",
+     "evidence": "一条弧和经过这条弧的端点的两条半径所组成的图形叫作扇形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "弧",
+     "predicate": "PREREQUISITE",
+     "object": "扇形",
+     "evidence": "一条弧和经过这条弧的端点的两条半径所组成的图形叫作扇形",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆心角",
+     "predicate": "PREREQUISITE",
+     "object": "弧长公式",
+     "evidence": "在半径为 R 的圆中，弧长 l 与所对的圆心角度数 n 之间有如下关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆",
+     "predicate": "PREREQUISITE",
+     "object": "弧长公式",
+     "evidence": "在半径为 R 的圆中，弧长 l 与所对的圆心角度数 n 之间有如下关系",
+     "confidence": 0.9
+    },
+    {
+     "subject": "弧长公式",
+     "predicate": "DERIVES",
+     "object": "扇形面积公式",
+     "evidence": "类似地，当圆的半径 R 确定时，同样可以利用比例关系得到 n°圆心角所在扇形的面积是圆面积的 n/360",
+     "confidence": 0.9
+    },
+    {
+     "subject": "弧长公式",
+     "predicate": "DERIVES",
+     "object": "扇形面积与弧长关系公式",
+     "evidence": "比较扇形面积公式与弧长公式我们发现：S_{扇形}=1/2 lR",
+     "confidence": 0.9
+    },
+    {
+     "subject": "扇形面积公式",
+     "predicate": "DERIVES",
+     "object": "扇形面积与弧长关系公式",
+     "evidence": "比较扇形面积公式与弧长公式我们发现：S_{扇形}=1/2 lR",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆周角定理",
+     "predicate": "APPLIES_TO",
+     "object": "弧长公式",
+     "evidence": "∠BOC=2∠BAC=120°，∴弧BC的长 l=120π×2/180=4/3π",
+     "confidence": 0.9
+    },
+    {
+     "subject": "扇形面积公式",
+     "predicate": "APPLIES_TO",
+     "object": "圆锥的侧面积公式",
+     "evidence": "圆锥的侧面展开图是一个扇形。这个扇形的弧长是圆锥底面圆的周长，半径是圆锥的母线长，于是圆锥的侧面积 S=1/2·2πr·l=πrl",
+     "confidence": 0.9
+    },
+    {
+     "subject": "圆锥",
+     "predicate": "INCLUDES",
+     "object": "圆锥的母线",
+     "evidence": "我们把连接圆锥的顶点和底面圆上一点的线段叫作圆锥的母线",
+     "confidence": 0.9
+    },
+    {
+     "subject": "扇形",
+     "predicate": "RELATED",
+     "object": "圆锥",
+     "evidence": "圆锥的侧面展开图是一个扇形",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 870,
+   "entities": [
+    {
+     "name": "圆",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "平面内到定点距离等于定长的点的集合"
+    },
+    {
+     "name": "等边三角形",
+     "type": "Figure",
+     "aliases": [],
+     "nickname": "",
+     "description": "三边相等的三角形"
+    },
+    {
+     "name": "线段比例关系",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "两条线段长度的比值关系"
+    },
+    {
+     "name": "尺规作图",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "用无刻度直尺和圆规作图的方法"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "尺规作图",
+     "predicate": "APPLIES_TO",
+     "object": "圆",
+     "evidence": "用直尺和圆规判断它们的轮廓是否为圆。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "线段比例关系",
+     "predicate": "APPLIES_TO",
+     "object": "圆",
+     "evidence": "判断一件圆形古玉是否满足“肉倍好”或“肉好若一”，本质是判断线段的比例关系。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:43:21.131Z"
+}

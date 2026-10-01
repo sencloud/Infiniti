@@ -1,0 +1,80 @@
+{
+ "no": 35,
+ "title": "10.1 二元一次方程",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2561,
+   "entities": [
+    {
+     "name": "一元一次方程",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "只含有一个未知数，且未知数的次数都是1的方程"
+    },
+    {
+     "name": "二元一次方程",
+     "type": "Concept",
+     "aliases": [
+      "linear equation with two unknowns"
+     ],
+     "nickname": "",
+     "description": "含有两个未知数，并且含有未知数的项的次数都是1的方程"
+    },
+    {
+     "name": "二元一次方程的解",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "满足二元一次方程的一对未知数的值"
+    },
+    {
+     "name": "消元",
+     "type": "Method",
+     "aliases": [],
+     "nickname": "",
+     "description": "将二元一次方程组转化为一元一次方程的基本思路"
+    },
+    {
+     "name": "二元一次方程组",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "由两个二元一次方程组成的方程组"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "一元一次方程",
+     "predicate": "PREREQUISITE",
+     "object": "二元一次方程",
+     "evidence": "我们已经学习过一元一次方程的概念、解法与应用，本章将学习二元一次方程组的概念、解法与应用。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二元一次方程",
+     "predicate": "INCLUDES",
+     "object": "二元一次方程的解",
+     "evidence": "满足二元一次方程的一对未知数的值叫作这个二元一次方程的一个解。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "消元",
+     "predicate": "APPLIES_TO",
+     "object": "二元一次方程组",
+     "evidence": "解二元一次方程组的基本思路是通过消元将其转化为一元一次方程。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "二元一次方程组",
+     "predicate": "PREREQUISITE",
+     "object": "二元一次方程",
+     "evidence": "本章将学习二元一次方程组的概念、解法与应用。",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:42:44.081Z"
+}

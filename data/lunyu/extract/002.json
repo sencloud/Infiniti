@@ -1,0 +1,475 @@
+{
+ "no": 2,
+ "title": "为政篇",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 827,
+   "entities": [
+    {
+     "name": "孔子",
+     "type": "Person",
+     "aliases": [
+      "仲尼",
+      "孔丘",
+      "夫子",
+      "子",
+      "圣人"
+     ],
+     "nickname": "仲尼",
+     "description": "儒家创始人，本篇主要言说者"
+    },
+    {
+     "name": "孟懿子",
+     "type": "Person",
+     "aliases": [
+      "孟孙",
+      "何忌"
+     ],
+     "nickname": "",
+     "description": "鲁国大夫，问孝于孔子"
+    },
+    {
+     "name": "樊迟",
+     "type": "Person",
+     "aliases": [
+      "樊须",
+      "子迟",
+      "须"
+     ],
+     "nickname": "子迟",
+     "description": "孔子弟子，曾为孔子驾车"
+    },
+    {
+     "name": "孟武伯",
+     "type": "Person",
+     "aliases": [
+      "彘"
+     ],
+     "nickname": "",
+     "description": "鲁国大夫，问孝于孔子"
+    },
+    {
+     "name": "子游",
+     "type": "Person",
+     "aliases": [
+      "言偃",
+      "偃",
+      "言游"
+     ],
+     "nickname": "子游",
+     "description": "孔子弟子，问孝于孔子"
+    },
+    {
+     "name": "子夏",
+     "type": "Person",
+     "aliases": [
+      "卜商",
+      "商",
+      "卜子夏"
+     ],
+     "nickname": "子夏",
+     "description": "孔子弟子，问孝于孔子"
+    },
+    {
+     "name": "颜回",
+     "type": "Person",
+     "aliases": [
+      "回",
+      "颜渊"
+     ],
+     "nickname": "子渊",
+     "description": "孔子最得意的弟子"
+    },
+    {
+     "name": "子贡",
+     "type": "Person",
+     "aliases": [
+      "端木赐",
+      "赐",
+      "子赣"
+     ],
+     "nickname": "子贡",
+     "description": "孔子弟子，问君子"
+    },
+    {
+     "name": "子路",
+     "type": "Person",
+     "aliases": [
+      "由",
+      "仲由"
+     ],
+     "nickname": "子路",
+     "description": "孔子弟子，孔子呼其名而教之"
+    },
+    {
+     "name": "子张",
+     "type": "Person",
+     "aliases": [
+      "颛孙师",
+      "师",
+      "颛孙"
+     ],
+     "nickname": "子张",
+     "description": "孔子弟子，问干禄与十世可知"
+    },
+    {
+     "name": "鲁哀公",
+     "type": "Person",
+     "aliases": [
+      "哀公",
+      "蒋"
+     ],
+     "nickname": "",
+     "description": "鲁国国君，问民服之道"
+    },
+    {
+     "name": "季康子",
+     "type": "Person",
+     "aliases": [
+      "季孙",
+      "肥"
+     ],
+     "nickname": "",
+     "description": "鲁国正卿，问使民之道"
+    },
+    {
+     "name": "孝",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "儒家核心德行，孝顺父母"
+    },
+    {
+     "name": "礼",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "社会规范与礼节"
+    },
+    {
+     "name": "德",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道德品质"
+    },
+    {
+     "name": "政",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "政治、治理"
+    },
+    {
+     "name": "君子",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "德行高尚的人"
+    },
+    {
+     "name": "小人",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "品格卑下的人"
+    },
+    {
+     "name": "学",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "学习"
+    },
+    {
+     "name": "思",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "思考"
+    },
+    {
+     "name": "知",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "智慧、知识"
+    },
+    {
+     "name": "信",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "诚信"
+    },
+    {
+     "name": "义",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "道义"
+    },
+    {
+     "name": "忠",
+     "type": "Concept",
+     "aliases": [],
+     "nickname": "",
+     "description": "忠诚"
+    },
+    {
+     "name": "诗",
+     "type": "Text",
+     "aliases": [
+      "《诗》"
+     ],
+     "nickname": "",
+     "description": "《诗经》"
+    },
+    {
+     "name": "书",
+     "type": "Text",
+     "aliases": [
+      "《书》"
+     ],
+     "nickname": "",
+     "description": "《尚书》"
+    },
+    {
+     "name": "鲁",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁国"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "德",
+     "evidence": "为政以德，譬如北辰居其所而众星共之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "政",
+     "evidence": "道之以政，齐之以刑，民免而无耻。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "道之以德，齐之以礼，有耻且格。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "吾十有五而志于学，三十而立。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "五十而知天命，六十而耳顺。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孟懿子",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "孟懿子问孝，子曰：无违。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "生，事之以礼；死，葬之以礼，祭之以礼。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "樊迟",
+     "predicate": "DISCIPLE_OF",
+     "object": "孔子",
+     "evidence": "樊迟御，子告之曰：孟孙问孝于我，我对曰，无违。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孟武伯",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "孟武伯问孝，子曰：父母唯其疾之忧。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子游",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子游问孝，子曰：今之孝者，是谓能养。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子夏",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子夏问孝，子曰：色难。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "PRAISED",
+     "object": "颜回",
+     "evidence": "退而省其私，亦足以发，回也不愚。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子不器。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子贡",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子贡问君子，子曰：先行其言而后从之。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "君子",
+     "evidence": "君子周而不比，小人比而不周。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "小人",
+     "evidence": "君子周而不比，小人比而不周。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "学",
+     "evidence": "学而不思则罔，思而不学则殆。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "思",
+     "evidence": "学而不思则罔，思而不学则殆。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "知",
+     "evidence": "知之为知之，不知为不知，是知也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子张学干禄，子曰：多闻阙疑，慎言其余，则寡尤。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁哀公",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "哀公问曰：何为则民服？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "季康子",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "季康子问：使民敬、忠以劝，如之何？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "孝",
+     "evidence": "孝乎惟孝，友于兄弟。施于有政，是亦为政。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "信",
+     "evidence": "人而无信，不知其可也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "子张",
+     "predicate": "ASKED",
+     "object": "孔子",
+     "evidence": "子张问：十世可知也？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "礼",
+     "evidence": "殷因于夏礼，所损益可知也；周因于殷礼，所损益可知也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "DISCUSSED",
+     "object": "义",
+     "evidence": "见义不为，无勇也。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "诗",
+     "evidence": "《诗》三百，一言以蔽之，曰：思无邪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "CITED",
+     "object": "书",
+     "evidence": "《书》云：孝乎惟孝，友于兄弟。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孔子",
+     "predicate": "NATIVE_OF",
+     "object": "鲁",
+     "evidence": "哀公问曰：何为则民服？孔子对曰：举直错诸枉民服。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "君子",
+     "predicate": "CONTRASTED",
+     "object": "小人",
+     "evidence": "君子周而不比，小人比而不周。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "学",
+     "predicate": "RELATED",
+     "object": "思",
+     "evidence": "学而不思则罔，思而不学则殆。",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:47:25.088Z"
+}

@@ -1,0 +1,122 @@
+{
+ "no": 389,
+ "title": "真生",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1045,
+   "entities": [
+    {
+     "name": "贾子龙",
+     "type": "Person",
+     "aliases": [
+      "贾生",
+      "贾某"
+     ],
+     "nickname": "",
+     "description": "长安士人，与狐仙真生结交"
+    },
+    {
+     "name": "真生",
+     "type": "Spirit",
+     "aliases": [
+      "狐",
+      "狐仙"
+     ],
+     "nickname": "",
+     "description": "有道之狐，咸阳僦寓者，持点金石"
+    },
+    {
+     "name": "抱真子",
+     "type": "Spirit",
+     "aliases": [],
+     "nickname": "",
+     "description": "仙人，曾赠真生点金石"
+    },
+    {
+     "name": "长安",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "贾子龙籍贯及故事发生地"
+    },
+    {
+     "name": "咸阳",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "真生籍贯"
+    },
+    {
+     "name": "点金石",
+     "type": "Item",
+     "aliases": [
+      "黑石",
+      "石"
+     ],
+     "nickname": "",
+     "description": "仙人点金石，可化瓦砾为白金"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "贾子龙",
+     "predicate": "NATIVE_OF",
+     "object": "长安",
+     "evidence": "长安士人贾子龙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "真生",
+     "predicate": "NATIVE_OF",
+     "object": "咸阳",
+     "evidence": "则真生，咸阳僦寓者也",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾子龙",
+     "predicate": "FRIEND",
+     "object": "真生",
+     "evidence": "促膝倾谈，大相知悦",
+     "confidence": 0.95
+    },
+    {
+     "subject": "真生",
+     "predicate": "HELPED",
+     "object": "贾子龙",
+     "evidence": "每值乏窘，真辄出黑石一块，吹咒其上，以磨瓦砾，立刻化为白金，便以赠生",
+     "confidence": 0.95
+    },
+    {
+     "subject": "贾子龙",
+     "predicate": "OWNS",
+     "object": "点金石",
+     "evidence": "见一石莹洁，绝类真生物。拾之，珍藏若宝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "真生",
+     "predicate": "OWNS",
+     "object": "点金石",
+     "evidence": "君前所见，乃仙人点金石也。曩从抱真子游，彼怜我介，以此相贻",
+     "confidence": 0.95
+    },
+    {
+     "subject": "抱真子",
+     "predicate": "HELPED",
+     "object": "真生",
+     "evidence": "曩从抱真子游，彼怜我介，以此相贻",
+     "confidence": 0.9
+    },
+    {
+     "subject": "贾子龙",
+     "predicate": "HELPED",
+     "object": "真生",
+     "evidence": "贾得金，旦施且贾，不三年，施数已满",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T02:17:37.373Z"
+}

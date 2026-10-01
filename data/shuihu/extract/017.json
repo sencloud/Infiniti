@@ -1,0 +1,545 @@
+{
+ "no": 17,
+ "title": "第十七回 花和尚单打二龙山 青面兽双夺宝珠寺",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5934,
+   "entities": [
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "杨制使",
+      "青面兽"
+     ],
+     "nickname": "青面兽",
+     "description": "东京殿司制使，失陷生辰纲后欲投二龙山落草"
+    },
+    {
+     "name": "鲁智深",
+     "type": "Person",
+     "aliases": [
+      "鲁提辖",
+      "花和尚",
+      "鲁达"
+     ],
+     "nickname": "花和尚",
+     "description": "延安府老种经略相公帐前军官，三拳打死镇关西后出家为僧"
+    },
+    {
+     "name": "曹正",
+     "type": "Person",
+     "aliases": [
+      "操刀鬼"
+     ],
+     "nickname": "操刀鬼",
+     "description": "开封府人氏，林冲徒弟，入赘庄农人家，开酒店"
+    },
+    {
+     "name": "林冲",
+     "type": "Person",
+     "aliases": [
+      "豹子头",
+      "林教头",
+      "八十万禁军教头"
+     ],
+     "nickname": "豹子头",
+     "description": "八十万禁军都教头，被高太尉陷害落草梁山泊"
+    },
+    {
+     "name": "张青",
+     "type": "Person",
+     "aliases": [
+      "菜园子"
+     ],
+     "nickname": "菜园子",
+     "description": "孟州十字坡酒店主人，与鲁智深结义"
+    },
+    {
+     "name": "孙二娘",
+     "type": "Person",
+     "aliases": [
+      "母夜叉"
+     ],
+     "nickname": "母夜叉",
+     "description": "张青之妻，孟州十字坡酒店女主人"
+    },
+    {
+     "name": "邓龙",
+     "type": "Person",
+     "aliases": [
+      "金眼虎"
+     ],
+     "nickname": "金眼虎",
+     "description": "二龙山宝珠寺寨主，被鲁智深打死"
+    },
+    {
+     "name": "梁中书",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北京大名府留守，生辰纲被劫"
+    },
+    {
+     "name": "蔡太师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京太师，梁中书岳父，生辰纲被劫"
+    },
+    {
+     "name": "高俅",
+     "type": "Person",
+     "aliases": [
+      "高太尉"
+     ],
+     "nickname": "",
+     "description": "殿帅府太尉，陷害林冲"
+    },
+    {
+     "name": "牛二",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京破落户，被杨志卖刀时杀死"
+    },
+    {
+     "name": "王伦",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁山泊寨主，心地匾窄"
+    },
+    {
+     "name": "二龙山",
+     "type": "Organization",
+     "aliases": [
+      "宝珠寺"
+     ],
+     "nickname": "",
+     "description": "青州地面山寨，邓龙为头，后鲁智深杨志夺占"
+    },
+    {
+     "name": "梁山泊",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "王伦为首的山寨，林冲落草处"
+    },
+    {
+     "name": "黄泥冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "生辰纲被劫处"
+    },
+    {
+     "name": "二龙山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "青州地面高山，上有宝珠寺"
+    },
+    {
+     "name": "宝珠寺",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "二龙山上寺院，邓龙占据"
+    },
+    {
+     "name": "孟州十字坡",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "张青孙二娘开酒店处"
+    },
+    {
+     "name": "济州府",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "追捕劫生辰纲贼人的州府"
+    },
+    {
+     "name": "生辰纲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书送蔡太师的十万贯金珠宝贝"
+    },
+    {
+     "name": "智取生辰纲",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "杨志押送生辰纲在黄泥冈被劫"
+    },
+    {
+     "name": "夺二龙山",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "鲁智深杨志曹正智取二龙山，杀邓龙夺寨"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "杨志",
+     "predicate": "PARTICIPATED_IN",
+     "object": "智取生辰纲",
+     "evidence": "杨志当时在黄泥冈上被取了生辰纲去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "智取生辰纲",
+     "predicate": "OCCURRED_AT",
+     "object": "黄泥冈",
+     "evidence": "杨志当时在黄泥冈上被取了生辰纲去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹正",
+     "predicate": "MASTER_OF",
+     "object": "林冲",
+     "evidence": "乃是八十万禁军都教头林冲的徒弟",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹正",
+     "predicate": "SPOUSE",
+     "object": "孙二娘",
+     "evidence": "却才灶边妇人，便是小人的浑家",
+     "confidence": 0.5
+    },
+    {
+     "subject": "杨志",
+     "predicate": "SERVED",
+     "object": "梁中书",
+     "evidence": "杨志把做制使失陷花石纲，并如今又失陷了梁中书的生辰纲一事",
+     "confidence": 0.85
+    },
+    {
+     "subject": "高俅",
+     "predicate": "FRAMED",
+     "object": "林冲",
+     "evidence": "你的师父被高太尉陷害，落草去了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "林冲",
+     "predicate": "MEMBER_OF",
+     "object": "梁山泊",
+     "evidence": "你的师父被高太尉陷害，落草去了，如今见在梁山泊",
+     "confidence": 0.95
+    },
+    {
+     "subject": "王伦",
+     "predicate": "LEADS",
+     "object": "梁山泊",
+     "evidence": "王伦见了俺两个本事一般，因此都留在山寨里相会",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "FOUGHT",
+     "object": "林冲",
+     "evidence": "正撞着他下山来与洒家交手",
+     "confidence": 0.9
+    },
+    {
+     "subject": "邓龙",
+     "predicate": "LEADS",
+     "object": "二龙山",
+     "evidence": "为头那人，唤做金眼虎邓龙",
+     "confidence": 0.95
+    },
+    {
+     "subject": "邓龙",
+     "predicate": "STATIONED_AT",
+     "object": "宝珠寺",
+     "evidence": "山上有座寺，唤做宝珠寺……如今寺里住持还了俗",
+     "confidence": 0.9
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FOUGHT",
+     "object": "杨志",
+     "evidence": "当时杨志和那僧人斗到四五十合，不分胜败",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "KILLED",
+     "object": "牛二",
+     "evidence": "你不是在东京卖刀杀了破落户牛二的",
+     "confidence": 0.5
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "RESCUED",
+     "object": "林冲",
+     "evidence": "俺却路见不平，直送他到沧州，救了他一命",
+     "confidence": 0.95
+    },
+    {
+     "subject": "张青",
+     "predicate": "RESCUED",
+     "object": "鲁智深",
+     "evidence": "得他的丈夫归来的早……连忙把解药救俺醒来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "SWORN_BROTHER",
+     "object": "张青",
+     "evidence": "留住俺过了数日，结义洒家做了弟兄",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "FOUGHT",
+     "object": "邓龙",
+     "evidence": "邓龙那厮和俺厮并，又敌洒家不过",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "DEFEATED",
+     "object": "邓龙",
+     "evidence": "那厮小肚上被俺一脚点翻了",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "KILLED",
+     "object": "邓龙",
+     "evidence": "早被鲁智深一禅杖当头打着，把脑盖劈做两半个",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨志",
+     "predicate": "KILLED",
+     "object": "邓龙",
+     "evidence": "手下的小喽啰，早被杨志搠翻了四五个",
+     "confidence": 0.5
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "LEADS",
+     "object": "二龙山",
+     "evidence": "鲁智深并杨志做了山寨之主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨志",
+     "predicate": "LEADS",
+     "object": "二龙山",
+     "evidence": "鲁智深并杨志做了山寨之主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "MEMBER_OF",
+     "object": "二龙山",
+     "evidence": "鲁智深并杨志做了山寨之主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "杨志",
+     "predicate": "MEMBER_OF",
+     "object": "二龙山",
+     "evidence": "鲁智深并杨志做了山寨之主",
+     "confidence": 0.95
+    },
+    {
+     "subject": "曹正",
+     "predicate": "MASTERMINDED",
+     "object": "夺二龙山",
+     "evidence": "曹正道：小人有条计策……此计若何？",
+     "confidence": 0.95
+    },
+    {
+     "subject": "鲁智深",
+     "predicate": "PARTICIPATED_IN",
+     "object": "夺二龙山",
+     "evidence": "鲁智深、杨志齐道：妙哉，妙哉！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "杨志",
+     "predicate": "PARTICIPATED_IN",
+     "object": "夺二龙山",
+     "evidence": "鲁智深、杨志齐道：妙哉，妙哉！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "夺二龙山",
+     "predicate": "OCCURRED_AT",
+     "object": "二龙山",
+     "evidence": "当日杨志、鲁智深、曹正，带了小舅并五七个庄家，取路投二龙山来",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "ATTACKED",
+     "object": "济州府",
+     "evidence": "随即便唤书吏写了文书，当时差人星夜来济州投下",
+     "confidence": 0.5
+    },
+    {
+     "subject": "蔡太师",
+     "predicate": "ATTACKED",
+     "object": "济州府",
+     "evidence": "着一个府干亲自赍了，星夜望济州来，着落府尹，立等捉拿这伙贼人",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2787,
+   "entities": [
+    {
+     "name": "杨志",
+     "type": "Person",
+     "aliases": [
+      "杨制使"
+     ],
+     "nickname": "青面兽",
+     "description": "在逃军官，被追捕的贼人之一"
+    },
+    {
+     "name": "何涛",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "济州府三都缉捕使臣，负责捉拿生辰纲贼人"
+    },
+    {
+     "name": "何清",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "何涛的兄弟，知晓贼人线索"
+    },
+    {
+     "name": "梁中书",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "北京大名府留守司，生辰纲的送贺人"
+    },
+    {
+     "name": "蔡太师",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京太师府太师，生辰纲的收贺人"
+    },
+    {
+     "name": "济州府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "济州官府，负责缉捕贼人"
+    },
+    {
+     "name": "太师府",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "东京蔡太师的府邸，催办缉捕"
+    },
+    {
+     "name": "生辰纲",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "",
+     "description": "梁中书送蔡太师庆生辰的金珠宝贝，计十一担"
+    },
+    {
+     "name": "黄泥冈",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "生辰纲被劫的地点"
+    },
+    {
+     "name": "沙门岛",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "流放犯人的远恶之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "何涛",
+     "predicate": "MEMBER_OF",
+     "object": "济州府",
+     "evidence": "小人是三都缉捕使臣何涛",
+     "confidence": 0.95
+    },
+    {
+     "subject": "何清",
+     "predicate": "KIN",
+     "object": "何涛",
+     "evidence": "只见兄弟何清来望哥哥",
+     "confidence": 0.95
+    },
+    {
+     "subject": "梁中书",
+     "predicate": "KIN",
+     "object": "蔡太师",
+     "evidence": "梁中书与丈人蔡太师庆生辰的金珠宝贝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "生辰纲",
+     "predicate": "OWNS",
+     "object": "梁中书",
+     "evidence": "梁中书庆贺蔡太师的生辰纲",
+     "confidence": 0.9
+    },
+    {
+     "subject": "生辰纲",
+     "predicate": "OWNS",
+     "object": "蔡太师",
+     "evidence": "梁中书与丈人蔡太师庆生辰的金珠宝贝",
+     "confidence": 0.9
+    },
+    {
+     "subject": "生辰纲",
+     "predicate": "OCCURRED_AT",
+     "object": "黄泥冈",
+     "evidence": "黄泥冈上一伙贼人打劫了梁中书与丈人蔡太师庆生辰的金珠宝贝",
+     "confidence": 0.95
+    },
+    {
+     "subject": "济州府",
+     "predicate": "ATTACKED",
+     "object": "杨志",
+     "evidence": "在逃军官杨志各贼正身，限在十日捉拿完备",
+     "confidence": 0.9
+    },
+    {
+     "subject": "济州府",
+     "predicate": "ATTACKED",
+     "object": "何涛",
+     "evidence": "府尹将我脸上刺下：'迭配……州'字样",
+     "confidence": 0.9
+    },
+    {
+     "subject": "何涛",
+     "predicate": "STATIONED_AT",
+     "object": "济州府",
+     "evidence": "小人是三都缉捕使臣何涛",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-09-30T23:32:07.103Z"
+}

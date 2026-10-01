@@ -1,0 +1,487 @@
+{
+ "no": 86,
+ "title": "木母助威征怪物 金公施法灭妖邪",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5866,
+   "entities": [
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "齐天大圣",
+      "美猴王",
+      "孙行者",
+      "斗战胜佛",
+      "心猿"
+     ],
+     "nickname": "大圣",
+     "description": "唐僧大徒弟，神通广大"
+    },
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "长老",
+     "description": "取经僧人，被妖怪擒获"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "八戒",
+     "description": "唐僧二徒弟，使钉钯"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "沙僧",
+     "description": "唐僧三徒弟，看守行李"
+    },
+    {
+     "name": "太上老君",
+     "type": "Person",
+     "aliases": [
+      "老君",
+      "道德天尊",
+      "李老君",
+      "兜率天宫主人"
+     ],
+     "nickname": "李老君",
+     "description": "开天辟地之祖"
+    },
+    {
+     "name": "大鹏金翅雕",
+     "type": "Person",
+     "aliases": [
+      "云程万里鹏",
+      "大鹏",
+      "如来舅舅"
+     ],
+     "nickname": "大鹏",
+     "description": "如来治世之尊所坐"
+    },
+    {
+     "name": "南山大王",
+     "type": "Person",
+     "aliases": [
+      "艾叶花皮豹子精",
+      "豹子精"
+     ],
+     "nickname": "老怪",
+     "description": "隐雾山折岳连环洞妖怪"
+    },
+    {
+     "name": "铁背苍狼怪",
+     "type": "Person",
+     "aliases": [
+      "先锋"
+     ],
+     "nickname": "先锋",
+     "description": "南山大王部下先锋"
+    },
+    {
+     "name": "樵子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "被妖怪擒获的孝子"
+    },
+    {
+     "name": "隐雾山折岳连环洞",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "",
+     "description": "南山大王盘踞的妖洞"
+    },
+    {
+     "name": "花果山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "孙悟空出身之地"
+    },
+    {
+     "name": "东胜神洲",
+     "type": "Place",
+     "aliases": [
+      "东胜大神洲"
+     ],
+     "nickname": "",
+     "description": "孙悟空祖居之地"
+    },
+    {
+     "name": "隐雾山",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖怪所在的山"
+    },
+    {
+     "name": "分瓣梅花计",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "",
+     "description": "妖怪调开三徒擒走唐僧之计"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "今幸皈依从释教，扶持长老向西游。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "我原来只跟唐僧做和尚的",
+     "confidence": 0.95
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "MASTER_OF",
+     "object": "唐僧",
+     "evidence": "你两个眼都昏了，把妖精放将来拿师父，老沙去打那妖精的",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "猪八戒",
+     "evidence": "兄弟，我不怪你。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "沙和尚滴泪道：大哥言之极当。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FRIEND",
+     "object": "沙悟净",
+     "evidence": "你与哥哥哭着，等我去寻些甚么供养供养。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "东胜神洲",
+     "evidence": "祖居东胜大神洲，天地包含几万秋。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "NATIVE_OF",
+     "object": "花果山",
+     "evidence": "花果山头仙石卵，卵开产化我根苗。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "南山大王",
+     "predicate": "LEADS",
+     "object": "隐雾山折岳连环洞",
+     "evidence": "我乃南山大王，数百年放荡于此。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "铁背苍狼怪",
+     "predicate": "MEMBER_OF",
+     "object": "隐雾山折岳连环洞",
+     "evidence": "先锋帅众齐来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "南山大王",
+     "predicate": "STATIONED_AT",
+     "object": "隐雾山",
+     "evidence": "我乃南山大王，数百年放荡于此。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "南山大王",
+     "predicate": "MASTERMINDED",
+     "object": "分瓣梅花计",
+     "evidence": "这是分瓣梅花计，把我弟兄们调开，他劈心里捞了师父去了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "分瓣梅花计",
+     "predicate": "OCCURRED_AT",
+     "object": "隐雾山",
+     "evidence": "横竖不远，只在这座山上，我们寻去来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "分瓣梅花计",
+     "evidence": "中他计了！中他计了！",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "分瓣梅花计",
+     "evidence": "我舍着命，与那妖精战了一会，得命回来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "分瓣梅花计",
+     "evidence": "老沙去打那妖精的，师父自家在马上坐来。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "隐雾山折岳连环洞",
+     "evidence": "径自把他石门打破，喊声振天叫道：还我活唐僧来耶！",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "ATTACKED",
+     "object": "隐雾山折岳连环洞",
+     "evidence": "举钯随着行者。二人努力向前，不容分辨，径自把他石门打破",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "FOUGHT",
+     "object": "南山大王",
+     "evidence": "那怪闻言，又惊又恨。咬着牙，跳近前来，使铁杵望行者就打。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "FOUGHT",
+     "object": "铁背苍狼怪",
+     "evidence": "那八戒忍不住，掣钯乱筑那怪的先锋。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "铁背苍狼怪",
+     "evidence": "那先锋不能变化，早被行者一棒打倒，现出本相，乃是个铁背苍狼怪。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者才至前，将绳解了，挽着师父就走",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "樵子",
+     "evidence": "行者依言，也解了绳索，一同带出后门",
+     "confidence": 0.95
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "RESCUED",
+     "object": "樵子",
+     "evidence": "长老立定身，叫：悟空，那个人也解他一解。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "OWNS",
+     "object": "金箍棒",
+     "evidence": "急掣金箍棒，扑的一下，打破了。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "OWNS",
+     "object": "钉钯",
+     "evidence": "举钉钯尽力筑将去",
+     "confidence": 0.95
+    },
+    {
+     "subject": "南山大王",
+     "predicate": "OWNS",
+     "object": "铁杵",
+     "evidence": "老怪持铁杵，应声高呼道",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1872,
+   "entities": [
+    {
+     "name": "唐僧",
+     "type": "Person",
+     "aliases": [
+      "三藏",
+      "玄奘",
+      "金蝉子",
+      "江流儿",
+      "御弟圣僧"
+     ],
+     "nickname": "",
+     "description": "东土大唐往西天取经的圣僧"
+    },
+    {
+     "name": "猪八戒",
+     "type": "Person",
+     "aliases": [
+      "天蓬元帅",
+      "猪悟能",
+      "八戒",
+      "净坛使者",
+      "呆子"
+     ],
+     "nickname": "",
+     "description": "唐僧二徒弟，使九齿钉钯"
+    },
+    {
+     "name": "沙悟净",
+     "type": "Person",
+     "aliases": [
+      "卷帘大将",
+      "沙僧",
+      "沙和尚",
+      "金身罗汉"
+     ],
+     "nickname": "",
+     "description": "唐僧三徒弟，牵马随行"
+    },
+    {
+     "name": "孙悟空",
+     "type": "Person",
+     "aliases": [
+      "行者",
+      "大圣",
+      "金公"
+     ],
+     "nickname": "",
+     "description": "唐僧大徒弟，使金箍棒"
+    },
+    {
+     "name": "南山大王",
+     "type": "Person",
+     "aliases": [
+      "艾叶花皮豹子精",
+      "豹子精",
+      "老妖",
+      "老怪"
+     ],
+     "nickname": "",
+     "description": "隐雾山折岳连环洞妖怪，本相为艾叶花皮豹子精"
+    },
+    {
+     "name": "樵子",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "",
+     "description": "山中砍柴人，被妖怪绑于洞中，获救后引师徒至其家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "唐僧",
+     "evidence": "行者把上项事说了一遍。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "RESCUED",
+     "object": "樵子",
+     "evidence": "连孩儿都解救出来",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "KILLED",
+     "object": "南山大王",
+     "evidence": "八戒上前一钯，把老怪筑死，现出本相，原来是个艾叶花皮豹子精。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "DEFEATED",
+     "object": "南山大王",
+     "evidence": "即将他四马攒蹄捆倒，使金箍棒掬起来，握在肩上，径出后门。",
+     "confidence": 0.95
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "ATTACKED",
+     "object": "南山大王",
+     "evidence": "即又跳下石崖，过涧入洞，把那绑唐僧与樵子的绳索拿入中堂，那老妖还睡着了，即将他四马攒蹄捆倒",
+     "confidence": 0.9
+    },
+    {
+     "subject": "唐僧",
+     "predicate": "PARTICIPATED_IN",
+     "object": "灭妖救樵",
+     "evidence": "那老爷倒也被山主拿去绑在树上，他那三位徒弟老爷，神通广大，把山主一顿打死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "猪八戒",
+     "predicate": "PARTICIPATED_IN",
+     "object": "灭妖救樵",
+     "evidence": "八戒上前一钯，把老怪筑死",
+     "confidence": 0.9
+    },
+    {
+     "subject": "孙悟空",
+     "predicate": "PARTICIPATED_IN",
+     "object": "灭妖救樵",
+     "evidence": "行者点上火，八戒两耳扇起风。那大圣将身跳上，抖一抖，收了瞌睡虫的毫毛。",
+     "confidence": 0.9
+    },
+    {
+     "subject": "沙悟净",
+     "predicate": "PARTICIPATED_IN",
+     "object": "灭妖救樵",
+     "evidence": "沙僧牵马，八戒挑担，行者紧随左右",
+     "confidence": 0.8
+    },
+    {
+     "subject": "灭妖救樵",
+     "predicate": "OCCURRED_AT",
+     "object": "隐雾山",
+     "evidence": "即又跳下石崖，过涧入洞",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-01T01:39:02.240Z"
+}
