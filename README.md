@@ -379,3 +379,9 @@ CRAWL_DELAY_MS=2000                # 抓取限速（对源友好）
 ## 参与
 
 欢迎提 Issue 和 PR：想学的书和课程、新的材料配置（技术文档、考试讲义等）、发现的抽取错误、新的线索规则、UI 改进都可以。如果这个项目对你有帮助，点个 Star 让更多人看到它。
+
+## 其他
+
+如果你喜欢我的项目，可以给我买杯咖啡：
+
+<img src="https://github.com/user-attachments/assets/e75ef971-ff56-41e5-88b9-317595d22f81" alt="image" width="300" height="300">
