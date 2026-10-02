@@ -77,11 +77,11 @@
 
 .hm-hero h1 {
   font-family: var(--serif);
-  font-size: 46px;
+  font-size: 44px;
   font-weight: 700;
-  letter-spacing: 14px;
-  margin: 0 0 8px;
-  padding-left: 14px;
+  letter-spacing: 6px;
+  margin: 0 0 12px;
+  padding-left: 6px;
   color: var(--ink);
 }
 
@@ -91,8 +91,9 @@
 
 .hm-tagline {
   color: var(--ink-2);
-  font-size: 14px;
-  letter-spacing: 5px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 1.7;
   margin: 0 0 30px;
 }
 
@@ -512,14 +513,19 @@
   }
 
   .hm-hero h1 {
-    font-size: 34px;
-    letter-spacing: 8px;
-    padding-left: 8px;
+    font-size: 32px;
+    letter-spacing: 3px;
+    padding-left: 3px;
+    line-height: 1.3;
+  }
+
+  .hm-h1-line {
+    display: block;
   }
 
   .hm-tagline {
-    font-size: 13px;
-    letter-spacing: 2px;
+    font-size: 14px;
+    letter-spacing: 0;
     margin-bottom: 20px;
   }
 
@@ -591,5 +597,273 @@
   .hm-footer {
     padding: 14px 14px 0;
     flex-direction: column;
+  }
+
+  .hm-header-link {
+    display: none;
+  }
+
+  .hm-hero {
+    text-align: left;
+    padding: 18px 16px 4px;
+  }
+
+  .hm-hero h1 {
+    font-size: 34px;
+    letter-spacing: 0.04em;
+    line-height: 1.28;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .hm-tagline {
+    font-size: 15px;
+    line-height: 1.65;
+    margin-bottom: 18px;
+    max-width: 22em;
+    text-wrap: pretty;
+  }
+
+  .hm-search-box {
+    padding: 0 14px;
+    min-height: 50px;
+  }
+
+  .hm-search-box input {
+    padding: 13px 0;
+  }
+
+  .hm-steps {
+    list-style: none;
+    counter-reset: step;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 14px 0 0;
+    padding: 0;
+  }
+
+  .hm-steps li {
+    counter-increment: step;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    color: var(--ink-2);
+    padding: 5px 10px 5px 5px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    background: var(--panel);
+  }
+
+  .hm-steps li::before {
+    content: counter(step);
+    display: inline-grid;
+    place-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+
+  .hm-m-main {
+    padding: 0;
+  }
+
+  .hm-m-section {
+    margin-top: 30px;
+    padding: 0 16px;
+  }
+
+  .hm-m-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .hm-m-head h2 {
+    font-family: var(--serif);
+    font-size: 21px;
+    letter-spacing: 0.08em;
+    margin: 0;
+    color: var(--ink);
+  }
+
+  .hm-m-head span {
+    font-size: 12px;
+    color: var(--ink-2);
+  }
+
+  /* 书架贴边滚动：左右各留 16px 呼吸，最后一本露半个提示还能滑 */
+  .hm-shelf {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    margin: -10px -16px -14px;
+    padding: 10px 16px 22px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 16px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .hm-shelf::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hm-shelf-book {
+    flex: none;
+    width: 128px;
+    scroll-snap-align: start;
+    color: var(--ink);
+    text-decoration: none;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow-1);
+    transition: transform 0.12s;
+  }
+
+  .hm-shelf-book:active {
+    transform: scale(0.97);
+  }
+
+  .hm-shelf-book .hm-cover {
+    width: 100%;
+    height: 158px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .hm-shelf-book.is-pending {
+    box-shadow: none;
+    opacity: 0.75;
+  }
+
+  .hm-shelf-info {
+    padding: 9px 10px 11px;
+  }
+
+  .hm-shelf-info h3 {
+    font-family: var(--serif);
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    margin: 0 0 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hm-shelf-info span {
+    display: block;
+    font-size: 12px;
+    color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hm-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px;
+    color: var(--ink);
+    text-decoration: none;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    box-shadow: var(--shadow-1);
+  }
+
+  .hm-row + .hm-row {
+    margin-top: 10px;
+  }
+
+  .hm-row:active {
+    border-color: var(--accent-line);
+  }
+
+  .hm-row.is-pending {
+    box-shadow: none;
+  }
+
+  .hm-row .hm-cover {
+    width: 54px;
+    height: 72px;
+  }
+
+  .hm-row .hm-cover-type {
+    padding: 6px 6px 0 0;
+  }
+
+  .hm-row .hm-cover-slip {
+    font-size: 11px;
+    padding: 5px 2px;
+    letter-spacing: 0;
+  }
+
+  .hm-row-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .hm-row-body h3 {
+    font-family: var(--serif);
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    margin: 0 0 4px;
+  }
+
+  .hm-row-body span {
+    display: block;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ink-2);
+  }
+
+  .hm-row-go {
+    flex: none;
+    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 9px;
+    color: var(--accent-ink);
+    background: var(--accent);
+  }
+
+  .hm-import {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    border: 1.5px dashed var(--accent-line);
+    border-radius: 12px;
+    background: var(--accent-soft);
+  }
+
+  .hm-import p {
+    margin: 0 0 8px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+
+  .hm-import span {
+    font-size: 14px;
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .hm-m-main + .hm-footer {
+    margin: 40px 16px 0;
+    padding: 14px 0 0;
   }
 }

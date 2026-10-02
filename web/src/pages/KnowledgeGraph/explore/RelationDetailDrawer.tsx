@@ -12,8 +12,10 @@
  */
 import { useEffect, useState } from 'react'
 import { Drawer, Empty, Spin, Tag, message } from 'antd'
+import { RightOutlined } from '@ant-design/icons'
 
 import { getClaimsByIds, type Claim, type Ontology } from '@/api/knowledge-graph'
+import type { EvidenceStop } from '@/components/EvidenceHighlightDrawer'
 import { useIsMobile } from '@/hooks/useIsMobile'
 import { claimStatusLabel, relationLabel } from '@/utils/graphStyle'
 import { displayText } from '@/utils/mathText'
@@ -29,8 +31,8 @@ interface Props {
   /** 边聚合的 Claim 实例 id 列表 */
   claimIds: string[]
   ontology: Ontology | null
-  /** 点某条 Claim 的来源档案时回调（打开原文高亮抽屉） */
-  onOpenEvidence: (recordId: string, claimId: string) => void
+  /** 点某条 Claim 的来源档案时回调（打开原文高亮抽屉）；trail 是本关系全部依据，按原文顺序 */
+  onOpenEvidence: (recordId: string, claimId: string, trail: EvidenceStop[]) => void
   onClose: () => void
 }
 
@@ -77,7 +79,11 @@ export default function RelationDetailDrawer({
     getClaimsByIds(claimIds)
       .then((res) => {
         if (cancelled) return
-        setClaims(res.data?.items || [])
+        const items = [...(res.data?.items || [])].sort((a, b) => (
+          a.record_id.localeCompare(b.record_id, undefined, { numeric: true })
+          || (a.evidence_start ?? 0) - (b.evidence_start ?? 0)
+        ))
+        setClaims(items)
       })
       .catch((error: unknown) => {
         if (cancelled) return
@@ -100,13 +106,13 @@ export default function RelationDetailDrawer({
       onClose={onClose}
       width={mobile ? '100%' : 460}
       placement={mobile ? 'bottom' : 'right'}
-      height={mobile ? '72%' : undefined}
+      height={mobile ? '78%' : undefined}
+      rootClassName="rel-drawer"
       styles={{ body: { padding: '12px 16px' } }}
     >
       {/* 说明：聚合边与关系体实例的关系（对齐本体建模语义） */}
       <div className="rel-drawer-note">
-        该关系由 <b>{claims.length || claimIds.length}</b> 条事实（Claim）支撑。
-        每条事实是一次独立的断言，点击可查看原文证据。
+        这段关系有 <b>{claims.length || claimIds.length}</b> 条原文依据，点出处可翻到原文里的高亮位置。
       </div>
 
       {loading && <div className="rel-drawer-loading"><Spin /></div>}
@@ -118,23 +124,37 @@ export default function RelationDetailDrawer({
       {!loading && claims.map((claim) => (
         <div key={claim.claim_id} className="rel-claim-card">
           <div className="rel-claim-head">
-            <Tag color={STATUS_COLORS[claim.status] || 'default'}>
-              {claimStatusLabel(claim.status)}
-            </Tag>
-            <span className="rel-claim-conf">
-              置信度 {(claim.confidence * 100).toFixed(0)}%
-            </span>
+            {mobile ? (
+              <span className="rel-claim-conf">
+                {claimStatusLabel(claim.status)} · 置信度 {(claim.confidence * 100).toFixed(0)}%
+              </span>
+            ) : (
+              <>
+                <Tag color={STATUS_COLORS[claim.status] || 'default'}>
+                  {claimStatusLabel(claim.status)}
+                </Tag>
+                <span className="rel-claim-conf">
+                  置信度 {(claim.confidence * 100).toFixed(0)}%
+                </span>
+              </>
+            )}
           </div>
           {/* 证据原文：这条 Claim 的成立依据 */}
           <div className="rel-claim-evidence">{displayText(claim.evidence_text)}</div>
           {/* 来源档案：mediation 结构里的 Archive，点击跳原文高亮 */}
-          <div
+          <button
+            type="button"
             className="rel-claim-source"
-            onClick={() => onOpenEvidence(claim.record_id, claim.claim_id)}
+            onClick={() => onOpenEvidence(
+              claim.record_id,
+              claim.claim_id,
+              claims.map((item) => ({ recordId: item.record_id, claimId: item.claim_id })),
+            )}
             title={claim.archive_title || claim.record_id}
           >
-            {claim.archive_title || claim.record_id}
-          </div>
+            <span>{claim.archive_title || claim.record_id}</span>
+            {mobile && <span className="rel-claim-go">读原文<RightOutlined /></span>}
+          </button>
         </div>
       ))}
     </Drawer>

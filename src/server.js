@@ -1,6 +1,6 @@
 // 网站入口：Express 静态页面 + JSON API
-//   /            知识图谱首页与各图谱页面（web/ 构建到 public/app 的 SPA）
-//   /people/     人物关系 3D 图谱（旧首页，独立静态页）
+//   /            学习材料首页与各图谱页面（web/ 构建到 public/app 的 SPA）
+//   /people/     自由探索：任意人物 / 学习主题的 3D 时间图谱（旧首页，独立静态页）
 //   /media/...   图片等本地缓存的媒体（data/ 下）
 import path from 'node:path';
 import express from 'express';

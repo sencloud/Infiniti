@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Card, Drawer, Empty, Image, Segmented, Space, Spin, Tag, Tooltip, Typography, message } from 'antd'
+import { LeftOutlined, RightOutlined } from '@ant-design/icons'
 
 import {
   getArchiveEvidence,
@@ -14,6 +15,11 @@ import { displayText } from '@/utils/mathText'
 import VideoModal, { type VideoTarget } from './VideoModal'
 import './evidenceDrawer.css'
 
+export interface EvidenceStop {
+  recordId: string
+  claimId: string
+}
+
 interface Props {
   /** 单元 ch-003 或片段 s-003-07，后端都能定位到对应的单元 */
   recordId: string | null
@@ -21,6 +27,9 @@ interface Props {
   focusClaimId?: string | null
   /** 额外要标出的一段原文（语义星图里点中的片段） */
   highlightText?: string | null
+  /** 一段关系的全部依据（可跨单元）；给了就只在这些依据间「上一处 / 下一处」 */
+  trail?: EvidenceStop[] | null
+  onStep?: (stop: EvidenceStop) => void
   ontology?: Ontology | null
   onClose: () => void
 }
@@ -38,7 +47,7 @@ interface Span {
 }
 
 /** 把正文按证据区间切成普通段与高亮段；区间可能重叠，先按端点扫描再切 */
-function buildSegments(content: string, claims: ArchiveEvidenceClaim[], focusSpan: Span | null): Segment[] {
+function buildSegments(content: string, claims: ArchiveEvidenceClaim[], extra: Span[]): Segment[] {
   const spans: Span[] = claims
     .filter((claim) => claim.offset_valid)
     .map((claim) => ({
@@ -46,7 +55,7 @@ function buildSegments(content: string, claims: ArchiveEvidenceClaim[], focusSpa
       end: claim.evidence_end as number,
       claimId: claim.claim_id,
     }))
-  if (focusSpan) spans.push(focusSpan)
+  spans.push(...extra)
   if (!spans.length) return [{ text: content, claimIds: [], focus: false }]
 
   const boundaries = new Set<number>([0, content.length])
@@ -70,9 +79,24 @@ function buildSegments(content: string, claims: ArchiveEvidenceClaim[], focusSpa
   return segments
 }
 
+/** 模型摘录常用「……」省略中间，按首尾两段在正文里找出大致范围 */
+function approximateSpan(content: string, claim: ArchiveEvidenceClaim): Span | null {
+  const parts = (claim.evidence_text || '')
+    .split(/…+|\.{3,}/)
+    .map((part) => part.trim())
+    .filter((part) => part.length >= 4)
+  if (!parts.length) return null
+  const start = content.indexOf(parts[0])
+  if (start < 0) return null
+  const last = parts[parts.length - 1]
+  const lastAt = parts.length > 1 ? content.indexOf(last, start + parts[0].length) : -1
+  const end = lastAt >= 0 && lastAt - start < 2000 ? lastAt + last.length : start + parts[0].length
+  return { start, end, claimId: claim.claim_id }
+}
+
 type View = 'text' | 'claims' | 'pages'
 
-function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontology, onClose }: Props) {
+function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail, onStep, ontology, onClose }: Props) {
   const [data, setData] = useState<ArchiveEvidence | null>(null)
   const [loading, setLoading] = useState(false)
   const [activeClaimId, setActiveClaimId] = useState<string | null>(null)
@@ -100,7 +124,6 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
       .then((response) => {
         if (cancelled) return
         setData(response?.data || null)
-        setActiveClaimId(focusClaimId || null)
       })
       .catch((error: unknown) => {
         if (cancelled) return
@@ -109,7 +132,14 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
       })
       .finally(() => { if (!cancelled) setLoading(false) })
     return () => { cancelled = true }
-  }, [recordId, focusClaimId])
+  }, [recordId])
+
+  useEffect(() => {
+    setActiveClaimId(focusClaimId || null)
+  }, [focusClaimId, data])
+
+  const claims = useMemo(() => data?.claims || [], [data])
+  const activeClaim = claims.find((claim) => claim.claim_id === activeClaimId) || null
 
   const focusSpan = useMemo<Span | null>(() => {
     const text = highlightText || data?.focus_text
@@ -118,24 +148,40 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
     return start >= 0 ? { start, end: start + text.length } : null
   }, [data, highlightText])
 
-  const segments = useMemo(
-    () => (data ? buildSegments(data.content, data.claims, focusSpan) : []),
-    [data, focusSpan],
+  const approxSpan = useMemo(
+    () => (data && activeClaim && !activeClaim.offset_valid ? approximateSpan(data.content, activeClaim) : null),
+    [data, activeClaim],
   )
 
-  // 抽屉滑入动画期间 scrollIntoView 会被打断，延后并直接滚动正文容器
+  const segments = useMemo(
+    () => (data
+      ? buildSegments(data.content, data.claims, [focusSpan, approxSpan].filter(Boolean) as Span[])
+      : []),
+    [data, focusSpan, approxSpan],
+  )
+
+  // 抽屉滑入动画期间平滑滚动会被打断：新单元第一次定位用瞬时滚动，之后在同一单元里切换才平滑
+  const positionedFor = useRef<ArchiveEvidence | null>(null)
   useEffect(() => {
     const box = contentRef.current
     if (!box) return
     const timer = setTimeout(() => {
       const el = box.querySelector(activeClaimId ? '[data-active="1"]' : '[data-focus="1"]')
-      if (!el) return
+      const fresh = positionedFor.current !== data
+      positionedFor.current = data
+      if (!el) {
+        if (fresh) box.scrollTo({ top: 0 })
+        return
+      }
       const r = el.getBoundingClientRect()
       const br = box.getBoundingClientRect()
-      box.scrollTo({ top: box.scrollTop + r.top - br.top - (box.clientHeight - r.height) / 2, behavior: 'smooth' })
+      box.scrollTo({
+        top: box.scrollTop + r.top - br.top - (box.clientHeight - r.height) / 2,
+        behavior: fresh ? 'auto' : 'smooth',
+      })
     }, 350)
     return () => clearTimeout(timer)
-  }, [activeClaimId, segments, view])
+  }, [activeClaimId, segments, view, data])
 
   const pages = data?.pages || []
   const focusPage = data?.focus_page ?? null
@@ -148,8 +194,37 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
     return () => clearTimeout(timer)
   }, [view, focusPage])
 
-  const claims = data?.claims || []
   const unlocated = claims.filter((claim) => !claim.offset_valid).length
+
+  // 手机阅读器的「上一处 / 下一处」：有关系依据链就沿着它走（可跨单元），否则按原文顺序走本单元能高亮的证据
+  const located = useMemo(() => {
+    const seen = new Set<number>()
+    return claims
+      .filter((claim) => claim.offset_valid)
+      .sort((a, b) => (a.evidence_start as number) - (b.evidence_start as number))
+      .filter((claim) => {
+        const start = claim.evidence_start as number
+        if (seen.has(start)) return false
+        seen.add(start)
+        return true
+      })
+  }, [claims])
+  const useTrail = !!trail && trail.length > 1 && !!onStep
+  const stopCount = useTrail ? trail.length : located.length
+  const activeIndex = useTrail
+    ? trail.findIndex((stop) => stop.claimId === activeClaimId)
+    : activeClaim
+      ? located.findIndex((claim) => claim.evidence_start === activeClaim.evidence_start)
+      : -1
+  const step = (delta: number) => {
+    if (!stopCount) return
+    const next = activeIndex < 0
+      ? (delta > 0 ? 0 : stopCount - 1)
+      : (activeIndex + delta + stopCount) % stopCount
+    setView('text')
+    if (useTrail) onStep(trail[next])
+    else setActiveClaimId(located[next].claim_id)
+  }
 
   const pickClaim = (claimId: string) => {
     setActiveClaimId(claimId)
@@ -158,7 +233,20 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
 
   const textPane = (
     <div className="evd-text-pane">
-      {unlocated > 0 && (
+      {mobile && activeClaim && (
+        <div className="evd-context" aria-live="polite">
+          <div className="evd-context-rel">
+            <b>{displayText(activeClaim.subject.name)}</b>
+            <span>{predicateName(activeClaim.predicate)}</span>
+            <b>{displayText(activeClaim.object.name)}</b>
+          </div>
+          <div className="evd-context-meta">
+            {claimStatusLabel(activeClaim.status)} · 置信度 {Math.round((activeClaim.confidence || 0) * 100)}%
+            {!activeClaim.offset_valid && (approxSpan ? ' · 按摘录首尾定位' : ' · 原文中没有逐字对应')}
+          </div>
+        </div>
+      )}
+      {unlocated > 0 && !mobile && (
         <Typography.Paragraph type="secondary" style={{ fontSize: 12, marginBottom: 8 }}>
           {unlocated} 条事实的证据是模型概括的，原文中没有逐字对应，无法高亮。
         </Typography.Paragraph>
@@ -173,17 +261,21 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
             )
           }
           const isActive = !!activeClaimId && segment.claimIds.includes(activeClaimId)
-          return (
+          const mark = (
+            <mark
+              key={index}
+              data-claim={segment.claimIds[0]}
+              data-active={isActive ? '1' : undefined}
+              data-focus={segment.focus ? '1' : undefined}
+              onClick={() => setActiveClaimId(segment.claimIds[0])}
+              className={`evd-mark${isActive ? ' is-active' : ''}${segment.focus ? ' evd-focus' : ''}`}
+            >
+              {displayText(segment.text)}
+            </mark>
+          )
+          return mobile ? mark : (
             <Tooltip key={index} title={`${segment.claimIds.length} 条事实引用了这段原文，点击查看`}>
-              <mark
-                data-claim={segment.claimIds[0]}
-                data-active={isActive ? '1' : undefined}
-                data-focus={segment.focus ? '1' : undefined}
-                onClick={() => setActiveClaimId(segment.claimIds[0])}
-                className={`evd-mark${isActive ? ' is-active' : ''}${segment.focus ? ' evd-focus' : ''}`}
-              >
-                {displayText(segment.text)}
-              </mark>
+              {mark}
             </Tooltip>
           )
         })}
@@ -236,7 +328,7 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
 
   const viewOptions = [
     { label: '原文', value: 'text' },
-    ...(mobile ? [{ label: `事实 ${claims.length}`, value: 'claims' }] : []),
+    ...(mobile ? [{ label: `本${unitName}关系 ${claims.length}`, value: 'claims' }] : []),
     ...(pages.length ? [{ label: `教材原页 ${pages.length}`, value: 'pages' }] : []),
   ]
 
@@ -246,11 +338,27 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
       onClose={onClose}
       width={mobile ? '100%' : 1080}
       placement={mobile ? 'bottom' : 'right'}
-      height={mobile ? '92%' : undefined}
+      height={mobile ? '100%' : undefined}
       rootClassName="evd-drawer"
-      title={data ? `${data.archive_number || ''} ${data.title || ''}`.trim() : '原文'}
+      title={mobile && data ? (
+        <div className="evd-m-title">
+          {data.archive_number && !data.title?.startsWith(data.archive_number) && <small>{data.archive_number}</small>}
+          <span>{displayText(data.title || '')}</span>
+        </div>
+      ) : data ? `${data.archive_number || ''} ${data.title || ''}`.trim() : '原文'}
       extra={data?.url ? (
-        <Typography.Link href={data.url} target="_blank" rel="noreferrer">来源页面</Typography.Link>
+        <Typography.Link href={data.url} target="_blank" rel="noreferrer">{mobile ? '出处' : '来源页面'}</Typography.Link>
+      ) : null}
+      footer={mobile && stopCount > 0 && view === 'text' ? (
+        <div className="evd-stepper">
+          <button type="button" onClick={() => step(-1)} aria-label="上一处高亮">
+            <LeftOutlined /> 上一处
+          </button>
+          <span aria-live="polite">{activeIndex < 0 ? `共 ${stopCount} 处` : `${activeIndex + 1} / ${stopCount}`}</span>
+          <button type="button" className="main" onClick={() => step(1)} aria-label="下一处高亮">
+            下一处 <RightOutlined />
+          </button>
+        </div>
       ) : null}
     >
       <Spin spinning={loading}>
@@ -275,7 +383,7 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, ontolo
             )}
             {(viewOptions.length > 1) && (
               <div className="evd-switch">
-                <Segmented size="small" value={view} onChange={(v) => setView(v as View)} options={viewOptions} />
+                <Segmented size={mobile ? 'large' : 'small'} block={mobile} value={view} onChange={(v) => setView(v as View)} options={viewOptions} />
                 {focusPage != null && <span className="evd-page-hint">片段位于教材第 {focusPage} 页</span>}
               </div>
             )}

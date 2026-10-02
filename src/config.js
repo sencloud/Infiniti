@@ -4,7 +4,7 @@ import 'dotenv/config';
 
 const config = {
   // 网站监听端口
-  port: Number(process.env.PORT || 3000),
+  port: Number(process.env.PORT || 3100),
 
   // Neo4j 图数据库连接信息（与 docker-compose.yml 保持一致）
   neo4j: {

@@ -9,7 +9,7 @@
  */
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Input, Spin } from 'antd'
-import { SearchOutlined } from '@ant-design/icons'
+import { CloseOutlined, SearchOutlined } from '@ant-design/icons'
 
 import { searchKnowledgeGraphEntities, type EntitySearchItem } from '@/api/knowledge-graph'
 import { nodeColor } from '@/utils/graphStyle'
@@ -82,7 +82,7 @@ export default function QuickLocatePanel({
       <div className="inf-lp-head">
         <span className="inf-lp-dot" style={{ background: color }} />
         <h3>快速定位 · {current?.label}</h3>
-        <button type="button" className="inf-nc-close" onClick={onClose} title="关闭">✕</button>
+        <button type="button" className="inf-nc-close" onClick={onClose} title="关闭" aria-label="关闭"><CloseOutlined /></button>
       </div>
 
       {/* 库切换：与顶部下拉同源，面板内也能直接换库 */}

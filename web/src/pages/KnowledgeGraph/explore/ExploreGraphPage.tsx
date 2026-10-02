@@ -16,8 +16,13 @@ import { useSearchParams } from 'react-router-dom'
 import { Button, Dropdown, Segmented, message } from 'antd'
 import {
   AimOutlined,
+  CloseOutlined,
   CompassOutlined,
   DownOutlined,
+  ExpandOutlined,
+  FilterOutlined,
+  NodeIndexOutlined,
+  ReloadOutlined,
   SearchOutlined,
 } from '@ant-design/icons'
 
@@ -46,16 +51,17 @@ import FlowSankeyScene from './FlowSankeyScene'
 import AnalysisPanel, { type ExploreMode } from './AnalysisPanel'
 import { buildFlowAggregate, EMPTY_FLOW, type FlowSelection } from './flowAggregate'
 import { formatPropValue, propLabel, SKIPPED_PROPS } from './entityProps'
-import EvidenceHighlightDrawer from '@/components/EvidenceHighlightDrawer'
+import EvidenceHighlightDrawer, { type EvidenceStop } from '@/components/EvidenceHighlightDrawer'
 import RelationDetailDrawer from './RelationDetailDrawer'
 import QuickLocatePanel from './QuickLocatePanel'
 import NodeGallery from './NodeGallery'
+import MobileEntitySheet from './MobileEntitySheet'
 import VideoModal, { episodeTarget, episodesForChapters, useVideoCatalog, type VideoTarget } from '@/components/VideoModal'
 import { locateLibraries, type LocateLibrary } from './locateLibraries'
 import { activeProfile, unitLabel, unitRange } from '@/graph/profile'
 import { clusterPalette } from '@/theme/palette'
 import { useTheme } from '@/theme/ThemeProvider'
-import { isMobileNow } from '@/hooks/useIsMobile'
+import { isMobileNow, useIsMobile } from '@/hooks/useIsMobile'
 import '../tokens.css'
 import '../graph.css'
 import './explore.css'
@@ -68,6 +74,19 @@ type Graph3DHandle = import('./Graph3DCanvas').Graph3DHandle
 const BATCH_LIMIT = 120
 /** 画布节点总数软上限，超过后提示先清理再展开 */
 const MAX_NODES = 600
+
+const MODE_OPTIONS: { label: string; value: ExploreMode }[] = [
+  { label: '浏览', value: 'browse' },
+  { label: '路径探查', value: 'path' },
+  { label: '关联强度', value: 'strength' },
+  { label: '社区', value: 'community' },
+  { label: '时序', value: 'timeline' },
+  { label: '流转', value: 'flow' },
+  { label: '线索', value: 'clue' },
+]
+
+const parseMode = (raw: string | null): ExploreMode =>
+  MODE_OPTIONS.find((o) => o.value === raw)?.value ?? 'browse'
 
 /** 社区指纹 -> 稳定颜色（同一指纹每次进入页面颜色一致）；同一板块同色，跨板块桥接才看得出来 */
 function communityColor(key: string, colors: string[]): string {
@@ -131,14 +150,16 @@ function TimeHandle({ top, label, onDrag }: {
 }
 
 export default function ExploreGraphPage() {
-  const [searchParams] = useSearchParams()
+  const [searchParams, setSearchParams] = useSearchParams()
   const { theme } = useTheme()
+  const mobile = useIsMobile()
   const profile = activeProfile()
   const axisName = profile.unit.axis
   const searchHint = useMemo(() => {
+    if (mobile) return `搜${profile.ontology.entity_types.slice(0, 2).map((t) => t.name).join('、')}…`
     const names = profile.ontology.entity_types.slice(0, 4).map((t) => t.name).join('、')
     return `搜索${names}…${profile.examples?.search ? `（如 ${profile.examples.search}）` : ''}`
-  }, [profile])
+  }, [profile, mobile])
   const [data, setData] = useState<GraphData>({ nodes: [], edges: [] })
   // 探索中心（搜索锚点）：画布上放大高亮的节点
   const [centerId, setCenterId] = useState<string | null>(null)
@@ -170,7 +191,11 @@ export default function ExploreGraphPage() {
   // 抽屉里显示该回全文，并把本回事实的证据区间高亮 + 滚动定位
   const [entitySources, setEntitySources] = useState<EntitySource[]>([])
   const [sourcesLoading, setSourcesLoading] = useState(false)
-  const [evidenceTarget, setEvidenceTarget] = useState<{ recordId: string; claimId?: string } | null>(null)
+  const [evidenceTarget, setEvidenceTarget] = useState<{
+    recordId: string
+    claimId?: string
+    trail?: EvidenceStop[]
+  } | null>(null)
   // 关系详情抽屉（点边下钻）：聚合边 + 它背后的 Claim 实例 id 列表
   const [relationEdge, setRelationEdge] = useState<{
     edgeId: string
@@ -206,7 +231,16 @@ export default function ExploreGraphPage() {
   // browse 保持原来的纯浏览；其余模式把画布或右侧面板切成分析视图。
   // 时序模式会自动切换到 2D 场景：3D 的坐标是拓扑位置，没有时间方向，
   // 播放时节点只会飘动；2D 把横轴让给时间，演进才看得出来（见 Timeline2DScene）。
-  const [mode, setMode] = useState<ExploreMode>('browse')
+  // 模式记在地址栏（?mode=clue）：手机顶栏的「线索」直接链过来，也便于分享
+  const mode = parseMode(searchParams.get('mode'))
+  const setMode = useCallback((next: ExploreMode) => {
+    setSearchParams((prev) => {
+      const params = new URLSearchParams(prev)
+      if (next === 'browse') params.delete('mode')
+      else params.set('mode', next)
+      return params
+    }, { replace: true })
+  }, [setSearchParams])
   /** 边强度预计算（key `src::PRED::dst` -> 0-1 权重），强度模式下画线宽 */
   const [edgeWeights, setEdgeWeights] = useState<Record<string, number>>({})
   /** 实体 -> 社区指纹，社区模式下按社区上色 */
@@ -429,18 +463,15 @@ export default function ExploreGraphPage() {
     }
   }, [])
 
-  // 首次挂载：有深链直接以该实体为中心展开，否则加载概览图
+  // 首次挂载：有深链时交给下方 locateEntity 展开并打开详情，否则加载概览图
   useEffect(() => {
-    if (deepLinkId) {
-      jumpToEntity(deepLinkId)
-      return
-    }
+    if (deepLinkId) return
     getSemanticGraph({ limit: BATCH_LIMIT, min_confidence: 0 })
       .then((res) => {
         setData(res.data || { nodes: [], edges: [] })
         setBooted(true)
       })
-      .catch(() => message.error('加载知识图谱失败'))
+      .catch(() => message.error('加载关系图谱失败'))
       .finally(() => setLoading(false))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
@@ -482,6 +513,12 @@ export default function ExploreGraphPage() {
   // 单击 = 详情，右键 = 展开邻域，聚焦是详情卡上的显式动作。
   const handleNodeClick = useCallback(async (node: GraphNode) => {
     setSelected({ id: node.id, name: node.name, label: node.label, properties: node.properties })
+    // 手机上详情抽屉占掉下半屏，剩下的画布只够看清一圈邻居：选中即聚焦，等画布让位后重新取景
+    if (isMobileNow()) {
+      setFocusId(node.id)
+      void expandNode(node.id, true)
+      setTimeout(() => canvasRef.current?.resetView(), 450)
+    }
     // 来源档案列表：详情卡「来源档案」区数据（下钻入口）
     setEntitySources([])
     setSourcesLoading(true)
@@ -496,7 +533,7 @@ export default function ExploreGraphPage() {
         ? { id: node.id, name: node.name, label: node.label, properties: res.data || node.properties }
         : cur))
     } catch { /* 保持画布属性 */ }
-  }, [])
+  }, [expandNode])
 
   /**
    * 聚焦某实体：只显示它与直接邻居，相机飞过去。
@@ -601,18 +638,20 @@ export default function ExploreGraphPage() {
     [data.edges],
   )
 
-  // 详情卡直接关系清单（最多 8 条，与 Infiniti 一致）
+  // 详情卡直接关系清单：桌面卡片最多 8 条（与 Infiniti 一致），手机抽屉按原文依据多少排序列全
   const selectedRelations = useMemo(() => {
     if (!selected) return []
-    return data.edges
-      .filter((e) => e.source === selected.id || e.target === selected.id)
-      .slice(0, 8)
+    const edges = data.edges.filter((e) => edgeEndId(e.source) === selected.id || edgeEndId(e.target) === selected.id)
+    const picked = mobile
+      ? [...edges].sort((a, b) => (b.claim_ids?.length || 0) - (a.claim_ids?.length || 0))
+      : edges.slice(0, 8)
+    return picked
       .map((e) => {
-        const otherId = e.source === selected.id ? e.target : e.source
-        const other = data.nodes.find((n) => n.id === otherId)
+        const otherId = edgeEndId(e.source) === selected.id ? edgeEndId(e.target) : edgeEndId(e.source)
+        const other = nodeById.get(otherId)
         return { edge: e, otherName: other?.name || otherId, otherLabel: other?.label || '' }
       })
-  }, [data, selected])
+  }, [data, selected, mobile, nodeById])
 
   const relationOf = (edge: GraphEdge) => edge.label || relationLabel(edge.type)
 
@@ -622,6 +661,16 @@ export default function ExploreGraphPage() {
     const node = next?.nodes.find((n) => n.id === entityId)
     if (node) handleNodeClick(node)
   }, [jumpToEntity, handleNodeClick])
+
+  useEffect(() => {
+    if (deepLinkId) locateEntity(deepLinkId)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  const submitSearch = () => {
+    if (searchItems[0]) locateEntity(searchItems[0].entity_id)
+    else if (keyword.trim()) jumpToEntity(keyword.trim())
+  }
 
   /**
    * 面板里点实体名：先切回浏览模式再定位。
@@ -642,7 +691,7 @@ export default function ExploreGraphPage() {
 
   // ---------------- 渲染 ----------------
   return (
-    <div className={`kg-explore-page inf-page ${locateLib ? 'has-locate' : ''} ${mode !== 'browse' ? 'has-panel' : ''}`}>
+    <div className={`kg-explore-page inf-page ${locateLib ? 'has-locate' : ''} ${mode !== 'browse' ? 'has-panel' : ''} ${relationEdge || evidenceTarget ? 'has-drill' : ''}`}>
       {/* 画布：全屏铺底。Suspense 内为懒加载的 three.js + 图库 chunk */}
       <div className="inf-canvas-wrap">
         {/* 时序模式自动切到 2D 场景：时间必须占一条轴，3D 的拓扑布局表达不了演进 */}
@@ -695,7 +744,7 @@ export default function ExploreGraphPage() {
         {!loading && !booted && data.nodes.length === 0 && (
           <div className="inf-welcome">
             <h1>关系<b>探索</b></h1>
-            <p className="inf-tagline">搜索实体，以其为中心展开语义图谱</p>
+            <p className="inf-tagline">搜一个人物或概念，看清它和谁、和什么有关</p>
           </div>
         )}
       </div>
@@ -707,13 +756,16 @@ export default function ExploreGraphPage() {
           <input
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
+            onKeyDown={(e) => { if (e.key === 'Enter') submitSearch() }}
             placeholder={searchHint}
+            aria-label="搜索条目"
+            enterKeyHint="search"
             autoComplete="off"
           />
           <button
             type="button"
             className="inf-search-go"
-            onClick={() => keyword.trim() && jumpToEntity(keyword.trim())}
+            onClick={submitSearch}
             disabled={!keyword.trim()}
           >
             探索
@@ -727,7 +779,7 @@ export default function ExploreGraphPage() {
               <div
                 key={item.entity_id}
                 className="inf-drop-item"
-                onClick={() => jumpToEntity(item.entity_id)}
+                onClick={() => { setKeyword(''); locateEntity(item.entity_id) }}
               >
                 <div>
                   <div className="inf-drop-name">{item.canonical_name}</div>
@@ -744,32 +796,58 @@ export default function ExploreGraphPage() {
 
       {/* 聚焦提示条（Infiniti 的 focus-bar） */}
       {/* 分析模式切换：从"看图"进入"找线索"。时序模式会自动切到 2D 场景 */}
-      <div className="inf-mode-bar">
-        <Segmented
-          size="small"
-          value={mode}
-          onChange={(value) => setMode(value as ExploreMode)}
-          options={[
-            { label: '浏览', value: 'browse' },
-            { label: '路径探查', value: 'path' },
-            { label: '关联强度', value: 'strength' },
-            { label: '社区', value: 'community' },
-            { label: '时序', value: 'timeline' },
-            { label: '流转', value: 'flow' },
-            { label: '线索', value: 'clue' },
-          ]}
-        />
-      </div>
+      {!mobile && (
+        <div className="inf-mode-bar">
+          <Segmented
+            size="small"
+            value={mode}
+            onChange={(value) => setMode(value as ExploreMode)}
+            options={MODE_OPTIONS}
+          />
+        </div>
+      )}
 
       {focusNode && (
         <div className="inf-focus-bar">
-          <span>◉ 聚焦 <b>{focusNode.name}</b> · 只显示其关系网络</span>
+          <span><AimOutlined /> 聚焦 <b>{focusNode.name}</b> · 只显示其关系网络</span>
           <button type="button" onClick={() => setFocusId(null)}>退出</button>
         </div>
       )}
 
       {/* 详情卡（Infiniti 的 node-card）：点击点右侧，这里固定右上 */}
-      {selected && (
+      {selected && mobile && (
+        <MobileEntitySheet
+          entity={selected}
+          relations={selectedRelations}
+          relationOf={relationOf}
+          sources={entitySources}
+          sourcesLoading={sourcesLoading}
+          axisName={axisName}
+          media={selectedMedia}
+          videos={selectedEpisodes.length > 0 && videoCatalog?.source ? (
+            <div className="inf-nc-videos">
+              <div className="inf-nc-sec-title">{videoCatalog.source.title}</div>
+              <div className="ep-chips">
+                {selectedEpisodes.slice(0, 8).map((ep) => (
+                  <button type="button" key={ep.ep} className="ep-chip" onClick={() => setVideo(episodeTarget(videoCatalog, ep))}>
+                    第{ep.ep}集 {ep.title}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : null}
+          focused={focusId === selected.id}
+          onFocus={() => focusOn(selected.id)}
+          onClose={() => {
+            setSelected(null)
+            setFocusId(null)
+          }}
+          onOpenRelation={handleLinkClick}
+          onOpenSource={(recordId) => setEvidenceTarget({ recordId })}
+        />
+      )}
+
+      {selected && !mobile && (
         <div className="inf-node-card">
           <div className="inf-nc-head">
             <h3>{selected.name}</h3>
@@ -782,7 +860,7 @@ export default function ExploreGraphPage() {
             >
               {nodeLabel(selected.label)}
             </span>
-            <button type="button" className="inf-nc-close" onClick={() => setSelected(null)}>✕</button>
+            <button type="button" className="inf-nc-close" onClick={() => setSelected(null)} aria-label="关闭"><CloseOutlined /></button>
           </div>
           <div className="inf-nc-body">
             {selectedMedia?.thumb_url && <NodeGallery name={selected.name} media={selectedMedia} />}
@@ -876,6 +954,8 @@ export default function ExploreGraphPage() {
       <EvidenceHighlightDrawer
         recordId={evidenceTarget?.recordId || null}
         focusClaimId={evidenceTarget?.claimId || null}
+        trail={evidenceTarget?.trail}
+        onStep={(stop) => setEvidenceTarget((prev) => (prev ? { ...prev, ...stop } : prev))}
         ontology={ontology}
         onClose={() => setEvidenceTarget(null)}
       />
@@ -888,13 +968,13 @@ export default function ExploreGraphPage() {
         objectName={relationEdge?.objectName || ''}
         claimIds={relationEdge?.claimIds || []}
         ontology={ontology}
-        onOpenEvidence={(recordId, claimId) => setEvidenceTarget({ recordId, claimId })}
+        onOpenEvidence={(recordId, claimId, trail) => setEvidenceTarget({ recordId, claimId, trail })}
         onClose={() => setRelationEdge(null)}
       />
 
       {/* 左下图例（Infiniti 的 legend-tip）：类型 + 谓词开关 */}
       <div className="inf-legend-tip">
-        <button type="button" className="inf-lt-btn">◉ 图例 · 过滤</button>
+        <button type="button" className="inf-lt-btn"><FilterOutlined /> 图例 · 过滤</button>
         <div className="inf-lt-body">
           <h5>实体类型</h5>
           <div className="inf-lg-grid">
@@ -983,8 +1063,9 @@ export default function ExploreGraphPage() {
               className="inf-ta-reset inf-ta-close"
               onClick={toggleTimeAxis}
               title="收起到图例"
+              aria-label="收起到图例"
             >
-              ✕
+              <CloseOutlined />
             </button>
           </div>
 
@@ -1039,11 +1120,19 @@ export default function ExploreGraphPage() {
               <button
                 type="button"
                 title="重置视图：松开钉住的节点、退出聚焦与详情，再回到全图视角"
+                aria-label="重置视图"
                 onClick={handleResetView}
               >
-                ⟲
+                <ReloadOutlined />
               </button>
-              <button type="button" title="回到全图视角" onClick={() => canvasRef.current?.resetView()}>◎</button>
+              <button
+                type="button"
+                title="回到全图视角"
+                aria-label="回到全图视角"
+                onClick={() => canvasRef.current?.resetView()}
+              >
+                <ExpandOutlined />
+              </button>
             </>
           )}
         </div>
@@ -1063,10 +1152,28 @@ export default function ExploreGraphPage() {
             onClick: ({ key }) => setLocateLib(key as LocateLibrary),
           }}
         >
-          <Button icon={<CompassOutlined />} type={locateLib ? 'primary' : 'default'}>
-            快速定位 <DownOutlined style={{ fontSize: 10 }} />
+          <Button icon={<CompassOutlined />} type={locateLib ? 'primary' : 'default'} aria-label="快速定位">
+            {mobile ? '定位' : <>快速定位 <DownOutlined style={{ fontSize: 10 }} /></>}
           </Button>
         </Dropdown>
+        {mobile && (
+          <Dropdown
+            trigger={['click']}
+            menu={{
+              items: MODE_OPTIONS.filter((o) => o.value !== 'clue').map((o) => ({ key: o.value, label: o.label })),
+              selectedKeys: [mode],
+              onClick: ({ key }) => setMode(key as ExploreMode),
+            }}
+          >
+            <Button
+              icon={<NodeIndexOutlined />}
+              type={mode !== 'browse' && mode !== 'clue' ? 'primary' : 'default'}
+              aria-label="分析视图"
+            >
+              分析
+            </Button>
+          </Dropdown>
+        )}
       </div>
 
       {/* 快速定位面板（右侧）：按库列出实体，点选即以其为中心展开关系。

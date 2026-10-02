@@ -14,6 +14,7 @@
  */
 import { useCallback, useEffect, useMemo, useRef } from 'react'
 import * as echarts from 'echarts'
+import { CloseOutlined } from '@ant-design/icons'
 
 import { nodeColor, relationLabel } from '@/utils/graphStyle'
 import { palette } from '@/theme/palette'
@@ -255,7 +256,7 @@ export default function FlowSankeyScene({
 
       {!empty && selection && (
         <button type="button" className="flow-sankey-clear" onClick={reset}>
-          ✕ 取消高亮
+          <CloseOutlined /> 取消高亮
         </button>
       )}
     </div>

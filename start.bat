@@ -10,12 +10,17 @@ echo.
 
 :: ---------- 前置检查 ----------
 
-:: 1. 检查依赖（node_modules 不存在则 npm install）
+:: 1. 检查依赖（node_modules 不存在则 npm install）；前端构建产物不入库，没有则构建
 if not exist "node_modules\" (
     echo [1/5] First run: installing dependencies...
     call npm install || goto :fail
 ) else (
     echo [1/5] Dependencies OK.
+)
+if not exist "public\app\index.html" (
+    echo       First run: building web frontend...
+    call npm --prefix web install || goto :fail
+    call npm run web:build || goto :fail
 )
 
 :: 2. 检查 .env（没有则从模板复制并提示填 key）

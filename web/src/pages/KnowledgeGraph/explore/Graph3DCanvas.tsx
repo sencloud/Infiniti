@@ -585,6 +585,7 @@ export default function Graph3DCanvas({
     hiddenPredicates,
     focusNeighbors,
     focusId,
+    focusStar: mobile,
     timeDim,
     yearLo,
     yearHi,

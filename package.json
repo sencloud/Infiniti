@@ -1,7 +1,13 @@
 {
   "name": "infiniti",
   "version": "0.1.0",
-  "description": "无限连接 - 自动构建的人际关系知识图谱（爬虫 + DeepSeek + Neo4j + 力导向图）",
+  "description": "无限连接 - 关系式学习助手：AI 通读书籍、教材与资料，构建可溯源到原文的关系图谱，辅助阅读、学习与备考（DeepSeek + Neo4j + Three.js）",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sencloud/Infiniti.git"
+  },
+  "homepage": "https://github.com/sencloud/Infiniti#readme",
+  "keywords": ["learning", "education", "reading", "exam-prep", "knowledge-graph", "llm", "deepseek", "neo4j", "threejs", "chinese-classics"],
   "type": "module",
   "main": "src/server.js",
   "scripts": {
@@ -15,6 +21,7 @@
     "kg:extract": "node src/scripts/kg/extract.js",
     "kg:load": "node src/scripts/kg/load.js",
     "kg:build": "node src/scripts/kg/build.js",
+    "kg:restore": "node src/scripts/kg/restore.js",
     "shuihu:all": "node src/scripts/kg/run.js shuihu",
     "shuihu:load": "node src/scripts/kg/load.js shuihu",
     "shuihu:build": "node src/scripts/kg/build.js shuihu",
@@ -26,7 +33,7 @@
     "web:dev": "npm --prefix web run dev",
     "web:build": "npm --prefix web run build"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@huggingface/transformers": "^4.3.0",
     "@node-rs/jieba": "^2.0.3",

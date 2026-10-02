@@ -674,7 +674,7 @@ function rebuildMeshes() {
 function setCenter(key) {
   centerKey = key;
   const n = nodeMap.get(key);
-  document.getElementById('brandSub').textContent = n ? `探索 · ${n.name}` : 'INFINITI · TEMPORAL GRAPH';
+  document.getElementById('brandSub').textContent = n ? `探索 · ${n.name}` : 'INFINITI · 自由探索';
 }
 
 /* ================= 主题切换（v5）：按钮 + 3D 换装 =================

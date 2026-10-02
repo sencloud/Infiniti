@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T16:20:00+08:00",
+  "title": "Design System: 无限连接 INFINITI",
+  "extensions": {
+    "colorMeta": {
+      "vermilion": { "role": "primary", "displayName": "Seal Vermilion", "canonical": "#b23a26", "dark": "#d96a4f", "cssVar": "--accent", "tonalRamp": ["#3a120b", "#5c1d12", "#842a1b", "#b23a26", "#cf5a44", "#e2897a", "#f0bcb2", "#faeae6"] },
+      "vermilion-soft": { "role": "primary", "displayName": "Vermilion Soft", "canonical": "rgba(178, 58, 38, 0.07)", "dark": "rgba(217, 106, 79, 0.12)", "cssVar": "--accent-soft" },
+      "vermilion-wash": { "role": "primary", "displayName": "Vermilion Wash", "canonical": "rgba(178, 58, 38, 0.14)", "dark": "rgba(217, 106, 79, 0.2)", "cssVar": "--accent-wash" },
+      "vermilion-line": { "role": "primary", "displayName": "Vermilion Line", "canonical": "rgba(178, 58, 38, 0.35)", "dark": "rgba(217, 106, 79, 0.45)", "cssVar": "--accent-line" },
+      "on-vermilion": { "role": "primary", "displayName": "On Vermilion", "canonical": "#ffffff", "dark": "#1a110e", "cssVar": "--accent-ink" },
+      "indigo": { "role": "secondary", "displayName": "Study Indigo", "canonical": "#3c5a78", "dark": "#8fb0d4", "cssVar": "--indigo", "tonalRamp": ["#131d27", "#1f2f3f", "#2c4359", "#3c5a78", "#5a7a9a", "#8fa9c2", "#c3d2e0", "#ecf1f6"] },
+      "indigo-wash": { "role": "secondary", "displayName": "Indigo Wash", "canonical": "rgba(60, 90, 120, 0.1)", "dark": "rgba(143, 176, 212, 0.14)", "cssVar": "--indigo-wash" },
+      "gold": { "role": "tertiary", "displayName": "Highlighter Gold", "canonical": "#a87614", "dark": "#d4a53f", "cssVar": "--gold", "tonalRamp": ["#352506", "#553b0a", "#7c560f", "#a87614", "#c99632", "#ddb96b", "#eed8a8", "#faf2df"] },
+      "pine": { "role": "tertiary", "displayName": "Pine", "canonical": "#2f7d5d", "dark": "#5cb98c", "cssVar": "--green", "tonalRamp": ["#0e271d", "#16402f", "#215d45", "#2f7d5d", "#4f9d7c", "#86c1a7", "#bfdfd1", "#ebf6f1"] },
+      "mark": { "role": "tertiary", "displayName": "Highlight Mark", "canonical": "rgba(214, 170, 60, 0.28)", "dark": "rgba(212, 165, 63, 0.22)", "cssVar": "--mark" },
+      "mark-strong": { "role": "tertiary", "displayName": "Current Passage Mark", "canonical": "rgba(214, 150, 40, 0.5)", "dark": "rgba(212, 165, 63, 0.42)", "cssVar": "--mark-strong" },
+      "rice-paper": { "role": "neutral", "displayName": "Rice Paper", "canonical": "#f4f2ec", "dark": "#14181f", "cssVar": "--bg", "tonalRamp": ["#2a2822", "#4a4740", "#77736a", "#a5a196", "#cbc7bc", "#e3e0d7", "#f4f2ec", "#fbfaf7"] },
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#fdfcf9", "dark": "#1a1f28", "cssVar": "--paper / --panel-solid" },
+      "paper-2": { "role": "neutral", "displayName": "Paper 2", "canonical": "#f9f7f1", "dark": "#181c24", "cssVar": "--paper-2" },
+      "panel": { "role": "neutral", "displayName": "Translucent Panel", "canonical": "rgba(253, 252, 249, 0.96)", "dark": "rgba(22, 26, 34, 0.96)", "cssVar": "--panel" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#272c34", "dark": "#e8eaef", "cssVar": "--ink", "tonalRamp": ["#15181d", "#272c34", "#3f4651", "#5b6472", "#8d95a2", "#b7bdc6", "#dde0e5", "#f3f4f6"] },
+      "ink-2": { "role": "neutral", "displayName": "Ink 2 (meta text)", "canonical": "#5b6472", "dark": "#a4adbb", "cssVar": "--ink-2" },
+      "ink-3": { "role": "neutral", "displayName": "Ink 3 (placeholder / disabled only)", "canonical": "#8d95a2", "dark": "#667080", "cssVar": "--ink-3" },
+      "rule": { "role": "neutral", "displayName": "Rule", "canonical": "rgba(39, 44, 52, 0.13)", "dark": "rgba(232, 234, 239, 0.14)", "cssVar": "--rule" },
+      "rule-2": { "role": "neutral", "displayName": "Rule 2", "canonical": "rgba(39, 44, 52, 0.07)", "dark": "rgba(232, 234, 239, 0.07)", "cssVar": "--rule-2" },
+      "well": { "role": "neutral", "displayName": "Well", "canonical": "rgba(39, 44, 52, 0.045)", "dark": "rgba(232, 234, 239, 0.05)", "cssVar": "--well" },
+      "cloth-literature": { "role": "neutral", "displayName": "Indigo Book Cloth", "canonical": "#3c5a78" },
+      "cloth-classics": { "role": "neutral", "displayName": "Umber Book Cloth", "canonical": "#6b4a2b" },
+      "cloth-subject": { "role": "neutral", "displayName": "Celadon Book Cloth", "canonical": "#2f6d5a" },
+      "cloth-people": { "role": "neutral", "displayName": "Cinnabar Book Cloth", "canonical": "#8a2f20" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Home hero only; 34px on mobile, left-aligned, one vermilion phrase." },
+      "headline": { "displayName": "Headline", "purpose": "Section heads, bottom-sheet entity name (24px), mobile top-bar title (19px)." },
+      "title": { "displayName": "Title", "purpose": "Card, shelf and row titles; reader relation pair; drawer titles." },
+      "reading": { "displayName": "Reading", "purpose": "Original-text pages (15px/1.95 desktop). Quoted evidence uses serif 15-16px at 1.75-1.8." },
+      "body": { "displayName": "Body", "purpose": "Taglines, prompts, list names; inputs 16px on mobile." },
+      "label": { "displayName": "Label", "purpose": "Meta, counts, confidence, chapter hints; always ink-2 or darker." },
+      "numeric": { "displayName": "Numeric", "purpose": "Counts and stepper positions with tabular figures, ink 600 next to an ink-2 unit." }
+    },
+    "shadows": [
+      { "name": "shadow-1", "value": "0 2px 10px rgba(39, 44, 52, 0.08), 0 12px 36px rgba(39, 44, 52, 0.1)", "dark": "0 2px 10px rgba(0, 0, 0, 0.3), 0 12px 36px rgba(0, 0, 0, 0.35)", "purpose": "Rest: cards, search, shelf books." },
+      { "name": "shadow-2", "value": "0 4px 16px rgba(39, 44, 52, 0.12), 0 20px 52px rgba(39, 44, 52, 0.14)", "dark": "0 4px 16px rgba(0, 0, 0, 0.4), 0 20px 52px rgba(0, 0, 0, 0.45)", "purpose": "Raised: hovered cards, focused search, dropdowns." },
+      { "name": "sheet", "value": "0 -6px 18px rgba(20, 24, 31, 0.08), 0 -18px 48px rgba(20, 24, 31, 0.12)", "purpose": "Mobile bottom sheets over the graph canvas." },
+      { "name": "segment-lift", "value": "0 1px 3px rgba(20, 24, 31, 0.12)", "purpose": "Active item in a segmented control." },
+      { "name": "hairline", "value": "0 1px 2px rgba(20, 24, 31, 0.05)", "purpose": "Reader relation context card." }
+    ],
+    "motion": [
+      { "name": "state", "value": "0.15s ease", "purpose": "Colour, border and opacity changes on hover/focus." },
+      { "name": "theme", "value": "0.25s", "purpose": "Background/colour cross-fade when switching light/dark." },
+      { "name": "sheet-in", "value": "0.32s cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Bottom sheet entry: translateY(40%) to 0, opacity 0.6 to 1." },
+      { "name": "panel-slide", "value": "transform 0.25s ease", "purpose": "Galaxy cluster sheet slides from translateY(105%)." },
+      { "name": "press", "value": "transform 0.12s; scale(0.97-0.98)", "purpose": "Touch press feedback on books and stepper buttons." },
+      { "name": "lift", "value": "translateY(-1px | -2px)", "purpose": "Desktop hover lift on primary button and cards." }
+    ],
+    "breakpoints": [
+      { "name": "phone-narrow", "value": "420px" },
+      { "name": "mobile", "value": "768px" },
+      { "name": "desktop-compact", "value": "1100px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single vermilion action per view (搜索, 看知识网, 下一处).",
+      "html": "<button class=\"ds-btn-primary\">看知识网</button>",
+      "css": ".ds-btn-primary { font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; font-size: 14px; padding: 10px 14px; min-height: 44px; border: none; border-radius: 8px; background: var(--accent, #b23a26); color: var(--accent-ink, #fff); cursor: pointer; transition: opacity 0.15s, transform 0.1s; } .ds-btn-primary:hover { opacity: 0.88; transform: translateY(-1px); } .ds-btn-primary:active { transform: scale(0.98); } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent, #b23a26); outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action; turns vermilion on hover.",
+      "html": "<button class=\"ds-btn-ghost\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M15 18l-6-6 6-6\"/></svg>上一处</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; gap: 8px; font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; font-size: 15px; padding: 0 16px; min-height: 44px; border: 1px solid var(--rule, rgba(39,44,52,0.13)); border-radius: 8px; background: var(--panel, rgba(253,252,249,0.96)); color: var(--ink-2, #5b6472); cursor: pointer; transition: border-color 0.15s, color 0.15s; } .ds-btn-ghost:hover { border-color: var(--accent, #b23a26); color: var(--accent, #b23a26); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--accent, #b23a26); outline-offset: 2px; }"
+    },
+    {
+      "name": "Evidence Button",
+      "kind": "button",
+      "refersTo": "button-evidence",
+      "description": "看原文: always opens the source passage for a relation.",
+      "html": "<button class=\"ds-btn-evidence\">看原文<svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M9 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-evidence { display: inline-flex; align-items: center; gap: 2px; font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; font-size: 13px; padding: 7px 8px 7px 11px; min-height: 36px; border-radius: 8px; border: 1px solid var(--accent-line, rgba(178,58,38,0.35)); background: var(--accent-soft, rgba(178,58,38,0.07)); color: var(--accent, #b23a26); cursor: pointer; transition: background 0.15s; } .ds-btn-evidence:hover, .ds-btn-evidence:active { background: var(--accent-wash, rgba(178,58,38,0.14)); } .ds-btn-evidence:focus-visible { outline: 2px solid var(--accent, #b23a26); outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Home and canvas search; vermilion border and raised shadow on focus.",
+      "html": "<label class=\"ds-search\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"M20 20l-3.5-3.5\"/></svg><input placeholder=\"搜人物、概念或知识点\" /></label>",
+      "css": ".ds-search { display: flex; align-items: center; gap: 8px; min-height: 50px; padding: 0 14px; background: var(--panel, rgba(253,252,249,0.96)); border: 1px solid var(--rule, rgba(39,44,52,0.13)); border-radius: 12px; box-shadow: var(--shadow-1, 0 2px 10px rgba(39,44,52,0.08), 0 12px 36px rgba(39,44,52,0.1)); transition: border-color 0.15s, box-shadow 0.15s; } .ds-search svg { flex-shrink: 0; color: var(--ink-3, #8d95a2); } .ds-search input { flex: 1; min-width: 0; border: none; outline: none; background: transparent; font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; font-size: 16px; padding: 13px 0; color: var(--ink, #272c34); } .ds-search input::placeholder { color: var(--ink-3, #8d95a2); } .ds-search:focus-within { border-color: var(--accent, #b23a26); box-shadow: var(--shadow-2, 0 4px 16px rgba(39,44,52,0.12), 0 20px 52px rgba(39,44,52,0.14)); }"
+    },
+    {
+      "name": "Mobile Segmented Nav",
+      "kind": "nav",
+      "refersTo": "segmented",
+      "description": "关系 / 星图 / 线索 switch under the mobile top bar.",
+      "html": "<nav class=\"ds-seg\"><a class=\"on\" href=\"#\">关系</a><a href=\"#\">星图</a><a href=\"#\">线索</a></nav>",
+      "css": ".ds-seg { display: grid; grid-template-columns: repeat(3, 1fr); padding: 3px; border-radius: 11px; background: var(--well, rgba(39,44,52,0.045)); border: 1px solid var(--rule, rgba(39,44,52,0.13)); } .ds-seg a { display: grid; place-items: center; height: 36px; border-radius: 8px; font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; font-size: 15px; letter-spacing: 0.2em; padding-left: 0.2em; color: var(--ink-2, #5b6472); text-decoration: none; transition: background 0.15s, color 0.15s; } .ds-seg a:hover { color: var(--ink, #272c34); } .ds-seg a.on { background: var(--panel-solid, #fdfcf9); color: var(--accent, #b23a26); font-weight: 600; box-shadow: 0 1px 3px rgba(20,24,31,0.12); } .ds-seg a:focus-visible { outline: 2px solid var(--accent, #b23a26); outline-offset: 1px; }"
+    },
+    {
+      "name": "Relation Tag",
+      "kind": "chip",
+      "refersTo": "relation-tag",
+      "description": "Relation type (亲属, 主仆, 归属) next to an entity name.",
+      "html": "<span class=\"ds-rel\"><b>王夫人</b><em>亲属</em></span>",
+      "css": ".ds-rel { display: inline-flex; align-items: baseline; gap: 8px; font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; } .ds-rel b { font-size: 16px; font-weight: 600; color: var(--ink, #272c34); } .ds-rel em { font-style: normal; font-size: 12px; padding: 2px 6px; border-radius: 4px; color: var(--accent, #b23a26); background: var(--accent-soft, rgba(178,58,38,0.07)); }"
+    },
+    {
+      "name": "Shelf Book",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Scroll-snap bookshelf item on mobile home; thread-bound cloth cover with a vertical title slip when no image exists.",
+      "html": "<a class=\"ds-book\" href=\"#\"><div class=\"ds-cover\"><span>红楼梦</span></div><div class=\"ds-book-info\"><h3>红楼梦</h3><span>120 回 · 1,056 条目</span></div></a>",
+      "css": ".ds-book { display: block; width: 128px; text-decoration: none; color: var(--ink, #272c34); background: var(--panel, rgba(253,252,249,0.96)); border: 1px solid var(--rule, rgba(39,44,52,0.13)); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow-1, 0 2px 10px rgba(39,44,52,0.08), 0 12px 36px rgba(39,44,52,0.1)); transition: transform 0.12s; } .ds-book:active { transform: scale(0.97); } .ds-book:focus-visible { outline: 2px solid var(--accent, #b23a26); outline-offset: 2px; } .ds-cover { height: 158px; display: flex; justify-content: flex-end; padding: 12px 12px 0 0; background: #3c5a78; box-shadow: inset 6px 0 0 rgba(0,0,0,0.12); border-bottom: 1px solid var(--rule, rgba(39,44,52,0.13)); } .ds-cover span { writing-mode: vertical-rl; align-self: flex-start; font-family: Georgia, 'Songti SC', 'STSong', 'SimSun', serif; font-size: 15px; font-weight: 700; letter-spacing: 2px; color: #272c34; background: #f4f2ec; padding: 8px 4px; border: 1px solid rgba(0,0,0,0.15); } .ds-book-info { padding: 9px 10px 11px; } .ds-book-info h3 { margin: 0 0 3px; font-family: Georgia, 'Songti SC', 'STSong', 'SimSun', serif; font-size: 16px; letter-spacing: 0.06em; } .ds-book-info span { font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; font-size: 12px; color: var(--ink-2, #5b6472); font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Bottom Sheet Row",
+      "kind": "custom",
+      "refersTo": "bottom-sheet",
+      "description": "Entity sheet list row: type dot, name + relation tag, evidence count, 看原文.",
+      "html": "<div class=\"ds-sheet\"><div class=\"ds-grip\"></div><h2>贾宝玉</h2><button class=\"ds-row\"><i></i><span class=\"ds-row-main\"><b>袭人 <em>主仆</em></b><small>91 条原文依据</small></span><span class=\"ds-row-go\">看原文</span></button></div>",
+      "css": ".ds-sheet { background: var(--panel-solid, #fdfcf9); border-top: 1px solid var(--rule, rgba(39,44,52,0.13)); border-radius: 18px 18px 0 0; box-shadow: 0 -6px 18px rgba(20,24,31,0.08), 0 -18px 48px rgba(20,24,31,0.12); padding-bottom: 8px; } .ds-grip { width: 38px; height: 4px; border-radius: 2px; background: var(--rule, rgba(39,44,52,0.13)); margin: 9px auto 10px; } .ds-sheet h2 { margin: 0 18px 10px; font-family: Georgia, 'Songti SC', 'STSong', 'SimSun', serif; font-size: 24px; font-weight: 700; letter-spacing: 0.06em; color: var(--ink, #272c34); } .ds-row { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 62px; padding: 10px 14px 10px 18px; border: none; border-top: 1px solid var(--rule-2, rgba(39,44,52,0.07)); background: none; text-align: left; cursor: pointer; font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; color: var(--ink, #272c34); } .ds-row:active { background: var(--accent-soft, rgba(178,58,38,0.07)); } .ds-row:focus-visible { outline: 2px solid var(--accent, #b23a26); outline-offset: -2px; } .ds-row i { flex: none; width: 9px; height: 9px; border-radius: 50%; background: #3c5a78; } .ds-row-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; } .ds-row-main b { font-size: 16px; font-weight: 600; } .ds-row-main em { font-style: normal; font-weight: 400; font-size: 12px; margin-left: 8px; padding: 2px 6px; border-radius: 4px; color: var(--accent, #b23a26); background: var(--accent-soft, rgba(178,58,38,0.07)); } .ds-row-main small { font-size: 13px; color: var(--ink-2, #5b6472); } .ds-row-go { flex: none; font-size: 13px; padding: 7px 11px; border-radius: 8px; color: var(--accent, #b23a26); border: 1px solid var(--accent-line, rgba(178,58,38,0.35)); background: var(--accent-soft, rgba(178,58,38,0.07)); }"
+    },
+    {
+      "name": "Reader Page",
+      "kind": "custom",
+      "refersTo": "reader-page",
+      "description": "Original-text page with supporting marks, the current passage and the focused entity underline.",
+      "html": "<div class=\"ds-reader\">这政老爹的夫人王氏，<mark>头胎生的公子，名唤贾珠</mark>……<mark class=\"on\">不想后来又生了一位公子</mark>，说来更奇，一落胎胞，嘴里便衔下一块五彩晶莹的玉来，就取名叫作<span class=\"focus\">宝玉</span>。</div>",
+      "css": ".ds-reader { font-family: Georgia, 'Songti SC', 'STSong', 'SimSun', serif; font-size: 17px; line-height: 2; color: var(--ink, #272c34); background: var(--panel-solid, #fdfcf9); border: 1px solid var(--rule, rgba(39,44,52,0.13)); border-radius: 12px; padding: 16px 16px 28px; } .ds-reader mark { background: var(--mark, rgba(214,170,60,0.28)); color: inherit; padding: 1px 0; } .ds-reader mark.on { background: var(--mark-strong, rgba(214,150,40,0.5)); box-shadow: -4px 0 0 var(--accent, #b23a26); } .ds-reader .focus { background: var(--indigo-wash, rgba(60,90,120,0.1)); box-shadow: inset 0 -2px 0 var(--indigo, #3c5a78); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Annotated Classic",
+    "overview": "The interface is a well-kept study copy of a classic text: warm rice paper, ink-gray type, and one vermilion seal colour that marks what you act on or what is currently selected. Structure comes first (shelf, graph, star map), and every relation in it opens a page of the original text where the passage is highlighted as if marked with a gold highlighter. Book covers are drawn as thread-bound cloth with a vertical title slip. The brand mark is a pair of interlocking rings.\n\nDensity is calm on mobile and moderate on desktop panels. Surfaces are translucent paper over a softly mottled background (`.paper-nebula`, three faint radial washes in indigo, vermilion and gold). Depth is quiet. Serif type carries everything a reader reads (titles, entity names, quoted evidence, chapter text), and sans carries everything a user operates (controls, meta, counts).\n\nThe light and dark themes are a single system. Every value is a CSS variable on `<html data-theme>` in `web/src/theme/theme.css`, mirrored for canvases in `web/src/theme/palette.ts` and for antd in `ThemeProvider.tsx`. The graph module aliases these as `--kg-*` in `KnowledgeGraph/tokens.css` and never introduces new hues.",
+    "keyCharacteristics": [
+      "Warm paper neutrals with one vermilion accent; indigo and gold are supporting roles, not decoration.",
+      "Serif for reading and naming, sans for operating.",
+      "Hairline borders (1px `rule`) and soft two-layer shadows; no heavy chrome.",
+      "Mobile is first-class: bottom sheets, a full-screen reader, 44px targets, 16px+ reading text.",
+      "Evidence is visual: gold highlight marks, an indigo underline for the focused entity, and relation tags in vermilion."
+    ],
+    "rules": [
+      { "name": "The Single Seal Rule", "body": "Vermilion is for the primary action and the active state. One filled vermilion button per view. Everything else that is clickable is ghost, soft-tinted, or plain text.", "section": "colors" },
+      { "name": "The Ink-2 Floor Rule", "body": "Any text a user must read is `ink-2` or darker (≥4.5:1). `ink-3` is for placeholders, disabled controls and decorative glyph strokes only.", "section": "colors" },
+      { "name": "The No New Hues Rule", "body": "New surfaces use the theme variables (or `--kg-*` aliases). Hard-coded hex or slate `rgba(15, 23, 42, …)` values are legacy, not precedent.", "section": "colors" },
+      { "name": "The Reader's Serif Rule", "body": "Headings, entity names, quoted evidence and chapter text are serif. Controls, tabs, buttons and meta are sans. A serif button or a sans chapter page is wrong.", "section": "typography" },
+      { "name": "The No Eyebrow Rule", "body": "No small uppercase or tracked kicker labels above headings. A heading stands alone; context goes in a meta line under it or in the heading's own baseline row.", "section": "typography" },
+      { "name": "The Thumb Rule", "body": "On mobile every tappable target is at least 44×44px (back, close, icon buttons, sheet tabs, stepper at 48px). Primary navigation sits within thumb reach: segmented control at top, actions in sheets and footers.", "section": "layout" },
+      { "name": "The Lift Means Float Rule", "body": "A shadow means the surface floats above something else. In-flow rows, list items and inline tags never get shadows. Pending/unavailable cards drop their shadow entirely.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use theme variables (`--ink`, `--accent`, `--rule`, `--panel`…) or their `--kg-*` aliases. Add a new graph page's root class to the selector list in `tokens.css`, or every `--kg-*` var on that page goes unresolved.",
+      "Do keep vermilion for the single primary action and the active state; use vermilion-soft for hover, press and relation tags.",
+      "Do set meta and secondary text in `ink-2`, and pair counts as `ink` 600 tabular number + `ink-2` unit.",
+      "Do use serif for headings, entity names, quoted evidence and chapter text.",
+      "Do make every mobile target at least 44px and keep mobile reading/input text at 16px or larger.",
+      "Do use `@ant-design/icons` or inline SVG (`stroke=\"currentColor\"`) for every icon.",
+      "Do animate only `transform` and `opacity` (sheet entry, press `scale(0.97–0.98)`, hover `translateY(-1/-2px)`); colour and border transitions run at 0.15s.",
+      "Do turn mobile detail panels into bottom sheets with a grip, 18px top corners and `safe-area-inset-bottom` padding."
+    ],
+    "donts": [
+      "Don't add eyebrow or kicker labels (small tracked/uppercase text above a heading).",
+      "Don't put colored side-stripe borders wider than 1px on cards, rows, callouts or panels. The reader's active-passage tick (in the approved evidence comp) and the book-cloth spine are the only left-edge marks, and neither is a container border.",
+      "Don't use unicode glyphs (→ ▸ ▾ ◀ ▶ × ★) as icons or button content.",
+      "Don't animate `width`, `height`, `top`, `left`, `right`, `margin` or `padding`.",
+      "Don't use `ink-3` for any text the user must read.",
+      "Don't introduce new hues, slate shadows or hard-coded hex outside the cluster palette and book cloth.",
+      "Don't set controls, tabs or buttons in serif, or set chapter text in sans."
+    ]
+  }
+}

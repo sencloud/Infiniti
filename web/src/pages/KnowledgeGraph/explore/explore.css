@@ -621,7 +621,6 @@
 
 .kgap-clue {
   border: 1px solid var(--kg-border);
-  border-left: 3px solid #f97316;
   border-radius: 9px;
   padding: 7px 9px;
   cursor: pointer;
@@ -2087,12 +2086,85 @@
 }
 
 .rel-claim-source {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: inherit;
+  text-align: left;
   font-size: 12px;
   color: var(--kg-accent, #2563eb);
   cursor: pointer;
+  white-space: nowrap;
+}
+
+.rel-claim-source > span:first-child {
+  flex: 1;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+}
+
+.rel-claim-go {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 7px 8px 7px 11px;
+  border-radius: 8px;
+  border: 1px solid var(--kg-accent-border);
+  background: var(--kg-accent-soft);
+  font-size: 13px;
+}
+
+.rel-claim-go .anticon {
+  font-size: 10px;
+}
+
+@media (max-width: 768px) {
+  .rel-drawer .ant-drawer-content {
+    border-radius: 18px 18px 0 0;
+  }
+
+  .rel-drawer .ant-drawer-title {
+    font-family: var(--serif);
+    font-size: 17px;
+  }
+
+  .rel-drawer-note {
+    font-size: 13px;
+    color: var(--ink-2);
+  }
+
+  .rel-claim-conf {
+    font-size: 13px;
+    color: var(--ink-2);
+  }
+
+  .rel-claim-card {
+    padding: 12px 14px;
+    border-radius: 12px;
+  }
+
+  .rel-claim-evidence {
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--kg-text-strong);
+  }
+
+  .rel-claim-source {
+    font-size: 13px;
+    color: var(--ink-2);
+    min-height: 40px;
+  }
+
+  .rel-claim-go {
+    color: var(--kg-accent);
+  }
 }
 
 .rel-claim-source:hover {
@@ -2197,5 +2269,503 @@
   .inf-legend-tip {
     left: 10px;
     bottom: 10px;
+  }
+
+  /* ---- 搜索行：搜索框 + 定位 / 分析，一行装下 ---- */
+  .inf-search-wrap {
+    right: 168px;
+  }
+
+  .inf-search-box {
+    min-height: 44px;
+    padding: 0 12px;
+    border-radius: 11px;
+  }
+
+  .inf-search-box input {
+    padding: 10px 0;
+  }
+
+  .inf-search-go {
+    display: none;
+  }
+
+  .inf-search-drop {
+    width: calc(100vw - 20px);
+  }
+
+  .inf-drop-item {
+    min-height: 52px;
+  }
+
+  .inf-drop-name {
+    font-size: 15px;
+  }
+
+  .inf-drop-sub {
+    font-size: 12px;
+  }
+
+  .inf-top-actions {
+    top: 10px;
+    right: 10px;
+    gap: 6px;
+  }
+
+  .inf-top-actions .ant-btn {
+    height: 44px;
+    padding: 0 12px;
+    border-radius: 11px;
+    font-size: 14px;
+  }
+
+  .inf-focus-bar {
+    top: 64px;
+  }
+
+  .inf-stats {
+    display: none;
+  }
+
+  .inf-zoomer button {
+    width: 44px;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .inf-lt-btn {
+    min-height: 40px;
+  }
+
+  /* 详情抽屉打开时画布只占上半屏，中心节点落在看得见的地方；图例与缩放按钮会被抽屉压住，先收起 */
+  .kg-explore-page:has(.inf-msheet) .inf-canvas-wrap {
+    bottom: 48%;
+  }
+
+  .kg-explore-page:has(.inf-msheet) .inf-hud,
+  .kg-explore-page:has(.inf-msheet) .inf-legend-tip,
+  .kg-explore-page:has(.inf-msheet) .inf-focus-bar {
+    display: none;
+  }
+
+  /* 关系抽屉 / 阅读器盖上来时，抽屉顶边别从遮罩后面露出来 */
+  .kg-explore-page.has-drill .inf-msheet {
+    visibility: hidden;
+  }
+
+  /* ---- 条目详情底部抽屉 ---- */
+  .inf-msheet {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 62;
+    display: flex;
+    flex-direction: column;
+    max-height: 56%;
+    background: var(--kg-panel);
+    border-top: 1px solid var(--kg-border);
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -6px 18px rgba(20, 24, 31, 0.08), 0 -18px 48px rgba(20, 24, 31, 0.12);
+    padding-bottom: env(safe-area-inset-bottom);
+    animation: inf-sheet-in 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .inf-msheet.is-expanded {
+    max-height: 92%;
+    height: 92%;
+  }
+
+  @keyframes inf-sheet-in {
+    from { transform: translateY(40%); opacity: 0.6; }
+    to { transform: none; opacity: 1; }
+  }
+
+  .inf-msheet-grip {
+    flex: none;
+    display: grid;
+    place-items: center;
+    height: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .inf-msheet-grip span {
+    width: 38px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--kg-border);
+  }
+
+  .inf-msheet-head {
+    flex: none;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 6px 10px;
+    padding: 0 10px 10px 18px;
+  }
+
+  .inf-msheet-meta {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+    padding-right: 8px;
+  }
+
+  .inf-msheet-title {
+    margin: 0;
+    min-width: 0;
+    font-family: var(--serif);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.2;
+    color: var(--kg-text-strong);
+    word-break: break-all;
+  }
+
+  .inf-msheet-chips {
+    display: flex;
+    gap: 6px;
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .inf-msheet-chips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .inf-msheet-chips span {
+    flex: none;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px 8px;
+    border-radius: 6px;
+    color: var(--ink-2);
+    background: var(--kg-well);
+    border: 1px solid var(--rule-2);
+  }
+
+  .inf-msheet-tools {
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .inf-msheet-count {
+    flex: none;
+    margin-left: auto;
+    font-size: 13px;
+    color: var(--ink-2);
+    white-space: nowrap;
+  }
+
+  .inf-msheet-count b {
+    color: var(--kg-text-strong);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .inf-msheet-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    color: var(--ink-2);
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .inf-msheet-icon:active {
+    background: var(--kg-well);
+  }
+
+  .inf-msheet-icon.on {
+    color: var(--kg-accent);
+    background: var(--kg-accent-soft);
+  }
+
+  .inf-msheet-tabs {
+    flex: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid var(--kg-border);
+  }
+
+  .inf-msheet-tabs button {
+    position: relative;
+    height: 44px;
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--ink-2);
+    cursor: pointer;
+  }
+
+  .inf-msheet-tabs button.on {
+    color: var(--kg-accent);
+    font-weight: 600;
+  }
+
+  .inf-msheet-tabs button.on::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    width: 28px;
+    height: 2px;
+    margin-left: -14px;
+    border-radius: 1px;
+    background: var(--kg-accent);
+  }
+
+  .inf-msheet-body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .inf-msheet-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .inf-msheet-list > li + li {
+    border-top: 1px solid var(--rule-2);
+  }
+
+  .inf-msheet-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-height: 62px;
+    padding: 10px 14px 10px 18px;
+    border: none;
+    background: none;
+    font-family: inherit;
+    text-align: left;
+    color: var(--kg-text-strong);
+  }
+
+  button.inf-msheet-row {
+    cursor: pointer;
+  }
+
+  button.inf-msheet-row:active {
+    background: var(--kg-accent-soft);
+  }
+
+  .inf-msheet-dot {
+    flex: none;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+  }
+
+  .inf-msheet-main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .inf-msheet-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.35;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .inf-msheet-name em {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: var(--kg-accent);
+    background: var(--kg-accent-soft);
+    vertical-align: 2px;
+  }
+
+  .inf-msheet-sub {
+    font-size: 13px;
+    color: var(--ink-2);
+  }
+
+  .inf-msheet-go {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 13px;
+    padding: 7px 8px 7px 11px;
+    border-radius: 8px;
+    color: var(--kg-accent);
+    border: 1px solid var(--kg-accent-border);
+    background: var(--kg-accent-soft);
+  }
+
+  .inf-msheet-go .anticon {
+    font-size: 10px;
+  }
+
+  .inf-msheet-note,
+  .inf-msheet-empty {
+    margin: 0;
+    padding: 14px 18px 18px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--ink-2);
+  }
+
+  .inf-msheet-about {
+    padding: 14px 18px 20px;
+  }
+
+  .inf-msheet-desc {
+    margin: 0 0 14px;
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--kg-text-strong);
+  }
+
+  .inf-msheet-facts {
+    margin: 4px 0 0;
+  }
+
+  .inf-msheet-facts > div {
+    display: flex;
+    gap: 14px;
+    padding: 9px 0;
+    border-top: 1px solid var(--rule-2);
+    font-size: 14px;
+  }
+
+  .inf-msheet-facts dt {
+    flex: none;
+    width: 5.5em;
+    color: var(--ink-2);
+  }
+
+  .inf-msheet-facts dd {
+    margin: 0;
+    color: var(--kg-text-strong);
+    word-break: break-all;
+  }
+
+  /* ---- 分析 / 线索面板：与条目抽屉同一套抽屉语言 ---- */
+  .kgap-panel {
+    border-radius: 18px 18px 0 0;
+    border: none;
+    border-top: 1px solid var(--kg-border);
+  }
+
+  .kgap-head {
+    padding: 6px 8px 8px 18px;
+  }
+
+  .kgap-head h3 {
+    font-family: var(--serif);
+    font-size: 18px;
+    letter-spacing: 0.06em;
+  }
+
+  .kgap-close {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    color: var(--ink-2);
+  }
+
+  .kgap-body {
+    padding: 12px 16px 18px;
+    gap: 10px;
+  }
+
+  .kgap-body > .ant-segmented {
+    flex: none;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+    mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+  }
+
+  .kgap-body > .ant-segmented .ant-segmented-group {
+    min-width: max-content;
+  }
+
+  .kgap-body > .ant-segmented .ant-segmented-item-label {
+    min-height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+  }
+
+  .kgap-hint,
+  .kgap-jobbar {
+    font-size: 13px;
+  }
+
+  .kgap-jobbar.is-quiet {
+    padding: 0 0 0 2px;
+    background: none;
+    color: var(--ink-2);
+  }
+
+  .kgap-clue {
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: var(--kg-panel);
+  }
+
+  .kgap-clue-head {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .kgap-clue-title {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .kgap-clue-sub {
+    font-size: 13px;
+    color: var(--ink-2);
+    margin-top: 4px;
+  }
+
+  .kgap-clue .kgap-hop-evidence {
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--kg-text-strong);
+    margin: 8px 0 4px;
+  }
+
+  .kgap-clue .ant-btn-link {
+    padding: 0;
+    height: 36px;
+    font-size: 14px;
   }
 }

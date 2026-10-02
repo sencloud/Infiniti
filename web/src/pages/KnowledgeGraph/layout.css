@@ -168,6 +168,99 @@
   }
 }
 
+/* 手机顶栏：返回 / 材料名 / 主题 + 关系·星图·线索 三段切换 */
+.kg-mbar {
+  flex: none;
+  position: relative;
+  z-index: 20;
+  padding: 0 12px 10px;
+  padding-top: env(safe-area-inset-top);
+  background: var(--panel);
+  border-bottom: 1px solid var(--rule);
+}
+
+.kg-mbar-row {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  gap: 4px;
+}
+
+.kg-mbar-back {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-left: -10px;
+  font-size: 18px;
+  color: var(--ink);
+  border-radius: 10px;
+}
+
+.kg-mbar-back:active {
+  background: var(--well);
+}
+
+.kg-mbar-title {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.kg-mbar-title .kg-appbar-switch {
+  min-height: 44px;
+  padding: 0 10px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.kg-mbar-title b {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: 0.1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kg-mbar .icon-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.kg-mbar-seg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3px;
+  border-radius: 11px;
+  background: var(--well);
+  border: 1px solid var(--rule);
+}
+
+.kg-mbar-seg a {
+  display: grid;
+  place-items: center;
+  height: 36px;
+  border-radius: 8px;
+  font-size: 15px;
+  letter-spacing: 0.2em;
+  padding-left: 0.2em;
+  color: var(--ink-2);
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.kg-mbar-seg a.on {
+  background: var(--panel-solid, var(--panel));
+  color: var(--accent);
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(20, 24, 31, 0.12);
+}
+
 @media (max-width: 420px) {
   .kg-appbar-tabs a span {
     display: none;

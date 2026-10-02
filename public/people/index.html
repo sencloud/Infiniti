@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN" data-theme="light">
 <!--
-  无限连接 · 3D 时间图谱
+  无限连接 · 自由探索（任意人物 / 学习主题的 3D 时间图谱）
   【2026-09-08 v5 视觉重设计】"纸墨图谱"设计系统
   - 气质转向学术档案：纸色底 / 墨色字 / 朱砂点缀，替代原科技霓虹深空
   - 双主题：light（默认）/ dark，右上角切换，localStorage 持久化
@@ -11,7 +11,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>无限连接 · 3D 时间图谱</title>
+  <title>无限连接 · 自由探索</title>
   <!-- 主题在渲染前设定，避免闪白（FOUC） -->
   <script>
     (function () {
@@ -166,6 +166,10 @@
       text-align: center; pointer-events: none;
     }
     .welcome.hide { display: none; }
+    .ico {
+      width: 14px; height: 14px; vertical-align: -2px;
+      fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round;
+    }
     .welcome h1 {
       font-family: Georgia, "Songti SC", "STSong", "SimSun", serif;
       font-size: 46px; letter-spacing: 14px; margin-bottom: 8px; font-weight: 700;
@@ -493,11 +497,15 @@
       .brand-mark { width: 32px; height: 32px; }
       .brand-sub { display: none; }
       .top-actions { top: 12px; right: 12px; gap: 6px; }
-      .icon-btn { width: 34px; height: 34px; }
-      .search-wrap { top: 58px; left: 12px; right: 12px; width: auto; transform: none; }
+      .icon-btn { width: 40px; height: 40px; }
+      /* 提示条讲的是鼠标操作，触屏上没意义，还会压住右下角的统计 */
+      .tipbar { display: none; }
+      .search-wrap { top: 62px; left: 12px; right: 12px; width: auto; transform: none; }
       .search-box input { font-size: 16px; }
       .focus-bar { top: 112px; left: 12px; right: 12px; transform: none; justify-content: space-between; }
       .welcome h1 { font-size: 34px; letter-spacing: 6px; }
+      .welcome { width: calc(100vw - 40px); }
+      .welcome .tagline { font-size: 14px; letter-spacing: 1px; line-height: 1.7; }
       .time-axis { display: none; }
       .legend-tip { left: 12px; bottom: 12px; }
       .hud { right: 12px; bottom: 12px; }
@@ -534,7 +542,7 @@
     </svg>
     <div>
       <div class="brand-name">无限<b>连接</b></div>
-      <div class="brand-sub" id="brandSub">INFINITI · TEMPORAL GRAPH</div>
+      <div class="brand-sub" id="brandSub">INFINITI · 自由探索</div>
     </div>
   </div>
 
@@ -545,7 +553,7 @@
         <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.6"/>
         <path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
       </svg>
-      <input id="q" type="text" placeholder="搜索人物 / 构建知识（如：小学数学3年级）" autocomplete="off" />
+      <input id="q" type="text" placeholder="输入人物或学习主题（如：苏轼、小学数学3年级）" autocomplete="off" />
       <button class="go" id="goBtn">探索</button>
     </div>
     <div class="search-drop" id="drop" style="display:none"></div>
@@ -553,7 +561,7 @@
 
   <!-- 右上角：主题切换 + 配置 -->
   <div class="top-actions">
-    <a class="icon-btn" href="/" title="返回知识图谱首页（名著 / 典籍 / 学科）">
+    <a class="icon-btn" href="/" title="返回首页（名著 / 典籍 / 学科）">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <circle cx="5" cy="6" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="12" cy="13" r="2.5"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="18" r="2"/>
         <path d="M6.7 7.2l3.6 4.1M17.5 6.4l-4 4.6M10.3 14.6l-2.8 3M14.2 14.4l2.4 2.4"/>
@@ -623,7 +631,7 @@
   <!-- 空状态 -->
   <div class="welcome" id="welcome">
     <h1>无限<b>连接</b></h1>
-    <p class="tagline">纵轴千年 · 横轴人脉 · 3D 时间图谱</p>
+    <p class="tagline">输入任意人物或学习主题 · 自动生成关系图谱</p>
     <div class="chips" id="chips"></div>
   </div>
 
@@ -649,9 +657,9 @@
       <span><b id="stP">0</b> 人物 · <b id="stE">0</b> 事件 · <b id="stR">0</b> 关系 · 队列 <b id="stQ">0</b></span>
     </div>
     <div class="zoomer">
-      <button id="zIn" title="拉近">+</button>
-      <button id="zOut" title="拉远">−</button>
-      <button id="zFit" title="回到原点" style="font-size:12px">◎</button>
+      <button id="zIn" title="拉近" aria-label="拉近"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button>
+      <button id="zOut" title="拉远" aria-label="拉远"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10"/></svg></button>
+      <button id="zFit" title="回到原点" aria-label="回到原点"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6V3h3M10 3h3v3M13 10v3h-3M6 13H3v-3"/></svg></button>
     </div>
   </div>
 
@@ -659,11 +667,11 @@
   <div class="queue-panel" id="qpanel">
     <div class="qp-head">
       <h4>管道任务队列</h4>
-      <button class="x" id="qpClose">✕</button>
+      <button class="x" id="qpClose" aria-label="关闭"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
     </div>
     <div class="qp-add">
       <input id="qpInput" type="text" placeholder="添加抓取任务（人名）…" autocomplete="off" maxlength="30" />
-      <button id="qpAdd" title="加入队列">＋</button>
+      <button id="qpAdd" title="加入队列" aria-label="加入队列"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button>
     </div>
     <div class="qp-tools">
       <button data-act="clear-pending">清空待处理</button>
@@ -675,7 +683,7 @@
 
   <!-- 图例 -->
   <div class="legend-tip">
-    <button class="lt-btn">◉ 图例 · 关系类型</button>
+    <button class="lt-btn"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg> 图例 · 关系类型</button>
     <div class="lt-body">
       <h5>关系类型</h5>
       <div class="lg-grid" id="lgGrid"></div>
@@ -707,7 +715,7 @@
 
   <!-- 聚焦提示条 -->
   <div class="focus-bar" id="focusBar">
-    <span>◉ 聚焦 <b id="fbName"></b> · 只显示其关系网络</span>
+    <span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg> 聚焦 <b id="fbName"></b> · 只显示其关系网络</span>
     <button class="fb-x" id="fbExit">退出</button>
   </div>
   <div class="tipbar">单击<kbd>详情</kbd> 双击<kbd>展开</kbd> 拖动<kbd>旋转</kbd> 滚轮<kbd>缩放</kbd> 右键<kbd>平移</kbd></div>

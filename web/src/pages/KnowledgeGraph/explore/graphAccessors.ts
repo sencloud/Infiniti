@@ -32,6 +32,8 @@ interface Options {
   /** 聚焦节点及其直接邻居；null = 未聚焦（全图可见） */
   focusNeighbors: Set<string> | null
   focusId?: string | null
+  /** 聚焦时只留连着聚焦节点的边（小屏上邻居之间的边会糊成一团） */
+  focusStar?: boolean
   timeDim?: TimeDimension | null
   yearLo?: number
   yearHi?: number
@@ -49,6 +51,7 @@ export function useGraphAccessors({
   hiddenPredicates,
   focusNeighbors,
   focusId,
+  focusStar,
   timeDim,
   yearLo,
   yearHi,
@@ -69,10 +72,13 @@ export function useGraphAccessors({
 
   const linkVisibility = useCallback((link: SimLink) => {
     if (hiddenPredicates.has(link.type.toLowerCase())) return false
-    const source = nodeById(edgeEndId(link.source))
-    const target = nodeById(edgeEndId(link.target))
+    const sourceId = edgeEndId(link.source)
+    const targetId = edgeEndId(link.target)
+    if (focusStar && focusId && sourceId !== focusId && targetId !== focusId) return false
+    const source = nodeById(sourceId)
+    const target = nodeById(targetId)
     return Boolean(source && target && nodeVisibility(source) && nodeVisibility(target))
-  }, [hiddenPredicates, nodeVisibility, nodeById])
+  }, [hiddenPredicates, nodeVisibility, nodeById, focusStar, focusId])
 
   /** 聚焦时非邻域压暗；未聚焦时一律正常上色 */
   const dimmed = useCallback(

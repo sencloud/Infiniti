@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, NavLink, Outlet, useNavigate, useParams } from 'react-router-dom'
+import { Link, NavLink, Outlet, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { Dropdown, Result, Button, Spin, type MenuProps } from 'antd'
-import { ClusterOutlined, CompassOutlined, DownOutlined } from '@ant-design/icons'
+import { ClusterOutlined, CompassOutlined, DownOutlined, LeftOutlined } from '@ant-design/icons'
 import { getGraphProfile, listGraphs, type GraphCategory } from '@/api/kg-explore'
 import { setActiveProfile, type GraphProfile, type GraphSummary } from '@/graph/profile'
 import { BrandMark, ThemeToggle } from '@/theme/ThemeProvider'
+import { useIsMobile } from '@/hooks/useIsMobile'
 import './tokens.css'
 import './graph.css'
 import './layout.css'
@@ -17,6 +18,8 @@ import './layout.css'
 function KnowledgeGraphLayout() {
   const { graphId = '' } = useParams()
   const navigate = useNavigate()
+  const { pathname, search } = useLocation()
+  const onGalaxy = pathname.endsWith('/galaxy')
   const [profile, setProfile] = useState<GraphProfile | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [catalog, setCatalog] = useState<{ categories: GraphCategory[]; items: GraphSummary[] } | null>(null)
@@ -31,7 +34,7 @@ function KnowledgeGraphLayout() {
         if (cancelled) return
         setActiveProfile(p)
         setProfile(p)
-        document.title = `${p.name} · 知识图谱 · 无限连接`
+        document.title = `${p.name} · 学习图谱 · 无限连接`
       })
       .catch((e: unknown) => { if (!cancelled) setError(e instanceof Error ? e.message : '图谱不存在') })
     return () => { cancelled = true }
@@ -59,29 +62,49 @@ function KnowledgeGraphLayout() {
             })),
         }))
         .filter((group) => group.children.length),
-      onClick: ({ key }) => navigate(`/g/${key}/galaxy`),
+      onClick: ({ key }) => navigate(`/g/${key}/${onGalaxy ? 'galaxy' : 'explore'}`),
     }
-  }, [catalog, graphId, navigate])
+  }, [catalog, graphId, navigate, onGalaxy])
 
   const stats = profile?.stats
   const t = profile?.terms
+  const mobile = useIsMobile()
+  const view = onGalaxy
+    ? 'galaxy'
+    : new URLSearchParams(search).get('mode') === 'clue' ? 'clue' : 'explore'
+
+  const title = switchMenu ? (
+    <Dropdown menu={switchMenu} trigger={['click']} placement={mobile ? 'bottom' : 'bottomLeft'}>
+      <button type="button" className="kg-appbar-switch" aria-label="切换学习材料">
+        <b>{profile?.name || '…'}</b>
+        <DownOutlined />
+      </button>
+    </Dropdown>
+  ) : <b>{profile?.name || '…'}</b>
 
   return (
     <div className="kg-shell kg-scope">
+      {mobile ? (
+        <header className="kg-mbar">
+          <div className="kg-mbar-row">
+            <Link className="kg-mbar-back" to="/" aria-label="返回首页"><LeftOutlined /></Link>
+            <div className="kg-mbar-title">{title}</div>
+            <ThemeToggle />
+          </div>
+          <nav className="kg-mbar-seg" aria-label="学习视图">
+            <Link to={`/g/${graphId}/explore`} className={view === 'explore' ? 'on' : ''} aria-current={view === 'explore' ? 'page' : undefined}>关系</Link>
+            <Link to={`/g/${graphId}/galaxy`} className={view === 'galaxy' ? 'on' : ''} aria-current={view === 'galaxy' ? 'page' : undefined}>星图</Link>
+            <Link to={`/g/${graphId}/explore?mode=clue`} className={view === 'clue' ? 'on' : ''} aria-current={view === 'clue' ? 'page' : undefined}>线索</Link>
+          </nav>
+        </header>
+      ) : (
       <header className="kg-appbar">
         <Link className="kg-appbar-home" to="/" title="返回首页">
           <BrandMark size={30} />
         </Link>
         <div className="kg-appbar-brand">
-          {switchMenu ? (
-            <Dropdown menu={switchMenu} trigger={['click']} placement="bottomLeft">
-              <button type="button" className="kg-appbar-switch">
-                <b>{profile?.name || '…'}</b>
-                <DownOutlined />
-              </button>
-            </Dropdown>
-          ) : <b>{profile?.name || '…'}</b>}
-          <span className="kg-appbar-sub">知识图谱</span>
+          {title}
+          <span className="kg-appbar-sub">学习图谱</span>
         </div>
         <nav className="kg-appbar-tabs">
           <NavLink to={`/g/${graphId}/galaxy`} className={({ isActive }) => (isActive ? 'active' : '')}>
@@ -96,18 +119,19 @@ function KnowledgeGraphLayout() {
             <>
               <span><b>{stats.units}</b> {profile?.unit.name}</span>
               {stats.clusters > 0 && <span><b>{stats.clusters}</b> {t.cluster}</span>}
-              {stats.entities > 0 && <span><b>{stats.entities.toLocaleString()}</b> 实体</span>}
-              {stats.claims > 0 && <span><b>{stats.claims.toLocaleString()}</b> 事实</span>}
+              {stats.entities > 0 && <span><b>{stats.entities.toLocaleString()}</b> 条目</span>}
+              {stats.claims > 0 && <span><b>{stats.claims.toLocaleString()}</b> 条关系</span>}
             </>
           )}
         </div>
         <ThemeToggle />
       </header>
+      )}
       <main className="kg-shell-body">
         {error ? (
           <Result
             status="404"
-            title="没有这个图谱"
+            title="没有找到这份学习材料"
             subTitle={error}
             extra={<Button type="primary" onClick={() => navigate('/')}>回到首页</Button>}
           />
@@ -117,8 +141,8 @@ function KnowledgeGraphLayout() {
           <Result
             status="info"
             title={`${profile.name}还在整理中`}
-            subTitle="后台正在抓取原文、抽取事实并构建星图，完成后这里会自动可用。"
-            extra={<Button onClick={() => navigate('/')}>看看其他图谱</Button>}
+            subTitle="后台正在抓取原文、抽取关系并构建星图，完成后这里会自动可用。"
+            extra={<Button onClick={() => navigate('/')}>看看其他材料</Button>}
           />
         ) : (
           <Outlet key={graphId} />

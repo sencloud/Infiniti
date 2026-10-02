@@ -13,7 +13,7 @@
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Button, Empty, Segmented, Spin, Tag, Tooltip, message } from 'antd'
-import { SearchOutlined } from '@ant-design/icons'
+import { CloseOutlined, SearchOutlined } from '@ant-design/icons'
 
 import {
   ANALYSIS_STAGE_LABELS,
@@ -39,6 +39,7 @@ import { searchKnowledgeGraphEntities, type EntitySearchItem } from '@/api/knowl
 import { nodeLabel, relationLabel } from '@/utils/graphStyle'
 import { displayText } from '@/utils/mathText'
 import { activeProfile, ruleName, terms, unitRange } from '@/graph/profile'
+import { useIsMobile } from '@/hooks/useIsMobile'
 import type { FlowAggregate, FlowSelection } from './flowAggregate'
 import { buildLedger, LEDGER_TIME_LABEL } from './ledgerModel'
 
@@ -113,9 +114,10 @@ function EntityPicker({
         <button
           type="button"
           className="kgap-picker-clear"
+          aria-label="清除"
           onClick={() => { onChange(null); setKeyword('') }}
         >
-          ✕
+          <CloseOutlined />
         </button>
       )}
       {open && !value && items.length > 0 && (
@@ -204,6 +206,15 @@ function AnalysisJobBar({ job, busy, onStart, onCancel }: {
   onCancel: () => void
 }) {
   const stage = job ? (ANALYSIS_STAGE_LABELS[job.stage] || job.stage) : ''
+  const mobile = useIsMobile()
+  if (mobile && !busy && job?.status === 'completed') {
+    return (
+      <div className="kgap-jobbar is-quiet">
+        <span className="kgap-jobbar-text">已从 {job.edges.toLocaleString()} 条关系里找出 {job.anomalies} 条线索</span>
+        <Button type="link" size="small" onClick={onStart}>重新计算</Button>
+      </div>
+    )
+  }
   return (
     <div className="kgap-jobbar">
       <div className="kgap-jobbar-text">
@@ -826,7 +837,7 @@ const TITLES: Record<ExploreMode, string> = {
   community: '社区与跨板块事项',
   timeline: '事件台账',
   flow: '关系流向',
-  clue: '线索（冲突 / 断点）',
+  clue: '线索 · 值得细读的地方',
 }
 
 export default function AnalysisPanel({
@@ -838,7 +849,7 @@ export default function AnalysisPanel({
     <div className="kgap-panel">
       <div className="kgap-head">
         <h3>{TITLES[mode]}</h3>
-        <button type="button" className="kgap-close" onClick={onClose}>✕</button>
+        <button type="button" className="kgap-close" onClick={onClose} aria-label="关闭面板"><CloseOutlined /></button>
       </div>
       {mode === 'path' && (
         <PathTab onMergeGraph={onMergeGraph} onOpenArchive={onOpenArchive} onLocate={onLocate} />

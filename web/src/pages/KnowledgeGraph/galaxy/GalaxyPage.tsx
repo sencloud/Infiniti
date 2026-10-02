@@ -30,7 +30,7 @@ import {
   Button, Checkbox, Dropdown, Empty, Input, InputRef, message, Popover, Select, Skeleton,
   Slider, Tag,
 } from 'antd'
-import { DownOutlined, SettingOutlined } from '@ant-design/icons'
+import { DownOutlined, SettingOutlined, SlidersOutlined } from '@ant-design/icons'
 import * as echarts from 'echarts'
 import {
   getGalaxyClusters,
@@ -925,6 +925,31 @@ export default function GalaxyPage() {
     },
   }
 
+  /** 手机工具条只留搜索 + 这一个菜单：点的大小、分析、回到全貌；调参与导出留给桌面 */
+  const mobileViewMenu = {
+    selectedKeys: [`size:${sizeField}`],
+    items: [
+      {
+        type: 'group' as const,
+        label: '点的大小',
+        children: [
+          { key: 'size:none', label: '不区分' },
+          { key: 'size:persons', label: `按${t.primary}数` },
+          { key: 'size:chars', label: '按篇幅' },
+        ],
+      },
+      { type: 'divider' as const },
+      { type: 'group' as const, label: '分析', children: analysisMenu.items.filter((item) => !('type' in item)) },
+      { type: 'divider' as const },
+      { key: 'reset', label: '回到全貌' },
+    ],
+    onClick: ({ key }: { key: string }) => {
+      if (key.startsWith('size:')) setSizeField(key.slice(5) as typeof sizeField)
+      else if (key === 'reset') resetView()
+      else analysisMenu.onClick({ key })
+    },
+  }
+
   /**
    * 「高级选项」：算法参数与重新分析。
    *
@@ -979,7 +1004,7 @@ export default function GalaxyPage() {
         <Input.Search
           ref={searchInputRef}
           className="kg-search"
-          placeholder={`搜索原文定位片段${gp.examples?.search ? `（如 ${gp.examples.search}）` : ''}`}
+          placeholder={mobile ? '搜原文，定位片段' : `搜索原文定位片段${gp.examples?.search ? `（如 ${gp.examples.search}）` : ''}`}
           value={search}
           onChange={(e) => {
             setSearch(e.target.value)
@@ -989,15 +1014,21 @@ export default function GalaxyPage() {
           onSearch={doSearch}
           loading={searching}
           allowClear
-          size="small"
+          size={mobile ? 'large' : 'small'}
         />
-        {isLargeLibrary && (
+        {mobile && (
+          <Dropdown trigger={['click']} menu={mobileViewMenu} placement="bottomRight">
+            <Button size="large" icon={<SlidersOutlined />} aria-label="视图与分析">视图</Button>
+          </Dropdown>
+        )}
+        {!mobile && isLargeLibrary && (
           <Tag color={lodMode === 'grid' ? 'orange' : 'blue'}>
             {lodMode === 'grid'
               ? `${t.cluster}概览 · ${cells.length} 组（点气泡或放大看明细）`
               : `逐${t.segment}查看 · 当前画面 ${points.length} ${t.segment}`}
           </Tag>
         )}
+        {!mobile && (<>
         <Select
           size="small"
           className="kgg-sizefield-select"
@@ -1033,6 +1064,7 @@ export default function GalaxyPage() {
           </Button>
           <Button size="small" onClick={resetView}>回到全貌</Button>
         </div>
+        </>)}
       </div>
 
       <div className="kg-main">
