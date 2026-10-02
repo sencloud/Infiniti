@@ -173,6 +173,12 @@
   right: 376px;
 }
 
+/* 右侧有面板时模式条靠左，免得被面板盖住后半截 */
+.kg-explore-page.has-panel .inf-mode-bar {
+  left: 18px;
+  transform: none;
+}
+
 /* 快速定位面板和分析面板同时打开时，两张面板并排（定位面板在右、分析面板在其左） */
 .kg-explore-page.has-panel.has-locate .kgap-panel {
   right: 330px;
@@ -2498,7 +2504,7 @@
   .inf-msheet-tabs {
     flex: none;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     border-bottom: 1px solid var(--kg-border);
   }
 

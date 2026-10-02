@@ -3,6 +3,7 @@
  * 颜色按实体类型编码固定（跨图谱一致），类型名与谓词名取当前图谱的本体（后端 src/kg/domains）。
  */
 import { activeGraphId, entityTypeName, predicateName } from '@/graph/profile'
+import i18n from '@/i18n'
 
 export interface NodeColor {
   main: string
@@ -42,20 +43,14 @@ const FALLBACK_LABELS: Record<string, string> = {
 export const nodeColor = (label: string): NodeColor => NODE_COLORS[label] || NODE_COLORS.Chapter
 
 export const nodeLabel = (label: string): string =>
-  (activeGraphId() ? entityTypeName(label) : FALLBACK_LABELS[label]) || label
+  (activeGraphId()
+    ? entityTypeName(label)
+    : (i18n.exists(`fallbackType.${label}`) ? i18n.t(`fallbackType.${label}`) : FALLBACK_LABELS[label])) || label
 
 export const relationLabel = (type: string): string => {
   if (!type) return type
   return activeGraphId() ? predicateName(type.toUpperCase()) : type
 }
 
-export const CLAIM_STATUS_LABELS: Record<string, string> = {
-  proposed: '待审核',
-  auto_verified: '自动抽取',
-  human_verified: '人工确认',
-  rejected: '已驳回',
-  superseded: '已作废',
-}
-
 export const claimStatusLabel = (status: string): string =>
-  CLAIM_STATUS_LABELS[status] || status
+  (status && i18n.exists(`status.${status}`) ? i18n.t(`status.${status}`) : status)

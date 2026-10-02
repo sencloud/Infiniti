@@ -6,6 +6,7 @@
  */
 import type { EntityMedia, GraphData, GraphEdge, GraphNode } from '@/api/knowledge-graph'
 import { nodeColor, nodeLabel, relationLabel } from '@/utils/graphStyle'
+import i18n from '@/i18n'
 import { clusterPalette } from '@/theme/palette'
 
 /**
@@ -193,8 +194,8 @@ export function nodeTooltip(node: GraphNode, thumbUrl: string | null): string {
 /** 边的悬停提示：谓词中文名 + 支持该关系的事实条数（有 Claim 时提示可点击下钻） */
 export function edgeTooltip(edge: GraphEdge): string {
   const relation = edge.label || relationLabel(edge.type)
-  const support = edge.support_count ? ` · ${edge.support_count} 条事实` : ''
-  const hint = edge.claim_ids?.length ? '<div class="g3d-tip-hint">点击查看事实依据</div>' : ''
+  const support = edge.support_count ? ` · ${i18n.t('timeline.support', { count: edge.support_count })}` : ''
+  const hint = edge.claim_ids?.length ? `<div class="g3d-tip-hint">${i18n.t('timeline.clickClaims')}</div>` : ''
   return `<div class="g3d-tip g3d-tip-edge">${escapeHtml(relation)}${escapeHtml(support)}${hint}</div>`
 }
 

@@ -18,6 +18,7 @@ import { getClaimsByIds, type Claim, type Ontology } from '@/api/knowledge-graph
 import type { EvidenceStop } from '@/components/EvidenceHighlightDrawer'
 import { useIsMobile } from '@/hooks/useIsMobile'
 import { claimStatusLabel, relationLabel } from '@/utils/graphStyle'
+import i18n from '@/i18n'
 import { displayText } from '@/utils/mathText'
 
 interface Props {
@@ -87,7 +88,7 @@ export default function RelationDetailDrawer({
       })
       .catch((error: unknown) => {
         if (cancelled) return
-        message.error(error instanceof Error ? error.message : '加载关系详情失败')
+        message.error(error instanceof Error ? error.message : i18n.t('rel.loadFail'))
         setClaims([])
       })
       .finally(() => { if (!cancelled) setLoading(false) })
@@ -97,7 +98,7 @@ export default function RelationDetailDrawer({
 
   const title = predicate
     ? `${subjectName} —${predicateName(predicate, ontology)}→ ${objectName}`
-    : '关系详情'
+    : i18n.t('rel.title')
 
   return (
     <Drawer
@@ -112,13 +113,13 @@ export default function RelationDetailDrawer({
     >
       {/* 说明：聚合边与关系体实例的关系（对齐本体建模语义） */}
       <div className="rel-drawer-note">
-        这段关系有 <b>{claims.length || claimIds.length}</b> 条原文依据，点出处可翻到原文里的高亮位置。
+        {i18n.t('rel.note', { count: claims.length || claimIds.length })}
       </div>
 
       {loading && <div className="rel-drawer-loading"><Spin /></div>}
 
       {!loading && claims.length === 0 && (
-        <Empty description="暂无支撑该关系的事实" />
+        <Empty description={i18n.t('rel.empty')} />
       )}
 
       {!loading && claims.map((claim) => (
@@ -126,7 +127,7 @@ export default function RelationDetailDrawer({
           <div className="rel-claim-head">
             {mobile ? (
               <span className="rel-claim-conf">
-                {claimStatusLabel(claim.status)} · 置信度 {(claim.confidence * 100).toFixed(0)}%
+                {claimStatusLabel(claim.status)} · {i18n.t('rel.confidence', { pct: (claim.confidence * 100).toFixed(0) })}
               </span>
             ) : (
               <>
@@ -134,7 +135,7 @@ export default function RelationDetailDrawer({
                   {claimStatusLabel(claim.status)}
                 </Tag>
                 <span className="rel-claim-conf">
-                  置信度 {(claim.confidence * 100).toFixed(0)}%
+                  {i18n.t('rel.confidence', { pct: (claim.confidence * 100).toFixed(0) })}
                 </span>
               </>
             )}
@@ -153,7 +154,7 @@ export default function RelationDetailDrawer({
             title={claim.archive_title || claim.record_id}
           >
             <span>{claim.archive_title || claim.record_id}</span>
-            {mobile && <span className="rel-claim-go">读原文<RightOutlined /></span>}
+            {mobile && <span className="rel-claim-go">{i18n.t('rel.read')}<RightOutlined /></span>}
           </button>
         </div>
       ))}

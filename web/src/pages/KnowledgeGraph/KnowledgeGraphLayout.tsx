@@ -4,7 +4,8 @@ import { Dropdown, Result, Button, Spin, type MenuProps } from 'antd'
 import { ClusterOutlined, CompassOutlined, DownOutlined, LeftOutlined } from '@ant-design/icons'
 import { getGraphProfile, listGraphs, type GraphCategory } from '@/api/kg-explore'
 import { setActiveProfile, type GraphProfile, type GraphSummary } from '@/graph/profile'
-import { BrandMark, ThemeToggle } from '@/theme/ThemeProvider'
+import { BrandMark, LocaleToggle, ThemeToggle } from '@/theme/ThemeProvider'
+import i18n from '@/i18n'
 import { useIsMobile } from '@/hooks/useIsMobile'
 import './tokens.css'
 import './graph.css'
@@ -34,9 +35,9 @@ function KnowledgeGraphLayout() {
         if (cancelled) return
         setActiveProfile(p)
         setProfile(p)
-        document.title = `${p.name} · 学习图谱 · 无限连接`
+        document.title = i18n.t('graph.docTitle', { name: p.name })
       })
-      .catch((e: unknown) => { if (!cancelled) setError(e instanceof Error ? e.message : '图谱不存在') })
+      .catch((e: unknown) => { if (!cancelled) setError(e instanceof Error ? e.message : i18n.t('error.graph_missing')) })
     return () => { cancelled = true }
   }, [graphId])
 
@@ -58,7 +59,7 @@ function KnowledgeGraphLayout() {
             .map((g) => ({
               key: g.id,
               disabled: !g.ready,
-              label: <span className="kg-switch-item">{g.name}{!g.ready && <em>整理中</em>}</span>,
+              label: <span className="kg-switch-item">{g.name}{!g.ready && <em>{i18n.t('graph.pending')}</em>}</span>,
             })),
         }))
         .filter((group) => group.children.length),
@@ -75,7 +76,7 @@ function KnowledgeGraphLayout() {
 
   const title = switchMenu ? (
     <Dropdown menu={switchMenu} trigger={['click']} placement={mobile ? 'bottom' : 'bottomLeft'}>
-      <button type="button" className="kg-appbar-switch" aria-label="切换学习材料">
+      <button type="button" className="kg-appbar-switch" aria-label={i18n.t('graph.switch')}>
         <b>{profile?.name || '…'}</b>
         <DownOutlined />
       </button>
@@ -87,31 +88,32 @@ function KnowledgeGraphLayout() {
       {mobile ? (
         <header className="kg-mbar">
           <div className="kg-mbar-row">
-            <Link className="kg-mbar-back" to="/" aria-label="返回首页"><LeftOutlined /></Link>
+            <Link className="kg-mbar-back" to="/" aria-label={i18n.t('graph.back')}><LeftOutlined /></Link>
             <div className="kg-mbar-title">{title}</div>
+            <LocaleToggle />
             <ThemeToggle />
           </div>
-          <nav className="kg-mbar-seg" aria-label="学习视图">
-            <Link to={`/g/${graphId}/explore`} className={view === 'explore' ? 'on' : ''} aria-current={view === 'explore' ? 'page' : undefined}>关系</Link>
-            <Link to={`/g/${graphId}/galaxy`} className={view === 'galaxy' ? 'on' : ''} aria-current={view === 'galaxy' ? 'page' : undefined}>星图</Link>
-            <Link to={`/g/${graphId}/explore?mode=clue`} className={view === 'clue' ? 'on' : ''} aria-current={view === 'clue' ? 'page' : undefined}>线索</Link>
+          <nav className="kg-mbar-seg" aria-label={i18n.t('graph.views')}>
+            <Link to={`/g/${graphId}/explore`} className={view === 'explore' ? 'on' : ''} aria-current={view === 'explore' ? 'page' : undefined}>{i18n.t('graph.rel')}</Link>
+            <Link to={`/g/${graphId}/galaxy`} className={view === 'galaxy' ? 'on' : ''} aria-current={view === 'galaxy' ? 'page' : undefined}>{i18n.t('graph.galaxyShort')}</Link>
+            <Link to={`/g/${graphId}/explore?mode=clue`} className={view === 'clue' ? 'on' : ''} aria-current={view === 'clue' ? 'page' : undefined}>{i18n.t('graph.clue')}</Link>
           </nav>
         </header>
       ) : (
       <header className="kg-appbar">
-        <Link className="kg-appbar-home" to="/" title="返回首页">
+        <Link className="kg-appbar-home" to="/" title={i18n.t('graph.back')}>
           <BrandMark size={30} />
         </Link>
         <div className="kg-appbar-brand">
           {title}
-          <span className="kg-appbar-sub">学习图谱</span>
+          <span className="kg-appbar-sub">{i18n.t('graph.subtitle')}</span>
         </div>
         <nav className="kg-appbar-tabs">
           <NavLink to={`/g/${graphId}/galaxy`} className={({ isActive }) => (isActive ? 'active' : '')}>
-            <ClusterOutlined /> <span>语义星图</span>
+            <ClusterOutlined /> <span>{i18n.t('graph.navGalaxy')}</span>
           </NavLink>
           <NavLink to={`/g/${graphId}/explore`} className={({ isActive }) => (isActive ? 'active' : '')}>
-            <CompassOutlined /> <span>关系探索</span>
+            <CompassOutlined /> <span>{i18n.t('graph.navExplore')}</span>
           </NavLink>
         </nav>
         <div className="kg-appbar-stats">
@@ -119,11 +121,12 @@ function KnowledgeGraphLayout() {
             <>
               <span><b>{stats.units}</b> {profile?.unit.name}</span>
               {stats.clusters > 0 && <span><b>{stats.clusters}</b> {t.cluster}</span>}
-              {stats.entities > 0 && <span><b>{stats.entities.toLocaleString()}</b> 条目</span>}
-              {stats.claims > 0 && <span><b>{stats.claims.toLocaleString()}</b> 条关系</span>}
+              {stats.entities > 0 && <span><b>{stats.entities.toLocaleString()}</b> {i18n.t('common.entryNoun', { count: stats.entities })}</span>}
+              {stats.claims > 0 && <span><b>{stats.claims.toLocaleString()}</b> {i18n.t('common.relationNoun', { count: stats.claims })}</span>}
             </>
           )}
         </div>
+        <LocaleToggle />
         <ThemeToggle />
       </header>
       )}
@@ -131,18 +134,18 @@ function KnowledgeGraphLayout() {
         {error ? (
           <Result
             status="404"
-            title="没有找到这份学习材料"
+            title={i18n.t('graph.notFound')}
             subTitle={error}
-            extra={<Button type="primary" onClick={() => navigate('/')}>回到首页</Button>}
+            extra={<Button type="primary" onClick={() => navigate('/')}>{i18n.t('graph.home')}</Button>}
           />
         ) : !profile || profile.id !== graphId ? (
           <div className="kg-shell-loading"><Spin /></div>
         ) : !profile.stats?.claims ? (
           <Result
             status="info"
-            title={`${profile.name}还在整理中`}
-            subTitle="后台正在抓取原文、抽取关系并构建星图，完成后这里会自动可用。"
-            extra={<Button onClick={() => navigate('/')}>看看其他材料</Button>}
+            title={i18n.t('graph.preparing', { name: profile.name })}
+            subTitle={i18n.t('graph.preparingSub')}
+            extra={<Button onClick={() => navigate('/')}>{i18n.t('graph.other')}</Button>}
           />
         ) : (
           <Outlet key={graphId} />

@@ -33,7 +33,9 @@ app.use('/media/:graph', (req, res, next) => {
 });
 
 // SPA 前端路由：刷新任意页面都回落到 index.html（入口页不缓存，保证拿到最新构建）
-app.get(['/', '/g/{*splat}', '/kg', '/kg/{*splat}'], (req, res) => {
+app.use('/en/people', express.static('public/people'));
+
+app.get(['/', '/en', '/en/', '/g/{*splat}', '/en/g/{*splat}', '/kg', '/kg/{*splat}', '/en/kg', '/en/kg/{*splat}'], (req, res) => {
   res.set('Cache-Control', 'no-cache');
   res.sendFile('index.html', { root: SPA_DIR });
 });
@@ -42,7 +44,7 @@ app.get(['/', '/g/{*splat}', '/kg', '/kg/{*splat}'], (req, res) => {
 app.use((err, req, res, next) => {
   if (err.status === 404) return res.status(404).end();
   console.error('[web]', err); // 完整打印错误对象，方便定位
-  res.status(500).json({ error: '服务器内部错误' });
+  res.status(500).json({ error: '服务器内部错误', code: 'server_error' });
 });
 
 // 启动：先验证数据库连通 + 建好约束/索引

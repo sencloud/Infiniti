@@ -138,3 +138,26 @@ body {
   border-color: var(--accent);
   color: var(--accent);
 }
+
+.locale-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  height: 34px;
+  padding: 0 8px;
+  border-radius: 9px;
+  border: 1px solid var(--rule);
+  background: var(--panel);
+  color: var(--ink-3);
+  cursor: pointer;
+  font: 600 12px/1 var(--sans);
+}
+
+.locale-btn .on {
+  color: var(--ink);
+}
+
+.locale-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}

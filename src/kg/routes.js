@@ -9,10 +9,14 @@ import * as explore from './exploreQuery.js';
 import * as analysis from './analysisQuery.js';
 import { buildGalaxy } from './galaxyBuild.js';
 import { buildAnalysis } from './analysisBuild.js';
+import * as notes from './notes.js';
+import * as ask from './ask.js';
+import * as review from './review.js';
 import { createJob, findJob, finishJob, getJob, isRunning, latestJob } from './jobs.js';
 import {
   CATEGORIES, getGraph, hasGraph, listGraphs, profileOf,
 } from './domains/index.js';
+import { localeOf, localizeCategories } from './locale.js';
 import { currentGraph, ensureUnitLabels, one, parseJsonField, rows, withGraph } from './neo.js';
 import config from '../config.js';
 
@@ -21,7 +25,7 @@ const DEFAULT_GRAPH = 'shuihu';
 
 function graphIdOf(req) {
   const id = String(req.query.graph || req.get('x-kg-graph') || DEFAULT_GRAPH).trim();
-  if (!hasGraph(id)) throw Object.assign(new Error(`未知图谱：${id}`), { status: 404 });
+  if (!hasGraph(id)) throw Object.assign(new Error(`未知图谱：${id}`), { status: 404, code: 'unknown_graph', params: { id } });
   return id;
 }
 
@@ -34,7 +38,12 @@ const wrap = (fn) => async (req, res) => {
     res.json({ success: true, data });
   } catch (e) {
     console.error('[kg]', req.method, req.originalUrl, e.message);
-    res.status(e.status || 500).json({ success: false, message: e.message || '服务器错误' });
+    res.status(e.status || 500).json({
+      success: false,
+      message: e.message || '服务器错误',
+      code: e.code || 'server_error',
+      params: e.params,
+    });
   }
 };
 
@@ -46,7 +55,7 @@ const listParam = (q, name) => {
 
 /** 后台任务在调用时的图谱上下文里继续运行（AsyncLocalStorage 跟随 Promise 链） */
 function startJob(kind, builder) {
-  if (isRunning(kind)) throw Object.assign(new Error('已有任务在运行，请稍候'), { status: 409 });
+  if (isRunning(kind)) throw Object.assign(new Error('已有任务在运行，请稍候'), { status: 409, code: 'job_busy' });
   const job = createJob(kind);
   builder(job)
     .then(() => finishJob(job, 'completed'))
@@ -86,38 +95,49 @@ const runIn = (id, fn) => withGraph(id, async () => {
   return fn();
 });
 
+function sendError(res, e) {
+  res.status(e.status || 500).json({
+    success: false,
+    message: e.message || '服务器错误',
+    code: e.code || 'server_error',
+    params: e.params,
+  });
+}
+
 router.get('/knowledge-graph/graphs', async (req, res) => {
   try {
+    const locale = localeOf(req);
     const items = await Promise.all(listGraphs().map((graph) => runIn(graph.id, async () => {
       const stats = await graphStats();
-      const p = profileOf(graph);
+      const p = profileOf(graph, locale);
       return {
         id: p.id, name: p.name, book: p.book, category: p.category, kind: p.kind, description: p.description,
         cover: p.cover, source: p.source, unit: p.unit, terms: p.terms, stats, ready: stats.claims > 0,
         build: buildStatus(p.id),
       };
     })));
-    res.json({ success: true, data: { categories: CATEGORIES, items } });
+    res.json({ success: true, data: { categories: localizeCategories(CATEGORIES, locale), items } });
   } catch (e) {
     console.error('[kg] graphs', e.message);
-    res.status(500).json({ success: false, message: e.message });
+    sendError(res, e);
   }
 });
 
 router.get('/knowledge-graph/graphs/:id', async (req, res) => {
   try {
     const graph = getGraph(req.params.id);
+    const locale = localeOf(req);
     const data = await runIn(graph.id, async () => {
       const stats = await graphStats();
       const units = await rows(
         'MATCH (c:Chapter {graph_id: $g}) RETURN c.no AS no, c.title AS title, c.label AS label, c.part AS part ORDER BY c.no',
       );
-      const p = profileOf(graph);
+      const p = profileOf(graph, locale);
       return { ...p, unit: { ...p.unit, total: p.unit.total || units.length }, stats, units };
     });
     res.json({ success: true, data });
   } catch (e) {
-    res.status(e.status || 500).json({ success: false, message: e.message });
+    sendError(res, e);
   }
 });
 
@@ -129,7 +149,7 @@ router.get('/knowledge-graph/videos', (req, res) => {
     const data = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : { source: null, episodes: [] };
     res.json({ success: true, data });
   } catch (e) {
-    res.status(e.status || 500).json({ success: false, message: e.message });
+    sendError(res, e);
   }
 });
 
@@ -138,14 +158,16 @@ router.get('/knowledge-graph/search-all', async (req, res) => {
   try {
     const kw = String(req.query.q || '').trim();
     if (!kw) return res.json({ success: true, data: { items: [] } });
+    const locale = localeOf(req);
     const per = Math.min(Number(req.query.limit) || 5, 20);
     const groups = await Promise.all(listGraphs().map((graph) => runIn(graph.id, async () => {
       const r = await explore.searchEntities({ keyword: kw, page_size: per });
-      return r.items.map((it) => ({ ...it, graph_id: graph.id, graph_name: graph.name }));
+      const name = profileOf(graph, locale).name;
+      return r.items.map((it) => ({ ...it, graph_id: graph.id, graph_name: name }));
     })));
     res.json({ success: true, data: { items: groups.flat() } });
   } catch (e) {
-    res.status(500).json({ success: false, message: e.message });
+    sendError(res, e);
   }
 });
 
@@ -184,7 +206,7 @@ router.post(`${A}/rebuild`, wrap(() => startJob('analysis', buildAnalysis)));
 router.get(`${A}/jobs/latest`, wrap(() => latestJob('analysis')));
 router.get(`${A}/jobs/:id`, wrap(async (req) => {
   const job = await findJob(req.params.id);
-  if (!job) throw Object.assign(new Error('任务不存在'), { status: 404 });
+  if (!job) throw Object.assign(new Error('任务不存在'), { status: 404, code: 'job_missing' });
   return job;
 }));
 router.post(`${A}/jobs/:id/cancel`, wrap((req) => {
@@ -229,5 +251,64 @@ router.get(`${K}/entities/:id`, wrap((req) => explore.getEntity(req.params.id)))
 router.get(`${K}/claims`, wrap((req) => explore.listClaims(req.query)));
 router.post(`${K}/claims/by-ids`, wrap((req) => explore.claimsByIds(req.body?.claim_ids)));
 router.get(`${K}/archives/:id/evidence`, wrap((req) => explore.chapterEvidence(req.params.id)));
+
+// ───────────── 学习层：解说 / 相关推荐 / 问答 / 待核对 ─────────────
+
+/** 写解说、提问都要调模型：按来源 IP 每小时限次，避免公开部署被刷 */
+const LLM_PER_HOUR = Number(process.env.KG_LLM_PER_HOUR || 40);
+const llmUsage = new Map();
+function clientOf(req) {
+  return String(req.get('x-forwarded-for') || '').split(',')[0].trim() || req.socket.remoteAddress || '';
+}
+function spendLlm(req) {
+  const key = clientOf(req);
+  const now = Date.now();
+  const recent = (llmUsage.get(key) || []).filter((t) => now - t < 3600_000);
+  if (recent.length >= LLM_PER_HOUR) throw Object.assign(new Error('提问太频繁，请稍后再试'), { status: 429, code: 'llm_rate_limited' });
+  recent.push(now);
+  llmUsage.set(key, recent);
+}
+
+/** 核对会改库：设了 KG_REVIEW_TOKEN 就凭口令；没设只允许本机直连（经反向代理来的请求不算） */
+function canReview(req) {
+  const token = process.env.KG_REVIEW_TOKEN;
+  if (token) return req.get('x-kg-review-token') === token;
+  const addr = req.socket.remoteAddress || '';
+  return !req.get('x-forwarded-for') && ['127.0.0.1', '::1', '::ffff:127.0.0.1'].includes(addr);
+}
+function requireReview(req) {
+  if (!canReview(req)) throw Object.assign(new Error('没有核对权限'), { status: 403, code: 'review_forbidden' });
+}
+
+router.get(`${K}/entities/:id/related`, wrap((req) => explore.relatedEntities(req.params.id, req.query.limit || 8)));
+router.get(`${K}/entities/:id/note`, wrap((req) => notes.getNote(req.params.id, localeOf(req))));
+router.post(`${K}/entities/:id/note`, wrap((req) => {
+  spendLlm(req);
+  return notes.generateNote(req.params.id, localeOf(req));
+}));
+
+const L = '/knowledge-graph/learn';
+router.post(`${L}/ask`, wrap((req) => {
+  const question = req.body?.question;
+  const fresh = Boolean(req.body?.fresh);
+  const locale = localeOf(req);
+  if (fresh || !ask.savedAnswer(question, locale)) spendLlm(req);
+  return ask.ask({ question, locale, fresh });
+}));
+router.get(`${L}/answers`, wrap((req) => ask.listAnswers({ locale: localeOf(req), limit: req.query.limit })));
+router.get(`${L}/answers/:id`, wrap((req) => ask.getAnswer(req.params.id)));
+router.post(`${L}/answers/:id`, wrap((req) => ask.saveAnswer(req.params.id)));
+router.delete(`${L}/answers/:id`, wrap((req) => {
+  requireReview(req);
+  return ask.deleteAnswer(req.params.id);
+}));
+router.get(`${L}/review`, wrap(async (req) => ({
+  ...(await review.reviewQueue(req.query)),
+  can_decide: canReview(req),
+})));
+router.post(`${L}/review/:claimId`, wrap((req) => {
+  requireReview(req);
+  return review.decide(req.params.claimId, String(req.body?.action || ''), req.body?.note);
+}));
 
 export default router;

@@ -165,7 +165,7 @@ export async function getEntity(entityId) {
 export async function entitySources(entityId, limit = 20) {
   const list = await rows(
     `MATCH (e:Entity {graph_id: $g, entity_id: $id})-[a:APPEARS_IN]->(c:Chapter)
-     OPTIONAL MATCH (c)-[:SUPPORTS]->(cl:Claim)-[:SUBJECT|OBJECT]->(e)
+     OPTIONAL MATCH (c)-[:SUPPORTS]->(cl:Claim)-[:SUBJECT|OBJECT]->(e) WHERE coalesce(cl.status, '') <> 'rejected'
      WITH c, a, collect(DISTINCT cl) AS claims
      RETURN c.no AS no, c.title AS title, a.count AS mentions, size(claims) AS claim_count,
             [x IN claims | x.evidence_text][0..3] AS evidence
@@ -207,13 +207,16 @@ function toClaim(r) {
   };
 }
 
+/** 核对时被驳回的事实不再出现在阅读与详情里（重新入库时直接丢弃） */
+const LIVE = "coalesce(c.status, '') <> 'rejected'";
+
 const CLAIM_RETURN = `MATCH (s:Entity)<-[:SUBJECT]-(c)-[:OBJECT]->(o:Entity)
   OPTIONAL MATCH (ch:Chapter)-[:SUPPORTS]->(c)
   RETURN c, s, o, ch.title AS title`;
 
 export async function claimsByIds(ids) {
   const list = await rows(
-    `MATCH (c:Claim {graph_id: $g}) WHERE c.claim_id IN $ids ${CLAIM_RETURN} ORDER BY c.chapter_no`,
+    `MATCH (c:Claim {graph_id: $g}) WHERE c.claim_id IN $ids AND ${LIVE} ${CLAIM_RETURN} ORDER BY c.chapter_no`,
     { ids: [].concat(ids || []).slice(0, 500) },
   );
   return { items: list.map(toClaim) };
@@ -234,7 +237,7 @@ export async function chapterEvidence(recordId) {
   const ch = await one('MATCH (c:Chapter {graph_id: $g, no: $no}) RETURN c', { no: int(no) });
   if (!ch) throw Object.assign(new Error(`${currentGraph().unit.name}不存在`), { status: 404 });
   const text = ch.c.text;
-  const list = await rows(`MATCH (:Chapter {graph_id: $g, no: $no})-[:SUPPORTS]->(c:Claim) ${CLAIM_RETURN}`, { no: int(no) });
+  const list = await rows(`MATCH (:Chapter {graph_id: $g, no: $no})-[:SUPPORTS]->(c:Claim) WHERE ${LIVE} ${CLAIM_RETURN}`, { no: int(no) });
   const claims = list.map(toClaim).map((cl) => {
     const ev = cl.evidence_text || '';
     const start = ev ? text.indexOf(ev) : -1;
@@ -293,6 +296,41 @@ export async function stats() {
     },
     entity_types: types,
     predicates: preds,
+  };
+}
+
+/**
+ * 还可以看谁：和它没有直接关系、但共同关系人多的实体（Adamic-Adar，越冷门的共同关系人分越高）。
+ * via 给出最有分量的两个共同关系人，前端用来解释「为什么推荐」。
+ */
+export async function relatedEntities(entityId, limit = 8) {
+  const list = await rows(
+    `MATCH (a:Entity {graph_id: $g, entity_id: $id})-[:RELATES]-(z:Entity)
+     WITH DISTINCT a, z
+     WITH a, z, COUNT { MATCH (z)-[:RELATES]-(n:Entity) RETURN DISTINCT n } AS zd
+     MATCH (z)-[:RELATES]-(b:Entity)
+     WHERE b <> a AND NOT (a)-[:RELATES]-(b)
+     WITH DISTINCT b, z, zd
+     WITH b, collect({name: z.canonical_name, w: 1.0 / log(toFloat(zd) + 1.0)}) AS via
+     WITH b, via, reduce(s = 0.0, x IN via | s + x.w) AS score
+     ORDER BY score DESC, b.claim_count DESC LIMIT $limit
+     RETURN b.entity_id AS id, b.canonical_name AS name, b.entity_type AS label, score, size(via) AS shared,
+            [x IN via | x.name] AS via_names, [x IN via | x.w] AS via_weights`,
+    { id: entityId, limit: int(Math.min(Number(limit) || 8, 20)) },
+  );
+  return {
+    items: list.map((r) => ({
+      id: r.id,
+      name: r.name,
+      label: r.label,
+      score: Number(r.score.toFixed(4)),
+      shared: r.shared,
+      via: r.via_names
+        .map((name, i) => ({ name, w: r.via_weights[i] }))
+        .sort((x, y) => y.w - x.w)
+        .slice(0, 2)
+        .map((x) => x.name),
+    })),
   };
 }
 

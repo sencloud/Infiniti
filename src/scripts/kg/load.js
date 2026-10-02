@@ -10,6 +10,7 @@ import { close } from '../../db.js';
 import { getGraph } from '../../kg/domains/index.js';
 import { exec as run, withGraph } from '../../kg/neo.js';
 import { NameMatcher } from '../../kg/matcher.js';
+import { loadDecisions } from '../../kg/review.js';
 import { graphArg, graphPaths, isMain, readJson } from './paths.js';
 import { loadSeeds } from './seeds.js';
 import { isGenericName } from './extract.js';
@@ -231,6 +232,16 @@ export async function buildGraphData(graphId) {
     }
   }
 
+  // 重放人工核对：驳回的事实不入库，确认的标为 human_verified
+  const decisions = loadDecisions(graphId);
+  let rejected = 0;
+  for (const [key, c] of claims) {
+    if (decisions[c.claim_id]?.action === 'reject') {
+      claims.delete(key);
+      rejected++;
+    }
+  }
+
   // 只保留参与了关系事实的实体（以及全部种子人物）
   const claimCount = new Map();
   for (const c of claims.values()) {
@@ -314,7 +325,7 @@ export async function buildGraphData(graphId) {
 
   const claimRows = [...claims.values()].map((c) => ({
     ...c,
-    status: 'auto_verified',
+    status: decisions[c.claim_id]?.action === 'confirm' ? 'human_verified' : 'auto_verified',
     record_id: `ch-${String(c.chapter_no).padStart(3, '0')}`,
   }));
 
@@ -340,7 +351,7 @@ export async function buildGraphData(graphId) {
     };
   });
 
-  return { chapterRows, segmentRows, entityRows, claimRows, edgeRows, appears, stats: { rawRelations, dropped } };
+  return { chapterRows, segmentRows, entityRows, claimRows, edgeRows, appears, stats: { rawRelations, dropped, rejected } };
 }
 
 // ───────────────────────── 写库 ─────────────────────────
@@ -444,7 +455,7 @@ export async function loadGraph(graphId) {
   const byType = {};
   for (const e of data.entityRows) byType[e.entity_type] = (byType[e.entity_type] || 0) + 1;
   console.log(`${tag} 单元 ${data.chapterRows.length}，片段 ${data.segmentRows.length}，实体 ${data.entityRows.length}`, byType);
-  console.log(`${tag} 事实 ${data.claimRows.length}（原始关系 ${data.stats.rawRelations}，类型不符丢弃 ${data.stats.dropped}），聚合边 ${data.edgeRows.length}`);
+  console.log(`${tag} 事实 ${data.claimRows.length}（原始关系 ${data.stats.rawRelations}，类型不符丢弃 ${data.stats.dropped}${data.stats.rejected ? `，核对驳回 ${data.stats.rejected}` : ''}），聚合边 ${data.edgeRows.length}`);
   await withGraph(graphId, async () => {
     console.log(`${tag} 清空该图谱旧数据 …`);
     await wipeGraph();

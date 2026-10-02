@@ -6,32 +6,34 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { listGraphs, searchAllGraphs, type GlobalSearchHit, type GraphCategory } from '@/api/kg-explore'
 import type { GraphSummary } from '@/graph/profile'
-import { BrandMark, ThemeToggle } from '@/theme/ThemeProvider'
+import { BrandMark, LocaleToggle, ThemeToggle } from '@/theme/ThemeProvider'
+import i18n from '@/i18n'
+import { importGuideUrl, peopleHref } from '@/i18n/locale'
 import { useIsMobile } from '@/hooks/useIsMobile'
 import './home.css'
 
-const IMPORT_GUIDE_URL = 'https://github.com/sencloud/Infiniti#%E6%B7%BB%E5%8A%A0%E5%AD%A6%E4%B9%A0%E6%9D%90%E6%96%99'
-
-const PEOPLE_CATEGORY: GraphCategory = {
-  id: 'people',
-  name: '自由探索',
-  description: '输入任意人物或学习主题，系统从百科抓取资料，自动生成按年代铺开的 3D 关系图谱',
+function peopleCategory(): GraphCategory {
+  return {
+    id: 'people',
+    name: i18n.t('home.freeName'),
+    description: i18n.t('home.freeDesc'),
+  }
 }
 
-const STEP_LABELS: Record<string, string> = {
-  crawl: '抓取原文',
-  seeds: '整理人物表',
-  extract: '抽取事实',
-  load: '写入图谱',
-  build: '构建星图',
+const STEP_KEYS: Record<string, string> = {
+  crawl: 'home.stepCrawl',
+  seeds: 'home.stepSeeds',
+  extract: 'home.stepExtract',
+  load: 'home.stepLoad',
+  build: 'home.stepBuild',
 }
 
 function buildText(g: GraphSummary): string {
   const b = g.build
-  if (!b) return '等待整理'
-  if (b.state === 'failed') return '整理中断，稍后重试'
-  if (b.step === 'extract' && b.units) return `抽取事实 ${b.extracted ?? 0}/${b.units}`
-  return b.step ? STEP_LABELS[b.step] || b.step : '等待整理'
+  if (!b) return i18n.t('home.wait')
+  if (b.state === 'failed') return i18n.t('home.interrupted')
+  if (b.step === 'extract' && b.units) return i18n.t('home.extracting', { done: b.extracted ?? 0, total: b.units })
+  return b.step ? (STEP_KEYS[b.step] ? i18n.t(STEP_KEYS[b.step]) : b.step) : i18n.t('home.wait')
 }
 
 function buildPct(g: GraphSummary): number {
@@ -65,7 +67,7 @@ function GraphCard({ graph }: { graph: GraphSummary }) {
   return (
     <article className={`hm-card ${graph.ready ? '' : 'is-pending'}`}>
       {graph.ready ? (
-        <Link to={`/g/${graph.id}/galaxy`} className="hm-card-cover-link" aria-label={`进入${graph.name}`}>
+        <Link to={`/g/${graph.id}/galaxy`} className="hm-card-cover-link" aria-label={i18n.t('home.enter', { name: graph.name })}>
           <BookCover graph={graph} />
         </Link>
       ) : <BookCover graph={graph} />}
@@ -76,12 +78,12 @@ function GraphCard({ graph }: { graph: GraphSummary }) {
           <>
             <div className="hm-card-stats">
               <span><b>{s.units}</b> {graph.unit.name}</span>
-              <span><b>{s.entities.toLocaleString()}</b> 条目</span>
-              <span><b>{s.claims.toLocaleString()}</b> 条关系</span>
+              <span><b>{s.entities.toLocaleString()}</b> {i18n.t('common.entryNoun', { count: s.entities })}</span>
+              <span><b>{s.claims.toLocaleString()}</b> {i18n.t('common.relationNoun', { count: s.claims })}</span>
             </div>
             <div className="hm-card-actions">
-              <Link to={`/g/${graph.id}/galaxy`} className="hm-btn main">语义星图</Link>
-              <Link to={`/g/${graph.id}/explore`} className="hm-btn ghost">关系探索</Link>
+              <Link to={`/g/${graph.id}/galaxy`} className="hm-btn main">{i18n.t('home.galaxy')}</Link>
+              <Link to={`/g/${graph.id}/explore`} className="hm-btn ghost">{i18n.t('home.explore')}</Link>
             </div>
           </>
         ) : (
@@ -98,20 +100,20 @@ function GraphCard({ graph }: { graph: GraphSummary }) {
 function PeopleCard({ persons }: { persons: number | null }) {
   return (
     <article className="hm-card">
-      <a href="/people/" className="hm-card-cover-link" aria-label="进入自由探索">
+      <a href={peopleHref()} className="hm-card-cover-link" aria-label={i18n.t('home.freeEnter')}>
         <div className="hm-cover hm-cover-type cat-people">
-          <span className="hm-cover-slip">自由探索</span>
+          <span className="hm-cover-slip">{i18n.t('home.freeName')}</span>
         </div>
       </a>
       <div className="hm-card-body">
-        <h3>人物与主题</h3>
-        <p className="hm-card-desc">{PEOPLE_CATEGORY.description}</p>
+        <h3>{i18n.t('home.peopleTitle')}</h3>
+        <p className="hm-card-desc">{peopleCategory().description}</p>
         <div className="hm-card-stats">
-          {persons != null && <span><b>{persons.toLocaleString()}</b> 位人物</span>}
-          <span>如 苏轼、小学数学3年级</span>
+          {persons != null && <span>{i18n.t('home.peopleCount', { count: persons.toLocaleString() })}</span>}
+          <span>{i18n.t('home.peopleExamples')}</span>
         </div>
         <div className="hm-card-actions">
-          <a href="/people/" className="hm-btn main">开始探索</a>
+          <a href={peopleHref()} className="hm-btn main">{i18n.t('home.peopleAction')}</a>
         </div>
       </div>
     </article>
@@ -126,7 +128,7 @@ function ShelfBook({ graph }: { graph: GraphSummary }) {
       <div className="hm-shelf-info">
         <h3>{graph.name}</h3>
         {graph.ready ? (
-          <span>{s.units} {graph.unit.name} · {s.entities.toLocaleString()} 条目</span>
+          <span>{i18n.t('home.shelf', { units: s.units, unit: graph.unit.name, entities: s.entities.toLocaleString() })}</span>
         ) : (
           <span className="hm-shelf-pending">{buildText(graph)}</span>
         )}
@@ -147,11 +149,11 @@ function CourseRow({ graph }: { graph: GraphSummary }) {
         <h3>{graph.name}</h3>
         <span>
           {graph.ready
-            ? `${s.units} ${graph.unit.name} · ${s.entities.toLocaleString()} 个知识点`
+            ? i18n.t('home.knowledge', { units: s.units, unit: graph.unit.name, entities: s.entities.toLocaleString() })
             : buildText(graph)}
         </span>
       </div>
-      {graph.ready && <span className="hm-row-go">看知识网</span>}
+      {graph.ready && <span className="hm-row-go">{i18n.t('home.goNetwork')}</span>}
     </>
   )
   return graph.ready
@@ -169,8 +171,8 @@ function MobileCatalog({ catalog, persons }: {
     <main className="hm-main hm-m-main">
       <section className="hm-m-section">
         <div className="hm-m-head">
-          <h2>读一本书</h2>
-          <span>{books.length} 部 · 左右滑动</span>
+          <h2>{i18n.t('home.books')}</h2>
+          <span>{i18n.t('home.booksMeta', { count: books.length })}</span>
         </div>
         <div className="hm-shelf">
           {books.map((g) => <ShelfBook key={g.id} graph={g} />)}
@@ -179,32 +181,32 @@ function MobileCatalog({ catalog, persons }: {
 
       {courses.length > 0 && (
         <section className="hm-m-section">
-          <div className="hm-m-head"><h2>学一门课</h2></div>
+          <div className="hm-m-head"><h2>{i18n.t('home.course')}</h2></div>
           {courses.map((g) => <CourseRow key={g.id} graph={g} />)}
         </section>
       )}
 
       <section className="hm-m-section">
-        <div className="hm-m-head"><h2>自由探索</h2></div>
-        <a href="/people/" className="hm-row">
+        <div className="hm-m-head"><h2>{i18n.t('home.free')}</h2></div>
+        <a href={peopleHref()} className="hm-row">
           <div className="hm-cover hm-cover-type cat-people">
-            <span className="hm-cover-slip">自由探索</span>
+            <span className="hm-cover-slip">{i18n.t('home.freeName')}</span>
           </div>
           <div className="hm-row-body">
-            <h3>人物与主题</h3>
+            <h3>{i18n.t('home.peopleTitle')}</h3>
             <span>
-              {persons ? `已收录 ${persons.toLocaleString()} 位人物 · ` : ''}如 苏轼、小学数学3年级
+              {persons ? i18n.t('home.peopleCount', { count: persons.toLocaleString() }) : ''}{i18n.t('home.peopleExamples')}
             </span>
           </div>
-          <span className="hm-row-go">开始探索</span>
+          <span className="hm-row-go">{i18n.t('home.peopleAction')}</span>
         </a>
       </section>
 
       <section className="hm-m-section">
-        <div className="hm-m-head"><h2>学技术 · 备考</h2></div>
-        <a href={IMPORT_GUIDE_URL} target="_blank" rel="noreferrer" className="hm-import">
-          <p>导入你的教材、讲义或技术文档，生成专属的学习图谱</p>
-          <span>查看导入方法</span>
+        <div className="hm-m-head"><h2>{i18n.t('home.tech')}</h2></div>
+        <a href={importGuideUrl()} target="_blank" rel="noreferrer" className="hm-import">
+          <p>{i18n.t('home.import')}</p>
+          <span>{i18n.t('home.importLink')}</span>
         </a>
       </section>
     </main>
@@ -252,16 +254,16 @@ function GlobalSearch({ compact = false }: { compact?: boolean }) {
             else if (e.key === 'Enter' && hits[sel]) go(hits[sel])
             else if (e.key === 'Escape') setOpen(false)
           }}
-          placeholder={compact ? '搜人物、概念或知识点' : '搜一个人物、概念或知识点（如 诸葛亮、勾股定理、颜回）'}
-          aria-label="在全部学习材料中搜索"
+          placeholder={compact ? i18n.t('home.searchCompact') : i18n.t('home.searchFull')}
+          aria-label={i18n.t('home.searchAria')}
           enterKeyHint="search"
         />
-        {!compact && <button type="button" className="go" onClick={() => hits[sel] && go(hits[sel])}>搜索</button>}
+        {!compact && <button type="button" className="go" onClick={() => hits[sel] && go(hits[sel])}>{i18n.t('common.search')}</button>}
       </div>
       {open && q.trim() && (
         <div className="hm-search-drop" role="listbox">
-          {loading && !hits.length && <div className="hm-drop-status">搜索中…</div>}
-          {!loading && !hits.length && <div className="hm-drop-status">没有找到「{q.trim()}」</div>}
+          {loading && !hits.length && <div className="hm-drop-status">{i18n.t('home.searching')}</div>}
+          {!loading && !hits.length && <div className="hm-drop-status">{i18n.t('home.noHit', { q: q.trim() })}</div>}
           {hits.map((hit, i) => (
             <button
               type="button"
@@ -290,7 +292,8 @@ export default function HomePage() {
   const mobile = useIsMobile()
 
   useEffect(() => {
-    document.title = '无限连接 · 关系式学习助手'
+    document.title = i18n.t('home.docTitle')
+    document.querySelector('meta[name="description"]')?.setAttribute('content', i18n.t('home.meta'))
     const load = () => listGraphs().then(setCatalog).catch(() => {})
     load()
     // 后台批处理还在跑时，卡片进度每 20 秒刷新一次
@@ -299,7 +302,7 @@ export default function HomePage() {
     return () => window.clearInterval(timer)
   }, [])
 
-  const categories = useMemo(() => [...(catalog?.categories || []), PEOPLE_CATEGORY], [catalog])
+  const categories = useMemo(() => [...(catalog?.categories || []), peopleCategory()], [catalog])
   const shown = active === 'all' ? categories : categories.filter((c) => c.id === active)
   const readyCount = catalog?.items.filter((g) => g.ready).length ?? 0
 
@@ -310,29 +313,30 @@ export default function HomePage() {
         <Link to="/" className="hm-brand">
           <BrandMark size={40} />
           <div>
-            <div className="hm-brand-name">无限<b>连接</b></div>
-            <div className="hm-brand-sub">INFINITI · 关系式学习助手</div>
+            <div className="hm-brand-name">{i18n.t('home.brand')}{i18n.t('home.brandEm') ? <b>{i18n.t('home.brandEm')}</b> : null}</div>
+            <div className="hm-brand-sub">{i18n.t('home.brandSub')}</div>
           </div>
         </Link>
         <div className="hm-header-actions">
-          <a href="/people/" className="hm-header-link" title="输入任意人物或学习主题，自动生成关系图谱">自由探索</a>
+          <a href={peopleHref()} className="hm-header-link" title={i18n.t('home.freeTitle')}>{i18n.t('home.free')}</a>
+          <LocaleToggle />
           <ThemeToggle />
         </div>
       </header>
 
       <section className="hm-hero">
-        <h1><span className="hm-h1-line">读懂一本书，</span><span className="hm-h1-line">理清<b>一门课</b></span></h1>
-        <p className="hm-tagline">AI 通读学习材料，把人物与知识点连成关系图谱，每条关系都能回到原文</p>
+        <h1><span className="hm-h1-line">{i18n.t('home.hero1')}</span><span className="hm-h1-line">{i18n.t('home.hero2')}<b>{i18n.t('home.hero2em')}</b></span></h1>
+        <p className="hm-tagline">{i18n.t('home.tagline')}</p>
         <GlobalSearch compact={mobile} />
         {mobile ? (
-          <ol className="hm-steps" aria-label="怎么用">
-            <li>选一份材料</li>
-            <li>搜人物或概念</li>
-            <li>沿关系读原文</li>
+          <ol className="hm-steps" aria-label={i18n.t('home.how')}>
+            <li>{i18n.t('home.step1')}</li>
+            <li>{i18n.t('home.step2')}</li>
+            <li>{i18n.t('home.step3')}</li>
           </ol>
         ) : (
-        <nav className="hm-chips" aria-label="材料分类">
-          {[{ id: 'all', name: '全部' }, ...categories].map((c) => (
+        <nav className="hm-chips" aria-label={i18n.t('home.cats')}>
+          {[{ id: 'all', name: i18n.t('home.all') }, ...categories].map((c) => (
             <button
               type="button"
               key={c.id}
@@ -348,7 +352,7 @@ export default function HomePage() {
 
       {mobile && catalog ? <MobileCatalog catalog={catalog} persons={persons} /> : (
       <main className="hm-main">
-        {!catalog && <div className="hm-loading">正在载入学习材料…</div>}
+        {!catalog && <div className="hm-loading">{i18n.t('home.loading')}</div>}
         {catalog && shown.map((cat) => {
           const graphs = cat.id === 'people' ? [] : catalog.items.filter((g) => g.category === cat.id)
           return (
@@ -372,11 +376,11 @@ export default function HomePage() {
         {catalog && (
           <span>
             {readyCount < catalog.items.length
-              ? `${readyCount} / ${catalog.items.length} 份材料可学习 · 其余正在后台整理`
-              : `共 ${catalog.items.length} 份学习材料 · 导入你的教材、讲义或技术文档，也能生成同样的图谱`}
+              ? i18n.t('home.footerPartial', { ready: readyCount, total: catalog.items.length })
+              : i18n.t('home.footerAll', { count: catalog.items.length })}
           </span>
         )}
-        <span>原文来自 5000言 · 教材来自国家中小学智慧教育平台 · 图像来自维基共享资源</span>
+        <span>{i18n.t('home.credit')}</span>
       </footer>
     </div>
   )

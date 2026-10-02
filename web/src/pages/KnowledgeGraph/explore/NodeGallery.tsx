@@ -5,11 +5,16 @@
 import { useEffect, useState } from 'react'
 import { Image } from 'antd'
 import type { EntityMedia, MediaImage } from '@/api/knowledge-graph'
+import i18n from '@/i18n'
 
-const SOURCE_NAME: Record<string, string> = { commons: '维基共享资源', baike: '百度百科' }
+function sourceName(source?: string): string {
+  if (source === 'commons') return i18n.t('explore.sourceCommons')
+  if (source === 'baike') return i18n.t('explore.sourceBaike')
+  return ''
+}
 
 function caption(img: MediaImage): string {
-  const parts = [img.credit, img.license, SOURCE_NAME[img.source || '']].filter(Boolean)
+  const parts = [img.credit, img.license, sourceName(img.source)].filter(Boolean)
   return parts.join(' · ')
 }
 
@@ -44,7 +49,7 @@ export default function NodeGallery({ name, media }: { name: string; media: Enti
       {(current.title || caption(current)) && (
         <div className="inf-nc-caption">
           {current.page_url
-            ? <a href={current.page_url} target="_blank" rel="noreferrer">{current.title || '出处'}</a>
+            ? <a href={current.page_url} target="_blank" rel="noreferrer">{current.title || i18n.t('explore.creditLink')}</a>
             : <span>{current.title}</span>}
           {caption(current) && <em>{caption(current)}</em>}
         </div>

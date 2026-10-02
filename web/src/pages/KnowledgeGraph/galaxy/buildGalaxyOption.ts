@@ -17,6 +17,7 @@ import type {
   GalaxySubcluster,
 } from '../../../api/kg-explore'
 import { activeProfile, terms, unitRange } from '@/graph/profile'
+import i18n from '@/i18n'
 import { clusterPalette, palette } from '@/theme/palette'
 
 /** tooltip 里的次要文字色 */
@@ -189,7 +190,7 @@ export function buildGalaxySeries(
   })
   return {
     type: 'scatter' as const,
-    name: '原文片段',
+    name: i18n.t('galaxy.seriesSegments'),
     data,
     symbolSize: 7,
     // progressive 渲染：点数大时分帧绘制避免卡顿
@@ -215,7 +216,7 @@ export function buildSimilarSeries(
   return [
     {
       type: 'lines' as const,
-      name: '相似段落连线',
+      name: i18n.t('galaxy.seriesLines'),
       coordinateSystem: 'cartesian2d',
       z: 5,
       silent: true,
@@ -235,7 +236,7 @@ export function buildSimilarSeries(
       // 相似件层：簇色实心点 + 白描边，与背景压暗点形成对比。
       // 独立于主点系列画（坐标自带），视口外的相似件也有自己的点。
       type: 'scatter' as const,
-      name: '相似段落',
+      name: i18n.t('galaxy.seriesSimilar'),
       z: 6,
       symbolSize: 9,
       data: items.map((it) => ({
@@ -259,7 +260,7 @@ export function buildSimilarSeries(
     {
       // 锚点层：放大的白心簇边点，与搜索命中的样式同语言
       type: 'scatter' as const,
-      name: '参照段落',
+      name: i18n.t('galaxy.seriesAnchor'),
       z: 7,
       symbolSize: 18,
       data: [{
@@ -328,7 +329,7 @@ export function buildGridSeries(
   const maxCount = Math.max(...shown.map((c) => c.count), 1)
   return {
     type: 'scatter' as const,
-    name: '片段密度',
+    name: i18n.t('galaxy.seriesDensity'),
     data: shown.map((c) => ({
       name: c.grid_key,
       value: [Number(c.x), Number(c.y)],
@@ -402,7 +403,7 @@ export function galaxyBaseOption() {
           return [
             `<div style="font-weight:600">${d.count} ${t.segments}</div>`,
             `<div style="color:${dim()}">${activeProfile().unit.axis}：${span}</div>`,
-            `<div style="color:${dim()}">放大查看单${t.segment}</div>`,
+            `<div style="color:${dim()}">${i18n.t('galaxy.zoomIn', { segment: t.segment })}</div>`,
           ].join('')
         }
         if (!d.record_id) return ''
@@ -462,7 +463,7 @@ export function buildClusterLabelSeries(
 
   return {
     type: 'scatter' as const,
-    name: '聚类标签',
+    name: i18n.t('galaxy.seriesLabels'),
     silent: true, // 不挡点击：透过标签仍然能点到下面的档案点
     symbolSize: 0.1,
     data: ranked.map((c) => ({

@@ -21,6 +21,7 @@ import { palette } from '@/theme/palette'
 import { useTheme } from '@/theme/ThemeProvider'
 import { predicateColor } from './graph3dConfig'
 import type { FlowAggregate, FlowSelection } from './flowAggregate'
+import i18n from '@/i18n'
 
 interface Props {
   flow: FlowAggregate
@@ -52,11 +53,7 @@ const escapeHtml = (value: unknown) => String(value ?? '').replace(
   (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char] || char,
 )
 
-const KIND_HINT: Record<'src' | 'rel' | 'dst', string> = {
-  src: '来源实体',
-  rel: '关系',
-  dst: '目标实体',
-}
+const kindHint = (kind: 'src' | 'rel' | 'dst') => i18n.t(`flow.${kind}`)
 
 /** 桑基图原始数据项（echarts 的 params.data 就是它，带上下钻需要的信息） */
 interface SankeyNodeItem {
@@ -163,9 +160,9 @@ export default function FlowSankeyScene({
             const group = groupRef.current.groups.find((item) => item.key === data.groupKey)
             if (!group) return ''
             return `${escapeHtml(group.srcName)} —${escapeHtml(relationLabel(group.predicate))}→ `
-              + `${escapeHtml(group.dstName)}<br/>${group.value} 条事实`
+              + `${escapeHtml(group.dstName)}<br/>${escapeHtml(i18n.t('flow.facts', { count: group.value }))}`
           }
-          return `${escapeHtml(data.fullName)}<br/>${KIND_HINT[data.kind]} · ${data.value} 条事实`
+          return `${escapeHtml(data.fullName)}<br/>${escapeHtml(kindHint(data.kind))} · ${escapeHtml(i18n.t('flow.facts', { count: data.value }))}`
         },
       },
       series: [{
@@ -237,26 +234,22 @@ export default function FlowSankeyScene({
         className="flow-sankey-captions"
         style={{ left: GRID.left, right: GRID.right + rightInset }}
       >
-        <span>来源实体</span>
-        <span>关系</span>
-        <span>目标实体</span>
+        <span>{i18n.t('flow.src')}</span>
+        <span>{i18n.t('flow.rel')}</span>
+        <span>{i18n.t('flow.dst')}</span>
       </div>
       <div className="flow-sankey-canvas" ref={hostRef} />
 
       {empty && (
         <div className="tl2d-empty">
-          <h3>当前画布上没有可聚合的关系</h3>
-          <p>
-            流转视图统计的是画布上已有的关系：从哪个实体、经由什么关系、
-            落到哪个实体。搜索一个实体展开它的关系网络，或用「快速定位」打开事件库 /
-            组织机构库补上关系，再回到这里看流向。
-          </p>
+          <h3>{i18n.t('analysis.noAgg')}</h3>
+          <p>{i18n.t('flow.emptyHelp')}</p>
         </div>
       )}
 
       {!empty && selection && (
         <button type="button" className="flow-sankey-clear" onClick={reset}>
-          <CloseOutlined /> 取消高亮
+          <CloseOutlined /> {i18n.t('flow.clearHighlight')}
         </button>
       )}
     </div>

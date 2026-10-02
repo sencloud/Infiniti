@@ -28,6 +28,7 @@ async function exportGraph() {
 
   const claims = (await run(
     `MATCH (s:Entity)<-[:SUBJECT]-(c:Claim {graph_id: $g})-[:OBJECT]->(o:Entity)
+     WHERE coalesce(c.status, '') <> 'rejected'
      RETURN c.claim_id AS id, c.predicate AS predicate, c.chapter_no AS ch, c.confidence AS conf,
             c.evidence_text AS ev, s.entity_id AS src, o.entity_id AS dst`,
   )).map((r) => ({
@@ -250,7 +251,13 @@ function ruleR2(ctx) {
       anchor_entity_id: id,
       anchor_name: e.name,
       title: `${e.name} ${label.unit(death.ch)}被${byId.get(death.src).name}所杀，${label.unit(first.ch)}仍有「${label.pred(first.predicate)}」`,
-      detail: { death_chapter: death.ch, killer: byId.get(death.src).name, later_chapters: [...new Set(later.map((c) => c.ch))].sort((a, b) => a - b), death_claim_id: death.id },
+      detail: {
+        death_chapter: death.ch,
+        killer: byId.get(death.src).name,
+        later_chapters: [...new Set(later.map((c) => c.ch))].sort((a, b) => a - b),
+        later_predicate: first.predicate,
+        death_claim_id: death.id,
+      },
       claim_id: first.id,
       record_id: recordOf(first.ch),
       evidence_text: first.ev,
@@ -462,7 +469,7 @@ function ruleM4(ctx) {
       anchor_entity_id: a.id,
       anchor_name: a.name,
       title: `「${a.name}」在${label.unit(fa)}学过，直到${label.unit(fb)}的「${b.name}」才再用到`,
-      detail: { prerequisite_first: fa, target_first: fb, counterpart_id: b.id },
+      detail: { prerequisite_first: fa, target_first: fb, counterpart_id: b.id, counterpart_name: b.name },
       claim_id: c.id,
       record_id: recordOf(c.ch),
       evidence_text: c.ev,
@@ -470,7 +477,72 @@ function ruleM4(ctx) {
   }
 }
 
-const RULES = { R1: ruleR1, R2: ruleR2, R3: ruleR3, R4: ruleR4, M1: ruleM1, M2: ruleM2, M3: ruleM3, M4: ruleM4 };
+/** G1 意外连接：一个群体里很边缘的成员，直接连到另一个群体的核心，读的时候容易一笔带过 */
+function ruleG1(ctx) {
+  const { edges, claims, byId, push, pred, memberKey, hubs, communities, graph } = ctx;
+  if (!memberKey || !hubs?.length) return;
+  // 事件、地点天然只连着少数人，算不上「意外」；只看人物（教材看知识点）之间。
+  // 阵前交手、斩将也排除：主将杀了一个无名敌将是战事常态，不是值得细读的牵连
+  const primary = new Set(graph.galaxy.primaryTypes);
+  const BATTLE = new Set(['FOUGHT', 'DEFEATED', 'KILLED']);
+  const rank = new Map(hubs.filter((h) => primary.has(h.entity_type)).map((h, i) => [h.entity_id, i + 1]));
+  const coreCut = Math.max(20, Math.round(rank.size * 0.03));
+  const isPrimary = (id) => primary.has(byId.get(id)?.type);
+  const neighbors = new Map();
+  for (const e of edges) {
+    if (e.src === e.dst || !isPrimary(e.src) || !isPrimary(e.dst)) continue;
+    for (const [a, b] of [[e.src, e.dst], [e.dst, e.src]]) {
+      if (!neighbors.has(a)) neighbors.set(a, new Set());
+      neighbors.get(a).add(b);
+    }
+  }
+  const commName = new Map(communities.map((c) => [c.community_key, c.name]));
+  const claimById = new Map(claims.map((c) => [c.id, c]));
+  const found = [];
+  for (const e of edges) {
+    const ka = memberKey.get(e.src);
+    const kb = memberKey.get(e.dst);
+    if (!ka || !kb || ka === kb) continue;
+    if (!isPrimary(e.src) || !isPrimary(e.dst) || BATTLE.has(e.predicate)) continue;
+    const [core, peri] = (rank.get(e.src) || Infinity) <= (rank.get(e.dst) || Infinity) ? [e.src, e.dst] : [e.dst, e.src];
+    const coreRank = rank.get(core) || Infinity;
+    const periDegree = neighbors.get(peri)?.size || 0;
+    if (coreRank > coreCut || periDegree > 3 || (rank.get(peri) || Infinity) <= coreCut) continue;
+    const evidence = e.claim_ids.map((id) => claimById.get(id)).filter(Boolean).sort((x, y) => y.conf - x.conf)[0];
+    if (!evidence) continue;
+    found.push({ e, core, peri, coreRank, periDegree, evidence, score: 1 / coreRank / periDegree });
+  }
+  found.sort((x, y) => y.score - x.score);
+  const perPeri = new Set();
+  const perCore = new Map();
+  for (const f of found) {
+    if (perPeri.has(f.peri) || (perCore.get(f.core) || 0) >= 3) continue;
+    perPeri.add(f.peri);
+    perCore.set(f.core, (perCore.get(f.core) || 0) + 1);
+    const [p, c] = [byId.get(f.peri), byId.get(f.core)];
+    const periComm = commName.get(memberKey.get(f.peri)) || '';
+    const coreComm = commName.get(memberKey.get(f.core)) || '';
+    const relation = `${byId.get(f.e.src).name} ${pred(f.e.predicate)?.name || f.e.predicate} ${byId.get(f.e.dst).name}`;
+    push({
+      rule_code: 'G1',
+      severity: f.coreRank <= 10 ? 'medium' : 'low',
+      anchor_entity_id: f.peri,
+      anchor_name: p.name,
+      title: `不起眼的「${p.name}」${periComm ? `（${periComm}）` : ''}直接连到${coreComm ? `「${coreComm}」的` : ''}核心「${c.name}」：${relation}`,
+      detail: {
+        peripheral: p.name, peripheral_degree: f.periDegree, peripheral_community: periComm,
+        core: c.name, core_id: f.core, core_rank: f.coreRank, core_community: coreComm,
+        predicate: f.e.predicate, src: byId.get(f.e.src).name, dst: byId.get(f.e.dst).name, counterpart_id: f.core,
+      },
+      claim_id: f.evidence.id,
+      record_id: recordOf(f.evidence.ch),
+      evidence_text: f.evidence.ev,
+    });
+    if (perPeri.size >= 30) break;
+  }
+}
+
+const RULES = { R1: ruleR1, R2: ruleR2, R3: ruleR3, R4: ruleR4, M1: ruleM1, M2: ruleM2, M3: ruleM3, M4: ruleM4, G1: ruleG1 };
 
 function detectAnomalies(data) {
   const graph = currentGraph();
@@ -553,7 +625,7 @@ export async function buildAnalysis(job) {
   }
 
   step('anomalies', 93);
-  const anomalies = detectAnomalies(data);
+  const anomalies = detectAnomalies({ ...data, memberKey, hubs, communities });
   for (let i = 0; i < anomalies.length; i += 1000) {
     await run('UNWIND $rows AS r CREATE (a:Anomaly) SET a = r, a.graph_id = $g', { rows: anomalies.slice(i, i + 1000) });
   }

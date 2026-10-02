@@ -1,0 +1,555 @@
+/* 学习层：条目解说、引用标号、还可以看谁、提问、待核对 */
+
+/* ---- 引用标号 [n] ---- */
+.inf-cite {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.45em;
+  height: 1.45em;
+  margin: 0 1px;
+  padding: 0 3px;
+  border: none;
+  border-radius: 4px;
+  background: var(--kg-accent-soft);
+  color: var(--kg-accent);
+  font: 600 0.72em/1 var(--font-sans, inherit);
+  vertical-align: 0.32em;
+  cursor: pointer;
+}
+
+.inf-cite:hover,
+.inf-cite:focus-visible {
+  background: var(--kg-accent);
+  color: #fff;
+}
+
+.inf-cite-tip {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 300px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* ---- 条目解说 ---- */
+.inf-note {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inf-note-summary {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--kg-text-strong);
+}
+
+.inf-note-sec h4 {
+  margin: 4px 0 2px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--kg-text-dim);
+}
+
+.inf-note-sec p {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 1.85;
+  color: var(--kg-text-strong);
+}
+
+.inf-note-toggle {
+  align-self: flex-start;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 12px;
+  color: var(--kg-accent);
+  cursor: pointer;
+}
+
+.inf-note-empty,
+.inf-note-stale,
+.inf-note-error {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--kg-text-dim);
+}
+
+.inf-note-stale {
+  color: var(--kg-warn, #b7791f);
+}
+
+.inf-note-error {
+  color: var(--kg-danger, #c0392b);
+}
+
+.inf-note.is-empty {
+  align-items: flex-start;
+}
+
+.inf-note-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--kg-text-faint);
+}
+
+.inf-note-foot button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: var(--kg-text-dim);
+  cursor: pointer;
+}
+
+.inf-note-foot button:hover {
+  color: var(--kg-accent);
+}
+
+.inf-nc-note {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed var(--kg-border);
+}
+
+/* ---- 还可以看谁 ---- */
+.inf-related {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--kg-border);
+}
+
+.inf-related ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.inf-related button {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  width: 100%;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 6px;
+  background: none;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.inf-related button:hover {
+  background: var(--kg-accent-soft);
+}
+
+.inf-related-dot {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  transform: translateY(-1px);
+}
+
+.inf-related-name {
+  flex: none;
+  font-size: 12px;
+  color: var(--kg-text-strong);
+}
+
+.inf-related-via {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
+  color: var(--kg-text-faint);
+}
+
+/* ---- 提问 ---- */
+.kgap-ask-form {
+  display: flex;
+  gap: 6px;
+  align-items: flex-end;
+}
+
+.kgap-ask-form .ant-input {
+  flex: 1;
+}
+
+.kgap-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.kgap-chip {
+  padding: 4px 10px;
+  border: 1px solid var(--kg-border);
+  border-radius: 999px;
+  background: none;
+  font: inherit;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--kg-text-strong);
+  cursor: pointer;
+}
+
+.kgap-chip:hover {
+  border-color: var(--kg-accent-border);
+  color: var(--kg-accent);
+}
+
+.kgap-answer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kgap-answer-q {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--kg-text-strong);
+}
+
+.kgap-answer-text {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--kg-text-strong);
+  white-space: pre-wrap;
+}
+
+.kgap-answer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.kgap-cites {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.kgap-cites button {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--kg-border);
+  border-radius: 8px;
+  background: none;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.kgap-cites button:hover {
+  border-color: var(--kg-accent-border);
+}
+
+.kgap-cites .inf-cite {
+  flex: none;
+  vertical-align: 0;
+  font-size: 11px;
+}
+
+.kgap-cite-body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--kg-text-strong);
+}
+
+.kgap-cite-body small {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+}
+
+.kgap-saved {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.kgap-saved button {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.kgap-saved button:hover {
+  background: var(--kg-accent-soft);
+}
+
+.kgap-saved b {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--kg-text-strong);
+}
+
+.kgap-saved span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
+  color: var(--kg-text-faint);
+}
+
+/* ---- 待核对 ---- */
+.kgap-review {
+  border: 1px solid var(--kg-border);
+  border-radius: 9px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.kgap-review.is-done {
+  opacity: 0.6;
+}
+
+.kgap-review-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 6px;
+  font-size: 12px;
+  color: var(--kg-text-strong);
+}
+
+.kgap-review-head b {
+  font-weight: 600;
+}
+
+.kgap-review-head em {
+  font-style: normal;
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: var(--kg-accent);
+  background: var(--kg-accent-soft);
+}
+
+.kgap-review-sub {
+  font-size: 11px;
+  color: var(--kg-text-faint);
+}
+
+.kgap-review-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.kgap-review-state {
+  font-size: 12px;
+  color: var(--kg-text-dim);
+}
+
+/* 选项多了不再挤成「关…」「死…」，横向滑动看全 */
+.kgap-body > .kgap-scroll-seg {
+  flex: none;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.kgap-body > .kgap-scroll-seg::-webkit-scrollbar {
+  display: none;
+}
+
+.kgap-scroll-seg .ant-segmented-group {
+  min-width: max-content;
+}
+
+/* ---- 线索已读 ---- */
+.kgap-clue.is-read {
+  opacity: 0.55;
+}
+
+.kgap-clue-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--kg-text-dim);
+}
+
+.kgap-clue-foot {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (max-width: 768px) {
+  .inf-msheet-tabs button {
+    font-size: 14px;
+  }
+
+  .inf-msheet-body > .inf-note {
+    padding: 14px 18px 20px;
+  }
+
+  .inf-msheet-body > .inf-note-empty {
+    padding: 14px 18px;
+  }
+
+  .inf-note-summary {
+    font-size: 16px;
+  }
+
+  .inf-note-sec h4 {
+    font-size: 13px;
+    margin-top: 6px;
+  }
+
+  .inf-note-sec p {
+    font-size: 15px;
+  }
+
+  .inf-note-empty,
+  .inf-note-stale,
+  .inf-note-error {
+    font-size: 14px;
+  }
+
+  .inf-note-foot {
+    font-size: 12px;
+  }
+
+  .inf-note-foot button,
+  .inf-note-toggle {
+    min-height: 44px;
+    font-size: 13px;
+  }
+
+  .inf-cite {
+    min-width: 1.7em;
+    height: 1.7em;
+    font-size: 0.75em;
+  }
+
+  .inf-msheet-body > .inf-related {
+    margin: 0;
+    padding: 12px 18px 18px;
+    border-top: 8px solid var(--rule-2);
+  }
+
+  .inf-related button {
+    min-height: 44px;
+    padding: 8px 4px;
+    align-items: center;
+  }
+
+  .inf-related-name {
+    font-size: 15px;
+  }
+
+  .inf-related-via {
+    font-size: 13px;
+  }
+
+  .kgap-chip {
+    min-height: 40px;
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .kgap-answer-q {
+    font-size: 15px;
+  }
+
+  .kgap-answer-text {
+    font-size: 16px;
+  }
+
+  .kgap-cite-body {
+    font-size: 14px;
+  }
+
+  .kgap-cite-body small {
+    font-size: 12px;
+  }
+
+  .kgap-saved b {
+    font-size: 14px;
+  }
+
+  .kgap-saved span {
+    font-size: 12px;
+  }
+
+  .kgap-saved button {
+    min-height: 48px;
+  }
+
+  .kgap-review {
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: var(--kg-panel);
+  }
+
+  .kgap-review-head {
+    font-size: 15px;
+  }
+
+  .kgap-review-sub {
+    font-size: 13px;
+  }
+
+  .kgap-review .kgap-hop-evidence {
+    font-family: var(--serif);
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--kg-text-strong);
+  }
+
+  .kgap-review-actions .ant-btn {
+    min-height: 40px;
+  }
+
+  .kgap-clue-bar {
+    font-size: 13px;
+  }
+}

@@ -1,14 +1,18 @@
 /**
  * 手机上的条目详情：底部抽屉，替代桌面右上角的详情卡。
  * 学习路径是「看关系 → 读原文」，所以关系清单放第一屏，每行直达原文依据；
- * 出场与资料放在后两个标签里。点把手在半屏 / 近全屏之间切换。
+ * 解说、出场与资料放在后面的标签里。点把手在半屏 / 近全屏之间切换。
  */
 import { useEffect, useState, type ReactNode } from 'react'
 import { AimOutlined, CloseOutlined, RightOutlined } from '@ant-design/icons'
 import type { EntityMedia, EntitySource, GraphEdge } from '@/api/knowledge-graph'
+import type { Citation } from '@/api/kg-learn'
 import { nodeColor, nodeLabel } from '@/utils/graphStyle'
+import i18n from '@/i18n'
 import { formatPropValue, propLabel, SKIPPED_PROPS } from './entityProps'
+import EntityNote from './EntityNote'
 import NodeGallery from './NodeGallery'
+import RelatedEntities from './RelatedEntities'
 
 export interface SheetRelation {
   edge: GraphEdge
@@ -30,9 +34,11 @@ interface Props {
   onClose: () => void
   onOpenRelation: (edge: GraphEdge) => void
   onOpenSource: (recordId: string) => void
+  onCite: (citation: Citation, all: Citation[]) => void
+  onLocate: (entityId: string) => void
 }
 
-type Tab = 'rels' | 'sources' | 'about'
+type Tab = 'rels' | 'note' | 'sources' | 'about'
 
 const SHORT_PROPS = ['nickname', 'role', 'title', 'star']
 
@@ -56,6 +62,8 @@ export default function MobileEntitySheet({
   onClose,
   onOpenRelation,
   onOpenSource,
+  onCite,
+  onLocate,
 }: Props) {
   const [tab, setTab] = useState<Tab>('rels')
   const [expanded, setExpanded] = useState(false)
@@ -73,12 +81,12 @@ export default function MobileEntitySheet({
     .slice(0, 8)
 
   return (
-    <section className={`inf-msheet ${expanded ? 'is-expanded' : ''}`} aria-label={`${entity.name} 详情`}>
+    <section className={`inf-msheet ${expanded ? 'is-expanded' : ''}`} aria-label={i18n.t('explore.sheet', { name: entity.name })}>
       <button
         type="button"
         className="inf-msheet-grip"
         onClick={() => setExpanded((v) => !v)}
-        aria-label={expanded ? '收起详情' : '展开详情'}
+        aria-label={expanded ? i18n.t('explore.collapse') : i18n.t('explore.expand')}
         aria-expanded={expanded}
       >
         <span />
@@ -92,12 +100,12 @@ export default function MobileEntitySheet({
             className={`inf-msheet-icon ${focused ? 'on' : ''}`}
             onClick={onFocus}
             aria-pressed={focused}
-            aria-label={focused ? '退出聚焦' : '只看它的关系网'}
-            title={focused ? '退出聚焦' : '只看它的关系网'}
+            aria-label={focused ? i18n.t('explore.exitFocus') : i18n.t('explore.focusNet')}
+            title={focused ? i18n.t('explore.exitFocus') : i18n.t('explore.focusNet')}
           >
             <AimOutlined />
           </button>
-          <button type="button" className="inf-msheet-icon" onClick={onClose} aria-label="关闭详情">
+          <button type="button" className="inf-msheet-icon" onClick={onClose} aria-label={i18n.t('explore.closeDetail')}>
             <CloseOutlined />
           </button>
         </div>
@@ -105,15 +113,16 @@ export default function MobileEntitySheet({
           <div className="inf-msheet-chips">
             {chips.map((c) => <span key={c}>{c}</span>)}
           </div>
-          {claimCount != null && <span className="inf-msheet-count"><b>{claimCount.toLocaleString()}</b> 条原文依据</span>}
+          {claimCount != null && <span className="inf-msheet-count">{i18n.t('explore.evidenceCount', { count: claimCount })}</span>}
         </div>
       </header>
 
       <div className="inf-msheet-tabs" role="tablist">
         {([
-          ['rels', `关系 ${relations.length}`],
-          ['sources', `出场${sources.length ? ` ${sources.length}` : ''}`],
-          ['about', '资料'],
+          ['rels', i18n.t('explore.tabRels', { count: relations.length })],
+          ['note', i18n.t('explore.tabNote')],
+          ['sources', i18n.t('explore.tabSources', { count: sources.length ? ` ${sources.length}` : '' })],
+          ['about', i18n.t('explore.tabAbout')],
         ] as [Tab, string][]).map(([key, label]) => (
           <button
             type="button"
@@ -142,9 +151,9 @@ export default function MobileEntitySheet({
                         {otherName}
                         <em>{relationOf(edge)}</em>
                       </span>
-                      <span className="inf-msheet-sub">{n ? `${n} 条原文依据` : '暂无原文依据'}</span>
+                      <span className="inf-msheet-sub">{n ? i18n.t('explore.evidenceCount', { count: n }) : i18n.t('explore.noEvidence')}</span>
                     </span>
-                    {n > 0 && <span className="inf-msheet-go">看原文<RightOutlined /></span>}
+                    {n > 0 && <span className="inf-msheet-go">{i18n.t('explore.readSource')}<RightOutlined /></span>}
                   </>
                 )
                 return (
@@ -157,15 +166,18 @@ export default function MobileEntitySheet({
               })}
               {degree != null && degree > relations.length && (
                 <li className="inf-msheet-note">
-                  列出的是画布上已载入的 {relations.length} 条，共 {degree} 条直接关系。点右上角准星可载入更多。
+                  {i18n.t('explore.loadedNote', { shown: relations.length, total: degree })}
                 </li>
               )}
             </ul>
-          ) : <p className="inf-msheet-empty">画布上还没有它的直接关系</p>
+          ) : <p className="inf-msheet-empty">{i18n.t('explore.noCanvasRel')}</p>
         )}
+        {tab === 'rels' && <RelatedEntities entityId={entity.id} limit={5} onLocate={onLocate} />}
+
+        {tab === 'note' && <EntityNote entityId={entity.id} onCite={onCite} />}
 
         {tab === 'sources' && (
-          sourcesLoading ? <p className="inf-msheet-empty">正在查找出场记录…</p>
+          sourcesLoading ? <p className="inf-msheet-empty">{i18n.t('explore.findingSources')}</p>
             : sources.length ? (
               <ul className="inf-msheet-list">
                 {sources.map((src) => (
@@ -174,15 +186,15 @@ export default function MobileEntitySheet({
                       <span className="inf-msheet-main">
                         <span className="inf-msheet-name">{src.title || src.record_id}</span>
                         <span className="inf-msheet-sub">
-                          提及 {src.mention_count} 次{src.claim_count ? ` · ${src.claim_count} 条关系` : ''}
+                          {i18n.t('explore.mentionLine', { count: src.mention_count, extra: src.claim_count ? i18n.t('explore.relExtra', { count: src.claim_count }) : '' })}
                         </span>
                       </span>
-                      <span className="inf-msheet-go">读原文<RightOutlined /></span>
+                      <span className="inf-msheet-go">{i18n.t('rel.read')}<RightOutlined /></span>
                     </button>
                   </li>
                 ))}
               </ul>
-            ) : <p className="inf-msheet-empty">没有找到它出现的{axisName}</p>
+            ) : <p className="inf-msheet-empty">{i18n.t('explore.noAxisHit', { axis: axisName })}</p>
         )}
 
         {tab === 'about' && (
@@ -200,7 +212,7 @@ export default function MobileEntitySheet({
                 ))}
               </dl>
             )}
-            {!description && !facts.length && !media?.thumb_url && <p className="inf-msheet-empty">暂无更多资料</p>}
+            {!description && !facts.length && !media?.thumb_url && <p className="inf-msheet-empty">{i18n.t('explore.noMoreAbout')}</p>}
           </div>
         )}
       </div>

@@ -25,6 +25,7 @@ import * as echarts from 'echarts'
 import type { GraphData, GraphNode } from '@/api/knowledge-graph'
 import { nodeColor, nodeLabel } from '@/utils/graphStyle'
 import { activeProfile, unitLabel } from '@/graph/profile'
+import i18n from '@/i18n'
 import { palette } from '@/theme/palette'
 import { useTheme } from '@/theme/ThemeProvider'
 import type { TimeDimension, YearMoment } from './timeDimension'
@@ -313,7 +314,7 @@ export default function Timeline2DScene({
         formatter: (params: { name?: string; data?: { point?: EventPoint } }) => {
           const point = params?.data?.point
           if (!point) return params?.name || ''
-          const state = revealed(point.moment) ? '已出场' : '尚未出场'
+          const state = revealed(point.moment) ? i18n.t('timeline.onStage') : i18n.t('timeline.offStage')
           const time = momentText(point.moment, monthScale)
           return `${point.node.name}<br/>${nodeLabel(point.node.label)} · ${time} · ${state}`
         },
@@ -406,11 +407,8 @@ export default function Timeline2DScene({
 
       {empty && (
         <div className="tl2d-empty">
-          <h3>暂无可用于时序分析的实体</h3>
-          <p>
-            时序场景按实体<b>首次出现的{activeProfile().unit.axis}</b>从左到右排开。
-            先用搜索或快速定位展开一些实体，再回到这里播放。
-          </p>
+          <h3>{i18n.t('timeline.emptyTitle')}</h3>
+          <p>{i18n.t('timeline.emptyBody', { axis: activeProfile().unit.axis })}</p>
         </div>
       )}
 
@@ -419,7 +417,7 @@ export default function Timeline2DScene({
           <div className="tl2d-controls">
             <div className="tl2d-readout">
               <b>{unitLabel(Math.round(cursorMoment.value))}</b>
-              {' · '}已出场 <b>{happened}</b> / {events.length}
+              {' · '}{i18n.t('timeline.readout', { done: happened, total: events.length })}
             </div>
             <button
               type="button"
@@ -429,7 +427,7 @@ export default function Timeline2DScene({
                 setPlaying((prev) => !prev)
               }}
             >
-              {playing ? '⏸ 暂停' : '▶ 播放'}
+              {playing ? i18n.t('common.pause') : i18n.t('common.play')}
             </button>
             <input
               className="tl2d-scrub"

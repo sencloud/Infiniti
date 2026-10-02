@@ -83,6 +83,8 @@ export interface GraphProfile {
   rules: Record<string, { name: string; hint: string }>
   examples: { search: string; from: string; to: string }
   props: Array<{ key: string; label: string }>
+  /** 读这本书想弄懂什么；questions 用作推荐提问 */
+  purpose?: { goal: string; focus: string; questions: string[] }
   ontology: {
     version: string
     entity_types: OntologyEntityType[]
@@ -156,12 +158,28 @@ export function unitFull(no: number): string {
   return `${unitLabel(no)} ${unitTitle(no)}`.trim()
 }
 
-/** 区间：「第1–10回」；有名称的单元用两端标签 */
+/** 区间：「第1–10回」/ “Chapters 1–10”；有名称的单元用两端标签 */
 export function unitRange(lo: number | null | undefined, hi: number | null | undefined): string {
   if (lo == null || hi == null) return ''
   if (unitLabels.size) return lo === hi ? unitLabel(lo) : `${unitLabel(lo)} – ${unitLabel(hi)}`
-  const unit = activeProfile().unit.name
-  return lo === hi ? `第${lo}${unit}` : `第${lo}–${hi}${unit}`
+  const template = activeProfile().unit.template
+  const chinese = template.match(/^第\{n\}(.+)$/)
+  if (chinese) return lo === hi ? `第${lo}${chinese[1]}` : `第${lo}–${hi}${chinese[1]}`
+  const one = (n: number) => template.replace('{n}', String(n))
+  if (lo === hi) return one(lo)
+  const word = template.match(/^(\w+)\s+\{n\}$/)
+  if (word) return `${word[1]}s ${lo}–${hi}`
+  return `${one(lo)}–${one(hi)}`
+}
+
+/** 库存的「第12回 / 第1–10回」在英文界面改按当前单元模板显示。章回原名保持不动。 */
+export function displayUnitText(text: string): string {
+  if (!text) return text
+  const range = text.match(/^第(\d+)\s*[–-]\s*(\d+)/)
+  if (range) return unitRange(Number(range[1]), Number(range[2]))
+  const one = text.match(/^第(\d+)(?:回|篇|节|章)?$/)
+  if (one) return unitLabel(Number(one[1]))
+  return text
 }
 
 export function maxUnit(): number {

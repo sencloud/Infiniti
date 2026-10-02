@@ -1,7 +1,9 @@
 // 图谱目录：每个图谱一份配置（本体 / 单元叫法 / 术语 / 提示词 / 线索规则 / 前端文案），
 // 服务端查询、构建任务、数据管线和前端都从这里取各图谱的差异。
+import { localizeProfile } from '../locale.js';
 import { makeOntology } from '../ontology.js';
 import { MATH_ONTOLOGY, NOVEL_TYPES, LUNYU_ONTOLOGY, LIAOZHAI_ONTOLOGY, SHIJI_ONTOLOGY, novelPredicates } from './presets.js';
+import { purposeOf } from './purpose.js';
 
 export const GRAPH_ID_RE = /^[a-z][a-z0-9_]{1,30}$/;
 
@@ -340,6 +342,15 @@ const MATH = {
 };
 
 const GRAPHS = [SHUIHU, XIYOUJI, HONGLOUMENG, SANGUO, LIAOZHAI, LUNYU, SHIJI, MATH];
+
+// G1 不看题材：两个群体之间由边缘成员直接牵起的关系，每个图谱都检测
+const SURPRISE_RULE = {
+  literature: { name: '意外连接', hint: '不起眼的角色直接连到另一群体的核心人物，容易读漏' },
+  classics: { name: '意外连接', hint: '不起眼的人物直接连到另一群体的核心人物，容易读漏' },
+  subject: { name: '意外连接', hint: '冷门知识点直接连到另一板块的核心知识点，容易学漏' },
+};
+for (const g of GRAPHS) g.rules = { ...g.rules, G1: SURPRISE_RULE[g.category] || SURPRISE_RULE.literature };
+
 const BY_ID = new Map(GRAPHS.map((g) => [g.id, g]));
 
 export const CATEGORIES = [
@@ -390,9 +401,9 @@ export function periodSpan(graph, no) {
   return { start, end, label };
 }
 
-/** 给前端的配置摘要（不含函数） */
-export function profileOf(graph) {
-  return {
+/** 给前端的配置摘要（不含函数）。locale 为 en 时覆盖显示名，代码与示例检索词不变。 */
+export function profileOf(graph, locale = 'zh') {
+  return localizeProfile({
     id: graph.id,
     name: graph.name,
     book: graph.book,
@@ -409,5 +420,6 @@ export function profileOf(graph) {
     examples: graph.examples,
     props: graph.props,
     ontology: graph.ontology.payload(),
-  };
+    purpose: purposeOf(graph.id, locale),
+  }, locale);
 }

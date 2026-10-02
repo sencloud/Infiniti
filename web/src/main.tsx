@@ -4,6 +4,8 @@ import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-route
 import { ExploreGraphPage, GalaxyPage, KnowledgeGraphLayout } from './pages/KnowledgeGraph'
 import HomePage from './pages/Home/HomePage'
 import { ThemeProvider } from './theme/ThemeProvider'
+import { localeFromPath } from './i18n/locale'
+import './i18n'
 import './theme/theme.css'
 
 /** 旧链接 /kg/galaxy、/kg/explore?... 只有水浒传一个图谱，原样转到 /g/shuihu/... */
@@ -16,7 +18,7 @@ function LegacyKgRedirect() {
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={localeFromPath() === 'en' ? '/en' : undefined}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/g/:graphId" element={<KnowledgeGraphLayout />}>

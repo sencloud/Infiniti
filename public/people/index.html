@@ -17,6 +17,18 @@
     (function () {
       var t = localStorage.getItem('infiniti-theme') || 'light';
       document.documentElement.setAttribute('data-theme', t);
+      var path = location.pathname.replace(/\/+$/, '') || '/';
+      var onEn = path === '/en/people';
+      var onZh = path === '/people';
+      var stored = localStorage.getItem('infiniti-locale');
+      if ((onEn || onZh) && !location.search) {
+        var wantEn = stored === 'en' || (!stored && /^en\b/i.test(navigator.language || ''));
+        if (wantEn && onZh) { location.replace('/en/people/' + location.hash); return; }
+        if (stored === 'zh-CN' && onEn) { location.replace('/people/' + location.hash); return; }
+      }
+      var en = onEn || location.pathname.indexOf('/en/people/') === 0;
+      document.documentElement.lang = en ? 'en' : 'zh-CN';
+      if (en) document.title = 'Infiniti · Explore';
     })();
   </script>
   <style>
@@ -429,6 +441,14 @@
     }
     .icon-btn:hover { border-color: var(--accent); color: var(--accent); }
     .icon-btn svg { display: block; }
+    .locale-btn {
+      height: 38px; padding: 0 10px; border-radius: 10px;
+      background: var(--panel); border: 1px solid var(--panel-line); color: var(--ink-3);
+      cursor: pointer; font: 12px/1 ui-sans-serif, system-ui, sans-serif;
+      box-shadow: var(--shadow-1); letter-spacing: .02em;
+    }
+    .locale-btn .on { color: var(--ink); font-weight: 700; }
+    .locale-btn:hover { border-color: var(--accent); color: var(--accent); }
     /* 主题图标：light 显示月亮（点击去 dark），dark 显示太阳 */
     [data-theme="light"] .icon-sun { display: none; }
     [data-theme="dark"] .icon-moon { display: none; }
@@ -498,6 +518,7 @@
       .brand-sub { display: none; }
       .top-actions { top: 12px; right: 12px; gap: 6px; }
       .icon-btn { width: 40px; height: 40px; }
+      .locale-btn { height: 40px; }
       /* 提示条讲的是鼠标操作，触屏上没意义，还会压住右下角的统计 */
       .tipbar { display: none; }
       .search-wrap { top: 62px; left: 12px; right: 12px; width: auto; transform: none; }
@@ -541,8 +562,8 @@
       <circle class="n-topic" cx="34.6" cy="27.2" r="2.4"/>
     </svg>
     <div>
-      <div class="brand-name">无限<b>连接</b></div>
-      <div class="brand-sub" id="brandSub">INFINITI · 自由探索</div>
+      <div class="brand-name" data-i18n="brandHtml" data-i18n-html="1">无限<b>连接</b></div>
+      <div class="brand-sub" id="brandSub" data-i18n="brandSub">INFINITI · 自由探索</div>
     </div>
   </div>
 
@@ -553,21 +574,22 @@
         <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.6"/>
         <path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
       </svg>
-      <input id="q" type="text" placeholder="输入人物或学习主题（如：苏轼、小学数学3年级）" autocomplete="off" />
-      <button class="go" id="goBtn">探索</button>
+      <input id="q" type="text" data-i18n-ph="searchPh" placeholder="输入人物或学习主题（如：苏轼、小学数学3年级）" autocomplete="off" />
+      <button class="go" id="goBtn" data-i18n="explore">探索</button>
     </div>
     <div class="search-drop" id="drop" style="display:none"></div>
   </div>
 
   <!-- 右上角：主题切换 + 配置 -->
   <div class="top-actions">
-    <a class="icon-btn" href="/" title="返回首页（名著 / 典籍 / 学科）">
+    <button class="locale-btn" id="localeBtn" type="button" title="中文 / English"><span class="on">中</span> / <span>EN</span></button>
+    <a class="icon-btn" id="homeLink" href="/" data-i18n-title="homeTitle" title="返回首页（名著 / 典籍 / 学科）">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <circle cx="5" cy="6" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="12" cy="13" r="2.5"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="18" r="2"/>
         <path d="M6.7 7.2l3.6 4.1M17.5 6.4l-4 4.6M10.3 14.6l-2.8 3M14.2 14.4l2.4 2.4"/>
       </svg>
     </a>
-    <button class="icon-btn" id="themeBtn" title="切换 明亮/暗色">
+    <button class="icon-btn" id="themeBtn" data-i18n-title="themeTitle" title="切换 明亮/暗色">
       <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/>
       </svg>
@@ -576,7 +598,7 @@
         <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
       </svg>
     </button>
-    <button class="icon-btn" id="configBtn" title="系统配置">
+    <button class="icon-btn" id="configBtn" data-i18n-title="configTitle" title="系统配置">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <circle cx="12" cy="12" r="3"/>
         <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
@@ -585,53 +607,53 @@
   </div>
   <div class="config-panel" id="cpanel">
     <div class="cp-head">
-      <h4>系统配置</h4>
+      <h4 data-i18n="configHeading">系统配置</h4>
       <button class="x" id="cpClose">✕</button>
     </div>
     <div class="cp-body">
       <div class="cp-sec">
-        <h5>数据源库</h5>
-        <p class="cp-tip">抓取词条时按优先级从上到下尝试，失败自动降级到下一个源</p>
+        <h5 data-i18n="sourcesHeading">数据源库</h5>
+        <p class="cp-tip" data-i18n="sourcesTip">抓取词条时按优先级从上到下尝试，失败自动降级到下一个源</p>
         <div class="cp-sources" id="cpSources"></div>
         <div class="cp-src-add">
-          <input id="cpSrcId" placeholder="ID（如 zhwiki）" />
-          <input id="cpSrcName" placeholder="名称（如 汉语词典）" />
-          <input id="cpSrcPri" type="number" value="50" title="优先级（大者优先）" style="width:64px" />
-          <button id="cpSrcAdd">添加</button>
+          <input id="cpSrcId" data-i18n-ph="srcIdPh" placeholder="ID（如 zhwiki）" />
+          <input id="cpSrcName" data-i18n-ph="srcNamePh" placeholder="名称（如 汉语词典）" />
+          <input id="cpSrcPri" type="number" value="50" data-i18n-title="srcPriTitle" title="优先级（大者优先）" style="width:64px" />
+          <button id="cpSrcAdd" data-i18n="add">添加</button>
         </div>
       </div>
       <div class="cp-sec">
-        <h5>构建规模</h5>
+        <h5 data-i18n="scaleHeading">构建规模</h5>
         <label class="cp-row">
-          <span>最大节点数</span>
+          <span data-i18n="maxNodes">最大节点数</span>
           <input id="cpMax" type="number" min="100" max="10000" step="100" />
         </label>
         <label class="cp-row">
-          <span>最大探索深度</span>
+          <span data-i18n="maxDepth">最大探索深度</span>
           <input id="cpDepth" type="number" min="1" max="10" />
         </label>
         <label class="cp-row">
-          <span>抓取间隔 (ms)</span>
+          <span data-i18n="delay">抓取间隔 (ms)</span>
           <input id="cpDelay" type="number" min="500" max="30000" step="500" />
         </label>
-        <button class="cp-save" id="cpSave">保存构建配置</button>
+        <button class="cp-save" id="cpSave" data-i18n="saveBuild">保存构建配置</button>
       </div>
       <div class="cp-sec">
-        <h5>LLM 抽取</h5>
+        <h5 data-i18n="llmHeading">LLM 抽取</h5>
         <label class="cp-row">
-          <span>模型</span>
+          <span data-i18n="model">模型</span>
           <input id="cpModel" placeholder="deepseek-chat" />
         </label>
-        <button class="cp-save" id="cpSaveLLM">保存 LLM 配置</button>
-        <p class="cp-tip">修改后需重启 worker 生效（start.bat）</p>
+        <button class="cp-save" id="cpSaveLLM" data-i18n="saveLlm">保存 LLM 配置</button>
+        <p class="cp-tip" data-i18n="llmTip">修改后需重启 worker 生效（start.bat）</p>
       </div>
     </div>
   </div>
 
   <!-- 空状态 -->
   <div class="welcome" id="welcome">
-    <h1>无限<b>连接</b></h1>
-    <p class="tagline">输入任意人物或学习主题 · 自动生成关系图谱</p>
+    <h1 data-i18n="brandHtml" data-i18n-html="1">无限<b>连接</b></h1>
+    <p class="tagline" data-i18n="tagline">输入任意人物或学习主题 · 自动生成关系图谱</p>
     <div class="chips" id="chips"></div>
   </div>
 
@@ -639,64 +661,64 @@
   <div class="node-card" id="ncard">
     <div class="nc-head">
       <h3><span id="ncName"></span></h3>
-      <button class="nc-close" id="ncClose" aria-label="关闭">✕</button>
+      <button class="nc-close" id="ncClose" data-i18n-aria="close" aria-label="关闭">✕</button>
     </div>
     <div class="nc-meta" id="ncMeta"></div>
     <div class="nc-sum" id="ncSum"></div>
     <div class="nc-rels" id="ncRels"></div>
     <div class="nc-foot">
-      <button class="main" id="ncExpand">展开关系</button>
-      <a class="ghost" id="ncSrc" href="#" target="_blank" rel="noopener" style="display:none">百科</a>
+      <button class="main" id="ncExpand" data-i18n="expandRel">展开关系</button>
+      <a class="ghost" id="ncSrc" href="#" target="_blank" rel="noopener" style="display:none" data-i18n="wiki">百科</a>
     </div>
   </div>
 
   <!-- 右下 HUD -->
   <div class="hud">
-    <div class="stats" id="statsBar" title="点击查看任务队列">
+    <div class="stats" id="statsBar" data-i18n-title="statsTitle" title="点击查看任务队列">
       <span class="dot-live"></span>
-      <span><b id="stP">0</b> 人物 · <b id="stE">0</b> 事件 · <b id="stR">0</b> 关系 · 队列 <b id="stQ">0</b></span>
+      <span><b id="stP">0</b> <span data-i18n="statPerson">人物</span> · <b id="stE">0</b> <span data-i18n="statEvent">事件</span> · <b id="stR">0</b> <span data-i18n="statRelation">关系</span> · <span data-i18n="queue">队列</span> <b id="stQ">0</b></span>
     </div>
     <div class="zoomer">
-      <button id="zIn" title="拉近" aria-label="拉近"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button>
-      <button id="zOut" title="拉远" aria-label="拉远"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10"/></svg></button>
-      <button id="zFit" title="回到原点" aria-label="回到原点"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6V3h3M10 3h3v3M13 10v3h-3M6 13H3v-3"/></svg></button>
+      <button id="zIn" data-i18n-title="zoomIn" data-i18n-aria="zoomIn" title="拉近" aria-label="拉近"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button>
+      <button id="zOut" data-i18n-title="zoomOut" data-i18n-aria="zoomOut" title="拉远" aria-label="拉远"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10"/></svg></button>
+      <button id="zFit" data-i18n-title="zoomFit" data-i18n-aria="zoomFit" title="回到原点" aria-label="回到原点"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6V3h3M10 3h3v3M13 10v3h-3M6 13H3v-3"/></svg></button>
     </div>
   </div>
 
   <!-- 队列面板 -->
   <div class="queue-panel" id="qpanel">
     <div class="qp-head">
-      <h4>管道任务队列</h4>
-      <button class="x" id="qpClose" aria-label="关闭"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
+      <h4 data-i18n="queueTitle">管道任务队列</h4>
+      <button class="x" id="qpClose" data-i18n-aria="close" aria-label="关闭"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
     </div>
     <div class="qp-add">
-      <input id="qpInput" type="text" placeholder="添加抓取任务（人名）…" autocomplete="off" maxlength="30" />
-      <button id="qpAdd" title="加入队列" aria-label="加入队列"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button>
+      <input id="qpInput" type="text" data-i18n-ph="queuePh" placeholder="添加抓取任务（人名）…" autocomplete="off" maxlength="30" />
+      <button id="qpAdd" data-i18n-title="queueAdd" data-i18n-aria="queueAdd" title="加入队列" aria-label="加入队列"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button>
     </div>
     <div class="qp-tools">
-      <button data-act="clear-pending">清空待处理</button>
-      <button data-act="clear-failed">清理失败</button>
-      <button data-act="purge">清理孤立节点</button>
+      <button data-act="clear-pending" data-i18n="clearPending">清空待处理</button>
+      <button data-act="clear-failed" data-i18n="clearFailed">清理失败</button>
+      <button data-act="purge" data-i18n="purge">清理孤立节点</button>
     </div>
     <div class="qp-list" id="qpList"></div>
   </div>
 
   <!-- 图例 -->
   <div class="legend-tip">
-    <button class="lt-btn"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg> 图例 · 关系类型</button>
+    <button class="lt-btn"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg> <span data-i18n="legendBtn">图例 · 关系类型</span></button>
     <div class="lt-body">
-      <h5>关系类型</h5>
+      <h5 data-i18n="legendRel">关系类型</h5>
       <div class="lg-grid" id="lgGrid"></div>
-      <h5 style="margin-top:11px">节点形状与颜色</h5>
+      <h5 style="margin-top:11px" data-i18n="legendShape">节点形状与颜色</h5>
       <div class="lg-grid">
-        <div class="lg-row"><span class="dot" style="background:#4d9fff;color:#4d9fff"></span>● 当前焦点</div>
-        <div class="lg-row"><span class="dot" style="background:#ef4444;color:#ef4444"></span>● 同姓同色</div>
-        <div class="lg-row"><span class="dot" style="background:#6b4b4b;color:#6b4b4b"></span>● 暗色 = 待确认</div>
-        <div class="lg-row"><span class="dot" style="background:#f5b942;color:#f5b942"></span>◆ 事件</div>
-        <div class="lg-row"><span class="dot" style="background:#34d399;color:#34d399"></span>■ 知识主题</div>
+        <div class="lg-row"><span class="dot" style="background:#4d9fff;color:#4d9fff"></span><span data-i18n="focusDot">● 当前焦点</span></div>
+        <div class="lg-row"><span class="dot" style="background:#ef4444;color:#ef4444"></span><span data-i18n="sameSurname">● 同姓同色</span></div>
+        <div class="lg-row"><span class="dot" style="background:#6b4b4b;color:#6b4b4b"></span><span data-i18n="pendingDot">● 暗色 = 待确认</span></div>
+        <div class="lg-row"><span class="dot" style="background:#f5b942;color:#f5b942"></span><span data-i18n="eventShape">◆ 事件</span></div>
+        <div class="lg-row"><span class="dot" style="background:#34d399;color:#34d399"></span><span data-i18n="topicShape">■ 知识主题</span></div>
       </div>
-      <h5 style="margin-top:11px">纵轴</h5>
-      <div class="lg-row" style="font-size:11px;color:var(--ink-3)">Y 轴 = 时间（上=更早）</div>
+      <h5 style="margin-top:11px" data-i18n="legendAxis">纵轴</h5>
+      <div class="lg-row" style="font-size:11px;color:var(--ink-3)" data-i18n="axisNote">Y 轴 = 时间（上=更早）</div>
     </div>
   </div>
 
@@ -704,23 +726,23 @@
   <div class="time-axis" id="timeAxis">
     <div class="ta-rail" id="taRail">
       <div class="ta-band" id="taBand"></div>
-      <div class="ta-handle" id="taTop" title="范围上限（更早的年代）"></div>
-      <div class="ta-handle" id="taBot" title="范围下限（更晚的年代）"></div>
+      <div class="ta-handle" id="taTop" data-i18n-title="taEarly" title="范围上限（更早的年代）"></div>
+      <div class="ta-handle" id="taBot" data-i18n-title="taLate" title="范围下限（更晚的年代）"></div>
       <div class="ta-label" id="taTopLabel"></div>
       <div class="ta-label" id="taBotLabel"></div>
     </div>
-    <button class="ta-reset" id="taReset" title="恢复完整时间范围">重置</button>
-    <div class="ta-title">TIME · 出生年</div>
+    <button class="ta-reset" id="taReset" data-i18n="taReset" data-i18n-title="taResetTitle" title="恢复完整时间范围">重置</button>
+    <div class="ta-title" data-i18n="taTitle">TIME · 出生年</div>
   </div>
 
   <!-- 聚焦提示条 -->
   <div class="focus-bar" id="focusBar">
-    <span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg> 聚焦 <b id="fbName"></b> · 只显示其关系网络</span>
-    <button class="fb-x" id="fbExit">退出</button>
+    <span><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg> <span data-i18n="focusPrefix">聚焦</span> <b id="fbName"></b> <span data-i18n="focusSuffix">· 只显示其关系网络</span></span>
+    <button class="fb-x" id="fbExit" data-i18n="focusExit">退出</button>
   </div>
-  <div class="tipbar">单击<kbd>详情</kbd> 双击<kbd>展开</kbd> 拖动<kbd>旋转</kbd> 滚轮<kbd>缩放</kbd> 右键<kbd>平移</kbd></div>
+  <div class="tipbar" id="tipbar" data-i18n="tip3d">单击【详情/聚焦】 双击【展开】 拖动【旋转】 滚轮【缩放】 右键【平移】</div>
   <div class="toast" id="toast"></div>
-  <div class="boot" id="boot">初始化 3D 引擎…</div>
+  <div class="boot" id="boot" data-i18n="boot">初始化 3D 引擎…</div>
 
   <script type="module" src="app-3d.js"></script>
 </body>

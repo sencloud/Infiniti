@@ -10,6 +10,9 @@
    - Raycaster 拾取节点：单击弹详情卡 / 双击展开邻域（无限生长）
    ===================================================================== */
 import * as THREE from '/vendor/three.module.min.js'; // 直接 URL 导入（不依赖 importmap，兼容旧内核）
+import { applyChrome, t } from './i18n.js';
+
+applyChrome();
 
 /* ================= 基础工具 ================= */
 function esc(s) {
@@ -192,7 +195,7 @@ function buildStrata() {
     const cx = cv.getContext('2d');
     cx.font = '22px Consolas, monospace';
     cx.fillStyle = themeState.strata; // 标签颜色 = 主题强调色（跟随朱砂/亮朱切换）
-    cx.textAlign = 'left'; cx.fillText(String(y) + '年', 6, 28);
+    cx.textAlign = 'left'; cx.fillText(t('year', { y }), 6, 28);
     const tex = new THREE.CanvasTexture(cv);
     const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, opacity: .8 }));
     sp.position.set(-255, yearToY(y) + 4, 0);
@@ -518,9 +521,7 @@ function setFlat(flat) {
   camCtl.flat = flat;
   strataGroup.visible = !flat;             // 时间地层环
   document.getElementById('timeAxis').style.display = flat ? 'none' : '';
-  document.getElementById('tipbar').textContent = flat
-    ? '平面模式 · 拖动旋转平面 · 滚轮缩放 · 右键平移'
-    : '单击【详情/聚焦】 双击【展开】 拖动【旋转】 滚轮【缩放】 右键【平移】';
+  document.getElementById('tipbar').textContent = flat ? t('tipFlat') : t('tip3d');
   if (flat) {
     // 切到正上方俯视：phi 归零 + 目标回到原点，带一个平滑过渡（vPhi 不动，直接设值）
     camCtl.phi = 0.001; camCtl.theta = 0; camCtl.target.set(0, 0, 0);
@@ -615,7 +616,7 @@ function degreeOf(key) {
 }
 
 async function expand(key, { makeCenter = true } = {}) {
-  showToast('正在展开…');
+  showToast(t('expanding'));
   try {
     const data = await fetch('/api/graph/' + encodeURIComponent(key)).then(r => r.json());
     if (data.error) { showToast(data.error, true); return; }
@@ -658,7 +659,7 @@ async function expand(key, { makeCenter = true } = {}) {
     updateViewMode();  // 【v4.2】新数据进来后检测是否应退化 2D（全图无时间属性）
     updateTimeRange(); // 【v4.3】按画布实际年份重算时间范围与地层刻度
   } catch (e) {
-    showToast('加载失败：' + e.message, true);
+    showToast(t('loadFail', { msg: e.message }), true);
   }
 }
 
@@ -674,7 +675,7 @@ function rebuildMeshes() {
 function setCenter(key) {
   centerKey = key;
   const n = nodeMap.get(key);
-  document.getElementById('brandSub').textContent = n ? `探索 · ${n.name}` : 'INFINITI · 自由探索';
+  document.getElementById('brandSub').textContent = n ? t('brandExplore', { name: n.name }) : t('brandSub');
 }
 
 /* ================= 主题切换（v5）：按钮 + 3D 换装 =================
@@ -715,24 +716,24 @@ async function openCard(key, px, py) {
     // 主题显示学科徽章；事件显示类型徽章；人物显示确认状态
     document.getElementById('ncName').innerHTML =
       esc(p.name) + (isTopic
-        ? `<span class="badge crawled">📗 ${esc(p.subject || p.kind || '主题')}</span>`
+        ? `<span class="badge crawled">📗 ${esc(p.subject || p.kind || t('topicFallback'))}</span>`
         : isEvent
-        ? `<span class="badge crawled">◆ ${esc(p.category || '事件')}</span>`
-        : `<span class="badge ${p.status}">${p.status === 'crawled' ? '已确认' : '待确认'}</span>`);
+        ? `<span class="badge crawled">◆ ${esc(p.category || t('eventFallback'))}</span>`
+        : `<span class="badge ${p.status}">${p.status === 'crawled' ? t('confirmed') : t('pending')}</span>`);
     const bits = [];
     if (isTopic) {
       if (p.grade) bits.push(p.grade);
-      if (p.kind) bits.push({ subject: '学科', unit: '单元', concept: '概念' }[p.kind] || p.kind);
+      if (p.kind) bits.push({ subject: t('kindSubject'), unit: t('kindUnit'), concept: t('kindConcept') }[p.kind] || p.kind);
     } else if (isEvent) {
-      if (p.year) bits.push(`${p.year}年`);
+      if (p.year) bits.push(t('year', { y: p.year }));
     } else {
-      if (p.birthYear) bits.push(`${p.birthYear}${p.deathYear ? '–' + p.deathYear : '至今'}`);
+      if (p.birthYear) bits.push(p.deathYear ? t('years', { a: p.birthYear, b: p.deathYear }) : t('present', { y: p.birthYear }));
       if (p.occupation) bits.push(p.occupation);
-      if ((p.aliases || []).length) bits.push('别名：' + p.aliases.join('、'));
+      if ((p.aliases || []).length) bits.push(t('alias', { list: p.aliases.join('、') }));
     }
     document.getElementById('ncMeta').textContent = bits.join(' · ');
     const sum = document.getElementById('ncSum');
-    sum.textContent = p.summary || p.description || '暂无摘要（管道尚未处理）';
+    sum.textContent = p.summary || p.description || t('noSummary');
     sum.className = 'nc-sum' + (p.summary || p.description ? '' : ' empty');
     const src = document.getElementById('ncSrc');
     if (p.anchorUrl) { src.href = p.anchorUrl; src.style.display = ''; } else src.style.display = 'none';
@@ -753,7 +754,7 @@ async function openCard(key, px, py) {
     let top = Math.min(Math.max(py - 40, 12), innerHeight - H - 12);
     ncard.style.left = left + 'px'; ncard.style.top = top + 'px';
     ncard.style.display = 'block';
-  } catch { showToast('详情加载失败', true); }
+  } catch { showToast(t('detailFail'), true); }
 }
 function closeCard() { ncard.style.display = 'none'; cardKey = null; }
 document.getElementById('ncClose').onclick = closeCard;
@@ -784,16 +785,16 @@ document.getElementById('goBtn').onclick = () => q.value.trim() && doSearch(q.va
 document.addEventListener('click', e => { if (!e.target.closest('.search-wrap')) drop.style.display = 'none'; });
 
 async function doSearch(kw) {
-  drop.innerHTML = '<div class="drop-status">搜索中…</div>';
+  drop.innerHTML = `<div class="drop-status">${t('searching')}</div>`;
   drop.style.display = 'block';
   try {
     const list = await fetch('/api/search?q=' + encodeURIComponent(kw)).then(r => r.json());
     selIdx = -1;
     if (!list.length) {
       // 【v4】找不到 = 双按钮：抓取人物资料 OR 构建知识主题
-      drop.innerHTML = `<div class="drop-none">图谱中还没有「${esc(kw)}」
-        <button class="seed-btn" id="seedBtn">👤 抓取「${esc(kw)}」的人物资料</button>
-        <button class="seed-btn" id="topicBtn">📚 自动构建「${esc(kw)}」知识图谱</button></div>`;
+      drop.innerHTML = `<div class="drop-none">${t('notFound', { name: esc(kw) })}
+        <button class="seed-btn" id="seedBtn">${t('seedBtn', { name: esc(kw) })}</button>
+        <button class="seed-btn" id="topicBtn">${t('topicBtn', { name: esc(kw) })}</button></div>`;
       document.getElementById('seedBtn').onclick = () => addSeed(kw);
       document.getElementById('topicBtn').onclick = () => buildTopic(kw);
       return;
@@ -805,27 +806,27 @@ async function doSearch(kw) {
       // 【v4】实体图标：👤 人物 / ◆ 事件 / 📗 主题
       const icon = p.entity === 'topic' ? '📗' : p.entity === 'event' ? '◆' : '👤';
       div.innerHTML = `<div><div class="n">${icon} ${esc(p.name)}</div>
-        <div class="o">${esc(p.occupation || p.definition || '暂无描述')}</div></div>
-        <div class="d">${p.degree} 连接</div>`;
+        <div class="o">${esc(p.occupation || p.definition || t('noDesc'))}</div></div>
+        <div class="d">${t('connections', { n: p.degree })}</div>`;
       div.onclick = () => jumpTo(p.key);
       drop.appendChild(div);
     }
-  } catch { drop.innerHTML = '<div class="drop-status">搜索失败，请重试</div>'; }
+  } catch { drop.innerHTML = `<div class="drop-status">${t('searchFail')}</div>`; }
 }
 
 // 【v4】构建知识主题：POST /api/topics -> worker plan 阶段自动拆解
 async function buildTopic(name) {
   const btn = document.getElementById('topicBtn');
-  btn.disabled = true; btn.textContent = '提交中…';
+  btn.disabled = true; btn.textContent = t('submitting');
   try {
     const resp = await fetch('/api/topics', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name }),
     }).then(r => r.json());
     drop.innerHTML = `<div class="drop-none">${resp.ok
-      ? `已开始构建「${esc(name)}」：正在规划课程单元 -> 抓取知识点 -> 构建图谱（约需几分钟，可点右下角队列查看进度）`
-      : '提交失败：' + esc(resp.error || '未知错误')}</div>`;
-  } catch { drop.innerHTML = '<div class="drop-none">提交失败，请检查网络</div>'; }
+      ? t('topicOk', { name: esc(name) })
+      : t('fail', { msg: esc(resp.error || t('unknownErr')) })}</div>`;
+  } catch { drop.innerHTML = `<div class="drop-none">${t('netFail')}</div>`; }
 }
 
 function jumpTo(key) {
@@ -867,16 +868,16 @@ function clearGraph() {
 
 async function addSeed(name) {
   const btn = document.getElementById('seedBtn');
-  btn.disabled = true; btn.textContent = '提交中…';
+  btn.disabled = true; btn.textContent = t('submitting');
   try {
     const resp = await fetch('/api/seed', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name }),
     }).then(r => r.json());
     drop.innerHTML = `<div class="drop-none">${resp.ok
-      ? `已提交「${esc(name)}」，管道抓取分析后即可探索（约 1–2 分钟）`
-      : '提交失败：' + esc(resp.error || '未知错误')}</div>`;
-  } catch { drop.innerHTML = '<div class="drop-none">提交失败，请检查网络</div>'; }
+      ? t('seedOk', { name: esc(name) })
+      : t('fail', { msg: esc(resp.error || t('unknownErr')) })}</div>`;
+  } catch { drop.innerHTML = `<div class="drop-none">${t('netFail')}</div>`; }
 }
 
 /* ================= 空状态快捷词 ================= */
@@ -924,23 +925,23 @@ loadStats(); setInterval(loadStats, 5000);
 async function loadTaskList() {
   const list = await fetch('/api/tasks/list').then(r => r.json()).catch(() => null);
   const el = document.getElementById('qpList');
-  if (!list) { el.innerHTML = '<div class="qp-empty">加载失败</div>'; return; }
-  if (!list.length) { el.innerHTML = '<div class="qp-empty">队列为空 · 管道空闲中</div>'; return; }
-  const stLabel = { pending: '等待', processing: '处理中', failed: '失败' };
-  el.innerHTML = list.map(t => `
+  if (!list) { el.innerHTML = `<div class="qp-empty">${t('queueLoadFail')}</div>`; return; }
+  if (!list.length) { el.innerHTML = `<div class="qp-empty">${t('queueEmpty')}</div>`; return; }
+  const stLabel = { pending: t('stPending'), processing: t('stProcessing'), failed: t('stFailed') };
+  el.innerHTML = list.map(task => `
     <div class="qp-item">
       <div class="qp-row1">
-        <span class="qp-name">${esc(t.name)}</span>
-        <span class="qp-st ${t.status}">${stLabel[t.status] || t.status}</span>
+        <span class="qp-name">${esc(task.name)}</span>
+        <span class="qp-st ${task.status}">${stLabel[task.status] || task.status}</span>
       </div>
       <div class="qp-row2">
-        深度${t.depth ?? '-'} · 优先级${Math.round(t.priority ?? 0)} · 来源：${esc(t.reason || '-')}
-        ${t.error ? `<br>错误：${esc(String(t.error).slice(0, 80))}` : ''}
+        ${t('taskMeta', { depth: task.depth ?? '-', priority: Math.round(task.priority ?? 0), reason: esc(task.reason || '-') })}
+        ${task.error ? `<br>${t('taskError', { msg: esc(String(task.error).slice(0, 80)) })}` : ''}
       </div>
       <div class="qp-ops">
-        <button data-op="retry" data-name="${esc(t.name)}">重试</button>
-        <button data-op="top" data-name="${esc(t.name)}">置顶</button>
-        <button class="op-del" data-op="del" data-name="${esc(t.name)}">删除</button>
+        <button data-op="retry" data-name="${esc(task.name)}">${t('retry')}</button>
+        <button data-op="top" data-name="${esc(task.name)}">${t('pin')}</button>
+        <button class="op-del" data-op="del" data-name="${esc(task.name)}">${t('del')}</button>
       </div>
     </div>`).join('');
   // 行内操作：事件委托，一次绑定查表分发
@@ -955,7 +956,7 @@ async function loadTaskList() {
           method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ priority: 2000 }),
         });
         loadTaskList(); loadStats();
-      } catch { showToast('操作失败', true); btn.disabled = false; }
+      } catch { showToast(t('opFail'), true); btn.disabled = false; }
     };
   });
 }
@@ -971,8 +972,8 @@ async function qpAddTask() {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, priority: 1000, depth: 0 }),
   }).then(r => r.json()).catch(() => null);
-  if (resp?.ok) { showToast(`已添加「${name}」`); input.value = ''; loadTaskList(); loadStats(); }
-  else showToast(resp?.error || '添加失败', true);
+  if (resp?.ok) { showToast(t('added', { name })); input.value = ''; loadTaskList(); loadStats(); }
+  else showToast(resp?.error || t('addFail'), true);
 }
 
 // 工具栏：清空待处理 / 清理失败 / 清理孤立节点
@@ -983,16 +984,16 @@ document.querySelectorAll('.qp-tools button').forEach(btn => {
     try {
       if (act === 'clear-pending') {
         const r = await fetch('/api/tasks?status=pending', { method: 'DELETE' }).then(r => r.json());
-        showToast(`已清空 ${r.deleted} 个待处理任务`);
+        showToast(t('clearedPending', { n: r.deleted }));
       } else if (act === 'clear-failed') {
         const r = await fetch('/api/tasks?status=failed', { method: 'DELETE' }).then(r => r.json());
-        showToast(`已清理 ${r.deleted} 个失败任务`);
+        showToast(t('clearedFailed', { n: r.deleted }));
       } else if (act === 'purge') {
         const r = await fetch('/api/purge', { method: 'POST' }).then(r => r.json());
-        showToast(r.purged ? `已清理 ${r.purged} 个孤立节点` : '没有孤立节点');
+        showToast(r.purged ? t('purged', { n: r.purged }) : t('noOrphans'));
       }
       loadTaskList(); loadStats();
-    } catch { showToast('操作失败', true); }
+    } catch { showToast(t('opFail'), true); }
     btn.disabled = false;
   };
 });
@@ -1011,23 +1012,23 @@ const lgGrid = document.getElementById('lgGrid');
 // 【v3.2】图例行可点击：开关对应关系类型（隐藏/显示相关节点和边）
 // 【本体 v2】新增“事件参与”行：控制人—事件边与事件节点
 // 【v4】新增“知识结构”行：控制知识—知识边与主题节点
-const lgNames = { '父亲': '亲属', '配偶': '配偶', '师生': '师生', '同事': '同事', '朋友': '朋友', '竞争对手': '竞争', '参与': '事件参与', '包含': '知识结构' };
+const lgNames = { '父亲': 'lgKin', '配偶': 'lgSpouse', '师生': 'lgTeach', '同事': 'lgColleague', '朋友': 'lgFriend', '竞争对手': 'lgRival', '参与': 'lgEvent', '包含': 'lgKnowledge' };
 const lgRows = {}; // 分组名 -> DOM 行（切换样式用）
-for (const [t, label] of Object.entries(lgNames)) {
+for (const [relKey, labelKey] of Object.entries(lgNames)) {
   const row = document.createElement('div');
   row.className = 'lg-row lg-toggle';
-  row.title = '点击隐藏/显示';
-  row.innerHTML = `<span class="dot" style="background:${REL_COLORS[t]};color:${REL_COLORS[t]}"></span>${label}`;
+  row.title = t('lgToggle');
+  row.innerHTML = `<span class="dot" style="background:${REL_COLORS[relKey]};color:${REL_COLORS[relKey]}"></span>${t(labelKey)}`;
   row.onclick = () => {
-    // 注意：hiddenRelGroups 统一存"分组名"（如"亲属"），与 typeHidden 查询一致
-    const g = TYPE_TO_GROUP[t] || t;
+    // 分组名保持中文，和库里的关系类型对应
+    const g = TYPE_TO_GROUP[relKey] || relKey;
     if (hiddenRelGroups.has(g)) hiddenRelGroups.delete(g);
     else hiddenRelGroups.add(g);
     row.classList.toggle('off', hiddenRelGroups.has(g));
     applyFilters();
   };
   lgGrid.appendChild(row);
-  lgRows[t] = row; // 记录行元素（样式切换用）
+  lgRows[relKey] = row;
 }
 
 /* ================= toast ================= */
@@ -1065,8 +1066,8 @@ function renderTimeAxis() {
   taBot.style.top = (pHi * 100) + '%';   // yearHi（晚）在下
   taTopLabel.style.top = (pLo * 100) + '%';
   taBotLabel.style.top = (pHi * 100) + '%';
-  taTopLabel.textContent = yearLo + '年';
-  taBotLabel.textContent = yearHi + '年';
+  taTopLabel.textContent = t('year', { y: yearLo });
+  taBotLabel.textContent = t('year', { y: yearHi });
   taBand.style.top = (pLo * 100) + '%';
   taBand.style.height = ((pHi - pLo) * 100) + '%';
 }
@@ -1104,7 +1105,7 @@ bindHandle(taBot, false);
 taReset.onclick = () => {
   yearLo = rangeMin; yearHi = rangeMax;
   renderTimeAxis(); applyFilters();
-  showToast('时间范围已重置');
+  showToast(t('timeReset'));
 };
 
 renderTimeAxis();
@@ -1123,15 +1124,15 @@ async function loadConfigPanel() {
   // 1. 数据源库
   const srcs = await fetch('/api/sources').then(r => r.json()).catch(() => []);
   const box = document.getElementById('cpSources');
-  if (!srcs.length) { box.innerHTML = '<div class="cp-tip">加载失败</div>'; return; }
+  if (!srcs.length) { box.innerHTML = `<div class="cp-tip">${t('srcLoadFail')}</div>`; return; }
   box.innerHTML = srcs.map(s => `
     <div class="cp-src" data-id="${esc(s.id)}">
       <span>${esc(s.name)}</span>
       <span class="pri">${Number(s.priority)}</span>
       <span class="kinds">${(s.for || []).join('/')}</span>
       ${['baike', 'wiki-zh'].includes(s.id)
-        ? '<button class="del" disabled title="内置源">内置</button>'
-        : '<button class="del" title="删除">✕</button>'}
+        ? `<button class="del" disabled title="${t('builtinTitle')}">${t('builtin')}</button>`
+        : `<button class="del" title="${t('deleteTitle')}">✕</button>`}
     </div>`).join('');
   // 删除自定义源
   box.querySelectorAll('.del:not([disabled])').forEach(btn => {
@@ -1139,7 +1140,7 @@ async function loadConfigPanel() {
       const id = btn.closest('.cp-src').dataset.id;
       await fetch('/api/sources/' + encodeURIComponent(id), { method: 'DELETE' });
       loadConfigPanel();
-      showToast(`已删除数据源 ${id}`);
+      showToast(t('srcDeleted', { id }));
     };
   });
   // 2. 构建规模（从 /api/settings 读）
@@ -1156,17 +1157,17 @@ document.getElementById('cpSrcAdd').onclick = async () => {
   const id = document.getElementById('cpSrcId').value.trim();
   const name = document.getElementById('cpSrcName').value.trim();
   const priority = Number(document.getElementById('cpSrcPri').value) || 50;
-  if (!id || !name) { showToast('ID 和名称必填', true); return; }
+  if (!id || !name) { showToast(t('srcRequired'), true); return; }
   const resp = await fetch('/api/sources', {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ id, name, priority, forKinds: ['person', 'knowledge'] }),
   }).then(r => r.json()).catch(() => null);
   if (resp?.ok) {
-    showToast(`已添加数据源「${name}」`);
+    showToast(t('srcAdded', { name }));
     document.getElementById('cpSrcId').value = '';
     document.getElementById('cpSrcName').value = '';
     loadConfigPanel();
-  } else showToast(resp?.error || '添加失败', true);
+  } else showToast(resp?.error || t('addFail'), true);
 };
 
 // 保存构建配置
@@ -1179,7 +1180,7 @@ document.getElementById('cpSave').onclick = async () => {
   const resp = await fetch('/api/settings', {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body),
   }).then(r => r.json()).catch(() => null);
-  showToast(resp?.ok ? '构建配置已保存（重启 worker 生效）' : '保存失败', !resp?.ok);
+  showToast(resp?.ok ? t('buildSaved') : t('saveFail'), !resp?.ok);
 };
 
 // 保存 LLM 配置
@@ -1188,7 +1189,7 @@ document.getElementById('cpSaveLLM').onclick = async () => {
   const resp = await fetch('/api/settings', {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body),
   }).then(r => r.json()).catch(() => null);
-  showToast(resp?.ok ? 'LLM 配置已保存（重启 worker 生效）' : '保存失败', !resp?.ok);
+  showToast(resp?.ok ? t('llmSaved') : t('saveFail'), !resp?.ok);
 };
 
 /* ================= 启动 ================= */

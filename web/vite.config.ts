@@ -18,6 +18,8 @@ export default defineConfig({
       '/api': { target: api, changeOrigin: true },
       '/media': { target: api, changeOrigin: true },
       '/people': { target: api, changeOrigin: true },
+      '/en/people': { target: api, changeOrigin: true },
+      '/vendor': { target: api, changeOrigin: true },
     },
   },
   // 产物落到 Express 的 public/app，由 server.js 对 / 、/g/* 、/kg/* 托管

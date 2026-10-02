@@ -12,6 +12,7 @@ import { activeProfile } from '@/graph/profile'
 import { useIsMobile } from '@/hooks/useIsMobile'
 import { claimStatusLabel, nodeLabel, relationLabel } from '@/utils/graphStyle'
 import { displayText } from '@/utils/mathText'
+import i18n from '@/i18n'
 import VideoModal, { type VideoTarget } from './VideoModal'
 import './evidenceDrawer.css'
 
@@ -127,7 +128,7 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
       })
       .catch((error: unknown) => {
         if (cancelled) return
-        message.error(error instanceof Error ? error.message : '加载原文失败')
+        message.error(error instanceof Error ? error.message : i18n.t('evidence.loadFail'))
         setData(null)
       })
       .finally(() => { if (!cancelled) setLoading(false) })
@@ -242,7 +243,7 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
           </div>
           <div className="evd-context-meta">
             {claimStatusLabel(activeClaim.status)} · 置信度 {Math.round((activeClaim.confidence || 0) * 100)}%
-            {!activeClaim.offset_valid && (approxSpan ? ' · 按摘录首尾定位' : ' · 原文中没有逐字对应')}
+            {!activeClaim.offset_valid && (approxSpan ? i18n.t('evidence.approx') : i18n.t('evidence.noExact'))}
           </div>
         </div>
       )}
@@ -274,7 +275,7 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
             </mark>
           )
           return mobile ? mark : (
-            <Tooltip key={index} title={`${segment.claimIds.length} 条事实引用了这段原文，点击查看`}>
+            <Tooltip key={index} title={i18n.t('evidence.shared', { count: segment.claimIds.length })}>
               {mark}
             </Tooltip>
           )
@@ -304,12 +305,12 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
           <div style={{ marginTop: 6 }}>
             <Space size={4} wrap>
               <Tag color="green">{claimStatusLabel(claim.status)}</Tag>
-              <Tag>置信度 {Math.round((claim.confidence || 0) * 100)}%</Tag>
-              {!claim.offset_valid && <Tag>原文未逐字命中</Tag>}
+              <Tag>{i18n.t('rel.confidence', { pct: Math.round((claim.confidence || 0) * 100) })}</Tag>
+              {!claim.offset_valid && <Tag>{i18n.t('evidence.miss')}</Tag>}
             </Space>
           </div>
         </Card>
-      )) : <Empty description={`这一${unitName}没有抽取到事实`} />}
+      )) : <Empty description={i18n.t('evidence.noClaims', { unit: unitName })} />}
     </div>
   )
 
@@ -318,8 +319,8 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
       <Image.PreviewGroup>
         {pages.map((p) => (
           <figure key={p.page} data-page={p.page} className={`evd-page${p.page === focusPage ? ' is-focus' : ''}`}>
-            <Image src={p.image} alt={`第 ${p.page} 页`} loading="lazy" />
-            <figcaption>第 {p.page} 页{p.page === focusPage ? ' · 当前片段' : ''}</figcaption>
+            <Image src={p.image} alt={i18n.t('evidence.pageAlt', { page: p.page })} loading="lazy" />
+            <figcaption>{p.page === focusPage ? i18n.t('evidence.pageCurrent', { page: p.page }) : i18n.t('evidence.pageCaption', { page: p.page })}</figcaption>
           </figure>
         ))}
       </Image.PreviewGroup>
@@ -327,9 +328,9 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
   )
 
   const viewOptions = [
-    { label: '原文', value: 'text' },
-    ...(mobile ? [{ label: `本${unitName}关系 ${claims.length}`, value: 'claims' }] : []),
-    ...(pages.length ? [{ label: `教材原页 ${pages.length}`, value: 'pages' }] : []),
+    { label: i18n.t('evidence.tabText'), value: 'text' },
+    ...(mobile ? [{ label: i18n.t('evidence.tabClaims', { unit: unitName, count: claims.length }), value: 'claims' }] : []),
+    ...(pages.length ? [{ label: i18n.t('evidence.tabPages', { count: pages.length }), value: 'pages' }] : []),
   ]
 
   return (
@@ -345,37 +346,37 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
           {data.archive_number && !data.title?.startsWith(data.archive_number) && <small>{data.archive_number}</small>}
           <span>{displayText(data.title || '')}</span>
         </div>
-      ) : data ? `${data.archive_number || ''} ${data.title || ''}`.trim() : '原文'}
+      ) : data ? `${data.archive_number || ''} ${data.title || ''}`.trim() : i18n.t('evidence.title')}
       extra={data?.url ? (
-        <Typography.Link href={data.url} target="_blank" rel="noreferrer">{mobile ? '出处' : '来源页面'}</Typography.Link>
+        <Typography.Link href={data.url} target="_blank" rel="noreferrer">{mobile ? i18n.t('evidence.sourceShort') : i18n.t('evidence.source')}</Typography.Link>
       ) : null}
       footer={mobile && stopCount > 0 && view === 'text' ? (
         <div className="evd-stepper">
-          <button type="button" onClick={() => step(-1)} aria-label="上一处高亮">
-            <LeftOutlined /> 上一处
+          <button type="button" onClick={() => step(-1)} aria-label={i18n.t('evidence.prev')}>
+            <LeftOutlined /> {i18n.t('evidence.prevShort')}
           </button>
-          <span aria-live="polite">{activeIndex < 0 ? `共 ${stopCount} 处` : `${activeIndex + 1} / ${stopCount}`}</span>
-          <button type="button" className="main" onClick={() => step(1)} aria-label="下一处高亮">
-            下一处 <RightOutlined />
+          <span aria-live="polite">{activeIndex < 0 ? i18n.t('evidence.stops', { count: stopCount }) : i18n.t('evidence.stopAt', { index: activeIndex + 1, count: stopCount })}</span>
+          <button type="button" className="main" onClick={() => step(1)} aria-label={i18n.t('evidence.next')}>
+            {i18n.t('evidence.nextShort')} <RightOutlined />
           </button>
         </div>
       ) : null}
     >
       <Spin spinning={loading}>
-        {!data ? <Empty description="暂无数据" /> : (
+        {!data ? <Empty description={i18n.t('evidence.empty')} /> : (
           <>
             {!!data.media?.episodes?.length && (
               <div className="evd-episodes">
-                <span>影视对照</span>
+                <span>{i18n.t('evidence.videoCompare')}</span>
                 <div className="ep-chips">
                   {data.media.episodes.map((ep) => (
                     <button
                       type="button"
                       key={ep.ep}
                       className="ep-chip"
-                      onClick={() => setVideo({ bvid: ep.bvid, page: ep.page, title: `第${ep.ep}集 ${ep.title}` })}
+                      onClick={() => setVideo({ bvid: ep.bvid, page: ep.page, title: i18n.t('video.episode', { ep: ep.ep, title: ep.title }) })}
                     >
-                      央视版第{ep.ep}集 {ep.title}
+                      {i18n.t('evidence.cctv', { ep: ep.ep, title: ep.title })}
                     </button>
                   ))}
                 </div>
@@ -384,7 +385,7 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
             {(viewOptions.length > 1) && (
               <div className="evd-switch">
                 <Segmented size={mobile ? 'large' : 'small'} block={mobile} value={view} onChange={(v) => setView(v as View)} options={viewOptions} />
-                {focusPage != null && <span className="evd-page-hint">片段位于教材第 {focusPage} 页</span>}
+                {focusPage != null && <span className="evd-page-hint">{i18n.t('evidence.pageHint', { page: focusPage })}</span>}
               </div>
             )}
             {view === 'pages' ? pagesPane : mobile ? (view === 'claims' ? claimsPane : textPane) : (

@@ -80,7 +80,8 @@ import {
   subClusterColor,
 } from './buildGalaxyOption'
 import TimelinePanel from './TimelinePanel'
-import { activeProfile, unitLabel, unitRange } from '@/graph/profile'
+import { activeProfile, displayUnitText, unitLabel, unitRange } from '@/graph/profile'
+import i18n from '@/i18n'
 import { displayText } from '@/utils/mathText'
 import { useTheme } from '@/theme/ThemeProvider'
 import { useIsMobile } from '@/hooks/useIsMobile'
@@ -121,7 +122,7 @@ function BoardBars({
         {title}
         {hint && <span className="kgg-board-hint">{hint}</span>}
       </div>
-      {items.length === 0 && <div className="kgg-board-empty">暂无数据</div>}
+      {items.length === 0 && <div className="kgg-board-empty">{i18n.t('galaxy.empty')}</div>}
       {items.map((item) => (
         <div key={item.label} className="kgg-board-row">
           <span className="kgg-board-label" title={item.label}>{item.label}</span>
@@ -217,13 +218,13 @@ export default function GalaxyPage() {
       .then(async ([cRes, covRes, tlRes]) => {
         if (cancelled) return
         if (cRes.status === 'fulfilled') setClusters(cRes.value.clusters)
-        else message.error(`${t.cluster}加载失败: ${cRes.reason?.message || cRes.reason}`)
+        else message.error(i18n.t('galaxy.loadClusterFail', { cluster: t.cluster, error: cRes.reason?.message || cRes.reason }))
 
         const cov = covRes.status === 'fulfilled'
           ? covRes.value
           : { vectorized: 0, total_records: 0, coverage: 0 } as GalaxyCoverage
         if (covRes.status === 'rejected') {
-          message.warning('语义索引暂不可用，暂按空库展示')
+          message.warning(i18n.t('galaxy.indexDown'))
         }
         setCoverage(cov)
 
@@ -247,7 +248,7 @@ export default function GalaxyPage() {
           setLodMode('grid')
         }
       })
-      .catch((e) => message.error(`分布数据加载失败: ${e.message}`))
+      .catch((e) => message.error(i18n.t('galaxy.distFail', { error: e.message })))
       .finally(() => { if (!cancelled) setLoading(false) })
     return () => { cancelled = true }
   }, [])
@@ -303,7 +304,7 @@ export default function GalaxyPage() {
         setTruncated(p.truncated)
         setLodMode('points')
       })
-      .catch((e) => message.error(`当前画面加载失败: ${e.message}`))
+      .catch((e) => message.error(i18n.t('galaxy.viewFail', { error: e.message })))
   }, [isLargeLibrary])
 
   useEffect(() => {
@@ -676,7 +677,7 @@ export default function GalaxyPage() {
       if (!res.items.length) {
         setHighlight(null)
         setSearchHits([])
-        message.info(`全书未命中「${kw.trim()}」`)
+        message.info(i18n.t('galaxy.noHit', { q: kw.trim() }))
         return
       }
       const hit = res.items[0]
@@ -686,14 +687,14 @@ export default function GalaxyPage() {
       setHighlight(hit.record_id)
       setDetail(hit)
       if (res.total > res.items.length) {
-        message.info(`命中 ${res.total} 段，已高亮 ${res.items.length} 段并定位第 1 段`)
+        message.info(i18n.t('galaxy.hitPaged', { total: res.total, shown: res.items.length }))
       } else {
-        message.info(`命中 ${res.items.length} 段，已在图上高亮`)
+        message.info(i18n.t('galaxy.hitAll', { count: res.items.length }))
       }
       // 飞到命中点：大库时视口切换会触发点级取数，飞过去后点已在数据里
       zoomToBox(hit.x, hit.y)
     } catch (e: any) {
-      message.error(e.message || '搜索失败')
+      message.error(e.message || i18n.t('galaxy.searchFail'))
     } finally {
       setSearching(false)
     }
@@ -726,9 +727,9 @@ export default function GalaxyPage() {
       setSimilar({ anchor: record, items: res.items })
       // 视口飞到锚点附近（连线层自带坐标，不依赖主系列是否加载了这些点）
       zoomToBox(record.x, record.y)
-      message.success(`找到 ${res.items.length} 段相似原文`)
+      message.success(i18n.t('galaxy.similarOk', { count: res.items.length }))
     } catch (e) {
-      message.error(e instanceof Error ? e.message : '查找相似段落失败')
+      message.error(e instanceof Error ? e.message : i18n.t('galaxy.similarFail'))
     } finally {
       setSimilarLoading(false)
     }
@@ -837,12 +838,12 @@ export default function GalaxyPage() {
     if (!selected.length) {
       message.info(
         compareSet.size
-          ? '当前画面还没加载所选组的片段，请先放大到该组'
-          : `请先在右侧勾选${t.cluster}`,
+          ? i18n.t('galaxy.exportNeedZoom')
+          : i18n.t('galaxy.exportNeedPick', { cluster: t.cluster }),
       )
       return
     }
-    const header = ['位置', gp.unit.axis, `所属${t.cluster}`, t.primary, t.secondary, '字数', '开头']
+    const header = [i18n.t('galaxy.csvPos'), gp.unit.axis, i18n.t('galaxy.csvCluster', { cluster: t.cluster }), t.primary, t.secondary, i18n.t('galaxy.csvChars'), i18n.t('galaxy.csvLead')]
     const esc = (v: unknown) => {
       const s = String(v ?? '')
       // CSV 注入防护：以 = + - @ 开头的值前置单引号，防止 Excel 公式执行
@@ -861,10 +862,10 @@ export default function GalaxyPage() {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `${gp.name}${t.cluster}片段_${new Date().toISOString().slice(0, 10)}.csv`
+    a.download = `${gp.name}_${t.cluster}_${t.segment}_${new Date().toISOString().slice(0, 10)}.csv`
     a.click()
     URL.revokeObjectURL(url)
-    message.success(`已导出 ${selected.length} ${t.segment}`)
+    message.success(i18n.t('galaxy.exported', { count: selected.length, segment: t.segment }))
   }, [selected, compareSet, clusterName, gp, t])
 
   useHotkeys({
@@ -884,7 +885,7 @@ export default function GalaxyPage() {
 
   const doRebuild = useCallback(() => {
     rebuildGalaxy()
-      .then(() => message.success('已开始重新分析，完成后自动刷新'))
+      .then(() => message.success(i18n.t('galaxy.rebuildOk')))
       .catch((e) => message.error(e.message))
   }, [])
 
@@ -903,19 +904,21 @@ export default function GalaxyPage() {
         key: 'links',
         disabled: !links.length,
         label: showLinks
-          ? `${t.cluster}关联 · 已显示 ${links.length} 条（联系强度 ≥ ${linkThreshold.toFixed(2)}）`
-          : `${t.cluster}关联 · 未显示${links.length ? `（可显示 ${links.length} 条）` : ''}`,
+          ? i18n.t('galaxy.linksOn', { cluster: t.cluster, count: links.length, threshold: linkThreshold.toFixed(2) })
+          : (links.length
+            ? i18n.t('galaxy.linksOffCount', { cluster: t.cluster, count: links.length })
+            : i18n.t('galaxy.linksOff', { cluster: t.cluster })),
       },
       {
         key: 'outliers',
         disabled: !points.length,
         label: showOutliers
-          ? `疑似错位片段 · 已标到图上 ${visibleOutliers.length} ${t.segment}`
-          : '疑似错位片段 · 未标到图上',
+          ? i18n.t('galaxy.outliersOn', { count: visibleOutliers.length, segment: t.segment })
+          : i18n.t('galaxy.outliersOff'),
       },
       { type: 'divider' as const },
-      { key: 'outlierList', label: '查看疑似错位片段清单' },
-      { key: 'drift', label: `${t.cluster}重心变化（每 ${gp.period_size} ${unitName}对比）` },
+      { key: 'outlierList', label: i18n.t('galaxy.outlierList') },
+      { key: 'drift', label: i18n.t('galaxy.drift', { cluster: t.cluster, size: gp.period_size, unit: unitName }) },
     ],
     onClick: ({ key }: { key: string }) => {
       if (key === 'links') setShowLinks((prev) => !prev)
@@ -931,17 +934,17 @@ export default function GalaxyPage() {
     items: [
       {
         type: 'group' as const,
-        label: '点的大小',
+        label: i18n.t('galaxy.size'),
         children: [
-          { key: 'size:none', label: '不区分' },
-          { key: 'size:persons', label: `按${t.primary}数` },
-          { key: 'size:chars', label: '按篇幅' },
+          { key: 'size:none', label: i18n.t('galaxy.sizeNone') },
+          { key: 'size:persons', label: i18n.t('galaxy.sizePrimary', { primary: t.primary }) },
+          { key: 'size:chars', label: i18n.t('galaxy.sizeChars') },
         ],
       },
       { type: 'divider' as const },
-      { type: 'group' as const, label: '分析', children: analysisMenu.items.filter((item) => !('type' in item)) },
+      { type: 'group' as const, label: i18n.t('galaxy.analyze'), children: analysisMenu.items.filter((item) => !('type' in item)) },
       { type: 'divider' as const },
-      { key: 'reset', label: '回到全貌' },
+      { key: 'reset', label: i18n.t('galaxy.reset') },
     ],
     onClick: ({ key }: { key: string }) => {
       if (key.startsWith('size:')) setSizeField(key.slice(5) as typeof sizeField)
@@ -959,9 +962,9 @@ export default function GalaxyPage() {
   const advancedPanel = (
     <div className="kgg-advanced">
       <div className="kgg-adv-group">
-        <div className="kgg-adv-title">{t.cluster}关联</div>
+        <div className="kgg-adv-title">{i18n.t('galaxy.linksTitle', { cluster: t.cluster })}</div>
         <div className="kgg-link-controls">
-          <span className="kgg-adv-label">联系强度 ≥</span>
+          <span className="kgg-adv-label">{i18n.t('galaxy.strengthAtLeast')}</span>
           <Slider
             min={0.3}
             max={0.95}
@@ -969,30 +972,30 @@ export default function GalaxyPage() {
             value={linkThreshold}
             onChange={setLinkThreshold}
             className="kgg-link-slider"
-            tooltip={{ formatter: (v) => `只看联系强度 ≥ ${v} 的关联` }}
+            tooltip={{ formatter: (v) => i18n.t('galaxy.linkTip', { value: v }) }}
           />
           <span className="kgg-link-readout">{linkThreshold.toFixed(2)}</span>
         </div>
-        <div className="kgg-adv-hint">往左拖看全部关联，往右拖只保留联系最紧的{t.cluster}。</div>
+        <div className="kgg-adv-hint">{i18n.t('galaxy.strengthHint', { cluster: t.cluster })}</div>
         <div className="kgg-link-controls">
-          <span className="kgg-adv-label">关联算法</span>
+          <span className="kgg-adv-label">{i18n.t('galaxy.algorithm')}</span>
           <Select
             size="small"
             value={linkCaliber}
             onChange={setLinkCaliber}
             options={[
-              { value: 'centroid', label: `按${t.cluster}整体相近` },
-              { value: 'avg', label: '按成员两两相近' },
+              { value: 'centroid', label: i18n.t('galaxy.byCentroid', { cluster: t.cluster }) },
+              { value: 'avg', label: i18n.t('galaxy.byAvg') },
             ]}
           />
         </div>
-        <div className="kgg-adv-hint">两种算法挑出的关联线不同，一般保持默认即可。</div>
+        <div className="kgg-adv-hint">{i18n.t('galaxy.algorithmHint')}</div>
       </div>
       <div className="kgg-adv-group">
-        <div className="kgg-adv-title">分析数据</div>
-        <Button size="small" onClick={doRebuild}>重新分析</Button>
+        <div className="kgg-adv-title">{i18n.t('galaxy.data')}</div>
+        <Button size="small" onClick={doRebuild}>{i18n.t('galaxy.rebuild')}</Button>
         <div className="kgg-adv-hint">
-          重新向量化、降维、聚类并命名，约需一两分钟，期间仍可查看旧结果。
+          {i18n.t('galaxy.reanalyzeNote')}
         </div>
       </div>
     </div>
@@ -1004,7 +1007,7 @@ export default function GalaxyPage() {
         <Input.Search
           ref={searchInputRef}
           className="kg-search"
-          placeholder={mobile ? '搜原文，定位片段' : `搜索原文定位片段${gp.examples?.search ? `（如 ${gp.examples.search}）` : ''}`}
+          placeholder={mobile ? i18n.t('galaxy.searchPhShort') : i18n.t('galaxy.searchPh', { example: gp.examples?.search ? i18n.t('explore.searchExample', { q: gp.examples.search }) : '' })}
           value={search}
           onChange={(e) => {
             setSearch(e.target.value)
@@ -1018,14 +1021,14 @@ export default function GalaxyPage() {
         />
         {mobile && (
           <Dropdown trigger={['click']} menu={mobileViewMenu} placement="bottomRight">
-            <Button size="large" icon={<SlidersOutlined />} aria-label="视图与分析">视图</Button>
+            <Button size="large" icon={<SlidersOutlined />} aria-label={i18n.t('galaxy.viewAria')}>{i18n.t('galaxy.view')}</Button>
           </Dropdown>
         )}
         {!mobile && isLargeLibrary && (
           <Tag color={lodMode === 'grid' ? 'orange' : 'blue'}>
             {lodMode === 'grid'
-              ? `${t.cluster}概览 · ${cells.length} 组（点气泡或放大看明细）`
-              : `逐${t.segment}查看 · 当前画面 ${points.length} ${t.segment}`}
+              ? i18n.t('galaxy.overview', { cluster: t.cluster, count: cells.length })
+              : i18n.t('galaxy.detail', { segment: t.segment, count: points.length })}
           </Tag>
         )}
         {!mobile && (<>
@@ -1035,34 +1038,34 @@ export default function GalaxyPage() {
           value={sizeField}
           onChange={setSizeField}
           options={[
-            { value: 'none', label: '点的大小：不区分' },
-            { value: 'persons', label: `点的大小：按${t.primary}数` },
-            { value: 'chars', label: '点的大小：按篇幅' },
+            { value: 'none', label: i18n.t('galaxy.sizeNoneFull') },
+            { value: 'persons', label: i18n.t('galaxy.sizePrimaryFull', { primary: t.primary }) },
+            { value: 'chars', label: i18n.t('galaxy.sizeCharsFull') },
           ]}
         />
 
         {/* 分析入口：三个分析能力收进下拉（图层开关的状态写在菜单文案里） */}
         <Dropdown trigger={['click']} menu={analysisMenu}>
           <Button size="small">
-            分析 <DownOutlined style={{ fontSize: 10 }} />
+            {i18n.t('galaxy.analyze')} <DownOutlined style={{ fontSize: 10 }} />
           </Button>
         </Dropdown>
         {/* 高级选项：算法参数与重新分析，默认收起 */}
         <Popover
           trigger={['click']}
           placement="bottomLeft"
-          title="高级选项"
+          title={i18n.t('galaxy.advanced')}
           content={advancedPanel}
         >
-          <Button size="small" icon={<SettingOutlined />}>高级选项</Button>
+          <Button size="small" icon={<SettingOutlined />}>{i18n.t('galaxy.advanced')}</Button>
         </Popover>
 
         {/* 业务出口靠右：导出清单 / 回到全貌 */}
         <div className="kg-topbar-actions">
           <Button size="small" onClick={exportSelectedCsv} disabled={!selected.length}>
-            导出片段清单{selected.length ? ` (${selected.length})` : ''}
+            {i18n.t('galaxy.exportList', { extra: selected.length ? ` (${selected.length})` : '' })}
           </Button>
-          <Button size="small" onClick={resetView}>回到全貌</Button>
+          <Button size="small" onClick={resetView}>{i18n.t('galaxy.reset')}</Button>
         </div>
         </>)}
       </div>
@@ -1082,20 +1085,19 @@ export default function GalaxyPage() {
               image={Empty.PRESENTED_IMAGE_SIMPLE}
               description={
                 <span className="kg-empty-desc">
-                  还没有可展示的分析结果。运行 <code>npm run kg:build {gp.id}</code> 或点下方按钮生成，
-                  生成后这里会按内容把原文片段铺开——每颗星是一{t.segment}原文，颜色表示它属于哪个{t.cluster}。
+                  {i18n.t('galaxy.emptyGalaxy', { id: gp.id, segment: t.segment, cluster: t.cluster })}
                 </span>
               }
             />
             <div style={{ display: 'flex', gap: 8 }}>
-              <Button type="primary" onClick={doRebuild}>重新分析</Button>
+              <Button type="primary" onClick={doRebuild}>{i18n.t('galaxy.rebuild')}</Button>
             </div>
           </div>
         )}
 
         {!loading && truncated && lodMode === 'points' && (
           <div className="kgg-truncated">
-            当前画面片段较多，仅显示前 {BBOX_POINT_LIMIT} {t.segment}（放大画面可看全）
+            {i18n.t('galaxy.truncation', { limit: BBOX_POINT_LIMIT, segment: t.segment })}
           </div>
         )}
 
@@ -1103,28 +1105,28 @@ export default function GalaxyPage() {
           <div className="kgg-detail-drawer">
             <div className="kgc-trace-head">
               <div className="kgc-trace-title">{detail.archive_number || detail.record_id}</div>
-              <button className="kgc-trace-back" onClick={() => setDetail(null)}>关闭</button>
+              <button className="kgc-trace-back" onClick={() => setDetail(null)}>{i18n.t('galaxy.close')}</button>
             </div>
             <div style={{ fontSize: 12, color: 'var(--kg-text-dim)', lineHeight: 2 }}>
               <div style={{ color: 'var(--kg-text)', lineHeight: 1.7, marginBottom: 4 }}>
                 {displayText(detail.title)}…
               </div>
               <div>
-                所属{t.cluster}：
+                {i18n.t('galaxy.belongs', { cluster: t.cluster })}
                 <span style={{ color: clusterColor(detail.cluster_id) }}>
                   {clusterName.get(detail.cluster_id)?.name || `${t.cluster} ${detail.cluster_id}`}
                 </span>
               </div>
-              {(detail as any).page != null && <div>教材页码：第 {(detail as any).page} 页</div>}
+              {(detail as any).page != null && <div>{i18n.t('galaxy.pageNo', { page: (detail as any).page })}</div>}
               {(detail as any).persons?.length > 0 && (
                 <div>{t.primary}：{(detail as any).persons.slice(0, 8).join('、')}</div>
               )}
               {(detail as any).places?.length > 0 && (
                 <div>{t.secondary}：{(detail as any).places.slice(0, 6).join('、')}</div>
               )}
-              {(detail as any).char_count ? <div>篇幅：{(detail as any).char_count} 字</div> : null}
+              {(detail as any).char_count ? <div>{i18n.t('galaxy.lengthChars', { count: (detail as any).char_count })}</div> : null}
               <div style={{ marginTop: 4 }}>
-                关键词：
+                {i18n.t('galaxy.keywordLabel')}
                 {(clusterName.get(detail.cluster_id)?.keywords || []).slice(0, 6).map((k) => (
                   <Tag key={k} style={{ fontSize: 11, marginInlineEnd: 4 }}>{k}</Tag>
                 ))}
@@ -1141,7 +1143,7 @@ export default function GalaxyPage() {
                   type="primary"
                   onClick={() => setEvidence({ recordId: detail.record_id, text: (detail as any).text })}
                 >
-                  查看原文
+                  {i18n.t('galaxy.viewSource')}
                 </Button>
                 {/* 语义找相似：在原始向量空间找同类（2D 距离不可信） */}
                 <Button
@@ -1149,7 +1151,7 @@ export default function GalaxyPage() {
                   loading={similarLoading}
                   onClick={() => doSimilar(detail)}
                 >
-                  找相似段落
+                  {i18n.t('galaxy.findSimilar')}
                 </Button>
               </div>
             )}
@@ -1163,24 +1165,27 @@ export default function GalaxyPage() {
               <div className="kgc-trace-title" style={{ color: clusterColor(anchorCluster.cluster_id) }}>
                 {anchorCluster.name || `${t.cluster} ${anchorCluster.cluster_id}`}
               </div>
-              <button className="kgc-trace-back" onClick={() => setAnchorCluster(null)}>关闭</button>
+              <button className="kgc-trace-back" onClick={() => setAnchorCluster(null)}>{i18n.t('galaxy.close')}</button>
             </div>
             <div style={{ fontSize: 12, color: 'var(--kg-text-dim)', lineHeight: 2 }}>
-              <div>规模：{anchorCluster.size} {t.segments}</div>
+              <div>{i18n.t('galaxy.sizeLabel', { count: anchorCluster.size, segments: t.segments })}</div>
               {(anchorCluster.min_year || anchorCluster.max_year) && (
                 <div>
-                  {gp.unit.axis}跨度：{unitRange(anchorCluster.min_year || anchorCluster.max_year, anchorCluster.max_year || anchorCluster.min_year)}
+                  {i18n.t('galaxy.axisSpan', {
+                    axis: gp.unit.axis,
+                    range: unitRange(anchorCluster.min_year || anchorCluster.max_year, anchorCluster.max_year || anchorCluster.min_year),
+                  })}
                 </div>
               )}
               {anchorCluster.summary && (
                 <div style={{ marginTop: 6, lineHeight: 1.7 }}>
-                  <div style={{ color: 'var(--kg-text-faint)', marginBottom: 2 }}>{t.cluster}摘要</div>
+                  <div style={{ color: 'var(--kg-text-faint)', marginBottom: 2 }}>{i18n.t('galaxy.summary', { cluster: t.cluster })}</div>
                   {anchorCluster.summary}
                 </div>
               )}
               {anchorCluster.keywords?.length > 0 && (
                 <div style={{ marginTop: 8 }}>
-                  <div style={{ color: 'var(--kg-text-faint)', marginBottom: 4 }}>高频词</div>
+                  <div style={{ color: 'var(--kg-text-faint)', marginBottom: 4 }}>{i18n.t('galaxy.words')}</div>
                   {anchorCluster.keywords.map((k) => (
                     <Tag key={k} style={{ fontSize: 11, marginInlineEnd: 4 }}>{k}</Tag>
                   ))}
@@ -1194,15 +1199,15 @@ export default function GalaxyPage() {
             {board && (
               <div className="kgg-board">
                 <BoardBars
-                  title={`各${unitName}分布`}
+                  title={i18n.t('galaxy.spread', { unit: unitName })}
                   items={board.years.map((y) => ({ label: unitLabel(y.year), count: y.count }))}
                   suffix={` ${t.segment}`}
                 />
                 {board.subclusters.length > 0 && (
                   <div className="kgg-board-block">
                     <div className="kgg-board-title">
-                      细分方向
-                      <span className="kgg-board-hint">{board.subclusters.length} 个</span>
+                      {i18n.t('galaxy.subDirection')}
+                      <span className="kgg-board-hint">{i18n.t('galaxy.subCount', { count: board.subclusters.length })}</span>
                     </div>
                     {board.subclusters.map((sub) => (
                       <div key={sub.sub_cluster_id} className="kgg-sub-row">
@@ -1210,7 +1215,7 @@ export default function GalaxyPage() {
                           className="kgg-sub-dot"
                           style={{ background: subClusterColor(anchorCluster.cluster_id, sub.sub_cluster_id) }}
                         />
-                        <span className="kgg-sub-name">{sub.name || `细分 ${sub.sub_cluster_id + 1}`}</span>
+                        <span className="kgg-sub-name">{sub.name || i18n.t('galaxy.sub', { n: sub.sub_cluster_id + 1 })}</span>
                         <span className="kgg-sub-meta">
                           {sub.size} {t.segment}
                           {sub.year_from ? ` · ${unitRange(sub.year_from, sub.year_to)}` : ''}
@@ -1220,31 +1225,31 @@ export default function GalaxyPage() {
                   </div>
                 )}
                 <BoardBars
-                  title="高频关键词"
+                  title={i18n.t('galaxy.keywords')}
                   items={(board.cluster.keyword_weights?.length
                     ? board.cluster.keyword_weights.map((kw) => ({
                         label: kw.word, count: Math.round(kw.weight * 1000),
                       }))
                     : board.cluster.keywords.map((word) => ({ label: word, count: 1 })))}
-                  hint="代表度"
+                  hint={i18n.t('galaxy.represent')}
                 />
                 <BoardBars
-                  title={`主要${t.primary}`}
+                  title={i18n.t('galaxy.mainPrimary', { primary: t.primary })}
                   items={board.units.map((u) => ({ label: u.name, count: u.count }))}
                   suffix={` ${t.segment}`}
                 />
                 <BoardBars
-                  title={`主要${t.secondary}`}
+                  title={i18n.t('galaxy.mainSecondary', { secondary: t.secondary })}
                   items={board.file_types.map((ft) => ({ label: ft.name, count: ft.count }))}
                   suffix={` ${t.segment}`}
                 />
                 <BoardBars
-                  title={`每${t.segment}${t.primary}数`}
+                  title={i18n.t('galaxy.perSegment', { segment: t.segment, primary: t.primary })}
                   items={board.size_buckets.map((b) => ({ label: b.bucket, count: b.count }))}
                   suffix={` ${t.segment}`}
                 />
                 <BoardBars
-                  title="篇幅"
+                  title={i18n.t('galaxy.length')}
                   items={board.page_buckets.map((b) => ({ label: b.bucket, count: b.count }))}
                   suffix={` ${t.segment}`}
                 />
@@ -1262,7 +1267,7 @@ export default function GalaxyPage() {
                   }
                 }}
               >
-                只看这个{t.cluster}
+                {i18n.t('galaxy.onlyThis', { cluster: t.cluster })}
               </Button>
             </div>
           </div>
@@ -1273,17 +1278,17 @@ export default function GalaxyPage() {
           <div className="kgg-detail-drawer" data-outlier-card>
             <div className="kgc-trace-head">
               <div className="kgc-trace-title">
-                疑似错位片段 · {visibleOutliers.length} {t.segment}
+                {i18n.t('galaxy.outlierTitle', { count: visibleOutliers.length, segment: t.segment })}
               </div>
               <button className="kgc-trace-back" onClick={() => setOutlierPanelOpen(false)}>
-                关闭
+                {i18n.t('galaxy.close')}
               </button>
             </div>
             <div className="kgg-outlier-filter">
               {([
-                ['all', '全部'],
-                ['misplaced', `更像别的${t.cluster}`],
-                ['drifted', '与同组差异大'],
+                ['all', i18n.t('common.all')],
+                ['misplaced', i18n.t('galaxy.likeOther', { cluster: t.cluster })],
+                ['drifted', i18n.t('galaxy.unlike')],
               ] as const).map(([key, label]) => (
                 <button
                   key={key}
@@ -1296,19 +1301,18 @@ export default function GalaxyPage() {
               ))}
             </div>
             <div className="kgg-outlier-hint">
-              这些片段是按两种迹象挑出来的：① 内容更像另一个{t.cluster}（常见于插叙、引文或转场）；
-              ② 与本组其它片段差别较大。两者都只是提示，打开原文一看便知。
+              {i18n.t('galaxy.outlierHelp', { cluster: t.cluster })}
             </div>
             {visibleOutliers.length === 0 && (
-              <div className="kgg-board-empty">当前筛选下没有这类片段</div>
+              <div className="kgg-board-empty">{i18n.t('galaxy.noPassages')}</div>
             )}
             {visibleOutliers.map((item) => (
               <div key={item.record_id} className="kgg-outlier-row">
                 <div className="kgg-outlier-head">
                   <Tag color={item.misplaced ? 'red' : 'orange'} style={{ fontSize: 11 }}>
-                    {item.misplaced ? `更像别的${t.cluster}` : '与同组差异大'}
+                    {item.misplaced ? i18n.t('galaxy.likeOther', { cluster: t.cluster }) : i18n.t('galaxy.unlike')}
                   </Tag>
-                  <span className="kgg-outlier-score">差异度 {item.score}（越大越不像本组）</span>
+                  <span className="kgg-outlier-score">{i18n.t('galaxy.score', { score: item.score })}</span>
                 </div>
                 <div
                   className="kgg-outlier-title"
@@ -1321,7 +1325,7 @@ export default function GalaxyPage() {
                     } else {
                       // 点级数据是按视口加载的，离群片段可能不在当前视口，
                       // 静默无反应会让用户以为点击失效
-                      message.info('该片段不在当前画面，请先用搜索定位')
+                      message.info(i18n.t('galaxy.offscreen'))
                     }
                   }}
                 >
@@ -1329,7 +1333,7 @@ export default function GalaxyPage() {
                 </div>
                 <div className="kgg-outlier-meta">
                   {item.cluster_name || `${t.cluster} ${item.cluster_id}`}
-                  {item.nearest_cluster_name ? ` · 更像「${item.nearest_cluster_name}」` : ''}
+                  {item.nearest_cluster_name ? i18n.t('galaxy.likeNamed', { name: item.nearest_cluster_name }) : ''}
                   {item.archive_number ? ` · ${item.archive_number}` : ''}
                 </div>
                 <div className="kgg-outlier-actions">
@@ -1337,7 +1341,7 @@ export default function GalaxyPage() {
                     size="small"
                     onClick={() => setEvidence({ recordId: item.record_id })}
                   >
-                    看原文
+                    {i18n.t('galaxy.viewPassage')}
                   </Button>
                 </div>
               </div>
@@ -1351,7 +1355,7 @@ export default function GalaxyPage() {
           <div className="kgg-drift-drawer">
             <div className="kgc-trace-head">
               <div className="kgc-trace-title">
-                {t.cluster}重心变化 · {drift?.periods.length || 0} 个时段
+                {i18n.t('galaxy.driftTitle', { cluster: t.cluster, count: drift?.periods.length || 0 })}
               </div>
               <button className="kgc-trace-back" onClick={() => {
                 setDriftOpen(false)
@@ -1360,15 +1364,15 @@ export default function GalaxyPage() {
                 // 不还原的话画布会一直停在被筛选的状态，用户看不出原因
                 setYearRange(null)
               }}>
-                关闭
+                {i18n.t('galaxy.close')}
               </button>
             </div>
             <div className="kgg-drift-hint">
-              按每 {gp.period_size} {unitName}一段，对比重心怎样迁移：哪类{t.cluster}变多了、哪些词开始出现或不再出现。
-              它反映的是整段{gp.unit.axis}的构成，不是某一{t.segment}原文在图上移动。
+              {i18n.t('galaxy.driftHelp', { size: gp.period_size, unit: unitName, cluster: t.cluster })}
+              {i18n.t('galaxy.driftNote', { axis: gp.unit.axis, segment: t.segment })}
             </div>
             {!drift || drift.periods.length === 0 ? (
-              <div className="kgg-board-empty">暂无变化数据，请先重新分析</div>
+              <div className="kgg-board-empty">{i18n.t('galaxy.noDrift')}</div>
             ) : (
               <>
                 <div className="kgg-drift-controls">
@@ -1378,7 +1382,7 @@ export default function GalaxyPage() {
                     className="kgg-drift-play"
                     onClick={() => setDriftPlaying((prev) => !prev)}
                   >
-                    {driftPlaying ? '⏸ 暂停' : '▶ 播放变化'}
+                    {driftPlaying ? i18n.t('common.pause') : i18n.t('galaxy.playChange')}
                   </button>
                   <button type="button" onClick={() => stepDrift(1)}>▶</button>
                   <Select
@@ -1386,7 +1390,7 @@ export default function GalaxyPage() {
                     value={driftPeriod}
                     onChange={applyDriftPeriod}
                     style={{ width: 180 }}
-                    options={drift.periods.map((p) => ({ value: p, label: p }))}
+                    options={drift.periods.map((p) => ({ value: p, label: displayUnitText(p) }))}
                   />
                 </div>
                 <input
@@ -1402,8 +1406,8 @@ export default function GalaxyPage() {
                 {driftSnapshot && (
                   <div className="kgg-drift-snapshot">
                     <div className="kgg-board-title">
-                      {driftPeriod} 主要构成
-                      {driftSnapshot.significant && <Tag color="orange" style={{ marginLeft: 6, fontSize: 11 }}>重点时段</Tag>}
+                      {i18n.t('galaxy.composition', { period: displayUnitText(driftPeriod) })}
+                      {driftSnapshot.significant && <Tag color="orange" style={{ marginLeft: 6, fontSize: 11 }}>{i18n.t('galaxy.keyPeriod')}</Tag>}
                     </div>
                     {driftSnapshot.top.map((row) => (
                       <div key={row.clusterId} className="kgg-drift-row">
@@ -1421,7 +1425,7 @@ export default function GalaxyPage() {
                     ))}
                     {driftSnapshot.added.length > 0 && (
                       <div className="kgg-drift-keywords">
-                        <span>新出现：</span>
+                        <span>{i18n.t('galaxy.appeared')}</span>
                         {driftSnapshot.added.map((word) => (
                           <Tag key={word} color="volcano" style={{ fontSize: 11 }}>{word}</Tag>
                         ))}
@@ -1429,7 +1433,7 @@ export default function GalaxyPage() {
                     )}
                     {driftSnapshot.gone.length > 0 && (
                       <div className="kgg-drift-keywords">
-                        <span>淡出：</span>
+                        <span>{i18n.t('galaxy.faded')}</span>
                         {driftSnapshot.gone.map((word) => (
                           <Tag key={word} style={{ fontSize: 11 }}>{word}</Tag>
                         ))}
@@ -1442,13 +1446,13 @@ export default function GalaxyPage() {
                     size="small"
                     onClick={() => {
                       downloadGalaxyDriftReport()
-                        .then(() => message.success('变化报告已开始下载'))
+                        .then(() => message.success(i18n.t('galaxy.reportOk')))
                         .catch((error: unknown) => message.error(
-                          (error as Error)?.message || '导出变化报告失败',
+                          (error as Error)?.message || i18n.t('galaxy.reportFail'),
                         ))
                     }}
                   >
-                    导出变化报告（Markdown）
+                    {i18n.t('galaxy.exportReport')}
                   </Button>
                 </div>
               </>
@@ -1460,12 +1464,12 @@ export default function GalaxyPage() {
         {similar && (
           <div className="kgg-similar-drawer">            <div className="kgc-trace-head">
               <div className="kgc-trace-title">
-                相似片段 · {similar.items.length} {t.segment}
+                {i18n.t('galaxy.similarTitle', { count: similar.items.length, segment: t.segment })}
               </div>
-              <button className="kgc-trace-back" onClick={() => setSimilar(null)}>关闭</button>
+              <button className="kgc-trace-back" onClick={() => setSimilar(null)}>{i18n.t('galaxy.close')}</button>
             </div>
             <div style={{ fontSize: 11, color: 'var(--kg-text-faint)', marginBottom: 6 }}>
-              参照：{similar.anchor.archive_number || similar.anchor.title}（按内容相似度找的，不是图上距离）
+              {i18n.t('galaxy.similarRef', { name: similar.anchor.archive_number || similar.anchor.title })}
             </div>
             <div className="kgg-similar-list">
               {similar.items.map((it) => (
@@ -1500,12 +1504,12 @@ export default function GalaxyPage() {
 
         <HintBar
           hints={[
-            `每颗星是一${t.segment}原文`,
-            mobile ? '双指缩放 · 拖动平移' : '滚轮缩放 · 拖拽平移',
-            lodMode === 'grid' ? '点气泡看这一组片段' : '点圆点看片段详情',
-            `点星标看${t.cluster}概况`,
-            mobile ? `点「${t.cluster}」按钮筛选` : '右栏勾选多组对比',
-            `分析菜单看${t.cluster}关联与重心变化`,
+            i18n.t('galaxy.hintSegment', { segment: t.segment }),
+            mobile ? i18n.t('galaxy.hintTouch') : i18n.t('galaxy.hintMouse'),
+            lodMode === 'grid' ? i18n.t('galaxy.hintBubble') : i18n.t('galaxy.hintDot'),
+            i18n.t('galaxy.hintStar', { cluster: t.cluster }),
+            mobile ? i18n.t('galaxy.hintFilter', { cluster: t.cluster }) : i18n.t('galaxy.hintCompare'),
+            i18n.t('galaxy.hintMenu', { cluster: t.cluster }),
           ]}
           avoidBottom={timeline.length > 0}
         />
@@ -1514,7 +1518,7 @@ export default function GalaxyPage() {
           <div className="kgg-timeline">
             <div className="kgg-timeline-head">
               <span className="kgg-timeline-title">
-                各{unitName}{t.cluster}分布
+                {i18n.t('galaxy.distribution', { unit: unitName, cluster: t.cluster })}
                 {/* 聚焦某组时标题带上组名与颜色，明确面板已联动该组 */}
                 {activeCluster !== null && (
                   <span
@@ -1531,10 +1535,10 @@ export default function GalaxyPage() {
               {yearRange && (
                 <>
                   <span className="kgg-timeline-range">
-                    {unitRange(yearRange[0], yearRange[1])}（区间外已压暗）
+                    {i18n.t('galaxy.dimOutside', { range: unitRange(yearRange[0], yearRange[1]) })}
                   </span>
                   <button className="kgg-timeline-clear" onClick={() => setYearRange(null)}>
-                    清除筛选
+                    {i18n.t('galaxy.clearFilter')}
                   </button>
                 </>
               )}
@@ -1580,8 +1584,8 @@ export default function GalaxyPage() {
             className={`kgg-sheet-toggle ${sheetOpen ? 'on' : ''}`}
             onClick={() => setSheetOpen((v) => !v)}
           >
-            {sheetOpen ? '收起' : `${t.cluster} ${clusterList.length}`}
-            {activeCluster !== null && !sheetOpen ? ' · 已聚焦' : ''}
+            {sheetOpen ? i18n.t('galaxy.sheetCollapse') : i18n.t('galaxy.sheetToggle', { cluster: t.cluster, count: clusterList.length })}
+            {activeCluster !== null && !sheetOpen ? i18n.t('galaxy.focused') : ''}
           </button>
         )}
         <div className={`kgg-cluster-sidebar ${sheetOpen ? 'is-open' : ''}`}>
@@ -1593,9 +1597,9 @@ export default function GalaxyPage() {
               <button
                 className="kgg-cluster-clear"
                 onClick={() => setCompareSet(new Set())}
-                title="清空勾选，退出对比"
+                title={i18n.t('galaxy.clearCompare')}
               >
-                已选 {compareSet.size} 组 · 清空
+                {i18n.t('galaxy.selectedGroups', { count: compareSet.size })}
               </button>
             )}
           </div>
@@ -1604,7 +1608,7 @@ export default function GalaxyPage() {
             size="small"
             allowClear
             className="kgg-cluster-search"
-            placeholder={`筛选${t.cluster}（名称 / 摘要 / 高频词）`}
+            placeholder={i18n.t('galaxy.filterClusters', { cluster: t.cluster })}
             value={clusterKw}
             onChange={(e) => setClusterKw(e.target.value)}
           />
@@ -1612,13 +1616,13 @@ export default function GalaxyPage() {
             className={`kgg-cluster-item kgg-cluster-item-all ${activeCluster === null && !compareSet.size ? 'kgg-cluster-item-active' : ''}`}
             onClick={() => { setActiveCluster(null); setCompareSet(new Set()) }}
           >
-            <span className="kgg-cluster-name">全部</span>
+            <span className="kgg-cluster-name">{i18n.t('common.all')}</span>
           </div>
           {loading && (
             <Skeleton active title={false} paragraph={{ rows: 8 }} />
           )}
           {!loading && clusterKw.trim() && !filteredClusterList.length && (
-            <div className="kgc-sidebar-empty">没有匹配「{clusterKw.trim()}」的{t.cluster}</div>
+            <div className="kgc-sidebar-empty">{i18n.t('galaxy.noCluster', { q: clusterKw.trim(), cluster: t.cluster })}</div>
           )}
           {filteredClusterList.map((c) => (
             <div

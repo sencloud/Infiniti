@@ -7,16 +7,17 @@
  *   community 社区（团伙）画像 + 跨团伙桥接
  *   timeline  事实台账（按章回排列）
  *   flow      关系流向（来源类型 -> 关系 -> 目标类型，桑基图的读数面板）
- *   clue      情节线索（关系反转 / 死后再现 / 出场断档 / 籍贯冲突）
+ *   clue      情节线索（关系反转 / 死后再现 / 出场断档 / 籍贯冲突 / 意外连接），可标已读
+ *   ask       沿关系网取证据作答（LearnTabs）
+ *   review    待核对的事实（LearnTabs）
  *
  * 面板只负责"读线索"，不改图数据；路径结果由父组件并入画布。
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Button, Empty, Segmented, Spin, Tag, Tooltip, message } from 'antd'
+import { Button, Empty, Segmented, Spin, Switch, Tag, Tooltip, message } from 'antd'
 import { CloseOutlined, SearchOutlined } from '@ant-design/icons'
 
 import {
-  ANALYSIS_STAGE_LABELS,
   cancelAnalysisJob,
   explorePaths,
   getAnalysisCommunities,
@@ -38,13 +39,17 @@ import {
 import { searchKnowledgeGraphEntities, type EntitySearchItem } from '@/api/knowledge-graph'
 import { nodeLabel, relationLabel } from '@/utils/graphStyle'
 import { displayText } from '@/utils/mathText'
-import { activeProfile, ruleName, terms, unitRange } from '@/graph/profile'
+import { activeProfile, displayUnitText, ruleName, terms, unitRange } from '@/graph/profile'
+import i18n from '@/i18n'
+import { clueTitle } from '@/i18n/clueTitle'
 import { useIsMobile } from '@/hooks/useIsMobile'
+import type { Citation } from '@/api/kg-learn'
 import type { FlowAggregate, FlowSelection } from './flowAggregate'
 import { buildLedger, LEDGER_TIME_LABEL } from './ledgerModel'
+import { AskTab, ReviewTab } from './LearnTabs'
 
 export type ExploreMode =
-  | 'browse' | 'path' | 'strength' | 'community' | 'timeline' | 'flow' | 'clue'
+  | 'browse' | 'ask' | 'path' | 'strength' | 'community' | 'timeline' | 'flow' | 'clue' | 'review'
 
 interface Props {
   mode: ExploreMode
@@ -61,6 +66,7 @@ interface Props {
   onLocate: (entityId: string) => void
   onMergeGraph: (graph: NonNullable<PathResult['graph']>) => void
   onOpenArchive: (recordId: string, claimId?: string) => void
+  onOpenCitation: (citation: Citation, all: Citation[]) => void
   onClose: () => void
 }
 
@@ -114,7 +120,7 @@ function EntityPicker({
         <button
           type="button"
           className="kgap-picker-clear"
-          aria-label="清除"
+          aria-label={i18n.t('analysis.clear')}
           onClick={() => { onChange(null); setKeyword('') }}
         >
           <CloseOutlined />
@@ -184,7 +190,7 @@ function useAnalysisJob() {
       poll(job_id)
     } catch (error) {
       setBusy(false)
-      message.error((error as Error)?.message || '创建分析任务失败')
+      message.error((error as Error)?.message || i18n.t('analysis.createFail'))
     }
   }, [poll])
 
@@ -205,13 +211,24 @@ function AnalysisJobBar({ job, busy, onStart, onCancel }: {
   onStart: () => void
   onCancel: () => void
 }) {
-  const stage = job ? (ANALYSIS_STAGE_LABELS[job.stage] || job.stage) : ''
+  const stageKey: Record<string, string> = {
+    '': 'analysis.stageQueue',
+    export: 'analysis.stageExport',
+    edges: 'analysis.stageEdges',
+    communities: 'analysis.stageCommunities',
+    hubs: 'analysis.stageHubs',
+    persist: 'analysis.stagePersist',
+    timeline: 'analysis.stageTimeline',
+    anomalies: 'analysis.stageAnomalies',
+    done: 'analysis.stageDone',
+  }
+  const stage = job ? (stageKey[job.stage] ? i18n.t(stageKey[job.stage]) : job.stage) : ''
   const mobile = useIsMobile()
   if (mobile && !busy && job?.status === 'completed') {
     return (
       <div className="kgap-jobbar is-quiet">
-        <span className="kgap-jobbar-text">已从 {job.edges.toLocaleString()} 条关系里找出 {job.anomalies} 条线索</span>
-        <Button type="link" size="small" onClick={onStart}>重新计算</Button>
+        <span className="kgap-jobbar-text">{i18n.t('analysis.jobFound', { edges: job.edges.toLocaleString(), clues: job.anomalies })}</span>
+        <Button type="link" size="small" onClick={onStart}>{i18n.t('analysis.recompute')}</Button>
       </div>
     )
   }
@@ -221,14 +238,14 @@ function AnalysisJobBar({ job, busy, onStart, onCancel }: {
         {busy && job
           ? `${stage} · ${job.progress}%`
           : job?.status === 'completed'
-            ? `已计算：${job.edges} 条关系 / ${job.hubs} 个枢纽 / ${job.communities} 个社区 / ${job.anomalies} 条线索`
+            ? i18n.t('analysis.computed', { edges: job.edges, hubs: job.hubs, communities: job.communities, anomalies: job.anomalies })
             : job?.status === 'failed'
-              ? `上次计算失败：${(job.error || '').slice(0, 60)}`
-              : '尚未计算分析数据'}
+              ? i18n.t('analysis.lastFailed', { error: (job.error || '').slice(0, 60) })
+              : i18n.t('analysis.notYet')}
       </div>
       {busy
-        ? <Button size="small" onClick={onCancel}>取消</Button>
-        : <Button size="small" type="primary" onClick={onStart}>重新计算</Button>}
+        ? <Button size="small" onClick={onCancel}>{i18n.t('analysis.cancel')}</Button>
+        : <Button size="small" type="primary" onClick={onStart}>{i18n.t('analysis.recompute')}</Button>}
     </div>
   )
 }
@@ -246,7 +263,7 @@ function PathTab({ onMergeGraph, onOpenArchive, onLocate }: {
   const [loading, setLoading] = useState(false)
 
   const run = useCallback(async () => {
-    if (!from || !to) { message.warning('请先选择起点与终点实体'); return }
+    if (!from || !to) { message.warning(i18n.t('analysis.pickEnds')); return }
     setLoading(true)
     try {
       const data = await explorePaths(from.entity_id, to.entity_id, 3, 3)
@@ -256,7 +273,7 @@ function PathTab({ onMergeGraph, onOpenArchive, onLocate }: {
         onLocate(from.entity_id)
       }
     } catch (error) {
-      message.error((error as Error)?.message || '路径探查失败')
+      message.error((error as Error)?.message || i18n.t('analysis.pathFail'))
       setResult(null)
     } finally {
       setLoading(false)
@@ -268,15 +285,15 @@ function PathTab({ onMergeGraph, onOpenArchive, onLocate }: {
   return (
     <div className="kgap-body">
       <div className="kgap-hint">
-        输入两个实体，自动找出把它们连起来的{typeNames}，并标注每一段关系出自哪一{gp.unit.name}。
+        {i18n.t('analysis.pathHint', { types: typeNames, unit: gp.unit.name })}
       </div>
-      <EntityPicker placeholder={`起点实体${gp.examples?.from ? `（如 ${gp.examples.from}）` : ''}`} value={from} onChange={setFrom} />
-      <EntityPicker placeholder={`终点实体${gp.examples?.to ? `（如 ${gp.examples.to}）` : ''}`} value={to} onChange={setTo} />
-      <Button type="primary" block loading={loading} onClick={run}>探查关联链路</Button>
+      <EntityPicker placeholder={i18n.t('analysis.from', { example: gp.examples?.from ? i18n.t('analysis.example', { name: gp.examples.from }) : '' })} value={from} onChange={setFrom} />
+      <EntityPicker placeholder={i18n.t('analysis.to', { example: gp.examples?.to ? i18n.t('analysis.example', { name: gp.examples.to }) : '' })} value={to} onChange={setTo} />
+      <Button type="primary" block loading={loading} onClick={run}>{i18n.t('analysis.trace')}</Button>
 
       {result && !result.found && (
         <div className="kgap-empty-note">
-          <b>未找到通路</b>
+          <b>{i18n.t('analysis.noPath')}</b>
           <p>{result.reason}</p>
         </div>
       )}
@@ -284,9 +301,9 @@ function PathTab({ onMergeGraph, onOpenArchive, onLocate }: {
       {result?.found && result.paths.map((path, pathIndex) => (
         <div key={pathIndex} className="kgap-path">
           <div className="kgap-path-head">
-            <span>链路 {pathIndex + 1}</span>
+            <span>{i18n.t('analysis.pathN', { n: pathIndex + 1 })}</span>
             <span className="kgap-path-meta">
-              {path.hops} 跳 · 评分 {path.score}
+              {i18n.t('analysis.hops', { hops: path.hops, score: path.score })}
             </span>
           </div>
           {path.steps.map((step, stepIndex) => (
@@ -305,7 +322,7 @@ function PathTab({ onMergeGraph, onOpenArchive, onLocate }: {
               )}
               <div className="kgap-hop-foot">
                 {step.archive_number && (
-                  <Tooltip title={step.archive_title || '查看原文'}>
+                  <Tooltip title={step.archive_title || i18n.t('analysis.viewArchive')}>
                     <span
                       className="kgap-archive"
                       onClick={() => step.record_id && onOpenArchive(step.record_id, step.claim_id)}
@@ -314,8 +331,8 @@ function PathTab({ onMergeGraph, onOpenArchive, onLocate }: {
                     </span>
                   </Tooltip>
                 )}
-                {step.page_no != null && <span className="kgap-hop-tag">第 {step.page_no} 页</span>}
-                <span className="kgap-hop-tag">置信度 {step.confidence.toFixed(2)}</span>
+                {step.page_no != null && <span className="kgap-hop-tag">{i18n.t('analysis.page', { page: step.page_no })}</span>}
+                <span className="kgap-hop-tag">{i18n.t('analysis.confShort', { value: step.confidence.toFixed(2) })}</span>
               </div>
             </div>
           ))}
@@ -346,7 +363,7 @@ function StrengthTab({ onLocate }: { onLocate: Props['onLocate'] }) {
         {terms().hub} = 关联强度（加权度）x 跨{terms().community}度。排名靠前的是串起多条线索的核心{terms().primary}。
       </div>
       {loading ? <Spin /> : hubs.length === 0 ? (
-        <Empty description="暂无枢纽数据，先重新计算" image={Empty.PRESENTED_IMAGE_SIMPLE} />
+        <Empty description={i18n.t('analysis.noHubs')} image={Empty.PRESENTED_IMAGE_SIMPLE} />
       ) : (
         <div className="kgap-hubs">
           {hubs.map((hub) => (
@@ -356,7 +373,7 @@ function StrengthTab({ onLocate }: { onLocate: Props['onLocate'] }) {
                 <div className="kgap-hub-name">{hub.canonical_name}</div>
                 <div className="kgap-hub-sub">
                   {nodeLabel(hub.entity_type)} · 强度 {hub.weighted_degree.toFixed(2)}
-                  {hub.community_span > 0 ? ` · 跨 ${hub.community_span} 个${terms().community}` : ''}
+                  {hub.community_span > 0 ? i18n.t('analysis.span', { count: hub.community_span, community: terms().community }) : ''}
                 </div>
               </div>
               <div className="kgap-hub-bar">
@@ -396,7 +413,7 @@ function CommunityTab({ onLocate }: { onLocate: Props['onLocate'] }) {
     <div className="kgap-body">
       <AnalysisJobBar job={job} busy={busy} onStart={start} onCancel={cancel} />
       {loading ? <Spin /> : communities.length === 0 ? (
-        <Empty description="暂无社区数据，先重新计算" image={Empty.PRESENTED_IMAGE_SIMPLE} />
+        <Empty description={i18n.t('analysis.noCommunities')} image={Empty.PRESENTED_IMAGE_SIMPLE} />
       ) : (
         <div className="kgap-communities">
           {communities.map((profile) => (
@@ -418,8 +435,8 @@ function CommunityTab({ onLocate }: { onLocate: Props['onLocate'] }) {
 
       {active && (
         <div className="kgap-bridges">
-          <div className="kgap-sec-title">跨{terms().community}关系（与其它社区的联系）</div>
-          {bridges.length === 0 && <div className="kgap-empty-note">该社区暂未发现跨{terms().community}关联</div>}
+          <div className="kgap-sec-title">{i18n.t('analysis.crossTitle', { community: terms().community })}</div>
+          {bridges.length === 0 && <div className="kgap-empty-note">{i18n.t('analysis.crossEmpty', { community: terms().community })}</div>}
           {bridges.map((bridge) => (
             <div key={bridge.id} className="kgap-bridge">
               <span
@@ -435,13 +452,40 @@ function CommunityTab({ onLocate }: { onLocate: Props['onLocate'] }) {
               >
                 {bridge.dst_name || bridge.dst_entity_id}
               </span>
-              <span className="kgap-bridge-weight">强度 {bridge.weight.toFixed(2)}</span>
+              <span className="kgap-bridge-weight">{i18n.t('analysis.strength', { value: bridge.weight.toFixed(2) })}</span>
             </div>
           ))}
         </div>
       )}
     </div>
   )
+}
+
+/** 看过的线索按图谱记在本机；anomaly_id 由规则与证据决定，重算后不变 */
+function useReadClues() {
+  const key = `kg-clue-read:${activeProfile().id}`
+  const [read, setRead] = useState<Set<string>>(() => {
+    try {
+      return new Set(JSON.parse(localStorage.getItem(key) || '[]') as string[])
+    } catch {
+      return new Set()
+    }
+  })
+  const mark = useCallback((id: string, on: boolean) => {
+    setRead((prev) => {
+      if (prev.has(id) === on) return prev
+      const next = new Set(prev)
+      if (on) next.add(id)
+      else next.delete(id)
+      try {
+        localStorage.setItem(key, JSON.stringify([...next].slice(-3000)))
+      } catch {
+        /* 隐私模式下存不了就只在本次会话里记 */
+      }
+      return next
+    })
+  }, [key])
+  return { read, mark }
 }
 
 function ClueTab({ anchor, onLocate, onOpenArchive }: {
@@ -453,6 +497,10 @@ function ClueTab({ anchor, onLocate, onOpenArchive }: {
   const [rule, setRule] = useState<string>('all')
   const [items, setItems] = useState<Anomaly[]>([])
   const [loading, setLoading] = useState(true)
+  const { read, mark } = useReadClues()
+  const [hideRead, setHideRead] = useState(false)
+  const readCount = items.filter((item) => read.has(item.anomaly_id)).length
+  const shown = hideRead ? items.filter((item) => !read.has(item.anomaly_id)) : items
 
   useEffect(() => {
     getAnomalies({
@@ -470,44 +518,69 @@ function ClueTab({ anchor, onLocate, onOpenArchive }: {
       <AnalysisJobBar job={job} busy={busy} onStart={start} onCancel={cancel} />
       <Segmented
         size="small"
-        block
+        className="kgap-scroll-seg"
         value={rule}
         onChange={(value) => setRule(String(value))}
         options={[
-          { label: '全部', value: 'all' },
+          { label: i18n.t('common.all'), value: 'all' },
           ...Object.entries(activeProfile().rules).map(([code, r]) => ({
             label: <Tooltip title={r.hint}>{r.name}</Tooltip>,
             value: code,
           })),
         ]}
       />
-      {anchor && <div className="kgap-hint">当前仅显示与「{anchor.name}」相关的线索</div>}
-      {loading ? <Spin /> : items.length === 0 ? (
-        <Empty description="暂无线索" image={Empty.PRESENTED_IMAGE_SIMPLE} />
+      {anchor && <div className="kgap-hint">{i18n.t('analysis.clueScope', { name: anchor.name })}</div>}
+      {!loading && readCount > 0 && (
+        <div className="kgap-clue-bar">
+          <span>{i18n.t('clue.readCount', { count: readCount })}</span>
+          <label>
+            <Switch size="small" checked={hideRead} onChange={setHideRead} /> {i18n.t('clue.hideRead')}
+          </label>
+        </div>
+      )}
+      {loading ? <Spin /> : shown.length === 0 ? (
+        <Empty description={i18n.t('analysis.noClues')} image={Empty.PRESENTED_IMAGE_SIMPLE} />
       ) : (
         <div className="kgap-clues">
-          {items.map((item) => (
-            <div key={item.anomaly_id} className="kgap-clue" onClick={() => onLocate(item.anchor_entity_id)}>
+          {shown.map((item) => (
+            <div
+              key={item.anomaly_id}
+              className={`kgap-clue ${read.has(item.anomaly_id) ? 'is-read' : ''}`}
+              onClick={() => { mark(item.anomaly_id, true); onLocate(item.anchor_entity_id) }}
+            >
               <div className="kgap-clue-head">
                 <Tag color={SEVERITY_COLOR[item.severity]}>{ruleName(item.rule_code)}</Tag>
-                <span className="kgap-clue-title">{item.title}</span>
+                <span className="kgap-clue-title">{clueTitle(item)}</span>
               </div>
               <div className="kgap-clue-sub">
                 {item.anchor_name || item.anchor_entity_id}
-                {item.archive_number ? ` · ${item.archive_number}` : ''}
+                {item.archive_number ? ` · ${displayUnitText(item.archive_number)}` : ''}
               </div>
               {item.evidence_text && (
                 <div className="kgap-hop-evidence">「{displayText(item.evidence_text).slice(0, 100)}」</div>
               )}
-              {item.record_id && (
+              <div className="kgap-clue-foot">
+                {item.record_id && (
+                  <Button
+                    size="small"
+                    type="link"
+                    onClick={(event) => {
+                      event.stopPropagation()
+                      mark(item.anomaly_id, true)
+                      onOpenArchive(item.record_id, item.claim_id)
+                    }}
+                  >
+                    {i18n.t('analysis.viewArchive')}
+                  </Button>
+                )}
                 <Button
                   size="small"
-                  type="link"
-                  onClick={(event) => { event.stopPropagation(); onOpenArchive(item.record_id, item.claim_id) }}
+                  type="text"
+                  onClick={(event) => { event.stopPropagation(); mark(item.anomaly_id, !read.has(item.anomaly_id)) }}
                 >
-                  查看原文
+                  {read.has(item.anomaly_id) ? i18n.t('clue.markUnread') : i18n.t('clue.markRead')}
                 </Button>
-              )}
+              </div>
             </div>
           ))}
         </div>
@@ -579,7 +652,7 @@ function TimelineTab({
     return (
       <div className="kgap-body">
         <Empty
-          description="先在图上点选一个实体，查看它的完整演进台账"
+          description={i18n.t('analysis.ledgerPrompt')}
           image={Empty.PRESENTED_IMAGE_SIMPLE}
         />
       </div>
@@ -595,13 +668,13 @@ function TimelineTab({
   return (
     <div className="kgap-body">
       <div className="kgap-hint">
-        <b>{anchor.name}</b> 的台账：共 {ledger.total} 条事实，按所在{activeProfile().unit.axis}排列；
-        播放时间轴时只保留"截至此刻"的行。点「原文」看该{activeProfile().unit.name}证据高亮。
+        <b>{anchor.name}</b>{i18n.t('analysis.ledgerHead', { count: ledger.total, axis: activeProfile().unit.axis })}
+        {i18n.t('analysis.ledgerPlay', { unit: activeProfile().unit.name })}
       </div>
 
       {loading ? <Spin /> : !hasAny ? (
         <Empty
-          description={ledger.total === 0 ? '该实体暂无带时间的事实' : '当前筛选下没有内容'}
+          description={ledger.total === 0 ? i18n.t('analysis.noTimed') : i18n.t('analysis.noneHere')}
           image={Empty.PRESENTED_IMAGE_SIMPLE}
         />
       ) : (
@@ -616,9 +689,9 @@ function TimelineTab({
                   <span>{group.title}</span>
                   <span className="kgap-tlg-count">
                     {/* 计数跟着当前筛选走，避免筛了"只看证据"却还报事项条数 */}
-                    {events.length ? `${events.length} 条事实` : ''}
+                    {events.length ? i18n.t('analysis.factRows', { count: events.length }) : ''}
                     {events.length && docs.length ? ' · ' : ''}
-                    {docs.length ? `${docs.length} 处出处` : ''}
+                    {docs.length ? i18n.t('analysis.docRows', { count: docs.length }) : ''}
                   </span>
                 </div>
 
@@ -629,7 +702,7 @@ function TimelineTab({
                         <div className="kgap-tl-main">
                           <div className="kgap-tl-title">
                             {!row.counterpartIsTime && (
-                              <span className="kgap-tl-arrow" title="锚点指向对端">→</span>
+                              <span className="kgap-tl-arrow" title={i18n.t('analysis.pointsTo')}>→</span>
                             )}
                             <span className={row.counterpartMissing ? 'kgap-tl-name missing' : 'kgap-tl-name'}>
                               {row.counterpartName}
@@ -642,7 +715,7 @@ function TimelineTab({
                             {row.recordId && (
                               <span
                                 className="kgap-archive"
-                                title={`查看${row.archiveNumber}原文 · 置信度 ${row.confidence.toFixed(2)}`}
+                                title={i18n.t('analysis.openEvidence', { archive: displayUnitText(row.archiveNumber), confidence: row.confidence.toFixed(2) })}
                                 onClick={() => onOpenArchive(row.recordId, row.claimId)}
                               >
                                 原文
@@ -662,7 +735,7 @@ function TimelineTab({
 
                 {docs.length > 0 && (
                   <>
-                    <div className="kgap-tlg-sec doc">出处</div>
+                    <div className="kgap-tlg-sec doc">{i18n.t('analysis.sources')}</div>
                     {docs.map((doc) => {
                       const opened = expandedKeys.has(`${group.key}:${doc.key}`)
                       const itemsOfDoc = doc.rows
@@ -675,16 +748,16 @@ function TimelineTab({
                           >
                             <span
                               className="kgap-archive"
-                              title={doc.recordId ? '查看证据原文' : undefined}
+                              title={doc.recordId ? i18n.t('analysis.openDoc') : undefined}
                               onClick={(event) => {
                                 event.stopPropagation()
                                 if (doc.recordId) onOpenArchive(doc.recordId)
                               }}
                             >
-                              {doc.archiveNumber || '未标注档号'}
+                              {doc.archiveNumber ? displayUnitText(doc.archiveNumber) : i18n.t('analysis.noArchive')}
                             </span>
-                            <span className="kgap-hop-tag">成文 {doc.docDate || '—'}</span>
-                            {!single && <span className="kgap-tld-count">{itemsOfDoc.length} 条</span>}
+                            <span className="kgap-hop-tag">{i18n.t('analysis.docDate', { date: doc.docDate || '—' })}</span>
+                            {!single && <span className="kgap-tld-count">{i18n.t('analysis.itemCount', { count: itemsOfDoc.length })}</span>}
                             {!single && <span className="kgap-tld-toggle">{opened ? '▾' : '▸'}</span>}
                           </div>
                           {(single || opened) && itemsOfDoc.map((row) => (
@@ -742,12 +815,12 @@ function FlowTab({
   /** 选中项的读法：直接把流向写成"来源 —关系→ 去向"，比"已选：单条流向"有用 */
   const selectionText = useMemo(() => {
     if (!selection) return ''
-    if (selection.kind === 'predicate') return `关系「${relationLabel(selection.key)}」`
+    if (selection.kind === 'predicate') return i18n.t('analysis.relNamed', { name: relationLabel(selection.key) })
     if (selection.kind === 'group') {
       const group = flow.groups.find((item) => item.key === selection.key)
       return group
         ? `${group.srcName} —${relationLabel(group.predicate)}→ ${group.dstName}`
-        : '单条流向'
+        : i18n.t('analysis.singleFlow')
     }
     const groupsOfEntity = selection.kind === 'src'
       ? flow.groups.filter((item) => item.srcId === selection.key)
@@ -755,14 +828,17 @@ function FlowTab({
     const name = groupsOfEntity[0]
       ? (selection.kind === 'src' ? groupsOfEntity[0].srcName : groupsOfEntity[0].dstName)
       : selection.key
-    return `${selection.kind === 'src' ? '来源实体' : '目标实体'}「${name}」`
+    return i18n.t('analysis.entityEnd', {
+      side: selection.kind === 'src' ? i18n.t('analysis.srcSide') : i18n.t('analysis.dstSide'),
+      name,
+    })
   }, [selection, flow.groups])
 
   if (flow.empty) {
     return (
       <div className="kgap-body">
         <Empty
-          description="当前画布上没有可聚合的关系"
+          description={i18n.t('analysis.noAgg')}
           image={Empty.PRESENTED_IMAGE_SIMPLE}
         />
       </div>
@@ -772,25 +848,24 @@ function FlowTab({
   return (
     <div className="kgap-body">
       <div className="kgap-hint">
-        带子粗细 = 事实条数。左列是<b>来源实体</b>，中间是<b>关系</b>，
-        右列是<b>目标实体</b>；点带子或节点高亮该流向，点实体名定位过去。
+        {i18n.t('analysis.flowHint')}
       </div>
       <div className="kgap-flow-sum">
-        画布上共 {flow.totalLinks} 条流向 · 涉及 {flow.totalEntities} 个实体 · {flow.totalValue} 条事实
+        {i18n.t('analysis.flowSum', { links: flow.totalLinks, entities: flow.totalEntities, facts: flow.totalValue })}
         {flow.droppedLinks > 0
-          ? ` · 图中按流量保留 ${flow.groups.length} 条（另有 ${flow.droppedLinks} 条小流向、${flow.droppedEntities} 个实体未画出）`
+          ? i18n.t('analysis.flowTrim', { groups: flow.groups.length, links: flow.droppedLinks, entities: flow.droppedEntities })
           : ''}
       </div>
 
       {selection && (
         <div className="kgap-flow-active">
-          <span>已选：{selectionText}</span>
-          <Button size="small" type="link" onClick={() => onSelect(null)}>清除</Button>
+          <span>{i18n.t('analysis.selected', { text: selectionText })}</span>
+          <Button size="small" type="link" onClick={() => onSelect(null)}>{i18n.t('analysis.clear')}</Button>
         </div>
       )}
 
       {groups.length === 0 ? (
-        <Empty description="没有匹配的流向" image={Empty.PRESENTED_IMAGE_SIMPLE} />
+        <Empty description={i18n.t('analysis.noFlowMatch')} image={Empty.PRESENTED_IMAGE_SIMPLE} />
       ) : (
         <div className="kgap-flows">
           {groups.map((group) => (
@@ -832,24 +907,26 @@ function FlowTab({
 
 const TITLES: Record<ExploreMode, string> = {
   browse: '',
-  path: '关系路径探查',
-  strength: '关联强度与核心实体',
-  community: '社区与跨板块事项',
-  timeline: '事件台账',
-  flow: '关系流向',
-  clue: '线索 · 值得细读的地方',
+  ask: i18n.t('analysis.tabAsk'),
+  review: i18n.t('analysis.tabReview'),
+  path: i18n.t('analysis.tabPath'),
+  strength: i18n.t('analysis.tabStrength'),
+  community: i18n.t('analysis.tabCommunity'),
+  timeline: i18n.t('analysis.tabTimeline'),
+  flow: i18n.t('analysis.tabFlow'),
+  clue: i18n.t('analysis.tabClue'),
 }
 
 export default function AnalysisPanel({
   mode, anchor, cursorYear, resolveEntity, flow, flowSelection, onFlowSelect,
-  onLocate, onMergeGraph, onOpenArchive, onClose,
+  onLocate, onMergeGraph, onOpenArchive, onOpenCitation, onClose,
 }: Props) {
   if (mode === 'browse') return null
   return (
     <div className="kgap-panel">
       <div className="kgap-head">
         <h3>{TITLES[mode]}</h3>
-        <button type="button" className="kgap-close" onClick={onClose} aria-label="关闭面板"><CloseOutlined /></button>
+        <button type="button" className="kgap-close" onClick={onClose} aria-label={i18n.t('analysis.close')}><CloseOutlined /></button>
       </div>
       {mode === 'path' && (
         <PathTab onMergeGraph={onMergeGraph} onOpenArchive={onOpenArchive} onLocate={onLocate} />
@@ -875,6 +952,8 @@ export default function AnalysisPanel({
       {mode === 'clue' && (
         <ClueTab anchor={anchor} onLocate={onLocate} onOpenArchive={onOpenArchive} />
       )}
+      {mode === 'ask' && <AskTab onLocate={onLocate} onCite={onOpenCitation} />}
+      {mode === 'review' && <ReviewTab onOpenArchive={onOpenArchive} />}
     </div>
   )
 }

@@ -59,12 +59,18 @@ import MobileEntitySheet from './MobileEntitySheet'
 import VideoModal, { episodeTarget, episodesForChapters, useVideoCatalog, type VideoTarget } from '@/components/VideoModal'
 import { locateLibraries, type LocateLibrary } from './locateLibraries'
 import { activeProfile, unitLabel, unitRange } from '@/graph/profile'
+import i18n from '@/i18n'
 import { clusterPalette } from '@/theme/palette'
 import { useTheme } from '@/theme/ThemeProvider'
 import { isMobileNow, useIsMobile } from '@/hooks/useIsMobile'
+import type { Citation } from '@/api/kg-learn'
+import { citationTarget } from './CitedText'
+import EntityNote from './EntityNote'
+import RelatedEntities from './RelatedEntities'
 import '../tokens.css'
 import '../graph.css'
 import './explore.css'
+import './learn.css'
 // three.js + 图库体积大，懒加载拆 chunk：只在进入本页时才下载
 const Graph3DCanvas = lazy(() => import('./Graph3DCanvas'))
 // 类型只做静态引用（编译期擦除，不会把实现拉进主包）
@@ -75,18 +81,14 @@ const BATCH_LIMIT = 120
 /** 画布节点总数软上限，超过后提示先清理再展开 */
 const MAX_NODES = 600
 
-const MODE_OPTIONS: { label: string; value: ExploreMode }[] = [
-  { label: '浏览', value: 'browse' },
-  { label: '路径探查', value: 'path' },
-  { label: '关联强度', value: 'strength' },
-  { label: '社区', value: 'community' },
-  { label: '时序', value: 'timeline' },
-  { label: '流转', value: 'flow' },
-  { label: '线索', value: 'clue' },
-]
+const MODE_VALUES: ExploreMode[] = ['browse', 'ask', 'path', 'strength', 'community', 'timeline', 'flow', 'clue', 'review']
+
+function modeOptions(): { label: string; value: ExploreMode }[] {
+  return MODE_VALUES.map((value) => ({ value, label: i18n.t(`explore.${value}`) }))
+}
 
 const parseMode = (raw: string | null): ExploreMode =>
-  MODE_OPTIONS.find((o) => o.value === raw)?.value ?? 'browse'
+  MODE_VALUES.find((value) => value === raw) ?? 'browse'
 
 /** 社区指纹 -> 稳定颜色（同一指纹每次进入页面颜色一致）；同一板块同色，跨板块桥接才看得出来 */
 function communityColor(key: string, colors: string[]): string {
@@ -156,9 +158,11 @@ export default function ExploreGraphPage() {
   const profile = activeProfile()
   const axisName = profile.unit.axis
   const searchHint = useMemo(() => {
-    if (mobile) return `搜${profile.ontology.entity_types.slice(0, 2).map((t) => t.name).join('、')}…`
-    const names = profile.ontology.entity_types.slice(0, 4).map((t) => t.name).join('、')
-    return `搜索${names}…${profile.examples?.search ? `（如 ${profile.examples.search}）` : ''}`
+    const joiner = i18n.language.startsWith('en') ? ', ' : '、'
+    if (mobile) return i18n.t('explore.searchShort', { names: profile.ontology.entity_types.slice(0, 2).map((t) => t.name).join(joiner) })
+    const names = profile.ontology.entity_types.slice(0, 4).map((t) => t.name).join(joiner)
+    const example = profile.examples?.search ? i18n.t('explore.searchExample', { q: profile.examples.search }) : ''
+    return i18n.t('explore.search', { names, example })
   }, [profile, mobile])
   const [data, setData] = useState<GraphData>({ nodes: [], edges: [] })
   // 探索中心（搜索锚点）：画布上放大高亮的节点
@@ -456,7 +460,7 @@ export default function ExploreGraphPage() {
       // 相机飞行交给画布：中心节点刚进场还没有坐标，画布会等它算出来再飞
       return next
     } catch {
-      message.error('展开实体图谱失败')
+      message.error(i18n.t('explore.expandFail'))
       return null
     } finally {
       setLoading(false)
@@ -471,7 +475,7 @@ export default function ExploreGraphPage() {
         setData(res.data || { nodes: [], edges: [] })
         setBooted(true)
       })
-      .catch(() => message.error('加载关系图谱失败'))
+      .catch(() => message.error(i18n.t('explore.loadFail')))
       .finally(() => setLoading(false))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
@@ -479,7 +483,7 @@ export default function ExploreGraphPage() {
   // ---------------- 右键展开邻域（无限生长） ----------------
   const expandNode = useCallback(async (nodeId: string, silent = false) => {
     if (data.nodes.length >= MAX_NODES) {
-      if (!silent) message.warning(`画布节点已达 ${MAX_NODES}，请通过搜索或快速定位换一个实体探索`)
+      if (!silent) message.warning(i18n.t('explore.maxNodes', { max: MAX_NODES }))
       return
     }
     try {
@@ -487,7 +491,7 @@ export default function ExploreGraphPage() {
       const patch: GraphData = (res as { data?: GraphData }).data
         || { nodes: [], edges: [] }
       if (!patch.nodes?.length) {
-        if (!silent) message.info('该实体没有更多可展开的邻居')
+        if (!silent) message.info(i18n.t('explore.noMore'))
         return
       }
       setData((current) => {
@@ -503,7 +507,7 @@ export default function ExploreGraphPage() {
         return { nodes: [...nodeMap.values()], edges: [...edgeMap.values()] }
       })
     } catch {
-      if (!silent) message.error('展开邻域失败')
+      if (!silent) message.error(i18n.t('explore.expandNeighborFail'))
     }
   }, [data.nodes.length])
 
@@ -682,6 +686,10 @@ export default function ExploreGraphPage() {
     locateEntity(entityId)
   }, [mode, locateEntity])
 
+  const openCitation = useCallback((citation: Citation, all: Citation[]) => {
+    setEvidenceTarget(citationTarget(citation, all))
+  }, [])
+
   const focusNode = focusId ? data.nodes.find((n) => n.id === focusId) : null
   const selectedMedia = selected ? media[selected.id] : undefined
   const selectedEpisodes = useMemo(
@@ -712,7 +720,7 @@ export default function ExploreGraphPage() {
             onPick={handleFlowPick}
           />
         ) : (
-          <Suspense fallback={<div className="inf-boot">正在初始化 3D 引擎…</div>}>
+          <Suspense fallback={<div className="inf-boot">{i18n.t('explore.booting')}</div>}>
             <Graph3DCanvas
               data={data}
               centerId={centerId}
@@ -735,16 +743,16 @@ export default function ExploreGraphPage() {
           </Suspense>
         )}
         {mode === 'timeline' && (
-          <div className="inf-scene-badge">◫ 已切换至 2D 时序场景 · 横轴为时间</div>
+          <div className="inf-scene-badge">{i18n.t('explore.badgeTimeline')}</div>
         )}
         {mode === 'flow' && (
-          <div className="inf-scene-badge">⤳ 已切换至流转视图 · 带子粗细为事实条数</div>
+          <div className="inf-scene-badge">{i18n.t('explore.badgeFlow')}</div>
         )}
-        {loading && <div className="inf-boot">正在加载图谱…</div>}
+        {loading && <div className="inf-boot">{i18n.t('explore.loadingGraph')}</div>}
         {!loading && !booted && data.nodes.length === 0 && (
           <div className="inf-welcome">
-            <h1>关系<b>探索</b></h1>
-            <p className="inf-tagline">搜一个人物或概念，看清它和谁、和什么有关</p>
+            <h1>{i18n.t('explore.welcome')}{i18n.t('explore.welcomeEm') ? <b>{i18n.t('explore.welcomeEm')}</b> : null}</h1>
+            <p className="inf-tagline">{i18n.t('explore.welcomeTag')}</p>
           </div>
         )}
       </div>
@@ -758,7 +766,7 @@ export default function ExploreGraphPage() {
             onChange={(e) => setKeyword(e.target.value)}
             onKeyDown={(e) => { if (e.key === 'Enter') submitSearch() }}
             placeholder={searchHint}
-            aria-label="搜索条目"
+            aria-label={i18n.t('explore.searchAria')}
             enterKeyHint="search"
             autoComplete="off"
           />
@@ -768,13 +776,13 @@ export default function ExploreGraphPage() {
             onClick={submitSearch}
             disabled={!keyword.trim()}
           >
-            探索
+            {i18n.t('explore.go')}
           </button>
         </div>
         {/* 搜索下拉（Infiniti 的 search-drop） */}
         {(searching || searchItems.length > 0) && (
           <div className="inf-search-drop">
-            {searching && <div className="inf-drop-status">搜索中…</div>}
+            {searching && <div className="inf-drop-status">{i18n.t('explore.searching')}</div>}
             {!searching && searchItems.map((item) => (
               <div
                 key={item.entity_id}
@@ -785,7 +793,7 @@ export default function ExploreGraphPage() {
                   <div className="inf-drop-name">{item.canonical_name}</div>
                   <div className="inf-drop-sub">
                     {item.title && item.title !== item.canonical_name ? `${item.title} · ` : ''}
-                    {nodeLabel(item.entity_type)} · 事实 {item.claim_count}
+                    {nodeLabel(item.entity_type)} · {i18n.t('explore.factCount', { count: item.claim_count })}
                   </div>
                 </div>
               </div>
@@ -802,15 +810,15 @@ export default function ExploreGraphPage() {
             size="small"
             value={mode}
             onChange={(value) => setMode(value as ExploreMode)}
-            options={MODE_OPTIONS}
+            options={modeOptions()}
           />
         </div>
       )}
 
       {focusNode && (
         <div className="inf-focus-bar">
-          <span><AimOutlined /> 聚焦 <b>{focusNode.name}</b> · 只显示其关系网络</span>
-          <button type="button" onClick={() => setFocusId(null)}>退出</button>
+          <span><AimOutlined /> {i18n.t('explore.focusBar')} <b>{focusNode.name}</b> {i18n.t('explore.focusOnly')}</span>
+          <button type="button" onClick={() => setFocusId(null)}>{i18n.t('explore.exit')}</button>
         </div>
       )}
 
@@ -830,7 +838,7 @@ export default function ExploreGraphPage() {
               <div className="ep-chips">
                 {selectedEpisodes.slice(0, 8).map((ep) => (
                   <button type="button" key={ep.ep} className="ep-chip" onClick={() => setVideo(episodeTarget(videoCatalog, ep))}>
-                    第{ep.ep}集 {ep.title}
+                    {i18n.t('video.episode', { ep: ep.ep, title: ep.title })}
                   </button>
                 ))}
               </div>
@@ -844,6 +852,8 @@ export default function ExploreGraphPage() {
           }}
           onOpenRelation={handleLinkClick}
           onOpenSource={(recordId) => setEvidenceTarget({ recordId })}
+          onCite={openCitation}
+          onLocate={locateEntity}
         />
       )}
 
@@ -860,9 +870,13 @@ export default function ExploreGraphPage() {
             >
               {nodeLabel(selected.label)}
             </span>
-            <button type="button" className="inf-nc-close" onClick={() => setSelected(null)} aria-label="关闭"><CloseOutlined /></button>
+            <button type="button" className="inf-nc-close" onClick={() => setSelected(null)} aria-label={i18n.t('common.close')}><CloseOutlined /></button>
           </div>
           <div className="inf-nc-body">
+            <div className="inf-nc-note">
+              <div className="inf-nc-sec-title">{i18n.t('explore.tabNote')}</div>
+              <EntityNote entityId={selected.id} compact onCite={openCitation} />
+            </div>
             {selectedMedia?.thumb_url && <NodeGallery name={selected.name} media={selectedMedia} />}
             {selectedEpisodes.length > 0 && videoCatalog?.source && (
               <div className="inf-nc-videos">
@@ -874,12 +888,12 @@ export default function ExploreGraphPage() {
                       key={ep.ep}
                       className="ep-chip"
                       onClick={() => setVideo(episodeTarget(videoCatalog, ep))}
-                      title={`对应原著第 ${ep.chapters.join('、')} ${activeProfile().unit.name}`}
+                      title={i18n.t('explore.episode', { chapters: ep.chapters.join(i18n.language.startsWith('en') ? ', ' : '、'), unit: activeProfile().unit.name })}
                     >
-                      第{ep.ep}集 {ep.title}
+                      {i18n.t('video.episode', { ep: ep.ep, title: ep.title })}
                     </button>
                   ))}
-                  {selectedEpisodes.length > 6 && <span className="inf-nc-more">另 {selectedEpisodes.length - 6} 集</span>}
+                  {selectedEpisodes.length > 6 && <span className="inf-nc-more">{i18n.t('explore.moreEpisodes', { count: selectedEpisodes.length - 6 })}</span>}
                 </div>
               </div>
             )}
@@ -901,7 +915,7 @@ export default function ExploreGraphPage() {
                     key={edge.id || index}
                     className="inf-nc-rel"
                     onClick={() => handleLinkClick(edge)}
-                    title={edge.claim_ids?.length ? `查看支撑该关系的 ${edge.claim_ids.length} 条事实` : undefined}
+                    title={edge.claim_ids?.length ? i18n.t('explore.viewFacts', { count: edge.claim_ids.length }) : undefined}
                     style={edge.claim_ids?.length ? { cursor: 'pointer' } : undefined}
                   >
                     <span className="inf-nc-rel-type">{relationOf(edge)}</span>
@@ -909,15 +923,16 @@ export default function ExploreGraphPage() {
                   </div>
                 ))
               ) : (
-                <div className="inf-nc-empty">暂无直接关系</div>
+                <div className="inf-nc-empty">{i18n.t('explore.noDirect')}</div>
               )}
             </div>
+            <RelatedEntities entityId={selected.id} onLocate={locateEntity} />
             {/* 出现的单元（下钻入口）：点击打开该单元原文，证据高亮 */}
             <div className="inf-nc-sources">
-              <div className="inf-nc-sec-title">出现的{axisName}</div>
-              {sourcesLoading && <div className="inf-nc-empty">加载中…</div>}
+              <div className="inf-nc-sec-title">{i18n.t('explore.appearedIn', { axis: axisName })}</div>
+              {sourcesLoading && <div className="inf-nc-empty">{i18n.t('explore.loading')}</div>}
               {!sourcesLoading && entitySources.length === 0 && (
-                <div className="inf-nc-empty">暂无出场记录</div>
+                <div className="inf-nc-empty">{i18n.t('explore.noAppearances')}</div>
               )}
               {!sourcesLoading && entitySources.map((src) => (
                 <div
@@ -928,7 +943,7 @@ export default function ExploreGraphPage() {
                 >
                   <span className="inf-nc-source-title">{src.title || src.record_id}</span>
                   <span className="inf-nc-source-meta">
-                    {src.mention_count} 次提及{src.claim_count ? ` · ${src.claim_count} 条事实` : ''}
+                    {i18n.t('explore.mentions', { count: src.mention_count })}{src.claim_count ? i18n.t('explore.factsJoin', { count: src.claim_count }) : ''}
                   </span>
                 </div>
               ))}
@@ -942,7 +957,7 @@ export default function ExploreGraphPage() {
               icon={<AimOutlined />}
               onClick={() => focusOn(selected.id)}
             >
-              {focusId === selected.id ? '退出聚焦' : '聚焦关系网络（F）'}
+              {focusId === selected.id ? i18n.t('explore.exitFocus') : i18n.t('explore.focus')}
             </Button>
           </div>
         </div>
@@ -974,9 +989,9 @@ export default function ExploreGraphPage() {
 
       {/* 左下图例（Infiniti 的 legend-tip）：类型 + 谓词开关 */}
       <div className="inf-legend-tip">
-        <button type="button" className="inf-lt-btn"><FilterOutlined /> 图例 · 过滤</button>
+        <button type="button" className="inf-lt-btn"><FilterOutlined /> {i18n.t('explore.legend')}</button>
         <div className="inf-lt-body">
-          <h5>实体类型</h5>
+          <h5>{i18n.t('explore.entityTypes')}</h5>
           <div className="inf-lg-grid">
             {presentTypes.map((label) => (
               <span
@@ -989,7 +1004,7 @@ export default function ExploreGraphPage() {
               </span>
             ))}
           </div>
-          <h5>关系谓词</h5>
+          <h5>{i18n.t('explore.predicates')}</h5>
           <div className="inf-lg-grid">
             {presentPredicates.map((code) => (
               <span
@@ -1003,28 +1018,28 @@ export default function ExploreGraphPage() {
           </div>
           {timeDim && mode !== 'timeline' && mode !== 'flow' && (
             <div className="inf-lg-time">
-              <h5>{axisName}轴</h5>
+              <h5>{i18n.t('explore.axisTitle', { axis: axisName })}</h5>
               <div className="inf-lg-grid">
                 <span
                   className={`inf-lg-switch ${showTimeAxis ? 'on' : ''}`}
                   onClick={toggleTimeAxis}
-                  title={`在左侧显示${axisName}范围滑块`}
+                  title={i18n.t('explore.showAxis', { axis: axisName })}
                 >
                   <span className="inf-lg-check" />
-                  显示{axisName}轴
+                  {i18n.t('explore.showAxisShort', { axis: axisName })}
                 </span>
                 <span
                   className={`inf-lg-switch ${timeLayer ? 'on' : ''}`}
                   onClick={() => setTimeLayer((prev) => !prev)}
-                  title={`按首次出现的${axisName}把实体拉开成层`}
+                  title={i18n.t('explore.layerBy', { axis: axisName })}
                 >
                   <span className="inf-lg-check" />
-                  ⋔ 分层
+                  {i18n.t('explore.layers')}
                 </span>
               </div>
               {showTimeAxis && (
                 <div className="inf-lg-time-range">
-                  {unitRange(yearLo, yearHi)} · 跨 {yearHi - yearLo + 1} {profile.unit.name}
+                  {unitRange(yearLo, yearHi)} · {i18n.t('explore.spanCount', { count: yearHi - yearLo + 1, unit: profile.unit.name })}
                 </div>
               )}
             </div>
@@ -1046,24 +1061,24 @@ export default function ExploreGraphPage() {
               type="button"
               className={`inf-ta-layer-btn ${timeLayer ? 'on' : ''}`}
               onClick={() => setTimeLayer((prev) => !prev)}
-              title={`按首次出现的${axisName}把实体拉开成层（映射区间跟随下方时间轴）`}
+              title={i18n.t('explore.layerByFollow', { axis: axisName })}
             >
-              ⋔ 分层
+              {i18n.t('explore.layers')}
             </button>
             <button
               type="button"
               className="inf-ta-reset"
               onClick={() => { setYearLo(timeDim.lo); setYearHi(timeDim.hi) }}
-              title={`恢复到全部${axisName}`}
+              title={i18n.t('explore.restoreAxis', { axis: axisName })}
             >
-              重置
+              {i18n.t('explore.resetShort')}
             </button>
             <button
               type="button"
               className="inf-ta-reset inf-ta-close"
               onClick={toggleTimeAxis}
-              title="收起到图例"
-              aria-label="收起到图例"
+              title={i18n.t('explore.collapseLegend')}
+              aria-label={i18n.t('explore.collapseLegend')}
             >
               <CloseOutlined />
             </button>
@@ -1102,7 +1117,7 @@ export default function ExploreGraphPage() {
           {/* 底部读数：当前区间 + 跨度，拖动时一眼看清筛选状态 */}
           <div className="inf-ta-readout">
             <span className="inf-ta-range">{unitRange(yearLo, yearHi)}</span>
-            <span className="inf-ta-span">跨 {yearHi - yearLo + 1} {profile.unit.name}</span>
+            <span className="inf-ta-span">{i18n.t('explore.spanCount', { count: yearHi - yearLo + 1, unit: profile.unit.name })}</span>
           </div>
         </div>
       )}
@@ -1111,7 +1126,7 @@ export default function ExploreGraphPage() {
       <div className="inf-hud">
         <div className="inf-stats">
           <span className="inf-dot-live" />
-          <span><b>{visibleCount.nodes}</b> 实体 · <b>{visibleCount.edges}</b> 关系</span>
+          <span><b>{visibleCount.nodes}</b> {i18n.t('explore.entityWord')} · <b>{visibleCount.edges}</b> {i18n.t('explore.relationWord')}</span>
         </div>
         <div className="inf-zoomer">
           {/* zoomToFit：平滑飞到能装下全图的视角（2D 场景没有相机，隐藏） */}
@@ -1119,16 +1134,16 @@ export default function ExploreGraphPage() {
             <>
               <button
                 type="button"
-                title="重置视图：松开钉住的节点、退出聚焦与详情，再回到全图视角"
-                aria-label="重置视图"
+                title={i18n.t('explore.resetTitle')}
+                aria-label={i18n.t('explore.reset')}
                 onClick={handleResetView}
               >
                 <ReloadOutlined />
               </button>
               <button
                 type="button"
-                title="回到全图视角"
-                aria-label="回到全图视角"
+                title={i18n.t('explore.fit')}
+                aria-label={i18n.t('explore.fit')}
                 onClick={() => canvasRef.current?.resetView()}
               >
                 <ExpandOutlined />
@@ -1152,15 +1167,15 @@ export default function ExploreGraphPage() {
             onClick: ({ key }) => setLocateLib(key as LocateLibrary),
           }}
         >
-          <Button icon={<CompassOutlined />} type={locateLib ? 'primary' : 'default'} aria-label="快速定位">
-            {mobile ? '定位' : <>快速定位 <DownOutlined style={{ fontSize: 10 }} /></>}
+          <Button icon={<CompassOutlined />} type={locateLib ? 'primary' : 'default'} aria-label={i18n.t('explore.locate')}>
+            {mobile ? i18n.t('explore.locateShort') : <>{i18n.t('explore.locate')} <DownOutlined style={{ fontSize: 10 }} /></>}
           </Button>
         </Dropdown>
         {mobile && (
           <Dropdown
             trigger={['click']}
             menu={{
-              items: MODE_OPTIONS.filter((o) => o.value !== 'clue').map((o) => ({ key: o.value, label: o.label })),
+              items: modeOptions().filter((o) => o.value !== 'clue').map((o) => ({ key: o.value, label: o.label })),
               selectedKeys: [mode],
               onClick: ({ key }) => setMode(key as ExploreMode),
             }}
@@ -1168,9 +1183,9 @@ export default function ExploreGraphPage() {
             <Button
               icon={<NodeIndexOutlined />}
               type={mode !== 'browse' && mode !== 'clue' ? 'primary' : 'default'}
-              aria-label="分析视图"
+              aria-label={i18n.t('explore.analysis')}
             >
-              分析
+              {i18n.t('explore.analyze')}
             </Button>
           </Dropdown>
         )}
@@ -1203,29 +1218,17 @@ export default function ExploreGraphPage() {
           graph as unknown as { nodes: GraphNode[]; edges: GraphEdge[] },
         )}
         onOpenArchive={(recordId, claimId) => setEvidenceTarget({ recordId, claimId })}
+        onOpenCitation={openCitation}
         onClose={() => setMode('browse')}
       />
 
       {/* 底部提示条 */}
       <div className="inf-tipbar">
-        {mode === 'timeline' ? (
-          <>
-            播放/拖动<span>查看演进</span> · 点事件点<span>看详情</span>
-            {' · '}右侧台账<span>按{axisName}列出事实</span> · 横轴<span>为{axisName}</span>
-          </>
-        ) : mode === 'flow' ? (
-          <>
-            带子粗细<span>为事实条数</span> · 点带子或节点<span>高亮该流向</span>
-            {' · '}右侧<span>列流向明细</span> · 点实体名<span>定位过去</span>
-            {' · '}左下图例<span>可过滤类型与关系</span>
-          </>
-        ) : (
-          <>
-            单击<span>看详情</span> · 右键<span>展开邻域</span> · 点关系线<span>看事实依据</span>
-            {' · '}拖动节点<span>钉住位置</span>
-            {' · '}拖动背景<span>旋转</span> · 滚轮<span>缩放</span> · <span>F</span> 聚焦
-          </>
-        )}
+        {mode === 'timeline'
+          ? i18n.t('explore.tipTimeline', { axis: axisName })
+          : mode === 'flow'
+            ? i18n.t('explore.tipFlow')
+            : i18n.t('explore.tipBrowse')}
       </div>
     </div>
   )

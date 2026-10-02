@@ -13,6 +13,21 @@
       (function () {
         var t = localStorage.getItem('infiniti-theme') || 'light';
         document.documentElement.setAttribute('data-theme', t);
+        var path = location.pathname;
+        var onEn = path === '/en' || path.indexOf('/en/') === 0;
+        var stored = localStorage.getItem('infiniti-locale');
+        var bareHome = path === '/' || path === '';
+        var enHome = path === '/en' || path === '/en/';
+        if (bareHome && (stored === 'en' || (!stored && /^en/i.test(navigator.language || '')))) {
+          location.replace('/en' + location.search + location.hash);
+          return;
+        }
+        if (enHome && stored === 'zh-CN') {
+          location.replace('/' + location.search + location.hash);
+          return;
+        }
+        document.documentElement.lang = onEn ? 'en' : 'zh-CN';
+        if (onEn) document.title = 'Infiniti · A relational study guide';
       })();
     </script>
   </head>

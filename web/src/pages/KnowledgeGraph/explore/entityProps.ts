@@ -6,41 +6,19 @@
  * 未收录的键原样显示（宁缺勿错，不猜翻译）。
  */
 import { activeProfile, unitLabel } from '@/graph/profile'
-
-const BASE_LABELS: Record<string, string> = {
-  entity_id: '实体标识',
-  entity_type: '实体类型',
-  canonical_name: '规范名',
-  normalized_name: '归一名',
-  aliases: '别称',
-  nickname: '别号',
-  star: '星号',
-  rank: '座次',
-  role: '身份',
-  description: '简介',
-  identity_hint: '身份提示',
-  title: '身份',
-  claim_count: '关系事实数',
-  mention_count: '原文提及',
-  chapter_count: '出场次数',
-  first_chapter: '首次出现',
-  last_chapter: '最后出现',
-  degree: '直接关系数',
-  hub_score: '枢纽分',
-  community_span: '跨社区数',
-}
+import i18n from '@/i18n'
 
 export function propLabel(key: string): string {
   const custom = activeProfile().props.find((p) => p.key === key)?.label
   if (custom) return custom
-  if (key === 'chapter_count') return `出现${activeProfile().unit.name}数`
-  return BASE_LABELS[key] || key
+  if (key === 'chapter_count') return i18n.t('prop.chapterCount', { unit: activeProfile().unit.name })
+  return i18n.exists(`prop.${key}`) ? i18n.t(`prop.${key}`) : key
 }
 
 export function formatPropValue(value: unknown, maxLen = 60, key?: string): string {
   if (value == null) return ''
   if (key === 'first_chapter' || key === 'last_chapter') return unitLabel(Number(value))
-  if (key === 'rank') return `第${value}位`
+  if (key === 'rank') return i18n.t('prop.rankValue', { n: value })
   if (Array.isArray(value)) return value.slice(0, 5).join('、')
   if (typeof value === 'number' && !Number.isInteger(value)) return value.toFixed(3)
   const text = String(value)

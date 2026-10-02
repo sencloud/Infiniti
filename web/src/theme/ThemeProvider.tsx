@@ -1,6 +1,9 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { App as AntApp, ConfigProvider, theme as antTheme } from 'antd'
 import zhCN from 'antd/locale/zh_CN'
+import enUS from 'antd/locale/en_US'
+import i18n from '@/i18n'
+import { isEnglish, switchLocale } from '@/i18n/locale'
 import { currentTheme, palette, type ThemeName } from './palette'
 
 const STORAGE_KEY = 'infiniti-theme'
@@ -52,7 +55,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   return (
     <Ctx.Provider value={value}>
-      <ConfigProvider locale={zhCN} theme={antdTheme}>
+      <ConfigProvider locale={isEnglish(i18n.language) ? enUS : zhCN} theme={antdTheme}>
         <AntApp>{children}</AntApp>
       </ConfigProvider>
     </Ctx.Provider>
@@ -62,7 +65,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 export function ThemeToggle() {
   const { theme, toggle } = useTheme()
   return (
-    <button type="button" className="icon-btn" onClick={toggle} title={theme === 'dark' ? '切换到明亮' : '切换到暗色'} aria-label="切换主题">
+    <button type="button" className="icon-btn" onClick={toggle} title={theme === 'dark' ? i18n.t('theme.toLight') : i18n.t('theme.toDark')} aria-label={i18n.t('theme.toggle')}>
       {theme === 'dark' ? (
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
           <circle cx="12" cy="12" r="4" />
@@ -73,6 +76,22 @@ export function ThemeToggle() {
           <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" />
         </svg>
       )}
+    </button>
+  )
+}
+
+export function LocaleToggle() {
+  const en = isEnglish(i18n.language)
+  return (
+    <button
+      type="button"
+      className="locale-btn"
+      onClick={() => switchLocale(en ? 'zh-CN' : 'en')}
+      aria-label={i18n.t('locale.switch')}
+    >
+      <span className={en ? '' : 'on'}>中</span>
+      <span aria-hidden="true">/</span>
+      <span className={en ? 'on' : ''}>EN</span>
     </button>
   )
 }

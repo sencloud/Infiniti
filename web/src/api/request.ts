@@ -1,6 +1,8 @@
 import axios, { type AxiosInstance, type AxiosResponse } from 'axios';
 import { message } from 'antd';
 import { activeGraphId } from '@/graph/profile';
+import i18n from '@/i18n';
+import { localeFromPath } from '@/i18n/locale';
 
 declare module 'axios' {
   // 响应拦截器把后端统一响应解包成 { success, data, message } 后才交给调用方
@@ -10,6 +12,14 @@ declare module 'axios' {
     code?: number;
     detail?: unknown;
   }
+}
+
+function apiErrorText(data?: { code?: string; message?: string; params?: Record<string, unknown> }, status?: number): string {
+  const code = data?.code;
+  if (code && i18n.exists(`error.${code}`)) return i18n.t(`error.${code}`, data?.params || {});
+  if (data?.message) return data.message;
+  if (status) return i18n.t('error.request_failed_status', { status });
+  return i18n.t('error.request_failed');
 }
 
 const request: AxiosInstance = axios.create({
@@ -22,6 +32,7 @@ const request: AxiosInstance = axios.create({
 request.interceptors.request.use((config) => {
   const graph = activeGraphId();
   if (graph) config.params = { graph, ...(config.params || {}) };
+  config.headers.set('Accept-Language', localeFromPath() === 'en' ? 'en' : 'zh-CN');
   return config;
 });
 
@@ -32,7 +43,7 @@ request.interceptors.response.use(
     if (data?.success === true) {
       return { success: true, data: data.data, message: data.message };
     }
-    return Promise.reject(new Error(data?.message || '请求失败'));
+    return Promise.reject(new Error(apiErrorText(data) || i18n.t('error.request_failed')));
   },
   async (error) => {
     if (error.response) {
@@ -46,10 +57,11 @@ request.interceptors.response.use(
           data = {};
         }
       }
-      if (data?.message) error.message = data.message;
-      message.error(data?.message || `请求失败 (${status})`);
+      const text = apiErrorText(data, status);
+      error.message = text;
+      message.error(text);
     } else if (error.request) {
-      message.error('网络错误，请确认 Infiniti 服务已启动');
+      message.error(i18n.t('error.network'));
     }
     return Promise.reject(error);
   },

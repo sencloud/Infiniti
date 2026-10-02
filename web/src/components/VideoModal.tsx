@@ -7,6 +7,7 @@ import { Modal } from 'antd'
 import { activeGraphId } from '@/graph/profile'
 import { getVideoCatalog, type VideoCatalog, type VideoEpisode } from '@/api/knowledge-graph'
 import { useIsMobile } from '@/hooks/useIsMobile'
+import i18n from '@/i18n'
 import './videoModal.css'
 
 export interface VideoTarget {
@@ -41,7 +42,7 @@ export function episodesForChapters(catalog: VideoCatalog | null, chapters: numb
 }
 
 export function episodeTarget(catalog: VideoCatalog, ep: VideoEpisode): VideoTarget {
-  return { bvid: catalog.source!.bvid, page: ep.page, title: `第${ep.ep}集 ${ep.title}` }
+  return { bvid: catalog.source!.bvid, page: ep.page, title: i18n.t('video.episode', { ep: ep.ep, title: ep.title }) }
 }
 
 export default function VideoModal({ target, sourceTitle, onClose }: {
@@ -78,7 +79,7 @@ export default function VideoModal({ target, sourceTitle, onClose }: {
           </div>
           <div className="vm-foot">
             视频由 B 站外链播放，版权归原权利人
-            <a href={`https://www.bilibili.com/video/${target.bvid}?p=${target.page}`} target="_blank" rel="noreferrer">去 B 站观看</a>
+            <a href={`https://www.bilibili.com/video/${target.bvid}?p=${target.page}`} target="_blank" rel="noreferrer">{i18n.t('video.open')}</a>
           </div>
         </>
       )}

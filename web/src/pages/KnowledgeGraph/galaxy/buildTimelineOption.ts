@@ -9,6 +9,7 @@
 import type { GalaxyTimelineCell } from '../../../api/kg-explore'
 import { activeProfile, terms, unitLabel } from '@/graph/profile'
 import { palette } from '@/theme/palette'
+import i18n from '@/i18n'
 import { clusterColor } from './buildGalaxyOption'
 
 function frame(units: number[]) {
@@ -116,7 +117,7 @@ export function buildTimelineOption(
   }))
   if (rest.length) {
     series.push({
-      name: `其他${clusterTerm}`,
+      name: i18n.t('galaxy.otherCluster', { cluster: clusterTerm }),
       type: 'line',
       stack: 'total',
       areaStyle: { opacity: 0.3 },

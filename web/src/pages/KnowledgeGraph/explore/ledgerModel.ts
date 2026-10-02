@@ -15,6 +15,7 @@
  */
 import type { TimelineEntry } from '@/api/kg-analysis'
 import { activeProfile, unitFull } from '@/graph/profile'
+import i18n from '@/i18n'
 
 /** 台账行：一条事实在台账里读作什么 */
 export interface LedgerRow {
@@ -127,7 +128,7 @@ export function buildLedger({
     if (!group) {
       group = {
         key,
-        title: row.year ? unitFull(row.year) : `${activeProfile().unit.axis}不详`,
+        title: row.year ? unitFull(row.year) : i18n.t('analysis.unknownAxis', { axis: activeProfile().unit.axis }),
         events: [],
         docs: [],
       }

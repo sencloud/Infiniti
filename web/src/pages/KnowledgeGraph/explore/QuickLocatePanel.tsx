@@ -13,6 +13,7 @@ import { CloseOutlined, SearchOutlined } from '@ant-design/icons'
 
 import { searchKnowledgeGraphEntities, type EntitySearchItem } from '@/api/knowledge-graph'
 import { nodeColor } from '@/utils/graphStyle'
+import i18n from '@/i18n'
 import { locateLibraries, type LocateLibrary } from './locateLibraries'
 
 const PAGE_SIZE = 30
@@ -81,8 +82,8 @@ export default function QuickLocatePanel({
     <div className="inf-locate-panel">
       <div className="inf-lp-head">
         <span className="inf-lp-dot" style={{ background: color }} />
-        <h3>快速定位 · {current?.label}</h3>
-        <button type="button" className="inf-nc-close" onClick={onClose} title="关闭" aria-label="关闭"><CloseOutlined /></button>
+        <h3>{i18n.t('explore.locateHead', { label: current?.label || '' })}</h3>
+        <button type="button" className="inf-nc-close" onClick={onClose} title={i18n.t('common.close')} aria-label={i18n.t('common.close')}><CloseOutlined /></button>
       </div>
 
       {/* 库切换：与顶部下拉同源，面板内也能直接换库 */}
@@ -107,7 +108,7 @@ export default function QuickLocatePanel({
           allowClear
           size="small"
           prefix={<SearchOutlined style={{ color: 'var(--kg-text-faint)' }} />}
-          placeholder={`在${current?.label || ''}中筛选…`}
+          placeholder={i18n.t('explore.filterIn', { label: current?.label || '' })}
           value={keyword}
           onChange={(e) => setKeyword(e.target.value)}
         />
@@ -122,7 +123,7 @@ export default function QuickLocatePanel({
           const isPerson = item.entity_type === 'Person'
           const detailLines = isPerson
             ? [item.title, orgs.slice(0, 2).join('、')].filter(Boolean)
-            : (aliases.length ? [`又名 ${aliases.slice(0, 2).join('、')}`] : [])
+            : (aliases.length ? [i18n.t('explore.aliases', { names: aliases.slice(0, 2).join(i18n.language.startsWith('en') ? ', ' : '、') })] : [])
           return (
             <div
               key={item.entity_id}
@@ -133,7 +134,7 @@ export default function QuickLocatePanel({
             >
               <div className="inf-lp-item-head">
                 <span className="inf-lp-item-name">{item.canonical_name}</span>
-                <span className="inf-lp-item-count">关系 {item.claim_count}</span>
+                <span className="inf-lp-item-count">{i18n.t('explore.relCount', { count: item.claim_count })}</span>
               </div>
               {detailLines.length > 0 && (
                 <div className="inf-lp-item-detail">
@@ -151,7 +152,7 @@ export default function QuickLocatePanel({
         })}
         {!loading && items.length === 0 && (
           <div className="inf-nc-empty" style={{ padding: '18px 0', textAlign: 'center' }}>
-            {keyword.trim() ? '没有匹配的实体' : '该库暂无实体'}
+            {keyword.trim() ? i18n.t('explore.noMatch') : i18n.t('explore.emptyLib')}
           </div>
         )}
         {loading && (
@@ -159,12 +160,12 @@ export default function QuickLocatePanel({
         )}
         {!loading && hasMore && (
           <button type="button" className="inf-lp-more" onClick={loadMore}>
-            加载更多（{items.length} / {total}）
+            {i18n.t('explore.loadMore', { shown: items.length, total })}
           </button>
         )}
       </div>
 
-      <div className="inf-lp-foot">共 {total} 个实体 · 点选即以其为中心展开关系</div>
+      <div className="inf-lp-foot">{i18n.t('explore.locateFoot', { total })}</div>
     </div>
   )
 }
