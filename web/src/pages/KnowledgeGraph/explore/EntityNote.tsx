@@ -1,6 +1,6 @@
 /**
- * 条目解说：读存好的解说，没有就由学习者点一下现写。正文里的 [n] 点开原文。
- * compact 用在桌面详情卡里：默认只露一句话总结，展开再看分段。
+ * 条目解说：读存好的解说。没有的话后台会补写，打开着就会自己出现；也可以立刻写。
+ * 正文里的 [n] 点开原文。compact 用在桌面详情卡里：默认只露一句话总结，展开再看分段。
  */
 import { useEffect, useState } from 'react'
 import { Button } from 'antd'
@@ -35,6 +35,17 @@ export default function EntityNote({ entityId, compact = false, onCite }: Props)
       .finally(() => { if (alive) setLoadedFor(entityId) })
     return () => { alive = false }
   }, [entityId])
+
+  // 后台正在补写时，开着这个条目就隔一会儿再看一眼，写好了直接换上
+  useEffect(() => {
+    if (loadedFor !== entityId || state?.note || writing) return undefined
+    const timer = setInterval(() => {
+      getEntityNote(entityId)
+        .then((res) => { if (res.note) setState(res) })
+        .catch(() => {})
+    }, 12000)
+    return () => clearInterval(timer)
+  }, [entityId, loadedFor, state?.note, writing])
 
   // 换条目时清掉上一条的状态（不在 effect 里同步 setState，避免多一次渲染）
   const [shownFor, setShownFor] = useState(entityId)

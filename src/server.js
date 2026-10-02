@@ -9,6 +9,7 @@ import { verifyConnection, initSchema } from './db.js';
 import router from './routes.js';
 import kgRouter from './kg/routes.js';
 import { hasGraph } from './kg/domains/index.js';
+import { startNoteFill } from './kg/noteFill.js';
 
 const app = express();
 const SPA_DIR = 'public/app';
@@ -52,4 +53,5 @@ await verifyConnection();
 await initSchema();
 app.listen(config.port, () => {
   console.log(`[web] 无限连接已启动: http://localhost:${config.port}`);
+  startNoteFill();
 });

@@ -16,7 +16,7 @@ const noteFile = (entityId, locale) => {
   return graphFile(currentGraphId(), 'notes', `${entityId}.${locale === 'en' ? 'en' : 'zh'}.json`);
 };
 
-function basisHash(ids) {
+export function basisHash(ids) {
   return crypto.createHash('sha1').update([...ids].sort().join('|')).digest('hex').slice(0, 16);
 }
 
