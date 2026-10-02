@@ -267,3 +267,8 @@ CRAWL_DELAY_MS=2000                # 抓取限速（对源友好）
 - **抽取**：DeepSeek（OpenAI 兼容接口）
 - **抓取**：Playwright 无头浏览器（多源降级）
 - **前端**：Three.js r160（手写力导向，无图库依赖）
+
+## 其他
+
+如果你喜欢我的项目，可以给我买杯咖啡：
+<img src="https://github.com/user-attachments/assets/e75ef971-ff56-41e5-88b9-317595d22f81" alt="image" width="300" height="300">
