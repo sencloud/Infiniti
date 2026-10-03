@@ -1,0 +1,552 @@
+{
+ "no": 12,
+ "title": "A public Place",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7231,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，与朱丽叶相爱"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家族之女，与罗密欧相爱"
+    },
+    {
+     "name": "Lord Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague",
+      "Old Montague"
+     ],
+     "nickname": "蒙太古",
+     "description": "蒙太古家族族长，罗密欧之父"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，朱丽叶之父"
+    },
+    {
+     "name": "Benvolio Montague",
+     "type": "Person",
+     "aliases": [
+      "Benvolio",
+      "Montague's nephew"
+     ],
+     "nickname": "班伏里奥",
+     "description": "蒙太古的侄子，罗密欧的朋友"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，性情暴烈"
+    },
+    {
+     "name": "Escalus",
+     "type": "Person",
+     "aliases": [
+      "Prince",
+      "the Prince"
+     ],
+     "nickname": "亲王",
+     "description": "维罗纳亲王，禁止街道斗殴"
+    },
+    {
+     "name": "Mercutio",
+     "type": "Person",
+     "aliases": [
+      "the Prince's kinsman"
+     ],
+     "nickname": "茂丘西奥",
+     "description": "亲王的亲戚，罗密欧的朋友"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凯普莱特夫人",
+     "description": "凯普莱特之妻，提伯尔特的姑母"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇"
+    },
+    {
+     "name": "Verona",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "维罗纳",
+     "description": "故事发生的城市"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Capulet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mercutio",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "the Prince's kinsman",
+     "confidence": 0.5
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "A plague o’ both your houses.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KIN",
+     "object": "Lord Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "KIN",
+     "object": "Lord Montague",
+     "evidence": "Montague's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mercutio",
+     "predicate": "KIN",
+     "object": "Escalus",
+     "evidence": "the Prince's near ally",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Mercutio",
+     "evidence": "My very friend",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Benvolio Montague",
+     "evidence": "Draw, Benvolio; beat down their weapons.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mercutio",
+     "predicate": "FRIEND",
+     "object": "Benvolio Montague",
+     "evidence": "I pray thee, good Mercutio, let’s retire",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "QUARRELED",
+     "object": "Mercutio",
+     "evidence": "Mercutio, thou consortest with Romeo.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "QUARRELED",
+     "object": "Romeo Montague",
+     "evidence": "Romeo, the love I bear thee can afford No better term than this: Thou art a villain.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "FOUGHT",
+     "object": "Mercutio",
+     "evidence": "[They fight.]",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KILLED",
+     "object": "Mercutio",
+     "evidence": "brave Mercutio’s dead",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FOUGHT",
+     "object": "Tybalt Capulet",
+     "evidence": "[They fight; Tybalt falls.]",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "slain by young Romeo",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "O sweet Juliet, Thy beauty hath made me effeminate",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Verona",
+     "evidence": "the Prince expressly hath Forbid this bandying in Verona streets",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "VISITED",
+     "object": "Verona",
+     "evidence": "the Prince expressly hath Forbid this bandying in Verona streets",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mercutio",
+     "predicate": "VISITED",
+     "object": "Verona",
+     "evidence": "the Prince expressly hath Forbid this bandying in Verona streets",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "VISITED",
+     "object": "Verona",
+     "evidence": "the Prince expressly hath Forbid this bandying in Verona streets",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2073,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古之子，因杀死提伯尔特被放逐"
+    },
+    {
+     "name": "Lord Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague",
+      "Old Montague"
+     ],
+     "nickname": "蒙太古",
+     "description": "蒙太古家族族长，罗密欧之父"
+    },
+    {
+     "name": "Benvolio Montague",
+     "type": "Person",
+     "aliases": [
+      "Benvolio",
+      "Montague's nephew"
+     ],
+     "nickname": "班伏里奥",
+     "description": "蒙太古的侄子，罗密欧的朋友"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，被罗密欧杀死"
+    },
+    {
+     "name": "Escalus",
+     "type": "Person",
+     "aliases": [
+      "Prince",
+      "the Prince"
+     ],
+     "nickname": "亲王",
+     "description": "维罗纳亲王，放逐罗密欧"
+    },
+    {
+     "name": "Mercutio",
+     "type": "Person",
+     "aliases": [
+      "the Prince's kinsman"
+     ],
+     "nickname": "茂丘西奥",
+     "description": "亲王的亲戚，被提伯尔特杀死"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凯普莱特夫人",
+     "description": "凯普莱特家族主母，提伯尔特的姑母"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族有世仇的家族"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族有世仇的家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "Tybalt, here slain, whom Romeo’s hand did slay",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KILLED",
+     "object": "Mercutio",
+     "evidence": "An envious thrust from Tybalt hit the life Of stout Mercutio",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "He is a kinsman to the Montague",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mercutio",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "he was Mercutio’s friend",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's nephew",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "MONTAGUE. Not Romeo, Prince, he was Mercutio’s friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "LADY CAPULET. He is a kinsman to the Montague.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "My blood for your rude brawls doth lie a-bleeding",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Mercutio",
+     "evidence": "he was Mercutio’s friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Benvolio Montague",
+     "evidence": "BENVOLIO. Tybalt, here slain, whom Romeo’s hand did slay",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Escalus",
+     "predicate": "KIN",
+     "object": "Mercutio",
+     "evidence": "My blood for your rude brawls doth lie a-bleeding",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Escalus",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "I have an interest in your hate’s proceeding",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Escalus",
+     "predicate": "KIN",
+     "object": "Lord Montague",
+     "evidence": "I have an interest in your hate’s proceeding",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "KIN",
+     "object": "Lord Montague",
+     "evidence": "Montague's nephew",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KIN",
+     "object": "Lord Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "Romeo slew Tybalt, Romeo must not live.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KILLED",
+     "object": "Mercutio",
+     "evidence": "Romeo slew him, he slew Mercutio.",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:05.529Z"
+}

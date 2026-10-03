@@ -1,0 +1,240 @@
+{
+ "no": 1,
+ "title": "Down the Rabbit-Hole",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7506,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "好奇勇敢的小女孩，追白兔掉进兔子洞"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "穿背心、带怀表、会说话的白兔"
+    },
+    {
+     "name": "Dinah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "黛娜",
+     "description": "爱丽丝养的猫"
+    },
+    {
+     "name": "Alice's sister",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝的姐姐",
+     "description": "在河岸边读书，爱丽丝坐在她身旁"
+    },
+    {
+     "name": "rabbit-hole",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "兔子洞",
+     "description": "白兔钻入的洞，爱丽丝随之掉入"
+    },
+    {
+     "name": "well",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "深井",
+     "description": "兔子洞下极深的井，爱丽丝缓缓坠落"
+    },
+    {
+     "name": "long low hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "低矮长厅",
+     "description": "许多上锁的门、玻璃桌和金色小钥匙所在的大厅"
+    },
+    {
+     "name": "loveliest garden",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "美丽花园",
+     "description": "小门后通往的可爱花园，爱丽丝渴望进入"
+    },
+    {
+     "name": "jar labelled ORANGE MARMALADE",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "橘子酱罐",
+     "description": "爱丽丝坠落时从架子上拿下的空罐子"
+    },
+    {
+     "name": "tiny golden key",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "小金钥匙",
+     "description": "玻璃桌上的小金钥匙，能打开小门"
+    },
+    {
+     "name": "little bottle labelled DRINK ME",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "喝我小瓶",
+     "description": "玻璃桌上出现的小瓶，标签写着DRINK ME"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Dinah",
+     "evidence": "Dinah’ll miss me very much to-night, I should think!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "KIN",
+     "object": "Alice's sister",
+     "evidence": "Alice was beginning to get very tired of sitting by her sister on the bank",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "rabbit-hole",
+     "evidence": "she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge. In another moment down went Alice after it",
+     "confidence": 0.9
+    },
+    {
+     "subject": "White Rabbit",
+     "predicate": "VISITED",
+     "object": "rabbit-hole",
+     "evidence": "she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "well",
+     "evidence": "she found herself falling down a very deep well",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "long low hall",
+     "evidence": "she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "jar labelled ORANGE MARMALADE",
+     "evidence": "She took down a jar from one of the shelves as she passed; it was labelled “ORANGE MARMALADE”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "tiny golden key",
+     "evidence": "there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "little bottle labelled DRINK ME",
+     "evidence": "this time she found a little bottle on it, (“which certainly was not here before,” said Alice,) and round the neck of the bottle was a paper label, with the words “DRINK ME,”",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3694,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "好奇勇敢的小女孩，追逐白兔掉入兔子洞。"
+    },
+    {
+     "name": "Drink Me bottle",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "喝我瓶子",
+     "description": "标有“Drink me”的瓶子，喝下后使人缩小。"
+    },
+    {
+     "name": "EAT ME cake",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "吃我蛋糕",
+     "description": "标有“EAT ME”的蛋糕，吃下后可能改变身体大小。"
+    },
+    {
+     "name": "little golden key",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "小金钥匙",
+     "description": "能打开通往美丽花园的小门的钥匙。"
+    },
+    {
+     "name": "little door",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "小门",
+     "description": "通往美丽花园的小门，需变小才能通过。"
+    },
+    {
+     "name": "lovely garden",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "美丽花园",
+     "description": "爱丽丝渴望进入的花园，在小门之后。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "Drink Me bottle",
+     "evidence": "she very soon finished it off.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "little golden key",
+     "evidence": "she had forgotten the little golden key",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "EAT ME cake",
+     "evidence": "she opened it, and found in it a very small cake",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "lovely garden",
+     "evidence": "she decided on going into the garden at once",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:39.800Z"
+}

@@ -1,0 +1,542 @@
+{
+ "no": 22,
+ "title": "Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7778,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，离开盖茨海德后返回桑菲尔德"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德主人，简·爱爱慕的对象"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，已去世"
+    },
+    {
+     "name": "Eliza Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Reed",
+      "Eliza"
+     ],
+     "nickname": "伊丽莎",
+     "description": "里德太太的女儿，后成为修女"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太的女儿，后嫁与富人"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德管家，与简·爱通信"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "简·爱在桑菲尔德的学生"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "传闻将与罗切斯特结婚的贵族小姐"
+    },
+    {
+     "name": "Mr. Gibson",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "吉布森先生",
+     "description": "乔治亚娜和伊丽莎的舅舅，处理里德太太后事"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德",
+     "description": "里德太太的宅邸，简·爱童年居住地"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，简·爱任家庭教师处"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳渥德",
+     "description": "简·爱曾就读的慈善学校"
+    },
+    {
+     "name": "Lisle",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "里尔",
+     "description": "法国城市，伊丽莎将去附近的修道院"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "乔治亚娜前往的城市，罗切斯特也曾去"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "靠近桑菲尔德的城镇"
+    },
+    {
+     "name": "George Inn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "乔治客栈",
+     "description": "简·爱在米尔科特下车的客栈"
+    },
+    {
+     "name": "the Continent",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "欧洲大陆",
+     "description": "伊丽莎将前往的地方"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Eliza Reed",
+     "evidence": "Good-bye, cousin Jane Eyre",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "If you and I were destined to live always together, cousin",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Eliza Reed",
+     "evidence": "her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "his sister’s interment",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gibson",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "her uncle, Mr. Gibson",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gibson",
+     "predicate": "KIN",
+     "object": "Eliza Reed",
+     "evidence": "his sister’s interment",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mr. Rochester had given me but one week’s leave of absence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "little Adèle will clap her hands and jump to see you",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "you know very well you are thinking of another than they, and that he is not thinking of you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "The return to Thornfield was yet to be tried",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Gateshead",
+     "evidence": "yet a month elapsed before I quitted Gateshead",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "what it was to come back from church to Lowood",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "George Inn",
+     "evidence": "did I slip away from the George Inn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "Mr. Rochester had left for London three weeks ago",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "Mr. Rochester had left for London three weeks ago",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "she could get off to London",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "VISITED",
+     "object": "Lisle",
+     "evidence": "I shall take up my abode in a religious house near Lisle",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "VISITED",
+     "object": "the Continent",
+     "evidence": "To-morrow, I set out for the Continent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I had heard from Mrs. Fairfax in the interim of my absence",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "the party at the hall was dispersed",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "little Adèle will clap her hands and jump to see you",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "I saw her closing the gates of Thornfield against me",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Blanche Ingram",
+     "evidence": "he was gone to make arrangements for his wedding",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7541,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，桑菲尔德府的家庭教师，深爱罗切斯特。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府主人，简·爱的雇主与爱慕对象，即将与英格拉姆小姐结婚。"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府的女管家，对简·爱友善。"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的养女，简·爱的学生，与简·爱亲密。"
+    },
+    {
+     "name": "Bertha Mason",
+     "type": "Person",
+     "aliases": [
+      "Bertha",
+      "Mrs. Rochester",
+      "the madwoman"
+     ],
+     "nickname": "伯莎·梅森",
+     "description": "罗切斯特的疯妻，被关在桑菲尔德府。"
+    },
+    {
+     "name": "Sarah Reed",
+     "type": "Person",
+     "aliases": [
+      "my aunt",
+      "aunt Reed"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，刚刚去世。"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德府的女仆，对简·爱友好。"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [
+      "Thornfield Hall",
+      "Thornfield meadows"
+     ],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的庄园，简·爱工作与居住的地方。"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近的城镇，简·爱从那里步行返回桑菲尔德。"
+    },
+    {
+     "name": "Ingram Park",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格拉姆庄园",
+     "description": "英格拉姆家族庄园，距桑菲尔德二十英里。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I knew there would be pleasure in meeting my master again",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "never had I loved him so well",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Bertha Mason",
+     "evidence": "tell me if you don’t think it will suit Mrs. Rochester exactly",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "my pupil",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "her adopted daughter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Sarah Reed",
+     "evidence": "I have been with my aunt, sir, who is dead",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "he had spoken of Thornfield as my home",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "he had spoken of Thornfield as my home",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax told me in a letter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Leah smiled",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "Are you coming from Millcote, and on foot?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "Ingram Park",
+     "evidence": "no visits to Ingram Park",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Mrs. Fairfax",
+     "evidence": "Mrs. Fairfax received me with her usual plain friendliness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Adèle Varens",
+     "evidence": "Little Adèle was half wild with delight when she saw me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Leah",
+     "evidence": "Leah smiled",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:13.106Z"
+}

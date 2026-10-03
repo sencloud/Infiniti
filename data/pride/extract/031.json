@@ -1,0 +1,297 @@
+{
+ "no": 31,
+ "title": "COLONEL FITZWILLIAM’S manners were very much admired at the…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7772,
+   "entities": [
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，军官，在罗新斯做客"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家二女儿，聪慧机敏"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，性格内敛"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯庄园女主人，达西的姨妈"
+    },
+    {
+     "name": "Anne de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Miss de Bourgh",
+      "Anne"
+     ],
+     "nickname": "安妮",
+     "description": "凯瑟琳夫人的女儿，体弱"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西的妹妹，擅长音乐"
+    },
+    {
+     "name": "Mrs. Collins",
+     "type": "Person",
+     "aliases": [
+      "Charlotte Lucas",
+      "Charlotte",
+      "Miss Lucas"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白的好友，柯林斯太太"
+    },
+    {
+     "name": "Mrs. Jenkinson",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "詹金森太太",
+     "description": "安妮·德·包尔的小姐的陪伴"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人的庄园"
+    },
+    {
+     "name": "Parsonage",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牧师住宅",
+     "description": "柯林斯先生的住所"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "班纳特家所在的郡"
+    },
+    {
+     "name": "Kent",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "肯特郡",
+     "description": "罗新斯所在的郡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "KIN",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Your cousin will give you a very pretty notion of me",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "KIN",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "her Ladyship... almost engrossed by her nephews, speaking to them, especially to Darcy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "KIN",
+     "object": "Anne de Bourgh",
+     "evidence": "her daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "his sister’s proficiency",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Collins",
+     "predicate": "FRIEND",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Collins’s pretty friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "VISITED",
+     "object": "Parsonage",
+     "evidence": "Colonel Fitzwilliam had called at the Parsonage more than once",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "they joined the party in Lady Catherine’s drawing-room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "anything was a welcome relief to him at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "Mr. Darcy they had only seen at church",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "at Rosings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Parsonage",
+     "evidence": "at the Parsonage",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "NATIVE_OF",
+     "object": "Hertfordshire",
+     "evidence": "in Hertfordshire",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 932,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，出身显赫"
+    },
+    {
+     "name": "Anne de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Miss de Bourgh",
+      "Anne"
+     ],
+     "nickname": "安妮",
+     "description": "凯瑟琳夫人之女，体弱多病"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯庄园主，达西的姨妈"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，势利虚荣"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Anne de Bourgh",
+     "evidence": "he might have been just as likely to marry her, had she been his relation",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "his cousin’s praise",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Anne de Bourgh",
+     "predicate": "KIN",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "Anne would have been a delightful performer, had her health allowed her to learn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "neither at that moment nor at any other could she discern any symptom of love",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:25.071Z"
+}

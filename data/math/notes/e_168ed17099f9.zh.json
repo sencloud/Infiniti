@@ -1,0 +1,182 @@
+{
+  "entity_id": "e_168ed17099f9",
+  "name": "旋转",
+  "locale": "zh",
+  "summary": "旋转是图形绕定点转动一定角度的变换，与平移、轴对称并列，中心对称是其特例[1][2][3]。",
+  "sections": [
+    {
+      "title": "是什么",
+      "text": "把一个图形绕一个定点按某个方向转动一定角度得到另一个图形，这种平面变换叫作旋转，定点称为旋转中心，转动的角度称为旋转角[2][4]。旋转和平移、轴对称一样，都是图形变换的基本形式[1][5][6]。旋转前后的图形中，点A'是点A的对应点，线段A'B'是线段AB的对应线段，∠A'B'C'是∠ABC的对应角[7][8][9]。"
+    },
+    {
+      "title": "从哪里来",
+      "text": "学习旋转前，你已经学过平移和轴对称，知道它们都是图形变换的基本形式[1][5][6]。全等三角形是旋转的前置知识：一个三角形经过平移、轴对称或旋转变换后得到另一个三角形，这两个三角形可以重合[10]。旋转与平移、轴对称有共同性质：变换前后的两个图形可以重合，对应线段相等，对应角也相等[11][12]。"
+    },
+    {
+      "title": "性质与特例",
+      "text": "旋转前后的两个图形中，对应点到旋转中心的距离相等，对应点与旋转中心连线所成的角都等于旋转角[13]。中心对称是特殊的旋转，所以具有旋转的所有性质[3]。在平面直角坐标系中，把△AOB绕原点旋转180°得到△A2OB2，这是旋转与坐标系结合的例子[14][15]。"
+    },
+    {
+      "title": "用在哪里",
+      "text": "旋转常与平移、轴对称、翻折对比使用。例如，把△AOB沿x轴向左平移1个单位长度得到△A1O1B1；把△AOB绕原点旋转180°得到△A2OB2；把△AOB沿x轴翻折得到△A3OB[14][16]。本章利用对应点、对应线段和对应角研究平移、轴对称、旋转变换前后两个对应图形的性质[17]。"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_ab9bddce3466",
+      "record_id": "ch-032",
+      "chapter_no": 32,
+      "unit": "七下·9.1",
+      "relation": "旋转 相关 平移",
+      "evidence_text": "平移、轴对称和旋转是图形变换的基本形式."
+    },
+    {
+      "n": 2,
+      "claim_id": "c_1c0fa37958f6",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "旋转 包含 旋转中心",
+      "evidence_text": "把一个图形绕一个定点按某个方向转动一定角度得到另一个图形的平面变换叫作旋转，这个定点称为旋转中心"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_ce1e15af6d74",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "中心对称 特例 旋转",
+      "evidence_text": "由于中心对称是特殊的旋转，所以具有旋转的所有性质"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_c2c77d39039e",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "旋转 包含 旋转角",
+      "evidence_text": "转动的角度称为旋转角"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_db813c63c2f3",
+      "record_id": "ch-032",
+      "chapter_no": 32,
+      "unit": "七下·9.1",
+      "relation": "旋转 相关 轴对称",
+      "evidence_text": "平移、轴对称和旋转是图形变换的基本形式."
+    },
+    {
+      "n": 6,
+      "claim_id": "c_1781b0343a02",
+      "record_id": "ch-032",
+      "chapter_no": 32,
+      "unit": "七下·9.1",
+      "relation": "旋转 包含 图形变换",
+      "evidence_text": "平移、轴对称和旋转是图形变换的基本形式."
+    },
+    {
+      "n": 7,
+      "claim_id": "c_54382e92e869",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "旋转 包含 对应点",
+      "evidence_text": "点A'是点A的对应点"
+    },
+    {
+      "n": 8,
+      "claim_id": "c_3d5f51924654",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "旋转 包含 对应线段",
+      "evidence_text": "线段A'B'是线段AB的对应线段"
+    },
+    {
+      "n": 9,
+      "claim_id": "c_c23564ebf494",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "旋转 包含 对应角",
+      "evidence_text": "∠A'B'C'是∠ABC的对应角"
+    },
+    {
+      "n": 10,
+      "claim_id": "c_ab030103db46",
+      "record_id": "ch-050",
+      "chapter_no": 50,
+      "unit": "八上·1.2",
+      "relation": "旋转 前置 全等三角形",
+      "evidence_text": "一个三角形经过平移、轴对称或旋转变换后得到另一个三角形，这两个三角形可以重合。"
+    },
+    {
+      "n": 11,
+      "claim_id": "c_ce862c5f3d8e",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "旋转 相关 平移",
+      "evidence_text": "平移、轴对称、旋转所具有的共同性质是变换前后的两个图形可以重合，对应线段相等，对应角也相等"
+    },
+    {
+      "n": 12,
+      "claim_id": "c_f066f3fe7b5b",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "旋转 相关 轴对称",
+      "evidence_text": "平移、轴对称、旋转所具有的共同性质是变换前后的两个图形可以重合，对应线段相等，对应角也相等"
+    },
+    {
+      "n": 13,
+      "claim_id": "c_2358140de51b",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "旋转的性质 性质 旋转",
+      "evidence_text": "旋转前后的两个图形中，对应点到旋转中心的距离相等，对应点与旋转中心连线所成的角都等于旋转角"
+    },
+    {
+      "n": 14,
+      "claim_id": "c_93c5ffe31e5c",
+      "record_id": "ch-125",
+      "chapter_no": 125,
+      "unit": "九下·6.7",
+      "relation": "旋转 对比 平移",
+      "evidence_text": "把△AOB沿x轴向左平移1个单位长度得到△A1O1B1；把△AOB绕原点旋转180°得到△A2OB2"
+    },
+    {
+      "n": 15,
+      "claim_id": "c_b8a063e06a96",
+      "record_id": "ch-125",
+      "chapter_no": 125,
+      "unit": "九下·6.7",
+      "relation": "旋转 前置 平面直角坐标系",
+      "evidence_text": "把△AOB绕原点旋转180°得到△A2OB2"
+    },
+    {
+      "n": 16,
+      "claim_id": "c_7cf6c8683924",
+      "record_id": "ch-125",
+      "chapter_no": 125,
+      "unit": "九下·6.7",
+      "relation": "旋转 对比 翻折",
+      "evidence_text": "把△AOB绕原点旋转180°得到△A2OB2；把△AOB沿x轴翻折得到△A3OB"
+    },
+    {
+      "n": 17,
+      "claim_id": "c_6fb43b46d941",
+      "record_id": "ch-034",
+      "chapter_no": 34,
+      "unit": "七下·9.3",
+      "relation": "图形变换 包含 旋转",
+      "evidence_text": "本章利用对应点、对应线段和对应角研究平移、轴对称、旋转变换前后两个对应图形的性质"
+    }
+  ],
+  "basis": "30b145d8401d1aa6",
+  "basis_size": 18,
+  "generated_at": "2026-10-03T01:16:13.232Z"
+}

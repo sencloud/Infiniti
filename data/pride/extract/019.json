@@ -1,0 +1,255 @@
+{
+ "no": 19,
+ "title": "to assure you in the most animated language",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7802,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，Longbourn业主"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特先生之妻，急于嫁女"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "柯林斯的赞助人，罗新斯的女主人"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，将继承Longbourn"
+    },
+    {
+     "name": "Mrs. Jenkinson",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "詹金森太太",
+     "description": "德包尔小姐的陪伴"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家的庄园"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "班纳特家所在的郡"
+    },
+    {
+     "name": "Hunsford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉斯福",
+     "description": "柯林斯的牧师住宅所在地"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mr. Collins made his declaration in form.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "your honoured father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "your respected mother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Come, Kitty, I want you upstairs.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "my fair cousin",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "the very noble lady whom I have the honour of calling patroness",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Hunsford",
+     "evidence": "bring her to Hunsford",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "THE next day opened a new scene at Longbourn.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Hertfordshire",
+     "evidence": "coming into Hertfordshire with the design of selecting a wife",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Jenkinson",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "Mrs. Jenkinson was arranging Miss De Bourgh’s footstool",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2822,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立，拒绝柯林斯求婚"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，牧师，向伊丽莎白求婚被拒"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [
+      "the family of Bennet"
+     ],
+     "nickname": "班纳特家",
+     "description": "伊丽莎白所属家族，柯林斯与之有亲戚关系"
+    },
+    {
+     "name": "De Bourgh family",
+     "type": "Organization",
+     "aliases": [
+      "the family of De Bourgh"
+     ],
+     "nickname": "德包尔家",
+     "description": "柯林斯提及的与其有关系的贵族家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "I thank you again and again for the honour you have done me in your proposals",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Collins",
+     "evidence": "my dear cousin",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "MEMBER_OF",
+     "object": "De Bourgh family",
+     "evidence": "my connections with the family of De Bourgh",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "my relationship to your own",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:05.859Z"
+}

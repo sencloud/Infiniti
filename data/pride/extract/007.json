@@ -1,0 +1,814 @@
+{
+ "no": 7,
+ "title": "A note for Miss Bennet",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8009,
+   "entities": [
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，财产因限定继承权受限"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，热衷为女儿们谋婚事"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家大小姐，性情温和"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家二小姐，聪慧有主见"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三小姐，爱说教"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四小姐，常与丽迪雅为伴"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家五小姐，轻浮爱慕军官"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "班纳特太太的姐夫，梅里顿的律师"
+    },
+    {
+     "name": "Mrs. Philips",
+     "type": "Person",
+     "aliases": [
+      "Aunt Philips"
+     ],
+     "nickname": "菲利普斯太太",
+     "description": "班纳特太太的姐姐，住在梅里顿"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "内瑟菲尔德庄园的富有租客"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，势利傲慢"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，嫁与赫斯特先生"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "宾利先生的姐夫，懒散无趣"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "驻扎梅里顿的民兵团上校"
+    },
+    {
+     "name": "Captain Carter",
+     "type": "Person",
+     "aliases": [
+      "Carter"
+     ],
+     "nickname": "卡特上尉",
+     "description": "民兵团上尉，丽迪雅爱慕的对象"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "当地乡绅，曾举办舞会"
+    },
+    {
+     "name": "Mr. Jones",
+     "type": "Person",
+     "aliases": [
+      "Jones"
+     ],
+     "nickname": "琼斯先生",
+     "description": "梅里顿的药剂师，为简看病"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及其五个女儿组成的家庭"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家的庄园，距梅里顿一英里"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "梅里顿",
+     "description": "附近的村镇，民兵团驻扎地"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利先生租住的庄园"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "英国首都，班纳特太太的兄弟定居于此"
+    },
+    {
+     "name": "militia regiment",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "民兵团",
+     "description": "驻扎在梅里顿的民兵部队"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "MR. BENNET’S property consisted almost entirely in an estate of two thousand a year, which, unfortunately for his daughters, was entailed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "MR. BENNET’S property consisted almost entirely in an estate of two thousand a year, which, unfortunately for his daughters, was entailed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "MR. BENNET’S property consisted almost entirely in an estate of two thousand a year, which, unfortunately for his daughters, was entailed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "MR. BENNET’S property consisted almost entirely in an estate of two thousand a year, which, unfortunately for his daughters, was entailed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "MR. BENNET’S property consisted almost entirely in an estate of two thousand a year, which, unfortunately for his daughters, was entailed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "their mother’s fortune, though ample for her situation in life, could but ill supply the deficiency of his",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "their mother’s fortune, though ample for her situation in life, could but ill supply the deficiency of his",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "their mother’s fortune, though ample for her situation in life, could but ill supply the deficiency of his",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "their mother’s fortune, though ample for her situation in life, could but ill supply the deficiency of his",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "their mother’s fortune, though ample for her situation in life, could but ill supply the deficiency of his",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "“My dear Mr. Bennet, you must not expect such girls to have the sense of their father and mother.”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Her sisters were uneasy for her, but her mother was delighted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The two youngest of the family, Catherine and Lydia, were particularly frequent in these attentions",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "She had a sister married to a Mr. Philips",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Philips",
+     "evidence": "She had a sister married to a Mr. Philips",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "She had a sister married to a Mr. Philips, who had been a clerk to their father and succeeded him in the business",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "to pay their duty to their aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "to pay their duty to their aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "to pay their duty to their aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "to pay their duty to their aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "to pay their duty to their aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "KIN",
+     "object": "Caroline Bingley",
+     "evidence": "“It is from Miss Bingley,” said Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "KIN",
+     "object": "Louisa Hurst",
+     "evidence": "“If you are not so compassionate as to dine to-day with Louisa and me”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mr. Hurst",
+     "evidence": "the Hursts have no horses to theirs",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "FRIEND",
+     "object": "Jane Bennet",
+     "evidence": "“My dear friend, “If you are not so compassionate as to dine to-day with Louisa and me”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LOVES",
+     "object": "Captain Carter",
+     "evidence": "Lydia, with perfect indifference, continued to express her admiration of Captain Carter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "The village of Longbourn was only one mile from Meryton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "The village of Longbourn was only one mile from Meryton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "it came from Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "militia regiment",
+     "predicate": "LIVES_AT",
+     "object": "Meryton",
+     "evidence": "it was to remain the whole winter, and Meryton was the head-quarters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Elizabeth, feeling really anxious, determined to go to her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Jane was therefore obliged to go on horseback",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Jones",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "They insist also on my seeing Mr. Jones",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Sir William Lucas",
+     "evidence": "I thought Colonel Forster looked very becoming the other night at Sir William’s in his regimentals",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3100,
+   "entities": [
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家最小的女儿，性格活泼轻浮。"
+    },
+    {
+     "name": "Captain Carter",
+     "type": "Person",
+     "aliases": [
+      "Carter"
+     ],
+     "nickname": "卡特上尉",
+     "description": "驻扎在麦里屯的军官。"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家二女儿，聪慧独立。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Jane",
+      "Miss Bennet"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔善良。"
+    },
+    {
+     "name": "Mrs. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Louisa",
+      "Louisa Hurst"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，嫁给了赫斯特先生。"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，势利且嫉妒伊丽莎白。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园的主人，傲慢但正直。"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "赫斯特太太的丈夫，宾利先生的姐夫。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，宾利家的主人，性格温和。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家的家长，伊丽莎白和简的父亲。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [
+      "Netherfield Park"
+     ],
+     "nickname": "尼日斐花园",
+     "description": "宾利先生租住的庄园。"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家的宅邸。"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近的集镇，有军官驻扎。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "“If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter, before he goes.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "“If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter, before he goes.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Her inquiries after her sister were not very favourably answered.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "“If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter, before he goes.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Her inquiries after her sister were not very favourably answered.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "“If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter, before he goes.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Hurst",
+     "predicate": "KIN",
+     "object": "Caroline Bingley",
+     "evidence": "That she should have walked three miles so early in the day in such dirty weather, and by herself, was almost incredible to Mrs. Hurst and Miss Bingley;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "and in their brother’s manners there was something better than politeness—there was good-humour and kindness.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "and in their brother’s manners there was something better than politeness—there was good-humour and kindness.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mr. Hurst",
+     "evidence": "Mr. Darcy said very little, and Mr. Hurst nothing at all.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Hurst",
+     "evidence": "Mr. Darcy said very little, and Mr. Hurst nothing at all.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "finding herself at last within view of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "In Meryton they parted: the two youngest repaired to the lodgings of one of the officers’ wives, and Elizabeth continued her walk alone,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "In Meryton they parted: the two youngest repaired to the lodgings of one of the officers’ wives,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "a servant was despatched to Longbourn, to acquaint the family with her stay,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "a servant was despatched to Longbourn, to acquaint the family with her stay,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "a servant was despatched to Longbourn, to acquaint the family with her stay,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "a servant was despatched to Longbourn, to acquaint the family with her stay,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "Miss Bingley was obliged to convert the offer of the chaise into an invitation to remain at Netherfield for the present.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "Miss Bingley was obliged to convert the offer of the chaise into an invitation to remain at Netherfield for the present.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Hurst",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "Miss Bingley was obliged to convert the offer of the chaise into an invitation to remain at Netherfield for the present.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Hurst",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "Miss Bingley was obliged to convert the offer of the chaise into an invitation to remain at Netherfield for the present.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "Mr. Darcy said very little, and Mr. Hurst nothing at all.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield",
+     "evidence": "Elizabeth most thankfully consented, and a servant was despatched to Longbourn, to acquaint the family with her stay, and bring back a supply of clothes.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:00.095Z"
+}

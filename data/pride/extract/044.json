@@ -1,0 +1,485 @@
+{
+ "no": 44,
+ "title": "ELIZABETH had settled it that Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7235,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，傲慢但深情"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西的妹妹，年约十六，害羞"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "达西挚友，性格温和友善"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，伊丽莎白之姐"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，商人"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅妈，聪慧可亲"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西的庄园"
+    },
+    {
+     "name": "Lambton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "兰姆顿",
+     "description": "彭伯里附近的村庄"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利租住的庄园"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家的宅邸"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人的庄园"
+    },
+    {
+     "name": "Hunsford Parsonage",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉斯福牧师住宅",
+     "description": "柯林斯先生的住所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "Mr. Darcy would bring his sister to visit her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her thoughts naturally flew to her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Gardiner",
+     "evidence": "Her uncle and aunt were all amazement",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Gardiner",
+     "evidence": "Her uncle and aunt were all amazement",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Gardiner",
+     "evidence": "Her uncle and aunt were all amazement",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "Darcy told her that Bingley was also coming to wait on her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "the gentleman was overflowing with admiration was evident enough",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "denoted a recollection of Jane, not untinctured by tenderness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "the very day after her reaching Pemberley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "the very day after her reaching Pemberley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Lambton",
+     "evidence": "on the very morning after their own arrival at Lambton",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "when we were all dancing together at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "when we were all dancing together at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Never, even in the company of his dear friends at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "his dignified relations at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Hunsford Parsonage",
+     "evidence": "recollected their last lively scene in Hunsford Parsonage",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "whether all her sisters were at Longbourn",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 6109,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立，本片段中在彭伯里与达西重逢并反思自己的感情。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，骄傲但慷慨，本片段中邀请嘉丁纳夫妇和伊丽莎白赴宴。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，伊丽莎白的姐姐，本片段中仅被提及。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，本片段中仅被提及。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "达西的好友，性格温和，本片段中表达再次见到伊丽莎白的喜悦。"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西的妹妹，性格羞怯，本片段中随兄长邀请嘉丁纳一家赴宴。"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "达西家旧识，本片段中被提及在德比郡留下债务由达西偿还。"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，本片段中与达西等人会面并接受赴宴邀请。"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅妈，本片段中代为接受达西的赴宴邀请。"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西的庄园，本片段中为宴会和拜访的发生地。"
+    },
+    {
+     "name": "Lambton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "兰姆顿",
+     "description": "德比郡的小镇，嘉丁纳夫妇在此有朋友，本片段中提及。"
+    },
+    {
+     "name": "Derbyshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "德比郡",
+     "description": "英格兰郡名，彭伯里所在地，本片段中提及。"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "班纳特家所在郡，本片段中宾利提及。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "Mr. Darcy called on his sister to join him in expressing their wish of seeing Mr. and Mrs. Gardiner, and Miss Bennet, to dinner at Pemberley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "it was evident that he was very much in love with her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "to dinner at Pemberley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Georgiana Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "Miss Darcy’s, in coming to them on the very day of her arrival at Pemberley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "her thoughts were at Pemberley this evening more than the last",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "Mr. Gardiner left them soon after breakfast. The fishing scheme had been renewed the day before, and a positive engagement made of his meeting some of the gentlemen at Pemberley by noon.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "it would be highly expedient to wait on her at Pemberley the following morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "it would be highly expedient to wait on her at Pemberley the following morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "HELPED",
+     "object": "George Wickham",
+     "evidence": "on his quitting Derbyshire, he had left many debts behind him, which Mr. Darcy afterwards discharged",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Elizabeth, construing all this into a wish of hearing her speak of her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Gardiner",
+     "evidence": "Mrs. Gardiner looked at her niece",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Gardiner",
+     "evidence": "Mrs. Gardiner looked at her niece",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Gardiner",
+     "evidence": "Mr. and Mrs. Gardiner",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "FRIEND",
+     "object": "Elizabeth Bennet",
+     "evidence": "Bingley expressed great pleasure in the certainty of seeing Elizabeth again",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "Bingley expressed great pleasure in the certainty of seeing Elizabeth again",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:45.991Z"
+}

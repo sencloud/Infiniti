@@ -1,0 +1,627 @@
+{
+ "no": 10,
+ "title": "Hitherto I have recorded in detail the events of…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7370,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，在劳渥德生活八年后渴望自由"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府的女主人"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校司库，因丑闻而受辱"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple",
+      "Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "劳渥德学监，简·爱的良师益友"
+    },
+    {
+     "name": "Miss Gryce",
+     "type": "Person",
+     "aliases": [
+      "Gryce"
+     ],
+     "nickname": "格赖斯小姐",
+     "description": "威尔士籍教师，与简·爱同住一室"
+    },
+    {
+     "name": "Lowood",
+     "type": "Organization",
+     "aliases": [
+      "Lowood school",
+      "the school",
+      "the seminary",
+      "the institution"
+     ],
+     "nickname": "劳渥德学校",
+     "description": "简·爱生活八年的慈善学校"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德府",
+     "description": "里德太太的宅邸，简·爱童年居所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "I remained an inmate of its walls, after its regeneration, for eight years: six as pupil, and two as teacher",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Temple, through all changes, had thus far continued superintendent of the seminary",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "she had stood me in the stead of mother, governess, and, latterly, companion",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "her friendship and society had been my continual solace",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Mr. Brocklehurst, who, from his wealth and family connections, could not be overlooked, still retained the post of treasurer",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "Mrs. Reed had never sent for me to Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Mrs. Reed had never sent for me to Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "I had never quitted it since",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7628,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "J.E."
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，在劳渥德任教八年，欲登广告另寻家庭教师职位"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德的女管家，写信回复简·爱的求职广告"
+    },
+    {
+     "name": "Miss Gryce",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "格赖斯小姐",
+     "description": "劳渥德的教师，与简·爱同住一室"
+    },
+    {
+     "name": "Lowton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "洛顿",
+     "description": "劳渥德附近的小镇，设有邮局"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "费尔法克斯太太所在的宅邸，位于米尔科特附近"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "A河畔的制造业大镇，靠近桑菲尔德"
+    },
+    {
+     "name": "——shire Herald",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "《郡先驱报》",
+     "description": "简·爱刊登求职广告的报纸"
+    },
+    {
+     "name": "letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "信件",
+     "description": "费尔法克斯太太寄给J.E.的回复信，封蜡印有首字母F"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "I have served here eight years",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowton",
+     "evidence": "I asked leave of the new superintendent to go to Lowton",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "OWNS",
+     "object": "letter",
+     "evidence": "I now took out my letter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "Mrs. Fairfax, Thornfield, near Millcote",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Thornfield",
+     "predicate": "LIVES_AT",
+     "object": "Millcote",
+     "evidence": "Thornfield, near Millcote",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Miss Gryce",
+     "evidence": "the inevitable Miss Gryce was still my companion",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7971,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，即将离开劳渥德去当家庭教师"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府女主人，简的法定监护人"
+    },
+    {
+     "name": "Eliza Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Reed",
+      "Eliza"
+     ],
+     "nickname": "伊丽莎",
+     "description": "里德太太的大女儿，与妹妹乔治亚娜不和"
+    },
+    {
+     "name": "John Reed",
+     "type": "Person",
+     "aliases": [
+      "Master John",
+      "Master Reed"
+     ],
+     "nickname": "约翰·里德",
+     "description": "里德太太的儿子，行为放荡，花钱无度"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太的小女儿，貌美，曾与年轻贵族私奔未遂"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee",
+      "Mrs. Leaven"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府女仆，后嫁给罗伯特·利文，专程来看简·爱"
+    },
+    {
+     "name": "Robert Leaven",
+     "type": "Person",
+     "aliases": [
+      "Robert",
+      "Leaven"
+     ],
+     "nickname": "罗伯特·利文",
+     "description": "盖茨海德府车夫，贝茜的丈夫"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校主管，要求简·爱写信给里德太太"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "简·爱即将前往其府邸担任家庭教师的女士"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "盖茨海德府的老看门人，已离职"
+    },
+    {
+     "name": "Mr. Eyre",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱先生",
+     "description": "简·爱父亲的兄弟，七年前曾来盖茨海德找简"
+    },
+    {
+     "name": "Lowood",
+     "type": "Organization",
+     "aliases": [
+      "Lowood Institution"
+     ],
+     "nickname": "劳渥德学校",
+     "description": "简·爱任教并学习的慈善学校"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德府",
+     "description": "里德太太的宅邸，简·爱童年居住地"
+    },
+    {
+     "name": "Lowton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳顿",
+     "description": "简·爱托运行李并搭乘马车的小镇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "Mrs. Reed must be written to, as she was my natural guardian.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SPOUSE",
+     "object": "Robert Leaven",
+     "evidence": "Yes; nearly five years since to Robert Leaven, the coachman",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "I live at the lodge: the old porter has left.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Robert Leaven",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Yes; nearly five years since to Robert Leaven, the coachman",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "as I had always conducted myself well, both as teacher and pupil, at Lowood",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "fixing that day fortnight as the period for my assuming the post of governess in her house.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "for at Lowood I only got £15 per annum",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Gateshead",
+     "evidence": "the same I had brought with me eight years ago from Gateshead.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowton",
+     "evidence": "the carrier was to call for it to take it to Lowton, whither I myself was to repair at an early hour the next morning to meet the coach.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "QUARRELED",
+     "object": "Georgiana Reed",
+     "evidence": "now she and her sister lead a cat and dog life together; they are always quarrelling",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "now she and her sister lead a cat and dog life together",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "Miss Reed is the head and shoulders taller than you are",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "Mr. John’s conduct does not please her—he spends a deal of money.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "She went up to London last winter with her mama",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eyre",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "I believe he was your father’s brother.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eyre",
+     "predicate": "VISITED",
+     "object": "Gateshead",
+     "evidence": "a Mr. Eyre came to Gateshead and wanted to see you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "a person below wishes to see you.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "In another second I was embracing and kissing her rapturously: “Bessie! Bessie! Bessie!”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Bessie Lee",
+     "evidence": "In another second I was embracing and kissing her rapturously: “Bessie! Bessie! Bessie!”",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 901,
+   "entities": [
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府的女仆，与简·爱关系亲近"
+    },
+    {
+     "name": "Robert Leaven",
+     "type": "Person",
+     "aliases": [
+      "Robert",
+      "Leaven"
+     ],
+     "nickname": "罗伯特·利文",
+     "description": "盖茨海德府的车夫，贝茜的丈夫"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "洛伍德学校的总管，以严厉著称"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德",
+     "description": "简·爱童年居住的府邸，里德太太家"
+    },
+    {
+     "name": "Lowton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "洛顿",
+     "description": "洛伍德学校附近的小镇"
+    },
+    {
+     "name": "Lowood Fell",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "洛伍德山",
+     "description": "洛伍德学校附近的山丘"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "简·爱前往的新生活所在地"
+    },
+    {
+     "name": "Brocklehurst Arms",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布洛克赫斯特客栈",
+     "description": "洛顿的一家客栈，简与贝茜在此分别"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Gateshead",
+     "evidence": "she set off for the brow of Lowood Fell to meet the conveyance which was to take her back to Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Robert Leaven",
+     "predicate": "SERVANT_OF",
+     "object": "Gateshead",
+     "evidence": "My Robert believes he was a wine-merchant.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "VISITED",
+     "object": "Lowton",
+     "evidence": "I saw her again for a few minutes the next morning at Lowton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "VISITED",
+     "object": "Brocklehurst Arms",
+     "evidence": "We parted finally at the door of the Brocklehurst Arms there",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "VISITED",
+     "object": "Lowood Fell",
+     "evidence": "she set off for the brow of Lowood Fell to meet the conveyance",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:00.687Z"
+}

@@ -1,0 +1,272 @@
+{
+ "no": 2,
+ "title": "A Street",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4652,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家之子，正为罗瑟琳痴迷。"
+    },
+    {
+     "name": "Lord Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague",
+      "Old Montague"
+     ],
+     "nickname": "蒙太古",
+     "description": "蒙太古家族族长，与凯普莱特家有世仇。"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，朱丽叶之父，将办宴会。"
+    },
+    {
+     "name": "Benvolio Montague",
+     "type": "Person",
+     "aliases": [
+      "Benvolio",
+      "Montague's nephew"
+     ],
+     "nickname": "班伏里奥",
+     "description": "蒙太古的侄子，罗密欧的好友，劝其忘掉罗瑟琳。"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，出现在邀请名单中。"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "向凯普莱特提亲、欲娶朱丽叶的贵族。"
+    },
+    {
+     "name": "Mercutio",
+     "type": "Person",
+     "aliases": [
+      "the Prince's kinsman"
+     ],
+     "nickname": "茂丘西奥",
+     "description": "亲王的亲戚，出现在邀请名单中。"
+    },
+    {
+     "name": "Rosaline",
+     "type": "Person",
+     "aliases": [
+      "the fair maid"
+     ],
+     "nickname": "罗瑟琳",
+     "description": "罗密欧爱慕的美貌女子，将赴凯普莱特宴会。"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montagues",
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇的家族。"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulets",
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇的家族，将举办宴会。"
+    },
+    {
+     "name": "Verona",
+     "type": "Place",
+     "aliases": [
+      "fair Verona"
+     ],
+     "nickname": "维罗纳",
+     "description": "故事发生的城市，凯普莱特命仆人前往寻人。"
+    },
+    {
+     "name": "Capulet's house",
+     "type": "Place",
+     "aliases": [
+      "my poor house",
+      "my house",
+      "our house"
+     ],
+     "nickname": "凯普莱特家",
+     "description": "凯普莱特举办宴会的宅邸。"
+    },
+    {
+     "name": "Capulet's feast",
+     "type": "Event",
+     "aliases": [
+      "an old accustom'd feast",
+      "this night"
+     ],
+     "nickname": "凯普莱特宴会",
+     "description": "凯普莱特当晚举办的古老宴会，邀请众多宾客。"
+    },
+    {
+     "name": "paper",
+     "type": "Item",
+     "aliases": [
+      "letter"
+     ],
+     "nickname": "邀请名单",
+     "description": "写有宴会受邀者名字的纸，由仆人携带。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lord Capulet",
+     "predicate": "KIN",
+     "object": "Tybalt Capulet",
+     "evidence": "Mine uncle Capulet, his wife, and daughters; My fair niece Rosaline and Livia; Signior Valentio and his cousin Tybalt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "KIN",
+     "object": "Rosaline",
+     "evidence": "My fair niece Rosaline and Livia",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet",
+     "evidence": "But now my lord, what say you to my suit?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Rosaline",
+     "evidence": "At this same ancient feast of Capulet’s Sups the fair Rosaline whom thou so lov’st",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "FRIEND",
+     "object": "Romeo Montague",
+     "evidence": "Why, Romeo, art thou mad?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "if you be not of the house of Montagues",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "My master is the great rich Capulet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "But Montague is bound as well as I, In penalty alike; and ’tis not hard, I think, For men so old as we to keep the peace.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's house",
+     "evidence": "At my poor house look to behold this night",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's feast",
+     "evidence": "This night I hold an old accustom’d feast",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's feast",
+     "evidence": "and you among the store, One more, most welcome, makes my number more",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Rosaline",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's feast",
+     "evidence": "At this same ancient feast of Capulet’s Sups the fair Rosaline",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mercutio",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's feast",
+     "evidence": "Mercutio and his brother Valentine",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's feast",
+     "evidence": "Signior Valentio and his cousin Tybalt",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Capulet's feast",
+     "predicate": "OCCURRED_AT",
+     "object": "Capulet's house",
+     "evidence": "At my poor house look to behold this night",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "OWNS",
+     "object": "paper",
+     "evidence": "gives a paper",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "VISITED",
+     "object": "Verona",
+     "evidence": "Go, sirrah, trudge about Through fair Verona",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:56.200Z"
+}

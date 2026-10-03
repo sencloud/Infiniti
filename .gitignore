@@ -14,11 +14,14 @@ data/*/embeddings.json
 public/app/
 public/kg/
 
-# 可重新下载的媒体（npm run math:fetch / shuihu:media）与运行时状态
-data/math/media/
-data/shuihu/media/
+# 可重新下载的媒体（npm run math:fetch / shuihu:media / kg:media）、英文原著整页缓存与运行时状态
+data/*/media/
+data/*/source.html
 data/*/status.json
 data/*/note-fill.json
+
+# 专题：学习者自己导入的资料（原件、转写、抽取结果），只留在本机
+data/topics/
 data/logs/
 logs/
 

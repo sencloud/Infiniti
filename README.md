@@ -6,7 +6,7 @@
 
 AI 通读学习材料，把人物、概念和知识点连成可交互的关系图谱，每条关系都标明原文出处
 
-已收录 8 份材料（四大名著 · 聊斋 · 论语 · 史记 · 初中数学），**13,036** 个条目，**39,938** 条关系
+已收录 14 份材料（四大名著 · 聊斋 · 6 部外国名著英文原著 · 论语 · 史记 · 初中数学），**13,784** 个条目，**44,425** 条关系
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-b23a26.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/sencloud/Infiniti?style=flat&color=b23a26)](https://github.com/sencloud/Infiniti/stargazers)
@@ -31,7 +31,7 @@ AI 通读学习材料，把人物、概念和知识点连成可交互的关系�
 
 | 场景 | 它能帮你做什么 | 现状 |
 |------|--------------|------|
-| **读一本书** | 理清人物关系和情节脉络，看清全书由哪些情节群组成，找出前后反转、断档等值得细读的地方 | 已收录四大名著、聊斋志异、论语、史记 |
+| **读一本书** | 理清人物关系和情节脉络，看清全书由哪些情节群组成，找出前后反转、断档等值得细读的地方 | 已收录四大名著、聊斋志异、论语、史记，以及《傲慢与偏见》等 6 部外国名著的英文原著 |
 | **学一门课** | 把知识点按「前置 → 定理 → 应用」连成网，看清每个知识点依赖什么、能推出什么，翻到教材原页 | 已收录初中数学（苏科版 6 册） |
 | **学一门技术 · 准备一次考试** | 同一套管线可用于技术文档、教程、考纲、讲义：导入资料，生成你自己的学习图谱 | 需自行导入资料，见[添加学习材料](#添加学习材料) |
 
@@ -115,6 +115,12 @@ Louvain 社区发现自动划出人物集团或知识模块。《史记》3,682 
 | 红楼梦 | 120 回 | 1,056 | 6,956 | 29 |
 | 三国演义 | 120 回 | 1,926 | 7,666 | 28 |
 | 聊斋志异 | 494 篇 | 2,764 | 3,702 | 30 |
+| 傲慢与偏见 *Pride and Prejudice* | 61 章 | 96 | 2,168 | 8 |
+| 简·爱 *Jane Eyre* | 38 章 | 162 | 1,046 | 13 |
+| 福尔摩斯冒险史 *The Adventures of Sherlock Holmes* | 12 篇 | 283 | 506 | 19 |
+| 了不起的盖茨比 *The Great Gatsby* | 9 章 | 106 | 292 | 10 |
+| 罗密欧与朱丽叶 *Romeo and Juliet* | 24 场 | 45 | 357 | 8 |
+| 爱丽丝梦游仙境 *Alice’s Adventures in Wonderland* | 12 章 | 56 | 118 | 8 |
 | 论语 | 20 篇 | 105 | 277 | 10 |
 | 史记 | 130 篇 | 3,682 | 7,736 | 10 |
 | 初中数学（苏科版 6 册） | 137 节 | 808 | 1,424 | 21 |
@@ -146,7 +152,7 @@ npm start                             # Web 服务 http://localhost:3100
 npm run worker                        # 数据管道（另开终端）
 ```
 
-新 clone 的数据库是空的。仓库里已经带了 8 部书的原文和大模型抽取结果，一条命令就能把它们全部入库并算好星图和关系分析，不用重新抽取：
+新 clone 的数据库是空的。仓库里已经带了 14 份材料的原文和大模型抽取结果，一条命令就能把它们全部入库并算好星图和关系分析，不用重新抽取：
 
 ```bash
 npm run kg:restore                    # 全部图谱；也可以只恢复一部：npm run kg:restore -- hongloumeng
@@ -162,7 +168,25 @@ npm run kg:restore                    # 全部图谱；也可以只恢复一部�
 
 [5000言](https://www.5000yan.com/) 上的古籍基本换个网址就能直接生成；教材类可以参照初中数学的配置（`math`），把知识点、前置关系和教材原页对应起来。
 
+[Project Gutenberg](https://www.gutenberg.org/) 上的英文原著用 `foreign({...})` 配置：填电子书编号、单元（章 / 篇 / 场），再在 `src/scripts/kg/gutenberg.js` 里写一条按标题拆章的规则。条目用原文名字（Elizabeth Bennet、Sherlock Holmes），附中文译名与中文简介，证据直接引英文原文；向量换成多语种的 multilingual-e5-small。
+
 如果只是想快速了解某个人物或主题，首页的「自由探索」可以直接输入名字，系统会从百科抓取资料并自动生成图谱。
+
+### 专题：导入自己的资料
+
+标准规范、制度文件、讲义这类本地资料不用写配置，建成「专题」即可。打开 `/topics` 新建专题，把文件或整个文件夹拖进去（子文件夹就是分类），点「开始处理」。系统逐份转写：文字版 PDF 和 Word 直接取文字，扫描页先用 poppler 的 `pdftoppm` 渲染成图，再看图转写。之后抽取条目和关系，生成星图和线索。资料就在服务器本机上时，也可以在专题页填本机文件夹路径直接导入，或者用命令行：
+
+```bash
+npm run topic:import -- dangan "D:\资料\标准" --name 档案标准规范 --run
+```
+
+「标准规范与制度」预设以标准编号（如 GB/T 18894-2016）作为文件节点，按引用、代替、定义、规定等关系连起来。线索规则另有三条：
+
+- 引用缺口：被多份文件引用，专题里却没有这份。
+- 版本滞后：引用的是旧版，专题里已有新版。
+- 定义并存：同一术语在几份文件里各有定义。
+
+专题数据放在 `data/topics/<id>/`，不进仓库。管理专题需要在服务器本机操作，或在 `.env` 里设置 `KG_ADMIN_TOKEN`。
 
 ---
 
@@ -198,15 +222,19 @@ npm run kg:restore                    # 全部图谱；也可以只恢复一部�
 | 水浒传 | `shuihu` | [5000言](https://shuihu.5000yan.com/) |
 | 西游记 / 红楼梦 / 三国演义 | `xiyouji` / `hongloumeng` / `sanguo` | 5000言 |
 | 聊斋志异 | `liaozhai` | 5000言 |
+| 外国名著（英文原著） | `pride` / `janeeyre` / `sherlock` / `gatsby` / `romeo` / `alice` | [Project Gutenberg](https://www.gutenberg.org/) |
 | 论语 / 史记 | `lunyu` / `shiji` | 5000言 |
 | 初中数学 | `math` | [国家中小学智慧教育平台](https://basic.smartedu.cn/) 苏科版 6 册 |
 
-- **语义星图**：原文分段向量化（本地 bge-small-zh）→ PCA + UMAP → KMeans 聚成情节群 / 知识簇，DeepSeek 命名；子群、跨群关联、离群段、分期漂移、按实体检索，点任意一段看原文高亮。
+- **语义星图**：原文分段向量化（本地 bge-small-zh，英文原著用 multilingual-e5-small）→ PCA + UMAP → KMeans 聚成情节群 / 知识簇，DeepSeek 命名；子群、跨群关联、离群段、分期漂移、按实体检索，点任意一段看原文高亮。
 - **关系探索**：实体关系 3D 图（Y 轴为章回 / 节）；浏览、路径探查、关联强度、社区、时序台账、流转、线索。
   线索规则按图谱类型选：小说 / 史传用 R1–R4（关系反转 / 死后再现 / 出场断档 / 籍贯冲突），
   教材用 M1–M4（前置倒挂 / 循环依赖 / 孤立知识点 / 跨册长跳）。
 - **媒体**（水浒传）：维基共享资源的公有领域古画 + 百科配图（节点卡图集，注明出处和许可），
   央视 1998 版 43 集与回目的对应表（节点卡和原文抽屉里点集数，弹窗播放 B 站外链）。
+- **媒体**（外国名著）：Gutenberg 插图本的公有领域插图（Hugh Thomson、F. H. Townsend、Sidney Paget、Arthur Rackham），
+  按说明与图旁段落定位到章节，由大模型认出画的是谁，进人物图集，原文抽屉里列出本章插图；维基数据的人物像；
+  BBC 1995 版《傲慢与偏见》、2006 版《简·爱》、格拉纳达版福尔摩斯等改编剧集与章节的对应表。
 - **教材原页**（初中数学）：原文抽屉按页显示教材页码，可切到页面原图。
 
 页面路径：首页 `/`，每个图谱有语义星图 `/g/<图谱>/galaxy` 和关系探索 `/g/<图谱>/explore` 两个视图。旧地址 `/kg/*` 会跳到 `/g/shuihu/*`。
@@ -220,11 +248,12 @@ npm run classics:all                     # 后台批量跑 5000言 的名著与�
 npm run math:fetch                       # 数学：下载教材页图，deepseek-flash 识图转写，按目录切节
 npm run math:all                         # 数学全流程（抓取步骤即 math:fetch，转写有缓存）
 npm run shuihu:media                     # 水浒人物图片 + 央视版分集表，写入 Entity.media
+npm run kg:media -- <图谱>               # 外国名著：插图本插图 + 维基数据人物像 + B 站剧集对照，写入 Entity.media（需先 load）
 npm run kg:covers                        # 首页封面（维基数据的公有领域书影）→ data/covers/
 ```
 
 进度写到 `data/<图谱>/status.json`，首页卡片据此显示构建进度。入库只清当前图谱的节点。抽取结果缓存在 `data/<图谱>/extract/`，重跑 load / build 不再调用模型抽取（星图命名仍会调用 DeepSeek）。
-向量文件、教材页图、水浒图片不入库，clone 后分别由 `kg:run -- <图谱> load build`、`math:fetch`、`shuihu:media` 重新生成。页面上的「重新计算」按钮等价于 build 的对应阶段。
+向量文件、教材页图、水浒图片、外国名著的原文 HTML 与插图不入库，clone 后分别由 `kg:run -- <图谱> load build`、`math:fetch`、`shuihu:media`、`kg:media -- <图谱>` 重新生成。页面上的「重新计算」按钮等价于 build 的对应阶段。
 
 教材 PDF 需要登录，管线改用平台公开的逐页图片，由 `DEEPSEEK_VISION_MODEL`（默认 `deepseek-flash`）识图转写，结果缓存在 `data/math/ocr/<册>/<页>.md`，页图在 `data/math/media/`。
 
@@ -340,6 +369,7 @@ src/
 public/people/              # 自由探索：任意人物 / 主题的 3D 时间图谱（index.html + app-3d.js）
 web/                        # 首页 + 语义星图 + 关系探索前端（Vite + React + antd）
 data/<图谱>/                # 原文、抽取缓存、status.json、媒体（/media/<图谱>/…）
+data/topics/<专题>/         # 专题：topic.json、manifest.json、原件、转写稿、抽取缓存（不进仓库）
 ```
 
 ### 配置说明（.env）
@@ -354,6 +384,9 @@ DEEPSEEK_BASE_URL=https://api.deepseek.com
 DEEPSEEK_MODEL=deepseek-chat
 DEEPSEEK_VISION_MODEL=deepseek-flash  # 教材页图转写（需多模态）
 MATH_OCR_PARALLEL=6                # 转写并发
+KG_ADMIN_TOKEN=                    # 管理口令：不在服务器本机时，凭它新建专题、上传资料、核对事实
+POPPLER_BIN=                       # 专题扫描件渲染用的 pdftoppm 所在目录（不在 PATH 里时填）
+TOPIC_OCR_PARALLEL=6               # 专题扫描页转写并发
 MAX_PERSONS=500                    # 构建规模上限
 MAX_DEPTH=6                        # 探索深度上限
 CRAWL_DELAY_MS=2000                # 抓取限速（对源友好）
@@ -366,7 +399,7 @@ CRAWL_DELAY_MS=2000                # 抓取限速（对源友好）
 - **后端**：Node.js 20 + Express 5
 - **数据库**：Neo4j 5（Cypher + 向量索引）
 - **抽取**：DeepSeek（OpenAI 兼容接口）
-- **分析**：bge-small-zh 本地向量、UMAP、KMeans、Louvain（graphology）
+- **分析**：bge-small-zh / multilingual-e5-small 本地向量、UMAP、KMeans、Louvain（graphology）
 - **抓取**：Playwright 无头浏览器（多源降级）
 - **前端**：Vite + React + antd；Three.js 3D（手写力导向，无图库依赖）
 
@@ -374,7 +407,7 @@ CRAWL_DELAY_MS=2000                # 抓取限速（对源友好）
 
 代码以 [MIT](LICENSE) 协议开源。
 
-数据说明：古籍原文来自 [5000言](https://www.5000yan.com/)，属公有领域；水浒人物古画来自维基共享资源，节点卡上注明了出处和许可；初中数学教材的页图和转写版权归出版社所有，仅供学习研究，请勿大量转载或商用。抓取时请遵守各数据源的使用条款，并保持限速。
+数据说明：古籍原文来自 [5000言](https://www.5000yan.com/)，属公有领域；外国名著原文与插图来自 [Project Gutenberg](https://www.gutenberg.org/)，属公有领域；水浒人物古画、外国名著人物像来自维基共享资源，节点卡上注明了出处和许可；B 站视频为外链播放，版权归原权利人；初中数学教材的页图和转写版权归出版社所有，仅供学习研究，请勿大量转载或商用。抓取时请遵守各数据源的使用条款，并保持限速。
 
 ## 参与
 

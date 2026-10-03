@@ -110,10 +110,12 @@ export interface GraphSummary {
   ready: boolean
   /** 后台批处理进度（crawl / seeds / extract / load / build） */
   build?: {
-    state?: 'running' | 'done' | 'failed'
+    state?: 'running' | 'queued' | 'done' | 'failed' | 'stopped'
     step?: string | null
     extracted?: number
     units?: number
+    /** 专题的转写进度 */
+    ingest?: { files_done: number; files_total: number } | null
     error?: string | null
     updated_at?: string
   } | null

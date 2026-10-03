@@ -1,0 +1,146 @@
+{
+  "entity_id": "e_188f2984335a",
+  "name": "完全平方公式",
+  "locale": "zh",
+  "summary": "完全平方公式是乘法公式之一，由多项式乘多项式法则推出，可正用于简化计算、逆用于因式分解。[1][2][3]",
+  "sections": [
+    {
+      "title": "公式是什么",
+      "text": "完全平方公式指 (a±b)²=a²±2ab+b²，它与平方差公式通常叫作乘法公式 [1]。公式的展开式系数与杨辉三角第3行的1，2，1对应 [4]。学习前需要掌握多项式乘多项式法则和合并同类项 [2][5]。"
+    },
+    {
+      "title": "怎么推导",
+      "text": "由多项式乘多项式法则可以得到 (a+b)(a-b)=a²-b² [2]，类似地可推导完全平方公式。也可以通过构图并计算图形面积的方法推导完全平方公式，体现数形结合 [6]。"
+    },
+    {
+      "title": "正用与逆用",
+      "text": "正向可用于简化计算，如用乘法公式计算 2001² [7]；也可用于代数式求值，如已知 (a+b)²=7，(a-b)²=3，求 a²+b²，ab 的值 [8]。逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法 [3][9][10]，例如分解因式 a²+3ab+2b² [11]。"
+    },
+    {
+      "title": "后续用在哪里",
+      "text": "完全平方公式在分式的混合运算中会用到，如 (x+1/x)²=x²+2·x·(1/x)+(1/x)² [12]；二次根式的混合运算往往涉及代数式的各种运算，也会用到它 [13]。"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_162c1a40eb24",
+      "record_id": "ch-031",
+      "chapter_no": 31,
+      "unit": "七下·8.4",
+      "relation": "完全平方公式 包含 乘法公式",
+      "evidence_text": "完全平方公式、平方差公式通常叫作乘法公式"
+    },
+    {
+      "n": 2,
+      "claim_id": "c_dd452c2907b5",
+      "record_id": "ch-031",
+      "chapter_no": 31,
+      "unit": "七下·8.4",
+      "relation": "多项式乘多项式法则 前置 完全平方公式",
+      "evidence_text": "由多项式乘多项式法则可以得到 (a+b)(a-b)=a²-b²"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_2dee5c2a5531",
+      "record_id": "ch-083",
+      "chapter_no": 83,
+      "unit": "八下·9.3",
+      "relation": "完全平方公式 性质 因式分解",
+      "evidence_text": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_2768bf3e9b34",
+      "record_id": "ch-031",
+      "chapter_no": 31,
+      "unit": "七下·8.4",
+      "relation": "完全平方公式 相关 杨辉三角",
+      "evidence_text": "第3行中的3个数1，2，1，对应着(a+b)²=a²+2ab+b²展开式中的各项系数"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_d0a5f8e2d0d8",
+      "record_id": "ch-031",
+      "chapter_no": 31,
+      "unit": "七下·8.4",
+      "relation": "合并同类项 前置 完全平方公式",
+      "evidence_text": "合并同类项"
+    },
+    {
+      "n": 6,
+      "claim_id": "c_453393e2ff64",
+      "record_id": "ch-031",
+      "chapter_no": 31,
+      "unit": "七下·8.4",
+      "relation": "数形结合 应用于 完全平方公式",
+      "evidence_text": "如何通过构图并计算图形面积的方法推导完全平方公式"
+    },
+    {
+      "n": 7,
+      "claim_id": "c_4a90803e8530",
+      "record_id": "ch-031",
+      "chapter_no": 31,
+      "unit": "七下·8.4",
+      "relation": "乘法公式 包含 完全平方公式",
+      "evidence_text": "用乘法公式计算：2001²"
+    },
+    {
+      "n": 8,
+      "claim_id": "c_ae39f55a6227",
+      "record_id": "ch-031",
+      "chapter_no": 31,
+      "unit": "七下·8.4",
+      "relation": "完全平方公式 应用于 代数式求值",
+      "evidence_text": "已知(a+b)²=7，(a-b)²=3。求a²+b²，ab的值"
+    },
+    {
+      "n": 9,
+      "claim_id": "c_83856573dc17",
+      "record_id": "ch-083",
+      "chapter_no": 83,
+      "unit": "八下·9.3",
+      "relation": "完全平方公式 前置 公式法",
+      "evidence_text": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。"
+    },
+    {
+      "n": 10,
+      "claim_id": "c_acdf63082666",
+      "record_id": "ch-083",
+      "chapter_no": 83,
+      "unit": "八下·9.3",
+      "relation": "公式法 包含 完全平方公式",
+      "evidence_text": "逆向使用平方差公式、完全平方公式等乘法公式进行因式分解的方法叫作公式法。"
+    },
+    {
+      "n": 11,
+      "claim_id": "c_2c401dbfc6bc",
+      "record_id": "ch-083",
+      "chapter_no": 83,
+      "unit": "八下·9.3",
+      "relation": "完全平方公式 应用于 因式分解",
+      "evidence_text": "分解因式 a^2+3ab+2b^2"
+    },
+    {
+      "n": 12,
+      "claim_id": "c_22946bc82ead",
+      "record_id": "ch-087",
+      "chapter_no": 87,
+      "unit": "八下·10.4",
+      "relation": "完全平方公式 应用于 分式的混合运算",
+      "evidence_text": "因为$\\left(x+\\frac{1}{x}\\right)^2=x^2+2\\cdot x\\cdot \\frac{1}{x}+\\left(\\frac{1}{x}\\right)^2$"
+    },
+    {
+      "n": 13,
+      "claim_id": "c_a7eb20aa6c34",
+      "record_id": "ch-091",
+      "chapter_no": 91,
+      "unit": "八下·11.3",
+      "relation": "完全平方公式 应用于 二次根式的混合运算",
+      "evidence_text": "二次根式的混合运算往往涉及代数式的各种运算"
+    }
+  ],
+  "basis": "1fbd81c56f0a34a0",
+  "basis_size": 13,
+  "generated_at": "2026-10-03T01:22:21.928Z"
+}

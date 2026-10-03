@@ -3,6 +3,7 @@ import { message } from 'antd';
 import { activeGraphId } from '@/graph/profile';
 import i18n from '@/i18n';
 import { localeFromPath } from '@/i18n/locale';
+import { adminToken } from './adminToken';
 
 declare module 'axios' {
   // 响应拦截器把后端统一响应解包成 { success, data, message } 后才交给调用方
@@ -33,6 +34,8 @@ request.interceptors.request.use((config) => {
   const graph = activeGraphId();
   if (graph) config.params = { graph, ...(config.params || {}) };
   config.headers.set('Accept-Language', localeFromPath() === 'en' ? 'en' : 'zh-CN');
+  const token = adminToken();
+  if (token) config.headers.set('x-kg-admin-token', token);
   return config;
 });
 

@@ -1,0 +1,83 @@
+{
+  "entity_id": "e_acd3dd408c82",
+  "name": "余弦",
+  "locale": "zh",
+  "summary": "余弦是锐角三角函数之一，由直角三角形边比定义，需勾股定理求边，用于解直角三角形。[1][2][3][4]",
+  "sections": [
+    {
+      "title": "是什么",
+      "text": "在直角三角形中，锐角A的邻边与斜边的比叫做∠A的余弦。它和正弦、正切一起，统称为∠A的三角函数。[1][5]"
+    },
+    {
+      "title": "从哪里来",
+      "text": "学习余弦前，要先认识直角三角形，知道它的边角关系。在Rt△ABD中，cosB=BD/AB，这是余弦定义直接用在具体三角形里。[2] 如果已知直角三角形的两边，可以用勾股定理求出第三边，再根据余弦定义求余弦值。例如AB=√(AC²+BC²)=13，然后cosA=AC/AB。[3]"
+    },
+    {
+      "title": "怎么求值",
+      "text": "除了用定义算，还可以用计算器求余弦值。课本里就有用计算器求正弦值或余弦值的练习。[6]"
+    },
+    {
+      "title": "用在哪里",
+      "text": "余弦是解直角三角形的重要工具。解直角三角形时，边、角之间的关系包括cos A=b/c，用它可以由已知边角求未知边角。[4]"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_245b80422da7",
+      "record_id": "ch-126",
+      "chapter_no": 126,
+      "unit": "九下·7.1",
+      "relation": "锐角三角函数 包含 余弦",
+      "evidence_text": "∠A 的正弦、余弦和正切都是 ∠A 的三角函数"
+    },
+    {
+      "n": 2,
+      "claim_id": "c_1d083bf6fdf4",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "直角三角形 前置 余弦",
+      "evidence_text": "在Rt△ABD中，cosB=BD/AB"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_d83341aba065",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "勾股定理 前置 余弦",
+      "evidence_text": "根据勾股定理，得AB=√(AC²+BC²)=13。根据正弦、余弦的定义，得cosA=AC/AB"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_be75a54126f2",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "余弦 前置 解直角三角形",
+      "evidence_text": "（3）边、角之间的关系 cos A=b/c，"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_fad7cc51105f",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "锐角三角函数 包含 余弦",
+      "evidence_text": "根据正弦、余弦的定义"
+    },
+    {
+      "n": 6,
+      "claim_id": "c_9beacd881c60",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "计算器求三角函数值 应用于 余弦",
+      "evidence_text": "用计算器求下列正弦值或余弦值"
+    }
+  ],
+  "basis": "bb90ffdc98d43857",
+  "basis_size": 6,
+  "generated_at": "2026-10-03T01:46:05.725Z"
+}

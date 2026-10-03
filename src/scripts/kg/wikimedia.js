@@ -24,8 +24,8 @@ const WD = 'https://www.wikidata.org/w/api.php';
 const COMMONS = 'https://commons.wikimedia.org/w/api.php';
 const qs = (o) => new URLSearchParams({ format: 'json', ...o }).toString();
 
-export async function searchItems(name, limit = 8) {
-  const j = await getJson(`${WD}?${qs({ action: 'wbsearchentities', search: name, language: 'zh', uselang: 'zh', type: 'item', limit })}`);
+export async function searchItems(name, limit = 8, lang = 'zh') {
+  const j = await getJson(`${WD}?${qs({ action: 'wbsearchentities', search: name, language: lang, uselang: lang, type: 'item', limit })}`);
   return (j.search || []).map((s) => s.id);
 }
 
@@ -48,8 +48,8 @@ export const itemText = (item) => [
 ].join(' ');
 
 /** 按名字找条目，并用 accept(item) 过滤（例如描述里提到《水浒传》，或 P1441 出现于该作品） */
-export async function findItem(name, accept) {
-  const items = await getItems(await searchItems(name));
+export async function findItem(name, accept, lang = 'zh') {
+  const items = await getItems(await searchItems(name, 8, lang));
   return items.find(accept) || null;
 }
 

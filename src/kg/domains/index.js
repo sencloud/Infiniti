@@ -1,9 +1,13 @@
 // 图谱目录：每个图谱一份配置（本体 / 单元叫法 / 术语 / 提示词 / 线索规则 / 前端文案），
 // 服务端查询、构建任务、数据管线和前端都从这里取各图谱的差异。
+import path from 'node:path';
 import { localizeProfile } from '../locale.js';
 import { makeOntology } from '../ontology.js';
-import { MATH_ONTOLOGY, NOVEL_TYPES, LUNYU_ONTOLOGY, LIAOZHAI_ONTOLOGY, SHIJI_ONTOLOGY, novelPredicates } from './presets.js';
-import { purposeOf } from './purpose.js';
+import {
+  FOREIGN_TYPES, MATH_ONTOLOGY, NOVEL_TYPES, LUNYU_ONTOLOGY, LIAOZHAI_ONTOLOGY, SHIJI_ONTOLOGY, foreignPredicates, novelPredicates,
+} from './presets.js';
+import { purposeOf, setPurpose } from './purpose.js';
+import { readTopicMeta, readTopicMetas, topicGraph } from './topics.js';
 
 export const GRAPH_ID_RE = /^[a-z][a-z0-9_]{1,30}$/;
 
@@ -176,6 +180,204 @@ const SANGUO = novel({
   ],
 });
 
+const FOREIGN_RULES = {
+  R1: { name: '关系反转', hint: '同一对人物既有亲近关系又有敌对关系，常是误会或转变的地方' },
+  R2: { name: '死后再现', hint: '已经死去的人物在后面的章节里仍有事实' },
+  R3: { name: '出场断档', hint: '主要人物两次出场之间隔了很多章' },
+};
+
+const FOREIGN_PROPS = [
+  { key: 'nickname', label: '译名' },
+  { key: 'role', label: '身份' },
+  { key: 'description', label: '简介' },
+];
+
+/** 外国名著：Project Gutenberg 英文原文；实体用英文规范名对得上原文，译名给中文读者 */
+function foreign({ id, name, book, title, author, description, cover, ebook, unit, units, periodSize, rules = ['R1', 'R2', 'R3'],
+  extraPredicates = [], dropPredicates = [], rename = {}, examples, prompts, extract, seedNoun = '主要人物', terms = {} }) {
+  return {
+    id,
+    name,
+    book,
+    title,
+    author,
+    category: 'foreign',
+    kind: 'novel',
+    lang: 'en',
+    description,
+    cover,
+    ebook,
+    source: { name: 'Project Gutenberg', url: `https://www.gutenberg.org/ebooks/${ebook}` },
+    ontology: makeOntology({
+      version: `${id}-v1`,
+      entityTypes: FOREIGN_TYPES,
+      predicates: foreignPredicates({ extra: extraPredicates, drop: dropPredicates, rename }),
+    }),
+    unit: { name: unit, axis: unit, total: units, template: `第{n}${unit}` },
+    periodSize,
+    terms: {
+      segment: '段', segments: '段原文', cluster: '情节群', community: '人物圈', hub: '枢纽人物',
+      primary: '人物', secondary: '地点', evidence: '原文', ...terms,
+    },
+    galaxy: { primaryTypes: ['Person'], secondaryTypes: ['Place', 'Organization'] },
+    rules: Object.fromEntries(rules.map((r) => [r, FOREIGN_RULES[r]])),
+    gapUnits: Math.max(3, Math.round(units * 0.25)),
+    examples,
+    props: FOREIGN_PROPS,
+    prompts: {
+      role: `${author}《${book}》研究者`,
+      clusterExamples: prompts.cluster,
+      communityExamples: prompts.community,
+    },
+    extract: {
+      role: `《${book}》知识图谱抽取器`,
+      rules: extract,
+      seedNoun,
+    },
+  };
+}
+
+const PRIDE = foreign({
+  id: 'pride',
+  name: '傲慢与偏见',
+  book: '傲慢与偏见',
+  title: 'Pride and Prejudice',
+  author: '简·奥斯汀',
+  description: '班纳特家五姐妹的婚事与伊丽莎白和达西的误会与和解。理清乡绅家族的亲缘、求婚与偏见，英文原著 61 章，附 Hugh Thomson 插图。',
+  cover: '/media/covers/pride.jpg',
+  ebook: 1342,
+  unit: '章',
+  units: 61,
+  periodSize: 6,
+  examples: { search: 'Elizabeth、彭伯里', from: 'Elizabeth Bennet', to: 'Fitzwilliam Darcy' },
+  prompts: { cluster: '「尼日斐舞会」「亨斯福德求婚」「莉迪亚私奔」', community: '「班纳特一家」「宾利姐妹」「罗新斯庄园」' },
+  extract: [
+    '「Mr. Darcy」「Darcy」写「Fitzwilliam Darcy」；「Lizzy」「Eliza」「Miss Bennet（指伊丽莎白时）」写「Elizabeth Bennet」；「Miss Bennet」在书中通常指长女 Jane Bennet，按上下文判断。',
+    '庄园宅邸作 Place（Longbourn、Netherfield、Pemberley、Rosings），家族作 Organization（如 Bennet family）。',
+  ],
+});
+
+const ALICE = foreign({
+  id: 'alice',
+  name: '爱丽丝梦游仙境',
+  book: '爱丽丝梦游仙境',
+  title: 'Alice’s Adventures in Wonderland',
+  author: '刘易斯·卡罗尔',
+  description: '爱丽丝掉进兔子洞，遇见柴郡猫、疯帽匠与红心王后。看清奇境角色在 12 章里的出场与交集，附 Arthur Rackham 插图。',
+  cover: '/media/covers/alice.jpg',
+  ebook: 11,
+  unit: '章',
+  units: 12,
+  periodSize: 2,
+  rules: ['R1', 'R3'],
+  extraPredicates: [
+    { code: 'TRANSFORMED', name: '变化', domain: ['Person'], range: ['Person', 'Item'], hint: 'A 变大变小或变成 B（如婴儿变成小猪）' },
+  ],
+  examples: { search: 'Cheshire Cat、茶会', from: 'Alice', to: 'Queen of Hearts' },
+  prompts: { cluster: '「疯狂茶会」「槌球比赛」「审判红桃杰克」', community: '「红心王室」「茶会三人组」「海边的伙伴」' },
+  extract: [
+    '会说话的动物和扑克牌都作 Person，用书中带定冠词以外的称呼（「the White Rabbit」写「White Rabbit」，「the Hatter」写「Hatter」，「the Queen」指红心王后时写「Queen of Hearts」）。',
+    '「Alice」就写「Alice」，不要补姓。',
+    '红心王后的园丁写全名「Two of Spades」「Five of Spades」「Seven of Spades」；公爵夫人怀里的婴儿写「Duchess’s Baby」；白兔家门牌上的「W. RABBIT」是白兔的房子，写「White Rabbit’s house」。',
+  ],
+  seedNoun: '主要角色',
+});
+
+const SHERLOCK = foreign({
+  id: 'sherlock',
+  name: '福尔摩斯冒险史',
+  book: '福尔摩斯冒险史',
+  title: 'The Adventures of Sherlock Holmes',
+  author: '阿瑟·柯南·道尔',
+  description: '福尔摩斯与华生的 12 个探案故事。按案件把委托人、嫌疑人与线索物品连起来，附 Sidney Paget 插图与格拉纳达版剧集对照。',
+  cover: '/media/covers/sherlock.jpg',
+  ebook: 1661,
+  unit: '篇',
+  units: 12,
+  periodSize: 3,
+  rules: ['R1', 'R2'],
+  extraPredicates: [
+    { code: 'INVESTIGATED', name: '侦办', domain: ['Person'], range: ['Event', 'Person'], hint: 'A 调查案件或调查某人 B' },
+    { code: 'CLIENT_OF', name: '委托', domain: ['Person'], range: ['Person'], hint: 'A 向侦探 B 求助、委托 B 办案' },
+    { code: 'SUSPECTED', name: '怀疑', domain: ['Person'], range: ['Person'], hint: 'A 怀疑 B 有罪' },
+    { code: 'STOLE', name: '盗取', domain: ['Person'], range: ['Item'], tone: 'hostile', hint: 'A 偷走、盗取物品 B' },
+  ],
+  examples: { search: 'Irene Adler、蓝宝石', from: 'Sherlock Holmes', to: 'Irene Adler' },
+  prompts: { cluster: '「波希米亚丑闻」「红发会」「斑点带子」', community: '「贝克街 221B」「斯托纳家」「警方」' },
+  extract: [
+    '「Holmes」写「Sherlock Holmes」；叙述者「I」「Doctor」写「John Watson」。',
+    '每个故事的案件作 Event（如「A Scandal in Bohemia」案），委托人与侦探之间用 CLIENT_OF，侦探与案件之间用 INVESTIGATED。',
+    '各篇相互独立，同名不同人的配角（如两个不同的 Mr. Windibank）在 description 里写明所在篇名。',
+  ],
+  seedNoun: '各篇主要人物',
+  terms: { cluster: '案件群', community: '案件圈' },
+});
+
+const ROMEO = foreign({
+  id: 'romeo',
+  name: '罗密欧与朱丽叶',
+  book: '罗密欧与朱丽叶',
+  title: 'Romeo and Juliet',
+  author: '威廉·莎士比亚',
+  description: '维罗纳两大世仇家族之间的悲剧爱情。按 5 幕 24 场追踪两家人物的亲缘、决斗与死亡，附 1968 年电影对照。',
+  cover: '/media/covers/romeo.jpg',
+  ebook: 1513,
+  unit: '场',
+  units: 24,
+  periodSize: 5,
+  extraPredicates: [
+    { code: 'FEUDS_WITH', name: '世仇', domain: ['Person', 'Organization'], range: ['Person', 'Organization'], symmetric: true, tone: 'hostile', hint: 'A 与 B 两家或两人是世仇' },
+    { code: 'FOUGHT', name: '决斗', domain: ['Person'], range: ['Person'], symmetric: true, tone: 'hostile', hint: 'A 与 B 拔剑相斗' },
+  ],
+  examples: { search: 'Juliet、阳台', from: 'Romeo', to: 'Tybalt' },
+  prompts: { cluster: '「凯普莱特家宴」「阳台相会」「墓穴殉情」', community: '「蒙太古家族」「凯普莱特家族」「维罗纳亲王府」' },
+  extract: [
+    '剧本台词前的大写人名（如「ROMEO.」「NURSE.」）是说话人，人物名用剧中通行写法（Romeo、Juliet、Nurse、Friar Lawrence、Lady Capulet）。',
+    '两大家族作 Organization（House of Montague、House of Capulet）。',
+  ],
+  terms: { segment: '段', segments: '段台词' },
+});
+
+const GATSBY = foreign({
+  id: 'gatsby',
+  name: '了不起的盖茨比',
+  book: '了不起的盖茨比',
+  title: 'The Great Gatsby',
+  author: 'F. 斯科特·菲茨杰拉德',
+  description: '尼克眼中的盖茨比、黛西与汤姆在长岛的夏天。九章里人物的爱慕、欺瞒与那场车祸一目了然。',
+  cover: '/media/covers/gatsby.jpg',
+  ebook: 64317,
+  unit: '章',
+  units: 9,
+  periodSize: 1,
+  examples: { search: 'Daisy、西卵', from: 'Jay Gatsby', to: 'Tom Buchanan' },
+  prompts: { cluster: '「盖茨比的派对」「广场饭店摊牌」「灰谷车祸」', community: '「布坎南夫妇」「东卵与西卵」「威尔逊夫妇」' },
+  extract: [
+    '叙述者「I」写「Nick Carraway」；「Gatsby」写「Jay Gatsby」；「Daisy」写「Daisy Buchanan」；「Tom」写「Tom Buchanan」。',
+    '东卵、西卵、灰谷、纽约等作 Place。',
+  ],
+});
+
+const JANE_EYRE = foreign({
+  id: 'janeeyre',
+  name: '简·爱',
+  book: '简·爱',
+  title: 'Jane Eyre',
+  author: '夏洛蒂·勃朗特',
+  description: '孤女简·爱从盖茨海德、劳渥德到桑菲尔德的成长与爱情。理清她与里德家、罗切斯特和里弗斯兄妹的关系，英文原著 38 章，附 F. H. Townsend 插图。',
+  cover: '/media/covers/janeeyre.jpg',
+  ebook: 1260,
+  unit: '章',
+  units: 38,
+  periodSize: 5,
+  examples: { search: 'Rochester、桑菲尔德', from: 'Jane Eyre', to: 'Edward Rochester' },
+  prompts: { cluster: '「红房子」「桑菲尔德大火」「婚礼中断」', community: '「里德一家」「桑菲尔德府」「里弗斯兄妹」' },
+  extract: [
+    '叙述者「I」写「Jane Eyre」；「Mr. Rochester」写「Edward Rochester」；「St. John」写「St. John Rivers」。',
+    '盖茨海德、劳渥德、桑菲尔德、沼泽居、芬丁庄园作 Place。',
+  ],
+});
+
 const LUNYU = {
   id: 'lunyu',
   name: '论语',
@@ -341,13 +543,15 @@ const MATH = {
   },
 };
 
-const GRAPHS = [SHUIHU, XIYOUJI, HONGLOUMENG, SANGUO, LIAOZHAI, LUNYU, SHIJI, MATH];
+const GRAPHS = [SHUIHU, XIYOUJI, HONGLOUMENG, SANGUO, LIAOZHAI, PRIDE, JANE_EYRE, SHERLOCK, GATSBY, ROMEO, ALICE, LUNYU, SHIJI, MATH];
 
 // G1 不看题材：两个群体之间由边缘成员直接牵起的关系，每个图谱都检测
 const SURPRISE_RULE = {
   literature: { name: '意外连接', hint: '不起眼的角色直接连到另一群体的核心人物，容易读漏' },
+  foreign: { name: '意外连接', hint: '不起眼的角色直接连到另一群体的核心人物，容易读漏' },
   classics: { name: '意外连接', hint: '不起眼的人物直接连到另一群体的核心人物，容易读漏' },
   subject: { name: '意外连接', hint: '冷门知识点直接连到另一板块的核心知识点，容易学漏' },
+  topic: { name: '意外连接', hint: '冷门条目直接连到另一板块的核心条目，容易学漏' },
 };
 for (const g of GRAPHS) g.rules = { ...g.rules, G1: SURPRISE_RULE[g.category] || SURPRISE_RULE.literature };
 
@@ -355,26 +559,71 @@ const BY_ID = new Map(GRAPHS.map((g) => [g.id, g]));
 
 export const CATEGORIES = [
   { id: 'literature', name: '文学名著', description: '读名著：理清人物、势力与情节的来龙去脉' },
+  { id: 'foreign', name: '外国名著', description: '读英文原著：人物用原文名字，配中文译名与简介，证据直接回到原文段落' },
   { id: 'classics', name: '经史典籍', description: '读经史：把语录与史传里的人物、思想和史事串起来' },
   { id: 'subject', name: '学科知识', description: '学课程：知识点的前置、推导与应用一目了然；导入教材、讲义或技术文档也能生成' },
+  { id: 'topic', name: '专题', description: '导入自己的资料：标准规范、制度文件、讲义，按分类整理成一张可追溯原文的知识网' },
 ];
+
+/** 专题配置注册成图谱；同 id 再注册即更新（改名、改简介） */
+export function registerTopic(meta) {
+  const graph = topicGraph(meta);
+  graph.rules = { ...graph.rules, G1: SURPRISE_RULE.topic };
+  setPurpose(graph.id, graph.purpose);
+  const i = GRAPHS.findIndex((g) => g.id === graph.id);
+  if (i >= 0) GRAPHS[i] = graph;
+  else GRAPHS.push(graph);
+  BY_ID.set(graph.id, graph);
+  unitLabels.delete(graph.id);
+  return graph;
+}
+
+export function unregisterGraph(id) {
+  const i = GRAPHS.findIndex((g) => g.id === id);
+  if (i >= 0) GRAPHS.splice(i, 1);
+  BY_ID.delete(id);
+  unitLabels.delete(id);
+  setPurpose(id, null);
+}
+
+/** 图谱的本地数据目录：固定图谱在 data/<id>/，专题在 data/topics/<id>/ */
+export function graphDataDir(id) {
+  return BY_ID.get(id)?.dataDir || path.resolve('data', id);
+}
 
 export function listGraphs() {
   return GRAPHS;
 }
 
+/** 命令行（另一个进程）新建的专题，本进程第一次用到时从磁盘补登记 */
+function adoptTopic(id) {
+  if (BY_ID.has(id)) return;
+  const meta = readTopicMeta(id);
+  if (meta) registerTopic(meta);
+}
+
+/** 列表类接口调用：补上别的进程新建的专题，去掉已删的 */
+export function syncTopics() {
+  for (const meta of readTopicMetas()) adoptTopic(meta.id);
+  for (const g of GRAPHS.filter((x) => x.topic)) if (!readTopicMeta(g.id)) unregisterGraph(g.id);
+}
+
 export function getGraph(id) {
+  adoptTopic(id);
   const g = BY_ID.get(id);
   if (!g) throw Object.assign(new Error(`未知图谱：${id}`), { status: 404 });
   return g;
 }
 
 export function hasGraph(id) {
+  adoptTopic(id);
   return BY_ID.has(id);
 }
 
 // 有名称的单元（数学的「七上·1.2」、史记的「项羽本纪」）由入库时写到 Chapter.label，这里缓存
 const unitLabels = new Map();
+
+for (const meta of readTopicMetas()) registerTopic(meta);
 
 export function setUnitLabels(graphId, map) {
   unitLabels.set(graphId, map);
@@ -382,6 +631,11 @@ export function setUnitLabels(graphId, map) {
 
 export function hasUnitLabels(graphId) {
   return unitLabels.has(graphId);
+}
+
+/** 重新入库后单元可能变了，下次请求时重读 */
+export function clearUnitLabels(graphId) {
+  unitLabels.delete(graphId);
 }
 
 export function unitLabel(graph, no) {
@@ -409,6 +663,8 @@ export function profileOf(graph, locale = 'zh') {
     book: graph.book,
     category: graph.category,
     kind: graph.kind,
+    lang: graph.lang || 'zh',
+    author: graph.author || null,
     description: graph.description,
     cover: graph.cover,
     source: graph.source,

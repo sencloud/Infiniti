@@ -1,0 +1,211 @@
+{
+ "no": 21,
+ "title": "Juliet’s Chamber; Juliet on the bed",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6460,
+   "entities": [
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Mistress",
+      "Madam",
+      "Lady",
+      "Sweetheart",
+      "bride",
+      "my child",
+      "my only life",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，假死被误认为真死。"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "my lord",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "朱丽叶之父，为女儿安排婚事。"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "my lady",
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "朱丽叶之母，发现女儿‘死亡’。"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County",
+      "County Paris",
+      "Sir Paris"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，朱丽叶的未婚夫。"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar Lawrence",
+      "Friar",
+      "the Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "神父，为朱丽叶策划假死。"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，发现其‘死亡’。"
+    },
+    {
+     "name": "Peter",
+     "type": "Person",
+     "aliases": [
+      "the Nurse's man"
+     ],
+     "nickname": "彼得",
+     "description": "奶妈的仆人，与乐师争吵。"
+    },
+    {
+     "name": "First Musician",
+     "type": "Person",
+     "aliases": [
+      "Simon Catling",
+      "Musician"
+     ],
+     "nickname": "乐师甲",
+     "description": "乐师，与彼得斗嘴。"
+    },
+    {
+     "name": "Second Musician",
+     "type": "Person",
+     "aliases": [
+      "Hugh Rebeck",
+      "Musician"
+     ],
+     "nickname": "乐师乙",
+     "description": "乐师，参与争吵。"
+    },
+    {
+     "name": "Third Musician",
+     "type": "Person",
+     "aliases": [
+      "James Soundpost",
+      "Musician"
+     ],
+     "nickname": "乐师丙",
+     "description": "乐师，被彼得问话。"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "朱丽叶所属的家族。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "My child, my only life.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "My child, my only life.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "SPOUSE",
+     "object": "Paris",
+     "evidence": "The County Paris hath set up his rest That you shall rest but little.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Juliet Capulet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Capulet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Lady Capulet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "Juliet's nurse",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peter",
+     "predicate": "SERVANT_OF",
+     "object": "Nurse",
+     "evidence": "the Nurse's man",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peter",
+     "predicate": "QUARRELED",
+     "object": "First Musician",
+     "evidence": "I will then give it you soundly.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peter",
+     "predicate": "QUARRELED",
+     "object": "Second Musician",
+     "evidence": "Pray you put up your dagger, and put out your wit.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peter",
+     "predicate": "QUARRELED",
+     "object": "Third Musician",
+     "evidence": "What say you, James Soundpost?",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:03.270Z"
+}

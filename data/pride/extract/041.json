@@ -1,0 +1,756 @@
+{
+ "no": 41,
+ "title": "When Colonel Miller’s regiment went away",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8018,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧理智"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温和"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，轻浮爱慕虚荣"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，常随丽迪雅"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，冷嘲疏懒"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，浅薄多虑"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，傲慢但正直"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西表兄，军人"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "班纳特家姻亲，律师"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团上校，理智明理"
+    },
+    {
+     "name": "Mrs. Forster",
+     "type": "Person",
+     "aliases": [
+      "Harriet"
+     ],
+     "nickname": "福斯特太太",
+     "description": "福斯特上校之妻，新婚年轻"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Longbourn House",
+     "type": "Place",
+     "aliases": [
+      "Longbourn"
+     ],
+     "nickname": "浪搏恩",
+     "description": "班纳特家宅邸"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近城镇，民兵团驻地"
+    },
+    {
+     "name": "Brighton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布莱顿",
+     "description": "海滨浴场城镇，军营所在"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "The elder Miss Bennets alone were still able to eat, drink, and sleep",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Very frequently were they reproached for this insensibility by Kitty and Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Very frequently were they reproached for this insensibility by Kitty and Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "she could not help secretly advising her father not to let her go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Their affectionate mother shared all their grief",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The elder Miss Bennets alone were still able to eat, drink, and sleep",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The elder Miss Bennets alone were still able to eat, drink, and sleep",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Wherever you and Jane are known, you must be respected and valued",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Their affectionate mother shared all their grief",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Very frequently were they reproached for this insensibility by Kitty and Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "she could not help secretly advising her father not to let her go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Their affectionate mother shared all their grief",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "she could not help secretly advising her father not to let her go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Their affectionate mother shared all their grief",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "Their affectionate mother shared all their grief",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Forster",
+     "evidence": "she received an invitation from Mrs. Forster, the wife of the colonel of the regiment",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The elder Miss Bennets alone were still able to eat, drink, and sleep",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The elder Miss Bennets alone were still able to eat, drink, and sleep",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Very frequently were they reproached for this insensibility by Kitty and Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Very frequently were they reproached for this insensibility by Kitty and Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "she could not help secretly advising her father not to let her go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Their affectionate mother shared all their grief",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "Such were the kind of lamentations resounding perpetually through Longbourn House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "Such were the kind of lamentations resounding perpetually through Longbourn House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "Such were the kind of lamentations resounding perpetually through Longbourn House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "Such were the kind of lamentations resounding perpetually through Longbourn House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "Such were the kind of lamentations resounding perpetually through Longbourn House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "Such were the kind of lamentations resounding perpetually through Longbourn House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "Such were the kind of lamentations resounding perpetually through Longbourn House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Forster",
+     "predicate": "FRIEND",
+     "object": "Lydia Bennet",
+     "evidence": "A resemblance in good-humour and good spirits had recommended her and Lydia to each other, and out of their three months’ acquaintance they had been intimate two.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "FRIEND",
+     "object": "Mrs. Forster",
+     "evidence": "A resemblance in good-humour and good spirits had recommended her and Lydia to each other, and out of their three months’ acquaintance they had been intimate two.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Forster",
+     "predicate": "HELPED",
+     "object": "Lydia Bennet",
+     "evidence": "she received an invitation from Mrs. Forster, the wife of the colonel of the regiment, to accompany her to Brighton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "HELPED",
+     "object": "Mr. Bennet",
+     "evidence": "she could not help secretly advising her father not to let her go",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "If one could but go to Brighton!",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "she received an invitation from Mrs. Forster, the wife of the colonel of the regiment, to accompany her to Brighton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "If one could but go to Brighton!",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "If one could but go to Brighton!",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "She felt anew the justice of Mr. Darcy’s objections",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "She felt anew the justice of Mr. Darcy’s objections",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 4937,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐，本片段中与韦翰最后一次见面。"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，曾与伊丽莎白交好，对达西心怀怨恨。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，韦翰的旧识与仇敌，伊丽莎白对其看法转变。"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，曾在罗新斯做客，为人温和有礼。"
+    },
+    {
+     "name": "Anne de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Miss de Bourgh",
+      "Anne"
+     ],
+     "nickname": "安妮",
+     "description": "凯瑟琳夫人的女儿，达西的表妹，传闻与达西有婚约。"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，性格轻浮，随福斯特太太前往麦里屯。"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，因嫉妒丽迪雅而哭泣。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，朗博恩庄园主人。"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，为女儿们的婚事操心。"
+    },
+    {
+     "name": "Mrs. Forster",
+     "type": "Person",
+     "aliases": [
+      "Harriet"
+     ],
+     "nickname": "福斯特太太",
+     "description": "福斯特上校的妻子，丽迪雅的好友，带丽迪雅去麦里屯。"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团长官，福斯特太太的丈夫。"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "朗博恩",
+     "description": "班纳特家的宅邸，位于赫特福德郡。"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近的集镇，民兵团驻扎地。"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳·德·包尔夫人的庄园，达西和费茨威廉上校曾到访。"
+    },
+    {
+     "name": "Hunsford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉斯福",
+     "description": "柯林斯先生的牧师住宅所在地，伊丽莎白曾在此做客。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LOVES",
+     "object": "George Wickham",
+     "evidence": "the agitations of former partiality entirely so",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "the inclination he soon testified of renewing those attentions which had marked the early part of their acquaintance",
+     "confidence": 0.8
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "QUARRELED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "You, who so well know my feelings towards Mr. Darcy",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Colonel Fitzwilliam",
+     "evidence": "His manners are very different from his cousin’s",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Anne de Bourgh",
+     "evidence": "his wish of forwarding the match with Miss de Bourgh",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "Colonel Fitzwilliam’s and Mr. Darcy’s having both spent three weeks at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "Colonel Fitzwilliam’s and Mr. Darcy’s having both spent three weeks at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Hunsford",
+     "evidence": "her time had passed at Hunsford",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "FRIEND",
+     "object": "Mrs. Forster",
+     "evidence": "Lydia returned with Mrs. Forster to Meryton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Lydia returned with Mrs. Forster to Meryton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Forster",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Lydia returned with Mrs. Forster to Meryton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "the more gentle adieus of her sisters were uttered without being heard",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Kitty was the only one who shed tears",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "The separation between her and her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Mrs. Bennet was diffuse in her good wishes for the felicity of her daughter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "The separation between her and her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "The separation between her and her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "The separation between her and her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "The separation between her and her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "The separation between her and her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Forster",
+     "evidence": "Lydia returned with Mrs. Forster to Meryton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "he dined, with others of the officers, at Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "he dined, with others of the officers, at Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "he dined, with others of the officers, at Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "he dined, with others of the officers, at Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "he dined, with others of the officers, at Longbourn",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:49.540Z"
+}

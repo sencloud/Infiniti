@@ -1,0 +1,279 @@
+{
+ "no": 4,
+ "title": "WHEN Jane and Elizabeth were alone, the former, who…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5907,
+   "entities": [
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家大小姐，性情温和，对宾利心生爱慕。"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家二小姐，聪慧敏锐，善于观察。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，性格随和，租住内瑟菲尔德庄园。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "达西先生，出身显赫，高傲矜持，与宾利交好。"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，骄傲自负，与兄长同住。"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，嫁与赫斯特先生。"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "赫斯特太太的丈夫，讲究排场但财产不多。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，简与伊丽莎白的父亲。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族，居住在浪博恩。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [
+      "Netherfield House",
+      "Netherfield Park"
+     ],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利先生租住的庄园。"
+    },
+    {
+     "name": "Meryton assembly",
+     "type": "Event",
+     "aliases": [
+      "the assembly"
+     ],
+     "nickname": "麦里屯舞会",
+     "description": "麦里屯的舞会，宾利与达西等人参加。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "WHEN Jane and Elizabeth were alone, the former, who had been cautious in her praise of Mr. Bingley before, expressed to her sister how very much she admired him.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "WHEN Jane and Elizabeth were alone, the former, who had been cautious in her praise of Mr. Bingley before, expressed to her sister how very much she admired him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "WHEN Jane and Elizabeth were alone, the former, who had been cautious in her praise of Mr. Bingley before, expressed to her sister how very much she admired him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "WHEN Jane and Elizabeth were alone, the former, who had been cautious in her praise of Mr. Bingley before, expressed to her sister how very much she admired him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "WHEN Jane and Elizabeth were alone, the former, who had been cautious in her praise of Mr. Bingley before, expressed to her sister how very much she admired him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LOVES",
+     "object": "Charles Bingley",
+     "evidence": "expressed to her sister how very much she admired him.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "as to Miss Bennet, he could not conceive an angel more beautiful.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Miss Bingley is to live with her brother, and keep his house;",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "His sisters were very anxious for his having an estate of his own;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Louisa Hurst",
+     "evidence": "Mrs. Hurst and her sister allowed it to be so;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mr. Hurst",
+     "evidence": "nor was Mrs. Hurst, who had married a man of more fashion than fortune,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "FRIEND",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Between him and Darcy there was a very steady friendship, in spite of a great opposition of character.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "whether he might not spend the remainder of his days at Netherfield,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "Miss Bingley is to live with her brother, and keep his house;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "nor was Mrs. Hurst, who had married a man of more fashion than fortune, less disposed to consider his house as her home when it suited her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Meryton assembly",
+     "evidence": "The manner in which they spoke of the Meryton assembly was sufficiently characteristic.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Meryton assembly",
+     "evidence": "The manner in which they spoke of the Meryton assembly was sufficiently characteristic.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Meryton assembly",
+     "evidence": "The manner in which they spoke of the Meryton assembly was sufficiently characteristic.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Meryton assembly",
+     "evidence": "The manner in which they spoke of the Meryton assembly was sufficiently characteristic.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Meryton assembly",
+     "evidence": "The manner in which they spoke of the Meryton assembly was sufficiently characteristic.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Meryton assembly",
+     "evidence": "The manner in which they spoke of the Meryton assembly was sufficiently characteristic.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meryton assembly",
+     "predicate": "OCCURRED_AT",
+     "object": "Meryton",
+     "evidence": "The manner in which they spoke of the Meryton assembly was sufficiently characteristic.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:48.782Z"
+}

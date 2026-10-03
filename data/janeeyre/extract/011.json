@@ -1,0 +1,756 @@
+{
+ "no": 11,
+ "title": "A new chapter in a novel is something like…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8035,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，前往桑菲尔德任家庭教师"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱在盖茨海德的舅妈，曾苛待简·爱"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德的女管家，接待简·爱"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "简·爱未来的学生，法国小女孩"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德的女仆"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "桑菲尔德的马车夫，驾车缓慢"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "简·爱前往任职的庄园"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳渥德",
+     "description": "简·爱曾就读的慈善学校"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "乔治客栈所在的城镇"
+    },
+    {
+     "name": "Lowton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳顿",
+     "description": "简·爱凌晨四点离开的小镇"
+    },
+    {
+     "name": "George Inn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "乔治客栈",
+     "description": "米尔科特的客栈，简·爱在此等候"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "I felt rather confused at being the object of more attention than I had ever before received, and, that too, shown by my employer and superior",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "Leah, make a little hot negus and cut a sandwich or two: here are the keys of the storeroom.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "John drives so slowly",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "George Inn",
+     "evidence": "you must fancy you see a room in the George Inn at Millcote",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "we were passing a church; I saw its low broad tower against the sky, and its bell was tolling a quarter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "I felt we were in a different region to Lowood, more populous, less picturesque; more stirring, less romantic.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "Millcote was behind us; judging by the number of its lights, it seemed a place of considerable magnitude, much larger than Lowton.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowton",
+     "evidence": "I left Lowton at four o’clock A.M.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I wonder if she lives alone except this little girl",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I wonder if she lives alone except this little girl",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "Varens is the name of your future pupil.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "with Mrs. Reed, I remember my best was always spurned with scorn",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7956,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，刚到桑菲尔德的新家庭教师"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德的女管家，和善健谈的老妇人"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adela Varens",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "费尔法克斯太太的远亲，简·爱的学生"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德的女仆，曾为费尔法克斯太太读书"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "桑菲尔德的男仆/车夫，有妻子"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Organization",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德",
+     "description": "费尔法克斯太太管理、简·爱居住的古老宅邸"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳渥德",
+     "description": "简·爱曾就读的学校，条件简陋"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "桑菲尔德附近热闹的城镇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "I should have followed up my first inquiry, by asking in what way Miss Varens was connected with her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "my new pupil would not at least recoil from me with antipathy",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "it will be quite pleasant living here now with a companion",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "what a great place it was for one lonely little dame like Mrs. Fairfax to inhabit",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "just at the commencement of this autumn, little Adela Varens came and her nurse",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "Leah is a nice girl to be sure, and John and his wife are very decent people; but then you see they are only servants",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "Leah is a nice girl to be sure, and John and his wife are very decent people; but then you see they are only servants",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "so unlike the bare planks and stained plaster of Lowood",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Thornfield",
+     "predicate": "LIVES_AT",
+     "object": "Millcote",
+     "evidence": "seeming to embrace Thornfield with a seclusion I had not expected to find existent so near the stirring locality of Millcote",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7579,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，桑菲尔德府的家庭教师"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府的主人，阿黛尔的监护人"
+    },
+    {
+     "name": "Madame Pierrot",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "皮埃罗夫人",
+     "description": "简·爱在洛伍德学校时的法语老师"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府的女管家，与罗切斯特家沾亲"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的受监护人，简·爱的学生"
+    },
+    {
+     "name": "Mrs. Alice Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Alice Fairfax",
+      "the housekeeper"
+     ],
+     "nickname": "爱丽丝·费尔法克斯",
+     "description": "即 Mrs. Fairfax，桑菲尔德府的女管家"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的庄园，简·爱任家庭教师之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "She is Mr. Rochester's ward; he commissioned me to find a governess for her.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "Come and speak to the lady who is to teach you, and to make you a clever woman some day.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "She is Mr. Rochester's ward; he commissioned me to find a governess for her.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I am only the housekeeper—the manager.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "KIN",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I am distantly related to the Rochesters by the mother's side, or at least my husband was;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "The owner of Thornfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "How do you like Thornfield?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Madame Pierrot",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "I had had the advantage of being taught French by a French lady;",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7803,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，桑菲尔德府的家庭教师"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府主人，阿黛尔的监护人"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府管家"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "简·爱的学生，罗切斯特的受监护人"
+    },
+    {
+     "name": "Madame Frédéric",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "弗雷德里克夫人",
+     "description": "曾照顾阿黛尔的人，与阿黛尔无亲属关系"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的宅邸，简·爱任教之地"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳渥德",
+     "description": "简·爱曾就读的慈善学校"
+    },
+    {
+     "name": "Rochester family",
+     "type": "Organization",
+     "aliases": [
+      "the Rochesters"
+     ],
+     "nickname": "罗切斯特家族",
+     "description": "当地古老家族，拥有大片土地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Adèle Varens",
+     "predicate": "GUARDIAN_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mr. Rochester asked me if I would like to go and live with him in England",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mr. Rochester had directed should be used as the schoolroom",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "This was all the account I got from Mrs. Fairfax of her employer and mine.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "This was all the account I got from Mrs. Fairfax of her employer and mine.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "MEMBER_OF",
+     "object": "Rochester family",
+     "evidence": "Almost all the land in this neighbourhood, as far as you can see, has belonged to the Rochesters time out of mind.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "if there were a ghost at Thornfield Hall, this would be its haunt.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "All these relics gave to the third storey of Thornfield Hall the aspect of a home of the past: a shrine of memory.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "After breakfast, Adèle and I withdrew to the library, which room, it appears, Mr. Rochester had directed should be used as the schoolroom.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Mrs. Fairfax was dusting some vases of fine purple spar, which stood on a sideboard.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "compared with the scanty pickings I had now and then been able to glean at Lowood",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Madame Frédéric",
+     "predicate": "HELPED",
+     "object": "Adèle Varens",
+     "evidence": "she took care of me, but she is nothing related to me.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 3840,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，桑菲尔德府的家庭教师"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府的女管家，寡妇"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "简·爱的学生，法国小女孩"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Grace",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "桑菲尔德府的女仆，常在楼上缝纫"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德府的女佣"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [
+      "the hall",
+      "mansion"
+     ],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特先生的宅邸，简·爱任教之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "“She is a person we have to sew and assist Leah in her housemaid’s work,” continued the widow",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "“She is a person we have to sew and assist Leah in her housemaid’s work,” continued the widow",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "“She is a person we have to sew and assist Leah in her housemaid’s work,” continued the widow",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "how have you got on with your new pupil this morning?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "I followed still, up a very narrow staircase to the attics, and thence by a ladder and through a trap-door to the roof of the hall.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "We found dinner ready, and waiting for us in Mrs. Fairfax’s room.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Adèle came running to meet us in the hall",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "she sews in one of these rooms",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Leah",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Sometimes Leah is with her; they are frequently noisy together.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:04.192Z"
+}

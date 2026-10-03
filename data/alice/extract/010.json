@@ -1,0 +1,170 @@
+{
+ "no": 10,
+ "title": "The Lobster Quadrille",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7703,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，小女孩，与假海龟和狮鹫交谈并跳舞。"
+    },
+    {
+     "name": "Mock Turtle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "假海龟",
+     "description": "会说话的拟人海龟，悲伤，讲述龙虾四对舞并唱歌。"
+    },
+    {
+     "name": "Gryphon",
+     "type": "Person",
+     "aliases": [
+      "Griffin"
+     ],
+     "nickname": "狮鹫",
+     "description": "狮鹫，与假海龟一起，活跃，打断并解释。"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "爱丽丝冒险中最初见到的白兔。"
+    },
+    {
+     "name": "Caterpillar",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "毛毛虫",
+     "description": "爱丽丝曾对其背诵诗歌的毛毛虫。"
+    },
+    {
+     "name": "Turtle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "乌龟",
+     "description": "龙虾四对舞中提到的乌龟，作为参与者。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Gryphon",
+     "predicate": "HELPED",
+     "object": "Mock Turtle",
+     "evidence": "it set to work shaking him and punching him in the back",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "White Rabbit",
+     "evidence": "from the time when she first saw the White Rabbit",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "Caterpillar",
+     "evidence": "she got to the part about her repeating “You are old, Father William,” to the Caterpillar",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Turtle",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Lobster Quadrille",
+     "evidence": "See how eagerly the lobsters and the turtles all advance!",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3522,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝",
+     "description": "故事主角，小女孩"
+    },
+    {
+     "name": "Gryphon",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "狮鹫",
+     "description": "神话生物，与假海龟一起"
+    },
+    {
+     "name": "Mock Turtle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "假海龟",
+     "description": "悲伤的拟人海龟"
+    },
+    {
+     "name": "Turtle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "乌龟",
+     "description": "假海龟歌中提到的乌龟"
+    },
+    {
+     "name": "Panther",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "黑豹",
+     "description": "歌中与猫头鹰分馅饼的角色"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Gryphon",
+     "predicate": "FRIEND",
+     "object": "Mock Turtle",
+     "evidence": "“Shall we try another figure of the Lobster Quadrille?” the Gryphon went on. “Or would you like the Mock Turtle to sing you a song?”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Gryphon",
+     "predicate": "HELPED",
+     "object": "Alice",
+     "evidence": "“Come on!” cried the Gryphon, and, taking Alice by the hand, it hurried off",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mock Turtle",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Lobster Quadrille",
+     "evidence": "“Shall we try another figure of the Lobster Quadrille?”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Gryphon",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Lobster Quadrille",
+     "evidence": "“Shall we try another figure of the Lobster Quadrille?”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Lobster Quadrille",
+     "evidence": "“Shall we try another figure of the Lobster Quadrille?”",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:43.120Z"
+}

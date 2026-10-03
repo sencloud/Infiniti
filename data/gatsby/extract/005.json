@@ -1,0 +1,417 @@
+{
+ "no": 5,
+ "title": "When I came home to West Egg that night…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7750,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，住在西卵，邀请黛西来喝茶"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵富豪，深爱黛西，安排与黛西重逢"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "尼克表亲，盖茨比旧爱，已婚"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，被尼克警告不要带来"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Miss Baker",
+      "Jordan"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克与她谈及盖茨比计划"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wolfsheim",
+      "Wolfshiem"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的生意伙伴，涉及秘密交易"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [
+      "West Egg Village"
+     ],
+     "nickname": "西卵",
+     "description": "长岛半岛，尼克与盖茨比居住地"
+    },
+    {
+     "name": "Coney Island",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "康尼岛",
+     "description": "游乐胜地，盖茨比提议前往"
+    },
+    {
+     "name": "Gatsby's house",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨比宅邸",
+     "description": "西卵的豪华宅邸，灯火通明"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "I'm going to call up Daisy tomorrow and invite her over here to tea.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "Don't bring Tom.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "I talked with Miss Baker",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Daisy Buchanan",
+     "evidence": "I called up Daisy from the office next morning, and invited her to come to tea.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "I talked with Miss Baker",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's house",
+     "evidence": "it was Gatsby's house, lit from tower to cellar.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "When I came home to West Egg that night",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Coney Island",
+     "evidence": "Let's go to Coney Island, old sport.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "SERVANT_OF",
+     "object": "Meyer Wolfsheim",
+     "evidence": "You wouldn't have to do any business with Wolfshiem.",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7588,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵神秘富豪，深爱黛西"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "盖茨比旧爱，已嫁汤姆"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "I"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比邻居"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛海湾，盖茨比与尼克居所"
+    },
+    {
+     "name": "Gatsby's house",
+     "type": "Place",
+     "aliases": [
+      "his house",
+      "my house"
+     ],
+     "nickname": "盖茨比宅邸",
+     "description": "盖茨比在西卵的豪华庄园"
+    },
+    {
+     "name": "the Merton College Library",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "默顿学院图书馆",
+     "description": "盖茨比宅内一间仿牛津的图书室"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "his distraught eyes stared down at Daisy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's house",
+     "evidence": "Gatsby's enormous house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "I went in",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "Daisy came out of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "the Merton College Library",
+     "evidence": "Gatsby closed the door of “the Merton College Library”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "the Merton College Library",
+     "evidence": "we wandered through Marie Antoinette music-rooms and Restoration Salons",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "the Merton College Library",
+     "evidence": "we wandered through Marie Antoinette music-rooms and Restoration Salons",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7993,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵神秘富豪，深爱黛西，执着于重续旧梦"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "盖茨比旧爱，已嫁汤姆，声音迷人"
+    },
+    {
+     "name": "Klipspringer",
+     "type": "Person",
+     "aliases": [
+      "Mr. Klipspringer",
+      "Ewing",
+      "the boarder"
+     ],
+     "nickname": "克里普斯普林格",
+     "description": "盖茨比宅中寄宿者，常弹钢琴"
+    },
+    {
+     "name": "Dan Cody",
+     "type": "Person",
+     "aliases": [
+      "Cody",
+      "Mr. Cody"
+     ],
+     "nickname": "丹·科迪",
+     "description": "盖茨比早年挚友，已故，照片挂于盖茨比书房"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比邻居，见证重逢"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛海湾西侧村落，盖茨比与尼克居所"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "邻近城市，通勤火车往返"
+    },
+    {
+     "name": "the Sound",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "海湾",
+     "description": "分隔西卵与东卵的水域"
+    },
+    {
+     "name": "Gatsby's house",
+     "type": "Place",
+     "aliases": [
+      "his house"
+     ],
+     "nickname": "盖茨比宅邸",
+     "description": "西卵豪华宅邸，内有众多房间与泳池"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "He hadn’t once ceased looking at Daisy, and I think he revalued everything in his house according to the measure of response it drew from her well-loved eyes.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LOVES",
+     "object": "Jay Gatsby",
+     "evidence": "Daisy put her arm through his abruptly, but he seemed absorbed in what he had just said.",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Klipspringer",
+     "predicate": "SERVANT_OF",
+     "object": "Jay Gatsby",
+     "evidence": "It was Mr. Klipspringer, the “boarder.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Dan Cody",
+     "evidence": "He’s dead now. He used to be my best friend years ago.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's house",
+     "evidence": "Finally we came to Gatsby’s own apartment, a bedroom and a bath, and an Adam’s study, where we sat down and drank a glass of some Chartreuse he took from a cupboard in the wall.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "We went upstairs, through period bedrooms swathed in rose and lavender silk and vivid with new flowers, through dressing-rooms and poolrooms, and bathrooms with sunken baths—intruding into one chamber where a dishevelled man in pyjamas was doing liver exercises on the floor.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "When I came home to West Egg that night…",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:00.086Z"
+}

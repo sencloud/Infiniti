@@ -56,7 +56,7 @@ import RelationDetailDrawer from './RelationDetailDrawer'
 import QuickLocatePanel from './QuickLocatePanel'
 import NodeGallery from './NodeGallery'
 import MobileEntitySheet from './MobileEntitySheet'
-import VideoModal, { episodeTarget, episodesForChapters, useVideoCatalog, type VideoTarget } from '@/components/VideoModal'
+import VideoModal, { episodeLabel, episodeTarget, episodesForChapters, useVideoCatalog, type VideoTarget } from '@/components/VideoModal'
 import { locateLibraries, type LocateLibrary } from './locateLibraries'
 import { activeProfile, unitLabel, unitRange } from '@/graph/profile'
 import i18n from '@/i18n'
@@ -838,7 +838,7 @@ export default function ExploreGraphPage() {
               <div className="ep-chips">
                 {selectedEpisodes.slice(0, 8).map((ep) => (
                   <button type="button" key={ep.ep} className="ep-chip" onClick={() => setVideo(episodeTarget(videoCatalog, ep))}>
-                    {i18n.t('video.episode', { ep: ep.ep, title: ep.title })}
+                    {episodeLabel(ep)}
                   </button>
                 ))}
               </div>
@@ -890,7 +890,7 @@ export default function ExploreGraphPage() {
                       onClick={() => setVideo(episodeTarget(videoCatalog, ep))}
                       title={i18n.t('explore.episode', { chapters: ep.chapters.join(i18n.language.startsWith('en') ? ', ' : '、'), unit: activeProfile().unit.name })}
                     >
-                      {i18n.t('video.episode', { ep: ep.ep, title: ep.title })}
+                      {episodeLabel(ep)}
                     </button>
                   ))}
                   {selectedEpisodes.length > 6 && <span className="inf-nc-more">{i18n.t('explore.moreEpisodes', { count: selectedEpisodes.length - 6 })}</span>}

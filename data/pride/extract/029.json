@@ -1,0 +1,604 @@
+{
+ "no": 29,
+ "title": "Lady Catherine, said she, you have given me a treasure",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6787,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "达西先生，彭伯里庄园主人，凯瑟琳夫人的外甥"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立，本片段中造访罗新斯"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，本片段未直接出场"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯庄园女主人，达西的姨妈，傲慢专横"
+    },
+    {
+     "name": "Anne de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Miss de Bourgh",
+      "Anne"
+     ],
+     "nickname": "安妮",
+     "description": "凯瑟琳夫人之女，体弱苍白，沉默寡言"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，夏绿蒂的丈夫，凯瑟琳夫人的牧师"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白的好友，柯林斯先生的妻子"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "夏绿蒂和玛丽亚的父亲，曾入宫廷"
+    },
+    {
+     "name": "Maria Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Maria"
+     ],
+     "nickname": "玛丽亚",
+     "description": "夏绿蒂的妹妹，胆小羞怯"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵团军官，曾向伊丽莎白描述凯瑟琳夫人"
+    },
+    {
+     "name": "Mrs. Jenkinson",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "詹金森太太",
+     "description": "安妮·德·包尔小姐的陪伴者"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人的庄园，柯林斯夫妇的赞助人宅邸"
+    },
+    {
+     "name": "St. James's",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣詹姆斯宫",
+     "description": "英国宫廷所在地，威廉爵士曾在此觐见"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族，伊丽莎白、凯蒂等所属"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "The power of displaying the grandeur of his patroness to his wondering visitors",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SPOUSE",
+     "object": "Charlotte Lucas",
+     "evidence": "letting them see her civility towards himself and his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Maria Lucas",
+     "evidence": "his daughter, frightened almost out of her senses",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Charlotte Lucas",
+     "evidence": "his son-in-law said",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Do not make yourself uneasy, my dear cousin",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Elizabeth saw much to be pleased with",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Catherine Bennet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "KIN",
+     "object": "Anne de Bourgh",
+     "evidence": "Lady Catherine, her daughter, and Mrs. Jenkinson were sitting",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "KIN",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "she soon found some resemblance of Mr. Darcy",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "spend the evening at Rosings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Anne de Bourgh",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "Lady Catherine, her daughter, and Mrs. Jenkinson were sitting",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Jenkinson",
+     "predicate": "SERVANT_OF",
+     "object": "Anne de Bourgh",
+     "evidence": "Mrs. Jenkinson was chiefly employed in watching how little Miss de Bourgh ate",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "their visit to Rosings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "their visit to Rosings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "she looked forward to her introduction at Rosings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "their visit to Rosings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "their visit to Rosings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "VISITED",
+     "object": "St. James's",
+     "evidence": "his presentation at St. James's",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Elizabeth Bennet",
+     "evidence": "she believed Lady Catherine to be exactly what he had represented",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 6846,
+   "entities": [
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine",
+      "her Ladyship"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯的女主人，达西的姨妈，傲慢爱干涉他人"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏，不惧权贵"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Charlotte",
+      "Mrs. Collins",
+      "Miss Lucas"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白的好友，柯林斯太太，现居汉斯福"
+    },
+    {
+     "name": "Maria Lucas",
+     "type": "Person",
+     "aliases": [
+      "Maria",
+      "Miss Lucas"
+     ],
+     "nickname": "玛丽亚",
+     "description": "夏绿蒂的妹妹，随伊丽莎白同访汉斯福"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯先生",
+     "description": "班纳特家财产继承人，夏绿蒂的丈夫，谄媚牧师"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "夏绿蒂之父，曾为商人，后获爵士头衔"
+    },
+    {
+     "name": "Mrs. Jenkinson",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "詹金森太太",
+     "description": "德·包尔小姐的陪伴人，常伴其左右"
+    },
+    {
+     "name": "Miss De Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Anne de Bourgh"
+     ],
+     "nickname": "德·包尔小姐",
+     "description": "凯瑟琳夫人的女儿，体弱多病，沉默寡言"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "伊丽莎白之父，喜好读书，厌恶伦敦社交"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "班纳特太太",
+     "description": "伊丽莎白之母，热衷为女儿们攀亲"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Jane",
+      "Miss Bennet"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，伊丽莎白的姐姐"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，伊丽莎白的妹妹"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，未满十六岁，已进入社交界"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [
+      "Rosings Park"
+     ],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人的庄园，柯林斯夫妇住所附近"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [
+      "the Bennets"
+     ],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及五个女儿组成的家庭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "KIN",
+     "object": "Miss De Bourgh",
+     "evidence": "Lady Catherine and her daughter had played as long as they chose",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "SPOUSE",
+     "object": "Mr. Collins",
+     "evidence": "Mr. and Mrs. Collins sat down to quadrille",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Charlotte Lucas",
+     "evidence": "Sir William, and Mr. and Mrs. Collins sat down to quadrille",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Maria Lucas",
+     "evidence": "she addressed a variety of questions to Maria and Elizabeth",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Your father’s estate is entailed on Mr. Collins",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "what had been her mother’s maiden name?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "how many sisters she had, whether they were older or younger than herself",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "how many sisters she had, whether they were older or younger than herself",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my youngest is not sixteen",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Your father’s estate is entailed on Mr. Collins",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Your father’s estate is entailed on Mr. Collins",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my youngest is not sixteen",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "what had been her mother’s maiden name?",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "what had been her mother’s maiden name?",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my youngest is not sixteen",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "how many sisters she had, whether they were older or younger than herself",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Your father’s estate is entailed on Mr. Collins",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "all that she had seen at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "all that she had seen at Rosings",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "all that she had seen at Rosings",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "all that she had seen at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "all that she had seen at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "all that she had seen at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Jenkinson",
+     "predicate": "SERVANT_OF",
+     "object": "Miss De Bourgh",
+     "evidence": "Mrs. Jenkinson expressed her fears of Miss De Bourgh’s being too hot or too cold",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "HELPED",
+     "object": "Mrs. Jenkinson",
+     "evidence": "Four nieces of Mrs. Jenkinson are most delightfully situated through my means",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:31.683Z"
+}

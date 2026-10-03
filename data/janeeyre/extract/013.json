@@ -1,0 +1,509 @@
+{
+ "no": 13,
+ "title": "Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8024,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德府的家庭教师，本片段中与罗切斯特初次正式会面。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master",
+      "Monsieur Edouard Fairfax de Rochester"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府的主人，脚踝扭伤，性格阴郁而专横。"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Temple",
+      "Miss Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "罗沃德学校的教师，曾赠予简·爱珍珠胸针作为离别纪念。"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府的女管家，和蔼而略显平庸，负责接待与照料。"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "简·爱的学生，罗切斯特的被监护人，活泼好动，说法语。"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特先生的庄园，本片段中因主人归来而变得热闹。"
+    },
+    {
+     "name": "Lowood",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "罗沃德学校",
+     "description": "简·爱曾就读的慈善学校，影响其着装观念。"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近的城镇，罗切斯特的行李从此处运来。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Here is Miss Eyre, sir",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "I and my pupil dined as usual in Mrs. Fairfax’s parlour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "GUARDIAN_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "she says you have always been in the habit of giving her playthings",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mr. Rochester would be glad if you and your pupil would take tea with him in the drawing-room this evening",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I had a single little pearl ornament which Miss Temple gave me as a parting keepsake",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Thornfield Hall was a changed place: no longer silent as a church, it echoed every hour or two to a knock at the door",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "I and my pupil dined as usual in Mrs. Fairfax’s parlour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "I and my pupil dined as usual in Mrs. Fairfax’s parlour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "I and my pupil dined as usual in Mrs. Fairfax’s parlour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "when his luggage came from Millcote",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "MEMBER_OF",
+     "object": "Lowood",
+     "evidence": "in my Lowood notions of the toilette",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7908,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，桑菲尔德府的家庭教师"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府主人，简·爱的雇主与爱人"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校主管，严厉的牧师"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府管家，简·爱的朋友"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的养女，简·爱的学生"
+    },
+    {
+     "name": "Lowood school",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "劳渥德学校",
+     "description": "简·爱曾就读并任教的慈善学校"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的庄园，简·爱任家庭教师之地"
+    },
+    {
+     "name": "Hay Lane",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "干草小径",
+     "description": "简·爱与罗切斯特初次相遇的小路"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "You have been resident in my house three months?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "a kind and careful teacher to Adèle",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "Miss Eyre has been an invaluable companion to me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "now the inmates of Thornfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowood school",
+     "evidence": "From Lowood school, in ——shire.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Hay Lane",
+     "evidence": "When you came on me in Hay Lane last night",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "HARMED",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "She began by felling my horse.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "QUARRELED",
+     "object": "Mr. Brocklehurst",
+     "evidence": "I disliked Mr. Brocklehurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "He starved us when he had the sole superintendence of the provision department",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood school",
+     "evidence": "Brocklehurst, who I understand directs Lowood",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax had settled into a corner with her knitting",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "the inmates of Thornfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "the inmates of Thornfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "my house",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 6202,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，桑菲尔德府的家庭教师，善绘画"
+    },
+    {
+     "name": "Edward Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府主人，性情多变，曾与家庭决裂"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府管家，对罗切斯特家事有所了解"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特监护的小女孩，简·爱的学生"
+    },
+    {
+     "name": "Rowland Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rowland"
+     ],
+     "nickname": "罗兰·罗切斯特",
+     "description": "爱德华·罗切斯特的哥哥，已故，生前与弟弟有误会"
+    },
+    {
+     "name": "Old Mr. Rochester",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "老罗切斯特先生",
+     "description": "爱德华与罗兰的父亲，爱财，已故"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的庄园，简·爱任家庭教师之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Rochester",
+     "evidence": "It is nine o’clock: what are you about, Miss Eyre, to let Adèle sit up so long? Take her to bed.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "Take her to bed.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "Take her to bed.",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Edward Rochester",
+     "predicate": "KIN",
+     "object": "Rowland Rochester",
+     "evidence": "He lost his elder brother a few years since.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Rochester",
+     "predicate": "KIN",
+     "object": "Old Mr. Rochester",
+     "evidence": "Old Mr. Rochester and Mr. Rowland combined to bring Mr. Edward into what he considered a painful position",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Rowland Rochester",
+     "predicate": "KIN",
+     "object": "Old Mr. Rochester",
+     "evidence": "Old Mr. Rochester and Mr. Rowland combined to bring Mr. Edward into what he considered a painful position",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I don’t think he has ever been resident at Thornfield for a fortnight together",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Rochester",
+     "predicate": "QUARRELED",
+     "object": "Rowland Rochester",
+     "evidence": "I believe there were some misunderstandings between them.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Rochester",
+     "predicate": "QUARRELED",
+     "object": "Old Mr. Rochester",
+     "evidence": "He broke with his family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Rowland Rochester",
+     "predicate": "HARMED",
+     "object": "Edward Rochester",
+     "evidence": "Mr. Rowland Rochester was not quite just to Mr. Edward; and perhaps he prejudiced his father against him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Old Mr. Rochester",
+     "predicate": "HARMED",
+     "object": "Edward Rochester",
+     "evidence": "Old Mr. Rochester and Mr. Rowland combined to bring Mr. Edward into what he considered a painful position",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Rochester",
+     "evidence": "I am so accustomed to his manner, I never think of it",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:59.769Z"
+}

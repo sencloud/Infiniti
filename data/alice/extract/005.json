@@ -1,0 +1,95 @@
+{
+ "no": 5,
+ "title": "Advice from a Caterpillar",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8002,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，误入奇境的小女孩"
+    },
+    {
+     "name": "Caterpillar",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "毛毛虫",
+     "description": "坐在蘑菇上抽水烟筒的毛毛虫"
+    },
+    {
+     "name": "Pigeon",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "鸽子",
+     "description": "误认爱丽丝为蛇的鸽子"
+    },
+    {
+     "name": "Father William",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "威廉爸爸",
+     "description": "爱丽丝背诵的诗中人物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Caterpillar",
+     "predicate": "QUARRELED",
+     "object": "Alice",
+     "evidence": "Alice felt a little irritated at the Caterpillar’s making such very short remarks",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Pigeon",
+     "predicate": "HARMED",
+     "object": "Alice",
+     "evidence": "a large pigeon had flown into her face, and was beating her violently with its wings.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Pigeon",
+     "predicate": "QUARRELED",
+     "object": "Alice",
+     "evidence": "“Serpent!” screamed the Pigeon. “I’m not a serpent!” said Alice indignantly.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3643,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝",
+     "description": "故事主角，小女孩，经历身体变化"
+    },
+    {
+     "name": "Pigeon",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "鸽子",
+     "description": "会说话的鸽子，误认爱丽丝为蛇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Pigeon",
+     "predicate": "QUARRELED",
+     "object": "Alice",
+     "evidence": "“Serpent, I say again!” repeated the Pigeon",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:36.313Z"
+}

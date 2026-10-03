@@ -1,0 +1,191 @@
+{
+ "no": 22,
+ "title": "Mantua. A Street",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 3879,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家之子，因误信朱丽叶死讯而买毒药。"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家之女，罗密欧的爱人，假死中。"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar",
+      "the Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "神父，曾答应给罗密欧送信。"
+    },
+    {
+     "name": "Balthasar",
+     "type": "Person",
+     "aliases": [
+      "Romeo's man"
+     ],
+     "nickname": "鲍尔萨泽",
+     "description": "罗密欧的仆人，从维罗纳带来朱丽叶死讯。"
+    },
+    {
+     "name": "Apothecary",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "卖药人",
+     "description": "曼图亚的穷苦卖药人，卖给罗密欧毒药。"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "罗密欧所属的家族。"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "朱丽叶所属的家族。"
+    },
+    {
+     "name": "Mantua",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "曼图亚",
+     "description": "罗密欧流亡所在的城市，卖药人居住于此。"
+    },
+    {
+     "name": "Verona",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "维罗纳",
+     "description": "鲍尔萨泽带来消息的城市。"
+    },
+    {
+     "name": "Capel's monument",
+     "type": "Place",
+     "aliases": [
+      "kindred's vault"
+     ],
+     "nickname": "凯普莱特家墓地",
+     "description": "朱丽叶被安葬的家族墓穴。"
+    },
+    {
+     "name": "poison",
+     "type": "Item",
+     "aliases": [
+      "dram of poison",
+      "mortal drugs"
+     ],
+     "nickname": "毒药",
+     "description": "卖药人卖给罗密欧的致命毒药。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "How fares my Juliet? That I ask again; For nothing can be ill if she be well.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "I dreamt my lady came and found me dead,— Strange dream, that gives a dead man leave to think!— And breath’d such life with kisses in my lips, That I reviv’d, and was an emperor.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Balthasar",
+     "predicate": "SERVANT_OF",
+     "object": "Romeo Montague",
+     "evidence": "O pardon me for bringing these ill news, Since you did leave it for my office, sir.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Is my father well?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Her body sleeps in Capel’s monument, And her immortal part with angels lives. I saw her laid low in her kindred’s vault,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Mantua",
+     "evidence": "Enter Romeo.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Apothecary",
+     "predicate": "LIVES_AT",
+     "object": "Mantua",
+     "evidence": "And hereabouts he dwells,—which late I noted In tatter’d weeds, with overwhelming brows, Culling of simples, meagre were his looks, Sharp misery had worn him to the bones;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capel's monument",
+     "evidence": "Her body sleeps in Capel’s monument, And her immortal part with angels lives. I saw her laid low in her kindred’s vault,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Apothecary",
+     "predicate": "OWNS",
+     "object": "poison",
+     "evidence": "Such mortal drugs I have, but Mantua’s law Is death to any he that utters them.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "OWNS",
+     "object": "poison",
+     "evidence": "Come, cordial and not poison, go with me To Juliet’s grave, for there must I use thee.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "Her body sleeps in Capel’s monument, And her immortal part with angels lives. I saw her laid low in her kindred’s vault,",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:05.023Z"
+}

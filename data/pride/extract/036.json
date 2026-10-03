@@ -1,0 +1,370 @@
+{
+ "no": 36,
+ "title": "ELIZABETH, when Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6772,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立，本片段中读达西的信后对韦翰产生怀疑。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，傲慢但正直，写信向伊丽莎白解释韦翰之事。"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，外表迷人但品行不端，被达西在信中揭露。"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西的妹妹，曾险些被韦翰诱拐私奔。"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，参与达西事务，曾与伊丽莎白交谈。"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "班纳特家的亲戚，律师，伊丽莎白曾在他家与韦翰交谈。"
+    },
+    {
+     "name": "Pemberley family",
+     "type": "Organization",
+     "aliases": [
+      "Pemberley"
+     ],
+     "nickname": "彭伯里家族",
+     "description": "达西家族，拥有彭伯里庄园。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "尼日斐花园",
+     "description": "彬格莱先生租住的庄园，舞会举办地。"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "班纳特家所在郡，韦翰曾在此驻扎民兵。"
+    },
+    {
+     "name": "Netherfield ball",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "尼日斐舞会",
+     "description": "在尼日斐花园举办的舞会，韦翰未出席。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "his designs on Miss Darcy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Colonel Fitzwilliam",
+     "evidence": "his cousin’s corroboration",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Georgiana Darcy",
+     "evidence": "his designs on Miss Darcy",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Elizabeth Bennet",
+     "evidence": "there was gross duplicity on one side or the other",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "MEMBER_OF",
+     "object": "Pemberley family",
+     "evidence": "his connection with the Pemberley family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley family",
+     "evidence": "his connection with the Pemberley family",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "she began his account of what had happened at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "he had avoided the Netherfield ball the very next week",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Netherfield ball",
+     "predicate": "OCCURRED_AT",
+     "object": "Netherfield",
+     "evidence": "he had avoided the Netherfield ball",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "NATIVE_OF",
+     "object": "Hertfordshire",
+     "evidence": "nothing had been known in Hertfordshire but what he told himself",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Mr. Philips",
+     "evidence": "their first evening at Mr. Philips’s",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 4985,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧有主见"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，傲慢但正直"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "达西家旧识，外表迷人实则虚伪"
+    },
+    {
+     "name": "Miss King",
+     "type": "Person",
+     "aliases": [
+      "Mary King"
+     ],
+     "nickname": "金小姐",
+     "description": "继承遗产的女子，韦翰曾追求"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温和"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "宾利先生，达西挚友，爱慕简"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白好友，后嫁柯林斯"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西表兄，罗新斯客人"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人宅邸"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "尼日斐花园",
+     "description": "宾利先生租住的庄园"
+    },
+    {
+     "name": "Netherfield ball",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "尼日斐舞会",
+     "description": "在尼日斐花园举办的舞会"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "George Wickham",
+     "predicate": "LOVES",
+     "object": "Miss King",
+     "evidence": "His attentions to Miss King were now the consequence of views solely and hatefully mercenary",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Elizabeth Bennet",
+     "evidence": "he had either been deceived with regard to her fortune, or had been gratifying his vanity by encouraging the preference which she believed she had most incautiously shown",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "friendship between a person capable of it and such an amiable man as Mr. Bingley was incomprehensible",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "George Wickham",
+     "evidence": "even Wickham had allowed him merit as a brother",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "the generous candour of my sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "Mr. Bingley, when questioned by Jane, had long ago asserted his blamelessness in the affair",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "she could not help remembering what Charlotte’s opinion had always been",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "the two gentlemen from Rosings had each called during her absence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "the two gentlemen from Rosings had each called during her absence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Netherfield ball",
+     "predicate": "OCCURRED_AT",
+     "object": "Netherfield",
+     "evidence": "the circumstances to which he particularly alluded, as having passed at the Netherfield ball",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:35.899Z"
+}

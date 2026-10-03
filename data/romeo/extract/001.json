@@ -1,0 +1,398 @@
+{
+ "no": 1,
+ "title": "A public place",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8045,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古之子，因爱而忧郁"
+    },
+    {
+     "name": "Lord Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague",
+      "Old Montague"
+     ],
+     "nickname": "蒙太古",
+     "description": "蒙太古家族族长，罗密欧之父"
+    },
+    {
+     "name": "Lady Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague's wife"
+     ],
+     "nickname": "蒙太古夫人",
+     "description": "蒙太古之妻，罗密欧之母"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "凯普莱特之妻"
+    },
+    {
+     "name": "Benvolio Montague",
+     "type": "Person",
+     "aliases": [
+      "Benvolio",
+      "Montague's nephew"
+     ],
+     "nickname": "班伏里奥",
+     "description": "蒙太古的侄子，罗密欧的表兄"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，性情火爆"
+    },
+    {
+     "name": "Escalus",
+     "type": "Person",
+     "aliases": [
+      "Prince",
+      "the Prince"
+     ],
+     "nickname": "亲王",
+     "description": "维罗纳亲王，维持秩序"
+    },
+    {
+     "name": "Balthasar",
+     "type": "Person",
+     "aliases": [
+      "Romeo's man"
+     ],
+     "nickname": "鲍尔萨泽",
+     "description": "罗密欧的仆人"
+    },
+    {
+     "name": "Sampson",
+     "type": "Person",
+     "aliases": [
+      "Capulet's man"
+     ],
+     "nickname": "桑普森",
+     "description": "凯普莱特家的仆人"
+    },
+    {
+     "name": "Gregory",
+     "type": "Person",
+     "aliases": [
+      "Capulet's man"
+     ],
+     "nickname": "格雷戈里",
+     "description": "凯普莱特家的仆人"
+    },
+    {
+     "name": "Chorus",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "致辞者",
+     "description": "开场致辞者，交代剧情"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montagues",
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "维罗纳的家族，与凯普莱特家族世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulets",
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "维罗纳的家族，与蒙太古家族世仇"
+    },
+    {
+     "name": "Verona",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "维罗纳",
+     "description": "故事发生的城市"
+    },
+    {
+     "name": "Old Free-town",
+     "type": "Place",
+     "aliases": [
+      "Free-town"
+     ],
+     "nickname": "自由镇",
+     "description": "亲王审判的公共场所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lord Montague",
+     "predicate": "KIN",
+     "object": "Romeo Montague",
+     "evidence": "Was that my father that went hence so fast?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Montague",
+     "predicate": "KIN",
+     "object": "Romeo Montague",
+     "evidence": "O where is Romeo, saw you him today?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "SPOUSE",
+     "object": "Lady Montague",
+     "evidence": "Come, madam, let’s away,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "SPOUSE",
+     "object": "Lady Capulet",
+     "evidence": "Enter Capulet in his gown, and Lady Capulet.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "KIN",
+     "object": "Lord Montague",
+     "evidence": "My noble uncle, do you know the cause?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "KIN",
+     "object": "Romeo Montague",
+     "evidence": "Good morrow, cousin.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "here comes one of my master’s kinsmen.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sampson",
+     "predicate": "SERVANT_OF",
+     "object": "House of Capulet",
+     "evidence": "I serve as good a man as you.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Gregory",
+     "predicate": "SERVANT_OF",
+     "object": "House of Capulet",
+     "evidence": "The quarrel is between our masters and us their men.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Balthasar",
+     "predicate": "SERVANT_OF",
+     "object": "Romeo Montague",
+     "evidence": "Enter Abram and Balthasar.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "From ancient grudge break to new mutiny,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "Lord Capulet",
+     "evidence": "Thou villain Capulet! Hold me not, let me go.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "QUARRELED",
+     "object": "Benvolio Montague",
+     "evidence": "I hate the word As I hate hell, all Montagues, and thee:",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "FOUGHT",
+     "object": "Benvolio Montague",
+     "evidence": "[They fight.]",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sampson",
+     "predicate": "FOUGHT",
+     "object": "Abram",
+     "evidence": "[They fight.]",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Gregory",
+     "predicate": "FOUGHT",
+     "object": "Abram",
+     "evidence": "[They fight.]",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "A dog of the house of Montague moves me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Down with the Capulets! Down with the Montagues!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Old Montague is come,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Thou villain Capulet!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "LIVES_AT",
+     "object": "Verona",
+     "evidence": "In fair Verona, where we lay our scene,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "House of Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Verona",
+     "evidence": "In fair Verona, where we lay our scene,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Escalus",
+     "predicate": "VISITED",
+     "object": "Old Free-town",
+     "evidence": "To old Free-town, our common judgement-place.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "VISITED",
+     "object": "Old Free-town",
+     "evidence": "You, Capulet, shall go along with me,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "VISITED",
+     "object": "Old Free-town",
+     "evidence": "And Montague, come you this afternoon,",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3371,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，正为情所困。"
+    },
+    {
+     "name": "Benvolio",
+     "type": "Person",
+     "aliases": [
+      "coz"
+     ],
+     "nickname": "班伏里奥",
+     "description": "罗密欧的堂兄弟与好友，劝他忘掉旧爱。"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "罗密欧所属的家族。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "This is not Romeo, he’s some other where.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio",
+     "predicate": "KIN",
+     "object": "Romeo Montague",
+     "evidence": "No coz, I rather weep.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio",
+     "predicate": "FRIEND",
+     "object": "Romeo Montague",
+     "evidence": "At thy good heart’s oppression.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:58.568Z"
+}

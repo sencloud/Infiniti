@@ -6,7 +6,7 @@
 
 An LLM reads your study material end to end and turns its people, concepts and ideas into an explorable relationship graph, with every relation linked back to the passage it came from
 
-8 works included (the Four Great Classical Novels, *Strange Tales from a Chinese Studio*, the *Analects*, the *Records of the Grand Historian*, and a middle-school math curriculum): **13,036** entries, **39,938** relations
+14 works included (the Four Great Classical Novels, *Strange Tales from a Chinese Studio*, six English classics read in the original, the *Analects*, the *Records of the Grand Historian*, and a middle-school math curriculum): **13,784** entries, **44,425** relations
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-b23a26.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/sencloud/Infiniti?style=flat&color=b23a26)](https://github.com/sencloud/Infiniti/stargazers)
@@ -27,13 +27,13 @@ An LLM reads your study material end to end and turns its people, concepts and i
 
 **Infiniti** is a reading and learning tool. It has an LLM read the material unit by unit, extract people, concepts and events along with the relations between them, store everything in Neo4j, and present it as a graph you can search, expand, and click through to the original text. See the whole structure first, then follow the relations deeper, checking the source at every step.
 
-> The UI and the source texts are in Chinese. The pipeline itself is language-agnostic: entity types, predicates and rules are configured per graph.
+> The UI is bilingual. Most source texts are Chinese; the World Classics shelf reads English novels from Project Gutenberg in the original. Entity types, predicates and rules are configured per graph.
 
 ## Use cases
 
 | Scenario | What it helps with | Status |
 |----------|--------------------|--------|
-| **Reading a book** | Untangle characters and plotlines, see which plot clusters make up the book, spot reversals and gaps worth a closer read | Four Great Classical Novels, *Strange Tales*, *Analects*, *Records of the Grand Historian* included |
+| **Reading a book** | Untangle characters and plotlines, see which plot clusters make up the book, spot reversals and gaps worth a closer read | Four Great Classical Novels, *Strange Tales*, *Analects*, *Records of the Grand Historian*, and six English classics (*Pride and Prejudice*, *Jane Eyre*, *Sherlock Holmes*…) included |
 | **Learning a course** | Link concepts as prerequisite → theorem → application, see what each one depends on and leads to, jump to the textbook page | Middle-school math (6 volumes) included |
 | **Learning a technology · preparing for an exam** | The same pipeline works on technical docs, tutorials, syllabi and lecture notes: import the material to build your own graph | Bring your own material, see [Adding material](#adding-material) |
 
@@ -115,6 +115,12 @@ Light and dark themes, and a mobile layout, are included.
 | *Dream of the Red Chamber* 红楼梦 | 120 chapters | 1,056 | 6,956 | 29 |
 | *Romance of the Three Kingdoms* 三国演义 | 120 chapters | 1,926 | 7,666 | 28 |
 | *Strange Tales from a Chinese Studio* 聊斋志异 | 494 stories | 2,764 | 3,702 | 30 |
+| *Pride and Prejudice* | 61 chapters | 96 | 2,168 | 8 |
+| *Jane Eyre* | 38 chapters | 162 | 1,046 | 13 |
+| *The Adventures of Sherlock Holmes* | 12 stories | 283 | 506 | 19 |
+| *The Great Gatsby* | 9 chapters | 106 | 292 | 10 |
+| *Romeo and Juliet* | 24 scenes | 45 | 357 | 8 |
+| *Alice’s Adventures in Wonderland* | 12 chapters | 56 | 118 | 8 |
 | *Analects* 论语 | 20 books | 105 | 277 | 10 |
 | *Records of the Grand Historian* 史记 | 130 chapters | 3,682 | 7,736 | 10 |
 | Middle-school math 初中数学 (Sukejiao, 6 vols) | 137 sections | 808 | 1,424 | 21 |
@@ -146,7 +152,7 @@ npm start                             # web server at http://localhost:3100
 npm run worker                        # pipeline worker (separate terminal)
 ```
 
-A fresh database is empty. The repo ships the source texts and the LLM extraction results for all 8 works, so one command loads them and computes the galaxy and graph analytics without re-running extraction:
+A fresh database is empty. The repo ships the source texts and the LLM extraction results for all 14 works, so one command loads them and computes the galaxy and graph analytics without re-running extraction:
 
 ```bash
 npm run kg:restore                    # all graphs; or just one: npm run kg:restore -- hongloumeng
@@ -159,6 +165,8 @@ A book, a textbook series, a set of technical docs or exam notes all run through
 1. Add a material definition in `src/kg/domains/index.js`: name, source URL, unit (chapter / story / section), entity types (people, concepts, theorems, terms…), predicates, clue rules
 2. Run `npm run kg:run -- <material-id>`
 3. The homepage card shows build progress; start studying once it finishes
+
+English books on [Project Gutenberg](https://www.gutenberg.org/) use the `foreign({...})` factory: give the ebook number and unit, and add a chapter-splitting rule in `src/scripts/kg/gutenberg.js`. Entries keep their names from the text, with a Chinese name and note alongside; evidence quotes the English directly, and passages are embedded with multilingual-e5-small. `npm run kg:media -- <id>` then places the illustrated edition's plates in their chapters, has the LLM tag who each one shows, adds Wikidata portraits, and maps Bilibili adaptations to chapters.
 
 For textbooks, the middle-school math definition (`math`) is a working template that maps concepts, prerequisites and textbook pages. To look up a single person or topic quickly, the homepage's free exploration page (`/people/`) builds a graph from encyclopedia sources on demand.
 
@@ -185,7 +193,7 @@ source text ──► chunk ──► LLM extraction (entities, relations, evide
 - **Backend**: Node.js 20, Express 5
 - **Database**: Neo4j 5 (Cypher + vector index)
 - **Extraction**: DeepSeek via the OpenAI-compatible API
-- **Analytics**: local bge-small-zh embeddings, UMAP, KMeans, Louvain (graphology)
+- **Analytics**: local bge-small-zh / multilingual-e5-small embeddings, UMAP, KMeans, Louvain (graphology)
 - **Crawling**: Playwright headless browser with source fallback
 - **Frontend**: Vite + React + antd; Three.js with a hand-written force layout
 
@@ -195,7 +203,7 @@ See the [Chinese README](README.md#技术细节) for the full pipeline commands,
 
 Code is released under the [MIT License](LICENSE).
 
-Data: classical texts come from [5000yan](https://www.5000yan.com/) and are in the public domain. Historical paintings for *Water Margin* come from Wikimedia Commons with attribution shown on each card. Middle-school math textbook pages and transcriptions remain the copyright of the publisher and are included for study and research only. Please respect each source's terms and keep crawl rate limits in place.
+Data: classical texts come from [5000yan](https://www.5000yan.com/) and are in the public domain. English texts and their illustrations come from [Project Gutenberg](https://www.gutenberg.org/) and are in the public domain. Historical paintings for *Water Margin* and character portraits for the English books come from Wikimedia Commons with attribution shown on each card. Bilibili videos are embedded from the original uploads and remain with their rights holders. Middle-school math textbook pages and transcriptions remain the copyright of the publisher and are included for study and research only. Please respect each source's terms and keep crawl rate limits in place.
 
 ## Contributing
 

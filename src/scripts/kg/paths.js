@@ -5,7 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hasGraph } from '../../kg/domains/index.js';
+import { graphDataDir, hasGraph, listGraphs } from '../../kg/domains/index.js';
 
 /** 当前模块是否作为命令行入口运行（被 import 时为 false） */
 export function isMain(metaUrl) {
@@ -16,7 +16,7 @@ export function isMain(metaUrl) {
 export function graphArg(argv = process.argv.slice(2)) {
   const id = argv[0];
   if (!id || !hasGraph(id)) {
-    console.error(`用法：node <script> <graph> …（graph 取值：shuihu xiyouji hongloumeng sanguo liaozhai lunyu shiji math）`);
+    console.error(`用法：node <script> <graph> …（graph 取值：${listGraphs().map((g) => g.id).join(' ')}）`);
     process.exit(1);
   }
   return { id, rest: argv.slice(1) };
@@ -25,7 +25,7 @@ export function graphArg(argv = process.argv.slice(2)) {
 const pad = (no) => String(no).padStart(3, '0');
 
 export function graphPaths(graphId) {
-  const DATA_DIR = path.resolve('data', graphId);
+  const DATA_DIR = graphDataDir(graphId);
   const CHAPTER_DIR = path.join(DATA_DIR, 'chapters');
   const EXTRACT_DIR = path.join(DATA_DIR, 'extract');
   return {

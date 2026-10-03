@@ -1,0 +1,268 @@
+{
+ "no": 1,
+ "title": "IT is a truth universally acknowledged, that a single…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4440,
+   "entities": [
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家男主人，机智而爱讽刺"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，一心为女儿们择婿"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家二女儿，机敏聪慧"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，美貌温柔"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家小女儿，性情活泼"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "来自英格兰北部的单身富家青年"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "卢卡斯家男主人，邻里绅士"
+    },
+    {
+     "name": "Lady Lucas",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Lucas"
+     ],
+     "nickname": "卢卡斯太太",
+     "description": "威廉爵士之妻，班纳特家邻居"
+    },
+    {
+     "name": "Mrs. Long",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "朗太太",
+     "description": "邻里妇人，传递宾利租下内瑟菲尔德的消息"
+    },
+    {
+     "name": "Mr. Morris",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "莫里斯先生",
+     "description": "与宾利商谈租约的人"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及五个女儿组成的家庭"
+    },
+    {
+     "name": "Lucas family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "卢卡斯家",
+     "description": "威廉爵士与卢卡斯太太的家庭"
+    },
+    {
+     "name": "Netherfield Park",
+     "type": "Place",
+     "aliases": [
+      "Netherfield"
+     ],
+     "nickname": "内瑟菲尔德庄园",
+     "description": "被宾利租下的乡间庄园"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "“My dear Mr. Bennet,” said his lady to him one day",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "I must throw in a good word for my little Lizzy.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "she is not half so handsome as Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "nor half so good-humoured as Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "I must throw in a good word for my little Lizzy.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "she is not half so handsome as Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "nor half so good-humoured as Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Lizzy is not a bit better than the others: and I am sure she is not half so handsome as Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "nor half so good-humoured as Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "she is not half so handsome as Jane, nor half so good-humoured as Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Mr. Bennet was so odd a mixture of quick parts",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Her mind was less difficult to develope.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "I must throw in a good word for my little Lizzy.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "she is not half so handsome as Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "nor half so good-humoured as Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "SPOUSE",
+     "object": "Lady Lucas",
+     "evidence": "Sir William and Lady Lucas are determined to go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "Sir William and Lady Lucas are determined to go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "Sir William and Lady Lucas are determined to go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield Park",
+     "evidence": "Netherfield is taken by a young man of large fortune from the north of England",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Long",
+     "predicate": "VISITED",
+     "object": "Netherfield Park",
+     "evidence": "Mrs. Long has just been here",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:47.443Z"
+}

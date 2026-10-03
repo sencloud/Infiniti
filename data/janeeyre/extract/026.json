@@ -1,0 +1,833 @@
+{
+ "no": 26,
+ "title": "Sophie came at seven to dress me: she was…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7708,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与罗切斯特相恋并准备结婚"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简·爱的爱人"
+    },
+    {
+     "name": "Sophie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "索菲",
+     "description": "简·爱的法国女仆，帮她梳妆"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德庄园的女管家"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "罗切斯特家的马车夫"
+    },
+    {
+     "name": "Mr. Wood",
+     "type": "Person",
+     "aliases": [
+      "the clergyman"
+     ],
+     "nickname": "伍德先生",
+     "description": "主持婚礼的牧师"
+    },
+    {
+     "name": "Mr. Briggs",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布里格斯先生",
+     "description": "伦敦律师，阻止婚礼并揭露重婚"
+    },
+    {
+     "name": "Damer de Rochester",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "达默·德·罗切斯特",
+     "description": "罗切斯特家族先人，内战阵亡"
+    },
+    {
+     "name": "Elizabeth",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "伊丽莎白",
+     "description": "达默·德·罗切斯特的妻子"
+    },
+    {
+     "name": "Rochester family",
+     "type": "Organization",
+     "aliases": [
+      "the Rochesters"
+     ],
+     "nickname": "罗切斯特家族",
+     "description": "罗切斯特的家族，有家族墓穴"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，简·爱在此居住"
+    },
+    {
+     "name": "church",
+     "type": "Place",
+     "aliases": [
+      "the church",
+      "the grey old house of God"
+     ],
+     "nickname": "教堂",
+     "description": "桑菲尔德附近的教堂，婚礼在此举行"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "布里格斯律师所在的城市"
+    },
+    {
+     "name": "wedding ceremony",
+     "type": "Event",
+     "aliases": [
+      "the ceremony",
+      "the marriage"
+     ],
+     "nickname": "婚礼",
+     "description": "简·爱与罗切斯特的婚礼，被中断"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sophie",
+     "predicate": "SERVANT_OF",
+     "object": "Jane Eyre",
+     "evidence": "Sophie came at seven to dress me",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I hastened down. I was received at the foot of the stairs by Mr. Rochester.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "Mr. Rochester, grown, I suppose, impatient of my delay, sent up to ask why I did not come.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "he would give me but ten minutes to eat some breakfast",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "my heart was with my eyes; and both seemed migrated into Mr. Rochester’s frame",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "Am I cruel in my love?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding ceremony",
+     "evidence": "Our place was taken at the communion rails.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding ceremony",
+     "evidence": "Our place was taken at the communion rails.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "wedding ceremony",
+     "predicate": "OCCURRED_AT",
+     "object": "church",
+     "evidence": "We entered the quiet and humble temple",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Wood",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding ceremony",
+     "evidence": "the priest waited in his white surplice at the lowly altar",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding ceremony",
+     "evidence": "The speaker came forward and leaned on the rails.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "DECEIVED",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I declare the existence of an impediment",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "The marriage cannot go on",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Damer de Rochester",
+     "predicate": "MEMBER_OF",
+     "object": "Rochester family",
+     "evidence": "the vault of the Rochesters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth",
+     "predicate": "SPOUSE",
+     "object": "Damer de Rochester",
+     "evidence": "Damer de Rochester, slain at Marston Moor in the time of the civil wars, and of Elizabeth, his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Is John getting the carriage ready?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax stood in the hall as we passed.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "NATIVE_OF",
+     "object": "London",
+     "evidence": "My name is Briggs, a solicitor of —— Street, London.",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7810,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德与芬丁庄园主人，重婚者"
+    },
+    {
+     "name": "Bertha Antoinetta Mason",
+     "type": "Person",
+     "aliases": [
+      "Bertha Mason",
+      "Bertha",
+      "Mrs. Rochester",
+      "the madwoman"
+     ],
+     "nickname": "伯莎·梅森",
+     "description": "罗切斯特的疯妻，被囚于桑菲尔德"
+    },
+    {
+     "name": "Richard Mason",
+     "type": "Person",
+     "aliases": [
+      "Mr. Mason",
+      "Mason",
+      "Richard",
+      "Dick"
+     ],
+     "nickname": "理查德·梅森",
+     "description": "伯莎的弟弟，阻止婚礼的律师当事人"
+    },
+    {
+     "name": "Jonas Mason",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "乔纳斯·梅森",
+     "description": "伯莎与理查德的商人父亲"
+    },
+    {
+     "name": "Antoinetta Mason",
+     "type": "Person",
+     "aliases": [
+      "Antoinetta",
+      "the Creole"
+     ],
+     "nickname": "安托瓦内塔·梅森",
+     "description": "伯莎的母亲，克里奥尔人，疯癫酗酒"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Grace",
+      "Poole",
+      "Mrs. Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "看守伯莎的女仆"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德管家"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的被监护人"
+    },
+    {
+     "name": "Sophie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "索菲",
+     "description": "阿黛尔的法国保姆"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德女仆"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "桑菲尔德马车夫"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，罗切斯特的未婚妻"
+    },
+    {
+     "name": "Briggs",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布里格斯",
+     "description": "梅森家的律师"
+    },
+    {
+     "name": "John Green",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "约翰·格林",
+     "description": "教堂文书"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的宅邸，伯莎被囚于此"
+    },
+    {
+     "name": "Ferndean Manor",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "芬丁庄园",
+     "description": "罗切斯特的另一处庄园"
+    },
+    {
+     "name": "Spanish Town",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西班牙镇",
+     "description": "牙买加城镇，婚礼举行地"
+    },
+    {
+     "name": "Jamaica",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牙买加",
+     "description": "伯莎与梅森家族的故乡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "SPOUSE",
+     "object": "Bertha Antoinetta Mason",
+     "evidence": "Edward Fairfax Rochester, of Thornfield Hall, in the county of ——, and of Ferndean Manor, in ——shire, England, was married to my sister, Bertha Antoinetta Mason",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "KIN",
+     "object": "Bertha Antoinetta Mason",
+     "evidence": "was married to my sister, Bertha Antoinetta Mason",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jonas Mason",
+     "predicate": "KIN",
+     "object": "Bertha Antoinetta Mason",
+     "evidence": "Bertha Antoinetta Mason, daughter of Jonas Mason, merchant",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Antoinetta Mason",
+     "predicate": "KIN",
+     "object": "Bertha Antoinetta Mason",
+     "evidence": "Bertha Antoinetta Mason, daughter of Jonas Mason, merchant, and of Antoinetta his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jonas Mason",
+     "predicate": "SPOUSE",
+     "object": "Antoinetta Mason",
+     "evidence": "Jonas Mason, merchant, and of Antoinetta his wife",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Edward Fairfax Rochester, of Thornfield Hall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Ferndean Manor",
+     "evidence": "and of Ferndean Manor, in ——shire, England",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bertha Antoinetta Mason",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "She is now living at Thornfield Hall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "I saw her there last April",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Grace Poole bent over the fire, apparently cooking something in a saucepan",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "GUARDIAN_OF",
+     "object": "Bertha Antoinetta Mason",
+     "evidence": "visit Mrs. Poole’s patient, and my wife!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax, Adèle, Sophie, Leah, advanced to meet and greet us",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Mrs. Fairfax, Adèle, Sophie, Leah, advanced to meet and greet us",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sophie",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Sophie came at seven to dress me",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax, Adèle, Sophie, Leah, advanced to meet and greet us",
+     "confidence": 0.8
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Take it back to the coach-house, John",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "DECEIVED",
+     "object": "Jane Eyre",
+     "evidence": "she thought all was fair and legal; and never dreamt she was going to be entrapped into a feigned union with a defrauded wretch",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "DECEIVED",
+     "object": "Richard Mason",
+     "evidence": "I was cheated into espousing",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "HARMED",
+     "object": "Bertha Antoinetta Mason",
+     "evidence": "the mysterious lunatic kept there under watch and ward",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Bertha Antoinetta Mason",
+     "predicate": "HARMED",
+     "object": "Richard Mason",
+     "evidence": "she bit and stabbed you here",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "QUARRELED",
+     "object": "Richard Mason",
+     "evidence": "Mr. Rochester turned and glared at him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "she thought all was fair and legal; and never dreamt she was going to be entrapped into a feigned union",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "Still holding me fast, he left the church",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7984,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与罗切斯特相爱，婚礼被中断。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德主人，隐瞒已婚事实，欲娶简·爱。"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Grace",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "桑菲尔德女仆，看管伯莎·梅森。"
+    },
+    {
+     "name": "Richard Mason",
+     "type": "Person",
+     "aliases": [
+      "Mr. Mason",
+      "Mason",
+      "Richard"
+     ],
+     "nickname": "理查德·梅森",
+     "description": "伯莎·梅森的弟弟，阻止了罗切斯特的重婚。"
+    },
+    {
+     "name": "Bertha Mason",
+     "type": "Person",
+     "aliases": [
+      "the lunatic",
+      "my wife"
+     ],
+     "nickname": "伯莎·梅森",
+     "description": "罗切斯特的疯妻，被关在桑菲尔德。"
+    },
+    {
+     "name": "Mr. Eyre",
+     "type": "Person",
+     "aliases": [
+      "your uncle"
+     ],
+     "nickname": "爱先生",
+     "description": "简·爱的叔叔，在马德拉岛病重。"
+    },
+    {
+     "name": "Mr. Briggs",
+     "type": "Person",
+     "aliases": [
+      "the solicitor",
+      "Briggs"
+     ],
+     "nickname": "布里格斯先生",
+     "description": "律师，处理阻止婚礼事宜。"
+    },
+    {
+     "name": "Mr. Wood",
+     "type": "Person",
+     "aliases": [
+      "the clergyman",
+      "Wood"
+     ],
+     "nickname": "伍德先生",
+     "description": "牧师，主持婚礼时提出异议。"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，简·爱任家庭教师之地。"
+    },
+    {
+     "name": "Madeira",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "马德拉",
+     "description": "简·爱叔叔居住的岛屿。"
+    },
+    {
+     "name": "Jamaica",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牙买加",
+     "description": "梅森家族所在地。"
+    },
+    {
+     "name": "England",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格兰",
+     "description": "故事发生的主要国家。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "SPOUSE",
+     "object": "Bertha Mason",
+     "evidence": "“That is my wife,” said he.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "KIN",
+     "object": "Bertha Mason",
+     "evidence": "my client here was acquainted with a gentleman of the name of Rochester",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Grace Poole gave him a cord, and he pinioned them behind her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "HARMED",
+     "object": "Bertha Mason",
+     "evidence": "he pinioned them behind her: with more rope, which was at hand, he bound her to a chair.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bertha Mason",
+     "predicate": "HARMED",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "the lunatic sprang and grappled his throat viciously, and laid her teeth to his cheek",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "this is what I wished to have” (laying his hand on my shoulder): “this young girl",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I looked at my love: that feeling which was my master’s—which he had created",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "the contemplated union between yourself and Mr. Rochester",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "DECEIVED",
+     "object": "Jane Eyre",
+     "evidence": "he was not what I had thought him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "HELPED",
+     "object": "Mr. Eyre",
+     "evidence": "he implored Mr. Mason to lose no time in taking steps to prevent the false marriage",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eyre",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "Your uncle, I am sorry to say, is now on a sick bed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "he himself, I doubted not, would hurry me from Thornfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "he himself, I doubted not, would hurry me from Thornfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Madeira",
+     "evidence": "Mr. Eyre has been the Funchal correspondent of his house for some years",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "VISITED",
+     "object": "Madeira",
+     "evidence": "Mr. Mason, who was staying at Madeira to recruit his health",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "NATIVE_OF",
+     "object": "Jamaica",
+     "evidence": "on his way back to Jamaica",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "England",
+     "evidence": "you had better remain in England till you can hear further",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:32.247Z"
+}

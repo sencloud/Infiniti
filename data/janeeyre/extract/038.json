@@ -1,0 +1,332 @@
+{
+ "no": 38,
+ "title": "Reader, I married him.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7787,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与罗切斯特结婚，成为阿黛尔的监护人"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master",
+      "Mr. Edward"
+     ],
+     "nickname": "罗切斯特",
+     "description": "男主角，简·爱的丈夫，曾失明后恢复一只眼视力"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "简·爱曾担任其家庭教师，后被罗切斯特安置在学校"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "庄园的女管家，与约翰为夫妻"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简·爱的表兄，与简保持通信"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "简·爱的表姐，后嫁给菲茨詹姆斯上尉"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "简·爱的表姐，后嫁给一位牧师"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "罗切斯特家的老仆人，与玛丽为夫妻"
+    },
+    {
+     "name": "Captain Fitzjames",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "菲茨詹姆斯上尉",
+     "description": "戴安娜的丈夫，海军上尉"
+    },
+    {
+     "name": "Mr. Wharton",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "沃顿先生",
+     "description": "玛丽的丈夫，牧师，圣约翰的大学朋友"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SPOUSE",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Reader, I married him.",
+     "confidence": 1
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I know what it is to live entirely for and with what I love best on earth.",
+     "confidence": 1
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "He loved me so truly, that he knew no reluctance in profiting by my attendance",
+     "confidence": 1
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I was then his vision, as I am still his right hand.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "I took her home with me. I meant to become her governess once more",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "I soon asked and obtained leave of Mr. Rochester, to go and see her at the school where he had placed her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "SPOUSE",
+     "object": "John",
+     "evidence": "The housekeeper and her husband were both of that decent phlegmatic order of people",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mary was cooking the dinner and John cleaning the knives",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "John was an old servant, and had known his master when he was the cadet of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Diana Rivers",
+     "evidence": "Diana and Mary approved the step unreservedly.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Mary Rivers",
+     "evidence": "Diana and Mary approved the step unreservedly.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "How St. John received the news, I don’t know: he never answered the letter in which I communicated it",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "Diana and Mary Rivers are both married: alternately, once every year, they come to see us, and we go to see them.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "Diana and Mary Rivers are both married: alternately, once every year, they come to see us, and we go to see them.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "SPOUSE",
+     "object": "Captain Fitzjames",
+     "evidence": "Diana’s husband is a captain in the navy, a gallant officer and a good man.",
+     "confidence": 1
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "SPOUSE",
+     "object": "Mr. Wharton",
+     "evidence": "Mary’s is a clergyman, a college friend of her brother’s, and, from his attainments and principles, worthy of the connection.",
+     "confidence": 1
+    },
+    {
+     "subject": "Captain Fitzjames",
+     "predicate": "LOVES",
+     "object": "Diana Rivers",
+     "evidence": "Both Captain Fitzjames and Mr. Wharton love their wives, and are loved by them.",
+     "confidence": 1
+    },
+    {
+     "subject": "Mr. Wharton",
+     "predicate": "LOVES",
+     "object": "Mary Rivers",
+     "evidence": "Both Captain Fitzjames and Mr. Wharton love their wives, and are loved by them.",
+     "confidence": 1
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "LOVES",
+     "object": "Captain Fitzjames",
+     "evidence": "Both Captain Fitzjames and Mr. Wharton love their wives, and are loved by them.",
+     "confidence": 1
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "LOVES",
+     "object": "Mr. Wharton",
+     "evidence": "Both Captain Fitzjames and Mr. Wharton love their wives, and are loved by them.",
+     "confidence": 1
+    },
+    {
+     "subject": "Mr. Wharton",
+     "predicate": "FRIEND",
+     "object": "St. John Rivers",
+     "evidence": "Mary’s is a clergyman, a college friend of her brother’s",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1900,
+   "entities": [
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简·爱表兄，传教士，赴印度传教，终身未婚"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Jane",
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，圣约翰的表妹，收到其来信"
+    },
+    {
+     "name": "India",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "印度",
+     "description": "圣约翰前往传教的地方"
+    },
+    {
+     "name": "England",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格兰",
+     "description": "圣约翰离开的故乡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "India",
+     "evidence": "he left England: he went to India.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "England",
+     "evidence": "he left England: he went to India.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "NATIVE_OF",
+     "object": "England",
+     "evidence": "he left England: he went to India.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "The last letter I received from him drew from my eyes human tears",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:41.794Z"
+}

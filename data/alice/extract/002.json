@@ -1,0 +1,215 @@
+{
+ "no": 2,
+ "title": "The Pool of Tears",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7764,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，小女孩，因好奇追白兔掉入奇境。"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "穿马甲、带怀表、赶时间的兔子，公爵夫人的侍从。"
+    },
+    {
+     "name": "Mouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "老鼠",
+     "description": "掉入眼泪池的老鼠，会说话，后与爱丽丝交谈。"
+    },
+    {
+     "name": "Duchess",
+     "type": "Person",
+     "aliases": [
+      "Her Grace"
+     ],
+     "nickname": "公爵夫人",
+     "description": "脾气暴躁的公爵夫人，白兔为其服务。"
+    },
+    {
+     "name": "Ada",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "艾达",
+     "description": "爱丽丝认识的小女孩，有长卷发。"
+    },
+    {
+     "name": "Mabel",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "梅布尔",
+     "description": "爱丽丝认识的小女孩，知识很少。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "White Rabbit",
+     "predicate": "SERVANT_OF",
+     "object": "Duchess",
+     "evidence": "Oh! the Duchess, the Duchess! Oh! won't she be savage if I've kept her waiting!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Ada",
+     "evidence": "I'm sure I'm not Ada, for her hair goes in such long ringlets, and mine doesn't go in ringlets at all",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Mabel",
+     "evidence": "I'm sure I can't be Mabel, for I know all sorts of things, and she, oh! she knows such a very little!",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "White Rabbit's gloves",
+     "evidence": "she had put on one of the Rabbit's little white kid gloves while she was talking",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2997,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，掉入兔子洞的英国小女孩"
+    },
+    {
+     "name": "Mouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "老鼠",
+     "description": "会说话的老鼠，讨厌猫和狗"
+    },
+    {
+     "name": "Dinah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "黛娜",
+     "description": "爱丽丝家的猫，擅长捉老鼠"
+    },
+    {
+     "name": "Dodo",
+     "type": "Person",
+     "aliases": [
+      "Dodo Bird"
+     ],
+     "nickname": "渡渡鸟",
+     "description": "掉入眼泪池的鸟类角色"
+    },
+    {
+     "name": "Lory",
+     "type": "Person",
+     "aliases": [
+      "Lory Bird"
+     ],
+     "nickname": "鹦鹉",
+     "description": "掉入眼泪池的鸟类角色"
+    },
+    {
+     "name": "Eaglet",
+     "type": "Person",
+     "aliases": [
+      "Eaglet Bird"
+     ],
+     "nickname": "小鹰",
+     "description": "掉入眼泪池的鸟类角色"
+    },
+    {
+     "name": "Duck",
+     "type": "Person",
+     "aliases": [
+      "Duck Bird"
+     ],
+     "nickname": "鸭子",
+     "description": "掉入眼泪池的鸟类角色"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "Dinah",
+     "evidence": "I wish I could show you our cat Dinah",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mouse",
+     "predicate": "QUARRELED",
+     "object": "Dinah",
+     "evidence": "Our family always hated cats",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Pool of Tears",
+     "evidence": "the whole party swam to the shore",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mouse",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Pool of Tears",
+     "evidence": "the whole party swam to the shore",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Dodo",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Pool of Tears",
+     "evidence": "there were a Duck and a Dodo, a Lory and an Eaglet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lory",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Pool of Tears",
+     "evidence": "there were a Duck and a Dodo, a Lory and an Eaglet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eaglet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Pool of Tears",
+     "evidence": "there were a Duck and a Dodo, a Lory and an Eaglet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duck",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Pool of Tears",
+     "evidence": "there were a Duck and a Dodo, a Lory and an Eaglet",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:38.522Z"
+}

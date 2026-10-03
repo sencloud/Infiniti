@@ -1,0 +1,1165 @@
+{
+ "no": 12,
+ "title": "The Adventure of the Copper Beeches",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7914,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在贝克街，擅长推理"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴，记录案件"
+    },
+    {
+     "name": "Violet Hunter",
+     "type": "Person",
+     "aliases": [
+      "Miss Hunter",
+      "Violet"
+     ],
+     "nickname": "维奥莱特·亨特",
+     "description": "年轻女家庭教师，前来咨询福尔摩斯"
+    },
+    {
+     "name": "Miss Stoper",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯托珀小姐",
+     "description": "Westaway家庭教师介绍所的管理人"
+    },
+    {
+     "name": "Westaway's",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "韦斯特威介绍所",
+     "description": "伦敦西区一家家庭教师介绍所"
+    },
+    {
+     "name": "Colonel Spence Munro",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯彭斯·芒罗上校",
+     "description": "Violet Hunter的前雇主，已去美国"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯和华生在伦敦的住所"
+    },
+    {
+     "name": "Montague Place",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "蒙塔古广场",
+     "description": "Violet Hunter来信的地址"
+    },
+    {
+     "name": "The Adventure of the Copper Beeches",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "铜山毛榉案",
+     "description": "Violet Hunter咨询的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "my friend’s singular character",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I am very anxious to consult you as to whether I should or should not accept a situation which has been offered to me as governess.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Adventure of the Copper Beeches",
+     "evidence": "I have had a very strange experience",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "SERVANT_OF",
+     "object": "Colonel Spence Munro",
+     "evidence": "I have been a governess for five years in the family of Colonel Spence Munro",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Miss Stoper",
+     "predicate": "SERVANT_OF",
+     "object": "Westaway's",
+     "evidence": "Westaway was the name of the founder of the business, but it is really managed by Miss Stoper.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "VISITED",
+     "object": "Westaway's",
+     "evidence": "There is a well-known agency for governesses in the West End called Westaway’s, and there I used to call about once a week",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "we sat after breakfast on either side of a cheery fire in the old room at Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "LIVES_AT",
+     "object": "Montague Place",
+     "evidence": "It was dated from Montague Place upon the preceding evening",
+     "confidence": 0.9
+    },
+    {
+     "subject": "The Adventure of the Copper Beeches",
+     "predicate": "OCCURRED_AT",
+     "object": "Baker Street",
+     "evidence": "we sat after breakfast on either side of a cheery fire in the old room at Baker Street",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7904,
+   "entities": [
+    {
+     "name": "Violet Hunter",
+     "type": "Person",
+     "aliases": [
+      "Miss Hunter",
+      "Violet"
+     ],
+     "nickname": "维奥莱特·亨特",
+     "description": "应聘家庭教师的年轻女子，故事叙述者"
+    },
+    {
+     "name": "Jephro Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rucastle",
+      "Rucastle"
+     ],
+     "nickname": "杰夫罗·鲁卡斯尔",
+     "description": "铜山毛榉庄园主人，雇用亨特小姐"
+    },
+    {
+     "name": "Alice Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Miss Rucastle",
+      "Alice"
+     ],
+     "nickname": "爱丽丝·鲁卡斯尔",
+     "description": "鲁卡斯尔之女，现居费城"
+    },
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，亨特小姐咨询的对象"
+    },
+    {
+     "name": "Miss Stoper",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯托珀小姐",
+     "description": "职业介绍所经理，为亨特介绍工作"
+    },
+    {
+     "name": "The Copper Beeches",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "铜山毛榉庄园",
+     "description": "鲁卡斯尔先生的乡间宅邸，位于温切斯特附近"
+    },
+    {
+     "name": "Hampshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉普郡",
+     "description": "英国郡名，铜山毛榉庄园所在地"
+    },
+    {
+     "name": "Winchester",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "温切斯特",
+     "description": "英国城市，铜山毛榉庄园距此五英里"
+    },
+    {
+     "name": "Philadelphia",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "费城",
+     "description": "美国城市，爱丽丝·鲁卡斯尔现居地"
+    },
+    {
+     "name": "letter from Jephro Rucastle",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "鲁卡斯尔的信",
+     "description": "鲁卡斯尔先生写给亨特小姐的聘用信"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Violet Hunter",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I thought, however, that before taking the final step I should like to submit the whole matter to your consideration.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "KIN",
+     "object": "Alice Rucastle",
+     "evidence": "we have one belonging to my dear daughter Alice (now in Philadelphia)",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "LIVES_AT",
+     "object": "The Copper Beeches",
+     "evidence": "The Copper Beeches, five miles on the far side of Winchester.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "The Copper Beeches",
+     "predicate": "OCCURRED_AT",
+     "object": "Hampshire",
+     "evidence": "Hampshire. Charming rural place. The Copper Beeches, five miles on the far side of Winchester.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice Rucastle",
+     "predicate": "LIVES_AT",
+     "object": "Philadelphia",
+     "evidence": "my dear daughter Alice (now in Philadelphia)",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "Your salary with me, madam, would commence at £ 100 a year.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "OWNS",
+     "object": "letter from Jephro Rucastle",
+     "evidence": "I received this letter from the gentleman himself. I have it here and I will read it to you:",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Stoper",
+     "predicate": "SERVANT_OF",
+     "object": "Violet Hunter",
+     "evidence": "The manageress had sat all this while busy with her papers without a word to either of us",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7916,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，受亨特小姐咨询并承诺援助"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Dr. Watson",
+      "Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与叙述者，陪同前往温切斯特"
+    },
+    {
+     "name": "Violet Hunter",
+     "type": "Person",
+     "aliases": [
+      "Miss Hunter",
+      "Violet",
+      "Hunter"
+     ],
+     "nickname": "维奥莱特·亨特",
+     "description": "受雇于鲁卡斯尔家的年轻女家庭教师，向福尔摩斯求助"
+    },
+    {
+     "name": "Jephro Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rucastle",
+      "Rucastle"
+     ],
+     "nickname": "杰夫罗·鲁卡斯尔",
+     "description": "铜山毛榉庄园主人，雇用亨特小姐"
+    },
+    {
+     "name": "Mrs. Rucastle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "鲁卡斯尔太太",
+     "description": "鲁卡斯尔之妻，亨特小姐称未受其虐待"
+    },
+    {
+     "name": "Lord Southerton",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "索瑟顿勋爵",
+     "description": "拥有铜山毛榉庄园周围林地狩猎权的地主"
+    },
+    {
+     "name": "Copper Beeches",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "铜山毛榉庄园",
+     "description": "鲁卡斯尔家宅邸，位于乡间，四周有树林"
+    },
+    {
+     "name": "Winchester",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "温切斯特",
+     "description": "英格兰古城，亨特小姐与福尔摩斯会面之地"
+    },
+    {
+     "name": "Hampshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉普郡",
+     "description": "铜山毛榉庄园所在的郡"
+    },
+    {
+     "name": "Black Swan Hotel",
+     "type": "Place",
+     "aliases": [
+      "The Black Swan"
+     ],
+     "nickname": "黑天鹅旅馆",
+     "description": "温切斯特高街上的旅馆，亨特小姐在此等候福尔摩斯"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯与华生在伦敦的住所所在街道"
+    },
+    {
+     "name": "Aldershot",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "奥尔德肖特",
+     "description": "沿途可见的丘陵地区"
+    },
+    {
+     "name": "Southampton high road",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "南安普顿公路",
+     "description": "铜山毛榉庄园前田野下方弯曲经过的公路"
+    },
+    {
+     "name": "telegram from Hunter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "亨特的电报",
+     "description": "亨特小姐发给福尔摩斯的紧急电报，请其前往温切斯特"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Violet Hunter",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I thought that if I told you the circumstances you would understand afterwards if I wanted your help.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "I have promised Mr. Rucastle to be back before three.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "VISITED",
+     "object": "Black Swan Hotel",
+     "evidence": "Please be at the Black Swan Hotel at Winchester at midday to-morrow",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Black Swan Hotel",
+     "evidence": "there we found the young lady waiting for us",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Black Swan Hotel",
+     "evidence": "there we found the young lady waiting for us",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "Mr. Rucastle met me here and drove me in his dog-cart to the Copper Beeches",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Rucastle",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "I have met, on the whole, with no actual ill-treatment from Mr. and Mrs. Rucastle",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "When I came down, Mr. Rucastle met me here and drove me in his dog-cart to the Copper Beeches.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Rucastle",
+     "evidence": "no actual ill-treatment from Mr. and Mrs. Rucastle",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Southerton",
+     "predicate": "OWNS",
+     "object": "Copper Beeches",
+     "evidence": "the woods all round are part of Lord Southerton’s preserves",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "OWNS",
+     "object": "telegram from Hunter",
+     "evidence": "The summons was a brief and urgent one.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Violet Hunter",
+     "evidence": "a telegram would bring me down to your help",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Winchester",
+     "evidence": "By eleven o’clock the next day we were well upon our way to the old English capital.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Winchester",
+     "evidence": "By eleven o’clock the next day we were well upon our way to the old English capital.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "a man fresh from the fogs of Baker Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "a man fresh from the fogs of Baker Street",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7991,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，听取亨特小姐叙述"
+    },
+    {
+     "name": "Violet Hunter",
+     "type": "Person",
+     "aliases": [
+      "Miss Hunter",
+      "Violet"
+     ],
+     "nickname": "维奥莱特·亨特",
+     "description": "家庭女教师，叙述者"
+    },
+    {
+     "name": "Jephro Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rucastle",
+      "Rucastle"
+     ],
+     "nickname": "杰夫罗·鲁卡斯尔",
+     "description": "铜山毛榉雇主"
+    },
+    {
+     "name": "Mrs. Rucastle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "鲁卡斯尔太太",
+     "description": "鲁卡斯尔的第二任妻子"
+    },
+    {
+     "name": "Toller",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "托勒",
+     "description": "鲁卡斯尔的男仆"
+    },
+    {
+     "name": "Edward",
+     "type": "Person",
+     "aliases": [
+      "little Edward"
+     ],
+     "nickname": "爱德华",
+     "description": "鲁卡斯尔的小儿子"
+    },
+    {
+     "name": "Copper Beeches",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "铜山毛榉",
+     "description": "鲁卡斯尔的宅邸"
+    },
+    {
+     "name": "Southampton Road",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "南安普顿路",
+     "description": "宅邸外的重要公路"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Rucastle",
+     "evidence": "they have been married about seven years",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "KIN",
+     "object": "Edward",
+     "evidence": "her little son",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Rucastle",
+     "predicate": "KIN",
+     "object": "Edward",
+     "evidence": "her little son",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "I was driven over by my employer",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Toller",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "There are only two, a man and his wife. Toller, for that is his name",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "For two days after my arrival at the Copper Beeches my life was very quiet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "my arrival at the Copper Beeches",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Rucastle",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "my arrival at the Copper Beeches",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "my arrival at the Copper Beeches",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Toller",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "There are only two, a man and his wife. Toller, for that is his name",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 8009,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "咨询侦探，本篇委托人维奥莱特·亨特向其求助"
+    },
+    {
+     "name": "Jephro Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rucastle",
+      "Rucastle"
+     ],
+     "nickname": "杰夫罗·鲁卡斯尔",
+     "description": "铜山毛榉宅主人，雇用维奥莱特·亨特"
+    },
+    {
+     "name": "Toller",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "托勒",
+     "description": "鲁卡斯尔家的马夫，负责看管猎犬卡洛"
+    },
+    {
+     "name": "Carlo",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "卡洛",
+     "description": "鲁卡斯尔家的獒犬，凶猛看门犬"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "OWNS",
+     "object": "Carlo",
+     "evidence": "It’s only Carlo, my mastiff. I call him mine",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Toller",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "old Toller, my groom",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Toller",
+     "predicate": "OWNS",
+     "object": "Carlo",
+     "evidence": "really old Toller, my groom, is the only man who can do anything with him",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 8035,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，受维奥莱特·亨特委托调查铜山毛榉案。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴，医生，参与调查。"
+    },
+    {
+     "name": "Violet Hunter",
+     "type": "Person",
+     "aliases": [
+      "Miss Hunter",
+      "Violet"
+     ],
+     "nickname": "维奥莱特·亨特",
+     "description": "家庭女教师，受雇于鲁卡斯尔家，向福尔摩斯求助。"
+    },
+    {
+     "name": "Jephro Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rucastle",
+      "Rucastle"
+     ],
+     "nickname": "杰夫罗·鲁卡斯尔",
+     "description": "铜山毛榉庄园主人，囚禁女儿爱丽丝。"
+    },
+    {
+     "name": "Alice Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Miss Rucastle",
+      "Alice"
+     ],
+     "nickname": "爱丽丝·鲁卡斯尔",
+     "description": "鲁卡斯尔之女，被父亲囚禁在密室中。"
+    },
+    {
+     "name": "Toller",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "托勒",
+     "description": "鲁卡斯尔家的马夫，酗酒，能控制猛犬。"
+    },
+    {
+     "name": "Mrs. Toller",
+     "type": "Person",
+     "aliases": [
+      "Toller's wife"
+     ],
+     "nickname": "托勒太太",
+     "description": "托勒的妻子，鲁卡斯尔家的仆人。"
+    },
+    {
+     "name": "Copper Beeches",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "铜山毛榉",
+     "description": "鲁卡斯尔家的庄园，位于汉普郡。"
+    },
+    {
+     "name": "Winchester",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "温彻斯特",
+     "description": "英国城市，亨特来此与福尔摩斯会面。"
+    },
+    {
+     "name": "America",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "美国",
+     "description": "爱丽丝·鲁卡斯尔据称前往的地方。"
+    },
+    {
+     "name": "Copper Beeches case",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "铜山毛榉案",
+     "description": "维奥莱特·亨特受雇后遭遇怪事，福尔摩斯调查并救出被囚的爱丽丝·鲁卡斯尔。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Violet Hunter",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Then I thought of you, Mr. Holmes. I could not live there longer without some advice.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Copper Beeches case",
+     "evidence": "We shall then look thoroughly into the affair.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "I had no difficulty in getting leave to come into Winchester this morning, but I must be back before three o’clock, for Mr. and Mrs. Rucastle are going on a visit, and will be away all the evening, so that I must look after the child.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "KIN",
+     "object": "Alice Rucastle",
+     "evidence": "As to who this prisoner is, I have no doubt that it is the daughter, Miss Alice Rucastle, if I remember right, who was said to have gone to America.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "HARMED",
+     "object": "Alice Rucastle",
+     "evidence": "You have been brought there to personate someone, and the real person is imprisoned in this chamber.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Toller",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "I remembered that Toller had drunk himself into a state of insensibility that evening, and I knew that he was the only one in the household who had any influence with the savage creature, or who would venture to set him free.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Toller",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "I heard his wife tell Mrs. Rucastle that she could do nothing with him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "We shall be at the Copper Beeches by seven o’clock, my friend and I.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "VISITED",
+     "object": "Winchester",
+     "evidence": "I had no difficulty in getting leave to come into Winchester this morning",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice Rucastle",
+     "predicate": "VISITED",
+     "object": "America",
+     "evidence": "who was said to have gone to America",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Copper Beeches case",
+     "predicate": "OCCURRED_AT",
+     "object": "Copper Beeches",
+     "evidence": "We were as good as our word, for it was just seven when we reached the Copper Beeches",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Violet Hunter",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Copper Beeches case",
+     "evidence": "Now I have told you all my adventures, Mr. Holmes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Copper Beeches case",
+     "evidence": "We shall then look thoroughly into the affair.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Copper Beeches case",
+     "evidence": "We were as good as our word, for it was just seven when we reached the Copper Beeches",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "chars": 4985,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，侦办铜山毛榉案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "Violet Hunter",
+     "type": "Person",
+     "aliases": [
+      "Miss Hunter",
+      "Violet"
+     ],
+     "nickname": "维奥莱特·亨特",
+     "description": "家庭教师，案件委托人"
+    },
+    {
+     "name": "Jephro Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rucastle",
+      "Rucastle"
+     ],
+     "nickname": "杰夫罗·鲁卡斯尔",
+     "description": "铜山毛榉庄园主人，被狗咬伤"
+    },
+    {
+     "name": "Alice Rucastle",
+     "type": "Person",
+     "aliases": [
+      "Miss Rucastle",
+      "Alice"
+     ],
+     "nickname": "爱丽丝·鲁卡斯尔",
+     "description": "鲁卡斯尔之女，被父亲囚禁"
+    },
+    {
+     "name": "Toller",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "托勒",
+     "description": "鲁卡斯尔家的男仆"
+    },
+    {
+     "name": "Mrs. Toller",
+     "type": "Person",
+     "aliases": [
+      "Toller's wife"
+     ],
+     "nickname": "托勒太太",
+     "description": "托勒之妻，帮助爱丽丝"
+    },
+    {
+     "name": "Mr. Fowler",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "福勒先生",
+     "description": "爱丽丝的恋人，后与其结婚"
+    },
+    {
+     "name": "Copper Beeches",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "铜山毛榉庄园",
+     "description": "鲁卡斯尔家的宅邸"
+    },
+    {
+     "name": "Winchester",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "温切斯特",
+     "description": "英格兰城市"
+    },
+    {
+     "name": "Southampton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "南安普顿",
+     "description": "英格兰城市，婚礼举行地"
+    },
+    {
+     "name": "Mauritius",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "毛里求斯",
+     "description": "印度洋岛国，福勒任职地"
+    },
+    {
+     "name": "Walsall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沃尔索尔",
+     "description": "英格兰城镇，亨特办学地"
+    },
+    {
+     "name": "the dog",
+     "type": "Item",
+     "aliases": [
+      "hound",
+      "brute"
+     ],
+     "nickname": "恶犬",
+     "description": "鲁卡斯尔家饲养的凶猛猎犬"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Violet Hunter",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I think, Watson, that we had best escort Miss Hunter back to Winchester",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice Rucastle",
+     "predicate": "KIN",
+     "object": "Jephro Rucastle",
+     "evidence": "her father married again",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "HARMED",
+     "object": "Alice Rucastle",
+     "evidence": "he kept on worrying her until she got brain-fever",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "DECEIVED",
+     "object": "Violet Hunter",
+     "evidence": "brought Miss Hunter down from London in order to get rid of the disagreeable persistence of Mr. Fowler",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Toller",
+     "predicate": "HELPED",
+     "object": "Alice Rucastle",
+     "evidence": "I was Miss Alice’s friend too",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Toller",
+     "predicate": "HELPED",
+     "object": "Mr. Fowler",
+     "evidence": "having met you succeeded by certain arguments, metallic or otherwise, in convincing you that your interests were the same as his",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Mr. Fowler",
+     "predicate": "LOVES",
+     "object": "Alice Rucastle",
+     "evidence": "he stuck to her as true as man could be",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Fowler",
+     "predicate": "SPOUSE",
+     "object": "Alice Rucastle",
+     "evidence": "Mr. Fowler and Miss Rucastle were married, by special license, in Southampton the day after their flight",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Toller",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "They still live with their old servants",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Toller",
+     "predicate": "SERVANT_OF",
+     "object": "Jephro Rucastle",
+     "evidence": "They still live with their old servants",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jephro Rucastle",
+     "predicate": "LIVES_AT",
+     "object": "Copper Beeches",
+     "evidence": "the sinister house with the copper beeches in front of the door",
+     "confidence": 0.9
+    },
+    {
+     "subject": "the dog",
+     "predicate": "HARMED",
+     "object": "Jephro Rucastle",
+     "evidence": "its black muzzle buried in Rucastle’s throat",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "KILLED",
+     "object": "the dog",
+     "evidence": "I blew its brains out",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:46.258Z"
+}

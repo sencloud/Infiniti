@@ -47,6 +47,17 @@ const SEED_PLAN = {
   liaozhai: { count: 120, hint: '著名篇目的主角（狐、鬼、书生），name 用篇中称呼，role 写所在篇名' },
   lunyu: { count: 50, hint: '孔子、孔门弟子（含字）、书中出现的国君大夫与隐者' },
   shiji: { count: 200, hint: '五帝三代、春秋战国君主名臣、秦汉之际人物、汉初功臣与汉武帝时人物' },
+  pride: { count: 45, hint: '班纳特一家、宾利与达西两家、柯林斯与卢卡斯家、凯瑟琳夫人、韦翰、加德纳夫妇等' },
+  janeeyre: { count: 50, hint: '里德一家、劳渥德师生、桑菲尔德的主仆与宾客、里弗斯兄妹、梅森兄妹' },
+  sherlock: { count: 70, hint: '福尔摩斯与华生、哈德森太太、警探，以及 12 个故事里各自的委托人、嫌疑人与受害者' },
+  gatsby: { count: 30, hint: '尼克、盖茨比、布坎南夫妇、乔丹、威尔逊夫妇、沃尔夫山姆、派对客人等' },
+  romeo: { count: 30, hint: '蒙太古与凯普莱特两家、亲王与帕里斯、神父与奶妈、仆人与乐师' },
+  alice: { count: 40, hint: '爱丽丝、白兔、毛毛虫、公爵夫人、柴郡猫、疯帽匠、三月兔、睡鼠、红心国王王后、假海龟、狮鹫等' },
+};
+
+const NAME_RULE = {
+  zh: 'name(书中最通行的规范名)、nickname(字/号/绰号，没有留空)、aliases(书中其它称呼，最多 4 个)',
+  en: 'name(英文原文里的规范名：书中给出名和姓的用「名 姓」如 Fitzwilliam Darcy，只有称谓加姓的保留如 Mrs. Bennet，动物和拟人角色去掉定冠词如 White Rabbit)、nickname(通行中文译名，如「达西」「白兔」)、aliases(原文里的其它称呼，如 Mr. Darcy、Lizzy，最多 4 个)',
 };
 
 async function bookSeeds(graph) {
@@ -64,7 +75,7 @@ async function bookSeeds(graph) {
         system: `你是${graph.prompts.role}，只输出 JSON。`,
         user: `列出《${graph.book}》中最重要的${graph.extract.seedNoun}，范围：${plan.hint}。
 这一批给出 ${size} 位${exclude ? `，不要重复以下已列出的：${exclude}` : ''}。
-每位：name(书中最通行的规范名)、nickname(字/号/绰号，没有留空)、aliases(书中其它称呼，最多 4 个)、role(身份，≤12字)。
+每位：${NAME_RULE[graph.lang || 'zh']}、role(身份，中文 ≤12字)。
 输出 JSON：{"people":[{"name":"","nickname":"","aliases":[],"role":""}]}`,
         maxTokens: 8000,
       });
@@ -82,7 +93,39 @@ async function bookSeeds(graph) {
     }
     stale = all.size === before ? stale + 1 : 0;
   }
-  return [...all.values()].slice(0, plan.count).map((s, i) => ({ rank: null, ...s, order: i + 1 }));
+  const seeds = [...all.values()].slice(0, plan.count);
+  // 别名正好是另一位的名字（老鼠的别名写成 Dormouse、爱丽丝的别名写成 Alice's Sister），会把两人并成一个
+  const bare = (s) => s.replace(/^The\s+/i, '').toLowerCase();
+  const names = new Set(seeds.map((s) => bare(s.name)));
+  for (const s of seeds) s.aliases = s.aliases.filter((a) => !names.has(bare(a)) || bare(a) === bare(s.name));
+  return seeds.map((s, i) => ({ rank: null, ...s, order: i + 1 }));
+}
+
+/** 专题：清单里的每份文件本身就是一个实体（标准用编号，法规制度用全称），不用调模型 */
+async function topicSeeds(graph) {
+  const { readManifest } = await import('../../topic/manifest.js');
+  const { parseStandardCode } = await import('../../kg/domains/topics.js');
+  const type = graph.ontology.ENTITY_TYPE_CODES.has('Standard') ? 'Standard' : 'Document';
+  const seeds = [];
+  for (const f of readManifest(graph.id).files) {
+    if (!f.converted || f.error) continue;
+    const title = f.title.replace(/[（(]\d{4}\s*版[）)]$/, '').trim();
+    const name = f.code || title;
+    const aliases = new Set();
+    if (f.code) {
+      aliases.add(title);
+      const p = parseStandardCode(f.code);
+      if (p?.year) aliases.add(p.base);
+    } else if (title.startsWith('中华人民共和国')) {
+      aliases.add(title.slice(7));
+    }
+    aliases.delete(name);
+    seeds.push({
+      name, type, nickname: '', aliases: [...aliases].filter((a) => a.length >= 2 && a.length <= 40),
+      role: f.category, description: f.code ? title : '', unit_no: f.no,
+    });
+  }
+  return seeds;
 }
 
 export async function loadSeeds(graphId, { refresh = false } = {}) {
@@ -93,7 +136,7 @@ export async function loadSeeds(graphId, { refresh = false } = {}) {
     const cached = readJson(paths.SEEDS_FILE);
     if (Array.isArray(cached)) return cached;
   }
-  const seeds = graphId === 'shuihu' ? await shuihuHeroes() : await bookSeeds(graph);
+  const seeds = graph.topic ? await topicSeeds(graph) : graphId === 'shuihu' ? await shuihuHeroes() : await bookSeeds(graph);
   writeJson(paths.SEEDS_FILE, seeds);
   return seeds;
 }

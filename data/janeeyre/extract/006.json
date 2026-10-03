@@ -1,0 +1,306 @@
+{
+ "no": 6,
+ "title": "The next day commenced as before, getting up and…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7903,
+   "entities": [
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校主管，有权开除学生"
+    },
+    {
+     "name": "Miss Scatcherd",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯卡查德小姐",
+     "description": "劳渥德教师，对海伦严厉苛刻"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "劳渥德学生，简·爱的好友，忍耐虔诚"
+    },
+    {
+     "name": "Miss Smith",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "史密斯小姐",
+     "description": "劳渥德教师，安排简·爱做缝纫"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "简·爱",
+     "description": "叙述者，劳渥德新学生，与海伦交好"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳渥德",
+     "description": "简·爱就读的慈善学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "HARMED",
+     "object": "Helen Burns",
+     "evidence": "the teacher instantly and sharply inflicted on her neck a dozen strokes with the bunch of twigs",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "one class still stood round Miss Scatcherd’s chair reading",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Smith",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Smith put into my hands a border of muslin two yards long",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "I was sent to Lowood to get an education",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "I was now to become an actor therein",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Helen Burns",
+     "evidence": "I sat down by her on the floor",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "I was now to become an actor therein",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "I was sent to Lowood to get an education",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Mr. Brocklehurst would expel you from the school",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7944,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，洛伍德学校的学生"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "简·爱的同学，虔诚忍耐"
+    },
+    {
+     "name": "Miss Scatcherd",
+     "type": "Person",
+     "aliases": [
+      "Scatcherd"
+     ],
+     "nickname": "斯卡查德小姐",
+     "description": "洛伍德学校严厉的教师"
+    },
+    {
+     "name": "Miss Temple",
+     "type": "Person",
+     "aliases": [
+      "Maria Temple",
+      "Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "洛伍德学校善良的学监"
+    },
+    {
+     "name": "Miss Miller",
+     "type": "Person",
+     "aliases": [
+      "Miller"
+     ],
+     "nickname": "米勒小姐",
+     "description": "洛伍德学校的教师"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，冷酷无情"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "John Reed"
+     ],
+     "nickname": "约翰",
+     "description": "里德太太的儿子，曾虐待简·爱"
+    },
+    {
+     "name": "Deepden",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "迪普登",
+     "description": "海伦·彭斯家附近的小溪"
+    },
+    {
+     "name": "Northumberland",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "诺森伯兰",
+     "description": "英格兰北部郡，海伦的家乡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood School",
+     "evidence": "I am, as Miss Scatcherd said, slatternly; I seldom put, and never keep, things in order",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood School",
+     "evidence": "Miss Temple is full of goodness; it pains her to be severe to any one, even the worst in the school",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Miller",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood School",
+     "evidence": "your thoughts never seemed to wander while Miss Miller explained the lesson and questioned you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood School",
+     "evidence": "I am, as Miss Scatcherd said, slatternly; I seldom put, and never keep, things in order",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood School",
+     "evidence": "I observed you in your class this morning, and saw you were closely attentive",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "HARMED",
+     "object": "Helen Burns",
+     "evidence": "I am, as Miss Scatcherd said, slatternly; I seldom put, and never keep, things in order",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "She has been unkind to you, no doubt; because you see, she dislikes your cast of character",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "I should bless her son John, which is impossible",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "Helen heard me patiently to the end: I expected she would then make a remark, but she said nothing.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "LIVES_AT",
+     "object": "Northumberland",
+     "evidence": "Sometimes I think I am in Northumberland, and that the noises I hear round me are the bubbling of a little brook which runs through Deepden, near our house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "VISITED",
+     "object": "Deepden",
+     "evidence": "Sometimes I think I am in Northumberland, and that the noises I hear round me are the bubbling of a little brook which runs through Deepden, near our house",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 100,
+   "entities": [
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "劳渥德学生，简·爱的好友"
+    }
+   ],
+   "relations": []
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:42.614Z"
+}

@@ -1,0 +1,182 @@
+{
+  "entity_id": "e_2587fdf39fc0",
+  "name": "圆",
+  "locale": "zh",
+  "summary": "圆是到定点距离等于定长的点的集合，圆心和半径是核心要素，对称性推出垂径定理等性质[1][2][3][4]。",
+  "sections": [
+    {
+      "title": "圆的基本元素",
+      "text": "圆是平面内到定点距离等于定长的点的集合，这个定点是圆心，定长是半径[5][1]。圆上任意两点间的线段叫弦，经过圆心的弦是直径[6][7]。圆上任意两点间的部分叫弧，一条弧和经过这条弧端点的两条半径组成的图形叫扇形[8][9][10]。圆心角是顶点在圆心的角[11]。这些元素是后续学习圆的性质的基础。"
+    },
+    {
+      "title": "对称性与垂径定理",
+      "text": "圆是中心对称图形，圆心是对称中心[1][2]；圆也是轴对称图形，过圆心的任意一条直线都是它的对称轴[3]。由轴对称性可以推出垂径定理：垂直于弦的直径平分弦以及弦所对的两条弧[4]。这些性质是证明线段相等、弧相等的重要依据。"
+    },
+    {
+      "title": "前置与推导",
+      "text": "学习圆之前需要掌握二次根式，例如由面积求半径[12]。圆的性质可以推出弧长公式：在半径为R的圆中，弧长l与圆心角度数n的关系[13]。圆还与正多边形有密切联系[14]，并且相似三角形的判定中会用到以某线段为直径的圆[15]。"
+    },
+    {
+      "title": "用在哪里",
+      "text": "尺规作图可以用来判断轮廓是否为圆[16]。线段比例关系用于判断圆形古玉是否满足“肉倍好”或“肉好若一”[17]。这些应用体现了圆与其它数学知识的联系。"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_37712238e9c0",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "圆 包含 圆心",
+      "evidence_text": "圆是中心对称图形，圆心是它的对称中心"
+    },
+    {
+      "n": 2,
+      "claim_id": "c_c462406716d3",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "圆是中心对称图形 性质 圆",
+      "evidence_text": "圆是中心对称图形，圆心是它的对称中心"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_3d09f044c4e1",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "圆是轴对称图形 性质 圆",
+      "evidence_text": "圆是轴对称图形，过圆心的任意一条直线都是它的对称轴"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_45c98d6f0ba6",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "垂径定理 性质 圆",
+      "evidence_text": "垂直于弦的直径平分弦以及弦所对的两条弧"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_c457581af9df",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "圆 包含 半径",
+      "evidence_text": "在两张透明纸上分别画一个半径相等的圆"
+    },
+    {
+      "n": 6,
+      "claim_id": "c_9dfade18046d",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "圆 包含 弦",
+      "evidence_text": "AB是⊙O的弦"
+    },
+    {
+      "n": 7,
+      "claim_id": "c_b9c0641bde9a",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "圆 包含 直径",
+      "evidence_text": "圆的直径的两个端点关于圆心中心对称"
+    },
+    {
+      "n": 8,
+      "claim_id": "c_35b4f5fc525b",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "圆 包含 弧",
+      "evidence_text": "在同圆或等圆中，相等的圆心角所对的弧相等"
+    },
+    {
+      "n": 9,
+      "claim_id": "c_ffc6630fa06e",
+      "record_id": "ch-105",
+      "chapter_no": 105,
+      "unit": "九上·3.7",
+      "relation": "圆 包含 扇形",
+      "evidence_text": "一条弧和经过这条弧的端点的两条半径所组成的图形叫作扇形"
+    },
+    {
+      "n": 10,
+      "claim_id": "c_45172c47e3bc",
+      "record_id": "ch-105",
+      "chapter_no": 105,
+      "unit": "九上·3.7",
+      "relation": "圆 包含 弧",
+      "evidence_text": "一条弧和经过这条弧的端点的两条半径所组成的图形叫作扇形"
+    },
+    {
+      "n": 11,
+      "claim_id": "c_82db165f536d",
+      "record_id": "ch-101",
+      "chapter_no": 101,
+      "unit": "九上·3.3",
+      "relation": "圆 包含 圆心角",
+      "evidence_text": "在同圆或等圆中，相等的圆心角所对的弧相等"
+    },
+    {
+      "n": 12,
+      "claim_id": "c_b63927391928",
+      "record_id": "ch-089",
+      "chapter_no": 89,
+      "unit": "八下·11.1",
+      "relation": "二次根式 应用于 圆",
+      "evidence_text": "面积为S的圆的半径；"
+    },
+    {
+      "n": 13,
+      "claim_id": "c_a190f335c119",
+      "record_id": "ch-105",
+      "chapter_no": 105,
+      "unit": "九上·3.7",
+      "relation": "圆 前置 弧长公式",
+      "evidence_text": "在半径为 R 的圆中，弧长 l 与所对的圆心角度数 n 之间有如下关系"
+    },
+    {
+      "n": 14,
+      "claim_id": "c_ac0ddcb652e2",
+      "record_id": "ch-104",
+      "chapter_no": 104,
+      "unit": "九上·3.6",
+      "relation": "圆 相关 正多边形",
+      "evidence_text": "正多边形与圆有密切的联系"
+    },
+    {
+      "n": 15,
+      "claim_id": "c_cbfcd0696405",
+      "record_id": "ch-125",
+      "chapter_no": 125,
+      "unit": "九下·6.7",
+      "relation": "圆 相关 相似三角形的判定",
+      "evidence_text": "以DE为直径的⊙O交AE于点F"
+    },
+    {
+      "n": 16,
+      "claim_id": "c_7bb141f4a352",
+      "record_id": "ch-105",
+      "chapter_no": 105,
+      "unit": "九上·3.7",
+      "relation": "尺规作图 应用于 圆",
+      "evidence_text": "用直尺和圆规判断它们的轮廓是否为圆。"
+    },
+    {
+      "n": 17,
+      "claim_id": "c_84775fe00ea5",
+      "record_id": "ch-105",
+      "chapter_no": 105,
+      "unit": "九上·3.7",
+      "relation": "线段比例关系 应用于 圆",
+      "evidence_text": "判断一件圆形古玉是否满足“肉倍好”或“肉好若一”，本质是判断线段的比例关系。"
+    }
+  ],
+  "basis": "2806e9e403d46b7c",
+  "basis_size": 17,
+  "generated_at": "2026-10-03T01:16:54.646Z"
+}

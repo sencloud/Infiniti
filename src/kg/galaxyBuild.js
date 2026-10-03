@@ -8,15 +8,15 @@ import { UMAP } from 'umap-js';
 import { kmeans } from 'ml-kmeans';
 import { embedTexts, EMBED_DIM } from './embed.js';
 import { chatJson } from './llm.js';
-import { addWords, buildTfIdf, tokenize } from './keywords.js';
+import { addPhrases, addWords, buildTfIdf, tokenize } from './keywords.js';
 import { NameMatcher } from './matcher.js';
-import { periodSpan, unitLabel } from './domains/index.js';
+import { graphDataDir, periodSpan, unitLabel } from './domains/index.js';
 import { currentGraph, currentGraphId, ensureUnitLabels, exec as run, vectorIndexName, vectorLabel } from './neo.js';
 import {
   cosine, cosineDistanceMatrix, dot, meanVector, normalize, robustZ, seededRandom, silhouette,
 } from './mathutil.js';
 
-const cacheFile = () => path.resolve(`data/${currentGraphId()}/embeddings.json`);
+const cacheFile = () => path.join(graphDataDir(currentGraphId()), 'embeddings.json');
 
 export function periodOf(chapterNo) {
   return periodSpan(currentGraph(), chapterNo).label;
@@ -68,7 +68,7 @@ async function embedSegments(segments, onProgress) {
   }
   const missing = segments.filter((s) => cache[s.seg_id]?.h !== textHash(s.text));
   if (missing.length) {
-    const vectors = await embedTexts(missing.map((s) => s.text), { batchSize: 16, onProgress });
+    const vectors = await embedTexts(missing.map((s) => s.text), { batchSize: 16, onProgress, lang: currentGraph().lang });
     missing.forEach((s, i) => {
       cache[s.seg_id] = { h: textHash(s.text), v: vectors[i].map((x) => Number(x.toFixed(6))) };
     });
@@ -115,7 +115,8 @@ async function nameClusters(clusters, segments) {
   const worker = async () => {
     while (queue.length) {
       const c = queue.shift();
-      const samples = c.representatives.map((i) => `（${label(segments[i].chapter_no)}）${segments[i].text.slice(0, 160)}`).join('\n');
+      const sampleLen = graph.lang === 'en' ? 420 : 160;
+      const samples = c.representatives.map((i) => `（${label(segments[i].chapter_no)}）${segments[i].text.slice(0, sampleLen)}`).join('\n');
       try {
         const res = await chatJson({
           system: `你是${graph.prompts.role}，为《${graph.name}》原文片段的语义聚类起名，只输出 JSON。`,
@@ -152,7 +153,9 @@ export async function buildGalaxy(job) {
   const segments = await loadSegments();
   if (segments.length < 20) throw new Error(`片段太少，请先运行 npm run kg:load -- ${currentGraphId()}`);
   const entities = await loadEntityNames();
-  addWords(entities.flatMap((e) => [e.name, ...e.aliases]));
+  const lang = currentGraph().lang || 'zh';
+  if (lang === 'en') addPhrases(entities.flatMap((e) => [e.name, ...e.aliases]));
+  else addWords(entities.flatMap((e) => [e.name, ...e.aliases]));
 
   step('embed', 5);
   const vectors = await embedSegments(segments, (done, total) => {
@@ -193,7 +196,7 @@ export async function buildGalaxy(job) {
   step('keywords', 72);
   const personMatcher = new NameMatcher(entities.filter((e) => e.primary).map((e) => ({ id: e.name, names: [e.name, ...e.aliases] })));
   const placeMatcher = new NameMatcher(entities.filter((e) => !e.primary).map((e) => ({ id: e.name, names: [e.name, ...e.aliases] })));
-  const docs = segments.map((s) => tokenize(s.text));
+  const docs = segments.map((s) => tokenize(s.text, lang));
   segments.forEach((s) => {
     const persons = [...personMatcher.count(s.text)].sort((a, b) => b[1] - a[1]);
     const places = [...placeMatcher.count(s.text)].sort((a, b) => b[1] - a[1]);

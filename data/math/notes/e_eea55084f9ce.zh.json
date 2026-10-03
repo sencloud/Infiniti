@@ -1,0 +1,88 @@
+{
+  "entity_id": "e_eea55084f9ce",
+  "name": "积的乘方",
+  "locale": "zh",
+  "summary": "积的乘方是幂的运算性质之一，由乘法交换律和结合律推出，可推广到商的乘方。[1][2][3][4]",
+  "sections": [
+    {
+      "title": "是什么",
+      "text": "积的乘方是幂的运算性质中的一种，与同底数幂的乘法、幂的乘方、同底数幂的除法并列。[1] 它的法则是把积的每一个因式分别乘方，再把所得的幂相乘，即(ab)^m=a^m b^m。"
+    },
+    {
+      "title": "从哪里来",
+      "text": "积的乘方由乘法交换律和乘法结合律推出。[2][3][5][6] 推导时，先利用交换律和结合律把积的每个因式分别乘方，再相乘。例如计算(-2ab^3c^2)^4时，先分别乘方得2^4·a^4·(b^3)^4·(c^2)^4，这里用到了幂的乘方。[7]"
+    },
+    {
+      "title": "用在哪里",
+      "text": "积的乘方可以推广到商的乘方运算。[4] 在后续学习同底数幂的除法等内容时，会用到积的乘方作为基础。[1]"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_5ef8bec2381b",
+      "record_id": "ch-027",
+      "chapter_no": 27,
+      "unit": "七下·7.3",
+      "relation": "积的乘方 包含 幂的运算",
+      "evidence_text": "本章中，我们学习了幂的运算性质，包括同底数幂的乘法、幂的乘方、积的乘方、同底数幂的除法等"
+    },
+    {
+      "n": 2,
+      "claim_id": "c_52796e28f177",
+      "record_id": "ch-026",
+      "chapter_no": 26,
+      "unit": "七下·7.2",
+      "relation": "乘法交换律 前置 积的乘方",
+      "evidence_text": "乘法交换律、乘法结合律"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_a9c90b6817fb",
+      "record_id": "ch-026",
+      "chapter_no": 26,
+      "unit": "七下·7.2",
+      "relation": "乘法交换律 推出 积的乘方",
+      "evidence_text": "乘法交换律、乘法结合律"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_da0e4eb9c4d5",
+      "record_id": "ch-027",
+      "chapter_no": 27,
+      "unit": "七下·7.3",
+      "relation": "积的乘方 推出 商的乘方",
+      "evidence_text": "这说明可以把积的乘方运算法则推广到商的乘方运算。"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_1d969bad6d05",
+      "record_id": "ch-026",
+      "chapter_no": 26,
+      "unit": "七下·7.2",
+      "relation": "乘法结合律 前置 积的乘方",
+      "evidence_text": "乘法交换律、乘法结合律"
+    },
+    {
+      "n": 6,
+      "claim_id": "c_de1ffa5b74cf",
+      "record_id": "ch-026",
+      "chapter_no": 26,
+      "unit": "七下·7.2",
+      "relation": "乘法结合律 推出 积的乘方",
+      "evidence_text": "乘法交换律、乘法结合律"
+    },
+    {
+      "n": 7,
+      "claim_id": "c_66c08dea35a6",
+      "record_id": "ch-026",
+      "chapter_no": 26,
+      "unit": "七下·7.2",
+      "relation": "幂的乘方 应用于 积的乘方",
+      "evidence_text": "例4（1）(-2ab^3c^2)^4 = 2^4 · a^4 · (b^3)^4 · (c^2)^4"
+    }
+  ],
+  "basis": "8e856d1bad68f4d3",
+  "basis_size": 7,
+  "generated_at": "2026-10-03T02:05:07.343Z"
+}

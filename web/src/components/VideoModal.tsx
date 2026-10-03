@@ -41,8 +41,14 @@ export function episodesForChapters(catalog: VideoCatalog | null, chapters: numb
   return catalog.episodes.filter((ep) => ep.chapters.some((c) => set.has(c)))
 }
 
+/** 剧集显示名：对照表自带的（电影、单集故事）优先，否则「第 N 集 标题」 */
+export function episodeLabel(ep: Pick<VideoEpisode, 'ep' | 'title' | 'label' | 'label_en'>): string {
+  const own = i18n.language?.startsWith('en') ? ep.label_en || ep.label : ep.label
+  return own || i18n.t('video.episode', { ep: ep.ep, title: ep.title })
+}
+
 export function episodeTarget(catalog: VideoCatalog, ep: VideoEpisode): VideoTarget {
-  return { bvid: catalog.source!.bvid, page: ep.page, title: i18n.t('video.episode', { ep: ep.ep, title: ep.title }) }
+  return { bvid: catalog.source!.bvid, page: ep.page, title: episodeLabel(ep) }
 }
 
 export default function VideoModal({ target, sourceTitle, onClose }: {

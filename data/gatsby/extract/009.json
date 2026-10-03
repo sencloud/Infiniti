@@ -1,0 +1,882 @@
+{
+ "no": 9,
+ "title": "After two years I remember the rest of that…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8045,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Mr. Carraway",
+      "Narrator",
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的朋友，为其料理后事"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby",
+      "Jimmy"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，被威尔逊枪杀，死后少人问津"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "盖茨比旧爱，与汤姆匆匆离开未留地址"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西丈夫，与黛西一同离开"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wolfsheim",
+      "Wolfshiem"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的生意伙伴，拒绝出席葬礼"
+    },
+    {
+     "name": "Catherine",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凯瑟琳",
+     "description": "梅朵的妹妹，在审讯中坚称姐姐幸福"
+    },
+    {
+     "name": "Dan Cody",
+     "type": "Person",
+     "aliases": [
+      "Cody",
+      "Mr. Cody"
+     ],
+     "nickname": "丹·科迪",
+     "description": "盖茨比早年恩主，其照片挂在盖茨比书房"
+    },
+    {
+     "name": "Henry Gatz",
+     "type": "Person",
+     "aliases": [
+      "Mr. Gatz",
+      "Gatz",
+      "Henry C. Gatz"
+     ],
+     "nickname": "亨利·盖茨",
+     "description": "盖茨比的父亲，从明尼苏达赶来参加葬礼"
+    },
+    {
+     "name": "Michaelis",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "米凯利斯",
+     "description": "威尔逊的邻居，在审讯中提供证词"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson"
+     ],
+     "nickname": "威尔逊",
+     "description": "汽车修理店老板，怀疑妻子不忠，枪杀盖茨比后自尽"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle"
+     ],
+     "nickname": "梅朵",
+     "description": "威尔逊的妻子，与汤姆有私情，被车撞死"
+    },
+    {
+     "name": "Slagle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯莱格尔",
+     "description": "盖茨比生意圈中人，打电话告知帕克被捕"
+    },
+    {
+     "name": "Young Parke",
+     "type": "Person",
+     "aliases": [
+      "Parke"
+     ],
+     "nickname": "帕克",
+     "description": "因交付债券被捕的年轻人"
+    },
+    {
+     "name": "West Egg village",
+     "type": "Place",
+     "aliases": [
+      "West Egg"
+     ],
+     "nickname": "西卵村",
+     "description": "盖茨比宅邸所在的长岛村庄"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "沃尔夫山姆办公室所在城市"
+    },
+    {
+     "name": "Broadway",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "百老汇",
+     "description": "纽约街道，沃尔夫山姆办公室所在地"
+    },
+    {
+     "name": "Chicago",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "芝加哥",
+     "description": "报纸报道盖茨比死讯的城市"
+    },
+    {
+     "name": "Minnesota",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "明尼苏达",
+     "description": "亨利·盖茨发来电报的城镇所在州"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Henry Gatz",
+     "predicate": "KIN",
+     "object": "Jay Gatsby",
+     "evidence": "It was Gatsby’s father, a solemn old man",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "We were close friends.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "HELPED",
+     "object": "Jay Gatsby",
+     "evidence": "I found myself on Gatsby’s side, and alone.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "HELPED",
+     "object": "Henry Gatz",
+     "evidence": "I helped him to a bedroom upstairs",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "she and Tom had gone away early that afternoon",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "SPOUSE",
+     "object": "Myrtle Wilson",
+     "evidence": "Wilson’s suspicions of his wife",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine",
+     "predicate": "KIN",
+     "object": "Myrtle Wilson",
+     "evidence": "her sister had never seen Gatsby",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "This has been one of the most terrible shocks of my life to me",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Dan Cody",
+     "predicate": "HELPED",
+     "object": "Jay Gatsby",
+     "evidence": "only the picture of Dan Cody, a token of forgotten violence",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg village",
+     "evidence": "I telephoned news of the catastrophe to West Egg village",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "LIVES_AT",
+     "object": "Broadway",
+     "evidence": "The butler gave me his office address on Broadway",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "Next morning I sent the butler to New York with a letter to Wolfshiem",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Gatz",
+     "predicate": "NATIVE_OF",
+     "object": "Minnesota",
+     "evidence": "a telegram signed Henry C. Gatz arrived from a town in Minnesota",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7700,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Mr. Carraway",
+      "Narrator",
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居与朋友"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby",
+      "Jimmy"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，为爱执着"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wolfshiem",
+      "Wolfshiem"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的生意伙伴，黑帮人物"
+    },
+    {
+     "name": "Klipspringer",
+     "type": "Person",
+     "aliases": [
+      "The boarder"
+     ],
+     "nickname": "克里普斯普林格",
+     "description": "寄居在盖茨比家的房客"
+    },
+    {
+     "name": "Henry Gatz",
+     "type": "Person",
+     "aliases": [
+      "Mr. Gatz",
+      "Gatz"
+     ],
+     "nickname": "亨利·盖茨",
+     "description": "盖茨比的父亲"
+    },
+    {
+     "name": "The Swastika Holding Company",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "纳粹标志控股公司",
+     "description": "沃尔夫山姆的公司"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛的一个富人区"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "城市"
+    },
+    {
+     "name": "Greenwich",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格林威治",
+     "description": "康涅狄格州的一个地方"
+    },
+    {
+     "name": "Chicago",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "芝加哥",
+     "description": "城市"
+    },
+    {
+     "name": "Winebrenner's poolroom",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "温布伦纳台球厅",
+     "description": "位于四十三街的台球厅"
+    },
+    {
+     "name": "Forty-third Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "四十三街",
+     "description": "纽约的一条街道"
+    },
+    {
+     "name": "Albany",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "奥尔巴尼",
+     "description": "纽约州首府"
+    },
+    {
+     "name": "Oggsford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牛津",
+     "description": "沃尔夫山姆对牛津的称呼"
+    },
+    {
+     "name": "American Legion",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "美国退伍军人协会",
+     "description": "退伍军人组织"
+    },
+    {
+     "name": "Hopalong Cassidy",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "《霍帕朗·卡西迪》",
+     "description": "盖茨比童年时的一本书"
+    },
+    {
+     "name": "photograph of the house",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "房子照片",
+     "description": "盖茨比寄给父亲的照片"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Klipspringer",
+     "predicate": "SERVANT_OF",
+     "object": "Jay Gatsby",
+     "evidence": "What I called up about was a pair of shoes I left there.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "I felt a certain shame for Gatsby",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "You were his closest friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "HELPED",
+     "object": "Jay Gatsby",
+     "evidence": "I raised him up out of nothing, right out of the gutter.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "MEMBER_OF",
+     "object": "The Swastika Holding Company",
+     "evidence": "The door that I pushed open, on the advice of an elevator boy, was marked “The Swastika Holding Company,”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Henry Gatz",
+     "predicate": "KIN",
+     "object": "Jay Gatsby",
+     "evidence": "His pride in his son",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Gatz",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I got back to West Egg in a drizzle. After changing my clothes I went next door and found Mr. Gatz walking up and down excitedly in the hall.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "MEMBER_OF",
+     "object": "American Legion",
+     "evidence": "I got him to join the American Legion",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Winebrenner's poolroom",
+     "evidence": "First time I saw him was when he came into Winebrenner’s poolroom at Forty-third Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "NATIVE_OF",
+     "object": "Oggsford",
+     "evidence": "when he told me he was at Oggsford",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Henry Gatz",
+     "predicate": "OWNS",
+     "object": "photograph of the house",
+     "evidence": "He took out his wallet with trembling fingers. “Look there.” It was a photograph of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Gatz",
+     "predicate": "OWNS",
+     "object": "Hopalong Cassidy",
+     "evidence": "pulled from his pocket a ragged old copy of a book called Hopalong Cassidy",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7627,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，来自中西部，与盖茨比等人有交往"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，已故，葬礼冷清"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "盖茨比爱慕的对象，未送花或消息"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，与尼克有冲突"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，曾与尼克交往，后订婚"
+    },
+    {
+     "name": "Henry Gatz",
+     "type": "Person",
+     "aliases": [
+      "Mr. Gatz",
+      "Gatz"
+     ],
+     "nickname": "亨利·盖茨",
+     "description": "盖茨比的父亲，参加葬礼"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛地区，盖茨比居住地"
+    },
+    {
+     "name": "East",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "东部",
+     "description": "美国东部地区，尼克感到不适"
+    },
+    {
+     "name": "Middle West",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "中西部",
+     "description": "尼克和主要人物的故乡"
+    },
+    {
+     "name": "Fifth Avenue",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "第五大道",
+     "description": "纽约街道，尼克遇见汤姆处"
+    },
+    {
+     "name": "Carraway house",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "卡罗威宅",
+     "description": "尼克家族在中西部的住宅"
+    },
+    {
+     "name": "Gatsby's funeral",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "盖茨比葬礼",
+     "description": "盖茨比的葬礼，出席者极少"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Henry Gatz",
+     "predicate": "KIN",
+     "object": "Jay Gatsby",
+     "evidence": "So did Gatsby’s father.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "I tried to think about Gatsby then for a moment",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "Daisy hadn’t sent a message or a flower.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "Tom and Gatsby, Daisy and Jordan and I, were all Westerners",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "QUARRELED",
+     "object": "Tom Buchanan",
+     "evidence": "“Yes. You know what I think of you.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LOVES",
+     "object": "Jordan Baker",
+     "evidence": "Angry, and half in love with her, and tremendously sorry, I turned away.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "West Egg, especially, still figures in my more fantastic dreams.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "NATIVE_OF",
+     "object": "Middle West",
+     "evidence": "That’s my Middle West",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Fifth Avenue",
+     "evidence": "He was walking ahead of me along Fifth Avenue",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's funeral",
+     "evidence": "our procession of three cars reached the cemetery",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Gatz",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's funeral",
+     "evidence": "then Mr. Gatz and the minister and me in the limousine",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Gatsby's funeral",
+     "predicate": "OCCURRED_AT",
+     "object": "West Egg",
+     "evidence": "the postman from West Egg, in Gatsby’s station wagon",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "Carraway house",
+     "evidence": "growing up in the Carraway house",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 4306,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居与朋友"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，向威尔逊告密者"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比的爱慕对象"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "被威尔逊枪杀的富豪，痴恋黛西"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle",
+      "Mrs. Wilson"
+     ],
+     "nickname": "梅朵",
+     "description": "汤姆的情妇，被车撞死"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson",
+      "that fellow"
+     ],
+     "nickname": "威尔逊",
+     "description": "梅朵的丈夫，枪杀盖茨比后自杀"
+    },
+    {
+     "name": "Gatsby's house",
+     "type": "Place",
+     "aliases": [
+      "his house",
+      "Gatsby's mansion"
+     ],
+     "nickname": "盖茨比宅邸",
+     "description": "盖茨比在西卵的豪宅，死后空置"
+    },
+    {
+     "name": "East Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "东卵",
+     "description": "长岛海湾的富人区，布坎南夫妇居住地"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [
+      "the city"
+     ],
+     "nickname": "纽约",
+     "description": "尼克周末常去的城市"
+    },
+    {
+     "name": "the green light",
+     "type": "Item",
+     "aliases": [
+      "green light at the end of Daisy's dock"
+     ],
+     "nickname": "绿灯",
+     "description": "黛西码头尽头的绿灯，盖茨比梦想的象征"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "They were careless people, Tom and Daisy—they smashed up things and creatures and then retreated back into their money or their vast carelessness, or whatever it was that kept them together",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "SPOUSE",
+     "object": "George Wilson",
+     "evidence": "when I went to give up that flat and saw that damn box of dog biscuits sitting there on the sideboard",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "I thought of Gatsby’s wonder when he first picked out the green light at the end of Daisy’s dock",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "KILLED",
+     "object": "Jay Gatsby",
+     "evidence": "He was crazy enough to kill me if I hadn’t told him who owned the car.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "KILLED",
+     "object": "Myrtle Wilson",
+     "evidence": "He ran over Myrtle like you’d run over a dog and never even stopped his car.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "DECEIVED",
+     "object": "George Wilson",
+     "evidence": "What if I did tell him? That fellow had it coming to him.",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "I shook hands with him; it seemed silly not to, for I felt suddenly as though I were talking to a child.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's house",
+     "evidence": "Gatsby’s house was still empty when I left—the grass on his lawn had grown as long as mine.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LIVES_AT",
+     "object": "East Egg",
+     "evidence": "perhaps it was he who drove Daisy and Gatsby over to East Egg the night of the accident",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "I spent my Saturday nights in New York because those gleaming, dazzling parties of his were with me so vividly",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "OWNS",
+     "object": "the green light",
+     "evidence": "Gatsby believed in the green light, the orgiastic future that year by year recedes before us.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:19.428Z"
+}

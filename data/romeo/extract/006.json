@@ -1,0 +1,154 @@
+{
+ "no": 6,
+ "title": "An open place adjoining Capulet’s Garden",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1996,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家之子，正爱慕罗瑟琳"
+    },
+    {
+     "name": "Benvolio Montague",
+     "type": "Person",
+     "aliases": [
+      "Benvolio",
+      "Montague's nephew"
+     ],
+     "nickname": "班伏里奥",
+     "description": "蒙太古的侄子，罗密欧的堂兄弟与好友"
+    },
+    {
+     "name": "Mercutio",
+     "type": "Person",
+     "aliases": [
+      "the Prince's kinsman"
+     ],
+     "nickname": "茂丘西奥",
+     "description": "亲王的亲戚，罗密欧的好友"
+    },
+    {
+     "name": "Abraham",
+     "type": "Person",
+     "aliases": [
+      "Montague's man"
+     ],
+     "nickname": "亚伯拉罕",
+     "description": "蒙太古家的仆人"
+    },
+    {
+     "name": "Rosaline",
+     "type": "Person",
+     "aliases": [
+      "the fair maid"
+     ],
+     "nickname": "罗瑟琳",
+     "description": "罗密欧爱慕的女子"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "蒙太古家族"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "凯普莱特家族"
+    },
+    {
+     "name": "Capulet's Garden",
+     "type": "Place",
+     "aliases": [
+      "Capulet's orchard",
+      "orchard wall"
+     ],
+     "nickname": "凯普莱特花园",
+     "description": "凯普莱特家的花园"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Abraham",
+     "predicate": "SERVANT_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's man",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KIN",
+     "object": "Benvolio Montague",
+     "evidence": "My cousin Romeo!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Benvolio Montague",
+     "evidence": "My cousin Romeo!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Mercutio",
+     "evidence": "Call, good Mercutio.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Rosaline",
+     "evidence": "I conjure thee by Rosaline’s bright eyes",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Capulet's Garden",
+     "evidence": "He ran this way, and leap’d this orchard wall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "Capulet’s Garden",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:52.645Z"
+}

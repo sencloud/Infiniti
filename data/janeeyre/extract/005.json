@@ -1,0 +1,405 @@
+{
+ "no": 5,
+ "title": "Five o’clock had hardly struck on the morning of…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6841,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "孤女，离开盖茨海德前往学校"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead",
+      "Missis"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德的女主人"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德的女仆，对简·爱友善"
+    },
+    {
+     "name": "Miss Miller",
+     "type": "Person",
+     "aliases": [
+      "Miller"
+     ],
+     "nickname": "米勒小姐",
+     "description": "学校教师，接待简·爱"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德",
+     "description": "里德太太的宅邸，简·爱童年居所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie was the only person yet risen; she had lit a fire in the nursery, where she now proceeded to make my breakfast.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "I was to leave Gateshead that day by a coach which passed the lodge gates at six A.M.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "As we passed Mrs. Reed’s bedroom, she said, “Will you go in and bid Missis good-bye?”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "QUARRELED",
+     "object": "Mrs. Reed",
+     "evidence": "Your Missis has not been my friend: she has been my foe.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "she helped me on with my pelisse and bonnet, and wrapping herself in a shawl, she and I left the nursery.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Gateshead",
+     "evidence": "Good-bye to Gateshead!",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7576,
+   "entities": [
+    {
+     "name": "Miss Miller",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "米勒小姐",
+     "description": "劳渥德学校的助理教师，负责管理学生"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校的负责人，学生私下提及他"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "简·爱",
+     "description": "刚到劳渥德学校的新生，叙述者"
+    },
+    {
+     "name": "Lowood",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "劳渥德学校",
+     "description": "简·爱就读的慈善学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Miss Miller",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "she looked, indeed, what I afterwards found she really was, an under-teacher",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "I was now nearly sick from inanition, having taken so little the day before",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Miss Miller",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "To-night I was to be Miss Miller’s bed-fellow; she helped me to undress",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Miss Miller",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "she helped me to undress",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7865,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，刚到洛伍德学校的女孩"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "洛伍德学校学监，善良公正"
+    },
+    {
+     "name": "Miss Miller",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "米勒小姐",
+     "description": "洛伍德学校教师，工作繁重"
+    },
+    {
+     "name": "Naomi Brocklehurst",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "内奥米·布洛克赫斯特",
+     "description": "布洛克赫斯特家族成员，捐建洛伍德"
+    },
+    {
+     "name": "Lowood Institution",
+     "type": "Organization",
+     "aliases": [
+      "Lowood"
+     ],
+     "nickname": "洛伍德学校",
+     "description": "慈善学校，位于洛伍德"
+    },
+    {
+     "name": "Brocklehurst Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布洛克赫斯特府",
+     "description": "布洛克赫斯特家族宅邸"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德",
+     "description": "简·爱过去生活的地方"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood Institution",
+     "evidence": "The superintendent of Lowood (for such was this lady)",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Miss Miller",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood Institution",
+     "evidence": "Miss Miller approaching, seemed to ask her a question",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Naomi Brocklehurst",
+     "predicate": "MEMBER_OF",
+     "object": "Lowood Institution",
+     "evidence": "This portion was rebuilt A.D. ——, by Naomi Brocklehurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Naomi Brocklehurst",
+     "predicate": "LIVES_AT",
+     "object": "Brocklehurst Hall",
+     "evidence": "Naomi Brocklehurst, of Brocklehurst Hall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Gateshead",
+     "evidence": "Gateshead and my past life seemed floated away",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 5350,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，新到洛伍德学校的孤儿"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "海伦·彭斯",
+     "description": "与简交谈、被罚站的女孩"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "洛伍德学校司库兼管理者，牧师"
+    },
+    {
+     "name": "Naomi Brocklehurst",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "内奥米·布洛克赫斯特",
+     "description": "建造洛伍德新部分的女士，布洛克赫斯特之母"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "洛伍德学校女教师，最受尊敬"
+    },
+    {
+     "name": "Miss Scatcherd",
+     "type": "Person",
+     "aliases": [
+      "Scatcherd"
+     ],
+     "nickname": "斯卡查德小姐",
+     "description": "洛伍德学校教师，教历史语法，性急"
+    },
+    {
+     "name": "Madame Pierrot",
+     "type": "Person",
+     "aliases": [
+      "Pierrot"
+     ],
+     "nickname": "皮埃罗夫人",
+     "description": "洛伍德学校法语教师，来自法国里尔"
+    },
+    {
+     "name": "Miss Smith",
+     "type": "Person",
+     "aliases": [
+      "Smith"
+     ],
+     "nickname": "史密斯小姐",
+     "description": "洛伍德学校教师，负责手工裁剪"
+    },
+    {
+     "name": "Lowood Institution",
+     "type": "Organization",
+     "aliases": [
+      "Lowood"
+     ],
+     "nickname": "洛伍德学校",
+     "description": "慈善学校，教育孤儿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Naomi Brocklehurst",
+     "predicate": "KIN",
+     "object": "Mr. Brocklehurst",
+     "evidence": "The lady who built the new part of this house as that tablet records, and whose son overlooks and directs everything here.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "MEMBER_OF",
+     "object": "Lowood Institution",
+     "evidence": "Because he is treasurer and manager of the establishment.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Mr. Brocklehurst",
+     "evidence": "she has to answer to Mr. Brocklehurst for all she does.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Miss Smith",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood Institution",
+     "evidence": "The one with red cheeks is called Miss Smith; she attends to the work, and cuts out—for we make our own clothes, our frocks, and pelisses, and everything",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood Institution",
+     "evidence": "the little one with black hair is Miss Scatcherd; she teaches history and grammar, and hears the second class repetitions",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Madame Pierrot",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood Institution",
+     "evidence": "the one who wears a shawl, and has a pocket-handkerchief tied to her side with a yellow ribband, is Madame Pierrot: she comes from Lisle, in France, and teaches French.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "HARMED",
+     "object": "Helen Burns",
+     "evidence": "I saw the girl with whom I had conversed in the verandah dismissed in disgrace by Miss Scatcherd from a history class, and sent to stand in the middle of the large schoolroom.",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:45.438Z"
+}

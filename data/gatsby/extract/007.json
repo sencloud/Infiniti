@@ -1,0 +1,1253 @@
+{
+ "no": 7,
+ "title": "It was when curiosity about Gatsby was at its…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8008,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居与朋友"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，深爱黛西"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比旧爱"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan",
+      "Mr. Thomas Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，粗壮 athlete"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的女友"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Wolfshiem",
+      "Mr. Wolfsheim"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的生意伙伴"
+    },
+    {
+     "name": "Pammy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Pammy"
+     ],
+     "nickname": "帕米",
+     "description": "汤姆与黛西的小女儿"
+    },
+    {
+     "name": "West Egg village",
+     "type": "Place",
+     "aliases": [
+      "West Egg"
+     ],
+     "nickname": "西卵村",
+     "description": "长岛海湾的村庄"
+    },
+    {
+     "name": "Buchanans’ house",
+     "type": "Place",
+     "aliases": [
+      "Buchanans’"
+     ],
+     "nickname": "布坎南宅邸",
+     "description": "汤姆与黛西的宅邸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "You know I love you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LOVES",
+     "object": "Jay Gatsby",
+     "evidence": "You know I love you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "Tom’s girl on the telephone",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Pammy Buchanan",
+     "predicate": "KIN",
+     "object": "Daisy Buchanan",
+     "evidence": "Come to your own mother that loves you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Pammy Buchanan",
+     "predicate": "KIN",
+     "object": "Tom Buchanan",
+     "evidence": "Where’s Daddy?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "Tell him Mr. Carraway came over",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Daisy Buchanan",
+     "evidence": "Daisy herself telephoned and seemed relieved to find that I was coming",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "Jordan’s fingers, powdered white over their tan, rested for a moment in mine",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Buchanans’ house",
+     "evidence": "Through the hall of the Buchanans’ house blew a faint wind",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Buchanans’ house",
+     "evidence": "Gatsby and me as we waited at the door",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Jay Gatsby",
+     "evidence": "Daisy comes over quite often—in the afternoons",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "SERVANT_OF",
+     "object": "Meyer Wolfsheim",
+     "evidence": "They’re some people Wolfshiem wanted to do something for",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7572,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居与朋友"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，深爱黛西"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比旧爱"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，粗鲁傲慢"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的女友"
+    },
+    {
+     "name": "Doctor T. J. Eckleburg",
+     "type": "Person",
+     "aliases": [
+      "Doctor Eckleburg",
+      "T. J. Eckleburg"
+     ],
+     "nickname": "埃克尔堡医生",
+     "description": "广告牌上的眼睛，象征性人物"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson"
+     ],
+     "nickname": "威尔逊",
+     "description": "修车厂老板，梅朵的丈夫"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle"
+     ],
+     "nickname": "梅朵",
+     "description": "威尔逊的妻子，汤姆的情妇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LOVES",
+     "object": "Jay Gatsby",
+     "evidence": "She had told him that she loved him, and Tom Buchanan saw.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "his eyes still flashing between Gatsby and his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "SPOUSE",
+     "object": "Myrtle Wilson",
+     "evidence": "My wife and I want to go West.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "DECEIVED",
+     "object": "George Wilson",
+     "evidence": "I just got wised up to something funny the last two days",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "QUARRELED",
+     "object": "Jay Gatsby",
+     "evidence": "His hand, trembling with his effort at self-control, bore to his lips the last of his glass of ale.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "FRIEND",
+     "object": "Nick Carraway",
+     "evidence": "Jordan and Tom and I got into the front seat of Gatsby's car",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "Gatsby turned to me rigidly: 'I can't say anything in his house, old sport.'",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "Come on, Jordan.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "FRIEND",
+     "object": "George Wilson",
+     "evidence": "You sounded well enough on the phone.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7962,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，自称牛津毕业生，爱慕黛西。"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比旧爱，出身路易斯维尔。"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，梅朵的情人，粗鲁傲慢。"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的女友，黛西的旧友。"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle",
+      "Mrs. Wilson"
+     ],
+     "nickname": "梅朵",
+     "description": "威尔逊太太，汤姆的情妇，误认乔丹为汤姆妻子。"
+    },
+    {
+     "name": "Doctor T. J. Eckleburg",
+     "type": "Person",
+     "aliases": [
+      "Doctor Eckleburg",
+      "T. J. Eckleburg"
+     ],
+     "nickname": "埃克尔堡医生",
+     "description": "灰谷广告牌上的巨大眼睛，象征注视。"
+    },
+    {
+     "name": "Bill Biloxi",
+     "type": "Person",
+     "aliases": [
+      "Biloxi",
+      "Blocks Biloxi"
+     ],
+     "nickname": "比尔·比洛克西",
+     "description": "黛西婚礼上晕倒的客人，来自田纳西。"
+    },
+    {
+     "name": "Plaza Hotel",
+     "type": "Place",
+     "aliases": [
+      "the Plaza"
+     ],
+     "nickname": "广场酒店",
+     "description": "纽约的酒店，众人租套房争吵。"
+    },
+    {
+     "name": "Central Park",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "中央公园",
+     "description": "纽约公园，汤姆指定南侧碰头。"
+    },
+    {
+     "name": "Astoria",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "阿斯托利亚",
+     "description": "纽约皇后区地名，驾车经过。"
+    },
+    {
+     "name": "Louisville",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "路易斯维尔",
+     "description": "黛西和乔丹的家乡，婚礼举办地。"
+    },
+    {
+     "name": "Yale",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "耶鲁",
+     "description": "大学，汤姆和尼克曾就读，比洛克西谎称是其班级主席。"
+    },
+    {
+     "name": "Oxford",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "牛津",
+     "description": "英国大学，盖茨比自称1919年在此待过五个月。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "His wife and his mistress, until an hour ago secure and inviolate, were slipping precipitately from his control.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "LOVES",
+     "object": "Myrtle Wilson",
+     "evidence": "His wife and his mistress, until an hour ago secure and inviolate, were slipping precipitately from his control.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "LOVES",
+     "object": "Tom Buchanan",
+     "evidence": "her eyes, wide with jealous terror, were fixed not on Tom, but on Jordan Baker, whom she took to be his wife.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "Instinct made him step on the accelerator with the double purpose of overtaking Daisy and leaving Wilson behind",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "FRIEND",
+     "object": "Daisy Buchanan",
+     "evidence": "I was married in the middle of June,” Daisy remembered. “Louisville in June! Somebody fainted. Who was it fainted, Tom?",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Bill Biloxi",
+     "predicate": "FRIEND",
+     "object": "Daisy Buchanan",
+     "evidence": "He was a friend of Daisy’s.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bill Biloxi",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Daisy Buchanan",
+     "evidence": "I was married in the middle of June,” Daisy remembered. “Louisville in June! Somebody fainted. Who was it fainted, Tom?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Oxford",
+     "evidence": "It was in nineteen-nineteen, I only stayed five months. That’s why I can’t really call myself an Oxford man.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Yale",
+     "evidence": "He told me he was president of your class at Yale.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Yale",
+     "evidence": "He told me he was president of your class at Yale.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "NATIVE_OF",
+     "object": "Louisville",
+     "evidence": "Louisville in June! Somebody fainted.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "NATIVE_OF",
+     "object": "Louisville",
+     "evidence": "because we lived just two doors from the church.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Bill Biloxi",
+     "predicate": "NATIVE_OF",
+     "object": "Louisville",
+     "evidence": "He said he was raised in Louisville.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Plaza Hotel",
+     "evidence": "we all took the less explicable step of engaging the parlour of a suite in the Plaza Hotel.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Plaza Hotel",
+     "evidence": "we all took the less explicable step of engaging the parlour of a suite in the Plaza Hotel.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Plaza Hotel",
+     "evidence": "we all took the less explicable step of engaging the parlour of a suite in the Plaza Hotel.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Plaza Hotel",
+     "evidence": "we all took the less explicable step of engaging the parlour of a suite in the Plaza Hotel.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Plaza Hotel",
+     "evidence": "we all took the less explicable step of engaging the parlour of a suite in the Plaza Hotel.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Central Park",
+     "evidence": "You follow me to the south side of Central Park, in front of the Plaza.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Astoria",
+     "evidence": "we sped along toward Astoria at fifty miles an hour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Astoria",
+     "evidence": "we sped along toward Astoria at fifty miles an hour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Astoria",
+     "evidence": "we sped along toward Astoria at fifty miles an hour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Astoria",
+     "evidence": "we sped along toward Astoria at fifty miles an hour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Astoria",
+     "evidence": "we sped along toward Astoria at fifty miles an hour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "VISITED",
+     "object": "Plaza Hotel",
+     "evidence": "Myrtle Wilson was peering down at the car.",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Doctor T. J. Eckleburg",
+     "predicate": "VISITED",
+     "object": "Plaza Hotel",
+     "evidence": "Over the ash-heaps the giant eyes of Doctor T. J. Eckleburg kept their vigil",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7868,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，深爱黛西，与汤姆对峙"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比的旧爱，情感矛盾"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，傲慢富有，揭穿盖茨比"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "尼克的女友，冷静旁观者"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Wolfshiem",
+      "Mr. Wolfsheim"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的生意伙伴，背景可疑"
+    },
+    {
+     "name": "Walter Chase",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "沃尔特·蔡斯",
+     "description": "汤姆的朋友，曾与盖茨比合作"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，黛西的表亲，盖茨比的邻居"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "Daisy loved me when she married me and she loves me now.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "She loves me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LOVES",
+     "object": "Jay Gatsby",
+     "evidence": "I love you now—isn’t that enough?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "And what’s more, I love Daisy too.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "QUARRELED",
+     "object": "Tom Buchanan",
+     "evidence": "What kind of a row are you trying to cause in my house anyhow?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Meyer Wolfsheim",
+     "evidence": "You’re one of that bunch that hangs around with Meyer Wolfshiem",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "FRIEND",
+     "object": "Walter Chase",
+     "evidence": "I guess your friend Walter Chase wasn’t too proud to come in on it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "DECEIVED",
+     "object": "Walter Chase",
+     "evidence": "And you left him in the lurch, didn’t you? You let him go to jail for a month over in New Jersey.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "HARMED",
+     "object": "Walter Chase",
+     "evidence": "Wolfshiem scared him into shutting his mouth.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 8004,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，三十岁，与盖茨比等人相识"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，爱慕黛西，被汤姆指责"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，与盖茨比有旧情"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，傲慢富有"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "尼克的女友，高尔夫球手"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson",
+      "Mr. Wilson",
+      "George"
+     ],
+     "nickname": "乔治·威尔逊",
+     "description": "修车厂老板，梅朵的丈夫"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle",
+      "Mrs. Wilson"
+     ],
+     "nickname": "梅朵",
+     "description": "乔治的妻子，汤姆的情妇，被车撞死"
+    },
+    {
+     "name": "Michaelis",
+     "type": "Person",
+     "aliases": [
+      "Mavro Michaelis",
+      "the young Greek"
+     ],
+     "nickname": "米凯利斯",
+     "description": "希腊人，咖啡馆老板，事故目击者"
+    },
+    {
+     "name": "Long Island",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "长岛",
+     "description": "纽约附近地区，盖茨比等人居住地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "I glanced at Daisy, who was staring terrified between Gatsby and her husband",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "SPOUSE",
+     "object": "Myrtle Wilson",
+     "evidence": "I've got my wife locked in up there",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "he began to talk excitedly to Daisy, denying everything, defending his name",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "DECEIVED",
+     "object": "George Wilson",
+     "evidence": "Tom talked incessantly, exulting and laughing",
+     "confidence": 0.7
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "HARMED",
+     "object": "Myrtle Wilson",
+     "evidence": "I've got my wife locked in up there",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "QUARRELED",
+     "object": "George Wilson",
+     "evidence": "Beat me! ... Throw me down and beat me, you dirty little coward!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Michaelis",
+     "predicate": "FRIEND",
+     "object": "George Wilson",
+     "evidence": "Michaelis advised him to go to bed, but Wilson refused",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Long Island",
+     "evidence": "we got into the coupé with him and started for Long Island",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Long Island",
+     "evidence": "we got into the coupé with him and started for Long Island",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Long Island",
+     "evidence": "we got into the coupé with him and started for Long Island",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Long Island",
+     "evidence": "we got into the coupé with him and started for Long Island",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 7942,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居与朋友"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，深爱黛西"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比旧爱"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，粗壮傲慢"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的女友"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wolfsheim",
+      "Wolfshiem"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的生意伙伴，黑帮人物"
+    },
+    {
+     "name": "Michaelis",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "米凯利斯",
+     "description": "灰谷的目击者，威尔逊的邻居"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson"
+     ],
+     "nickname": "威尔逊",
+     "description": "修车厂老板，梅朵的丈夫"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Wilson",
+      "Myrtle"
+     ],
+     "nickname": "梅朵·威尔逊",
+     "description": "汤姆的情妇，被车撞死"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛海湾西侧的富人区"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [
+      "N'York"
+     ],
+     "nickname": "纽约",
+     "description": "繁华都市，汤姆等人常去"
+    },
+    {
+     "name": "Buchanans' house",
+     "type": "Place",
+     "aliases": [
+      "Buchanan house"
+     ],
+     "nickname": "布坎南宅邸",
+     "description": "汤姆与黛西在东卵的住所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "Daisy's home",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "SPOUSE",
+     "object": "Myrtle Wilson",
+     "evidence": "Her name was Wilson. Her husband owns the garage.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "I told Daisy I thought so.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "I'm a friend of his.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "you and Jordan better go in the kitchen",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "KILLED",
+     "object": "Myrtle Wilson",
+     "evidence": "Was Daisy driving? Yes, but of course I'll say I was.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "HELPED",
+     "object": "George Wilson",
+     "evidence": "You've got to pull yourself together",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "DECEIVED",
+     "object": "George Wilson",
+     "evidence": "That yellow car I was driving this afternoon wasn't mine",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I got to West Egg by a side road",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "LIVES_AT",
+     "object": "Buchanans' house",
+     "evidence": "The Buchanans' house floated suddenly toward us",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "We've come straight from New York",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Buchanans' house",
+     "evidence": "we walked across the moonlight gravel to the porch",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Buchanans' house",
+     "evidence": "Gatsby stepped from between two bushes into the path",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "chars": 1169,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "痴情于黛西的富豪，在宅邸外守夜"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比爱慕的对象"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，与黛西在厨房密谈"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，目睹黛西与汤姆并劝盖茨比回家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "Daisy and Tom were sitting opposite each other at the kitchen table",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "I want to wait here till Daisy goes to bed.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "Good night, old sport.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:16.944Z"
+}

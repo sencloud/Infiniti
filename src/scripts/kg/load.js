@@ -8,6 +8,7 @@ import crypto from 'node:crypto';
 import path from 'node:path';
 import { close } from '../../db.js';
 import { getGraph } from '../../kg/domains/index.js';
+import { parseStandardCode } from '../../kg/domains/topics.js';
 import { exec as run, withGraph } from '../../kg/neo.js';
 import { NameMatcher } from '../../kg/matcher.js';
 import { loadDecisions } from '../../kg/review.js';
@@ -17,7 +18,9 @@ import { isGenericName } from './extract.js';
 
 const hash = (s) => crypto.createHash('sha1').update(s).digest('hex').slice(0, 12);
 
-const SEGMENT_TARGET = { novel: 500, zhiguai: 420, history: 500, analects: 160, textbook: 420 };
+const SEGMENT_TARGET = { novel: 500, zhiguai: 420, history: 500, analects: 160, textbook: 420, topic: 420 };
+// 英文一个词平均五六个字母，同样的信息量要三倍左右的字符
+const EN_SEGMENT_TARGET = 1400;
 
 // ───────────────────────── 实体归并 ─────────────────────────
 
@@ -25,6 +28,26 @@ const SEGMENT_TARGET = { novel: 500, zhiguai: 420, history: 500, analects: 160, 
 function spouseKey(name) {
   const m = /^(.{1,4}?)(?:的|之)?(?:娘子|妻子|浑家|老婆|妻)$/.exec(name);
   return m ? `${m[1]}#妻` : null;
+}
+
+// 标准的新旧版本共用一个标题（DA/T 22-2015 与 DA/T 22-2000 都叫「归档文件整理规则」），只靠标题会并成一份；
+// 编号对不上的不合并，不带年份的编号（DA/T 22）可以归到任何一版
+function codesClash(a, b) {
+  const x = parseStandardCode(a);
+  const y = parseStandardCode(b);
+  if (!x || !y) return false;
+  return x.base !== y.base || (x.year && y.year && x.year !== y.year);
+}
+
+/** 标准以编号为名：抽取给了标题作名、编号作别名的，倒过来；别名里别的版本的编号去掉 */
+function standardNames(name, aliases) {
+  let main = name;
+  if (!parseStandardCode(main)) {
+    const coded = aliases.find((a) => parseStandardCode(a)?.year) || aliases.find((a) => parseStandardCode(a));
+    if (coded) main = parseStandardCode(coded).code;
+  }
+  const rest = [name, ...aliases].filter((a) => a !== main && !codesClash(a, main));
+  return { name: main, aliases: rest };
 }
 
 class EntityRegistry {
@@ -41,13 +64,22 @@ class EntityRegistry {
 
   validAlias(alias) {
     const min = this.graph.kind === 'textbook' ? 1 : 2;
-    return alias && alias.length >= min && alias.length <= 20 && !isGenericName(alias, this.graph);
+    const max = this.graph.lang === 'en' ? 40 : 20;
+    return alias && alias.length >= min && alias.length <= max && !isGenericName(alias, this.graph);
+  }
+
+  /** 英文名比对不分大小写、不计开头的 The：「The Queen」「Queen」「Alice's sister」「Alice’s Sister」各是同一人 */
+  key(name, type) {
+    if (this.graph.lang !== 'en') return name;
+    const k = name.replace(/^the\s+/i, '').replace(/[’‘]/g, "'").toLowerCase();
+    // 「Thornfield」「Thornfield Hall」、「Netherfield」「Netherfield Park」是同一处
+    return type === 'Place' ? k.replace(/\s+(?:hall|house|mansion|park|manor|lodge|place)$/, '') : k;
   }
 
   register(type, alias, id) {
     if (!this.validAlias(alias)) return;
     const idx = this.index.get(type);
-    if (!idx.has(alias)) idx.set(alias, id);
+    if (!idx.has(this.key(alias, type))) idx.set(this.key(alias, type), id);
     const key = this.useSpouseKey && type === 'Person' && spouseKey(alias);
     if (key && !idx.has(key)) idx.set(key, id);
   }
@@ -65,9 +97,10 @@ class EntityRegistry {
 
   find(type, names, chapterNo) {
     const idx = this.index.get(type);
+    const coded = this.codedType(type);
     for (const n of names) {
-      const id = idx.get(n) || (this.useSpouseKey && type === 'Person' && idx.get(spouseKey(n)));
-      if (id) return this.entities.get(id);
+      const id = idx.get(this.key(n, type)) || (this.useSpouseKey && type === 'Person' && idx.get(spouseKey(n)));
+      if (id && !(coded && codesClash(this.entities.get(id).name, names[0]))) return this.entities.get(id);
     }
     // 事件名常有详略之别（「拳打镇关西」/「鲁提辖拳打镇关西」），相邻单元内包含关系视为同一事件
     if (type === 'Event' && names[0]?.length >= 3) {
@@ -81,12 +114,23 @@ class EntityRegistry {
     return null;
   }
 
+  codedType(type) {
+    return this.graph.topic && type === 'Standard';
+  }
+
   upsert({ name, type, aliases = [], nickname = '', description = '' }, chapterNo) {
+    if (this.codedType(type)) ({ name, aliases } = standardNames(name, aliases));
     const names = [name, ...aliases];
     if (type === 'Person' && nickname) names.push(nickname, `${nickname}${name}`);
     const ent = this.find(type, names, chapterNo) || this.create(type, name);
-    for (const a of aliases) if (a !== ent.name && this.validAlias(a)) ent.aliases.add(a);
-    if (name !== ent.name && this.validAlias(name)) ent.aliases.add(name);
+    if (this.codedType(type) && !parseStandardCode(ent.name) && parseStandardCode(name)) {
+      ent.aliases.add(ent.name);
+      ent.aliases.delete(name);
+      ent.name = name;
+    }
+    const self = this.key(ent.name);
+    for (const a of aliases) if (this.key(a) !== self && this.validAlias(a)) ent.aliases.add(a);
+    if (this.key(name) !== self && this.validAlias(name)) ent.aliases.add(name);
     if (nickname && !ent.nickname) ent.nickname = nickname;
     if (description && ent.descriptions.length < 6) ent.descriptions.push(description);
     for (const n of names) this.register(type, n, ent.id);
@@ -103,28 +147,43 @@ class EntityRegistry {
       if (ent) return ent;
     }
     if (isGenericName(name, this.graph)) return null;
+    // 英文原著：已经是别的类型的实体（「造访 White Rabbit」里的白兔是人物），不要按谓词另建一个地点/物品
+    if (this.graph.lang === 'en' && [...this.index].some(([t, idx]) => idx.has(this.key(name, t)))) return null;
     const type = hinted.find((t) => allowedTypes.includes(t)) || (allowedTypes.length === 1 ? allowedTypes[0] : null);
     return type ? this.upsert({ name, type }, chapterNo) : null;
   }
 }
 
 function seedEntities(registry, seeds) {
+  // 几位共用的称呼（「Miss Bennet」「Miss Rivers」）指谁要看上下文，不作别名
+  const owners = new Map();
+  for (const h of seeds) {
+    for (const a of new Set([h.name, ...(h.aliases || [])].filter(Boolean).map((x) => registry.key(x)))) {
+      owners.set(a, (owners.get(a) || 0) + 1);
+    }
+  }
+  const shared = (a) => registry.graph.lang === 'en' && owners.get(registry.key(a)) > 1;
   for (const h of seeds) {
     if (!h.name) continue;
-    const ent = registry.create('Person', h.name, {
+    const type = h.type || 'Person';
+    const ent = registry.create(type, h.name, {
       rank: h.rank || null, star: h.star || '', role: h.role || '', nickname: h.nickname || '', is_hero: true,
     });
-    for (const a of h.aliases || []) if (a !== h.name) ent.aliases.add(a);
-    const names = [...(h.aliases || []), h.nickname];
+    if (h.description && !ent.descriptions.length) ent.descriptions.push(h.description);
+    if (h.unit_no) ent.chapters.add(h.unit_no);
+    const aliases = (h.aliases || []).filter((a) => a !== h.name && !shared(a));
+    for (const a of aliases) ent.aliases.add(a);
+    const names = [...aliases, h.nickname];
     if (h.nickname) names.push(`${h.nickname}${h.name}`);
-    for (const a of names) registry.register('Person', a, ent.id);
+    for (const a of names) registry.register(type, a, ent.id);
   }
 }
 
 // ───────────────────────── 片段切分 ─────────────────────────
 
 /** 切成约 target 字的片段，返回 [{text, para}]，para 是片段起始段落下标（教材用它定位页码） */
-function splitSegments(paragraphs, target) {
+function splitSegments(paragraphs, target, lang = 'zh') {
+  const sentenceEnd = lang === 'en' ? /(?<=[.!?][”’"]?\s)/ : /(?<=[。！？」”])/;
   const pieces = [];
   paragraphs.forEach((p, para) => {
     if (p.length <= target * 1.6) {
@@ -132,9 +191,9 @@ function splitSegments(paragraphs, target) {
       return;
     }
     let buf = '';
-    for (const s of p.split(/(?<=[。！？」”])/)) {
+    for (const s of p.split(sentenceEnd)) {
       if (buf.length + s.length > target && buf) {
-        pieces.push({ text: buf, para });
+        pieces.push({ text: buf.trim(), para });
         buf = '';
       }
       buf += s;
@@ -251,14 +310,14 @@ export async function buildGraphData(graphId) {
   const entities = [...registry.entities.values()].filter((e) => claimCount.has(e.id) || e.is_hero);
 
   // 原文提及统计：名称 + 别称 + 绰号，单遍最长匹配（教材里单字知识点太容易误配，只按 ≥2 字的名称统计）
-  const minLen = graph.kind === 'textbook' ? 2 : 1;
+  const minLen = graph.kind === 'textbook' || graph.kind === 'topic' ? 2 : 1;
   const matcher = new NameMatcher(
     entities.map((e) => ({
       id: e.id,
       names: [e.name, ...e.aliases, ...(e.type === 'Person' && e.nickname ? [e.nickname] : [])].filter((n) => n.length >= minLen),
     })),
   );
-  const target = SEGMENT_TARGET[graph.kind] || 500;
+  const target = graph.lang === 'en' ? EN_SEGMENT_TARGET : SEGMENT_TARGET[graph.kind] || 500;
   const appears = [];
   const mentionTotal = new Map();
   const chapterRows = [];
@@ -287,7 +346,7 @@ export async function buildGraphData(graphId) {
     for (const e of entities) {
       if (e.chapters.has(ch.no) && !matched.has(e.id)) appears.push({ id: e.id, no: ch.no, count: 1 });
     }
-    splitSegments(ch.paragraphs, target).forEach((seg, idx) => {
+    splitSegments(ch.paragraphs, target, graph.lang).forEach((seg, idx) => {
       segmentRows.push({
         seg_id: `s-${String(ch.no).padStart(3, '0')}-${String(idx + 1).padStart(2, '0')}`,
         chapter_no: ch.no,

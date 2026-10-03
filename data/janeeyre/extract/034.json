@@ -1,0 +1,927 @@
+{
+ "no": 34,
+ "title": "It was near Christmas by the time all was…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7261,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，摩尔顿学校教师，与里弗斯一家有亲属关系"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "摩尔顿牧师，简·爱的表兄，对简提出精神要求"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "简·爱的表姐，即将返回沼泽居"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "简·爱的表姐，即将返回沼泽居"
+    },
+    {
+     "name": "Hannah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "汉娜",
+     "description": "沼泽居的仆人，协助简·爱打扫房屋"
+    },
+    {
+     "name": "Moor House",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沼泽居",
+     "description": "里弗斯家族的宅邸，简·爱准备迎接表姐们归来"
+    },
+    {
+     "name": "Morton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "摩尔顿",
+     "description": "简·爱任教学校所在的村庄"
+    },
+    {
+     "name": "S——",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "S城",
+     "description": "简·爱前往购买家具的城镇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Morton",
+     "evidence": "I now closed Morton school, taking care that the parting should not be barren on my side.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "Happy at Moor House I was, and hard I worked; and so did Hannah",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "S——",
+     "evidence": "I had previously taken a journey to S—— to purchase some new furniture",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "I excuse you for the present: two months’ grace I allow you for the full enjoyment of your new position, and for pleasing yourself with this late-found charm of relationship",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "Diana and Mary will be at home in a week, and I want to have everything in order against their arrival.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "Diana and Mary will be at home in a week, and I want to have everything in order against their arrival.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "And first I must beg you to set Hannah at liberty, and get somebody else to wait on you.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Happy at Moor House I was, and hard I worked; and so did Hannah",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "I excuse you for the present: two months’ grace I allow you for the full enjoyment of your new position, and for pleasing yourself with this late-found charm of relationship; but then, I hope you will begin to look beyond Moor House and Morton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "Diana and Mary will be at home in a week, and I want to have everything in order against their arrival.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "Diana and Mary will be at home in a week, and I want to have everything in order against their arrival.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7850,
+   "entities": [
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，冷漠而志向远大，计划去印度传教"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "简·爱在沼泽居的表姐，活泼健谈"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "简·爱在沼泽居的表姐，温柔文静"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，在沼泽居整理家务并迎接表姐归来"
+    },
+    {
+     "name": "Hannah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "汉娜",
+     "description": "沼泽居的管家或仆人，迎接戴安娜和玛丽"
+    },
+    {
+     "name": "Rosamond Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "罗莎蒙德·奥利弗",
+     "description": "圣约翰爱慕的女子，但圣约翰认为只是感官之爱"
+    },
+    {
+     "name": "Moor House",
+     "type": "Organization",
+     "aliases": [
+      "the house",
+      "the parlour"
+     ],
+     "nickname": "沼泽居",
+     "description": "里弗斯家族的宅邸，简·爱在此居住并整理"
+    },
+    {
+     "name": "Whitcross",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "惠特克劳斯",
+     "description": "戴安娜和玛丽乘车归来的地点，附近有沼泽"
+    },
+    {
+     "name": "Whitcross Brow",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "惠特克劳斯山",
+     "description": "一个贫穷妇人的住处，圣约翰夜间前往探视"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "he was sincerely glad to see his sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "he was sincerely glad to see his sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "My cousins, full of exhilaration",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "My cousins, full of exhilaration",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LOVES",
+     "object": "Rosamond Oliver",
+     "evidence": "I understood, as by inspiration, the nature of his love for Miss Oliver",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "Moor House",
+     "evidence": "Hannah entered with the intimation",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "I had entreated him to keep quite clear of the house till everything was arranged",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "he had wandered upstairs and downstairs",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "They were delighted with the renovation and decorations of their rooms",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "They were delighted with the renovation and decorations of their rooms",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "VISITED",
+     "object": "Whitcross",
+     "evidence": "They were stiff with their long and jolting drive from Whitcross",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "VISITED",
+     "object": "Whitcross",
+     "evidence": "They were stiff with their long and jolting drive from Whitcross",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "Whitcross Brow",
+     "evidence": "he departed. It was then nine o’clock: he did not return till midnight",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7244,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与里弗斯家同住，任莫顿学校教师"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简的表兄，牧师，计划前往印度传教"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的妹妹，简的表姐"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰的妹妹，简的表姐"
+    },
+    {
+     "name": "Rosamond Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "罗莎蒙德·奥利弗",
+     "description": "即将嫁给格兰比先生的年轻女子"
+    },
+    {
+     "name": "Mr. Granby",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "格兰比先生",
+     "description": "罗莎蒙德的未婚夫，弗雷德里克·格兰比爵士之孙"
+    },
+    {
+     "name": "Sir Frederic Granby",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "弗雷德里克·格兰比爵士",
+     "description": "格兰比先生的祖父，将让出宅邸"
+    },
+    {
+     "name": "S—— Place",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "S——庄园",
+     "description": "格兰比家族宅邸，将供新人居住"
+    },
+    {
+     "name": "Morton school",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "莫顿学校",
+     "description": "简·爱任教的乡村学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "SPOUSE",
+     "object": "Mr. Granby",
+     "evidence": "Rosamond Oliver is about to be married to Mr. Granby",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Granby",
+     "predicate": "KIN",
+     "object": "Sir Frederic Granby",
+     "evidence": "grandson and heir to Sir Frederic Granby",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "his sisters looked at each other",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "his sisters looked at each other",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "his sisters looked at each other",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "now that I was acknowledged his kinswoman",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Morton school",
+     "evidence": "my weekly visit to Morton school",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "S—— Place",
+     "evidence": "lived under the same roof with him",
+     "confidence": 0.5
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "he gave me his hand",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7754,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与圣约翰有表亲关系，在莫顿任教"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简的表兄，牧师，即将前往印度传教"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "简的表姐，住在沼泽居"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "简的表姐，住在沼泽居"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "简的爱人，桑菲尔德庄园主人"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德庄园的女管家"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "英格拉姆家的小姐"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫"
+    },
+    {
+     "name": "Moor House",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沼泽居",
+     "description": "里弗斯家族的住所"
+    },
+    {
+     "name": "Morton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莫顿",
+     "description": "简·爱任教的小村庄"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "my ecclesiastical cousin’s salute",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "Diana very provoking",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "Mary was gardening",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Perhaps you think I had forgotten Mr. Rochester, reader, amidst these changes of place and fortune. Not for a moment.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "now at Moor House, I sought my bedroom each night to brood over it.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Morton",
+     "evidence": "when I was at Morton, I re-entered my cottage every evening",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "he prolonged still further my lessons in Hindostanee",
+     "confidence": 0.8
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "He wanted to train me to an elevation I could never reach",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Diana tried to cheer me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "it racked me hourly to aspire to the standard he uplifted",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7970,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，被圣约翰求婚并要求同去印度"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，向简·爱求婚，要求她作为传教士妻子同去印度"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "简·爱深爱之人，简在思考中提及他不在英国"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "Jane, come with me to India: come as my helpmeet and fellow-labourer.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "In leaving England, I should leave a loved but empty land—Mr. Rochester is not there",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 8011,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，独立坚韧，拒绝圣约翰的求婚"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，简的表兄，向简求婚并要求她作为妻子同去印度传教"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主，简的挚爱"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫"
+    },
+    {
+     "name": "India",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "印度",
+     "description": "圣约翰计划前往传教的地方"
+    },
+    {
+     "name": "England",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格兰",
+     "description": "简和圣约翰的祖国"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "he asks me to be his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "You have hitherto been my adopted brother—I, your adopted sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "India",
+     "evidence": "I am ready to go to India, if I may go free.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "India",
+     "evidence": "I am ready to go to India, if I may go free.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "England",
+     "evidence": "the departure with me from England",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "England",
+     "evidence": "the departure with me from England",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "chars": 4566,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与圣约翰有表亲关系，拒绝其求婚"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简·爱的表兄，牧师，向简求婚但被拒绝"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "简·爱的表姐，圣约翰的妹妹"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫，片段中仅提及"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "Jane, you would not repent marrying me—be certain of that; we must be married.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "It is known that you are not my sister; I cannot introduce you as such",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "That night, after he had kissed his sisters, he thought proper to forget even to shake hands with me",
+     "confidence": 0.8
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "That night, after he had kissed his sisters, he thought proper to forget even to shake hands with me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "QUARRELED",
+     "object": "St. John Rivers",
+     "evidence": "I see you and St. John have been quarrelling, Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "St. John Rivers",
+     "evidence": "I—who, though I had no love, had much friendship for him—was hurt by the marked omission",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "Cambridge",
+     "evidence": "To-morrow, I leave home for Cambridge: I have many friends there to whom I should wish to say farewell.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:53.156Z"
+}

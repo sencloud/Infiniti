@@ -1,0 +1,214 @@
+{
+  "entity_id": "e_44701ae041f3",
+  "name": "直角三角形",
+  "locale": "zh",
+  "summary": "有一个角是直角的三角形，是勾股定理、锐角三角函数等知识的核心对象[1][2][3]。",
+  "sections": [
+    {
+      "title": "定义与前置",
+      "text": "直角三角形是有一个角是直角的三角形，它是三角形的一种特例[4][5]。学习它之前，你已经知道三角形内角和为180°，由此可以推出直角三角形的两个锐角互余[6][7][8]。这个性质是后续许多计算的基础，比如在解直角三角形时经常用到[8]。"
+    },
+    {
+      "title": "核心性质与推导",
+      "text": "直角三角形最重要的性质是勾股定理：两条直角边的平方和等于斜边的平方[1][9]。反过来，如果三角形三边满足a²+b²=c²，那么这个三角形是直角三角形，这就是勾股定理的逆定理[10]。这两个定理是判定和计算直角三角形的关键工具，在日常生活中有广泛应用[11][12]。"
+    },
+    {
+      "title": "后续应用",
+      "text": "直角三角形是学习锐角三角函数的前提[3][13][14]。在解直角三角形中，由已知边角求未知边角，需要用到勾股定理和锐角互余[15][16]。此外，它还与一元二次方程、二次根式等知识结合，解决实际问题[17][18][19]。全等三角形的判定方法HL也专门用于直角三角形[20][21]。"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_69b07323fa2c",
+      "record_id": "ch-058",
+      "chapter_no": 58,
+      "unit": "八上·3.1",
+      "relation": "勾股定理 性质 直角三角形",
+      "evidence_text": "直角三角形两条直角边的平方和等于斜边的平方。"
+    },
+    {
+      "n": 2,
+      "claim_id": "c_0a77fe383949",
+      "record_id": "ch-058",
+      "chapter_no": 58,
+      "unit": "八上·3.1",
+      "relation": "直角三角形 前置 勾股定理",
+      "evidence_text": "直角三角形是一种特殊三角形．……本章将学习这三者之间的一种特殊关系，即勾股定理．"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_ab40f1a9be6e",
+      "record_id": "ch-131",
+      "chapter_no": 131,
+      "unit": "九下·7.6",
+      "relation": "直角三角形 相关 锐角三角函数",
+      "evidence_text": "锐角三角函数揭示了直角三角形的边与角的关系"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_4d4a0a1b1717",
+      "record_id": "ch-016",
+      "chapter_no": 16,
+      "unit": "七上·4.3",
+      "relation": "直角三角形 特例 三角形",
+      "evidence_text": "所以三角形三个角的大小分别为36°，54°，90°。答：这个三角形是直角三角形"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_6fe5b981ec7a",
+      "record_id": "ch-053",
+      "chapter_no": 53,
+      "unit": "八上·1.5",
+      "relation": "三角形 包含 直角三角形",
+      "evidence_text": "特殊三角形：直角三角形"
+    },
+    {
+      "n": 6,
+      "claim_id": "c_53393eba1bc1",
+      "record_id": "ch-048",
+      "chapter_no": 48,
+      "unit": "七下·12.4",
+      "relation": "三角形 包含 直角三角形",
+      "evidence_text": "直角三角形的两个锐角互余"
+    },
+    {
+      "n": 7,
+      "claim_id": "c_79f5a294252a",
+      "record_id": "ch-131",
+      "chapter_no": 131,
+      "unit": "九下·7.6",
+      "relation": "锐角互余 性质 直角三角形",
+      "evidence_text": "锐角之间的关系：∠A+∠B=90°"
+    },
+    {
+      "n": 8,
+      "claim_id": "c_09ac4c21dc74",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "直角三角形两锐角互余 性质 直角三角形",
+      "evidence_text": "∠A+∠B=90°（直角三角形的两个锐角互余）；"
+    },
+    {
+      "n": 9,
+      "claim_id": "c_d5cda425709c",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "勾股定理 性质 直角三角形",
+      "evidence_text": "a^2+b^2=c^2（勾股定理）；"
+    },
+    {
+      "n": 10,
+      "claim_id": "c_fe2a59cbaa8b",
+      "record_id": "ch-059",
+      "chapter_no": 59,
+      "unit": "八上·3.2",
+      "relation": "勾股定理的逆定理 性质 直角三角形",
+      "evidence_text": "如果三角形的三边长分别为a，b，c，且a^2+b^2=c^2，那么这个三角形是直角三角形"
+    },
+    {
+      "n": 11,
+      "claim_id": "c_4bac23af425c",
+      "record_id": "ch-060",
+      "chapter_no": 60,
+      "unit": "八上·3.3",
+      "relation": "勾股定理 应用于 直角三角形",
+      "evidence_text": "在日常生活中，勾股定理及其逆定理有广泛的应用"
+    },
+    {
+      "n": 12,
+      "claim_id": "c_90b767184097",
+      "record_id": "ch-060",
+      "chapter_no": 60,
+      "unit": "八上·3.3",
+      "relation": "勾股定理的逆定理 应用于 直角三角形",
+      "evidence_text": "在日常生活中，勾股定理及其逆定理有广泛的应用"
+    },
+    {
+      "n": 13,
+      "claim_id": "c_1d083bf6fdf4",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "直角三角形 前置 余弦",
+      "evidence_text": "在Rt△ABD中，cosB=BD/AB"
+    },
+    {
+      "n": 14,
+      "claim_id": "c_f4d7efa426fc",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "直角三角形 前置 正弦",
+      "evidence_text": "在Rt△ABD中，cosB=BD/AB"
+    },
+    {
+      "n": 15,
+      "claim_id": "c_d943c79e3f90",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "解直角三角形 应用于 直角三角形",
+      "evidence_text": "由直角三角形的边、角中的已知元素，求出所有边、角中的未知元素的过程，叫做解直角三角形。"
+    },
+    {
+      "n": 16,
+      "claim_id": "c_b22e6fbb0950",
+      "record_id": "ch-131",
+      "chapter_no": 131,
+      "unit": "九下·7.6",
+      "relation": "解直角三角形 应用于 直角三角形",
+      "evidence_text": "在△ABC中，∠C=90°。（1）已知∠A=30°，BC=8 cm，求AB和AC的长；"
+    },
+    {
+      "n": 17,
+      "claim_id": "c_f6883013b8dd",
+      "record_id": "ch-095",
+      "chapter_no": 95,
+      "unit": "九上·1.4",
+      "relation": "一元二次方程 应用于 直角三角形",
+      "evidence_text": "根据题意，△ABC是直角三角形，利用勾股定理可以列出方程"
+    },
+    {
+      "n": 18,
+      "claim_id": "c_e94b855be3fc",
+      "record_id": "ch-089",
+      "chapter_no": 89,
+      "unit": "八下·11.1",
+      "relation": "二次根式 应用于 直角三角形",
+      "evidence_text": "直角边长分别为a，b的直角三角形斜边的长；"
+    },
+    {
+      "n": 19,
+      "claim_id": "c_b2014069b408",
+      "record_id": "ch-092",
+      "chapter_no": 92,
+      "unit": "九上·1.1",
+      "relation": "直角三角形 相关 勾股数",
+      "evidence_text": "梯子与墙面、地面围成一个直角三角形。根据题意，得 x^2+(x+1)^2=5^2."
+    },
+    {
+      "n": 20,
+      "claim_id": "c_1cfbabfcb7ed",
+      "record_id": "ch-053",
+      "chapter_no": 53,
+      "unit": "八上·1.5",
+      "relation": "全等三角形 应用于 直角三角形",
+      "evidence_text": "运用全等三角形研究特殊三角形的一些性质"
+    },
+    {
+      "n": 21,
+      "claim_id": "c_b0a9704f2923",
+      "record_id": "ch-053",
+      "chapter_no": 53,
+      "unit": "八上·1.5",
+      "relation": "直角三角形全等的判定(HL) 性质 直角三角形",
+      "evidence_text": "直角三角形全等的判定(HL)"
+    }
+  ],
+  "basis": "c5e0357c3cb0d1bd",
+  "basis_size": 26,
+  "generated_at": "2026-10-03T01:06:33.586Z"
+}

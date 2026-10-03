@@ -1,0 +1,805 @@
+{
+ "no": 18,
+ "title": "Merry days were these at Thornfield Hall; and busy…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7855,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Edward",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，与英格拉姆小姐等玩猜字游戏"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德管家，被叫来提供衣物信息"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的受监护人，参与猜字游戏"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "美丽小姐，与罗切斯特扮演婚礼及利百加"
+    },
+    {
+     "name": "Lady Ingram",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "英格拉姆夫人",
+     "description": "英格拉姆小姐之母，反对简加入游戏"
+    },
+    {
+     "name": "Mr. Eshton",
+     "type": "Person",
+     "aliases": [
+      "Eshton"
+     ],
+     "nickname": "埃希顿先生",
+     "description": "客人，曾提议让简加入游戏"
+    },
+    {
+     "name": "Mrs. Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Dent"
+     ],
+     "nickname": "登特上校太太",
+     "description": "客人，参与猜字游戏"
+    },
+    {
+     "name": "Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Dent"
+     ],
+     "nickname": "登特上校",
+     "description": "客人，另一队领头人，猜出字谜"
+    },
+    {
+     "name": "Henry Lynn",
+     "type": "Person",
+     "aliases": [
+      "Lynn"
+     ],
+     "nickname": "亨利·林恩",
+     "description": "客人，参与猜字游戏"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的宅邸，猜字游戏发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Merry days were these at Thornfield Hall",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax was summoned to give information respecting the resources of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "GUARDIAN_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Adèle (who had insisted on being one of her guardian’s party)",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Blanche Ingram",
+     "evidence": "“Miss Ingram is mine, of course,” said he",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "SPOUSE",
+     "object": "Blanche Ingram",
+     "evidence": "we were married an hour since, in the presence of all these witnesses",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Lady Ingram",
+     "predicate": "KIN",
+     "object": "Blanche Ingram",
+     "evidence": "Lady Ingram instantly negatived the notion",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Ingram",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "“No,” I heard her say: “she looks too stupid for any game of the sort.”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Eshton",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Mr. Eshton, observing me, seemed to propose that I should be asked to join them",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7506,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Edward",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简·爱爱慕的对象"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "little Adèle",
+      "Miss Varens"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特监护的小女孩，常受英格拉姆冷遇"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "美貌高傲的贵族小姐，罗切斯特可能的结婚对象"
+    },
+    {
+     "name": "Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Dent"
+     ],
+     "nickname": "登特上校",
+     "description": "参与桑菲尔德猜字游戏的宾客"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "me",
+      "my"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德家庭教师，爱慕罗切斯特"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的宅邸，故事主要发生地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I had learnt to love Mr. Rochester: I could not unlove him now",
+     "confidence": 1
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Blanche Ingram",
+     "evidence": "I felt sure he would soon marry this very lady",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "SPOUSE",
+     "object": "Blanche Ingram",
+     "evidence": "I saw he was going to marry her, for family, perhaps political reasons",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "HARMED",
+     "object": "Adèle Varens",
+     "evidence": "pushing her away with some contumelious epithet if she happened to approach her; sometimes ordering her from the room, and always treating her with coldness and acrimony",
+     "confidence": 1
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "the future bridegroom, Mr. Rochester himself, exercised over his intended a ceaseless surveillance",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Merry days were these at Thornfield Hall",
+     "confidence": 1
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Merry days were these at Thornfield Hall",
+     "confidence": 1
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Merry days were these at Thornfield Hall",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Dent",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Merry days were these at Thornfield Hall",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Merry days were these at Thornfield Hall",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7967,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简爱的主人"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的法国被监护人，简爱的学生"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "英格拉姆家小姐，罗切斯特的追求对象"
+    },
+    {
+     "name": "Lady Ingram",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "英格拉姆夫人",
+     "description": "英格拉姆家族女主人，布兰奇之母"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "英格拉姆家小姐，布兰奇之妹"
+    },
+    {
+     "name": "Mr. Eshton",
+     "type": "Person",
+     "aliases": [
+      "Eshton"
+     ],
+     "nickname": "埃希顿先生",
+     "description": "桑菲尔德聚会宾客"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "里弗斯家小姐"
+    },
+    {
+     "name": "Mrs. Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Dent"
+     ],
+     "nickname": "登特上校太太",
+     "description": "登特上校之妻，聚会宾客"
+    },
+    {
+     "name": "Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Dent"
+     ],
+     "nickname": "登特上校",
+     "description": "聚会宾客"
+    },
+    {
+     "name": "Henry Lynn",
+     "type": "Person",
+     "aliases": [
+      "Lynn"
+     ],
+     "nickname": "亨利·林恩",
+     "description": "林恩家绅士，聚会宾客"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的宅邸，聚会举办地"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近城镇，罗切斯特前去办事"
+    },
+    {
+     "name": "Hay",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "海伊",
+     "description": "附近地点，吉普赛营地所在"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I thought Miss Ingram happy, because one day she might look into the abyss at her leisure",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Merry days were these at Thornfield Hall",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "little Adèle, who knelt by me in the drawing-room window-seat",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Miss Ingram darted forwards from her sofa",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "He bowed to Lady Ingram, as deeming her the eldest lady present.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Mary Ingram listened languidly to the gallant speeches of the other.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eshton",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Mr. Eshton discussed politics, or county affairs, or justice business.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Mary Rivers",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Mrs. Colonel Dent",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Mild Mrs. Dent talked with good-natured Mrs. Eshton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Dent",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Sir George Lynn, Colonel Dent, and Mr. Eshton discussed politics",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Lynn",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Louisa played and sang to and with one of the Messrs. Lynn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "he had been summoned to Millcote on business",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "FRIEND",
+     "object": "Mr. Eshton",
+     "evidence": "Mr. Eshton discussed politics",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 8035,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Edward",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，曾游历西印度群岛"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德庄园的女管家"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "美貌高傲的英格拉姆家小姐"
+    },
+    {
+     "name": "Lady Ingram",
+     "type": "Person",
+     "aliases": [
+      "Dowager Ingram"
+     ],
+     "nickname": "英格拉姆夫人",
+     "description": "布兰奇的母亲，守寡的英格拉姆夫人"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "布兰奇的妹妹"
+    },
+    {
+     "name": "Mr. Eshton",
+     "type": "Person",
+     "aliases": [
+      "Eshton"
+     ],
+     "nickname": "埃希顿先生",
+     "description": "当地治安官"
+    },
+    {
+     "name": "Richard Mason",
+     "type": "Person",
+     "aliases": [
+      "Mr. Mason",
+      "Mason",
+      "Richard"
+     ],
+     "nickname": "理查德·梅森",
+     "description": "来自西印度群岛的陌生人"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "里弗斯家的女儿"
+    },
+    {
+     "name": "Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Dent"
+     ],
+     "nickname": "登特上校",
+     "description": "参加聚会的上校"
+    },
+    {
+     "name": "Mr. Frederick Lynn",
+     "type": "Person",
+     "aliases": [
+      "Frederick Lynn",
+      "Mr. Lynn"
+     ],
+     "nickname": "弗雷德里克·林恩",
+     "description": "林恩家的长子"
+    },
+    {
+     "name": "Henry Lynn",
+     "type": "Person",
+     "aliases": [
+      "Lynn"
+     ],
+     "nickname": "亨利·林恩",
+     "description": "弗雷德里克·林恩的弟弟"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的宅邸，聚会发生地"
+    },
+    {
+     "name": "Hay Common",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "干草公地",
+     "description": "有吉普赛营地的公地"
+    },
+    {
+     "name": "Jamaica",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牙买加",
+     "description": "西印度群岛的岛屿"
+    },
+    {
+     "name": "Kingston",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "金斯敦",
+     "description": "牙买加的城市"
+    },
+    {
+     "name": "Spanish Town",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西班牙镇",
+     "description": "牙买加的城市"
+    },
+    {
+     "name": "West Indies",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西印度群岛",
+     "description": "梅森来自的地区"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Richard Mason",
+     "predicate": "FRIEND",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "he had there first seen and become acquainted with Mr. Rochester",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "the new-comer was called Mr. Mason; then I learned that he was but just arrived in England",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "NATIVE_OF",
+     "object": "West Indies",
+     "evidence": "the words Jamaica, Kingston, Spanish Town, indicated the West Indies as his residence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "West Indies",
+     "evidence": "till now I had never heard a hint given of visits to more distant shores",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax had said so",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Thornfield Hall",
+     "evidence": "Miss Ingram rose solemnly: “I go first,” she said",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "KIN",
+     "object": "Lady Ingram",
+     "evidence": "“My darling Blanche! recollect—”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "KIN",
+     "object": "Mary Ingram",
+     "evidence": "“What did she say, sister?” asked Mary.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "KIN",
+     "object": "Lady Ingram",
+     "evidence": "“What did she say, sister?” asked Mary.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Frederick Lynn",
+     "predicate": "KIN",
+     "object": "Henry Lynn",
+     "evidence": "“To be sure,” rejoined his brother",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eshton",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "The footman who brought the coal, in going out, stopped near Mr. Eshton’s chair",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Colonel Dent",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "“No—stop!” interrupted Colonel Dent.",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 2066,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "简·爱",
+     "description": "本段叙述者，桑菲尔德府的家庭教师，好奇前往吉普赛人处算命。"
+    },
+    {
+     "name": "Sam",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "山姆",
+     "description": "桑菲尔德府的男仆，向简·爱传话并愿在门厅等候保护她。"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特先生的宅邸，本段中吉普赛人算命事件发生地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sam",
+     "predicate": "SERVANT_OF",
+     "object": "Thornfield Hall",
+     "evidence": "If you please, miss, the gipsy declares that there is another young single lady in the room who has not been to her yet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Thornfield Hall",
+     "evidence": "I slipped out of the room, unobserved by any eye",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sam",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "If you like, miss, I'll wait in the hall for you; and if she frightens you, just call and I'll come in.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:17.842Z"
+}

@@ -1,0 +1,612 @@
+{
+ "no": 3,
+ "title": "The next thing I remember is, waking up with…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7832,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Miss",
+      "poor child"
+     ],
+     "nickname": "简·爱",
+     "description": "故事叙述者，寄居盖茨海德府的孤女"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead",
+      "Missis"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府女主人"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太的女儿，简·爱的表姐"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府保姆，对简·爱较和善"
+    },
+    {
+     "name": "Mr. Lloyd",
+     "type": "Person",
+     "aliases": [
+      "Lloyd"
+     ],
+     "nickname": "劳埃德先生",
+     "description": "药剂师，被请来为简·爱诊治"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "盖茨海德府女仆"
+    },
+    {
+     "name": "Miss Abbot",
+     "type": "Person",
+     "aliases": [
+      "Abbot"
+     ],
+     "nickname": "阿博特",
+     "description": "盖茨海德府女仆，对简·爱严厉"
+    },
+    {
+     "name": "Sarah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "莎拉",
+     "description": "盖茨海德府女仆"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德府",
+     "description": "里德太太的宅邸，简·爱童年居所"
+    },
+    {
+     "name": "the red-room",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "红房子",
+     "description": "盖茨海德府中关禁闭的房间，简·爱在此受惊"
+    },
+    {
+     "name": "the nursery",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "育儿室",
+     "description": "盖茨海德府中简·爱睡觉和起居的房间"
+    },
+    {
+     "name": "Gulliver's Travels",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "《格列佛游记》",
+     "description": "简·爱爱读的书，病中重读却觉可怖"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "an individual not belonging to Gateshead, and not related to Mrs. Reed.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "none of the Reeds were there, they were all gone out in the carriage with their mama.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "none of the Reeds were there, they were all gone out in the carriage with their mama.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie stood at the bed-foot with a basin in her hand",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Abbot, too, was sewing in another room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie went into the housemaid’s apartment, which was near.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sarah",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Sarah came back with her; they both went to bed",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Lloyd",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I felt so sheltered and befriended while he sat in the chair near my pillow",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "Yes, Mrs. Reed, to you I owe some fearful pangs of mental suffering",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "I knew quite well that I was in my own bed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "the nursery",
+     "evidence": "I knew quite well that I was in my own bed, and that the red glare was the nursery fire.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "the red-room",
+     "evidence": "You fell sick, I suppose, in the red-room with crying",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "OWNS",
+     "object": "Gulliver's Travels",
+     "evidence": "I begged her to fetch Gulliver’s Travels from the library.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7616,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane",
+      "Miss Jane",
+      "Miss Jane Eyre"
+     ],
+     "nickname": "简·爱",
+     "description": "孤女，寄居盖茨海德，被关红房子后生病"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead",
+      "my aunt",
+      "aunt Reed",
+      "Missis"
+     ],
+     "nickname": "里德太太",
+     "description": "简的舅妈，盖茨海德女主人，冷酷对待简"
+    },
+    {
+     "name": "Mr. Reed",
+     "type": "Person",
+     "aliases": [
+      "Uncle Reed",
+      "Mr. Reed of Gateshead"
+     ],
+     "nickname": "里德先生",
+     "description": "简的舅舅，已故，死于红房子"
+    },
+    {
+     "name": "John Reed",
+     "type": "Person",
+     "aliases": [
+      "Master John",
+      "Master Reed"
+     ],
+     "nickname": "约翰·里德",
+     "description": "里德太太之子，曾将简打倒在地"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德的女仆，照顾简，有时严厉"
+    },
+    {
+     "name": "Mr. Lloyd",
+     "type": "Person",
+     "aliases": [
+      "Lloyd"
+     ],
+     "nickname": "劳埃德先生",
+     "description": "药剂师，为简看病，建议她上学"
+    },
+    {
+     "name": "Miss Abbot",
+     "type": "Person",
+     "aliases": [
+      "Abbot"
+     ],
+     "nickname": "阿博特",
+     "description": "盖茨海德的女仆，曾贬低简"
+    },
+    {
+     "name": "Gateshead Hall",
+     "type": "Place",
+     "aliases": [
+      "Gateshead"
+     ],
+     "nickname": "盖茨海德府",
+     "description": "里德太太的宅邸，简寄居之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "You have a kind aunt and cousins.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mr. Reed",
+     "evidence": "Of Mr. Reed's ghost I am: he died in that room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "But John Reed knocked me down, and my aunt shut me up in the red-room.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "But John Reed knocked me down, and my aunt shut me up in the red-room.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Mr. Reed",
+     "evidence": "Of Mr. Reed's ghost I am: he died in that room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "But John Reed knocked me down, and my aunt shut me up in the red-room.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "But John Reed knocked me down, and my aunt shut me up in the red-room.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie would rather have stayed, but she was obliged to go, because punctuality at meals was rigidly enforced at Gateshead Hall.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Abbot says I have less right to be here than a servant.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Lloyd",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "The child ought to have change of air and scene",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "Are you not very thankful to have such a fine place to live at?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "punctuality at meals was rigidly enforced at Gateshead Hall",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 2044,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本书叙述者，孤女，被里德太太抚养"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead",
+      "Missis"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府女主人"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太的女儿，美貌"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府女仆，对简·爱较和善"
+    },
+    {
+     "name": "Miss Abbot",
+     "type": "Person",
+     "aliases": [
+      "Abbot"
+     ],
+     "nickname": "阿博特",
+     "description": "盖茨海德府女仆，常责骂简·爱"
+    },
+    {
+     "name": "Mr. Reed",
+     "type": "Person",
+     "aliases": [
+      "grandfather Reed"
+     ],
+     "nickname": "里德先生",
+     "description": "简·爱的外祖父，因女儿婚事与其断绝关系"
+    },
+    {
+     "name": "Mr. Eyre",
+     "type": "Person",
+     "aliases": [
+      "my father"
+     ],
+     "nickname": "爱先生",
+     "description": "简·爱的父亲，贫穷牧师，死于伤寒"
+    },
+    {
+     "name": "Mrs. Eyre",
+     "type": "Person",
+     "aliases": [
+      "my mother"
+     ],
+     "nickname": "爱太太",
+     "description": "简·爱的母亲，因婚姻与家族决裂，后死于伤寒"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德府",
+     "description": "里德太太的宅邸，简·爱童年居所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "the apothecary ventured to recommend my being sent to school",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie invited him to walk into the breakfast-room, and led the way out.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Abbot said, in discussing the subject with Bessie when both sat sewing in the nursery",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "my mother had married him against the wishes of her friends",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "a beauty like Miss Georgiana would be more moving in the same condition",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "a beauty like Miss Georgiana would be more moving in the same condition",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Eyre",
+     "evidence": "my grandfather Reed was so irritated at her disobedience, he cut her off without a shilling",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eyre",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Eyre",
+     "evidence": "my mother had married him against the wishes of her friends",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eyre",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "my father had been a poor clergyman",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Eyre",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "my mother took the infection from him, and both died within a month of each other",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Mrs. Reed of Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "I was in bed, and, as they thought, asleep",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "both sat sewing in the nursery one night",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "both sat sewing in the nursery one night",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "a beauty like Miss Georgiana would be more moving in the same condition",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "one really cannot care for such a little toad as that",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "glad enough to get rid of such a tiresome, ill-conditioned child",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "Poor Miss Jane is to be pitied, too, Abbot.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:49.128Z"
+}

@@ -1,0 +1,756 @@
+{
+ "no": 9,
+ "title": "Mrs Bennet and her two youngest girls",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7258,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏，与达西有多次交锋。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温柔，在尼日斐花园生病。"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，势利且爱炫耀，常令女儿难堪。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家男主人，片段中未直接出场。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，出身显赫，性格内敛高傲。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "尼日斐花园租客，性格随和，爱慕简·班纳特。"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，势利且对达西有意。"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，嫁与赫斯特先生。"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "卢卡斯家女儿，伊丽莎白的好友。"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "卢卡斯家家长，曾获爵士头衔，为人随和。"
+    },
+    {
+     "name": "Lady Lucas",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Lucas"
+     ],
+     "nickname": "卢卡斯太太",
+     "description": "威廉爵士之妻，夏绿蒂的母亲。"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "班纳特太太的兄弟，住在伦敦。"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "加德纳先生的妻子，班纳特家的舅母。"
+    },
+    {
+     "name": "Mr. Jones",
+     "type": "Person",
+     "aliases": [
+      "Jones"
+     ],
+     "nickname": "琼斯先生",
+     "description": "当地药剂师，为简·班纳特诊治。"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家的庄园，位于赫特福德郡。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "尼日斐花园",
+     "description": "宾利先生租住的庄园，简在此养病。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及其五个女儿的家族。"
+    },
+    {
+     "name": "Lucas family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "卢卡斯家",
+     "description": "威廉爵士与卢卡斯太太及其子女的家族。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "ELIZABETH passed the chief of the night in her sister’s room",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "desiring her mother to visit Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Mrs. Bennet, accompanied by her two youngest girls, reached Netherfield soon after the family breakfast.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "ELIZABETH passed the chief of the night in her sister’s room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "her restoration to health would probably remove her from Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Jones",
+     "predicate": "HELPED",
+     "object": "Jane Bennet",
+     "evidence": "Mr. Jones says we must not think of moving her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "if I should resolve to quit Netherfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "My sister, I am sure, will not hear of her removal.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "My sister, I am sure, will not hear of her removal.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Louisa Hurst",
+     "evidence": "the two elegant ladies who waited on his sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "she called yesterday with her father",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "she called yesterday with her father",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "KIN",
+     "object": "Sir William Lucas",
+     "evidence": "she called yesterday with her father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "KIN",
+     "object": "Lady Lucas",
+     "evidence": "Lady Lucas herself has often said so",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Lady Lucas",
+     "evidence": "Lady Lucas herself has often said so",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Gardiner",
+     "evidence": "my brother Gardiner’s in town",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Gardiner",
+     "evidence": "my sister-in-law was sure he would make her an offer",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Mrs. Gardiner",
+     "evidence": "my sister-in-law was sure he would make her an offer",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "she is our particular friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "she is our particular friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her mother to visit Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "the Lucases are a very good sort of girls",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "the Lucases are a very good sort of girls",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "the Lucases are a very good sort of girls",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "she requested to have a note sent to Longbourn",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2443,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "男主角，彭伯里庄园主人，性格高傲。"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔善良。"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，十五岁，活泼莽撞。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，幽默疏懒。"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，热衷嫁女。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，友善富有的绅士。"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生之妹，势利刻薄。"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生之姐，嫁与赫斯特。"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，军官。"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团上校，丽迪雅后来随其妻。"
+    },
+    {
+     "name": "Captain Carter",
+     "type": "Person",
+     "aliases": [
+      "Carter"
+     ],
+     "nickname": "卡特上尉",
+     "description": "军官，丽迪雅提及的人物。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及其五个女儿的家庭。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "尼日斐花园",
+     "description": "宾利先生租住的庄园。"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近小镇，民兵团驻扎地。"
+    },
+    {
+     "name": "ball at Netherfield",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "尼日斐舞会",
+     "description": "宾利先生承诺在尼日斐举行的舞会。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Lydia was a stout, well-grown girl of fifteen... a favourite with her mother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her mother should be exposing herself again",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Bennet began repeating her thanks to Mr. Bingley for his kindness to Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "the youngest of her daughters put herself forward",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "the youngest of her daughters put herself forward",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "her uncle’s good dinners",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her mother should be exposing herself again",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Bennet began repeating her thanks to Mr. Bingley for his kindness to Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "KIN",
+     "object": "Caroline Bingley",
+     "evidence": "forced his younger sister to be civil also",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "KIN",
+     "object": "Louisa Hurst",
+     "evidence": "the two ladies and Mr. Darcy",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Louisa Hurst",
+     "evidence": "the two ladies and Mr. Darcy",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Mrs. Bennet and her daughters then departed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the youngest of her daughters put herself forward",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Elizabeth returned instantly to Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Elizabeth returned instantly to Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "give a ball at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "the two girls had been whispering to each other during the whole visit",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Mrs. Bennet and her daughters then departed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Elizabeth returned instantly to Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Captain Carter would be at Meryton again",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Captain Carter",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Captain Carter would be at Meryton again",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "PARTICIPATED_IN",
+     "object": "ball at Netherfield",
+     "evidence": "give a ball at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "ball at Netherfield",
+     "predicate": "OCCURRED_AT",
+     "object": "Netherfield",
+     "evidence": "give a ball at Netherfield",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:03.006Z"
+}

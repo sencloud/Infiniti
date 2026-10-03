@@ -1,0 +1,115 @@
+{
+  "entity_id": "e_ca17cc8818f8",
+  "name": "解直角三角形",
+  "locale": "zh",
+  "summary": "解直角三角形是由已知边角求所有未知边角的过程，依赖锐角三角函数、勾股定理和两锐角互余[1][2][3][4]。",
+  "sections": [
+    {
+      "title": "是什么",
+      "text": "在直角三角形中，由边、角中的已知元素，求出所有边、角中的未知元素的过程，叫做解直角三角形[1]。这里的“元素”指直角三角形的边和角，已知其中一部分，要求出其余全部未知的边和角[1]。"
+    },
+    {
+      "title": "先学什么",
+      "text": "解直角三角形之前，需要先掌握三边关系：勾股定理 a²+b²=c²[3]；两锐角关系：∠A+∠B=90°[4]；边角关系：sin A=a/c[5]、cos A=b/c[6]、tan A=a/b[7]。这些锐角三角函数是解直角三角形的直接工具[2]。"
+    },
+    {
+      "title": "用在哪里",
+      "text": "锐角三角函数应用于解直角三角形[8]，利用锐角三角函数的相关知识解决问题[9]。例如，在圆内接正多边形中，已知⊙O的半径为10，求内接正五边形ABCDE的边长时，就要用到解直角三角形[10]。"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_d943c79e3f90",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "解直角三角形 应用于 直角三角形",
+      "evidence_text": "由直角三角形的边、角中的已知元素，求出所有边、角中的未知元素的过程，叫做解直角三角形。"
+    },
+    {
+      "n": 2,
+      "claim_id": "c_eb6a8887a1ba",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "锐角三角函数 前置 解直角三角形",
+      "evidence_text": "由直角三角形的边、角中的已知元素，求出所有边、角中的未知元素的过程，叫做解直角三角形。"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_d176c3e02f21",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "勾股定理 前置 解直角三角形",
+      "evidence_text": "（1）三边之间的关系 a^2+b^2=c^2（勾股定理）；"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_c233336d986c",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "直角三角形两锐角互余 前置 解直角三角形",
+      "evidence_text": "（2）锐角之间的关系 ∠A+∠B=90°（直角三角形的两个锐角互余）；"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_5a2e726eea13",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "正弦 前置 解直角三角形",
+      "evidence_text": "（3）边、角之间的关系 sin A=a/c，"
+    },
+    {
+      "n": 6,
+      "claim_id": "c_be75a54126f2",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "余弦 前置 解直角三角形",
+      "evidence_text": "（3）边、角之间的关系 cos A=b/c，"
+    },
+    {
+      "n": 7,
+      "claim_id": "c_421772f5ae80",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "正切 前置 解直角三角形",
+      "evidence_text": "（3）边、角之间的关系 tan A=a/b。"
+    },
+    {
+      "n": 8,
+      "claim_id": "c_02ed1ec63c83",
+      "record_id": "ch-126",
+      "chapter_no": 126,
+      "unit": "九下·7.1",
+      "relation": "锐角三角函数 应用于 解直角三角形",
+      "evidence_text": "利用锐角三角函数解直角三角形"
+    },
+    {
+      "n": 9,
+      "claim_id": "c_fda599f06926",
+      "record_id": "ch-131",
+      "chapter_no": 131,
+      "unit": "九下·7.6",
+      "relation": "锐角三角函数 应用于 解直角三角形",
+      "evidence_text": "利用锐角三角函数的相关知识解决问题"
+    },
+    {
+      "n": 10,
+      "claim_id": "c_9ec696065c98",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "解直角三角形 应用于 圆内接正多边形",
+      "evidence_text": "例4 如图7-18，⊙O的半径为10，求⊙O的内接正五边形ABCDE的边长"
+    }
+  ],
+  "basis": "191a40307158056b",
+  "basis_size": 10,
+  "generated_at": "2026-10-03T01:40:18.795Z"
+}

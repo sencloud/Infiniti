@@ -1,0 +1,1038 @@
+{
+ "no": 4,
+ "title": "On Sunday morning while church bells rang in the…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7889,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵富豪，常办奢华派对，自称出身中西部富家、牛津毕业。"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的朋友，曾认为盖茨比在撒谎。"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wilson",
+      "George"
+     ],
+     "nickname": "乔治·威尔逊",
+     "description": "本片段未直接出现，仅作为规范名列出。"
+    },
+    {
+     "name": "Klipspringer",
+     "type": "Person",
+     "aliases": [
+      "The boarder"
+     ],
+     "nickname": "克里普斯普林格",
+     "description": "常住在盖茨比家的房客，被称为“寄宿者”。"
+    },
+    {
+     "name": "Ripley Snell",
+     "type": "Person",
+     "aliases": [
+      "Snell"
+     ],
+     "nickname": "里普利·斯内尔",
+     "description": "盖茨比派对客人，去监狱前三天醉酒被车碾过右手。"
+    },
+    {
+     "name": "G. Earl Muldoon",
+     "type": "Person",
+     "aliases": [
+      "Muldoon"
+     ],
+     "nickname": "厄尔·马尔登",
+     "description": "盖茨比派对客人，其兄弟后来掐死了妻子。"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "尼克·卡拉威",
+     "description": "叙述者，盖茨比的邻居，记录下那年夏天来访的客人名单。"
+    },
+    {
+     "name": "Gatsby's house",
+     "type": "Place",
+     "aliases": [
+      "Gatsby’s house"
+     ],
+     "nickname": "盖茨比宅邸",
+     "description": "位于西卵，每周日举办奢华派对，众多客人来访。"
+    },
+    {
+     "name": "East Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "东卵",
+     "description": "长岛海湾东侧的富人区，许多客人来自此地。"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛海湾西侧，盖茨比和尼克居住地，也有客人来自此地。"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "城市，许多派对客人来自纽约。"
+    },
+    {
+     "name": "Oxford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牛津",
+     "description": "盖茨比声称自己在此受教育，是其家族传统。"
+    },
+    {
+     "name": "Middle West",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "中西部",
+     "description": "盖茨比声称自己出生于中西部富裕家庭。"
+    },
+    {
+     "name": "San Francisco",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "旧金山",
+     "description": "盖茨比声称的中西部家乡，实为矛盾。"
+    },
+    {
+     "name": "Paris",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "巴黎",
+     "description": "盖茨比声称战后像年轻王公般居住过的欧洲首都之一。"
+    },
+    {
+     "name": "Venice",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "威尼斯",
+     "description": "盖茨比声称居住过的欧洲城市之一。"
+    },
+    {
+     "name": "Rome",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗马",
+     "description": "盖茨比声称居住过的欧洲城市之一。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "I had gone to two of his parties",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Klipspringer",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's house",
+     "evidence": "A man named Klipspringer was there so often that he became known as “the boarder”—I doubt if he had any other home.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Ripley Snell",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "Snell was there three days before he went to the penitentiary",
+     "confidence": 0.95
+    },
+    {
+     "subject": "G. Earl Muldoon",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "And the Catlips and the Bembergs and G. Earl Muldoon, brother to that Muldoon who afterward strangled his wife.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's house",
+     "evidence": "the world and its mistress returned to Gatsby’s house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "West Egg",
+     "evidence": "We hadn’t reached West Egg village before Gatsby began leaving his elegant sentences unfinished",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "NATIVE_OF",
+     "object": "Middle West",
+     "evidence": "I am the son of some wealthy people in the Middle West",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "NATIVE_OF",
+     "object": "San Francisco",
+     "evidence": "“What part of the Middle West?” I inquired casually. “San Francisco.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Oxford",
+     "evidence": "educated at Oxford",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Paris",
+     "evidence": "I lived like a young rajah in all the capitals of Europe—Paris, Venice, Rome",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Venice",
+     "evidence": "I lived like a young rajah in all the capitals of Europe—Paris, Venice, Rome",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Rome",
+     "evidence": "I lived like a young rajah in all the capitals of Europe—Paris, Venice, Rome",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "FRIEND",
+     "object": "Nick Carraway",
+     "evidence": "I knew why Jordan Baker had believed he was lying",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 8014,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，尼克的朋友"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的女友"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle",
+      "Mrs. Wilson"
+     ],
+     "nickname": "梅朵",
+     "description": "汤姆的情妇，威尔逊太太"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wolfshiem",
+      "Wolfshiem"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的朋友，黑社会人物"
+    },
+    {
+     "name": "Rosy Rosenthal",
+     "type": "Person",
+     "aliases": [
+      "Rosenthal"
+     ],
+     "nickname": "罗西·罗森塔尔",
+     "description": "被枪杀的黑帮成员"
+    },
+    {
+     "name": "Montenegro",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "黑山",
+     "description": "亚得里亚海小国"
+    },
+    {
+     "name": "Argonne Forest",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "阿戈讷森林",
+     "description": "一战战场"
+    },
+    {
+     "name": "Oxford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牛津",
+     "description": "英国大学城"
+    },
+    {
+     "name": "Trinity Quad",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "三一学院方庭",
+     "description": "牛津大学三一学院庭院"
+    },
+    {
+     "name": "Port Roosevelt",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗斯福港",
+     "description": "纽约港口"
+    },
+    {
+     "name": "valley of ashes",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "灰谷",
+     "description": "工业废渣堆积地"
+    },
+    {
+     "name": "Astoria",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "阿斯托利亚",
+     "description": "纽约皇后区地名"
+    },
+    {
+     "name": "Queensboro Bridge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "皇后区大桥",
+     "description": "连接曼哈顿和皇后区的大桥"
+    },
+    {
+     "name": "Blackwell's Island",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布莱克韦尔岛",
+     "description": "东河中的岛屿"
+    },
+    {
+     "name": "Forty-second Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "四十二街",
+     "description": "纽约街道"
+    },
+    {
+     "name": "Metropole",
+     "type": "Place",
+     "aliases": [
+      "old Metropole"
+     ],
+     "nickname": "大都会酒店",
+     "description": "纽约旧酒店"
+    },
+    {
+     "name": "Orderi di Danilo",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "丹尼洛勋章",
+     "description": "黑山王国勋章"
+    },
+    {
+     "name": "photograph of Oxford days",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "牛津照片",
+     "description": "盖茨比在牛津三一学院的照片"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Oxford",
+     "evidence": "A souvenir of Oxford days. It was taken in Trinity Quad",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Argonne Forest",
+     "evidence": "In the Argonne Forest I took the remains of my machine-gun battalion",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Montenegro",
+     "evidence": "every Allied government gave me a decoration—even Montenegro",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "OWNS",
+     "object": "Orderi di Danilo",
+     "evidence": "That’s the one from Montenegro.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "OWNS",
+     "object": "photograph of Oxford days",
+     "evidence": "Here’s another thing I always carry. A souvenir of Oxford days.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Forty-second Street",
+     "evidence": "In a well-fanned Forty-second Street cellar I met Gatsby for lunch.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Queensboro Bridge",
+     "evidence": "Over the great bridge, with the sunlight through the girders",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Blackwell's Island",
+     "evidence": "As we crossed Blackwell’s Island a limousine passed us",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "valley of ashes",
+     "evidence": "Then the valley of ashes opened out on both sides of us",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "LIVES_AT",
+     "object": "valley of ashes",
+     "evidence": "I had a glimpse of Mrs. Wilson straining at the garage pump",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "Mr. Carraway, this is my friend Mr. Wolfshiem.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "FRIEND",
+     "object": "Rosy Rosenthal",
+     "evidence": "I can’t forget so long as I live the night they shot Rosy Rosenthal there.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Rosy Rosenthal",
+     "predicate": "VISITED",
+     "object": "Metropole",
+     "evidence": "the night they shot Rosy Rosenthal there",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Metropole",
+     "evidence": "The old Metropole.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Nick Carraway",
+     "evidence": "I’m going to make a big request of you today",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Jordan Baker",
+     "evidence": "Do you mean you’re in love with Miss Baker?",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "I happened to find out that you’re taking Miss Baker to tea.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 8015,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，曾与黛西相恋，后为爱情悲剧主角"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Daisy Fay",
+      "Mrs. Buchanan"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比旧爱，出身路易斯维尔"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，粗鲁傲慢的富豪"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的女友，黛西的旧友"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wolfshiem",
+      "Wolfshiem"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的生意伙伴，操纵世界大赛的赌徒"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居，黛西的表亲"
+    },
+    {
+     "name": "Camp Taylor",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "泰勒营",
+     "description": "一战期间军官训练营，位于路易斯维尔附近"
+    },
+    {
+     "name": "Louisville",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "路易斯维尔",
+     "description": "黛西的家乡，位于肯塔基州"
+    },
+    {
+     "name": "Muhlbach Hotel",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "穆尔巴赫酒店",
+     "description": "汤姆与黛西婚礼前租下一整层的酒店"
+    },
+    {
+     "name": "Plaza Hotel",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "广场酒店",
+     "description": "纽约的酒店，乔丹在此讲述往事"
+    },
+    {
+     "name": "World's Series",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "世界大赛",
+     "description": "1919年被操纵的棒球世界大赛"
+    },
+    {
+     "name": "string of pearls",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "珍珠项链",
+     "description": "汤姆送给黛西的价值三十五万美元的珍珠项链"
+    },
+    {
+     "name": "letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "信",
+     "description": "黛西婚礼前醉酒时手中拿着的信"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "I made the pleasure of his acquaintance just after the war.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "They were so engrossed in each other that she didn’t see me until I was five feet away.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LOVES",
+     "object": "Jay Gatsby",
+     "evidence": "They were so engrossed in each other that she didn’t see me until I was five feet away.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "In June she married Tom Buchanan of Chicago, with more pomp and circumstance than Louisville ever knew before.",
+     "confidence": 1
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "OWNS",
+     "object": "string of pearls",
+     "evidence": "the day before the wedding he gave her a string of pearls valued at three hundred and fifty thousand dollars.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "OWNS",
+     "object": "letter",
+     "evidence": "She had a bottle of Sauterne in one hand and a letter in the other.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "PARTICIPATED_IN",
+     "object": "World's Series",
+     "evidence": "He’s the man who fixed the World’s Series back in 1919.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Camp Taylor",
+     "evidence": "excited young officers from Camp Taylor demanded the privilege of monopolizing her that night.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LIVES_AT",
+     "object": "Louisville",
+     "evidence": "The largest of the banners and the largest of the lawns belonged to Daisy Fay’s house.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Muhlbach Hotel",
+     "evidence": "hired a whole floor of the Muhlbach Hotel",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Plaza Hotel",
+     "evidence": "said Jordan Baker that afternoon, sitting up very straight on a straight chair in the tea-garden at the Plaza Hotel",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 6236,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，为黛西买下西卵宅邸"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆之妻，婚前曾与盖茨比相恋"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，富有而粗野"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，叙述者尼克的爱慕对象"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比与黛西的邻居"
+    },
+    {
+     "name": "Santa Barbara",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣巴巴拉",
+     "description": "汤姆与黛西婚后居住地"
+    },
+    {
+     "name": "Chicago",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "芝加哥",
+     "description": "汤姆与黛西定居的城市"
+    },
+    {
+     "name": "France",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "法国",
+     "description": "黛西生女后旅居一年的国家"
+    },
+    {
+     "name": "Cannes",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "戛纳",
+     "description": "法国南部城市，汤姆夫妇曾到访"
+    },
+    {
+     "name": "Deauville",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "多维尔",
+     "description": "法国海滨城市，汤姆夫妇曾到访"
+    },
+    {
+     "name": "South Seas",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "南海",
+     "description": "汤姆与黛西蜜月旅行地"
+    },
+    {
+     "name": "Central Park",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "中央公园",
+     "description": "纽约公园，乔丹讲述往事时经过"
+    },
+    {
+     "name": "Plaza",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "广场饭店",
+     "description": "纽约酒店，乔丹与尼克曾在此"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛海湾，盖茨比与尼克居住地"
+    },
+    {
+     "name": "string of pearls",
+     "type": "Item",
+     "aliases": [
+      "pearls"
+     ],
+     "nickname": "珍珠项链",
+     "description": "汤姆送给黛西的婚前礼物"
+    },
+    {
+     "name": "letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "信",
+     "description": "黛西婚前收到的信，她紧抓不放"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "Next day at five o’clock she married Tom Buchanan without so much as a shiver",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "Gatsby bought that house so that Daisy would be just across the bay.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "West Egg",
+     "evidence": "Gatsby bought that house so that Daisy would be just across the bay.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "Gatsby bought that house so that Daisy would be just across the bay.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Santa Barbara",
+     "evidence": "I saw them in Santa Barbara when they came back",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Santa Barbara",
+     "evidence": "I saw them in Santa Barbara when they came back",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "France",
+     "evidence": "they went to France for a year",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "France",
+     "evidence": "they went to France for a year",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Cannes",
+     "evidence": "I saw them one spring in Cannes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Cannes",
+     "evidence": "I saw them one spring in Cannes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Deauville",
+     "evidence": "and later in Deauville",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Deauville",
+     "evidence": "and later in Deauville",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Chicago",
+     "evidence": "then they came back to Chicago to settle down",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Chicago",
+     "evidence": "then they came back to Chicago to settle down",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "South Seas",
+     "evidence": "started off on a three months’ trip to the South Seas",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "South Seas",
+     "evidence": "started off on a three months’ trip to the South Seas",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "OWNS",
+     "object": "string of pearls",
+     "evidence": "the pearls were around her neck",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "OWNS",
+     "object": "letter",
+     "evidence": "She wouldn’t let go of the letter.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "I put my arm around Jordan’s golden shoulder and drew her toward me and asked her to dinner",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LOVES",
+     "object": "Jordan Baker",
+     "evidence": "I put my arm around Jordan’s golden shoulder and drew her toward me and asked her to dinner",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Central Park",
+     "evidence": "we had left the Plaza for half an hour and were driving in a victoria through Central Park",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Central Park",
+     "evidence": "we had left the Plaza for half an hour and were driving in a victoria through Central Park",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Plaza",
+     "evidence": "we had left the Plaza for half an hour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Plaza",
+     "evidence": "we had left the Plaza for half an hour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "HELPED",
+     "object": "Nick Carraway",
+     "evidence": "He wants to know if you’ll invite Daisy to your house some afternoon and then let him come over.",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:12.382Z"
+}

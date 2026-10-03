@@ -1,0 +1,609 @@
+{
+ "no": 13,
+ "title": "“I hope, my dear,” said Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7811,
+   "entities": [
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，朗伯恩庄园主人"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特先生的妻子，五个女儿的母亲"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Jane",
+      "Miss Bennet"
+     ],
+     "nickname": "简",
+     "description": "班纳特家大小姐"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家二小姐"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三小姐"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四小姐"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家五小姐"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "班纳特家的邻居与朋友"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，单身绅士"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家的表亲，朗伯恩庄园的限定继承人"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "柯林斯先生的赞助人，罗新斯庄园的女主人"
+    },
+    {
+     "name": "Sir Lewis de Bourgh",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "刘易斯·德·包尔爵士",
+     "description": "凯瑟琳夫人的已故丈夫"
+    },
+    {
+     "name": "Hill",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "希尔",
+     "description": "班纳特家的管家"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家族",
+     "description": "班纳特先生与太太及五个女儿组成的家庭"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "朗伯恩",
+     "description": "班纳特家的庄园"
+    },
+    {
+     "name": "Hunsford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉斯福",
+     "description": "柯林斯先生所在的教区，靠近韦斯特汉姆"
+    },
+    {
+     "name": "Westerham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "韦斯特汉姆",
+     "description": "肯特郡的一个地方，靠近汉斯福"
+    },
+    {
+     "name": "Kent",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "肯特郡",
+     "description": "英格兰东南部的一个郡"
+    },
+    {
+     "name": "letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "信件",
+     "description": "柯林斯先生写给班纳特先生的信"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "said Mr. Bennet to his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "his wife and five daughters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "It is from my cousin, Mr. Collins",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Sir Lewis de Bourgh",
+     "evidence": "my late honoured father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "SPOUSE",
+     "object": "Sir Lewis de Bourgh",
+     "evidence": "widow of Sir Lewis de Bourgh",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "having received ordination at Easter, I have been so fortunate as to be distinguished by the patronage of the Right Honourable Lady Catherine de Bourgh",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "an addition to our family party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "an addition to our family party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "an addition to our family party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "an addition to our family party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "an addition to our family party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "an addition to our family party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "an addition to our family party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "inheriting Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "inheriting Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Hunsford",
+     "evidence": "Hunsford, near Westerham, Kent",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hunsford",
+     "predicate": "LIVES_AT",
+     "object": "Kent",
+     "evidence": "Hunsford, near Westerham, Kent",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Westerham",
+     "predicate": "LIVES_AT",
+     "object": "Kent",
+     "evidence": "Hunsford, near Westerham, Kent",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "OWNS",
+     "object": "letter",
+     "evidence": "I received this letter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "OWNS",
+     "object": "letter",
+     "evidence": "I received this letter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hill",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Bennet",
+     "evidence": "I must speak to Hill this moment",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "Mr. Collins was punctual to his time, and was received with great politeness by the whole family",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1436,
+   "entities": [
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家男主人，伊丽莎白等五姐妹的父亲"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，急于为女儿们择婿"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家财产限定继承人，牧师"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及其五个女儿组成的家庭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "There is no knowing how estates will go when once they come to be entailed.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "I am very sensible, madam, of the hardship to my fair cousins",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "I am very sensible, madam, of the hardship to my fair cousins",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "I am very sensible, madam, of the hardship to my fair cousins",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "I am very sensible, madam, of the hardship to my fair cousins",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "I am very sensible, madam, of the hardship to my fair cousins",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "I am very sensible, madam, of the hardship to my fair cousins",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "It is a grievous affair to my poor girls, you must confess.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "It is a grievous affair to my poor girls, you must confess.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "It is a grievous affair to my poor girls, you must confess.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "It is a grievous affair to my poor girls, you must confess.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "It is a grievous affair to my poor girls, you must confess.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "It is a grievous affair to my poor girls, you must confess.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "It is a grievous affair to my poor girls, you must confess.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:03.836Z"
+}

@@ -1,0 +1,252 @@
+{
+ "no": 11,
+ "title": "Piling up the fire",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7561,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏，爱笑"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，骄傲但正直"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔善良"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，幽默讽刺"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，友善随和"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利小姐，势利且爱慕达西"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，已婚"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "赫斯特太太的丈夫，懒散"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "尼日斐花园",
+     "description": "彬格莱先生租住的庄园"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Elizabeth ran up to her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Elizabeth ran up to her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Elizabeth ran up to her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Elizabeth ran up to her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "hearing her brother mentioning a ball",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Mr. Hurst reminded his sister-in-law",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Hurst",
+     "predicate": "SPOUSE",
+     "object": "Louisa Hurst",
+     "evidence": "Mr. Hurst reminded his sister-in-law",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Miss Bingley’s eyes were instantly turned towards Darcy",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "He was full of joy and attention.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield",
+     "evidence": "are you really serious in meditating a dance at Netherfield?",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1325,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，性格高傲但正直"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，势利且工于心计"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，赫斯特先生的妻子"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "赫斯特太太的丈夫，宾利先生的姐夫"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mr. Hurst",
+     "evidence": "Louisa, you will not mind my waking Mr. Hurst.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Louisa Hurst",
+     "evidence": "Her sister made not the smallest objection",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:54.069Z"
+}

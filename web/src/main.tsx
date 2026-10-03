@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import { ExploreGraphPage, GalaxyPage, KnowledgeGraphLayout } from './pages/KnowledgeGraph'
 import HomePage from './pages/Home/HomePage'
+import TopicsPage from './pages/Topics/TopicsPage'
+import TopicDetailPage from './pages/Topics/TopicDetailPage'
 import { ThemeProvider } from './theme/ThemeProvider'
 import { localeFromPath } from './i18n/locale'
 import './i18n'
@@ -21,6 +23,8 @@ createRoot(document.getElementById('root')!).render(
       <BrowserRouter basename={localeFromPath() === 'en' ? '/en' : undefined}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/topics" element={<TopicsPage />} />
+          <Route path="/topics/:topicId" element={<TopicDetailPage />} />
           <Route path="/g/:graphId" element={<KnowledgeGraphLayout />}>
             <Route index element={<Navigate to="galaxy" replace />} />
             <Route path="galaxy" element={<GalaxyPage />} />

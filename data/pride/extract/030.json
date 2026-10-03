@@ -1,0 +1,260 @@
+{
+ "no": 30,
+ "title": "SIR WILLIAM stayed only a week at Hunsford; but…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7047,
+   "entities": [
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "夏绿蒂之父，曾造访汉斯福"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Charlotte",
+      "Mrs. Collins",
+      "Miss Lucas"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白好友，嫁与柯林斯"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，汉斯福牧师"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Eliza",
+      "Lizzy",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，造访夏绿蒂"
+    },
+    {
+     "name": "Miss De Bourgh",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "德包尔小姐",
+     "description": "凯瑟琳夫人之女，常驾车经过"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine",
+      "her Ladyship"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯女主人，达西姨妈"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，凯瑟琳夫人外甥"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西表兄，凯瑟琳夫人外甥"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，伊丽莎白之姐"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利小姐，倾心于达西"
+    },
+    {
+     "name": "Maria Lucas",
+     "type": "Person",
+     "aliases": [
+      "Maria",
+      "Miss Lucas"
+     ],
+     "nickname": "玛丽亚",
+     "description": "夏绿蒂之妹，曾见达西"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人的庄园"
+    },
+    {
+     "name": "Hunsford",
+     "type": "Place",
+     "aliases": [
+      "the Parsonage"
+     ],
+     "nickname": "汉斯福",
+     "description": "柯林斯牧师住宅所在地"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西的庄园"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "伊丽莎白所属家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Charlotte Lucas",
+     "evidence": "his daughter’s being most comfortably settled",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "SPOUSE",
+     "object": "Mr. Collins",
+     "evidence": "her possessing such a husband",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "Mr. Collins did not walk to Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "her friend had an excellent reason",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "My eldest sister has been in town",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the health of her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "his cousin, for whom he was evidently destined by Lady Catherine",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "KIN",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "his cousin",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "KIN",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "two nephews of Lady Catherine",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "Mr. Darcy was expected there",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "dining at Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Hunsford",
+     "evidence": "the Parsonage",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Miss Bingley’s designs on him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Hunsford",
+     "evidence": "Mr. Darcy would never have come so soon to wait upon me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Hunsford",
+     "evidence": "the first fortnight of her visit",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:24.070Z"
+}

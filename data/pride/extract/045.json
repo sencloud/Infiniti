@@ -1,0 +1,499 @@
+{
+ "no": 45,
+ "title": "Engaged by the river",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7918,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet",
+      "Eliza Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，出身显赫"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔善良"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，伊丽莎白之父"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "达西挚友，性格温和"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利之妹，嫉妒伊丽莎白"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利之姐，嫁与赫斯特"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "赫斯特太太的丈夫"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西之妹，害羞内向"
+    },
+    {
+     "name": "Anne de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Miss de Bourgh",
+      "Anne"
+     ],
+     "nickname": "安妮",
+     "description": "凯瑟琳夫人之女，达西表妹"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，曾诱骗乔治安娜"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，商人"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅母，聪慧明理"
+    },
+    {
+     "name": "Mrs. Annesley",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "安妮斯利太太",
+     "description": "乔治安娜的陪伴教师"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西的庄园，位于德比郡"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her niece",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "her brother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "the master of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "Miss Darcy, who was sitting there",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Bingley’s connections",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Bingley’s connections",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mr. Hurst",
+     "evidence": "Mrs. Hurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "her attentions to Mr. Darcy were by no means over",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "QUARRELED",
+     "object": "Elizabeth Bennet",
+     "evidence": "Miss Bingley’s dislike of her had originated in jealousy",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Georgiana Darcy",
+     "evidence": "Miss Darcy’s meditated elopement",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Annesley",
+     "predicate": "SERVANT_OF",
+     "object": "Georgiana Darcy",
+     "evidence": "the lady with whom she lived in London",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her niece",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her niece",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "their visit",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "their visit",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "engaged by the river",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "his friend",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2153,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，伊丽莎白的爱慕对象"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，嫉妒伊丽莎白"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "达西的好友，性格温和"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，卡罗琳的姐姐"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，商人"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅妈，聪慧可亲"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利先生租住的庄园"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "班纳特家所在的郡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Persuaded as Miss Bingley was that Darcy admired Elizabeth, this was not the best method of recommending herself",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "it is many months since I have considered her as one of the handsomest women of my acquaintance",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "QUARRELED",
+     "object": "Elizabeth Bennet",
+     "evidence": "I never could see any beauty in her. Her face is too thin; her complexion has no brilliancy; and her features are not at all handsome.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Miss Bingley was left to all the satisfaction of having forced him to say what gave no one any pain but herself.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Caroline Bingley",
+     "evidence": "Miss Bingley was left to all the satisfaction of having forced him to say what gave no one any pain but herself.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Gardiner would have been highly gratified by her niece’s beginning the subject.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Gardiner and Elizabeth talked of all that had occurred during their visit, as they returned",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "his friends",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "after they had been dining at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "after they had been dining at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "NATIVE_OF",
+     "object": "Hertfordshire",
+     "evidence": "when we first knew her in Hertfordshire",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:46.126Z"
+}

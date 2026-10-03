@@ -1,0 +1,238 @@
+{
+ "no": 3,
+ "title": "A Caucus-Race and a Long Tale",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7732,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，与动物们一起经历奇遇的小女孩。"
+    },
+    {
+     "name": "Mouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "老鼠",
+     "description": "会说话的老鼠，在聚会中显得有权威。"
+    },
+    {
+     "name": "Dodo",
+     "type": "Person",
+     "aliases": [
+      "Dodo Bird"
+     ],
+     "nickname": "渡渡鸟",
+     "description": "提议并主持考克斯赛跑的鸟类。"
+    },
+    {
+     "name": "Lory",
+     "type": "Person",
+     "aliases": [
+      "Lory Bird"
+     ],
+     "nickname": "鹦鹉",
+     "description": "与爱丽丝争论年龄的鹦鹉。"
+    },
+    {
+     "name": "Eaglet",
+     "type": "Person",
+     "aliases": [
+      "Eaglet Bird"
+     ],
+     "nickname": "小鹰",
+     "description": "听不懂渡渡鸟长词的小鹰。"
+    },
+    {
+     "name": "Duck",
+     "type": "Person",
+     "aliases": [
+      "Duck Bird"
+     ],
+     "nickname": "鸭子",
+     "description": "追问大主教发现什么的小鸭。"
+    },
+    {
+     "name": "Dinah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "黛娜",
+     "description": "爱丽丝的猫，擅长捉老鼠。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "Dinah",
+     "evidence": "Dinah's our cat.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Mouse",
+     "evidence": "she had quite a long argument with the Lory",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Dodo",
+     "evidence": "she had quite a long argument with the Lory",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Lory",
+     "evidence": "she had quite a long argument with the Lory",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Eaglet",
+     "evidence": "she had quite a long argument with the Lory",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Duck",
+     "evidence": "she had quite a long argument with the Lory",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Alice",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Caucus-race",
+     "evidence": "the best thing to get us dry would be a Caucus-race.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Dodo",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Caucus-race",
+     "evidence": "the best thing to get us dry would be a Caucus-race.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mouse",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Caucus-race",
+     "evidence": "the best thing to get us dry would be a Caucus-race.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lory",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Caucus-race",
+     "evidence": "the best thing to get us dry would be a Caucus-race.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eaglet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Caucus-race",
+     "evidence": "the best thing to get us dry would be a Caucus-race.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duck",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Caucus-race",
+     "evidence": "the best thing to get us dry would be a Caucus-race.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "Thimble",
+     "evidence": "Only a thimble",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "Comfits",
+     "evidence": "pulled out a box of comfits",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Dodo",
+     "predicate": "HELPED",
+     "object": "Alice",
+     "evidence": "the Dodo solemnly presented the thimble",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mouse",
+     "predicate": "QUARRELED",
+     "object": "Alice",
+     "evidence": "You insult me by talking such nonsense!",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 944,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，小女孩"
+    },
+    {
+     "name": "Mouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "老鼠",
+     "description": "会说话的老鼠，曾讲故事"
+    },
+    {
+     "name": "Dinah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "黛娜",
+     "description": "Alice的猫"
+    },
+    {
+     "name": "Canary",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "金丝雀",
+     "description": "会说话的金丝雀，有孩子"
+    },
+    {
+     "name": "Magpie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "喜鹊",
+     "description": "年老的喜鹊，担心夜风"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "Dinah",
+     "evidence": "I'm sure she's the best cat in the world!",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:38.563Z"
+}

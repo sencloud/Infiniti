@@ -1,0 +1,492 @@
+{
+ "no": 6,
+ "title": "About this time an ambitious young reporter from New…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7836,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵的神秘富豪，原名詹姆斯·盖茨，出身北达科他贫农家庭。"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "东卵富家子弟，骑马来访盖茨比宅邸。"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "与尼克在纽约交往的高尔夫球手。"
+    },
+    {
+     "name": "Dan Cody",
+     "type": "Person",
+     "aliases": [
+      "Cody",
+      "Mr. Cody"
+     ],
+     "nickname": "丹·科迪",
+     "description": "内华达银矿与育空淘金起家的百万富翁，盖茨比的恩主。"
+    },
+    {
+     "name": "Ella Kaye",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "艾拉·凯",
+     "description": "女记者，利用科迪的弱点，最终获得其遗产。"
+    },
+    {
+     "name": "Henry Gatz",
+     "type": "Person",
+     "aliases": [
+      "Mr. Gatz",
+      "Gatz"
+     ],
+     "nickname": "亨利·盖茨",
+     "description": "盖茨比的父亲，北达科他州农民。"
+    },
+    {
+     "name": "Sloane",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯隆",
+     "description": "与汤姆一同骑马到盖茨比家的男子。"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居，与乔丹交往。"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛海湾西侧的富人区，盖茨比居住地。"
+    },
+    {
+     "name": "Lake Superior",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "苏必利尔湖",
+     "description": "北美五大湖之一，盖茨比早年在此打工。"
+    },
+    {
+     "name": "St. Olaf's",
+     "type": "Organization",
+     "aliases": [
+      "small Lutheran College of St. Olaf's"
+     ],
+     "nickname": "圣奥拉夫学院",
+     "description": "明尼苏达州南部的小型路德会学院，盖茨比曾短暂就读。"
+    },
+    {
+     "name": "Tuolomee",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "图洛米号",
+     "description": "丹·科迪的游艇，盖茨比在此与之相遇并受雇。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "SERVANT_OF",
+     "object": "Dan Cody",
+     "evidence": "He was employed in a vague personal capacity—while he remained with Cody he was in turn steward, mate, skipper, secretary, and even jailor",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "HELPED",
+     "object": "Dan Cody",
+     "evidence": "informed Cody that a wind might catch him and break him up in half an hour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Dan Cody",
+     "predicate": "HELPED",
+     "object": "Jay Gatsby",
+     "evidence": "A few days later he took him to Duluth and bought him a blue coat, six pairs of white duck trousers, and a yachting cap.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Ella Kaye",
+     "predicate": "DECEIVED",
+     "object": "Dan Cody",
+     "evidence": "Ella Kaye, the newspaper woman, played Madame de Maintenon to his weakness and sent him to sea in a yacht",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Ella Kaye",
+     "predicate": "KILLED",
+     "object": "Dan Cody",
+     "evidence": "Ella Kaye came on board one night in Boston and a week later Dan Cody inhospitably died.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "KIN",
+     "object": "Henry Gatz",
+     "evidence": "His parents were shiftless and unsuccessful farm people",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "NATIVE_OF",
+     "object": "West Egg",
+     "evidence": "Jay Gatsby of West Egg, Long Island, sprang from his Platonic conception of himself",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "Jay Gatsby of West Egg, Long Island",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "St. Olaf's",
+     "evidence": "An instinct toward his future glory had led him, some months before, to the small Lutheran College of St. Olaf's in southern Minnesota.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "PARTICIPATED_IN",
+     "object": "St. Olaf's",
+     "evidence": "He stayed there two weeks",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "OWNS",
+     "object": "Tuolomee",
+     "evidence": "it was already Jay Gatsby who borrowed a rowboat, pulled out to the Tuolomee",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "I was in New York, trotting around with Jordan",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "West Egg",
+     "evidence": "somebody brought Tom Buchanan in for a drink",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sloane",
+     "predicate": "VISITED",
+     "object": "West Egg",
+     "evidence": "They were a party of three on horseback—Tom and a man named Sloane",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7645,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，爱慕黛西"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比旧爱"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，傲慢富有"
+    },
+    {
+     "name": "Mr. Sloane",
+     "type": "Person",
+     "aliases": [
+      "Sloane"
+     ],
+     "nickname": "斯隆先生",
+     "description": "盖茨比的客人，傲慢"
+    },
+    {
+     "name": "Miss Baedeker",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "贝德克小姐",
+     "description": "盖茨比派对上的醉酒女孩"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "I know your wife",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "I know your wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "You were with Nick here.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Tom Buchanan",
+     "evidence": "You were with Nick here.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Tom Buchanan",
+     "evidence": "I believe we’ve met somewhere before, Mr. Buchanan.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "on the following Saturday night he came with her to Gatsby’s party",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "on the following Saturday night he came with her to Gatsby’s party",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "I’d enjoyed these same people only two weeks before",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Baedeker",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "How do you feel, Miss Baedeker?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "grown to accept West Egg as a world complete in itself",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "You live near here, Nick?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Gatsby's party",
+     "evidence": "on the following Saturday night he came with her to Gatsby’s party",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Gatsby's party",
+     "evidence": "on the following Saturday night he came with her to Gatsby’s party",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7139,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居与朋友"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，深爱黛西"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆之妻，盖茨比旧爱"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，怀疑盖茨比"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛渔村旁的新兴富人区"
+    },
+    {
+     "name": "Louisville",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "路易斯维尔",
+     "description": "黛西的家乡，盖茨比与她初识之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "He wanted nothing less of Daisy than that she should go to Tom and say: “I never loved you.”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "He wanted nothing less of Daisy than that she should go to Tom and say: “I never loved you.”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "Gatsby asked me to wait until he was free, and I lingered in the garden",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Daisy Buchanan",
+     "evidence": "“Good night, Nick,” said Daisy.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "QUARRELED",
+     "object": "Jay Gatsby",
+     "evidence": "“Who is this Gatsby anyhow?” demanded Tom suddenly. “Some big bootlegger?”",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "She was appalled by West Egg, this unprecedented “place” that Broadway had begotten upon a Long Island fishing village",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "NATIVE_OF",
+     "object": "Louisville",
+     "evidence": "they were to go back to Louisville and be married from her house",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:01.303Z"
+}

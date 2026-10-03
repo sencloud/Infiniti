@@ -1,0 +1,267 @@
+{
+ "no": 2,
+ "title": "I hope Mr. Bingley will like it",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4265,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三女，爱读书"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，活泼大胆"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，爱讽刺"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特先生之妻，急于嫁女"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "新搬来的单身绅士"
+    },
+    {
+     "name": "Mrs. Long",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "朗太太",
+     "description": "班纳特家的邻居"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Observing his second daughter employed in trimming a hat, he suddenly addressed her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "said her mother, resentfully",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "What say you, Mary? For you are a young lady of deep reflection",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "The girls stared at their father. Mrs. Bennet said only",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Don’t keep coughing so, Kitty, for heaven’s sake!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Don’t keep coughing so, Kitty, for heaven’s sake!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Lydia, my love, though you are the youngest",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Lydia, my love, though you are the youngest",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "assuring his wife that he should not go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "The girls stared at their father",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The girls stared at their father",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The girls stared at their father",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The girls stared at their father",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The girls stared at their father",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The girls stared at their father",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "his second daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "What say you, Mary?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Don’t keep coughing so, Kitty",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Lydia, my love",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "MR. BENNET was among the earliest",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "assuring his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "Charles Bingley",
+     "evidence": "MR. BENNET was among the earliest of those who waited on Mr. Bingley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Long",
+     "predicate": "HELPED",
+     "object": "Charles Bingley",
+     "evidence": "Mrs. Long has promised to introduce him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "QUARRELED",
+     "object": "Mrs. Long",
+     "evidence": "She is a selfish, hypocritical woman, and I have no opinion of her",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:47.314Z"
+}

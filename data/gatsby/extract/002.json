@@ -1,0 +1,593 @@
+{
+ "no": 2,
+ "title": "About halfway between West Egg and New York the…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8038,
+   "entities": [
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "东卵富家子弟，尼克的同学，有婚外情"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "George B. Wilson",
+      "Mr. Wilson",
+      "Wilson"
+     ],
+     "nickname": "乔治·威尔逊",
+     "description": "灰谷修车厂老板，梅朵的丈夫"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Wilson",
+      "Myrtle"
+     ],
+     "nickname": "梅朵",
+     "description": "乔治·威尔逊的妻子，汤姆的情妇"
+    },
+    {
+     "name": "Doctor T. J. Eckleburg",
+     "type": "Person",
+     "aliases": [
+      "Doctor Eckleburg",
+      "T. J. Eckleburg"
+     ],
+     "nickname": "埃克尔堡医生",
+     "description": "灰谷广告牌上戴眼镜的医生眼睛"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，汤姆的熟人"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛的一个半岛，尼克和盖茨比居住地"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "城市，汤姆和梅朵幽会的地方"
+    },
+    {
+     "name": "valley of ashes",
+     "type": "Place",
+     "aliases": [
+      "ash-heaps"
+     ],
+     "nickname": "灰谷",
+     "description": "灰烬堆积的荒凉地带，位于西卵和纽约之间"
+    },
+    {
+     "name": "garage",
+     "type": "Place",
+     "aliases": [
+      "George B. Wilson's garage"
+     ],
+     "nickname": "修车厂",
+     "description": "乔治·威尔逊在灰谷经营的修车厂"
+    },
+    {
+     "name": "apartment",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "公寓",
+     "description": "汤姆在纽约为梅朵租的公寓"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "Tom deferred that much to the sensibilities of those East Eggers who might be on the train.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "LIVES_AT",
+     "object": "garage",
+     "evidence": "the third was a garage—Repairs. George B. Wilson. Cars bought and sold.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "LIVES_AT",
+     "object": "garage",
+     "evidence": "She was in the middle thirties, and faintly stout, but she carried her flesh sensuously as some women can.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "garage",
+     "evidence": "I followed Tom inside.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "garage",
+     "evidence": "I followed Tom inside.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "I went up to New York with Tom on the train one afternoon",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "So Tom Buchanan and his girl and I went up together to New York",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "I went up to New York with Tom on the train one afternoon",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Myrtle Wilson",
+     "evidence": "it was because of this that I first met Tom Buchanan’s mistress.",
+     "confidence": 0.5
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "SPOUSE",
+     "object": "Myrtle Wilson",
+     "evidence": "She smiled slowly and, walking through her husband as if he were a ghost",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "DECEIVED",
+     "object": "George Wilson",
+     "evidence": "Wilson? He thinks she goes to see her sister in New York. He’s so dumb he doesn’t know he’s alive.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "DECEIVED",
+     "object": "George Wilson",
+     "evidence": "Wilson? He thinks she goes to see her sister in New York. He’s so dumb he doesn’t know he’s alive.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "OWNS",
+     "object": "apartment",
+     "evidence": "I want to get one for the apartment.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "OWNS",
+     "object": "apartment",
+     "evidence": "I want to get one for the apartment.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 8004,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵的神秘富豪，邻居是尼克。"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，梅朵的情人。"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "George",
+      "Mr. Wilson"
+     ],
+     "nickname": "乔治·威尔逊",
+     "description": "梅朵的丈夫，经营修车行。"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle",
+      "Mrs. Wilson"
+     ],
+     "nickname": "梅朵",
+     "description": "乔治的妻子，汤姆的情妇。"
+    },
+    {
+     "name": "Catherine",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凯瑟琳",
+     "description": "梅朵的妹妹，住在酒店。"
+    },
+    {
+     "name": "Chester McKee",
+     "type": "Person",
+     "aliases": [
+      "Mr. McKee",
+      "Chester"
+     ],
+     "nickname": "麦基",
+     "description": "楼下的摄影师，自称从事艺术。"
+    },
+    {
+     "name": "Lucille McKee",
+     "type": "Person",
+     "aliases": [
+      "Mrs. McKee"
+     ],
+     "nickname": "麦基太太",
+     "description": "麦基的妻子，声音尖利。"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，住在西卵。"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛的一个地区，尼克和盖茨比居住地。"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "城市，第五大道和公寓所在地。"
+    },
+    {
+     "name": "Fifth Avenue",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "第五大道",
+     "description": "纽约的街道，温暖柔和。"
+    },
+    {
+     "name": "Long Island",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "长岛",
+     "description": "包括西卵和东卵的地区。"
+    },
+    {
+     "name": "158th Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "158街",
+     "description": "公寓楼所在的街道。"
+    },
+    {
+     "name": "Montauk Point",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "蒙托克角",
+     "description": "麦基摄影作品的主题地点。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "KIN",
+     "object": "Catherine",
+     "evidence": "I'll telephone my sister Catherine.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "SPOUSE",
+     "object": "George Wilson",
+     "evidence": "You'll give McKee a letter of introduction to your husband",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "LOVES",
+     "object": "Myrtle Wilson",
+     "evidence": "Myrtle'll be hurt if you don't come up to the apartment.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Chester McKee",
+     "predicate": "SPOUSE",
+     "object": "Lucille McKee",
+     "evidence": "His wife was shrill, languid, handsome, and horrible.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I live at West Egg.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I live next door to him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine",
+     "predicate": "VISITED",
+     "object": "West Egg",
+     "evidence": "I was down there at a party about a month ago. At a man named Gatsby's.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Chester McKee",
+     "predicate": "VISITED",
+     "object": "Long Island",
+     "evidence": "I've done some nice things out on Long Island,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Chester McKee",
+     "predicate": "OWNS",
+     "object": "Montauk Point",
+     "evidence": "One of them I call Montauk Point—The Gulls, and the other I call Montauk Point—The Sea.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7446,
+   "entities": [
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，盖茨比爱慕的对象"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，梅朵的情人"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle",
+      "Mrs. Wilson"
+     ],
+     "nickname": "梅朵",
+     "description": "威尔逊的妻子，汤姆的情妇"
+    },
+    {
+     "name": "Catherine",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凯瑟琳",
+     "description": "梅朵的妹妹"
+    },
+    {
+     "name": "Chester McKee",
+     "type": "Person",
+     "aliases": [
+      "Mr. McKee"
+     ],
+     "nickname": "麦基",
+     "description": "摄影师，麦基太太的丈夫"
+    },
+    {
+     "name": "Lucille McKee",
+     "type": "Person",
+     "aliases": [
+      "Mrs. McKee"
+     ],
+     "nickname": "麦基太太",
+     "description": "麦基的妻子"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，黛西的表亲"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson"
+     ],
+     "nickname": "威尔逊",
+     "description": "梅朵的丈夫，汽车修理店老板"
+    },
+    {
+     "name": "Monte Carlo",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "蒙特卡洛",
+     "description": "欧洲赌城，凯瑟琳曾到访"
+    },
+    {
+     "name": "Marseilles",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "马赛",
+     "description": "法国港口城市，凯瑟琳途经地"
+    },
+    {
+     "name": "Europe",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "欧洲",
+     "description": "凯瑟琳旅行的大陆"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "梅朵与汤姆初次相遇的城市"
+    },
+    {
+     "name": "Pennsylvania Station",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "宾夕法尼亚车站",
+     "description": "纽约火车站，尼克等车处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "Neither of them can stand the person they’re married to.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "SPOUSE",
+     "object": "George Wilson",
+     "evidence": "Well, I married him,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "LOVES",
+     "object": "Myrtle Wilson",
+     "evidence": "Tom’s the first sweetie she ever had.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "LOVES",
+     "object": "Tom Buchanan",
+     "evidence": "Tom’s the first sweetie she ever had.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine",
+     "predicate": "KIN",
+     "object": "Myrtle Wilson",
+     "evidence": "I was going up to New York to see my sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Chester McKee",
+     "predicate": "SPOUSE",
+     "object": "Lucille McKee",
+     "evidence": "if I hadn’t met Chester, he’d of got me sure.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "HARMED",
+     "object": "Myrtle Wilson",
+     "evidence": "Tom Buchanan broke her nose with his open hand.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine",
+     "predicate": "VISITED",
+     "object": "Monte Carlo",
+     "evidence": "I just got back from Monte Carlo.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine",
+     "predicate": "VISITED",
+     "object": "Marseilles",
+     "evidence": "We went by way of Marseilles.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine",
+     "predicate": "VISITED",
+     "object": "Europe",
+     "evidence": "Oh, do you like Europe?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "I was going up to New York to see my sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Pennsylvania Station",
+     "evidence": "I was lying half asleep in the cold lower level of the Pennsylvania Station",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:01.952Z"
+}

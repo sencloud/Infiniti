@@ -1,0 +1,346 @@
+{
+ "no": 14,
+ "title": "For several subsequent days I saw little of Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7975,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德府的家庭教师，与罗切斯特关系密切。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府的主人，性格阴郁而多变。"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府的女管家，和蔼可亲。"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的养女，简·爱的学生。"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近的城镇，绅士们常去那里。"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的庄园，简·爱在此任教。"
+    },
+    {
+     "name": "Paris",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "巴黎",
+     "description": "法国首都，阿黛尔的出生地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "all my acquaintance with him was confined to an occasional rencontre in the hall, on the stairs, or in the gallery",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "I brushed Adèle’s hair and made her neat",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "we descended, Adèle wondering whether the petit coffre was at length come",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "he would sometimes pass me haughtily and coldly, just acknowledging my presence by a distant nod or a cool glance",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I sent to you for a charitable purpose",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "NATIVE_OF",
+     "object": "Paris",
+     "evidence": "you genuine daughter of Paris",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "gentlemen from Millcote or the neighbourhood called",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7671,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德府的家庭教师，与罗切斯特对话"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府主人，性格阴郁而高傲"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府的女管家"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的养女，简·爱的学生"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "he seems to forget that he pays me £30 per annum for receiving his orders.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "Not three in three thousand raw school-girl-governesses would have answered me as you have just done.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "Adèle is a degree better, but still far below the mark;",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "Mrs. Fairfax ditto;",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7883,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "小说女主角，桑菲尔德府的家庭教师，性格沉静、善于倾听。"
+    },
+    {
+     "name": "Edward Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester"
+     ],
+     "nickname": "罗切斯特先生",
+     "description": "桑菲尔德府主人，性格阴郁，向简·爱坦陈自己过往的过失。"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特先生监护的小女孩，简·爱在桑菲尔德的学生。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Rochester",
+     "evidence": "I have plenty of faults of my own: I know it, and I don’t wish to palliate them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "To put Adèle to bed: it is past her bedtime.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 3593,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，曾受洛伍德约束，现任阿黛尔家庭教师"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，阿黛尔的监护人"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特监护的法国小女孩，塞莉娜之女"
+    },
+    {
+     "name": "Céline Varens",
+     "type": "Person",
+     "aliases": [
+      "Céline",
+      "Madame Varens"
+     ],
+     "nickname": "塞莉娜·瓦伦",
+     "description": "阿黛尔的母亲，法国舞女，曾与罗切斯特有旧情"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "She entered, transformed as her guardian had predicted.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Céline Varens",
+     "predicate": "KIN",
+     "object": "Adèle Varens",
+     "evidence": "a miniature of Céline Varens, as she used to appear on the boards",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Céline Varens",
+     "evidence": "she charmed my English gold out of my British breeches’ pocket. I have been green, too, Miss Eyre,—ay, grass green",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "you fear in the presence of a man and a brother—or father, or master",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:58.056Z"
+}

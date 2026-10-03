@@ -1,0 +1,260 @@
+{
+ "no": 6,
+ "title": "Pig and Pepper",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7699,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "好奇勇敢的小女孩，进入奇境冒险。"
+    },
+    {
+     "name": "Duchess",
+     "type": "Person",
+     "aliases": [
+      "Her Grace"
+     ],
+     "nickname": "公爵夫人",
+     "description": "脾气暴躁的公爵夫人，怀抱婴儿。"
+    },
+    {
+     "name": "Fish-Footman",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "鱼仆",
+     "description": "穿制服的鱼脸仆人，送信给公爵夫人。"
+    },
+    {
+     "name": "Frog-Footman",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "蛙仆",
+     "description": "圆脸大眼的蛙脸仆人，坐在门外。"
+    },
+    {
+     "name": "Cook",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "厨娘",
+     "description": "公爵夫人厨房里的厨娘，乱扔东西。"
+    },
+    {
+     "name": "Duchess’s Baby",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "公爵夫人的婴儿",
+     "description": "公爵夫人怀中的婴儿，后来变成小猪。"
+    },
+    {
+     "name": "Cheshire Cat",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "柴郡猫",
+     "description": "会咧嘴笑的猫，坐在壁炉前。"
+    },
+    {
+     "name": "Queen",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "王后",
+     "description": "邀请公爵夫人玩槌球的红心王后。"
+    },
+    {
+     "name": "White Rabbit’s house",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "白兔的家",
+     "description": "白兔居住的房子，有门牌。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fish-Footman",
+     "predicate": "SERVANT_OF",
+     "object": "Duchess",
+     "evidence": "For the Duchess. An invitation from the Queen to play croquet.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Frog-Footman",
+     "predicate": "SERVANT_OF",
+     "object": "Duchess",
+     "evidence": "From the Queen. An invitation for the Duchess to play croquet.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Cook",
+     "predicate": "SERVANT_OF",
+     "object": "Duchess",
+     "evidence": "the cook was leaning over the fire, stirring a large cauldron",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duchess",
+     "predicate": "GUARDIAN_OF",
+     "object": "Duchess’s Baby",
+     "evidence": "the Duchess was sitting on a three-legged stool in the middle, nursing a baby",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duchess",
+     "predicate": "HARMED",
+     "object": "Duchess’s Baby",
+     "evidence": "giving it a violent shake at the end of every line",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Cook",
+     "predicate": "HARMED",
+     "object": "Duchess",
+     "evidence": "the cook took the cauldron of soup off the fire, and at once set to work throwing everything within her reach at the Duchess and the baby",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Cook",
+     "predicate": "HARMED",
+     "object": "Duchess’s Baby",
+     "evidence": "throwing everything within her reach at the Duchess and the baby",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen",
+     "predicate": "PROPOSED_TO",
+     "object": "Duchess",
+     "evidence": "An invitation from the Queen to play croquet.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "White Rabbit’s house",
+     "evidence": "she opened the door and went in",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duchess",
+     "predicate": "LIVES_AT",
+     "object": "White Rabbit’s house",
+     "evidence": "The door led right into a large kitchen",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duchess",
+     "predicate": "OWNS",
+     "object": "Cheshire Cat",
+     "evidence": "It’s a Cheshire cat",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5976,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，小女孩，在奇境中冒险。"
+    },
+    {
+     "name": "Duchess’s Baby",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "公爵夫人的婴儿",
+     "description": "公爵夫人怀中的婴儿，后变成小猪。"
+    },
+    {
+     "name": "Cheshire Cat",
+     "type": "Person",
+     "aliases": [
+      "Cheshire Puss"
+     ],
+     "nickname": "柴郡猫",
+     "description": "会隐现、咧嘴笑的猫，与爱丽丝对话。"
+    },
+    {
+     "name": "Mad Hatter",
+     "type": "Person",
+     "aliases": [
+      "Hatter",
+      "the Hatter"
+     ],
+     "nickname": "疯帽匠",
+     "description": "住在附近的帽匠，被柴郡猫称为疯子。"
+    },
+    {
+     "name": "March Hare",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "三月兔",
+     "description": "住在附近的兔子，被柴郡猫称为疯子。"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "the Queen"
+     ],
+     "nickname": "红心王后",
+     "description": "红心王后，柴郡猫提到她今天打槌球。"
+    },
+    {
+     "name": "March Hare’s house",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "三月兔的房子",
+     "description": "三月兔的住所，烟囱像耳朵，屋顶有毛。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "TRANSFORMED",
+     "object": "Duchess’s Baby",
+     "evidence": "she carried it out into the open air",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "March Hare’s house",
+     "evidence": "she came in sight of the house of the March Hare",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Cheshire Cat",
+     "predicate": "FRIEND",
+     "object": "Alice",
+     "evidence": "The Cat only grinned when it saw Alice",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mad Hatter",
+     "predicate": "LIVES_AT",
+     "object": "March Hare’s house",
+     "evidence": "lives a Hatter",
+     "confidence": 0.7
+    },
+    {
+     "subject": "March Hare",
+     "predicate": "LIVES_AT",
+     "object": "March Hare’s house",
+     "evidence": "lives a March Hare",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:39.671Z"
+}

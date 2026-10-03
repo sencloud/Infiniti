@@ -1,0 +1,344 @@
+{
+ "no": 9,
+ "title": "But the privations, or rather the hardships, of Lowood…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7272,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，洛伍德学校的学生"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "洛伍德学校的教师，负责照顾病人"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "简·爱在洛伍德的好友"
+    },
+    {
+     "name": "Mary Ann Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson"
+     ],
+     "nickname": "玛丽·安·威尔逊",
+     "description": "简·爱在洛伍德的新同伴"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "洛伍德学校的监管人"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [
+      "Lowood School",
+      "Orphan Asylum"
+     ],
+     "nickname": "洛伍德",
+     "description": "简·爱就读的慈善学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Temple’s whole attention was absorbed by the patients: she lived in the sick-room, never quitting it except to snatch a few hours’ rest at night.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Helen Burns",
+     "evidence": "And where, meantime, was Helen Burns? Why did I not spend these sweet days of liberty with her? Had I forgotten her? or was I so worthless as to have grown tired of her pure society?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Mary Ann Wilson",
+     "evidence": "The stone was just broad enough to accommodate, comfortably, another girl and me, at that time my chosen comrade—one Mary Ann Wilson;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "Mr. Brocklehurst and his family never came near Lowood now:",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7692,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "小说叙述者，洛伍德学校学生，与海伦·彭斯交好。"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "简·爱在洛伍德学校的好友，患肺病即将离世。"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Temple",
+      "Miss Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "洛伍德学校教师，关心海伦·彭斯，让海伦住在自己房间。"
+    },
+    {
+     "name": "Miss Miller",
+     "type": "Person",
+     "aliases": [
+      "Miller"
+     ],
+     "nickname": "米勒小姐",
+     "description": "洛伍德学校教师，负责叫学生就寝。"
+    },
+    {
+     "name": "Mary Ann",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "玛丽·安",
+     "description": "简·爱在洛伍德学校的同伴，与简一起外出散步。"
+    },
+    {
+     "name": "Mr. Bates",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "贝茨先生",
+     "description": "为海伦·彭斯诊治的医生。"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [
+      "Lowood school",
+      "Lowood Institution"
+     ],
+     "nickname": "洛伍德学校",
+     "description": "简·爱和海伦·彭斯就读的慈善学校。"
+    },
+    {
+     "name": "Northumberland",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "诺森伯兰",
+     "description": "海伦·彭斯的家乡，位于英格兰北部。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Helen Burns",
+     "evidence": "I never tired of Helen Burns; nor ever ceased to cherish for her a sentiment of attachment, as strong, tender, and respectful as any that ever animated my heart.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "Helen, at all times and under all circumstances, evinced for me a quiet and faithful friendship",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "GUARDIAN_OF",
+     "object": "Helen Burns",
+     "evidence": "being taken by Miss Temple into the garden",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "she had been removed from my sight to I knew not what room upstairs",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "I had stayed out very late with Mary Ann in the wood",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "She is in Miss Temple’s room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Miller",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Miller was calling the pupils to go to bed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bates",
+     "predicate": "HELPED",
+     "object": "Helen Burns",
+     "evidence": "Mr. Bates had been sent for at that time of the evening",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "NATIVE_OF",
+     "object": "Northumberland",
+     "evidence": "she was about to be removed to Northumberland, to her own home",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 2735,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "小说叙述者，洛伍德学校学生"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "简·爱在洛伍德的好友，因病去世"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple",
+      "Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "洛伍德学校的学监，善良公正"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "洛伍德",
+     "description": "简·爱就读的慈善学校"
+    },
+    {
+     "name": "Brocklebridge churchyard",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布罗克布里奇教堂墓地",
+     "description": "海伦·彭斯安葬的教堂墓地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Helen Burns",
+     "evidence": "she seemed dearer to me than ever; I felt as if I could not let her go",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Helen Burns",
+     "evidence": "she seemed dearer to me than ever",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Miss Temple, on returning to her own room at dawn, had found me laid in the little crib",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Temple, on returning to her own room at dawn",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "I was in somebody’s arms; the nurse held me; she was carrying me through the passage back to the dormitory",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "my face against Helen Burns’s shoulder, my arms round her neck",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "LIVES_AT",
+     "object": "Brocklebridge churchyard",
+     "evidence": "Her grave is in Brocklebridge churchyard",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:51.039Z"
+}

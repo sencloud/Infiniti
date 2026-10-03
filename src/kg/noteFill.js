@@ -1,10 +1,11 @@
-// 后台补写解说：服务起来之后，按书轮流给还没有解说的人物（以及精怪、教材里的主要知识点）各写一篇。
+// 后台补写解说：服务起来之后，按书轮流给还没有解说的各类条目各写一篇（人物、地点、势力、事件、器物、知识点等）。
 // 一次只写一篇，写完歇一会儿，避免和学习者的提问抢模型。依据太少的记下来，事实变多了再试。
 import config from '../config.js';
 import { listGraphs } from './domains/index.js';
 import { generateNote } from './notes.js';
 import { ensureUnitLabels, rows, withGraph } from './neo.js';
 import { graphFile, readJsonFile, writeJsonFile } from './store.js';
+import { runState } from '../topic/runner.js';
 
 const MIN_CLAIMS = 2;
 const QUEUE_TTL = 10 * 60 * 1000;
@@ -33,11 +34,9 @@ function idleMs() {
   return Math.max(60_000, Number(process.env.KG_NOTE_IDLE_MS || 600_000));
 }
 
-/** 人物，加上精怪；没有人物的图谱（教材）用它自己的主要类型 */
+/** 本体里的每一种类型都写，不限于人物；专题只写配置里列出的主要类型（条目多，全写太费） */
 export function noteTypes(graph) {
-  const types = new Set(graph.galaxy?.primaryTypes?.length ? graph.galaxy.primaryTypes : ['Person']);
-  if (graph.ontology.ENTITY_TYPES.some((t) => t.code === 'Spirit')) types.add('Spirit');
-  return [...types];
+  return graph.noteTypes?.length ? graph.noteTypes : graph.ontology.ENTITY_TYPES.map((t) => t.code);
 }
 
 function noteFile(graphId, entityId, locale) {
@@ -134,6 +133,8 @@ async function step() {
   for (let n = 0; n < graphs.length; n++) {
     const idx = (cursor + n) % graphs.length;
     const graph = graphs[idx];
+    // 专题正在转写/抽取/入库时图谱随时会被清空重建，等跑完再写
+    if (graph.topic && runState(graph.id)) continue;
     const did = await withGraph(graph.id, async () => {
       await ensureUnitLabels();
       const job = await nextJob(graph);

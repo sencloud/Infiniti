@@ -1,0 +1,442 @@
+{
+ "no": 10,
+ "title": "THE day passed much as the day before had…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7925,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "男主角，来自彭伯里，性格高傲但正直"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "女主角，班纳特家二女儿，聪慧机敏"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔善良，正在病中"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，伊丽莎白和简的父亲"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，伊丽莎白和简的母亲"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，达西的好友，性格随和"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，势利且爱慕达西"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，已嫁给赫斯特先生"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "赫斯特太太的丈夫，宾利先生的姐夫"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西先生的妹妹，擅长弹琴"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利先生租住的庄园，简在此养病"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族，包括班纳特夫妇和五个女儿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Hurst and Miss Bingley had spent some hours of the morning with the invalid, who continued, though slowly, to mend; and, in the evening, Elizabeth joined their party in the drawing-room.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "That will not do for a compliment to Darcy, Caroline,” cried her brother",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Mrs. Hurst and Miss Bingley had spent some hours of the morning with the invalid",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mr. Hurst",
+     "evidence": "Mr. Hurst and Mr. Bingley were at piquet, and Mrs. Hurst was observing their game.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "How delighted Miss Darcy will be to receive such a letter!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "I am exceedingly gratified,” said Bingley, “by your converting what my friend says into a compliment on the sweetness of my temper.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "if you ever resolved on quitting Netherfield you should be gone in five minutes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Mrs. Hurst and Miss Bingley had spent some hours of the morning with the invalid, who continued, though slowly, to mend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "in the evening, Elizabeth joined their party in the drawing-room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Miss Bingley, seated near him, was watching the progress of his letter, and repeatedly calling off his attention by messages to his sister.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 4495,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，出身显赫，性格高傲"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏，善于观察"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔善良，正患病休养"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，内瑟菲尔德庄园租客，性格随和"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，势利且嫉妒伊丽莎白"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的姐姐，嫁与赫斯特先生"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "赫斯特太太的丈夫，宾利先生的姐夫"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "班纳特家的亲戚，与班纳特太太的姐妹结婚"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西先生的庄园，位于德比郡"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "Darcy had never been so bewitched by any woman as he was by her.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Miss Bingley saw, or suspected, enough to be jealous;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "FRIEND",
+     "object": "Jane Bennet",
+     "evidence": "her great anxiety for the recovery of her dear friend Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "QUARRELED",
+     "object": "Elizabeth Bennet",
+     "evidence": "her desire of getting rid of Elizabeth",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Miss Bingley",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Mrs. Hurst sang with her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mr. Hurst",
+     "evidence": "Mrs. Hurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "the gallery at Pemberley",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Jane was already so much recovered",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Philips",
+     "evidence": "your uncle and aunt Philips",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "DECEIVED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "She often tried to provoke Darcy into disliking her guest, by talking of their supposed marriage",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:57.487Z"
+}

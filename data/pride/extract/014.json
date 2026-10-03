@@ -1,0 +1,286 @@
+{
+ "no": 14,
+ "title": "DURING dinner, Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6422,
+   "entities": [
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家男主人，伊丽莎白的父亲"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，伊丽莎白的母亲"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，常随丽迪雅行动"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，活泼莽撞"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，牧师，凯瑟琳夫人的门徒"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯庄园女主人，柯林斯的赞助人"
+    },
+    {
+     "name": "Anne de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Miss de Bourgh",
+      "Anne"
+     ],
+     "nickname": "安妮",
+     "description": "凯瑟琳夫人独女，体弱多病"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "班纳特太太的妹夫，麦里屯律师"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "驻扎麦里屯的民兵团上校"
+    },
+    {
+     "name": "Mr. Denny",
+     "type": "Person",
+     "aliases": [
+      "Denny"
+     ],
+     "nickname": "丹尼先生",
+     "description": "民兵团军官，与班纳特家相识"
+    },
+    {
+     "name": "Rosings Park",
+     "type": "Place",
+     "aliases": [
+      "Rosings"
+     ],
+     "nickname": "罗新斯庄园",
+     "description": "凯瑟琳夫人的宅邸，柯林斯牧师住所邻近"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "班纳特家附近的集镇，民兵团驻扎地"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [
+      "Bennets"
+     ],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及其五个女儿组成的家庭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "Mr. Bennet scarcely spoke at all; but when the servants were withdrawn, he thought it time to have some conversation with his guest",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "except in an occasional glance at Elizabeth, requiring no partner in his pleasure",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Kitty stared at him, and Lydia exclaimed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Lydia was bid by her two eldest sisters to hold her tongue",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Bennet and her daughters apologized most civilly for Lydia’s interruption",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mrs. Bennet and her daughters apologized most civilly for Lydia’s interruption",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Mrs. Bennet and her daughters apologized most civilly for Lydia’s interruption",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Lydia was bid by her two eldest sisters to hold her tongue",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Lydia was bid by her two eldest sisters to hold her tongue",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Kitty stared at him, and Lydia exclaimed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "His cousin was as absurd as he had hoped",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "he seemed very fortunate in his patroness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "KIN",
+     "object": "Anne de Bourgh",
+     "evidence": "She has one only daughter, the heiress of Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "LIVES_AT",
+     "object": "Rosings Park",
+     "evidence": "Rosings Park, her Ladyship’s residence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Rosings Park",
+     "evidence": "The garden in which stands my humble abode is separated only by a lane from Rosings Park",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "my uncle Philips talks of turning away Richard",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "SERVANT_OF",
+     "object": "Bennet family",
+     "evidence": "my uncle Philips talks of turning away Richard",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "SERVANT_OF",
+     "object": "Bennet family",
+     "evidence": "Colonel Forster will hire him",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Mr. Denny",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "I shall walk to Meryton to-morrow to hear more about it, and to ask when Mr. Denny comes back from town",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "I shall walk to Meryton to-morrow to hear more about it",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:00.657Z"
+}

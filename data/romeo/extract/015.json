@@ -1,0 +1,151 @@
+{
+ "no": 15,
+ "title": "A Room in Capulet’s House",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1626,
+   "entities": [
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，与罗密欧相爱"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "朱丽叶的父亲，凯普莱特家族族长"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "朱丽叶的母亲，凯普莱特之妻"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，被罗密欧杀死"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，向朱丽叶求婚"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "维罗纳的贵族家族，与蒙太古家族为世仇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "That we have had no time to move our daughter.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Commend me to your daughter.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Tybalt Capulet",
+     "evidence": "she lov’d her kinsman Tybalt dearly",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "KIN",
+     "object": "Tybalt Capulet",
+     "evidence": "she lov’d her kinsman Tybalt dearly, And so did I.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "KIN",
+     "object": "Tybalt Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "SPOUSE",
+     "object": "Lady Capulet",
+     "evidence": "Wife, go you to her ere you go to bed,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet Capulet",
+     "evidence": "Acquaint her here of my son Paris’ love,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Enter Capulet, Lady Capulet and Paris.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Enter Capulet, Lady Capulet and Paris.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "That we have had no time to move our daughter.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Being our kinsman,",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:59.404Z"
+}

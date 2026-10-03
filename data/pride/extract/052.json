@@ -1,0 +1,742 @@
+{
+ "no": 52,
+ "title": "I am sure she did not listen",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 405,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Gracechurch Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格雷斯丘奇街",
+     "description": "伦敦街道，加德纳家住所所在"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Gracechurch Street",
+     "evidence": "Gracechurch Street, Sept. 6.",
+     "confidence": 0.6
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 9597,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，帮助解决丽迪雅与韦翰的婚事"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家二女儿，本片段中收到加德纳太太的信"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，伊丽莎白的姐姐"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家小女儿，与韦翰私奔后结婚"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，伊丽莎白与丽迪雅的父亲"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西的妹妹，曾受杨太太监护"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "军官，与丽迪雅私奔后被迫结婚"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，协助处理丽迪雅婚事"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅妈，写信告知达西相助之事"
+    },
+    {
+     "name": "Mrs. Younge",
+     "type": "Person",
+     "aliases": [
+      "Younge"
+     ],
+     "nickname": "杨太太",
+     "description": "乔治安娜的前家庭教师，后出租房屋，与韦翰相熟"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西的庄园，加德纳夫妇曾到访"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家的宅邸"
+    },
+    {
+     "name": "Gracechurch Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格雷斯丘奇街",
+     "description": "伦敦街道，加德纳先生住处所在"
+    },
+    {
+     "name": "Edward Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "爱德华街",
+     "description": "伦敦街道，杨太太在此租屋"
+    },
+    {
+     "name": "Derbyshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "德比郡",
+     "description": "英格兰郡名，彭伯里所在地"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "英格兰郡名，浪搏恩所在地"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [
+      "town"
+     ],
+     "nickname": "伦敦",
+     "description": "英国首都，丽迪雅与韦翰私奔后藏身之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "HELPED",
+     "object": "Lydia Bennet",
+     "evidence": "He saw Wickham, and afterwards insisted on seeing Lydia.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "HELPED",
+     "object": "George Wickham",
+     "evidence": "His debts are to be paid, amounting, I believe, to considerably more than a thousand pounds, another thousand in addition to her own settled upon her, and his commission purchased.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "I thought him very sly; he hardly ever mentioned your name.",
+     "confidence": 0.6
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "I thought him very sly; he hardly ever mentioned your name.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "a Mrs. Younge, who was some time ago governess to Miss Darcy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "SPOUSE",
+     "object": "Lydia Bennet",
+     "evidence": "She was sure they should be married some time or other, and it did not much signify when.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Lydia Bennet",
+     "evidence": "he easily learnt had never been his design.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "his conviction of its being owing to himself that Wickham’s worthlessness had not been so well known",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Younge",
+     "predicate": "SERVANT_OF",
+     "object": "Georgiana Darcy",
+     "evidence": "a Mrs. Younge, who was some time ago governess to Miss Darcy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Younge",
+     "predicate": "FRIEND",
+     "object": "George Wickham",
+     "evidence": "This Mrs. Younge was, he knew, intimately acquainted with Wickham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Younge",
+     "predicate": "DECEIVED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "She would not betray her trust, I suppose, without bribery and corruption",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Lydia Bennet",
+     "evidence": "your uncle would most readily have settled the whole",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "your uncle had a most unexpected visitor",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "your uncle would most readily have settled the whole",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "I have just received your letter, and shall devote this whole morning to answering it",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Lydia came to us, and Wickham had constant admission to the house.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "your father was still with him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "your father was still with him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "my dear Elizabeth and Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my dear Elizabeth and Jane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "your sister and Mr. Wickham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Gracechurch Street",
+     "evidence": "he first called in Gracechurch Street the evening before I came home",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "On the very day of my coming home from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "he returned again to his friends, who were still staying at Pemberley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "he returned again to his friends, who were still staying at Pemberley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "LIVES_AT",
+     "object": "Gracechurch Street",
+     "evidence": "he first called in Gracechurch Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Younge",
+     "predicate": "LIVES_AT",
+     "object": "Edward Street",
+     "evidence": "She then took a large house in Edward Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Edward Street",
+     "evidence": "Wickham, indeed, had gone to her on their first arrival in London",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Edward Street",
+     "evidence": "Wickham, indeed, had gone to her on their first arrival in London",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Edward Street",
+     "evidence": "he went to her for intelligence of him, as soon as he got to town",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "NATIVE_OF",
+     "object": "Derbyshire",
+     "evidence": "he left Derbyshire only one day after ourselves",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "NATIVE_OF",
+     "object": "Hertfordshire",
+     "evidence": "He was exactly what he had been when I knew him in Hertfordshire",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 6460,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐，本片段中读信后心绪翻涌。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，暗中促成丽迪雅与韦翰婚事，深爱伊丽莎白。"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，与韦翰私奔后成婚，本片段中与母亲同去麦里屯。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，伊丽莎白与丽迪雅的父亲。"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，本片段中与丽迪雅乘马车去麦里屯。"
+    },
+    {
+     "name": "Anne de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Miss de Bourgh",
+      "Anne"
+     ],
+     "nickname": "安妮",
+     "description": "凯瑟琳夫人之女，伊丽莎白猜测达西可能与她结婚。"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵团军官，曾与丽迪雅私奔，本片段中与伊丽莎白交谈。"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，曾协助处理丽迪雅私奔事件。"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅妈，写信告知达西暗中相助之事。"
+    },
+    {
+     "name": "Mrs. Reynolds",
+     "type": "Person",
+     "aliases": [
+      "Reynolds"
+     ],
+     "nickname": "雷诺兹太太",
+     "description": "彭伯里庄园的老管家，韦翰提及她一向喜欢自己。"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西的庄园，伊丽莎白曾到访。"
+    },
+    {
+     "name": "Lambton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "蓝白屯",
+     "description": "德比郡村庄，加德纳夫妇曾在此停留。"
+    },
+    {
+     "name": "Newcastle",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽卡斯尔",
+     "description": "韦翰所在民兵团驻地。"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "班纳特家附近的集镇。"
+    },
+    {
+     "name": "Kympton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "金普顿",
+     "description": "韦翰声称本应归他的牧师俸禄所在地。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及其五个女儿组成的家庭。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "HELPED",
+     "object": "Lydia Bennet",
+     "evidence": "They owed the restoration of Lydia, her character, everything to him.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "Her heart did whisper that he had done it for her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my dear sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "her sister’s match",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Mrs. Bennet and Lydia are going in the carriage to Meryton.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "her sister’s match",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Mrs. Bennet and Lydia are going in the carriage to Meryton.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Mrs. Bennet and Lydia are going in the carriage to Meryton.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "SPOUSE",
+     "object": "Lydia Bennet",
+     "evidence": "Brother-in-law of Wickham!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Gardiner",
+     "evidence": "our uncle and aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Gardiner",
+     "evidence": "our uncle and aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Gardiner",
+     "evidence": "our uncle and aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "you have actually seen Pemberley.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Lambton",
+     "evidence": "Did you see him while you were at Lambton?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Newcastle",
+     "evidence": "I could take it in my way to Newcastle.",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Mrs. Bennet and Lydia are going in the carriage to Meryton.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Mrs. Bennet and Lydia are going in the carriage to Meryton.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reynolds",
+     "predicate": "SERVANT_OF",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "you saw the old housekeeper",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "my dear sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "my dear sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her sister’s match",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Mrs. Bennet and Lydia are going in the carriage to Meryton.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "you have actually seen Pemberley.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "QUARRELED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Do not let us quarrel about the past.",
+     "confidence": 0.85
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:20:07.021Z"
+}

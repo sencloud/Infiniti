@@ -1,0 +1,227 @@
+{
+ "no": 12,
+ "title": "Alice’s Evidence",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7958,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，在法庭上作证并顶撞王后"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "法庭上的传令官，宣读证据"
+    },
+    {
+     "name": "Bill the Lizard",
+     "type": "Person",
+     "aliases": [
+      "Bill",
+      "The Lizard"
+     ],
+     "nickname": "蜥蜴比尔",
+     "description": "陪审员之一，被王后扔墨水瓶"
+    },
+    {
+     "name": "King of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The King",
+      "His Majesty"
+     ],
+     "nickname": "红心国王",
+     "description": "红心王国的国王，主持法庭审判"
+    },
+    {
+     "name": "Knave of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Knave",
+      "Jack of Hearts"
+     ],
+     "nickname": "红心骑士",
+     "description": "被指控偷馅饼的被告，纸牌人物"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Queen"
+     ],
+     "nickname": "红心王后",
+     "description": "红心王国的王后，暴躁易怒"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "HARMED",
+     "object": "Bill the Lizard",
+     "evidence": "she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Bill the Lizard",
+     "evidence": "throwing an inkstand at the Lizard as she spoke.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "White Rabbit",
+     "predicate": "SERVANT_OF",
+     "object": "King of Hearts",
+     "evidence": "“Unimportant, your Majesty means, of course,” he said in a very respectful tone",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3486,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，梦游仙境的小女孩"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "会说话的白兔，爱丽丝追随它进入仙境"
+    },
+    {
+     "name": "Mouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "老鼠",
+     "description": "爱丽丝在泪池中遇到的老鼠"
+    },
+    {
+     "name": "Duchess",
+     "type": "Person",
+     "aliases": [
+      "Her Grace"
+     ],
+     "nickname": "公爵夫人",
+     "description": "仙境中的人物，怀抱婴儿"
+    },
+    {
+     "name": "March Hare",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "三月兔",
+     "description": "参加疯狂茶会的角色"
+    },
+    {
+     "name": "Gryphon",
+     "type": "Person",
+     "aliases": [
+      "Griffin"
+     ],
+     "nickname": "狮鹫",
+     "description": "神话生物，带爱丽丝见假海龟"
+    },
+    {
+     "name": "Mock Turtle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "假海龟",
+     "description": "悲伤的假海龟，讲述自己的故事"
+    },
+    {
+     "name": "Turtle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "乌龟",
+     "description": "假海龟的别称"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Queen"
+     ],
+     "nickname": "红心王后",
+     "description": "红心王国的统治者，动不动就下令处决"
+    },
+    {
+     "name": "Duchess’s Baby",
+     "type": "Person",
+     "aliases": [
+      "pig-baby"
+     ],
+     "nickname": "公爵夫人的婴儿",
+     "description": "公爵夫人怀中的婴儿，后来变成小猪"
+    },
+    {
+     "name": "Alice’s Sister",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝的姐姐",
+     "description": "爱丽丝的姐姐，在河边陪伴做梦的爱丽丝"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "KIN",
+     "object": "Alice’s Sister",
+     "evidence": "her sister kissed her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice’s Sister",
+     "predicate": "GUARDIAN_OF",
+     "object": "Alice",
+     "evidence": "her head in the lap of her sister, who was gently brushing away some dead leaves",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duchess",
+     "predicate": "OWNS",
+     "object": "Duchess’s Baby",
+     "evidence": "the pig-baby was sneezing on the Duchess’s knee",
+     "confidence": 0.9
+    },
+    {
+     "subject": "March Hare",
+     "predicate": "FRIEND",
+     "object": "Hatter",
+     "evidence": "the March Hare and his friends shared their never-ending meal",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Gryphon",
+     "predicate": "FRIEND",
+     "object": "Mock Turtle",
+     "evidence": "the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:44.951Z"
+}

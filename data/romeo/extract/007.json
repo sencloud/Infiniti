@@ -1,0 +1,223 @@
+{
+ "no": 7,
+ "title": "Capulet’s Garden",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8052,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，与朱丽叶相爱"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家族之女，与罗密欧相爱"
+    },
+    {
+     "name": "Lord Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague",
+      "Old Montague"
+     ],
+     "nickname": "蒙太古",
+     "description": "蒙太古家族族长，罗密欧之父"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，朱丽叶之父"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，忠于朱丽叶"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇"
+    },
+    {
+     "name": "Capulet's Garden",
+     "type": "Place",
+     "aliases": [
+      "orchard"
+     ],
+     "nickname": "凯普莱特花园",
+     "description": "朱丽叶家花园，罗密欧与朱丽叶私会处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "It is my lady, O it is my love!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "My bounty is as boundless as the sea, My love as deep; the more I give to thee, The more I have, for both are infinite.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Thou art thyself, though not a Montague.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "And I’ll no longer be a Capulet.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "’Tis but thy name that is my enemy; Thou art thyself, though not a Montague.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "Anon, good Nurse!—Sweet Montague be true.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Capulet's Garden",
+     "evidence": "With love’s light wings did I o’erperch these walls, For stony limits cannot hold love out,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's Garden",
+     "evidence": "The orchard walls are high and hard to climb,",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 664,
+   "entities": [
+    {
+     "name": "Juliet",
+     "type": "Person",
+     "aliases": [
+      "Juliet Capulet"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家族的女儿，与罗密欧相爱。"
+    },
+    {
+     "name": "Romeo",
+     "type": "Person",
+     "aliases": [
+      "Romeo Montague"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族的儿子，与朱丽叶相爱。"
+    },
+    {
+     "name": "Friar Lawrence",
+     "type": "Person",
+     "aliases": [
+      "ghostly Sire",
+      "Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "神父，罗密欧的精神导师，常为其提供帮助。"
+    },
+    {
+     "name": "Capulet’s Garden",
+     "type": "Place",
+     "aliases": [
+      "Capulet Garden"
+     ],
+     "nickname": "凯普莱特花园",
+     "description": "凯普莱特家族的花园，罗密欧与朱丽叶私会之地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo",
+     "predicate": "LOVES",
+     "object": "Juliet",
+     "evidence": "I would I were thy bird.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet",
+     "predicate": "LOVES",
+     "object": "Romeo",
+     "evidence": "Sweet, so would I: Yet I should kill thee with much cherishing.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo",
+     "predicate": "VISITED",
+     "object": "Capulet’s Garden",
+     "evidence": "Hence will I to my ghostly Sire’s cell, His help to crave and my dear hap to tell.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Romeo",
+     "predicate": "HELPED",
+     "object": "Friar Lawrence",
+     "evidence": "Hence will I to my ghostly Sire’s cell, His help to crave and my dear hap to tell.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:55.270Z"
+}

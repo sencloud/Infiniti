@@ -31,7 +31,46 @@ export function addWords(words, tag = 'nz') {
   getJieba().loadDict(Buffer.from(fresh.map((w) => `${w} 100000 ${tag}`).join('\n')));
 }
 
-export function tokenize(text) {
+const EN_STOP = new Set(`
+a about above after again against all almost alone along already also although always am among an and another any
+anything are around as at away back be became because become been before being below beside besides best better
+between both but by came can cannot could did do does doing done down during each either else enough even ever every
+everything far few first for from further gave get give go going gone good got great had has have having he her here
+hers herself him himself his how however i if in indeed into is it its itself just know known last least less let
+like little long made make many may me might mine more most much must my myself never next no nobody none nor not
+nothing now of off often oh on once one only or other others ought our ours ourselves out over own perhaps quite
+rather really said same say saw see seemed seen shall she should since so some something soon still such sure take
+than that the their theirs them themselves then there these they thing things think this those though thought three
+through thus till to too took two under until up upon us very was way we well went were what whatever when where
+whether which while who whom whose why will with within without would yes yet you your yours yourself
+ever replied answered asked cried looked come came told tell seem upon whom shall don't can't i'm it's that's
+`.split(/\s+/).filter(Boolean));
+
+const enPhrases = new Set();
+
+/** 英文：多词实体名（Elizabeth Bennet）当作一个词 */
+export function addPhrases(words) {
+  for (const w of words) if (w && /\s/.test(w) && /^[A-Za-z]/.test(w)) enPhrases.add(w);
+}
+
+function tokenizeEnglish(text) {
+  let rest = text;
+  const out = [];
+  for (const p of [...enPhrases].sort((a, b) => b.length - a.length)) {
+    if (!rest.includes(p)) continue;
+    const parts = rest.split(p);
+    for (let i = 1; i < parts.length; i++) out.push(p);
+    rest = parts.join(' ');
+  }
+  for (const w of rest.match(/[A-Za-z][A-Za-z’'-]+/g) || []) {
+    const lower = w.toLowerCase().replace(/[’']s$/, '');
+    if (lower.length >= 3 && !EN_STOP.has(lower)) out.push(/^[A-Z]/.test(w) && w !== w.toUpperCase() ? w.replace(/[’']s$/, '') : lower);
+  }
+  return out;
+}
+
+export function tokenize(text, lang = 'zh') {
+  if (lang === 'en') return tokenizeEnglish(text);
   return getJieba()
     .cut(text, false)
     .filter((w) => w.length >= 2 && !STOP_WORDS.has(w) && /^[\u4e00-\u9fa5]+$/.test(w));

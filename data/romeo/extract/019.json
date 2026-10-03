@@ -1,0 +1,189 @@
+{
+ "no": 19,
+ "title": "Juliet’s Chamber",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2634,
+   "entities": [
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，与罗密欧秘密结婚"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的乳母，服侍凯普莱特家"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "凯普莱特之妻，朱丽叶之母"
+    },
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古之子，朱丽叶的丈夫"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar",
+      "the Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "为罗密欧与朱丽叶主持婚礼的神父"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，被罗密欧杀死"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，朱丽叶之父"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇的家族"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇的家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Lady Capulet's daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "SPOUSE",
+     "object": "Lady Capulet",
+     "evidence": "Capulet's wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Tybalt Capulet",
+     "evidence": "my cousin's ghost",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "Juliet's nurse",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "SPOUSE",
+     "object": "Romeo Montague",
+     "evidence": "he married me before to Romeo",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "Romeo, Romeo, Romeo, here's drink! I drink to thee.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "Romeo that did spit his body Upon a rapier's point",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Capulet",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Montague",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:02.444Z"
+}

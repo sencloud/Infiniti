@@ -1,0 +1,836 @@
+{
+ "no": 3,
+ "title": "There was music from my neighbour’s house through the…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7979,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵神秘富豪，常举办盛大宴会"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的朋友"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居"
+    },
+    {
+     "name": "Lucille",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "露西尔",
+     "description": "宴会女宾客，曾获盖茨比赠裙"
+    },
+    {
+     "name": "Gatsby's house",
+     "type": "Place",
+     "aliases": [
+      "his house",
+      "Gatsby's enormous garden"
+     ],
+     "nickname": "盖茨比宅邸",
+     "description": "西卵的豪华宅邸，宴会举办地"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [
+      "the city"
+     ],
+     "nickname": "纽约",
+     "description": "城市，宾客乘车来源地"
+    },
+    {
+     "name": "Long Island",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "长岛",
+     "description": "故事发生地，东卵与西卵所在"
+    },
+    {
+     "name": "the Sound",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "长岛海湾",
+     "description": "盖茨比宅邸旁的水域"
+    },
+    {
+     "name": "Gatsby's party",
+     "type": "Event",
+     "aliases": [
+      "little party",
+      "the party"
+     ],
+     "nickname": "盖茨比宴会",
+     "description": "盖茨比举办的盛大晚会"
+    },
+    {
+     "name": "Croirier's",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "克罗里埃店",
+     "description": "服装店，曾送露西尔晚礼服"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's house",
+     "evidence": "There was music from my neighbour’s house through the summer nights.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "OWNS",
+     "object": "Gatsby's house",
+     "evidence": "his blue gardens",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "the honour would be entirely Gatsby’s, it said, if I would attend his “little party” that night.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Gatsby's party",
+     "predicate": "OCCURRED_AT",
+     "object": "Gatsby's house",
+     "evidence": "the party has begun.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "I went over to his lawn a little after seven",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "I had been actually invited.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "Jordan Baker came out of the house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "we descended the steps and sauntered about the garden.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lucille",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "When I was here last I tore my gown on a chair",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lucille",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "I like to come",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "HELPED",
+     "object": "Lucille",
+     "evidence": "he asked me my name and address—inside of a week I got a package from Croirier’s with a new evening gown in it.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Croirier's",
+     "predicate": "HELPED",
+     "object": "Lucille",
+     "evidence": "I got a package from Croirier’s with a new evening gown in it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "With Jordan’s slender golden arm resting in mine, we descended the steps and sauntered about the garden.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "He had seen me several times, and had intended to call on me long before",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7959,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富有的派对主人，住在西卵。"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的友人，认识盖茨比。"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居，参加派对。"
+    },
+    {
+     "name": "Lucille",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "露西尔",
+     "description": "派对客人，参与对盖茨比的猜测。"
+    },
+    {
+     "name": "Belasco",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "贝拉斯科",
+     "description": "戏剧制作人，被用来比喻盖茨比布景逼真。"
+    },
+    {
+     "name": "Mrs. Claud Roosevelt",
+     "type": "Person",
+     "aliases": [
+      "Roosevelt"
+     ],
+     "nickname": "罗斯福太太",
+     "description": "带猫头鹰眼镜男人来派对的女士。"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛海湾的半岛，盖茨比和尼克居住地。"
+    },
+    {
+     "name": "East Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "东卵",
+     "description": "长岛海湾的半岛，传统贵族居住地。"
+    },
+    {
+     "name": "Gatsby's mansion",
+     "type": "Place",
+     "aliases": [
+      "my neighbour’s house"
+     ],
+     "nickname": "盖茨比宅邸",
+     "description": "盖茨比在西卵的豪华宅邸，派对举办地。"
+    },
+    {
+     "name": "Gatsby's party",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "盖茨比派对",
+     "description": "盖茨比举办的奢华晚会，有音乐、舞蹈和宾客。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's mansion",
+     "evidence": "There was music from my neighbour’s house through the summer nights.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "OWNS",
+     "object": "Gatsby's mansion",
+     "evidence": "There was music from my neighbour’s house through the summer nights.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "I’m Gatsby,” he said suddenly.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Gatsby's mansion",
+     "evidence": "this man Gatsby sent over his chauffeur with an invitation.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "I was still with Jordan Baker.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "Jordan invited me to join her own party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "FRIEND",
+     "object": "Nick Carraway",
+     "evidence": "I was still with Jordan Baker.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Nick Carraway",
+     "evidence": "I’m Gatsby,” he said suddenly.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Lucille",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "argued Lucille sceptically",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Claud Roosevelt",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "I was brought by a woman named Roosevelt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Gatsby's party",
+     "predicate": "OCCURRED_AT",
+     "object": "Gatsby's mansion",
+     "evidence": "There was music from my neighbour’s house through the summer nights.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I live over there—",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I live over there—",
+     "confidence": 0.9
+    },
+    {
+     "subject": "East Egg",
+     "predicate": "VISITED",
+     "object": "West Egg",
+     "evidence": "East Egg condescending to West Egg",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 8024,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，举办奢华派对，自称牛津毕业。"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克的朋友，盖茨比单独约见。"
+    },
+    {
+     "name": "Vladimir Tostoff",
+     "type": "Person",
+     "aliases": [
+      "Mr. Vladmir Tostoff",
+      "Tostoff"
+     ],
+     "nickname": "托斯托夫",
+     "description": "作曲家，作品《爵士世界史》在派对上演奏。"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "me",
+      "my"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居，参加派对。"
+    },
+    {
+     "name": "Mrs. Sigourney Howard",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "西格尼·霍华德太太",
+     "description": "乔丹·贝克的姑妈，乔丹提及的联系人。"
+    },
+    {
+     "name": "Gatsby's butler",
+     "type": "Person",
+     "aliases": [
+      "butler"
+     ],
+     "nickname": "盖茨比的管家",
+     "description": "盖茨比的管家，传达盖茨比的口信。"
+    },
+    {
+     "name": "East Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "东卵",
+     "description": "长岛富人区，乔丹的派对来自那里。"
+    },
+    {
+     "name": "Long Island Sound",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "长岛海湾",
+     "description": "长岛海峡，盖茨比在此购买宫殿。"
+    },
+    {
+     "name": "Carnegie Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "卡内基音乐厅",
+     "description": "纽约音乐厅，托斯托夫作品曾在此演出。"
+    },
+    {
+     "name": "Philadelphia",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "费城",
+     "description": "城市名，有人从费城打电话给盖茨比。"
+    },
+    {
+     "name": "Gatsby's party",
+     "type": "Event",
+     "aliases": [
+      "party"
+     ],
+     "nickname": "盖茨比的派对",
+     "description": "盖茨比举办的奢华派对，有音乐和众多宾客。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Long Island Sound",
+     "evidence": "buy a palace on Long Island Sound",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "he gives large parties",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "Jordan’s party were calling impatiently to her from the porch",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Gatsby's party",
+     "evidence": "I joined the last of Gatsby’s guests",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Nick Carraway",
+     "evidence": "Don’t mention it... old sport",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "Mr. Gatsby would like to speak to you alone",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Gatsby's butler",
+     "predicate": "SERVANT_OF",
+     "object": "Jay Gatsby",
+     "evidence": "Gatsby’s butler was suddenly standing beside us",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Vladimir Tostoff",
+     "predicate": "OWNS",
+     "object": "Vladmir Tostoff's Jazz History of the World",
+     "evidence": "Mr. Vladmir Tostoff’s latest work",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Vladmir Tostoff's Jazz History of the World",
+     "predicate": "OCCURRED_AT",
+     "object": "Carnegie Hall",
+     "evidence": "attracted so much attention at Carnegie Hall last May",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "KIN",
+     "object": "Mrs. Sigourney Howard",
+     "evidence": "My aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Philadelphia",
+     "evidence": "Philadelphia wants you on the phone",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7624,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵神秘富豪，常举办盛大宴会"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居，债券销售员"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球冠军，黛西的朋友，尼克的情人"
+    },
+    {
+     "name": "Owl Eyes",
+     "type": "Person",
+     "aliases": [
+      "The man with owl-eyed spectacles",
+      "the late patron of Gatsby's library"
+     ],
+     "nickname": "猫头鹰眼",
+     "description": "在盖茨比图书馆里惊叹书籍真实的客人"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "尼克的表妹，汤姆的妻子，盖茨比旧爱"
+    },
+    {
+     "name": "Yale Club",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "耶鲁俱乐部",
+     "description": "尼克常去用餐的俱乐部"
+    },
+    {
+     "name": "Probity Trust",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "诚信信托",
+     "description": "尼克在纽约下城工作的信托公司"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "尼克工作与夜生活的主要城市"
+    },
+    {
+     "name": "Jersey City",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "泽西城",
+     "description": "尼克短暂交往的女孩居住地"
+    },
+    {
+     "name": "Warwick",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沃里克",
+     "description": "尼克与乔丹参加家庭聚会的地点"
+    },
+    {
+     "name": "Madison Avenue",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦迪逊大道",
+     "description": "尼克散步经过的街道"
+    },
+    {
+     "name": "Fifth Avenue",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "第五大道",
+     "description": "尼克喜欢漫步的街道"
+    },
+    {
+     "name": "Pennsylvania Station",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "宾夕法尼亚车站",
+     "description": "尼克散步的终点"
+    },
+    {
+     "name": "Murray Hill Hotel",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "默里山酒店",
+     "description": "麦迪逊大道上的旧酒店"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I lived at West Egg, the—well, the less fashionable of the two",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "Gatsby's house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "SERVANT_OF",
+     "object": "Probity Trust",
+     "evidence": "I hurried down the white chasms of lower New York to the Probity Trust",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Yale Club",
+     "evidence": "I took dinner usually at the Yale Club",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "I began to like New York",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Jersey City",
+     "evidence": "a girl who lived in Jersey City",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Warwick",
+     "evidence": "we were on a house-party together up in Warwick",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Madison Avenue",
+     "evidence": "I strolled down Madison Avenue",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Fifth Avenue",
+     "evidence": "I liked to walk up Fifth Avenue",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Pennsylvania Station",
+     "evidence": "over 33rd Street to the Pennsylvania Station",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Murray Hill Hotel",
+     "evidence": "past the old Murray Hill Hotel",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LOVES",
+     "object": "Jordan Baker",
+     "evidence": "I wasn't actually in love, but I felt a sort of tender curiosity",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "I lost sight of Jordan Baker, and then in midsummer I found her again",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "DECEIVED",
+     "object": "Nick Carraway",
+     "evidence": "she left a borrowed car out in the rain with the top down, and then lied about it",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Owl Eyes",
+     "predicate": "VISITED",
+     "object": "Jay Gatsby",
+     "evidence": "it was the late patron of Gatsby's library",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 750,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，自认诚实，需先了结家乡旧情"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan"
+     ],
+     "nickname": "乔丹",
+     "description": "灰眼、常眯眼的女高尔夫球手，与尼克关系暧昧"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LOVES",
+     "object": "Jordan Baker",
+     "evidence": "she had deliberately shifted our relations, and for a moment I thought I loved her",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:09.575Z"
+}

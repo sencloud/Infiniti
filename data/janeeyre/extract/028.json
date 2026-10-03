@@ -1,0 +1,424 @@
+{
+ "no": 28,
+ "title": "Two days are passed.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7590,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "小说叙述者，孤身流落荒原"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "简·爱思念的男主人公"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫，将简·爱送到惠特克劳斯"
+    },
+    {
+     "name": "Whitcross",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "惠特克劳斯",
+     "description": "四路交汇处的石柱地标"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Jane Eyre",
+     "evidence": "the coachman has set me down at a place called Whitcross; he could take me no farther for the sum I had given",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Whitcross",
+     "evidence": "the coachman has set me down at a place called Whitcross",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "It trembled for Mr. Rochester and his doom; it bemoaned him with bitter pity; it demanded him with ceaseless longing",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7427,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "女主人公，饥饿疲惫，四处求职"
+    },
+    {
+     "name": "Mr. Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "奥利弗先生",
+     "description": "当地针厂和铸造厂厂主"
+    },
+    {
+     "name": "Marsh End",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沼泽居",
+     "description": "牧师父亲去世之地"
+    },
+    {
+     "name": "the parsonage",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牧师住宅",
+     "description": "村中牧师住所"
+    },
+    {
+     "name": "the village",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "村庄",
+     "description": "简·爱进入的村庄"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "the village",
+     "evidence": "About two o’clock P.M. I entered the village.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "the parsonage",
+     "evidence": "I reached the house, and knocked at the kitchen-door.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7937,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "me",
+      "my"
+     ],
+     "nickname": "简·爱",
+     "description": "女主人公，流浪中饥饿疲惫，仍坚信罗切斯特活着。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Edward",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "简·爱深爱的人，简在绝境中因相信他活着而坚持求生。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Because I know, or believe, Mr. Rochester is living: and then, to die of want and cold is a fate to which nature cannot submit passively.",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7716,
+   "entities": [
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "英格拉姆家的女儿，与圣约翰有婚约"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "里弗斯家的儿子，牧师"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "里弗斯家的女儿，圣约翰的妹妹"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "里弗斯家的女儿，圣约翰的妹妹"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "I wonder when St. John will come home.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "I wonder when St. John will come home.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "The other girl, who had lifted her head to listen to her sister, repeated",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "SPOUSE",
+     "object": "St. John Rivers",
+     "evidence": "I wonder when St. John will come home.",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 6023,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane",
+      "Jane Elliott"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段中流浪至沼泽居、被收留的女主人公"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers",
+      "Mr. St. John"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "沼泽居男主人，收留简·爱并询问其身份"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的妹妹，喂食并照顾简·爱"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰的妹妹，协助照顾简·爱"
+    },
+    {
+     "name": "Hannah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "汉娜",
+     "description": "沼泽居的忠实老仆人，起初拒绝简·爱进门"
+    },
+    {
+     "name": "Marsh End",
+     "type": "Place",
+     "aliases": [
+      "the house",
+      "the kitchen",
+      "the parlour"
+     ],
+     "nickname": "沼泽居",
+     "description": "里弗斯兄妹居住的宅邸，简·爱被收留之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "your sisters are quite uneasy about you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "your sisters are quite uneasy about you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "your sisters are quite uneasy about you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "Is it you, Mr. St. John?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "Diana Rivers",
+     "evidence": "your sisters are quite uneasy about you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "Mary Rivers",
+     "evidence": "your sisters are quite uneasy about you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "let me do mine in admitting her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Diana broke some bread, dipped it in milk, and put it to my lips",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Mary's hand removed my sodden bonnet and lifted my head",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "we are not by ourselves in the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "we are not by ourselves in the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "we are not by ourselves in the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "we are not by ourselves in the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Marsh End",
+     "evidence": "I stood within that clean, bright kitchen",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:26.844Z"
+}

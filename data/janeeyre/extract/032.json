@@ -1,0 +1,423 @@
+{
+ "no": 32,
+ "title": "I continued the labours of the village-school as actively…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7581,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "简·爱",
+     "description": "乡村学校女教师，叙述者"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "简·爱梦中的爱人，桑菲尔德庄园主"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "简·爱曾监护教导的学生"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "年轻牧师，简·爱的表亲"
+    },
+    {
+     "name": "Rosamond Oliver",
+     "type": "Person",
+     "aliases": [
+      "Miss Oliver"
+     ],
+     "nickname": "罗莎蒙德·奥利弗",
+     "description": "美丽富有的年轻女子，爱慕圣约翰"
+    },
+    {
+     "name": "Vale Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "谷府",
+     "description": "奥利弗家族宅邸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "loving him, being loved by him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "loving him, being loved by him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "I liked her almost as I liked my pupil Adèle",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "LOVES",
+     "object": "St. John Rivers",
+     "evidence": "I love you, and I know you prefer me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LOVES",
+     "object": "Rosamond Oliver",
+     "evidence": "I love you, and I know you prefer me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "VISITED",
+     "object": "Jane Eyre",
+     "evidence": "Rosamond Oliver kept her word in coming to visit me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "LIVES_AT",
+     "object": "Vale Hall",
+     "evidence": "the peace of Vale Hall",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 8012,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "my"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，莫顿村学校教师，擅长绘画与德语"
+    },
+    {
+     "name": "Rosamond Oliver",
+     "type": "Person",
+     "aliases": [
+      "Miss Oliver",
+      "she",
+      "her"
+     ],
+     "nickname": "罗莎蒙德·奥利弗",
+     "description": "奥利弗先生之女，美丽活泼，常来学校拜访简·爱"
+    },
+    {
+     "name": "Mr. Oliver",
+     "type": "Person",
+     "aliases": [
+      "papa",
+      "her father",
+      "he"
+     ],
+     "nickname": "奥利弗先生",
+     "description": "罗莎蒙德之父，谷厅主人，富有而和蔼"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rivers",
+      "Rivers",
+      "the young clergyman",
+      "he"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "年轻牧师，出身古老家族，计划去马达加斯加传教"
+    },
+    {
+     "name": "Vale Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "谷厅",
+     "description": "奥利弗先生的宅邸，宽敞气派"
+    },
+    {
+     "name": "Morton",
+     "type": "Place",
+     "aliases": [
+      "Vale of Morton"
+     ],
+     "nickname": "莫顿",
+     "description": "村庄，简·爱在此办学"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "KIN",
+     "object": "Mr. Oliver",
+     "evidence": "She made such a report of me to her father, that Mr. Oliver himself accompanied her next evening",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "LIVES_AT",
+     "object": "Vale Hall",
+     "evidence": "He insisted, too, on my coming the next day to spend the evening at Vale Hall.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Oliver",
+     "predicate": "LIVES_AT",
+     "object": "Vale Hall",
+     "evidence": "He insisted, too, on my coming the next day to spend the evening at Vale Hall.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Vale Hall",
+     "evidence": "I went. I found it a large, handsome residence, showing abundant evidences of wealth in the proprietor.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Morton",
+     "evidence": "I continued the labours of the village-school as actively",
+     "confidence": 0.8
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "Jane Eyre",
+     "evidence": "my door unclosed, admitting St. John Rivers.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LOVES",
+     "object": "Rosamond Oliver",
+     "evidence": "I am sure it would benefit him to talk a little about this sweet Rosamond, whom he thinks he ought not to marry",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Oliver",
+     "predicate": "MEMBER_OF",
+     "object": "Rivers family",
+     "evidence": "Mr. Oliver spoke of Mr. Rivers—of the Rivers family—with great respect.",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7714,
+   "entities": [
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，简的表兄，冷静有抱负"
+    },
+    {
+     "name": "Rosamond Oliver",
+     "type": "Person",
+     "aliases": [
+      "Miss Oliver"
+     ],
+     "nickname": "罗莎蒙德·奥利弗",
+     "description": "美丽活泼的富家女，爱慕圣约翰"
+    },
+    {
+     "name": "Mr. Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "奥利弗先生",
+     "description": "罗莎蒙德的父亲，富有"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "乡村学校教师，叙述者"
+    },
+    {
+     "name": "Vale Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "溪谷府",
+     "description": "奥利弗家的宅邸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LOVES",
+     "object": "Rosamond Oliver",
+     "evidence": "while I love Rosamond Oliver so wildly",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "LOVES",
+     "object": "St. John Rivers",
+     "evidence": "She likes you, I am sure",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Oliver",
+     "predicate": "KIN",
+     "object": "Rosamond Oliver",
+     "evidence": "her father was not likely to oppose the match",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Oliver",
+     "predicate": "FRIEND",
+     "object": "St. John Rivers",
+     "evidence": "her father respects you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "St. John Rivers",
+     "evidence": "You have taken my confidence by storm",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "I continued the labours of the village-school",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "LIVES_AT",
+     "object": "Vale Hall",
+     "evidence": "the drawing-room at Vale Hall",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 2470,
+   "entities": [
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers"
+     ],
+     "nickname": "圣约翰",
+     "description": "牧师，简的表兄，虔诚的基督徒"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Jane",
+      "Miss Eyre"
+     ],
+     "nickname": "简·爱",
+     "description": "乡村学校教师，画家"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简的爱人"
+    },
+    {
+     "name": "Jesus",
+     "type": "Person",
+     "aliases": [
+      "Christ",
+      "the Master"
+     ],
+     "nickname": "耶稣",
+     "description": "基督教创始人，圣约翰的信仰对象"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "SERVANT_OF",
+     "object": "Jesus",
+     "evidence": "I am sworn to spread them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LOVES",
+     "object": "Rosamond Oliver",
+     "evidence": "She is lovely",
+     "confidence": 0.8
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "DECEIVED",
+     "object": "Jane Eyre",
+     "evidence": "Nothing in the world",
+     "confidence": 0.7
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "Jane Eyre",
+     "evidence": "he took his hat, which lay on the table beside my palette",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:37.453Z"
+}

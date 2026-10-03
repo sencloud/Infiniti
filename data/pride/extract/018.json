@@ -1,0 +1,1226 @@
+{
+ "no": 18,
+ "title": "TILL Elizabeth entered the drawing-room at Netherfield, and looked…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8000,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏，对达西心存偏见。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，出身显赫，性格高傲内敛。"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵团军官，外表迷人，与达西有旧怨。"
+    },
+    {
+     "name": "Mr. Denny",
+     "type": "Person",
+     "aliases": [
+      "Denny"
+     ],
+     "nickname": "丹尼先生",
+     "description": "民兵军官，韦翰的朋友，告知韦翰缺席原因。"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，轻浮活泼，热衷与军官交往。"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白的好友，务实冷静，后嫁柯林斯。"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，牧师，举止笨拙，将继承浪搏恩。"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "夏绿蒂之父，曾为商人，后获爵士头衔。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，达西挚友，性格温和，租住内瑟菲尔德。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔美丽，与宾利互生情愫。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [
+      "Netherfield Park"
+     ],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利租住的庄园，舞会举办地。"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近小镇，民兵驻扎地。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [
+      "Bennets"
+     ],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及五个女儿组成的家庭。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LOVES",
+     "object": "George Wickham",
+     "evidence": "prepared in the highest spirits for the conquest of all that remained unsubdued of his heart",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "having told all her griefs to Charlotte Lucas",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "the oddities of her cousin",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "The two first dances, however, brought a return of distress: they were dances of mortification. Mr. Collins, awkward and solemn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "TILL Elizabeth entered the drawing-room at Netherfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "she found herself suddenly addressed by Mr. Darcy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "the absolute fact of his absence was pronounced by his friend Mr. Denny",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "to whom Lydia eagerly applied",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "she returned to Charlotte Lucas",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "Sir William Lucas appeared close to them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "Bingley and Jane, who were dancing together",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "Bingley and Jane, who were dancing together",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Netherfield ball",
+     "predicate": "OCCURRED_AT",
+     "object": "Netherfield",
+     "evidence": "Elizabeth entered the drawing-room at Netherfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "she and her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "she and her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "she and her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "she and her sisters did not very often walk to Meryton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Denny",
+     "predicate": "FRIEND",
+     "object": "George Wickham",
+     "evidence": "his friend Mr. Denny",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "QUARRELED",
+     "object": "George Wickham",
+     "evidence": "He has been so unlucky as to lose your friendship",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7603,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏，对达西心存偏见。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，出身显赫，性格高傲。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温柔，倾心于宾利。"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利先生的妹妹，势利且嫉妒伊丽莎白。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，达西挚友，性情温和。"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "老达西管家的儿子，外表迷人但品行不端。"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家财产继承人，凯瑟琳夫人的牧师。"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白好友，后嫁予柯林斯。"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "达西的姨妈，罗新斯庄园的女主人，傲慢专横。"
+    },
+    {
+     "name": "Miss De Bourgh",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "德包尔小姐",
+     "description": "凯瑟琳夫人的女儿，达西的表妹。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及五个女儿的家族。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利先生租住的庄园，舞会举办地。"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近的小镇，民兵驻扎地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "She then sought her eldest sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "Elizabeth withdrew to Miss Lucas",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LOVES",
+     "object": "Charles Bingley",
+     "evidence": "Jane entertained of Bingley's regard",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "FRIEND",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "he will vouch for the good conduct, the probity and honour, of his friend",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "my brother thought he could not well avoid including him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "SERVANT_OF",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "he was the son of old Wickham, the late Mr. Darcy's steward",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "I believe him to be Lady Catherine's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "KIN",
+     "object": "Miss De Bourgh",
+     "evidence": "his cousin Miss De Bourgh, and of her mother, Lady Catherine",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "a near relation to my patroness",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "She then sought her eldest sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "She then sought her eldest sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "TILL Elizabeth entered the drawing-room at Netherfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "the young lady who does the honours of this house",
+     "confidence": 0.8
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "he never saw him till the other morning at Meryton",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7859,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐，本片段中试图劝阻柯林斯先生并因母亲言行而窘迫。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，出身显赫，本片段中冷淡应对柯林斯先生，并目睹班纳特太太的失态。"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯先生",
+     "description": "班纳特家财产继承人，牧师，自以为是，本片段中主动向达西搭话。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔端庄，本片段中与宾利交谈，被母亲视为即将与宾利结婚。"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三女，本片段中在晚宴后唱歌，但歌艺不佳且举止造作。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，本片段中应伊丽莎白暗示，出声制止玛丽继续唱歌。"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，本片段中公开谈论简与宾利的婚事，令伊丽莎白难堪。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "彬格莱先生，内瑟菲尔德庄园租客，本片段中与简交谈，被班纳特太太视为理想女婿。"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "柯林斯先生的赞助人，达西的姨妈，本片段中被柯林斯提及。"
+    },
+    {
+     "name": "Lady Lucas",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Lucas"
+     ],
+     "nickname": "卢卡斯太太",
+     "description": "卢卡斯家女主人，本片段中听班纳特太太谈论简的婚事，并与之交谈。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利先生租住的庄园，本片段中舞会及晚宴的举办地。"
+    },
+    {
+     "name": "Hunsford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉斯福德",
+     "description": "柯林斯先生的牧师住宅所在地，本片段中被柯林斯提及。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "she turned her attention almost entirely on her sister and Mr. Bingley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "she had the mortification of seeing Mary, after very little entreaty, preparing to oblige the company",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "She looked at her father to entreat his interference",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Her mother only scolded her for being nonsensical.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Her cousin prefaced his speech with a solemn bow",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "saw in the motion of his lips the words “apology,” “Hunsford,” and “Lady Catherine de Bourgh.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her mother was talking to that one person (Lady Lucas) freely, openly, and of nothing else but of her expectation that Jane would be soon married to Mr. Bingley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Her mother only scolded her for being nonsensical.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "she had the mortification of seeing Mary, after very little entreaty, preparing to oblige the company",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "He took the hint, and, when Mary had finished her second song, said aloud,— “That will do extremely well, child.”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "She looked at her father to entreat his interference",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her mother was talking to that one person (Lady Lucas) freely, openly, and of nothing else but of her expectation that Jane would be soon married to Mr. Bingley",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LOVES",
+     "object": "Charles Bingley",
+     "evidence": "She saw her in idea settled in that very house, in all the felicity which a marriage of true affection could bestow",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "She saw her in idea settled in that very house, in all the felicity which a marriage of true affection could bestow",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "PROPOSED_TO",
+     "object": "Charles Bingley",
+     "evidence": "her expectation that Jane would be soon married to Mr. Bingley",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Jane Bennet",
+     "evidence": "she turned her attention almost entirely on her sister and Mr. Bingley",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "she turned her attention almost entirely on her sister and Mr. Bingley",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "QUARRELED",
+     "object": "Mrs. Bennet",
+     "evidence": "Her mother only scolded her for being nonsensical.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "TILL Elizabeth entered the drawing-room at Netherfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "When they sat down to supper, therefore, she considered it a most unlucky perverseness which placed them within one of each other",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Mr. Collins then returned to Elizabeth.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield",
+     "evidence": "she had the mortification of seeing Mary, after very little entreaty, preparing to oblige the company",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 5590,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立，对达西与柯林斯均无好感。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，出身显赫，性格高傲，对伊丽莎白态度冷淡。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温柔，与宾利互生情愫。"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，性格轻浮，舞会上疲惫不堪。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，冷眼旁观，对柯林斯的演说感到好笑。"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，势利且急于嫁女，对柯林斯和宾利均有意。"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "内瑟菲尔德庄园主，性格随和，与简·班纳特亲近。"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利之妹，高傲刻薄，对班纳特家充满轻蔑。"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利之姐，嫁与赫斯特，对班纳特家不耐烦。"
+    },
+    {
+     "name": "Mr. Hurst",
+     "type": "Person",
+     "aliases": [
+      "Hurst"
+     ],
+     "nickname": "赫斯特先生",
+     "description": "赫斯特太太的丈夫，宾利的姐夫，舞会上沉默寡言。"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家财产继承人，牧师，迂腐且自以为是，向伊丽莎白求婚。"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白的好友，善解人意，常替伊丽莎白解围。"
+    },
+    {
+     "name": "Lady Lucas",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Lucas"
+     ],
+     "nickname": "卢卡斯太太",
+     "description": "夏绿蒂之母，与班纳特太太交好，听其夸赞柯林斯。"
+    },
+    {
+     "name": "Maria Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Maria"
+     ],
+     "nickname": "玛丽亚",
+     "description": "夏绿蒂之妹，舞会上未特别提及。"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，伊丽莎白曾提及他，达西因此疏远伊丽莎白。"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利租住的庄园，舞会举办地。"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家的宅邸，舞会结束后班纳特一家返回之处。"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "宾利次日须前往的城市。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及其五个女儿组成的家庭。"
+    },
+    {
+     "name": "Bingley family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "宾利家",
+     "description": "宾利及其姐妹组成的家庭。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "his chief object was, by delicate attentions, to recommend himself to her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "She owed her greatest relief to her friend Miss Lucas",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "Mr. Bingley and Jane were standing together a little detached from the rest, and talked only to each other.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LOVES",
+     "object": "Charles Bingley",
+     "evidence": "Mr. Bingley and Jane were standing together a little detached from the rest, and talked only to each other.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "Elizabeth was the least dear to her of all her children",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Elizabeth was the least dear to her of all her children",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "she should undoubtedly see her daughter settled at Netherfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "even Lydia was too much fatigued to utter more than the occasional exclamation",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Elizabeth was the least dear to her of all her children",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "she should undoubtedly see her daughter settled at Netherfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "even Lydia was too much fatigued to utter more than the occasional exclamation",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "his two sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "his two sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Louisa Hurst",
+     "evidence": "Mrs. Hurst and her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "SPOUSE",
+     "object": "Mr. Hurst",
+     "evidence": "Mrs. Hurst and her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "he was a remarkably clever, good kind of young man",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "MEMBER_OF",
+     "object": "Bingley family",
+     "evidence": "Mr. Bingley and his sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "MEMBER_OF",
+     "object": "Bingley family",
+     "evidence": "Mr. Bingley and his sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "MEMBER_OF",
+     "object": "Bingley family",
+     "evidence": "Mr. Bingley and his sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "TILL Elizabeth entered the drawing-room at Netherfield",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Mr. Collins, who was complimenting Mr. Bingley and his sisters on the elegance of their entertainment",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "she should undoubtedly see her daughter settled at Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "The Longbourn party were the last of all the company to depart",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "he was obliged to go the next day for a short time",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Bennet family",
+     "evidence": "he was a remarkably clever, good kind of young man",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "DECEIVED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "She felt it to be the probable consequence of her allusions to Mr. Wickham",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "QUARRELED",
+     "object": "George Wickham",
+     "evidence": "her allusions to Mr. Wickham",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:28.847Z"
+}

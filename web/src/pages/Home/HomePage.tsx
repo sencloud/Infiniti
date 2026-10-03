@@ -28,11 +28,18 @@ const STEP_KEYS: Record<string, string> = {
   build: 'home.stepBuild',
 }
 
+const isTopic = (g: GraphSummary) => g.category === 'topic'
+
 function buildText(g: GraphSummary): string {
   const b = g.build
   if (!b) return i18n.t('home.wait')
-  if (b.state === 'failed') return i18n.t('home.interrupted')
+  if (b.state === 'failed' || b.state === 'stopped') return i18n.t('home.interrupted')
   if (b.step === 'extract' && b.units) return i18n.t('home.extracting', { done: b.extracted ?? 0, total: b.units })
+  if (isTopic(g) && b.step === 'crawl') {
+    return b.ingest?.files_total
+      ? i18n.t('home.ingesting', { done: b.ingest.files_done, total: b.ingest.files_total })
+      : i18n.t('home.stepIngest')
+  }
   return b.step ? (STEP_KEYS[b.step] ? i18n.t(STEP_KEYS[b.step]) : b.step) : i18n.t('home.wait')
 }
 
@@ -41,7 +48,9 @@ function buildPct(g: GraphSummary): number {
   if (!b?.step) return 4
   const order = ['crawl', 'seeds', 'extract', 'load', 'build']
   const i = order.indexOf(b.step)
-  const within = b.step === 'extract' && b.units ? (b.extracted ?? 0) / b.units : 0.3
+  let within = 0.3
+  if (b.step === 'extract' && b.units) within = (b.extracted ?? 0) / b.units
+  if (b.step === 'crawl' && b.ingest?.files_total) within = b.ingest.files_done / b.ingest.files_total
   return Math.round(((Math.max(i, 0) + within) / order.length) * 100)
 }
 
@@ -84,16 +93,35 @@ function GraphCard({ graph }: { graph: GraphSummary }) {
             <div className="hm-card-actions">
               <Link to={`/g/${graph.id}/galaxy`} className="hm-btn main">{i18n.t('home.galaxy')}</Link>
               <Link to={`/g/${graph.id}/explore`} className="hm-btn ghost">{i18n.t('home.explore')}</Link>
+              {isTopic(graph) && <Link to={`/topics/${graph.id}`} className="hm-btn ghost">{i18n.t('home.topicManage')}</Link>}
             </div>
           </>
         ) : (
           <div className="hm-card-pending">
             <div className="hm-progress"><span style={{ width: `${buildPct(graph)}%` }} /></div>
             <span>{buildText(graph)}</span>
+            {isTopic(graph) && (
+              <div className="hm-card-actions">
+                <Link to={`/topics/${graph.id}`} className="hm-btn ghost">{i18n.t('home.topicProgress')}</Link>
+              </div>
+            )}
           </div>
         )}
       </div>
     </article>
+  )
+}
+
+/** 专题分区末尾：新建或管理自己的专题（虚线框 = 你的资料放这里） */
+function NewTopicCard() {
+  return (
+    <Link to="/topics" className="hm-card hm-topic-new">
+      <div className="hm-card-body">
+        <h3>{i18n.t('home.topicNew')}</h3>
+        <p className="hm-card-desc">{i18n.t('home.topicNewDesc')}</p>
+        <span className="hm-topic-new-go">{i18n.t('home.topicNewGo')}</span>
+      </div>
+    </Link>
   )
 }
 
@@ -165,8 +193,9 @@ function MobileCatalog({ catalog, persons }: {
   catalog: { categories: GraphCategory[]; items: GraphSummary[] }
   persons: number | null
 }) {
-  const books = catalog.items.filter((g) => g.category !== 'subject')
+  const books = catalog.items.filter((g) => g.category !== 'subject' && !isTopic(g))
   const courses = catalog.items.filter((g) => g.category === 'subject')
+  const topics = catalog.items.filter(isTopic)
   return (
     <main className="hm-main hm-m-main">
       <section className="hm-m-section">
@@ -185,6 +214,15 @@ function MobileCatalog({ catalog, persons }: {
           {courses.map((g) => <CourseRow key={g.id} graph={g} />)}
         </section>
       )}
+
+      <section className="hm-m-section">
+        <div className="hm-m-head"><h2>{i18n.t('home.topics')}</h2></div>
+        {topics.map((g) => <CourseRow key={g.id} graph={g} />)}
+        <Link to="/topics" className="hm-import">
+          <p>{i18n.t('home.topicNewDesc')}</p>
+          <span>{i18n.t('home.topicNewGo')}</span>
+        </Link>
+      </section>
 
       <section className="hm-m-section">
         <div className="hm-m-head"><h2>{i18n.t('home.free')}</h2></div>
@@ -318,6 +356,7 @@ export default function HomePage() {
           </div>
         </Link>
         <div className="hm-header-actions">
+          <Link to="/topics" className="hm-header-link">{i18n.t('home.topics')}</Link>
           <a href={peopleHref()} className="hm-header-link" title={i18n.t('home.freeTitle')}>{i18n.t('home.free')}</a>
           <LocaleToggle />
           <ThemeToggle />
@@ -365,6 +404,7 @@ export default function HomePage() {
                 {cat.id === 'people'
                   ? <PeopleCard persons={persons} />
                   : graphs.map((g) => <GraphCard key={g.id} graph={g} />)}
+                {cat.id === 'topic' && <NewTopicCard />}
               </div>
             </section>
           )

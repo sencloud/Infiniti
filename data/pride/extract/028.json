@@ -1,0 +1,365 @@
+{
+ "no": 28,
+ "title": "At the door",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7896,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立，本片段中前往汉斯福德拜访夏绿蒂。"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，本片段中仅被提及，未直接出场。"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，本片段中未直接出场。"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯庄园的女主人，傲慢且爱干涉他人，本片段中被多次提及。"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家的表亲，汉斯福德牧师，夏绿蒂的丈夫，举止拘谨而自得。"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白的好友，柯林斯先生的妻子，务实而善于忍耐。"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "夏绿蒂和玛丽亚的父亲，曾为商人，后获爵士头衔，举止彬彬有礼。"
+    },
+    {
+     "name": "Maria Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Maria"
+     ],
+     "nickname": "玛丽亚",
+     "description": "夏绿蒂的妹妹，年轻且容易激动，本片段中与伊丽莎白同行。"
+    },
+    {
+     "name": "Mrs. Jenkinson",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "詹金森太太",
+     "description": "德·包尔小姐的陪伴者，住在罗新斯庄园。"
+    },
+    {
+     "name": "Miss De Bourgh",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "德·包尔小姐",
+     "description": "凯瑟琳夫人的女儿，体弱瘦小，本片段中乘车到汉斯福德。"
+    },
+    {
+     "name": "Hunsford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉斯福德",
+     "description": "柯林斯先生担任牧师的村庄，有牧师住宅和罗新斯庄园。"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人的庄园，位于汉斯福德附近，建筑宏伟。"
+    },
+    {
+     "name": "Parsonage",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牧师住宅",
+     "description": "柯林斯先生在汉斯福德的住所，带花园，整洁舒适。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "伊丽莎白所属的家族，本片段中通过柯林斯询问被提及。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Hunsford",
+     "evidence": "When they left the high road for the lane to Hunsford, every eye was in search of the Parsonage",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Parsonage",
+     "evidence": "At length the Parsonage was discernible.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Parsonage",
+     "evidence": "Mr. Collins and Charlotte appeared at the door, and the carriage stopped at the small gate",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "LIVES_AT",
+     "object": "Parsonage",
+     "evidence": "Mr. Collins and Charlotte appeared at the door, and the carriage stopped at the small gate",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "SPOUSE",
+     "object": "Mr. Collins",
+     "evidence": "her cousin’s manners were not altered by his marriage",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "Mrs. Collins welcomed her friend with the liveliest pleasure",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "as if wishing to make her feel what she had lost in refusing him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "none were to be compared with the prospect of Rosings, afforded by an opening in the trees that bordered the park nearly opposite the front of his house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "We dine at Rosings twice every week, and are never allowed to walk home.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "We dine at Rosings twice every week, and are never allowed to walk home.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "VISITED",
+     "object": "Hunsford",
+     "evidence": "she will include you and my sister Maria in every invitation with which she honours us during your stay here",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "VISITED",
+     "object": "Hunsford",
+     "evidence": "while Sir William accompanied him, Charlotte took her sister and friend over the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "his inquiries after all her family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "Charlotte took her sister and friend over the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "Charlotte took her sister and friend over the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "while Sir William accompanied him, Charlotte took her sister and friend over the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Charlotte Lucas",
+     "evidence": "Charlotte took her sister and friend over the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Maria Lucas",
+     "evidence": "Charlotte took her sister and friend over the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "KIN",
+     "object": "Maria Lucas",
+     "evidence": "Charlotte took her sister and friend over the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "KIN",
+     "object": "Miss De Bourgh",
+     "evidence": "here is nothing but Lady Catherine and her daughter!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Jenkinson",
+     "predicate": "SERVANT_OF",
+     "object": "Miss De Bourgh",
+     "evidence": "The old lady is Mrs. Jenkinson, who lives with them.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "Her Ladyship’s carriage is regularly ordered for us.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "the gaieties of their intercourse with Rosings",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Rosings",
+     "evidence": "the gaieties of their intercourse with Rosings",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 314,
+   "entities": [
+    {
+     "name": "William Collins",
+     "type": "Person",
+     "aliases": [
+      "Mr. Collins",
+      "Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家的表亲，牧师"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Charlotte",
+      "Miss Lucas",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白的好友，柯林斯太太"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人府邸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "William Collins",
+     "predicate": "SPOUSE",
+     "object": "Charlotte Lucas",
+     "evidence": "Mr. Collins no sooner saw the two girls than he began to congratulate them on their good fortune, which Charlotte explained by letting them know that the whole party was asked to dine at Rosings the next day.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "William Collins",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "the whole party was asked to dine at Rosings the next day",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "the whole party was asked to dine at Rosings the next day",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:27.661Z"
+}

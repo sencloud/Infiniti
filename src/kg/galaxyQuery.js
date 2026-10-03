@@ -100,7 +100,7 @@ export async function searchGalaxy(q, limit = 20) {
   let items = hits.map(toPoint);
   // 字面没命中时退到语义检索：「武松打虎」也能找到「景阳冈」那几段
   if (items.length < 3) {
-    const vec = await embedQuery(keyword);
+    const vec = await embedQuery(keyword, currentGraph().lang);
     const sem = await rows(
       `CALL db.index.vector.queryNodes($index, $k, $vec) YIELD node AS s, score
        MATCH (s)-[:IN_CHAPTER]->(c:Chapter)

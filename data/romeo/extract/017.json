@@ -1,0 +1,244 @@
+{
+ "no": 17,
+ "title": "Friar Lawrence’s Cell",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5751,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，朱丽叶的爱人"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家族之女，罗密欧的爱人"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族家长，朱丽叶之父"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特家族成员，朱丽叶的表兄，已死"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，向朱丽叶求婚"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar Lawrence",
+      "Friar",
+      "the Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "神父，帮助罗密欧与朱丽叶"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇"
+    },
+    {
+     "name": "Mantua",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "曼图亚",
+     "description": "城市，罗密欧流放地"
+    },
+    {
+     "name": "Capulets' vault",
+     "type": "Place",
+     "aliases": [
+      "ancient vault",
+      "that same ancient vault"
+     ],
+     "nickname": "凯普莱特家族墓穴",
+     "description": "凯普莱特家族安葬之地"
+    },
+    {
+     "name": "vial",
+     "type": "Item",
+     "aliases": [
+      "this vial"
+     ],
+     "nickname": "药瓶",
+     "description": "劳伦斯神父给朱丽叶的假死药"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lord Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "her father counts it dangerous That she do give her sorrow so much sway",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "Immoderately she weeps for Tybalt’s death",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet Capulet",
+     "evidence": "in his wisdom, hastes our marriage",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "God join’d my heart and Romeo’s",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "God join’d my heart and Romeo’s",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "My father Capulet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "all the kindred of the Capulets lie",
+     "confidence": 0.9
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "God join’d my heart and Romeo’s",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "Let not thy Nurse lie with thee in thy chamber",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "HELPED",
+     "object": "Juliet Capulet",
+     "evidence": "I’ll give thee remedy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "HELPED",
+     "object": "Romeo Montague",
+     "evidence": "Shall Romeo by my letters know our drift",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "OWNS",
+     "object": "vial",
+     "evidence": "Take thou this vial",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LIVES_AT",
+     "object": "Mantua",
+     "evidence": "Shall Romeo bear thee hence to Mantua",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "VISITED",
+     "object": "Capulets' vault",
+     "evidence": "Thou shalt be borne to that same ancient vault",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:02.133Z"
+}

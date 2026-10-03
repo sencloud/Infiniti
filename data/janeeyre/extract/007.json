@@ -1,0 +1,582 @@
+{
+ "no": 7,
+ "title": "My first quarter at Lowood seemed an age; and…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7838,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，劳渥德学校的学生"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple",
+      "Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "劳渥德学校的教师，关心学生"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校的总管，严厉而吝啬"
+    },
+    {
+     "name": "Miss Miller",
+     "type": "Person",
+     "aliases": [
+      "Miller"
+     ],
+     "nickname": "米勒小姐",
+     "description": "劳渥德学校的教师，疲惫地朗读布道文"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，曾向布洛克赫斯特说简的坏话"
+    },
+    {
+     "name": "Miss Smith",
+     "type": "Person",
+     "aliases": [
+      "Smith"
+     ],
+     "nickname": "史密斯小姐",
+     "description": "劳渥德学校的教师，负责发放缝补针"
+    },
+    {
+     "name": "Agnes Johnstone",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "阿格尼斯·约翰斯顿",
+     "description": "劳渥德学校的学生，曾获准穿干净领布喝茶"
+    },
+    {
+     "name": "Catherine Johnstone",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凯瑟琳·约翰斯顿",
+     "description": "劳渥德学校的学生，曾获准穿干净领布喝茶"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳渥德",
+     "description": "简·爱就读的慈善学校"
+    },
+    {
+     "name": "Brocklebridge Church",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布罗克尔桥教堂",
+     "description": "劳渥德学生每周日步行前往的教堂"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德",
+     "description": "里德太太的府邸，简·爱曾在此居住"
+    },
+    {
+     "name": "Lowton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "劳顿",
+     "description": "附近城镇，布洛克赫斯特在此购买线"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "My first quarter at Lowood seemed an age",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Temple walking lightly and rapidly along our drooping line",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "I have not yet alluded to the visits of Mr. Brocklehurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Miller",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "listening to a long sermon, read by Miss Miller",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Smith",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "You may tell Miss Smith that I forgot to make a memorandum of the darning needles",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Agnes Johnstone",
+     "predicate": "MEMBER_OF",
+     "object": "Lowood",
+     "evidence": "Agnes and Catherine Johnstone were invited to take tea with some friends at Lowton last Thursday",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Johnstone",
+     "predicate": "MEMBER_OF",
+     "object": "Lowood",
+     "evidence": "Agnes and Catherine Johnstone were invited to take tea with some friends at Lowton last Thursday",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "My first quarter at Lowood seemed an age",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "the same black column which had frowned on me so ominously from the hearthrug of Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Brocklebridge Church",
+     "evidence": "We had to walk two miles to Brocklebridge Church",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "VISITED",
+     "object": "Brocklebridge Church",
+     "evidence": "We had to walk two miles to Brocklebridge Church",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "I have not yet alluded to the visits of Mr. Brocklehurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "VISITED",
+     "object": "Lowton",
+     "evidence": "the thread I bought at Lowton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "DECEIVED",
+     "object": "Mr. Brocklehurst",
+     "evidence": "too well I remembered the perfidious hints given by Mrs. Reed about my disposition",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "DECEIVED",
+     "object": "Maria Temple",
+     "evidence": "the promise pledged by Mr. Brocklehurst to apprise Miss Temple and the teachers of my vicious nature",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I can remember Miss Temple walking lightly and rapidly along our drooping line",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7932,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段中的叙述者，劳渥德学校的新学生。"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple",
+      "Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "劳渥德学校的学监，善良温和。"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校的牧师主管，严厉而虚伪。"
+    },
+    {
+     "name": "Julia Severn",
+     "type": "Person",
+     "aliases": [
+      "Severn"
+     ],
+     "nickname": "朱莉娅·塞文",
+     "description": "劳渥德学校的学生，天生卷发。"
+    },
+    {
+     "name": "Miss Smith",
+     "type": "Person",
+     "aliases": [
+      "Smith"
+     ],
+     "nickname": "史密斯小姐",
+     "description": "劳渥德学校的教师，负责衣物和宿舍。"
+    },
+    {
+     "name": "Mrs. Brocklehurst",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布洛克赫斯特太太",
+     "description": "布洛克赫斯特先生的妻子，衣着华丽。"
+    },
+    {
+     "name": "Miss Brocklehurst",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布洛克赫斯特小姐",
+     "description": "布洛克赫斯特先生的女儿，年轻时髦。"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "简·爱在劳渥德的朋友，被提及但未出场。"
+    },
+    {
+     "name": "Lowood",
+     "type": "Organization",
+     "aliases": [
+      "Lowood school",
+      "institution"
+     ],
+     "nickname": "劳渥德学校",
+     "description": "简·爱就读的慈善学校。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "I must be responsible for the circumstance, sir",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "my plan in bringing up these girls",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "It is the new pupil, I perceive.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Julia Severn",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "It is Julia Severn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Smith",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Smith, who was charged with the care of the linen",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "Miss Temple gently assisted me to his very feet",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Don’t be afraid, Jane, I saw it was an accident; you shall not be punished.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "Let the child who broke her slate come forward!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "HARMED",
+     "object": "Julia Severn",
+     "evidence": "that girl’s hair must be cut off entirely",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "KIN",
+     "object": "Mrs. Brocklehurst",
+     "evidence": "These ladies were deferentially received by Miss Temple, as Mrs. and the Misses Brocklehurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "KIN",
+     "object": "Miss Brocklehurst",
+     "evidence": "These ladies were deferentially received by Miss Temple, as Mrs. and the Misses Brocklehurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Brocklehurst",
+     "predicate": "KIN",
+     "object": "Miss Brocklehurst",
+     "evidence": "These ladies were deferentially received by Miss Temple, as Mrs. and the Misses Brocklehurst",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "they had come in the carriage with their reverend relative",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Brocklehurst",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "they had come in the carriage with their reverend relative",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Brocklehurst",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "they had come in the carriage with their reverend relative",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 4284,
+   "entities": [
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst",
+      "the black marble clergyman"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校总管，当众宣布简·爱是撒谎者"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "劳渥德学校教师，布洛克赫斯特一家离场时受礼"
+    },
+    {
+     "name": "Miss Scatcherd",
+     "type": "Person",
+     "aliases": [
+      "Scatcherd"
+     ],
+     "nickname": "斯卡查德小姐",
+     "description": "劳渥德教师，因海伦弄脏作业罚她只吃面包和水"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "简·爱在劳渥德的同学，经过时以微笑鼓舞简"
+    },
+    {
+     "name": "Miss Smith",
+     "type": "Person",
+     "aliases": [
+      "Smith"
+     ],
+     "nickname": "史密斯小姐",
+     "description": "劳渥德教师，海伦向她询问功课"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "被布洛克赫斯特当众指为撒谎者，罚站高凳"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "her benefactress",
+      "the pious and charitable lady"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，收养她后送她进劳渥德"
+    },
+    {
+     "name": "Lowood",
+     "type": "Organization",
+     "aliases": [
+      "Lowood school"
+     ],
+     "nickname": "劳渥德学校",
+     "description": "简·爱就读的慈善学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "this girl is—a liar!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "DECEIVED",
+     "object": "Jane Eyre",
+     "evidence": "This I learned from her benefactress; from the pious and charitable lady who adopted her in her orphan state",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "the pious and charitable lady who adopted her in her orphan state, reared her as her own daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "DECEIVED",
+     "object": "Mr. Brocklehurst",
+     "evidence": "This I learned from her benefactress; from the pious and charitable lady who adopted her in her orphan state",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "It was as if a martyr, a hero, had passed a slave or victim, and imparted strength in the transit.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "HARMED",
+     "object": "Helen Burns",
+     "evidence": "I had heard her condemned by Miss Scatcherd to a dinner of bread and water on the morrow because she had blotted an exercise in copying it out.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Helen Burns asked some slight question about her work of Miss Smith",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "My first quarter at Lowood seemed an age",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "bowed to Miss Temple",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "condemned by Miss Scatcherd",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Miss Smith",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "her work of Miss Smith",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:49.291Z"
+}

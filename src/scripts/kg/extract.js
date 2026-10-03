@@ -9,7 +9,9 @@ import { loadSeeds } from './seeds.js';
 import { purposePrompt } from '../../kg/domains/purpose.js';
 
 const WINDOW_CHARS = 6000;
+const EN_WINDOW_CHARS = 8000;
 const CONCURRENCY = Number(process.env.KG_EXTRACT_CONCURRENCY || 8);
+const WINDOW_CONCURRENCY = 3;
 /** two-pass：每个窗口先对照已知实体分析一遍称呼与新角色，再带着结论抽三元组（LLM 调用翻倍） */
 const DEFAULT_MODE = process.env.KG_EXTRACT_MODE === 'two-pass' ? 'two-pass' : 'single';
 
@@ -52,19 +54,52 @@ const BARE_TITLES = new Set([
   '书生', '秀才', '老翁', '老妪', '女子', '少年', '道士', '仆人', '童子', '使者', '将军', '丞相', '大夫', '国君',
 ]);
 
+/** 实体主要是概念而不是人物的图谱（教材、专题）：不套用人物的泛称过滤 */
+export function isConceptual(graph) {
+  return graph?.kind === 'textbook' || graph?.kind === 'topic';
+}
+
+const TOPIC_GENERIC = /^(?:本(?:标准|规范|文件|办法|规定|条例|细则|部分|章|节|条)|附录|表\s*[A-Z]?\d|图\s*[A-Z]?\d|示例|注$|第[一二三四五六七八九十\d]+[章节条款])/;
+
+// 英文：小写开头或冠词开头的是泛称（「the servant」「a gentleman」），单独的称谓不算人名
+const EN_TITLES = new Set([
+  'Mr.', 'Mrs.', 'Miss', 'Sir', 'Lady', 'Lord', 'Madam', 'Madame', 'Master', 'Doctor', 'Dr.', 'Captain', 'Colonel',
+  'Servant', 'Servants', 'Footman', 'Maid', 'Housekeeper', 'Gentleman', 'Gentlemen', 'Ladies', 'Stranger', 'Visitor',
+  'Officer', 'Officers', 'Man', 'Woman', 'Boy', 'Girl', 'Child', 'Children', 'Father', 'Mother', 'Uncle', 'Aunt',
+  'Reader', 'Narrator', 'Everyone', 'Somebody', 'People', 'Guests', 'Citizens', 'Watchmen',
+  'House', 'Place', 'Room', 'Garden', 'Hall', 'Court', 'Door', 'Table', 'Street', 'Town', 'Village', 'Church', 'Park',
+  'Road', 'Wood', 'Forest', 'Kitchen', 'Library', 'Parlour', 'Home', 'Country', 'City', 'Window', 'Letter', 'Ball',
+]);
+
+export function isGenericEnglish(name) {
+  const n = String(name || '').trim();
+  return n.length < 2 || /^[a-z]/.test(n) || /^(?:The|A|An|Some|Two|Three|Several|All|Other|His|Her|Their|My|Our)\s+[a-z]/.test(n) || EN_TITLES.has(n);
+}
+
 /** 教材知识点名可以只有一个字（「圆」「角」），不套用人物的泛称过滤 */
 export function isGenericName(name, graph) {
   if (graph?.kind === 'textbook') return !name || /^(?:例|练习|习题|问题|思考|探索|阅读)/.test(name);
+  if (graph?.kind === 'topic') return !name || name.length < 2 || TOPIC_GENERIC.test(name);
+  if (graph?.lang === 'en') return !/[\u4e00-\u9fa5]/.test(name || '') && isGenericEnglish(name);
   return name.length < 2 || BARE_TITLES.has(name) || GENERIC_NAME.test(name);
 }
 
+const EN_RULES = [
+  '原文是英文。name、aliases、subject、object 一律用英文原文里的写法，不要翻译成中文；nickname 填该实体通行的中文译名（如「伊丽莎白」「彭伯里」）；description 用中文写。',
+  '人物书中给出名和姓的，name 写「名 姓」（如 Elizabeth Bennet）；只有称谓加姓的保留称谓（如 Mrs. Bennet、Lady Catherine de Bourgh 照原文）；其它称呼（Lizzy、Mr. Darcy）放 aliases。',
+  'evidence 必须从英文原文里原样照抄连续的一句或半句（≤200 个字符），不要翻译、不要改写。',
+  '无名的仆人、路人（如 the footman、a gentleman）和只有称谓没有姓名的人不要作为实体；代词 he/she/I 要换成所指的人名。',
+];
+
 function systemPrompt(graph) {
   const o = graph.ontology;
+  const en = graph.lang === 'en';
   const rules = [
+    ...(en ? EN_RULES : []),
     ...graph.extract.rules,
     '只抽取片段中明确发生或明确交代的事实，不要凭常识补充片段外的内容。',
-    'evidence 必须是原文中连续的一句或半句（≤60字），能直接支撑该关系。',
-    graph.kind === 'textbook' ? '' : '无名路人（如「一个庄客」「店小二」）和只有官职没有姓名的人（如「府尹」「知县」）不要作为实体。',
+    en ? '' : 'evidence 必须是原文中连续的一句或半句（≤60字），能直接支撑该关系。',
+    isConceptual(graph) || en ? '' : '无名路人（如「一个庄客」「店小二」）和只有官职没有姓名的人（如「府尹」「知县」）不要作为实体。',
     '有方向的谓词严格按「A 谓词 B」的语义填 subject=A、object=B，不要颠倒。',
     'confidence 取 0.5~1.0，明确叙述取 0.9 以上。',
   ].filter(Boolean);
@@ -93,16 +128,19 @@ ${text}${reference ? `\n\n白话译文（仅供理解，evidence 必须取自原
 function clean(raw, graph) {
   const o = graph.ontology;
   const personLike = new Set(['Person', 'Spirit']);
+  const norm = graph.normalizeName || ((s) => String(s || '').trim().replace(/\s+/g, ' '));
+  const maxLen = graph.kind === 'topic' || graph.lang === 'en' ? 40 : 20;
+  const evidenceMax = graph.lang === 'en' ? 300 : 120;
   const entities = [];
   for (const e of raw?.entities || []) {
-    const name = String(e?.name || '').trim();
+    const name = norm(e?.name);
     const type = String(e?.type || '').trim();
-    if (!name || name.length > 20 || !o.ENTITY_TYPE_CODES.has(type)) continue;
-    if ((personLike.has(type) || graph.kind === 'textbook') && isGenericName(name, graph)) continue;
+    if (!name || name.length > maxLen || !o.ENTITY_TYPE_CODES.has(type)) continue;
+    if ((personLike.has(type) || isConceptual(graph)) && isGenericName(name, graph)) continue;
     entities.push({
       name,
       type,
-      aliases: (Array.isArray(e.aliases) ? e.aliases : []).map((a) => String(a).trim()).filter((a) => a && a !== name),
+      aliases: (Array.isArray(e.aliases) ? e.aliases : []).map((a) => String(a).trim()).filter((a) => a && a !== name && a.length <= maxLen),
       nickname: String(e.nickname || '').trim(),
       description: String(e.description || '').trim().slice(0, 80),
     });
@@ -111,13 +149,13 @@ function clean(raw, graph) {
   const relations = [];
   for (const r of raw?.relations || []) {
     const predicate = String(r?.predicate || '').trim().toUpperCase();
-    const subject = String(r?.subject || '').trim();
-    const object = String(r?.object || '').trim();
+    const subject = norm(r?.subject);
+    const object = norm(r?.object);
     if (!o.PREDICATE_BY_CODE.has(predicate) || !subject || !object || subject === object) continue;
     const generic = (n) => isGenericName(n, graph) && !namedNonPerson.has(n);
     if (generic(subject) || generic(object)) continue;
     const confidence = Math.max(0, Math.min(1, Number(r.confidence) || 0.8));
-    relations.push({ subject, predicate, object, evidence: String(r.evidence || '').trim().slice(0, 120), confidence });
+    relations.push({ subject, predicate, object, evidence: String(r.evidence || '').trim().slice(0, evidenceMax), confidence });
   }
   return { entities, relations };
 }
@@ -181,7 +219,7 @@ async function analyzeWindow(ctx, text) {
 }
 
 /** 输出被截断（关系太多）时把窗口对半切开重抽 */
-async function extractWindow(ctx, chapter, label, idxs, depth = 0) {
+async function extractWindow(ctx, chapter, label, idxs, depth = 0, hot = false) {
   const { graph, seeds, system } = ctx;
   const text = idxs.map((i) => chapter.paragraphs[i]).join('\n');
   const reference = chapter.references ? idxs.map((i) => chapter.references[i]).filter(Boolean).join('\n') : '';
@@ -192,10 +230,16 @@ async function extractWindow(ctx, chapter, label, idxs, depth = 0) {
       user: userPrompt(graph, chapter, label, text, seedHints(text, seeds), reference, analysis),
       maxTokens: 16000,
       retries: depth === 0 ? 2 : 3,
+      ...(hot ? { temperature: 0.7 } : {}),
     });
     return [{ chars: text.length, ...clean(raw, graph), ...(analysis ? { analysis } : {}) }];
   } catch (e) {
-    if (depth >= 3 || idxs.length < 2) throw e;
+    if (depth >= 3 || idxs.length < 2) {
+      // 切到这么小还被截断，多半是模型陷进了重复输出，换个温度再试一次
+      if (e.code === 'LENGTH' && !hot) return extractWindow(ctx, chapter, label, idxs, depth, true);
+      e.message = `片段 ${label}（${text.length} 字）：${e.message}`;
+      throw e;
+    }
     const mid = Math.ceil(idxs.length / 2);
     const out = [];
     for (const [i, part] of [idxs.slice(0, mid), idxs.slice(mid)].entries()) {
@@ -206,11 +250,14 @@ async function extractWindow(ctx, chapter, label, idxs, depth = 0) {
 }
 
 async function extractChapter(ctx, chapter) {
-  const windows = splitWindows(chapter.paragraphs);
-  const results = [];
-  for (let i = 0; i < windows.length; i++) {
-    results.push(...(await extractWindow(ctx, chapter, `${i + 1}/${windows.length}`, windows[i])));
-  }
+  const windows = splitWindows(chapter.paragraphs, ctx.graph.lang === 'en' ? EN_WINDOW_CHARS : WINDOW_CHARS);
+  // 专题里一份标准可能上百页：窗口并行抽，免得最长的那份拖住整批
+  const parallel = ctx.graph.kind === 'topic' ? WINDOW_CONCURRENCY : 1;
+  const parts = new Array(windows.length);
+  await pool(windows.map((w, i) => i), parallel, async (i) => {
+    parts[i] = await extractWindow(ctx, chapter, `${i + 1}/${windows.length}`, windows[i]);
+  });
+  const results = parts.flat();
   return {
     no: chapter.no,
     title: chapter.title,
@@ -245,7 +292,7 @@ export async function extractUnit(graphId, no, { mode = DEFAULT_MODE } = {}) {
   return extractChapter(ctx, chapter);
 }
 
-export async function extractAll(graphId, { only, mode = DEFAULT_MODE } = {}) {
+export async function extractAll(graphId, { only, mode = DEFAULT_MODE, signal, onUnit } = {}) {
   const ctx = await makeContext(graphId, mode);
   const { graph, paths } = ctx;
   paths.ensureDirs();
@@ -255,7 +302,10 @@ export async function extractAll(graphId, { only, mode = DEFAULT_MODE } = {}) {
   console.log(`${tag} 共 ${chapters.length} 个${graph.unit.name}，待抽取 ${todo.length}，并发 ${CONCURRENCY}${mode === 'two-pass' ? '，两步抽取' : ''}`);
   let done = 0;
   const failed = [];
+  const before = chapters.length - todo.length;
+  onUnit?.(before, chapters.length);
   await pool(todo, CONCURRENCY, async (chapter) => {
+    if (signal?.aborted) return;
     try {
       const t0 = Date.now();
       const out = await extractChapter(ctx, chapter);
@@ -263,10 +313,11 @@ export async function extractAll(graphId, { only, mode = DEFAULT_MODE } = {}) {
       const nE = out.windows.reduce((s, w) => s + w.entities.length, 0);
       const nR = out.windows.reduce((s, w) => s + w.relations.length, 0);
       done++;
-      console.log(`${tag} ${done}/${todo.length} ${unitLabel(graph, chapter.no)} 实体${nE} 关系${nR} ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+      onUnit?.(before + done, chapters.length);
+      console.log(`${tag} ${done}/${todo.length} ${chapter.label || unitLabel(graph, chapter.no)} 实体${nE} 关系${nR} ${((Date.now() - t0) / 1000).toFixed(0)}s`);
     } catch (e) {
       failed.push(chapter.no);
-      console.error(`${tag} ${unitLabel(graph, chapter.no)} 失败: ${e.message}`);
+      console.error(`${tag} ${chapter.label || unitLabel(graph, chapter.no)} 失败: ${e.message}`);
     }
   });
   const finished = chapters.filter((c) => readJson(paths.extractFile(c.no))).length;

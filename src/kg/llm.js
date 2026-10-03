@@ -10,6 +10,13 @@ const client = new OpenAI({
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+const LONE_SURROGATE = /[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g;
+
+/** PDF 文字层里的生僻字常留下半个代理对，原样发出去接口会拒收（400） */
+export function wellFormed(text) {
+  return String(text ?? '').replace(LONE_SURROGATE, '');
+}
+
 /** 去掉模型偶尔包裹的 ```json 围栏后解析 */
 function parseJson(text) {
   const cleaned = String(text || '')
@@ -36,8 +43,8 @@ export async function chatJson({ system, user, maxTokens = 8000, temperature = 0
         // V4 默认开启思考，推理 token 会挤占 JSON 输出，抽取任务不需要
         thinking: { type: 'disabled' },
         messages: [
-          { role: 'system', content: system },
-          { role: 'user', content: user },
+          { role: 'system', content: wellFormed(system) },
+          { role: 'user', content: wellFormed(user) },
         ],
       });
       const choice = resp.choices?.[0];

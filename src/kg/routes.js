@@ -2,7 +2,6 @@
 // 统一返回 {success, data, message}。每个请求用 ?graph=<id>（或请求头 X-KG-Graph）指定图谱，缺省为水浒传。
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { Router } from 'express';
 import * as galaxy from './galaxyQuery.js';
 import * as explore from './exploreQuery.js';
@@ -14,11 +13,13 @@ import * as ask from './ask.js';
 import * as review from './review.js';
 import { createJob, findJob, finishJob, getJob, isRunning, latestJob } from './jobs.js';
 import {
-  CATEGORIES, getGraph, hasGraph, listGraphs, profileOf,
+  CATEGORIES, getGraph, graphDataDir, hasGraph, listGraphs, profileOf, syncTopics,
 } from './domains/index.js';
+import { runState } from '../topic/runner.js';
 import { localeOf, localizeCategories } from './locale.js';
 import { currentGraph, ensureUnitLabels, one, parseJsonField, rows, withGraph } from './neo.js';
 import config from '../config.js';
+import { canManage, requireManage } from './access.js';
 
 const router = Router();
 const DEFAULT_GRAPH = 'shuihu';
@@ -67,13 +68,17 @@ function startJob(kind, builder) {
 }
 
 // ───────────── 图谱目录 ─────────────
-const DATA_ROOT = fileURLToPath(new URL('../../data/', import.meta.url));
 
 /** 后台批处理（src/scripts/kg/run.js）写的进度，首页给“整理中”的卡片显示到哪一步 */
 function buildStatus(id) {
   try {
-    const s = JSON.parse(fs.readFileSync(path.join(DATA_ROOT, id, 'status.json'), 'utf8'));
-    return { state: s.state, step: s.step, extracted: s.extracted, units: s.units, error: s.error, updated_at: s.updated_at };
+    const s = JSON.parse(fs.readFileSync(path.join(graphDataDir(id), 'status.json'), 'utf8'));
+    let { state } = s;
+    // 专题的处理进程可能已经不在了（服务重启、命令行被关掉），以实际在跑的为准
+    if (getGraph(id).topic && (state === 'running' || state === 'queued')) state = runState(id) || 'failed';
+    return {
+      state, step: s.step, extracted: s.extracted, units: s.units, ingest: s.ingest, error: s.error, updated_at: s.updated_at,
+    };
   } catch {
     return null;
   }
@@ -107,6 +112,7 @@ function sendError(res, e) {
 router.get('/knowledge-graph/graphs', async (req, res) => {
   try {
     const locale = localeOf(req);
+    syncTopics();
     const items = await Promise.all(listGraphs().map((graph) => runIn(graph.id, async () => {
       const stats = await graphStats();
       const p = profileOf(graph, locale);
@@ -145,7 +151,7 @@ router.get('/knowledge-graph/graphs/:id', async (req, res) => {
 router.get('/knowledge-graph/videos', (req, res) => {
   try {
     const id = graphIdOf(req);
-    const file = path.join(DATA_ROOT, id, 'videos.json');
+    const file = path.join(graphDataDir(id), 'videos.json');
     const data = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : { source: null, episodes: [] };
     res.json({ success: true, data });
   } catch (e) {
@@ -269,16 +275,8 @@ function spendLlm(req) {
   llmUsage.set(key, recent);
 }
 
-/** 核对会改库：设了 KG_REVIEW_TOKEN 就凭口令；没设只允许本机直连（经反向代理来的请求不算） */
-function canReview(req) {
-  const token = process.env.KG_REVIEW_TOKEN;
-  if (token) return req.get('x-kg-review-token') === token;
-  const addr = req.socket.remoteAddress || '';
-  return !req.get('x-forwarded-for') && ['127.0.0.1', '::1', '::ffff:127.0.0.1'].includes(addr);
-}
-function requireReview(req) {
-  if (!canReview(req)) throw Object.assign(new Error('没有核对权限'), { status: 403, code: 'review_forbidden' });
-}
+const canReview = canManage;
+const requireReview = (req) => requireManage(req, 'review_forbidden');
 
 router.get(`${K}/entities/:id/related`, wrap((req) => explore.relatedEntities(req.params.id, req.query.limit || 8)));
 router.get(`${K}/entities/:id/note`, wrap((req) => notes.getNote(req.params.id, localeOf(req))));

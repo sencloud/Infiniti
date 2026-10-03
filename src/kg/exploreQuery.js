@@ -112,9 +112,9 @@ export async function searchEntities({ keyword = '', type = '', page = 1, page_s
   const size = Math.min(Number(page_size) || 20, 200);
   const skip = (Math.max(Number(page) || 1, 1) - 1) * size;
   const kw = String(keyword || '').trim();
-  const params = { kw, type, skip: int(skip), size: int(size) };
+  const params = { kw, lkw: kw.toLowerCase(), type, skip: int(skip), size: int(size) };
   const where = `($type = '' OR e.entity_type = $type)
-    AND ($kw = '' OR e.canonical_name CONTAINS $kw OR any(a IN coalesce(e.aliases, []) WHERE a CONTAINS $kw)
+    AND ($kw = '' OR toLower(e.canonical_name) CONTAINS $lkw OR any(a IN coalesce(e.aliases, []) WHERE toLower(a) CONTAINS $lkw)
          OR coalesce(e.nickname, '') CONTAINS $kw)`;
   const total = (await one(`MATCH (e:Entity {graph_id: $g}) WHERE ${where} RETURN count(e) AS n`, params))?.n || 0;
   const list = await rows(

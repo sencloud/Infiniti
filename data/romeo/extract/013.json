@@ -1,0 +1,169 @@
+{
+ "no": 13,
+ "title": "A Room in Capulet’s House",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6396,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，朱丽叶的爱人"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家族之女，罗密欧的爱人"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特家族成员，朱丽叶的表兄"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，忠实仆人"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇的家族"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇的家族"
+    },
+    {
+     "name": "Lawrence' cell",
+     "type": "Place",
+     "aliases": [
+      "Friar Lawrence's cell"
+     ],
+     "nickname": "劳伦斯神父的密室",
+     "description": "劳伦斯神父的居所，罗密欧藏身之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "Come, night, come Romeo; come, thou day in night;",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "The cords that Romeo bid thee fetch?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "SPOUSE",
+     "object": "Juliet Capulet",
+     "evidence": "Shall I speak ill of him that is my husband?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "My dearest cousin, and my dearer lord?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "O, here comes my Nurse, And she brings news",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "Tybalt is gone, and Romeo banished, Romeo that kill'd him, he is banished.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.9
+    },
+    {
+     "subject": "House of Capulet",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Montague",
+     "evidence": "Tybalt is gone, and Romeo banished, Romeo that kill'd him, he is banished.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LIVES_AT",
+     "object": "Lawrence' cell",
+     "evidence": "I'll to him, he is hid at Lawrence' cell.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "HELPED",
+     "object": "Juliet Capulet",
+     "evidence": "I'll find Romeo To comfort you.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:58.994Z"
+}

@@ -22,7 +22,20 @@
     "ask_no_material": "图谱里没有找到和这个问题相关的依据，换个说法或点名具体人物试试",
     "answer_expired": "这条回答已过期，请重新提问",
     "llm_rate_limited": "提问太频繁，请稍后再试",
-    "review_forbidden": "没有核对权限"
+    "review_forbidden": "没有核对权限",
+    "manage_forbidden": "没有管理权限：请在服务器本机上操作，或在专题页填写管理口令",
+    "topic_missing": "没有这个专题",
+    "topic_busy": "这个专题正在处理，请先停止",
+    "topic_external": "这个专题是在命令行里处理的，请在那个命令行窗口里按 Ctrl+C 停止",
+    "topic_name": "专题名称 1–40 个字",
+    "topic_id": "专题标识已被占用或格式不对",
+    "topic_file_type": "只收 PDF、Word（doc/docx）和 txt/md 文件",
+    "topic_file_large": "单个文件不能超过 400MB",
+    "topic_file_empty": "文件是空的",
+    "topic_file_missing": "没有这个文件",
+    "topic_local_only": "只有在服务器本机上打开页面，才能从本机文件夹导入",
+    "folder_missing": "文件夹不存在：{{dir}}",
+    "topic_empty": "还没有资料，请先上传"
   },
   "common": {
     "close": "关闭",
@@ -95,7 +108,141 @@
     "stepSeeds": "整理人物表",
     "stepExtract": "抽取事实",
     "stepLoad": "写入图谱",
-    "stepBuild": "构建星图"
+    "stepBuild": "构建星图",
+    "stepIngest": "转写资料",
+    "ingesting": "转写资料 {{done}}/{{total}}",
+    "topics": "专题",
+    "topicManage": "管理",
+    "topicNew": "新建专题",
+    "topicNewDesc": "把标准规范、制度文件或讲义按文件夹整理好放进来，生成一张能回到原文的知识网。",
+    "topicStats": "{{files}} 份文件 · {{entities}} 个条目",
+    "topicProgress": "查看进度",
+    "topicNewGo": "新建或管理专题"
+  },
+  "topic": {
+    "docTitle": "专题 · 无限连接",
+    "detailTitle": "{{name}} · 专题 · 无限连接",
+    "title": "专题",
+    "lead": "把自己的资料按文件夹整理好放进来：系统逐份转写原文（扫描件看图识字），抽出条目和它们之间的关系，生成一张每条关系都能回到原文的知识网。",
+    "home": "返回首页",
+    "list": "全部专题",
+    "new": "新建专题",
+    "empty": "还没有专题。新建一个，把资料放进去。",
+    "loading": "正在载入…",
+    "notFound": "没有找到这个专题",
+    "form": {
+      "name": "专题名称",
+      "namePh": "如 档案标准规范",
+      "desc": "简介",
+      "descPh": "这批资料是什么、想从中弄清什么（可选）",
+      "preset": "资料类型",
+      "create": "创建，然后添加资料",
+      "save": "保存",
+      "cancel": "取消"
+    },
+    "stat": {
+      "files": "份文件",
+      "categories": "个分类",
+      "entities": "个条目",
+      "claims": "条关系",
+      "size": "共 {{size}}"
+    },
+    "state": {
+      "none": "还没开始处理",
+      "queued": "排队中，前面的专题处理完就轮到它",
+      "running": "处理中",
+      "done": "已处理完",
+      "failed": "处理中断了",
+      "stopped": "已停止",
+      "external": "命令行正在处理"
+    },
+    "step": {
+      "crawl": "转写原文",
+      "seeds": "整理文件目录",
+      "extract": "抽取条目和关系",
+      "load": "写入图谱",
+      "build": "生成星图和线索"
+    },
+    "progress": {
+      "ingest": "转写 {{done}} / {{total}} 份",
+      "ocr": "扫描页看图转写 {{done}} / {{total}} 页",
+      "extract": "抽取 {{done}} / {{total}} 份",
+      "current": "正在处理：{{name}}",
+      "finished": "{{time}} 处理完",
+      "updated": "{{time}} 更新"
+    },
+    "action": {
+      "run": "开始处理",
+      "resume": "继续处理",
+      "rerun": "重新整理",
+      "process": "处理新资料",
+      "stop": "停止",
+      "stopHint": "正在抽取的这几份做完就停，已完成的都保留",
+      "galaxy": "看星图",
+      "explore": "看知识网",
+      "manage": "管理",
+      "edit": "编辑",
+      "delete": "删除专题",
+      "deleteConfirm": "删除专题「{{name}}」？导入的文件、转写稿和图谱都会删掉，不能恢复。",
+      "deleteOk": "删除",
+      "deleted": "专题已删除"
+    },
+    "hint": {
+      "fresh": "资料放好后点「开始处理」。文字版 PDF 和 Word 很快；扫描版每页要看图识字，页数多时需要一段时间。",
+      "pending": "有 {{count}} 份资料还没处理",
+      "failedFiles": "{{count}} 份没转写成，点「继续处理」会再试",
+      "interrupted": "上次处理被中断（服务重启或命令行被关掉）。点「继续处理」接着做，已完成的不会重做。",
+      "external": "这个专题正在命令行里处理，这里只显示进度；要停止，请在那个命令行窗口里按 Ctrl+C。",
+      "ready": "知识网已经生成，可以去看了。新加的资料要再处理一次才会进图谱。"
+    },
+    "add": {
+      "title": "添加资料",
+      "drop": "把文件或整个文件夹拖到这里",
+      "dropSub": "支持 PDF、Word（doc/docx）、txt、md。文件夹里的子文件夹就是分类，例如「国家标准 / 基础标准」。",
+      "pickFiles": "选择文件",
+      "pickFolder": "选择文件夹",
+      "local": "从服务器本机的文件夹导入",
+      "localSub": "资料就在这台电脑上时最快：直接读取，不用上传。子文件夹就是分类。",
+      "localPh": "如 D:\\资料\\标准",
+      "localGo": "导入",
+      "localDone": "找到 {{found}} 份：新增 {{added}}，更新 {{replaced}}，重复 {{duplicate}}，没变 {{unchanged}}",
+      "uploading": "上传中 {{done}} / {{total}}",
+      "uploadDone": "上传完成：新增 {{added}}，更新 {{replaced}}，重复 {{duplicate}}，没变 {{unchanged}}",
+      "uploadFailed": "{{count}} 份上传失败",
+      "skipped": "跳过 {{count}} 个不支持的文件",
+      "busy": "专题正在处理，处理完或停止后再添加资料"
+    },
+    "files": {
+      "title": "资料",
+      "count": "{{count}} 份",
+      "none": "还没有资料",
+      "uncategorized": "未分类",
+      "pages": "{{count}} 页",
+      "ocr": "{{count}} 页看图转写",
+      "chars": "{{n}} 字",
+      "open": "看原件",
+      "remove": "移除",
+      "removeConfirm": "从专题里移除「{{name}}」？它的转写稿和抽取结果也会删掉，下次处理后从图谱里消失。",
+      "filter": "筛选文件名或编号",
+      "onlyFailed": "只看失败的",
+      "status": {
+        "pending": "待处理",
+        "converted": "已转写",
+        "extracted": "已抽取",
+        "failed": "没转写成"
+      }
+    },
+    "log": {
+      "title": "处理日志",
+      "empty": "还没有日志"
+    },
+    "access": {
+      "title": "需要管理权限",
+      "desc": "新建专题、上传资料、开始处理只能在服务器本机上操作，或者填写管理口令（服务器 .env 里的 KG_ADMIN_TOKEN）。",
+      "ph": "管理口令",
+      "save": "保存口令",
+      "saved": "口令已保存在这台设备的浏览器里"
+    }
   },
   "graph": {
     "docTitle": "{{name}} · 学习图谱 · 无限连接",
@@ -170,6 +317,7 @@
     "typeLibrary": "{{name}}库",
     "sourceCommons": "维基共享资源",
     "sourceBaike": "百度百科",
+    "sourceGutenberg": "古登堡计划插图本",
     "creditLink": "出处",
     "go": "探索",
     "booting": "正在初始化 3D 引擎…",
@@ -343,6 +491,7 @@
     "prevShort": "上一处",
     "nextShort": "下一处",
     "videoCompare": "影视对照",
+    "illustrations": "原著插图：{{credit}} · 公有领域 · 点图看大图",
     "cctv": "央视版第{{ep}}集 {{title}}",
     "pageHint": "片段位于教材第 {{page}} 页"
   },
@@ -534,6 +683,9 @@
     "m3": "「{{name}}」只在{{unit}}出现，没有前置或后续知识点与之相连",
     "m4": "「{{name}}」在{{from}}学过，直到{{to}}的「{{other}}」才再用到",
     "g1": "不起眼的「{{name}}」直接连到「{{core}}」：{{relation}}",
+    "s1": "「{{name}}」被专题里 {{count}} 份文件引用，专题里却没有这份文件",
+    "s2": "{{name}} 引用的是 {{cited}}，专题里已有新版 {{newer}}",
+    "s3": "「{{name}}」在 {{count}} 份文件里各有定义：{{sources}}",
     "hideRead": "隐藏已读",
     "readCount": "已读 {{count}}",
     "markRead": "标为已读",
@@ -544,7 +696,7 @@
     "cite": "依据 {{n}}",
     "sources": "依据 {{count}} 条",
     "note": {
-      "empty": "还没有解说。后台会按原文依据给人物和主要条目写好，每句话都能点回原文。想现在看，也可以立刻写。",
+      "empty": "还没有解说。后台会按原文依据把各类条目写好，每句话都能点回原文。想现在看，也可以立刻写。",
       "write": "写一篇解说",
       "writing": "正在根据原文依据写解说…",
       "stale": "写完之后，这个条目的依据有变化",

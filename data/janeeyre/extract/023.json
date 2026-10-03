@@ -1,0 +1,441 @@
+{
+ "no": 23,
+ "title": "A splendid Midsummer shone over England: skies so pure,…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7833,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德府的家庭教师，与罗切斯特相爱。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府主人，简·爱的雇主与爱人。"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府的女管家，简·爱的朋友。"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的养女，简·爱的学生。"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "罗切斯特曾追求的美貌女子。"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，简·爱任家庭教师之地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "you, Miss Eyre, must get a new situation.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "you have acquired a degree of regard for that foolish little child Adèle, too",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Mrs. Fairfax",
+     "evidence": "I have an affection for both.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Adèle Varens",
+     "evidence": "I have an affection for both.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "Must I leave Thornfield?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "Thornfield is a pleasant place in summer, is it not?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Blanche Ingram",
+     "evidence": "it was my intention to put my old bachelor's neck into the sacred noose, to enter into the holy estate of matrimony—to take Miss Ingram to my bosom",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Blanche Ingram",
+     "evidence": "my beautiful Blanche",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "Adèle must go to school",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7963,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德府的家庭教师，与罗切斯特相爱"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府的主人，向简·爱求婚"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "美丽高贵的女子，简·爱误以为她是罗切斯特的未婚妻"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，简·爱任家庭教师之地"
+    },
+    {
+     "name": "Ireland",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "爱尔兰",
+     "description": "罗切斯特提议简·爱前往工作的遥远国度"
+    },
+    {
+     "name": "Bitternutt Lodge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "比特纳特庄园",
+     "description": "爱尔兰康诺特的一处宅邸，奥高尔太太的住所"
+    },
+    {
+     "name": "Connaught",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "康诺特",
+     "description": "爱尔兰的一个地区"
+    },
+    {
+     "name": "England",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格兰",
+     "description": "简·爱和罗切斯特的祖国"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "Jane, will you marry me?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "From you, sir.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "because my equal is here, and my likeness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "when a dependent does her duty as well as you have done yours",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I have lived in it a full and delightful life",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "the master at whose side I now walked",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Ireland",
+     "evidence": "It is a long way to Ireland, Janet",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "Ireland",
+     "evidence": "I never go over to Ireland",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "We have been good friends, Jane; have we not?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "SPOUSE",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "In the shape of Miss Ingram; a noble and beautiful woman,—your bride.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 5231,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与罗切斯特相爱并订婚"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，向简·爱求婚"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德庄园管家，目睹罗切斯特亲吻简"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的养女，简·爱的学生"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "罗切斯特曾追求的对象，因传闻其财产少而冷淡"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，简·爱任家庭教师处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "I entreat to accept me as a husband.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SPOUSE",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Then, sir, I will marry you.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "I love as my own flesh.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Dear Edward!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "DECEIVED",
+     "object": "Blanche Ingram",
+     "evidence": "I caused a rumour to reach her that my fortune was not a third of what was supposed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Fairfax",
+     "evidence": "Mrs. Fairfax emerged from her room.",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I could scarcely see my master’s face",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "little Adèle came running in to tell me",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "He hurried me up the walk, through the grounds, and into the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I reached my chamber",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "Mrs. Fairfax emerged from her room.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "little Adèle came running in to tell me",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:14.203Z"
+}

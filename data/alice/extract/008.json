@@ -1,0 +1,296 @@
+{
+ "no": 8,
+ "title": "The Queen’s Croquet-Ground",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8032,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝",
+     "description": "故事主角，误入奇境的小女孩"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "会说话的白兔，王后的侍从"
+    },
+    {
+     "name": "Duchess",
+     "type": "Person",
+     "aliases": [
+      "Her Grace"
+     ],
+     "nickname": "公爵夫人",
+     "description": "被王后判处死刑的公爵夫人"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Queen",
+      "Her Majesty"
+     ],
+     "nickname": "红心王后",
+     "description": "暴虐的红心王后，动辄喊砍头"
+    },
+    {
+     "name": "King of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The King",
+      "His Majesty"
+     ],
+     "nickname": "红心国王",
+     "description": "红心国王，王后的丈夫"
+    },
+    {
+     "name": "Knave of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Knave",
+      "Jack of Hearts"
+     ],
+     "nickname": "红心骑士",
+     "description": "红心骑士，为王后捧王冠"
+    },
+    {
+     "name": "Five of Spades",
+     "type": "Person",
+     "aliases": [
+      "Five"
+     ],
+     "nickname": "黑桃五",
+     "description": "园丁之一，被王后下令砍头"
+    },
+    {
+     "name": "Seven of Spades",
+     "type": "Person",
+     "aliases": [
+      "Seven"
+     ],
+     "nickname": "黑桃七",
+     "description": "园丁之一，被王后下令砍头"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "SPOUSE",
+     "object": "King of Hearts",
+     "evidence": "The King laid his hand upon her arm, and timidly said “Consider, my dear: she is only a child!”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Knave of Hearts",
+     "predicate": "SERVANT_OF",
+     "object": "Queen of Hearts",
+     "evidence": "the Queen said severely “Who is this?” She said it to the Knave of Hearts, who only bowed and smiled in reply.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Knave of Hearts",
+     "predicate": "SERVANT_OF",
+     "object": "King of Hearts",
+     "evidence": "Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion",
+     "confidence": 0.9
+    },
+    {
+     "subject": "White Rabbit",
+     "predicate": "SERVANT_OF",
+     "object": "Queen of Hearts",
+     "evidence": "among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Duchess",
+     "predicate": "QUARRELED",
+     "object": "Queen of Hearts",
+     "evidence": "“She boxed the Queen’s ears—” the Rabbit began.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Duchess",
+     "evidence": "“She’s under sentence of execution.”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Five of Spades",
+     "evidence": "“Off with their heads!” and the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Seven of Spades",
+     "evidence": "“Off with their heads!” and the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "HELPED",
+     "object": "Five of Spades",
+     "evidence": "“You shan’t be beheaded!” said Alice, and she put them into a large flower-pot that stood near.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "HELPED",
+     "object": "Seven of Spades",
+     "evidence": "“You shan’t be beheaded!” said Alice, and she put them into a large flower-pot that stood near.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Queen’s Croquet Game",
+     "evidence": "“Come on, then!” roared the Queen, and Alice joined the procession, wondering very much what would happen next.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Queen’s Croquet Game",
+     "evidence": "“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "King of Hearts",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Queen’s Croquet Game",
+     "evidence": "“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Knave of Hearts",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Queen’s Croquet Game",
+     "evidence": "“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "White Rabbit",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Queen’s Croquet Game",
+     "evidence": "“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen’s Croquet Game",
+     "predicate": "OCCURRED_AT",
+     "object": "Queen’s Croquet-Ground",
+     "evidence": "Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5498,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝",
+     "description": "故事主角，误入奇境的小女孩"
+    },
+    {
+     "name": "Duchess",
+     "type": "Person",
+     "aliases": [
+      "Her Grace"
+     ],
+     "nickname": "公爵夫人",
+     "description": "奇境中的贵族，柴郡猫的主人"
+    },
+    {
+     "name": "Cheshire Cat",
+     "type": "Person",
+     "aliases": [
+      "Cheshire Puss"
+     ],
+     "nickname": "柴郡猫",
+     "description": "会咧嘴笑、能隐现的猫"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Queen",
+      "Her Majesty"
+     ],
+     "nickname": "红心王后",
+     "description": "扑克牌王国的暴君，动辄下令砍头"
+    },
+    {
+     "name": "King of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The King",
+      "His Majesty"
+     ],
+     "nickname": "红心国王",
+     "description": "红心王后的丈夫，扑克牌王国的国王"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Cheshire Cat",
+     "evidence": "It’s a friend of mine—a Cheshire Cat",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Cheshire Cat",
+     "predicate": "SERVANT_OF",
+     "object": "Duchess",
+     "evidence": "It belongs to the Duchess",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Duchess",
+     "evidence": "She’s in prison",
+     "confidence": 0.9
+    },
+    {
+     "subject": "King of Hearts",
+     "predicate": "SPOUSE",
+     "object": "Queen of Hearts",
+     "evidence": "My dear! I wish you would have this cat removed!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Cheshire Cat",
+     "evidence": "Off with his head!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "King of Hearts",
+     "predicate": "HARMED",
+     "object": "Cheshire Cat",
+     "evidence": "Well, it must be removed",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:41.100Z"
+}

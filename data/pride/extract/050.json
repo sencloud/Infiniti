@@ -1,0 +1,628 @@
+{
+ "no": 50,
+ "title": "The spiteful old ladies",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7772,
+   "entities": [
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，伊丽莎白之父"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，五个女儿之母"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家最小的女儿，与韦翰私奔"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，曾与丽迪雅私奔后结婚"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，曾向伊丽莎白求婚被拒"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，伊丽莎白之姐"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家的宅邸"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近城镇，民兵驻扎地"
+    },
+    {
+     "name": "Derbyshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "德比郡",
+     "description": "达西的彭伯里庄园所在郡"
+    },
+    {
+     "name": "Haye Park",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "海耶公园",
+     "description": "班纳特太太考虑的一处住宅"
+    },
+    {
+     "name": "Stoke",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯托克",
+     "description": "班纳特太太考虑的一处大宅"
+    },
+    {
+     "name": "Ashworth",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "阿什沃斯",
+     "description": "班纳特太太嫌太远的住宅"
+    },
+    {
+     "name": "Purvis Lodge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "珀维斯小屋",
+     "description": "班纳特太太嫌阁楼糟糕的住宅"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家族",
+     "description": "班纳特先生与太太及其五个女儿组成的家庭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "When first Mr. Bennet had married, economy was held to be perfectly useless",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Lydia need not have been indebted to her uncle for whatever of honour or credit could now be purchased for her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Mrs. Bennet, for many years after Lydia’s birth, had been certain that he would",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Elizabeth was now most heartily sorry that she had, from the distress of the moment, been led to make Mr. Darcy acquainted with their fears for her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Elizabeth was now most heartily sorry that she had, from the distress of the moment, been led to make Mr. Darcy acquainted with their fears for her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "The marriage of a daughter, which had been the first object of her wishes since Jane was sixteen",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "The marriage of a daughter, which had been the first object of her wishes since Jane was sixteen",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Elizabeth was now most heartily sorry that she had, from the distress of the moment, been led to make Mr. Darcy acquainted with their fears for her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "The marriage of a daughter, which had been the first object of her wishes since Jane was sixteen",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Elizabeth was now most heartily sorry that she had, from the distress of the moment, been led to make Mr. Darcy acquainted with their fears for her sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "SPOUSE",
+     "object": "Lydia Bennet",
+     "evidence": "The satisfaction of prevailing on one of the most worthless young men in Great Britain to be her husband",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "She was convinced that she could have been happy with him, when it was no longer likely they should meet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "the proposals which she had proudly spurned only four months ago would now have been gladly and gratefully received",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "I will not encourage the imprudence of either, by receiving them at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "I will not encourage the imprudence of either, by receiving them at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "I will not encourage the imprudence of either, by receiving them at Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "I will not encourage the imprudence of either, by receiving them at Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "I will not encourage the imprudence of either, by receiving them at Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "MR. BENNET had very often wished, before this period of his life, that, instead of spending his whole income, he had laid by an annual sum, for the better provision of his children, and of his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "MR. BENNET had very often wished, before this period of his life, that, instead of spending his whole income, he had laid by an annual sum, for the better provision of his children, and of his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "MR. BENNET had very often wished, before this period of his life, that, instead of spending his whole income, he had laid by an annual sum, for the better provision of his children, and of his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "MR. BENNET had very often wished, before this period of his life, that, instead of spending his whole income, he had laid by an annual sum, for the better provision of his children, and of his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "MR. BENNET had very often wished, before this period of his life, that, instead of spending his whole income, he had laid by an annual sum, for the better provision of his children, and of his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Derbyshire",
+     "evidence": "The wish of procuring her regard, which she had assured herself of his feeling in Derbyshire",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Derbyshire",
+     "evidence": "The wish of procuring her regard, which she had assured herself of his feeling in Derbyshire",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 4685,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温和"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，轻浮任性"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，冷嘲热讽"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特先生之妻，见识浅薄"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，品行不端"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "班纳特太太之弟，伦敦商人"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "加德纳先生之妻，明理可亲"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团长官"
+    },
+    {
+     "name": "Mrs. Forster",
+     "type": "Person",
+     "aliases": [
+      "Harriet"
+     ],
+     "nickname": "福斯特太太",
+     "description": "福斯特上校之妻，丽迪雅密友"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家宅邸"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Jane and Elizabeth, who agreed in wishing, for the sake of their sister’s feelings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Jane and Elizabeth, who agreed in wishing, for the sake of their sister’s feelings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Jane and Elizabeth, who agreed in wishing, for the sake of their sister’s feelings",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mr. Bennet and his daughters saw all the advantages",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mr. Bennet and his daughters saw all the advantages",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Mr. Bennet and his daughters saw all the advantages",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her mother had the satisfaction of knowing",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her mother had the satisfaction of knowing",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "her mother had the satisfaction of knowing",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "Mr. Bennet and his daughters saw all the advantages",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Mr. Gardiner soon wrote again to his brother",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my niece is very desirous of seeing you all",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my niece is very desirous of seeing you all",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "SPOUSE",
+     "object": "Lydia Bennet",
+     "evidence": "How Wickham and Lydia were to be supported in tolerable independence",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "An union of a different tendency, and precluding the possibility of the other, was soon to be formed in their family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "An union of a different tendency, and precluding the possibility of the other, was soon to be formed in their family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "receive her and her husband at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "receive her and her husband at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "receive her and her husband at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "receive her and her husband at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "receive her and her husband at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "receive her and her husband at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "George Wickham",
+     "evidence": "among his former friends, there are still some who are able and willing to assist him in the army",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Lydia Bennet",
+     "evidence": "among his former friends, there are still some who are able and willing to assist him in the army",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Forster",
+     "predicate": "FRIEND",
+     "object": "Lydia Bennet",
+     "evidence": "She is so fond of Mrs. Forster",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "SERVANT_OF",
+     "object": "George Wickham",
+     "evidence": "I have written to Colonel Forster, to inform him of our present arrangements",
+     "confidence": 0.8
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "SERVANT_OF",
+     "object": "Colonel Forster",
+     "evidence": "I have written to Colonel Forster, to inform him of our present arrangements",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:20:01.305Z"
+}

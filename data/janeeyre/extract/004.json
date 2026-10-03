@@ -1,0 +1,887 @@
+{
+ "no": 4,
+ "title": "From my discourse with Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7052,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "寄居盖茨海德府的孤女，被里德太太一家排斥。"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府女主人，厌恶简·爱。"
+    },
+    {
+     "name": "Mr. Reed",
+     "type": "Person",
+     "aliases": [
+      "Uncle Reed",
+      "Mr. Reed of Gateshead"
+     ],
+     "nickname": "里德先生",
+     "description": "简·爱已故的舅舅，里德太太的丈夫。"
+    },
+    {
+     "name": "Eliza Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Reed",
+      "Eliza"
+     ],
+     "nickname": "伊丽莎",
+     "description": "里德太太的女儿，简·爱的表姐。"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太的女儿，简·爱的表姐。"
+    },
+    {
+     "name": "John Reed",
+     "type": "Person",
+     "aliases": [
+      "John",
+      "Master Reed"
+     ],
+     "nickname": "约翰·里德",
+     "description": "里德太太的儿子，简·爱的表哥，常欺负简·爱。"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府的女仆，对简·爱时好时坏。"
+    },
+    {
+     "name": "Mr. Lloyd",
+     "type": "Person",
+     "aliases": [
+      "Lloyd"
+     ],
+     "nickname": "劳埃德先生",
+     "description": "为简·爱看病的药剂师。"
+    },
+    {
+     "name": "Miss Abbot",
+     "type": "Person",
+     "aliases": [
+      "Abbot"
+     ],
+     "nickname": "阿博特",
+     "description": "盖茨海德府的女仆。"
+    },
+    {
+     "name": "Gateshead Hall",
+     "type": "Place",
+     "aliases": [
+      "Gateshead"
+     ],
+     "nickname": "盖茨海德府",
+     "description": "里德太太的宅邸，简·爱寄居之地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "“What would Uncle Reed say to you, if he were alive?”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mr. Reed",
+     "evidence": "“My Uncle Reed is in heaven, and can see all you do and think; and so can papa and mama:",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Eliza Reed",
+     "evidence": "while my cousins were constantly in the drawing-room.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "while my cousins were constantly in the drawing-room.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "while my cousins were constantly in the drawing-room.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Eliza Reed",
+     "evidence": "she had drawn a more marked line of separation than ever between me and her own children;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "she had drawn a more marked line of separation than ever between me and her own children;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "she had drawn a more marked line of separation than ever between me and her own children;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "“My Uncle Reed is in heaven, and can see all you do and think; and so can papa and mama:",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie supplied the hiatus by a homily of an hour’s length,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "from the above reported conference between Bessie and Abbot,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "she shook me most soundly, she boxed both my ears, and then left me without a word.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "John thrust his tongue in his cheek whenever he saw me, and once attempted chastisement;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "HARMED",
+     "object": "John Reed",
+     "evidence": "I had indeed levelled at that prominent feature as hard a blow as my knuckles could inflict;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "I preferred her to any one else at Gateshead Hall.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "Christmas and the New Year had been celebrated at Gateshead with the usual festive cheer;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "Christmas and the New Year had been celebrated at Gateshead with the usual festive cheer;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "Christmas and the New Year had been celebrated at Gateshead with the usual festive cheer;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "Christmas and the New Year had been celebrated at Gateshead with the usual festive cheer;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "I preferred her to any one else at Gateshead Hall.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 8000,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "寄居盖茨海德府的孤女，被里德太太虐待。"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府女主人，对简冷酷。"
+    },
+    {
+     "name": "Eliza Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Reed",
+      "Eliza"
+     ],
+     "nickname": "伊丽莎",
+     "description": "里德太太的女儿，简的表姐，吝啬爱财。"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太的女儿，简的表姐，爱打扮。"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府的女仆，对简·爱时而严厉时而和善。"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校总管，来盖茨海德府见简·爱。"
+    },
+    {
+     "name": "Mrs. Alice Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Alice Fairfax",
+      "the housekeeper"
+     ],
+     "nickname": "爱丽丝·费尔法克斯",
+     "description": "桑菲尔德府管家，后与简·爱相识。"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德府的女仆。"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德府",
+     "description": "里德太太的宅邸，简·爱童年寄居地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "my cousins had not yet been summoned to their mama",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Eliza Reed",
+     "evidence": "my cousins had not yet been summoned to their mama",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "my cousins had not yet been summoned to their mama",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "my cousins had not yet been summoned to their mama",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "my cousins had not yet been summoned to their mama",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "my cousins had not yet been summoned to their mama",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie was gone down to breakfast",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Bessie Lee",
+     "evidence": "Bessie now frequently employed me as a sort of under-nurserymaid",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "carriages often came to Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "carriages often came to Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "carriages often came to Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "carriages often came to Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "carriages often came to Gateshead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "fear, engendered of unjust punishment",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "she introduced me to the stony stranger with the words: “This is the little girl respecting whom I applied to you.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "VISITED",
+     "object": "Gateshead",
+     "evidence": "I saw the gates thrown open and a carriage roll through",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "PROPOSED_TO",
+     "object": "Mr. Brocklehurst",
+     "evidence": "she introduced me to the stony stranger with the words: “This is the little girl respecting whom I applied to you.”",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7837,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "寄居盖茨海德府的孤女，被里德太太送往劳渥德学校。"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府女主人，视简为负担。"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校总管，以严苛教义管教学生。"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Temple",
+      "Miss Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "劳渥德学校教师，被布洛克赫斯特告知留意简·爱。"
+    },
+    {
+     "name": "Lowood school",
+     "type": "Organization",
+     "aliases": [
+      "Lowood"
+     ],
+     "nickname": "劳渥德学校",
+     "description": "布洛克赫斯特管理的慈善学校，简·爱将被送入。"
+    },
+    {
+     "name": "Brocklehurst Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布洛克赫斯特府",
+     "description": "布洛克赫斯特的宅邸，他将于一两周内返回。"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德府",
+     "description": "里德太太的宅邸，简·爱在此寄居并受责难。"
+    },
+    {
+     "name": "Child's Guide",
+     "type": "Item",
+     "aliases": [
+      "the tract"
+     ],
+     "nickname": "《儿童指南》",
+     "description": "布洛克赫斯特交给简·爱的小册子，内含说谎孩子暴死的故事。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "they all call Mrs. Reed my benefactress",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Go out of the room; return to the nursery",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Mrs. Reed and I were left alone",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "it was her nature to wound me cruelly; never was I happy in her presence",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "DECEIVED",
+     "object": "Mr. Brocklehurst",
+     "evidence": "this little girl has not quite the character and disposition I could wish",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "SERVANT_OF",
+     "object": "Mr. Brocklehurst",
+     "evidence": "I will send her, then, as soon as possible, Mr. Brocklehurst",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood school",
+     "evidence": "should you admit her into Lowood school",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood school",
+     "evidence": "I will speak to Miss Temple and the teachers",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "LIVES_AT",
+     "object": "Brocklehurst Hall",
+     "evidence": "I shall return to Brocklehurst Hall in the course of a week or two",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "OWNS",
+     "object": "Child's Guide",
+     "evidence": "here is a book entitled the ‘Child’s Guide’",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "she shall be placed in that nursery of chosen plants",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Lowood school",
+     "evidence": "I may then depend upon this child being received as a pupil at Lowood",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 8019,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "孤女，寄居盖茨海德，反抗里德太太"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，冷酷严厉"
+    },
+    {
+     "name": "John Reed",
+     "type": "Person",
+     "aliases": [
+      "Master John",
+      "Master Reed"
+     ],
+     "nickname": "约翰·里德",
+     "description": "里德太太之子，曾殴打简·爱"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太之女，简·爱指其说谎"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德的女佣，对简·爱较和善"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校主管，曾听信里德太太"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德",
+     "description": "里德太太的宅邸，简·爱寄居地"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [
+      "Lowood School"
+     ],
+     "nickname": "劳渥德",
+     "description": "简·爱即将前往的学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "I am glad you are no relation of mine: I will never call you aunt again as long as I live.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "I dislike you the worst of anybody in the world except John Reed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "this book about the liar, you may give to your girl, Georgiana",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "your wicked boy struck me—knocked me down for nothing",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "you may give to your girl, Georgiana",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "QUARRELED",
+     "object": "Mrs. Reed",
+     "evidence": "A child cannot quarrel with its elders, as I had done",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "you treated me with miserable cruelty",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "your wicked boy struck me—knocked me down for nothing",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "DECEIVED",
+     "object": "Mr. Brocklehurst",
+     "evidence": "You told Mr. Brocklehurst I had a bad character, a deceitful disposition",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Missis intends you to leave Gateshead in a day or two",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "I believe I am fonder of you than of all the others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Missis intends you to leave Gateshead in a day or two",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Missis intends you to leave Gateshead in a day or two",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Lowood",
+     "evidence": "I’ll let everybody at Lowood know what you are",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 898,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "you little sharp thing",
+      "my little lady"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，即将离开盖茨海德的小女孩"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府的女仆，对简·爱友善"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府的女主人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie stooped; we mutually embraced, and I followed her into the house quite comforted.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Bessie Lee",
+     "evidence": "we mutually embraced, and I followed her into the house quite comforted",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Bessie told me some of her most enchanting stories, and sang me some of her sweetest songs",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:56.222Z"
+}

@@ -1,0 +1,524 @@
+{
+ "no": 36,
+ "title": "The daylight came.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7662,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，离开沼泽居前往桑菲尔德寻找罗切斯特"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简·爱所爱之人"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简·爱的表兄，牧师，曾向简求婚"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "简·爱的表姐，住在沼泽居"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "简·爱的表姐，住在沼泽居"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "原文未提及，仅规范名列表出现"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫"
+    },
+    {
+     "name": "Moor House",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沼泽居",
+     "description": "简·爱在沼泽地的住所"
+    },
+    {
+     "name": "Whitcross",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "惠特克劳斯",
+     "description": "十字路标，简·爱乘车离开和到达的地点"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [
+      "Thornfield"
+     ],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的庄园，简·爱曾在此任家庭教师"
+    },
+    {
+     "name": "The Rochester Arms",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗切斯特纹章旅馆",
+     "description": "路边客栈，位于桑菲尔德附近"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "I left Moor House at three o’clock P.M.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Whitcross",
+     "evidence": "I stood at the foot of the sign-post of Whitcross",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "I was going a journey, and should be absent at least four days.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Diana Rivers",
+     "evidence": "At breakfast I announced to Diana and Mary that I was going a journey",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Mary Rivers",
+     "evidence": "At breakfast I announced to Diana and Mary that I was going a journey",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "In a few more hours I shall succeed you in that track, cousin",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "My heart leapt up: I was already on my master’s very lands.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "I shall expect your clear decision when I return this day fortnight.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "if he is at Thornfield Hall, towards which you hasten",
+     "confidence": 0.9
+    },
+    {
+     "subject": "The Rochester Arms",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "How far is Thornfield Hall from here?",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7751,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master",
+      "Mr. Edward"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，与简·爱相爱"
+    },
+    {
+     "name": "Bertha Mason",
+     "type": "Person",
+     "aliases": [
+      "Bertha",
+      "Mrs. Rochester",
+      "the madwoman",
+      "a lunatic"
+     ],
+     "nickname": "伯莎·梅森",
+     "description": "罗切斯特的疯妻，被关在桑菲尔德"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the house-maid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德的女仆，曾谈论过简·爱"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "the governess"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德的女家庭教师，与罗切斯特相爱"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [
+      "the Hall",
+      "the mansion",
+      "the great mansion"
+     ],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的宅邸，被大火烧毁"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近城镇，消防车由此赶来"
+    },
+    {
+     "name": "Damer de Rochester",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "达默·德·罗切斯特",
+     "description": "罗切斯特家族先人，葬于教堂"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Is Mr. Rochester living at Thornfield Hall now?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bertha Mason",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "there was a lady—a—a lunatic, kept in the house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bertha Mason",
+     "predicate": "SPOUSE",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "This lady, ma'am, turned out to be Mr. Rochester's wife!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "Mr. Edward fell in love with. The servants say they never saw anybody so much in love as he was",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "Well, he would marry her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "There was a young lady, a governess at the Hall",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I've heard Leah, the house-maid, tell of her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bertha Mason",
+     "predicate": "HARMED",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Was it suspected that this lunatic, Mrs. Rochester, had any hand in it?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "KIN",
+     "object": "Damer de Rochester",
+     "evidence": "Is he with Damer de Rochester, sharing the shelter of his narrow marble house?",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 5592,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本书叙述者，曾为桑菲尔德家庭教师"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master",
+      "Mr. Edward"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德主人，火灾中失明致残"
+    },
+    {
+     "name": "Bertha Mason",
+     "type": "Person",
+     "aliases": [
+      "Bertha",
+      "Mrs. Rochester",
+      "the madwoman"
+     ],
+     "nickname": "伯莎·梅森",
+     "description": "罗切斯特的疯妻，放火后跳楼身亡"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Poole",
+      "Grace",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "看护伯莎的仆人，嗜酒误事"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax",
+      "Mrs. Alice Fairfax",
+      "the housekeeper"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德管家，被罗切斯特送走"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle",
+      "Miss Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的养女，被送入学校"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "芬丁庄园的老仆，与妻子照料罗切斯特"
+    },
+    {
+     "name": "Mr. Carter",
+     "type": "Person",
+     "aliases": [
+      "Carter"
+     ],
+     "nickname": "卡特先生",
+     "description": "为罗切斯特截肢的外科医生"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [
+      "the Hall"
+     ],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的宅邸，被大火烧毁"
+    },
+    {
+     "name": "Ferndean",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "芬丁庄园",
+     "description": "罗切斯特现居的荒凉庄园"
+    },
+    {
+     "name": "England",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格兰",
+     "description": "故事发生的国家"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Bertha Mason",
+     "predicate": "SPOUSE",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "They say she had nearly burnt her husband in his bed once",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "SERVANT_OF",
+     "object": "Bertha Mason",
+     "evidence": "She had a woman to take care of her called Mrs. Poole",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bertha Mason",
+     "predicate": "HARMED",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "They say she had nearly burnt her husband in his bed once",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "Miss Adèle, a ward he had, was put to school",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "He sent Mrs. Fairfax, the housekeeper, away to her friends at a distance",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "HELPED",
+     "object": "Mrs. Fairfax",
+     "evidence": "he did it handsomely, for he settled an annuity on her for life",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "he shut himself up like a hermit at the Hall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Ferndean",
+     "evidence": "At Ferndean, a manor-house on a farm he has, about thirty miles off",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Old John and his wife: he would have none else",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Carter",
+     "predicate": "HELPED",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mr. Carter, the surgeon, had to amputate it directly",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "England",
+     "evidence": "he's in England; he can't get out of England",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:45.815Z"
+}

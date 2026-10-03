@@ -1,0 +1,448 @@
+{
+ "no": 1,
+ "title": "There was no possibility of taking a walk that…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7668,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane",
+      "Joan"
+     ],
+     "nickname": "简·爱",
+     "description": "十岁孤女，寄居盖茨海德，受里德一家欺凌"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead",
+      "mama"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德女主人，对简冷漠"
+    },
+    {
+     "name": "Eliza Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Reed",
+      "Eliza",
+      "Lizzy",
+      "Georgy"
+     ],
+     "nickname": "伊丽莎",
+     "description": "里德太太长女，简·爱的表姐"
+    },
+    {
+     "name": "John Reed",
+     "type": "Person",
+     "aliases": [
+      "Master John",
+      "Master Reed",
+      "Jack"
+     ],
+     "nickname": "约翰·里德",
+     "description": "里德太太之子，十四岁，常欺凌简·爱"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana",
+      "Georgy"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太次女，简·爱的表姐"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德保姆，有时给孩子们讲故事"
+    },
+    {
+     "name": "Mr. Miles",
+     "type": "Person",
+     "aliases": [
+      "Miles"
+     ],
+     "nickname": "迈尔斯先生",
+     "description": "约翰·里德学校的校长"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德",
+     "description": "里德家的宅邸，简·爱寄居之地"
+    },
+    {
+     "name": "Bewick's History of British Birds",
+     "type": "Item",
+     "aliases": [
+      "Bewick"
+     ],
+     "nickname": "《英国鸟类史》",
+     "description": "简·爱在早餐室阅读的插图书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "Mrs. Reed, when there was no company, dined early",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Eliza Reed",
+     "evidence": "humbled by the consciousness of my physical inferiority to Eliza, John, and Georgiana Reed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "humbled by the consciousness of my physical inferiority to Eliza, John, and Georgiana Reed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "humbled by the consciousness of my physical inferiority to Eliza, John, and Georgiana Reed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "The said Eliza, John, and Georgiana were now clustered round their mama in the drawing-room",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "The said Eliza, John, and Georgiana were now clustered round their mama in the drawing-room",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "The said Eliza, John, and Georgiana were now clustered round their mama in the drawing-room",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "The said Eliza, John, and Georgiana were now clustered round their mama in the drawing-room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "The said Eliza, John, and Georgiana were now clustered round their mama in the drawing-room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "The said Eliza, John, and Georgiana were now clustered round their mama in the drawing-room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "she got up Mrs. Reed’s lace frills, and crimped her nightcap borders",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "He bullied and punished me; not two or three times in the week, nor once or twice in the day, but continually",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "she never saw him strike or heard him abuse me, though he did both now and then in her very presence",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "she really must exclude me from privileges intended only for contented, happy, little children",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "We had been wandering, indeed, in the leafless shrubbery an hour in the morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Mrs. Reed, when there was no company, dined early",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "OWNS",
+     "object": "Bewick's History of British Birds",
+     "evidence": "I returned to my book—Bewick’s History of British Birds",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Miles",
+     "predicate": "GUARDIAN_OF",
+     "object": "John Reed",
+     "evidence": "Mr. Miles, the master, affirmed that he would do very well if he had fewer cakes and sweetmeats sent him from home",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3126,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "寄居盖茨海德府的孤女，被里德一家虐待"
+    },
+    {
+     "name": "John Reed",
+     "type": "Person",
+     "aliases": [
+      "Master John",
+      "Master Reed"
+     ],
+     "nickname": "约翰·里德",
+     "description": "里德太太之子，粗暴蛮横，常殴打简·爱"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Aunt Reed",
+      "Mrs. Sarah Reed"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府女主人，苛待简·爱"
+    },
+    {
+     "name": "Eliza Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Reed",
+      "Eliza"
+     ],
+     "nickname": "伊丽莎·里德",
+     "description": "里德太太的长女，简·爱的表姐"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜·里德",
+     "description": "里德太太的次女，简·爱的表姐"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜·李",
+     "description": "盖茨海德府的女仆，对简·爱时好时坏"
+    },
+    {
+     "name": "Miss Abbot",
+     "type": "Person",
+     "aliases": [
+      "Abbot"
+     ],
+     "nickname": "阿博特小姐",
+     "description": "盖茨海德府的女仆，常责骂简·爱"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [
+      "Gateshead Hall"
+     ],
+     "nickname": "盖茨海德府",
+     "description": "里德家的宅邸，简·爱童年寄居地"
+    },
+    {
+     "name": "the red-room",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "红房子",
+     "description": "盖茨海德府中一间阴森的房间，简·爱被关禁闭处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "he struck suddenly and strongly",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "the volume was flung, it hit me, and I fell, striking my head against the door and cutting it",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "I felt him grasp my hair and my shoulder",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "QUARRELED",
+     "object": "John Reed",
+     "evidence": "Wicked and cruel boy!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "Take her away to the red-room, and lock her in there.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "your father left you none",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "Aunt Reed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Eliza Reed",
+     "evidence": "Did you hear her, Eliza and Georgiana?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "Did you hear her, Eliza and Georgiana?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "followed by Bessie and her maid Abbot",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "followed by Bessie and her maid Abbot",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "you ought to beg, and not to live here with gentlemen’s children like us",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Mrs. Reed, who was gone upstairs",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "all the house belongs to me, or will do in a few years",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Eliza and Georgiana had run for Mrs. Reed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Eliza and Georgiana had run for Mrs. Reed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "the red-room",
+     "evidence": "Take her away to the red-room, and lock her in there.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:45.039Z"
+}

@@ -1,0 +1,157 @@
+{
+ "no": 8,
+ "title": "Friar Lawrence’s Cell",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4354,
+   "entities": [
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar Lawrence",
+      "Friar",
+      "the Friar",
+      "father"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "方济各会神父，罗密欧的告解神师"
+    },
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo",
+      "good son"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家之子，先恋罗瑟琳，后爱朱丽叶"
+    },
+    {
+     "name": "Rosaline",
+     "type": "Person",
+     "aliases": [
+      "the fair maid"
+     ],
+     "nickname": "罗瑟琳",
+     "description": "罗密欧先前爱慕的女子，现已遭其遗忘"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet",
+      "rich Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族家长，朱丽叶之父"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "the fair daughter of rich Capulet",
+      "her"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，罗密欧新爱之人"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "罗密欧所属家族，与凯普莱特家为世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "朱丽叶所属家族，与蒙太古家为世仇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Rosaline",
+     "evidence": "Is Rosaline, that thou didst love so dear, So soon forsaken?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "Then plainly know my heart's dear love is set On the fair daughter of rich Capulet.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "As mine on hers, so hers is set on mine;",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet Capulet",
+     "evidence": "That thou consent to marry us today.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "the fair daughter of rich Capulet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "the fair daughter of rich Capulet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "To turn your households' rancour to pure love.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "HELPED",
+     "object": "Romeo Montague",
+     "evidence": "In one respect I'll thy assistant be;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "GUARDIAN_OF",
+     "object": "Romeo Montague",
+     "evidence": "Good morrow, father.",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:53.234Z"
+}

@@ -7,7 +7,18 @@
     "url": "https://github.com/sencloud/Infiniti.git"
   },
   "homepage": "https://github.com/sencloud/Infiniti#readme",
-  "keywords": ["learning", "education", "reading", "exam-prep", "knowledge-graph", "llm", "deepseek", "neo4j", "threejs", "chinese-classics"],
+  "keywords": [
+    "learning",
+    "education",
+    "reading",
+    "exam-prep",
+    "knowledge-graph",
+    "llm",
+    "deepseek",
+    "neo4j",
+    "threejs",
+    "chinese-classics"
+  ],
   "type": "module",
   "main": "src/server.js",
   "scripts": {
@@ -20,6 +31,7 @@
     "kg:seeds": "node src/scripts/kg/seeds.js",
     "kg:extract": "node src/scripts/kg/extract.js",
     "kg:extract-compare": "node src/scripts/kg/extract-compare.js",
+    "topic:import": "node src/scripts/topic/import.js",
     "kg:load": "node src/scripts/kg/load.js",
     "kg:build": "node src/scripts/kg/build.js",
     "kg:restore": "node src/scripts/kg/restore.js",
@@ -29,6 +41,7 @@
     "shuihu:media": "node src/scripts/shuihu/media.js",
     "classics:all": "node src/scripts/kg/all.js",
     "kg:covers": "node src/scripts/kg/covers.js",
+    "kg:media": "node src/scripts/kg/media.js",
     "math:all": "node src/scripts/kg/run.js math",
     "math:fetch": "node src/scripts/math/fetch.js",
     "web:dev": "npm --prefix web run dev",
@@ -49,8 +62,10 @@
     "ml-pca": "^4.1.1",
     "neo4j-driver": "^6.2.0",
     "openai": "^7.10.0",
+    "pdfjs-dist": "^4.10.38",
     "playwright-core": "^1.63.0",
     "three": "0.160.1",
-    "umap-js": "^1.4.0"
+    "umap-js": "^1.4.0",
+    "word-extractor": "^1.0.4"
   }
 }

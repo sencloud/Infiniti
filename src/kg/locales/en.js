@@ -1,11 +1,21 @@
 // 英文界面的目录与本体显示名。代码（图谱 id、谓词 code、规则 code）保持不变。
 // 抽取提示词仍用 domains 里的中文，不从这里取。
 
+const FOREIGN_TERMS = {
+  segment: 'passage', segments: 'passages', cluster: 'plot group', community: 'circle',
+  hub: 'central figure', primary: 'character', secondary: 'place', evidence: 'source text',
+};
+const FOREIGN_PROPS_EN = { nickname: 'Chinese name', role: 'Role', description: 'Summary' };
+
 export const EN = {
   categories: {
     literature: {
       name: 'Literature',
       description: 'Read the novels: follow characters, factions, and how the plot fits together.',
+    },
+    foreign: {
+      name: 'World Classics',
+      description: 'Read the English originals: characters keep their names from the text, with Chinese names and notes alongside, and every fact links back to its paragraph.',
     },
     classics: {
       name: 'Classics',
@@ -14,6 +24,10 @@ export const EN = {
     subject: {
       name: 'Subjects',
       description: 'Study a course: see what each idea depends on, what it leads to, and where it is applied. A textbook, notes, or technical docs can be imported the same way.',
+    },
+    topic: {
+      name: 'Topics',
+      description: 'Import your own material — standards, regulations, course notes — and get a sourced network organised by your folders.',
     },
   },
   types: {
@@ -30,8 +44,21 @@ export const EN = {
     Formula: 'Formula',
     Method: 'Method',
     Figure: 'Figure',
+    Standard: 'Document',
+    Term: 'Term',
+    RecordType: 'Record type',
+    Process: 'Work step',
+    Element: 'Metadata element',
+    Technology: 'Format or system',
+    Document: 'Document',
   },
   typeOverrides: {
+    pride: { Organization: 'Family' },
+    janeeyre: { Organization: 'Family' },
+    sherlock: { Organization: 'Group' },
+    gatsby: { Organization: 'Group' },
+    romeo: { Organization: 'House' },
+    alice: { Organization: 'Group' },
     lunyu: { Person: 'Person', Organization: 'State' },
     shiji: { Person: 'Person', Organization: 'State', Event: 'Event' },
     liaozhai: { Person: 'Person' },
@@ -94,6 +121,28 @@ export const EN = {
     PROPERTY_OF: 'Property of',
     APPLIES_TO: 'Applies to',
     CONTRASTS: 'Contrasts',
+    CITES: 'Cites',
+    SUPERSEDES: 'Replaces',
+    DEFINES: 'Defines',
+    SPECIFIES: 'Sets rules for',
+    ISSUED_BY: 'Issued by',
+    RESPONSIBLE_FOR: 'Responsible for',
+    IS_A: 'Is a kind of',
+    PART_OF: 'Part of',
+    PRECEDES: 'Comes before',
+    PRODUCES: 'Produces',
+    USES: 'Uses',
+    HAS_ELEMENT: 'Records',
+    PROPOSED: 'Proposed',
+    AUTHORED: 'Authored',
+    PROPOSED_TO: 'Proposed to',
+    GUARDIAN_OF: 'Guardian of',
+    DECEIVED: 'Deceived',
+    INVESTIGATED: 'Investigated',
+    CLIENT_OF: 'Client of',
+    SUSPECTED: 'Suspected',
+    STOLE: 'Stole',
+    FEUDS_WITH: 'Feuds with',
   },
   predicateOverrides: {
     xiyouji: { DEFEATED: 'Subdued', STATIONED_AT: 'Lurks at', NATIVE_OF: 'Origin', SERVED: 'Serves' },
@@ -105,6 +154,12 @@ export const EN = {
     lunyu: { NATIVE_OF: 'From', SERVED: 'Served in' },
     shiji: { FOUGHT: 'Fought', DEFEATED: 'Defeated', KILLED: 'Executed', FRAMED: 'Slandered', SERVED: 'Served' },
     liaozhai: { SPOUSE: 'Married', NATIVE_OF: 'Native of' },
+    pride: { SERVANT_OF: 'Employed by', KILLED: 'Caused the death of' },
+    janeeyre: { SERVANT_OF: 'Employed by', KILLED: 'Caused the death of' },
+    sherlock: { SERVANT_OF: 'Employed by', KILLED: 'Killed' },
+    gatsby: { SERVANT_OF: 'Employed by', KILLED: 'Caused the death of' },
+    romeo: { SERVANT_OF: 'Servant of', FOUGHT: 'Fought' },
+    alice: { SERVANT_OF: 'Servant of' },
   },
   props: {
     nickname: 'Nickname',
@@ -123,6 +178,9 @@ export const EN = {
     M3: { name: 'Isolated idea', hint: 'Appears once and has no prerequisite or follow-on link' },
     M4: { name: 'Long jump', hint: 'An idea is not used again until much later in the course' },
     G1: { name: 'Unexpected link', hint: 'A minor figure or idea links straight to the core of another group, easy to miss' },
+    S1: { name: 'Missing reference', hint: 'A standard several documents cite, but which is not in the topic' },
+    S2: { name: 'Outdated version', hint: 'An older version is cited although the topic has a newer one' },
+    S3: { name: 'Several definitions', hint: 'The same term is defined in several documents; worth comparing' },
   },
   graphs: {
     shuihu: {
@@ -223,6 +281,60 @@ export const EN = {
       },
       props: { nickname: 'Style name', role: 'Role', description: 'Summary' },
     },
+    pride: {
+      name: 'Pride and Prejudice',
+      book: 'Pride and Prejudice',
+      description: 'The marriages of the five Bennet sisters, and how Elizabeth and Darcy misjudge each other and come round. Kinship, proposals, and prejudice across all 61 chapters, with Hugh Thomson’s illustrations.',
+      source: 'Project Gutenberg',
+      unit: { name: 'chapter', axis: 'Chapters', template: 'Chapter {n}' },
+      terms: FOREIGN_TERMS,
+      props: FOREIGN_PROPS_EN,
+    },
+    janeeyre: {
+      name: 'Jane Eyre',
+      book: 'Jane Eyre',
+      description: 'An orphan grows up through Gateshead, Lowood, and Thornfield. Follow Jane’s ties to the Reeds, Rochester, and the Rivers siblings across all 38 chapters, with F. H. Townsend’s illustrations.',
+      source: 'Project Gutenberg',
+      unit: { name: 'chapter', axis: 'Chapters', template: 'Chapter {n}' },
+      terms: FOREIGN_TERMS,
+      props: FOREIGN_PROPS_EN,
+    },
+    sherlock: {
+      name: 'The Adventures of Sherlock Holmes',
+      book: 'Sherlock Holmes',
+      description: 'Twelve cases of Holmes and Watson. Clients, suspects, and the objects that give them away are linked case by case, with Sidney Paget’s illustrations and the Granada episodes.',
+      source: 'Project Gutenberg',
+      unit: { name: 'story', axis: 'Stories', template: 'Story {n}' },
+      terms: { ...FOREIGN_TERMS, cluster: 'case group', community: 'case circle' },
+      props: FOREIGN_PROPS_EN,
+    },
+    gatsby: {
+      name: 'The Great Gatsby',
+      book: 'The Great Gatsby',
+      description: 'One Long Island summer of Gatsby, Daisy, and Tom, as Nick tells it. Longing, deceit, and the accident, chapter by chapter.',
+      source: 'Project Gutenberg',
+      unit: { name: 'chapter', axis: 'Chapters', template: 'Chapter {n}' },
+      terms: FOREIGN_TERMS,
+      props: FOREIGN_PROPS_EN,
+    },
+    romeo: {
+      name: 'Romeo and Juliet',
+      book: 'Romeo and Juliet',
+      description: 'Two feuding houses of Verona and the lovers caught between them. Kinship, duels, and deaths across 5 acts and 24 scenes, with the 1968 film alongside.',
+      source: 'Project Gutenberg',
+      unit: { name: 'scene', axis: 'Scenes', template: 'Scene {n}' },
+      terms: { ...FOREIGN_TERMS, segments: 'lines' },
+      props: FOREIGN_PROPS_EN,
+    },
+    alice: {
+      name: 'Alice’s Adventures in Wonderland',
+      book: 'Alice in Wonderland',
+      description: 'Alice falls down the rabbit-hole and meets the Cheshire Cat, the Hatter, and the Queen of Hearts. Who appears where, and who meets whom, across 12 chapters, with Arthur Rackham’s illustrations.',
+      source: 'Project Gutenberg',
+      unit: { name: 'chapter', axis: 'Chapters', template: 'Chapter {n}' },
+      terms: FOREIGN_TERMS,
+      props: FOREIGN_PROPS_EN,
+    },
     math: {
       name: 'Junior-high Mathematics',
       book: 'Junior-high Math',
@@ -235,5 +347,15 @@ export const EN = {
       },
       props: { role: 'Kind', description: 'Definition' },
     },
+  },
+  /** 专题共用的英文叫法（专题名和简介是学习者自己写的，不翻） */
+  topic: {
+    source: 'Your files',
+    unit: { name: 'document', axis: 'Documents', template: 'Doc {n}' },
+    terms: {
+      segment: 'passage', segments: 'passages', cluster: 'theme group', community: 'area',
+      hub: 'core entry', primary: 'entry', secondary: 'document', evidence: 'source text',
+    },
+    props: { role: 'Category', description: 'Summary' },
   },
 }

@@ -107,8 +107,30 @@ export function citationOf(graph, { n, fact }) {
 
 const ANGLES = {
   textbook: '「是什么」「从哪里来（前置与推导）」「用在哪里」',
-  default: '「身份与来历」「关键关系」「命运转折」',
+  Person: '「身份与来历」「关键关系」「命运转折」',
+  Spirit: '「身份与来历」「关键关系」「命运转折」',
+  Organization: '「是什么群体」「谁在其中」「和谁联合或对抗」',
+  Place: '「这是哪里」「谁在这里」「这里发生过什么」',
+  Event: '「发生了什么」「谁参与」「结果如何」',
+  Item: '「是什么」「谁持有或使用」「起过什么作用」',
+  Concept: '「是什么」「谁论述过」「和哪些概念相关」',
+  Text: '「是什么典籍」「谁引述过」',
+  Office: '「是什么职位」「谁担任过」',
+  Method: '「怎么用」「用在什么题上」「和哪些知识配合」',
+  Figure: '「是什么图形」「有哪些性质」「和哪些知识相关」',
+  Standard: '「管什么、适用于谁」「核心要求」「和哪些文件相互引用或代替」',
+  Term: '「怎么定义」「出自哪些文件、说法是否一致」「和哪些概念相关或容易混淆」',
+  RecordType: '「包括什么」「适用哪些文件」「整理、著录与保管有什么要求」',
+  Process: '「做什么、谁负责」「有哪些要求」「前后衔接哪些环节」',
+  Element: '「记录什么」「用在哪些门类」「出自哪些文件」',
+  Technology: '「是什么」「哪些文件要求采用」「用在哪些环节」',
+  Document: '「讲什么」「谁写的」「和哪些文献相关」',
 };
+
+function anglesFor(graph, type) {
+  if (graph.kind === 'textbook') return ANGLES.textbook;
+  return ANGLES[type] || ANGLES.Person;
+}
 
 async function writeNote(entityId, locale) {
   const graph = currentGraph();
@@ -121,14 +143,14 @@ async function writeNote(entityId, locale) {
   if (facts.length < 2) throw Object.assign(new Error('这个条目的原文依据太少，暂时写不出解说'), { status: 422, code: 'note_too_few' });
 
   const en = locale === 'en';
-  const angles = graph.kind === 'textbook' ? ANGLES.textbook : ANGLES.default;
+  const angles = anglesFor(graph, entity.type);
   const res = await chatJson({
     system: `你是${graph.prompts.role}，为学习者写《${graph.book}》里「${entity.name}」的条目解说，只输出 JSON。
 ${purposePrompt(graph.id)}
 要求：
 1. 只依据下面编号的原文依据，不补充依据之外的情节、史实或常识。
 2. 每个关键陈述后用 [编号] 标出依据，可以连写如 [2][5]；编号只能来自给出的列表。
-3. summary 用一句话说清 TA 在书里是谁、最重要的一两层关系（≤50字），也要带编号。
+3. summary 用一句话说清这个条目在书里是什么、最重要的一两层关系（≤50字），也要带编号。
 4. sections 写 2~4 段，每段 title ≤8 字、text 80~180 字，可以从${angles}这类角度组织；依据撑不起来的角度就不写。
 5. 语气平实，像给同学讲书，不用「本文」「综上」之类的套话。${en ? '\n6. Write summary and sections in English. Keep personal and place names exactly as given (Chinese characters); do not invent pinyin.' : ''}
 输出 {"summary":"","sections":[{"title":"","text":""}]}`,

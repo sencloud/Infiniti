@@ -1,0 +1,496 @@
+{
+ "no": 25,
+ "title": "The month of courtship had wasted: its very last…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8014,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本书叙述者，即将与罗切斯特结婚"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简·爱的未婚夫"
+    },
+    {
+     "name": "Bertha Mason",
+     "type": "Person",
+     "aliases": [
+      "Bertha",
+      "Mrs. Rochester",
+      "the madwoman"
+     ],
+     "nickname": "伯莎·梅森",
+     "description": "罗切斯特的疯妻，被关在桑菲尔德"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，简·爱在此居住"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "英国首都，简·爱与罗切斯特计划前往"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [
+      "Lowood school"
+     ],
+     "nickname": "劳渥德",
+     "description": "简·爱曾就读的慈善学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SPOUSE",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "The month of courtship had wasted: its very last hours were being numbered.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I shut the closet to conceal the strange, wraith-like apparel it contained; which, at this evening hour—nine o’clock—gave out certainly a most ghostly shimmer through the shadow of my apartment.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I knew on such a gloomy evening Mr. Rochester would like to see a cheerful hearth when he came in",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "to-morrow, at this time, they would be far on their road to London: and so should I",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I placed his arm-chair by the chimney-corner: I wheeled the table near it: I let down the curtain, and had the candles brought in ready for lighting.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 6611,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，桑菲尔德府的家庭教师，与罗切斯特相爱并即将结婚。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府的主人，简·爱的雇主与未婚夫。"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府的女管家，对简·爱友善。"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "罗切斯特的马夫。"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [
+      "Thornfield"
+     ],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的宅邸，简·爱在此担任家庭教师。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I think it a glorious thing to have the hope of living with you, because I love you.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "I could not lay a finger anywhere but I was pricked; and now I seem to have gathered up a stray lamb in my arms.",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "you promised to wake with me the night before my wedding.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I took a low seat at my master’s knee.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Here we are at Thornfield: now let me get down.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "it is the last meal but one you will eat at Thornfield Hall for a long time.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax has said something, perhaps?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "As John took his horse, and he followed me into the hall",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 8023,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与罗切斯特相爱并即将结婚"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简·爱的未婚夫"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德庄园的女管家"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Grace",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "桑菲尔德庄园的仆人，被怀疑是怪女人"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德庄园的女仆"
+    },
+    {
+     "name": "Sophie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "索菲",
+     "description": "桑菲尔德庄园的女仆"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的庄园，简·爱在此居住"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I think it is a glorious thing to have the hope of living with you, Edward, because I love you.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "You say you love me, Janet: yes—I will not forget that; and you cannot deny it.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I am used to the sight of the demon. But, sir, as it grew dark, the wind rose",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "it was not Mrs. Fairfax: it was not—no, I was sure of it, and am still—it was not even that strange woman, Grace Poole.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "it was not even that strange woman, Grace Poole.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "it was not Leah",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sophie",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Sophie, I supposed, had come in.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "I dreamt another dream, sir: that Thornfield Hall was a dreary ruin, the retreat of bats and owls.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "I came into this room, and the sight of the empty chair and fireless hearth chilled me.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 4239,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，罗切斯特的未婚妻"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简·爱的未婚夫"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的受监护人，简·爱的学生"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Grace",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "桑菲尔德府女仆，被怀疑撕毁面纱"
+    },
+    {
+     "name": "Richard Mason",
+     "type": "Person",
+     "aliases": [
+      "Mr. Mason",
+      "Mason",
+      "Richard"
+     ],
+     "nickname": "理查德·梅森",
+     "description": "曾造访桑菲尔德的男子，被格雷斯·普尔伤害"
+    },
+    {
+     "name": "Sophie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "索菲",
+     "description": "阿黛尔的保姆，与阿黛尔同睡育儿室"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "the day is already commenced which is to bind us indissolubly; and when we are once united",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "he hastily flung his arms round me. “Thank God!” he exclaimed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "the dread, but adored, type of my unknown future day",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "Does not Sophie sleep with Adèle in the nursery?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "With little Adèle in my arms, I watched the slumber of childhood",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sophie",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Does not Sophie sleep with Adèle in the nursery?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "HARMED",
+     "object": "Richard Mason",
+     "evidence": "what did she do to me? what to Mason?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "the veil, torn from top to bottom in two halves!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "DECEIVED",
+     "object": "Jane Eyre",
+     "evidence": "I see you would ask why I keep such a woman in my house: when we have been married a year and a day, I will tell you; but not now.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:18.678Z"
+}

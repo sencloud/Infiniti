@@ -1,0 +1,557 @@
+{
+ "no": 8,
+ "title": "I couldn’t sleep all night; a foghorn was groaning…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7767,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "出身贫寒、爱上黛西并靠非法手段致富的痴情男子"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Daisy Fay",
+      "Mrs. Buchanan"
+     ],
+     "nickname": "黛西",
+     "description": "出身富裕、被盖茨比深爱却最终选择汤姆的女子"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，傲慢粗暴，揭穿了盖茨比"
+    },
+    {
+     "name": "Dan Cody",
+     "type": "Person",
+     "aliases": [
+      "Cody",
+      "Mr. Cody"
+     ],
+     "nickname": "丹·科迪",
+     "description": "盖茨比年轻时结识的富豪，带他见识上流社会"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居与朋友"
+    },
+    {
+     "name": "Camp Taylor",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "泰勒营",
+     "description": "盖茨比一战期间服役的军营"
+    },
+    {
+     "name": "Oxford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牛津",
+     "description": "战后盖茨比被派往的英国大学城"
+    },
+    {
+     "name": "Atlantic City",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "大西洋城",
+     "description": "尼克建议盖茨比暂避的海滨城市"
+    },
+    {
+     "name": "Montreal",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "蒙特利尔",
+     "description": "尼克建议盖茨比暂避的加拿大城市"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "He couldn’t possibly leave Daisy until he knew what she was going to do.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LOVES",
+     "object": "Jay Gatsby",
+     "evidence": "she was in love with me too",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Tom Buchanan",
+     "evidence": "Daisy Buchanan",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Nick Carraway",
+     "evidence": "I felt that I had something to tell him, something to warn him about",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "FRIEND",
+     "object": "Dan Cody",
+     "evidence": "he told me the strange story of his youth with Dan Cody",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "DECEIVED",
+     "object": "Daisy Buchanan",
+     "evidence": "he had deliberately given Daisy a sense of security; he let her believe that he was a person from much the same strata as herself",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "MEMBER_OF",
+     "object": "Camp Taylor",
+     "evidence": "at first with other officers from Camp Taylor",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Oxford",
+     "evidence": "some complication or misunderstanding sent him to Oxford instead",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Jay Gatsby",
+     "evidence": "Crossing his lawn, I saw that his front door was still open",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7558,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，深爱黛西，最终悲剧收场"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "盖茨比旧爱，已嫁汤姆，情感纠葛核心"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西丈夫，富有且傲慢，与盖茨比敌对"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，尼克恋人，与黛西家交好"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Myrtle",
+      "Mrs. Wilson"
+     ],
+     "nickname": "梅朵",
+     "description": "汤姆情妇，车祸身亡，悲剧人物"
+    },
+    {
+     "name": "Catherine",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凯瑟琳",
+     "description": "梅朵的妹妹，酗酒，在梅朵死后崩溃"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比邻居，与乔丹交往"
+    },
+    {
+     "name": "Long Island",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "长岛",
+     "description": "纽约附近岛屿，故事主要发生地"
+    },
+    {
+     "name": "Louisville",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "路易斯维尔",
+     "description": "黛西家乡，盖茨比曾追寻之地"
+    },
+    {
+     "name": "Oxford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牛津",
+     "description": "盖茨比曾短暂就读的英国大学"
+    },
+    {
+     "name": "France",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "法国",
+     "description": "盖茨比战后从法国返回"
+    },
+    {
+     "name": "Hempstead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "亨普斯特德",
+     "description": "长岛城镇，乔丹离开黛西家后所在"
+    },
+    {
+     "name": "Southampton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "南安普顿",
+     "description": "长岛富人区，乔丹计划前往"
+    },
+    {
+     "name": "Flushing",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "法拉盛",
+     "description": "纽约皇后区地名，救护车前往地"
+    },
+    {
+     "name": "Detroit",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "底特律",
+     "description": "美国城市，长途电话来源地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "He came back from France when Tom and Daisy were still on their wedding trip",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LOVES",
+     "object": "Daisy Buchanan",
+     "evidence": "loved me more even then, do you see?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LOVES",
+     "object": "Jay Gatsby",
+     "evidence": "loved me more even then, do you see?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Louisville",
+     "evidence": "made a miserable but irresistible journey to Louisville on the last of his army pay",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "Oxford",
+     "evidence": "The letter reached Gatsby while he was still at Oxford",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "VISITED",
+     "object": "France",
+     "evidence": "He came back from France when Tom and Daisy were still on their wedding trip",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jay Gatsby",
+     "evidence": "I didn’t want to leave Gatsby",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "I want to see you, too.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine",
+     "predicate": "KIN",
+     "object": "Myrtle Wilson",
+     "evidence": "They had difficulty in locating the sister, Catherine",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Hempstead",
+     "evidence": "I’m at Hempstead, and I’m going down to Southampton this afternoon",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "VISITED",
+     "object": "Southampton",
+     "evidence": "I’m going down to Southampton this afternoon",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Myrtle Wilson",
+     "predicate": "VISITED",
+     "object": "Flushing",
+     "evidence": "the ambulance had already gone to Flushing",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7691,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵的神秘富豪，痴恋黛西，最终被枪杀。"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wilson",
+      "George"
+     ],
+     "nickname": "乔治·威尔逊",
+     "description": "灰谷修车厂老板，妻子出轨后精神崩溃。"
+    },
+    {
+     "name": "Myrtle Wilson",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Wilson",
+      "Myrtle"
+     ],
+     "nickname": "梅朵·威尔逊",
+     "description": "乔治·威尔逊的妻子，汤姆的情妇，车祸身亡。"
+    },
+    {
+     "name": "Doctor T. J. Eckleburg",
+     "type": "Person",
+     "aliases": [
+      "Doctor Eckleburg",
+      "T. J. Eckleburg"
+     ],
+     "nickname": "埃克尔堡医生",
+     "description": "灰谷广告牌上眼睛的医生形象，被威尔逊视为上帝。"
+    },
+    {
+     "name": "Michaelis",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "米凯利斯",
+     "description": "灰谷的年轻希腊人，经营咖啡馆，安慰威尔逊。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "George Wilson",
+     "predicate": "SPOUSE",
+     "object": "Myrtle Wilson",
+     "evidence": "How long have you been married?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "KILLED",
+     "object": "Jay Gatsby",
+     "evidence": "Then he killed her",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Michaelis",
+     "predicate": "FRIEND",
+     "object": "George Wilson",
+     "evidence": "Michaelis and several other men were with him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "VISITED",
+     "object": "West Egg",
+     "evidence": "By half-past two he was in West Egg",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "where he asked someone the way to Gatsby’s house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "By half-past two he was in West Egg, where he asked someone the way to Gatsby’s house.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 1851,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵神秘富豪，为爱执着，最终死于泳池。"
+    },
+    {
+     "name": "Meyer Wolfsheim",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wolfsheim",
+      "Wolfshiem"
+     ],
+     "nickname": "沃尔夫山姆",
+     "description": "盖茨比的生意伙伴，雇佣司机为其门徒。"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，盖茨比的邻居与朋友。"
+    },
+    {
+     "name": "George Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson"
+     ],
+     "nickname": "威尔逊",
+     "description": "修车厂老板，枪杀盖茨比后自尽。"
+    },
+    {
+     "name": "Gatsby's house",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨比宅邸",
+     "description": "西卵的豪华宅邸，盖茨比遇害处。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Meyer Wolfsheim",
+     "predicate": "SERVANT_OF",
+     "object": "Jay Gatsby",
+     "evidence": "The chauffeur—he was one of Wolfshiem’s protégés—heard the shots",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wilson",
+     "predicate": "KILLED",
+     "object": "Jay Gatsby",
+     "evidence": "the gardener saw Wilson’s body a little way off in the grass, and the holocaust was complete",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's house",
+     "evidence": "I drove from the station directly to Gatsby’s house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Gatsby's house",
+     "evidence": "I drove from the station directly to Gatsby’s house",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:02.341Z"
+}

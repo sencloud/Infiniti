@@ -10,6 +10,7 @@ import i18n from '@/i18n'
 function sourceName(source?: string): string {
   if (source === 'commons') return i18n.t('explore.sourceCommons')
   if (source === 'baike') return i18n.t('explore.sourceBaike')
+  if (source === 'gutenberg') return i18n.t('explore.sourceGutenberg')
   return ''
 }
 

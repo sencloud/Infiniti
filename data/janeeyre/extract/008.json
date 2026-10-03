@@ -1,0 +1,451 @@
+{
+ "no": 8,
+ "title": "Ere the half-hour ended, five o’clock struck; school was…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7969,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "小说主人公，孤女，在洛伍德学校读书"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "简·爱在洛伍德学校的好友，善良虔诚"
+    },
+    {
+     "name": "Miss Temple",
+     "type": "Person",
+     "aliases": [
+      "Temple",
+      "Maria Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "洛伍德学校学监，公正温和，信任简·爱"
+    },
+    {
+     "name": "Miss Miller",
+     "type": "Person",
+     "aliases": [
+      "Miller"
+     ],
+     "nickname": "米勒小姐",
+     "description": "洛伍德学校教师，曾表扬简·爱"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "洛伍德学校总管，当众指责简·爱说谎"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，曾承诺抚养简·爱"
+    },
+    {
+     "name": "Mr. Lloyd",
+     "type": "Person",
+     "aliases": [
+      "Lloyd"
+     ],
+     "nickname": "劳埃德先生",
+     "description": "药剂师，曾为简·爱看病"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "洛伍德学校",
+     "description": "简·爱就读的慈善学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Helen Burns",
+     "evidence": "Helen Burns was near me; the fading fires just showed her coming up the long, vacant room; she brought my coffee and bread.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Miss Temple",
+     "evidence": "I came on purpose to find you, Jane Eyre, said she; I want you in my room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Temple",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "she had promised to teach me drawing, and to let me learn French, if I continued to make similar improvement two months longer",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Miller",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "Miss Miller had praised me warmly",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "Mr. Brocklehurst has weakly and pompously repeated at second-hand from Mrs. Reed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "My uncle is dead, and he left me to her care.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "Mrs. Reed spurned my wild supplication for pardon, and locked me a second time in the dark and haunted chamber.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Lloyd",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I had mentioned Mr. Lloyd as having come to see me after the fit",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "I had meant to be so good, and to do so much at Lowood",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "Helen Burns was near me; the fading fires just showed her coming up the long, vacant room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Temple",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "following the superintendent’s guidance, we had to thread some intricate passages, and mount a staircase before we reached her apartment",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 6902,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，被坦普尔小姐澄清指控的学生"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple",
+      "Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "劳渥德学校教师，善待简·爱与海伦"
+    },
+    {
+     "name": "Helen Burns",
+     "type": "Person",
+     "aliases": [
+      "Helen",
+      "Burns"
+     ],
+     "nickname": "海伦·彭斯",
+     "description": "简·爱在劳渥德的好友，体弱而虔诚"
+    },
+    {
+     "name": "Mr. Lloyd",
+     "type": "Person",
+     "aliases": [
+      "Lloyd"
+     ],
+     "nickname": "劳埃德先生",
+     "description": "曾为简·爱诊治的药剂师，回信证实其陈述"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德学校总管，以严苛著称"
+    },
+    {
+     "name": "Miss Scatcherd",
+     "type": "Person",
+     "aliases": [
+      "Scatcherd"
+     ],
+     "nickname": "斯卡查德小姐",
+     "description": "劳渥德教师，严厉惩罚海伦·彭斯"
+    },
+    {
+     "name": "Mrs. Harden",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "哈登太太",
+     "description": "劳渥德学校管家，与布洛克赫斯特一样严苛"
+    },
+    {
+     "name": "Barbara",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "芭芭拉",
+     "description": "劳渥德学校仆人，为坦普尔小姐送茶点"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [
+      "Lowood School"
+     ],
+     "nickname": "劳渥德",
+     "description": "简·爱与海伦所在的慈善学校"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Maria Temple",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Temple got up, took her hand and examined her pulse",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Miss Scatcherd wrote in conspicuous characters on a piece of pasteboard the word “Slattern,”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Barbara",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "“Barbara,” she said to the servant who answered it, “I have not yet had tea; bring the tray and place cups for these two young ladies.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Harden",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood",
+     "evidence": "Mrs. Harden, be it observed, was the housekeeper: a woman after Mr. Brocklehurst’s own heart, made up of equal parts of whalebone and iron.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "school was",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Burns",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "she proceeded to address Helen Burns.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "Miss Temple got up, took her hand and examined her pulse",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "we heard the voice of Miss Scatcherd",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "She kissed me, and still keeping me at her side",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "FRIEND",
+     "object": "Helen Burns",
+     "evidence": "she proceeded to address Helen Burns.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Helen Burns",
+     "evidence": "I ran to Helen, tore it off, and thrust it into the fire",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "she proceeded to address Helen Burns.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "GUARDIAN_OF",
+     "object": "Helen Burns",
+     "evidence": "she proceeded to address Helen Burns.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "HARMED",
+     "object": "Helen Burns",
+     "evidence": "she had just pulled out Helen Burns’s, and when we entered Helen was greeted with a sharp reprimand",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Scatcherd",
+     "predicate": "HARMED",
+     "object": "Helen Burns",
+     "evidence": "Miss Scatcherd wrote in conspicuous characters on a piece of pasteboard the word “Slattern,” and bound it like a phylactery round Helen’s large, mild, intelligent, and benign-looking forehead.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "if his reply agrees with your statement, you shall be publicly cleared from every imputation; to me, Jane, you are clear now.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "HELPED",
+     "object": "Helen Burns",
+     "evidence": "she got up, unlocked a drawer, and taking from it a parcel wrapped in paper, disclosed presently to our eyes a good-sized seed-cake.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Lloyd",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "it appeared that what he said went to corroborate my account.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Temple",
+     "predicate": "DECEIVED",
+     "object": "Mr. Brocklehurst",
+     "evidence": "“Oh, very well!” returned Miss Temple; “we must make it do, Barbara, I suppose.”",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 1583,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，在洛伍德学校努力学习并进步"
+    },
+    {
+     "name": "Madame Pierrot",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "皮埃罗夫人",
+     "description": "洛伍德学校的法语教师，曾给简·爱看法语故事"
+    },
+    {
+     "name": "Lowood",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "洛伍德",
+     "description": "简·爱就读的慈善学校，生活条件艰苦"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德",
+     "description": "简·爱曾居住的地方，生活奢侈但缺乏关爱"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Madame Pierrot",
+     "evidence": "which Madame Pierrot had that day shown me",
+     "confidence": 0.6
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Lowood",
+     "evidence": "I would not now have exchanged Lowood with all its privations",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Gateshead",
+     "evidence": "I would not now have exchanged Lowood with all its privations for Gateshead and its daily luxuries",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:46.741Z"
+}

@@ -1,0 +1,1328 @@
+{
+ "no": 47,
+ "title": "The first pleasing earnest of their welcome",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7977,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐，对韦翰的真面目早有察觉"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，伦敦商人，为人稳重明理"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅妈，聪慧可亲，常与伊丽莎白谈心"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温厚，总把人往好处想"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，轻浮任性，与韦翰私奔"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，外表迷人却品行败坏，曾欺骗众人"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，出身显赫，为人正直但起初傲慢"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西的妹妹，性情温和谦逊，曾险些被韦翰诱骗"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，为人正直，曾与伊丽莎白在肯特交谈"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团长官，丽迪雅曾随其妻前往布莱顿"
+    },
+    {
+     "name": "Mrs. Forster",
+     "type": "Person",
+     "aliases": [
+      "Harriet"
+     ],
+     "nickname": "福斯特太太",
+     "description": "福斯特上校之妻，丽迪雅的好友，带她同去布莱顿"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家的宅邸，位于赫特福德郡"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西家族的庄园，位于德比郡"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "靠近浪博恩的集镇，民兵曾驻扎于此"
+    },
+    {
+     "name": "Brighton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布莱顿",
+     "description": "海滨城镇，民兵移驻于此，丽迪雅随行"
+    },
+    {
+     "name": "Scotland",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "苏格兰",
+     "description": "当时私奔结婚的常见目的地"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "英国首都，加德纳家所在地"
+    },
+    {
+     "name": "Kent",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "肯特",
+     "description": "伊丽莎白曾到访，遇见达西与费茨威廉上校"
+    },
+    {
+     "name": "Barnet road",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "巴尼特路",
+     "description": "通往伦敦的道路，未发现丽迪雅与韦翰的踪迹"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特先生与太太及五个女儿的家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Gardiner",
+     "evidence": "said her uncle",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Gardiner",
+     "evidence": "said Mrs. Gardiner",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "your eldest sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "a sister's sense of decency",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "a sister's sense of decency",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "his sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Colonel Fitzwilliam",
+     "evidence": "his relation Colonel Fitzwilliam",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Elizabeth Bennet",
+     "evidence": "his lies about the whole Pemberley family are endless",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Georgiana Darcy",
+     "evidence": "From what he said of Miss Darcy, I was thoroughly prepared to see a proud, reserved, disagreeable girl. Yet he knew to the contrary himself.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Lydia Bennet",
+     "evidence": "That she could be in any danger from the deception never entered my head.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "HARMED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "his infamous behaviour to Mr. Darcy",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "QUARRELED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "his infamous behaviour to Mr. Darcy",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LOVES",
+     "object": "George Wickham",
+     "evidence": "Lydia is so lost to everything but love of him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Kent",
+     "evidence": "Till I was in Kent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "reached Longbourn by dinnertime the next day",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "reached Longbourn by dinnertime the next day",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "reached Longbourn by dinnertime the next day",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "When they all removed to Brighton",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Forster",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "When they all removed to Brighton",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "When they all removed to Brighton",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "ours is not a family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "ours is not a family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "ours is not a family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "the whole Pemberley family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "the whole Pemberley family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "reached Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "FRIEND",
+     "object": "Mrs. Forster",
+     "evidence": "Lydia should go with Mrs. Forster",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "SERVANT_OF",
+     "object": "Colonel Forster",
+     "evidence": "his Colonel's family",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7772,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温柔"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三女，好读书说教"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，丽迪雅之姐"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，与韦翰私奔"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，已赴伦敦寻女"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，情绪激动"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，军官"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家财产继承人"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "军官，与丽迪雅私奔"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "班纳特太太的兄弟，商人"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "班纳特太太的弟媳"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团上校，丽迪雅的监护人"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Gracechurch Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格雷斯丘奇街",
+     "description": "加德纳家在伦敦的住所"
+    },
+    {
+     "name": "Brighton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布莱顿",
+     "description": "海滨城镇，民兵团驻地"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [
+      "town"
+     ],
+     "nickname": "伦敦",
+     "description": "英国首都，班纳特先生前往寻女"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Elizabeth, as she affectionately embraced her, whilst tears filled the eyes of both",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "Mary and Kitty, thank Heaven! are quite well.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mary and Kitty, thank Heaven! are quite well.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "she still expected that it would all end well, and that every morning would bring some letter, either from Lydia or her father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Is my father in town?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "And my mother—how is she?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "Mary and Kitty, thank Heaven! are quite well.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mary and Kitty, thank Heaven! are quite well.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "she still expected that it would all end well, and that every morning would bring some letter, either from Lydia or her father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Is my father in town?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "And my mother—how is she?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mary and Kitty, thank Heaven! are quite well.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "she still expected that it would all end well, and that every morning would bring some letter, either from Lydia or her father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Is my father in town?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "And my mother—how is she?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "she still expected that it would all end well, and that every morning would bring some letter, either from Lydia or her father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Is my father in town?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "And my mother—how is she?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Is my father in town?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "And my mother—how is she?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "And my mother—how is she?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Oh, my dear brother,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Though her brother and sister were persuaded",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Gardiner",
+     "evidence": "Mr. and Mrs. Gardiner were engaged with their children",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Lydia Bennet",
+     "evidence": "would assist Mr. Bennet in every endeavour for recovering Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Mr. Bennet",
+     "evidence": "would assist Mr. Bennet in every endeavour for recovering Lydia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "Yes, he went on Tuesday, as I wrote you word.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "he meant to be in London the very next day",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "LIVES_AT",
+     "object": "Gracechurch Street",
+     "evidence": "make him come home with me to Gracechurch Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "It is not quite a week since they left Brighton.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "It is not quite a week since they left Brighton.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the errors of her daughter must be principally owing",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the two elder Miss Bennets were able to be for half an hour by themselves",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the two elder Miss Bennets were able to be for half an hour by themselves",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Mary and Kitty, thank Heaven! are quite well.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Mary and Kitty, thank Heaven! are quite well.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "And now here’s Mr. Bennet gone away",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Mrs. Bennet, to whose apartment they all repaired",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "The Collinses will turn us out, before he is cold in his grave",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "GUARDIAN_OF",
+     "object": "Lydia Bennet",
+     "evidence": "Why did the Forsters ever let her go out of their sight?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "QUARRELED",
+     "object": "George Wickham",
+     "evidence": "invectives against the villainous conduct of Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "HARMED",
+     "object": "Lydia Bennet",
+     "evidence": "the villainous conduct of Wickham",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 6481,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔善良"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三女，好学"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，体弱"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，轻率"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "费茨威廉上校"
+    },
+    {
+     "name": "Lady Lucas",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Lucas"
+     ],
+     "nickname": "卢卡斯太太",
+     "description": "卢卡斯家女主人"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "军官，与丽迪雅私奔"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "班纳特家姨父"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团上校"
+    },
+    {
+     "name": "Mrs. Forster",
+     "type": "Person",
+     "aliases": [
+      "Harriet"
+     ],
+     "nickname": "福斯特太太",
+     "description": "福斯特上校之妻"
+    },
+    {
+     "name": "Mr. Denny",
+     "type": "Person",
+     "aliases": [
+      "Denny"
+     ],
+     "nickname": "丹尼先生",
+     "description": "军官"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家宅邸"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近城镇"
+    },
+    {
+     "name": "Gretna Green",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格雷特纳格林",
+     "description": "苏格兰私奔结婚地"
+    },
+    {
+     "name": "Epsom",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "埃普索姆",
+     "description": "换马地点"
+    },
+    {
+     "name": "Clapham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "克拉珀姆",
+     "description": "伦敦地名"
+    },
+    {
+     "name": "Lydia's letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "丽迪雅的信",
+     "description": "丽迪雅写给福斯特太太的信"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my sister’s happiness",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "Mary and Kitty have been very kind",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mary and Kitty have been very kind",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "My poor father!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my sister’s happiness",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "Mary and Kitty have been very kind",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mary and Kitty have been very kind",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "My poor father!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mary and Kitty have been very kind",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my sister’s happiness",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my sister’s happiness",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "My poor father!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "My aunt Philips",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "My aunt Philips",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "My aunt Philips",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "My aunt Philips",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "My aunt Philips",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "My aunt Philips",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Forster",
+     "evidence": "his wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LOVES",
+     "object": "George Wickham",
+     "evidence": "there is but one man in the world I love, and he is an angel",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "LOVES",
+     "object": "Lydia Bennet",
+     "evidence": "their being in love with each other",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Your affectionate friend, “Lydia Bennet.”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "her sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Mary and Kitty have been very kind",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "Mary and Kitty have been very kind",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "My poor father!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "You need not send them word at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "You need not send them word at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "You need not send them word at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "You need not send them word at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "You need not send them word at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "You need not send them word at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "You need not send them word at Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "he left Meryton greatly in debt",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Gretna Green",
+     "evidence": "I am going to Gretna Green",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "Epsom",
+     "evidence": "to go to Epsom",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "Clapham",
+     "evidence": "make inquiries at Clapham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "OWNS",
+     "object": "Lydia's letter",
+     "evidence": "Lydia’s note",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "OWNS",
+     "object": "Lydia's letter",
+     "evidence": "Jane then took it from her pocket-book",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Lucas",
+     "predicate": "HELPED",
+     "object": "Jane Bennet",
+     "evidence": "Lady Lucas has been very kind: she walked here on Wednesday morning to condole with us, and offered her services",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "HELPED",
+     "object": "Jane Bennet",
+     "evidence": "My aunt Philips came to Longbourn on Tuesday, after my father went away; and was so good as to stay till Thursday with me.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:20:08.134Z"
+}

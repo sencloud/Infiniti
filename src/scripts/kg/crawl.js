@@ -8,6 +8,8 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import fs from 'node:fs';
+import path from 'node:path';
+import { fetchEbook, splitEbook } from './gutenberg.js';
 import { graphArg, graphPaths, isMain, writeJson } from './paths.js';
 
 const DELAY_MS = Number(process.env.CRAWL_DELAY_MS || 600);
@@ -158,6 +160,18 @@ const SOURCES = {
       },
     }));
   },
+  /** 英文原著一页就是全书，整页下载后按书的标题规律拆分 */
+  async gutenberg(ebook, graphId) {
+    const paths = graphPaths(graphId);
+    const html = await fetchEbook(ebook, path.join(paths.DATA_DIR, 'source.html'));
+    const url = `https://www.gutenberg.org/ebooks/${ebook}`;
+    return splitEbook(graphId, html).map((u) => ({
+      no: u.no,
+      title: u.title,
+      url,
+      fetch: async () => ({ paragraphs: u.paragraphs, label: u.label, url }),
+    }));
+  },
 };
 
 const BOOKS = {
@@ -168,6 +182,12 @@ const BOOKS = {
   liaozhai: { source: 'liaozhai', index: 'https://liaozhai.5000yan.com/', expect: 494 },
   lunyu: { source: 'lunyu', index: 'https://lunyu.5000yan.com/', expect: 20 },
   shiji: { source: 'shiji', index: 'https://shiji.5000yan.com/', expect: 130 },
+  pride: { source: 'gutenberg', index: 1342, expect: 61 },
+  alice: { source: 'gutenberg', index: 11, expect: 12 },
+  sherlock: { source: 'gutenberg', index: 1661, expect: 12 },
+  romeo: { source: 'gutenberg', index: 1513, expect: 24 },
+  gatsby: { source: 'gutenberg', index: 64317, expect: 9 },
+  janeeyre: { source: 'gutenberg', index: 1260, expect: 38 },
 };
 
 export function canCrawl(graphId) {
@@ -182,7 +202,7 @@ export async function crawlBook(graphId) {
   if (!book) throw new Error(`${graphId} 没有 5000言 抓取配置`);
   const paths = graphPaths(graphId);
   paths.ensureDirs();
-  const units = await SOURCES[book.source](book.index);
+  const units = await SOURCES[book.source](book.index, graphId);
   if (units.length < book.expect * 0.9) throw new Error(`目录页只解析到 ${units.length} 个单元（预期 ${book.expect}），页面结构可能变了`);
   const todo = units.filter((u) => !fs.existsSync(paths.chapterFile(u.no)));
   console.log(`[crawl:${graphId}] 目录共 ${units.length} 个单元，待抓 ${todo.length}`);
@@ -194,13 +214,14 @@ export async function crawlBook(graphId) {
     writeJson(paths.chapterFile(u.no), {
       no: u.no,
       title,
+      ...(body.label ? { label: body.label } : {}),
       url: body.url || u.url,
       paragraphs: body.paragraphs,
       ...(body.references?.some(Boolean) ? { references: body.references } : {}),
       char_count: text.length,
     });
     console.log(`[crawl:${graphId}] ${u.no}/${units.length} ${title} · ${text.length} 字`);
-    await sleep(DELAY_MS);
+    if (book.source !== 'gutenberg') await sleep(DELAY_MS);
   }
   console.log(`[crawl:${graphId}] 完成`);
   return units.length;

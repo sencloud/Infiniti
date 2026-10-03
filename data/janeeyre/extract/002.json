@@ -1,0 +1,515 @@
+{
+ "no": 2,
+ "title": "I resisted all the way: a new thing for…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6763,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "寄居盖茨海德府的孤女，反抗约翰·里德后被关入红房子。"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府的女仆，对简·爱时而严厉时而温和。"
+    },
+    {
+     "name": "Miss Abbot",
+     "type": "Person",
+     "aliases": [
+      "Abbot"
+     ],
+     "nickname": "阿博特",
+     "description": "盖茨海德府的女仆，对简·爱态度苛刻。"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，盖茨海德府的女主人，视简·爱为负担。"
+    },
+    {
+     "name": "Mr. Reed",
+     "type": "Person",
+     "aliases": [
+      "Uncle Reed",
+      "Mr. Reed of Gateshead"
+     ],
+     "nickname": "里德先生",
+     "description": "简·爱的舅舅，已故九年，死于红房子。"
+    },
+    {
+     "name": "John Reed",
+     "type": "Person",
+     "aliases": [
+      "Master John",
+      "Master Reed"
+     ],
+     "nickname": "约翰·里德",
+     "description": "里德太太的儿子，简·爱的表兄，被简·爱打了。"
+    },
+    {
+     "name": "Gateshead Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德府",
+     "description": "里德家族的宅邸，简·爱寄居之地。"
+    },
+    {
+     "name": "the red-room",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "红房子",
+     "description": "盖茨海德府中一间很少使用的房间，里德先生在此去世。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "she keeps you: if she were to turn you off, you would have to go to the poorhouse.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "she keeps you: if she were to turn you off, you would have to go to the poorhouse.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "a chance influx of visitors at Gateshead Hall rendered it necessary to turn to account all the accommodation it contained",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "a chance influx of visitors at Gateshead Hall rendered it necessary to turn to account all the accommodation it contained",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "a chance influx of visitors at Gateshead Hall rendered it necessary to turn to account all the accommodation it contained",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "a chance influx of visitors at Gateshead Hall rendered it necessary to turn to account all the accommodation it contained",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "you are under obligations to Mrs. Reed: she keeps you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mr. Reed",
+     "evidence": "Mr. Reed had been dead nine years: it was in this chamber he breathed his last",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "to strike a young gentleman, your benefactress’s son! Your young master.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "your benefactress’s son! Your young master.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Reed",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "your benefactress’s son! Your young master.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Mr. Reed",
+     "evidence": "a miniature of her deceased husband",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "HARMED",
+     "object": "John Reed",
+     "evidence": "to strike a young gentleman, your benefactress’s son!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "What we tell you is for your good",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "What we tell you is for your good",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "the red-room",
+     "evidence": "They had got me by this time into the apartment indicated by Mrs. Reed, and had thrust me upon a stool",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Reed",
+     "predicate": "OCCURRED_AT",
+     "object": "the red-room",
+     "evidence": "Mr. Reed had been dead nine years: it was in this chamber he breathed his last",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7912,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "孤女，寄居盖茨海德，被关红房子"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "盖茨海德女主人，简的舅妈，厌恶简"
+    },
+    {
+     "name": "Mr. Reed",
+     "type": "Person",
+     "aliases": [
+      "Uncle Reed",
+      "Mr. Reed of Gateshead"
+     ],
+     "nickname": "里德先生",
+     "description": "简的舅舅，临终托付妻子抚养简"
+    },
+    {
+     "name": "Eliza Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Reed",
+      "Eliza"
+     ],
+     "nickname": "伊丽莎",
+     "description": "里德太太之女，固执自私"
+    },
+    {
+     "name": "John Reed",
+     "type": "Person",
+     "aliases": [
+      "Master John",
+      "Master Reed"
+     ],
+     "nickname": "约翰·里德",
+     "description": "里德太太之子，暴虐，殴打简"
+    },
+    {
+     "name": "Georgiana Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Georgiana",
+      "Georgiana"
+     ],
+     "nickname": "乔治亚娜",
+     "description": "里德太太之女，美貌但脾气坏"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德女仆，对简较温和"
+    },
+    {
+     "name": "Miss Abbot",
+     "type": "Person",
+     "aliases": [
+      "Abbot"
+     ],
+     "nickname": "阿博特",
+     "description": "盖茨海德女仆，对简严厉"
+    },
+    {
+     "name": "Gateshead Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德府",
+     "description": "里德家宅邸，简寄居之地"
+    },
+    {
+     "name": "Gateshead Church",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德教堂",
+     "description": "教堂，里德先生葬于其墓穴"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mr. Reed",
+     "evidence": "he was my own uncle—my mother’s brother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "I had nothing in harmony with Mrs. Reed or her children",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "KIN",
+     "object": "Mr. Reed",
+     "evidence": "her husband’s death",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "her children would have entertained for me more of the cordiality of fellow-feeling",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "he called his mother “old girl,” too",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "KIN",
+     "object": "Mrs. Reed",
+     "evidence": "her children would have entertained for me more of the cordiality of fellow-feeling",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "All John Reed’s violent tyrannies, all his sisters’ proud indifference",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Reed",
+     "predicate": "KIN",
+     "object": "John Reed",
+     "evidence": "All John Reed’s violent tyrannies, all his sisters’ proud indifference",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eliza Reed",
+     "predicate": "KIN",
+     "object": "Georgiana Reed",
+     "evidence": "Eliza, who was headstrong and selfish, was respected. Georgiana, who had a spoiled temper",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "he had taken me when a parentless infant to his house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "she would rear and maintain me as one of her own children",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "no one had reproved John for wantonly striking me",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "you will now stay here an hour longer",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Abbot and Bessie, I believe I gave orders that Jane Eyre should be left in the red-room",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Abbot and Bessie, I believe I gave orders that Jane Eyre should be left in the red-room",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "I was a discord in Gateshead Hall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Hall",
+     "evidence": "Mrs. Reed came along the corridor",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead Church",
+     "evidence": "In such vault I had been told did Mr. Reed lie buried",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 615,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "被里德太太关进红房子的孤女"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Aunt Reed",
+      "Mrs. Sarah Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，冷酷地关押并责罚她"
+    },
+    {
+     "name": "Bessie Lee",
+     "type": "Person",
+     "aliases": [
+      "Bessie",
+      "Miss Lee"
+     ],
+     "nickname": "贝茜",
+     "description": "盖茨海德府的女仆，与阿博特一同退下"
+    },
+    {
+     "name": "Miss Abbot",
+     "type": "Person",
+     "aliases": [
+      "Abbot"
+     ],
+     "nickname": "阿博特",
+     "description": "盖茨海德府的女仆，与贝茜一同退下"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "HARMED",
+     "object": "Jane Eyre",
+     "evidence": "abruptly thrust me back and locked me in, without farther parley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "O aunt! have pity! Forgive me!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bessie Lee",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie and Abbot having retreated",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Abbot",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Reed",
+     "evidence": "Bessie and Abbot having retreated",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:47.764Z"
+}

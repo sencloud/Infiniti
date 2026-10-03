@@ -22,7 +22,20 @@
     "ask_no_material": "Nothing in the graph matches this question. Try rewording it or naming a specific person",
     "answer_expired": "This answer has expired. Please ask again",
     "llm_rate_limited": "Too many requests. Please try again later",
-    "review_forbidden": "You do not have permission to review facts"
+    "review_forbidden": "You do not have permission to review facts",
+    "manage_forbidden": "You do not have permission to manage topics. Use the server machine, or enter the admin token on the topic page",
+    "topic_missing": "This topic could not be found",
+    "topic_busy": "This topic is being processed. Stop it first",
+    "topic_external": "This topic is being processed from the command line. Press Ctrl+C in that terminal to stop it",
+    "topic_name": "Topic names are 1–40 characters",
+    "topic_id": "That topic id is taken or invalid",
+    "topic_file_type": "Only PDF, Word (doc/docx), txt and md files are accepted",
+    "topic_file_large": "Each file must be under 400 MB",
+    "topic_file_empty": "The file is empty",
+    "topic_file_missing": "File not found",
+    "topic_local_only": "Importing a local folder only works when the page is opened on the server machine",
+    "folder_missing": "Folder not found: {{dir}}",
+    "topic_empty": "There are no files yet. Upload some first"
   },
   "common": {
     "close": "Close",
@@ -95,7 +108,141 @@
     "stepSeeds": "Listing people",
     "stepExtract": "Extracting facts",
     "stepLoad": "Writing the graph",
-    "stepBuild": "Building the galaxy"
+    "stepBuild": "Building the galaxy",
+    "stepIngest": "Transcribing files",
+    "ingesting": "Transcribing {{done}}/{{total}}",
+    "topics": "Topics",
+    "topicManage": "Manage",
+    "topicNew": "New topic",
+    "topicNewDesc": "Put standards, regulations or course notes in folders and bring them in. You get a network that leads back to the source text.",
+    "topicStats": "{{files}} files · {{entities}} entries",
+    "topicProgress": "See progress",
+    "topicNewGo": "Create or manage topics"
+  },
+  "topic": {
+    "docTitle": "Topics · Infiniti",
+    "detailTitle": "{{name}} · Topics · Infiniti",
+    "title": "Topics",
+    "lead": "Bring your own material, organised in folders. Each file is transcribed (scans are read page by page), entries and their relations are extracted, and every relation in the resulting network leads back to the source.",
+    "home": "Back to home",
+    "list": "All topics",
+    "new": "New topic",
+    "empty": "No topics yet. Create one and add your files.",
+    "loading": "Loading…",
+    "notFound": "This topic could not be found",
+    "form": {
+      "name": "Topic name",
+      "namePh": "e.g. Archival standards",
+      "desc": "Description",
+      "descPh": "What these files are and what you want to understand (optional)",
+      "preset": "Material type",
+      "create": "Create, then add files",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "stat": {
+      "files": "files",
+      "categories": "categories",
+      "entities": "entries",
+      "claims": "relations",
+      "size": "{{size}} in total"
+    },
+    "state": {
+      "none": "Not processed yet",
+      "queued": "Queued. It starts when the topic ahead of it finishes",
+      "running": "Processing",
+      "done": "Processed",
+      "failed": "Processing stopped unexpectedly",
+      "stopped": "Stopped",
+      "external": "Processing from the command line"
+    },
+    "step": {
+      "crawl": "Transcribe",
+      "seeds": "List documents",
+      "extract": "Extract entries and relations",
+      "load": "Write the graph",
+      "build": "Build galaxy and clues"
+    },
+    "progress": {
+      "ingest": "Transcribed {{done}} / {{total}} files",
+      "ocr": "Scanned pages read {{done}} / {{total}}",
+      "extract": "Extracted {{done}} / {{total}} files",
+      "current": "Now: {{name}}",
+      "finished": "Finished {{time}}",
+      "updated": "Updated {{time}}"
+    },
+    "action": {
+      "run": "Start processing",
+      "resume": "Continue",
+      "rerun": "Rebuild",
+      "process": "Process new files",
+      "stop": "Stop",
+      "stopHint": "Files being extracted now are finished first; completed work is kept",
+      "galaxy": "Galaxy",
+      "explore": "Network",
+      "manage": "Manage",
+      "edit": "Edit",
+      "delete": "Delete topic",
+      "deleteConfirm": "Delete “{{name}}”? Its files, transcripts and graph are removed for good.",
+      "deleteOk": "Delete",
+      "deleted": "Topic deleted"
+    },
+    "hint": {
+      "fresh": "When the files are in, press Start processing. Text PDFs and Word files are quick; scanned pages are read one by one and take longer.",
+      "pending": "{{count}} files have not been processed yet",
+      "failedFiles": "{{count}} files could not be transcribed. Continue will retry them",
+      "interrupted": "The last run was interrupted (server restart or the terminal was closed). Continue picks up where it stopped; finished work is not redone.",
+      "external": "This topic is being processed from the command line; this page only shows progress. Press Ctrl+C in that terminal to stop it.",
+      "ready": "The network is ready. Files added later go into the graph after another run."
+    },
+    "add": {
+      "title": "Add files",
+      "drop": "Drop files or a whole folder here",
+      "dropSub": "PDF, Word (doc/docx), txt and md. Sub-folders become categories, such as “National / Basic”.",
+      "pickFiles": "Choose files",
+      "pickFolder": "Choose a folder",
+      "local": "Import a folder on the server",
+      "localSub": "Fastest when the files are on this machine: they are read in place, not uploaded. Sub-folders become categories.",
+      "localPh": "e.g. D:\\Docs\\Standards",
+      "localGo": "Import",
+      "localDone": "Found {{found}}: {{added}} new, {{replaced}} updated, {{duplicate}} duplicates, {{unchanged}} unchanged",
+      "uploading": "Uploading {{done}} / {{total}}",
+      "uploadDone": "Uploaded: {{added}} new, {{replaced}} updated, {{duplicate}} duplicates, {{unchanged}} unchanged",
+      "uploadFailed": "{{count}} uploads failed",
+      "skipped": "Skipped {{count}} unsupported files",
+      "busy": "The topic is being processed. Add files after it finishes or is stopped"
+    },
+    "files": {
+      "title": "Files",
+      "count": "{{count}} files",
+      "none": "No files yet",
+      "uncategorized": "Uncategorised",
+      "pages": "{{count}} pages",
+      "ocr": "{{count}} scanned",
+      "chars": "{{n}} chars",
+      "open": "Open original",
+      "remove": "Remove",
+      "removeConfirm": "Remove “{{name}}” from the topic? Its transcript and extraction are deleted too, and it leaves the graph after the next run.",
+      "filter": "Filter by name or code",
+      "onlyFailed": "Failed only",
+      "status": {
+        "pending": "Pending",
+        "converted": "Transcribed",
+        "extracted": "Extracted",
+        "failed": "Failed"
+      }
+    },
+    "log": {
+      "title": "Processing log",
+      "empty": "No log yet"
+    },
+    "access": {
+      "title": "Admin access needed",
+      "desc": "Creating topics, uploading and processing only work on the server machine, or with the admin token (KG_ADMIN_TOKEN in the server’s .env).",
+      "ph": "Admin token",
+      "save": "Save token",
+      "saved": "The token is saved in this browser"
+    }
   },
   "graph": {
     "docTitle": "{{name}} · Graph · Infiniti",
@@ -170,6 +317,7 @@
     "typeLibrary": "{{name}} library",
     "sourceCommons": "Wikimedia Commons",
     "sourceBaike": "Baidu Baike",
+    "sourceGutenberg": "Project Gutenberg illustrated edition",
     "creditLink": "Source",
     "go": "Explore",
     "booting": "Starting the 3D engine…",
@@ -343,6 +491,7 @@
     "prevShort": "Previous",
     "nextShort": "Next",
     "videoCompare": "Screen version",
+    "illustrations": "Illustrations: {{credit}} · public domain · click to enlarge",
     "cctv": "CCTV ep. {{ep}} {{title}}",
     "pageHint": "This passage is on textbook page {{page}}"
   },
@@ -534,6 +683,9 @@
     "m3": "“{{name}}” appears only in {{unit}}, with no prerequisite or follow-on link",
     "m4": "“{{name}}” is taught in {{from}} and not used again until “{{other}}” in {{to}}",
     "g1": "Minor figure {{name}} links straight to {{core}}: {{relation}}",
+    "s1": "“{{name}}” is cited by {{count}} documents in the topic, but is not in the topic itself",
+    "s2": "{{name}} cites {{cited}}, while the topic already has the newer {{newer}}",
+    "s3": "“{{name}}” is defined in {{count}} documents: {{sources}}",
     "hideRead": "Hide read",
     "readCount": "{{count}} read",
     "markRead": "Mark as read",
@@ -544,7 +696,7 @@
     "cite": "Source {{n}}",
     "sources": "{{count}} sources",
     "note": {
-      "empty": "No explainer yet. People and other main entries are written in the background from the cited passages. You can also write this one now.",
+      "empty": "No explainer yet. Entries of every kind are written in the background from the cited passages. You can also write this one now.",
       "write": "Write an explainer",
       "writing": "Writing from the cited passages…",
       "stale": "The evidence for this entry has changed since this was written",

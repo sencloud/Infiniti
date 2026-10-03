@@ -1,0 +1,1241 @@
+{
+ "no": 7,
+ "title": "The Adventure of the Blue Carbuncle",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7859,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在伦敦贝克街221B。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的朋友与助手，叙述者。"
+    },
+    {
+     "name": "Peterson",
+     "type": "Person",
+     "aliases": [
+      "the commissionaire"
+     ],
+     "nickname": "彼得森",
+     "description": "commissionaire，诚实，发现帽子和鹅。"
+    },
+    {
+     "name": "Mrs. Henry Baker",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "亨利·贝克太太",
+     "description": "卡片上提到的名字，可能是失主妻子。"
+    },
+    {
+     "name": "Henry Baker",
+     "type": "Person",
+     "aliases": [
+      "H. B."
+     ],
+     "nickname": "亨利·贝克",
+     "description": "帽子的主人，身份未知。"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "The Woman",
+      "Miss Adler",
+      "Adler"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "福尔摩斯曾试图取回其照片的女子。"
+    },
+    {
+     "name": "Mary Sutherland",
+     "type": "Person",
+     "aliases": [
+      "Miss Sutherland",
+      "Mary"
+     ],
+     "nickname": "玛丽·萨瑟兰",
+     "description": "福尔摩斯处理过其案件的女士。"
+    },
+    {
+     "name": "Tottenham Court Road",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "托特纳姆法院路",
+     "description": "伦敦街道，事件发生地。"
+    },
+    {
+     "name": "Goodge Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "古奇街",
+     "description": "伦敦街道，靠近托特纳姆法院路。"
+    },
+    {
+     "name": "Christmas morning",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "圣诞节早晨",
+     "description": "彼得森发现帽子和鹅的时间。"
+    },
+    {
+     "name": "blue carbuncle case",
+     "type": "Event",
+     "aliases": [
+      "The Adventure of the Blue Carbuncle"
+     ],
+     "nickname": "蓝宝石案",
+     "description": "福尔摩斯调查的关于蓝宝石的案件。"
+    },
+    {
+     "name": "hat",
+     "type": "Item",
+     "aliases": [
+      "hard-felt hat",
+      "battered hat",
+      "old hat"
+     ],
+     "nickname": "帽子",
+     "description": "破旧的黑帽子，属于亨利·贝克。"
+    },
+    {
+     "name": "goose",
+     "type": "Item",
+     "aliases": [
+      "Christmas goose",
+      "white goose"
+     ],
+     "nickname": "鹅",
+     "description": "圣诞鹅，与帽子一起被发现。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "I had called upon my friend Sherlock Holmes",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "You know Peterson, the commissionaire?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "OWNS",
+     "object": "hat",
+     "evidence": "It is to him that this trophy belongs.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "OWNS",
+     "object": "goose",
+     "evidence": "The goose we retained until this morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Baker",
+     "predicate": "OWNS",
+     "object": "hat",
+     "evidence": "the initials ‘H. B.’ are legible upon the lining of this hat",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Baker",
+     "predicate": "OWNS",
+     "object": "goose",
+     "evidence": "‘For Mrs. Henry Baker’ was printed upon a small card which was tied to the bird’s left leg",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "blue carbuncle case",
+     "evidence": "this small matter will fall into the same innocent category",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Irene Adler",
+     "evidence": "my attempt to recover the Irene Adler papers",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Mary Sutherland",
+     "evidence": "the singular case of Miss Mary Sutherland",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "VISITED",
+     "object": "Tottenham Court Road",
+     "evidence": "was making his way homeward down Tottenham Court Road",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "VISITED",
+     "object": "Goodge Street",
+     "evidence": "As he reached the corner of Goodge Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Christmas morning",
+     "evidence": "about four o’clock on Christmas morning, Peterson, who, as you know, is a very honest fellow, was returning from some small jollification",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Christmas morning",
+     "predicate": "OCCURRED_AT",
+     "object": "Tottenham Court Road",
+     "evidence": "about four o’clock on Christmas morning, Peterson, who, as you know, is a very honest fellow, was returning from some small jollification and was making his way homeward down Tottenham Court Road",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7972,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，通过帽子推理出亨利·贝克的特征"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴与记录者，参与讨论"
+    },
+    {
+     "name": "Peterson",
+     "type": "Person",
+     "aliases": [
+      "the commissionaire"
+     ],
+     "nickname": "彼得森",
+     "description": "commissionaire，发现鹅嗉囊中的蓝宝石"
+    },
+    {
+     "name": "Henry Baker",
+     "type": "Person",
+     "aliases": [
+      "Mr. Henry Baker"
+     ],
+     "nickname": "亨利·贝克",
+     "description": "帽子的主人，鹅的失主，尚未出场"
+    },
+    {
+     "name": "Countess of Morcar",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "莫卡伯爵夫人",
+     "description": "蓝宝石的主人，宝石被盗"
+    },
+    {
+     "name": "John Horner",
+     "type": "Person",
+     "aliases": [
+      "Horner"
+     ],
+     "nickname": "约翰·霍纳",
+     "description": "被指控盗窃蓝宝石的管道工"
+    },
+    {
+     "name": "James Ryder",
+     "type": "Person",
+     "aliases": [
+      "Ryder"
+     ],
+     "nickname": "詹姆斯·赖德",
+     "description": "旅馆侍者，作证指控霍纳"
+    },
+    {
+     "name": "Catherine Cusack",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "凯瑟琳·库萨克",
+     "description": "伯爵夫人的女仆，提供证词"
+    },
+    {
+     "name": "Inspector Bradstreet",
+     "type": "Person",
+     "aliases": [
+      "Bradstreet"
+     ],
+     "nickname": "布雷德斯特里特探长",
+     "description": "B区探长，逮捕霍纳"
+    },
+    {
+     "name": "Hotel Cosmopolitan",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "大都会旅馆",
+     "description": "蓝宝石被盗的地点"
+    },
+    {
+     "name": "Blue Carbuncle",
+     "type": "Item",
+     "aliases": [
+      "blue stone",
+      "blue carbuncle"
+     ],
+     "nickname": "蓝宝石",
+     "description": "珍贵的蓝宝石，被盗后出现在鹅嗉囊中"
+    },
+    {
+     "name": "goose",
+     "type": "Item",
+     "aliases": [
+      "the goose"
+     ],
+     "nickname": "鹅",
+     "description": "亨利·贝克丢失的鹅，体内发现蓝宝石"
+    },
+    {
+     "name": "hat",
+     "type": "Item",
+     "aliases": [
+      "black felt hat"
+     ],
+     "nickname": "帽子",
+     "description": "亨利·贝克的旧帽子，用于推理"
+    },
+    {
+     "name": "Hotel Cosmopolitan Jewel Robbery",
+     "type": "Event",
+     "aliases": [
+      "the robbery"
+     ],
+     "nickname": "大都会旅馆珠宝盗窃案",
+     "description": "蓝宝石被盗事件，霍纳被指控"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Hotel Cosmopolitan Jewel Robbery",
+     "evidence": "The question for us now to solve is the sequence of events leading from a rifled jewel-case at one end to the crop of a goose in Tottenham Court Road at the other.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "OWNS",
+     "object": "goose",
+     "evidence": "See here, sir! See what my wife found in its crop!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "OWNS",
+     "object": "Blue Carbuncle",
+     "evidence": "He held out his hand and displayed upon the centre of the palm a brilliantly scintillating blue stone",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Baker",
+     "predicate": "OWNS",
+     "object": "hat",
+     "evidence": "This hat is three years old.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Baker",
+     "predicate": "OWNS",
+     "object": "goose",
+     "evidence": "the goose came from Mr. Henry Baker, the gentleman with the bad hat",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Countess of Morcar",
+     "predicate": "OWNS",
+     "object": "Blue Carbuncle",
+     "evidence": "Not the Countess of Morcar's blue carbuncle!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Horner",
+     "predicate": "SUSPECTED",
+     "object": "Blue Carbuncle",
+     "evidence": "John Horner, a plumber, was accused of having abstracted it from the lady's jewel-case.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "SUSPECTED",
+     "object": "John Horner",
+     "evidence": "James Ryder, upper-attendant at the hotel, gave his evidence to the effect that he had shown Horner up to the dressing-room of the Countess of Morcar",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Hotel Cosmopolitan Jewel Robbery",
+     "predicate": "OCCURRED_AT",
+     "object": "Hotel Cosmopolitan",
+     "evidence": "It was lost, if I remember aright, at the Hotel Cosmopolitan",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Cusack",
+     "predicate": "SERVANT_OF",
+     "object": "Countess of Morcar",
+     "evidence": "Catherine Cusack, maid to the Countess",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "SERVANT_OF",
+     "object": "Hotel Cosmopolitan",
+     "evidence": "James Ryder, upper-attendant at the hotel",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Horner",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Hotel Cosmopolitan Jewel Robbery",
+     "evidence": "John Horner, a plumber, was accused of having abstracted it from the lady's jewel-case.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Hotel Cosmopolitan Jewel Robbery",
+     "evidence": "James Ryder, upper-attendant at the hotel, gave his evidence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Cusack",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Hotel Cosmopolitan Jewel Robbery",
+     "evidence": "Catherine Cusack, maid to the Countess, deposed to having heard Ryder's cry of dismay on discovering the robbery",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Inspector Bradstreet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Hotel Cosmopolitan Jewel Robbery",
+     "evidence": "Inspector Bradstreet, B division, gave evidence as to the arrest of Horner",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 8040,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查蓝宝石案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴，叙述者"
+    },
+    {
+     "name": "Mrs. Hudson",
+     "type": "Person",
+     "aliases": [
+      "Hudson"
+     ],
+     "nickname": "哈德森太太",
+     "description": "福尔摩斯的房东"
+    },
+    {
+     "name": "Count Sylvius",
+     "type": "Person",
+     "aliases": [
+      "Count Negretto Sylvius",
+      "the Count"
+     ],
+     "nickname": "西尔维厄斯伯爵",
+     "description": "涉及蓝宝石案的人物"
+    },
+    {
+     "name": "Peterson",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "彼得森",
+     "description": "commissionaire，帮助福尔摩斯"
+    },
+    {
+     "name": "Henry Baker",
+     "type": "Person",
+     "aliases": [
+      "Mr. Baker"
+     ],
+     "nickname": "亨利·贝克",
+     "description": "丢失鹅的人，无辜"
+    },
+    {
+     "name": "Horner",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "霍纳",
+     "description": "被怀疑偷窃蓝宝石的人"
+    },
+    {
+     "name": "Windigate",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "温迪盖特",
+     "description": "Alpha Inn的房东"
+    },
+    {
+     "name": "Breckinridge",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布雷肯里奇",
+     "description": "Covent Garden的鹅销售商"
+    },
+    {
+     "name": "Alpha Inn",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "阿尔法旅馆",
+     "description": "布卢姆斯伯里的酒馆"
+    },
+    {
+     "name": "goose club",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "鹅俱乐部",
+     "description": "在Alpha Inn的俱乐部"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯住所所在街道"
+    },
+    {
+     "name": "Alpha Inn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "阿尔法旅馆",
+     "description": "位于布卢姆斯伯里的酒馆"
+    },
+    {
+     "name": "Covent Garden",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "考文特花园",
+     "description": "伦敦市场"
+    },
+    {
+     "name": "Amoy River",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "厦门河",
+     "description": "中国南方的河流"
+    },
+    {
+     "name": "blue carbuncle",
+     "type": "Item",
+     "aliases": [
+      "the stone",
+      "the blue stone"
+     ],
+     "nickname": "蓝宝石",
+     "description": "珍贵的蓝色宝石"
+    },
+    {
+     "name": "goose",
+     "type": "Item",
+     "aliases": [
+      "bird"
+     ],
+     "nickname": "鹅",
+     "description": "亨利·贝克丢失的鹅"
+    },
+    {
+     "name": "hat",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "帽子",
+     "description": "亨利·贝克的帽子"
+    },
+    {
+     "name": "advertisement",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "广告",
+     "description": "福尔摩斯登的广告"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "SERVANT_OF",
+     "object": "Mrs. Hudson",
+     "evidence": "perhaps I ought to ask Mrs. Hudson to examine its crop",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Peterson",
+     "predicate": "HELPED",
+     "object": "Sherlock Holmes",
+     "evidence": "Here you are, Peterson, run down to the advertising agency and have this put in the evening papers.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "OWNS",
+     "object": "blue carbuncle",
+     "evidence": "Ah, yes, I shall keep the stone.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Baker",
+     "predicate": "OWNS",
+     "object": "goose",
+     "evidence": "I had no doubt that the gang of roughs who assaulted me had carried off both my hat and the bird.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Baker",
+     "predicate": "OWNS",
+     "object": "hat",
+     "evidence": "Yes, sir, that is undoubtedly my hat.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Baker",
+     "predicate": "MEMBER_OF",
+     "object": "goose club",
+     "evidence": "This year our good host, Windigate by name, instituted a goose club, by which, on consideration of some few pence every week, we were each to receive a bird at Christmas.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Windigate",
+     "predicate": "SERVANT_OF",
+     "object": "Alpha Inn",
+     "evidence": "our good host, Windigate by name, instituted a goose club",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Alpha Inn",
+     "evidence": "In a quarter of an hour we were in Bloomsbury at the Alpha Inn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Alpha Inn",
+     "evidence": "In a quarter of an hour we were in Bloomsbury at the Alpha Inn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Baker Street",
+     "evidence": "I found myself in Baker Street once more",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Baker Street",
+     "evidence": "I found myself in Baker Street once more",
+     "confidence": 0.9
+    },
+    {
+     "subject": "blue carbuncle",
+     "predicate": "OCCURRED_AT",
+     "object": "Amoy River",
+     "evidence": "It was found in the banks of the Amoy River in southern China",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Breckinridge",
+     "predicate": "SERVANT_OF",
+     "object": "Covent Garden",
+     "evidence": "I got the two dozen from a salesman in Covent Garden.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "blue carbuncle",
+     "evidence": "I shall keep the stone.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "SUSPECTED",
+     "object": "Henry Baker",
+     "evidence": "It is, I think, much more likely that Henry Baker is an absolutely innocent man",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "SUSPECTED",
+     "object": "Horner",
+     "evidence": "Do you think that this man Horner is innocent?",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7926,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查蓝宝石案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Breckinridge",
+     "type": "Person",
+     "aliases": [
+      "Mr. Breckinridge"
+     ],
+     "nickname": "布雷肯里奇",
+     "description": "考文特花园市场的鹅贩"
+    },
+    {
+     "name": "Mrs. Oakshott",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "奥克肖特太太",
+     "description": "布里克斯顿路的家禽供应商"
+    },
+    {
+     "name": "Mr. Windigate",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "温迪盖特先生",
+     "description": "阿尔法酒馆的老板"
+    },
+    {
+     "name": "James Ryder",
+     "type": "Person",
+     "aliases": [
+      "John Robinson",
+      "Mr. Ryder",
+      "Ryder"
+     ],
+     "nickname": "詹姆斯·赖德",
+     "description": "化名约翰·罗宾逊，追踪鹅的人"
+    },
+    {
+     "name": "Henry Baker",
+     "type": "Person",
+     "aliases": [
+      "Mr. Henry Baker"
+     ],
+     "nickname": "亨利·贝克",
+     "description": "俱乐部成员，鹅的原主"
+    },
+    {
+     "name": "Alpha",
+     "type": "Organization",
+     "aliases": [
+      "the Alpha"
+     ],
+     "nickname": "阿尔法酒馆",
+     "description": "酒馆，温迪盖特先生经营"
+    },
+    {
+     "name": "Covent Garden Market",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "考文特花园市场",
+     "description": "伦敦市场，布雷肯里奇摊位所在地"
+    },
+    {
+     "name": "Brixton Road",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布里克斯顿路",
+     "description": "伦敦街道，奥克肖特太太住处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Breckinridge",
+     "predicate": "SERVANT_OF",
+     "object": "Covent Garden Market",
+     "evidence": "One of the largest stalls bore the name of Breckinridge upon it, and the proprietor a horsey-looking man, with a sharp face and trim side-whiskers was helping a boy to put up the shutters.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Oakshott",
+     "predicate": "LIVES_AT",
+     "object": "Brixton Road",
+     "evidence": "Mrs. Oakshott, 117, Brixton Road—249",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Windigate",
+     "predicate": "MEMBER_OF",
+     "object": "Alpha",
+     "evidence": "Sold to Mr. Windigate of the Alpha, at 12s.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Baker",
+     "predicate": "MEMBER_OF",
+     "object": "Alpha",
+     "evidence": "by him to his club, of which Mr. Henry Baker is a member.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "James Ryder",
+     "evidence": "My name is Sherlock Holmes. It is my business to know what other people don't know.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "DECEIVED",
+     "object": "Sherlock Holmes",
+     "evidence": "My name is John Robinson",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 8012,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查蓝宝石案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的助手和记录者"
+    },
+    {
+     "name": "James Ryder",
+     "type": "Person",
+     "aliases": [
+      "Ryder",
+      "Mr. Ryder",
+      "Jem"
+     ],
+     "nickname": "詹姆斯·赖德",
+     "description": "酒店领班，偷窃蓝宝石的罪犯"
+    },
+    {
+     "name": "Catherine Cusack",
+     "type": "Person",
+     "aliases": [
+      "Cusack"
+     ],
+     "nickname": "凯瑟琳·库萨克",
+     "description": "伯爵夫人的侍女，赖德的同谋"
+    },
+    {
+     "name": "Countess of Morcar",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "莫卡伯爵夫人",
+     "description": "蓝宝石的主人"
+    },
+    {
+     "name": "Horner",
+     "type": "Person",
+     "aliases": [
+      "the plumber"
+     ],
+     "nickname": "霍纳",
+     "description": "水管工，被诬陷偷窃蓝宝石"
+    },
+    {
+     "name": "Maudsley",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "莫兹利",
+     "description": "赖德的朋友，有犯罪前科"
+    },
+    {
+     "name": "Maggie Oakshott",
+     "type": "Person",
+     "aliases": [
+      "Maggie",
+      "my sister"
+     ],
+     "nickname": "玛吉·奥克肖特",
+     "description": "赖德的姐姐，养鹅为生"
+    },
+    {
+     "name": "Mr. Oakshott",
+     "type": "Person",
+     "aliases": [
+      "Oakshott"
+     ],
+     "nickname": "奥克肖特先生",
+     "description": "赖德的姐夫"
+    },
+    {
+     "name": "Hotel Cosmopolitan",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "大都会酒店",
+     "description": "伦敦的一家酒店，蓝宝石盗窃案发生地"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯和华生的住所"
+    },
+    {
+     "name": "Brixton Road",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布里克斯顿路",
+     "description": "赖德姐姐的住处"
+    },
+    {
+     "name": "Kilburn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "基尔伯恩",
+     "description": "赖德的朋友莫兹利的住处"
+    },
+    {
+     "name": "Pentonville",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "本顿维尔",
+     "description": "监狱，莫兹利曾在此服刑"
+    },
+    {
+     "name": "Blue Carbuncle",
+     "type": "Item",
+     "aliases": [
+      "blue stone",
+      "blue carbuncle",
+      "blue egg"
+     ],
+     "nickname": "蓝宝石",
+     "description": "被盗的珍贵宝石"
+    },
+    {
+     "name": "goose",
+     "type": "Item",
+     "aliases": [
+      "bird",
+      "white goose with barred tail"
+     ],
+     "nickname": "鹅",
+     "description": "藏有蓝宝石的鹅"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "James Ryder",
+     "predicate": "SERVANT_OF",
+     "object": "Hotel Cosmopolitan",
+     "evidence": "Head attendant at the Hotel Cosmopolitan.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Cusack",
+     "predicate": "SERVANT_OF",
+     "object": "Countess of Morcar",
+     "evidence": "her ladyship’s waiting-maid",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "STOLE",
+     "object": "Blue Carbuncle",
+     "evidence": "you rifled the jewel-case",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "DECEIVED",
+     "object": "Horner",
+     "evidence": "you managed that he should be the man sent for",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "HARMED",
+     "object": "Horner",
+     "evidence": "had this unfortunate man arrested",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "KIN",
+     "object": "Maggie Oakshott",
+     "evidence": "my sister’s house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maggie Oakshott",
+     "predicate": "SPOUSE",
+     "object": "Mr. Oakshott",
+     "evidence": "She had married a man named Oakshott",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maggie Oakshott",
+     "predicate": "LIVES_AT",
+     "object": "Brixton Road",
+     "evidence": "lived in Brixton Road",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "FRIEND",
+     "object": "Maudsley",
+     "evidence": "I had a friend once called Maudsley",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maudsley",
+     "predicate": "LIVES_AT",
+     "object": "Kilburn",
+     "evidence": "go right on to Kilburn, where he lived",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Maudsley",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Pentonville",
+     "evidence": "serving his time in Pentonville",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Blue Carbuncle",
+     "evidence": "I have almost every link in my hands",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "OWNS",
+     "object": "Blue Carbuncle",
+     "evidence": "I have it here in my museum",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "OWNS",
+     "object": "goose",
+     "evidence": "I would take my goose now",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "VISITED",
+     "object": "Brixton Road",
+     "evidence": "I made for my sister’s house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Ryder",
+     "predicate": "VISITED",
+     "object": "Kilburn",
+     "evidence": "I carried the bird all the way to Kilburn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "we were back in the sitting-room at Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "we were back in the sitting-room at Baker Street",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 2016,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，侦办蓝宝石案，最终放走窃贼"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Jem",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "杰姆",
+     "description": "偷鹅贼，被福尔摩斯放走"
+    },
+    {
+     "name": "Breckinridge",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布雷肯里奇",
+     "description": "考文特花园的鹅贩子"
+    },
+    {
+     "name": "Horner",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "霍纳",
+     "description": "被冤枉的管道工"
+    },
+    {
+     "name": "Covent Garden",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "考文特花园",
+     "description": "伦敦市场，布雷肯里奇卖鹅处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jem",
+     "predicate": "STOLE",
+     "object": "Blue Carbuncle",
+     "evidence": "I am myself a branded thief, without ever having touched the wealth for which I sold my character.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Jem",
+     "evidence": "Get out!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Blue Carbuncle",
+     "evidence": "Chance has put in our way a most singular and whimsical problem, and its solution is its own reward.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Breckinridge",
+     "predicate": "LIVES_AT",
+     "object": "Covent Garden",
+     "evidence": "Breckinridge, of Covent Garden.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "FRIEND",
+     "object": "John Watson",
+     "evidence": "After all, Watson",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:15.413Z"
+}

@@ -1,0 +1,1279 @@
+{
+ "no": 10,
+ "title": "The Adventure of the Noble Bachelor",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8023,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Sherlock Holmes"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在贝克街，受圣西蒙勋爵委托调查新娘失踪案。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的朋友与室友，叙述者，曾参加阿富汗战役。"
+    },
+    {
+     "name": "Lord St. Simon",
+     "type": "Person",
+     "aliases": [
+      "Robert St. Simon",
+      "Lord Robert St. Simon",
+      "Lord Robert Walsingham de Vere St. Simon"
+     ],
+     "nickname": "圣西蒙勋爵",
+     "description": "巴尔莫勒尔公爵次子，新娘哈蒂·多兰在婚礼早餐后失踪。"
+    },
+    {
+     "name": "Hatty Doran",
+     "type": "Person",
+     "aliases": [
+      "Miss Hatty Doran",
+      "Miss Doran"
+     ],
+     "nickname": "哈蒂·多兰",
+     "description": "阿洛伊修斯·多兰的独生女，加州女继承人，在婚礼早餐后失踪。"
+    },
+    {
+     "name": "Aloysius Doran",
+     "type": "Person",
+     "aliases": [
+      "Mr. Aloysius Doran"
+     ],
+     "nickname": "阿洛伊修斯·多兰",
+     "description": "哈蒂·多兰的父亲，来自旧金山的加州百万富翁。"
+    },
+    {
+     "name": "Duke of Balmoral",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "巴尔莫勒尔公爵",
+     "description": "圣西蒙勋爵的父亲，曾任外交大臣，因经济困难出售藏画。"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Mr. Lestrade"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，已着手调查圣西蒙婚礼事件。"
+    },
+    {
+     "name": "Lord Backwater",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "巴克沃特勋爵",
+     "description": "圣西蒙勋爵的朋友，推荐福尔摩斯，并提供度蜜月的地点。"
+    },
+    {
+     "name": "Scotland Yard",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "苏格兰场",
+     "description": "伦敦警察机构，雷斯垂德所属。"
+    },
+    {
+     "name": "St. George's, Hanover Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣乔治教堂",
+     "description": "伦敦教堂，圣西蒙勋爵与哈蒂·多兰的婚礼在此举行。"
+    },
+    {
+     "name": "Lancaster Gate",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "兰开斯特门",
+     "description": "伦敦地点，阿洛伊修斯·多兰租下的 furnished house 所在地。"
+    },
+    {
+     "name": "Grosvenor Mansions",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格罗夫纳公寓",
+     "description": "圣西蒙勋爵的住所，信由此寄出。"
+    },
+    {
+     "name": "St. Simon marriage",
+     "type": "Event",
+     "aliases": [
+      "Lord St. Simon marriage",
+      "wedding"
+     ],
+     "nickname": "圣西蒙婚礼",
+     "description": "圣西蒙勋爵与哈蒂·多兰的婚礼，新娘在婚礼早餐后失踪。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "The letter which I hold in my hand is from Lord St. Simon.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "St. Simon marriage",
+     "evidence": "my friend Sherlock Holmes had a considerable share in clearing the matter up",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "PARTICIPATED_IN",
+     "object": "St. Simon marriage",
+     "evidence": "Lord St. Simon and his wedding",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hatty Doran",
+     "predicate": "PARTICIPATED_IN",
+     "object": "St. Simon marriage",
+     "evidence": "his approaching marriage with Miss Hatty Doran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. Simon marriage",
+     "predicate": "OCCURRED_AT",
+     "object": "St. George's, Hanover Square",
+     "evidence": "it would be at St. George’s, Hanover Square",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "KIN",
+     "object": "Duke of Balmoral",
+     "evidence": "second son of the Duke of Balmoral",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hatty Doran",
+     "predicate": "KIN",
+     "object": "Aloysius Doran",
+     "evidence": "the only daughter of Aloysius Doran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "SPOUSE",
+     "object": "Hatty Doran",
+     "evidence": "his approaching marriage with Miss Hatty Doran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "LIVES_AT",
+     "object": "Grosvenor Mansions",
+     "evidence": "It is dated from Grosvenor Mansions",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Aloysius Doran",
+     "predicate": "LIVES_AT",
+     "object": "Lancaster Gate",
+     "evidence": "the furnished house at Lancaster Gate which has been taken by Mr. Aloysius Doran",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "MEMBER_OF",
+     "object": "Scotland Yard",
+     "evidence": "Mr. Lestrade, of Scotland Yard",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "INVESTIGATED",
+     "object": "St. Simon marriage",
+     "evidence": "Mr. Lestrade, of Scotland Yard, is acting already in the matter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Backwater",
+     "predicate": "HELPED",
+     "object": "Lord St. Simon",
+     "evidence": "Lord Backwater tells me that I may place implicit reliance upon your judgment and discretion.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "my friend Sherlock Holmes",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7801,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，在本案中接受圣西蒙勋爵委托调查新娘失踪案。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的友人兼同事，作为见证人参与案件讨论。"
+    },
+    {
+     "name": "Lord Robert St. Simon",
+     "type": "Person",
+     "aliases": [
+      "Lord St. Simon",
+      "St. Simon"
+     ],
+     "nickname": "圣西蒙勋爵",
+     "description": "贵族新郎，婚礼后新娘失踪，委托福尔摩斯调查。"
+    },
+    {
+     "name": "Hatty Doran",
+     "type": "Person",
+     "aliases": [
+      "Miss Hatty Doran",
+      "Miss Flora Millar"
+     ],
+     "nickname": "哈蒂·多兰",
+     "description": "圣西蒙勋爵的新娘，婚礼后神秘失踪。"
+    },
+    {
+     "name": "Aloysius Doran",
+     "type": "Person",
+     "aliases": [
+      "Mr. Aloysius Doran"
+     ],
+     "nickname": "阿洛伊修斯·多兰",
+     "description": "哈蒂·多兰的父亲，旧金山富有的矿主。"
+    },
+    {
+     "name": "Flora Millar",
+     "type": "Person",
+     "aliases": [
+      "Miss Flora Millar"
+     ],
+     "nickname": "弗洛拉·米勒",
+     "description": "前舞蹈演员，因在婚礼上闹事被捕，与新郎相识多年。"
+    },
+    {
+     "name": "St. George's, Hanover Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣乔治教堂",
+     "description": "伦敦婚礼举办地，圣西蒙勋爵与哈蒂·多兰在此举行婚礼。"
+    },
+    {
+     "name": "Lancaster Gate",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "兰开斯特门",
+     "description": "阿洛伊修斯·多兰的宅邸所在地，婚礼早餐在此举行。"
+    },
+    {
+     "name": "San Francisco",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "旧金山",
+     "description": "美国城市，圣西蒙勋爵与哈蒂·多兰初次相遇之地。"
+    },
+    {
+     "name": "Allegro",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "快板剧院",
+     "description": "弗洛拉·米勒曾担任舞蹈演员的场所。"
+    },
+    {
+     "name": "The Adventure of the Noble Bachelor",
+     "type": "Event",
+     "aliases": [
+      "Noble Bachelor case"
+     ],
+     "nickname": "贵族单身汉案",
+     "description": "圣西蒙勋爵婚礼后新娘失踪的案件，福尔摩斯负责调查。"
+    },
+    {
+     "name": "wedding of Lord Robert St. Simon",
+     "type": "Event",
+     "aliases": [
+      "ceremony",
+      "wedding"
+     ],
+     "nickname": "圣西蒙勋爵的婚礼",
+     "description": "圣西蒙勋爵与哈蒂·多兰的婚礼，新娘在早餐后失踪。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lord Robert St. Simon",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I have no doubt that this will prove to be our noble client.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Adventure of the Noble Bachelor",
+     "evidence": "the whole case is in your hands now—so far as it has been set forth in the public press.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hatty Doran",
+     "predicate": "SPOUSE",
+     "object": "Lord Robert St. Simon",
+     "evidence": "The ceremony, which was performed at St. George’s, Hanover Square, was a very quiet one",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Aloysius Doran",
+     "predicate": "KIN",
+     "object": "Hatty Doran",
+     "evidence": "the father of the bride, Mr. Aloysius Doran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hatty Doran",
+     "predicate": "NATIVE_OF",
+     "object": "San Francisco",
+     "evidence": "In San Francisco, a year ago.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Robert St. Simon",
+     "predicate": "VISITED",
+     "object": "San Francisco",
+     "evidence": "In San Francisco, a year ago.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Flora Millar",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding of Lord Robert St. Simon",
+     "evidence": "some little trouble was caused by a woman, whose name has not been ascertained, who endeavoured to force her way into the house after the bridal party",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Flora Millar",
+     "predicate": "SERVANT_OF",
+     "object": "Allegro",
+     "evidence": "she was formerly a danseuse at the Allegro",
+     "confidence": 0.9
+    },
+    {
+     "subject": "wedding of Lord Robert St. Simon",
+     "predicate": "OCCURRED_AT",
+     "object": "St. George's, Hanover Square",
+     "evidence": "The ceremony, which was performed at St. George’s, Hanover Square",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Aloysius Doran",
+     "predicate": "LIVES_AT",
+     "object": "Lancaster Gate",
+     "evidence": "the house of Mr. Aloysius Doran, at Lancaster Gate",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7884,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，受圣西蒙勋爵委托调查新娘失踪案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴与记录者，参与本案旁听"
+    },
+    {
+     "name": "Lord St. Simon",
+     "type": "Person",
+     "aliases": [
+      "St. Simon"
+     ],
+     "nickname": "圣西蒙勋爵",
+     "description": "英国贵族，新娘哈蒂·多兰在婚礼后失踪的委托人"
+    },
+    {
+     "name": "Hatty Doran",
+     "type": "Person",
+     "aliases": [
+      "Miss Doran",
+      "Lady St. Simon"
+     ],
+     "nickname": "哈蒂·多兰",
+     "description": "美国加利福尼亚富家女，圣西蒙勋爵的新娘，婚礼后失踪"
+    },
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝",
+     "description": "哈蒂·多兰的美国女仆，来自加利福尼亚，与女主人关系亲密"
+    },
+    {
+     "name": "Flora Millar",
+     "type": "Person",
+     "aliases": [
+      "Flora"
+     ],
+     "nickname": "弗洛拉·米勒",
+     "description": "圣西蒙勋爵的旧相好，曾大闹多兰家，现被拘留"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Mr. Lestrade"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，参与调查此案"
+    },
+    {
+     "name": "Scotland Yard",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "苏格兰场",
+     "description": "伦敦警察机构，雷斯垂德所属"
+    },
+    {
+     "name": "Hyde Park",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "海德公园",
+     "description": "伦敦公园，哈蒂·多兰与弗洛拉·米勒曾被看到在此同行"
+    },
+    {
+     "name": "Allegro",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "快板剧院",
+     "description": "弗洛拉·米勒曾工作过的场所"
+    },
+    {
+     "name": "Aberdeen",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "阿伯丁",
+     "description": "苏格兰城市，福尔摩斯提及曾发生类似案件"
+    },
+    {
+     "name": "Munich",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "慕尼黑",
+     "description": "德国城市，福尔摩斯提及曾发生类似案件"
+    },
+    {
+     "name": "ivory miniature",
+     "type": "Item",
+     "aliases": [
+      "locket"
+     ],
+     "nickname": "象牙微型画像",
+     "description": "圣西蒙勋爵随身携带的哈蒂·多兰的画像，嵌于小盒中"
+    },
+    {
+     "name": "bouquet",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "花束",
+     "description": "婚礼上哈蒂·多兰掉落的花束，被一位陌生绅士拾起"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "SPOUSE",
+     "object": "Hatty Doran",
+     "evidence": "I met her several times, became engaged to her, and have now married her.",
+     "confidence": 1
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I came to seek a theory, not to propound one.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Lord St. Simon",
+     "evidence": "I have solved it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "SERVANT_OF",
+     "object": "Hatty Doran",
+     "evidence": "Alice is her name. She is an American and came from California with her.",
+     "confidence": 1
+    },
+    {
+     "subject": "Flora Millar",
+     "predicate": "LOVES",
+     "object": "Lord St. Simon",
+     "evidence": "Flora was a dear little thing, but exceedingly hot-headed and devotedly attached to me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Flora Millar",
+     "predicate": "QUARRELED",
+     "object": "Hatty Doran",
+     "evidence": "She came to Mr. Doran’s door just after we returned, and she endeavoured to push her way in, uttering very abusive expressions towards my wife, and even threatening her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "MEMBER_OF",
+     "object": "Scotland Yard",
+     "evidence": "That is what Mr. Lestrade, of Scotland Yard, looks upon as so serious.",
+     "confidence": 1
+    },
+    {
+     "subject": "Hatty Doran",
+     "predicate": "VISITED",
+     "object": "Hyde Park",
+     "evidence": "she was afterwards seen walking into Hyde Park in company with Flora Millar",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Flora Millar",
+     "predicate": "VISITED",
+     "object": "Hyde Park",
+     "evidence": "she was afterwards seen walking into Hyde Park in company with Flora Millar",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Flora Millar",
+     "predicate": "VISITED",
+     "object": "Allegro",
+     "evidence": "She used to be at the Allegro.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "OWNS",
+     "object": "ivory miniature",
+     "evidence": "He opened a locket and showed us the full face of a very lovely woman. It was not a photograph but an ivory miniature",
+     "confidence": 1
+    },
+    {
+     "subject": "Hatty Doran",
+     "predicate": "OWNS",
+     "object": "bouquet",
+     "evidence": "She dropped her bouquet as we went towards the vestry.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Hatty Doran",
+     "evidence": "I say that I have solved it.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7772,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，侦办圣西蒙婚姻案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴与叙述者"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Inspector"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，调查圣西蒙婚姻案"
+    },
+    {
+     "name": "Lord St. Simon",
+     "type": "Person",
+     "aliases": [
+      "St. Simon"
+     ],
+     "nickname": "圣西蒙勋爵",
+     "description": "贵族，新娘失踪案的当事人"
+    },
+    {
+     "name": "Lady St. Simon",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "圣西蒙夫人",
+     "description": "圣西蒙勋爵的新娘，据称失踪"
+    },
+    {
+     "name": "Flora Millar",
+     "type": "Person",
+     "aliases": [
+      "Miss Flora Millar"
+     ],
+     "nickname": "弗洛拉·米勒",
+     "description": "被雷斯垂德怀疑与圣西蒙夫人失踪有关"
+    },
+    {
+     "name": "Francis Hay Moulton",
+     "type": "Person",
+     "aliases": [
+      "Mr. Francis Hay Moulton"
+     ],
+     "nickname": "弗朗西斯·海·莫尔顿",
+     "description": "圣西蒙夫人真正所嫁之人"
+    },
+    {
+     "name": "Mrs. Francis Hay Moulton",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "莫尔顿夫人",
+     "description": "即 Lady St. Simon，与 Francis Hay Moulton 结婚"
+    },
+    {
+     "name": "Duke",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "公爵",
+     "description": "圣西蒙勋爵的亲属，家族长辈"
+    },
+    {
+     "name": "St. Simon marriage case",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "圣西蒙婚姻案",
+     "description": "圣西蒙勋爵婚礼后新娘失踪的案件"
+    },
+    {
+     "name": "Serpentine",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "蛇形湖",
+     "description": "伦敦海德公园内的水域，发现婚纱等物"
+    },
+    {
+     "name": "Trafalgar Square fountain",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "特拉法加广场喷泉",
+     "description": "福尔摩斯调侃雷斯垂德打捞的地方"
+    },
+    {
+     "name": "wedding-dress",
+     "type": "Item",
+     "aliases": [
+      "wedding-dress of watered silk"
+     ],
+     "nickname": "婚纱",
+     "description": "在蛇形湖发现的圣西蒙夫人的结婚礼服"
+    },
+    {
+     "name": "white satin shoes",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "白缎鞋",
+     "description": "在蛇形湖发现的婚鞋"
+    },
+    {
+     "name": "bride's wreath and veil",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "新娘花环与面纱",
+     "description": "在蛇形湖发现的新娘头饰"
+    },
+    {
+     "name": "wedding-ring",
+     "type": "Item",
+     "aliases": [
+      "new wedding-ring"
+     ],
+     "nickname": "结婚戒指",
+     "description": "雷斯垂德展示的新婚戒指"
+    },
+    {
+     "name": "note",
+     "type": "Item",
+     "aliases": [
+      "the very note"
+     ],
+     "nickname": "字条",
+     "description": "写有‘You will see me when all is ready. Come at once. F. H. M.’的字条"
+    },
+    {
+     "name": "hotel bill",
+     "type": "Item",
+     "aliases": [
+      "fragment of a hotel bill"
+     ],
+     "nickname": "旅馆账单",
+     "description": "字条背面写有旅馆账单片段"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "INVESTIGATED",
+     "object": "St. Simon marriage case",
+     "evidence": "I have been at work upon it all day.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "St. Simon marriage case",
+     "evidence": "I will tell you the true solution of the matter.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "SPOUSE",
+     "object": "Lady St. Simon",
+     "evidence": "In search of the body of Lady St. Simon.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "SUSPECTED",
+     "object": "Flora Millar",
+     "evidence": "At some evidence implicating Flora Millar in the disappearance.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Flora Millar",
+     "predicate": "DECEIVED",
+     "object": "Lady St. Simon",
+     "evidence": "Lady St. Simon was decoyed away by Flora Millar",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Francis Hay Moulton",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Francis Hay Moulton",
+     "evidence": "allow me to introduce you to Mr. and Mrs. Francis Hay Moulton.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Francis Hay Moulton",
+     "predicate": "SPOUSE",
+     "object": "Lord St. Simon",
+     "evidence": "allow me to introduce you to Mr. and Mrs. Francis Hay Moulton. The lady, I think, you have already met.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "KIN",
+     "object": "Duke",
+     "evidence": "What will the Duke say, when he hears that one of the family has been subjected to such humiliation?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "wedding-dress",
+     "predicate": "OCCURRED_AT",
+     "object": "Serpentine",
+     "evidence": "They were found floating near the margin by a park-keeper.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "white satin shoes",
+     "predicate": "OCCURRED_AT",
+     "object": "Serpentine",
+     "evidence": "They were found floating near the margin by a park-keeper.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "bride's wreath and veil",
+     "predicate": "OCCURRED_AT",
+     "object": "Serpentine",
+     "evidence": "They were found floating near the margin by a park-keeper.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "wedding-ring",
+     "predicate": "OCCURRED_AT",
+     "object": "Serpentine",
+     "evidence": "They were found floating near the margin by a park-keeper.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "note",
+     "predicate": "OCCURRED_AT",
+     "object": "wedding-dress",
+     "evidence": "In the dress is a pocket. In the pocket is a card-case. In the card-case is a note.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "hotel bill",
+     "predicate": "OCCURRED_AT",
+     "object": "note",
+     "evidence": "over here is what appears to be the fragment of a hotel bill",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7914,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，侦办贵族单身汉案"
+    },
+    {
+     "name": "Lord St. Simon",
+     "type": "Person",
+     "aliases": [
+      "Robert"
+     ],
+     "nickname": "圣西蒙勋爵",
+     "description": "英国贵族，婚礼上新娘逃走"
+    },
+    {
+     "name": "Hattie Moulton",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Moulton"
+     ],
+     "nickname": "哈蒂·莫尔顿",
+     "description": "圣西蒙勋爵的新娘，实为弗兰克之妻"
+    },
+    {
+     "name": "Frank Moulton",
+     "type": "Person",
+     "aliases": [
+      "Frank"
+     ],
+     "nickname": "弗兰克·莫尔顿",
+     "description": "美国人，哈蒂的初恋与丈夫"
+    },
+    {
+     "name": "Pa",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "父亲",
+     "description": "哈蒂之父，在落基山采矿致富"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与叙述者"
+    },
+    {
+     "name": "St. Simon family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "圣西蒙家族",
+     "description": "Lord St. Simon 的贵族家族"
+    },
+    {
+     "name": "McQuire's camp",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦奎尔营地",
+     "description": "落基山附近的采矿营地"
+    },
+    {
+     "name": "Gordon Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "戈登广场",
+     "description": "伦敦广场，弗兰克租住处"
+    },
+    {
+     "name": "St. George's Church",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣乔治教堂",
+     "description": "婚礼举行地"
+    },
+    {
+     "name": "wedding of Lord St. Simon and Hattie",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "圣西蒙婚礼",
+     "description": "Lord St. Simon 与 Hattie 的婚礼，新娘中途逃走"
+    },
+    {
+     "name": "note from Frank",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "弗兰克的纸条",
+     "description": "弗兰克在教堂写给哈蒂的纸条"
+    },
+    {
+     "name": "bouquet",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "花束",
+     "description": "哈蒂在教堂扔给弗兰克的花束"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Hattie Moulton",
+     "predicate": "SPOUSE",
+     "object": "Frank Moulton",
+     "evidence": "We were engaged to each other, Frank and I",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hattie Moulton",
+     "predicate": "SPOUSE",
+     "object": "Lord St. Simon",
+     "evidence": "a marriage was arranged",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hattie Moulton",
+     "predicate": "KIN",
+     "object": "Pa",
+     "evidence": "Pa was working a claim",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Frank Moulton",
+     "predicate": "LOVES",
+     "object": "Hattie Moulton",
+     "evidence": "Frank wouldn’t throw up his hand, though; so he followed me there",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hattie Moulton",
+     "predicate": "LOVES",
+     "object": "Frank Moulton",
+     "evidence": "no man on this earth would ever take the place in my heart that had been given to my poor Frank",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "MEMBER_OF",
+     "object": "St. Simon family",
+     "evidence": "Lord St. Simon",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hattie Moulton",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding of Lord St. Simon and Hattie",
+     "evidence": "I went to the altar with him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding of Lord St. Simon and Hattie",
+     "evidence": "I went to the altar with him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "wedding of Lord St. Simon and Hattie",
+     "predicate": "OCCURRED_AT",
+     "object": "St. George's Church",
+     "evidence": "I came to the altar rails",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Frank Moulton",
+     "predicate": "OWNS",
+     "object": "note from Frank",
+     "evidence": "he was writing me a note",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hattie Moulton",
+     "predicate": "OWNS",
+     "object": "bouquet",
+     "evidence": "I dropped my bouquet over to him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "wedding of Lord St. Simon and Hattie",
+     "evidence": "Mr. Holmes, came round to us this evening",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord St. Simon",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "our client had sprung from his seat",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Hattie Moulton",
+     "evidence": "he showed us very clearly and kindly that I was wrong",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Frank Moulton",
+     "evidence": "he showed us very clearly and kindly that I was wrong",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hattie Moulton",
+     "predicate": "LIVES_AT",
+     "object": "Gordon Square",
+     "evidence": "away we drove to some lodgings he had taken in Gordon Square",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Frank Moulton",
+     "predicate": "LIVES_AT",
+     "object": "Gordon Square",
+     "evidence": "away we drove to some lodgings he had taken in Gordon Square",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hattie Moulton",
+     "predicate": "VISITED",
+     "object": "McQuire's camp",
+     "evidence": "Frank here and I met in ’84, in McQuire’s camp",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Frank Moulton",
+     "predicate": "VISITED",
+     "object": "McQuire's camp",
+     "evidence": "Frank here and I met in ’84, in McQuire’s camp",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 4407,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，侦办贵族单身汉案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Dr. Watson",
+      "Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴与记录者"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Inspector"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，参与本案"
+    },
+    {
+     "name": "Francis H. Moulton",
+     "type": "Person",
+     "aliases": [
+      "Mr. Moulton",
+      "Moulton"
+     ],
+     "nickname": "莫尔顿",
+     "description": "美国绅士，本案关键人物"
+    },
+    {
+     "name": "Lord St. Simon",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "圣西蒙勋爵",
+     "description": "英国贵族，婚礼上新娘失踪"
+    },
+    {
+     "name": "Hatty Doran",
+     "type": "Person",
+     "aliases": [
+      "the lady",
+      "the bride"
+     ],
+     "nickname": "哈蒂·多兰",
+     "description": "美国女继承人，圣西蒙的新娘"
+    },
+    {
+     "name": "Scotland Yard",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "苏格兰场",
+     "description": "伦敦警察机构"
+    },
+    {
+     "name": "Northumberland Avenue",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "诺森伯兰大道",
+     "description": "伦敦街道，有旅馆"
+    },
+    {
+     "name": "Gordon Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "戈登广场",
+     "description": "伦敦广场，莫尔顿住址"
+    },
+    {
+     "name": "The Adventure of the Noble Bachelor",
+     "type": "Event",
+     "aliases": [
+      "the case",
+      "the affair"
+     ],
+     "nickname": "贵族单身汉案",
+     "description": "圣西蒙勋爵婚礼上新娘失踪的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Adventure of the Noble Bachelor",
+     "evidence": "The case has been an interesting one",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "MEMBER_OF",
+     "object": "Scotland Yard",
+     "evidence": "Mr. Lestrade of Scotland Yard",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Francis H. Moulton",
+     "predicate": "LIVES_AT",
+     "object": "Gordon Square",
+     "evidence": "His letters were to be forwarded to 226 Gordon Square",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Northumberland Avenue",
+     "evidence": "In the second one which I visited in Northumberland Avenue",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Gordon Square",
+     "evidence": "so thither I travelled",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hatty Doran",
+     "predicate": "SPOUSE",
+     "object": "Lord St. Simon",
+     "evidence": "the lady had been quite willing to undergo the wedding ceremony",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hatty Doran",
+     "predicate": "SPOUSE",
+     "object": "Francis H. Moulton",
+     "evidence": "the man was either a lover or was a previous husband",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Lord St. Simon",
+     "evidence": "I invited them to meet him here, and, as you see, I made him keep the appointment.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:42.410Z"
+}

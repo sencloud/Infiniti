@@ -1,0 +1,401 @@
+{
+ "no": 5,
+ "title": "WITHIN a short walk of Longbourn lived a family…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5214,
+   "entities": [
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉·卢卡斯爵士",
+     "description": "卢卡斯家家长，曾经商，后获骑士爵位"
+    },
+    {
+     "name": "Lady Lucas",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Lucas"
+     ],
+     "nickname": "卢卡斯太太",
+     "description": "威廉·卢卡斯爵士之妻，班纳特太太的邻居"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte"
+     ],
+     "nickname": "夏绿蒂·卢卡斯",
+     "description": "卢卡斯家长女，伊丽莎白的密友"
+    },
+    {
+     "name": "Maria Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas"
+     ],
+     "nickname": "玛丽亚·卢卡斯",
+     "description": "卢卡斯家女儿之一"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白·班纳特",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet"
+     ],
+     "nickname": "简·班纳特",
+     "description": "班纳特家长女，温柔美丽"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·班纳特",
+     "description": "班纳特家三女，爱读书、爱发表议论"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，热衷社交与嫁女"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家男主人"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西先生",
+     "description": "宾利先生的朋友，富有而骄傲"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利先生",
+     "description": "彬格莱先生，达西的朋友，性格随和"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳·宾利",
+     "description": "宾利先生的妹妹"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利先生的妹妹，已婚"
+    },
+    {
+     "name": "Mrs. Long",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "朗太太",
+     "description": "班纳特家的邻居"
+    },
+    {
+     "name": "Mr. Robinson",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "罗宾逊先生",
+     "description": "在舞会上与达西交谈的人"
+    },
+    {
+     "name": "Lucas Lodge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "卢卡斯小屋",
+     "description": "卢卡斯家的宅邸，离麦里屯约一英里"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家的宅邸"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近的小镇"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "尼日斐花园",
+     "description": "宾利先生租住的庄园"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [
+      "the Bennets"
+     ],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Lucas family",
+     "type": "Organization",
+     "aliases": [
+      "the Lucases"
+     ],
+     "nickname": "卢卡斯家",
+     "description": "卢卡斯家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "SPOUSE",
+     "object": "Lady Lucas",
+     "evidence": "Lady Lucas was a very good kind of woman",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Charlotte Lucas",
+     "evidence": "The eldest of them, a sensible, intelligent young woman, about twenty-seven, was Elizabeth’s intimate friend.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "KIN",
+     "object": "Maria Lucas",
+     "evidence": "The eldest of them, a sensible, intelligent young woman, about twenty-seven, was Elizabeth’s intimate friend.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Lucas",
+     "predicate": "KIN",
+     "object": "Charlotte Lucas",
+     "evidence": "The eldest of them, a sensible, intelligent young woman, about twenty-seven, was Elizabeth’s intimate friend.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Lucas",
+     "predicate": "KIN",
+     "object": "Maria Lucas",
+     "evidence": "The eldest of them, a sensible, intelligent young woman, about twenty-seven, was Elizabeth’s intimate friend.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "FRIEND",
+     "object": "Elizabeth Bennet",
+     "evidence": "The eldest of them, a sensible, intelligent young woman, about twenty-seven, was Elizabeth’s intimate friend.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "LIVES_AT",
+     "object": "Lucas Lodge",
+     "evidence": "he had removed with his family to a house about a mile from Meryton, denominated from that period Lucas Lodge",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lucas family",
+     "predicate": "LIVES_AT",
+     "object": "Lucas Lodge",
+     "evidence": "he had removed with his family to a house about a mile from Meryton, denominated from that period Lucas Lodge",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "WITHIN a short walk of Longbourn lived a family with whom the Bennets were particularly intimate.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "NATIVE_OF",
+     "object": "Meryton",
+     "evidence": "Sir William Lucas had been formerly in trade in Meryton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Mr. Robinson’s asking him how he liked our Meryton assemblies",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Mr. Robinson’s asking him how he liked our Meryton assemblies",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "she asked him at last how he liked Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "she asked him at last how he liked Netherfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "Mr. Darcy is not so well worth listening to as his friend",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Miss Bingley told me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "Miss Bingley told me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Louisa Hurst",
+     "evidence": "Miss Bingley told me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "QUARRELED",
+     "object": "Elizabeth Bennet",
+     "evidence": "I could easily forgive his pride, if he had not mortified mine.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "DECEIVED",
+     "object": "Elizabeth Bennet",
+     "evidence": "I could easily forgive his pride, if he had not mortified mine.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "FRIEND",
+     "object": "Lady Lucas",
+     "evidence": "Lady Lucas was a very good kind of woman, not too clever to be a valuable neighbour to Mrs. Bennet.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "FRIEND",
+     "object": "Lucas family",
+     "evidence": "WITHIN a short walk of Longbourn lived a family with whom the Bennets were particularly intimate.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "the morning after the assembly brought the former to Longbourn to hear and to communicate.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "the morning after the assembly brought the former to Longbourn to hear and to communicate.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "he seemed to like his second better.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Bennet",
+     "evidence": "he seemed to like his second better.",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LOVES",
+     "object": "Elizabeth Bennet",
+     "evidence": "I could easily forgive his pride, if he had not mortified mine.",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "I could easily forgive his pride, if he had not mortified mine.",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:51.595Z"
+}

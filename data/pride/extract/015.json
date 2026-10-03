@@ -1,0 +1,780 @@
+{
+ "no": 15,
+ "title": "MR.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6837,
+   "entities": [
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家财产继承人，牧师"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "柯林斯的赞助人，贵族"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三女"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女"
+    },
+    {
+     "name": "Mr. Denny",
+     "type": "Person",
+     "aliases": [
+      "Denny"
+     ],
+     "nickname": "丹尼先生",
+     "description": "军官，韦翰的朋友"
+    },
+    {
+     "name": "Mr. Wickham",
+     "type": "Person",
+     "aliases": [
+      "Wickham",
+      "George Wickham"
+     ],
+     "nickname": "韦翰",
+     "description": "新来的军官，外表迷人"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "宾利的朋友，贵族"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "达西的朋友，绅士"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "班纳特太太的姐夫"
+    },
+    {
+     "name": "Mrs. Philips",
+     "type": "Person",
+     "aliases": [
+      "Aunt Philips"
+     ],
+     "nickname": "菲利普斯太太",
+     "description": "班纳特太太的姐姐"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家的庄园"
+    },
+    {
+     "name": "Hunsford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉斯福",
+     "description": "柯林斯的牧师住宅所在地"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近的集镇"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "A fortunate chance had recommended him to Lady Catherine de Bourgh when the living of Hunsford was vacant; and the respect which he felt for her high rank, and his veneration for her as his patroness",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Hunsford",
+     "evidence": "his house and garden at Hunsford",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "in seeking a reconciliation with the Longbourn family he had a wife in view",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "for inheriting their father’s estate",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mr. Collins had only to change from Jane to Elizabeth—and it was soon done",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Bennet",
+     "evidence": "for the first evening she was his settled choice",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "in seeking a reconciliation with the Longbourn family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Lydia’s intention of walking to Meryton was not forgotten: every sister except Mary agreed to go with her; and Mr. Collins was to attend them",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "in seeking a reconciliation with the Longbourn family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "in seeking a reconciliation with the Longbourn family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "in seeking a reconciliation with the Longbourn family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "in seeking a reconciliation with the Longbourn family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "in seeking a reconciliation with the Longbourn family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "in seeking a reconciliation with the Longbourn family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "in seeking a reconciliation with the Longbourn family",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Denny",
+     "predicate": "FRIEND",
+     "object": "Mr. Wickham",
+     "evidence": "Mr. Denny addressed them directly, and entreated permission to introduce his friend, Mr. Wickham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Denny",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "The officer was the very Mr. Denny concerning whose return from London Lydia came to inquire",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Wickham",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Mr. Denny addressed them directly, and entreated permission to introduce his friend, Mr. Wickham, who had returned with him the day before from town",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "Darcy and Bingley were seen riding down the street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Darcy and Bingley were seen riding down the street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "Darcy and Bingley were seen riding down the street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "He was then, he said, on his way to Longbourn on purpose to inquire after her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "Bingley was the principal spokesman, and Miss Bennet the principal object. He was then, he said, on his way to Longbourn on purpose to inquire after her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "LIVES_AT",
+     "object": "Meryton",
+     "evidence": "Mr. Denny and Mr. Wickham walked with the young ladies to the door of Mr. Philips’s house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "LIVES_AT",
+     "object": "Meryton",
+     "evidence": "Mr. Denny and Mr. Wickham walked with the young ladies to the door of Mr. Philips’s house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Mrs. Philips’s throwing up the parlour window",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2917,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温和"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，活泼轻浮"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，热衷嫁女"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "柯林斯的赞助人，傲慢贵族"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，牧师"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "新到民兵团军官"
+    },
+    {
+     "name": "Mrs. Philips",
+     "type": "Person",
+     "aliases": [
+      "Aunt Philips"
+     ],
+     "nickname": "菲利普斯太太",
+     "description": "班纳特太太的姐妹"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "菲利普斯太太的丈夫"
+    },
+    {
+     "name": "Mr. Jones",
+     "type": "Person",
+     "aliases": [
+      "Jones"
+     ],
+     "nickname": "琼斯先生",
+     "description": "镇上药房店主"
+    },
+    {
+     "name": "Mr. Denny",
+     "type": "Person",
+     "aliases": [
+      "Denny"
+     ],
+     "nickname": "丹尼先生",
+     "description": "民兵团军官"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家宅邸"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "尼日斐花园",
+     "description": "彬格莱租住的庄园"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "英国首都"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces; and the two eldest",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "Mr. Collins on his return highly gratified Mrs. Bennet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Mrs. Philips was always glad to see her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Philips",
+     "evidence": "their aunt promised to make her husband call on Mr. Wickham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "his relationship to the young ladies who introduced him to her notice",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "his relationship to the young ladies who introduced him to her notice",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "his relationship to the young ladies who introduced him to her notice",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "his relationship to the young ladies who introduced him to her notice",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "the family from Longbourn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "they were not to send any more draughts to Netherfield, because the Miss Bennets were come away",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "they were not to send any more draughts to Netherfield, because the Miss Bennets were come away",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Denny",
+     "predicate": "HELPED",
+     "object": "George Wickham",
+     "evidence": "Mr. Denny had brought him from London",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "NATIVE_OF",
+     "object": "London",
+     "evidence": "Mr. Denny had brought him from London",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:11.002Z"
+}

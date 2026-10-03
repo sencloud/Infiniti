@@ -13,7 +13,7 @@ export function localeOf(req) {
 
 export function localizeProfile(profile, locale) {
   if (locale !== 'en' || !profile) return profile;
-  const graph = EN.graphs[profile.id] || {};
+  const graph = EN.graphs[profile.id] || (profile.category === 'topic' ? EN.topic : {});
   const types = { ...EN.types, ...(EN.typeOverrides[profile.id] || {}) };
   const predicates = { ...EN.predicates, ...(EN.predicateOverrides[profile.id] || {}) };
   return {

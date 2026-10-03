@@ -1,0 +1,968 @@
+{
+ "no": 1,
+ "title": "A Scandal in Bohemia",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8005,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在贝克街，善于推理观察"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "医生，福尔摩斯的朋友和助手，叙述者"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "The Woman",
+      "Miss Adler",
+      "Adler"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "已故女性，福尔摩斯眼中唯一重要的女人"
+    },
+    {
+     "name": "Mary Jane Cushing",
+     "type": "Person",
+     "aliases": [
+      "Mary Jane",
+      "Miss Cushing"
+     ],
+     "nickname": "玛丽·简·库欣",
+     "description": "华生家的笨拙女仆，已被解雇"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "伦敦街道，福尔摩斯和华生的住所所在地"
+    },
+    {
+     "name": "Study in Scarlet",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "血字的研究",
+     "description": "福尔摩斯调查的一起案件，华生曾参与"
+    },
+    {
+     "name": "Trepoff murder",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "特雷波夫谋杀案",
+     "description": "福尔摩斯在敖德萨处理的案件"
+    },
+    {
+     "name": "Atkinson brothers tragedy",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "阿特金森兄弟惨案",
+     "description": "福尔摩斯在亭可马里处理的案件"
+    },
+    {
+     "name": "Holland mission",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "荷兰王室任务",
+     "description": "福尔摩斯为荷兰王室成功完成的任务"
+    },
+    {
+     "name": "pink-tinted notepaper",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "粉色信纸",
+     "description": "一封匿名信，约见福尔摩斯"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "I knew little of my former friend and companion.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "my way led me through Baker Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "remained in our lodgings in Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Study in Scarlet",
+     "evidence": "the dark incidents of the Study in Scarlet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Trepoff murder",
+     "evidence": "his summons to Odessa in the case of the Trepoff murder",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Atkinson brothers tragedy",
+     "evidence": "his clearing up of the singular tragedy of the Atkinson brothers at Trincomalee",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Holland mission",
+     "evidence": "the mission which he had accomplished so delicately and successfully for the reigning family of Holland",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Jane Cushing",
+     "predicate": "SERVANT_OF",
+     "object": "John Watson",
+     "evidence": "my wife has given her notice",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "OWNS",
+     "object": "pink-tinted notepaper",
+     "evidence": "He threw over a sheet of thick, pink-tinted notepaper",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 8013,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在伦敦贝克街221B。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "Doctor",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的朋友和助手，医生。"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "Adler",
+      "Miss Adler",
+      "The Woman"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "出生于新泽西，女低音歌唱家，曾与国王有染。"
+    },
+    {
+     "name": "House of Ormstein",
+     "type": "Organization",
+     "aliases": [
+      "Ormstein"
+     ],
+     "nickname": "奥姆斯坦家族",
+     "description": "波希米亚的世袭王室家族。"
+    },
+    {
+     "name": "Bohemia",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "波希米亚",
+     "description": "德语国家，奥姆斯坦家族所在地。"
+    },
+    {
+     "name": "Prague",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布拉格",
+     "description": "波希米亚城市，国王从此地秘密前来。"
+    },
+    {
+     "name": "Warsaw",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "华沙",
+     "description": "国王五年前访问并结识艾琳·艾德勒的城市。"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "艾琳·艾德勒目前居住的城市。"
+    },
+    {
+     "name": "New Jersey",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "新泽西",
+     "description": "艾琳·艾德勒的出生地。"
+    },
+    {
+     "name": "compromising letters",
+     "type": "Item",
+     "aliases": [
+      "letters"
+     ],
+     "nickname": "密信",
+     "description": "国王写给艾琳·艾德勒的私人信件，可能被用于勒索。"
+    },
+    {
+     "name": "photograph",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "照片",
+     "description": "国王与艾琳·艾德勒的合影，可能被用于勒索。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "This is my friend and colleague, Dr. Watson, who is occasionally good enough to help me in my cases.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "HELPED",
+     "object": "Sherlock Holmes",
+     "evidence": "This is my friend and colleague, Dr. Watson, who is occasionally good enough to help me in my cases.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "MEMBER_OF",
+     "object": "House of Ormstein",
+     "evidence": "the matter implicates the great House of Ormstein, hereditary kings of Bohemia.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "LIVES_AT",
+     "object": "Bohemia",
+     "evidence": "hereditary King of Bohemia",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "VISITED",
+     "object": "Warsaw",
+     "evidence": "during a lengthy visit to Warsaw, I made the acquaintance of the well-known adventuress, Irene Adler.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "VISITED",
+     "object": "Prague",
+     "evidence": "I have come incognito from Prague for the purpose of consulting you.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "OWNS",
+     "object": "compromising letters",
+     "evidence": "wrote her some compromising letters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "OWNS",
+     "object": "photograph",
+     "evidence": "We were both in the photograph.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "LIVES_AT",
+     "object": "London",
+     "evidence": "Living in London—quite so!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "NATIVE_OF",
+     "object": "New Jersey",
+     "evidence": "Born in New Jersey in the year 1858.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I have come incognito from Prague for the purpose of consulting you.",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7812,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，受国王委托取回照片"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的朋友与记录者"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "The Woman",
+      "Miss Adler",
+      "Adler"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "持有国王照片的女子，曾与国王有恋情"
+    },
+    {
+     "name": "Godfrey Norton",
+     "type": "Person",
+     "aliases": [
+      "Mr. Norton",
+      "Norton"
+     ],
+     "nickname": "戈弗雷·诺顿",
+     "description": "内殿律师，频繁拜访艾琳·艾德勒"
+    },
+    {
+     "name": "Clotilde Lothman von Saxe-Meningen",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "克洛蒂尔德",
+     "description": "斯堪的纳维亚国王次女，国王的未婚妻"
+    },
+    {
+     "name": "Briony Lodge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布赖厄尼别墅",
+     "description": "艾琳·艾德勒的住所，位于圣约翰伍德"
+    },
+    {
+     "name": "Langham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "朗廷酒店",
+     "description": "国王在伦敦下榻的酒店"
+    },
+    {
+     "name": "photograph",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "照片",
+     "description": "国王与艾琳的合影，用于威胁国王"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "LOVES",
+     "object": "Irene Adler",
+     "evidence": "I was only Crown Prince then. I was young.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "LOVES",
+     "object": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "evidence": "Rather than I should marry another woman, there are no lengths to which she would not go—none.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "SPOUSE",
+     "object": "Clotilde Lothman von Saxe-Meningen",
+     "evidence": "I am about to be married. To Clotilde Lothman von Saxe-Meningen, second daughter of the King of Scandinavia.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "OWNS",
+     "object": "photograph",
+     "evidence": "She has the photograph.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "LIVES_AT",
+     "object": "Briony Lodge",
+     "evidence": "Is Briony Lodge, Serpentine Avenue, St. John's Wood.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "LIVES_AT",
+     "object": "Langham",
+     "evidence": "You will find me at the Langham under the name of the Count Von Kramm.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "You have carte blanche.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Irene Adler",
+     "evidence": "I suppose that you have been watching the habits, and perhaps the house, of Miss Irene Adler.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Godfrey Norton",
+     "predicate": "VISITED",
+     "object": "Irene Adler",
+     "evidence": "He is a Mr. Godfrey Norton, of the Inner Temple. See the advantages of a cabman as a confidant. They had driven him home a dozen times from Serpentine-mews, and knew all about him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "FRIEND",
+     "object": "John Watson",
+     "evidence": "If you will be good enough to call to-morrow afternoon at three o'clock I should like to chat this little matter over with you.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7888,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，本篇中调查艾琳·艾德勒并参与其婚礼"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Doctor",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的搭档，本篇中协助其行动"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "Miss Adler",
+      "Adler",
+      "The Woman",
+      "Miss Irene"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "本篇女主角，与戈弗雷·诺顿结婚"
+    },
+    {
+     "name": "Godfrey Norton",
+     "type": "Person",
+     "aliases": [
+      "Mr. Norton",
+      "Norton"
+     ],
+     "nickname": "戈弗雷·诺顿",
+     "description": "律师，与艾琳·艾德勒结婚"
+    },
+    {
+     "name": "Briony Lodge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布赖厄尼别墅",
+     "description": "艾琳·艾德勒的住所"
+    },
+    {
+     "name": "Church of St. Monica",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣莫尼卡教堂",
+     "description": "艾琳·艾德勒与戈弗雷·诺顿举行婚礼的教堂"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯与华生的住所所在地"
+    },
+    {
+     "name": "Serpentine Avenue",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "蛇形大道",
+     "description": "布赖厄尼别墅所在的街道"
+    },
+    {
+     "name": "Irene Adler and Godfrey Norton's wedding",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "艾琳·艾德勒与戈弗雷·诺顿的婚礼",
+     "description": "在圣莫尼卡教堂举行的婚礼，福尔摩斯担任证人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Irene Adler",
+     "predicate": "SPOUSE",
+     "object": "Godfrey Norton",
+     "evidence": "assisting in the secure tying up of Irene Adler, spinster, to Godfrey Norton, bachelor",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Irene Adler and Godfrey Norton's wedding",
+     "evidence": "I was half-dragged up to the altar, and before I knew where I was I found myself mumbling responses",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Irene Adler and Godfrey Norton's wedding",
+     "predicate": "OCCURRED_AT",
+     "object": "Church of St. Monica",
+     "evidence": "The Church of St. Monica, John",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "LIVES_AT",
+     "object": "Briony Lodge",
+     "evidence": "a hansom cab drove up to Briony Lodge",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Briony Lodge",
+     "evidence": "we found ourselves in Serpentine Avenue",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Church of St. Monica",
+     "evidence": "I paid the man and hurried into the church",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Church of St. Monica",
+     "evidence": "I paid the man and hurried into the church",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "we left Baker Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "we left Baker Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Irene Adler",
+     "evidence": "I was still balancing the matter in my mind when a hansom cab drove up to Briony Lodge",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "HELPED",
+     "object": "Sherlock Holmes",
+     "evidence": "I shall want your co-operation",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7887,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查艾琳·艾德勒照片案"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "The Woman",
+      "Miss Adler",
+      "Adler"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "与戈弗雷·诺顿结婚，持有照片"
+    },
+    {
+     "name": "Godfrey Norton",
+     "type": "Person",
+     "aliases": [
+      "Mr. Norton",
+      "Norton"
+     ],
+     "nickname": "戈弗雷·诺顿",
+     "description": "艾琳·艾德勒的丈夫"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Doctor",
+      "I"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，协助福尔摩斯"
+    },
+    {
+     "name": "Briony Lodge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布赖奥尼别墅",
+     "description": "艾琳·艾德勒的住所"
+    },
+    {
+     "name": "the photograph",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "照片",
+     "description": "艾琳·艾德勒持有的关键照片"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Irene Adler",
+     "predicate": "SPOUSE",
+     "object": "Godfrey Norton",
+     "evidence": "this marriage rather simplifies matters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "LIVES_AT",
+     "object": "Briony Lodge",
+     "evidence": "It was a smart little landau which rattled up to the door of Briony Lodge.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "OWNS",
+     "object": "the photograph",
+     "evidence": "She would rush to secure it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "the photograph",
+     "evidence": "Our quest is practically finished.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "HELPED",
+     "object": "Sherlock Holmes",
+     "evidence": "You did it very nicely, Doctor",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "DECEIVED",
+     "object": "Irene Adler",
+     "evidence": "I will get her to show me.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 6481,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，受波希米亚国王委托取回照片"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Dr. Watson",
+      "Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "The Woman",
+      "Miss Adler",
+      "Adler",
+      "Irene Norton"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "女演员，后嫁戈弗雷·诺顿，识破福尔摩斯"
+    },
+    {
+     "name": "Godfrey Norton",
+     "type": "Person",
+     "aliases": [
+      "Mr. Norton",
+      "Norton"
+     ],
+     "nickname": "戈弗雷·诺顿",
+     "description": "英国律师，艾琳·艾德勒的丈夫"
+    },
+    {
+     "name": "Briony Lodge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布里奥尼别墅",
+     "description": "艾琳·艾德勒的住所"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯的住所"
+    },
+    {
+     "name": "Serpentine Avenue",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "蛇形大道",
+     "description": "布里奥尼别墅所在街道"
+    },
+    {
+     "name": "Charing Cross",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "查令十字车站",
+     "description": "艾琳与丈夫乘火车离开的车站"
+    },
+    {
+     "name": "A Scandal in Bohemia",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "波希米亚丑闻",
+     "description": "国王委托福尔摩斯取回艾琳照片的案件"
+    },
+    {
+     "name": "photograph",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "照片",
+     "description": "艾琳与国王的合影，用于要挟"
+    },
+    {
+     "name": "letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "信",
+     "description": "艾琳留给福尔摩斯的信"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "CLIENT_OF",
+     "object": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "evidence": "I must wire to the King without delay.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "A Scandal in Bohemia",
+     "evidence": "I am sorry that I have not been able to bring your Majesty’s business to a more successful conclusion.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "SPOUSE",
+     "object": "Godfrey Norton",
+     "evidence": "Irene Adler is married... To an English lawyer named Norton.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "LOVES",
+     "object": "Godfrey Norton",
+     "evidence": "I love and am loved by a better man than he.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Godfrey Norton",
+     "predicate": "LOVES",
+     "object": "Irene Adler",
+     "evidence": "I love and am loved by a better man than he.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "DECEIVED",
+     "object": "Sherlock Holmes",
+     "evidence": "You took me in completely.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "DECEIVED",
+     "object": "Irene Adler",
+     "evidence": "Even after I became suspicious, I found it hard to think evil of such a dear, kind old clergyman.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "LIVES_AT",
+     "object": "Briony Lodge",
+     "evidence": "The door of Briony Lodge was open, and an elderly woman stood upon the steps.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "We had reached Baker Street and had stopped at the door.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Briony Lodge",
+     "evidence": "We descended and started off once more for Briony Lodge.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "VISITED",
+     "object": "Charing Cross",
+     "evidence": "She left this morning with her husband by the 5:15 train from Charing Cross for the Continent.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "OWNS",
+     "object": "photograph",
+     "evidence": "I keep it only to safeguard myself, and to preserve a weapon which will always secure me from any steps which he might take in the future.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "OWNS",
+     "object": "photograph",
+     "evidence": "This photograph!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Irene Adler",
+     "predicate": "OWNS",
+     "object": "letter",
+     "evidence": "The photograph was of Irene Adler herself in evening dress, the letter was superscribed to “Sherlock Holmes, Esq. To be left till called for.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "A Scandal in Bohemia",
+     "predicate": "OCCURRED_AT",
+     "object": "Briony Lodge",
+     "evidence": "The door of Briony Lodge was open, and an elderly woman stood upon the steps.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:10.825Z"
+}

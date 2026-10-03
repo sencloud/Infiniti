@@ -1,0 +1,161 @@
+{
+ "no": 18,
+ "title": "Hall in Capulet’s House",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2240,
+   "entities": [
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，与罗密欧相爱"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "朱丽叶之父，凯普莱特家族家长"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "朱丽叶之母，凯普莱特之妻"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，朱丽叶的求婚者"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar Lawrence",
+      "Friar",
+      "the Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "方济各会神父，为罗密欧与朱丽叶主持秘密婚礼"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的乳母与心腹"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "维罗纳两大世仇家族之一"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "What, is my daughter gone to Friar Lawrence?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Go thou to Juliet, help to deck up her.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "SPOUSE",
+     "object": "Lady Capulet",
+     "evidence": "all things shall be well, I warrant thee, wife.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "What, is my daughter gone to Friar Lawrence?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Enter Capulet, Lady Capulet, Nurse and Servants.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Enter Capulet, Lady Capulet, Nurse and Servants.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "Nurse, will you go with me into my closet, To help me sort such needful ornaments",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet Capulet",
+     "evidence": "Send for the County, go tell him of this. I’ll have this knot knit up tomorrow morning.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Paris",
+     "evidence": "I met the youthful lord at Lawrence’ cell, And gave him what becomed love I might, Not stepping o’er the bounds of modesty.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "HELPED",
+     "object": "Juliet Capulet",
+     "evidence": "Well, he may chance to do some good on her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "VISITED",
+     "object": "Friar Laurence",
+     "evidence": "What, is my daughter gone to Friar Lawrence?",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:02.967Z"
+}

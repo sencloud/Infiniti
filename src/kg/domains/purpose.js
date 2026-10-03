@@ -104,9 +104,17 @@ const FALLBACK = {
   en: { goal: 'Understand how the people and ideas in the book relate, and which passages support each link.', focus: 'key relations and their sources', questions: [] },
 };
 
+/** 专题的学习目的随配置注册进来 */
+const EXTRA = new Map();
+
+export function setPurpose(graphId, purpose) {
+  if (purpose) EXTRA.set(graphId, purpose);
+  else EXTRA.delete(graphId);
+}
+
 export function purposeOf(graphId, locale = 'zh') {
   const lang = locale === 'en' ? 'en' : 'zh';
-  return PURPOSES[graphId]?.[lang] || FALLBACK[lang];
+  return (PURPOSES[graphId] || EXTRA.get(graphId))?.[lang] || FALLBACK[lang];
 }
 
 /** 写进提示词的一段「学习目的」说明 */

@@ -1,0 +1,1097 @@
+{
+ "no": 2,
+ "title": "The Red-Headed League",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7998,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，与华生交好，侦办红发会案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Doctor",
+      "Dr. Watson"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的朋友与记录者，叙述者"
+    },
+    {
+     "name": "Jabez Wilson",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wilson",
+      "Wilson"
+     ],
+     "nickname": "杰贝兹·威尔逊",
+     "description": "红发当铺老板，红发会委托人"
+    },
+    {
+     "name": "Duncan Ross",
+     "type": "Person",
+     "aliases": [
+      "Ross",
+      "Mr. Ross"
+     ],
+     "nickname": "邓肯·罗斯",
+     "description": "红发会广告中指定的联系人"
+    },
+    {
+     "name": "Mary Sutherland",
+     "type": "Person",
+     "aliases": [
+      "Miss Sutherland",
+      "Mary"
+     ],
+     "nickname": "玛丽·萨瑟兰",
+     "description": "此前案件中的委托人，仅被提及"
+    },
+    {
+     "name": "The Red-Headed League",
+     "type": "Organization",
+     "aliases": [
+      "Red-Headed League"
+     ],
+     "nickname": "红发会",
+     "description": "以高薪雇佣红发男子的组织"
+    },
+    {
+     "name": "Coburg Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "科伯格广场",
+     "description": "威尔逊当铺所在地，靠近伦敦城"
+    },
+    {
+     "name": "7 Pope's Court, Fleet Street",
+     "type": "Place",
+     "aliases": [
+      "offices of the League"
+     ],
+     "nickname": "舰队街教皇院7号",
+     "description": "红发会办公室所在地"
+    },
+    {
+     "name": "The Morning Chronicle of April 27, 1890",
+     "type": "Item",
+     "aliases": [
+      "newspaper",
+      "advertisement"
+     ],
+     "nickname": "《纪事晨报》",
+     "description": "刊登红发会招聘广告的报纸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "I had called upon my friend, Mr. Sherlock Holmes",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Mr. Jabez Wilson here has been good enough to call upon me this morning",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Jabez Wilson",
+     "evidence": "the present case is an instance of crime or not",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "LIVES_AT",
+     "object": "Coburg Square",
+     "evidence": "I have a small pawnbroker’s business at Coburg Square, near the City",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "OWNS",
+     "object": "The Morning Chronicle of April 27, 1890",
+     "evidence": "pulled a dirty and wrinkled newspaper from the inside pocket of his greatcoat",
+     "confidence": 0.9
+    },
+    {
+     "subject": "The Morning Chronicle of April 27, 1890",
+     "predicate": "OWNS",
+     "object": "The Red-Headed League",
+     "evidence": "TO THE RED-HEADED LEAGUE: On account of the bequest of the late Ezekiah Hopkins",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Duncan Ross",
+     "predicate": "MEMBER_OF",
+     "object": "The Red-Headed League",
+     "evidence": "Apply in person on Monday, at eleven o’clock, to Duncan Ross, at the offices of the League",
+     "confidence": 0.9
+    },
+    {
+     "subject": "The Red-Headed League",
+     "predicate": "LIVES_AT",
+     "object": "7 Pope's Court, Fleet Street",
+     "evidence": "at the offices of the League, 7 Pope’s Court, Fleet Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "PARTICIPATED_IN",
+     "object": "The Red-Headed League",
+     "evidence": "This is what began it all",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7798,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "咨询侦探，本篇委托人威尔逊向他求助"
+    },
+    {
+     "name": "Jabez Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson",
+      "Mr. Wilson"
+     ],
+     "nickname": "杰贝兹·威尔逊",
+     "description": "红发会申请人，当铺老板，鳏夫"
+    },
+    {
+     "name": "Vincent Spaulding",
+     "type": "Person",
+     "aliases": [
+      "Spaulding",
+      "Mr. Spaulding"
+     ],
+     "nickname": "斯波尔丁",
+     "description": "威尔逊的助手，爱好摄影，常下地窖"
+    },
+    {
+     "name": "Duncan Ross",
+     "type": "Person",
+     "aliases": [
+      "Ross",
+      "Mr. Ross"
+     ],
+     "nickname": "邓肯·罗斯",
+     "description": "红发会办公室经理，负责审核申请人"
+    },
+    {
+     "name": "Ezekiah Hopkins",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "伊齐基亚·霍普金斯",
+     "description": "已故美国百万富翁，红发会创始人"
+    },
+    {
+     "name": "League of the Red-headed Men",
+     "type": "Organization",
+     "aliases": [
+      "the League"
+     ],
+     "nickname": "红发会",
+     "description": "由美国百万富翁创立的团体，为红发男子提供职位"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Vincent Spaulding",
+     "predicate": "SERVANT_OF",
+     "object": "Jabez Wilson",
+     "evidence": "His name is Vincent Spaulding, and he’s not such a youth, either.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "MEMBER_OF",
+     "object": "League of the Red-headed Men",
+     "evidence": "This is Mr. Jabez Wilson,’ said my assistant, ‘and he is willing to fill a vacancy in the League.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Duncan Ross",
+     "predicate": "MEMBER_OF",
+     "object": "League of the Red-headed Men",
+     "evidence": "My name,’ said he, ‘is Mr. Duncan Ross, and I am myself one of the pensioners upon the fund left by our noble benefactor.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Ezekiah Hopkins",
+     "predicate": "MEMBER_OF",
+     "object": "League of the Red-headed Men",
+     "evidence": "the League was founded by an American millionaire, Ezekiah Hopkins",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "remarked Holmes as his client paused and refreshed his memory with a huge pinch of snuff.",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7898,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，接受威尔逊委托调查红发会案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "Jabez Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson",
+      "Mr. Wilson",
+      "Mr. Jabez Wilson"
+     ],
+     "nickname": "杰贝兹·威尔逊",
+     "description": "红发会案委托人，红发当铺老板"
+    },
+    {
+     "name": "Vincent Spaulding",
+     "type": "Person",
+     "aliases": [
+      "Spaulding",
+      "Mr. Spaulding"
+     ],
+     "nickname": "斯波尔丁",
+     "description": "威尔逊的助手，建议其应聘红发会"
+    },
+    {
+     "name": "Duncan Ross",
+     "type": "Person",
+     "aliases": [
+      "Ross",
+      "Mr. Ross",
+      "Mr. Duncan Ross"
+     ],
+     "nickname": "邓肯·罗斯",
+     "description": "红发会管理人，后消失"
+    },
+    {
+     "name": "William Morris",
+     "type": "Person",
+     "aliases": [
+      "Morris",
+      "Mr. Morris",
+      "Mr. William Morris"
+     ],
+     "nickname": "威廉·莫里斯",
+     "description": "据称是红发会办公室的律师，实为化名"
+    },
+    {
+     "name": "The Red-Headed League",
+     "type": "Organization",
+     "aliases": [
+      "Red-headed League"
+     ],
+     "nickname": "红发会",
+     "description": "以高薪抄写为名雇佣红发人的组织，后解散"
+    },
+    {
+     "name": "Pope's Court",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "教皇院",
+     "description": "红发会办公室所在地"
+    },
+    {
+     "name": "Saxe-Coburg Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "萨克森-科堡广场",
+     "description": "威尔逊当铺和住所所在地"
+    },
+    {
+     "name": "17 King Edward Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "国王爱德华街17号",
+     "description": "威廉·莫里斯声称的新办公室地址"
+    },
+    {
+     "name": "The Red-Headed League case",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "红发会案",
+     "description": "威尔逊被红发会雇佣后突然解雇的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I came right away to you.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Red-Headed League case",
+     "evidence": "I shall be happy to look into it.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Vincent Spaulding",
+     "predicate": "SERVANT_OF",
+     "object": "Jabez Wilson",
+     "evidence": "I knew that my assistant was a good man",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duncan Ross",
+     "predicate": "SERVANT_OF",
+     "object": "The Red-Headed League",
+     "evidence": "Mr. Duncan Ross was there to see that I got fairly to work.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "William Morris",
+     "predicate": "SERVANT_OF",
+     "object": "The Red-Headed League",
+     "evidence": "his name was William Morris. He was a solicitor and was using my room as a temporary convenience",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "PARTICIPATED_IN",
+     "object": "The Red-Headed League case",
+     "evidence": "I have lost four pound a week.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "The Red-Headed League case",
+     "predicate": "OCCURRED_AT",
+     "object": "Pope's Court",
+     "evidence": "I started off for Pope’s Court.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "LIVES_AT",
+     "object": "Saxe-Coburg Square",
+     "evidence": "I went home to Saxe-Coburg Square",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "VISITED",
+     "object": "17 King Edward Street",
+     "evidence": "I started off, Mr. Holmes, but when I got to that address",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Vincent Spaulding",
+     "predicate": "HELPED",
+     "object": "Jabez Wilson",
+     "evidence": "Vincent Spaulding did what he could to cheer me up",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Duncan Ross",
+     "predicate": "DECEIVED",
+     "object": "Jabez Wilson",
+     "evidence": "the whole affair must be some great hoax or fraud",
+     "confidence": 0.8
+    },
+    {
+     "subject": "William Morris",
+     "predicate": "DECEIVED",
+     "object": "Jabez Wilson",
+     "evidence": "no one in it had ever heard of either Mr. William Morris or Mr. Duncan Ross.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 8047,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查红发会案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "医生，福尔摩斯的助手与记录者"
+    },
+    {
+     "name": "Jabez Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson",
+      "Mr. Wilson"
+     ],
+     "nickname": "杰贝兹·威尔逊",
+     "description": "红发会委托人，当铺老板"
+    },
+    {
+     "name": "Vincent Spaulding",
+     "type": "Person",
+     "aliases": [
+      "Spaulding",
+      "Mr. Spaulding"
+     ],
+     "nickname": "斯波尔丁",
+     "description": "威尔逊的助手，实为罪犯"
+    },
+    {
+     "name": "Saxe-Coburg Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "萨克森-科堡广场",
+     "description": "威尔逊当铺所在地"
+    },
+    {
+     "name": "St. James's Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣詹姆斯音乐厅",
+     "description": "伦敦音乐厅，福尔摩斯听音乐会处"
+    },
+    {
+     "name": "City and Suburban Bank",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "城市与郊区银行",
+     "description": "银行，位于科堡广场附近"
+    },
+    {
+     "name": "Red-headed League",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "红发会",
+     "description": "红发会案件，威尔逊被诱骗参与"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Vincent Spaulding",
+     "predicate": "SERVANT_OF",
+     "object": "Jabez Wilson",
+     "evidence": "This assistant of yours who first called your attention to the advertisement—how long had he been with you?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I shall be happy to give you an opinion upon the subject in the course of a day or two.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Red-headed League",
+     "evidence": "This business at Coburg Square is serious.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "LIVES_AT",
+     "object": "Saxe-Coburg Square",
+     "evidence": "Three gilt balls and a brown board with “JABEZ WILSON” in white letters, upon a corner house, announced the place where our red-headed client carried on his business.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Saxe-Coburg Square",
+     "evidence": "We travelled by the Underground as far as Aldersgate; and a short walk took us to Saxe-Coburg Square",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "St. James's Hall",
+     "evidence": "Sarasate plays at the St. James’s Hall this afternoon",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "St. James's Hall",
+     "evidence": "When I saw him that afternoon so enwrapped in the music at St. James’s Hall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "City and Suburban Bank",
+     "predicate": "LIVES_AT",
+     "object": "Saxe-Coburg Square",
+     "evidence": "the Coburg branch of the City and Suburban Bank",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "FRIEND",
+     "object": "John Watson",
+     "evidence": "Well, Watson, what do you make of it all?",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7880,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，侦办红发会案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Doctor",
+      "Dr. Watson"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴与记录者"
+    },
+    {
+     "name": "Athelney Jones",
+     "type": "Person",
+     "aliases": [
+      "Jones",
+      "Peter Jones",
+      "Inspector Jones"
+     ],
+     "nickname": "琼斯",
+     "description": "苏格兰场警官，参与红发会案"
+    },
+    {
+     "name": "Merryweather",
+     "type": "Person",
+     "aliases": [
+      "Mr. Merryweather"
+     ],
+     "nickname": "梅里韦瑟",
+     "description": "银行董事，红发会案委托人"
+    },
+    {
+     "name": "John Clay",
+     "type": "Person",
+     "aliases": [
+      "Clay",
+      "Mr. Clay"
+     ],
+     "nickname": "约翰·克莱",
+     "description": "罪犯，红发会案目标"
+    },
+    {
+     "name": "Scotland Yard",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "苏格兰场",
+     "description": "伦敦警察机构"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯住所所在街道"
+    },
+    {
+     "name": "Kensington",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "肯辛顿",
+     "description": "华生住所所在区域"
+    },
+    {
+     "name": "Saxe-Coburg Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "萨克森-科堡广场",
+     "description": "红发会案相关地点"
+    },
+    {
+     "name": "Farrington Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "法林顿街",
+     "description": "银行所在地街道"
+    },
+    {
+     "name": "French gold",
+     "type": "Item",
+     "aliases": [
+      "30,000 napoleons"
+     ],
+     "nickname": "法国金币",
+     "description": "银行地窖中的金币"
+    },
+    {
+     "name": "Red-Headed League case",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "红发会案",
+     "description": "福尔摩斯侦办的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Kensington",
+     "evidence": "As I drove home to my house in Kensington",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "I shall be at Baker Street at ten.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Baker Street",
+     "evidence": "I started from home and made my way across the Park, and so through Oxford Street to Baker Street.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Saxe-Coburg Square",
+     "evidence": "the visit to Saxe-Coburg Square",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Athelney Jones",
+     "predicate": "MEMBER_OF",
+     "object": "Scotland Yard",
+     "evidence": "Mr. Jones, of Scotland Yard",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Merryweather",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Red-Headed League case",
+     "evidence": "Mr. Merryweather, who is to be our companion in to-night’s adventure.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Athelney Jones",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Red-Headed League case",
+     "evidence": "I thought it as well to have Jones with us also.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Red-Headed League case",
+     "evidence": "I had the hint from Holmes that this smooth-faced pawnbroker’s assistant was a formidable man",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "John Clay",
+     "evidence": "I’ve had one or two little turns also with Mr. John Clay",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Athelney Jones",
+     "predicate": "INVESTIGATED",
+     "object": "John Clay",
+     "evidence": "I’ve been on his track for years and have never set eyes on him yet.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Clay",
+     "predicate": "STOLE",
+     "object": "French gold",
+     "evidence": "there are reasons why the more daring criminals of London should take a considerable interest in this cellar at present.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Red-Headed League case",
+     "predicate": "OCCURRED_AT",
+     "object": "City branch of one of the principal London banks",
+     "evidence": "we are at present, Doctor—as no doubt you have divined—in the cellar of the City branch of one of the principal London banks.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Merryweather",
+     "predicate": "OWNS",
+     "object": "French gold",
+     "evidence": "It is our French gold",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 7391,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，侦破红发会案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴，叙述者"
+    },
+    {
+     "name": "Athelney Jones",
+     "type": "Person",
+     "aliases": [
+      "Jones",
+      "Inspector Jones"
+     ],
+     "nickname": "琼斯",
+     "description": "苏格兰场警探，参与抓捕"
+    },
+    {
+     "name": "John Clay",
+     "type": "Person",
+     "aliases": [
+      "Clay",
+      "Mr. Clay"
+     ],
+     "nickname": "约翰·克莱",
+     "description": "罪犯，红发会案主谋"
+    },
+    {
+     "name": "Archie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "阿奇",
+     "description": "克莱的同伙，红发"
+    },
+    {
+     "name": "Merryweather",
+     "type": "Person",
+     "aliases": [
+      "Mr. Merryweather"
+     ],
+     "nickname": "梅里韦瑟",
+     "description": "银行董事，参与抓捕"
+    },
+    {
+     "name": "Red-headed League",
+     "type": "Organization",
+     "aliases": [
+      "the League"
+     ],
+     "nickname": "红发会",
+     "description": "虚假组织，诱骗当铺老板"
+    },
+    {
+     "name": "Saxe-Coburg Square",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "萨克森-科堡广场",
+     "description": "伦敦地点，银行附近"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯住所所在街道"
+    },
+    {
+     "name": "bank robbery",
+     "type": "Event",
+     "aliases": [
+      "attempted bank robbery"
+     ],
+     "nickname": "银行抢劫案",
+     "description": "红发会案中罪犯企图抢劫银行"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Clay",
+     "predicate": "MEMBER_OF",
+     "object": "Red-headed League",
+     "evidence": "Your red-headed idea was very new and effective.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Archie",
+     "predicate": "MEMBER_OF",
+     "object": "Red-headed League",
+     "evidence": "I fancy that my pal is all right, though I see you have got his coat-tails.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "bank robbery",
+     "evidence": "There is no doubt that you have detected and defeated in the most complete manner one of the most determined attempts at bank robbery that have ever come within my experience.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Athelney Jones",
+     "predicate": "PARTICIPATED_IN",
+     "object": "bank robbery",
+     "evidence": "I have an inspector and two officers waiting at the front door.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Merryweather",
+     "predicate": "PARTICIPATED_IN",
+     "object": "bank robbery",
+     "evidence": "I do not know how the bank can thank you or repay you.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "PARTICIPATED_IN",
+     "object": "bank robbery",
+     "evidence": "I placed my revolver, cocked, upon the top of the wooden case behind which I crouched.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "bank robbery",
+     "predicate": "OCCURRED_AT",
+     "object": "Saxe-Coburg Square",
+     "evidence": "That is back through the house into Saxe-Coburg Square.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "as we sat over a glass of whisky and soda in Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Clay",
+     "predicate": "QUARRELED",
+     "object": "Sherlock Holmes",
+     "evidence": "I have had one or two little scores of my own to settle with Mr. John Clay",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Clay",
+     "predicate": "HARMED",
+     "object": "Sherlock Holmes",
+     "evidence": "they may do us some harm unless we are careful",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Archie",
+     "predicate": "HELPED",
+     "object": "John Clay",
+     "evidence": "I fancy that my pal is all right",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "chars": 1971,
+   "entities": [
+    {
+     "name": "Jabez Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson",
+      "Mr. Wilson"
+     ],
+     "nickname": "杰贝兹·威尔逊",
+     "description": "红发会委托人，当铺老板"
+    },
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes"
+     ],
+     "nickname": "夏洛克·福尔摩斯",
+     "description": "侦探，侦破红发会案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson"
+     ],
+     "nickname": "约翰·华生",
+     "description": "福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Scotland Yard",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "苏格兰场",
+     "description": "伦敦警察机构"
+    },
+    {
+     "name": "City and Suburban Bank",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "城市与郊区银行",
+     "description": "与当铺相邻的银行，目标金库"
+    },
+    {
+     "name": "The Red-Headed League",
+     "type": "Organization",
+     "aliases": [
+      "League"
+     ],
+     "nickname": "红发会",
+     "description": "伪装组织，实为盗窃团伙"
+    },
+    {
+     "name": "The Red-Headed League case",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "红发会案",
+     "description": "红发会骗局与银行盗窃未遂案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "when they closed their League offices that was a sign that they cared no longer about Mr. Jabez Wilson’s presence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Red-Headed League case",
+     "evidence": "I was ascertaining whether the cellar stretched out in front or behind.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Scotland Yard",
+     "evidence": "I called upon Scotland Yard and upon the chairman of the bank directors",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "City and Suburban Bank",
+     "evidence": "I called upon Scotland Yard and upon the chairman of the bank directors",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jabez Wilson",
+     "predicate": "MEMBER_OF",
+     "object": "The Red-Headed League",
+     "evidence": "when they closed their League offices that was a sign that they cared no longer about Mr. Jabez Wilson’s presence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "The Red-Headed League",
+     "predicate": "DECEIVED",
+     "object": "Jabez Wilson",
+     "evidence": "when they closed their League offices that was a sign that they cared no longer about Mr. Jabez Wilson’s presence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "The Red-Headed League",
+     "predicate": "HARMED",
+     "object": "Jabez Wilson",
+     "evidence": "when they closed their League offices that was a sign that they cared no longer about Mr. Jabez Wilson’s presence",
+     "confidence": 0.8
+    },
+    {
+     "subject": "The Red-Headed League case",
+     "predicate": "OCCURRED_AT",
+     "object": "City and Suburban Bank",
+     "evidence": "saw the City and Suburban Bank abutted on our friend’s premises",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:15.620Z"
+}

@@ -47,6 +47,45 @@ export function novelPredicates({ extra = [], drop = [], rename = {} } = {}) {
   ];
 }
 
+export const FOREIGN_TYPES = [
+  { code: 'Person', name: '人物', description: '书中有名有姓或有固定称呼的角色（含会说话的动物、扑克牌人物等拟人角色）' },
+  { code: 'Organization', name: '家族', description: '家族、府邸、团体与机构（如班纳特家、蒙太古家族、苏格兰场）' },
+  { code: 'Place', name: '地点', description: '庄园、城镇、宅邸、街道等具体地点' },
+  { code: 'Event', name: '事件', description: '有名目的情节事件（舞会、求婚、决斗、案件、婚礼）' },
+  { code: 'Item', name: '物品', description: '推动情节的关键物品（信件、照片、宝石、毒药）' },
+];
+
+const FOREIGN_PREDICATES = [
+  { code: 'KIN', name: '亲属', domain: P, range: P, symmetric: true, tone: 'positive', hint: 'A 与 B 有血缘或姻亲关系（父女、姐妹、姨甥、表亲等）' },
+  { code: 'SPOUSE', name: '婚配', domain: P, range: P, symmetric: true, tone: 'positive', hint: 'A 与 B 是夫妻或订婚' },
+  { code: 'LOVES', name: '爱慕', domain: P, range: P, tone: 'positive', hint: 'A 爱慕、钟情于 B' },
+  { code: 'PROPOSED_TO', name: '求婚', domain: P, range: P, hint: 'A 向 B 求婚' },
+  { code: 'FRIEND', name: '交好', domain: P, range: P, symmetric: true, tone: 'positive', hint: 'A 与 B 是朋友或关系亲近' },
+  { code: 'GUARDIAN_OF', name: '监护', domain: P, range: P, tone: 'positive', hint: 'A 抚养、监护或教导 B（如姨妈抚养外甥女、家庭教师教学生）' },
+  { code: 'SERVANT_OF', name: '雇佣', domain: P, range: PO, hint: 'A 是 B 的仆人、雇员或家庭教师（主语是被雇的一方）' },
+  { code: 'HELPED', name: '帮助', domain: PO, range: P, tone: 'positive', hint: 'A 帮助、救助、资助 B' },
+  { code: 'DECEIVED', name: '欺骗', domain: P, range: P, tone: 'hostile', hint: 'A 欺骗、诱骗、隐瞒 B' },
+  { code: 'QUARRELED', name: '冲突', domain: P, range: P, symmetric: true, tone: 'hostile', hint: 'A 与 B 争吵、敌对、结怨' },
+  { code: 'HARMED', name: '加害', domain: P, range: P, tone: 'hostile', hint: 'A 伤害、迫害、虐待 B' },
+  { code: 'KILLED', name: '致死', domain: P, range: P, tone: 'hostile', hint: 'A 杀死 B 或直接导致 B 死亡（片段明确写死）' },
+  { code: 'MEMBER_OF', name: '归属', domain: P, range: ['Organization'], hint: 'A 属于家族或团体 B' },
+  { code: 'LIVES_AT', name: '居住', domain: PO, range: ['Place'], hint: 'A 住在、拥有宅邸 B' },
+  { code: 'VISITED', name: '造访', domain: P, range: ['Place'], hint: 'A 前往、拜访、到过 B' },
+  { code: 'NATIVE_OF', name: '出身', domain: P, range: ['Place'], functional: true, hint: 'A 出生或来自 B' },
+  { code: 'PARTICIPATED_IN', name: '参与', domain: PO, range: ['Event'], hint: 'A 参加事件 B' },
+  { code: 'OCCURRED_AT', name: '发生于', domain: ['Event'], range: ['Place'], hint: '事件 A 发生在 B' },
+  { code: 'OWNS', name: '持有', domain: PO, range: ['Item'], hint: 'A 拥有、持有物品 B' },
+];
+
+/** 外国小说谓词：通用一套，按书增删改名 */
+export function foreignPredicates({ extra = [], drop = [], rename = {} } = {}) {
+  const dropSet = new Set(drop);
+  return [
+    ...FOREIGN_PREDICATES.filter((p) => !dropSet.has(p.code)).map((p) => (rename[p.code] ? { ...p, name: rename[p.code] } : p)),
+    ...extra,
+  ];
+}
+
 export const LUNYU_ONTOLOGY = {
   version: 'lunyu-v1',
   entityTypes: [

@@ -366,8 +366,10 @@
 
 .hm-cover-type.cat-literature { background: #3c5a78; }
 .hm-cover-type.cat-classics { background: #6b4a2b; }
+.hm-cover-type.cat-foreign { background: #2d4a3e; }
 .hm-cover-type.cat-subject { background: #2f6d5a; }
 .hm-cover-type.cat-people { background: #8a2f20; }
+.hm-cover-type.cat-topic { background: #4a4f6a; }
 
 [data-theme='dark'] .hm-cover-type { filter: brightness(0.82); }
 
@@ -426,6 +428,7 @@
 
 .hm-card-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-top: auto;
   padding-top: 12px;
@@ -455,6 +458,27 @@
 
 .hm-btn.ghost:hover {
   border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* 新建专题：虚线朱红框，和手机端导入卡片是同一个记号 */
+.hm-card.hm-topic-new {
+  text-decoration: none;
+  border: 1.5px dashed var(--accent-line);
+  background: transparent;
+  box-shadow: none;
+  min-height: 164px;
+}
+
+.hm-card.hm-topic-new:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.hm-topic-new-go {
+  margin-top: auto;
+  padding-top: 12px;
+  font-size: 13px;
   color: var(--accent);
 }
 

@@ -161,7 +161,31 @@ function titleG1(item: Anomaly): string {
   return i18n.t('clue.g1', { name: item.anchor_name, core, relation: `${src} ${predicateName(predicate)} ${dst}` })
 }
 
+function titleS1(item: Anomaly): string {
+  const count = Number(item.detail?.count)
+  if (!item.anchor_name || !count) return item.title
+  return i18n.t('clue.s1', { name: item.anchor_name, count })
+}
+
+function titleS2(item: Anomaly): string {
+  const detail = item.detail || {}
+  const cited = typeof detail.cited === 'string' ? detail.cited : ''
+  const newer = typeof detail.newer === 'string' ? detail.newer : ''
+  if (!item.anchor_name || !cited || !newer) return item.title
+  return i18n.t('clue.s2', { name: item.anchor_name, cited, newer })
+}
+
+function titleS3(item: Anomaly): string {
+  const sources = list<{ name?: string }>(item.detail?.sources).map((s) => s.name).filter(Boolean) as string[]
+  const names = [...new Set(sources)]
+  if (!item.anchor_name || names.length < 2) return item.title
+  return i18n.t('clue.s3', { name: item.anchor_name, count: names.length, sources: names.slice(0, 4).join(', ') })
+}
+
 const FORMAT: Record<string, (item: Anomaly) => string> = {
+  S1: titleS1,
+  S2: titleS2,
+  S3: titleS3,
   R1: titleR1,
   R2: titleR2,
   R3: titleR3,

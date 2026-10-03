@@ -1,0 +1,208 @@
+{
+ "no": 20,
+ "title": "Hall in Capulet’s House",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 1506,
+   "entities": [
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，即将嫁给帕里斯"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族家长，朱丽叶之父"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "凯普莱特之妻，朱丽叶之母"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，朱丽叶的未婚夫"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，凯普莱特家仆人"
+    },
+    {
+     "name": "Peter",
+     "type": "Person",
+     "aliases": [
+      "the Nurse's man"
+     ],
+     "nickname": "彼得",
+     "description": "奶妈的仆人"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "维罗纳的大家族，与蒙太古家族为世仇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "Go waken Juliet, go and trim her up.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Enter Lady Capulet and Nurse.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "SPOUSE",
+     "object": "Lady Capulet",
+     "evidence": "Nurse! Wife! What, ho! What, Nurse, I say!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "SPOUSE",
+     "object": "Juliet Capulet",
+     "evidence": "the bridegroom he is come already",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "House of Capulet",
+     "evidence": "Hold, take these keys and fetch more spices, Nurse.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peter",
+     "predicate": "SERVANT_OF",
+     "object": "Nurse",
+     "evidence": "Call Peter, he will show thee where they are.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Go waken Juliet, go and trim her up.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Enter Capulet.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Enter Lady Capulet and Nurse.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Hold, take these keys and fetch more spices, Nurse.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Hall in Capulet’s House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Hall in Capulet’s House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Hall in Capulet’s House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Hall in Capulet’s House",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Wedding Preparation",
+     "evidence": "Come, stir, stir, stir! The second cock hath crow’d, The curfew bell hath rung, ’tis three o’clock. Look to the bak’d meats, good Angelica; Spare not for cost.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Wedding Preparation",
+     "evidence": "Hold, take these keys and fetch more spices, Nurse.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Wedding Preparation",
+     "evidence": "They call for dates and quinces in the pastry.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Wedding Preparation",
+     "predicate": "OCCURRED_AT",
+     "object": "Capulet's House",
+     "evidence": "Hall in Capulet’s House",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:03.308Z"
+}

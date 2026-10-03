@@ -1,0 +1,348 @@
+{
+ "no": 35,
+ "title": "He did not leave for Cambridge the next day,…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7923,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，拒绝圣约翰求婚"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简·爱的表兄，牧师，曾向简求婚"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Grace",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "桑菲尔德府仆人，本片段未直接出现"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫，本片段未直接出现"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "we were near relations",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "You said I could not unless I married you.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "this man, alienated as he now was, had once saved my life",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "QUARRELED",
+     "object": "St. John Rivers",
+     "evidence": "I am unhappy because you are still angry with me.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7846,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与圣约翰有表亲关系，拒绝其求婚"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "简·爱爱慕的对象，桑菲尔德庄园主人"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，简·爱的表兄，曾向简求婚"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的妹妹，简·爱的表姐，关心简"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰的妹妹，简·爱的表姐"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "与简·爱无直接互动，仅提及"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫，仅提及"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "as a sister, I love you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "as a sister, I love you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "as a sister, I love you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "That brother of mine",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "That brother of mine",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "Mary and I had both concluded",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "He does—he has asked me to be his wife.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "You think of Mr. Rochester? It was true. I confessed it by silence.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "Tell me what business St. John and you have on hands.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "Mary and I had both concluded he wished you to marry him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "I offered to accompany him as his sister",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7487,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，独立坚韧，追求真爱与自由。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主，简·爱的爱人。"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，简·爱的表兄，曾向她求婚。"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的妹妹，简·爱的朋友。"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰的妹妹，简·爱的朋友。"
+    },
+    {
+     "name": "Marsh Glen",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沼泽谷",
+     "description": "沼泽居附近的山谷。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "If I listened to human pride, I should say no more to you of marriage with me",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "it was the voice of a human being—a known, loved, well-remembered voice—that of Edward Fairfax Rochester",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "Diana and Mary having kissed him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "Diana and Mary having kissed him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Marsh Glen",
+     "evidence": "The hills beyond Marsh Glen sent the answer faintly back",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:39.786Z"
+}

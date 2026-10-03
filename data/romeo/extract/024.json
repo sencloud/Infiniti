@@ -1,0 +1,679 @@
+{
+ "no": 24,
+ "title": "A churchyard; in it a Monument belonging to the Capulets",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8036,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古之子，与朱丽叶相爱"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，与罗密欧相爱"
+    },
+    {
+     "name": "Lord Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague",
+      "Old Montague"
+     ],
+     "nickname": "蒙太古",
+     "description": "蒙太古家族族长，罗密欧之父"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，被罗密欧杀死"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，欲娶朱丽叶，被罗密欧杀死"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar",
+      "the Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "帮助罗密欧与朱丽叶秘密结婚的神父"
+    },
+    {
+     "name": "Mercutio",
+     "type": "Person",
+     "aliases": [
+      "the Prince's kinsman"
+     ],
+     "nickname": "茂丘西奥",
+     "description": "亲王的亲戚，罗密欧的朋友，已死"
+    },
+    {
+     "name": "Balthasar",
+     "type": "Person",
+     "aliases": [
+      "Romeo's man"
+     ],
+     "nickname": "鲍尔萨泽",
+     "description": "罗密欧的仆人"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet",
+      "Capels"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇"
+    },
+    {
+     "name": "Capulets' monument",
+     "type": "Place",
+     "aliases": [
+      "monument",
+      "tomb",
+      "vault",
+      "sepulchre"
+     ],
+     "nickname": "凯普莱特家族墓地",
+     "description": "凯普莱特家族的墓地，位于教堂墓地"
+    },
+    {
+     "name": "churchyard",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "教堂墓地",
+     "description": "教堂庭院，内有凯普莱特家族墓地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KIN",
+     "object": "Lord Montague",
+     "evidence": "See thou deliver it to my lord and father.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Tybalt Capulet",
+     "evidence": "That murder'd my love's cousin",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "SPOUSE",
+     "object": "Juliet Capulet",
+     "evidence": "O my love, my wife",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "Here's to my love!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "Sweet flower, with flowers thy bridal bed I strew.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet Capulet",
+     "evidence": "He told me Paris should have married Juliet.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Paris",
+     "evidence": "PARIS. O, I am slain! [Falls.]",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "with that hand that cut thy youth in twain",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "This is that banish'd haughty Montague",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "it burneth in the Capels' monument.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "This is that banish'd haughty Montague That murder'd my love's cousin",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Balthasar",
+     "predicate": "SERVANT_OF",
+     "object": "Romeo Montague",
+     "evidence": "there's my master, One that you love.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "HELPED",
+     "object": "Juliet Capulet",
+     "evidence": "Come, I'll dispose of thee Among a sisterhood of holy nuns.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Capulets' monument",
+     "evidence": "Why I descend into this bed of death",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "VISITED",
+     "object": "Capulets' monument",
+     "evidence": "Sweet flower, with flowers thy bridal bed I strew.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "VISITED",
+     "object": "Capulets' monument",
+     "evidence": "I do remember well where I should be, And there I am.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "VISITED",
+     "object": "Capulets' monument",
+     "evidence": "Enter, at the other end of the Churchyard, Friar Lawrence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Capulets' monument",
+     "predicate": "OCCURRED_AT",
+     "object": "churchyard",
+     "evidence": "A churchyard; in it a Monument belonging to the Capulets",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 6635,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古之子，与朱丽叶相爱并秘密结婚"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，与罗密欧相爱并秘密结婚"
+    },
+    {
+     "name": "Lord Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague",
+      "Old Montague"
+     ],
+     "nickname": "蒙太古",
+     "description": "蒙太古家族族长，罗密欧之父"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，朱丽叶之父"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "凯普莱特之妻，朱丽叶之母"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，被罗密欧杀死"
+    },
+    {
+     "name": "Escalus",
+     "type": "Person",
+     "aliases": [
+      "Prince",
+      "the Prince"
+     ],
+     "nickname": "亲王",
+     "description": "维罗纳亲王，负责审理此案"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，朱丽叶的求婚者，被罗密欧杀死"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar",
+      "the Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "为罗密欧与朱丽叶秘密主持婚礼并策划假死"
+    },
+    {
+     "name": "Friar John",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "约翰神父",
+     "description": "被派送信给罗密欧但未能送达"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，知道秘密婚礼"
+    },
+    {
+     "name": "Balthasar",
+     "type": "Person",
+     "aliases": [
+      "Romeo's man"
+     ],
+     "nickname": "鲍尔萨泽",
+     "description": "罗密欧的仆人，带来朱丽叶死讯"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montagues"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "维罗纳的贵族家族，与凯普莱特家族为世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulets"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "维罗纳的贵族家族，与蒙太古家族为世仇"
+    },
+    {
+     "name": "Verona",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "维罗纳",
+     "description": "故事发生的城市"
+    },
+    {
+     "name": "Mantua",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "曼图亚",
+     "description": "罗密欧流放地"
+    },
+    {
+     "name": "churchyard",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "教堂墓地",
+     "description": "凯普莱特家族纪念碑所在地"
+    },
+    {
+     "name": "Capulets' monument",
+     "type": "Place",
+     "aliases": [
+      "monument",
+      "tomb",
+      "vault"
+     ],
+     "nickname": "凯普莱特家族纪念碑",
+     "description": "凯普莱特家族的墓地"
+    },
+    {
+     "name": "poison",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "毒药",
+     "description": "罗密欧从药剂师处购买，用于自杀"
+    },
+    {
+     "name": "letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "信件",
+     "description": "罗密欧写给父亲的信，由鲍尔萨泽转交"
+    },
+    {
+     "name": "sleeping potion",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "安眠药水",
+     "description": "劳伦斯神父给朱丽叶，使其假死"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "SPOUSE",
+     "object": "Juliet Capulet",
+     "evidence": "Romeo, there dead, was husband to that Juliet, And she, there dead, that Romeo’s faithful wife.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "Came to this vault to die, and lie with Juliet.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "she, too desperate, would not go with me, But, as it seems, did violence on herself.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Paris",
+     "evidence": "here untimely lay The noble Paris and true Romeo dead.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "their stol’n marriage day Was Tybalt’s doomsday, whose untimely death Banish’d the new-made bridegroom from this city;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "KIN",
+     "object": "Romeo Montague",
+     "evidence": "Come, Montague, for thou art early up, To see thy son and heir more early down.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "O heaven! O wife, look how our daughter bleeds!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "O heaven! O wife, look how our daughter bleeds!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "SPOUSE",
+     "object": "Lady Capulet",
+     "evidence": "O heaven! O wife, look how our daughter bleeds!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "SPOUSE",
+     "object": "Lady Montague",
+     "evidence": "my wife is dead tonight. Grief of my son’s exile hath stopp’d her breath.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Montague",
+     "predicate": "KIN",
+     "object": "Romeo Montague",
+     "evidence": "my wife is dead tonight. Grief of my son’s exile hath stopp’d her breath.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet Capulet",
+     "evidence": "Betroth’d, and would have married her perforce To County Paris.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "HELPED",
+     "object": "Romeo Montague",
+     "evidence": "I married them; and their stol’n marriage day Was Tybalt’s doomsday",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "HELPED",
+     "object": "Juliet Capulet",
+     "evidence": "Then gave I her, so tutored by my art, A sleeping potion, which so took effect As I intended",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Friar John",
+     "predicate": "SERVANT_OF",
+     "object": "Friar Laurence",
+     "evidence": "But he which bore my letter, Friar John, Was stay’d by accident; and yesternight Return’d my letter back.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Balthasar",
+     "predicate": "SERVANT_OF",
+     "object": "Romeo Montague",
+     "evidence": "Here’s Romeo’s man. We found him in the churchyard.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "to the marriage Her Nurse is privy.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Raise up the Montagues, some others search.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Go tell the Prince; run to the Capulets.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Raise up the Montagues, some others search.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Go tell the Prince; run to the Capulets.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "See what a scourge is laid upon your hate, That heaven finds means to kill your joys with love!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Capulets' monument",
+     "evidence": "in post he came from Mantua To this same place, to this same monument.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "VISITED",
+     "object": "Capulets' monument",
+     "evidence": "Who here hath lain this two days buried.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Paris",
+     "predicate": "VISITED",
+     "object": "Capulets' monument",
+     "evidence": "He came with flowers to strew his lady’s grave",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "NATIVE_OF",
+     "object": "Verona",
+     "evidence": "Banish’d the new-made bridegroom from this city;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LIVES_AT",
+     "object": "Mantua",
+     "evidence": "in post he came from Mantua",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "OWNS",
+     "object": "poison",
+     "evidence": "he did buy a poison Of a poor ’pothecary",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "OWNS",
+     "object": "letter",
+     "evidence": "This letter he early bid me give his father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "OWNS",
+     "object": "sleeping potion",
+     "evidence": "Then gave I her, so tutored by my art, A sleeping potion",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "KILLED",
+     "object": "Romeo Montague",
+     "evidence": "my master drew on him, And then I ran away to call the watch.",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:18.156Z"
+}

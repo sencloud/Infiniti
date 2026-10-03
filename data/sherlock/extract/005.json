@@ -1,0 +1,1128 @@
+{
+ "no": 5,
+ "title": "The Five Orange Pips",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7640,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在贝克街，侦办多起案件"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Dr. Watson",
+      "Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的朋友与记录者，曾暂住贝克街"
+    },
+    {
+     "name": "John Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "John"
+     ],
+     "nickname": "约翰·奥彭肖",
+     "description": "年轻委托人，来自霍舍姆，为家族神秘事件求助"
+    },
+    {
+     "name": "Elias Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Elias"
+     ],
+     "nickname": "伊莱亚斯·奥彭肖",
+     "description": "约翰的叔叔，曾移居美国，后隐居苏塞克斯"
+    },
+    {
+     "name": "Joseph Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Joseph"
+     ],
+     "nickname": "约瑟夫·奥彭肖",
+     "description": "约翰的父亲，在考文垂经营工厂"
+    },
+    {
+     "name": "Major Prendergast",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "普伦德加斯特少校",
+     "description": "坦克维尔俱乐部丑闻中被福尔摩斯解救的人"
+    },
+    {
+     "name": "Tankerville Club",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "坦克维尔俱乐部",
+     "description": "发生丑闻的俱乐部"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯与华生居住的街道"
+    },
+    {
+     "name": "Horsham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "霍舍姆",
+     "description": "苏塞克斯郡城镇，伊莱亚斯·奥彭肖的庄园所在地"
+    },
+    {
+     "name": "Camberwell poisoning case",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "坎伯韦尔投毒案",
+     "description": "福尔摩斯通过给死者手表上弦破获的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "my friend possessed in so high a degree",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I have come for advice.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Elias Openshaw",
+     "evidence": "my grandfather had two sons—my uncle Elias and my father Joseph",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "my grandfather had two sons—my uncle Elias and my father Joseph",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elias Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "my grandfather had two sons—my uncle Elias and my father Joseph",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Major Prendergast",
+     "evidence": "I heard from Major Prendergast how you saved him in the Tankerville Club scandal.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Major Prendergast",
+     "predicate": "MEMBER_OF",
+     "object": "Tankerville Club",
+     "evidence": "I heard from Major Prendergast how you saved him in the Tankerville Club scandal.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Camberwell poisoning case",
+     "evidence": "Sherlock Holmes was able, by winding up the dead man’s watch, to prove that it had been wound up two hours before",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "for a few days I was a dweller once more in my old quarters at Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elias Openshaw",
+     "predicate": "LIVES_AT",
+     "object": "Horsham",
+     "evidence": "he came back to Europe and took a small estate in Sussex, near Horsham",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7972,
+   "entities": [
+    {
+     "name": "John Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "John"
+     ],
+     "nickname": "约翰·奥彭肖",
+     "description": "叙述者，伊莱亚斯·奥彭肖的侄子，后继承家产"
+    },
+    {
+     "name": "Elias Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Elias",
+      "Colonel Openshaw",
+      "the colonel"
+     ],
+     "nickname": "伊莱亚斯·奥彭肖",
+     "description": "约翰的叔叔，退役上校，收到橙核后死亡"
+    },
+    {
+     "name": "Joseph Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Joseph"
+     ],
+     "nickname": "约瑟夫·奥彭肖",
+     "description": "约翰的父亲，伊莱亚斯的兄弟，继承遗产后也收到橙核"
+    },
+    {
+     "name": "Mary",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "玛丽",
+     "description": "奥彭肖家的女仆，被吩咐在伊莱亚斯房间生火"
+    },
+    {
+     "name": "Fordham",
+     "type": "Person",
+     "aliases": [
+      "the Horsham lawyer"
+     ],
+     "nickname": "福德姆",
+     "description": "霍舍姆的律师，为伊莱亚斯起草遗嘱"
+    },
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "咨询侦探，听取约翰·奥彭肖的陈述"
+    },
+    {
+     "name": "K. K. K.",
+     "type": "Organization",
+     "aliases": [
+      "Ku Klux Klan",
+      "KKK"
+     ],
+     "nickname": "三K党",
+     "description": "寄送橙核并威胁奥彭肖家族的秘密组织"
+    },
+    {
+     "name": "Horsham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "霍舍姆",
+     "description": "奥彭肖家族庄园所在地"
+    },
+    {
+     "name": "Pondicherry",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "本地治里",
+     "description": "印度地名，寄给伊莱亚斯的信件的邮戳地"
+    },
+    {
+     "name": "Dundee",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "邓迪",
+     "description": "苏格兰地名，寄给约瑟夫的信件的邮戳地"
+    },
+    {
+     "name": "the five orange pips",
+     "type": "Item",
+     "aliases": [
+      "five little dried orange pips",
+      "five dried orange pips"
+     ],
+     "nickname": "五个干橙核",
+     "description": "装在信封中的五颗干橙核，作为死亡威胁"
+    },
+    {
+     "name": "the brass box",
+     "type": "Item",
+     "aliases": [
+      "small brass box",
+      "cashbox"
+     ],
+     "nickname": "黄铜盒子",
+     "description": "伊莱亚斯从阁楼取出的盒子，盖上有三K标记，内装文件被烧毁"
+    },
+    {
+     "name": "the letter",
+     "type": "Item",
+     "aliases": [
+      "a letter with a foreign stamp"
+     ],
+     "nickname": "信件",
+     "description": "1883年3月10日寄给伊莱亚斯的信，内含五个橙核和三K标记"
+    },
+    {
+     "name": "the will",
+     "type": "Item",
+     "aliases": [
+      "the paper"
+     ],
+     "nickname": "遗嘱",
+     "description": "伊莱亚斯所立遗嘱，将财产留给兄弟约瑟夫"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Elias Openshaw",
+     "evidence": "He begged my father to let me live with him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "my father entered into possession of the estate",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elias Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "I leave my estate... to my brother, your father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary",
+     "predicate": "SERVANT_OF",
+     "object": "Elias Openshaw",
+     "evidence": "Tell Mary that I shall want a fire in my room to-day",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fordham",
+     "predicate": "SERVANT_OF",
+     "object": "Elias Openshaw",
+     "evidence": "send down to Fordham, the Horsham lawyer",
+     "confidence": 0.85
+    },
+    {
+     "subject": "Elias Openshaw",
+     "predicate": "LIVES_AT",
+     "object": "Horsham",
+     "evidence": "my father came to live at Horsham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Joseph Openshaw",
+     "predicate": "LIVES_AT",
+     "object": "Horsham",
+     "evidence": "my father came to live at Horsham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "LIVES_AT",
+     "object": "Horsham",
+     "evidence": "my father came to live at Horsham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elias Openshaw",
+     "predicate": "OWNS",
+     "object": "the brass box",
+     "evidence": "a small brass box, like a cashbox, in the other",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elias Openshaw",
+     "predicate": "OWNS",
+     "object": "the letter",
+     "evidence": "a letter with a foreign stamp lay upon the table in front of the colonel's plate",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elias Openshaw",
+     "predicate": "OWNS",
+     "object": "the will",
+     "evidence": "I wish you, John, to witness my will",
+     "confidence": 0.9
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "HARMED",
+     "object": "Elias Openshaw",
+     "evidence": "My God, my God, my sins have overtaken me!",
+     "confidence": 0.8
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "HARMED",
+     "object": "Joseph Openshaw",
+     "evidence": "the same thing had come upon himself",
+     "confidence": 0.8
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Mr. Holmes, and not to abuse your patience",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "John Openshaw",
+     "evidence": "your statement is, I foresee, one of the most remarkable to which I have ever listened",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7986,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，接受约翰·奥彭肖委托调查五枚橘核案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴与记录者，参与本案调查"
+    },
+    {
+     "name": "John Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "John"
+     ],
+     "nickname": "约翰·奥彭肖",
+     "description": "年轻委托人，因收到五枚橘核向福尔摩斯求助"
+    },
+    {
+     "name": "Elias Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Elias"
+     ],
+     "nickname": "伊莱亚斯·奥彭肖",
+     "description": "约翰的叔叔，曾收到橘核警告后死亡"
+    },
+    {
+     "name": "Joseph Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Joseph"
+     ],
+     "nickname": "约瑟夫·奥彭肖",
+     "description": "约翰的父亲，收到橘核后意外坠入白垩坑死亡"
+    },
+    {
+     "name": "Major Freebody",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "弗里博迪少校",
+     "description": "约瑟夫·奥彭肖的老友，驻守Portsdown Hill"
+    },
+    {
+     "name": "Major Prendergast",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "普伦德加斯特少校",
+     "description": "建议约翰·奥彭肖向福尔摩斯求助的人"
+    },
+    {
+     "name": "K. K. K.",
+     "type": "Organization",
+     "aliases": [
+      "Ku Klux Klan",
+      "KKK"
+     ],
+     "nickname": "三K党",
+     "description": "发出橘核警告并杀害奥彭肖家族成员的秘密组织"
+    },
+    {
+     "name": "Horsham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "霍舍姆",
+     "description": "约翰·奥彭肖居住的城镇"
+    },
+    {
+     "name": "Portsdown Hill",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "波特斯当山",
+     "description": "弗里博迪少校驻守的炮台所在地"
+    },
+    {
+     "name": "Fareham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "法勒姆",
+     "description": "约瑟夫·奥彭肖出事前到访的地点"
+    },
+    {
+     "name": "Waterloo",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "滑铁卢",
+     "description": "约翰·奥彭肖乘火车返回时的车站"
+    },
+    {
+     "name": "five orange pips",
+     "type": "Item",
+     "aliases": [
+      "orange pips"
+     ],
+     "nickname": "五枚橘核",
+     "description": "装在信封中的五枚干橘核，是死亡警告"
+    },
+    {
+     "name": "crumpled envelope",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "皱信封",
+     "description": "装有五枚橘核的信封，邮戳为伦敦东区"
+    },
+    {
+     "name": "discoloured blue-tinted paper",
+     "type": "Item",
+     "aliases": [
+      "piece of paper",
+      "sheet of paper"
+     ],
+     "nickname": "褪色蓝纸",
+     "description": "从伊莱亚斯日记中撕下的纸页，记有橘核相关记录"
+    },
+    {
+     "name": "brass box",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "黄铜盒子",
+     "description": "约翰·奥彭肖家中存放文件的盒子"
+    },
+    {
+     "name": "sundial",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "日晷",
+     "description": "放置文件的地点，按警告要求使用"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Elias Openshaw",
+     "evidence": "my uncle burned the papers",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "my father went from home to visit an old friend of his",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Joseph Openshaw",
+     "predicate": "FRIEND",
+     "object": "Major Freebody",
+     "evidence": "my father went from home to visit an old friend of his, Major Freebody",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Why did you come to me?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "John Openshaw",
+     "evidence": "To-morrow I shall set to work upon your case.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "LIVES_AT",
+     "object": "Horsham",
+     "evidence": "I have lived happily at Horsham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "VISITED",
+     "object": "Waterloo",
+     "evidence": "By train from Waterloo.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Joseph Openshaw",
+     "predicate": "VISITED",
+     "object": "Fareham",
+     "evidence": "He had, as it appears, been returning from Fareham in the twilight",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Major Freebody",
+     "predicate": "LIVES_AT",
+     "object": "Portsdown Hill",
+     "evidence": "Major Freebody, who is in command of one of the forts upon Portsdown Hill",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "OWNS",
+     "object": "five orange pips",
+     "evidence": "he shook out upon it five little dried orange pips",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "OWNS",
+     "object": "crumpled envelope",
+     "evidence": "The young man took from his waistcoat a crumpled envelope",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "OWNS",
+     "object": "discoloured blue-tinted paper",
+     "evidence": "drawing out a piece of discoloured, blue-tinted paper",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "OWNS",
+     "object": "brass box",
+     "evidence": "the brass box which you have described",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "OWNS",
+     "object": "sundial",
+     "evidence": "put the box out upon the sundial",
+     "confidence": 0.95
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "HARMED",
+     "object": "Joseph Openshaw",
+     "evidence": "some foul plot had been woven round him",
+     "confidence": 0.8
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "HARMED",
+     "object": "Elias Openshaw",
+     "evidence": "our troubles were in some way dependent upon an incident in my uncle’s life",
+     "confidence": 0.8
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "HARMED",
+     "object": "John Openshaw",
+     "evidence": "you are threatened by a very real and imminent danger",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "PARTICIPATED_IN",
+     "object": "The Five Orange Pips",
+     "evidence": "of all our cases we have had none more fantastic than this",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "PARTICIPATED_IN",
+     "object": "The Five Orange Pips",
+     "evidence": "of all our cases we have had none more fantastic than this",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "PARTICIPATED_IN",
+     "object": "The Five Orange Pips",
+     "evidence": "of all our cases we have had none more fantastic than this",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 8017,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "咨询侦探，调查奥彭肖案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴与记录者"
+    },
+    {
+     "name": "John Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "young Openshaw"
+     ],
+     "nickname": "约翰·奥彭肖",
+     "description": "奥彭肖家族成员，身处险境"
+    },
+    {
+     "name": "Elias Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Elias"
+     ],
+     "nickname": "伊莱亚斯·奥彭肖",
+     "description": "约翰的叔叔，收到橙核后死亡"
+    },
+    {
+     "name": "Joseph Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Joseph"
+     ],
+     "nickname": "约瑟夫·奥彭肖",
+     "description": "约翰的父亲，收到橙核后死亡"
+    },
+    {
+     "name": "K. K. K.",
+     "type": "Organization",
+     "aliases": [
+      "Ku Klux Klan",
+      "KKK"
+     ],
+     "nickname": "三K党",
+     "description": "美国秘密组织，以橙核为警告"
+    },
+    {
+     "name": "Colonel Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw"
+     ],
+     "nickname": "奥彭肖上校",
+     "description": "奥彭肖家族长辈，从美国逃至英国"
+    },
+    {
+     "name": "Pondicherry",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "本地治里",
+     "description": "印度港口城市，第一封信寄出地"
+    },
+    {
+     "name": "Dundee",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "邓迪",
+     "description": "苏格兰港口城市，第二封信寄出地"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [
+      "East London"
+     ],
+     "nickname": "伦敦",
+     "description": "英国首都，第三封信寄出地"
+    },
+    {
+     "name": "Florida",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "佛罗里达",
+     "description": "美国州，奥彭肖上校曾居于此"
+    },
+    {
+     "name": "The Five Orange Pips",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "五个橘核案",
+     "description": "奥彭肖家族受三K党威胁的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Elias Openshaw",
+     "evidence": "this John Openshaw seems to me to be walking amid even greater perils than did the Sholtos.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "this John Openshaw seems to me to be walking amid even greater perils than did the Sholtos.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elias Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "the formidable letters which were received by himself and his successors.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "we may start with a strong presumption that Colonel Openshaw had some very strong reason for leaving America.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Openshaw",
+     "predicate": "KIN",
+     "object": "Elias Openshaw",
+     "evidence": "we may start with a strong presumption that Colonel Openshaw had some very strong reason for leaving America.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Openshaw",
+     "predicate": "KIN",
+     "object": "John Openshaw",
+     "evidence": "we may start with a strong presumption that Colonel Openshaw had some very strong reason for leaving America.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "HARMED",
+     "object": "Elias Openshaw",
+     "evidence": "A single man could not have carried out two deaths in such a way as to deceive a coroner’s jury.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "HARMED",
+     "object": "Joseph Openshaw",
+     "evidence": "A single man could not have carried out two deaths in such a way as to deceive a coroner’s jury.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "HARMED",
+     "object": "John Openshaw",
+     "evidence": "this John Openshaw seems to me to be walking amid even greater perils than did the Sholtos.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Five Orange Pips",
+     "evidence": "for such a case as the one which has been submitted to us to-night, we need certainly to muster all our resources.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "for such a case as the one which has been submitted to us to-night, we need certainly to muster all our resources.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "FRIEND",
+     "object": "John Watson",
+     "evidence": "you on one occasion, in the early days of our friendship, defined my limits in a very precise fashion.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Openshaw",
+     "predicate": "NATIVE_OF",
+     "object": "Florida",
+     "evidence": "exchange willingly the charming climate of Florida for the lonely life of an English provincial town.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Openshaw",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "the third from London.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "OCCURRED_AT",
+     "object": "Pondicherry",
+     "evidence": "The first was from Pondicherry",
+     "confidence": 0.9
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "OCCURRED_AT",
+     "object": "Dundee",
+     "evidence": "the second from Dundee",
+     "confidence": 0.9
+    },
+    {
+     "subject": "K. K. K.",
+     "predicate": "OCCURRED_AT",
+     "object": "London",
+     "evidence": "the third from London.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7606,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查奥彭肖案并追踪三K党"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Doctor",
+      "Dr. Watson"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "John Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "young Openshaw"
+     ],
+     "nickname": "约翰·奥彭肖",
+     "description": "年轻委托人，被杀害于滑铁卢桥附近"
+    },
+    {
+     "name": "Elias Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Elias"
+     ],
+     "nickname": "伊莱亚斯·奥彭肖",
+     "description": "约翰的叔叔，收到橙核后死亡"
+    },
+    {
+     "name": "Joseph Openshaw",
+     "type": "Person",
+     "aliases": [
+      "Openshaw",
+      "Joseph"
+     ],
+     "nickname": "约瑟夫·奥彭肖",
+     "description": "约翰的父亲，收到橙核后死亡"
+    },
+    {
+     "name": "Captain James Calhoun",
+     "type": "Person",
+     "aliases": [
+      "Captain Calhoun",
+      "Calhoun"
+     ],
+     "nickname": "詹姆斯·卡尔霍恩船长",
+     "description": "孤星号船长，三K党团伙头目"
+    },
+    {
+     "name": "Lone Star",
+     "type": "Organization",
+     "aliases": [
+      "Barque Lone Star"
+     ],
+     "nickname": "孤星号",
+     "description": "三K党成员所在的船只"
+    },
+    {
+     "name": "Waterloo Bridge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "滑铁卢桥",
+     "description": "约翰·奥彭肖尸体被发现的地点附近"
+    },
+    {
+     "name": "Horsham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "霍舍姆",
+     "description": "约翰·奥彭肖的居住地"
+    },
+    {
+     "name": "Savannah",
+     "type": "Place",
+     "aliases": [
+      "Savannah, Georgia"
+     ],
+     "nickname": "萨凡纳",
+     "description": "孤星号的目的地"
+    },
+    {
+     "name": "Albert Dock",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "阿尔伯特码头",
+     "description": "福尔摩斯调查孤星号停靠的伦敦码头"
+    },
+    {
+     "name": "John Openshaw's death",
+     "type": "Event",
+     "aliases": [
+      "Tragedy Near Waterloo Bridge"
+     ],
+     "nickname": "约翰·奥彭肖之死",
+     "description": "约翰·奥彭肖在滑铁卢桥附近溺亡的事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Openshaw",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "That he should come to me for help, and that I should send him away to his death—!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "John Openshaw's death",
+     "evidence": "I have, I foresee, a very busy day before me in looking into this case of young Openshaw’s.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Elias Openshaw",
+     "evidence": "sent the pips to A, B, and C",
+     "confidence": 0.8
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "KIN",
+     "object": "Joseph Openshaw",
+     "evidence": "sent the pips to A, B, and C",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Captain James Calhoun",
+     "predicate": "KILLED",
+     "object": "John Openshaw",
+     "evidence": "the murderers of John Openshaw were never to receive the orange pips",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Captain James Calhoun",
+     "predicate": "MEMBER_OF",
+     "object": "Lone Star",
+     "evidence": "Captain James Calhoun, Barque Lone Star, Savannah, Georgia.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw",
+     "predicate": "LIVES_AT",
+     "object": "Horsham",
+     "evidence": "whose residence is near Horsham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Openshaw's death",
+     "predicate": "OCCURRED_AT",
+     "object": "Waterloo Bridge",
+     "evidence": "Tragedy Near Waterloo Bridge",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Albert Dock",
+     "evidence": "I went down to the Albert Dock",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lone Star",
+     "predicate": "VISITED",
+     "object": "Savannah",
+     "evidence": "homeward bound to Savannah",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:13.398Z"
+}

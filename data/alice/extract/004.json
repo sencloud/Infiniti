@@ -1,0 +1,227 @@
+{
+ "no": 4,
+ "title": "The Rabbit Sends in a Little Bill",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7856,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，误入奇境的小女孩"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "会说话的白兔，公爵夫人的仆人"
+    },
+    {
+     "name": "Pat",
+     "type": "Person",
+     "aliases": [
+      "The Gardener",
+      "Pat the Gardener"
+     ],
+     "nickname": "帕特",
+     "description": "白兔的园丁，爱尔兰口音"
+    },
+    {
+     "name": "Bill the Lizard",
+     "type": "Person",
+     "aliases": [
+      "Bill",
+      "The Lizard"
+     ],
+     "nickname": "蜥蜴比尔",
+     "description": "蜥蜴，被派下烟囱"
+    },
+    {
+     "name": "Duchess",
+     "type": "Person",
+     "aliases": [
+      "Her Grace"
+     ],
+     "nickname": "公爵夫人",
+     "description": "白兔害怕的公爵夫人"
+    },
+    {
+     "name": "Dinah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "黛娜",
+     "description": "爱丽丝的猫"
+    },
+    {
+     "name": "Mary Ann",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "玛丽·安",
+     "description": "白兔的女仆"
+    },
+    {
+     "name": "White Rabbit’s house",
+     "type": "Place",
+     "aliases": [
+      "W. RABBIT"
+     ],
+     "nickname": "白兔的房子",
+     "description": "白兔的住所，门牌上写着W. RABBIT"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "White Rabbit",
+     "predicate": "SERVANT_OF",
+     "object": "Duchess",
+     "evidence": "The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "SERVANT_OF",
+     "object": "White Rabbit",
+     "evidence": "He took me for his housemaid",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Pat",
+     "predicate": "SERVANT_OF",
+     "object": "White Rabbit",
+     "evidence": "Pat! Pat! Where are you?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bill the Lizard",
+     "predicate": "SERVANT_OF",
+     "object": "White Rabbit",
+     "evidence": "Bill’s to go down—Here, Bill! the master says you’re to go down the chimney!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ann",
+     "predicate": "SERVANT_OF",
+     "object": "White Rabbit",
+     "evidence": "Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "White Rabbit",
+     "predicate": "LIVES_AT",
+     "object": "White Rabbit’s house",
+     "evidence": "she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "White Rabbit’s house",
+     "evidence": "She went in without knocking, and hurried upstairs",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5894,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，误入奇境的小女孩"
+    },
+    {
+     "name": "Bill the Lizard",
+     "type": "Person",
+     "aliases": [
+      "Bill",
+      "the Lizard"
+     ],
+     "nickname": "蜥蜴比尔",
+     "description": "被派下烟囱的蜥蜴，被爱丽丝踢飞"
+    },
+    {
+     "name": "Dinah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "黛娜",
+     "description": "爱丽丝的猫，被用来威胁兔子"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "the Rabbit"
+     ],
+     "nickname": "白兔",
+     "description": "穿马甲的白兔，指挥动物们"
+    },
+    {
+     "name": "Duchess’s Baby",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "公爵夫人的婴儿",
+     "description": "片段中未直接出现，但被提及"
+    },
+    {
+     "name": "White Rabbit’s house",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "白兔的家",
+     "description": "白兔的房子，爱丽丝变大后被困其中"
+    },
+    {
+     "name": "Caterpillar",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "毛毛虫",
+     "description": "坐在蘑菇上抽水烟的蓝色毛毛虫"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alice",
+     "predicate": "HARMED",
+     "object": "Bill the Lizard",
+     "evidence": "she gave one sharp kick",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice",
+     "predicate": "OWNS",
+     "object": "Dinah",
+     "evidence": "I’ll set Dinah at you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "LIVES_AT",
+     "object": "White Rabbit’s house",
+     "evidence": "she ran out of the house",
+     "confidence": 0.8
+    },
+    {
+     "subject": "White Rabbit",
+     "predicate": "LIVES_AT",
+     "object": "White Rabbit’s house",
+     "evidence": "the Rabbit’s voice",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:38.766Z"
+}

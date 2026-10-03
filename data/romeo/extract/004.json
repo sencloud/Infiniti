@@ -1,0 +1,89 @@
+{
+ "no": 4,
+ "title": "A Street",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 5231,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，正爱慕着罗瑟琳"
+    },
+    {
+     "name": "Benvolio Montague",
+     "type": "Person",
+     "aliases": [
+      "Benvolio",
+      "Montague's nephew"
+     ],
+     "nickname": "班伏里奥",
+     "description": "蒙太古的侄子，罗密欧的朋友"
+    },
+    {
+     "name": "Mercutio",
+     "type": "Person",
+     "aliases": [
+      "the Prince's kinsman"
+     ],
+     "nickname": "茂丘西奥",
+     "description": "亲王的亲戚，罗密欧的朋友"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "罗密欧所属的家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Enter Romeo, Mercutio, Benvolio, with five or six Maskers; Torch-bearers and others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Enter Romeo, Mercutio, Benvolio, with five or six Maskers; Torch-bearers and others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Benvolio Montague",
+     "evidence": "Enter Romeo, Mercutio, Benvolio, with five or six Maskers; Torch-bearers and others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Mercutio",
+     "evidence": "Enter Romeo, Mercutio, Benvolio, with five or six Maskers; Torch-bearers and others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "FRIEND",
+     "object": "Mercutio",
+     "evidence": "Enter Romeo, Mercutio, Benvolio, with five or six Maskers; Torch-bearers and others.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:51.834Z"
+}

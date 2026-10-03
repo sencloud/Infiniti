@@ -1,0 +1,1230 @@
+{
+ "no": 6,
+ "title": "The Man with the Twisted Lip",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7944,
+   "entities": [
+    {
+     "name": "Isa Whitney",
+     "type": "Person",
+     "aliases": [
+      "Mr. Whitney"
+     ],
+     "nickname": "艾萨·惠特尼",
+     "description": "凯特·惠特尼的丈夫，鸦片瘾者，在鸦片馆被华生找到。"
+    },
+    {
+     "name": "Elias Whitney",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "伊莱亚斯·惠特尼",
+     "description": "已故，神学学院院长，艾萨·惠特尼的兄弟。"
+    },
+    {
+     "name": "Kate Whitney",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Whitney"
+     ],
+     "nickname": "凯特·惠特尼",
+     "description": "艾萨·惠特尼的妻子，华生太太的朋友，向华生求助。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "医生，叙述者，帮助凯特寻找丈夫。"
+    },
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，伪装成鸦片馆里的老人。"
+    },
+    {
+     "name": "St. George's Theological College",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "圣乔治神学院",
+     "description": "伊莱亚斯·惠特尼曾任院长的神学院。"
+    },
+    {
+     "name": "Bar of Gold",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "金条鸦片馆",
+     "description": "位于上斯旺丹巷的鸦片馆。"
+    },
+    {
+     "name": "Upper Swandam Lane",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "上斯旺丹巷",
+     "description": "伦敦东区一条邪恶的小巷。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Isa Whitney",
+     "predicate": "KIN",
+     "object": "Elias Whitney",
+     "evidence": "Isa Whitney, brother of the late Elias Whitney, D.D., Principal of the Theological College of St. George’s",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Isa Whitney",
+     "predicate": "SPOUSE",
+     "object": "Kate Whitney",
+     "evidence": "It’s about Isa. He has not been home for two days.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Kate Whitney",
+     "predicate": "FRIEND",
+     "object": "John Watson",
+     "evidence": "to me as a doctor, to my wife as an old friend and school companion",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "HELPED",
+     "object": "Kate Whitney",
+     "evidence": "I promised her on my word that I would send him home in a cab within two hours",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "HELPED",
+     "object": "Isa Whitney",
+     "evidence": "I was Isa Whitney’s medical adviser, and as such I had influence over him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elias Whitney",
+     "predicate": "MEMBER_OF",
+     "object": "St. George's Theological College",
+     "evidence": "Principal of the Theological College of St. George’s",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Isa Whitney",
+     "predicate": "VISITED",
+     "object": "Bar of Gold",
+     "evidence": "he had, when the fit was on him, made use of an opium den in the farthest east of the City.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bar of Gold",
+     "predicate": "LIVES_AT",
+     "object": "Upper Swandam Lane",
+     "evidence": "There he was to be found, she was sure of it, at the Bar of Gold, in Upper Swandam Lane.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Bar of Gold",
+     "evidence": "I found the den of which I was in search.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Bar of Gold",
+     "evidence": "there, sitting by the fire and grinning at my surprise, was none other than Sherlock Holmes.",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7343,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，正在调查圣克莱尔案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Neville St. Clair",
+     "type": "Person",
+     "aliases": [
+      "Mr. St. Clair",
+      "Neville"
+     ],
+     "nickname": "内维尔·圣克莱尔",
+     "description": "住在李镇的绅士，失踪于鸦片馆"
+    },
+    {
+     "name": "Mrs. St. Clair",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "圣克莱尔太太",
+     "description": "内维尔·圣克莱尔的妻子"
+    },
+    {
+     "name": "Whitney",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "惠特尼",
+     "description": "华生的朋友，在鸦片馆中"
+    },
+    {
+     "name": "The Cedars",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "雪松宅",
+     "description": "圣克莱尔先生的住宅，位于肯特郡李镇附近"
+    },
+    {
+     "name": "Lee",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "李镇",
+     "description": "肯特郡的一个地方，圣克莱尔家所在地"
+    },
+    {
+     "name": "Swandam Lane",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯旺丹巷",
+     "description": "伦敦的一条巷子，鸦片馆所在地"
+    },
+    {
+     "name": "Fresno Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "弗雷斯诺街",
+     "description": "伦敦街道，阿伯丁航运公司办公室所在"
+    },
+    {
+     "name": "Upper Swandam Lane",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "上斯旺丹巷",
+     "description": "伦敦街道，弗雷斯诺街由此分支"
+    },
+    {
+     "name": "Aberdeen Shipping Company",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "阿伯丁航运公司",
+     "description": "位于弗雷斯诺街的航运公司"
+    },
+    {
+     "name": "Capital and Counties Bank",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "首都与郡银行",
+     "description": "圣克莱尔先生存款的银行"
+    },
+    {
+     "name": "Neville St. Clair case",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "圣克莱尔案",
+     "description": "内维尔·圣克莱尔失踪案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Neville St. Clair case",
+     "evidence": "I am in the midst of a very remarkable inquiry",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Neville St. Clair",
+     "evidence": "I fear that Neville St. Clair has entered it never to leave it more",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "The Cedars",
+     "evidence": "My room at The Cedars is a double-bedded one",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "LIVES_AT",
+     "object": "The Cedars",
+     "evidence": "that is Mr. St. Clair’s house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "SPOUSE",
+     "object": "Mrs. St. Clair",
+     "evidence": "in 1887 he married the daughter of a local brewer",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "KIN",
+     "object": "Mrs. St. Clair",
+     "evidence": "by whom he now has two children",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "to be associated with my friend in one of those singular adventures",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Whitney",
+     "evidence": "I came to find a friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Swandam Lane",
+     "evidence": "I was walking down the street with Sherlock Holmes",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. St. Clair",
+     "predicate": "VISITED",
+     "object": "Aberdeen Shipping Company",
+     "evidence": "proceeded to the company’s office, got her packet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "OWNS",
+     "object": "The Cedars",
+     "evidence": "that is Mr. St. Clair’s house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "MEMBER_OF",
+     "object": "Capital and Counties Bank",
+     "evidence": "he has £ 220 standing to his credit in the Capital and Counties Bank",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Neville St. Clair case",
+     "predicate": "OCCURRED_AT",
+     "object": "Lee",
+     "evidence": "there came to Lee a gentleman, Neville St. Clair by name",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7948,
+   "entities": [
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的助手与叙述者，医生"
+    },
+    {
+     "name": "Neville St. Clair",
+     "type": "Person",
+     "aliases": [
+      "Mr. St. Clair",
+      "Neville"
+     ],
+     "nickname": "内维尔·圣克莱尔",
+     "description": "失踪的绅士，圣克莱尔太太的丈夫"
+    },
+    {
+     "name": "Mrs. St. Clair",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "圣克莱尔太太",
+     "description": "内维尔·圣克莱尔的妻子，目击丈夫在鸦片馆窗口"
+    },
+    {
+     "name": "Hugh Boone",
+     "type": "Person",
+     "aliases": [
+      "Boone",
+      "the beggar"
+     ],
+     "nickname": "休·布恩",
+     "description": "鸦片馆二楼住户，职业乞丐，面貌丑陋"
+    },
+    {
+     "name": "Lascar",
+     "type": "Person",
+     "aliases": [
+      "the Lascar scoundrel",
+      "the Lascar manager"
+     ],
+     "nickname": "拉斯卡尔",
+     "description": "鸦片馆的经理，东印度水手"
+    },
+    {
+     "name": "Inspector Barton",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "巴顿探长",
+     "description": "负责此案的警官"
+    },
+    {
+     "name": "Swandam Lane",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯旺丹巷",
+     "description": "鸦片馆所在的巷子"
+    },
+    {
+     "name": "Fresno Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "弗雷斯诺街",
+     "description": "圣克莱尔太太遇到巡警的街道"
+    },
+    {
+     "name": "Threadneedle Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "针线街",
+     "description": "布恩乞讨的街道"
+    },
+    {
+     "name": "opium den",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "鸦片馆",
+     "description": "位于斯旺丹巷的鸦片烟馆"
+    },
+    {
+     "name": "Neville St. Clair's coat",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "内维尔·圣克莱尔的外套",
+     "description": "在退潮后的泥滩上发现的外套"
+    },
+    {
+     "name": "children's bricks",
+     "type": "Item",
+     "aliases": [
+      "toy"
+     ],
+     "nickname": "儿童积木",
+     "description": "圣克莱尔承诺带回家的玩具"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "SPOUSE",
+     "object": "Mrs. St. Clair",
+     "evidence": "her husband looking down at her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. St. Clair",
+     "predicate": "VISITED",
+     "object": "Swandam Lane",
+     "evidence": "While she was walking in this way down Swandam Lane",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. St. Clair",
+     "predicate": "VISITED",
+     "object": "opium den",
+     "evidence": "the house was none other than the opium den in which you found me to-night",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lascar",
+     "predicate": "SERVANT_OF",
+     "object": "opium den",
+     "evidence": "the Lascar manager",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hugh Boone",
+     "predicate": "LIVES_AT",
+     "object": "opium den",
+     "evidence": "the lodger at the opium den",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hugh Boone",
+     "predicate": "VISITED",
+     "object": "Threadneedle Street",
+     "evidence": "Some little distance down Threadneedle Street, upon the left-hand side, there is, as you may have remarked, a small angle in the wall. Here it is that this creature takes his daily seat",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "OWNS",
+     "object": "Neville St. Clair's coat",
+     "evidence": "It was Neville St. Clair’s coat, and not Neville St. Clair, which lay uncovered as the tide receded.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "OWNS",
+     "object": "children's bricks",
+     "evidence": "It was the toy which he had promised to bring home.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. St. Clair",
+     "predicate": "VISITED",
+     "object": "Fresno Street",
+     "evidence": "she rushed down the lane and, by rare good-fortune, met in Fresno Street a number of constables with an inspector",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Inspector Barton",
+     "predicate": "INVESTIGATED",
+     "object": "Neville St. Clair",
+     "evidence": "Inspector Barton, who had charge of the case, made a very careful examination of the premises",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 8042,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，调查圣克莱尔失踪案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的助手与朋友，叙述者"
+    },
+    {
+     "name": "Neville St. Clair",
+     "type": "Person",
+     "aliases": [
+      "Mr. St. Clair",
+      "Neville"
+     ],
+     "nickname": "内维尔·圣克莱尔",
+     "description": "失踪男子，圣克莱尔太太的丈夫"
+    },
+    {
+     "name": "Mrs. St. Clair",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "圣克莱尔太太",
+     "description": "内维尔·圣克莱尔的妻子，金发女子"
+    },
+    {
+     "name": "Hugh Boone",
+     "type": "Person",
+     "aliases": [
+      "Boone",
+      "the beggar"
+     ],
+     "nickname": "休·布恩",
+     "description": "职业乞丐，涉嫌谋杀内维尔·圣克莱尔"
+    },
+    {
+     "name": "The Cedars",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "雪松别墅",
+     "description": "圣克莱尔家在李镇的别墅"
+    },
+    {
+     "name": "Lee",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "李镇",
+     "description": "位于肯特郡的小镇"
+    },
+    {
+     "name": "Gravesend",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格雷夫森德",
+     "description": "信件邮戳所在地"
+    },
+    {
+     "name": "Neville St. Clair's disappearance",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "内维尔·圣克莱尔失踪案",
+     "description": "内维尔·圣克莱尔失踪及疑似被谋杀的案件"
+    },
+    {
+     "name": "Neville's letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "内维尔的信",
+     "description": "内维尔写给妻子的信，附有印章戒指"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "SPOUSE",
+     "object": "Mrs. St. Clair",
+     "evidence": "I have received a letter from him to-day.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Neville St. Clair's disappearance",
+     "evidence": "I cannot recall any case within my experience which looked at the first glance so simple and yet which presented such difficulties.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "HELPED",
+     "object": "Sherlock Holmes",
+     "evidence": "He has been of most vital use to me in several of my cases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. St. Clair",
+     "predicate": "LIVES_AT",
+     "object": "The Cedars",
+     "evidence": "That is The Cedars, and beside that lamp sits a woman",
+     "confidence": 0.95
+    },
+    {
+     "subject": "The Cedars",
+     "predicate": "OCCURRED_AT",
+     "object": "Neville St. Clair's disappearance",
+     "evidence": "Mrs. St. Clair has most kindly put two rooms at my disposal",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Hugh Boone",
+     "predicate": "SUSPECTED",
+     "object": "Neville St. Clair",
+     "evidence": "Suppose that this man Boone had thrust Neville St. Clair through the window",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hugh Boone",
+     "predicate": "HARMED",
+     "object": "Neville St. Clair",
+     "evidence": "Suppose that this man Boone had thrust Neville St. Clair through the window",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "OWNS",
+     "object": "Neville's letter",
+     "evidence": "Neville wrote those words.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville's letter",
+     "predicate": "OCCURRED_AT",
+     "object": "Gravesend",
+     "evidence": "Posted to-day in Gravesend by a man with a dirty thumb.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7750,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，调查圣克莱尔失踪案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的助手与朋友，叙述者"
+    },
+    {
+     "name": "Mrs. St. Clair",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "圣克莱尔太太",
+     "description": "内维尔·圣克莱尔的妻子，坚信丈夫还活着"
+    },
+    {
+     "name": "Neville St. Clair",
+     "type": "Person",
+     "aliases": [
+      "Mr. St. Clair",
+      "Neville"
+     ],
+     "nickname": "内维尔·圣克莱尔",
+     "description": "失踪的绅士，圣克莱尔太太的丈夫"
+    },
+    {
+     "name": "Hugh Boone",
+     "type": "Person",
+     "aliases": [
+      "Boone",
+      "the beggar"
+     ],
+     "nickname": "休·布恩",
+     "description": "乞丐，被指控与圣克莱尔失踪有关"
+    },
+    {
+     "name": "Inspector Bradstreet",
+     "type": "Person",
+     "aliases": [
+      "Bradstreet"
+     ],
+     "nickname": "布拉德斯特里特",
+     "description": "苏格兰场警官，负责布恩案"
+    },
+    {
+     "name": "Swandam Lane",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯旺丹巷",
+     "description": "伦敦东区的一条巷子，鸦片馆所在地"
+    },
+    {
+     "name": "Gravesend",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格雷夫森德",
+     "description": "英国港口城镇，信件寄出地"
+    },
+    {
+     "name": "Bow Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "弓街",
+     "description": "伦敦街道，警察局所在地"
+    },
+    {
+     "name": "Lee",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "李镇",
+     "description": "圣克莱尔家所在的地区"
+    },
+    {
+     "name": "the letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "信件",
+     "description": "圣克莱尔太太收到的信，笔迹是丈夫的"
+    },
+    {
+     "name": "the ring",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "戒指",
+     "description": "圣克莱尔太太收到的戒指，可能是丈夫的"
+    },
+    {
+     "name": "the Gladstone bag",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "格拉德斯通包",
+     "description": "福尔摩斯携带的包，内有关键物品"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "SPOUSE",
+     "object": "Mrs. St. Clair",
+     "evidence": "But if your husband is alive and able to write letters, why should he remain away from you?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. St. Clair",
+     "predicate": "LOVES",
+     "object": "Neville St. Clair",
+     "evidence": "There is so keen a sympathy between us that I should know if evil came upon him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Neville St. Clair",
+     "evidence": "I called about that beggarman, Boone—the one who was charged with being concerned in the disappearance of Mr. Neville St. Clair, of Lee.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hugh Boone",
+     "predicate": "SUSPECTED",
+     "object": "Neville St. Clair",
+     "evidence": "the one who was charged with being concerned in the disappearance of Mr. Neville St. Clair, of Lee.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Bow Street",
+     "evidence": "dashing up Wellington Street wheeled sharply to the right and found ourselves in Bow Street.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Swandam Lane",
+     "evidence": "And you were surprised to see him in Swandam Lane?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "VISITED",
+     "object": "Swandam Lane",
+     "evidence": "And you were surprised to see him in Swandam Lane?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. St. Clair",
+     "predicate": "OWNS",
+     "object": "the letter",
+     "evidence": "And in this letter you certainly have a very strong piece of evidence to corroborate your view.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. St. Clair",
+     "predicate": "OWNS",
+     "object": "the ring",
+     "evidence": "The ring, after all, proves nothing.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "OWNS",
+     "object": "the Gladstone bag",
+     "evidence": "I have got it in this Gladstone bag.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "FRIEND",
+     "object": "John Watson",
+     "evidence": "Awake, Watson?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "FRIEND",
+     "object": "Inspector Bradstreet",
+     "evidence": "Ah, Bradstreet, how are you?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Hugh Boone",
+     "predicate": "LIVES_AT",
+     "object": "Bow Street",
+     "evidence": "You have him here? In the cells.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 7001,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，在本案中揭穿乞丐真面目"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "Doctor",
+      "Watson"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Inspector"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警官，参与本案"
+    },
+    {
+     "name": "Neville St. Clair",
+     "type": "Person",
+     "aliases": [
+      "Mr. St. Clair",
+      "Neville",
+      "the prisoner"
+     ],
+     "nickname": "内维尔·圣克莱尔",
+     "description": "伪装成乞丐的绅士，本案核心人物"
+    },
+    {
+     "name": "Mrs. St. Clair",
+     "type": "Person",
+     "aliases": [
+      "my dear wife",
+      "the wife"
+     ],
+     "nickname": "圣克莱尔太太",
+     "description": "内维尔·圣克莱尔的妻子"
+    },
+    {
+     "name": "Chesterfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "切斯特菲尔德",
+     "description": "内维尔父亲任教的地点"
+    },
+    {
+     "name": "Swandam Lane",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯旺丹巷",
+     "description": "内维尔化装乞丐时居住的贫民窟"
+    },
+    {
+     "name": "Lee",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "李镇",
+     "description": "内维尔在肯特郡的乡间住所"
+    },
+    {
+     "name": "Kent",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "肯特郡",
+     "description": "内维尔乡间住所所在的郡"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "内维尔工作与行乞的城市"
+    },
+    {
+     "name": "Bow Street cells",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "弓街拘留所",
+     "description": "关押内维尔的伦敦拘留所"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "SPOUSE",
+     "object": "Mrs. St. Clair",
+     "evidence": "eventually married, without anyone having a suspicion as to my real occupation. My dear wife knew that I had business in the City.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "LIVES_AT",
+     "object": "Lee",
+     "evidence": "to Mr. Neville St. Clair, of Lee, in the county of Kent.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "LIVES_AT",
+     "object": "Swandam Lane",
+     "evidence": "He was the keeper of a low den in which I used to lodge in Swandam Lane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "NATIVE_OF",
+     "object": "Chesterfield",
+     "evidence": "My father was a schoolmaster in Chesterfield, where I received an excellent education.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "I travelled in my youth, took to the stage, and finally became a reporter on an evening paper in London.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "SERVANT_OF",
+     "object": "London",
+     "evidence": "finally became a reporter on an evening paper in London",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Neville St. Clair",
+     "evidence": "Holmes stooped to the water-jug, moistened his sponge, and then rubbed it twice vigorously across and down the prisoner’s face.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "DECEIVED",
+     "object": "Mrs. St. Clair",
+     "evidence": "My dear wife knew that I had business in the City. She little knew what.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "MEMBER_OF",
+     "object": "Bow Street cells",
+     "evidence": "He doesn’t look a credit to the Bow Street cells, does he?",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "chars": 2864,
+   "entities": [
+    {
+     "name": "Neville St. Clair",
+     "type": "Person",
+     "aliases": [
+      "Mr. St. Clair",
+      "Neville",
+      "Hugh Boone",
+      "Boone"
+     ],
+     "nickname": "内维尔·圣克莱尔",
+     "description": "伪装成乞丐休·布恩的绅士，被误认为谋杀自己"
+    },
+    {
+     "name": "Hugh Boone",
+     "type": "Person",
+     "aliases": [
+      "Boone",
+      "the beggar"
+     ],
+     "nickname": "休·布恩",
+     "description": "内维尔·圣克莱尔的乞丐伪装身份"
+    },
+    {
+     "name": "Mrs. St. Clair",
+     "type": "Person",
+     "aliases": [
+      "my wife"
+     ],
+     "nickname": "圣克莱尔太太",
+     "description": "内维尔·圣克莱尔的妻子，在街上发现丈夫"
+    },
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "my friend"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查圣克莱尔失踪案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴，叙述者"
+    },
+    {
+     "name": "Inspector Bradstreet",
+     "type": "Person",
+     "aliases": [
+      "Bradstreet"
+     ],
+     "nickname": "布雷德斯崔特",
+     "description": "苏格兰场警官，参与调查此案"
+    },
+    {
+     "name": "Thames",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "泰晤士河",
+     "description": "伦敦河流，圣克莱尔丢弃衣服之处"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯的住所所在地"
+    },
+    {
+     "name": "the opium den",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "鸦片馆",
+     "description": "圣克莱尔伪装乞丐的场所"
+    },
+    {
+     "name": "the ring",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "戒指",
+     "description": "圣克莱尔的戒指，交给拉斯卡尔转交妻子"
+    },
+    {
+     "name": "the note",
+     "type": "Item",
+     "aliases": [
+      "a hurried scrawl"
+     ],
+     "nickname": "便条",
+     "description": "圣克莱尔写给妻子的便条，由拉斯卡尔转交"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "SPOUSE",
+     "object": "Mrs. St. Clair",
+     "evidence": "my wife was standing in the street, with her eyes fixed full upon me",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "DECEIVED",
+     "object": "Mrs. St. Clair",
+     "evidence": "Even a wife’s eyes could not pierce so complete a disguise",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "OWNS",
+     "object": "the ring",
+     "evidence": "I slipped off my ring and confided it to the Lascar",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "OWNS",
+     "object": "the note",
+     "evidence": "together with a hurried scrawl, telling her that she had no cause to fear",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "VISITED",
+     "object": "the opium den",
+     "evidence": "I was dressing in my room above the opium den",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "LIVES_AT",
+     "object": "the opium den",
+     "evidence": "my room above the opium den",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Neville St. Clair",
+     "evidence": "I am sure, Mr. Holmes, that we are very much indebted to you for having cleared the matter up",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "FRIEND",
+     "object": "John Watson",
+     "evidence": "said my friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Baker Street",
+     "evidence": "if we drive to Baker Street we shall just be in time for breakfast",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Neville St. Clair",
+     "predicate": "VISITED",
+     "object": "Thames",
+     "evidence": "I hurled it out of the window, and it disappeared into the Thames",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:17.405Z"
+}

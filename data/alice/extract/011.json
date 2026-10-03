@@ -1,0 +1,242 @@
+{
+ "no": 11,
+ "title": "Who Stole the Tarts?",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7986,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，误入奇境的小女孩"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "法庭传令官，手持喇叭和羊皮纸"
+    },
+    {
+     "name": "Bill the Lizard",
+     "type": "Person",
+     "aliases": [
+      "Bill",
+      "The Lizard"
+     ],
+     "nickname": "蜥蜴比尔",
+     "description": "陪审员之一，铅笔被爱丽丝拿走"
+    },
+    {
+     "name": "Mad Hatter",
+     "type": "Person",
+     "aliases": [
+      "The Hatter",
+      "Hatter"
+     ],
+     "nickname": "疯帽匠",
+     "description": "第一个证人，带着茶杯和面包黄油出庭"
+    },
+    {
+     "name": "March Hare",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "三月兔",
+     "description": "与睡鼠挽臂进入法庭，打断疯帽匠"
+    },
+    {
+     "name": "Dormouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "睡鼠",
+     "description": "坐在爱丽丝旁边，抱怨被挤，后睡着"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Queen",
+      "Her Majesty"
+     ],
+     "nickname": "红心王后",
+     "description": "法庭上的王后，盯着疯帽匠"
+    },
+    {
+     "name": "King of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The King",
+      "His Majesty"
+     ],
+     "nickname": "红心国王",
+     "description": "法官，戴王冠套假发，主持审判"
+    },
+    {
+     "name": "Knave of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Knave",
+      "Jack of Hearts"
+     ],
+     "nickname": "红心骑士",
+     "description": "被指控偷馅饼，戴着锁链站在法庭前"
+    },
+    {
+     "name": "Gryphon",
+     "type": "Person",
+     "aliases": [
+      "Griffin"
+     ],
+     "nickname": "狮鹫",
+     "description": "爱丽丝向其耳语询问陪审员在做什么"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "White Rabbit",
+     "predicate": "SERVANT_OF",
+     "object": "King of Hearts",
+     "evidence": "near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "FRIEND",
+     "object": "Gryphon",
+     "evidence": "Alice whispered to the Gryphon",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2254,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，被传唤作证人的女孩"
+    },
+    {
+     "name": "White Rabbit",
+     "type": "Person",
+     "aliases": [
+      "The Rabbit",
+      "White Rabbit with Pink Eyes"
+     ],
+     "nickname": "白兔",
+     "description": "法庭上的传令官，宣读证人名单"
+    },
+    {
+     "name": "Duchess",
+     "type": "Person",
+     "aliases": [
+      "Her Grace"
+     ],
+     "nickname": "公爵夫人",
+     "description": "公爵夫人，其厨娘是证人"
+    },
+    {
+     "name": "Mad Hatter",
+     "type": "Person",
+     "aliases": [
+      "The Hatter",
+      "Hatter"
+     ],
+     "nickname": "疯帽匠",
+     "description": "第一个证人，作证后匆忙离开法庭"
+    },
+    {
+     "name": "Dormouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "睡鼠",
+     "description": "在法庭上打瞌睡并插话的睡鼠"
+    },
+    {
+     "name": "King of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The King",
+      "His Majesty"
+     ],
+     "nickname": "红心国王",
+     "description": "红心国王，主持法庭审判"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Queen"
+     ],
+     "nickname": "红心王后",
+     "description": "红心王后，法庭上易怒且下令砍头"
+    },
+    {
+     "name": "Duchess’s cook",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "公爵夫人的厨娘",
+     "description": "第二个证人，手持胡椒罐，拒绝作证后消失"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mad Hatter",
+     "predicate": "SERVANT_OF",
+     "object": "King of Hearts",
+     "evidence": "“You may go,” said the King, and the Hatter hurriedly left the court",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Duchess’s cook",
+     "predicate": "SERVANT_OF",
+     "object": "Duchess",
+     "evidence": "The next witness was the Duchess’s cook.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "White Rabbit",
+     "predicate": "SERVANT_OF",
+     "object": "King of Hearts",
+     "evidence": "The King looked anxiously at the White Rabbit, who said in a low voice, “Your Majesty must cross-examine this witness.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Mad Hatter",
+     "evidence": "“—and just take his head off outside,” the Queen added to one of the officers",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Dormouse",
+     "evidence": "“Collar that Dormouse,” the Queen shrieked out. “Behead that Dormouse!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "King of Hearts",
+     "predicate": "SPOUSE",
+     "object": "Queen of Hearts",
+     "evidence": "he added in an undertone to the Queen, “Really, my dear, you must cross-examine the next witness.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:45.292Z"
+}

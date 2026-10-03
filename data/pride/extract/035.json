@@ -1,0 +1,452 @@
+{
+ "no": 35,
+ "title": "Hearing herself called",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 2883,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，傲慢但正直"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人宅邸，达西姨妈家"
+    },
+    {
+     "name": "Kent",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "肯特郡",
+     "description": "英格兰郡名，罗新斯所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "renewal of those offers, which were last night so disgusting to you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "It was dated from Rosings, at eight o’clock in the morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Kent",
+     "evidence": "The five weeks which she had now passed in Kent",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 14053,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，信中向伊丽莎白解释自己的行为"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，读信人"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，宾利爱慕对象"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，伊丽莎白与简的父亲"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "达西好友，曾爱慕简·班纳特"
+    },
+    {
+     "name": "Caroline Bingley",
+     "type": "Person",
+     "aliases": [
+      "Miss Bingley",
+      "Caroline"
+     ],
+     "nickname": "卡罗琳",
+     "description": "宾利小姐，达西好友之妹"
+    },
+    {
+     "name": "Louisa Hurst",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Hurst",
+      "Louisa",
+      "Miss Bingley"
+     ],
+     "nickname": "赫斯特太太",
+     "description": "宾利小姐的姐姐"
+    },
+    {
+     "name": "Georgiana Darcy",
+     "type": "Person",
+     "aliases": [
+      "Miss Darcy",
+      "Georgiana"
+     ],
+     "nickname": "乔治安娜",
+     "description": "达西的妹妹，曾险与韦翰私奔"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，乔治安娜的监护人之一"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "卢卡斯家家长，曾透露宾利将结婚"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "达西父亲教子，被指品行不端"
+    },
+    {
+     "name": "Mrs. Younge",
+     "type": "Person",
+     "aliases": [
+      "Younge"
+     ],
+     "nickname": "杨太太",
+     "description": "乔治安娜的女伴，协助韦翰私奔"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西家族庄园"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利租住的庄园"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "班纳特家所在郡"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "宾利离开内瑟菲尔德后所去城市"
+    },
+    {
+     "name": "Ramsgate",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "拉姆斯盖特",
+     "description": "乔治安娜与韦翰险些私奔之地"
+    },
+    {
+     "name": "Cambridge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "剑桥",
+     "description": "韦翰接受教育的大学"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Georgiana Darcy",
+     "evidence": "My sister, who is more than ten years my junior, was left to the guardianship of my mother’s nephew, Colonel Fitzwilliam, and myself.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "GUARDIAN_OF",
+     "object": "Georgiana Darcy",
+     "evidence": "My sister, who is more than ten years my junior, was left to the guardianship of my mother’s nephew, Colonel Fitzwilliam, and myself.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "GUARDIAN_OF",
+     "object": "Georgiana Darcy",
+     "evidence": "My sister, who is more than ten years my junior, was left to the guardianship of my mother’s nephew, Colonel Fitzwilliam, and myself.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Colonel Fitzwilliam",
+     "predicate": "KIN",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "my mother’s nephew, Colonel Fitzwilliam",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "by your father",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "your elder sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "your father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "your father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LOVES",
+     "object": "Jane Bennet",
+     "evidence": "Bingley preferred your elder sister to any other young woman in the country.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "my friend’s behaviour",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Caroline Bingley",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "His sisters’ uneasiness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Hurst",
+     "predicate": "KIN",
+     "object": "Charles Bingley",
+     "evidence": "His sisters’ uneasiness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "KIN",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "Mr. Wickham is the son of a very respectable man",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "HELPED",
+     "object": "George Wickham",
+     "evidence": "My father supported him at school, and afterwards at Cambridge",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Georgiana Darcy",
+     "evidence": "he so far recommended himself to Georgiana, whose affectionate heart retained a strong impression of his kindness to her as a child, that she was persuaded to believe herself in love and to consent to an elopement.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Younge",
+     "predicate": "HELPED",
+     "object": "George Wickham",
+     "evidence": "by her connivance and aid he so far recommended himself to Georgiana",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Younge",
+     "predicate": "DECEIVED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "in whose character we were most unhappily deceived",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "the management of all the Pemberley estates",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "He left Netherfield for London",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "He left Netherfield for London",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Georgiana Darcy",
+     "predicate": "VISITED",
+     "object": "Ramsgate",
+     "evidence": "last summer she went with the lady who presided over it to Ramsgate",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Ramsgate",
+     "evidence": "thither also went Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Cambridge",
+     "evidence": "My father supported him at school, and afterwards at Cambridge",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "your father",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 20,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，向伊丽莎白求婚被拒"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，军官"
+    }
+   ],
+   "relations": []
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:35.241Z"
+}

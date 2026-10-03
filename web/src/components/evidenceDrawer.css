@@ -22,6 +22,50 @@
   min-width: 0;
 }
 
+.evd-images {
+  margin-bottom: 14px;
+}
+
+.evd-images-strip {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+}
+
+.evd-images figure {
+  flex: none;
+  margin: 0;
+  max-width: 160px;
+}
+
+.evd-images .ant-image-img {
+  width: auto;
+  object-fit: contain;
+  border: 1px solid var(--line, #e5e1d8);
+  border-radius: 4px;
+  background: #faf8f3;
+}
+
+.evd-images figcaption {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--ink-2, #555);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.evd-images small {
+  display: block;
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--ink-3, #888);
+}
+
 .evd-text {
   white-space: pre-wrap;
   word-break: break-word;

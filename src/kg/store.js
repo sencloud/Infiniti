@@ -2,9 +2,10 @@
 // 重新入库会清空 Neo4j 里该图谱的所有节点，这些需要人或模型花成本产出的东西不能只存在库里。
 import fs from 'node:fs';
 import path from 'node:path';
+import { graphDataDir } from './domains/index.js';
 
 export function graphFile(graphId, ...parts) {
-  return path.resolve('data', graphId, ...parts);
+  return path.join(graphDataDir(graphId), ...parts);
 }
 
 export function readJsonFile(file, fallback = null) {

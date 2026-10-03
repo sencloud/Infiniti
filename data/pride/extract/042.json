@@ -1,0 +1,542 @@
+{
+ "no": 42,
+ "title": "The arrival of the Gardiners",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7947,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐，对家庭关系有深刻反思。"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温和，受众人喜爱。"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，易受影响，情绪波动大。"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，轻浮任性，随军团离开后仍不改本性。"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，因早年择偶不慎而对婚姻失望，喜爱乡村与书籍。"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，见识浅薄，常抱怨，令家庭氛围阴郁。"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵团军官，伊丽莎白曾对其有好感，后离开。"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，因生意推迟旅行，为人务实。"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅妈，曾居德比郡，对那里有特殊感情。"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团上校，其妻与丽迪雅交好。"
+    },
+    {
+     "name": "Mrs. Forster",
+     "type": "Person",
+     "aliases": [
+      "Harriet"
+     ],
+     "nickname": "福斯特太太",
+     "description": "福斯特上校之妻，与丽迪雅亲近，常邀其同行。"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族，包括班纳特夫妇及其五个女儿。"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家的宅邸，位于赫特福德郡。"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西先生的庄园，位于德比郡。"
+    },
+    {
+     "name": "Derbyshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "德比郡",
+     "description": "英格兰郡名，彭伯里所在地，加德纳太太曾居于此。"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近城镇，民兵团曾驻扎于此。"
+    },
+    {
+     "name": "the Lakes",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "湖区",
+     "description": "英格兰西北部风景区，伊丽莎白原计划旅行之地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "Her father, captivated by youth and beauty, and that appearance of good-humour which youth and beauty generally give, had married a woman whose weak understanding and illiberal mind had very early in their marriage put an end to all real affection for her.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Her father, captivated by youth and beauty, and that appearance of good-humour which youth and beauty generally give, had married a woman whose weak understanding and illiberal mind had very early in their marriage put an end to all real affection for her.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Her father, captivated by youth and beauty, and that appearance of good-humour which youth and beauty generally give, had married a woman whose weak understanding and illiberal mind had very early in their marriage put an end to all real affection for her.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "could she have included Jane in the scheme, every part of it would have been perfect.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "her other sister, from whose disposition greater evil might be apprehended, was likely to be hardened in all her folly and assurance",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "When Lydia went away she promised to write very often and very minutely to her mother and Kitty",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "her other sister, from whose disposition greater evil might be apprehended, was likely to be hardened in all her folly and assurance",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "When Lydia went away she promised to write very often and very minutely to her mother and Kitty",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "When Lydia went away she promised to write very often and very minutely to her mother and Kitty",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Gardiner",
+     "evidence": "Mr. and Mrs. Gardiner, with their four children, did at length appear at Longbourn.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Gardiner",
+     "evidence": "her uncle and aunt’s arrival",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Gardiner",
+     "evidence": "her uncle and aunt’s arrival",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "GUARDIAN_OF",
+     "object": "Mr. Gardiner",
+     "evidence": "The children, two girls of six and eight years old, and two younger boys, were to be left under the particular care of their cousin Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "GUARDIAN_OF",
+     "object": "Mrs. Gardiner",
+     "evidence": "The children, two girls of six and eight years old, and two younger boys, were to be left under the particular care of their cousin Jane",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Forster",
+     "evidence": "Mrs. Forster called her, and they were going to the camp",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "FRIEND",
+     "object": "Mrs. Forster",
+     "evidence": "Mrs. Forster called her, and they were going to the camp",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LOVES",
+     "object": "George Wickham",
+     "evidence": "When Elizabeth had rejoiced over Wickham’s departure, she found little other cause for satisfaction in the loss of the regiment.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "It was impossible for her to see the word without thinking of Pemberley and its owner.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Derbyshire",
+     "evidence": "they were obliged to give up the Lakes, and substitute a more contracted tour; and, according to the present plan, were to go no farther northward than Derbyshire.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "the Lakes",
+     "evidence": "Her tour to the Lakes was now the object of her happiest thoughts",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "Derbyshire",
+     "evidence": "to Mrs. Gardiner it had a peculiarly strong attraction. The town where she had formerly passed some years of her life",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "HAD Elizabeth’s opinion been all drawn from her own family, she could not have formed a very pleasing picture of conjugal felicity or domestic comfort.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "HAD Elizabeth’s opinion been all drawn from her own family, she could not have formed a very pleasing picture of conjugal felicity or domestic comfort.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "HAD Elizabeth’s opinion been all drawn from her own family, she could not have formed a very pleasing picture of conjugal felicity or domestic comfort.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "HAD Elizabeth’s opinion been all drawn from her own family, she could not have formed a very pleasing picture of conjugal felicity or domestic comfort.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "HAD Elizabeth’s opinion been all drawn from her own family, she could not have formed a very pleasing picture of conjugal felicity or domestic comfort.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "HAD Elizabeth’s opinion been all drawn from her own family, she could not have formed a very pleasing picture of conjugal felicity or domestic comfort.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "health, good-humour, and cheerfulness began to reappear at Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "Mr. and Mrs. Gardiner, with their four children, did at length appear at Longbourn.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "Mr. and Mrs. Gardiner, with their four children, did at length appear at Longbourn.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "The Gardiners stayed only one night at Longbourn, and set off the next morning with Elizabeth in pursuit of novelty and amusement.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "by the middle of June Kitty was so much recovered as to be able to enter Meryton without tears",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2662,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，出身显赫"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "达西家旧识，曾在彭伯里长大"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "伊丽莎白的舅舅，商人"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "伊丽莎白的舅妈，曾居兰姆顿"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西先生的庄园，位于德比郡"
+    },
+    {
+     "name": "Lambton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "兰姆顿",
+     "description": "德比郡小镇，加德纳太太旧居"
+    },
+    {
+     "name": "Derbyshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "德比郡",
+     "description": "英格兰郡，彭伯里所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Gardiner",
+     "evidence": "her aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Gardiner",
+     "evidence": "her aunt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Gardiner",
+     "evidence": "Mr. Gardiner declared his willingness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "Pemberley was situated",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Pemberley",
+     "predicate": "LIVES_AT",
+     "object": "Derbyshire",
+     "evidence": "A small part of Derbyshire is all the present concern",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "Lambton",
+     "evidence": "the little town of Lambton, the scene of Mrs. Gardiner’s former residence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "Wickham passed all his youth there",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "To Pemberley, therefore, they were to go",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "To Pemberley, therefore, they were to go",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "Pemberley",
+     "evidence": "To Pemberley, therefore, they were to go",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:46.947Z"
+}

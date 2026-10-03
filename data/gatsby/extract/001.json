@@ -1,0 +1,742 @@
+{
+ "no": 1,
+ "title": "In my younger and more vulnerable years my father…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7917,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "my"
+     ],
+     "nickname": "尼克·卡拉威",
+     "description": "叙述者，来自中西部，战后到东部做债券生意"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "the man who gives his name to this book"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵豪宅主人，尼克邻居，代表希望与浪漫"
+    },
+    {
+     "name": "Nick Carraway's father",
+     "type": "Person",
+     "aliases": [
+      "my father",
+      "Father"
+     ],
+     "nickname": "尼克的父亲",
+     "description": "给尼克忠告，资助尼克一年"
+    },
+    {
+     "name": "Carraway family",
+     "type": "Organization",
+     "aliases": [
+      "The Carraways",
+      "my family"
+     ],
+     "nickname": "卡拉威家族",
+     "description": "中西部望族，三代显赫"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [
+      "West Egg village"
+     ],
+     "nickname": "西卵",
+     "description": "长岛海峡旁两个卵形半岛之一，尼克与盖茨比居住地"
+    },
+    {
+     "name": "East Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "东卵",
+     "description": "与西卵相对，更时尚的半岛"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [
+      "the city"
+     ],
+     "nickname": "纽约",
+     "description": "城市，西卵以东二十英里"
+    },
+    {
+     "name": "Long Island Sound",
+     "type": "Place",
+     "aliases": [
+      "the Sound"
+     ],
+     "nickname": "长岛海峡",
+     "description": "西半球最驯化的咸水体"
+    },
+    {
+     "name": "Middle West",
+     "type": "Place",
+     "aliases": [
+      "Middle Western city"
+     ],
+     "nickname": "中西部",
+     "description": "尼克家乡，卡拉威家族所在地"
+    },
+    {
+     "name": "New Haven",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽黑文",
+     "description": "尼克1915年毕业的大学所在地"
+    },
+    {
+     "name": "Great War",
+     "type": "Event",
+     "aliases": [
+      "the Great War",
+      "delayed Teutonic migration"
+     ],
+     "nickname": "一战",
+     "description": "尼克参与的战争"
+    },
+    {
+     "name": "Gatsby's mansion",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨比豪宅",
+     "description": "西卵巨大宅邸，仿诺曼底市政厅，带塔楼、泳池"
+    },
+    {
+     "name": "Nick's house",
+     "type": "Place",
+     "aliases": [
+      "My house",
+      "a weather-beaten cardboard bungalow"
+     ],
+     "nickname": "尼克的小屋",
+     "description": "西卵尖端的小房子，月租八十美元"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Nick Carraway's father",
+     "predicate": "KIN",
+     "object": "Nick Carraway",
+     "evidence": "my father gave me some advice",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "MEMBER_OF",
+     "object": "Carraway family",
+     "evidence": "My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "Nick's house",
+     "evidence": "I lived at West Egg",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I lived at West Egg",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "Gatsby's mansion",
+     "evidence": "It was Gatsby's mansion.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Gatsby's mansion",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "I lived at West Egg",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Great War",
+     "evidence": "I participated in that delayed Teutonic migration known as the Great War",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "NATIVE_OF",
+     "object": "Middle West",
+     "evidence": "My family have been prominent, well-to-do people in this Middle Western city",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "New Haven",
+     "evidence": "I graduated from New Haven in 1915",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "Twenty miles from the city",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Nick Carraway's father",
+     "predicate": "HELPED",
+     "object": "Nick Carraway",
+     "evidence": "Father agreed to finance me for a year",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7913,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，黛西的远房表亲，汤姆的大学同学"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "尼克的远房表亲，汤姆的妻子"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，富有且体格强壮"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "黛西的朋友，年轻女子"
+    },
+    {
+     "name": "East Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "东卵",
+     "description": "时尚的富人区，汤姆和黛西的宅邸所在地"
+    },
+    {
+     "name": "Chicago",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "芝加哥",
+     "description": "美国中西部城市，汤姆和黛西曾居住"
+    },
+    {
+     "name": "New Haven",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽黑文",
+     "description": "汤姆和尼克上大学的城市"
+    },
+    {
+     "name": "France",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "法国",
+     "description": "汤姆和黛西曾旅居一年的国家"
+    },
+    {
+     "name": "Lake Forest",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "森林湖",
+     "description": "汤姆带来马球马的来源地"
+    },
+    {
+     "name": "Tom Buchanan's mansion",
+     "type": "Place",
+     "aliases": [
+      "Georgian Colonial mansion"
+     ],
+     "nickname": "汤姆的宅邸",
+     "description": "汤姆和黛西在东卵的豪华宅邸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Nick Carraway",
+     "predicate": "KIN",
+     "object": "Daisy Buchanan",
+     "evidence": "Daisy was my second cousin once removed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Tom Buchanan",
+     "evidence": "I’d known Tom in college",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "Her husband, among various physical accomplishments",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "East Egg",
+     "evidence": "I drove over to East Egg to see two old friends",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Tom Buchanan's mansion",
+     "evidence": "I drove over there to have dinner with the Tom Buchanans",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "LIVES_AT",
+     "object": "Tom Buchanan's mansion",
+     "evidence": "Their house was even more elaborate than I expected",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "LIVES_AT",
+     "object": "Tom Buchanan's mansion",
+     "evidence": "Their house was even more elaborate than I expected",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "Chicago",
+     "evidence": "I spent two days with them in Chicago",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Chicago",
+     "evidence": "I spent two days with them in Chicago",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "Chicago",
+     "evidence": "I spent two days with them in Chicago",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "New Haven",
+     "evidence": "one of the most powerful ends that ever played football at New Haven",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "VISITED",
+     "object": "New Haven",
+     "evidence": "We were in the same senior society",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "France",
+     "evidence": "They had spent a year in France",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "France",
+     "evidence": "They had spent a year in France",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "VISITED",
+     "object": "Lake Forest",
+     "evidence": "he’d brought down a string of polo ponies from Lake Forest",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "FRIEND",
+     "object": "Daisy Buchanan",
+     "evidence": "She hinted in a murmur that the surname of the balancing girl was Baker",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7785,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，来自西部，住在西卵，盖茨比的邻居"
+    },
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "神秘富豪，住在西卵，尼克邻居"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，尼克的表亲，美丽迷人"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，富有且体格健壮，有外遇"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Miss Baker",
+      "Jordan"
+     ],
+     "nickname": "乔丹",
+     "description": "年轻女子，高尔夫球手，黛西的朋友"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛的一个半岛，尼克和盖茨比居住地"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "城市，汤姆的情妇所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "That's what I get for marrying a brute of a man",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "KIN",
+     "object": "Nick Carraway",
+     "evidence": "I love to see you at my table, Nick. You remind me of a—of a rose",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "FRIEND",
+     "object": "Daisy Buchanan",
+     "evidence": "Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "You live in West Egg",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "You must know Gatsby.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "DECEIVED",
+     "object": "Daisy Buchanan",
+     "evidence": "Tom's got some woman in New York.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "HARMED",
+     "object": "Daisy Buchanan",
+     "evidence": "You did it, Tom, she said accusingly. I know you didn't mean to, but you did do it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "VISITED",
+     "object": "New York",
+     "evidence": "I've been trying to get you to New York all afternoon.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7621,
+   "entities": [
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "Nick",
+      "Mr. Carraway",
+      "Narrator"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，黛西的表亲，来自西部"
+    },
+    {
+     "name": "Daisy Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Daisy",
+      "Mrs. Buchanan",
+      "Daisy Fay"
+     ],
+     "nickname": "黛西",
+     "description": "汤姆的妻子，尼克的表亲，来自路易斯维尔"
+    },
+    {
+     "name": "Tom Buchanan",
+     "type": "Person",
+     "aliases": [
+      "Tom",
+      "Mr. Buchanan"
+     ],
+     "nickname": "汤姆",
+     "description": "黛西的丈夫，富有且体格健壮"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Jordan",
+      "Miss Baker"
+     ],
+     "nickname": "乔丹",
+     "description": "高尔夫球手，黛西的朋友，来自路易斯维尔"
+    },
+    {
+     "name": "Westchester",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "威彻斯特",
+     "description": "乔丹将参加高尔夫锦标赛的地点"
+    },
+    {
+     "name": "New York",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽约",
+     "description": "汤姆有女人的城市，乔丹来自的地方"
+    },
+    {
+     "name": "Louisville",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "路易斯维尔",
+     "description": "黛西和乔丹度过少女时代的地方"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Nick Carraway",
+     "predicate": "KIN",
+     "object": "Daisy Buchanan",
+     "evidence": "Even if we are cousins.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "SPOUSE",
+     "object": "Daisy Buchanan",
+     "evidence": "Her voice sang: “It’s romantic, isn’t it, Tom?”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "Jordan’s going to play in the tournament tomorrow,” explained Daisy, “over at Westchester.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "“Oh—you’re Jordan Baker.”",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Daisy Buchanan",
+     "predicate": "NATIVE_OF",
+     "object": "Louisville",
+     "evidence": "From Louisville. Our white girlhood was passed together there.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "NATIVE_OF",
+     "object": "Louisville",
+     "evidence": "From Louisville. Our white girlhood was passed together there.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jordan Baker",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Westchester",
+     "evidence": "Jordan’s going to play in the tournament tomorrow,” explained Daisy, “over at Westchester.”",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tom Buchanan",
+     "predicate": "LIVES_AT",
+     "object": "New York",
+     "evidence": "the fact that he “had some woman in New York”",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 1496,
+   "entities": [
+    {
+     "name": "Jay Gatsby",
+     "type": "Person",
+     "aliases": [
+      "Gatsby",
+      "Mr. Gatsby",
+      "James Gatz",
+      "The Great Gatsby"
+     ],
+     "nickname": "盖茨比",
+     "description": "西卵的神秘富豪，尼克·卡罗威的邻居"
+    },
+    {
+     "name": "Jordan Baker",
+     "type": "Person",
+     "aliases": [
+      "Miss Baker",
+      "Jordan"
+     ],
+     "nickname": "乔丹",
+     "description": "尼克在黛西家晚宴上结识的女子"
+    },
+    {
+     "name": "Nick Carraway",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "尼克",
+     "description": "叙述者，住在西卵，盖茨比的邻居"
+    },
+    {
+     "name": "West Egg",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "西卵",
+     "description": "长岛的一个半岛，尼克和盖茨比居住地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Nick Carraway",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "when I reached my estate at West Egg I ran the car under its shed",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jay Gatsby",
+     "predicate": "LIVES_AT",
+     "object": "West Egg",
+     "evidence": "a figure had emerged from the shadow of my neighbour’s mansion",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nick Carraway",
+     "predicate": "FRIEND",
+     "object": "Jordan Baker",
+     "evidence": "Miss Baker had mentioned him at dinner, and that would do for an introduction",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:06.579Z"
+}

@@ -1,0 +1,667 @@
+{
+ "no": 37,
+ "title": "The manor-house of Ferndean was a building of considerable…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7848,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，现失明独居芬丁庄园"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "miss"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，离开桑菲尔德后重返寻找罗切斯特"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "芬丁庄园的男仆，罗切斯特的仆人"
+    },
+    {
+     "name": "Mary",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "玛丽",
+     "description": "约翰的妻子，芬丁庄园的女仆"
+    },
+    {
+     "name": "Ferndean",
+     "type": "Place",
+     "aliases": [
+      "the manor-house of Ferndean",
+      "Manor House"
+     ],
+     "nickname": "芬丁庄园",
+     "description": "罗切斯特家族的老宅，深藏林中，现为罗切斯特居所"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "简·爱之前离开的庄园"
+    },
+    {
+     "name": "Rochester",
+     "type": "Organization",
+     "aliases": [
+      "Rochester family"
+     ],
+     "nickname": "罗切斯特家族",
+     "description": "拥有芬丁庄园的家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Ferndean",
+     "evidence": "the blind tenant of the room",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Will you take my arm, sir?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mary opened the door for me, and shut it behind me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John",
+     "predicate": "SPOUSE",
+     "object": "Mary",
+     "evidence": "John’s wife opened for me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "MEMBER_OF",
+     "object": "Rochester",
+     "evidence": "His father had purchased the estate for the sake of the game covers.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Ferndean",
+     "evidence": "His father had purchased the estate for the sake of the game covers.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Ferndean",
+     "evidence": "To this house I came just ere dark on an evening marked by the characteristics of sad sky, cold gale, and continued small penetrating rain.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "I had heard all which had happened since I left Thornfield",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7607,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，独立自主，回到罗切斯特身边"
+    },
+    {
+     "name": "Edward Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "sir",
+      "master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "芬丁庄园主人，失明且残疾，深爱简·爱"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "提及的人物，与约翰一起知晓简·爱到来"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简·爱的表兄，曾向简·爱求婚"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰·里弗斯的妹妹，简·爱的朋友"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "芬丁庄园的马车夫，知晓简·爱到来"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Rochester",
+     "evidence": "I am Jane Eyre: I have found you out—I am come back to you.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "My living darling! These are certainly her limbs, and these her features; but I cannot be so blest, after all my misery.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "PROPOSED_TO",
+     "object": "Edward Rochester",
+     "evidence": "I had indeed made my proposal from the idea that he wished and would ask me to be his wife",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Rochester",
+     "evidence": "I will be your neighbour, your nurse, your housekeeper.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Mary Rivers",
+     "evidence": "Pilot knows me, and John and Mary know I am here.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Mary Ingram",
+     "evidence": "Pilot knows me, and John and Mary know I am here.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "John",
+     "evidence": "Pilot knows me, and John and Mary know I am here.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "he, like St. John, saw impropriety in my inconsiderateness.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Ferndean",
+     "evidence": "I came only this evening",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Ferndean",
+     "evidence": "The manor-house of Ferndean was a building of considerable…",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7775,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与罗切斯特相爱，回到他身边照顾他"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "男主角，桑菲尔德庄园主人，失明后住在芬丁庄园"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "在芬丁庄园照顾罗切斯特的仆人"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "简·爱的表姐，与简在沼泽居生活"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "芬丁庄园的马车夫，其妻为仆人"
+    },
+    {
+     "name": "Ferndean",
+     "type": "Place",
+     "aliases": [
+      "the manor-house of Ferndean"
+     ],
+     "nickname": "芬丁庄园",
+     "description": "罗切斯特的庄园，简·爱在此与他重逢"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的旧宅，简·爱曾逃离此地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "says she loves me",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "a very delirium of desire to behold my Jane again",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I had come in, in Mary’s stead, with the tray",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I asked a question, expecting John’s wife to answer me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I asked a question, expecting John’s wife to answer me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Ferndean",
+     "evidence": "The manor-house of Ferndean was a building of considerable",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Ferndean",
+     "evidence": "I had come in, in Mary’s stead, with the tray",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "you had fled from Thornfield",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 8036,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与罗切斯特相爱"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "男主角，桑菲尔德庄园主人，简的爱人"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简的表兄，牧师，曾向简求婚"
+    },
+    {
+     "name": "Rosamond",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "罗莎蒙德",
+     "description": "美丽的年轻女士，圣约翰爱慕的人"
+    },
+    {
+     "name": "Moor House",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沼泽居",
+     "description": "简获得教职并发现亲戚的地方"
+    },
+    {
+     "name": "Morton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莫顿",
+     "description": "简担任学校女教师的村庄"
+    },
+    {
+     "name": "India",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "印度",
+     "description": "圣约翰计划前往传教的地方"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，有果园"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "This St. John, then, is your cousin?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "He asked me to marry him.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LOVES",
+     "object": "Rosamond",
+     "evidence": "He loves (as he can love, and that is not as you love) a beautiful young lady called Rosamond.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "All my heart is yours, sir: it belongs to you; and with you it would remain, were fate to exile the rest of me from your presence for ever.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "he, in truth, loved me far too well and too tenderly to constitute himself my tyrant",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Moor House",
+     "evidence": "how I had been received at Moor House",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Morton",
+     "evidence": "how I had obtained the office of schoolmistress",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "Morton",
+     "evidence": "He would visit the school sometimes?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "the old lightning-struck chestnut-tree in Thornfield orchard",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 8008,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，与罗切斯特相爱并结婚"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "男主角，芬丁庄园主人，盲且残疾"
+    },
+    {
+     "name": "Ferndean",
+     "type": "Place",
+     "aliases": [
+      "the manor-house of Ferndean"
+     ],
+     "nickname": "芬丁庄园",
+     "description": "罗切斯特的庄园，位于森林中"
+    },
+    {
+     "name": "Pilot",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "派洛特",
+     "description": "罗切斯特的狗"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "Jane, will you marry me?",
+     "confidence": 1
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I love you better now, when I can really be useful to you, than I did in your state of proud independence",
+     "confidence": 1
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "I will at least choose—her I love best.",
+     "confidence": 1
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Ferndean",
+     "evidence": "Ferndean is buried, as you see, in a heavy wood",
+     "confidence": 1
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "OWNS",
+     "object": "Pilot",
+     "evidence": "Pilot is actually gone home to his dinner",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 631,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "简·爱",
+     "description": "叙述者，与罗切斯特相爱并相伴"
+    },
+    {
+     "name": "Edward Rochester",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "罗切斯特",
+     "description": "失明男子，简·爱的爱人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Rochester",
+     "evidence": "I took that dear hand, held it a moment to my lips",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "HELPED",
+     "object": "Edward Rochester",
+     "evidence": "I served both for his prop and guide",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:50.250Z"
+}

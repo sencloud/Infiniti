@@ -1,0 +1,1477 @@
+{
+ "no": 17,
+ "title": "A week passed, and no news arrived of Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7657,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，阿黛尔的保护人"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德庄园的女管家"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的保护人，简·爱教导的学生"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Grace",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "桑菲尔德庄园三楼的神秘仆人"
+    },
+    {
+     "name": "Leah",
+     "type": "Person",
+     "aliases": [
+      "the housemaid"
+     ],
+     "nickname": "莉娅",
+     "description": "桑菲尔德庄园的女仆"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德庄园的家庭教师，叙述者"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，简·爱任教之地"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近的城镇，有乔治客栈和银行"
+    },
+    {
+     "name": "George Inn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "乔治客栈",
+     "description": "米尔科特的客栈，可雇厨房人手"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "You have nothing to do with the master of Thornfield, further than to receive the salary he gives you for teaching his protégée",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "teaching his protégée",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "It is from the master",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "they’re not one fifth of the sum Mrs. Poole receives",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Leah",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "there’s no stinginess at Thornfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "not show his face again at Thornfield for a year to come",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I went on with my day’s business tranquilly; but ever and anon vague suggestions kept wandering across my brain of reasons why I should quit Thornfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "we were at breakfast",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "Adèle ran quite wild in the midst of it",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "She would thus descend to the kitchen once a day",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Leah",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "I once, indeed, overheard part of a dialogue between Leah and one of the charwomen",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "she goes every quarter to the bank at Millcote",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "VISITED",
+     "object": "George Inn",
+     "evidence": "I am to get more kitchen hands from the George Inn, at Millcote",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 8007,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，阿黛尔的监护人"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德庄园的管家"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特监护的法国小女孩"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "到访桑菲尔德的贵族小姐"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "桑菲尔德的马车夫"
+    },
+    {
+     "name": "Sophie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "索菲",
+     "description": "阿黛尔的法国保姆"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德庄园的家庭教师"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特的府邸"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近的城镇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "for it was her part to receive the company,—to conduct the ladies to their rooms",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mr. Rochester has something else to think about.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I should not be called upon to quit my sanctum of the schoolroom",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I have sent John down to the gates to see if there is anything on the road",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sophie",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "I allowed Sophie to apparel her in one of her short, full muslin frocks",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "the sonorous voice of the master of Thornfield Hall, welcoming his fair and gallant guests under its roof",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Mrs. Fairfax assumed her best black satin gown, her gloves, and her gold watch",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "Adèle flew to the window.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "I sat at work in the schoolroom with the window open",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield Hall",
+     "evidence": "Miss Ingram! exclaimed Mrs. Fairfax, and away she hurried to her post below.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "one can see a long way from thence in the direction of Millcote",
+     "confidence": 0.6
+    },
+    {
+     "subject": "John",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "I have sent John down to the gates to see if there is anything on the road",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7312,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德府的家庭教师，本片段叙述者"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府主人，与英格拉姆小姐交往密切"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的受监护人，简·爱的学生"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德府管家，与简·爱交好"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "来访的贵族小姐，罗切斯特的追求对象"
+    },
+    {
+     "name": "Maria Temple",
+     "type": "Person",
+     "aliases": [
+      "Miss Temple",
+      "Temple"
+     ],
+     "nickname": "坦普尔小姐",
+     "description": "简·爱在洛伍德学校的老师，已结婚"
+    },
+    {
+     "name": "Mrs. Eshton",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "埃希顿太太",
+     "description": "来访的客人，有两个女儿"
+    },
+    {
+     "name": "Amy Eshton",
+     "type": "Person",
+     "aliases": [
+      "Amy"
+     ],
+     "nickname": "艾米·埃希顿",
+     "description": "埃希顿太太的长女"
+    },
+    {
+     "name": "Louisa Eshton",
+     "type": "Person",
+     "aliases": [
+      "Louisa"
+     ],
+     "nickname": "路易莎·埃希顿",
+     "description": "埃希顿太太的次女"
+    },
+    {
+     "name": "Lady Lynn",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "林恩夫人",
+     "description": "来访的贵妇，约四十岁"
+    },
+    {
+     "name": "Mrs. Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Dent"
+     ],
+     "nickname": "登特上校太太",
+     "description": "来访的客人，举止优雅"
+    },
+    {
+     "name": "Sir George Lynn",
+     "type": "Person",
+     "aliases": [
+      "Sir George"
+     ],
+     "nickname": "乔治·林恩爵士",
+     "description": "新当选的米尔科特议员"
+    },
+    {
+     "name": "Sophie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "索菲",
+     "description": "阿黛尔的女仆"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Organization",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特的宅邸"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近城镇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "request Miss Eyre to accompany her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "I took her up in my arms and carried her off to bed",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Blanche Ingram",
+     "evidence": "Mr. Rochester evidently prefers her to any of the other ladies",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "And she him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "he has already made so protracted a stay at Thornfield",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I happened to remark to Mr. Rochester",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sophie",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "Sophie commenced the operation of dressing her",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Amy Eshton",
+     "predicate": "KIN",
+     "object": "Mrs. Eshton",
+     "evidence": "Mrs. Eshton and two of her daughters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Eshton",
+     "predicate": "KIN",
+     "object": "Mrs. Eshton",
+     "evidence": "Mrs. Eshton and two of her daughters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir George Lynn",
+     "predicate": "MEMBER_OF",
+     "object": "Millcote",
+     "evidence": "Sir George Lynn, who was lately elected member for Millcote",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7688,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Edward",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简·爱的主人"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，桑菲尔德家庭教师"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "英格拉姆家大小姐，美貌高傲"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "布兰奇之妹，性格温和但缺乏生气"
+    },
+    {
+     "name": "Lady Ingram",
+     "type": "Person",
+     "aliases": [
+      "Dowager Lady Ingram"
+     ],
+     "nickname": "英格拉姆夫人",
+     "description": "布兰奇与玛丽之母，傲慢专横"
+    },
+    {
+     "name": "Lord Ingram",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "英格拉姆勋爵",
+     "description": "布兰奇与玛丽之兄，高大英俊但懒散"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德管家，曾向简描述布兰奇"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "little Adèle",
+      "Miss Varens"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的法国养女，简的学生"
+    },
+    {
+     "name": "Mrs. Dent",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Colonel Dent"
+     ],
+     "nickname": "登特上校太太",
+     "description": "客人之一，对阿黛尔友善"
+    },
+    {
+     "name": "Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Dent"
+     ],
+     "nickname": "登特上校",
+     "description": "客人之一，军人风度"
+    },
+    {
+     "name": "Mr. Eshton",
+     "type": "Person",
+     "aliases": [
+      "Eshton"
+     ],
+     "nickname": "埃希顿先生",
+     "description": "当地地方法官，绅士模样"
+    },
+    {
+     "name": "Lady Lynn",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "林恩夫人",
+     "description": "客人之一，认出阿黛尔"
+    },
+    {
+     "name": "Mr. Frederick Lynn",
+     "type": "Person",
+     "aliases": [
+      "Frederick Lynn",
+      "Mr. Lynn"
+     ],
+     "nickname": "弗雷德里克·林恩",
+     "description": "客人之一，时髦青年"
+    },
+    {
+     "name": "Henry Lynn",
+     "type": "Person",
+     "aliases": [
+      "Lynn"
+     ],
+     "nickname": "亨利·林恩",
+     "description": "客人之一，时髦青年"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简·爱的舅妈，冷酷严厉"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰·里弗斯的妹妹"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lady Ingram",
+     "predicate": "KIN",
+     "object": "Blanche Ingram",
+     "evidence": "the Dowager Lady Ingram and her daughters, Blanche and Mary",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Ingram",
+     "predicate": "KIN",
+     "object": "Mary Ingram",
+     "evidence": "the Dowager Lady Ingram and her daughters, Blanche and Mary",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "KIN",
+     "object": "Mary Ingram",
+     "evidence": "Blanche and Mary were of equal stature",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "KIN",
+     "object": "Blanche Ingram",
+     "evidence": "Lord Ingram, like his sisters, is very tall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "KIN",
+     "object": "Mary Ingram",
+     "evidence": "Lord Ingram, like his sisters, is very tall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I had not intended to love him; the reader knows I had wrought hard to extirpate from my soul the germs of love there detected; and now, at the first renewed view of him, they spontaneously arrived, green and strong! He made me love him without looking at me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "My master’s colourless, olive face",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Adèle Varens",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "It is Mr. Rochester’s ward, I suppose—the little French girl he was speaking of.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "It is Mr. Rochester’s ward, I suppose—the little French girl he was speaking of.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mrs. Fairfax’s description",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Dent",
+     "predicate": "FRIEND",
+     "object": "Adèle Varens",
+     "evidence": "Mrs. Dent had kindly taken her hand, and given her a kiss.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "QUARRELED",
+     "object": "Mrs. Dent",
+     "evidence": "she was (what is vernacularly termed) trailing Mrs. Dent; that is, playing on her ignorance; her trail might be clever, but it was decidedly not good-natured.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7910,
+   "entities": [
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Edward",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，阿黛尔的监护人，简·爱爱慕的对象。"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "Miss Varens",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特监护的法国小女孩，简·爱的学生。"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "英格拉姆家美丽骄傲的小姐，罗切斯特的追求目标。"
+    },
+    {
+     "name": "Lady Ingram",
+     "type": "Person",
+     "aliases": [
+      "Baroness Ingram",
+      "mama"
+     ],
+     "nickname": "英格拉姆夫人",
+     "description": "布兰奇与玛丽的母亲，傲慢的男爵夫人。"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "布兰奇的妹妹，英格拉姆家的小姐。"
+    },
+    {
+     "name": "Mr. Eshton",
+     "type": "Person",
+     "aliases": [
+      "Eshton"
+     ],
+     "nickname": "埃希顿先生",
+     "description": "参加聚会的乡绅，与登特上校争论政治。"
+    },
+    {
+     "name": "Lady Lynn",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "林恩夫人",
+     "description": "参加聚会的贵妇，与英格拉姆夫人交谈。"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰·里弗斯的妹妹，简·爱的表亲。"
+    },
+    {
+     "name": "Mary Ann Wilson",
+     "type": "Person",
+     "aliases": [
+      "Wilson",
+      "Miss Wilson"
+     ],
+     "nickname": "玛丽·安·威尔逊",
+     "description": "英格拉姆家从前的家庭教师，被布兰奇捉弄。"
+    },
+    {
+     "name": "Mrs. Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Dent"
+     ],
+     "nickname": "登特上校太太",
+     "description": "登特上校的妻子，参加聚会的客人。"
+    },
+    {
+     "name": "Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Dent"
+     ],
+     "nickname": "登特上校",
+     "description": "参加聚会的军官，与埃希顿先生争论政治。"
+    },
+    {
+     "name": "Mr. Frederick Lynn",
+     "type": "Person",
+     "aliases": [
+      "Frederick Lynn",
+      "Mr. Lynn"
+     ],
+     "nickname": "弗雷德里克·林恩",
+     "description": "林恩家的绅士，与玛丽·英格拉姆同坐。"
+    },
+    {
+     "name": "Henry Lynn",
+     "type": "Person",
+     "aliases": [
+      "Lynn"
+     ],
+     "nickname": "亨利·林恩",
+     "description": "林恩家的绅士，坐在路易莎脚边。"
+    },
+    {
+     "name": "Louisa Eshton",
+     "type": "Person",
+     "aliases": [
+      "Louisa"
+     ],
+     "nickname": "路易莎·埃希顿",
+     "description": "埃希顿家的小姐，与亨利·林恩交谈。"
+    },
+    {
+     "name": "Amy Eshton",
+     "type": "Person",
+     "aliases": [
+      "Amy"
+     ],
+     "nickname": "艾米·埃希顿",
+     "description": "埃希顿家的小姐，与英格拉姆勋爵交谈。"
+    },
+    {
+     "name": "Lord Ingram",
+     "type": "Person",
+     "aliases": [
+      "Theodore",
+      "Tedo"
+     ],
+     "nickname": "英格拉姆勋爵",
+     "description": "英格拉姆家的贵族，布兰奇的兄弟。"
+    },
+    {
+     "name": "Sir George Lynn",
+     "type": "Person",
+     "aliases": [
+      "Sir George"
+     ],
+     "nickname": "乔治·林恩爵士",
+     "description": "林恩家的乡绅，站在沙发前喝咖啡。"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德庄园的家庭教师，叙述者。"
+    },
+    {
+     "name": "Thornfield",
+     "type": "Place",
+     "aliases": [
+      "Thornfield Hall"
+     ],
+     "nickname": "桑菲尔德",
+     "description": "罗切斯特的庄园，聚会发生地。"
+    },
+    {
+     "name": "Ingram Park",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格拉姆庄园",
+     "description": "英格拉姆家族的宅邸。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "while I breathe and think, I must love him.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "while I breathe and think, I must love him.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "she was left on my hands.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I had nothing to do with him but to receive my salary at his hands",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "I suppose you have a governess for her: I saw a person with her just now",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "PROPOSED_TO",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "she herself selects a mate.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "she herself selects a mate.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "KIN",
+     "object": "Lady Ingram",
+     "evidence": "Did you speak, my own?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "KIN",
+     "object": "Mary Ingram",
+     "evidence": "Mary and I have had, I should think, a dozen at least in our day",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "KIN",
+     "object": "Lord Ingram",
+     "evidence": "Theodore, do you remember those merry days?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Ingram",
+     "predicate": "KIN",
+     "object": "Mary Ingram",
+     "evidence": "Mary and I have had, I should think, a dozen at least in our day",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Ingram",
+     "predicate": "KIN",
+     "object": "Lord Ingram",
+     "evidence": "Theodore, do you remember those merry days?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "KIN",
+     "object": "Lord Ingram",
+     "evidence": "Mary was always too sleepy to join in a plot with spirit.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "HARMED",
+     "object": "Mary Ann Wilson",
+     "evidence": "What tricks Theodore and I used to play on our Miss Wilsons",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "HARMED",
+     "object": "Mary Ann Wilson",
+     "evidence": "What tricks Theodore and I used to play on our Miss Wilsons",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "HARMED",
+     "object": "Madame Joubert",
+     "evidence": "The best fun was with Madame Joubert: Miss Wilson was a poor sickly thing",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "HARMED",
+     "object": "Madame Joubert",
+     "evidence": "The best fun was with Madame Joubert: Miss Wilson was a poor sickly thing",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "HARMED",
+     "object": "Mr. Vining",
+     "evidence": "I helped you in prosecuting (or persecuting) your tutor, whey-faced Mr. Vining",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "HARMED",
+     "object": "Mr. Vining",
+     "evidence": "I helped you in prosecuting (or persecuting) your tutor, whey-faced Mr. Vining",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "FRIEND",
+     "object": "Lord Ingram",
+     "evidence": "Theodore, do you remember those merry days?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "FRIEND",
+     "object": "Mary Ingram",
+     "evidence": "Mary and I have had, I should think, a dozen at least in our day",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "MEMBER_OF",
+     "object": "Ingram Park",
+     "evidence": "Am I right, Baroness Ingram, of Ingram Park?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Ingram",
+     "predicate": "MEMBER_OF",
+     "object": "Ingram Park",
+     "evidence": "Am I right, Baroness Ingram, of Ingram Park?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "MEMBER_OF",
+     "object": "Ingram Park",
+     "evidence": "Am I right, Baroness Ingram, of Ingram Park?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "MEMBER_OF",
+     "object": "Ingram Park",
+     "evidence": "Am I right, Baroness Ingram, of Ingram Park?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield",
+     "evidence": "Mr. Rochester, having quitted the Eshtons, stands on the hearth",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "she confronts him, taking her station on the opposite side of the mantelpiece.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "The two proud dowagers, Lady Lynn and Lady Ingram, confabulate together.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "Mr. Frederick Lynn has taken a seat beside Mary Ingram",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "The tall and phlegmatic Lord Ingram leans with folded arms on the chair-back of the little and lively Amy Eshton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eshton",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "Colonel Dent and Mr. Eshton argue on politics",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Lynn",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "The two proud dowagers, Lady Lynn and Lady Ingram, confabulate together.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Colonel Dent",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "Mrs. Dent here bent over to the pious lady and whispered something in her ear",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Dent",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "Colonel Dent and Mr. Eshton argue on politics",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Frederick Lynn",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "Mr. Frederick Lynn has taken a seat beside Mary Ingram",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Henry Lynn",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "Henry Lynn has taken possession of an ottoman at the feet of Louisa",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Louisa Eshton",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "Henry Lynn has taken possession of an ottoman at the feet of Louisa",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Amy Eshton",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "The tall and phlegmatic Lord Ingram leans with folded arms on the chair-back of the little and lively Amy Eshton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir George Lynn",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "Sir George—whom, by-the-bye, I have forgotten to describe,—a very big, and very fresh-looking country gentleman, stands before their sofa",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Thornfield",
+     "evidence": "I involuntarily shrank farther into the shade",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "QUARRELED",
+     "object": "Mary Ann Wilson",
+     "evidence": "What tricks Theodore and I used to play on our Miss Wilsons",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "QUARRELED",
+     "object": "Madame Joubert",
+     "evidence": "The best fun was with Madame Joubert: Miss Wilson was a poor sickly thing",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "QUARRELED",
+     "object": "Mr. Vining",
+     "evidence": "I helped you in prosecuting (or persecuting) your tutor, whey-faced Mr. Vining",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "QUARRELED",
+     "object": "Mary Ann Wilson",
+     "evidence": "What tricks Theodore and I used to play on our Miss Wilsons",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "QUARRELED",
+     "object": "Madame Joubert",
+     "evidence": "The best fun was with Madame Joubert: Miss Wilson was a poor sickly thing",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Lord Ingram",
+     "predicate": "QUARRELED",
+     "object": "Mr. Vining",
+     "evidence": "I helped you in prosecuting (or persecuting) your tutor, whey-faced Mr. Vining",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 6384,
+   "entities": [
+    {
+     "name": "Amy Eshton",
+     "type": "Person",
+     "aliases": [
+      "Amy"
+     ],
+     "nickname": "艾米·埃希顿",
+     "description": "埃希顿家的小姐，性格温和"
+    },
+    {
+     "name": "Louisa Eshton",
+     "type": "Person",
+     "aliases": [
+      "Louisa"
+     ],
+     "nickname": "路易莎·埃希顿",
+     "description": "埃希顿家的小姐，艾米的姐妹"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche",
+      "Donna Bianca"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "美丽高傲的贵族小姐，罗切斯特的客人"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Signior Eduardo"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简·爱的主人"
+    },
+    {
+     "name": "Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Dent"
+     ],
+     "nickname": "登特上校",
+     "description": "罗切斯特的客人，参加聚会"
+    },
+    {
+     "name": "Mrs. Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Fairfax"
+     ],
+     "nickname": "费尔法克斯太太",
+     "description": "桑菲尔德管家，简·爱的朋友"
+    },
+    {
+     "name": "Adèle Varens",
+     "type": "Person",
+     "aliases": [
+      "Adèle",
+      "little Adèle"
+     ],
+     "nickname": "阿黛尔",
+     "description": "罗切斯特的养女，简·爱的学生"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德家庭教师，叙述者"
+    },
+    {
+     "name": "Sophie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "索菲",
+     "description": "阿黛尔的法国保姆"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Amy Eshton",
+     "predicate": "KIN",
+     "object": "Louisa Eshton",
+     "evidence": "Louisa and I used to quiz our governess too",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "FRIEND",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Mr. Rochester, do you second my motion?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "FRIEND",
+     "object": "Blanche Ingram",
+     "evidence": "Madam, I support you on this point, as on every other.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "teaching Adèle as usual",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "GUARDIAN_OF",
+     "object": "Adèle Varens",
+     "evidence": "teaching Adèle as usual",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sophie",
+     "predicate": "SERVANT_OF",
+     "object": "Adèle Varens",
+     "evidence": "send Sophie for Adèle",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Fairfax",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "Mrs. Fairfax had said Mr. Rochester possessed a fine voice",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:28.495Z"
+}

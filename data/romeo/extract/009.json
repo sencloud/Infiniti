@@ -1,0 +1,312 @@
+{
+ "no": 9,
+ "title": "A Street",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8078,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家之子，正爱慕罗瑟琳，后与朱丽叶相恋。"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，提伯尔特的亲戚。"
+    },
+    {
+     "name": "Benvolio Montague",
+     "type": "Person",
+     "aliases": [
+      "Benvolio",
+      "Montague's nephew"
+     ],
+     "nickname": "班伏里奥",
+     "description": "蒙太古的侄子，罗密欧的朋友。"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，善决斗，向罗密欧下挑战书。"
+    },
+    {
+     "name": "Escalus",
+     "type": "Person",
+     "aliases": [
+      "Prince",
+      "the Prince"
+     ],
+     "nickname": "亲王",
+     "description": "维罗纳亲王，茂丘西奥的亲戚。"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar",
+      "the Friar"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "方济各会神父，为罗密欧与朱丽叶主持秘密婚礼。"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，替朱丽叶传话给罗密欧。"
+    },
+    {
+     "name": "Mercutio",
+     "type": "Person",
+     "aliases": [
+      "the Prince's kinsman"
+     ],
+     "nickname": "茂丘西奥",
+     "description": "亲王的亲戚，罗密欧的朋友，爱开玩笑。"
+    },
+    {
+     "name": "Peter",
+     "type": "Person",
+     "aliases": [
+      "the Nurse's man"
+     ],
+     "nickname": "彼得",
+     "description": "奶妈的仆人，跟随奶妈上街。"
+    },
+    {
+     "name": "Rosaline",
+     "type": "Person",
+     "aliases": [
+      "the fair maid"
+     ],
+     "nickname": "罗瑟琳",
+     "description": "罗密欧之前爱慕的女子，冷漠无情。"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "维罗纳的家族，与凯普莱特家族为世仇。"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "维罗纳的家族，与蒙太古家族为世仇。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Not to his father’s; I spoke with his man.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Not to his father’s; I spoke with his man.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Tybalt, the kinsman to old Capulet, hath sent a letter to his father’s house.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Tybalt, the kinsman to old Capulet, hath sent a letter to his father’s house.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "Tybalt, the kinsman to old Capulet, hath sent a letter to his father’s house.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "Tybalt, the kinsman to old Capulet, hath sent a letter to his father’s house.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mercutio",
+     "predicate": "KIN",
+     "object": "Escalus",
+     "evidence": "the Prince's kinsman",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Rosaline",
+     "evidence": "that same pale hard-hearted wench, that Rosaline, torments him so that he will sure run mad.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "House of Capulet",
+     "evidence": "my young lady bid me enquire you out",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peter",
+     "predicate": "SERVANT_OF",
+     "object": "Nurse",
+     "evidence": "PETER. Anon. NURSE. My fan, Peter.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Benvolio Montague",
+     "evidence": "Here comes Romeo, here comes Romeo!",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Mercutio",
+     "evidence": "Good morrow to you both.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Benvolio Montague",
+     "predicate": "FRIEND",
+     "object": "Mercutio",
+     "evidence": "Enter Benvolio and Mercutio.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Friar Laurence",
+     "evidence": "Bid her devise Some means to come to shrift this afternoon, And there she shall at Friar Lawrence' cell Be shriv’d and married.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "HELPED",
+     "object": "Romeo Montague",
+     "evidence": "my young lady bid me enquire you out",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 1069,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，与朱丽叶相爱"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，欲娶朱丽叶"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的乳母，传递消息"
+    },
+    {
+     "name": "Peter",
+     "type": "Person",
+     "aliases": [
+      "the Nurse's man"
+     ],
+     "nickname": "彼得",
+     "description": "奶妈的仆人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet",
+     "evidence": "my mistress is the sweetest lady",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Peter",
+     "predicate": "SERVANT_OF",
+     "object": "Nurse",
+     "evidence": "Peter!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet",
+     "evidence": "there is a nobleman in town, one Paris, that would fain lay knife aboard",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "Doth not rosemary and Romeo begin both with a letter?",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:58.557Z"
+}

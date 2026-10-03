@@ -1,0 +1,187 @@
+{
+ "no": 9,
+ "title": "The Mock Turtle’s Story",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7933,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝",
+     "description": "故事主角，小女孩"
+    },
+    {
+     "name": "Duchess",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "公爵夫人",
+     "description": "脾气暴躁的公爵夫人"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "Queen"
+     ],
+     "nickname": "红心王后",
+     "description": "残暴的扑克牌王后"
+    },
+    {
+     "name": "Gryphon",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "狮鹫",
+     "description": "会说话的狮鹫"
+    },
+    {
+     "name": "Mock Turtle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "假海龟",
+     "description": "悲伤的假海龟"
+    },
+    {
+     "name": "King of Hearts",
+     "type": "Person",
+     "aliases": [
+      "King"
+     ],
+     "nickname": "红心国王",
+     "description": "红心王后身边的国王"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Duchess",
+     "predicate": "FRIEND",
+     "object": "Alice",
+     "evidence": "said the Duchess, as she tucked her arm affectionately into Alice's, and they walked off together.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Duchess",
+     "evidence": "either you or your head must be off, and that in about half no time! Take your choice!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "QUARRELED",
+     "object": "Alice",
+     "evidence": "the Queen never left off quarrelling with the other players, and shouting \"Off with his head!\" or \"Off with her head!\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Alice",
+     "evidence": "the Queen never left off quarrelling with the other players, and shouting \"Off with his head!\" or \"Off with her head!\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Gryphon",
+     "evidence": "the Queen never left off quarrelling with the other players, and shouting \"Off with his head!\" or \"Off with her head!\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Mock Turtle",
+     "evidence": "the Queen never left off quarrelling with the other players, and shouting \"Off with his head!\" or \"Off with her head!\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "King of Hearts",
+     "evidence": "the Queen never left off quarrelling with the other players, and shouting \"Off with his head!\" or \"Off with her head!\"",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Gryphon",
+     "predicate": "HELPED",
+     "object": "Alice",
+     "evidence": "take this young lady to see the Mock Turtle, and to hear his history",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alice",
+     "predicate": "VISITED",
+     "object": "Mock Turtle",
+     "evidence": "they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 4532,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "好奇的小女孩，听假海龟讲故事。"
+    },
+    {
+     "name": "Gryphon",
+     "type": "Person",
+     "aliases": [
+      "Griffin"
+     ],
+     "nickname": "狮鹫",
+     "description": "神话生物，与假海龟一起给爱丽丝讲故事。"
+    },
+    {
+     "name": "Mock Turtle",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "假海龟",
+     "description": "悲伤的海洋生物，讲述自己的学校经历。"
+    },
+    {
+     "name": "Turtle",
+     "type": "Person",
+     "aliases": [
+      "Tortoise"
+     ],
+     "nickname": "乌龟",
+     "description": "假海龟学校里的老教师。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mock Turtle",
+     "predicate": "TRANSFORMED",
+     "object": "Turtle",
+     "evidence": "Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Turtle",
+     "predicate": "GUARDIAN_OF",
+     "object": "Mock Turtle",
+     "evidence": "The master was an old Turtle—we used to call him Tortoise—",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Gryphon",
+     "predicate": "FRIEND",
+     "object": "Mock Turtle",
+     "evidence": "Drive on, old fellow! Don’t be all day about it!",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:40.926Z"
+}

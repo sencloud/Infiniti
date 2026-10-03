@@ -1,0 +1,339 @@
+{
+ "no": 5,
+ "title": "A Hall in Capulet’s House",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7400,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家独子，在舞会上爱上朱丽叶"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家女儿，与罗密欧一见钟情"
+    },
+    {
+     "name": "Lord Montague",
+     "type": "Person",
+     "aliases": [
+      "Montague",
+      "Old Montague"
+     ],
+     "nickname": "蒙太古",
+     "description": "蒙太古家族族长，罗密欧之父"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，朱丽叶之父"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，抚养朱丽叶长大"
+    },
+    {
+     "name": "Tybalt",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，朱丽叶的表兄"
+    },
+    {
+     "name": "Benvolio",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "班伏里奥",
+     "description": "罗密欧的朋友，蒙太古家族成员"
+    },
+    {
+     "name": "Chorus",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "致辞者",
+     "description": "致辞者，介绍剧情"
+    },
+    {
+     "name": "First Musician",
+     "type": "Person",
+     "aliases": [
+      "Musician"
+     ],
+     "nickname": "乐师甲",
+     "description": "乐师之一"
+    },
+    {
+     "name": "Second Musician",
+     "type": "Person",
+     "aliases": [
+      "Musician"
+     ],
+     "nickname": "乐师乙",
+     "description": "乐师之一"
+    },
+    {
+     "name": "Third Musician",
+     "type": "Person",
+     "aliases": [
+      "Musician"
+     ],
+     "nickname": "乐师丙",
+     "description": "乐师之一"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇"
+    },
+    {
+     "name": "Capulet's House",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "凯普莱特家",
+     "description": "凯普莱特家族的宅邸，舞会举办地"
+    },
+    {
+     "name": "Verona",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "维罗纳",
+     "description": "故事发生的城市"
+    },
+    {
+     "name": "Capulet's Feast",
+     "type": "Event",
+     "aliases": [
+      "mask",
+      "solemnity"
+     ],
+     "nickname": "凯普莱特舞会",
+     "description": "凯普莱特家举办的化装舞会"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "This by his voice, should be a Montague.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Is she a Capulet?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "This by his voice, should be a Montague.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Her mother is the lady of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Uncle, this is a Montague, our foe;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Benvolio",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "This by his voice, should be a Montague.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "Uncle, this is a Montague, our foe;",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KIN",
+     "object": "Lord Montague",
+     "evidence": "The only son of your great enemy.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "Her mother is the lady of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "Uncle, this is a Montague, our foe;",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "GUARDIAN_OF",
+     "object": "Juliet Capulet",
+     "evidence": "I nurs'd her daughter that you talk'd withal.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "I nurs'd her daughter that you talk'd withal.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "Did my heart love till now? Forswear it, sight! For I ne'er saw true beauty till this night.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "My only love sprung from my only hate!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's Feast",
+     "evidence": "What, dares the slave Come hither, cover'd with an antic face, To fleer and scorn at our solemnity?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's Feast",
+     "evidence": "Ah my mistresses, which of you all Will now deny to dance?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's Feast",
+     "evidence": "This by his voice, should be a Montague.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Capulet's Feast",
+     "evidence": "Welcome, gentlemen, ladies that have their toes Unplagu'd with corns will have a bout with you.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Capulet's Feast",
+     "predicate": "OCCURRED_AT",
+     "object": "Capulet's House",
+     "evidence": "A Hall in Capulet's House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Her mother is the lady of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Her mother is the lady of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "NATIVE_OF",
+     "object": "Verona",
+     "evidence": "Verona brags of him",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "NATIVE_OF",
+     "object": "Verona",
+     "evidence": "Verona brags of him",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "FRIEND",
+     "object": "Benvolio",
+     "evidence": "BENVOLIO. Away, be gone; the sport is at the best.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "QUARRELED",
+     "object": "Tybalt",
+     "evidence": "Uncle, this is a Montague, our foe; A villain that is hither come in spite,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "QUARRELED",
+     "object": "Tybalt",
+     "evidence": "You must contrary me! Marry, 'tis time.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:57.163Z"
+}

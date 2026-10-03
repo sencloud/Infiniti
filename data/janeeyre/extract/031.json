@@ -1,0 +1,376 @@
+{
+ "no": 31,
+ "title": "My home, then, when I at last find a…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7671,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "me",
+      "my"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，新任乡村学校教师，住在莫顿的小屋。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "简·爱曾爱慕并离开的庄园主。"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "莫顿的牧师，简·爱的朋友，为她提供小屋和教职。"
+    },
+    {
+     "name": "Mr. Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "奥利弗先生",
+     "description": "住在谷仓的富人，有一女儿。"
+    },
+    {
+     "name": "Carlo",
+     "type": "Person",
+     "aliases": [
+      "old Carlo"
+     ],
+     "nickname": "卡洛",
+     "description": "里弗斯先生的猎犬。"
+    },
+    {
+     "name": "Morton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莫顿",
+     "description": "简·爱任教并居住的村庄。"
+    },
+    {
+     "name": "Vale Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "谷仓",
+     "description": "奥利弗先生及其女儿居住的宅邸。"
+    },
+    {
+     "name": "France",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "法国",
+     "description": "罗切斯特先生可能带简·爱去的地方。"
+    },
+    {
+     "name": "Marseilles",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "马赛",
+     "description": "法国城市，简·爱设想中可能成为罗切斯特情妇的地方。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "He did love me—no one will ever love me so again.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Jane Eyre",
+     "evidence": "He did love me—no one will ever love me so again.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "I have acquaintance, a home, a business.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I have acquaintance, a home, a business.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Morton",
+     "evidence": "my cottage, which, with the school, was distant half a mile from the village.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Oliver",
+     "predicate": "LIVES_AT",
+     "object": "Vale Hall",
+     "evidence": "the roof of Vale Hall, where the rich Mr. Oliver and his daughter lived.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Carlo",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "old Carlo, Mr. Rivers’ pointer",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "France",
+     "evidence": "to have been now living in France, Mr. Rochester’s mistress",
+     "confidence": 0.6
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "Marseilles",
+     "evidence": "a slave in a fool’s paradise at Marseilles",
+     "confidence": 0.6
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7941,
+   "entities": [
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，决心去东方传教"
+    },
+    {
+     "name": "Rosamond Oliver",
+     "type": "Person",
+     "aliases": [
+      "Miss Oliver"
+     ],
+     "nickname": "罗莎蒙德·奥利弗",
+     "description": "奥利弗先生的女儿，美丽活泼"
+    },
+    {
+     "name": "Mr. Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "奥利弗先生",
+     "description": "罗莎蒙德的父亲，住在谷府"
+    },
+    {
+     "name": "Carlo",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "卡洛",
+     "description": "圣约翰的狗"
+    },
+    {
+     "name": "Alice Wood",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "爱丽丝·伍德",
+     "description": "简·爱在莫顿的仆人"
+    },
+    {
+     "name": "Vale Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "谷府",
+     "description": "奥利弗先生的宅邸"
+    },
+    {
+     "name": "Morton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莫顿",
+     "description": "圣约翰任职的村庄"
+    },
+    {
+     "name": "S——",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "S城",
+     "description": "约二十英里外的大城镇"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "KIN",
+     "object": "Mr. Oliver",
+     "evidence": "Papa told me you had opened your school",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "LIVES_AT",
+     "object": "Vale Hall",
+     "evidence": "You are quite a stranger at Vale Hall.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "Vale Hall",
+     "evidence": "Papa says you never come to see us now",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "SERVANT_OF",
+     "object": "Morton",
+     "evidence": "a successor for Morton provided",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Alice Wood",
+     "predicate": "SERVANT_OF",
+     "object": "Jane Eyre",
+     "evidence": "made a good choice of an attendant for you in Alice Wood",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "VISITED",
+     "object": "S——",
+     "evidence": "I have been so gay during my stay at S——",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "OWNS",
+     "object": "Carlo",
+     "evidence": "Your dog is quicker to recognise his friends than you are",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Rosamond Oliver",
+     "predicate": "FRIEND",
+     "object": "Carlo",
+     "evidence": "Poor Carlo loves me",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 1283,
+   "entities": [
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Rosamond",
+      "Rosamond"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "活泼美丽的年轻女子，与圣约翰相识"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mr. St. John",
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，戴安娜与玛丽的兄弟，性格坚定"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的妹妹，曾评价他冷酷"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰的妹妹，与戴安娜一同离开"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫，片段中未直接出现"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "Diana Rivers had designated her brother “inexorable as death.”",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "Diana and Mary have left you, and Moor House is shut up",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "Diana and Mary have left you, and Moor House is shut up",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Ingram",
+     "predicate": "FRIEND",
+     "object": "St. John Rivers",
+     "evidence": "Do come and see papa.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "Moor House is shut up",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:34.166Z"
+}

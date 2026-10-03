@@ -1,0 +1,736 @@
+{
+ "no": 33,
+ "title": "When Mr.",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7177,
+   "entities": [
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，简的表兄，严肃冷峻"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，学校教师"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的妹妹，简的朋友"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰的妹妹，简的朋友"
+    },
+    {
+     "name": "Mrs. Reed",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Sarah Reed",
+      "Aunt Reed",
+      "Mrs. Reed of Gateshead"
+     ],
+     "nickname": "里德太太",
+     "description": "简的舅妈，曾抚养简十年"
+    },
+    {
+     "name": "Edward Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，简的爱人"
+    },
+    {
+     "name": "Mary Garrett",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "玛丽·加勒特",
+     "description": "简的学生，母亲生病"
+    },
+    {
+     "name": "Mr. Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "奥利弗先生",
+     "description": "当地绅士，资助学校"
+    },
+    {
+     "name": "Lowood School",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "劳渥德学校",
+     "description": "简曾就读和任教的慈善学校"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德",
+     "description": "里德太太的府邸，简童年居所"
+    },
+    {
+     "name": "Marmion",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "《玛米恩》",
+     "description": "沃尔特·司各特的长诗，简阅读的书"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "Jane Eyre",
+     "evidence": "it was St. John Rivers, who, lifting the latch, came in out of the frozen hurricane—the howling darkness—and stood before me",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "I wish Diana or Mary would come and live with you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "I wish Diana or Mary would come and live with you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "I wish Diana or Mary would come and live with you",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "I wish Diana or Mary would come and live with you",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "GUARDIAN_OF",
+     "object": "Jane Eyre",
+     "evidence": "it was reared by an aunt-in-law, called (I come to names now) Mrs. Reed of Gateshead",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Mrs. Reed of Gateshead",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Rochester",
+     "evidence": "she undertook the education of the ward of a certain Mr. Rochester",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood School",
+     "evidence": "from a pupil, she became a teacher, like yourself",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "OWNS",
+     "object": "Marmion",
+     "evidence": "took down “Marmion,” and beginning—",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Garrett",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Lowood School",
+     "evidence": "Mary came back to the school this morning",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Oliver",
+     "predicate": "HELPED",
+     "object": "Lowood School",
+     "evidence": "Mr. Oliver pays for two",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7921,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane",
+      "Jane Elliott"
+     ],
+     "nickname": "简·爱",
+     "description": "本书叙述者，逃离桑菲尔德后化名简·艾略特，在沼泽居任教，后继承遗产。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，曾试图与简·爱重婚，因疯妻伯莎而失败。"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "沼泽居的牧师，简·爱的表兄，帮助简·爱获知遗产消息。"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰·里弗斯的妹妹，与简·爱交好。"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰·里弗斯的妹妹，与简·爱交好。"
+    },
+    {
+     "name": "Mrs. Alice Fairfax",
+     "type": "Person",
+     "aliases": [
+      "Alice Fairfax",
+      "the housekeeper"
+     ],
+     "nickname": "爱丽丝·费尔法克斯",
+     "description": "桑菲尔德庄园的女管家，曾写信回复关于简·爱的询问。"
+    },
+    {
+     "name": "Mr. Briggs",
+     "type": "Person",
+     "aliases": [
+      "Briggs"
+     ],
+     "nickname": "布里格斯先生",
+     "description": "伦敦的律师，处理简·爱叔叔的遗嘱，并寻找简·爱。"
+    },
+    {
+     "name": "Mr. Eyre",
+     "type": "Person",
+     "aliases": [
+      "Eyre of Madeira"
+     ],
+     "nickname": "爱先生",
+     "description": "简·爱的叔叔，住在马德拉，去世后留给简·爱两万英镑遗产。"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "桑菲尔德庄园",
+     "description": "罗切斯特先生的庄园，简·爱曾在此任家庭教师并逃离。"
+    },
+    {
+     "name": "Madeira",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "马德拉",
+     "description": "简·爱的叔叔居住并去世的地方。"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "布里格斯律师所在的城市。"
+    },
+    {
+     "name": "England",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格兰",
+     "description": "简·爱推测罗切斯特可能已离开的国家。"
+    },
+    {
+     "name": "the Continent",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "欧洲大陆",
+     "description": "简·爱推测罗切斯特可能逃往的旧日游荡之地。"
+    },
+    {
+     "name": "the portrait-cover",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "画像封皮",
+     "description": "被撕下的一角，上面有简·爱手写的“JANE EYRE”字样。"
+    },
+    {
+     "name": "the will",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "遗嘱",
+     "description": "简·爱叔叔的遗嘱，由布里格斯律师持有。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Jane Eyre",
+     "evidence": "he professed to offer honourable marriage to this young girl",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "She had left Thornfield Hall in the night",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "when an event transpired which rendered inquiry after the governess necessary",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Alice Fairfax",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "the answer to his application was not from Mr. Rochester, but from a lady: it is signed ‘Alice Fairfax.’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Merely to tell you that your uncle, Mr. Eyre of Madeira, is dead; that he has left you all his property, and that you are now rich",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Eyre",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "your uncle, Mr. Eyre of Madeira, is dead; that he has left you all his property",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Madeira",
+     "evidence": "your uncle, Mr. Eyre of Madeira",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "LIVES_AT",
+     "object": "London",
+     "evidence": "Briggs is in London",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "I would rather Diana or Mary informed you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "I would rather Diana or Mary informed you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "OWNS",
+     "object": "the portrait-cover",
+     "evidence": "I recognised in its texture and its stains of ultra-marine, and lake, and vermillion, the ravished margin of the portrait-cover",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "OWNS",
+     "object": "the will",
+     "evidence": "Briggs has the will and the necessary documents",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "VISITED",
+     "object": "the Continent",
+     "evidence": "he had in all probability left England and rushed in reckless desperation to some former haunt on the Continent",
+     "confidence": 0.5
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 8021,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，孤儿，继承遗产后与表亲相认"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "牧师，简·爱的表兄，发现两人是亲戚"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "简·爱的表姐，住在沼泽居"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "简·爱的表姐，住在沼泽居"
+    },
+    {
+     "name": "John Eyre",
+     "type": "Person",
+     "aliases": [
+      "John Eyre, Esq.",
+      "Mr. Eyre"
+     ],
+     "nickname": "约翰·爱",
+     "description": "简·爱的叔叔，商人，留遗产给简"
+    },
+    {
+     "name": "Jane Reed",
+     "type": "Person",
+     "aliases": [
+      "Miss Jane Reed"
+     ],
+     "nickname": "简·里德",
+     "description": "盖茨海德的简·里德，简·爱父亲的妻子"
+    },
+    {
+     "name": "Mr. Briggs",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "布里格斯先生",
+     "description": "约翰·爱先生的律师，通知遗产事宜"
+    },
+    {
+     "name": "Moor House",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沼泽居",
+     "description": "里弗斯家的住所，简·爱居住的地方"
+    },
+    {
+     "name": "Gateshead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "盖茨海德",
+     "description": "简·爱童年居住的地方"
+    },
+    {
+     "name": "Funchal",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "丰沙尔",
+     "description": "马德拉群岛的城市，约翰·爱曾居住"
+    },
+    {
+     "name": "Madeira",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "马德拉",
+     "description": "岛屿，约翰·爱曾居住"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "We are cousins; yes.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "You three, then, are my cousins; half our blood on each side flows from the same source?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "You three, then, are my cousins; half our blood on each side flows from the same source?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Eyre",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "he had left his property to his brother the clergyman’s orphan daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Eyre",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "My uncle John was your uncle John?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Reed",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "one a clergyman, who married Miss Jane Reed, of Gateshead",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Moor House",
+     "evidence": "I like Moor House, and I will live at Moor House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Reed",
+     "predicate": "LIVES_AT",
+     "object": "Gateshead",
+     "evidence": "Miss Jane Reed, of Gateshead",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Funchal",
+     "evidence": "John Eyre, Esq., merchant, late of Funchal, Madeira",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Madeira",
+     "evidence": "John Eyre, Esq., merchant, late of Funchal, Madeira",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "SERVANT_OF",
+     "object": "John Eyre",
+     "evidence": "Mr. Briggs, being Mr. Eyre’s solicitor",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Briggs",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "A name casually written on a slip of paper has enabled me to find her out.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 3338,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，继承遗产后与表亲分产"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "简的表兄，牧师，认简为妹妹"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "简的表姐，圣约翰的妹妹"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "简的表姐，圣约翰的妹妹"
+    },
+    {
+     "name": "Mary Ingram",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·英格拉姆",
+     "description": "与里弗斯家无直接关系，仅名字出现"
+    },
+    {
+     "name": "John",
+     "type": "Person",
+     "aliases": [
+      "the coachman"
+     ],
+     "nickname": "约翰",
+     "description": "马车夫，仅提及"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "Jane, I will be your brother—my sisters will be your sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "my sisters will be your sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "KIN",
+     "object": "Jane Eyre",
+     "evidence": "my sisters will be your sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "I have always loved my own sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "I have always loved my own sisters",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "I will retain my post of mistress till you get a substitute",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I feel I can easily and naturally make room in my heart for you, as my third and youngest sister",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:44.729Z"
+}

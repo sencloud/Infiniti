@@ -15,15 +15,33 @@ const BOOKISH = /小说|长篇|章回|典籍|语录|史书|纪传|文言|著作|
 export async function fetchCover(graph, { force = false } = {}) {
   const file = path.join(COVER_DIR, `${graph.id}.jpg`);
   if (!force && fs.existsSync(file)) return { id: graph.id, skipped: true };
-  const item = await findItem(graph.book, (it) => itemImages(it).length > 0 && BOOKISH.test(itemText(it)));
-  if (!item) return { id: graph.id, error: '维基数据里没有带配图的条目' };
-  const [info] = await fileInfos(itemImages(item).slice(0, 1), 500);
-  if (!info) return { id: graph.id, error: '配图不是可用的图片格式' };
+  const en = graph.lang === 'en';
+  const item = await findItem(
+    en ? graph.title.replace(/[’‘]/g, "'") : graph.book,
+    (it) => itemImages(it).length > 0 && BOOKISH.test(en ? it.descriptions?.en?.value || '' : itemText(it)),
+    en ? 'en' : 'zh',
+  );
+  const [info] = item ? await fileInfos(itemImages(item).slice(0, 1), 500) : [];
+  if (!info) {
+    if (en && graph.source?.url) return gutenbergCover(graph, file);
+    return { id: graph.id, error: item ? '配图不是可用的图片格式' : '维基数据里没有带配图的条目' };
+  }
   await download(info.thumb, COVER_DIR, { name: `${graph.id}.jpg`, force: true });
   const credits = readJson(CREDITS_FILE, {});
   credits[graph.id] = { item: item.id, file: info.file, page_url: info.page_url, credit: info.credit, license: info.license };
   writeJson(CREDITS_FILE, credits);
   return { id: graph.id, file: info.file, license: info.license };
+}
+
+/** 维基数据里没有书影的英文原著：用 Project Gutenberg 该电子书的封面 */
+async function gutenbergCover(graph, file) {
+  const ebook = graph.source.url.match(/ebooks\/(\d+)/)?.[1];
+  const url = `https://www.gutenberg.org/cache/epub/${ebook}/pg${ebook}.cover.medium.jpg`;
+  await download(url, path.dirname(file), { name: path.basename(file), force: true });
+  const credits = readJson(CREDITS_FILE, {});
+  credits[graph.id] = { page_url: graph.source.url, credit: 'Project Gutenberg', license: 'Public domain' };
+  writeJson(CREDITS_FILE, credits);
+  return { id: graph.id, file: url, license: 'Public domain' };
 }
 
 export async function fetchCovers(ids, opts) {

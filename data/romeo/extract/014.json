@@ -1,0 +1,202 @@
+{
+ "no": 14,
+ "title": "Friar Lawrence’s cell",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7953,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，与朱丽叶秘密结婚，因杀死提伯尔特被放逐。"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家族之女，罗密欧的秘密妻子。"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特家族成员，朱丽叶的表兄，被罗密欧杀死。"
+    },
+    {
+     "name": "Escalus",
+     "type": "Person",
+     "aliases": [
+      "Prince",
+      "the Prince"
+     ],
+     "nickname": "亲王",
+     "description": "维罗纳的统治者，判决罗密欧放逐。"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar",
+      "the Friar",
+      "Friar Lawrence"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "方济各会神父，为罗密欧与朱丽叶主持秘密婚礼，并帮助罗密欧。"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，忠实仆人，传递消息。"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "维罗纳的贵族家族，与凯普莱特家族为世仇。"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "维罗纳的贵族家族，与蒙太古家族为世仇。"
+    },
+    {
+     "name": "Verona",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "维罗纳",
+     "description": "意大利城市，罗密欧与朱丽叶故事发生地。"
+    },
+    {
+     "name": "Mantua",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "曼图亚",
+     "description": "罗密欧被放逐后计划前往的城市。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "SPOUSE",
+     "object": "Juliet Capulet",
+     "evidence": "An hour but married",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "Juliet thy love",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "Tybalt murdered",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "reconcile your friends",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Friar Laurence",
+     "predicate": "HELPED",
+     "object": "Romeo Montague",
+     "evidence": "I’ll give thee armour to keep off that word",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "I come from Lady Juliet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "HELPED",
+     "object": "Romeo Montague",
+     "evidence": "Here sir, a ring she bid me give you, sir",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Verona",
+     "evidence": "Hence from Verona art thou banished",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "VISITED",
+     "object": "Mantua",
+     "evidence": "Sojourn in Mantua",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Escalus",
+     "predicate": "DECEIVED",
+     "object": "Romeo Montague",
+     "evidence": "the kind Prince, Taking thy part, hath brush’d aside the law",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:00.017Z"
+}

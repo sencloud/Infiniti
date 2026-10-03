@@ -13,7 +13,7 @@ import { useIsMobile } from '@/hooks/useIsMobile'
 import { claimStatusLabel, nodeLabel, relationLabel } from '@/utils/graphStyle'
 import { displayText } from '@/utils/mathText'
 import i18n from '@/i18n'
-import VideoModal, { type VideoTarget } from './VideoModal'
+import VideoModal, { episodeLabel, type VideoTarget } from './VideoModal'
 import './evidenceDrawer.css'
 
 export interface EvidenceStop {
@@ -186,6 +186,8 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
 
   const pages = data?.pages || []
   const focusPage = data?.focus_page ?? null
+  // 专题原件是 PDF 时，出处直接翻到证据所在页
+  const sourceUrl = data?.url && focusPage != null && /\.pdf$/i.test(data.url) ? `${data.url}#page=${focusPage}` : data?.url
 
   useEffect(() => {
     if (view !== 'pages' || focusPage == null) return
@@ -251,6 +253,21 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
         <Typography.Paragraph type="secondary" style={{ fontSize: 12, marginBottom: 8 }}>
           {unlocated} 条事实的证据是模型概括的，原文中没有逐字对应，无法高亮。
         </Typography.Paragraph>
+      )}
+      {!!data?.media?.images?.length && (
+        <div className="evd-images">
+          <div className="evd-images-strip">
+            <Image.PreviewGroup>
+              {data.media.images.map((img) => (
+                <figure key={img.src}>
+                  <Image src={img.src} alt={img.title} height={mobile ? 96 : 128} />
+                  <figcaption title={img.description}>{img.title}</figcaption>
+                </figure>
+              ))}
+            </Image.PreviewGroup>
+          </div>
+          <small>{i18n.t('evidence.illustrations', { credit: data.media.images[0].credit || '' })}</small>
+        </div>
       )}
       <div ref={contentRef} className="evd-text">
         {segments.map((segment, index) => {
@@ -347,8 +364,8 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
           <span>{displayText(data.title || '')}</span>
         </div>
       ) : data ? `${data.archive_number || ''} ${data.title || ''}`.trim() : i18n.t('evidence.title')}
-      extra={data?.url ? (
-        <Typography.Link href={data.url} target="_blank" rel="noreferrer">{mobile ? i18n.t('evidence.sourceShort') : i18n.t('evidence.source')}</Typography.Link>
+      extra={sourceUrl ? (
+        <Typography.Link href={sourceUrl} target="_blank" rel="noreferrer">{mobile ? i18n.t('evidence.sourceShort') : i18n.t('evidence.source')}</Typography.Link>
       ) : null}
       footer={mobile && stopCount > 0 && view === 'text' ? (
         <div className="evd-stepper">
@@ -374,9 +391,9 @@ function EvidenceHighlightDrawer({ recordId, focusClaimId, highlightText, trail,
                       type="button"
                       key={ep.ep}
                       className="ep-chip"
-                      onClick={() => setVideo({ bvid: ep.bvid, page: ep.page, title: i18n.t('video.episode', { ep: ep.ep, title: ep.title }) })}
+                      onClick={() => setVideo({ bvid: ep.bvid, page: ep.page, title: episodeLabel(ep) })}
                     >
-                      {i18n.t('evidence.cctv', { ep: ep.ep, title: ep.title })}
+                      {ep.label ? episodeLabel(ep) : i18n.t('evidence.cctv', { ep: ep.ep, title: ep.title })}
                     </button>
                   ))}
                 </div>

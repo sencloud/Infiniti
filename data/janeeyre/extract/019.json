@@ -1,0 +1,317 @@
+{
+ "no": 19,
+ "title": "The library looked tranquil enough as I entered it,…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7945,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "故事叙述者，桑菲尔德府的家庭教师"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府的主人，简·爱的雇主"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Poole",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "桑菲尔德府的女仆，吉普赛人提及与她相识"
+    },
+    {
+     "name": "Thornfield Hall",
+     "type": "Place",
+     "aliases": [
+      "Thornfield"
+     ],
+     "nickname": "桑菲尔德府",
+     "description": "罗切斯特先生的庄园，简·爱工作的地方"
+    },
+    {
+     "name": "Millcote",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "米尔科特",
+     "description": "附近的城镇，罗切斯特先生当天曾前往"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "He is not at home.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "the master of the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "LIVES_AT",
+     "object": "Thornfield Hall",
+     "evidence": "sitting at a distance from the drawing-room fire",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grace Poole",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I have an acquaintance with one of them, Mrs. Poole—",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "VISITED",
+     "object": "Millcote",
+     "evidence": "He went to Millcote this morning",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 8033,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "女主角，家庭教师，被罗切斯特假扮吉普赛人试探。"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德庄园主人，假扮吉普赛女人试探简·爱。"
+    },
+    {
+     "name": "Grace Poole",
+     "type": "Person",
+     "aliases": [
+      "Grace",
+      "Poole"
+     ],
+     "nickname": "格雷斯·普尔",
+     "description": "桑菲尔德庄园的仆人，简·爱曾怀疑的对象。"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "美丽高贵的女士，传闻将与罗切斯特结婚。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "PROPOSED_TO",
+     "object": "Blanche Ingram",
+     "evidence": "Is it known that Mr. Rochester is to be married? Yes; and to the beautiful Miss Ingram.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "LOVES",
+     "object": "Blanche Ingram",
+     "evidence": "He must love such a handsome, noble, witty, accomplished lady",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "LOVES",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "probably she loves him, or, if not his person, at least his purse.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "DECEIVED",
+     "object": "Jane Eyre",
+     "evidence": "I believe you have been trying to draw me out—or in; you have been talking nonsense to make me talk nonsense.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I have your permission to retire now, I suppose?",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 4344,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane"
+     ],
+     "nickname": "简·爱",
+     "description": "桑菲尔德府的家庭教师，本片段中与罗切斯特互动"
+    },
+    {
+     "name": "Edward Fairfax Rochester",
+     "type": "Person",
+     "aliases": [
+      "Mr. Rochester",
+      "Edward",
+      "Rochester",
+      "Master"
+     ],
+     "nickname": "罗切斯特",
+     "description": "桑菲尔德府主人，听到梅森到来后极度不安"
+    },
+    {
+     "name": "Blanche Ingram",
+     "type": "Person",
+     "aliases": [
+      "Miss Ingram",
+      "Blanche"
+     ],
+     "nickname": "布兰奇·英格拉姆",
+     "description": "罗切斯特的客人，在餐厅对简·爱皱眉"
+    },
+    {
+     "name": "Richard Mason",
+     "type": "Person",
+     "aliases": [
+      "Mr. Mason",
+      "Mason",
+      "Richard"
+     ],
+     "nickname": "理查德·梅森",
+     "description": "来自西印度群岛的陌生人，罗切斯特旧识"
+    },
+    {
+     "name": "Mrs. Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Dent"
+     ],
+     "nickname": "登特上校太太",
+     "description": "罗切斯特的客人，在餐厅与梅森交谈"
+    },
+    {
+     "name": "Colonel Dent",
+     "type": "Person",
+     "aliases": [
+      "Dent"
+     ],
+     "nickname": "登特上校",
+     "description": "罗切斯特的客人，在餐厅与梅森交谈"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Fetch me now, Jane, a glass of wine from the dining-room",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "HELPED",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "Oh, lean on me, sir.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "I could dare it for the sake of any friend who deserved my adherence; as you, I am sure, do.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Edward Fairfax Rochester",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "My little friend!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "VISITED",
+     "object": "Edward Fairfax Rochester",
+     "evidence": "a stranger has arrived here since you left this morning?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "NATIVE_OF",
+     "object": "Spanish Town",
+     "evidence": "he comes from the West Indies; from Spanish Town, in Jamaica, I think.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "FRIEND",
+     "object": "Colonel Dent",
+     "evidence": "Mr. Mason stood near the fire, talking to Colonel and Mrs. Dent",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Richard Mason",
+     "predicate": "FRIEND",
+     "object": "Mrs. Colonel Dent",
+     "evidence": "Mr. Mason stood near the fire, talking to Colonel and Mrs. Dent",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Blanche Ingram",
+     "predicate": "QUARRELED",
+     "object": "Jane Eyre",
+     "evidence": "I saw Miss Ingram watch me frowningly as I did so: she thought I was taking a liberty, I daresay",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:06.344Z"
+}

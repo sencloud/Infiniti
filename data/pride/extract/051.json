@@ -1,0 +1,503 @@
+{
+ "no": 51,
+ "title": "With an affectionate smile",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7918,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "男主角，彭伯里庄园主人"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，温柔善良"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，轻浮莽撞"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，冷嘲热讽"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，势利浅薄"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵团军官，虚伪狡诈"
+    },
+    {
+     "name": "Mrs. Philips",
+     "type": "Person",
+     "aliases": [
+      "Aunt Philips"
+     ],
+     "nickname": "菲利普斯太太",
+     "description": "班纳特太太的妹妹"
+    },
+    {
+     "name": "Mr. Philips",
+     "type": "Person",
+     "aliases": [
+      "Philips"
+     ],
+     "nickname": "菲利普斯先生",
+     "description": "班纳特太太的妹夫，律师"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家宅邸"
+    },
+    {
+     "name": "St. Clement's",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣克莱门特教堂",
+     "description": "伦敦的教堂，丽迪雅结婚地"
+    },
+    {
+     "name": "Newcastle",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "纽卡斯尔",
+     "description": "英格兰北部城市，民兵团驻地"
+    },
+    {
+     "name": "Brighton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布莱顿",
+     "description": "海滨城镇，民兵团曾驻扎"
+    },
+    {
+     "name": "wedding of Lydia and Wickham",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "丽迪雅与韦翰的婚礼",
+     "description": "丽迪雅和韦翰的结婚事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "her father lifted up his eyes",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "Her mother stepped forwards, embraced her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Their sister’s wedding-day arrived; and Jane and Elizabeth felt for her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Their sister’s wedding-day arrived; and Jane and Elizabeth felt for her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Jane and Elizabeth felt for her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "her husband looked impenetrably grave",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "SPOUSE",
+     "object": "George Wickham",
+     "evidence": "she ran into the room. Her mother stepped forwards, embraced her, and welcomed her with rapture; gave her hand with an affectionate smile to Wickham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LOVES",
+     "object": "George Wickham",
+     "evidence": "Lydia was exceedingly fond of him. He was her dear Wickham on every occasion",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "LOVES",
+     "object": "Lydia Bennet",
+     "evidence": "Wickham’s affection for Lydia was just what Elizabeth had expected to find it; not equal to Lydia’s for him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The family were assembled in the breakfast-room to receive them",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The family were assembled in the breakfast-room to receive them",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The family were assembled in the breakfast-room to receive them",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The family were assembled in the breakfast-room to receive them",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The family were assembled in the breakfast-room to receive them",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "The family were assembled in the breakfast-room to receive them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding of Lydia and Wickham",
+     "evidence": "THEIR sister’s wedding-day arrived",
+     "confidence": 0.95
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding of Lydia and Wickham",
+     "evidence": "THEIR sister’s wedding-day arrived",
+     "confidence": 0.95
+    },
+    {
+     "subject": "wedding of Lydia and Wickham",
+     "predicate": "OCCURRED_AT",
+     "object": "St. Clement's",
+     "evidence": "We were married, you know, at St. Clement’s",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "The family were assembled in the breakfast-room to receive them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "The family were assembled in the breakfast-room to receive them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "They must all go to Brighton. That is the place to get husbands",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Newcastle",
+     "evidence": "We shall be at Newcastle all the winter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Newcastle",
+     "evidence": "We shall be at Newcastle all the winter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Philips",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "She longed to see Mrs. Philips, the Lucases, and all their other neighbours",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Philips",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "My uncle and aunt and I were to go together",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3266,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温柔"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，刚与韦翰结婚"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，曾出席丽迪雅婚礼"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "丽迪雅的丈夫，达西旧识"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "aunt",
+      "my aunt"
+     ],
+     "nickname": "嘉丁纳太太",
+     "description": "伊丽莎白的舅母，曾接待丽迪雅"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "uncle",
+      "my uncle"
+     ],
+     "nickname": "嘉丁纳先生",
+     "description": "伊丽莎白的舅舅，丽迪雅婚礼主婚人"
+    },
+    {
+     "name": "Mr. Stone",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯通先生",
+     "description": "嘉丁纳先生因公事会见的男子"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "丽迪雅随舅父母逗留之地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "said Jane, \"say not another word on the subject.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "\"Thank you,\" said Lydia; \"for if you did, I should certainly tell you all",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Jane’s delicate sense of honour would not allow her to speak to Elizabeth privately of what Lydia had let fall",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "SPOUSE",
+     "object": "George Wickham",
+     "evidence": "What will Wickham say? It was to be such a secret!",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "my uncle and aunt were horrid unpleasant all the time I was with them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "my uncle and aunt were horrid unpleasant all the time I was with them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my uncle was to give me away",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "my uncle and aunt were horrid unpleasant all the time I was with them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Lydia Bennet",
+     "evidence": "Mr. Darcy had been at her sister’s wedding.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Lydia Bennet",
+     "evidence": "he was to come there with Wickham, you know.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "I did not once put my foot out of doors, though I was there a fortnight.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "Mr. Stone",
+     "evidence": "my uncle was called away upon business to that horrid man Mr. Stone",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:59.396Z"
+}

@@ -1,0 +1,972 @@
+{
+ "no": 3,
+ "title": "A Case of Identity",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7801,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在贝克街，解决疑难案件。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Doctor",
+      "I"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴与记录者，医生。"
+    },
+    {
+     "name": "Mary Sutherland",
+     "type": "Person",
+     "aliases": [
+      "Miss Mary Sutherland",
+      "Miss Sutherland",
+      "Mary"
+     ],
+     "nickname": "玛丽·萨瑟兰",
+     "description": "打字员，来向福尔摩斯咨询未婚夫失踪案。"
+    },
+    {
+     "name": "Hosmer Angel",
+     "type": "Person",
+     "aliases": [
+      "Angel",
+      "Mr. Angel"
+     ],
+     "nickname": "霍斯默·安吉尔",
+     "description": "玛丽·萨瑟兰的未婚夫，在婚礼当天失踪。"
+    },
+    {
+     "name": "James Windibank",
+     "type": "Person",
+     "aliases": [
+      "Windibank",
+      "Mr. Windibank"
+     ],
+     "nickname": "温迪班克",
+     "description": "玛丽·萨瑟兰的继父，仅比她大五岁两个月。"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "The Woman",
+      "Miss Adler",
+      "Adler"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "福尔摩斯曾处理其照片案，波希米亚国王赠礼致谢。"
+    },
+    {
+     "name": "Mrs. Etherege",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "埃瑟里奇太太",
+     "description": "推荐玛丽·萨瑟兰来找福尔摩斯的人。"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯在伦敦的住所所在地。"
+    },
+    {
+     "name": "Dundas separation case",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "邓达斯分居案",
+     "description": "报纸报道的丈夫虐待妻子案，福尔摩斯曾参与。"
+    },
+    {
+     "name": "Irene Adler papers case",
+     "type": "Event",
+     "aliases": [
+      "case of the Irene Adler papers"
+     ],
+     "nickname": "艾琳·艾德勒照片案",
+     "description": "福尔摩斯为波希米亚国王解决的案件。"
+    },
+    {
+     "name": "snuffbox",
+     "type": "Item",
+     "aliases": [
+      "snuffbox of old gold"
+     ],
+     "nickname": "金鼻烟盒",
+     "description": "波希米亚国王赠予福尔摩斯的金鼻烟盒，中央有紫水晶。"
+    },
+    {
+     "name": "ring",
+     "type": "Item",
+     "aliases": [
+      "brilliant"
+     ],
+     "nickname": "戒指",
+     "description": "福尔摩斯手上的钻戒，来自荷兰王室。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "as we sat on either side of the fire in his lodgings at Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Dundas separation case",
+     "evidence": "I was engaged in clearing up some small points in connection with it",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Irene Adler papers case",
+     "evidence": "my assistance in the case of the Irene Adler papers",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Wilhelm Gottsreich Sigismond von Ormstein",
+     "predicate": "HELPED",
+     "object": "Sherlock Holmes",
+     "evidence": "a little souvenir from the King of Bohemia in return for my assistance",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "OWNS",
+     "object": "snuffbox",
+     "evidence": "He held out his snuffbox of old gold, with a great amethyst in the centre of the lid.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "OWNS",
+     "object": "ring",
+     "evidence": "a remarkable brilliant which sparkled upon his finger",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I came to you, sir, because I heard of you from Mrs. Etherege",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "LOVES",
+     "object": "Hosmer Angel",
+     "evidence": "I would give it all to know what has become of Mr. Hosmer Angel",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "KIN",
+     "object": "Mary Sutherland",
+     "evidence": "Mr. Windibank—that is, my father",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Etherege",
+     "predicate": "HELPED",
+     "object": "Mary Sutherland",
+     "evidence": "I heard of you from Mrs. Etherege",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7976,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名私家侦探，在本案中听取玛丽·萨瑟兰的陈述。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Dr. Watson",
+      "Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的朋友与助手，本片段中在场旁听。"
+    },
+    {
+     "name": "Mary Sutherland",
+     "type": "Person",
+     "aliases": [
+      "Miss Sutherland",
+      "Mary"
+     ],
+     "nickname": "玛丽·萨瑟兰",
+     "description": "委托人，打字员，与霍斯默·安吉尔订婚。"
+    },
+    {
+     "name": "Hosmer Angel",
+     "type": "Person",
+     "aliases": [
+      "Angel",
+      "Mr. Angel"
+     ],
+     "nickname": "霍斯默·安吉尔",
+     "description": "玛丽在煤气工舞会上结识并与之订婚的男子，婚礼当日失踪。"
+    },
+    {
+     "name": "James Windibank",
+     "type": "Person",
+     "aliases": [
+      "Windibank",
+      "Mr. Windibank"
+     ],
+     "nickname": "温迪班克",
+     "description": "玛丽的继父，葡萄酒旅行推销员，反对玛丽外出社交。"
+    },
+    {
+     "name": "Mrs. Windibank",
+     "type": "Person",
+     "aliases": [
+      "mother"
+     ],
+     "nickname": "温迪班克太太",
+     "description": "玛丽的母亲，在丈夫死后改嫁詹姆斯·温迪班克。"
+    },
+    {
+     "name": "Mr. Hardy",
+     "type": "Person",
+     "aliases": [
+      "Hardy"
+     ],
+     "nickname": "哈迪先生",
+     "description": "萨瑟兰家水管生意的工头，曾陪同玛丽母女参加舞会。"
+    },
+    {
+     "name": "Ned",
+     "type": "Person",
+     "aliases": [
+      "uncle Ned"
+     ],
+     "nickname": "内德叔叔",
+     "description": "玛丽的叔叔，在奥克兰去世，留给玛丽一笔遗产。"
+    },
+    {
+     "name": "St. Saviour's",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣救世主教堂",
+     "description": "位于国王十字车站附近，原定举行玛丽婚礼的教堂。"
+    },
+    {
+     "name": "St. Pancras Hotel",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣潘克拉斯酒店",
+     "description": "原定婚礼后举行早餐的酒店。"
+    },
+    {
+     "name": "Tottenham Court Road",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "托特纳姆法院路",
+     "description": "玛丽父亲的水管生意所在地。"
+    },
+    {
+     "name": "Leadenhall Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "利德贺街",
+     "description": "霍斯默·安吉尔声称工作的街道，也是他收信地址。"
+    },
+    {
+     "name": "Bordeaux",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "波尔多",
+     "description": "法国城市，温迪班克公司设有法国办事处。"
+    },
+    {
+     "name": "Auckland",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "奥克兰",
+     "description": "新西兰城市，玛丽叔叔内德去世并留下遗产的地方。"
+    },
+    {
+     "name": "gasfitters' ball",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "煤气工舞会",
+     "description": "玛丽与霍斯默·安吉尔初次相遇的舞会。"
+    },
+    {
+     "name": "wedding",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "婚礼",
+     "description": "玛丽与霍斯默·安吉尔原定在圣救世主教堂举行的婚礼，新郎失踪。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "KIN",
+     "object": "Mrs. Windibank",
+     "evidence": "mother is alive and well",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "KIN",
+     "object": "James Windibank",
+     "evidence": "Mr. Windibank, your stepfather",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Windibank",
+     "predicate": "SPOUSE",
+     "object": "James Windibank",
+     "evidence": "she married again so soon after father’s death, and a man who was nearly fifteen years younger than herself",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "KIN",
+     "object": "Ned",
+     "evidence": "It is quite separate and was left me by my uncle Ned in Auckland",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "SPOUSE",
+     "object": "Hosmer Angel",
+     "evidence": "We were engaged after the first walk that we took",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hosmer Angel",
+     "predicate": "PROPOSED_TO",
+     "object": "Mary Sutherland",
+     "evidence": "Mr. Hosmer Angel came to the house again and proposed that we should marry before father came back",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "PARTICIPATED_IN",
+     "object": "gasfitters' ball",
+     "evidence": "I met him first at the gasfitters’ ball",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hosmer Angel",
+     "predicate": "PARTICIPATED_IN",
+     "object": "gasfitters' ball",
+     "evidence": "I met him first at the gasfitters’ ball",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding",
+     "evidence": "Your wedding was arranged, then, for the Friday",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hosmer Angel",
+     "predicate": "PARTICIPATED_IN",
+     "object": "wedding",
+     "evidence": "Your wedding was arranged, then, for the Friday",
+     "confidence": 0.95
+    },
+    {
+     "subject": "wedding",
+     "predicate": "OCCURRED_AT",
+     "object": "St. Saviour's",
+     "evidence": "It was to be at St. Saviour’s, near King’s Cross",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "LIVES_AT",
+     "object": "Tottenham Court Road",
+     "evidence": "Father was a plumber in the Tottenham Court Road",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Hosmer Angel",
+     "predicate": "LIVES_AT",
+     "object": "Leadenhall Street",
+     "evidence": "He slept on the premises",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I wasn’t best pleased, Mr. Holmes, when she married again so soon after father’s death",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Hosmer Angel",
+     "evidence": "Kindly tell us now all about your connection with Mr. Hosmer Angel",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Hardy",
+     "predicate": "SERVANT_OF",
+     "object": "Mary Sutherland",
+     "evidence": "mother carried on with Mr. Hardy, the foreman",
+     "confidence": 0.8
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "DECEIVED",
+     "object": "Mary Sutherland",
+     "evidence": "He never did wish us to go anywhere",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 8029,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "咨询侦探，调查安吉尔失踪案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Hosmer Angel",
+     "type": "Person",
+     "aliases": [
+      "Angel",
+      "Mr. Angel"
+     ],
+     "nickname": "霍斯默·安吉尔",
+     "description": "在婚礼早晨失踪的男子"
+    },
+    {
+     "name": "Mary Sutherland",
+     "type": "Person",
+     "aliases": [
+      "the maiden",
+      "our visitor"
+     ],
+     "nickname": "玛丽·萨瑟兰",
+     "description": "委托福尔摩斯寻找失踪未婚夫的女子"
+    },
+    {
+     "name": "Mrs. Windibank",
+     "type": "Person",
+     "aliases": [
+      "her mother"
+     ],
+     "nickname": "温迪班克太太",
+     "description": "玛丽·萨瑟兰的母亲，对失踪事件愤怒"
+    },
+    {
+     "name": "Mr. Windibank",
+     "type": "Person",
+     "aliases": [
+      "her father"
+     ],
+     "nickname": "温迪班克先生",
+     "description": "玛丽的父亲，为葡萄酒商工作"
+    },
+    {
+     "name": "Westhouse & Marbank",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "韦斯特豪斯与马班克公司",
+     "description": "芬丘奇街的葡萄酒进口商"
+    },
+    {
+     "name": "No. 31 Lyon Place, Camberwell",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "坎伯韦尔里昂广场31号",
+     "description": "玛丽·萨瑟兰的住址"
+    },
+    {
+     "name": "Fenchurch Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "芬丘奇街",
+     "description": "伦敦街道，Westhouse & Marbank所在地"
+    },
+    {
+     "name": "Leadenhall Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "利德贺街",
+     "description": "安吉尔据称曾工作的办公室所在街道"
+    },
+    {
+     "name": "A Case of Identity",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "身份案",
+     "description": "霍斯默·安吉尔失踪案"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "SPOUSE",
+     "object": "Hosmer Angel",
+     "evidence": "I was pledged to him, and that he would claim his pledge sooner or later.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "LOVES",
+     "object": "Hosmer Angel",
+     "evidence": "I shall be true to Hosmer. He shall find me ready when he comes back.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I shall glance into the case for you,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "A Case of Identity",
+     "evidence": "I shall glance into the case for you,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "LIVES_AT",
+     "object": "No. 31 Lyon Place, Camberwell",
+     "evidence": "No. 31 Lyon Place, Camberwell.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Windibank",
+     "predicate": "SERVANT_OF",
+     "object": "Westhouse & Marbank",
+     "evidence": "He travels for Westhouse & Marbank, the great claret importers of Fenchurch Street.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "KIN",
+     "object": "Mrs. Windibank",
+     "evidence": "How did your mother take the matter?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "KIN",
+     "object": "Mr. Windibank",
+     "evidence": "And your father? Did you tell him?",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7352,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查玛丽·萨瑟兰失踪新郎案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Doctor",
+      "I"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "Mary Sutherland",
+     "type": "Person",
+     "aliases": [
+      "Miss Sutherland",
+      "Mary"
+     ],
+     "nickname": "玛丽·萨瑟兰",
+     "description": "委托人，霍斯默·安吉尔的未婚妻"
+    },
+    {
+     "name": "Hosmer Angel",
+     "type": "Person",
+     "aliases": [
+      "Angel",
+      "Mr. Angel"
+     ],
+     "nickname": "霍斯默·安吉尔",
+     "description": "失踪的新郎，实为温迪班克假扮"
+    },
+    {
+     "name": "James Windibank",
+     "type": "Person",
+     "aliases": [
+      "Windibank",
+      "Mr. Windibank"
+     ],
+     "nickname": "温迪班克",
+     "description": "玛丽·萨瑟兰的继父，假扮霍斯默·安吉尔"
+    },
+    {
+     "name": "Irene Adler",
+     "type": "Person",
+     "aliases": [
+      "The Woman",
+      "Miss Adler",
+      "Adler"
+     ],
+     "nickname": "艾琳·艾德勒",
+     "description": "出现在回忆中的女性，曾使福尔摩斯失败"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯在伦敦的住所"
+    },
+    {
+     "name": "Leadenhall Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "利德贺街",
+     "description": "信中提到的模糊地址"
+    },
+    {
+     "name": "A Case of Identity",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "身份案",
+     "description": "玛丽·萨瑟兰失踪新郎案"
+    },
+    {
+     "name": "the Sign of Four",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "四签名案",
+     "description": "福尔摩斯曾处理的案件"
+    },
+    {
+     "name": "the Study in Scarlet",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "血字的研究案",
+     "description": "福尔摩斯曾处理的案件"
+    },
+    {
+     "name": "typewritten letter",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "打字机信件",
+     "description": "温迪班克写给福尔摩斯的信"
+    },
+    {
+     "name": "four letters",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "四封信",
+     "description": "据称来自霍斯默·安吉尔的打字信件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I am sorry that Miss Sutherland has troubled you about this little matter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "A Case of Identity",
+     "evidence": "I have every reason to believe that I will succeed in discovering Mr. Hosmer Angel.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "KIN",
+     "object": "Mary Sutherland",
+     "evidence": "This is the girl's stepfather, Mr. James Windibank",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "DECEIVED",
+     "object": "Mary Sutherland",
+     "evidence": "it was as cruel and selfish and heartless a trick in a petty way as ever came before me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hosmer Angel",
+     "predicate": "SPOUSE",
+     "object": "Mary Sutherland",
+     "evidence": "the disappearing bridegroom of Miss Mary Sutherland",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "the Sign of Four",
+     "evidence": "when I looked back to the weird business of the Sign of Four",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "the Study in Scarlet",
+     "evidence": "the extraordinary circumstances connected with the Study in Scarlet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "OWNS",
+     "object": "typewritten letter",
+     "evidence": "I think that this typewritten letter is from you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hosmer Angel",
+     "predicate": "OWNS",
+     "object": "four letters",
+     "evidence": "I have here four letters which purport to come from the missing man.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "drive to Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "A Case of Identity",
+     "predicate": "OCCURRED_AT",
+     "object": "Baker Street",
+     "evidence": "I found Sherlock Holmes alone, however, half asleep, with his long, thin form curled up in the recesses of his armchair.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 6582,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，侦破本案并揭露温迪班克的骗局"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "Mary Sutherland",
+     "type": "Person",
+     "aliases": [
+      "Miss Sutherland",
+      "Mary"
+     ],
+     "nickname": "玛丽·萨瑟兰",
+     "description": "被继父欺骗的年轻女子，本案委托人"
+    },
+    {
+     "name": "Hosmer Angel",
+     "type": "Person",
+     "aliases": [
+      "Angel",
+      "Mr. Angel",
+      "Mr. Hosmer Angel"
+     ],
+     "nickname": "霍斯默·安吉尔",
+     "description": "温迪班克假扮的求婚者，实为虚构身份"
+    },
+    {
+     "name": "James Windibank",
+     "type": "Person",
+     "aliases": [
+      "Windibank",
+      "Mr. Windibank"
+     ],
+     "nickname": "温迪班克",
+     "description": "玛丽·萨瑟兰的继父，假扮安吉尔欺骗她"
+    },
+    {
+     "name": "Mrs. Windibank",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "温迪班克太太",
+     "description": "玛丽的母亲，温迪班克的妻子，协助骗局"
+    },
+    {
+     "name": "Westhouse & Marbank",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "韦斯特豪斯与马班克公司",
+     "description": "芬丘奇街的公司，温迪班克的雇主"
+    },
+    {
+     "name": "A Case of Identity",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "身份案",
+     "description": "玛丽·萨瑟兰被继父假扮的霍斯默·安吉尔欺骗的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "James Windibank",
+     "predicate": "KIN",
+     "object": "Mary Sutherland",
+     "evidence": "her stepfather",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Windibank",
+     "evidence": "The man married a woman very much older than himself for her money",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Windibank",
+     "predicate": "KIN",
+     "object": "Mary Sutherland",
+     "evidence": "the loudly expressed admiration of her mother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "DECEIVED",
+     "object": "Mary Sutherland",
+     "evidence": "he appears as Mr. Hosmer Angel, and keeps off other lovers by making love himself",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Windibank",
+     "predicate": "HELPED",
+     "object": "James Windibank",
+     "evidence": "With the connivance and assistance of his wife he disguised himself",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "it is not part of my duties to my client",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "A Case of Identity",
+     "evidence": "The case has, in some respects, been not entirely devoid of interest.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "SERVANT_OF",
+     "object": "Westhouse & Marbank",
+     "evidence": "their employé, James Windibank",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Sutherland",
+     "predicate": "PARTICIPATED_IN",
+     "object": "A Case of Identity",
+     "evidence": "the young lady was very decidedly carried away",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James Windibank",
+     "predicate": "PARTICIPATED_IN",
+     "object": "A Case of Identity",
+     "evidence": "he appears as Mr. Hosmer Angel",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "SUSPECTED",
+     "object": "James Windibank",
+     "evidence": "My suspicions were all confirmed by his peculiar action in typewriting his signature",
+     "confidence": 0.95
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:11.894Z"
+}

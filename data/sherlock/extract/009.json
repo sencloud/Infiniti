@@ -1,0 +1,950 @@
+{
+ "no": 9,
+ "title": "The Adventure of the Engineer’s Thumb",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7517,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名私家侦探，住在贝克街"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Doctor",
+      "I"
+     ],
+     "nickname": "华生",
+     "description": "医生，福尔摩斯的朋友与助手"
+    },
+    {
+     "name": "Victor Hatherley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Hatherley",
+      "my visitor",
+      "my new acquaintance"
+     ],
+     "nickname": "哈瑟利",
+     "description": "液压工程师，拇指被砍断的委托人"
+    },
+    {
+     "name": "Colonel Warburton",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "沃伯顿上校",
+     "description": "华生曾向福尔摩斯提及的疯癫案当事人"
+    },
+    {
+     "name": "Paddington Station",
+     "type": "Place",
+     "aliases": [
+      "Paddington"
+     ],
+     "nickname": "帕丁顿车站",
+     "description": "伦敦火车站，哈瑟利清晨抵达处"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [
+      "Baker Street rooms"
+     ],
+     "nickname": "贝克街",
+     "description": "福尔摩斯在伦敦的住所"
+    },
+    {
+     "name": "Victoria Street",
+     "type": "Place",
+     "aliases": [
+      "16A, Victoria Street"
+     ],
+     "nickname": "维多利亚街",
+     "description": "哈瑟利工程师的办公地址"
+    },
+    {
+     "name": "Mr. Hatherley's thumb case",
+     "type": "Event",
+     "aliases": [
+      "that of Mr. Hatherley’s thumb"
+     ],
+     "nickname": "哈瑟利拇指案",
+     "description": "哈瑟利拇指被砍断的案件"
+    },
+    {
+     "name": "Colonel Warburton's madness case",
+     "type": "Event",
+     "aliases": [
+      "that of Colonel Warburton’s madness"
+     ],
+     "nickname": "沃伯顿上校疯癫案",
+     "description": "华生向福尔摩斯提及的疯癫案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "my friend, Mr. Sherlock Holmes",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I should strongly recommend you to come to my friend, Mr. Sherlock Holmes",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I should be very glad if he would take the matter up",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Mr. Hatherley's thumb case",
+     "evidence": "that of Mr. Hatherley’s thumb",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Colonel Warburton's madness case",
+     "evidence": "that of Colonel Warburton’s madness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Paddington Station",
+     "evidence": "I happened to live at no very great distance from Paddington Station",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "Holmes in his Baker Street rooms",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "LIVES_AT",
+     "object": "Victoria Street",
+     "evidence": "Mr. Victor Hatherley, hydraulic engineer, 16A, Victoria Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "VISITED",
+     "object": "Paddington Station",
+     "evidence": "I came in by train this morning, and on inquiring at Paddington",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Baker Street",
+     "evidence": "driving with my new acquaintance to Baker Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "VISITED",
+     "object": "Baker Street",
+     "evidence": "driving with my new acquaintance to Baker Street",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Hatherley's thumb case",
+     "predicate": "OCCURRED_AT",
+     "object": "Paddington Station",
+     "evidence": "two men had come from Paddington",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7543,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在伦敦，在本篇中接待并倾听Hatherley的离奇经历。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Doctor",
+      "I"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，Holmes的同伴，在本片段中陪同Hatherley拜访Holmes。"
+    },
+    {
+     "name": "Mr. Hatherley",
+     "type": "Person",
+     "aliases": [
+      "Hatherley"
+     ],
+     "nickname": "哈瑟利",
+     "description": "液压工程师，孤儿单身，住在伦敦，因受雇修理机器而遭遇危险。"
+    },
+    {
+     "name": "Colonel Lysander Stark",
+     "type": "Person",
+     "aliases": [
+      "Lysander Stark",
+      "the colonel"
+     ],
+     "nickname": "莱桑德·斯塔克上校",
+     "description": "瘦削男子，带德国口音，以高酬金聘请Hatherley夜间工作并要求保密。"
+    },
+    {
+     "name": "Venner & Matheson",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "文纳与马西森公司",
+     "description": "格林威治的知名公司，Hatherley曾在此学徒七年。"
+    },
+    {
+     "name": "Eyford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "艾福德",
+     "description": "伯克郡的小地方，靠近牛津郡边界，距雷丁七英里。"
+    },
+    {
+     "name": "Berkshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伯克郡",
+     "description": "英格兰郡名，Eyford所在地。"
+    },
+    {
+     "name": "Oxfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "牛津郡",
+     "description": "英格兰郡名，Eyford靠近其边界。"
+    },
+    {
+     "name": "Reading",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "雷丁",
+     "description": "英格兰城镇，距Eyford七英里。"
+    },
+    {
+     "name": "Paddington",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "帕丁顿",
+     "description": "伦敦火车站，有火车开往Eyford。"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "英国首都，Hatherley居住和执业的地方。"
+    },
+    {
+     "name": "Victoria Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "维多利亚街",
+     "description": "伦敦街道，Hatherley在此开设专业事务所。"
+    },
+    {
+     "name": "Greenwich",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格林威治",
+     "description": "伦敦地名，Venner & Matheson公司所在地。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "Sherlock Holmes was, as I expected, lounging about his sitting-room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Hatherley",
+     "predicate": "VISITED",
+     "object": "Sherlock Holmes",
+     "evidence": "He received us in his quietly genial fashion",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Hatherley",
+     "predicate": "SERVANT_OF",
+     "object": "Venner & Matheson",
+     "evidence": "I was apprenticed to Venner & Matheson, the well-known firm, of Greenwich",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Hatherley",
+     "predicate": "LIVES_AT",
+     "object": "London",
+     "evidence": "residing alone in lodgings in London",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Hatherley",
+     "predicate": "LIVES_AT",
+     "object": "Victoria Street",
+     "evidence": "took professional chambers in Victoria Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Colonel Lysander Stark",
+     "predicate": "VISITED",
+     "object": "Mr. Hatherley",
+     "evidence": "my clerk entered to say there was a gentleman waiting who wished to see me upon business",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Lysander Stark",
+     "predicate": "DECEIVED",
+     "object": "Mr. Hatherley",
+     "evidence": "absolute secrecy is quite essential—absolute secrecy, you understand",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Hatherley",
+     "predicate": "VISITED",
+     "object": "Eyford",
+     "evidence": "We shall want you to come to-night by the last train.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eyford",
+     "predicate": "LIVES_AT",
+     "object": "Berkshire",
+     "evidence": "To Eyford, in Berkshire.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Eyford",
+     "predicate": "LIVES_AT",
+     "object": "Oxfordshire",
+     "evidence": "It is a little place near the borders of Oxfordshire",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Eyford",
+     "predicate": "LIVES_AT",
+     "object": "Reading",
+     "evidence": "within seven miles of Reading",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Paddington",
+     "predicate": "LIVES_AT",
+     "object": "London",
+     "evidence": "There is a train from Paddington",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7937,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "咨询侦探，听取工程师拇指案叙述"
+    },
+    {
+     "name": "Victor Hatherley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Hatherley"
+     ],
+     "nickname": "哈瑟利",
+     "description": "液压工程师，本案委托人，被诱骗至Eyford"
+    },
+    {
+     "name": "Colonel Lysander Stark",
+     "type": "Person",
+     "aliases": [
+      "the colonel",
+      "my patron"
+     ],
+     "nickname": "莱桑德·斯塔克上校",
+     "description": "自称上校，以液压机工作诱骗工程师"
+    },
+    {
+     "name": "Eyford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "艾福德",
+     "description": "小火车站，工程师被诱往的目的地"
+    },
+    {
+     "name": "Reading",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "雷丁",
+     "description": "城镇，工程师换乘火车之处"
+    },
+    {
+     "name": "Paddington",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "帕丁顿",
+     "description": "伦敦火车站，工程师由此出发"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I was very much astonished, as you may both think, at this sudden commission which had been intrusted to me.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Lysander Stark",
+     "predicate": "DECEIVED",
+     "object": "Victor Hatherley",
+     "evidence": "I have taken you fully into my confidence now, Mr. Hatherley, and I have shown you how I trust you.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "VISITED",
+     "object": "Eyford",
+     "evidence": "I was in time for the last train to Eyford, and I reached the little dim-lit station after eleven o'clock.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "VISITED",
+     "object": "Reading",
+     "evidence": "At Reading I had to change not only my carriage but my station.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "VISITED",
+     "object": "Paddington",
+     "evidence": "drove to Paddington, and started off",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7993,
+   "entities": [
+    {
+     "name": "Victor Hatherley",
+     "type": "Person",
+     "aliases": [
+      "the engineer"
+     ],
+     "nickname": "哈瑟利",
+     "description": "工程师，本篇叙述者，被诱骗至宅邸修理机器"
+    },
+    {
+     "name": "Lysander Stark",
+     "type": "Person",
+     "aliases": [
+      "Colonel Lysander Stark",
+      "the colonel"
+     ],
+     "nickname": "斯塔克上校",
+     "description": "伪称开采漂白土的雇主，实为造假币者"
+    },
+    {
+     "name": "Ferguson",
+     "type": "Person",
+     "aliases": [
+      "Mr. Ferguson",
+      "the fat manager"
+     ],
+     "nickname": "弗格森",
+     "description": "斯塔克上校的秘书兼经理，沉默寡言"
+    },
+    {
+     "name": "Elise",
+     "type": "Person",
+     "aliases": [
+      "the woman",
+      "the lady"
+     ],
+     "nickname": "伊莉斯",
+     "description": "斯塔克上校宅中的女子，警告哈瑟利离开"
+    },
+    {
+     "name": "hydraulic press",
+     "type": "Item",
+     "aliases": [
+      "the machine",
+      "the engine"
+     ],
+     "nickname": "液压机",
+     "description": "用于压制的巨型机器，实为伪造钱币的工具"
+    },
+    {
+     "name": "fuller's-earth",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "漂白土",
+     "description": "斯塔克上校谎称开采的物质，实为伪造钱币的借口"
+    },
+    {
+     "name": "the house",
+     "type": "Place",
+     "aliases": [
+      "the old house"
+     ],
+     "nickname": "宅邸",
+     "description": "斯塔克上校的宅邸，内有液压机"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "CLIENT_OF",
+     "object": "Lysander Stark",
+     "evidence": "I have not yet done what I came for.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "INVESTIGATED",
+     "object": "hydraulic press",
+     "evidence": "I examined the machine very thoroughly.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lysander Stark",
+     "predicate": "DECEIVED",
+     "object": "Victor Hatherley",
+     "evidence": "the story of the fuller’s-earth was the merest fabrication",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lysander Stark",
+     "predicate": "HARMED",
+     "object": "Victor Hatherley",
+     "evidence": "He had set the engine at work.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elise",
+     "predicate": "HELPED",
+     "object": "Victor Hatherley",
+     "evidence": "get away from here before it is too late!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Ferguson",
+     "predicate": "SERVANT_OF",
+     "object": "Lysander Stark",
+     "evidence": "This is my secretary and manager",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lysander Stark",
+     "predicate": "OWNS",
+     "object": "hydraulic press",
+     "evidence": "we are now actually within the hydraulic press",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lysander Stark",
+     "predicate": "LIVES_AT",
+     "object": "the house",
+     "evidence": "it is in the house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Victor Hatherley",
+     "predicate": "VISITED",
+     "object": "the house",
+     "evidence": "We went upstairs together",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 8004,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，调查工程师拇指案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "myself",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "Colonel Lysander Stark",
+     "type": "Person",
+     "aliases": [
+      "the colonel",
+      "Fritz"
+     ],
+     "nickname": "莱桑德·斯塔克上校",
+     "description": "反派，经营伪币工厂，砍断工程师拇指"
+    },
+    {
+     "name": "Elise",
+     "type": "Person",
+     "aliases": [
+      "the woman",
+      "the girl",
+      "my guide",
+      "my saviour"
+     ],
+     "nickname": "伊莉斯",
+     "description": "斯塔克上校的妻子，帮助工程师逃脱"
+    },
+    {
+     "name": "Mr. Jeremiah Hayling",
+     "type": "Person",
+     "aliases": [
+      "Jeremiah Hayling"
+     ],
+     "nickname": "杰里迈亚·海林",
+     "description": "液压工程师，一年前失踪"
+    },
+    {
+     "name": "Inspector Bradstreet",
+     "type": "Person",
+     "aliases": [
+      "Bradstreet"
+     ],
+     "nickname": "布雷兹特里特探长",
+     "description": "苏格兰场探长，参与调查"
+    },
+    {
+     "name": "Scotland Yard",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "苏格兰场",
+     "description": "伦敦警察机构"
+    },
+    {
+     "name": "Eyford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "艾福德",
+     "description": "伯克郡小村庄，伪币工厂附近"
+    },
+    {
+     "name": "Reading",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "雷丁",
+     "description": "英格兰城镇，工程师从这出发"
+    },
+    {
+     "name": "The Adventure of the Engineer's Thumb",
+     "type": "Event",
+     "aliases": [
+      "the case"
+     ],
+     "nickname": "工程师拇指案",
+     "description": "液压工程师受雇修理机器，险遭杀害，被砍断拇指"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elise",
+     "predicate": "SPOUSE",
+     "object": "Colonel Lysander Stark",
+     "evidence": "'Fritz! Fritz!' she cried in English, 'remember your promise after the last time.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elise",
+     "predicate": "HELPED",
+     "object": "Mr. Jeremiah Hayling",
+     "evidence": "It was the same good friend whose warning I had so foolishly rejected.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Lysander Stark",
+     "predicate": "HARMED",
+     "object": "Mr. Jeremiah Hayling",
+     "evidence": "I saw the lean figure of Colonel Lysander Stark rushing forward with a lantern in one hand and a weapon like a butcher’s cleaver in the other.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Colonel Lysander Stark",
+     "predicate": "KILLED",
+     "object": "Mr. Jeremiah Hayling",
+     "evidence": "Then that explains what the girl said.",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Adventure of the Engineer's Thumb",
+     "evidence": "I put the case into your hands and shall do exactly what you advise.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Jeremiah Hayling",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I put the case into your hands and shall do exactly what you advise.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Inspector Bradstreet",
+     "predicate": "MEMBER_OF",
+     "object": "Scotland Yard",
+     "evidence": "Inspector Bradstreet, of Scotland Yard",
+     "confidence": 0.9
+    },
+    {
+     "subject": "The Adventure of the Engineer's Thumb",
+     "predicate": "OCCURRED_AT",
+     "object": "Eyford",
+     "evidence": "we shall go down to Scotland Yard at once as a preliminary to starting for Eyford.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Jeremiah Hayling",
+     "predicate": "VISITED",
+     "object": "Reading",
+     "evidence": "There would be one to Reading in less than an hour.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 5376,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查工程师拇指案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴"
+    },
+    {
+     "name": "Hatherley",
+     "type": "Person",
+     "aliases": [
+      "the engineer",
+      "our hydraulic engineer",
+      "our unfortunate acquaintance"
+     ],
+     "nickname": "哈瑟利",
+     "description": "液压工程师，本案受害者"
+    },
+    {
+     "name": "Bradstreet",
+     "type": "Person",
+     "aliases": [
+      "the inspector"
+     ],
+     "nickname": "布拉德斯特里特",
+     "description": "苏格兰场警探"
+    },
+    {
+     "name": "Dr. Becher",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "贝克尔医生",
+     "description": "被误认为德国人的英国医生"
+    },
+    {
+     "name": "the gang",
+     "type": "Organization",
+     "aliases": [
+      "coiners",
+      "clever gang",
+      "those criminals"
+     ],
+     "nickname": "犯罪团伙",
+     "description": "大规模伪造硬币的团伙"
+    },
+    {
+     "name": "Eyford Station",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "艾福德车站",
+     "description": "火车站，靠近案发地"
+    },
+    {
+     "name": "Reading",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "雷丁",
+     "description": "城镇，团伙曾出现"
+    },
+    {
+     "name": "Dr. Becher's house",
+     "type": "Place",
+     "aliases": [
+      "the house",
+      "the whitewashed building"
+     ],
+     "nickname": "贝克尔医生宅邸",
+     "description": "案发地，被烧毁"
+    },
+    {
+     "name": "the fire",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "火灾",
+     "description": "烧毁贝克尔医生宅邸的火灾"
+    },
+    {
+     "name": "the thumb",
+     "type": "Item",
+     "aliases": [
+      "human thumb"
+     ],
+     "nickname": "拇指",
+     "description": "哈瑟利被切断的拇指"
+    },
+    {
+     "name": "the oil-lamp",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "油灯",
+     "description": "引发火灾的油灯"
+    },
+    {
+     "name": "the machine",
+     "type": "Item",
+     "aliases": [
+      "machinery"
+     ],
+     "nickname": "机器",
+     "description": "用于制造合金的机器"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "the gang",
+     "evidence": "They are coiners on a large scale, and have used the machine to form the amalgam which has taken the place of silver.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "the fire",
+     "evidence": "There can be no question that it was your oil-lamp which, when it was crushed in the press, set fire to the wooden walls",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hatherley",
+     "predicate": "VISITED",
+     "object": "Dr. Becher's house",
+     "evidence": "There is the gravel-drive, and there are the rose-bushes where I lay. That second window is the one that I jumped from.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "the gang",
+     "predicate": "HARMED",
+     "object": "Hatherley",
+     "evidence": "I have lost my thumb and I have lost a fifty-guinea fee",
+     "confidence": 0.95
+    },
+    {
+     "subject": "the gang",
+     "predicate": "OWNS",
+     "object": "the machine",
+     "evidence": "They are coiners on a large scale, and have used the machine to form the amalgam which has taken the place of silver.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "the fire",
+     "predicate": "OCCURRED_AT",
+     "object": "Dr. Becher's house",
+     "evidence": "Whose house is it? Dr. Becher's.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "the oil-lamp",
+     "predicate": "OWNS",
+     "object": "Hatherley",
+     "evidence": "it was your oil-lamp which, when it was crushed in the press, set fire to the wooden walls",
+     "confidence": 0.9
+    },
+    {
+     "subject": "the gang",
+     "predicate": "VISITED",
+     "object": "Reading",
+     "evidence": "We even traced them as far as Reading, but could get no farther",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:35.383Z"
+}

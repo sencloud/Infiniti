@@ -1,0 +1,79 @@
+{
+  "entity_id": "e_bf616ecdd762",
+  "name": "正弦",
+  "locale": "zh",
+  "summary": "正弦是锐角三角函数之一，定义在直角三角形中，是解直角三角形的基础。[1][2]",
+  "sections": [
+    {
+      "title": "定义与来源",
+      "text": "在直角三角形中，锐角A的对边与斜边的比叫做∠A的正弦。正弦、余弦和正切都是∠A的三角函数。[1][3] 学习正弦前，需要先掌握直角三角形和勾股定理，因为定义依赖于直角三角形的边角关系，并且计算边长时会用到勾股定理。[4][5]"
+    },
+    {
+      "title": "如何求值",
+      "text": "根据正弦的定义，可以求一个锐角的正弦值。例如，在直角三角形中，已知两边长，先用勾股定理求出第三边，再根据定义求正弦值。[5] 对于非特殊角，可以使用计算器求正弦值。[6]"
+    },
+    {
+      "title": "用在哪里",
+      "text": "正弦是解直角三角形的重要工具。在解直角三角形时，会用到边、角之间的关系，如sin A=a/c。[2] 正弦的概念也是后续学习余弦、正切以及更复杂三角函数问题的基础。[1]"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_eb27b7cf4686",
+      "record_id": "ch-126",
+      "chapter_no": 126,
+      "unit": "九下·7.1",
+      "relation": "锐角三角函数 包含 正弦",
+      "evidence_text": "∠A 的正弦、余弦和正切都是 ∠A 的三角函数"
+    },
+    {
+      "n": 2,
+      "claim_id": "c_5a2e726eea13",
+      "record_id": "ch-130",
+      "chapter_no": 130,
+      "unit": "九下·7.5",
+      "relation": "正弦 前置 解直角三角形",
+      "evidence_text": "（3）边、角之间的关系 sin A=a/c，"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_cef75846cac5",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "锐角三角函数 包含 正弦",
+      "evidence_text": "根据正弦、余弦的定义"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_f4d7efa426fc",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "直角三角形 前置 正弦",
+      "evidence_text": "在Rt△ABD中，cosB=BD/AB"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_1ea051ce9798",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "勾股定理 前置 正弦",
+      "evidence_text": "根据勾股定理，得AB=√(AC²+BC²)=13。根据正弦、余弦的定义，得sinA=BC/AB"
+    },
+    {
+      "n": 6,
+      "claim_id": "c_723ebd6f0869",
+      "record_id": "ch-127",
+      "chapter_no": 127,
+      "unit": "九下·7.2",
+      "relation": "计算器求三角函数值 应用于 正弦",
+      "evidence_text": "用计算器求下列正弦值或余弦值"
+    }
+  ],
+  "basis": "2c4d081f2a43d2d0",
+  "basis_size": 6,
+  "generated_at": "2026-10-03T01:56:09.270Z"
+}

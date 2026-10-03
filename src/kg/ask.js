@@ -71,7 +71,7 @@ async function pairFacts(a, b) {
 
 async function nearSegments(question) {
   try {
-    const vec = await embedQuery(question);
+    const vec = await embedQuery(question, currentGraph().lang);
     const list = await rows(
       `CALL db.index.vector.queryNodes($index, $k, $vec) YIELD node AS s, score
        MATCH (s)-[:IN_CHAPTER]->(c:Chapter)

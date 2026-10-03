@@ -1,0 +1,196 @@
+{
+  "entity_id": "e_9b129cf8147e",
+  "name": "三角形",
+  "locale": "zh",
+  "summary": "三角形是基本几何图形，包含直角三角形、等腰三角形等特例，是学习全等、相似及内角和定理的基础。[1][2][3][4]",
+  "sections": [
+    {
+      "title": "是什么",
+      "text": "三角形是由三条线段首尾顺次相接组成的图形。按边的数量，多边形可以分为三角形、四边形、五边形等，所以三角形是最简单的多边形[5]。它包含许多特殊类型，如直角三角形、等腰三角形、等边三角形[4][3][6]。三角形内部还有高线、中线、角平分线等重要线段[7][8][9]。"
+    },
+    {
+      "title": "从哪里来",
+      "text": "学习三角形前，需要先掌握平行线的性质与判定，因为证明三角形内角和定理时会用到平行线的性质[10][11]。三角形内角和定理是三角形的重要性质，它表明三角形三个内角的和等于180°[2]。由内角和定理可以推出直角三角形的两个锐角互余[4]。此外，在同一个三角形中，较大的边所对的角也比较大，较大的角所对的边也比较大[12]。"
+    },
+    {
+      "title": "用在哪里",
+      "text": "三角形是学习全等三角形和相似三角形的基础[1][13]。全等三角形的判定和应用都离不开三角形的基本概念[14][15]。勾股定理常用于直角三角形中求边长[16]。三角形的面积问题可以借助三斜求积术或海伦公式解决[17][18]。三角形的三条中线相交于一点，这一性质在后续几何学习中也会用到[19]。"
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "claim_id": "c_4d70f258eb49",
+      "record_id": "ch-049",
+      "chapter_no": 49,
+      "unit": "八上·1.1",
+      "relation": "三角形 前置 全等三角形",
+      "evidence_text": "三角形是基本的几何图形．我们把可以完全重合的两个三角形称为全等三角形"
+    },
+    {
+      "n": 2,
+      "claim_id": "c_aa04b7738cb2",
+      "record_id": "ch-048",
+      "chapter_no": 48,
+      "unit": "七下·12.4",
+      "relation": "三角形内角和定理 性质 三角形",
+      "evidence_text": "三角形三个内角的和等于180°"
+    },
+    {
+      "n": 3,
+      "claim_id": "c_068dc589db05",
+      "record_id": "ch-053",
+      "chapter_no": 53,
+      "unit": "八上·1.5",
+      "relation": "三角形 包含 等腰三角形",
+      "evidence_text": "特殊三角形：等腰三角形"
+    },
+    {
+      "n": 4,
+      "claim_id": "c_53393eba1bc1",
+      "record_id": "ch-048",
+      "chapter_no": 48,
+      "unit": "七下·12.4",
+      "relation": "三角形 包含 直角三角形",
+      "evidence_text": "直角三角形的两个锐角互余"
+    },
+    {
+      "n": 5,
+      "claim_id": "c_e7a01739f0da",
+      "record_id": "ch-024",
+      "chapter_no": 24,
+      "unit": "七上·6.5",
+      "relation": "多边形 包含 三角形",
+      "evidence_text": "根据边的数量，多边形可以分为三角形、四边形、五边形、n边形等。"
+    },
+    {
+      "n": 6,
+      "claim_id": "c_498505aa38bb",
+      "record_id": "ch-003",
+      "chapter_no": 3,
+      "unit": "七上·1.3",
+      "relation": "等边三角形 特例 三角形",
+      "evidence_text": "先画1个等边三角形"
+    },
+    {
+      "n": 7,
+      "claim_id": "c_6a09f9a04c4c",
+      "record_id": "ch-049",
+      "chapter_no": 49,
+      "unit": "八上·1.1",
+      "relation": "三角形的高线 包含 三角形",
+      "evidence_text": "从三角形的一个顶点向它的对边所在直线作垂线，顶点与垂足之间的线段叫作三角形的高线"
+    },
+    {
+      "n": 8,
+      "claim_id": "c_5af86352ba56",
+      "record_id": "ch-049",
+      "chapter_no": 49,
+      "unit": "八上·1.1",
+      "relation": "三角形的中线 包含 三角形",
+      "evidence_text": "在三角形中，连接一个顶点与它的对边中点的线段，叫作三角形的中线"
+    },
+    {
+      "n": 9,
+      "claim_id": "c_62eea8552726",
+      "record_id": "ch-049",
+      "chapter_no": 49,
+      "unit": "八上·1.1",
+      "relation": "三角形的角平分线 包含 三角形",
+      "evidence_text": "在三角形中，一个内角的平分线与这个角的对边相交，这个角的顶点与交点之间的线段叫作三角形的角平分线"
+    },
+    {
+      "n": 10,
+      "claim_id": "c_bc033cfe0760",
+      "record_id": "ch-048",
+      "chapter_no": 48,
+      "unit": "七下·12.4",
+      "relation": "平行线的性质 应用于 三角形",
+      "evidence_text": "AB∥CD，试用不同方法证明∠B+∠D=∠E"
+    },
+    {
+      "n": 11,
+      "claim_id": "c_4eca66539e6a",
+      "record_id": "ch-048",
+      "chapter_no": 48,
+      "unit": "七下·12.4",
+      "relation": "平行线的判定 应用于 三角形",
+      "evidence_text": "AC∥FD，∠A=∠D"
+    },
+    {
+      "n": 12,
+      "claim_id": "c_72c288c321ef",
+      "record_id": "ch-049",
+      "chapter_no": 49,
+      "unit": "八上·1.1",
+      "relation": "大边对大角，大角对大边 性质 三角形",
+      "evidence_text": "在同一个三角形中，较大的边所对的角也比较大，较大的角所对的边也比较大"
+    },
+    {
+      "n": 13,
+      "claim_id": "c_168376fd3f9e",
+      "record_id": "ch-125",
+      "chapter_no": 125,
+      "unit": "九下·6.7",
+      "relation": "相似三角形的判定 应用于 三角形",
+      "evidence_text": "判断△ABC与△EAB是否相似"
+    },
+    {
+      "n": 14,
+      "claim_id": "c_090952f0301d",
+      "record_id": "ch-051",
+      "chapter_no": 51,
+      "unit": "八上·1.3",
+      "relation": "全等三角形 应用于 三角形",
+      "evidence_text": "这个基本事实可以用来判定两个三角形全等。"
+    },
+    {
+      "n": 15,
+      "claim_id": "c_9440fc3b5ea2",
+      "record_id": "ch-050",
+      "chapter_no": 50,
+      "unit": "八上·1.2",
+      "relation": "全等三角形 包含 三角形",
+      "evidence_text": "我们把两个能完全重合的三角形叫作全等三角形。"
+    },
+    {
+      "n": 16,
+      "claim_id": "c_aba698aa90ec",
+      "record_id": "ch-091",
+      "chapter_no": 91,
+      "unit": "八下·11.3",
+      "relation": "勾股定理 应用于 三角形",
+      "evidence_text": "在△ABC中，∠C=90°，AC=√10，AB=√34. 求BC."
+    },
+    {
+      "n": 17,
+      "claim_id": "c_e69d6aed726e",
+      "record_id": "ch-091",
+      "chapter_no": 91,
+      "unit": "八下·11.3",
+      "relation": "三斜求积术 应用于 三角形",
+      "evidence_text": "提出了解决“已知三角形的三条边，求三角形面积”这个问题的办法，即著名的“三斜求积术”"
+    },
+    {
+      "n": 18,
+      "claim_id": "c_f294532ef382",
+      "record_id": "ch-091",
+      "chapter_no": 91,
+      "unit": "八下·11.3",
+      "relation": "海伦公式 应用于 三角形",
+      "evidence_text": "古希腊数学家海伦也给出了根据三角形三边求面积的公式，即“海伦公式”"
+    },
+    {
+      "n": 19,
+      "claim_id": "c_585b59c07b4a",
+      "record_id": "ch-122",
+      "chapter_no": 122,
+      "unit": "九下·6.4",
+      "relation": "三角形的三条中线相交于一点 性质 三角形",
+      "evidence_text": "三角形的三条中线相交于一点"
+    }
+  ],
+  "basis": "1c889d2fb142e680",
+  "basis_size": 30,
+  "generated_at": "2026-10-03T01:02:54.718Z"
+}

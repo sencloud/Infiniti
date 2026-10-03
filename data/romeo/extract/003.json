@@ -1,0 +1,211 @@
+{
+ "no": 3,
+ "title": "Room in Capulet’s House",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 4917,
+   "entities": [
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，未满十四岁"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，朱丽叶之父"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "朱丽叶之母，劝其考虑婚事"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "年轻贵族，向朱丽叶求爱"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的乳母，抚养她长大"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "凯普莱特家族",
+     "description": "朱丽叶所属的家族"
+    },
+    {
+     "name": "Verona",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "维罗纳",
+     "description": "故事发生的城市"
+    },
+    {
+     "name": "Mantua",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "曼图亚",
+     "description": "奶妈提及主人曾去过的城市"
+    },
+    {
+     "name": "Capulet's House",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "凯普莱特家",
+     "description": "凯普莱特家族的宅邸"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "My lord and you were then at Mantua",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Your mother.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "KIN",
+     "object": "Lord Capulet",
+     "evidence": "My lord and you were then at Mantua",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "GUARDIAN_OF",
+     "object": "Juliet Capulet",
+     "evidence": "Thou wast the prettiest babe that e'er I nurs'd",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "House of Capulet",
+     "evidence": "Nurse, where's my daughter? Call her forth to me.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Paris",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "The valiant Paris seeks you for his love.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet Capulet",
+     "evidence": "The valiant Paris seeks you for his love.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Nurse, where's my daughter? Call her forth to me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "My lord and you were then at Mantua",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Your mother.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Room in Capulet's House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Room in Capulet's House",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Room in Capulet's House",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "LIVES_AT",
+     "object": "Capulet's House",
+     "evidence": "Room in Capulet's House",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "VISITED",
+     "object": "Mantua",
+     "evidence": "My lord and you were then at Mantua",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "VISITED",
+     "object": "Mantua",
+     "evidence": "My lord and you were then at Mantua",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "NATIVE_OF",
+     "object": "Verona",
+     "evidence": "Here in Verona, ladies of esteem, Are made already mothers.",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:21:54.157Z"
+}

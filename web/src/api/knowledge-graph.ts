@@ -38,11 +38,17 @@ export interface MediaImage {
   description?: string
   credit?: string
   license?: string
-  /** commons（维基共享资源）/ baike（百度百科） */
+  /** commons（维基共享资源）/ baike（百度百科）/ gutenberg（古登堡插图本） */
   source?: string
   page_url?: string
   width?: number
   height?: number
+}
+
+export interface ChapterImage extends MediaImage {
+  /** 插图所在段落下标 */
+  para?: number
+  people?: string[]
 }
 
 export interface VideoEpisodeRef {
@@ -50,6 +56,9 @@ export interface VideoEpisodeRef {
   title: string
   bvid: string
   page: number
+  /** 自带的显示名（「1995 版第1集 …」），没有时按「第 N 集」显示 */
+  label?: string
+  label_en?: string
 }
 
 export interface VideoEpisode {
@@ -57,6 +66,8 @@ export interface VideoEpisode {
   title: string
   page: number
   chapters: number[]
+  label?: string
+  label_en?: string
 }
 
 export interface VideoCatalog {
@@ -209,8 +220,8 @@ export interface ArchiveEvidence {
   /** 教材类图谱：本节覆盖的页面原图 */
   pages?: Array<{ page: number; image: string }>
   chapter_no?: number
-  /** 单元媒体：影视对照（水浒传央视版对应的集） */
-  media?: { episodes?: VideoEpisodeRef[] } | null
+  /** 单元媒体：影视对照（对应的剧集）与插图本里本单元的插图 */
+  media?: { episodes?: VideoEpisodeRef[]; images?: ChapterImage[] } | null
   claims: ArchiveEvidenceClaim[]
 }
 

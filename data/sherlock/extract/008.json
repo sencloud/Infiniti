@@ -1,0 +1,1462 @@
+{
+ "no": 8,
+ "title": "The Adventure of the Speckled Band",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 6915,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在贝克街，与华生合租。"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的朋友与搭档，叙述者。"
+    },
+    {
+     "name": "Mrs. Hudson",
+     "type": "Person",
+     "aliases": [
+      "Hudson"
+     ],
+     "nickname": "哈德森太太",
+     "description": "福尔摩斯与华生的房东。"
+    },
+    {
+     "name": "Helen Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Helen"
+     ],
+     "nickname": "海伦·斯托纳",
+     "description": "年轻女士，与继父同住，前来求助福尔摩斯。"
+    },
+    {
+     "name": "Grimesby Roylott",
+     "type": "Person",
+     "aliases": [
+      "Dr. Roylott",
+      "Roylott"
+     ],
+     "nickname": "罗伊洛特",
+     "description": "海伦的继父，罗伊洛特家族最后幸存者。"
+    },
+    {
+     "name": "Mrs. Farintosh",
+     "type": "Person",
+     "aliases": [
+      "Farintosh"
+     ],
+     "nickname": "法林托什太太",
+     "description": "曾受福尔摩斯帮助的女士，介绍海伦前来。"
+    },
+    {
+     "name": "Roylott family",
+     "type": "Organization",
+     "aliases": [
+      "Roylott family of Stoke Moran"
+     ],
+     "nickname": "罗伊洛特家族",
+     "description": "萨里郡斯托克莫兰的古老撒克逊家族。"
+    },
+    {
+     "name": "Stoke Moran",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯托克莫兰",
+     "description": "罗伊洛特家族宅邸，位于萨里郡西部边界。"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "福尔摩斯与华生合租的住所所在街道。"
+    },
+    {
+     "name": "Leatherhead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莱瑟黑德",
+     "description": "海伦乘火车前到达的车站。"
+    },
+    {
+     "name": "Waterloo",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "滑铁卢",
+     "description": "海伦乘火车抵达伦敦的车站。"
+    },
+    {
+     "name": "The Adventure of the Speckled Band",
+     "type": "Event",
+     "aliases": [
+      "Speckled Band case"
+     ],
+     "nickname": "斑点带子案",
+     "description": "海伦·斯托纳因恐惧向福尔摩斯求助的案件。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "my friend Sherlock Holmes",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "we were sharing rooms as bachelors in Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "we were sharing rooms as bachelors in Baker Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Hudson",
+     "predicate": "SERVANT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Mrs. Hudson has been knocked up, she retorted upon me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "KIN",
+     "object": "Grimesby Roylott",
+     "evidence": "I am living with my stepfather",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "MEMBER_OF",
+     "object": "Roylott family",
+     "evidence": "the last survivor of one of the oldest Saxon families in England, the Roylotts of Stoke Moran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Roylott family",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "the Roylotts of Stoke Moran, on the western border of Surrey",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "I am living with my stepfather",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "VISITED",
+     "object": "Leatherhead",
+     "evidence": "I started from home before six, reached Leatherhead at twenty past",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "VISITED",
+     "object": "Waterloo",
+     "evidence": "came in by the first train to Waterloo",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "do you not think that you could help me, too",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Adventure of the Speckled Band",
+     "evidence": "I shall be happy to devote the same care to your case",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Mrs. Farintosh",
+     "evidence": "Mrs. Farintosh, whom you helped in the hour of her sore need",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "FRIEND",
+     "object": "Mrs. Farintosh",
+     "evidence": "I have heard of you from Mrs. Farintosh",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 6971,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，在本案中听取海伦·斯托纳的陈述。"
+    },
+    {
+     "name": "Helen Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Helen"
+     ],
+     "nickname": "海伦·斯托纳",
+     "description": "朱莉娅的双胞胎妹妹，向福尔摩斯求助的委托人。"
+    },
+    {
+     "name": "Julia Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Julia"
+     ],
+     "nickname": "朱莉娅·斯托纳",
+     "description": "海伦的双胞胎姐姐，两年前在婚礼前离奇死亡。"
+    },
+    {
+     "name": "Grimesby Roylott",
+     "type": "Person",
+     "aliases": [
+      "Dr. Roylott",
+      "Roylott"
+     ],
+     "nickname": "罗伊洛特",
+     "description": "海伦和朱莉娅的继父，性格暴戾，有暴力前科。"
+    },
+    {
+     "name": "Mrs. Stoner",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯托纳太太",
+     "description": "海伦和朱莉娅的母亲，孟加拉炮兵少将的遗孀，后改嫁罗伊洛特。"
+    },
+    {
+     "name": "Major-General Stoner",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "斯托纳少将",
+     "description": "海伦和朱莉娅的生父，孟加拉炮兵少将，已故。"
+    },
+    {
+     "name": "Miss Honoria Westphail",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "霍诺丽娅·韦斯特费尔小姐",
+     "description": "海伦和朱莉娅的姨妈，住在哈罗附近。"
+    },
+    {
+     "name": "Stoke Moran",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯托克莫兰",
+     "description": "罗伊洛特家族的古老宅邸，海伦和朱莉娅居住于此。"
+    },
+    {
+     "name": "Roylott family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "罗伊洛特家族",
+     "description": "曾经富有的英国家族，后因挥霍而衰败。"
+    },
+    {
+     "name": "Bengal Artillery",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "孟加拉炮兵",
+     "description": "斯托纳少将曾服役的部队。"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Helen Stoner",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "My sister Julia and I were twins",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "my stepfather",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "my stepfather",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Stoner",
+     "evidence": "When Dr. Roylott was in India he married my mother, Mrs. Stoner",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Stoner",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "my mother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Stoner",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "my mother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Major-General Stoner",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "the young widow of Major-General Stoner",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Major-General Stoner",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "the young widow of Major-General Stoner",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Stoner",
+     "predicate": "SPOUSE",
+     "object": "Major-General Stoner",
+     "evidence": "the young widow of Major-General Stoner",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Honoria Westphail",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "We had, however, an aunt, my mother’s maiden sister, Miss Honoria Westphail",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Honoria Westphail",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "We had, however, an aunt, my mother’s maiden sister, Miss Honoria Westphail",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "took us to live with him in the old ancestral house at Stoke Moran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Julia Stoner",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "took us to live with him in the old ancestral house at Stoke Moran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "took us to live with him in the old ancestral house at Stoke Moran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "MEMBER_OF",
+     "object": "Roylott family",
+     "evidence": "a Roylott of Stoke Moran",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Major-General Stoner",
+     "predicate": "MEMBER_OF",
+     "object": "Bengal Artillery",
+     "evidence": "Major-General Stoner, of the Bengal Artillery",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "it is of her death that I wish to speak to you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Julia Stoner",
+     "evidence": "it is of her death that I wish to speak to you",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7929,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，调查此案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的伙伴，叙述者"
+    },
+    {
+     "name": "Helen Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Helen"
+     ],
+     "nickname": "海伦·斯托纳",
+     "description": "委托人，双胞胎姐姐死于神秘事件"
+    },
+    {
+     "name": "Julia Stoner",
+     "type": "Person",
+     "aliases": [
+      "my sister",
+      "my beloved sister"
+     ],
+     "nickname": "朱莉娅·斯托纳",
+     "description": "海伦的双胞胎姐姐，已故"
+    },
+    {
+     "name": "Grimesby Roylott",
+     "type": "Person",
+     "aliases": [
+      "Dr. Roylott",
+      "Roylott",
+      "my stepfather"
+     ],
+     "nickname": "罗伊洛特",
+     "description": "海伦的继父，医生"
+    },
+    {
+     "name": "Percy Armitage",
+     "type": "Person",
+     "aliases": [
+      "Armitage"
+     ],
+     "nickname": "珀西·阿米蒂奇",
+     "description": "海伦的未婚夫"
+    },
+    {
+     "name": "Stoke Moran",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯托克莫兰",
+     "description": "罗伊洛特家的宅邸"
+    },
+    {
+     "name": "Crown Inn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "皇冠旅馆",
+     "description": "斯托克莫兰对面的旅馆"
+    },
+    {
+     "name": "Leatherhead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莱瑟黑德",
+     "description": "附近城镇"
+    },
+    {
+     "name": "The Adventure of the Speckled Band",
+     "type": "Event",
+     "aliases": [
+      "the speckled band case"
+     ],
+     "nickname": "花斑带案",
+     "description": "朱莉娅·斯托纳死亡及海伦求助的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Helen Stoner",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "My sister and I, you will recollect, were twins",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "I rushed out, calling loudly for my stepfather",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "I rushed out, calling loudly for my stepfather",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Percy Armitage",
+     "predicate": "PROPOSED_TO",
+     "object": "Helen Stoner",
+     "evidence": "A month ago, however, a dear friend, whom I have known for many years, has done me the honour to ask my hand in marriage.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "SPOUSE",
+     "object": "Percy Armitage",
+     "evidence": "we are to be married in the course of the spring",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "If we were to come to Stoke Moran to-day",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "If we were to come to Stoke Moran to-day",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "VISITED",
+     "object": "Leatherhead",
+     "evidence": "drove to Leatherhead, from whence I have come on this morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "VISITED",
+     "object": "Crown Inn",
+     "evidence": "got a dog-cart at the Crown Inn, which is opposite",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "with the one object of seeing you and asking your advice",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Adventure of the Speckled Band",
+     "evidence": "There are a thousand details which I should desire to know before I decide upon our course of action.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "HARMED",
+     "object": "Helen Stoner",
+     "evidence": "Five little livid spots, the marks of four fingers and a thumb, were printed upon the white wrist.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "HARMED",
+     "object": "Julia Stoner",
+     "evidence": "It was the band! The speckled band!",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KILLED",
+     "object": "Julia Stoner",
+     "evidence": "she slowly sank and died without having recovered her consciousness",
+     "confidence": 0.8
+    },
+    {
+     "subject": "The Adventure of the Speckled Band",
+     "predicate": "OCCURRED_AT",
+     "object": "Stoke Moran",
+     "evidence": "If we were to come to Stoke Moran to-day",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7935,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查斯托纳小姐的案件"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴，叙述者"
+    },
+    {
+     "name": "Grimesby Roylott",
+     "type": "Person",
+     "aliases": [
+      "Dr. Roylott",
+      "Roylott",
+      "Dr. Grimesby Roylott"
+     ],
+     "nickname": "罗伊洛特",
+     "description": "斯托克莫兰的医生，海伦的继父"
+    },
+    {
+     "name": "Helen Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Helen"
+     ],
+     "nickname": "海伦·斯托纳",
+     "description": "朱莉娅的妹妹，罗伊洛特的继女"
+    },
+    {
+     "name": "Julia Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Julia"
+     ],
+     "nickname": "朱莉娅·斯托纳",
+     "description": "海伦的姐姐，已故"
+    },
+    {
+     "name": "Stoke Moran",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯托克莫兰",
+     "description": "罗伊洛特的古老宅邸"
+    },
+    {
+     "name": "Leatherhead",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莱瑟黑德",
+     "description": "火车站附近的小镇"
+    },
+    {
+     "name": "Waterloo",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "滑铁卢",
+     "description": "伦敦火车站"
+    },
+    {
+     "name": "Doctors' Commons",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "医生 Commons",
+     "description": "伦敦法律区域，福尔摩斯查阅遗嘱"
+    },
+    {
+     "name": "Harrow",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "哈罗",
+     "description": "海伦的姨妈居住地"
+    },
+    {
+     "name": "the gipsies",
+     "type": "Organization",
+     "aliases": [
+      "band of gipsies"
+     ],
+     "nickname": "吉普赛人",
+     "description": "与罗伊洛特医生关系密切的吉普赛人"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "My stepdaughter has been here.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "the doctor has an interest in preventing his stepdaughter’s marriage",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "Each daughter can claim an income of £ 250, in case of marriage.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "I am Dr. Grimesby Roylott, of Stoke Moran.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "I am Dr. Grimesby Roylott, of Stoke Moran.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Stoke Moran",
+     "evidence": "we are going to Stoke Moran this day",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Stoke Moran",
+     "evidence": "we are going to Stoke Moran this day",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Doctors' Commons",
+     "evidence": "I shall walk down to Doctors’ Commons",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Waterloo",
+     "evidence": "we shall call a cab and drive to Waterloo",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Leatherhead",
+     "evidence": "we were fortunate in catching a train for Leatherhead",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Our client of the morning had hurried forward to meet us",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Grimesby Roylott",
+     "evidence": "we are interesting ourselves in his affairs",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "HARMED",
+     "object": "Helen Stoner",
+     "evidence": "He is so cunning that I never know when I am safe from him.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "HARMED",
+     "object": "Julia Stoner",
+     "evidence": "the doctor has an interest in preventing his stepdaughter’s marriage",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "QUARRELED",
+     "object": "Sherlock Holmes",
+     "evidence": "You are Holmes, the meddler.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "MEMBER_OF",
+     "object": "the gipsies",
+     "evidence": "a band of gipsies who are on intimate terms with this old doctor",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7717,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，调查斯托纳案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的助手和记录者"
+    },
+    {
+     "name": "Helen Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Helen"
+     ],
+     "nickname": "海伦·斯托纳",
+     "description": "委托福尔摩斯调查的女士"
+    },
+    {
+     "name": "Julia Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Julia"
+     ],
+     "nickname": "朱莉娅·斯托纳",
+     "description": "海伦的姐姐，已故"
+    },
+    {
+     "name": "Grimesby Roylott",
+     "type": "Person",
+     "aliases": [
+      "Dr. Roylott",
+      "Roylott"
+     ],
+     "nickname": "罗伊洛特",
+     "description": "海伦的继父，医生"
+    },
+    {
+     "name": "Stoke Moran",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯托克莫兰",
+     "description": "罗伊洛特家族的古老宅邸"
+    },
+    {
+     "name": "Crown",
+     "type": "Place",
+     "aliases": [
+      "the Crown"
+     ],
+     "nickname": "皇冠旅馆",
+     "description": "斯托克莫兰附近的乡村旅馆"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Helen Stoner",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "your sister’s",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "his step-daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "her sister had met with her fate",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "this was where the family resided",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "this was where the family resided",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Julia Stoner",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "this was where the family resided",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "It is very essential, Miss Stoner, said he, that you should absolutely follow my advice in every respect.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Helen Stoner",
+     "evidence": "we turned from the scene of this investigation",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Stoke Moran",
+     "evidence": "we turned from the scene of this investigation",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Stoke Moran",
+     "evidence": "we turned from the scene of this investigation",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "VISITED",
+     "object": "Stoke Moran",
+     "evidence": "we turned from the scene of this investigation",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Crown",
+     "evidence": "I believe that that is the village inn over there? Yes, that is the Crown.",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 7760,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查朱莉娅·斯托纳之死"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Helen Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Helen"
+     ],
+     "nickname": "海伦·斯托纳",
+     "description": "朱莉娅的妹妹，委托福尔摩斯调查"
+    },
+    {
+     "name": "Julia Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Julia"
+     ],
+     "nickname": "朱莉娅·斯托纳",
+     "description": "海伦的姐姐，已故"
+    },
+    {
+     "name": "Grimesby Roylott",
+     "type": "Person",
+     "aliases": [
+      "Dr. Roylott",
+      "Roylott"
+     ],
+     "nickname": "罗伊洛特",
+     "description": "海伦与朱莉娅的继父，医生"
+    },
+    {
+     "name": "Stoke Moran Manor House",
+     "type": "Place",
+     "aliases": [
+      "Stoke Moran"
+     ],
+     "nickname": "斯托克莫兰庄园",
+     "description": "罗伊洛特家的宅邸"
+    },
+    {
+     "name": "Crown Inn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "皇冠旅馆",
+     "description": "福尔摩斯与华生监视庄园的旅馆"
+    },
+    {
+     "name": "the baboon",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "狒狒",
+     "description": "罗伊洛特医生饲养的奇异宠物"
+    },
+    {
+     "name": "the cheetah",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "猎豹",
+     "description": "罗伊洛特医生饲养的奇异宠物"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Helen Stoner",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "tell me what was the cause of my sister’s death",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "when your stepfather comes back",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "her sister could smell Dr. Roylott’s cigar",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I believe, Mr. Holmes, that you have already made up your mind",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Julia Stoner",
+     "evidence": "we shall investigate the cause of this noise which has disturbed you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Helen Stoner",
+     "evidence": "we shall soon drive away the dangers that threaten you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "HELPED",
+     "object": "Sherlock Holmes",
+     "evidence": "Can I be of assistance?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Crown Inn",
+     "evidence": "Sherlock Holmes and I had no difficulty in engaging a bedroom and sitting-room at the Crown Inn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Crown Inn",
+     "evidence": "Sherlock Holmes and I had no difficulty in engaging a bedroom and sitting-room at the Crown Inn",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran Manor House",
+     "evidence": "the inhabited wing of Stoke Moran Manor House",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "OWNS",
+     "object": "the baboon",
+     "evidence": "That is the baboon.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "OWNS",
+     "object": "the cheetah",
+     "evidence": "There was a cheetah, too",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Stoke Moran Manor House",
+     "evidence": "we were about to enter through the window",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Stoke Moran Manor House",
+     "evidence": "we were about to enter through the window",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "chars": 7423,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查斯托纳案，用藤杖击打蛇"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴，持枪协助"
+    },
+    {
+     "name": "Grimesby Roylott",
+     "type": "Person",
+     "aliases": [
+      "Dr. Roylott",
+      "Roylott"
+     ],
+     "nickname": "罗伊洛特",
+     "description": "斯托克莫兰的医生，被毒蛇咬死"
+    },
+    {
+     "name": "Helen Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Helen"
+     ],
+     "nickname": "海伦·斯托纳",
+     "description": "委托福尔摩斯的女士，被送往哈罗的姨妈处"
+    },
+    {
+     "name": "Julia Stoner",
+     "type": "Person",
+     "aliases": [
+      "Miss Stoner",
+      "Julia"
+     ],
+     "nickname": "朱莉娅·斯托纳",
+     "description": "海伦的姐姐，已故，死前听到口哨声"
+    },
+    {
+     "name": "Stoke Moran",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯托克莫兰",
+     "description": "罗伊洛特医生的宅邸，事件发生地"
+    },
+    {
+     "name": "Harrow",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "哈罗",
+     "description": "海伦的姨妈居住地，海伦被送往此处"
+    },
+    {
+     "name": "swamp adder",
+     "type": "Item",
+     "aliases": [
+      "speckled band",
+      "serpent"
+     ],
+     "nickname": "沼泽蝰蛇",
+     "description": "印度最致命的蛇，被罗伊洛特用来杀人"
+    },
+    {
+     "name": "dark-lantern",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "暗灯",
+     "description": "罗伊洛特用来照明的灯，在房间内被发现"
+    },
+    {
+     "name": "iron safe",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "铁保险箱",
+     "description": "罗伊洛特房间内的保险箱，用于藏蛇"
+    },
+    {
+     "name": "dog-whip",
+     "type": "Item",
+     "aliases": [
+      "short stock with the long lash"
+     ],
+     "nickname": "狗鞭",
+     "description": "罗伊洛特的鞭子，被福尔摩斯用来套蛇"
+    },
+    {
+     "name": "ventilator",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "通风口",
+     "description": "连接两个房间的通风口，蛇通过它进入"
+    },
+    {
+     "name": "bell-pull",
+     "type": "Item",
+     "aliases": [
+      "bell-rope"
+     ],
+     "nickname": "铃绳",
+     "description": "假铃绳，被蛇用作桥梁"
+    },
+    {
+     "name": "saucer of milk",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "牛奶碟",
+     "description": "用于训练蛇的牛奶"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Helen Stoner",
+     "evidence": "her stepfather hastily closing the door of his safe",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "her stepfather hastily closing the door of his safe",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "KIN",
+     "object": "Julia Stoner",
+     "evidence": "the poor girl, no doubt, to explain the appearance which she had caught a hurried glimpse of",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "KILLED",
+     "object": "Julia Stoner",
+     "evidence": "sooner or later she must fall a victim",
+     "confidence": 0.9
+    },
+    {
+     "subject": "swamp adder",
+     "predicate": "KILLED",
+     "object": "Grimesby Roylott",
+     "evidence": "He has died within ten seconds of being bitten",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Grimesby Roylott",
+     "evidence": "I had come to these conclusions before ever I had entered his room",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "we can then remove Miss Stoner to some place of shelter",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "OWNS",
+     "object": "swamp adder",
+     "evidence": "the doctor was furnished with a supply of creatures from India",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "OWNS",
+     "object": "dark-lantern",
+     "evidence": "On the table stood a dark-lantern with the shutter half open",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "OWNS",
+     "object": "iron safe",
+     "evidence": "the iron safe, the door of which was ajar",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "OWNS",
+     "object": "dog-whip",
+     "evidence": "Across his lap lay the short stock with the long lash",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "OWNS",
+     "object": "saucer of milk",
+     "evidence": "the saucer of milk",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Grimesby Roylott",
+     "predicate": "LIVES_AT",
+     "object": "Stoke Moran",
+     "evidence": "the death of Dr. Grimesby Roylott, of Stoke Moran",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Helen Stoner",
+     "predicate": "VISITED",
+     "object": "Harrow",
+     "evidence": "we conveyed her by the morning train to the care of her good aunt at Harrow",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Helen Stoner",
+     "evidence": "we can then remove Miss Stoner to some place of shelter",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "HELPED",
+     "object": "Sherlock Holmes",
+     "evidence": "I at his heels, with the cocked pistol in my hand",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HARMED",
+     "object": "swamp adder",
+     "evidence": "lashed furiously with his cane at the bell-pull",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "KILLED",
+     "object": "Grimesby Roylott",
+     "evidence": "I am no doubt indirectly responsible for Dr. Grimesby Roylott’s death",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:20.789Z"
+}

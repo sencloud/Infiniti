@@ -1,0 +1,1371 @@
+{
+ "no": 4,
+ "title": "The Boscombe Valley Mystery",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7137,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，邀请华生同赴博斯科姆比溪谷案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，医生，福尔摩斯的助手与朋友"
+    },
+    {
+     "name": "John Turner",
+     "type": "Person",
+     "aliases": [
+      "Turner",
+      "Mr. John Turner"
+     ],
+     "nickname": "约翰·特纳",
+     "description": "博斯科姆比溪谷最大地主，曾在澳大利亚发财"
+    },
+    {
+     "name": "Charles McCarthy",
+     "type": "Person",
+     "aliases": [
+      "McCarthy",
+      "Mr. Charles McCarthy",
+      "Mr. McCarthy"
+     ],
+     "nickname": "查尔斯·麦卡锡",
+     "description": "特纳的佃户，前澳大利亚人，被害者"
+    },
+    {
+     "name": "James McCarthy",
+     "type": "Person",
+     "aliases": [
+      "young Mr. McCarthy",
+      "Mr. James McCarthy"
+     ],
+     "nickname": "詹姆斯·麦卡锡",
+     "description": "查尔斯之子，十八岁，涉嫌杀父被捕"
+    },
+    {
+     "name": "William Crowder",
+     "type": "Person",
+     "aliases": [
+      "Crowder"
+     ],
+     "nickname": "威廉·克劳德",
+     "description": "特纳的猎场看守人，目击麦卡锡父子经过"
+    },
+    {
+     "name": "Patience Moran",
+     "type": "Person",
+     "aliases": [
+      "Moran"
+     ],
+     "nickname": "佩兴斯·莫兰",
+     "description": "十四岁女孩，守门人之女，目击麦卡锡父子争吵"
+    },
+    {
+     "name": "Hatherley Farmhouse",
+     "type": "Place",
+     "aliases": [
+      "Hatherley"
+     ],
+     "nickname": "哈瑟利农场",
+     "description": "查尔斯·麦卡锡租住的农场"
+    },
+    {
+     "name": "Boscombe Pool",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "博斯科姆比池塘",
+     "description": "博斯科姆比溪谷中的小湖，案发现场"
+    },
+    {
+     "name": "Boscombe Valley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "博斯科姆比溪谷",
+     "description": "赫里福德郡的乡村地区，案件发生地"
+    },
+    {
+     "name": "Ross",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗斯",
+     "description": "赫里福德郡的城镇，靠近博斯科姆比溪谷"
+    },
+    {
+     "name": "Paddington Station",
+     "type": "Place",
+     "aliases": [
+      "Paddington"
+     ],
+     "nickname": "帕丁顿车站",
+     "description": "伦敦火车站，福尔摩斯与华生出发地"
+    },
+    {
+     "name": "Boscombe Valley tragedy",
+     "type": "Event",
+     "aliases": [
+      "the case"
+     ],
+     "nickname": "博斯科姆比溪谷惨案",
+     "description": "查尔斯·麦卡锡被杀，其子詹姆斯被控谋杀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "CLIENT_OF",
+     "object": "John Watson",
+     "evidence": "It was from Sherlock Holmes and ran in this way: “Have you a couple of days to spare?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Boscombe Valley tragedy",
+     "evidence": "Have just been wired for from the west of England in connection with Boscombe Valley tragedy.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Boscombe Valley tragedy",
+     "evidence": "Shall be glad if you will come with me.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Turner",
+     "predicate": "LIVES_AT",
+     "object": "Boscombe Valley",
+     "evidence": "The largest landed proprietor in that part is a Mr. John Turner",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles McCarthy",
+     "predicate": "LIVES_AT",
+     "object": "Hatherley Farmhouse",
+     "evidence": "One of the farms which he held, that of Hatherley, was let to Mr. Charles McCarthy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charles McCarthy",
+     "predicate": "SERVANT_OF",
+     "object": "John Turner",
+     "evidence": "McCarthy became his tenant",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "KIN",
+     "object": "Charles McCarthy",
+     "evidence": "McCarthy had one son, a lad of eighteen",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Turner",
+     "predicate": "KIN",
+     "object": "James McCarthy",
+     "evidence": "Turner had an only daughter of the same age",
+     "confidence": 0.5
+    },
+    {
+     "subject": "William Crowder",
+     "predicate": "SERVANT_OF",
+     "object": "John Turner",
+     "evidence": "William Crowder, a game-keeper in the employ of Mr. Turner",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Patience Moran",
+     "predicate": "KIN",
+     "object": "Boscombe Valley estate",
+     "evidence": "Patience Moran, who is the daughter of the lodge-keeper of the Boscombe Valley estate",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "QUARRELED",
+     "object": "Charles McCarthy",
+     "evidence": "they appeared to be having a violent quarrel",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "KILLED",
+     "object": "Charles McCarthy",
+     "evidence": "The head had been beaten in by repeated blows of some heavy and blunt weapon.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Boscombe Valley tragedy",
+     "predicate": "OCCURRED_AT",
+     "object": "Boscombe Pool",
+     "evidence": "he had found his father dead in the wood",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7907,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，受邀调查博斯科姆比池塘案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与记录者，医生"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Inspector"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，曾参与《血字的研究》"
+    },
+    {
+     "name": "Miss Turner",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "特纳小姐",
+     "description": "邻近地主的女儿，相信麦卡锡无辜"
+    },
+    {
+     "name": "Mr. Turner",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "特纳先生",
+     "description": "邻近地主，特纳小姐的父亲"
+    },
+    {
+     "name": "James McCarthy",
+     "type": "Person",
+     "aliases": [
+      "Mr. James McCarthy"
+     ],
+     "nickname": "詹姆斯·麦卡锡",
+     "description": "死者独子，被控谋杀父亲"
+    },
+    {
+     "name": "John Cobb",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "约翰·科布",
+     "description": "马夫，曾驾车送麦卡锡先生去罗斯"
+    },
+    {
+     "name": "William Crowder",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "威廉·克劳德",
+     "description": "猎场看守人，案发时在附近"
+    },
+    {
+     "name": "Hatherley Farm",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "哈瑟利农场",
+     "description": "麦卡锡家的农场，詹姆斯被捕处"
+    },
+    {
+     "name": "Boscombe Pool",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "博斯科姆比池塘",
+     "description": "案发地点，麦卡锡先生死亡处"
+    },
+    {
+     "name": "Ross",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗斯",
+     "description": "附近地名，麦卡锡先生曾驾车前往"
+    },
+    {
+     "name": "Bristol",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布里斯托尔",
+     "description": "詹姆斯·麦卡锡案发前曾去过的城市"
+    },
+    {
+     "name": "Herefordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫里福德郡",
+     "description": "案件发生的郡，当地有报纸"
+    },
+    {
+     "name": "Boscombe Valley Mystery",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "博斯科姆比溪谷案",
+     "description": "麦卡锡先生被杀、其子被控的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Miss Turner",
+     "predicate": "KIN",
+     "object": "Mr. Turner",
+     "evidence": "Miss Turner, the daughter of the neighbouring landowner",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Miss Turner",
+     "predicate": "CLIENT_OF",
+     "object": "Inspector Lestrade",
+     "evidence": "who have retained Lestrade, whom you may recollect in connection with the Study in Scarlet, to work out the case in his interest",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Lestrade, being rather puzzled, has referred the case to me",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Boscombe Valley Mystery",
+     "evidence": "it is just possible that it may be of some service in the investigation which lies before us",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "KIN",
+     "object": "Mr. McCarthy",
+     "evidence": "Mr. James McCarthy, the only son of the deceased",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "LIVES_AT",
+     "object": "Hatherley Farm",
+     "evidence": "I left him and returned towards Hatherley Farm",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "VISITED",
+     "object": "Bristol",
+     "evidence": "I had been away from home for three days at Bristol",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. McCarthy",
+     "predicate": "VISITED",
+     "object": "Ross",
+     "evidence": "he had driven over to Ross with John Cobb, the groom",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Cobb",
+     "predicate": "SERVANT_OF",
+     "object": "Mr. McCarthy",
+     "evidence": "John Cobb, the groom",
+     "confidence": 0.9
+    },
+    {
+     "subject": "William Crowder",
+     "predicate": "SERVANT_OF",
+     "object": "Mr. McCarthy",
+     "evidence": "William Crowder, the game-keeper",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Boscombe Valley Mystery",
+     "predicate": "OCCURRED_AT",
+     "object": "Boscombe Pool",
+     "evidence": "I found my father expiring upon the ground, with his head terribly injured",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "QUARRELED",
+     "object": "Mr. McCarthy",
+     "evidence": "A conversation ensued which led to high words and almost to blows",
+     "confidence": 0.95
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7981,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，受邀调查博斯科姆比溪谷案"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Inspector"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，负责博斯科姆比溪谷案"
+    },
+    {
+     "name": "Duncan Ross",
+     "type": "Person",
+     "aliases": [
+      "Ross",
+      "Mr. Ross"
+     ],
+     "nickname": "邓肯·罗斯",
+     "description": "本片段中仅提及地名罗斯，未出现人物"
+    },
+    {
+     "name": "James McCarthy",
+     "type": "Person",
+     "aliases": [
+      "young McCarthy",
+      "James"
+     ],
+     "nickname": "詹姆斯·麦卡锡",
+     "description": "被告，被控谋杀父亲，与特纳小姐相爱"
+    },
+    {
+     "name": "Mr. McCarthy",
+     "type": "Person",
+     "aliases": [
+      "McCarthy"
+     ],
+     "nickname": "麦卡锡先生",
+     "description": "詹姆斯之父，被谋杀，希望儿子与特纳小姐结婚"
+    },
+    {
+     "name": "Miss Turner",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "特纳小姐",
+     "description": "年轻女子，相信詹姆斯无辜，与他相爱"
+    },
+    {
+     "name": "Mr. Turner",
+     "type": "Person",
+     "aliases": [
+      "dad"
+     ],
+     "nickname": "特纳先生",
+     "description": "特纳小姐之父，病重，曾在维多利亚金矿"
+    },
+    {
+     "name": "Dr. Willows",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "威洛斯医生",
+     "description": "为特纳先生诊治的医生"
+    },
+    {
+     "name": "Scotland Yard",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "苏格兰场",
+     "description": "伦敦警察机构，雷斯垂德所属"
+    },
+    {
+     "name": "Hereford Arms",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫里福德阿姆斯旅馆",
+     "description": "罗斯镇的旅馆，福尔摩斯等人入住"
+    },
+    {
+     "name": "Ross",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗斯",
+     "description": "乡村小镇，案件发生地附近"
+    },
+    {
+     "name": "Boscombe Valley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "博斯科姆比溪谷",
+     "description": "案件发生地，位于罗斯附近"
+    },
+    {
+     "name": "Boscombe Valley Mystery",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "博斯科姆比溪谷案",
+     "description": "麦卡锡先生被杀案，詹姆斯被控谋杀"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Boscombe Valley Mystery",
+     "evidence": "I think that I see my way to clearing James McCarthy",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "INVESTIGATED",
+     "object": "Boscombe Valley Mystery",
+     "evidence": "The case is as plain as a pikestaff, and the more one goes into it the plainer it becomes.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Miss Turner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I have driven down to tell you so. I know that James didn’t do it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "KIN",
+     "object": "Mr. McCarthy",
+     "evidence": "found your father fatally injured",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Miss Turner",
+     "predicate": "KIN",
+     "object": "Mr. Turner",
+     "evidence": "dad is very ill, and he misses me so if I leave him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "LOVES",
+     "object": "Miss Turner",
+     "evidence": "James and I have always loved each other as brother and sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Miss Turner",
+     "predicate": "LOVES",
+     "object": "James McCarthy",
+     "evidence": "James and I have always loved each other as brother and sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. McCarthy",
+     "predicate": "PROPOSED_TO",
+     "object": "Miss Turner",
+     "evidence": "Mr. McCarthy was very anxious that there should be a marriage between us.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "MEMBER_OF",
+     "object": "Scotland Yard",
+     "evidence": "I had no difficulty in recognising Lestrade, of Scotland Yard",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Hereford Arms",
+     "evidence": "With him we drove to the Hereford Arms where a room had already been engaged for us.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Boscombe Valley Mystery",
+     "predicate": "OCCURRED_AT",
+     "object": "Boscombe Valley",
+     "evidence": "we shall be on the scene of action",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Dr. Willows",
+     "predicate": "HELPED",
+     "object": "Mr. Turner",
+     "evidence": "Dr. Willows says that he is a wreck and that his nervous system is shattered",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7777,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查博斯科姆比池塘案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴，叙述者"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Inspector"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，参与调查"
+    },
+    {
+     "name": "McCarthy senior",
+     "type": "Person",
+     "aliases": [
+      "the murdered man",
+      "the father",
+      "McCarthy"
+     ],
+     "nickname": "老麦卡锡",
+     "description": "被谋杀的农场主"
+    },
+    {
+     "name": "Miss Turner",
+     "type": "Person",
+     "aliases": [
+      "Turner's daughter",
+      "the daughter"
+     ],
+     "nickname": "特纳小姐",
+     "description": "特纳先生的女儿，小麦卡锡爱慕的对象"
+    },
+    {
+     "name": "Mr. Turner",
+     "type": "Person",
+     "aliases": [
+      "Turner",
+      "of the Hall"
+     ],
+     "nickname": "特纳先生",
+     "description": "哈瑟利农场的主人，病重"
+    },
+    {
+     "name": "Hatherley Farm",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "哈瑟利农场",
+     "description": "麦卡锡先生居住的农场"
+    },
+    {
+     "name": "Boscombe Pool",
+     "type": "Place",
+     "aliases": [
+      "the pool"
+     ],
+     "nickname": "博斯科姆比池塘",
+     "description": "谋杀案发生的地点"
+    },
+    {
+     "name": "Bristol",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布里斯托尔",
+     "description": "英格兰城市，小麦卡锡秘密结婚地"
+    },
+    {
+     "name": "Hereford",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫里福德",
+     "description": "城镇，福尔摩斯和华生计划前往"
+    },
+    {
+     "name": "the Boscombe Valley Mystery",
+     "type": "Event",
+     "aliases": [
+      "the case"
+     ],
+     "nickname": "博斯科姆比溪谷案",
+     "description": "麦卡锡先生被谋杀的案件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Turner",
+     "predicate": "KIN",
+     "object": "Miss Turner",
+     "evidence": "Turner's daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Turner",
+     "predicate": "HELPED",
+     "object": "McCarthy senior",
+     "evidence": "he gave him Hatherley Farm rent free",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Turner",
+     "predicate": "FRIEND",
+     "object": "McCarthy senior",
+     "evidence": "He was an old friend of McCarthy's",
+     "confidence": 0.9
+    },
+    {
+     "subject": "McCarthy senior",
+     "predicate": "LIVES_AT",
+     "object": "Hatherley Farm",
+     "evidence": "he gave him Hatherley Farm rent free",
+     "confidence": 0.9
+    },
+    {
+     "subject": "the Boscombe Valley Mystery",
+     "predicate": "OCCURRED_AT",
+     "object": "Boscombe Pool",
+     "evidence": "we set off for Hatherley Farm and the Boscombe Pool",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "the Boscombe Valley Mystery",
+     "evidence": "I had so much faith in Sherlock Holmes' insight",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "INVESTIGATED",
+     "object": "the Boscombe Valley Mystery",
+     "evidence": "Lestrade called for us with the carriage",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Hereford",
+     "evidence": "We have still time to take a train to Hereford and see him to-night?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Hereford",
+     "evidence": "I walked down to the station with them",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7576,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查博斯科姆比池塘案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "医生，福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Inspector"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，参与调查此案"
+    },
+    {
+     "name": "Duncan Ross",
+     "type": "Person",
+     "aliases": [
+      "Ross",
+      "Mr. Ross"
+     ],
+     "nickname": "邓肯·罗斯",
+     "description": "罗斯镇，福尔摩斯与华生返回之地"
+    },
+    {
+     "name": "Boscombe Pool",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "博斯科姆比池塘",
+     "description": "芦苇环绕的小水域，位于哈瑟利农场与特纳先生庄园之间"
+    },
+    {
+     "name": "Hatherley Farm",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "哈瑟利农场",
+     "description": "池塘边的农场"
+    },
+    {
+     "name": "Mr. Turner",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "特纳先生",
+     "description": "富有的地主，拥有池塘边的私人庄园"
+    },
+    {
+     "name": "Moran",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "莫兰",
+     "description": "小屋看门人，福尔摩斯欲与其交谈"
+    },
+    {
+     "name": "Scotland Yard",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "苏格兰场",
+     "description": "伦敦警察机构，雷斯垂德所属"
+    },
+    {
+     "name": "the murder",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "谋杀案",
+     "description": "麦卡锡先生被谋杀的案件"
+    },
+    {
+     "name": "the stone",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "石头",
+     "description": "被用作凶器的锯齿状石头"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "the murder",
+     "evidence": "The murder was done with it.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "MEMBER_OF",
+     "object": "Scotland Yard",
+     "evidence": "I should become the laughing-stock of Scotland Yard.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Boscombe Pool",
+     "evidence": "Swiftly and silently he made his way along the track which ran through the meadows, and so by way of the woods to the Boscombe Pool.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Boscombe Pool",
+     "evidence": "Lestrade and I walked behind him, the detective indifferent and contemptuous, while I watched my friend with the interest which sprang from the conviction that every one of his actions was directed towards a definite end.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "VISITED",
+     "object": "Boscombe Pool",
+     "evidence": "Lestrade showed us the exact spot at which the body had been found, and, indeed, so moist was the ground, that I could plainly see the traces which had been left by the fall of the stricken man.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Boscombe Pool",
+     "predicate": "OCCURRED_AT",
+     "object": "the murder",
+     "evidence": "The Boscombe Pool, which is a little reed-girt sheet of water some fifty yards across, is situated at the boundary between the Hatherley Farm and the private park of the wealthy Mr. Turner.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "OWNS",
+     "object": "the stone",
+     "evidence": "Holmes still carrying with him the stone which he had picked up in the wood.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Moran",
+     "evidence": "I think that I will go in and have a word with Moran, and perhaps write a little note.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Duncan Ross",
+     "evidence": "It was about ten minutes before we regained our cab and drove back into Ross, Holmes still carrying with him the stone which he had picked up in the wood.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Duncan Ross",
+     "evidence": "It was about ten minutes before we regained our cab and drove back into Ross, Holmes still carrying with him the stone which he had picked up in the wood.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Inspector Lestrade",
+     "predicate": "VISITED",
+     "object": "Duncan Ross",
+     "evidence": "It was about ten minutes before we regained our cab and drove back into Ross, Holmes still carrying with him the stone which he had picked up in the wood.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 7425,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查博斯科姆比池塘案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson",
+      "John"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Inspector Lestrade",
+     "type": "Person",
+     "aliases": [
+      "Lestrade",
+      "Inspector"
+     ],
+     "nickname": "雷斯垂德",
+     "description": "苏格兰场警探，参与本案"
+    },
+    {
+     "name": "John Turner",
+     "type": "Person",
+     "aliases": [
+      "Turner",
+      "Mr. John Turner",
+      "Black Jack of Ballarat"
+     ],
+     "nickname": "约翰·特纳",
+     "description": "博斯科姆比谷的乡绅，本案真凶"
+    },
+    {
+     "name": "McCarthy",
+     "type": "Person",
+     "aliases": [
+      "the dead man",
+      "old McCarthy"
+     ],
+     "nickname": "麦卡锡",
+     "description": "博斯科姆比池塘案的死者"
+    },
+    {
+     "name": "Alice Turner",
+     "type": "Person",
+     "aliases": [
+      "Alice",
+      "my dear girl",
+      "your daughter"
+     ],
+     "nickname": "爱丽丝·特纳",
+     "description": "约翰·特纳的女儿，委托福尔摩斯"
+    },
+    {
+     "name": "Ballarat Gang",
+     "type": "Organization",
+     "aliases": [
+      "our party"
+     ],
+     "nickname": "巴拉瑞特帮",
+     "description": "约翰·特纳在澳洲加入的强盗团伙"
+    },
+    {
+     "name": "Boscombe Pool",
+     "type": "Place",
+     "aliases": [
+      "the pool"
+     ],
+     "nickname": "博斯科姆比池塘",
+     "description": "案发现场，位于博斯科姆比谷"
+    },
+    {
+     "name": "Ballarat",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "巴拉瑞特",
+     "description": "澳大利亚维多利亚州的城镇"
+    },
+    {
+     "name": "Boscombe Valley Mystery",
+     "type": "Event",
+     "aliases": [
+      "this case"
+     ],
+     "nickname": "博斯科姆比谷谜案",
+     "description": "麦卡锡被杀案，福尔摩斯调查"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Turner",
+     "predicate": "KILLED",
+     "object": "McCarthy",
+     "evidence": "He was trying to utter the name of his murderer. So and so, of Ballarat.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Turner",
+     "predicate": "KIN",
+     "object": "Alice Turner",
+     "evidence": "It would break her heart—it will break her heart when she hears that I am arrested.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alice Turner",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I understand that it was your daughter who required my presence here, and I am acting in her interests.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Boscombe Valley Mystery",
+     "evidence": "in considering this case there are two points about young McCarthy’s narrative which struck us both instantly",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Turner",
+     "predicate": "MEMBER_OF",
+     "object": "Ballarat Gang",
+     "evidence": "Black Jack of Ballarat was the name I went under, and our party is still remembered in the colony as the Ballarat Gang.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Turner",
+     "predicate": "LIVES_AT",
+     "object": "Boscombe Pool",
+     "evidence": "the pool can only be approached by the farm or by the estate, where strangers could hardly wander.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Boscombe Valley Mystery",
+     "predicate": "OCCURRED_AT",
+     "object": "Boscombe Pool",
+     "evidence": "the person whom McCarthy expected to meet him at Boscombe Pool was someone who had been in Australia.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Turner",
+     "predicate": "NATIVE_OF",
+     "object": "Ballarat",
+     "evidence": "Black Jack of Ballarat was the name I went under",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "chars": 5290,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，侦办博斯科姆比溪谷案，听取老特纳的供述"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的同伴，参与本案"
+    },
+    {
+     "name": "Old Turner",
+     "type": "Person",
+     "aliases": [
+      "Turner"
+     ],
+     "nickname": "老特纳",
+     "description": "博斯科姆比溪谷案中的地主，曾参与抢劫金矿，杀害麦卡锡"
+    },
+    {
+     "name": "McCarthy",
+     "type": "Person",
+     "aliases": [
+      "the wagon-driver"
+     ],
+     "nickname": "麦卡锡",
+     "description": "老特纳的旧识，曾目睹其抢劫，后以此要挟，被老特纳杀害"
+    },
+    {
+     "name": "Alice Turner",
+     "type": "Person",
+     "aliases": [
+      "Alice"
+     ],
+     "nickname": "爱丽丝·特纳",
+     "description": "老特纳的女儿，麦卡锡曾想让她嫁给自己的儿子"
+    },
+    {
+     "name": "James McCarthy",
+     "type": "Person",
+     "aliases": [
+      "the son",
+      "his son"
+     ],
+     "nickname": "詹姆斯·麦卡锡",
+     "description": "麦卡锡的儿子，被指控谋杀父亲，后无罪释放"
+    },
+    {
+     "name": "Ballarat",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "巴拉瑞特",
+     "description": "澳大利亚金矿城镇，老特纳曾在此抢劫金矿"
+    },
+    {
+     "name": "Melbourne",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "墨尔本",
+     "description": "澳大利亚城市，金矿运输目的地"
+    },
+    {
+     "name": "England",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "英格兰",
+     "description": "老特纳移居并定居的国家"
+    },
+    {
+     "name": "Regent Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "摄政街",
+     "description": "伦敦街道，老特纳在此偶遇麦卡锡"
+    },
+    {
+     "name": "the estate",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "庄园",
+     "description": "老特纳在英格兰购置的庄园"
+    },
+    {
+     "name": "the pool",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "池塘",
+     "description": "老特纳与麦卡锡约定见面的地点，位于两家之间"
+    },
+    {
+     "name": "the gold convoy",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "黄金运输队",
+     "description": "从巴拉瑞特运往墨尔本的黄金，被老特纳一伙抢劫"
+    },
+    {
+     "name": "the gold",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "黄金",
+     "description": "被抢劫的黄金，使老特纳致富"
+    },
+    {
+     "name": "the cloak",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "斗篷",
+     "description": "老特纳在逃跑时掉落，后返回取回"
+    },
+    {
+     "name": "the confession",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "供词",
+     "description": "老特纳签署的供述文件，由福尔摩斯保管"
+    },
+    {
+     "name": "the Assizes",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "巡回审判",
+     "description": "詹姆斯·麦卡锡被审判并无罪释放的法庭"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Old Turner",
+     "predicate": "KIN",
+     "object": "Alice Turner",
+     "evidence": "I married, too, and though my wife died young she left me my dear little Alice.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Turner",
+     "predicate": "KIN",
+     "object": "James McCarthy",
+     "evidence": "His son, you see, had grown up, and so had my girl, and as I was known to be in weak health, it seemed a fine stroke to him that his lad should step into the whole property.",
+     "confidence": 0.5
+    },
+    {
+     "subject": "McCarthy",
+     "predicate": "KIN",
+     "object": "James McCarthy",
+     "evidence": "His son, you see, had grown up, and so had my girl, and as I was known to be in weak health, it seemed a fine stroke to him that his lad should step into the whole property.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Turner",
+     "predicate": "KILLED",
+     "object": "McCarthy",
+     "evidence": "I struck him down with no more compunction than if he had been some foul and venomous beast.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Turner",
+     "predicate": "STOLE",
+     "object": "the gold",
+     "evidence": "We got away with the gold, became wealthy men, and made our way over to England without being suspected.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Turner",
+     "predicate": "LIVES_AT",
+     "object": "the estate",
+     "evidence": "I bought this estate, which chanced to be in the market, and I set myself to do a little good with my money, to make up for the way in which I had earned it.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Turner",
+     "predicate": "VISITED",
+     "object": "Regent Street",
+     "evidence": "I had gone up to town about an investment, and I met him in Regent Street with hardly a coat to his back or a boot to his foot.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Turner",
+     "predicate": "VISITED",
+     "object": "the pool",
+     "evidence": "We were to meet at the pool midway between our houses to talk it over.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Turner",
+     "predicate": "OWNS",
+     "object": "the confession",
+     "evidence": "I will keep your confession, and if McCarthy is condemned I shall be forced to use it.",
+     "confidence": 0.5
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "OWNS",
+     "object": "the confession",
+     "evidence": "I will keep your confession, and if McCarthy is condemned I shall be forced to use it.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "James McCarthy",
+     "predicate": "PARTICIPATED_IN",
+     "object": "the Assizes",
+     "evidence": "James McCarthy was acquitted at the Assizes on the strength of a number of objections which had been drawn out by Holmes and submitted to the defending counsel.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "James McCarthy",
+     "evidence": "James McCarthy was acquitted at the Assizes on the strength of a number of objections which had been drawn out by Holmes and submitted to the defending counsel.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Turner",
+     "predicate": "NATIVE_OF",
+     "object": "Ballarat",
+     "evidence": "One day a gold convoy came down from Ballarat to Melbourne, and we lay in wait for it and attacked it.",
+     "confidence": 0.5
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:22.441Z"
+}

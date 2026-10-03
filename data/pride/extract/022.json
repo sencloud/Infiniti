@@ -1,0 +1,551 @@
+{
+ "no": 22,
+ "title": "THE Bennets were engaged to dine with the Lucases;…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7840,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "卢卡斯家女儿，务实，后嫁柯林斯"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，牧师，将继承浪搏恩"
+    },
+    {
+     "name": "Sir William Lucas",
+     "type": "Person",
+     "aliases": [
+      "Sir William"
+     ],
+     "nickname": "威廉爵士",
+     "description": "夏绿蒂之父，曾获爵士头衔"
+    },
+    {
+     "name": "Lady Lucas",
+     "type": "Person",
+     "aliases": [
+      "Mrs. Lucas"
+     ],
+     "nickname": "卢卡斯太太",
+     "description": "夏绿蒂之母，威廉爵士之妻"
+    },
+    {
+     "name": "Maria Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Maria"
+     ],
+     "nickname": "玛丽亚",
+     "description": "卢卡斯家小女儿，夏绿蒂之妹"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，浪搏恩庄园主人"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特先生之妻，急于嫁女"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三女，书呆子气"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "柯林斯的赞助人，罗新斯庄园女主人"
+    },
+    {
+     "name": "Lucas Lodge",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "卢卡斯小屋",
+     "description": "威廉·卢卡斯爵士的宅邸"
+    },
+    {
+     "name": "Longbourn House",
+     "type": "Place",
+     "aliases": [
+      "Longbourn"
+     ],
+     "nickname": "浪搏恩宅",
+     "description": "班纳特家的宅邸"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "故事发生的郡"
+    },
+    {
+     "name": "St. James's",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣詹姆斯宫",
+     "description": "伦敦宫廷所在地"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [
+      "Bennets"
+     ],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Lucas family",
+     "type": "Organization",
+     "aliases": [
+      "Lucases"
+     ],
+     "nickname": "卢卡斯家",
+     "description": "卢卡斯家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "PROPOSED_TO",
+     "object": "Mr. Collins",
+     "evidence": "he was not willing to have the attempt known till its success could be known likewise",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Charlotte Lucas",
+     "evidence": "he hasten to Lucas Lodge to throw himself at her feet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "SPOUSE",
+     "object": "Mr. Collins",
+     "evidence": "everything was settled between them to the satisfaction of both",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "KIN",
+     "object": "Sir William Lucas",
+     "evidence": "Sir William and Lady Lucas were speedily applied to for their consent",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "KIN",
+     "object": "Lady Lucas",
+     "evidence": "Sir William and Lady Lucas were speedily applied to for their consent",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "KIN",
+     "object": "Charlotte Lucas",
+     "evidence": "The younger girls formed hopes of coming out a year or two sooner",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "KIN",
+     "object": "Sir William Lucas",
+     "evidence": "Sir William and Lady Lucas were speedily applied to for their consent",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "KIN",
+     "object": "Lady Lucas",
+     "evidence": "Sir William and Lady Lucas were speedily applied to for their consent",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "Charlotte assured her friend of her satisfaction in being useful",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "my cousin Elizabeth",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Mr. Collins should be in possession of the Longbourn estate",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "Mrs. Bennet, with great politeness and cordiality, said how happy they should be to see him at Longbourn again",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "my cousin Elizabeth",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "Mary might have been prevailed on to accept him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The younger girls formed hopes of coming out a year or two sooner",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "my cousin Elizabeth",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "Mary might have been prevailed on to accept him",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The younger girls formed hopes of coming out a year or two sooner",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "my cousin Elizabeth",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The younger girls formed hopes of coming out a year or two sooner",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The younger girls formed hopes of coming out a year or two sooner",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "you had better neglect your relations than run the risk of offending your patroness",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "he led him to escape out of Longbourn House the next morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "LIVES_AT",
+     "object": "Lucas Lodge",
+     "evidence": "he hasten to Lucas Lodge to throw himself at her feet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "he led him to escape out of Longbourn House the next morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "he led him to escape out of Longbourn House the next morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "he led him to escape out of Longbourn House the next morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "he led him to escape out of Longbourn House the next morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn House",
+     "evidence": "he led him to escape out of Longbourn House the next morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Hertfordshire",
+     "evidence": "if he had not been to leave Hertfordshire so very soon",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Longbourn House",
+     "evidence": "he led him to escape out of Longbourn House the next morning",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "VISITED",
+     "object": "Longbourn House",
+     "evidence": "Miss Lucas called soon after breakfast, and in a private conference with Elizabeth related the event of the day before",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Lucas Lodge",
+     "evidence": "he hasten to Lucas Lodge to throw himself at her feet",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir William Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Maria Lucas",
+     "predicate": "MEMBER_OF",
+     "object": "Lucas family",
+     "evidence": "THE Bennets were engaged to dine with the Lucases",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 2139,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立，拒绝柯林斯求婚"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家财产继承人，牧师，三天内两次求婚"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白好友，务实，接受柯林斯求婚"
+    },
+    {
+     "name": "Maria Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Maria"
+     ],
+     "nickname": "玛丽亚",
+     "description": "夏绿蒂的妹妹，卢卡斯家小女儿"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "so lately as Mr. Collins was wishing to marry you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Charlotte Lucas",
+     "evidence": "The strangeness of Mr. Collins’s making two offers of marriage within three days",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "SPOUSE",
+     "object": "Mr. Collins",
+     "evidence": "Charlotte, the wife of Mr. Collins",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "FRIEND",
+     "object": "Charlotte Lucas",
+     "evidence": "to the pang of a friend disgracing herself",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charlotte Lucas",
+     "predicate": "KIN",
+     "object": "Maria Lucas",
+     "evidence": "they returned to the rest of the family",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:15.480Z"
+}

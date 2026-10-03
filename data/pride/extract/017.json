@@ -1,0 +1,606 @@
+{
+ "no": 17,
+ "title": "delighted to see their dear friend again",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7251,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧机敏"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温柔"
+    },
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主，宾利挚友"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，达西旧识"
+    },
+    {
+     "name": "Charles Bingley",
+     "type": "Person",
+     "aliases": [
+      "Mr. Bingley",
+      "Bingley",
+      "Charles"
+     ],
+     "nickname": "宾利",
+     "description": "内瑟菲尔德租客，简的爱慕者"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，急于嫁女"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家男主人"
+    },
+    {
+     "name": "Mary Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "班纳特家三女，爱读书"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，活泼轻浮"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家表亲，牧师"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯庄园主，柯林斯恩主"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Netherfield",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "内瑟菲尔德",
+     "description": "宾利租住的庄园"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪博恩",
+     "description": "班纳特家宅邸"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近集镇"
+    },
+    {
+     "name": "Hunsford Parsonage",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "汉斯福牧师住宅",
+     "description": "柯林斯的牧师住宅"
+    },
+    {
+     "name": "Rosings",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "罗新斯",
+     "description": "凯瑟琳夫人的庄园"
+    },
+    {
+     "name": "Netherfield ball",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "内瑟菲尔德舞会",
+     "description": "宾利家举办的舞会"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "ELIZABETH related to Jane, the next day, what had passed between Mr. Wickham and herself.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "And even Mary could assure her family that she had no disinclination for it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "And even Mary could assure her family that she had no disinclination for it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "To the rest of the family they paid little attention; avoiding Mrs. Bennet as much as possible, saying not much to Elizabeth, and nothing at all to the others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Bennet chose to consider it as given in compliment to her eldest daughter, and was particularly flattered by receiving the invitation from Mr. Bingley himself, instead of a ceremonious card.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "And even Mary could assure her family that she had no disinclination for it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "To the rest of the family they paid little attention; avoiding Mrs. Bennet as much as possible, saying not much to Elizabeth, and nothing at all to the others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Bennet chose to consider it as given in compliment to her eldest daughter, and was particularly flattered by receiving the invitation from Mr. Bingley himself, instead of a ceremonious card.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "And even Mary could assure her family that she had no disinclination for it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "To the rest of the family they paid little attention; avoiding Mrs. Bennet as much as possible, saying not much to Elizabeth, and nothing at all to the others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "I shall hope to be honoured with the hands of all my fair cousins in the course of the evening; and I take this opportunity of soliciting yours, Miss Elizabeth, for the two first dances especially; a preference which I trust my cousin Jane will attribute to the right cause, and not to any disrespect",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "I shall hope to be honoured with the hands of all my fair cousins in the course of the evening; and I take this opportunity of soliciting yours, Miss Elizabeth, for the two first dances especially; a preference which I trust my cousin Jane will attribute to the right cause, and not to any disrespect",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mary Bennet",
+     "evidence": "I shall hope to be honoured with the hands of all my fair cousins in the course of the evening; and I take this opportunity of soliciting yours, Miss Elizabeth, for the two first dances especially; a preference which I trust my cousin Jane will attribute to the right cause, and not to any disrespect",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "I shall hope to be honoured with the hands of all my fair cousins in the course of the evening; and I take this opportunity of soliciting yours, Miss Elizabeth, for the two first dances especially; a preference which I trust my cousin Jane will attribute to the right cause, and not to any disrespect",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "I shall hope to be honoured with the hands of all my fair cousins in the course of the evening; and I take this opportunity of soliciting yours, Miss Elizabeth, for the two first dances especially; a preference which I trust my cousin Jane will attribute to the right cause, and not to any disrespect",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "To the rest of the family they paid little attention; avoiding Mrs. Bennet as much as possible, saying not much to Elizabeth, and nothing at all to the others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "To the rest of the family they paid little attention; avoiding Mrs. Bennet as much as possible, saying not much to Elizabeth, and nothing at all to the others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "And even Mary could assure her family that she had no disinclination for it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "The happiness anticipated by Catherine and Lydia depended less on any single event, or any particular person; for though they each, like Elizabeth, meant to dance half the evening with Mr. Wickham",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "To the rest of the family they paid little attention; avoiding Mrs. Bennet as much as possible, saying not much to Elizabeth, and nothing at all to the others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "To the rest of the family they paid little attention; avoiding Mrs. Bennet as much as possible, saying not much to Elizabeth, and nothing at all to the others.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "The two young ladies were summoned from the shrubbery, where this conversation passed, by the arrival of some of the very persons of whom they had been speaking; Mr. Bingley and his sisters came to give their personal invitation for the long expected ball at Netherfield, which was fixed for the foll",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Charles Bingley",
+     "predicate": "LIVES_AT",
+     "object": "Netherfield",
+     "evidence": "Mr. Bingley and his sisters came to give their personal invitation for the long expected ball at Netherfield, which was fixed for the following Tuesday.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "VISITED",
+     "object": "Netherfield",
+     "evidence": "Elizabeth’s spirits were so high on the occasion, that though she did not often speak unnecessarily to Mr. Collins, she could not help asking him whether he intended to accept Mr. Bingley’s invitation, and if he did, whether he would think it proper to join in the evening’s amusement; and she was ra",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "The prospect of the Netherfield ball was extremely agreeable to every female of the family.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Netherfield ball",
+     "evidence": "Elizabeth’s spirits were so high on the occasion, that though she did not often speak unnecessarily to Mr. Collins, she could not help asking him whether he intended to accept Mr. Bingley’s invitation, and if he did, whether he would think it proper to join in the evening’s amusement; and she was ra",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Netherfield ball",
+     "predicate": "OCCURRED_AT",
+     "object": "Netherfield",
+     "evidence": "Mr. Bingley and his sisters came to give their personal invitation for the long expected ball at Netherfield, which was fixed for the following Tuesday.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LOVES",
+     "object": "George Wickham",
+     "evidence": "Elizabeth thought with pleasure of dancing a great deal with Mr. Wickham, and of seeing a confirmation of everything in Mr. Darcy’s look and behaviour.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LOVES",
+     "object": "Charles Bingley",
+     "evidence": "Jane pictured to herself a happy evening in the society of her two friends, and the attentions of their brother",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "PROPOSED_TO",
+     "object": "Elizabeth Bennet",
+     "evidence": "I shall hope to be honoured with the hands of all my fair cousins in the course of the evening; and I take this opportunity of soliciting yours, Miss Elizabeth, for the two first dances especially; a preference which I trust my cousin Jane will attribute to the right cause, and not to any disrespect",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "Elizabeth’s spirits were so high on the occasion, that though she did not often speak unnecessarily to Mr. Collins, she could not help asking him whether he intended to accept Mr. Bingley’s invitation, and if he did, whether he would think it proper to join in the evening’s amusement; and she was ra",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "LIVES_AT",
+     "object": "Hunsford Parsonage",
+     "evidence": "It now first struck her, that she was selected from among her sisters as worthy of being the mistress of Hunsford Parsonage, and of assisting to form a quadrille table at Rosings, in the absence of more eligible visitors.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Catherine de Bourgh",
+     "predicate": "LIVES_AT",
+     "object": "Rosings",
+     "evidence": "It now first struck her, that she was selected from among her sisters as worthy of being the mistress of Hunsford Parsonage, and of assisting to form a quadrille table at Rosings, in the absence of more eligible visitors.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "FRIEND",
+     "object": "Charles Bingley",
+     "evidence": "she knew not how to believe that Mr. Darcy could be so unworthy of Mr. Bingley’s regard",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "DECEIVED",
+     "object": "George Wickham",
+     "evidence": "“They have both,” said she, “been deceived, I dare say, in some way or other, of which we can form no idea. Interested people have perhaps misrepresented each to the other.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "“They have both,” said she, “been deceived, I dare say, in some way or other, of which we can form no idea. Interested people have perhaps misrepresented each to the other.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "QUARRELED",
+     "object": "George Wickham",
+     "evidence": "It is, in short, impossible for us to conjecture the causes or circumstances which may have alienated them, without actual blame on either side.",
+     "confidence": 0.8
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:13.864Z"
+}

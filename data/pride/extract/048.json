@@ -1,0 +1,1086 @@
+{
+ "no": 48,
+ "title": "The Post",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7006,
+   "entities": [
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧敏锐"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Jane",
+      "Miss Bennet"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温和"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，懒散但明理"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，神经质"
+    },
+    {
+     "name": "Lady Catherine de Bourgh",
+     "type": "Person",
+     "aliases": [
+      "Lady Catherine"
+     ],
+     "nickname": "凯瑟琳夫人",
+     "description": "罗新斯庄园贵妇，傲慢专横"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，军人"
+    },
+    {
+     "name": "Mr. Collins",
+     "type": "Person",
+     "aliases": [
+      "Collins",
+      "William Collins"
+     ],
+     "nickname": "柯林斯",
+     "description": "班纳特家财产继承人，牧师"
+    },
+    {
+     "name": "Charlotte Lucas",
+     "type": "Person",
+     "aliases": [
+      "Miss Lucas",
+      "Charlotte",
+      "Mrs. Collins"
+     ],
+     "nickname": "夏绿蒂",
+     "description": "伊丽莎白好友，柯林斯之妻"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，诱拐丽迪雅"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "班纳特太太的兄弟，商人"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "班纳特太太的嫂子"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团长官"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家",
+     "description": "班纳特家族"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家宅邸"
+    },
+    {
+     "name": "Gracechurch Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "格雷斯丘奇街",
+     "description": "加德纳家在伦敦的住所"
+    },
+    {
+     "name": "Hertfordshire",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "赫特福德郡",
+     "description": "班纳特家所在郡"
+    },
+    {
+     "name": "Meryton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "麦里屯",
+     "description": "附近小镇"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "英国首都"
+    },
+    {
+     "name": "Epsom",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "埃普瑟姆",
+     "description": "伦敦附近城镇"
+    },
+    {
+     "name": "Clapham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "克拉珀姆",
+     "description": "伦敦附近地区"
+    },
+    {
+     "name": "Scotland",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "苏格兰",
+     "description": "私奔结婚地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could, to the great consolation of his sister",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Gardiner and the children were to remain in Hertfordshire a few days longer, as the former thought her presence might be serviceable to her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Gardiner and the children were to remain in Hertfordshire a few days longer, as the former thought her presence might be serviceable to her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mrs. Gardiner and the children were to remain in Hertfordshire a few days longer, as the former thought her presence might be serviceable to her nieces",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "His family knew him to be, on all common occasions, a most negligent and dilatory correspondent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "His family knew him to be, on all common occasions, a most negligent and dilatory correspondent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "His family knew him to be, on all common occasions, a most negligent and dilatory correspondent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "She shared in their attendance on Mrs. Bennet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "She shared in their attendance on Mrs. Bennet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "She shared in their attendance on Mrs. Bennet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "SPOUSE",
+     "object": "Mrs. Bennet",
+     "evidence": "for the consolation of yourself and Mrs. Bennet",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SPOUSE",
+     "object": "Charlotte Lucas",
+     "evidence": "Mrs. Collins and myself sincerely sympathize with you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "I feel myself called upon, by our relationship",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "I feel myself called upon, by our relationship",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "I feel myself called upon, by our relationship",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "I feel myself called upon, by our relationship",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "I feel myself called upon, by our relationship",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Mr. Bennet",
+     "evidence": "Mr. Gardiner himself did not expect any success from this measure; but as his brother was eager in it, he meant to assist him in pursuing it.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Elizabeth Bennet",
+     "evidence": "their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Jane Bennet",
+     "evidence": "their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Catherine Bennet",
+     "evidence": "their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "HELPED",
+     "object": "Mrs. Bennet",
+     "evidence": "their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could, to the great consolation of his sister",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "HELPED",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Gardiner and the children were to remain in Hertfordshire a few days longer, as the former thought her presence might be serviceable to her nieces",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "HELPED",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Gardiner and the children were to remain in Hertfordshire a few days longer, as the former thought her presence might be serviceable to her nieces",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "HELPED",
+     "object": "Catherine Bennet",
+     "evidence": "Mrs. Gardiner and the children were to remain in Hertfordshire a few days longer, as the former thought her presence might be serviceable to her nieces",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "HELPED",
+     "object": "Mrs. Bennet",
+     "evidence": "She shared in their attendance on Mrs. Bennet, and was a great comfort to them in their hours of freedom.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Elizabeth Bennet",
+     "evidence": "Elizabeth, though she did not credit above half of what was said, believed enough to make her former assurance of her sister’s ruin still more certain",
+     "confidence": 0.8
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Jane Bennet",
+     "evidence": "even Jane, who believed still less of it, became almost hopeless",
+     "confidence": 0.8
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "DECEIVED",
+     "object": "Meryton",
+     "evidence": "All Meryton seemed striving to blacken the man who, but three months before, had been almost an angel of light.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "His family knew him to be, on all common occasions, a most negligent and dilatory correspondent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "His family knew him to be, on all common occasions, a most negligent and dilatory correspondent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "His family knew him to be, on all common occasions, a most negligent and dilatory correspondent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "His family knew him to be, on all common occasions, a most negligent and dilatory correspondent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "His family knew him to be, on all common occasions, a most negligent and dilatory correspondent",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "to prevail on Mr. Bennet to return to Longbourn as soon as he could",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "to prevail on Mr. Bennet to return to Longbourn as soon as he could",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "Every day at Longbourn was now a day of anxiety",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "Every day at Longbourn was now a day of anxiety",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "Every day at Longbourn was now a day of anxiety",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "Gracechurch Street",
+     "evidence": "persuaded him to come to Gracechurch Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "Gracechurch Street",
+     "evidence": "persuaded him to come to Gracechurch Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "Epsom",
+     "evidence": "Mr. Bennet had been to Epsom and Clapham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "Clapham",
+     "evidence": "Mr. Bennet had been to Epsom and Clapham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "Mr. Bennet seemed wholly disinclined at present to leave London",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "VISITED",
+     "object": "Longbourn",
+     "evidence": "Mr. Gardiner left Longbourn on Sunday",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "Hertfordshire",
+     "evidence": "Mrs. Gardiner and the children were to remain in Hertfordshire a few days longer",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "All Meryton seemed striving to blacken the man",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "All Meryton seemed striving to blacken the man",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "VISITED",
+     "object": "Meryton",
+     "evidence": "All Meryton seemed striving to blacken the man",
+     "confidence": 0.8
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Scotland",
+     "evidence": "if they had gone to Scotland",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Mr. Collins",
+     "predicate": "SERVANT_OF",
+     "object": "Lady Catherine de Bourgh",
+     "evidence": "I am not only joined by Mrs. Collins, but likewise by Lady Catherine and her daughter, to whom I have related the affair.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Colonel Forster",
+     "predicate": "SERVANT_OF",
+     "object": "George Wickham",
+     "evidence": "I have written to Colonel Forster to desire him to find out, if possible, from some of the young man’s intimates in the regiment",
+     "confidence": 0.8
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "MEMBER_OF",
+     "object": "Colonel Forster",
+     "evidence": "from some of the young man’s intimates in the regiment",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 5514,
+   "entities": [
+    {
+     "name": "Fitzwilliam Darcy",
+     "type": "Person",
+     "aliases": [
+      "Mr. Darcy",
+      "Darcy",
+      "Fitzwilliam",
+      "William"
+     ],
+     "nickname": "达西",
+     "description": "彭伯里庄园主人，伊丽莎白爱慕的对象"
+    },
+    {
+     "name": "Elizabeth Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lizzy",
+      "Eliza",
+      "Miss Elizabeth",
+      "Miss Bennet"
+     ],
+     "nickname": "伊丽莎白",
+     "description": "班纳特家次女，聪慧独立"
+    },
+    {
+     "name": "Jane Bennet",
+     "type": "Person",
+     "aliases": [
+      "Miss Bennet",
+      "Jane"
+     ],
+     "nickname": "简",
+     "description": "班纳特家长女，性情温柔"
+    },
+    {
+     "name": "Catherine Bennet",
+     "type": "Person",
+     "aliases": [
+      "Kitty",
+      "Catherine"
+     ],
+     "nickname": "凯蒂",
+     "description": "班纳特家四女，易受影响"
+    },
+    {
+     "name": "Lydia Bennet",
+     "type": "Person",
+     "aliases": [
+      "Lydia"
+     ],
+     "nickname": "丽迪雅",
+     "description": "班纳特家幼女，与韦翰私奔"
+    },
+    {
+     "name": "Mr. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Bennet"
+     ],
+     "nickname": "班纳特先生",
+     "description": "班纳特家家长，冷静理智"
+    },
+    {
+     "name": "Mrs. Bennet",
+     "type": "Person",
+     "aliases": [
+      "Mamma",
+      "Mother"
+     ],
+     "nickname": "班纳特太太",
+     "description": "班纳特家女主人，神经质"
+    },
+    {
+     "name": "Colonel Fitzwilliam",
+     "type": "Person",
+     "aliases": [
+      "Fitzwilliam",
+      "Colonel"
+     ],
+     "nickname": "费茨威廉上校",
+     "description": "达西的表兄，军官"
+    },
+    {
+     "name": "George Wickham",
+     "type": "Person",
+     "aliases": [
+      "Mr. Wickham",
+      "Wickham",
+      "George"
+     ],
+     "nickname": "韦翰",
+     "description": "民兵军官，与丽迪雅私奔"
+    },
+    {
+     "name": "Mr. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner",
+      "Edward Gardiner"
+     ],
+     "nickname": "加德纳先生",
+     "description": "班纳特太太的兄弟，商人"
+    },
+    {
+     "name": "Mrs. Gardiner",
+     "type": "Person",
+     "aliases": [
+      "Gardiner"
+     ],
+     "nickname": "加德纳太太",
+     "description": "加德纳先生的妻子"
+    },
+    {
+     "name": "Colonel Forster",
+     "type": "Person",
+     "aliases": [
+      "Forster"
+     ],
+     "nickname": "福斯特上校",
+     "description": "民兵团长官"
+    },
+    {
+     "name": "Bennet family",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "班纳特家族",
+     "description": "班纳特一家"
+    },
+    {
+     "name": "Longbourn",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "浪搏恩",
+     "description": "班纳特家的宅邸"
+    },
+    {
+     "name": "Pemberley",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "彭伯里",
+     "description": "达西的庄园"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "英国首都"
+    },
+    {
+     "name": "Brighton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "布莱顿",
+     "description": "海滨城镇，民兵驻扎地"
+    },
+    {
+     "name": "Eastbourne",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伊斯特本",
+     "description": "城镇名"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Mrs. Bennet",
+     "evidence": "he had yielded to his brother-in-law’s entreaty",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "he had yielded to his brother-in-law’s entreaty",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "he had yielded to his brother-in-law’s entreaty",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "he had yielded to his brother-in-law’s entreaty",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "he had yielded to his brother-in-law’s entreaty",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Gardiner",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "he had yielded to his brother-in-law’s entreaty",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Mrs. Gardiner went away in all the perplexity about Elizabeth and her Derbyshire friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "Mrs. Gardiner went away in all the perplexity about Elizabeth and her Derbyshire friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "Mrs. Gardiner went away in all the perplexity about Elizabeth and her Derbyshire friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "Mrs. Gardiner went away in all the perplexity about Elizabeth and her Derbyshire friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "KIN",
+     "object": "Mr. Bennet",
+     "evidence": "Mrs. Gardiner went away in all the perplexity about Elizabeth and her Derbyshire friend",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "Lizzy, I bear you no ill-will for being justified in your advice to me last May",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "They were interrupted by Miss Bennet, who came to fetch her mother’s tea.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "I am not going to run away, papa",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "is he coming home, and without poor Lydia?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Elizabeth Bennet",
+     "evidence": "her mother’s tea",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her mother’s tea",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "her mother’s tea",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "her mother’s tea",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Jane Bennet",
+     "evidence": "her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Catherine Bennet",
+     "evidence": "her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "KIN",
+     "object": "Lydia Bennet",
+     "evidence": "her sisters",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "he would return to his family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "he would return to his family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "he would return to his family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "he would return to his family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "he would return to his family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "MEMBER_OF",
+     "object": "Bennet family",
+     "evidence": "he would return to his family",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "brought its master back to Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "brought its master back to Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "brought its master back to Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Jane Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "brought its master back to Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "brought its master back to Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "brought its master back to Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bennet family",
+     "predicate": "LIVES_AT",
+     "object": "Longbourn",
+     "evidence": "brought its master back to Longbourn",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Fitzwilliam Darcy",
+     "predicate": "LIVES_AT",
+     "object": "Pemberley",
+     "evidence": "could come from Pemberley",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elizabeth Bennet",
+     "predicate": "LOVES",
+     "object": "Fitzwilliam Darcy",
+     "evidence": "had she known nothing of Darcy, she could have borne the dread of Lydia’s infamy somewhat better",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mr. Bennet",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "Sure he will not leave London before he has found them",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Gardiner",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "she and her children should go to London",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Catherine Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "If I should ever go to Brighton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lydia Bennet",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "his expenses at Brighton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "George Wickham",
+     "predicate": "VISITED",
+     "object": "Brighton",
+     "evidence": "his expenses at Brighton",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:20:09.132Z"
+}

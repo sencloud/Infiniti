@@ -1,10 +1,11 @@
 // 关系探索「找线索」预计算：边强度 → 社区（Louvain）→ 枢纽实体 → 社区画像/桥接 → 线索，结果写回 Neo4j。
-// 线索规则由图谱配置决定：小说/史传用 R1–R4，教材用 M1–M4。
+// 线索规则由图谱配置决定：小说/史传用 R1–R4，教材用 M1–M4，标准规范专题用 S1–S3。
 import crypto from 'node:crypto';
 import Graph from 'graphology';
 import louvain from 'graphology-communities-louvain';
 import { chatJson } from './llm.js';
 import { unitLabel } from './domains/index.js';
+import { parseStandardCode } from './domains/topics.js';
 import { currentGraph, ensureUnitLabels, exec as run } from './neo.js';
 import { percentileRank, seededRandom } from './mathutil.js';
 
@@ -542,7 +543,129 @@ function ruleG1(ctx) {
   }
 }
 
-const RULES = { R1: ruleR1, R2: ruleR2, R3: ruleR3, R4: ruleR4, M1: ruleM1, M2: ruleM2, M3: ruleM3, M4: ruleM4, G1: ruleG1 };
+/* ---- 专题（标准规范）：文件之间的引用与定义 ---- */
+
+/** 专题里自带的文件（种子）按「无年份编号」索引，便于判断被引用的标准在不在专题里、是不是旧版 */
+function collectionIndex(entities) {
+  const byBase = new Map();
+  for (const e of entities) {
+    if (e.type !== 'Standard' || !e.hero) continue;
+    const p = parseStandardCode(e.name);
+    if (p) byBase.set(p.base, [...(byBase.get(p.base) || []), { e, year: p.year }]);
+  }
+  return byBase;
+}
+
+const yearNum = (y) => {
+  const n = Number(y);
+  if (!n) return 0;
+  return n < 100 ? (n > 50 ? 1900 + n : 2000 + n) : n;
+};
+
+/** S1 引用缺口：专题外的标准被多份文件引用 */
+function ruleS1(ctx) {
+  const { claims, byId, push, entities } = ctx;
+  const inside = collectionIndex(entities);
+  // 引用整个系列（「DA/T 68」）时，专题里有它的分部分（DA/T 68.1…）就算收录了
+  const series = new Set([...inside.keys()].map((b) => b.replace(/\.\d+$/, '')));
+  const citing = new Map();
+  for (const c of claims) {
+    if (c.predicate !== 'CITES') continue;
+    const dst = byId.get(c.dst);
+    if (!dst || dst.hero) continue;
+    const p = parseStandardCode(dst.name);
+    if (p && (inside.has(p.base) || series.has(p.base))) continue;
+    if (!citing.has(dst.id)) citing.set(dst.id, new Map());
+    const bySrc = citing.get(dst.id);
+    if (!bySrc.has(c.src)) bySrc.set(c.src, c);
+  }
+  for (const [id, bySrc] of citing) {
+    if (bySrc.size < 2) continue;
+    const e = byId.get(id);
+    const list = [...bySrc.values()];
+    const c = list[0];
+    push({
+      rule_code: 'S1',
+      severity: bySrc.size >= 5 ? 'high' : bySrc.size >= 3 ? 'medium' : 'low',
+      anchor_entity_id: id,
+      anchor_name: e.name,
+      title: `「${e.name}」被专题里 ${bySrc.size} 份文件引用，专题里却没有这份文件`,
+      detail: { count: bySrc.size, citing: list.map((x) => ({ name: byId.get(x.src).name, claim_id: x.id, chapter: x.ch })) },
+      claim_id: c.id,
+      record_id: recordOf(c.ch),
+      evidence_text: c.ev,
+    });
+  }
+}
+
+/** S2 版本滞后：引用了旧版本，而专题里已经有同一编号的新版 */
+function ruleS2(ctx) {
+  const { claims, byId, push, entities } = ctx;
+  const inside = collectionIndex(entities);
+  const seen = new Set();
+  for (const c of claims) {
+    if (c.predicate !== 'CITES') continue;
+    const [src, dst] = [byId.get(c.src), byId.get(c.dst)];
+    const p = dst && parseStandardCode(dst.name);
+    if (!p?.year || !inside.has(p.base)) continue;
+    const newer = inside.get(p.base).filter((x) => yearNum(x.year) > yearNum(p.year)).sort((a, b) => yearNum(b.year) - yearNum(a.year))[0];
+    // 被引的旧版本身就是引用方的前身（「代替 DA/T 22-2000」）不算
+    if (!newer || newer.e.id === src.id) continue;
+    const key = `${src.id}|${dst.id}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    push({
+      rule_code: 'S2',
+      severity: yearNum(newer.year) - yearNum(p.year) >= 10 ? 'medium' : 'low',
+      anchor_entity_id: src.id,
+      anchor_name: src.name,
+      title: `${src.name} 引用的是 ${dst.name}，专题里已有新版 ${newer.e.name}`,
+      detail: { cited: dst.name, cited_id: dst.id, newer: newer.e.name, newer_id: newer.e.id },
+      claim_id: c.id,
+      record_id: recordOf(c.ch),
+      evidence_text: c.ev,
+    });
+  }
+}
+
+/** S3 定义并存：同一术语在几份文件里各有定义 */
+function ruleS3(ctx) {
+  const { claims, byId, push } = ctx;
+  // 按名字归并：同一术语可能因类型不同（术语 / 著录项）落成两个实体
+  const defs = new Map();
+  for (const c of claims) {
+    if (c.predicate !== 'DEFINES') continue;
+    const name = byId.get(c.dst)?.name;
+    if (!name) continue;
+    if (!defs.has(name)) defs.set(name, { bySrc: new Map(), hits: new Map() });
+    const { bySrc, hits } = defs.get(name);
+    hits.set(c.dst, (hits.get(c.dst) || 0) + 1);
+    if (!bySrc.has(c.src) || c.conf > bySrc.get(c.src).conf) bySrc.set(c.src, c);
+  }
+  for (const { bySrc, hits } of defs.values()) {
+    if (bySrc.size < 2) continue;
+    const id = [...hits.entries()].sort((a, b) => b[1] - a[1])[0][0];
+    const e = byId.get(id);
+    const list = [...bySrc.values()].sort((a, b) => a.ch - b.ch);
+    const names = list.map((x) => byId.get(x.src).name);
+    push({
+      rule_code: 'S3',
+      severity: bySrc.size >= 4 ? 'medium' : 'low',
+      anchor_entity_id: id,
+      anchor_name: e.name,
+      title: `「${e.name}」在 ${bySrc.size} 份文件里各有定义：${names.slice(0, 4).join('、')}${names.length > 4 ? '等' : ''}`,
+      detail: { count: bySrc.size, sources: list.map((x) => ({ name: byId.get(x.src).name, claim_id: x.id, chapter: x.ch, evidence: x.ev })) },
+      claim_id: list[0].id,
+      record_id: recordOf(list[0].ch),
+      evidence_text: list[0].ev,
+    });
+  }
+}
+
+const RULES = {
+  R1: ruleR1, R2: ruleR2, R3: ruleR3, R4: ruleR4, M1: ruleM1, M2: ruleM2, M3: ruleM3, M4: ruleM4, G1: ruleG1,
+  S1: ruleS1, S2: ruleS2, S3: ruleS3,
+};
 
 function detectAnomalies(data) {
   const graph = currentGraph();

@@ -1,0 +1,1064 @@
+{
+ "no": 11,
+ "title": "The Adventure of the Beryl Coronet",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 8000,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "著名侦探，住在贝克街，接受委托调查案件"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "Doctor"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的朋友与助手"
+    },
+    {
+     "name": "Alexander Holder",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holder",
+      "Holder"
+     ],
+     "nickname": "亚历山大·霍尔德",
+     "description": "Holder & Stevenson 银行的高级合伙人，前来委托福尔摩斯"
+    },
+    {
+     "name": "Holder & Stevenson",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "霍尔德与史蒂文森银行",
+     "description": "伦敦针线街的私人银行，Alexander Holder 是高级合伙人"
+    },
+    {
+     "name": "Beryl Coronet",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "绿玉皇冠",
+     "description": "镶有三十九颗巨大绿玉的珍贵皇冠，作为贷款抵押品"
+    },
+    {
+     "name": "Baker Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "贝克街",
+     "description": "伦敦街道，福尔摩斯与华生的住所所在地"
+    },
+    {
+     "name": "Threadneedle Street",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "针线街",
+     "description": "伦敦街道，Holder & Stevenson 银行所在地"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "My friend rose lazily from his armchair",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I rather think he is coming to consult me professionally",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "MEMBER_OF",
+     "object": "Holder & Stevenson",
+     "evidence": "I am Alexander Holder, of the banking firm of Holder & Stevenson, of Threadneedle Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Holder & Stevenson",
+     "predicate": "LIVES_AT",
+     "object": "Threadneedle Street",
+     "evidence": "the banking firm of Holder & Stevenson, of Threadneedle Street",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "Down the centre of Baker Street it had been ploughed into a brown crumbly band by the traffic",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street",
+     "evidence": "Down the centre of Baker Street it had been ploughed into a brown crumbly band by the traffic",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "OWNS",
+     "object": "Beryl Coronet",
+     "evidence": "I am prepared to leave it with you as my security",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 7919,
+   "entities": [
+    {
+     "name": "Alexander Holder",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holder",
+      "Holder"
+     ],
+     "nickname": "亚历山大·霍尔德",
+     "description": "银行家，持有绿玉皇冠，叙述案件经过"
+    },
+    {
+     "name": "Arthur Holder",
+     "type": "Person",
+     "aliases": [
+      "Arthur"
+     ],
+     "nickname": "亚瑟·霍尔德",
+     "description": "Alexander Holder之子，挥霍成性，爱慕Mary"
+    },
+    {
+     "name": "Mary Holder",
+     "type": "Person",
+     "aliases": [
+      "Miss Holder",
+      "Mary"
+     ],
+     "nickname": "玛丽·霍尔德",
+     "description": "Alexander Holder的侄女，被收养，管家"
+    },
+    {
+     "name": "Lucy Parr",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "露西·帕尔",
+     "description": "Holder家的第二女仆，来数月，漂亮"
+    },
+    {
+     "name": "Sir George Burnwell",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "乔治·伯恩韦尔爵士",
+     "description": "Arthur的朋友，影响Arthur，被Holder怀疑"
+    },
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holmes",
+      "Holmes"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，Holder向他咨询案件"
+    },
+    {
+     "name": "Beryl Coronet",
+     "type": "Item",
+     "aliases": [
+      "coronet",
+      "jewel"
+     ],
+     "nickname": "绿玉皇冠",
+     "description": "镶有绿玉的皇冠，贵重抵押品"
+    },
+    {
+     "name": "Streatham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯特里特姆",
+     "description": "Holder的住所所在地"
+    },
+    {
+     "name": "Aristocratic Club",
+     "type": "Organization",
+     "aliases": [
+      "club"
+     ],
+     "nickname": "贵族俱乐部",
+     "description": "Arthur加入的俱乐部"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alexander Holder",
+     "predicate": "KIN",
+     "object": "Arthur Holder",
+     "evidence": "I am a widower and have an only son, Arthur.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "KIN",
+     "object": "Mary Holder",
+     "evidence": "She is my niece; but when my brother died five years ago and left her alone in the world I adopted her",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "GUARDIAN_OF",
+     "object": "Mary Holder",
+     "evidence": "I adopted her, and have looked upon her ever since as my daughter.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "LOVES",
+     "object": "Mary Holder",
+     "evidence": "Twice my boy has asked her to marry him, for he loves her devotedly",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "PROPOSED_TO",
+     "object": "Mary Holder",
+     "evidence": "Twice my boy has asked her to marry him",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lucy Parr",
+     "predicate": "SERVANT_OF",
+     "object": "Alexander Holder",
+     "evidence": "Another, Lucy Parr, the second waiting-maid, has only been in my service a few months.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "MEMBER_OF",
+     "object": "Aristocratic Club",
+     "evidence": "When he was young he became a member of an aristocratic club",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir George Burnwell",
+     "predicate": "FRIEND",
+     "object": "Arthur Holder",
+     "evidence": "the influence of his friend, Sir George Burnwell, was enough to draw him back again",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "LIVES_AT",
+     "object": "Streatham",
+     "evidence": "I called a cab and drove out to my house at Streatham",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "OWNS",
+     "object": "Beryl Coronet",
+     "evidence": "I locked it up in my private safe",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Mr. Holmes, you know the people who live under my roof, and I shall continue with my miserable story.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 8003,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查本案"
+    },
+    {
+     "name": "Arthur Holder",
+     "type": "Person",
+     "aliases": [
+      "Arthur"
+     ],
+     "nickname": "亚瑟·霍尔德",
+     "description": "银行家之子，被指控盗窃王冠"
+    },
+    {
+     "name": "Mary Holder",
+     "type": "Person",
+     "aliases": [
+      "Mary"
+     ],
+     "nickname": "玛丽·霍尔德",
+     "description": "银行家之女，亚瑟的妹妹"
+    },
+    {
+     "name": "Alexander Holder",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holder",
+      "dad"
+     ],
+     "nickname": "亚历山大·霍尔德",
+     "description": "银行家，王冠的保管人"
+    },
+    {
+     "name": "Sir George Burnwell",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "乔治·伯恩韦尔爵士",
+     "description": "亚瑟的朋友，常来访"
+    },
+    {
+     "name": "Beryl Coronet",
+     "type": "Item",
+     "aliases": [
+      "coronet"
+     ],
+     "nickname": "绿玉王冠",
+     "description": "镶有绿玉的贵重王冠"
+    },
+    {
+     "name": "theft of the beryl coronet",
+     "type": "Event",
+     "aliases": [],
+     "nickname": "绿玉王冠盗窃案",
+     "description": "王冠上三颗绿玉被盗的事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Arthur Holder",
+     "predicate": "KIN",
+     "object": "Alexander Holder",
+     "evidence": "my unhappy boy, dressed only in his shirt and trousers, was standing beside the light, holding the coronet in his hands.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Holder",
+     "predicate": "KIN",
+     "object": "Alexander Holder",
+     "evidence": "I kissed her and went up to my bedroom again",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "KIN",
+     "object": "Mary Holder",
+     "evidence": "Mary was the first to rush into my room, and, at the sight of the coronet and of Arthur’s face, she read the whole story",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "OWNS",
+     "object": "Beryl Coronet",
+     "evidence": "I snatched it up and examined it. One of the gold corners, with three of the beryls in it, was missing.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "STOLE",
+     "object": "Beryl Coronet",
+     "evidence": "You have destroyed it! You have dishonoured me forever! Where are the jewels which you have stolen?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "SUSPECTED",
+     "object": "Arthur Holder",
+     "evidence": "You blackguard! ... You have destroyed it! You have dishonoured me forever! Where are the jewels which you have stolen?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I have hurried round to you to implore you to use your skill in unravelling the matter.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "theft of the beryl coronet",
+     "evidence": "I have hurried round to you to implore you to use your skill in unravelling the matter.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir George Burnwell",
+     "predicate": "VISITED",
+     "object": "Alexander Holder",
+     "evidence": "Sir George Burnwell has been several times lately.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir George Burnwell",
+     "predicate": "FRIEND",
+     "object": "Arthur Holder",
+     "evidence": "an occasional friend of Arthur’s. Sir George Burnwell has been several times lately.",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 7995,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查绿玉皇冠案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "I",
+      "my",
+      "me"
+     ],
+     "nickname": "华生",
+     "description": "叙述者，福尔摩斯的朋友"
+    },
+    {
+     "name": "Alexander Holder",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holder",
+      "Holder",
+      "the banker"
+     ],
+     "nickname": "霍尔德先生",
+     "description": "银行家，绿玉皇冠的持有者"
+    },
+    {
+     "name": "Arthur Holder",
+     "type": "Person",
+     "aliases": [
+      "Arthur"
+     ],
+     "nickname": "亚瑟",
+     "description": "霍尔德的儿子，被怀疑盗窃"
+    },
+    {
+     "name": "Mary Holder",
+     "type": "Person",
+     "aliases": [
+      "Miss Holder",
+      "Mary"
+     ],
+     "nickname": "玛丽",
+     "description": "霍尔德的侄女，相信亚瑟无辜"
+    },
+    {
+     "name": "Francis Prosper",
+     "type": "Person",
+     "aliases": [
+      "the greengrocer"
+     ],
+     "nickname": "弗朗西斯·普罗斯珀",
+     "description": "蔬菜商，木腿，女仆的恋人"
+    },
+    {
+     "name": "Fairbank",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "费尔班克",
+     "description": "霍尔德先生的住所"
+    },
+    {
+     "name": "Streatham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯特里汉姆",
+     "description": "伦敦南部郊区"
+    },
+    {
+     "name": "Beryl Coronet",
+     "type": "Item",
+     "aliases": [
+      "coronet",
+      "diadem"
+     ],
+     "nickname": "绿玉皇冠",
+     "description": "镶有绿玉的皇冠，案件关键物品"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "CLIENT_OF",
+     "object": "Alexander Holder",
+     "evidence": "I have brought a gentleman down from London to inquire more deeply into it.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Beryl Coronet",
+     "evidence": "It is our task to find that out",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "FRIEND",
+     "object": "Sherlock Holmes",
+     "evidence": "My friend insisted upon my accompanying them in their expedition",
+     "confidence": 0.9
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "VISITED",
+     "object": "Fairbank",
+     "evidence": "A short railway journey and a shorter walk brought us to Fairbank",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "LIVES_AT",
+     "object": "Fairbank",
+     "evidence": "Fairbank, the modest residence of the great financier",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "OWNS",
+     "object": "Beryl Coronet",
+     "evidence": "This case, I presume, contains the coronet.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "KIN",
+     "object": "Arthur Holder",
+     "evidence": "the guilt of the banker’s son",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "KIN",
+     "object": "Mary Holder",
+     "evidence": "she went straight to her uncle",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Holder",
+     "predicate": "KIN",
+     "object": "Arthur Holder",
+     "evidence": "my cousin Arthur",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Holder",
+     "predicate": "LOVES",
+     "object": "Arthur Holder",
+     "evidence": "Your affection for Arthur blinds you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Francis Prosper",
+     "predicate": "LOVES",
+     "object": "Mary Holder",
+     "evidence": "You have a maid who has a sweetheart?",
+     "confidence": 0.7
+    },
+    {
+     "subject": "Francis Prosper",
+     "predicate": "VISITED",
+     "object": "Fairbank",
+     "evidence": "I saw the man, too, in the gloom.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Streatham",
+     "evidence": "we will set off for Streatham together",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "chars": 7909,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "咨询侦探，调查绿玉皇冠案"
+    },
+    {
+     "name": "John Watson",
+     "type": "Person",
+     "aliases": [
+      "Watson",
+      "Dr. Watson"
+     ],
+     "nickname": "华生",
+     "description": "福尔摩斯的同伴与记录者"
+    },
+    {
+     "name": "Alexander Holder",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holder",
+      "Holder"
+     ],
+     "nickname": "亚历山大·霍尔德",
+     "description": "银行家，绿玉皇冠的委托人"
+    },
+    {
+     "name": "Arthur Holder",
+     "type": "Person",
+     "aliases": [
+      "Arthur"
+     ],
+     "nickname": "亚瑟·霍尔德",
+     "description": "霍尔德的儿子，被怀疑盗宝"
+    },
+    {
+     "name": "Mary Holder",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Holder"
+     ],
+     "nickname": "玛丽·霍尔德",
+     "description": "霍尔德的侄女，离家出走"
+    },
+    {
+     "name": "Beryl Coronet",
+     "type": "Item",
+     "aliases": [
+      "the gems",
+      "the coronet"
+     ],
+     "nickname": "绿玉皇冠",
+     "description": "镶有三颗绿玉的金冠，案件核心物品"
+    },
+    {
+     "name": "Streatham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯特里特姆",
+     "description": "伦敦南部地区，霍尔德宅邸所在地"
+    },
+    {
+     "name": "Baker Street rooms",
+     "type": "Place",
+     "aliases": [
+      "my rooms",
+      "our rooms"
+     ],
+     "nickname": "贝克街寓所",
+     "description": "福尔摩斯与华生在伦敦的住所"
+    },
+    {
+     "name": "The Adventure of the Beryl Coronet",
+     "type": "Event",
+     "aliases": [
+      "the case",
+      "this inquiry"
+     ],
+     "nickname": "绿玉皇冠案",
+     "description": "绿玉皇冠被盗及调查事件"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Alexander Holder",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I understand that you give me carte blanche to act for you, provided only that I get back the gems",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "The Adventure of the Beryl Coronet",
+     "evidence": "I shall now continue my investigations outside.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "KIN",
+     "object": "Arthur Holder",
+     "evidence": "Your son had no shoes or slippers on when you saw him?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "KIN",
+     "object": "Mary Holder",
+     "evidence": "My niece, Mary, has deserted me.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "OWNS",
+     "object": "Beryl Coronet",
+     "evidence": "With a shriek of joy our client clutched it up.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "LIVES_AT",
+     "object": "Streatham",
+     "evidence": "I have been out to Streatham since I saw you last, but I did not call at the house.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street rooms",
+     "evidence": "If you can call upon me at my Baker Street rooms to-morrow morning between nine and ten",
+     "confidence": 0.95
+    },
+    {
+     "subject": "John Watson",
+     "predicate": "LIVES_AT",
+     "object": "Baker Street rooms",
+     "evidence": "It was not yet three when we found ourselves in our rooms once more.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Streatham",
+     "evidence": "I have been out to Streatham since I saw you last, but I did not call at the house.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "SUSPECTED",
+     "object": "Arthur Holder",
+     "evidence": "Then it was not Arthur who took them?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Alexander Holder",
+     "evidence": "I shall be happy to do what I can to make it clearer.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Arthur Holder",
+     "evidence": "You owe a very humble apology to that noble lad, your son",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "chars": 7944,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，调查绿玉皇冠案"
+    },
+    {
+     "name": "Alexander Holder",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holder",
+      "Holder"
+     ],
+     "nickname": "亚历山大·霍尔德",
+     "description": "银行家，绿玉皇冠案委托人"
+    },
+    {
+     "name": "Arthur Holder",
+     "type": "Person",
+     "aliases": [
+      "Arthur"
+     ],
+     "nickname": "亚瑟·霍尔德",
+     "description": "霍尔德的儿子，被误认为盗贼"
+    },
+    {
+     "name": "Mary Holder",
+     "type": "Person",
+     "aliases": [
+      "Miss Holder",
+      "Mary"
+     ],
+     "nickname": "玛丽·霍尔德",
+     "description": "霍尔德的侄女，与伯恩韦尔私通"
+    },
+    {
+     "name": "Sir George Burnwell",
+     "type": "Person",
+     "aliases": [
+      "Burnwell"
+     ],
+     "nickname": "乔治·伯恩韦尔爵士",
+     "description": "赌徒，诱骗玛丽并盗取皇冠"
+    },
+    {
+     "name": "Beryl Coronet",
+     "type": "Item",
+     "aliases": [
+      "coronet"
+     ],
+     "nickname": "绿玉皇冠",
+     "description": "被抵押的珍贵皇冠，案件核心物品"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mary Holder",
+     "predicate": "KIN",
+     "object": "Alexander Holder",
+     "evidence": "there has been an understanding between Sir George Burnwell and your niece Mary.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "KIN",
+     "object": "Alexander Holder",
+     "evidence": "Your boy, Arthur, went to bed after his interview with you",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "KIN",
+     "object": "Mary Holder",
+     "evidence": "He saw her stealthily open the window... his cousin walking very stealthily",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Holder",
+     "predicate": "LOVES",
+     "object": "Sir George Burnwell",
+     "evidence": "there has been an understanding between Sir George Burnwell and your niece Mary.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir George Burnwell",
+     "predicate": "DECEIVED",
+     "object": "Mary Holder",
+     "evidence": "she became his tool and was in the habit of seeing him nearly every evening.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Holder",
+     "predicate": "STOLE",
+     "object": "Beryl Coronet",
+     "evidence": "your son saw that she carried the precious coronet in her hands.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sir George Burnwell",
+     "predicate": "STOLE",
+     "object": "Beryl Coronet",
+     "evidence": "hand out the coronet to someone in the gloom",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "HELPED",
+     "object": "Mary Holder",
+     "evidence": "He took the more chivalrous view, however, and preserved her secret.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Arthur Holder",
+     "predicate": "LOVES",
+     "object": "Mary Holder",
+     "evidence": "As he loved his cousin, however, there was an excellent explanation why he should retain her secret",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Beryl Coronet",
+     "evidence": "I at once went very carefully round it to observe if there were any traces in the snow",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "I will do so, and I will show you the steps by which I reached it.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "chars": 2923,
+   "entities": [
+    {
+     "name": "Sherlock Holmes",
+     "type": "Person",
+     "aliases": [
+      "Holmes",
+      "Mr. Holmes",
+      "Sherlock"
+     ],
+     "nickname": "福尔摩斯",
+     "description": "侦探，侦办绿玉皇冠案并追回宝石"
+    },
+    {
+     "name": "Alexander Holder",
+     "type": "Person",
+     "aliases": [
+      "Mr. Holder",
+      "Holder"
+     ],
+     "nickname": "亚历山大·霍尔德",
+     "description": "银行家，绿玉皇冠的委托人"
+    },
+    {
+     "name": "Arthur Holder",
+     "type": "Person",
+     "aliases": [
+      "Arthur"
+     ],
+     "nickname": "亚瑟·霍尔德",
+     "description": "霍尔德之子，被父亲冤枉"
+    },
+    {
+     "name": "Mary Holder",
+     "type": "Person",
+     "aliases": [
+      "Miss Holder",
+      "Mary"
+     ],
+     "nickname": "玛丽·霍尔德",
+     "description": "霍尔德的外甥女，与乔治·伯恩韦尔私奔"
+    },
+    {
+     "name": "Sir George Burnwell",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "乔治·伯恩韦尔爵士",
+     "description": "声名狼藉的恶棍，盗取绿玉皇冠宝石"
+    },
+    {
+     "name": "Streatham",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "斯特里汉姆",
+     "description": "伦敦南部地名，雪地足迹出现处"
+    },
+    {
+     "name": "Beryl Coronet",
+     "type": "Item",
+     "aliases": [],
+     "nickname": "绿玉皇冠",
+     "description": "镶有绿玉的皇冠，本案关键物品"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mary Holder",
+     "predicate": "KIN",
+     "object": "Alexander Holder",
+     "evidence": "the love and gratitude which she must feel to you",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Holder",
+     "predicate": "LOVES",
+     "object": "Sir George Burnwell",
+     "evidence": "A lover evidently, for who else could outweigh the love and gratitude which she must feel to you?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sir George Burnwell",
+     "predicate": "STOLE",
+     "object": "Beryl Coronet",
+     "evidence": "It must have been he who wore those boots and retained the missing gems.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "INVESTIGATED",
+     "object": "Beryl Coronet",
+     "evidence": "I went in the shape of a loafer to Sir George’s house",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "VISITED",
+     "object": "Streatham",
+     "evidence": "With these I journeyed down to Streatham and saw that they exactly fitted the tracks.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "CLIENT_OF",
+     "object": "Sherlock Holmes",
+     "evidence": "Sir, I cannot find words to thank you, but you shall not find me ungrateful for what you have done.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Alexander Holder",
+     "evidence": "A day which has saved England from a great public scandal",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Sherlock Holmes",
+     "predicate": "HELPED",
+     "object": "Arthur Holder",
+     "evidence": "Then I looked in upon your son, told him that all was right",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Alexander Holder",
+     "predicate": "SUSPECTED",
+     "object": "Arthur Holder",
+     "evidence": "I must fly to my dear boy to apologise to him for the wrong which I have done him.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:19:38.431Z"
+}

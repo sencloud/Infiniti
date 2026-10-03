@@ -1,0 +1,190 @@
+{
+ "no": 7,
+ "title": "A Mad Tea-Party",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7989,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，误入奇境的小女孩"
+    },
+    {
+     "name": "Mad Hatter",
+     "type": "Person",
+     "aliases": [
+      "The Hatter",
+      "Hatter"
+     ],
+     "nickname": "疯帽匠",
+     "description": "疯茶会参与者，与时间争吵过"
+    },
+    {
+     "name": "March Hare",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "三月兔",
+     "description": "疯茶会参与者，与帽匠同席"
+    },
+    {
+     "name": "Dormouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "睡鼠",
+     "description": "疯茶会上总在睡觉的睡鼠"
+    },
+    {
+     "name": "Queen of Hearts",
+     "type": "Person",
+     "aliases": [
+      "The Queen",
+      "Her Majesty"
+     ],
+     "nickname": "红心王后",
+     "description": "红心王后，曾下令砍帽匠的头"
+    },
+    {
+     "name": "Elsie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "埃尔西",
+     "description": "睡鼠故事中的三姐妹之一"
+    },
+    {
+     "name": "Lacie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "拉西",
+     "description": "睡鼠故事中的三姐妹之一"
+    },
+    {
+     "name": "Tillie",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "蒂莉",
+     "description": "睡鼠故事中的三姐妹之一"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Mad Hatter",
+     "predicate": "QUARRELED",
+     "object": "Time",
+     "evidence": "We quarrelled last March—just before he went mad",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Queen of Hearts",
+     "predicate": "HARMED",
+     "object": "Mad Hatter",
+     "evidence": "the Queen jumped up and bawled out, ‘He’s murdering the time! Off with his head!’",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elsie",
+     "predicate": "KIN",
+     "object": "Lacie",
+     "evidence": "there were three little sisters; and their names were Elsie, Lacie, and Tillie",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Elsie",
+     "predicate": "KIN",
+     "object": "Tillie",
+     "evidence": "there were three little sisters; and their names were Elsie, Lacie, and Tillie",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lacie",
+     "predicate": "KIN",
+     "object": "Tillie",
+     "evidence": "there were three little sisters; and their names were Elsie, Lacie, and Tillie",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 4514,
+   "entities": [
+    {
+     "name": "Alice",
+     "type": "Person",
+     "aliases": [
+      "Alice Liddell"
+     ],
+     "nickname": "爱丽丝",
+     "description": "故事主角，误入奇境的小女孩"
+    },
+    {
+     "name": "Mad Hatter",
+     "type": "Person",
+     "aliases": [
+      "The Hatter",
+      "Hatter"
+     ],
+     "nickname": "疯帽匠",
+     "description": "疯茶会的主人之一，言行古怪"
+    },
+    {
+     "name": "March Hare",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "三月兔",
+     "description": "疯茶会的参与者，与帽匠一同捉弄爱丽丝"
+    },
+    {
+     "name": "Dormouse",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "睡鼠",
+     "description": "疯茶会上昏昏欲睡的睡鼠，讲述三姐妹的故事"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "March Hare",
+     "predicate": "QUARRELED",
+     "object": "Alice",
+     "evidence": "“Take some more tea,” the March Hare said to Alice, very earnestly. “I’ve had nothing yet,” Alice replied in an offended tone",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mad Hatter",
+     "predicate": "QUARRELED",
+     "object": "Alice",
+     "evidence": "“You mean you can’t take less,” said the Hatter: “it’s very easy to take more than nothing.” “Nobody asked your opinion,” said Alice.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mad Hatter",
+     "predicate": "HARMED",
+     "object": "Dormouse",
+     "evidence": "on being pinched by the Hatter, it woke up again with a little shriek",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mad Hatter",
+     "predicate": "HARMED",
+     "object": "Dormouse",
+     "evidence": "they were trying to put the Dormouse into the teapot",
+     "confidence": 0.9
+    },
+    {
+     "subject": "March Hare",
+     "predicate": "HARMED",
+     "object": "Dormouse",
+     "evidence": "they were trying to put the Dormouse into the teapot",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:18:38.836Z"
+}

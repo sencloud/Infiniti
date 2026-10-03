@@ -1,0 +1,470 @@
+{
+ "no": 16,
+ "title": "An open Gallery to Juliet’s Chamber, overlooking the Garden",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7975,
+   "entities": [
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古家族之子，与朱丽叶秘密结婚"
+    },
+    {
+     "name": "Juliet Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet",
+      "Capulet's daughter",
+      "Lady Capulet's daughter"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特家族之女，与罗密欧秘密结婚"
+    },
+    {
+     "name": "Lord Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet",
+      "Old Capulet"
+     ],
+     "nickname": "凯普莱特",
+     "description": "凯普莱特家族族长，朱丽叶之父"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Capulet's wife"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "凯普莱特之妻，朱丽叶之母"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，被罗密欧杀死"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，向朱丽叶求婚"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，照顾朱丽叶"
+    },
+    {
+     "name": "Peter",
+     "type": "Person",
+     "aliases": [
+      "the Nurse's man"
+     ],
+     "nickname": "彼得",
+     "description": "奶妈的仆人"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族为世仇"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族为世仇"
+    },
+    {
+     "name": "Mantua",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "曼图亚",
+     "description": "罗密欧被放逐后居住的城市"
+    },
+    {
+     "name": "Saint Peter's Church",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "圣彼得教堂",
+     "description": "计划中朱丽叶与帕里斯举行婚礼的教堂"
+    },
+    {
+     "name": "Juliet's Chamber",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "朱丽叶的卧室",
+     "description": "朱丽叶的卧室，罗密欧与朱丽叶告别之处"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Romeo Montague",
+     "predicate": "SPOUSE",
+     "object": "Juliet Capulet",
+     "evidence": "Art thou gone so? Love, lord, ay husband, friend,",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LOVES",
+     "object": "Juliet Capulet",
+     "evidence": "Believe me, love, it was the nightingale.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LOVES",
+     "object": "Romeo Montague",
+     "evidence": "O, by this count I shall be much in years Ere I again behold my Romeo.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lord Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "thou hast a careful father, child;",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "Your lady mother is coming to your chamber.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Juliet Capulet",
+     "evidence": "Evermore weeping for your cousin’s death?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet Capulet",
+     "evidence": "The County Paris, at Saint Peter’s Church, Shall happily make thee there a joyful bride.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet Capulet",
+     "evidence": "Juliet's nurse",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Peter",
+     "predicate": "SERVANT_OF",
+     "object": "Nurse",
+     "evidence": "the Nurse's man",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Capulet's daughter",
+     "confidence": 0.95
+    },
+    {
+     "subject": "House of Montague",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Capulet",
+     "evidence": "That same villain Romeo.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "KILLED",
+     "object": "Tybalt Capulet",
+     "evidence": "the villain lives which slaughter’d him.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "HARMED",
+     "object": "Romeo Montague",
+     "evidence": "I’ll send to one in Mantua, Where that same banish’d runagate doth live, Shall give him such an unaccustom’d dram That he shall soon keep Tybalt company:",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "LIVES_AT",
+     "object": "Mantua",
+     "evidence": "Where that same banish’d runagate doth live,",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "LIVES_AT",
+     "object": "Juliet's Chamber",
+     "evidence": "Your lady mother is coming to your chamber.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet Capulet",
+     "predicate": "PARTICIPATED_IN",
+     "object": "Saint Peter's Church",
+     "evidence": "The County Paris, at Saint Peter’s Church, Shall happily make thee there a joyful bride.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 3089,
+   "entities": [
+    {
+     "name": "Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet's father"
+     ],
+     "nickname": "凯普莱特",
+     "description": "朱丽叶的父亲，卡普莱特家族族长"
+    },
+    {
+     "name": "Lady Capulet",
+     "type": "Person",
+     "aliases": [
+      "Juliet's mother"
+     ],
+     "nickname": "凯普莱特夫人",
+     "description": "朱丽叶的母亲"
+    },
+    {
+     "name": "Juliet",
+     "type": "Person",
+     "aliases": [
+      "Juliet Capulet"
+     ],
+     "nickname": "朱丽叶",
+     "description": "凯普莱特之女，已秘密嫁给罗密欧"
+    },
+    {
+     "name": "Romeo Montague",
+     "type": "Person",
+     "aliases": [
+      "Romeo",
+      "Montague's son",
+      "Young Romeo"
+     ],
+     "nickname": "罗密欧",
+     "description": "蒙太古之子，朱丽叶的丈夫，被放逐"
+    },
+    {
+     "name": "Tybalt Capulet",
+     "type": "Person",
+     "aliases": [
+      "Tybalt",
+      "Lady Capulet's nephew",
+      "Prince of Cats"
+     ],
+     "nickname": "提伯尔特",
+     "description": "凯普莱特夫人的侄子，已被罗密欧杀死"
+    },
+    {
+     "name": "Paris",
+     "type": "Person",
+     "aliases": [
+      "the County"
+     ],
+     "nickname": "帕里斯",
+     "description": "贵族青年，向朱丽叶求婚"
+    },
+    {
+     "name": "Friar Laurence",
+     "type": "Person",
+     "aliases": [
+      "Friar",
+      "the Friar",
+      "Lawrence"
+     ],
+     "nickname": "劳伦斯神父",
+     "description": "神父，为罗密欧与朱丽叶秘密证婚"
+    },
+    {
+     "name": "Nurse",
+     "type": "Person",
+     "aliases": [
+      "Angelica",
+      "Juliet's nurse"
+     ],
+     "nickname": "奶妈",
+     "description": "朱丽叶的奶妈，从小抚养她"
+    },
+    {
+     "name": "House of Capulet",
+     "type": "Organization",
+     "aliases": [
+      "Capulet"
+     ],
+     "nickname": "凯普莱特家族",
+     "description": "与蒙太古家族有世仇的家族"
+    },
+    {
+     "name": "House of Montague",
+     "type": "Organization",
+     "aliases": [
+      "Montague"
+     ],
+     "nickname": "蒙太古家族",
+     "description": "与凯普莱特家族有世仇的家族"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Capulet",
+     "predicate": "KIN",
+     "object": "Juliet",
+     "evidence": "And you be mine, I’ll give you to my friend; And you be not, hang, beg, starve, die in the streets, For by my soul, I’ll ne’er acknowledge thee",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "KIN",
+     "object": "Juliet",
+     "evidence": "O sweet my mother, cast me not away",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "LADY CAPULET. You are too hot. CAPULET. God’s bread, it makes me mad!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "KIN",
+     "object": "Lady Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Juliet",
+     "predicate": "SPOUSE",
+     "object": "Romeo Montague",
+     "evidence": "My husband is on earth, my faith in heaven.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Paris",
+     "predicate": "PROPOSED_TO",
+     "object": "Juliet",
+     "evidence": "A gentleman of noble parentage, Of fair demesnes, youthful, and nobly allied, Stuff’d, as they say, with honourable parts, Proportion’d as one’s thought would wish a man, And then to have a wretched puling fool, A whining mammet, in her fortune’s tender, To answer, ‘I’ll not wed, I cannot love, I am",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "SERVANT_OF",
+     "object": "Juliet",
+     "evidence": "O Nurse, how shall this be prevented?",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Nurse",
+     "predicate": "GUARDIAN_OF",
+     "object": "Juliet",
+     "evidence": "O Nurse, how shall this be prevented?",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Juliet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Having displeas’d my father, to Lawrence’ cell",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "CAPULET. Peace, you mumbling fool!",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Lady Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "LADY CAPULET. You are too hot.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Tybalt Capulet",
+     "predicate": "MEMBER_OF",
+     "object": "House of Capulet",
+     "evidence": "Lady Capulet's nephew",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Romeo Montague",
+     "predicate": "MEMBER_OF",
+     "object": "House of Montague",
+     "evidence": "Montague's son",
+     "confidence": 0.9
+    },
+    {
+     "subject": "House of Capulet",
+     "predicate": "FEUDS_WITH",
+     "object": "House of Montague",
+     "evidence": "Romeo is banished; and all the world to nothing That he dares ne’er come back to challenge you.",
+     "confidence": 0.8
+    },
+    {
+     "subject": "Juliet",
+     "predicate": "VISITED",
+     "object": "Friar Laurence",
+     "evidence": "I’ll to the Friar to know his remedy.",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:08.075Z"
+}

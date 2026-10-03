@@ -1,0 +1,698 @@
+{
+ "no": 29,
+ "title": "The recollection of about three days and nights succeeding…",
+ "windows": [
+  {
+   "idx": 0,
+   "chars": 7994,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "简·爱",
+     "description": "叙述者，被里弗斯家收留的落难女子"
+    },
+    {
+     "name": "Hannah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "汉娜",
+     "description": "沼泽居的仆人，曾对简·爱有偏见"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的妹妹，善良收留简·爱"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰的妹妹，与戴安娜一同照顾简·爱"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "莫顿的牧师，里弗斯家之子"
+    },
+    {
+     "name": "Mr. Rivers",
+     "type": "Person",
+     "aliases": [
+      "old Mr. Rivers"
+     ],
+     "nickname": "老里弗斯先生",
+     "description": "圣约翰、戴安娜、玛丽的父亲，三周前去世"
+    },
+    {
+     "name": "Marsh End",
+     "type": "Place",
+     "aliases": [
+      "Moor House"
+     ],
+     "nickname": "沼泽居",
+     "description": "里弗斯家的宅邸，又称摩尔屋"
+    },
+    {
+     "name": "Morton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莫顿",
+     "description": "圣约翰担任牧师的教区村庄"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "St. John Rivers",
+     "evidence": "I’ve lived here thirty year. I nursed them all three.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "Diana Rivers",
+     "evidence": "I’ve lived here thirty year. I nursed them all three.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "Mary Rivers",
+     "evidence": "I’ve lived here thirty year. I nursed them all three.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "And his sisters are called Diana and Mary Rivers?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "And his sisters are called Diana and Mary Rivers?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "And his sisters are called Diana and Mary Rivers?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "This, then, was his father’s residence?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "This, then, was his father’s residence?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "This, then, was his father’s residence?",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "It is very well we took her in.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "It is very well we took her in.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "He pronounced it needless to send for a doctor: nature, he was sure, would manage best, left to herself.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "Hannah had brought me some gruel and dry toast",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "Some calls it Marsh End, and some calls it Moor House.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "Some calls it Marsh End, and some calls it Moor House.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "Some calls it Marsh End, and some calls it Moor House.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Morton",
+     "evidence": "When he is at home, he is in his own parish at Morton.",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "chars": 8027,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "本片段叙述者，被里弗斯家收留的年轻女子"
+    },
+    {
+     "name": "Hannah",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "汉娜",
+     "description": "沼泽居的老仆人，起初怀疑简·爱，后与她和好"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mr. St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "里弗斯家儿子，年轻牧师，打算去大学并成为牧师"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "里弗斯家女儿，有主见，对简·爱友善"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "里弗斯家女儿，举止温柔但较疏远"
+    },
+    {
+     "name": "Old Mr. Rivers",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "老里弗斯先生",
+     "description": "已故的里弗斯家男主人，出身古老家族，喜好打猎和农事"
+    },
+    {
+     "name": "Mrs. Rivers",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "里弗斯太太",
+     "description": "已故的里弗斯家女主人，热爱读书，孩子们随她"
+    },
+    {
+     "name": "Bill Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "比尔·奥利弗",
+     "description": "汉娜提到的制针工人，其父曾是旅行制针匠"
+    },
+    {
+     "name": "Mr. Oliver",
+     "type": "Person",
+     "aliases": [],
+     "nickname": "奥利弗先生",
+     "description": "拥有莫顿谷豪华大厅的绅士"
+    },
+    {
+     "name": "Marsh End",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "沼泽居",
+     "description": "里弗斯家的古老宅邸，位于莫顿附近"
+    },
+    {
+     "name": "Morton",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莫顿",
+     "description": "附近的村庄，有教堂和山谷"
+    },
+    {
+     "name": "Morton Church",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "莫顿教堂",
+     "description": "莫顿的教堂，有登记簿可查里弗斯家族历史"
+    },
+    {
+     "name": "London",
+     "type": "Place",
+     "aliases": [],
+     "nickname": "伦敦",
+     "description": "里弗斯家姐妹曾去过的城市"
+    },
+    {
+     "name": "Rivers",
+     "type": "Organization",
+     "aliases": [],
+     "nickname": "里弗斯家族",
+     "description": "古老家族，拥有沼泽居"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "FRIEND",
+     "object": "Hannah",
+     "evidence": "from that moment we were friends.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Hannah",
+     "predicate": "SERVANT_OF",
+     "object": "Rivers",
+     "evidence": "she proceeded to give me sundry details about her deceased master and mistress",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Old Mr. Rivers",
+     "predicate": "MEMBER_OF",
+     "object": "Rivers",
+     "evidence": "Old Mr. Rivers, she said, was a plain man enough, but a gentleman, and of as ancient a family as could be found.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mrs. Rivers",
+     "predicate": "MEMBER_OF",
+     "object": "Rivers",
+     "evidence": "The mistress was different. She was a great reader, and studied a deal; and the “bairns” had taken after her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "MEMBER_OF",
+     "object": "Rivers",
+     "evidence": "Mr. St. John, when he grew up, would go to college and be a parson; and the girls, as soon as they left school, would seek places as governesses",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "MEMBER_OF",
+     "object": "Rivers",
+     "evidence": "Mr. St. John, when he grew up, would go to college and be a parson; and the girls, as soon as they left school, would seek places as governesses",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "MEMBER_OF",
+     "object": "Rivers",
+     "evidence": "Mr. St. John, when he grew up, would go to college and be a parson; and the girls, as soon as they left school, would seek places as governesses",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "the two ladies and their brother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "the two ladies and their brother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "the two ladies and their brother",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Old Mr. Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "their father had some years ago lost a great deal of money by a man he had trusted turning bankrupt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Old Mr. Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "their father had some years ago lost a great deal of money by a man he had trusted turning bankrupt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Old Mr. Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "their father had some years ago lost a great deal of money by a man he had trusted turning bankrupt",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "The mistress was different. She was a great reader, and studied a deal; and the “bairns” had taken after her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "The mistress was different. She was a great reader, and studied a deal; and the “bairns” had taken after her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mrs. Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "The mistress was different. She was a great reader, and studied a deal; and the “bairns” had taken after her.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "Marsh End had belonged to the Rivers ever since it was a house",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "they were only come now to stay a few weeks on account of their father’s death; but they did so like Marsh End and Morton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "they were only come now to stay a few weeks on account of their father’s death; but they did so like Marsh End and Morton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "LIVES_AT",
+     "object": "Marsh End",
+     "evidence": "they were only come now to stay a few weeks on account of their father’s death; but they did so like Marsh End and Morton",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "They had been in London, and many other grand towns",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "They had been in London, and many other grand towns",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "London",
+     "evidence": "They had been in London, and many other grand towns",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "VISITED",
+     "object": "Morton",
+     "evidence": "Gone over to Morton for a walk",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "VISITED",
+     "object": "Morton",
+     "evidence": "Gone over to Morton for a walk",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "VISITED",
+     "object": "Morton",
+     "evidence": "Gone over to Morton for a walk",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Bill Oliver",
+     "predicate": "KIN",
+     "object": "Mr. Oliver",
+     "evidence": "she could remember Bill Oliver’s father a journeyman needlemaker",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "chars": 7844,
+   "entities": [
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "Janet",
+      "Miss Eyre",
+      "Jane",
+      "little Jane",
+      "Jane Elliott",
+      "Miss Elliott"
+     ],
+     "nickname": "简·爱",
+     "description": "孤儿，曾任家庭教师，现化名简·艾略特"
+    },
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "乡村牧师，收留简·爱并愿帮助她"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的妹妹，善良热情"
+    },
+    {
+     "name": "Mary Rivers",
+     "type": "Person",
+     "aliases": [
+      "Mary",
+      "Miss Rivers"
+     ],
+     "nickname": "玛丽·里弗斯",
+     "description": "圣约翰的妹妹，真诚温和"
+    },
+    {
+     "name": "Mr. Brocklehurst",
+     "type": "Person",
+     "aliases": [
+      "Brocklehurst"
+     ],
+     "nickname": "布洛克赫斯特",
+     "description": "劳渥德孤儿院司库"
+    },
+    {
+     "name": "Lowood Orphan Asylum",
+     "type": "Organization",
+     "aliases": [
+      "Lowood"
+     ],
+     "nickname": "劳渥德孤儿院",
+     "description": "简·爱曾就读并任教的慈善机构"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "Jane Eyre",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood Orphan Asylum",
+     "evidence": "I passed six years as a pupil, and two as a teacher—Lowood Orphan Asylum",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Mr. Brocklehurst",
+     "predicate": "SERVANT_OF",
+     "object": "Lowood Orphan Asylum",
+     "evidence": "the Rev. Robert Brocklehurst is the treasurer",
+     "confidence": 0.95
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "you, Mr. Rivers, forbade me to perish of want at your door, and took me under the shelter of your roof",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I know all your sisters have done for me since",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I know all your sisters have done for me since",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "Diana laughed. “Why, she can’t be above seventeen or eighteen years old, St. John,” said she.",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Mary Rivers",
+     "predicate": "KIN",
+     "object": "St. John Rivers",
+     "evidence": "“You are too inquisitive, St. John,” murmured Mary in a low voice",
+     "confidence": 0.9
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "KIN",
+     "object": "Mary Rivers",
+     "evidence": "Diana and Mary relieved me by turning their eyes elsewhere",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "chars": 618,
+   "entities": [
+    {
+     "name": "St. John Rivers",
+     "type": "Person",
+     "aliases": [
+      "St. John",
+      "Mr. St. John",
+      "Mr. Rivers",
+      "Rivers"
+     ],
+     "nickname": "圣约翰·里弗斯",
+     "description": "戴安娜的兄弟，冷静的牧师，承诺帮助简·爱"
+    },
+    {
+     "name": "Diana Rivers",
+     "type": "Person",
+     "aliases": [
+      "Diana",
+      "Miss Rivers"
+     ],
+     "nickname": "戴安娜·里弗斯",
+     "description": "圣约翰的姐妹，替简·爱回答，性格直率"
+    },
+    {
+     "name": "Jane Eyre",
+     "type": "Person",
+     "aliases": [
+      "I"
+     ],
+     "nickname": "简·爱",
+     "description": "叙述者，表示愿意做裁缝、护士等任何诚实工作"
+    }
+   ],
+   "relations": [
+    {
+     "subject": "St. John Rivers",
+     "predicate": "HELPED",
+     "object": "Jane Eyre",
+     "evidence": "I promise to aid you, in my own time and way.",
+     "confidence": 0.95
+    },
+    {
+     "subject": "Diana Rivers",
+     "predicate": "FRIEND",
+     "object": "Jane Eyre",
+     "evidence": "answered Diana for me",
+     "confidence": 0.9
+    },
+    {
+     "subject": "St. John Rivers",
+     "predicate": "KIN",
+     "object": "Diana Rivers",
+     "evidence": "you know, St. John, she has no choice of helpers",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ],
+ "extracted_at": "2026-10-03T02:22:34.247Z"
+}
